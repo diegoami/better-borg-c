@@ -76,7 +76,7 @@
     "issue": "https://github.com/diegoami/better-borg-c/issues/48",
     "branch": "task/carry-glyph-tracker",
     "worktree": ".worktrees/glyph-tracker",
-    "state": "unfinished-product-verification",
+    "state": "merged-b72ad8eae-carried-open-patch-active",
     "instructions": "docs/measurement/GLYPH-TRACKER.md"
   }
 }
