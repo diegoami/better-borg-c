@@ -73,10 +73,10 @@
   "impact_milestone_v2": "https://github.com/diegoami/better-borg-c/milestone/2",
   "external_review_package_v2": "https://github.com/diegoami/better-borg-c/issues/38",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/57",
-    "branch": "task/carry-dispel-filter",
-    "worktree": ".worktrees/dispel-filter",
-    "state": "merged-c0174d583-carried-open-patch-active",
-    "instructions": "docs/measurement/DISPEL-FILTER.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/60",
+    "branch": "task/carry-arc-angle",
+    "worktree": ".worktrees/arc-angle",
+    "state": "merged-a89e96a15-carried-open-patch-active",
+    "instructions": "docs/measurement/ARC-ANGLE.md"
   }
 }
