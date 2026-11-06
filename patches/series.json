@@ -22,6 +22,25 @@
       "evidence_ref": "1b67370d0dc56d9b7ef34e5356e63d21a7095545",
       "verification": "docs/measurement/SAFER-SWAP.md",
       "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+    },
+    {
+      "id": "CBUG-0002",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/7",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/14",
+      "source_head": "6f463d01d753089ab695537495ab27f3bc928dfa",
+      "source_commits": [
+        "32ab6823c6a993d94ce382b72f8a855a20f7911c",
+        "6f463d01d753089ab695537495ab27f3bc928dfa"
+      ],
+      "applied_commits": [
+        "8f320210924ffae36a4b592a988982fa7947ad79",
+        "0009ecddcd02b95ac02d63ff43c4c4f95db67b87"
+      ],
+      "patch": "patches/0002-knockout-reaction-reset.patch",
+      "patch_active": true,
+      "evidence_ref": "3de1e3123915587483395dd40c4d2e75704e65f4",
+      "verification": "docs/measurement/KNOCKOUT.md",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
     }
   ]
 }
