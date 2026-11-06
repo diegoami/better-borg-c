@@ -1,0 +1,33 @@
+From 1ab30ef0bc9a12caa5b1cf48e60c204ef564e9de Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 23:44:36 +0100
+Subject: [PATCH] Borg: melee targets must be adjacent, not on the player's
+ grid
+
+borg_attack_aux_thrust() accepted candidate monsters at distance zero.
+No real monster can share the player's grid, so such an entry is stale
+tracking - observed after a teleport plus blindness transition - and
+selecting it queues the center-square key '5' for the attack
+direction, which is not a direction and trips the
+unexpected-direction abort, stopping the Borg.  Require distance
+exactly one.
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 45c5d140a..0684b8d5d 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -286,8 +286,12 @@ static int borg_attack_aux_thrust(void)
+         int x = borg_temp_x[i];
+         int y = borg_temp_y[i];
+ 
+-        /* Require "adjacent" */
+-        if (borg_distance(borg.c.y, borg.c.x, y, x) > 1)
++        /* Require "adjacent": distance exactly one.  Distance zero means
++         * the tracked monster is on the player's own grid - a stale
++         * entry, since no monster can share it; attacking it queues the
++         * center-square key, which is not a direction and trips the
++         * unexpected-direction abort. */
++        if (borg_distance(borg.c.y, borg.c.x, y, x) != 1)
+             continue;
+ 
+         /* Acquire grid */

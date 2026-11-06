@@ -129,3 +129,7 @@ terminated; the 80-byte ASCII control stays unchanged.
 The twenty-sixth carry releases the calculation pointer array on free so
 reload cannot overwrite and leak it (consumer #96/source #325). Reload
 still evaluates to 7; the single-parse control stays unchanged.
+
+The twenty-seventh carry rejects stale melee targets on the player's own
+grid (consumer #99/source #322). Nothing is queued for that stale target;
+the genuinely adjacent-target control stays unchanged.
