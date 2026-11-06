@@ -23,7 +23,10 @@ reseed), count calls to actual `borg_think`, observe command boundaries and worl
 turn increments, log existing Borg notes and stop at the cap or termination.
 No extra random draws, substituted decisions or changed game rules. Borg seeds
 its own RNG through its existing initialisation draw. Both RNG states are logged.
-Snapshot saves and logging are evidence operations; paired `--no-saves` runs
+Snapshot saves run in a POSIX fork child: native saving compacts the monster
+list, so it must never execute in the live measurement process. The child writes
+evidence then exits; parent memory, RNG state and monster order are unchanged.
+Snapshots and logging are evidence operations; paired `--no-saves` runs
 check for save interference. Generated snapshot build IDs explicitly name the
 source pin and observer. A run records build/source/tool/data/binary hashes,
 options, configuration, seed, command/environment, limits and wall time.

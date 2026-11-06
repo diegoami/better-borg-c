@@ -11,6 +11,9 @@
 #include "borg/borg-init.h"
 #include "borg/borg-log.h"
 #include "native-observer.h"
+#include <errno.h>
+#include <sys/wait.h>
+#include <unistd.h>
 
 static FILE *trace;
 static long decisions;
@@ -66,6 +69,22 @@ void measure_tick(void)
     if (started && turn >= cap) finish("turn_cap");
 }
 
+/* Native saving compacts the monster list. Save in a copy-on-write child so
+ * neither that mutation nor any future saver side effect reaches live play. */
+static bool snapshot(const char *path)
+{
+    pid_t child;
+    int status;
+    fflush(trace);
+    child = fork();
+    if (child < 0) return false;
+    if (!child) _exit(savefile_save(path) ? 0 : 1);
+    while (waitpid(child, &status, 0) < 0) {
+        if (errno != EINTR) return false;
+    }
+    return WIFEXITED(status) && WEXITSTATUS(status) == 0;
+}
+
 void measure_boundary(void)
 {
     int i;
@@ -74,7 +93,7 @@ void measure_boundary(void)
         started = true;
         /* Preserve the native birth save, without activating Borg first. */
         strnfmt(path, sizeof(path), "%s/start.save", directory);
-        if (checkpoints && !savefile_save(path))
+        if (checkpoints && !snapshot(path))
             quit("starting save failed");
         fprintf(trace, "CHARACTER %s %s %s\n", player->full_name,
             player->race->name, player->class->name);
@@ -86,7 +105,7 @@ void measure_boundary(void)
     }
     if (checkpoints && turn - last_save >= 1000) {
         strnfmt(path, sizeof(path), "%s/recent.save", directory);
-        if (!savefile_save(path))
+        if (!snapshot(path))
             quit("checkpoint save failed");
         last_save = turn;
         state("checkpoint");

@@ -93,6 +93,33 @@ def prepare(args):
     write(out / 'build.json', manifest)
 
 
+def refresh_observer(args):
+    out = args.output.resolve()
+    manifest = json.loads((out / 'build.json').read_text())
+    binary = out / 'build/game/angband'
+    if not manifest['complete'] or not manifest['instrumented'] or sha(binary) != manifest['binary_sha256']:
+        raise ValueError('Require unchanged complete observer build')
+    previous = out / ('attempt-' + str(time.time_ns()))
+    previous.mkdir()
+    (previous / 'build.json').write_bytes((out / 'build.json').read_bytes())
+    (previous / 'angband').write_bytes(binary.read_bytes())
+    for name in ('native-observer.c', 'native-observer.h'):
+        source = out / 'source/src' / name
+        data = (ROOT / 'tools' / name).read_bytes()
+        if source.read_bytes() != data:
+            source.write_bytes(data)
+    manifest.update(complete=False, harness_commit=git('rev-parse', 'HEAD'),
+                    tools_sha256={p.name: sha(p) for p in (ROOT / 'tools').glob('*') if p.is_file()})
+    command = ['cmake', '--build', str(out / 'build'), '--target', 'OurExecutable', '--parallel', '2']
+    manifest['commands'].append(command)
+    write(out / 'build.json', manifest)
+    with (previous / 'refresh.log').open('w') as log:
+        subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, check=True)
+    manifest.update(complete=True, binary_sha256=sha(binary),
+                    previous_binary_sha256=sha(previous / 'angband'))
+    write(out / 'build.json', manifest)
+
+
 INPUT = '''key space
 key a
 key a
@@ -224,6 +251,8 @@ def main():
     prep.add_argument('--output', type=Path, required=True)
     prep.add_argument('--observe', action='store_true')
     prep.add_argument('--retry', action='store_true', help='retain failed attempt receipts and rebuild same output')
+    refresh = sub.add_parser('refresh-observer', help='preserve old binary/manifest, rebuild only observer')
+    refresh.add_argument('--output', type=Path, required=True)
     r = sub.add_parser('run')
     r.add_argument('--build', type=Path, required=True)
     r.add_argument('--output', type=Path, required=True)
@@ -236,6 +265,8 @@ def main():
     args = p.parse_args()
     if args.action == 'run' and (not 0 <= args.seed <= 0xffffffff or args.cap < 2 or args.timeout < 1):
         p.error('seed must be uint32, cap >=2 and timeout positive')
+    if args.action == 'refresh-observer':
+        return refresh_observer(args)
     if args.action == 'prepare':
         return prepare(args)
     existed = args.output.exists()
