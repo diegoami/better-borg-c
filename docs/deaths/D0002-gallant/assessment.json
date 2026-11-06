@@ -1,0 +1,43 @@
+{
+  "classification": "original C behavior; final healing ineligible under recorded danger, defect not established",
+  "confidence": "death/repeat/windows verified; causal stock/escape diagnosis provisional",
+  "cause_category": "monster melee",
+  "findings": [
+    {
+      "status": "observed",
+      "summary": "Level3 Warrior died to a gallant at20445/depth2/HP-3 after exhausting Phase Door and attacking scouts/gallant while fleeing. Twelve known Cure Light Wounds remained; no CCW."
+    },
+    {
+      "status": "verified",
+      "summary": "Unchanged six-carry repeat matches entire trace/start save/final game+Borg RNG. Five-carry and pristine reference traces are byte-identical to each other; six-carry has different internal RNG/observations but same cause/death turn/final gameplay state."
+    },
+    {
+      "status": "source guard evaluated against recorded inputs",
+      "summary": "At HP3/danger507, estimated CLW heal15 fails danger<hp+heal and heal>danger/3. Outer fleeing guard may skip the function earlier; no actual runtime branch proof or rescue claim."
+    },
+    {
+      "status": "unproved",
+      "summary": "Whether earlier escape/resource decisions reveal an implementation defect or intended rules remains unproved."
+    }
+  ],
+  "actions": [
+    {
+      "key": "heal-eligibility",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "summary": "Observe existing heal eligibility/call order and fleeing flag before the fatal melee",
+      "status": "investigate before changing policy"
+    },
+    {
+      "key": "escape-stock-trajectory",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "summary": "Trace why Phase Door was exhausted and whether earlier escape was legally available",
+      "status": "investigate before changing policy"
+    },
+    {
+      "key": "pristine-attribution",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "summary": "Compare pristine upstream versus carried build",
+      "status": "completed: pristine/five-carry identical trace; same death on six-carry; no defect established"
+    }
+  ]
+}

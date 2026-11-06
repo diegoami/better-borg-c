@@ -26,18 +26,48 @@
       "key": "pristine-attribution",
       "status": "completed: identical death/trace; does not establish a defect",
       "summary": "Compare pristine upstream versus carried build"
+    },
+    {
+      "cases": [
+        "D0002"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "key": "heal-eligibility",
+      "status": "investigate before changing policy",
+      "summary": "Observe existing heal eligibility/call order and fleeing flag before the fatal melee"
+    },
+    {
+      "cases": [
+        "D0002"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "key": "escape-stock-trajectory",
+      "status": "investigate before changing policy",
+      "summary": "Trace why Phase Door was exhausted and whether earlier escape was legally available"
+    },
+    {
+      "cases": [
+        "D0002"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "key": "pristine-attribution",
+      "status": "completed: pristine/five-carry identical trace; same death on six-carry; no defect established",
+      "summary": "Compare pristine upstream versus carried build"
     }
   ],
-  "cases": 1,
+  "cases": 2,
   "causes_by_distinct_start": {
+    "a gallant": 1,
     "a stegocentipede": 1
   },
-  "death_process_attempts": 3,
-  "distinct_starting_conditions": 1,
+  "death_process_attempts": 8,
+  "distinct_starting_conditions": 2,
   "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
   "schema": "better-borg-c/death-index@1",
   "versions": {
     "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3": 2,
-    "e473720ed88a0f0c7ca66815cef3000eb4a38bc3": 1
+    "3638b690525cd8a381cb106b4c5ee40652babde2": 2,
+    "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc": 2,
+    "e473720ed88a0f0c7ca66815cef3000eb4a38bc3": 2
   }
 }

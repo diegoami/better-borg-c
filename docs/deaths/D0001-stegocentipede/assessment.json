@@ -18,6 +18,10 @@
     {
       "status": "unproved",
       "summary": "Why speed and stock policy behaved this way, whether any alternative would safely avert death, and whether this is a code defect remain unproved."
+    },
+    {
+      "status": "verified",
+      "summary": "Additional five-carry3638b690 reference from batch33 matches complete original trace/start save/death and RNG. Six-carry45eac63bd has a different trajectory and survives cap400000; not causal rescue proof."
     }
   ],
   "actions": [

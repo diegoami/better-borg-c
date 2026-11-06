@@ -1,0 +1,20 @@
+{
+  "schema": "better-borg-c/deep-cohort@1",
+  "issue": 33,
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "character": "Human Warrior; default point buy; unchanged ordinary native birth",
+  "cap": 400000,
+  "wall": 180,
+  "stall": 30,
+  "variants": {
+    "five-carry": "3638b690525cd8a381cb106b4c5ee40652babde2",
+    "six-carry": "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc"
+  },
+  "independent_starting_conditions": 3,
+  "no_adaptive_selection": true,
+  "frozen_v1_unchanged": true
+}
