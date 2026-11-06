@@ -44,3 +44,8 @@ Every natural death must be recorded under docs/deaths with its actual version/
 build, curated native logs/snapshots, evaluation/diagnosis/actions and index.
 Use tools/record-death.py and tools/aggregate-deaths.py; repeated replays are not
 new independent deaths. Full raw runs/saves/builds remain outside Git. Bugs first.
+
+Weekly donor inventory is explicitly scheduled by the owner: fork-review.yml,
+Mondays09:15 Europe/Berlin, ongoing issue24. Consult its latest pinned leads
+before discretionary redesign; semantic review and verified bug carries remain
+agent work. Metadata is not a performance claim; no automatic imports.

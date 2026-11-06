@@ -1,0 +1,33 @@
+name: weekly C Borg fork review
+on:
+  schedule:
+    - cron: '15 9 * * 1'
+      timezone: Europe/Berlin
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: weekly-borg-fork-review
+  cancel-in-progress: false
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Collect public source leads and report to ongoing issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/fork-review.py --output artifacts/fork-review --post-issue 24
+      - uses: actions/upload-artifact@v6
+        if: always()
+        with:
+          name: weekly-borg-fork-review
+          path: artifacts/fork-review/
+          retention-days: 90

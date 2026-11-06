@@ -5,7 +5,8 @@
    Link both ways, retain source credit/CBUG IDs and exact immutable commits.
 2. Current issue status/active blockers and triage precede fixes. Track the official
    master head at each active integration cycle and before importing/delivering
-   game changes. Broad upstream review is deliberate/weekly, not a daemon;
+   game changes. The owner-authorised weekly donor inventory reports to issue24;
+   semantic review is deliberate and does not claim performance from metadata;
    source imports remain normal verified PRs, never automatic version chasing. Targeted checks
    for active adoption, duplicate avoidance and closure are appropriate.
 3. Preserve one writer per task. Check source checkpoint207 and open PRs before
@@ -71,3 +72,10 @@
     and causes; full runs/saves/build outputs stay ignored outside Git. Selected
     dossier logs/snapshots are owner-requested curated evidence. Reusable
     original-C defects still go to the source tracker before fix/carry.
+
+16. Owner-authorised ongoing donor review: fork-review.yml runs Mondays09:15
+    Europe/Berlin and reports bounded public C source metadata to issue24. This
+    schedules evidence collection and the standing semantic-review task; it does
+    not automatically prove a fork better, execute/import fork code, poll Rust,
+    post to official Angband, change strategy or start heavy native jobs. Review
+    actual candidate diffs before reinventing work; bugs still take priority.

@@ -98,3 +98,15 @@ Delivery is our Angband build tracking official master through deliberate
 verified imports/patch retirement. UPSTREAM.md records the owner's later-stage
 tracker -> C consumer -> borg-rs adoption path. It does not change the current
 C-only work scope or the bugs-first priority.
+
+## Ongoing donor review (owner-requested2026-11-06)
+
+Weekly public C Angband/Borg inventory runs Mondays09:15 Europe/Berlin through
+.github/workflows/fork-review.yml and appends to issue24. It pins official/fork
+heads, last Borg activity, file differences and open official Borg PR leads;
+known development branches plus bounded discovery are included. The job does
+not complete semantic review: the standing task inspects real diffs and source
+tracker ownership, turns useful candidates into issues/tests/carries and avoids
+reinventing existing solutions. Do not call an active/different fork better
+without same-game/cohort evidence. No auto-imports, tactics, heavy benchmarks,
+Rust polling or official posting. Bugs always first.

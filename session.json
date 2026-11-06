@@ -45,5 +45,12 @@
     "export_tool": "tools/record-death.py",
     "aggregate_tool": "tools/aggregate-deaths.py",
     "required": "Actual version/build and native evidence, assessment/diagnosis/actions; no repeat inflation"
+  },
+  "donor_review": {
+    "issue": "https://github.com/diegoami/better-borg-c/issues/24",
+    "workflow": ".github/workflows/fork-review.yml",
+    "schedule": "15 9 * * 1",
+    "timezone": "Europe/Berlin",
+    "scope": "Bounded public C source inventory plus standing semantic review; bugs first; no automatic imports or Rust polling"
   }
 }
