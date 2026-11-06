@@ -73,10 +73,10 @@
   "impact_milestone_v2": "https://github.com/diegoami/better-borg-c/milestone/2",
   "external_review_package_v2": "https://github.com/diegoami/better-borg-c/issues/38",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/69",
-    "branch": "task/carry-slay-traits",
-    "worktree": ".worktrees/slay-traits",
-    "state": "merged-a88da7a06-carried-open-patch-active",
-    "instructions": "docs/measurement/SLAY-TRAITS.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/72",
+    "branch": "task/carry-detect-panel",
+    "worktree": ".worktrees/detect-panel",
+    "state": "merged-3cd2c3237-carried-open-patch-active",
+    "instructions": "docs/measurement/DETECT-PANEL.md"
   }
 }
