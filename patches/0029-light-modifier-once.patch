@@ -1,0 +1,24 @@
+From 66b183340a567811051a5745c8d3a53792963860 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 00:15:56 +0100
+Subject: [PATCH] Borg: count an item's light modifier once
+
+borg_notice_equipment() added an item's light modifier to BI_LIGHT
+twice - once before the LIGHT_2/LIGHT_3 and Necromancer unlight
+adjustments and once after - so a light source's radius was counted
+double (a lantern's +2 became +4), inflating every darkness and
+out-of-light decision.  Drop the stray second add.
+
+diff --git a/src/borg/borg-trait.c b/src/borg/borg-trait.c
+index 154eb3849..9f53feaef 100644
+--- a/src/borg/borg-trait.c
++++ b/src/borg/borg-trait.c
+@@ -1524,8 +1524,6 @@ static void borg_notice_equipment(void)
+             if ((item->modifiers[OBJ_MOD_LIGHT] > 0)
+                 && (borg.trait[BI_CLASS] == CLASS_NECROMANCER))
+                 borg.trait[BI_LIGHT]--;
+-
+-            borg.trait[BI_LIGHT] += item->modifiers[OBJ_MOD_LIGHT];
+         }
+ 
+         /* Boost mod moves */

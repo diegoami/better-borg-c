@@ -502,6 +502,24 @@
    "verification": "docs/measurement/GLOW-OVERFLOW.md",
    "credit": "Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-glow-overflow; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0238",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/105",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/238",
+   "source_head": "66b183340a567811051a5745c8d3a53792963860",
+   "source_commits": [
+    "66b183340a567811051a5745c8d3a53792963860"
+   ],
+   "applied_commits": [
+    "497d92665d6d688c89faf1b58b0103442d651fb9"
+   ],
+   "patch": "patches/0029-light-modifier-once.patch",
+   "patch_active": true,
+   "evidence_ref": "f1e899b6",
+   "verification": "docs/measurement/LIGHT-MODIFIER.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-light-modifier; awaiting normal PR merge"
   }
  ]
 }
