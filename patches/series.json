@@ -92,6 +92,23 @@
       "evidence_ref": "bfe3fc402e8ae6cdec74d8b35fa8f50e612f2a8e",
       "verification": "docs/measurement/BOTH-RINGS.md",
       "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+    },
+    {
+      "id": "CBUG-0061",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/31",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/77",
+      "source_head": "cedf25eb790f2ff7c7c161cd1612b18ed99fb35e",
+      "source_commits": [
+        "cedf25eb790f2ff7c7c161cd1612b18ed99fb35e"
+      ],
+      "applied_commits": [
+        "5e9417be42cb1401708a7a37ec1b13641bc04b83"
+      ],
+      "patch": "patches/0006-healing-potion-timing.patch",
+      "patch_active": true,
+      "evidence_ref": "cce1d5d92079e78e939126d3cf35e24121442734",
+      "verification": "docs/measurement/POTION-TIMING.md",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
     }
   ]
 }

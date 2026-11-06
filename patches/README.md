@@ -28,3 +28,7 @@ of carried/fixed status. No hand-maintained live-state overview table is used.
 The fifth carry includes the left ring in both lookup/activation loops
 (consumer #20/source #78). Both one-loop alternatives are retained as negative
 controls; ring readiness and right-hand preference stay unchanged.
+
+The sixth carry corrects the elapsed-time and first-use conditions for CCW
+hesitation (consumer #31/source #77). Recent-drink conservation can leave an
+injury untreated on that call; preserve that counterexample and emergency bypass.
