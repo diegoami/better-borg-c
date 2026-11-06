@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through nineteenth carries merged (2026-11-06)
+## Tenth through twentieth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -204,9 +204,19 @@ fixture cases whole-log identical, merged v1 seeds unchanged.
 
 All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
-issues' verification comments. Queue: reserve-258 (PR318/319) remains demonstrated, then recheck
-source207 for newer demonstrations (source-ranked: 259/262/261) before
-low-priority 81 or discretionary death work.
+issues' verification comments. Queue: recheck source207 for newer demonstrations (source-ranked:
+259/262/261) before low-priority 81 or discretionary death work.
+Consumer78/source258 (reserve-258) merged as c7f5b5758 (PR79, import
+21c672a8, patch 0020): the reserve-bolt monster loop broke at the first
+live monster, so the hit-points veto applied to a distant tough monster
+instead of the near ones it describes; the loop correction layers onto
+borg-fight-attack.c and verifies on the unchanged fixture (veto 0->40
+fail-before/pass-after, kobold-only control byte-identical), 85 prior
+cases whole-log identical, merged v1 seeds unchanged. All eleven issues
+are carried/open+patch-active; every pair the source lane demonstrated is
+again carried. Queue: recheck source207 for newer demonstrations
+(source-ranked 259/262/261) — with none ready, the documented order
+resumes (low-priority 81 / discretionary death work).
 Consumer75/source260 (activ-260) merged as 5ea7baed6 (PR76, import
 7323c8df, patch 0019): the ACID_BOLT3 and DISP_ALL maneuvers looked up the
 lesser bolt's and dispel-undead's ids, so the greater-bolt and
