@@ -75,6 +75,26 @@ class Records(unittest.TestCase):
             with self.assertRaises(ValueError):
                 record.capture(self.args(original, root / 'other', repeat=[repeat]))
 
+    def test_changed_input_is_rejected_before_creating_dossier(self):
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(record, 'source_ledger', side_effect=self.ledger):
+            root = Path(tmp)
+            run = self.fixture(root, 'run')
+            (run / 'input.txt').write_text('unrecorded input')
+            out = root / 'dossier'
+            with self.assertRaises(ValueError):
+                record.capture(self.args(run, out))
+            self.assertFalse(out.exists())
+
+    def test_window_from_another_build_is_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(record, 'source_ledger', side_effect=self.ledger):
+            root = Path(tmp)
+            run = self.fixture(root, 'run')
+            window = self.fixture(root, 'window', source='different', outcome='turn_cap')
+            options = self.args(run, root / 'dossier')
+            options.window = [window]
+            with self.assertRaises(ValueError):
+                record.capture(options)
+
     def test_references_repeats_and_duplicate_dossiers_do_not_inflate_starts(self):
         with tempfile.TemporaryDirectory() as tmp, mock.patch.object(record, 'source_ledger', side_effect=self.ledger):
             root = Path(tmp)

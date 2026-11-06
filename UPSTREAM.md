@@ -59,3 +59,19 @@ Interface references inspected only at the owner's request:
 - https://github.com/diegoami/borg-rs/blob/main/borg-rs/Cargo.toml
 - https://github.com/diegoami/borg-rs/blob/main/angband/CMakeLists.txt
 - https://github.com/diegoami/borg-rs/blob/main/docs/REVIEW.md
+
+### Targeted Borg-fork survey at the owner's request
+
+On2026-11-06, agoodman00/angband is the maintained Borg-focused development
+fork found in the targeted C survey. Its published borg1 and do_not_use heads
+both equal e473720ed, also official master at the check. It is not currently
+a separate ahead-of-official behavior reference. APW's public VBorg/ZBorg posts
+contain useful historical fixes, but verified updates found were2018–2019 for
+older Angband3.4.1/Zangband2.4.0. AngbandPlus describes a variant archive. These
+are candidate donor histories, not proof of superior performance on current
+Angband. Route a reusable defect/fix through canonical tracker evidence and
+consumer controls; do not merge an old fork wholesale or assume equal rules.
+
+- https://github.com/agoodman00/angband/branches
+- https://www.innovapain.com/borg/
+- https://github.com/NickMcConnell/AngbandPlus/blob/master/README

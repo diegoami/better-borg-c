@@ -112,6 +112,8 @@ def capture(args):
     for name, data in builds.items():
         if (out / name).exists() and read(out / name) != data:
             raise ValueError('An existing build identity cannot be replaced')
+    if (original / 'input.txt').exists() and sha(original / 'input.txt') != run['input_sha256']:
+        raise ValueError('Input file no longer matches the run record')
     # Validate everything before writing; a later build must not replace an old death.
     out.mkdir(parents=True, exist_ok=True)
     (out / 'snapshots').mkdir(exist_ok=True)
@@ -123,8 +125,6 @@ def capture(args):
         (out / w['snapshot']).write_text(native.read_text().split('[Last Messages]')[0])
     shutil.copy2(original / 'archive/Measure.map', out / 'terminal.map.txt')
     if (original / 'input.txt').exists():
-        if sha(original / 'input.txt') != run['input_sha256']:
-            raise ValueError('Input file no longer matches the run record')
         shutil.copy2(original / 'input.txt', out / 'input.txt')
     tail = [s for s in lines if s.startswith('BORG ') and int(s.split()[1]) >= terminal['turn'] - 200]
     tail += ['', '[Terminal native state/cause]'] + [s for s in lines if s.startswith(('STATE death ', 'CAUSE '))]
