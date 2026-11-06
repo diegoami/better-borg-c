@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through sixteenth carries merged (2026-11-06)
+## Tenth through seventeenth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -312,7 +312,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through sixteenth carries merged (2026-11-06)
+## Tenth through seventeenth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -352,7 +352,20 @@ undead/bolt controls byte-identical; 69 prior cases whole-log identical;
 merged v1 seeds unchanged. All four issues are carried/open+patch-active
 until upstream incorporation. Full stories: docs/measurement/GLYPH-TRACKER.md,
 MISSILE-NO-TARGET.md, TP-OTHER-SKIP.md, DISPEL-FILTER.md and the issues'
-verification comments. Next queue: recheck source207 for newer demonstrations before low-priority 81 or discretionary death work.
+verification comments. Next queue: recheck source207; no demonstrated fix remains ready.
+Consumer69/source239 (slay-239, source priority high) merged as a88da7a06
+(PR70, import 6bcdd28a, patch 0017): the equipment notice assigned the
+eight slay traits per slot, so a weaponless light slot erased the wielded
+weapon's slays and the kill traits were never set; the accumulating import
+(borg-trait.c otherwise pristine, module byte-identical to the reviewed
+commit) verifies on the unchanged fixture (animal 17/17/20 fails before,
+20/17/20 passes after; nonanimal control byte-identical), 79 prior cases
+whole-log identical, merged v1 seeds unchanged. All eight issues are
+carried/open+patch-active until upstream incorporation; every pair the
+source lane demonstrated today is carried. Queue: no demonstrated fix
+remains ready (290's source harness segfaults; 260/263/258/259 are
+undemonstrated leads) — next recheck source207 before low-priority 81 or
+discretionary death work.
 Consumer66/source257 (vampire-257) merged as dfddcfff (PR67, import
 81b15066, patch 0016): the Vampire Strike closeness guard tested the last
 distance the scan examined instead of the chosen target's, so a bystander
