@@ -1,0 +1,43 @@
+From 53ef84c743768fdde9abaebc27bd8526b4423de9 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 21:18:35 +0100
+Subject: [PATCH] Borg: reach the dispel blast scan and return zero when
+ nothing survived
+
+For the LOS-dispel convention (rad 10) the beam walk had no arrival
+break, so it ran to the maximum range and exited through the excessive
+distance guard in any open sight line, or returned path-only damage at
+a wall: the blast scan that values the effect over every monster in
+sight was unreachable.  Break at the target like a ball does, and take
+the path damage for bolts and beams only, where it belongs.  Also
+return zero instead of the initial -1 when no candidate survived; the
+missile launcher already had that guard.
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 45c5d140a..25531ddb9 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -1495,12 +1495,12 @@ static int borg_launch_bolt_at_location(
+         }
+ 
+         /* Collect damage (bolts/beams) */
+-        if (rad <= 0 || rad == 10)
++        if (rad <= 0)
+             n += borg_launch_bolt_aux_hack(ag->kill, dam, typ, ammo_location);
+ 
+         /* Check for arrival at "final target" */
+         /* except beams, which keep going. */
+-        if ((rad != -1 && rad != 10) && ((x == x2) && (y == y2)))
++        if (rad != -1 && ((x == x2) && (y == y2)))
+             break;
+ 
+         /* Stop bolts at monsters  */
+@@ -1783,7 +1783,7 @@ int borg_launch_bolt(int rad, int dam, int typ, int max, int ammo_location)
+         }
+     }
+     if (b_i == -1)
+-        return b_n;
++        return 0;
+ 
+     /* Reset Teleport Other variables */
+     borg_tp_other_n = 0;
