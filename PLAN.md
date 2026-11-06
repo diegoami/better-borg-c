@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through fourteenth carries merged (2026-11-06)
+## Tenth through fifteenth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -312,7 +312,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through fourteenth carries merged (2026-11-06)
+## Tenth through fifteenth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -352,7 +352,19 @@ undead/bolt controls byte-identical; 69 prior cases whole-log identical;
 merged v1 seeds unchanged. All four issues are carried/open+patch-active
 until upstream incorporation. Full stories: docs/measurement/GLYPH-TRACKER.md,
 MISSILE-NO-TARGET.md, TP-OTHER-SKIP.md, DISPEL-FILTER.md and the issues'
-verification comments. Next queue: recheck source207 for newly demonstrated fixes (ranked leads: 252 ball/arc edge scans; 249 pending owner intent) before low-priority 81 or discretionary death work.
+verification comments. Next queue: vampire-257 (PR293/294), then recheck source207 for newer demonstrations before low-priority 81 or discretionary death work.
+Consumer63/source244 (munchkin-244) merged as d28dbb16 (PR64, import
+2cf521b8b, patch 0015): the munchkin stair tests read a stale neighbour
+pointer after the adjacent-monster scan and queued a take-stair key on
+plain floor (a no-turn keypress that can repeat indefinitely); the
+five-line own-grid re-acquisition imports into an otherwise-pristine
+borg-think-dungeon.c and verifies on the unchanged fixture with the
+evidence's own profile preparation (phantom stair_key 62->0 fail-before/
+pass-after, on-stair control byte-identical), 74 prior cases whole-log
+identical, merged v1 seeds unchanged. All six issues are
+carried/open+patch-active until upstream incorporation. Next queue:
+vampire-257 (PR293/294), then recheck source207 for newer demonstrations
+(ranked leads 243/245 stair family, 249 pending owner intent).
 
 Consumer60/source253 (arc-253) merged as a89e96a15 (PR61, import 92003d66,
 patch 0014): the arc angle test reoriented the spell target instead of the
