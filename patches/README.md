@@ -88,3 +88,8 @@ The seventeenth carry accumulates weapon slay traits across equipment
 slots and derives the kill traits (consumer #69/source #239, priority
 high). A weaponless light slot no longer erases the wielded weapon's
 slays; the nonanimal control stays unchanged.
+
+The eighteenth carry guards queued detection reactions with panel bounds
+(consumer #72/source #290, priority high). A stale reaction after a level
+change to a one-panel-high cave no longer reads and writes past the
+detection arrays; the fresh-reaction control stays unchanged.

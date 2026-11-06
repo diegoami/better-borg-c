@@ -304,6 +304,24 @@
    "verification": "docs/measurement/SLAY-TRAITS.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-slay-traits; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0290",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/72",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/290",
+   "source_head": "02fb00af6abdb165fc1b445c42dc85d2263a3cdd",
+   "source_commits": [
+    "02fb00af6abdb165fc1b445c42dc85d2263a3cdd"
+   ],
+   "applied_commits": [
+    "c3e8f60a3ea164b74ce76bbac7a3097263a13a9f"
+   ],
+   "patch": "patches/0018-detect-panel-bounds.patch",
+   "patch_active": true,
+   "evidence_ref": "d9d4c7186",
+   "verification": "docs/measurement/DETECT-PANEL.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-detect-panel; awaiting normal PR merge"
   }
  ]
 }
