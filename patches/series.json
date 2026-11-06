@@ -109,6 +109,23 @@
       "evidence_ref": "cce1d5d92079e78e939126d3cf35e24121442734",
       "verification": "docs/measurement/POTION-TIMING.md",
       "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+    },
+    {
+      "id": "CBUG-0086",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/36",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/102",
+      "source_head": "cad765806eed6431642ab02b53240d7938470c21",
+      "source_commits": [
+        "cad765806eed6431642ab02b53240d7938470c21"
+      ],
+      "applied_commits": [
+        "3d12dc5306be7d032332f3a9a6e6732261b432c0"
+      ],
+      "patch": "patches/0007-exact-unseen-name.patch",
+      "patch_active": true,
+      "evidence_ref": "b61f6b611600fdbc4c6370fff3ac2835ee77017f",
+      "verification": "docs/measurement/ITANGAST.md",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
     }
   ]
 }
