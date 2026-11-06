@@ -1,0 +1,20 @@
+{
+  "schema": "angband/session@1",
+  "repository": "diegoami/better-borg-c",
+  "role": "native-c-consumer",
+  "scope": "Native C Angband/Borg bug-fix adoption and verification",
+  "checkpoint": "https://github.com/diegoami/better-borg-c/issues/1",
+  "source_repository": "diegoami/neo-angband-tracker",
+  "source_checkpoint": "https://github.com/diegoami/neo-angband-tracker/issues/207",
+  "workspace_checkpoint": "https://github.com/diegoami/angband-workspace/issues/7",
+  "baselines": {
+    "c": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3"
+  },
+  "upstreams": {
+    "angband": "angband/angband",
+    "source-tracker": "diegoami/neo-angband-tracker"
+  },
+  "verification": "python3 tools/verify-native.py",
+  "automatic_deployment": false,
+  "external_rust_polling": false
+}

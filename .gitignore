@@ -71,3 +71,8 @@ src/stats/db.dep
 src/tests/ran-already
 src/version.h
 build*/
+# Native consumer disposable outputs and personal data
+/artifacts/
+/.worktrees/
+__pycache__/
+*.pyc
