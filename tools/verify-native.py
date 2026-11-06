@@ -15,7 +15,7 @@ ANSI = re.compile(r"\x1b\[[0-9;]*m")
 
 def check_summaries(output):
     clean = ANSI.sub("", output)
-    totals = [(int(a), int(b)) for a, b in re.findall(r"Total:\s+(\d+)/(\d+)\s+passed", clean)]
+    totals = [(int(a), int(b)) for a, b in re.findall(r"^Total:[ \t]+(\d+)/(\d+)(?:[ \t]+passed[^\n]*)?[ \t]*$", clean, re.MULTILINE)]
     # alltests runs the unit gate first and the test frontend gate second.
     # The original runners can return zero even when assertions fail.
     if len(totals) != 2:
@@ -54,7 +54,8 @@ def main():
     # These knobs change coverage/path semantics; use the declared self-contained profile.
     env.pop("FORCE_PATH", None)
     env.pop("VERBOSE", None)
-    env["LC_ALL"] = "C"
+    env["LC_ALL"] = "C.UTF-8"
+    env["LANG"] = "C.UTF-8"
     result = {"commit": subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip(),
               "profile": "Borg + X11 + test frontend; self-contained", "success": False}
     try:

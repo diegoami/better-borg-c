@@ -26,6 +26,14 @@ class NumericalGateTests(unittest.TestCase):
             with self.subTest(output=output), self.assertRaises(ValueError):
                 native.check_summaries(output)
 
+    def test_actual_frontend_summary_without_passed_suffix(self):
+        result = native.check_summaries("Total: 965/965 passed (100%)\nTotal: 5/5\n")
+        self.assertEqual(result["frontend"]["passed"], 5)
+
+    def test_zero_exit_frontend_failure_without_suffix_is_red(self):
+        with self.assertRaises(ValueError):
+            native.check_summaries("Total: 965/965 passed (100%)\nTotal: 1/5\n")
+
     def test_new_tests_can_increase_count(self):
         native.check_summaries("Total: 966/966 passed\nTotal: 6/6 passed")
 
