@@ -139,8 +139,9 @@ key z
 
 def parse_states(text):
     states = []
-    for line in text.splitlines():
-        if line.startswith('STATE '):
+    for line in text.splitlines(keepends=True):
+        # A concurrent read may stop in the middle of one native fprintf record.
+        if line.endswith('\n') and line.startswith('STATE '):
             parts = line.split()
             states.append({'kind': parts[1], **{k: int(v) if len(v) < 20 and v.lstrip('-').isdigit() else v
                                                for k, v in (p.split('=', 1) for p in parts[2:])}})
@@ -222,6 +223,7 @@ def run(args):
               'configuration_sha256': sha(out / 'user/borg.txt'), 'outcome': 'harness_failure'}
     write(out / 'result.json', result)
     start = time.monotonic()
+    p = None
     try:
         with (out / 'input.txt').open() as inp, (out / 'terminal.log').open('w') as log:
             p = subprocess.Popen(command, cwd=build / 'source', env=env, stdin=inp, stdout=log, stderr=subprocess.STDOUT)
@@ -235,6 +237,14 @@ def run(args):
     except (OSError, ValueError) as exc:
         result['error'] = str(exc)
     finally:
+        # A trace/reader failure must not abandon an owned native process.
+        if p is not None and p.poll() is None:
+            p.terminate()
+            try:
+                p.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                p.kill()
+                p.wait()
         result['wall_seconds'] = time.monotonic() - start
         result['files_sha256'] = {str(p.relative_to(out)): sha(p) for p in sorted(out.rglob('*'))
                                   if p.is_file() and p.name != 'result.json'}
