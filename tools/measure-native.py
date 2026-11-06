@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Small native Borg measurement driver. Run heavy commands under shared flock."""
 import argparse
+from datetime import datetime, timezone
 import hashlib
 import json
 import os
@@ -16,6 +17,12 @@ LOADED_RUNNER_SHA256 = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def calendar_snapshot():
+    local = datetime.now().astimezone()
+    return {'utc': local.astimezone(timezone.utc).isoformat(), 'local': local.isoformat(),
+            'timezone_name': local.tzname(), 'TZ_environment': os.environ.get('TZ')}
 
 
 def write(path, data):
@@ -217,6 +224,8 @@ def run(args):
               'starting_save_sha256': sha(args.load) if args.load else None,
               'seed': args.seed, 'turn_cap': args.cap, 'wall_limit_seconds': args.timeout, 'stall_limit_seconds': args.stall_timeout,
               'checkpoint_saves': not args.no_saves,
+              'calendar_context': {'status': 'recorded', 'clock_policy': 'Native system clock unchanged',
+                                   'start': calendar_snapshot()},
               'command': command, 'cwd': str(build / 'source'),
               'environment': {k: env[k] for k in ('BORG_MEASURE_SEED', 'BORG_MEASURE_CAP', 'BORG_MEASURE_DIR', 'LC_ALL', 'LANG', 'BORG_MEASURE_NO_SAVES', 'BORG_MEASURE_LOAD') if k in env},
               'build': manifest, 'character': 'Human Warrior; default point buy; normal UI birth',
@@ -245,6 +254,7 @@ def run(args):
             except subprocess.TimeoutExpired:
                 p.kill()
                 p.wait()
+        result['calendar_context']['end'] = calendar_snapshot()
         result['wall_seconds'] = time.monotonic() - start
         result['files_sha256'] = {str(p.relative_to(out)): sha(p) for p in sorted(out.rglob('*'))
                                   if p.is_file() and p.name != 'result.json'}

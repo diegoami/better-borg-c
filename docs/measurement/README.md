@@ -89,3 +89,9 @@ not only in a disposable task worktree. Record its hash/location and publish
 per-run metrics/hashes to the adoption issue/checkpoint. Hosted artifacts are a
 second copy with explicit retention, not permanent storage. Recovery must use
 committed scripts/pins and public evidence, never workstation `/tmp` paths.
+
+Native monster selection consults local calendar date for seasonal monsters
+(December24–26). Future results record actual UTC/local/timezone start/end
+context; no clock override is applied. Legacy records explicitly remain
+unrecorded rather than borrowing today's date. Seed/save identity alone does
+not establish replay equivalence across calendar contexts.

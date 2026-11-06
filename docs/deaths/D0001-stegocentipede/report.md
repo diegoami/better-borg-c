@@ -101,6 +101,12 @@ git worktree add --detach .worktrees/D0001 337e50eb6c732bf6c908ab0d7c22b12b3a82b
 (cd .worktrees/D0001 && flock /tmp/angband-validation.lock python3 tools/measure-native.py run --build artifacts/D0001-build --output artifacts/D0001-death --seed 11 --cap 400000 --timeout 180 --stall-timeout 30)
 ```
 
+The legacy runner did not capture runtime calendar/timezone context. Native
+monster selection uses local calendar rules for seasonal monsters on December
+24–26. Exact observations were repeated in the retained execution environment;
+cross-calendar replay is not qualified. Future runs record this context without
+changing the native clock. Do not backfill this old death with today's date.
+
 Repeat with a new output directory. For windows, use caps174842/174847/174852/
 174857 with otherwise identical conditions. Same native data/toolchain identity
 is required for exact reproduction; recorded binary hashes name actual builds,

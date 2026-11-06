@@ -50,6 +50,11 @@ def observations(lines, turn):
     return selected
 
 
+def calendar_context(run):
+    return run.get('calendar_context', {'status': 'not captured by legacy runner',
+        'limit': 'Native seasonal monster availability uses the calendar; do not substitute the current date for this old run.'})
+
+
 def capture(args):
     original = args.run.resolve()
     run = read(original / 'result.json')
@@ -83,7 +88,7 @@ def capture(args):
                              'source_commit': r['build']['source_commit'], 'binary_sha256': r['build']['binary_sha256'],
                              'build_record': build_name, 'upstream_baseline': source_ledger(r['build']['source_commit'])['baseline'],
                              'carried_patches': source_ledger(r['build']['source_commit'])['patches'], 'harness_commit': r['harness_commit'],
-                             'runner_sha256': r['runner_sha256'], 'terminal': r['states'][-1],
+                             'runner_sha256': r['runner_sha256'], 'calendar_context': calendar_context(r), 'terminal': r['states'][-1],
                              'wall_seconds': r['wall_seconds'], 'same_complete_trace': same_trace,
                              'raw_directory': str(p), 'result_sha256': sha(p / 'result.json'),
                              'trace_sha256': sha(p / 'trace.txt'), 'recent_save_sha256': sha(p / 'recent.save')})
@@ -139,7 +144,7 @@ def capture(args):
               'encounter_family': 'start-' + key['start_save'], 'raw_cause': run['cause'],
               'upstream_baseline': ledger['baseline'], 'carried_patches': ledger['patches'],
               'character': run['character'], 'native_character': next(s for s in lines if s.startswith('CHARACTER ')),
-              'options': options, 'command': run['command'], 'environment': run['environment'], 'cwd': run['cwd'],
+              'options': options, 'calendar_context': calendar_context(run), 'command': run['command'], 'environment': run['environment'], 'cwd': run['cwd'],
               'limits': {k: run[k] for k in ('turn_cap', 'wall_limit_seconds', 'stall_limit_seconds')},
               'attempts': attempts, 'windows': sorted(windows, key=lambda w: w['turn']),
               'issue': args.issue, 'investigation': args.investigation,

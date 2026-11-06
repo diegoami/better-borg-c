@@ -3,6 +3,10 @@
     {
       "binary_sha256": "234841aa91d1ae552d280c122c183c8aaf098af8af5b9e39aed873292aa88a79",
       "build_record": "build.json",
+      "calendar_context": {
+        "limit": "Native seasonal monster availability uses the calendar; do not substitute the current date for this old run.",
+        "status": "not captured by legacy runner"
+      },
       "carried_patches": [
         {
           "applied_commits": [
@@ -114,6 +118,10 @@
     {
       "binary_sha256": "234841aa91d1ae552d280c122c183c8aaf098af8af5b9e39aed873292aa88a79",
       "build_record": "build.json",
+      "calendar_context": {
+        "limit": "Native seasonal monster availability uses the calendar; do not substitute the current date for this old run.",
+        "status": "not captured by legacy runner"
+      },
       "carried_patches": [
         {
           "applied_commits": [
@@ -225,6 +233,10 @@
     {
       "binary_sha256": "914289b331e3ee16f62bd0afc6e8b4e26a2c176cc1f8a7248cfc5a93afd1ac3d",
       "build_record": "reference-1.build.json",
+      "calendar_context": {
+        "limit": "Native seasonal monster availability uses the calendar; do not substitute the current date for this old run.",
+        "status": "not captured by legacy runner"
+      },
       "carried_patches": [],
       "cause": "a stegocentipede",
       "harness_commit": "3638b690525cd8a381cb106b4c5ee40652babde2",
@@ -259,6 +271,10 @@
       "wall_seconds": 56.36745371899997
     }
   ],
+  "calendar_context": {
+    "limit": "Native seasonal monster availability uses the calendar; do not substitute the current date for this old run.",
+    "status": "not captured by legacy runner"
+  },
   "carried_patches": [
     {
       "applied_commits": [
