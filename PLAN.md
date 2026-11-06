@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through twenty-fourth carries merged (2026-11-06)
+## Tenth through twenty-fifth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -204,8 +204,18 @@ fixture cases whole-log identical, merged v1 seeds unchanged.
 
 All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
-issues' verification comments. Queue: brand-240 (PR333/334, low priority) and any newer demonstrations
-before low-priority 81 or discretionary death work.
+issues' verification comments. Queue: calcreload-325 and opblock-324 (demonstrated low-priority leaks),
+then brand-240 and any newer demonstrations before low-priority 81 or
+discretionary death work.
+Consumer93/source287 (text-287) merged as b68eb2223 (PR94, import
+c6c51d4d, patch 0025): borg_what_text() bounded UTF-8 conversion by one
+byte per wide character, leaving an 80-character row with one two-byte
+character unterminated and the caller reading all 1024 stale bytes; the
+conversion now uses the widest encoding for the same character count.
+The unchanged fixture verifies terminated=0/strnlen=1024 ->
+terminated=1/strnlen=81, with the ASCII control byte-identical at 80,
+95 prior cases passing and merged v1 seeds unchanged. All sixteen issues
+are carried/open+patch-active.
 Consumer90/source261 (blind-261) merged as f997c8cee (PR91, import
 713d9ad4, patch 0024): the blind-creature maneuver casts Frighten but
 scored as confusion, so dragons suppressed only by confusion carried a
