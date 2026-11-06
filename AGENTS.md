@@ -56,3 +56,11 @@ actions in the assessment, distinguish observations from proof, reply with
 findings and regenerate the aggregate. Owner priorities include survival stock
 over spare gear (proposal41) and investigating premature crowd exposure (34).
 Actual pack capacity/consumption/knowledge/retreat must be checked; bugs first.
+
+Check new/edited comments on each death's investigation and linked open action
+issues at the start of every active session and before stopping. Use the last
+checkpoint's read receipt, process new owner feedback into linked actions and
+reply with findings; do not treat acknowledgement as resolution or reprocess
+the agent's own receipts. Record the check once on checkpoint1 if nothing is
+new. This is active-session processing, not an unattended comment-monitoring
+agent; the scheduled donor workflow only inventories public fork metadata.
