@@ -1,0 +1,28 @@
+From 31a042d00581ed914d30f17cca1ed0e70e99d21f Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Fri, 6 Nov 2026 09:21:47 +0000
+Subject: [PATCH] Avoid casting regeneration while scoring preparation spells
+
+Return its preparation score during simulation, as the other preparation spells do. Queue Rapid Regeneration only when the chosen action is executed.
+---
+ src/borg/borg-fight-perm.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/borg/borg-fight-perm.c b/src/borg/borg-fight-perm.c
+index aff0e0ffd..09c7f81ed 100644
+--- a/src/borg/borg-fight-perm.c
++++ b/src/borg/borg-fight-perm.c
+@@ -459,6 +459,10 @@ static int borg_perma_aux_regen(void)
+                                    : borg.trait[BI_CURSP] / 10))
+         return 0;
+ 
++    /* Simulation */
++    if (borg_simulate)
++        return 1;
++
+     /* do it! */
+     if (borg_spell(RAPID_REGENERATION)) {
+         /* No resting to recoup mana */
+-- 
+2.53.0
+

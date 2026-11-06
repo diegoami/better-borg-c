@@ -41,6 +41,23 @@
       "evidence_ref": "3de1e3123915587483395dd40c4d2e75704e65f4",
       "verification": "docs/measurement/KNOCKOUT.md",
       "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+    },
+    {
+      "id": "CBUG-0094",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/15",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/110",
+      "source_head": "31a042d00581ed914d30f17cca1ed0e70e99d21f",
+      "source_commits": [
+        "31a042d00581ed914d30f17cca1ed0e70e99d21f"
+      ],
+      "applied_commits": [
+        "0e76ee35138b309ceb3ed43a6427f2baa42e6d1f"
+      ],
+      "patch": "patches/0003-regen-simulation.patch",
+      "patch_active": true,
+      "evidence_ref": "a19c8733c0dfa8139b04eecd8117429ec5f55cd6",
+      "verification": "docs/measurement/PREPARATION.md",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
     }
   ]
 }
