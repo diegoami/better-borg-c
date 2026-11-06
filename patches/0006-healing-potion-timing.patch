@@ -1,0 +1,26 @@
+From cedf25eb790f2ff7c7c161cd1612b18ed99fb35e Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Fri, 6 Nov 2026 11:14:36 +0000
+Subject: [PATCH] Limit repeat healing-potion hesitation to recent drinks
+
+---
+ src/borg/borg-item-use.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-item-use.c b/src/borg/borg-item-use.c
+index 020b03bbb..3810fcab6 100644
+--- a/src/borg/borg-item-use.c
++++ b/src/borg/borg-item-use.c
+@@ -56,7 +56,8 @@ bool borg_quaff_crit(bool no_check)
+     }
+ 
+     /* Avoid drinking CCW twice in a row */
+-    if (borg_timer(when_last_quaff) > 4 && borg_timer(when_last_quaff) > 0
++    if (when_last_quaff && borg_timer(when_last_quaff) <= 4
++        && borg_timer(when_last_quaff) > 0
+         && (randint1(100) < 75))
+         return false;
+ 
+-- 
+2.53.0
+
