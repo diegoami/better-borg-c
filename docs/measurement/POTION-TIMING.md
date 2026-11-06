@@ -67,8 +67,24 @@ flock /tmp/angband-validation.lock python3 tools/verify-potion-timing.py --befor
 ```
 
 Configure the push-disabled source-tracker remote as in README. Immutable fixture
-pins are used rather than moving FETCH_HEAD. After merging, rebuild the actual
-merge for the unchanged frozen seeds11/29/47/cap20000/wall120/stall30 comparison.
+pins are used rather than moving FETCH_HEAD. The actual merged45eac63bd build completed the unchanged frozen
+seeds11/29/47/cap20000/wall120/stall30 comparison.
 All generated output stays ignored; actual results and persistent recovery are
 published on consumer31. No new cohort is selected to obtain a favorable result.
 Locally carried/open+patch-active awaits actual upstream incorporation/rebuild.
+
+## Merged-source v1 results
+
+Actual merge45eac63bd9f7cabe3c4ef1607703324ca8dae0fc was rebuilt and run.
+[Machine-readable outcomes](potion-timing-v1.json) retain all three cases and
+all controlled case outcomes. Exact-head hosted42219307029 numerical logs have
+29 tooling tests,965/965unit+5/5frontend; merged-main42219457629 also succeeded.
+
+All three v1 starts match byte-for-byte and survive the cap, with no death,
+completion, stall, crash or harness failure. Full traces now differ: the changed
+condition changes whether private Borg RNG is drawn, even before unavailable
+potions are rejected. Later encounters are therefore not held identical.
+Seeds11/29 retain level3 and maxdepth1/3; seed47 reaches **level2 versus4**, at
+unchanged maxdepth2. Preserve that unfavorable progress result. Independent n=3;
+no survival improvement, speedup or claim of no regression. Deep-impact-v2 on
+issue33 is separately prospectively bounded, not a replacement for this cohort.

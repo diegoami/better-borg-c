@@ -1,0 +1,22 @@
+{
+  "11": {
+    "six_carry_complete_repeat": {
+      "start.save": true,
+      "trace.txt": true
+    },
+    "repeat_result_sha256": "01fd3fb3e62bfb743404ea9460816256cc1b4856f7ce5bcba0fadcc1df20de59",
+    "short_v1_prefix_matches_deep_run": true
+  },
+  "29": {
+    "six_carry_complete_repeat": {
+      "start.save": true,
+      "trace.txt": true
+    },
+    "repeat_result_sha256": "6f59e3da181abe9acd522a55dc03049bc651e8da0fbee5e412c28d3cd63b95bf",
+    "short_v1_prefix_matches_deep_run": true
+  },
+  "47": {
+    "short_v1_prefix_matches_deep_run": true,
+    "six_carry_complete_repeat": "not performed; only first20000 observation prefix repeated"
+  }
+}

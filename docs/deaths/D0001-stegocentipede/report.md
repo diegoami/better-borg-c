@@ -131,3 +131,16 @@ Git under persistent artifacts/death-pilot1, with hashes/pinned recovery on
 [issue19](https://github.com/diegoami/better-borg-c/issues/19). Committed files
 are explicitly curated report evidence requested by the owner. No workstation
 /tmp dependency, private profile or strategy-training dataset is introduced.
+
+## Additional five-carry reference from deep-impact-v2
+
+The prospectively declared paired batch33 ran actual five-carry source
+3638b690525cd8a381cb106b4c5ee40652babde2 with the later ring correction.
+It produces the same byte-identical full trace and starting save as this death,
+including turn174862/cause/final game+Borg RNG state. That additional reference
+is recorded in record.json and reference-2.build.json; the original death
+identity remains337e50eb. Its runtime calendar context was actually captured.
+This is a fourth death process attempt in the same starting family, not another
+independent sampled life. Six-carry45eac63bd instead survives cap400000 along
+a different trajectory; it is a censored comparison, not a replay or a proof
+that a particular healing decision rescued this encounter.
