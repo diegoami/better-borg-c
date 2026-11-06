@@ -22,5 +22,7 @@
     "authority": "Owner instruction 2026-11-06: merge, measure impact and keep going",
     "per_pr": "Agent evidence review, normal PR merge and required green checks",
     "external_review": "At an accumulated change/evidence milestone; not a per-PR prerequisite"
-  }
+  },
+  "impact_milestone": "https://github.com/diegoami/better-borg-c/milestone/1",
+  "external_review_package": "https://github.com/diegoami/better-borg-c/issues/11"
 }
