@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through twentieth carries merged (2026-11-06)
+## Tenth through twenty-first carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -204,8 +204,18 @@ fixture cases whole-log identical, merged v1 seeds unchanged.
 
 All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
-issues' verification comments. Queue: recheck source207 for newer demonstrations (source-ranked:
-259/262/261) before low-priority 81 or discretionary death work.
+issues' verification comments. Queue: recheck source207 for newer demonstrations before low-priority
+81 or discretionary death work.
+Consumer81/source259 (dispel-259) merged as 0c52dee46 (PR82, import
+c9f24544, patch 0021): the teleport-reserve mana penalty was applied by
+two back-to-back blocks (the fixed-six one a strict subset of every class
+reserve), so it doubled; the five-line deletion layers onto
+borg-fight-attack.c and verifies on the unchanged fixture (reserve
+-21127->-10627 fail-before/pass-after, one 10500 block apart; out-of-band
+control byte-identical at -127), 87 prior cases whole-log identical,
+merged v1 seeds unchanged. All twelve issues are carried/open+patch-active.
+Queue: recheck source207 for newer demonstrations (source-ranked 262/261)
+— with none ready, the documented order resumes.
 Consumer78/source258 (reserve-258) merged as c7f5b5758 (PR79, import
 21c672a8, patch 0020): the reserve-bolt monster loop broke at the first
 live monster, so the hit-points veto applied to a distant tough monster
