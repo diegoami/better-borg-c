@@ -79,3 +79,9 @@
     not automatically prove a fork better, execute/import fork code, poll Rust,
     post to official Angband, change strategy or start heavy native jobs. Review
     actual candidate diffs before reinventing work; bugs still take priority.
+
+17. Session handover must preserve unfinished failures and exact reproduction
+    commands in the relevant repository document, with a pointer from
+    session.json and PLAN.md. Commit/push a clearly unfinished task branch and
+    post adoption/checkpoint receipts; do not imply that a passing native gate
+    verifies a failed controlled scenario or permits merging an unverified carry.

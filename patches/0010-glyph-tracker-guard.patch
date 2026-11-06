@@ -1,0 +1,44 @@
+From ec172531ec38fdd3ac2783d21e3faf6dc1e2b3f3 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 14:14:20 +0100
+Subject: [PATCH] Borg: keep the glyph tracker count in bounds on a failed
+ creation
+
+The failed-glyph message handler ("The object resists the spell" /
+"There is no clear floor") decremented track_glyph.num without a
+check after writing through the current count.  When no glyph was
+tracked, the count became -1, and the next commanded creation in
+borg_defend_aux_glyph()/borg_flow_glyph() passed the count < size
+guard and wrote before the start of the x/y arrays.  With the list
+full, the same handler wrote past the end.  Only decrement when an
+entry exists, and clear the tracked entry itself.
+---
+ src/borg/borg-messages.c | 12 ++++++++----
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+
+diff --git a/src/borg/borg-messages.c b/src/borg/borg-messages.c
+index 09d1b883e..4f466f245 100644
+--- a/src/borg/borg-messages.c
++++ b/src/borg/borg-messages.c
+@@ -1196,10 +1196,14 @@ static void borg_parse_aux(char *msg, int len)
+     if (prefix(msg, "The object resists the spell")
+         || prefix(msg, "There is no clear floor")) {
+ 
+-        /* Forget the newly created-though-failed  glyph */
+-        track_glyph.x[track_glyph.num] = 0;
+-        track_glyph.y[track_glyph.num] = 0;
+-        track_glyph.num--;
++        /* Forget the newly created-though-failed glyph.  Nothing was
++         * tracked if the list is already empty, and clearing the
++         * actually-tracked entry keeps the write inside the array. */
++        if (track_glyph.num > 0) {
++            track_glyph.num--;
++            track_glyph.x[track_glyph.num] = 0;
++            track_glyph.y[track_glyph.num] = 0;
++        }
+ 
+         /* note it */
+         borg_note("# Removing the Glyph under me, placing with broken door.");
+-- 
+2.53.0
+

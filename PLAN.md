@@ -134,3 +134,12 @@ omitting10 from the new default. Preserve old windows. Add labeled earlier
 event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
+
+## Active carry at owner-requested handover (2026-11-06)
+
+Resume consumer48/source118 before discretionary death work. The isolated
+`task/carry-glyph-tracker` branch contains the reviewed C correction and an
+unfinished product verifier. Native gate passes; controlled product verification
+is incomplete. Read docs/measurement/GLYPH-TRACKER.md for the preserved failure,
+source/fixture pins, evidence recovery and exact next action. Do not merge this
+carry or count it as carried until the documented proof gaps are resolved.
