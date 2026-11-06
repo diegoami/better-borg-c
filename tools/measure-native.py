@@ -87,7 +87,7 @@ def prepare(args):
         with (out / (label + '.log')).open('w') as log:
             subprocess.run(command, env=env, stdout=log, stderr=subprocess.STDOUT, check=True)
     manifest.update(binary_sha256=sha(out / 'build/game/angband'), complete=True,
-                    data_sha256={str(p.relative_to(source)): sha(p) for d in ('gamedata', 'customize')
+                    data_sha256={str(p.relative_to(source)): sha(p) for d in ('gamedata', 'customize', 'screens', 'help')
                                  for p in sorted((source / 'lib' / d).rglob('*')) if p.is_file()})
     write(out / 'build.json', manifest)
 
@@ -100,7 +100,11 @@ key enter
 key enter
 key enter
 key enter
+key space
 key C-z
+key space
+key space
+key y
 key z
 '''
 
@@ -164,26 +168,35 @@ def run(args):
         (out / d).mkdir()
     config = 'borg_cheat_death = FALSE\nborg_respawn_winners = FALSE\n'
     (out / 'user/borg.txt').write_text(config)
-    (out / 'input.txt').write_text(INPUT)
+    run_input = ('key space\nkey C-z\nkey space\nkey space\nkey y\nkey z\n' if args.load else INPUT)
+    (out / 'input.txt').write_text(run_input)
     command = [str(build / 'build/game/angband'), '-mtest', '-uMeasure']
     command += [f'-d{d}={out / d}' for d in ('user', 'archive', 'save', 'scores', 'panic')]
-    command += [f'-d{d}={build / "source/lib" / d}' for d in ('gamedata', 'customize')]
+    command += [f'-d{key}={build / "source/lib" / directory}' for key, directory in (('gamedata', 'gamedata'), ('pref', 'customize'))]
     env = os.environ.copy()
     env.update(BORG_MEASURE_SEED=str(args.seed), BORG_MEASURE_CAP=str(args.cap),
                BORG_MEASURE_DIR=str(out), LC_ALL='C.UTF-8', LANG='C.UTF-8')
+    for key in ('BORG_MEASURE_NO_SAVES', 'BORG_MEASURE_LOAD'):
+        env.pop(key, None)
+    if args.load:
+        env['BORG_MEASURE_LOAD'] = str(args.load.resolve())
     if args.no_saves:
         env['BORG_MEASURE_NO_SAVES'] = '1'
-    result = {'seed': args.seed, 'turn_cap': args.cap, 'wall_limit_seconds': args.timeout, 'stall_limit_seconds': args.stall_timeout,
+    result = {'runner_sha256': sha(Path(__file__)), 'harness_commit': git('rev-parse', 'HEAD'),
+              'harness_dirty': git('status', '--porcelain', '--untracked-files=no'),
+              'input_sha256': sha(out / 'input.txt'),
+              'starting_save_sha256': sha(args.load) if args.load else None,
+              'seed': args.seed, 'turn_cap': args.cap, 'wall_limit_seconds': args.timeout, 'stall_limit_seconds': args.stall_timeout,
               'checkpoint_saves': not args.no_saves,
-              'command': command, 'cwd': str(build / 'build/game'),
-              'environment': {k: env[k] for k in ('BORG_MEASURE_SEED', 'BORG_MEASURE_CAP', 'BORG_MEASURE_DIR', 'LC_ALL', 'LANG', 'BORG_MEASURE_NO_SAVES') if k in env},
+              'command': command, 'cwd': str(build / 'source'),
+              'environment': {k: env[k] for k in ('BORG_MEASURE_SEED', 'BORG_MEASURE_CAP', 'BORG_MEASURE_DIR', 'LC_ALL', 'LANG', 'BORG_MEASURE_NO_SAVES', 'BORG_MEASURE_LOAD') if k in env},
               'build': manifest, 'character': 'Human Warrior; default point buy; normal UI birth',
               'configuration_sha256': sha(out / 'user/borg.txt'), 'outcome': 'harness_failure'}
     write(out / 'result.json', result)
     start = time.monotonic()
     try:
         with (out / 'input.txt').open() as inp, (out / 'terminal.log').open('w') as log:
-            p = subprocess.Popen(command, cwd=build / 'build/game', env=env, stdin=inp, stdout=log, stderr=subprocess.STDOUT)
+            p = subprocess.Popen(command, cwd=build / 'source', env=env, stdin=inp, stdout=log, stderr=subprocess.STDOUT)
             interrupted = monitor(p, out / 'trace.txt', args.timeout, args.stall_timeout)
             result['exit_code'] = p.returncode
         trace = (out / 'trace.txt').read_text() if (out / 'trace.txt').exists() else ''
@@ -217,6 +230,7 @@ def main():
     r.add_argument('--cap', type=int, required=True)
     r.add_argument('--timeout', type=int, default=120)
     r.add_argument('--stall-timeout', type=int, default=30)
+    r.add_argument('--load', type=Path, help='diagnostic load; continuation reproducibility is not assumed')
     r.add_argument('--no-saves', action='store_true', help='observer non-interference control')
     args = p.parse_args()
     if args.action == 'run' and (not 0 <= args.seed <= 0xffffffff or args.cap < 2 or args.timeout < 1):

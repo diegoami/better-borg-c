@@ -23,11 +23,12 @@ static bool checkpoints;
 static void state(const char *kind)
 {
     int i;
-    fprintf(trace, "STATE %s turn=%ld energy=%lu decisions=%ld depth=%d max_depth=%d level=%d max_level=%d hp=%d dead=%d winner=%d borg_rng=%lu rng_index=%lu rng=",
+    fprintf(trace, "STATE %s turn=%ld energy=%lu decisions=%ld depth=%d max_depth=%d level=%d max_level=%d hp=%d dead=%d winner=%d borg_rng=%lu quick=%d quick_rng=%lu rng_index=%lu rng=",
         kind, (long)turn, (unsigned long)player->total_energy, decisions,
         player->depth, player->max_depth, player->lev, player->max_lev,
         player->chp, player->is_dead, player->total_winner,
-        (unsigned long)borg_rand_local, (unsigned long)state_i);
+        (unsigned long)borg_rand_local, Rand_quick, (unsigned long)Rand_value,
+        (unsigned long)state_i);
     for (i = 0; i < RAND_DEG; ++i) fprintf(trace, "%08lx", (unsigned long)STATE[i]);
     fprintf(trace, "\n");
     fflush(trace);
@@ -44,6 +45,8 @@ void measure_init(void)
     checkpoints = !getenv("BORG_MEASURE_NO_SAVES");
     Rand_state_init(strtoul(seed, NULL, 10));
     Rand_quick = false;
+    if (getenv("BORG_MEASURE_LOAD"))
+        my_strcpy(savefile, getenv("BORG_MEASURE_LOAD"), sizeof(savefile));
 }
 
 static void finish(const char *outcome)
@@ -66,11 +69,15 @@ void measure_tick(void)
 void measure_boundary(void)
 {
     int i;
+    char path[1024];
     if (!started) {
         started = true;
         /* Preserve the native birth save, without activating Borg first. */
-        if (checkpoints && !savefile_save(format("%s/start.save", directory)))
+        strnfmt(path, sizeof(path), "%s/start.save", directory);
+        if (checkpoints && !savefile_save(path))
             quit("starting save failed");
+        fprintf(trace, "CHARACTER %s %s %s\n", player->full_name,
+            player->race->name, player->class->name);
         fprintf(trace, "OPTIONS");
         for (i = 0; i < OPT_MAX; ++i)
             if (option_name(i)) fprintf(trace, " %s=%d", option_name(i), player->opts.opt[i]);
@@ -78,7 +85,8 @@ void measure_boundary(void)
         state("start");
     }
     if (checkpoints && turn - last_save >= 1000) {
-        if (!savefile_save(format("%s/recent.save", directory)))
+        strnfmt(path, sizeof(path), "%s/recent.save", directory);
+        if (!savefile_save(path))
             quit("checkpoint save failed");
         last_save = turn;
         state("checkpoint");
@@ -89,7 +97,20 @@ void measure_boundary(void)
 
 void measure_decision(void)
 {
+    int i;
     ++decisions;
+    if (decisions == 1) {
+        fprintf(trace, "BORG_OPTIONS");
+        for (i = 0; i < BORG_MAX_SETTINGS; ++i)
+            fprintf(trace, " %s=%d", borg_settings[i].setting_string, borg_cfg[i]);
+        fprintf(trace, "\nACTIVE_OPTIONS");
+        for (i = 0; i < OPT_MAX; ++i)
+            if (option_name(i)) fprintf(trace, " %s=%d", option_name(i), player->opts.opt[i]);
+        fprintf(trace, "\n");
+        if (borg_cfg[BORG_CHEAT_DEATH] || borg.status.cheat_death || OPT(player, cheat_live))
+            quit("invalid measurement cheat-death configuration");
+        state("borg_start");
+    }
     if (!(decisions % 100)) state("progress");
 }
 
