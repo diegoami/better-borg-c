@@ -126,6 +126,23 @@
       "evidence_ref": "b61f6b611600fdbc4c6370fff3ac2835ee77017f",
       "verification": "docs/measurement/ITANGAST.md",
       "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+    },
+    {
+      "id": "native-shot-path-279",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/40",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/279",
+      "source_head": "1bce07d8080b520589c292c793cc0b95ef9df182",
+      "source_commits": [
+        "1bce07d8080b520589c292c793cc0b95ef9df182"
+      ],
+      "applied_commits": [
+        "2a99a34d174edfe257c25a383c8f952eed71a3b6"
+      ],
+      "patch": "patches/0008-caster-shot-origin.patch",
+      "patch_active": true,
+      "evidence_ref": "cef0b118e02976a3384d4c348ba4cd0210c1f492",
+      "verification": "docs/measurement/SHOT-PATH.md",
+      "credit": "Diego Amicabile (independent native C discovery/proposal/evidence)"
     }
   ]
 }
