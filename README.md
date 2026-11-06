@@ -46,7 +46,7 @@ return zero after a failed assertion. Logs and hashed results go to ignored
 `artifacts/native/`. These baseline checks do not establish Borg survival;
 each adoption also needs the source bug's legal scenario and controls.
 
-For an interactive X11 build, run `./angband` from `build/native/` after the
+For an interactive X11 build, run `./angband` from `build/native/game/` after the
 build. Use disposable characters. No saves, scores, profiles or owner data
 are imported by bootstrap. See [original build documentation](docs/hacking/compiling.rst)
 and [upstream README](docs/upstream-reference/README.md).
@@ -57,7 +57,19 @@ tracker. Fetch `angband` for pristine C and `source-tracker` for named proposals
 both source remotes have push disabled locally. Offer reusable corrections
 through the tracker. No agent posting to angband/angband is authorised.
 
-The only active workflow builds/tests on GitHub-hosted `ubuntu-latest` for
-main/PR/manual events; it never publishes. Inherited workflows are archived
-outside `.github/workflows/`. No tag/release, lab deployment or private backup
-is part of setup.
+Native verification runs on GitHub-hosted `ubuntu-latest` for main/PR/manual
+events. The explicitly owner-requested donor inventory also runs weekly on
+Mondays09:15 Europe/Berlin and by manual dispatch, reporting to
+[ongoing issue24](https://github.com/diegoami/better-borg-c/issues/24). It reads
+public C source metadata and queues semantic review; it never executes/imports
+fork code or proves better play from activity. Bugs still take priority.
+
+[Death records](docs/deaths/README.md) pin actual build/version, native recording,
+evaluation/diagnosis confidence and issue actions, with replay-safe aggregation.
+Full runs/saves/builds stay outside Git. [UPSTREAM.md](UPSTREAM.md) records our
+integrated-build delivery and later, separately owned Rust adoption path.
+
+Neither active workflow publishes. Inherited workflows remain archived outside
+`.github/workflows/`. No tag/release, lab deployment or private backup is part
+of setup. GitHub schedules are best-effort and may be delayed/disabled after
+public-repository inactivity; ongoing issue24 records run receipts and follow-up.
