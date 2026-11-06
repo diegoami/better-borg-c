@@ -55,3 +55,8 @@ zeroed the mage's bolts at the caster's own grid, an eligibility the carried
 real failure message, the -1 count, the defended creation and the
 heap-buffer-overflow WRITE on the actual product core; all 60 prior fixture
 cases stay whole-log identical. See docs/measurement/GLYPH-TRACKER.md.
+
+The eleventh carry stops a targetless missile launch from reading the item
+before the pack and firing garbage (consumer #51/source #254). The dead
+b_n < 0 guard becomes a live b_k < 0 guard; real-target and simulated
+controls stay unchanged.
