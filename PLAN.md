@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through twenty-fifth carries merged (2026-11-06)
+## Tenth through twenty-sixth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -204,9 +204,17 @@ fixture cases whole-log identical, merged v1 seeds unchanged.
 
 All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
-issues' verification comments. Queue: calcreload-325 and opblock-324 (demonstrated low-priority leaks),
+issues' verification comments. Queue: opblock-324 and calfree-323 (demonstrated low-priority leaks),
 then brand-240 and any newer demonstrations before low-priority 81 or
 discretionary death work.
+Consumer96/source325 (calcreload-325) merged as 0900c5cf4 (PR97, import
+c528eb81, patch 0026): calculations_free() retained the backing pointer
+array after zeroing the count, so the next parse overwrote and leaked it;
+the correction releases it. The unchanged fixture verifies retained=1 ->
+0 with reload value 7 throughout, a byte-identical single-parse control,
+and stack-attributed LeakSanitizer 320 bytes/4 allocations -> 240/3 with
+the two sibling leak paths unchanged. 97 prior cases pass and merged v1
+seeds are unchanged. All seventeen issues are carried/open+patch-active.
 Consumer93/source287 (text-287) merged as b68eb2223 (PR94, import
 c6c51d4d, patch 0025): borg_what_text() bounded UTF-8 conversion by one
 byte per wide character, leaving an 80-character row with one two-byte
