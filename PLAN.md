@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through twenty-seventh carries merged (2026-11-07)
+## Tenth through twenty-eighth carries merged (2026-11-07)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -207,6 +207,15 @@ until upstream incorporation. Full stories in docs/measurement/ and the
 issues' verification comments. Queue: opblock-324 and calfree-323 (demonstrated low-priority leaks),
 then brand-240 and any newer demonstrations before low-priority 81 or
 discretionary death work.
+Consumer102/source311 (glowoverflow-311, priority high) merged as
+9aee81138 (PR103, import 3cb61705, patch 0028): the out-of-light flow
+collected 1600 glowing grids into 1536-entry arrays, overflowing by 64;
+the correction bounds collection. The unchanged fixture verifies 1600/64
+-> 1536/0 with direct ASan global-buffer-overflow WRITE proof before and
+a clean bounded flow after, the 1000-grid control byte-identical, 101
+prior cases passing and merged v1 seeds unchanged. The separately noted
+oversized-terminal panel-bounds lead is not claimed fixed. All nineteen
+issues are carried/open+patch-active.
 Consumer99/source322 (staletarget-322, priority high) merged as
 29190814b (PR100, import 0d843a41, patch 0027): a tracked monster on the
 player's own grid passed the distance-zero melee check and queued +5,
