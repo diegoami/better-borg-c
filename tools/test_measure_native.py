@@ -82,6 +82,8 @@ class Results(unittest.TestCase):
                 result = json.loads((options.output / 'result.json').read_text())
                 self.assertEqual(result['outcome'], 'harness_failure')
                 self.assertEqual(result['error'], 'injected bad trace')
+                self.assertEqual(result['calendar_context']['status'], 'recorded')
+                self.assertIn('end', result['calendar_context'])
             finally:
                 for process in created:
                     if process.poll() is None:

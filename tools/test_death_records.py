@@ -95,6 +95,22 @@ class Records(unittest.TestCase):
             with self.assertRaises(ValueError):
                 record.capture(options)
 
+    def test_recorded_calendar_is_preserved_and_legacy_is_not_backfilled(self):
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(record, 'source_ledger', side_effect=self.ledger):
+            root = Path(tmp)
+            run = self.fixture(root, 'recorded')
+            data = json.loads((run / 'result.json').read_text())
+            context = {'status': 'recorded', 'start': {'local': '2026-12-25T10:00:00+01:00'}}
+            data['calendar_context'] = context
+            (run / 'result.json').write_text(json.dumps(data))
+            result = record.capture(self.args(run, root / 'new'))
+            self.assertEqual(result['calendar_context'], context)
+            self.assertEqual(result['attempts'][0]['calendar_context'], context)
+            legacy = self.fixture(root, 'legacy')
+            old = record.capture(self.args(legacy, root / 'old'))
+            self.assertEqual(old['calendar_context']['status'], 'not captured by legacy runner')
+            self.assertNotIn('start', old['calendar_context'])
+
     def test_references_repeats_and_duplicate_dossiers_do_not_inflate_starts(self):
         with tempfile.TemporaryDirectory() as tmp, mock.patch.object(record, 'source_ledger', side_effect=self.ledger):
             root = Path(tmp)
