@@ -107,3 +107,8 @@ kobold-only control stays unchanged.
 The twenty-first carry applies the teleport-reserve penalty once
 (consumer #81/source #259). The fixed-six block that duplicated every
 class reserve is removed; the out-of-band control stays unchanged.
+
+The twenty-second carry breaks the LOS-dispel beam walk at arrival
+(consumer #84/source #326, priority high). The blast scan runs when it
+should, the launcher no longer leaks -1, and the orb-ball control stays
+unchanged.
