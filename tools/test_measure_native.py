@@ -7,6 +7,8 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest import mock
+from types import SimpleNamespace
 
 spec = importlib.util.spec_from_file_location('measure', Path(__file__).with_name('measure-native.py'))
 measure = importlib.util.module_from_spec(spec)
@@ -39,6 +41,52 @@ class Results(unittest.TestCase):
                                   stdout=subprocess.PIPE, stderr=subprocess.PIPE).returncode
             self.assertEqual(code, 1)
             self.assertEqual(json.loads((out / 'result.json').read_text())['outcome'], 'harness_failure')
+
+    def test_partial_record_keeps_watchdog_running(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            trace = Path(tmp) / 'trace'
+            trace.write_text('STATE progress turn=123 decisions=99\nSTATE progress tur')
+            child = subprocess.Popen([sys.executable, '-c', 'import time; time.sleep(10)'])
+            try:
+                self.assertEqual(measure.monitor(child, trace, 2, 0.2), 'stalled')
+                self.assertIsNotNone(child.poll())
+            finally:
+                if child.poll() is None:
+                    child.kill()
+                    child.wait()
+
+    def test_run_error_reaps_owned_process(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            build = root / 'build'
+            binary = build / 'build/game/angband'
+            binary.parent.mkdir(parents=True)
+            (build / 'source').mkdir()
+            binary.write_text('#!' + sys.executable + '\nimport time\ntime.sleep(10)\n')
+            binary.chmod(0o700)
+            (build / 'build.json').write_text(json.dumps({'complete': True, 'instrumented': True,
+                'binary_sha256': measure.sha(binary), 'data_sha256': {}}))
+            options = SimpleNamespace(build=build, output=root / 'run', seed=11, cap=2000,
+                                      timeout=2, stall_timeout=1, no_saves=False, load=None)
+            created = []
+            real_popen = subprocess.Popen
+            def spawn(*args, **kwargs):
+                process = real_popen(*args, **kwargs)
+                created.append(process)
+                return process
+            try:
+                with mock.patch.object(measure.subprocess, 'Popen', side_effect=spawn), \
+                     mock.patch.object(measure, 'monitor', side_effect=ValueError('injected bad trace')):
+                    self.assertEqual(measure.run(options), 1)
+                self.assertIsNotNone(created[-1].poll())
+                result = json.loads((options.output / 'result.json').read_text())
+                self.assertEqual(result['outcome'], 'harness_failure')
+                self.assertEqual(result['error'], 'injected bad trace')
+            finally:
+                for process in created:
+                    if process.poll() is None:
+                        process.kill()
+                        process.wait()
 
     def test_real_watchdog_keeps_missing_progress_distinct(self):
         with tempfile.TemporaryDirectory() as tmp:
