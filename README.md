@@ -51,7 +51,10 @@ root after building. Omit the name to be prompted, or give another name to use
 another character. Existing saves resume; missing saves enter character creation.
 The launcher uses a readable 28-pixel Courier font (`BORG_PLAY_FONT` overrides it)
 and one window. Start the Borg manually with Ctrl+Z, confirm if asked, then `z`.
-Ctrl+X saves and exits; saves live in `build/native/game/lib/save/`. Run
+Ctrl+X saves and exits; saves live in `build/native/game/lib/save/`.
+Before each launch of an existing save, the script keeps five rolling backups
+under `build/native/game/lib/save/backups/CHARACTER/`; `save.1` is newest.
+It stops if a backup fails. Run
 `./start-borg.sh --help` for details. You can also run `./angband` directly from
 `build/native/game/`. Use disposable characters. No saves, scores, profiles or owner data
 are imported by bootstrap. See [original build documentation](docs/hacking/compiling.rst)

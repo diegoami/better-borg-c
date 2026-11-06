@@ -13,6 +13,8 @@ Open Angband using CHARACTER's save, or create it if it does not exist.
 Without a name, ask which character to use (default: BorgPlay).
 Start the Borg yourself with Ctrl+Z, confirm if asked, then z.
 Ctrl+X saves and exits. Saves are in build/native/game/lib/save/.
+Before launch, keep five rolling copies of an existing save in
+build/native/game/lib/save/backups/CHARACTER/ (save.1 is newest).
 
 Set BORG_PLAY_FONT to override the default 28-pixel Courier font.
 EOF
@@ -43,6 +45,20 @@ fi
 if [[ -z ${DISPLAY:-} ]]; then
     echo 'An X11 display is required; run this from a WSLg or X11 terminal.' >&2
     exit 1
+fi
+
+save_file="$game_dir/lib/save/$character"
+if [[ -f "$save_file" ]]; then
+    backup_dir="$game_dir/lib/save/backups/$character"
+    mkdir -p -- "$backup_dir"
+    for (( slot=5; slot>=2; slot-- )); do
+        previous="$backup_dir/save.$((slot - 1))"
+        if [[ -f "$previous" ]]; then
+            cp -p -- "$previous" "$backup_dir/save.$slot"
+        fi
+    done
+    cp -p -- "$save_file" "$backup_dir/save.1"
+    printf 'Backup: %s/save.1 (five copies retained)\n' "$backup_dir"
 fi
 
 export ANGBAND_X11_FONT_0="${BORG_PLAY_FONT:-${ANGBAND_X11_FONT_0:--adobe-courier-medium-r-normal--28-*-*-*-p-*-iso8859-1}}"
