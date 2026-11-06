@@ -196,6 +196,24 @@
    "verification": "docs/measurement/MISSILE-NO-TARGET.md",
    "credit": "borg-rs (fuzzing lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-missile-no-target; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0051",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/54",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/67",
+   "source_head": "25f8a43828204dd1226d5bf5c3b36547b4a07a40",
+   "source_commits": [
+    "25f8a43828204dd1226d5bf5c3b36547b4a07a40"
+   ],
+   "applied_commits": [
+    "706fb49b0731ebaf54408c0699b4cd1da1a15929"
+   ],
+   "patch": "patches/0012-tp-other-skip.patch",
+   "patch_active": true,
+   "evidence_ref": "83cedb3fe",
+   "verification": "docs/measurement/TP-OTHER-SKIP.md",
+   "credit": "borg-rs (discovery); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-tp-other-skip; awaiting normal PR merge"
   }
  ]
 }

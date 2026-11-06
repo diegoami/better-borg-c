@@ -60,3 +60,9 @@ The eleventh carry stops a targetless missile launch from reading the item
 before the pack and firing garbage (consumer #51/source #254). The dead
 b_n < 0 guard becomes a live b_k < 0 guard; real-target and simulated
 controls stay unchanged.
+
+The twelfth carry stops the Teleport Other skip list one entry past the
+count (consumer #54/source #67). The stale leftover slot suppressed an
+unlisted monster and inflated the cast value; the layered borg-danger.c
+module equals the eleven-carry module plus the one-comparison import, and
+the no-morgoth/single controls stay unchanged.
