@@ -430,6 +430,24 @@
    "verification": "docs/measurement/BLIND-FRIGHTEN.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-blind-frighten; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0287",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/93",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/287",
+   "source_head": "3e7fe8a8399352c4fe67f5de2d8d48b5e0bd04c1",
+   "source_commits": [
+    "3e7fe8a8399352c4fe67f5de2d8d48b5e0bd04c1"
+   ],
+   "applied_commits": [
+    "c6c51d4d09e591da9d5df313666fe95b31f05e03"
+   ],
+   "patch": "patches/0025-text-multibyte-termination.patch",
+   "patch_active": true,
+   "evidence_ref": "8d844e379",
+   "verification": "docs/measurement/TEXT-MULTIBYTE.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-text-multibyte; awaiting normal PR merge"
   }
  ]
 }

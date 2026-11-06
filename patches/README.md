@@ -121,3 +121,7 @@ The twenty-fourth carry scores Blind Creature's Frighten as fear, not
 confusion (consumer #90/source #261). The blind maneuver values exactly
 what the dedicated Frighten maneuver values; the dedicated control stays
 unchanged.
+
+The twenty-fifth carry terminates multibyte screen text within its
+character limit (consumer #93/source #287). The full 81-byte text is
+terminated; the 80-byte ASCII control stays unchanged.
