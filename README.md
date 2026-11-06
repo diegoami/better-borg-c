@@ -46,8 +46,14 @@ return zero after a failed assertion. Logs and hashed results go to ignored
 `artifacts/native/`. These baseline checks do not establish Borg survival;
 each adoption also needs the source bug's legal scenario and controls.
 
-For an interactive X11 build, run `./angband` from `build/native/game/` after the
-build. Use disposable characters. No saves, scores, profiles or owner data
+For an interactive X11 build, run `./start-borg.sh BorgPlay` from the repository
+root after building. Omit the name to be prompted, or give another name to use
+another character. Existing saves resume; missing saves enter character creation.
+The launcher uses a readable 28-pixel Courier font (`BORG_PLAY_FONT` overrides it)
+and one window. Start the Borg manually with Ctrl+Z, confirm if asked, then `z`.
+Ctrl+X saves and exits; saves live in `build/native/game/lib/save/`. Run
+`./start-borg.sh --help` for details. You can also run `./angband` directly from
+`build/native/game/`. Use disposable characters. No saves, scores, profiles or owner data
 are imported by bootstrap. See [original build documentation](docs/hacking/compiling.rst)
 and [upstream README](docs/upstream-reference/README.md).
 
