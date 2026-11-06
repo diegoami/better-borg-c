@@ -17,5 +17,10 @@
   "verification": "python3 tools/verify-native.py",
   "automatic_deployment": false,
   "external_rust_polling": false,
-  "measurement_issue": "https://github.com/diegoami/better-borg-c/issues/3"
+  "measurement_issue": "https://github.com/diegoami/better-borg-c/issues/3",
+  "integration_policy": {
+    "authority": "Owner instruction 2026-11-06: merge, measure impact and keep going",
+    "per_pr": "Agent evidence review, normal PR merge and required green checks",
+    "external_review": "At an accumulated change/evidence milestone; not a per-PR prerequisite"
+  }
 }

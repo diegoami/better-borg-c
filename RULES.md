@@ -47,3 +47,9 @@
     frozen baseline statistics and failure analysis; no new gameplay strategies. New
     product-specific defects belong here; reusable C discoveries route to the
     source tracker first. Record checkpoint at each merge or stop.
+
+13. Owner-directed integration (2026-11-06): the consumer agent merges verified
+    PRs after its evidence review and required green checks, measures impact and
+    continues independent carries. Do not wait for independent review per PR.
+    Assemble a linked change/evidence milestone for later external review; never
+    represent that external review as already done. Other gates still apply.
