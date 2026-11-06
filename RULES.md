@@ -43,6 +43,7 @@
 11. Preserve saves/profiles/lab/data and other sessions. Use disposable native
     scenarios. No deployment, OAuth/private backup, publisher/release/tag,
     directory retirement or unattended job is authorised by bootstrap.
-12. Current scope is bug fixes and adoption, not new gameplay strategies. New
+12. Current scope includes bug fixes/adoption, reproducible native measurement,
+    frozen baseline statistics and failure analysis; no new gameplay strategies. New
     product-specific defects belong here; reusable C discoveries route to the
     source tracker first. Record checkpoint at each merge or stop.

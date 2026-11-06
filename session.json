@@ -2,7 +2,7 @@
   "schema": "angband/session@1",
   "repository": "diegoami/better-borg-c",
   "role": "native-c-consumer",
-  "scope": "Native C Angband/Borg bug-fix adoption and verification",
+  "scope": "Native C bug-fix adoption, reproducible execution/measurement, baseline statistics and failure analysis; no new gameplay strategies",
   "checkpoint": "https://github.com/diegoami/better-borg-c/issues/1",
   "source_repository": "diegoami/neo-angband-tracker",
   "source_checkpoint": "https://github.com/diegoami/neo-angband-tracker/issues/207",
@@ -16,5 +16,6 @@
   },
   "verification": "python3 tools/verify-native.py",
   "automatic_deployment": false,
-  "external_rust_polling": false
+  "external_rust_polling": false,
+  "measurement_issue": "https://github.com/diegoami/better-borg-c/issues/3"
 }

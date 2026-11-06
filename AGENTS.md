@@ -12,12 +12,14 @@ reports or Neo/TS translations. Workspace coordination is parent checkpoint7.
 
 Read CONTRIBUTING.md and original technical/legal docs before editing C.
 Preserve credit/licences/history; keep source comments suitable for upstream
-review (no internal FORK markers/catalogue IDs/AI trailers). Bugs only under
-current scope. No official Angband posts, Rust polling, lab/data/OAuth access,
+review (no internal FORK markers/catalogue IDs/AI trailers). Scope includes verified bug carries, reproducible native execution/measurement,
+frozen baseline statistics and failure analysis (owner authorised 2026-11-06).
+New gameplay strategies remain outside scope. No official Angband posts, Rust polling, lab/data/OAuth access,
 release/tag/publisher, cleanup, amend or force-push.
 
 Use `flock /tmp/angband-validation.lock python3 tools/verify-native.py` for the
 normal native gate; add unchanged fail-before/pass-after and negative controls
 for each adopted bug. Watch/log long runs; do not kill another lane's gate.
 Post actual results and exact next action to the adoption issue and checkpoint
-at merge/stop. Do not auto-start a gameplay queue from a bootstrap checkpoint.
+at merge/stop. The owner explicitly started measurement and source82 adoption on 2026-11-06;
+follow PLAN.md and live ownership rather than auto-selecting a new gameplay queue.
