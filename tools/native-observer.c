@@ -1,0 +1,104 @@
+/* Native measurement observer; same licensing as native-observer.h.
+ * Reads state and writes evidence. No gameplay actions or RNG draws. */
+#include "angband.h"
+#include "game-world.h"
+#include "player.h"
+#include "savefile.h"
+#include "ui-game.h"
+#include "option.h"
+#include "borg/borg.h"
+#include "borg/borg-init.h"
+#include "borg/borg-log.h"
+#include "native-observer.h"
+
+static FILE *trace;
+static long decisions;
+static int32_t cap;
+static int32_t last_save = -10000;
+static bool started;
+static const char *directory;
+static bool checkpoints;
+
+static void state(const char *kind)
+{
+    int i;
+    fprintf(trace, "STATE %s turn=%ld energy=%lu decisions=%ld depth=%d max_depth=%d level=%d max_level=%d hp=%d dead=%d winner=%d borg_rng=%lu rng_index=%lu rng=",
+        kind, (long)turn, (unsigned long)player->total_energy, decisions,
+        player->depth, player->max_depth, player->lev, player->max_lev,
+        player->chp, player->is_dead, player->total_winner,
+        (unsigned long)borg_rand_local, (unsigned long)state_i);
+    for (i = 0; i < RAND_DEG; ++i) fprintf(trace, "%08lx", (unsigned long)STATE[i]);
+    fprintf(trace, "\n");
+    fflush(trace);
+}
+
+void measure_init(void)
+{
+    const char *seed = getenv("BORG_MEASURE_SEED");
+    directory = getenv("BORG_MEASURE_DIR");
+    if (!seed || !directory) quit("measurement environment missing");
+    trace = fopen(format("%s/trace.txt", directory), "w");
+    if (!trace) quit("measurement trace open failed");
+    cap = strtol(getenv("BORG_MEASURE_CAP"), NULL, 10);
+    checkpoints = !getenv("BORG_MEASURE_NO_SAVES");
+    Rand_state_init(strtoul(seed, NULL, 10));
+    Rand_quick = false;
+}
+
+static void finish(const char *outcome)
+{
+    int i;
+    state(outcome);
+    fprintf(trace, "CAUSE %s\n", player->died_from);
+    for (i = messages_num() - 1; i >= 0; --i)
+        fprintf(trace, "MESSAGE %s\n", message_str(i));
+    if (borg_initialized) borg_write_map(false);
+    fflush(trace);
+    quit(NULL);
+}
+
+void measure_tick(void)
+{
+    if (started && turn >= cap) finish("turn_cap");
+}
+
+void measure_boundary(void)
+{
+    int i;
+    if (!started) {
+        started = true;
+        /* Preserve the native birth save, without activating Borg first. */
+        if (checkpoints && !savefile_save(format("%s/start.save", directory)))
+            quit("starting save failed");
+        fprintf(trace, "OPTIONS");
+        for (i = 0; i < OPT_MAX; ++i)
+            if (option_name(i)) fprintf(trace, " %s=%d", option_name(i), player->opts.opt[i]);
+        fprintf(trace, "\n");
+        state("start");
+    }
+    if (checkpoints && turn - last_save >= 1000) {
+        if (!savefile_save(format("%s/recent.save", directory)))
+            quit("checkpoint save failed");
+        last_save = turn;
+        state("checkpoint");
+    }
+    if (player->total_winner) finish("completion");
+    measure_tick();
+}
+
+void measure_decision(void)
+{
+    ++decisions;
+    if (!(decisions % 100)) state("progress");
+}
+
+void measure_end(void)
+{
+    finish(player->is_dead ? "death" :
+        (player->total_winner ? "completion" : "unexpected_stop"));
+}
+
+void measure_note(const char *text)
+{
+    if (trace) fprintf(trace, "BORG %ld %s\n", (long)turn, text);
+}
