@@ -1,7 +1,9 @@
 # Native C carry ledger
 
 `series.json` records applied runtime correction units, not reported defects.
-Bootstrap has none. The authoritative live adoption state is the issue board.
+The first correction is the safer available emergency swap (consumer #4 /
+source #82). Its three C-only source commits include two comment cleanups;
+the cumulative code has one guarded lower-danger comparison. The authoritative live adoption state is the issue board.
 
 For each carry add its consumer/source issue URLs, original reviewed source
 commit, applied product commit, immutable patch path and verification/evidence
