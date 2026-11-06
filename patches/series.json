@@ -322,6 +322,24 @@
    "verification": "docs/measurement/DETECT-PANEL.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-detect-panel; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0260",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/75",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/260",
+   "source_head": "891d0cb9cc9057a2004dfeba7b21b19913f5a2b6",
+   "source_commits": [
+    "891d0cb9cc9057a2004dfeba7b21b19913f5a2b6"
+   ],
+   "applied_commits": [
+    "7323c8df1506f5572c4cfbbc7348cd4f3fbe88da"
+   ],
+   "patch": "patches/0019-activ-lookup-ids.patch",
+   "patch_active": true,
+   "evidence_ref": "f0e856241",
+   "verification": "docs/measurement/ACTIV-LOOKUP.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-activ-lookup; awaiting normal PR merge"
   }
  ]
 }

@@ -1,0 +1,35 @@
+From 891d0cb9cc9057a2004dfeba7b21b19913f5a2b6 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 20:10:01 +0100
+Subject: [PATCH] Borg: look up the right activation ids for two attack
+ maneuvers
+
+The ACID_BOLT3 maneuver valued and fired the ACID_BOLT2 activation: an
+item with the greater bolt was never considered, and an item with the
+lesser one was valued with the greater bolt's damage.  The DISPEL_ALL
+maneuver looked up the dispel-undead activation: an item with the
+all-monsters dispel was never considered.  Look up the ids the
+maneuvers' damage and effect already describe.
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 45c5d140a..a36215711 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -4631,7 +4631,7 @@ int borg_calculate_attack_effectiveness(int attack_type)
+         rad = 0;
+         dam = (12 * (8 + 1) / 2);
+         return (borg_attack_aux_activation(
+-            act_acid_bolt2, rad, dam, BORG_ATTACK_ACID, true, -1));
++            act_acid_bolt3, rad, dam, BORG_ATTACK_ACID, true, -1));
+ 
+     case BF_ACT_ACID_BALL:
+         rad = 2;
+@@ -4691,7 +4691,7 @@ int borg_calculate_attack_effectiveness(int attack_type)
+         rad = 10;
+         dam = 60;
+         return (borg_attack_aux_activation(
+-            act_dispel_undead, rad, dam, BORG_ATTACK_DISP_ALL, false, -1));
++            act_dispel_all, rad, dam, BORG_ATTACK_DISP_ALL, false, -1));
+ 
+     case BF_ACT_LOSSLOW:
+         rad = 10;
