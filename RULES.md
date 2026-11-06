@@ -3,8 +3,10 @@
 1. Native C consumer only. Canonical source defects/proposals live in
    diegoami/neo-angband-tracker; adoption/build/product issues live here.
    Link both ways, retain source credit/CBUG IDs and exact immutable commits.
-2. Current issue status/active blockers and triage precede fixes. Broad upstream
-   review is weekly manual, not a per-session sweep or daemon. Targeted checks
+2. Current issue status/active blockers and triage precede fixes. Track the official
+   master head at each active integration cycle and before importing/delivering
+   game changes. Broad upstream review is deliberate/weekly, not a daemon;
+   source imports remain normal verified PRs, never automatic version chasing. Targeted checks
    for active adoption, duplicate avoidance and closure are appropriate.
 3. Preserve one writer per task. Check source checkpoint207 and open PRs before
    claiming work. Use isolated task worktrees and normal additive commits/PRs;
@@ -60,3 +62,12 @@
     file issues first. Reusable original-C bugs go first to neo-angband-tracker
     with evidence/source coordination; after source fix, adopt separately here.
     Design suggestions are not automatically bugs or authorised new strategies.
+
+15. Every natural death gets a curated docs/deaths dossier with exact actual
+    source/patch/build/binary/data/tool/option/seed identity, native log/snapshot
+    evidence, evaluation, diagnosis confidence and linked action items. Never
+    relabel an old death with a later build. Repeat/reference attempts stay
+    explicit and do not inflate independent counts. Aggregate canonical actions
+    and causes; full runs/saves/build outputs stay ignored outside Git. Selected
+    dossier logs/snapshots are owner-requested curated evidence. Reusable
+    original-C defects still go to the source tracker before fix/carry.

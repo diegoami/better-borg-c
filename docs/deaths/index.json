@@ -1,0 +1,43 @@
+{
+  "actions": [
+    {
+      "cases": [
+        "D0001"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/22",
+      "key": "defend-speed-eligibility",
+      "status": "investigate before changing policy",
+      "summary": "Observe actual existing speed-defense eligibility and p1/p2 in the pre-fight state"
+    },
+    {
+      "cases": [
+        "D0001"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/22",
+      "key": "home-escape-stock",
+      "status": "investigate before changing policy",
+      "summary": "Trace last Home/town decisions and escape-stock constraints"
+    },
+    {
+      "cases": [
+        "D0001"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/22",
+      "key": "pristine-attribution",
+      "status": "completed: identical death/trace; does not establish a defect",
+      "summary": "Compare pristine upstream versus carried build"
+    }
+  ],
+  "cases": 1,
+  "causes_by_distinct_start": {
+    "a stegocentipede": 1
+  },
+  "death_process_attempts": 3,
+  "distinct_starting_conditions": 1,
+  "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
+  "schema": "better-borg-c/death-index@1",
+  "versions": {
+    "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3": 2,
+    "e473720ed88a0f0c7ca66815cef3000eb4a38bc3": 1
+  }
+}
