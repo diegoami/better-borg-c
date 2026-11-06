@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through eighteenth carries merged (2026-11-06)
+## Tenth through nineteenth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -204,7 +204,14 @@ fixture cases whole-log identical, merged v1 seeds unchanged.
 
 All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
-issues' verification comments. Queue: the demonstrated valuation pairs
-remain — activ-260 (PR308/309) and reserve-258 (PR318/319) — then recheck
+issues' verification comments. Queue: reserve-258 (PR318/319) remains demonstrated, then recheck
 source207 for newer demonstrations (source-ranked: 259/262/261) before
 low-priority 81 or discretionary death work.
+Consumer75/source260 (activ-260) merged as 5ea7baed6 (PR76, import
+7323c8df, patch 0019): the ACID_BOLT3 and DISP_ALL maneuvers looked up the
+lesser bolt's and dispel-undead's ids, so the greater-bolt and
+all-monsters-dispel items were never considered; the two-token import
+layers onto borg-fight-attack.c (the acid id's duplicate occurrence
+targeted by case context) and verifies on the unchanged fixture (miswired
+bolt3 0->52 fail-before/pass-after, lesser-bolt control byte-identical),
+83 prior cases whole-log identical, merged v1 seeds unchanged.
