@@ -53,3 +53,10 @@
     continues independent carries. Do not wait for independent review per PR.
     Assemble a linked change/evidence milestone for later external review; never
     represent that external review as already done. Other gates still apply.
+
+14. Bugs always take priority, carried or not. A ready carry or concrete bug
+    investigation pre-empts discretionary death/replay infrastructure or batches.
+    Deaths, causes and living saves are evidence; validate replay, diagnose and
+    file issues first. Reusable original-C bugs go first to neo-angband-tracker
+    with evidence/source coordination; after source fix, adopt separately here.
+    Design suggestions are not automatically bugs or authorised new strategies.

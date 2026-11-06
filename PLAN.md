@@ -68,3 +68,19 @@ every change, source/applied/merged pin, controlled result, gameplay comparison,
 failed attempt and limitation in one review package. External review happens at
 that milestone; it is not fabricated or required before each internal merge.
 No official Angband posting or other standing exclusion is changed.
+
+## Bugs first; death-driven issues when the bug queue permits (2026-11-06)
+
+Bugs always take priority, carried or not: integrate ready verified fixes and
+investigate concrete original/product defects before discretionary death tooling
+or exploratory batches. New original-C bugs go first to neo-angband-tracker,
+coordinated with source207; source fix/proposal first, then linked native consumer
+carry and measurement. Do not race the source writer or silently fix only here.
+
+When no higher-priority bug task can progress, follow
+docs/measurement/DEATH-ANALYSIS-PLAN.md: record natural deaths/causes and living
+saves, try validated short pre-death windows, diagnose against native code and
+file evidence-backed issues before improvements. Seed replay from the original
+start precedes claims of faithful checkpoint continuation. The existing frozen
+cohort remains immutable; new exploration has prospective limits and full failure
+accounting. New strategy suggestions remain issue proposals, not implementations.

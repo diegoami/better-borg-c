@@ -28,3 +28,10 @@ Owner instruction (2026-11-06): merge verified PRs after agent evidence review
 and required checks, measure impact and keep going. Independent/external review
 is deferred to a milestone covering accumulated changes and evidence. Do not
 reintroduce a per-PR independent-review stop. Follow PLAN.md and RULES13.
+
+Owner priority (2026-11-06): bugs always first, carried or not. Carry verified
+fixes and investigate real defects before discretionary death analysis. When
+that queue permits, follow docs/measurement/DEATH-ANALYSIS-PLAN.md: record deaths,
+causes and living saves; qualify pre-death replay; raise evidence-backed issues
+before changes. Original-C discoveries go to neo-angband-tracker first, then
+source fix and separate consumer carry. No per-PR external-review stop.
