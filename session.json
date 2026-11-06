@@ -50,7 +50,8 @@
     "owner_priorities": {
       "survival_stock_proposal": "https://github.com/diegoami/better-borg-c/issues/41",
       "early_exposure_investigation": "https://github.com/diegoami/better-borg-c/issues/34"
-    }
+    },
+    "comment_check_cadence": "Each active session start and stop: new/edited comments on per-case investigations and linked open action issues; receipt/follow-up on checkpoint1; not unattended background processing"
   },
   "donor_review": {
     "issue": "https://github.com/diegoami/better-borg-c/issues/24",

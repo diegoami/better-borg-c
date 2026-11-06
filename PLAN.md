@@ -122,3 +122,9 @@ crowd exposure too early (investigation34). Inspect departure stock/consumption,
 restock/retreat and knowledge before entry, not just the terminal inventory.
 Existing-rule bugs first, canonical source207 routing before fix/carry; broader
 policy changes remain evidence-backed proposals rather than arbitrary thresholds.
+
+Owner confirms comment processing as ongoing work: read new/edited death and
+linked action comments at every active-session start and stop, record the read
+receipt/follow-up on checkpoint1, and respond through the existing action/finding
+process. This does not claim background execution between sessions or expand
+the weekly metadata inventory into autonomous gameplay policy changes.

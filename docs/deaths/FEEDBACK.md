@@ -23,6 +23,21 @@ Different builds and replay attempts keep their own identities. A terminal
 picture alone does not prove how it entered the situation or whether a proposed
 escape would work.
 
+## When comments are checked
+
+The consumer agent checks new or edited comments on every case investigation
+and its linked open action issues at the start of each active work session and
+before stopping. The checkpoint records which threads/latest comment IDs were
+read and what needs follow-up. New owner comments receive an acknowledgement,
+evidence triage and an action/finding link; acknowledgement does not mean the
+underlying investigation is complete. Agent-generated receipts are not new
+owner requests and do not require repeated replies.
+
+This is part of active work. There is no unattended comment-processing agent
+running between sessions. The weekly GitHub donor inventory collects fork
+metadata; it does not analyze death comments. A new confirmed or credible bug
+takes priority under the existing bug-first policy.
+
 ## From comment to action
 
 1. **Record.** Keep the original GitHub comment. Chat feedback is copied to the
