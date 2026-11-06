@@ -24,6 +24,7 @@ def main():
     parser.add_argument('--cohort', type=Path, default=ROOT / 'docs/measurement/cohort-v1.json')
     args = parser.parse_args()
     config = json.loads(args.cohort.read_text())
+    args.output = args.output.resolve()
     args.output.mkdir(parents=True, exist_ok=False)
     repetitions = config[args.phase + '_repetitions_per_seed']
     report = {'cohort': config, 'cohort_sha256': measurement.sha(args.cohort), 'phase': args.phase,
