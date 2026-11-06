@@ -137,3 +137,7 @@ the genuinely adjacent-target control stays unchanged.
 The twenty-eighth carry bounds out-of-light glow collection to the
 1536-entry arrays (consumer #102/source #311). The overflowing write is
 gone; the thousand-grid control stays unchanged.
+
+The twenty-ninth carry counts an artifact's light modifier only once
+(consumer #105/source #238). The Phial reports 4 rather than 8; the
+flag-based Wooden Torch control stays unchanged at 2.
