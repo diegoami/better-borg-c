@@ -73,10 +73,10 @@
   "impact_milestone_v2": "https://github.com/diegoami/better-borg-c/milestone/2",
   "external_review_package_v2": "https://github.com/diegoami/better-borg-c/issues/38",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/78",
-    "branch": "task/carry-reserve-bolt",
-    "worktree": ".worktrees/reserve-bolt",
-    "state": "merged-c7f5b5758-carried-open-patch-active",
-    "instructions": "docs/measurement/RESERVE-BOLT.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/81",
+    "branch": "task/carry-dispel-reserve",
+    "worktree": ".worktrees/dispel-reserve",
+    "state": "merged-0c52dee46-carried-open-patch-active",
+    "instructions": "docs/measurement/DISPEL-RESERVE.md"
   }
 }
