@@ -1,0 +1,30 @@
+From 253ab11468bd91f47f2a458ecc3f333a00eaa677 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 23:00:37 +0100
+Subject: [PATCH] Borg: release the calculation pointer array on free
+
+calculations_free() reset the calculation count to zero but retained
+the backing pointer array.  borg_array_add() allocates a new array
+whenever the count is zero, so reloading the dynamic formulas - as a
+borg reinitialize does - overwrote the retained pointer and lost the
+previous allocation.  Free the array and clear the pointer and bound
+so the reload starts from a clean empty array.
+
+diff --git a/src/borg/borg-formulas-calc.c b/src/borg/borg-formulas-calc.c
+index ca7a0c261..d60e43ae6 100644
+--- a/src/borg/borg-formulas-calc.c
++++ b/src/borg/borg-formulas-calc.c
+@@ -706,6 +706,13 @@ void calculations_free(void)
+         calc_free(calculations.items[i]);
+         calculations.items[i] = NULL;
+     }
++    /* Release the backing pointer array as well: borg_array_add()
++     * allocates a fresh array whenever the count is zero, so a retained
++     * pointer here would be overwritten - and leaked - by the next
++     * parse after a reload. */
++    mem_free(calculations.items);
++    calculations.items = NULL;
++    calculations.max   = 0;
+     calculations.count = 0;
+ }
+ 

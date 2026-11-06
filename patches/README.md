@@ -125,3 +125,7 @@ unchanged.
 The twenty-fifth carry terminates multibyte screen text within its
 character limit (consumer #93/source #287). The full 81-byte text is
 terminated; the 80-byte ASCII control stays unchanged.
+
+The twenty-sixth carry releases the calculation pointer array on free so
+reload cannot overwrite and leak it (consumer #96/source #325). Reload
+still evaluates to 7; the single-parse control stays unchanged.
