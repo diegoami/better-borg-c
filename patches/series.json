@@ -1,5 +1,27 @@
 {
   "schema": "better-borg-c/patch-series@1",
   "baseline": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3",
-  "patches": []
+  "patches": [
+    {
+      "id": "CBUG-0066",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/4",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/82",
+      "source_head": "ebcd255ba9064fc44a35d693f42f9df3dc00bd88",
+      "source_commits": [
+        "66e1012113fd7db634b19ffe86a470b58a7f7967",
+        "017ba47ebc8731fa0a61361a6f6777759a748d2a",
+        "ebcd255ba9064fc44a35d693f42f9df3dc00bd88"
+      ],
+      "applied_commits": [
+        "9c10b9b6a475b452c854bd480d87d06ad8226d1b",
+        "5aeae57a3484d6c5bb593fcccbf1cabd480728d7",
+        "39986cc52f3f70727ada24b6def5de98d0bd36c8"
+      ],
+      "patch": "patches/0001-safer-emergency-swap.patch",
+      "patch_active": true,
+      "evidence_ref": "1b67370d0dc56d9b7ef34e5356e63d21a7095545",
+      "verification": "docs/measurement/SAFER-SWAP.md",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+    }
+  ]
 }

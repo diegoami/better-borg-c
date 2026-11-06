@@ -23,3 +23,8 @@ for each adopted bug. Watch/log long runs; do not kill another lane's gate.
 Post actual results and exact next action to the adoption issue and checkpoint
 at merge/stop. The owner explicitly started measurement and source82 adoption on 2026-11-06;
 follow PLAN.md and live ownership rather than auto-selecting a new gameplay queue.
+
+Owner instruction (2026-11-06): merge verified PRs after agent evidence review
+and required checks, measure impact and keep going. Independent/external review
+is deferred to a milestone covering accumulated changes and evidence. Do not
+reintroduce a per-PR independent-review stop. Follow PLAN.md and RULES13.
