@@ -38,6 +38,20 @@ running between sessions. The weekly GitHub donor inventory collects fork
 metadata; it does not analyze death comments. A new confirmed or credible bug
 takes priority under the existing bug-first policy.
 
+## Replay inspection windows
+
+Owner's current default offsets are **5,12,25,40,60,82,105 engine turns before
+death**, denser near the end. Ten is intentionally omitted from the new profile;
+older10/15/20 snapshots remain historical evidence. [Profile](window-profile-v2.json).
+These are engine turns, not Borg decisions, energy or wall seconds. Capture the
+actual native phase/state and require a matching original-start prefix; do not
+interpolate or claim that every offset is a distinct player action.
+
+Follow important events earlier than105 with separately labeled anchors, such
+as the last escape item or entry into a crowd. Use the case's actual historical
+build/start/options, not the latest corrected Borg. Diagnostic window caps and
+replays are not additional independent survivors or a changed gameplay cohort.
+
 ## From comment to action
 
 1. **Record.** Keep the original GitHub comment. Chat feedback is copied to the

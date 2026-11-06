@@ -121,3 +121,30 @@ risk deserve investigation using only information available to the Borg then.
 This is a tracked owner observation/action, not yet a code defect, a new crowd
 threshold or a demonstrated alternative rescue. Findings will be replied to on34
 and reflected in assessment.json/aggregate. Original evidence/version unchanged.
+
+## Wider inspection requested by the owner
+
+Current default profile is **T−5/12/25/40/60/82/105 engine turns**, omitting10
+per the owner's correction. The original10/15/20 snapshots above remain legacy
+evidence, not part of this new profile. All added original-start replays match
+the original six-carry45eac63bd starting save and every prior observation.
+No current Borg fix is substituted into this old death.
+
+| Point | Actual turn | Actual HP | Native snapshot |
+| --- | --- | --- | --- |
+|T−5|20440|3|[snapshot](snapshots/T-minus-5.txt)|
+|T−12|20433|18|[snapshot](snapshots/T-minus-12.txt)|
+|T−25|20420|31|[snapshot](snapshots/T-minus-25.txt)|
+|T−40|20405|48|[snapshot](snapshots/T-minus-40.txt)|
+|T−60|20385|48|[snapshot](snapshots/T-minus-60.txt)|
+|T−82|20363|48|[snapshot](snapshots/T-minus-82.txt)|
+|T−105|20340|47|[snapshot](snapshots/T-minus-105.txt)|
+
+Separately labeled **entry anchor T−160**, turn20285/46HP, [snapshot](snapshots/T-minus-160.txt), precedes Phase Door20293 and the critical crowd observation20303. The105-turn default alone would miss that entry. Earlier knowledge/preparedness still needs investigation; no deliberate walking entry or causal rescue is inferred.
+
+The actor is still48/49HP at T−40 and31HP at T−25, then collapses to3HP by
+T−5. These are native tick-boundary observations, not interpolated command
+states or eight independent lives. Windows stop immediately after world-turn
+increment; healing/damage between nearby offsets may not align with Borg note
+boundaries. No post-death reload/Borg-memory continuation assumed. Full raw
+runs/saves/maps/metadata are preserved on the expanded-window receipt22/34.

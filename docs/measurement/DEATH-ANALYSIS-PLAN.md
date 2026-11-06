@@ -82,8 +82,11 @@ in the live measurement process were rejected by an actual full-length control.
 2. Prefer replay from the original recorded seed/start over assuming a mid-run
    save restores Borg memory. Replay the full unchanged life, fast-forwarding
    observation to the last window rather than changing gameplay or RNG draws.
-3. Initial targets are death engine-turn minus5/10/15/20; report the nearest
-   actually observable command boundary, phase and actual offset. Also retain
+3. Owner's wider default profile is death engine-turn minus5/12/25/40/60/82/105.
+   Ten is omitted per the owner's correction. Preserve older5/10/15/20 windows
+   as historical evidence rather than overwriting them. Add labeled event
+   anchors earlier than105 when needed to inspect entry, stock or retreat.
+   Report the actual observable boundary, phase and actual offset. Also retain
    the recent Borg decision tail. World turns, commands, energy and Borg-think
    calls are different units; do not label them interchangeably or manufacture
    distinct snapshots where several offsets share a boundary.

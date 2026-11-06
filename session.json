@@ -51,7 +51,17 @@
       "survival_stock_proposal": "https://github.com/diegoami/better-borg-c/issues/41",
       "early_exposure_investigation": "https://github.com/diegoami/better-borg-c/issues/34"
     },
-    "comment_check_cadence": "Each active session start and stop: new/edited comments on per-case investigations and linked open action issues; receipt/follow-up on checkpoint1; not unattended background processing"
+    "comment_check_cadence": "Each active session start and stop: new/edited comments on per-case investigations and linked open action issues; receipt/follow-up on checkpoint1; not unattended background processing",
+    "replay_profile": "docs/deaths/window-profile-v2.json",
+    "replay_offsets_engine_turns": [
+      5,
+      12,
+      25,
+      40,
+      60,
+      82,
+      105
+    ]
   },
   "donor_review": {
     "issue": "https://github.com/diegoami/better-borg-c/issues/24",

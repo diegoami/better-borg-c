@@ -22,6 +22,10 @@
     {
       "status": "observed",
       "summary": "Phase Door20293 precedes the critical crowd observation20303; subsequent Phase Door attempts end20323. Reconstruct walk/flow/descent versus teleport entry and prior monster knowledge, not assume deliberate walking into the crowd."
+    },
+    {
+      "status": "verified",
+      "summary": "Wider default5/12/25/40/60/82/105 (10 omitted) and entry anchor160 match original build/start/prior observations. At40beforedeath48HP,25before31HP,5before3HP; anchor precedes PhaseDoor20293/crowd20303. No entry-cause or rescue proven."
     }
   ],
   "actions": [
@@ -60,5 +64,28 @@
         "exposure-before-crowd"
       ]
     }
-  ]
+  ],
+  "inspection_profile": {
+    "profile": "../window-profile-v2.json",
+    "offsets_engine_turns": [
+      5,
+      12,
+      25,
+      40,
+      60,
+      82,
+      105
+    ],
+    "legacy_offsets_preserved": [
+      10,
+      15,
+      20
+    ],
+    "event_anchors": [
+      {
+        "offset_engine_turns": 160,
+        "reason": "Before PhaseDoor20293 and critical crowd20303"
+      }
+    ]
+  }
 }

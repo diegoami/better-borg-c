@@ -1,0 +1,92 @@
+[Exact selected original BORG observations173750..173950; no synthetic actions or substituted build]
+BORG 173754 # Tracking a monster 'soldier' at (10,16) from (10,15)
+BORG 173754 # Resting to recover HP/SP...
+BORG 173764 # Tracking a monster 'soldier' at (10,18) from (10,16)
+BORG 173764 # Resting to recover HP/SP...
+BORG 173774 # Tracking a monster 'soldier' at (10,19) from (10,18)
+BORG 173774 # Spent too long (108) on level, leaving.
+BORG 173774 # Looking for up stairs.  Going up.
+BORG 173774 # Bored but unable to flow to up stairs.
+BORG 173774 # no up stairs found, going down
+BORG 173774 # heading up (bored and unable to dive: 2 cure)
+BORG 173774 # Looking for up stairs.  Going up.
+BORG 173774 # Bored but unable to flow to up stairs.
+BORG 173774 # no up stairs found, going down
+BORG 173774 # Boosting bravery (1) from 39 to 78!
+BORG 173774 # heading up (bored and unable to dive: 2 cure)
+BORG 173774 # Looking for up stairs.  Going up.
+BORG 173774 # Bored but unable to flow to up stairs.
+BORG 173774 # no up stairs found, going down
+BORG 173774 # Boosting bravery (2) from 39 to 336!
+BORG 173774 # Flowing toward kill at cost 4
+BORG 173784 # Tracking a monster 'soldier' at (10,20) from (10,19)
+BORG 173784 # Loc:11,22 Dep:2 Lev:9 HP:39/84 SP:0/0 Danger:p=1
+BORG 173784 # Performing attack type 0 with value 1.
+BORG 173784 # Waiting for monster 'soldier' to approach.
+BORG 173794 # Tracking a monster 'soldier' at (11,21) from (10,20)
+BORG 173794 # Loc:11,22 Dep:2 Lev:9 HP:39/84 SP:0/0 Danger:p=41
+BORG 173794 # Safe to Phase. scary squares: 0
+BORG 173794 # Reading Scroll of Phase Door.
+BORG 173794 # Danger Level 3.1
+BORG 173804 # Tracking a monster 'soldier' at (11,20) from (11,21)
+BORG 173804 # Resting to recover HP/SP...
+BORG 173814 # Tracking a monster 'soldier' at (11,19) from (11,20)
+BORG 173814 # Resting to recover HP/SP...
+BORG 173824 # Tracking a monster 'soldier' at (11,18) from (11,19)
+BORG 173824 # Resting to recover HP/SP...
+BORG 173834 # Tracking a monster 'soldier' at (11,17) from (11,18)
+BORG 173834 # Spent too long (114) on level, leaving.
+BORG 173834 # heading up (bored and unable to dive: 2 cure)
+BORG 173834 # Looking for up stairs.  Going up.
+BORG 173834 # Bored but unable to flow to up stairs.
+BORG 173834 # no up stairs found, going down
+BORG 173834 # Boosting bravery (1) from 41 to 82!
+BORG 173834 # heading up (bored and unable to dive: 2 cure)
+BORG 173834 # Looking for up stairs.  Going up.
+BORG 173834 # Bored but unable to flow to up stairs.
+BORG 173834 # no up stairs found, going down
+BORG 173834 # Boosting bravery (2) from 41 to 336!
+BORG 173834 # Flowing toward kill at cost 4
+BORG 173844 # Tracking a monster 'soldier' at (11,16) from (11,17)
+BORG 173844 # Loc:10,14 Dep:2 Lev:9 HP:41/84 SP:0/0 Danger:p=1
+BORG 173844 # Performing attack type 0 with value 1.
+BORG 173844 # Waiting for monster 'soldier' to approach.
+BORG 173854 # Tracking a monster 'soldier' at (10,15) from (11,16)
+BORG 173854 # Loc:10,14 Dep:2 Lev:9 HP:41/84 SP:0/0 Danger:p=41
+BORG 173854 # Fleeing (failed to teleport)
+BORG 173854 # Leaving (failed to teleport)
+BORG 173854 # Performing attack type 1 with value 52.
+BORG 173854 # Facing soldier at (10,15) who has 22 Hit Points.
+BORG 173854 # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+BORG 173862 # MISS:the soldier (+)
+BORG 173862 # HIT:the soldier (+)
+BORG 173862 # HIT_BY:The soldier (+)
+BORG 173862 # MISS_BY:The soldier (+)
+BORG 173862 # MISS:the soldier (2)
+BORG 173862 # HIT:the soldier (2)
+BORG 173862 # HIT_BY:The soldier (3)
+BORG 173862 # MISS_BY:The soldier (3)
+BORG 173862 # Loc:10,14 Dep:2 Lev:9 HP:34/84 SP:0/0 Danger:p=41
+BORG 173862 # Reading Scroll of Deep Descent.
+BORG 173862 # Danger Level 3.4
+BORG 173872 # MISS_BY:The soldier (+)
+BORG 173872 # HIT_BY:The soldier (+)
+BORG 173872 # MISS_BY:The soldier (3)
+BORG 173872 # HIT_BY:The soldier (3)
+BORG 173872 # Loc:10,14 Dep:2 Lev:9 HP:32/84 SP:0/0 Danger:p=41
+BORG 173872 # Performing attack type 1 with value 52.
+BORG 173872 # Facing soldier at (10,15) who has 16 Hit Points.
+BORG 173872 # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+BORG 173875 # HIT:the soldier (+)
+BORG 173875 # KILL:the soldier (+)
+BORG 173875 # Forgetting a monster 'soldier' at (10,15)
+BORG 173875 # Creating an object 'Neutralize Poison' at (15,10)
+BORG 173875 # HIT:the soldier (2)
+BORG 173875 # KILL:the soldier (2)
+BORG 173875 # Flowing toward item at cost 1
+BORG 173875 # Walking onto and deleting a 'Neutralize Poison' at (10,15)
+BORG 173886 # Resting to recover HP/SP...
+BORG 173901 # FEELING_DANGER:7 (+)
+BORG 173901 # FEELING_DANGER:7 (1)
+BORG 173901 # Leaving (restock) restock phase door
+BORG 173901 # Resting to recover HP/SP...
