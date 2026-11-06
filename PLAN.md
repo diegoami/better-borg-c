@@ -128,3 +128,9 @@ linked action comments at every active-session start and stop, record the read
 receipt/follow-up on checkpoint1, and respond through the existing action/finding
 process. This does not claim background execution between sessions or expand
 the weekly metadata inventory into autonomous gameplay policy changes.
+
+Owner expands death inspection to5/12/25/40/60/82/105 engine-turn offsets,
+omitting10 from the new default. Preserve old windows. Add labeled earlier
+event anchors when entry/stock/retreat precedes105; qualify original-start
+prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
+No additional independent lives or selectively enlarged performance cohort.

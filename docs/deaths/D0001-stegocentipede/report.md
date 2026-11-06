@@ -165,3 +165,47 @@ Investigate restock/retreat continuation and reserves before the final encounter
 priority and diagnostic comparisons;22 tracks actual decisions. No policy or
 claimed scroll rescue is implemented from this terminal dump. Original raw
 record/build identity remains unchanged.
+
+## Wider inspection requested by the owner
+
+Default offsets now **T−5/12/25/40/60/82/105 engine turns**, omitting10 per the
+owner's correction. Existing10/15/20 windows above remain historical evidence.
+All added captures use this death's original337e50eb observed build/start/seed,
+not the current corrected Borg, and match every prior observation/start save.
+
+| Point | Actual turn | Actual HP | Depth | Native snapshot |
+| --- | --- | --- | --- | --- |
+|T−5|174857|21|12|[snapshot](snapshots/T-minus-5.txt)|
+|T−12|174850|30|12|[snapshot](snapshots/T-minus-12.txt)|
+|T−25|174837|51|12|[snapshot](snapshots/T-minus-25.txt)|
+|T−40|174822|78|12|[snapshot](snapshots/T-minus-40.txt)|
+|T−60|174802|84|12|[snapshot](snapshots/T-minus-60.txt)|
+|T−82|174780|84|12|[snapshot](snapshots/T-minus-82.txt)|
+|T−105|174757|84|12|[snapshot](snapshots/T-minus-105.txt)|
+
+Separately labeled earlier event anchors:
+
+- **Before last Phase Door, T−1072**: turn173790,HP39,depth2 — [snapshot](snapshots/T-minus-1072.txt).
+- **Before no-upstairs fallback, T−1032**: turn173830,HP40,depth2 — [snapshot](snapshots/T-minus-1032.txt).
+
+The actor was at depth2/max7 before this escape sequence. At173790 it carried
+one Phase Door and one Deep Descent with two empty pack slots. Last Phase Door
+read173794; repeated no-upstairs/downward fallback notes173774/173834;
+**Deep Descent read173862 at34/84HP, depth2**, followed by Danger Level3.4;
+restock173901. By174751 it is at depth12/max12 and84HP. Native Deep Descent
+uses a delayed destination below maximum depth (here7+5=12), explaining this
+transition. It is not evidence of simply walking down one level from11.
+[Exact earlier original observations](earlier-events.log) retain the sequence.
+
+The existing off-level escape routine explicitly prefers immediate Teleport
+Level before delayed Deep Descent. Investigate its actual eligibility/available
+resources and preparedness at the earlier danger, together with stock/unused
+Speed and restock/retreat. The delay is known in source comments; this trace
+alone is not an implementation-defect or rescue proof. [22](https://github.com/diegoami/better-borg-c/issues/22)
+and [41](https://github.com/diegoami/better-borg-c/issues/41) have the finding and
+action. No new tactic/threshold or baseline intervention is implemented.
+
+All snapshots are native world-tick boundaries, not interpolated player turns.
+A surviving diagnostic cap is not an independent life or a changed performance
+cohort. Original raw build/evidence and death attempts remain immutable; full
+new traces/saves/maps/results are in the wider-window recovery receipt on22/34.

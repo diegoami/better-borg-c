@@ -38,6 +38,15 @@
     },
     {
       "cases": [
+        "D0001"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/22",
+      "key": "deep-descent-escape-audit",
+      "status": "investigating recorded original-rule behavior; no defect established",
+      "summary": "Audit delayed Deep Descent escape from depth2/max7 and restock/preparedness before depth12"
+    },
+    {
+      "cases": [
         "D0002"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
