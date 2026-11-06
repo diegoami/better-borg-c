@@ -1,0 +1,51 @@
+From 7b4ecd6b888a1d87b526f273c769449eb013ad9b Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 20:20:55 +0100
+Subject: [PATCH] Borg: scan every monster in the reserve-bolt check, not just
+ the first
+
+The monster loop in borg_attack_aux_spell_bolt_reserve() broke at the
+first live monster, so near_monsters was at most one and the only be
+one near monster test never failed, while the too-many-hit-points veto
+applied to whatever monster came first in the kill list - a distant
+tough monster vetoed the emergency bolt for a nearby weak one.  Scan
+all monsters and apply the hit-points veto to the near ones it
+describes.
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 45c5d140a..4426d3204 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -2576,21 +2576,20 @@ static int borg_attack_aux_spell_bolt_reserve(
+          * There should only be one close monster.
+          * We do not want to risk fainting.
+          */
+-        if (d < 7)
++        if (d < 7) {
+             near_monsters++;
+ 
+-        /* If it has too many hp to be taken out with this */
+-        /* spell, don't bother trying */
+-        /* NOTE: the +4 is because the damage is toned down
+-                 as an 'average damage' */
+-        if (kill->power > (dam + 4))
+-            return 0;
+-
+-        /* Do not use it in town */
+-        if (borg.trait[BI_CDEPTH] == 0)
+-            return 0;
++            /* If it has too many hp to be taken out with this */
++            /* spell, don't bother trying */
++            /* NOTE: the +4 is because the damage is toned down
++                     as an 'average damage' */
++            if (kill->power > (dam + 4))
++                return 0;
+ 
+-        break;
++            /* Do not use it in town */
++            if (borg.trait[BI_CDEPTH] == 0)
++                return 0;
++        }
+     }
+ 
+     /* Should only be 1 near monster */
