@@ -58,6 +58,23 @@
       "evidence_ref": "a19c8733c0dfa8139b04eecd8117429ec5f55cd6",
       "verification": "docs/measurement/PREPARATION.md",
       "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+    },
+    {
+      "id": "CBUG-0004",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/17",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/26",
+      "source_head": "d504eb3d272ce96c0de2c00eba757a251b551334",
+      "source_commits": [
+        "d504eb3d272ce96c0de2c00eba757a251b551334"
+      ],
+      "applied_commits": [
+        "2827b28fc378cbba32aaab30163756b64dea36b0"
+      ],
+      "patch": "patches/0004-cold-melee-protection.patch",
+      "patch_active": true,
+      "evidence_ref": "b0b0fa2471a11e91838bcbc3d980f4b04f8c6b01",
+      "verification": "docs/measurement/COLD-PROTECTION.md",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
     }
   ]
 }
