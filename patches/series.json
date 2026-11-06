@@ -339,7 +339,7 @@
    "evidence_ref": "f0e856241",
    "verification": "docs/measurement/ACTIV-LOOKUP.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "pending: builds and product verification in progress"
+   "verification_status": "verified on task/carry-activ-lookup; awaiting normal PR merge"
   }
  ]
 }

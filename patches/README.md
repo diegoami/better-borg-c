@@ -93,3 +93,8 @@ The eighteenth carry guards queued detection reactions with panel bounds
 (consumer #72/source #290, priority high). A stale reaction after a level
 change to a one-panel-high cave no longer reads and writes past the
 detection arrays; the fresh-reaction control stays unchanged.
+
+The nineteenth carry looks up the activation ids the maneuvers describe
+(consumer #75/source #260). The greater acid bolt and all-monsters dispel
+items are considered; the correctly-wired lesser-bolt control stays
+unchanged.
