@@ -520,6 +520,24 @@
    "verification": "docs/measurement/LIGHT-MODIFIER.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-light-modifier; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0312",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/109",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/312",
+   "source_head": "d366ef4e75e40f17fb293135c05fa74524f2e184",
+   "source_commits": [
+    "d366ef4e75e40f17fb293135c05fa74524f2e184"
+   ],
+   "applied_commits": [
+    "dbdb5f7fa49963653abebfbce05537c502254c6f"
+   ],
+   "patch": "patches/0030-surrounded-trap-chain.patch",
+   "patch_active": true,
+   "evidence_ref": "44334c6f",
+   "verification": "docs/measurement/SURROUNDED-TRAPS.md",
+   "credit": "Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-surrounded-traps; awaiting normal PR merge"
   }
  ]
 }

@@ -141,3 +141,7 @@ gone; the thousand-grid control stays unchanged.
 The twenty-ninth carry counts an artifact's light modifier only once
 (consumer #105/source #238). The Phial reports 4 rather than 8; the
 flag-based Wooden Torch control stays unchanged at 2.
+
+The thirtieth carry makes the surrounded check's trap test part of its
+exclusive wall/floor chain (consumer #109/source #312). Trapped walls no
+longer count twice; the plain-wall control stays unchanged.
