@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through twenty-eighth carries merged (2026-11-07)
+## Tenth through twenty-ninth carries merged (2026-11-07)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -207,6 +207,13 @@ until upstream incorporation. Full stories in docs/measurement/ and the
 issues' verification comments. Queue: opblock-324 and calfree-323 (demonstrated low-priority leaks),
 then brand-240 and any newer demonstrations before low-priority 81 or
 discretionary death work.
+Consumer105/source238 (light-238, priority medium) merged as 958f9744b
+(PR107, import 497d9266, patch 0029): the equipment notice added an
+item's light modifier twice, making the Phial's LIGHT[4] bi_light=8; the
+correction drops the second addition. The unchanged fixture verifies 8->4
+with the stock Wooden Torch byte-identical at 2, 103 prior cases passing
+and merged v1 seeds unchanged. All twenty issues are
+carried/open+patch-active.
 Consumer102/source311 (glowoverflow-311, priority high) merged as
 9aee81138 (PR103, import 3cb61705, patch 0028): the out-of-light flow
 collected 1600 glowing grids into 1536-entry arrays, overflowing by 64;
