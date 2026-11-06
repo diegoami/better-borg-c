@@ -46,7 +46,12 @@ The ninth carry resets projectile classification for each monster spell
 (consumer #44/source #64). It preserves the source279 helper as a separate
 removal unit; real-blocker storm damage59->54 costs1scroll and remains a hit.
 
-The pending tenth carry bounds glyph removal after a failed creation
+The tenth carry bounds glyph removal after a failed creation
 (consumer #48/source #118). Source evidence demonstrates a later heap write;
-product verification currently reaches only the negative count, not that write.
-See docs/measurement/GLYPH-TRACKER.md. This task branch is not yet a verified carry.
+the unchanged evidence fixture only passed phaseB while pristine projection
+zeroed the mage's bolts at the caster's own grid, an eligibility the carried
+0008 fix removes. The tracked adapted scenario
+(tools/glyph-tracker-scenario.c, Uldor summoner at distance 2) verifies the
+real failure message, the -1 count, the defended creation and the
+heap-buffer-overflow WRITE on the actual product core; all 60 prior fixture
+cases stay whole-log identical. See docs/measurement/GLYPH-TRACKER.md.

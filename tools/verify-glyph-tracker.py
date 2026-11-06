@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
-"""Verify source118 with the unchanged native fixture and actual product cores.
+"""Verify source118 with an adapted native fixture and actual product cores.
+
+The evidence fixture's adjacent mage only passed phaseB while the pristine
+borg_projectable_pure() zeroed its bolts at the caster's own tracked grid;
+the carried caster-shot-origin fix (0008) counts those bolts, so a rune can
+no longer improve that danger and the unchanged fixture stalls at phaseB.
+The tracked adapted scenario replaces the threat with a glyph-viable
+speed-110 S_KIN summoner at distance 2 (see its header); phases, controls,
+assertions and thresholds are the evidence fixture's. The original failed
+attempt and fixture stay in artifacts/glyph/scenarios and
+docs/measurement/GLYPH-TRACKER.md.
 
 Run under the shared native lock after normal and fully ASan-instrumented core
 builds. Before-ASan replaces only the message object with the original source,
@@ -19,6 +29,7 @@ BEFORE = '19870e97d89afa4b302bdd9d27337ed617c97554'
 FIX = 'ec172531ec38fdd3ac2783d21e3faf6dc1e2b3f3'
 EVIDENCE = 'f1f53106526412cfe44fa01c73d00e7dbf4dbeed'
 PREFIX = 'docs/audit/c-reports/CBUG-0102/'
+ADAPTED = ROOT / 'tools/glyph-tracker-scenario.c'
 SOURCE = 'src/borg/borg-messages.c'
 MODES = ('stairs', 'clear-floor', 'pairing')
 ASAN_OPTIONS = 'detect_leaks=0:intercept_strcmp=0'
@@ -40,8 +51,8 @@ def main():
     (out / 'profile').mkdir()
     def read(ref, name):
         return subprocess.check_output(['git', 'show', ref + ':' + name], cwd=ROOT)
-    for name in ('scenario.c', 'borg.txt'):
-        (out / ('profile/borg.txt' if name == 'borg.txt' else name)).write_bytes(read(EVIDENCE, PREFIX + name))
+    (out / 'scenario.c').write_bytes(ADAPTED.read_bytes())
+    (out / 'profile/borg.txt').write_bytes(read(EVIDENCE, PREFIX + 'borg.txt'))
     before, build, asan = args.before_build.resolve(), args.product_build.resolve(), args.asan_build.resolve()
     assert (ROOT / SOURCE).read_bytes() == read(FIX, SOURCE)
     assert (before.parents[1] / SOURCE).read_bytes() == read(BEFORE, SOURCE)
@@ -59,7 +70,11 @@ def main():
     compile_command = ['cc', *tokens, '-I' + str(ROOT / 'src/borg'), '-c', str(old_source), '-o', str(old_object)]
     with (out / 'before-asan-compile.log').open('w') as log:
         subprocess.run(compile_command, stdout=log, stderr=subprocess.STDOUT, check=True)
-    report = {'fixture_commit': EVIDENCE, 'fixture_sha256': sha(out / 'scenario.c'), 'fix': FIX,
+    report = {'scenario_source': 'tools/glyph-tracker-scenario.c',
+              'scenario_sha256': sha(out / 'scenario.c'),
+              'original_fixture_commit': EVIDENCE,
+              'original_fixture_sha256': hashlib.sha256(read(EVIDENCE, PREFIX + 'scenario.c')).hexdigest(),
+              'profile_commit': EVIDENCE, 'fix': FIX,
               'before_commit': BEFORE, 'before_native_gate': before_gate,
               'before_binary_sha256': sha(before / 'game/angband'),
               'product_commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),

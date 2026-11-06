@@ -177,7 +177,7 @@
       "evidence_ref": "f1f53106526412cfe44fa01c73d00e7dbf4dbeed",
       "verification": "docs/measurement/GLYPH-TRACKER.md",
       "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-      "verification_status": "pending: product fixture does not reach phaseB; not yet carried"
+      "verification_status": "verified on task/carry-glyph-tracker with the adapted scenario; awaiting normal PR merge"
     }
   ]
 }

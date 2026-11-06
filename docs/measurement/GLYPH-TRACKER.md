@@ -1,62 +1,129 @@
-# Glyph tracker carry: verification in progress
+# Glyph tracker carry: verified product scenario, ready for adoption
 
-Owner-requested stop/handover, 2026-11-06. Consumer [48](https://github.com/diegoami/better-borg-c/issues/48), canonical source [118](https://github.com/diegoami/neo-angband-tracker/issues/118). **Not merged, not yet carried, product scenario unverified.**
+Consumer [48](https://github.com/diegoami/better-borg-c/issues/48), canonical
+source [118](https://github.com/diegoami/neo-angband-tracker/issues/118)
+(CBUG-0102). Fix applied as `40b002da088ac48e7c1322aca2159e22c593fd73`
+(import of source PR283 `ec172531ec38fdd3ac2783d21e3faf6dc1e2b3f3`, patch
+`patches/0010-glyph-tracker-guard.patch`). This branch verifies the fix on
+the actual product core; merge follows the normal review/checks policy.
 
-## Pins and priority
+## Pins
 
-Main is `19870e97d89afa4b302bdd9d27337ed617c97554`, containing nine verified carries. Its last runtime measurement pin is `cf53f9b195d297f9f8b1fb61df3b6c1aff7311c6`; wider-window PR47 changes documentation/evidence. Official Angband master was checked this session and remains immutable baseline `e473720ed88a0f0c7ca66815cef3000eb4a38bc3`.
+Before build: nine-carry `19870e97d89afa4b302bdd9d27337ed617c97554`
+(retained product tree `../per-spell`, gate 965/965 unit + 5/5 frontend,
+binary SHA256 `e2ce175441e34bf071e4daf848543d6568a4b384d2dc30f1cb95492eaabbd689`).
+Product core: binary SHA256
+`4b66e88cd5f6a2b69637121dd0f214610474bff3e3553a52b014586e65f01474` —
+identical in the first failed attempt, this verification and the ASan build,
+proving no source drift since `40b002da`. Official Angband master was checked
+this cycle and remains immutable baseline `e473720ed88a0f0c7ca66815cef3000eb4a38bc3`.
+The fixed message module SHA256 is
+`3189a4b646b8f7db4df82c88302acba015a4333332c995b8f367f7062cbafd69`; pristine
+`e473720` + `patches/0010` reproduces it exactly (round trip re-verified
+2026-11-06).
 
-This high-priority memory-safety defect pre-empted the Enlightenment source81 candidate. Source evidence demonstrates a real failed Rune scroll message making the tracked glyph count negative, followed by a later creation writing before the heap arrays. Import source PR283 commit `ec172531ec38fdd3ac2783d21e3faf6dc1e2b3f3`, cherry-picked with provenance as `40b002da088ac48e7c1322aca2159e22c593fd73`. Source195 is consolidated into118. The fixed message module SHA256 is `3189a4b646b8f7db4df82c88302acba015a4333332c995b8f367f7062cbafd69`.
+## Why the original product attempt failed (measured, not assumed)
 
-Unchanged fixture/profile pin `f1f53106526412cfe44fa01c73d00e7dbf4dbeed`, path `docs/audit/c-reports/CBUG-0102/`; source evidence head `fb2e547397c85855be53ba1bf80eeb413a96f125`, source PR284. Credit: borg-rs lead, Diego native validation/proposal. Do not modify the independent source worktree.
+The unchanged source fixture (`f1f53106526412cfe44fa01c73d00e7dbf4dbeed`,
+source PR284) stalled at phaseB: `DANGER phaseB p1=266 p2=266`, both builds,
+`DECISION phaseB acted=0 keys=0`, all three modes. A diagnostic observer
+(`artifacts/glyph/diag-phaseb`, product objects, same state) decomposed the
+danger with `borg_danger_one_kill` per-spell windows:
 
-## Actual product attempt and unresolved failure
+- Physical `v1 = 56`; spell `v2 = 266 = 121 × 2.2` (level-4 friends
+  multiplier on `friends_base`), where **121 is a single BO_FIRE** (40 fear +
+  81 damage) and the glyph-sensitive `S_MONSTER` contributes only 70
+  (spell_power 28 × 5 / spot_safe 2; the vacated doorway still counts as a
+  protected grid). `full_damage` is forced in `borg_danger`, so no frequency
+  reduction applies; speeds 110/110 give q=10 and no speed boost.
+- `borg_defend_aux_glyph` requires `p1 > p2 && p2 <= avoidance/2 (90) &&
+  p1 > avoidance/7`. A rune does not stop ranged bolts, so with correct
+  projection the glyph cannot reduce this danger: the refusal is the Borg's
+  honest heuristic, not a defect.
+- **The evidence fixture only ever passed phaseB because pristine
+  `borg_projectable_pure()` broke at the caster's own tracked grid**,
+  zeroing all bolt damage. The carried caster-shot-origin fix
+  (`patches/0008`, consumer 40) corrected exactly that, so the unchanged
+  fixture is inapplicable to the nine-carry product. Confirmed by
+  measurement: the S_MONSTER-only window reproduces the source evidence's
+  numbers exactly (no-glyph 154 = 70×2.2 with bolts zeroed; glyphed
+  max-remaining 40 = BO_FIRE fear → 88), matching the recorded
+  `p1=154 p2=88` pass. The per-spell carry (0009) does not change this
+  scenario; the before and product builds behave identically here.
 
-Task worktree `.worktrees/glyph-tracker`, branch `task/carry-glyph-tracker`. At applied commit40b002da the normal native gate passed **965/965 units and5/5 frontend**, recorded in `artifacts/native/result.json`; full ASan core/helper build also completed. Neither proves the scenario passes. Tooling tests and prior60 native fixture cases have not been run for this carry.
+The original failed attempt, its 12 processes, object/binary hashes and the
+ignored archive (`artifacts/glyph-stop/glyph-unverified-evidence.tar.gz`,
+SHA256 `f8e110e0659be22ce90d595cefaba1b92a25e9861d4e560d5356c2edee6fd196`,
+28 members) are retained unchanged under `artifacts/glyph/scenarios`.
 
-`tools/verify-glyph-tracker.py` is unfinished. Its first run exited1 at the assertion requiring the corrected normal `stairs` case to pass. All12 processes were captured before assertion failure; `artifacts/glyph/scenarios/result.json` correctly says `verified:false`. Do not delete/overwrite this attempt or weaken its assertions to obtain green.
+## Adapted scenario and why it is legitimate
 
-Observed normal and ASan behavior:
+`tools/glyph-tracker-scenario.c` is the evidence fixture with one functional
+change: the adjacent `mage` threat becomes **Uldor the Accursed at distance
+2** — a visible, non-friends, speed-110 unique whose only ranged spell is
+`S_KIN` (no damaging spells, no SHAPECHANGE, invisible-base families like
+quylthulgs excluded). At distance 2 with q=10 his physical danger is zeroed
+(`q == 10 && d > 1`), so the glyph-sensitive summon dominates legitimately:
+measured `p1=147 p2=63`, inside the unique-adjusted gate
+(`63 <= 120`, `147 > 25`). Every phase, control, mode, intervention,
+assertion and threshold is byte-for-byte the evidence fixture's; no game
+rule changed. The emergency phaseA read, the real
+"There is no clear floor on which to cast the spell." message, the real
+terminal scrape and the defended creation path are unchanged.
 
-- All three modes (`stairs`, `clear-floor`, `pairing`) exit0 but report0/1 passed. The native test executable's exit status alone is insufficient.
-- `stairs` really uses an open doorway, not stairs. The actual engine emits “There is no clear floor on which to cast the spell.” Native message scraping makes phaseA count−1 before versus0 after.
-- In phaseB both builds report danger266/266, avoidance180, and `DECISION phaseB acted=0 keys=0`; both fail `requirement 'defended'`. Thus no later glyph creation and **no target ASan write report in this product attempt**.
-- `clear-floor` reports phaseB308/266 and also declines; `pairing` likewise. Both controls' full normal logs are byte-identical before/after, but both fail their required action, so they are not passing controls.
+## Verified results (`artifacts/glyph/adapted`, 2026-11-06)
 
-Hypothesis to investigate, not established: previously carried caster-origin/per-spell danger corrections affect source fixture eligibility. Inspect existing guards and compare with source evidence. Preserve the original fixture and avoid synthetic negative counts/messages or arbitrary threshold changes. Any separately adapted product scenario must explain its applicability and retain the original failed attempt.
-
-The fixture declares interventions: phaseB grants another known Rune scroll and relocates the actor to clear floor; this is a bounded native producer/parser scenario, not autonomous reachability or a natural death/frequency claim. ASan uses `detect_leaks=0:intercept_strcmp=0`, matching source proof to avoid an unrelated name-initialization interceptor report; disclose this scope. The target heap write is compiler-instrumented. Do not claim a dedicated full-list natural scenario.
-
-## Reproduction and evidence recovery
-
-From the repository root, inspect the failed attempt without executing a new batch:
+Command (under `/tmp/angband-validation.lock`):
 
 ```sh
-cd .worktrees/glyph-tracker
-cat artifacts/glyph/scenarios/normal-after-stairs.log
-cat artifacts/glyph/scenarios/normal-after-clear-floor.log
-cat artifacts/glyph/scenarios/normal-after-pairing.log
-tail -35 artifacts/glyph/scenarios.log
-```
-
-Original command (already executed; output directory must remain intact):
-
-```sh
-flock /tmp/angband-validation.lock python3 tools/verify-glyph-tracker.py \
+python3 tools/verify-glyph-tracker.py \
   --before-build ../per-spell/build/native \
-  --output artifacts/glyph/scenarios
+  --output artifacts/glyph/adapted
 ```
 
-Use a new output directory for a justified rerun. Before normal core is the retained per-spell product build; the runner proves its recorded source/build inputs match logical before19870. Before ASan replaces only the message object in the fully instrumented after core with a separately instrumented original message object. All link commands, object/binary hashes and stdout are recorded in result.json. Normal sources/objects were not modified for that comparison.
+- normal-before `stairs`: exit 0, 0/1, `phaseA num=-1`, `phaseB num=0`,
+  `num_final=0`, glyph created on the native grid.
+- normal-after `stairs`: exit 0, 1/1, `0 / 1 / 1`; DECISION lines identical
+  before/after.
+- `clear-floor` and `pairing` controls: 1/1 on every phase, byte-identical
+  logs before/after (identical SHA256 pairs in `result.json`).
+- asan-before `stairs`: exit 1, **heap-buffer-overflow WRITE of size 4** in
+  `borg_defend_aux_glyph` (`borg-fight-defend.c:1607`), allocation stack
+  `borg_init_track`/`borg_init_flow_glyph`; controls clean.
+- asan-after: all three modes 1/1, no sanitizer report.
+- `result.json` records `verified: true` with all commands, binary/object
+  hashes and the adapted/original fixture SHA256s.
 
-Ignored archive `artifacts/glyph-stop/glyph-unverified-evidence.tar.gz` contains28 log/JSON/fixture/profile members,95,685bytes, SHA256 `f8e110e0659be22ce90d595cefaba1b92a25e9861d4e560d5356c2edee6fd196`. Adjacent `manifest.json`, `SHA256SUMS` and `RECOVERY.md` describe archive/per-member verification; archive contents were read back and checked. This is a local non-/tmp recovery copy, **not an off-machine backup**. Binaries/objects remain in the task worktree; full build trees/runs/saves remain outside Git. No owned long job is running at handover.
+Regression matrix (`artifacts/glyph-carry/regression.py`): all **60 prior
+native fixture cases re-run against this core are whole-log identical** to
+the nine-carry baselines — 49 older cases (swap 9, knockout 4, preparation
+9, cold-protection 6, rings 7, potion-timing 9, itangast 5), 6 source279
+shot-path cases, 5 source64 per-spell cases. 60 cumulative fixture cases,
+not 60 independent encounters. Tooling 29/29. The normal gate at this core
+(965/965 + 5/5) is the recorded `40b002da` run in `artifacts/native`; the
+exact-head hosted check on the PR covers the branch tip (docs/tools only
+beyond the verified core).
+
+## Scope and limits
+
+Bounded native producer/parser scenario, not autonomous reachability or a
+natural death/frequency claim. ASan runs use
+`detect_leaks=0:intercept_strcmp=0` (unrelated pristine name-sort strcmp
+overread, disclosed in the source evidence); the tracked write is
+compiler-instrumented. The diagnostic observer temporarily windows the
+in-memory `borg_kills` spell list (always restored) and toggles
+`borg_on_glyph`; no product source or persistent state is modified. Danger
+figures are the Borg's heuristic, not HP predictions. The failed original
+attempt is retained; nothing was weakened to obtain green.
 
 ## Exact next work
 
-1. Read latest consumer1/source207/parent7 and live issue48 ownership; inspect this branch and failed logs before editing. Recheck official master during resumed integration.
-2. Trace why actual product phaseB refuses the action. Resolve scenario applicability honestly, preserving original failure and controls; demonstrate actual product fail-before/pass-after and target ASan write before/absence after, without changing game rules.
-3. Verify patch round trip, tooling tests, and all60 prior native fixture cases against the new core, comparing source279 controls with the nine-carry logs (the prior per-spell carry intentionally changed one mixed-storm result). Normal gate already passes at40b; repeat only if new changes/check requirements justify it.
-4. Publish a normal adoption PR; agent evidence review and required checks, then normal merge. No per-PR independent review stop. Only then mark48 carried/open+patch-active and measure actual merged build against unchanged v1 seeds11/29/47, cap20000/wall120/stall30. Keep every failure and all outcomes; starting pairs do not imply identical later encounters.
-5. Record actual results/limits/next action on48, source118 and checkpoints1/7. Recheck newly ready source67 medium-priority skip-list correction before low-priority81 or discretionary death work; inspect live readiness rather than assuming it remains ready.
-
-Death feedback check at stop found no new owner feedback on22/34/41 beyond own receipts6686739352/6686739875/6686740236. Existing two cases/two starts/eight death attempts retain original builds. Default replay offsets remain5/12/25/40/60/82/105, omit10; historical10/15/20 remain evidence. Mandos was given a copyable prompt in chat, not messaged. Milestone2/package38 remains an immutable earlier snapshot with later linked follow-ups; external review has not happened.
+1. PR from `task/carry-glyph-tracker`, agent evidence review plus required
+   hosted checks, then normal merge (no per-PR external review stop).
+2. On merged main: measure actual frozen v1 seeds 11/29/47, cap 20000,
+   wall 120, stall 30; keep all outcomes.
+3. Mark 48 carried/open+patch-active; post the Verification section with
+   actual numbers; reply on source 118; checkpoint receipts on issue 1.
+   Evidence archive with manifest under `artifacts/glyph-carry/`.
+4. Then recheck live source67 readiness (medium-priority skip-list
+   correction) before low-priority 81 or discretionary death work.
