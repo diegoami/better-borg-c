@@ -32,3 +32,7 @@ controls; ring readiness and right-hand preference stay unchanged.
 The sixth carry corrects the elapsed-time and first-use conditions for CCW
 hesitation (consumer #31/source #77). Recent-drink conservation can leave an
 injury untreated on that call; preserve that counterexample and emergency bypass.
+
+The seventh carry matches the complete unseen pronoun It, keeping visible
+Itangast recognized (consumer #36/source #102). Four true-unseen/ogre controls
+remain unchanged; measured benefit is one potion, not combat or survival.

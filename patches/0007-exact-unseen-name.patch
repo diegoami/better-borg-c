@@ -1,0 +1,25 @@
+From cad765806eed6431642ab02b53240d7938470c21 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Fri, 6 Nov 2026 11:27:13 +0000
+Subject: [PATCH] Match the complete unseen-monster pronoun
+
+---
+ src/borg/borg-flow-kill.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-flow-kill.c b/src/borg/borg-flow-kill.c
+index 0c347c5ad..53e26ab0d 100644
+--- a/src/borg/borg-flow-kill.c
++++ b/src/borg/borg-flow-kill.c
+@@ -1287,7 +1287,7 @@ int borg_locate_kill(char *who, struct loc c, int r)
+ 
+     /* Handle invisible monsters */
+     if (my_strnicmp(who, "Something", 9) == 0
+-        || my_strnicmp(who, "It", 2) == 0) {
++        || my_stricmp(who, "It") == 0) {
+         /* Note */
+         borg_note("# Invisible monster nearby.");
+         /* if I can, cast detect inviso--time stamp it
+-- 
+2.53.0
+
