@@ -36,6 +36,8 @@ class Review(unittest.TestCase):
                 return [{'type': 'file', 'name': 'borg.c', 'sha': 'new' if changed and 'candidate/game' in path else 'same'}]
             if '/commits?' in path:
                 return [{'sha': 'last', 'commit': {'author': {'date': 'date'}}}]
+            if path.startswith('repos/angband/angband/pulls?'):
+                return []
             if path.startswith('search/issues'):
                 return {'items': [{'title': 'Fix | text\nnot instructions', 'html_url': 'https://github.com/angband/angband/pull/1', 'number': 1}]}
             raise AssertionError(path)
@@ -71,6 +73,25 @@ class Review(unittest.TestCase):
         self.assertNotIn('@someone', value)
         self.assertIn('\\[label\\]', value)
         self.assertNotIn('\n', value)
+
+    def test_api_types_override_search_query_and_open_prs_are_read_directly(self):
+        fallback, _ = self.transport()
+        def get(path, optional=False):
+            if path.startswith('search/issues'):
+                return {'items': [
+                    {'title': 'Borg death issue', 'html_url': 'https://github.com/angband/angband/issues/6515', 'number': 6515},
+                    {'title': 'Borg reset PR', 'html_url': 'https://github.com/angband/angband/pull/6808', 'number': 6808,
+                     'pull_request': {'url': 'https://api.github.com/repos/angband/angband/pulls/6808'}}]}
+            if path.startswith('repos/angband/angband/pulls?'):
+                return [{'title': 'Borg swap PR', 'html_url': 'https://github.com/angband/angband/pull/6809', 'number': 6809, 'body': ''}]
+            return fallback(path, optional)
+        r = review.collect(1, get)
+        self.assertEqual({x['number'] for x in r['official_borg_prs']}, {6808, 6809})
+        self.assertEqual([x['number'] for x in r['official_borg_issues']], [6515])
+        text = review.markdown(r)
+        pr_section = text.split('### Open official Borg PR leads')[1].split('### Open official Borg issue leads')[0]
+        self.assertNotIn('/issues/6515', pr_section)
+        self.assertIn('/pull/6809', pr_section)
 
     def test_read_failure_remains_partial(self):
         get, _ = self.transport(broken=True)
