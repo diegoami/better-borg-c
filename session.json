@@ -24,5 +24,9 @@
     "external_review": "At an accumulated change/evidence milestone; not a per-PR prerequisite"
   },
   "impact_milestone": "https://github.com/diegoami/better-borg-c/milestone/1",
-  "external_review_package": "https://github.com/diegoami/better-borg-c/issues/11"
+  "external_review_package": "https://github.com/diegoami/better-borg-c/issues/11",
+  "priority_policy": "Bugs first, carried or not; verified carries/concrete defect investigations pre-empt discretionary death-analysis work",
+  "death_analysis_plan": "docs/measurement/DEATH-ANALYSIS-PLAN.md",
+  "death_analysis_issue": "https://github.com/diegoami/better-borg-c/issues/13",
+  "original_c_discovery_flow": "Evidence/duplicate/ownership check -> neo-angband-tracker issue and source fix -> separate consumer adoption/measurement"
 }
