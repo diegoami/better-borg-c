@@ -60,6 +60,12 @@ It stops if a backup fails. Run
 are imported by bootstrap. See [original build documentation](docs/hacking/compiling.rst)
 and [upstream README](docs/upstream-reference/README.md).
 
+The launcher compares the native verification receipt with the local build
+sources and offers the normal locked build/test gate when missing or stale.
+Declining keeps the existing executable, if available. It does not pull remote
+changes. Different character names may run concurrently; a per-character lock
+prevents two launches through this script from opening the same save.
+
 This is an independent GitHub repository with preserved C ancestry, not a
 second fork-network member: the owner's existing Angband fork hosts the source
 tracker. Fetch `angband` for pristine C and `source-tracker` for named proposals;
