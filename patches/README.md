@@ -112,3 +112,7 @@ The twenty-second carry breaks the LOS-dispel beam walk at arrival
 (consumer #84/source #326, priority high). The blast scan runs when it
 should, the launcher no longer leaks -1, and the orb-ball control stays
 unchanged.
+
+The twenty-third carry values the staff-holiness activation as the LOS
+dispel it is (consumer #86/source #262), stacked on the losdispel
+arrival break. The single-target bolt control stays unchanged.
