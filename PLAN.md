@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through twenty-sixth carries merged (2026-11-06)
+## Tenth through twenty-seventh carries merged (2026-11-07)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -207,6 +207,16 @@ until upstream incorporation. Full stories in docs/measurement/ and the
 issues' verification comments. Queue: opblock-324 and calfree-323 (demonstrated low-priority leaks),
 then brand-240 and any newer demonstrations before low-priority 81 or
 discretionary death work.
+Consumer99/source322 (staletarget-322, priority high) merged as
+29190814b (PR100, import 0d843a41, patch 0027): a tracked monster on the
+player's own grid passed the distance-zero melee check and queued +5,
+whose empty direction prompt stops the Borg; the correction requires
+distance exactly one. The unchanged acting-chooser fixture verifies +5 ->
+no action/keys with the real adjacent +2 control byte-identical, 99 prior
+cases passing and merged v1 seeds unchanged. The first merge API call
+returned 502 and the accidental parent-build measurement is preserved as
+invalid-premerge evidence; the retry merged and measurement was rerun on
+29190814b. All eighteen issues are carried/open+patch-active.
 Consumer96/source325 (calcreload-325) merged as 0900c5cf4 (PR97, import
 c528eb81, patch 0026): calculations_free() retained the backing pointer
 array after zeroing the count, so the next parse overwrote and leaked it;
