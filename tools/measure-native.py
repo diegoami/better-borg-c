@@ -34,9 +34,15 @@ def replace(path, old, new):
 
 def prepare(args):
     out = args.output.resolve()
-    out.mkdir(parents=True, exist_ok=False)
+    out.mkdir(parents=True, exist_ok=args.retry)
+    if args.retry:
+        previous = out / ('attempt-' + str(time.time_ns()))
+        previous.mkdir()
+        for name in ('build.json', 'configure.log', 'build.log'):
+            if (out / name).exists():
+                (out / name).rename(previous / name)
     source = out / 'source'
-    source.mkdir()
+    source.mkdir(exist_ok=args.retry)
     commit = git('rev-parse', args.ref + '^{commit}')
     archive = out / 'source.tar'
     subprocess.run(['git', 'archive', '--format=tar', '-o', str(archive), commit], cwd=ROOT, check=True)
@@ -45,6 +51,8 @@ def prepare(args):
     manifest = {'source_commit': commit, 'source_archive_sha256': sha(archive),
                 'harness_commit': git('rev-parse', 'HEAD'),
                 'instrumented': args.observe, 'commands': [], 'complete': False,
+                'compiler': subprocess.check_output(['cc', '--version'], text=True).splitlines()[0],
+                'platform': subprocess.check_output(['uname', '-sm'], text=True).strip(),
                 'tools_sha256': {p.name: sha(p) for p in (ROOT / 'tools').glob('*') if p.is_file()}}
     write(out / 'build.json', manifest)
     if args.observe:
@@ -64,7 +72,8 @@ def prepare(args):
     with (source / 'CMakeLists.txt').open('a') as f:
         f.write(f'\nadd_compile_definitions(PRIVATE_USER_PATH="{out / "private-user"}")\n')
     env = os.environ.copy()
-    env.update(LC_ALL='C.UTF-8', LANG='C.UTF-8')
+    (source / 'version').write_text(commit + ('-observer' if args.observe else '') )
+    env.update(LC_ALL='C.UTF-8', LANG='C.UTF-8', GIT_CEILING_DIRECTORIES=str(source))
     env.pop('FORCE_PATH', None)
     env.pop('VERBOSE', None)
     for label, command in [
@@ -78,7 +87,7 @@ def prepare(args):
         with (out / (label + '.log')).open('w') as log:
             subprocess.run(command, env=env, stdout=log, stderr=subprocess.STDOUT, check=True)
     manifest.update(binary_sha256=sha(out / 'build/game/angband'), complete=True,
-                    data_sha256={str(p.relative_to(source)): sha(p) for d in ('gamedata', 'customize')
+                    data_sha256={str(p.relative_to(source)): sha(p) for d in ('gamedata', 'customize', 'screens', 'help')
                                  for p in sorted((source / 'lib' / d).rglob('*')) if p.is_file()})
     write(out / 'build.json', manifest)
 
@@ -91,7 +100,11 @@ key enter
 key enter
 key enter
 key enter
+key space
 key C-z
+key space
+key space
+key y
 key z
 '''
 
@@ -104,6 +117,39 @@ def parse_states(text):
             states.append({'kind': parts[1], **{k: int(v) if len(v) < 20 and v.lstrip('-').isdigit() else v
                                                for k, v in (p.split('=', 1) for p in parts[2:])}})
     return states
+
+
+def classify(code, states, interrupted=None):
+    if interrupted:
+        return interrupted
+    if code < 0:
+        return 'crash'
+    if code == 0 and states and states[-1]['kind'] in ('death', 'completion', 'turn_cap'):
+        return states[-1]['kind']
+    return 'harness_failure'
+
+
+def monitor(process, trace_path, wall_limit, stall_limit):
+    start = changed = time.monotonic()
+    last_turn = None
+    while process.poll() is None:
+        states = parse_states(trace_path.read_text()) if trace_path.exists() else []
+        current_turn = states[-1]['turn'] if states else None
+        now = time.monotonic()
+        if current_turn != last_turn:
+            last_turn, changed = current_turn, now
+        reason = ('stalled' if current_turn is not None and now - changed >= stall_limit
+                  else 'wall_timeout' if now - start >= wall_limit else None)
+        if reason:
+            process.terminate()
+            try:
+                process.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                process.kill()
+                process.wait()
+            return reason
+        time.sleep(0.1)
+    return None
 
 
 def run(args):
@@ -122,45 +168,41 @@ def run(args):
         (out / d).mkdir()
     config = 'borg_cheat_death = FALSE\nborg_respawn_winners = FALSE\n'
     (out / 'user/borg.txt').write_text(config)
-    (out / 'input.txt').write_text(INPUT)
+    run_input = ('key space\nkey C-z\nkey space\nkey space\nkey y\nkey z\n' if args.load else INPUT)
+    (out / 'input.txt').write_text(run_input)
     command = [str(build / 'build/game/angband'), '-mtest', '-uMeasure']
     command += [f'-d{d}={out / d}' for d in ('user', 'archive', 'save', 'scores', 'panic')]
-    command += [f'-d{d}={build / "source/lib" / d}' for d in ('gamedata', 'customize')]
+    command += [f'-d{key}={build / "source/lib" / directory}' for key, directory in (('gamedata', 'gamedata'), ('pref', 'customize'))]
     env = os.environ.copy()
     env.update(BORG_MEASURE_SEED=str(args.seed), BORG_MEASURE_CAP=str(args.cap),
                BORG_MEASURE_DIR=str(out), LC_ALL='C.UTF-8', LANG='C.UTF-8')
-    result = {'seed': args.seed, 'turn_cap': args.cap, 'wall_limit_seconds': args.timeout,
-              'command': command, 'cwd': str(build / 'build/game'),
-              'environment': {k: env[k] for k in ('BORG_MEASURE_SEED', 'BORG_MEASURE_CAP', 'BORG_MEASURE_DIR', 'LC_ALL', 'LANG')},
+    for key in ('BORG_MEASURE_NO_SAVES', 'BORG_MEASURE_LOAD'):
+        env.pop(key, None)
+    if args.load:
+        env['BORG_MEASURE_LOAD'] = str(args.load.resolve())
+    if args.no_saves:
+        env['BORG_MEASURE_NO_SAVES'] = '1'
+    result = {'runner_sha256': sha(Path(__file__)), 'harness_commit': git('rev-parse', 'HEAD'),
+              'harness_dirty': git('status', '--porcelain', '--untracked-files=no'),
+              'input_sha256': sha(out / 'input.txt'),
+              'starting_save_sha256': sha(args.load) if args.load else None,
+              'seed': args.seed, 'turn_cap': args.cap, 'wall_limit_seconds': args.timeout, 'stall_limit_seconds': args.stall_timeout,
+              'checkpoint_saves': not args.no_saves,
+              'command': command, 'cwd': str(build / 'source'),
+              'environment': {k: env[k] for k in ('BORG_MEASURE_SEED', 'BORG_MEASURE_CAP', 'BORG_MEASURE_DIR', 'LC_ALL', 'LANG', 'BORG_MEASURE_NO_SAVES', 'BORG_MEASURE_LOAD') if k in env},
               'build': manifest, 'character': 'Human Warrior; default point buy; normal UI birth',
               'configuration_sha256': sha(out / 'user/borg.txt'), 'outcome': 'harness_failure'}
     write(out / 'result.json', result)
     start = time.monotonic()
     try:
         with (out / 'input.txt').open() as inp, (out / 'terminal.log').open('w') as log:
-            p = subprocess.Popen(command, cwd=build / 'build/game', env=env, stdin=inp, stdout=log, stderr=subprocess.STDOUT)
-            try:
-                code = p.wait(timeout=args.timeout)
-                result['exit_code'] = code
-            except subprocess.TimeoutExpired:
-                p.terminate()
-                try:
-                    p.wait(timeout=5)
-                except subprocess.TimeoutExpired:
-                    p.kill()
-                    p.wait()
-                result['outcome'] = 'wall_timeout'
-                result['exit_code'] = p.returncode
+            p = subprocess.Popen(command, cwd=build / 'source', env=env, stdin=inp, stdout=log, stderr=subprocess.STDOUT)
+            interrupted = monitor(p, out / 'trace.txt', args.timeout, args.stall_timeout)
+            result['exit_code'] = p.returncode
         trace = (out / 'trace.txt').read_text() if (out / 'trace.txt').exists() else ''
         states = parse_states(trace)
         result['states'] = states
-        if result['outcome'] != 'wall_timeout':
-            if p.returncode < 0:
-                result['outcome'] = 'crash'
-            elif p.returncode != 0:
-                result['outcome'] = 'harness_failure'
-            elif states and states[-1]['kind'] in ('death', 'completion', 'turn_cap'):
-                result['outcome'] = states[-1]['kind']
+        result['outcome'] = classify(p.returncode, states, interrupted)
         result['cause'] = next((line[6:] for line in trace.splitlines() if line.startswith('CAUSE ')), None)
     except (OSError, ValueError) as exc:
         result['error'] = str(exc)
@@ -180,12 +222,16 @@ def main():
     prep.add_argument('--ref', default=BASE)
     prep.add_argument('--output', type=Path, required=True)
     prep.add_argument('--observe', action='store_true')
+    prep.add_argument('--retry', action='store_true', help='retain failed attempt receipts and rebuild same output')
     r = sub.add_parser('run')
     r.add_argument('--build', type=Path, required=True)
     r.add_argument('--output', type=Path, required=True)
     r.add_argument('--seed', type=int, required=True)
     r.add_argument('--cap', type=int, required=True)
     r.add_argument('--timeout', type=int, default=120)
+    r.add_argument('--stall-timeout', type=int, default=30)
+    r.add_argument('--load', type=Path, help='diagnostic load; continuation reproducibility is not assumed')
+    r.add_argument('--no-saves', action='store_true', help='observer non-interference control')
     args = p.parse_args()
     if args.action == 'run' and (not 0 <= args.seed <= 0xffffffff or args.cap < 2 or args.timeout < 1):
         p.error('seed must be uint32, cap >=2 and timeout positive')
