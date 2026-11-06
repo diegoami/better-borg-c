@@ -1,0 +1,32 @@
+From b223c4f18622883549682f9f997b76fe1f06fc73 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Fri, 6 Nov 2026 11:53:57 +0000
+Subject: [PATCH] Track projectile blocking separately for each monster spell
+
+---
+ src/borg/borg-danger.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-danger.c b/src/borg/borg-danger.c
+index 11efe9f1a..ea97daaeb 100644
+--- a/src/borg/borg-danger.c
++++ b/src/borg/borg-danger.c
+@@ -563,7 +563,6 @@ static int borg_danger_spell(
+ 
+     int hp, total_dam = 0, av;
+ 
+-    bool bolt       = false;
+ 
+     borg_kill *kill = &borg_kills[i];
+ 
+@@ -611,6 +610,7 @@ static int borg_danger_spell(
+ 
+     /* Analyze the spells */
+     for (q = 0; q < kill->ranged_attack; q++) {
++        bool bolt = false;
+         int p = 0;
+ 
+         int z = 0;
+-- 
+2.53.0
+
