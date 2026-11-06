@@ -4,7 +4,10 @@ An ordinary level9 Human Warrior entered melee with a tiger, lost health and
 failed to teleport. After killing it, the Borg kept attacking a stegocentipede
 at21HP and15HP and died at **engine turn174862, depth12, HP−4**. Raw native
 cause: **a stegocentipede**. Six known Speed potions remained in the pack; no
-healing or escape stock was carried, while four Phase Door scrolls were at Home.
+known healing or escape stock was carried, while four Phase Door scrolls were
+at Home. Four unidentified Smoky Potions remained; their true effects are not
+established by this recording. Zero known-heal counters do not prove that no
+healing effect existed among unidentified items.
 
 The death and its short replay windows are verified. The reason those existing
 stock/defense decisions were made is **not yet a proved bug**. An attack score61
