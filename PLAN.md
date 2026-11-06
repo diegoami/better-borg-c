@@ -84,3 +84,17 @@ file evidence-backed issues before improvements. Seed replay from the original
 start precedes claims of faithful checkpoint continuation. The existing frozen
 cohort remains immutable; new exploration has prospective limits and full failure
 accounting. New strategy suggestions remain issue proposals, not implementations.
+
+## Durable death records and delivery (2026-11-06)
+
+Every natural death is curated under docs/deaths with its actual source/build,
+selected native logs/snapshots, evaluation, diagnosis confidence and linked
+issue actions. Export from immutable run metadata with tools/record-death.py,
+then aggregate with tools/aggregate-deaths.py. Preserve every attempt and label
+replays/reference versions; do not inflate independent counts or overwrite old
+build identity after fixes. Full runs/saves/builds stay outside Git.
+
+Delivery is our Angband build tracking official master through deliberate
+verified imports/patch retirement. UPSTREAM.md records the owner's later-stage
+tracker -> C consumer -> borg-rs adoption path. It does not change the current
+C-only work scope or the bugs-first priority.

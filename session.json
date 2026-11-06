@@ -28,5 +28,22 @@
   "priority_policy": "Bugs first, carried or not; verified carries/concrete defect investigations pre-empt discretionary death-analysis work",
   "death_analysis_plan": "docs/measurement/DEATH-ANALYSIS-PLAN.md",
   "death_analysis_issue": "https://github.com/diegoami/better-borg-c/issues/13",
-  "original_c_discovery_flow": "Evidence/duplicate/ownership check -> neo-angband-tracker issue and source fix -> separate consumer adoption/measurement"
+  "original_c_discovery_flow": "Evidence/duplicate/ownership check -> neo-angband-tracker issue and source fix -> separate consumer adoption/measurement",
+  "delivery": "Our Angband build with integrated native Borg; official game base tracked through verified integrations",
+  "official_tracking": {
+    "repository": "angband/angband",
+    "branch": "master",
+    "remote": "angband (push disabled)",
+    "cadence": "Each active integration cycle and before importing/delivering game changes",
+    "last_checked_date": "2026-11-06",
+    "last_checked_head": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3",
+    "historical_records": "Immutable original source/build/binary/data identities"
+  },
+  "rust_stage2": "Canonical tracker -> verified C consumer -> separately owned borg-rs parity target or individual Rust fix carries; pristine parity baseline retained; not integrated here yet",
+  "death_records": {
+    "path": "docs/deaths",
+    "export_tool": "tools/record-death.py",
+    "aggregate_tool": "tools/aggregate-deaths.py",
+    "required": "Actual version/build and native evidence, assessment/diagnosis/actions; no repeat inflation"
+  }
 }

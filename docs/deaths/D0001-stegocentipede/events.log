@@ -1,0 +1,2176 @@
+BORG 174751 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 174751 # Flowing toward dark-2 at cost 3
+BORG 174761 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 174771 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 174781 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 174781 # Flowing toward dark-2 at cost 3
+BORG 174791 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 174801 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 174811 # PAIN:The stegocentipede (+)
+BORG 174811 # Creating a monster 'tiger' at (15,105), HP: 66, Index: 173
+BORG 174811 # Creating a monster 'stegocentipede' at (15,100), HP: 65, Index: 176
+BORG 174811 # PAIN:The stegocentipede (4)
+BORG 174811 # Loc:15,106 Dep:12 Lev:9 HP:84/84 SP:0/0 Danger:p=23
+BORG 174811 # Performing attack type 1 with value 57.
+BORG 174811 # Facing tiger at (15,105) who has 66 Hit Points.
+BORG 174811 # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+BORG 174819 # HIT:the tiger (+)
+BORG 174819 # HIT:the tiger (+)
+BORG 174819 # HIT_BY:The tiger (+)
+BORG 174819 # HIT_BY:The tiger (+)
+BORG 174819 # MISS_BY:The tiger (+)
+BORG 174819 # Tracking a monster 'stegocentipede' at (15,101) from (15,100)
+BORG 174819 # HIT:the tiger (2)
+BORG 174819 # HIT:the tiger (2)
+BORG 174819 # HIT_BY:The tiger (3)
+BORG 174819 # HIT_BY:The tiger (3)
+BORG 174819 # MISS_BY:The tiger (3)
+BORG 174819 # Loc:15,106 Dep:12 Lev:9 HP:78/84 SP:0/0 Danger:p=23
+BORG 174819 # Performing attack type 1 with value 57.
+BORG 174819 # Facing tiger at (15,105) who has 50 Hit Points.
+BORG 174819 # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+BORG 174826 # HIT:the tiger (+)
+BORG 174826 # HIT:the tiger (+)
+BORG 174826 # HIT_BY:The tiger (+)
+BORG 174826 # HIT_BY:The tiger (+)
+BORG 174826 # MISS_BY:The tiger (+)
+BORG 174826 # HIT:the tiger (2)
+BORG 174826 # HIT:the tiger (2)
+BORG 174826 # HIT_BY:The tiger (3)
+BORG 174826 # HIT_BY:The tiger (3)
+BORG 174826 # MISS_BY:The tiger (3)
+BORG 174826 # Loc:15,106 Dep:12 Lev:9 HP:71/84 SP:0/0 Danger:p=23
+BORG 174826 # Performing attack type 1 with value 57.
+BORG 174826 # Facing tiger at (15,105) who has 39 Hit Points.
+BORG 174826 # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+BORG 174833 # HIT_BY:The tiger (+)
+BORG 174833 # MISS_BY:The tiger (+)
+BORG 174833 # MISS_BY:The tiger (+)
+BORG 174833 # HIT_BY:The tiger (+)
+BORG 174833 # HIT_BY:The tiger (+)
+BORG 174833 # HIT_BY:The tiger (+)
+BORG 174833 # HIT_BY:The tiger (3)
+BORG 174833 # MISS_BY:The tiger (3)
+BORG 174833 # MISS_BY:The tiger (3)
+BORG 174833 # HIT_BY:The tiger (3)
+BORG 174833 # HIT_BY:The tiger (3)
+BORG 174833 # HIT_BY:The tiger (3)
+BORG 174833 # Loc:15,106 Dep:12 Lev:9 HP:51/84 SP:0/0 Danger:p=23
+BORG 174833 # Performing attack type 1 with value 57.
+BORG 174833 # Facing tiger at (15,105) who has 34 Hit Points.
+BORG 174833 # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+BORG 174840 # HIT:the tiger (+)
+BORG 174840 # HIT:the tiger (+)
+BORG 174840 # HIT_BY:The tiger (+)
+BORG 174840 # HIT_BY:The tiger (+)
+BORG 174840 # HIT_BY:The tiger (+)
+BORG 174840 # HIT:the tiger (2)
+BORG 174840 # HIT:the tiger (2)
+BORG 174840 # HIT_BY:The tiger (3)
+BORG 174840 # HIT_BY:The tiger (3)
+BORG 174840 # HIT_BY:The tiger (3)
+BORG 174840 # Loc:15,106 Dep:12 Lev:9 HP:39/84 SP:0/0 Danger:p=23
+BORG 174840 # Fleeing (failed to teleport)
+BORG 174840 # Performing attack type 1 with value 57.
+BORG 174840 # Facing tiger at (15,105) who has 20 Hit Points.
+BORG 174840 # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+BORG 174847 # HIT:the tiger (+)
+BORG 174847 # HIT:the tiger (+)
+BORG 174847 # MISS_BY:The tiger (+)
+BORG 174847 # HIT_BY:The tiger (+)
+BORG 174847 # HIT_BY:The tiger (+)
+BORG 174847 # HIT:the tiger (2)
+BORG 174847 # HIT:the tiger (2)
+BORG 174847 # MISS_BY:The tiger (3)
+BORG 174847 # HIT_BY:The tiger (3)
+BORG 174847 # HIT_BY:The tiger (3)
+BORG 174847 # Loc:15,106 Dep:12 Lev:9 HP:30/84 SP:0/0 Danger:p=23
+BORG 174847 # Performing attack type 1 with value 57.
+BORG 174847 # Facing tiger at (15,105) who has 7 Hit Points.
+BORG 174847 # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+BORG 174854 # HIT:the tiger (+)
+BORG 174854 # HIT:the tiger (+)
+BORG 174854 # KILL:the tiger (+)
+BORG 174854 # MISS_BY:The stegocentipede (+)
+BORG 174854 # HIT_BY:The stegocentipede (+)
+BORG 174854 # HIT_BY:The stegocentipede (+)
+BORG 174854 # Forgetting a monster 'tiger' at (15,105)
+BORG 174854 # Tracking a monster 'stegocentipede' at (15,105) from (15,101)
+BORG 174854 # HIT:the tiger (2)
+BORG 174854 # HIT:the tiger (2)
+BORG 174854 # KILL:the tiger (2)
+BORG 174854 # MISS_BY:The stegocentipede (3)
+BORG 174854 # HIT_BY:The stegocentipede (3)
+BORG 174854 # HIT_BY:The stegocentipede (3)
+BORG 174854 # Loc:15,106 Dep:12 Lev:9 HP:21/84 SP:0/0 Danger:p=25
+BORG 174854 # Performing attack type 1 with value 61.
+BORG 174854 # Facing stegocentipede at (15,105) who has 65 Hit Points.
+BORG 174854 # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+BORG 174862 # HIT:the stegocentipede (+)
+BORG 174862 # HIT:the stegocentipede (+)
+BORG 174862 # MISS_BY:The stegocentipede (+)
+BORG 174862 # HIT_BY:The stegocentipede (+)
+BORG 174862 # HIT_BY:The stegocentipede (+)
+BORG 174862 # HIT:the stegocentipede (2)
+BORG 174862 # HIT:the stegocentipede (2)
+BORG 174862 # MISS_BY:The stegocentipede (3)
+BORG 174862 # HIT_BY:The stegocentipede (3)
+BORG 174862 # HIT_BY:The stegocentipede (3)
+BORG 174862 # Loc:15,106 Dep:12 Lev:9 HP:15/84 SP:0/0 Danger:p=25
+BORG 174862 # Performing attack type 1 with value 61.
+BORG 174862 # Facing stegocentipede at (15,105) who has 52 Hit Points.
+BORG 174862 # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+
+[Terminal native state/cause]
+STATE death turn=174862 energy=1774459 decisions=15366 depth=12 max_depth=12 level=9 max_level=9 hp=-4 dead=1 winner=0 borg_rng=1093781422 quick=0 quick_rng=1858661567 rng_index=6 rng=f2a64bcb70b38ebaabc04ec8211ade7a7f57a00bf7ffccae9570cba10509e1ff19de64bf325f1f1a147355e44c47f05d67336f29beb48308492ed34f41ed4a7096eb8ef5a935465f649cef333d382153317cedb312d4e2fdf5c1b4e61c068303206210e5a64a06e4823f3a873f08c73e0ab9deefc43684941cfcc2a5645f4493
+CAUSE a stegocentipede
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE # Creating an object 'copper' at (64,6)
+MESSAGE # Flowing toward item at cost 4
+MESSAGE # Walking onto and deleting a 'copper' at (6,64)
+MESSAGE You have found 50 gold pieces worth of copper.
+MESSAGE # Flowing toward dark-5 at cost 15
+MESSAGE # Opening a door
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Opening a door
+MESSAGE You failed to pick the lock.
+MESSAGE You have picked the lock.
+MESSAGE # Creating an object '& Apple~' at (16,10)
+MESSAGE # Creating a monster 'giant yellow centipede' at (5,20), HP: 5, Index: 19
+MESSAGE # Removing Regional Fear (5,20) because of a LOS giant yellow centipede
+MESSAGE # Flowing toward kill at cost 11
+MESSAGE # Creating an object 'copper' at (27,10)
+MESSAGE # Flowing toward item at cost 4
+MESSAGE # Walking onto and deleting a 'copper' at (10,27)
+MESSAGE You have found 150 gold pieces worth of copper.
+MESSAGE # Flowing toward kill at cost 7
+MESSAGE The giant yellow centipede wakes up.
+MESSAGE # PAIN:The giant yellow centipede (+)
+MESSAGE # PAIN:The giant yellow centipede (2)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (6,21) from (5,20)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (7,22) from (6,21)
+MESSAGE # Loc:8,23 Dep:2 Lev:8 HP:81/81 SP:0/0 Danger:p=6
+MESSAGE # Performing attack type 1 with value 16.
+MESSAGE # Facing giant yellow centipede at (7,22) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the giant yellow centipede.
+MESSAGE You miss the giant yellow centipede.
+MESSAGE The giant yellow centipede flees in terror!
+MESSAGE # HIT:the giant yellow centipede (+)
+MESSAGE # MISS:the giant yellow centipede (+)
+MESSAGE # PAIN:The giant yellow centipede (+)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (8,21) from (7,22)
+MESSAGE # HIT:the giant yellow centipede (2)
+MESSAGE # MISS:the giant yellow centipede (2)
+MESSAGE # PAIN:The giant yellow centipede (2)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (9,21) from (8,21)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (10,22) from (9,21)
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,23) from (10,22)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,24) from (11,23)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,25) from (11,24)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,26) from (11,25)
+MESSAGE # Walking onto and deleting a '& Apple~' at (10,16)
+MESSAGE You have an Apple (a).
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,27) from (11,26)
+MESSAGE # Flowing toward kill at cost 11
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,28) from (11,27)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,27) from (11,28)
+MESSAGE # Flowing toward kill at cost 9
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,28) from (11,27)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,27) from (11,28)
+MESSAGE # Flowing toward kill at cost 7
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,28) from (11,27)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,27) from (11,28)
+MESSAGE # Flowing toward kill at cost 5
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,28) from (11,27)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,27) from (11,28)
+MESSAGE # Flowing toward kill at cost 3
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,28) from (11,27)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (11,27) from (11,28)
+MESSAGE # Loc:10,26 Dep:2 Lev:8 HP:81/81 SP:0/0 Danger:p=6
+MESSAGE # Performing attack type 1 with value 10.
+MESSAGE # Facing giant yellow centipede at (11,27) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the giant yellow centipede. It was a good hit!
+MESSAGE You have slain the giant yellow centipede.
+MESSAGE # HIT:the giant yellow centipede (+)
+MESSAGE # KILL:the giant yellow centipede (+)
+MESSAGE # Forgetting a monster 'giant yellow centipede' at (11,27)
+MESSAGE # HIT:the giant yellow centipede (2)
+MESSAGE # KILL:the giant yellow centipede (2)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Opening a door
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object 'Blessing' at (14,18)
+MESSAGE # Flowing toward item at cost 12
+MESSAGE # Walking onto and deleting a 'Blessing' at (18,14)
+MESSAGE You have a Scroll of Blessing (m).
+MESSAGE # Flowing toward dark-5 at cost 20
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 10
+MESSAGE # Flowing toward dark-5 at cost 23
+MESSAGE # Flowing toward dark-5 at cost 27
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'giant yellow centipede' at (37,85), HP: 7, Index: 19
+MESSAGE # Removing Regional Fear (37,85) because of a LOS giant yellow centipede
+MESSAGE # Flowing toward kill at cost 7
+MESSAGE # Creating a monster 'blubbering icky thing' at (36,87), HP: 16, Index: 34
+MESSAGE # Removing Regional Fear (36,87) because of a LOS blubbering icky thing
+MESSAGE # Flowing toward kill at cost 4
+MESSAGE # Tracking a monster 'blubbering icky thing' at (36,86) from (36,87)
+MESSAGE # Tracking a monster 'blubbering icky thing' at (35,86) from (36,86)
+MESSAGE # Loc:34,86 Dep:2 Lev:8 HP:81/81 SP:0/0 Danger:p=14
+MESSAGE # Performing defense type 0 with value 1
+MESSAGE # Attempting to cast Bless
+MESSAGE # Reading Scroll of Blessing.
+MESSAGE You feel righteous!
+MESSAGE You have no more Scrolls of Blessing (m).
+MESSAGE # Tracking a monster 'blubbering icky thing' at (35,87) from (35,86)
+MESSAGE # Loc:34,86 Dep:2 Lev:8 HP:81/81 SP:0/0 Danger:p=14
+MESSAGE # Performing attack type 1 with value 27.
+MESSAGE # Facing blubbering icky thing at (35,87) who has 16 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the blubbering icky thing.
+MESSAGE The blubbering icky thing crawls on you.
+MESSAGE You are poisoned!
+MESSAGE # HIT:the blubbering icky thing (+)
+MESSAGE # HIT_BY:The blubbering icky thing (+)
+MESSAGE # HIT:the blubbering icky thing (2)
+MESSAGE # HIT_BY:The blubbering icky thing (3)
+MESSAGE # Loc:34,86 Dep:2 Lev:8 HP:77/81 SP:0/0 Danger:p=14
+MESSAGE # Quaffing Potions of Neutralize Poison.
+MESSAGE You are no longer poisoned.
+MESSAGE You have 2 Potions of Neutralize Poison (c).
+MESSAGE # Tracking a monster 'blubbering icky thing' at (36,87) from (35,87)
+MESSAGE # Flowing toward kill at cost 3
+MESSAGE The blubbering icky thing crawls on you.
+MESSAGE Your Apple (a) was eaten!
+MESSAGE # HIT_BY:The blubbering icky thing (+)
+MESSAGE # HIT_BY:The blubbering icky thing (3)
+MESSAGE # Loc:35,86 Dep:2 Lev:8 HP:77/81 SP:0/0 Danger:p=14
+MESSAGE # Performing attack type 1 with value 24.
+MESSAGE # Facing blubbering icky thing at (36,87) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the blubbering icky thing.
+MESSAGE You have slain the blubbering icky thing.
+MESSAGE # HIT:the blubbering icky thing (+)
+MESSAGE # KILL:the blubbering icky thing (+)
+MESSAGE # Forgetting a monster 'blubbering icky thing' at (36,87)
+MESSAGE # HIT:the blubbering icky thing (2)
+MESSAGE # KILL:the blubbering icky thing (2)
+MESSAGE The giant yellow centipede wakes up.
+MESSAGE # PAIN:The giant yellow centipede (+)
+MESSAGE # PAIN:The giant yellow centipede (2)
+MESSAGE # Loc:36,86 Dep:2 Lev:8 HP:77/81 SP:0/0 Danger:p=6
+MESSAGE # Performing attack type 1 with value 19.
+MESSAGE # Facing giant yellow centipede at (37,85) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You miss the giant yellow centipede.
+MESSAGE You hit the giant yellow centipede.
+MESSAGE You have slain the giant yellow centipede.
+MESSAGE # MISS:the giant yellow centipede (+)
+MESSAGE # HIT:the giant yellow centipede (+)
+MESSAGE # KILL:the giant yellow centipede (+)
+MESSAGE # Forgetting a monster 'giant yellow centipede' at (37,85)
+MESSAGE # MISS:the giant yellow centipede (2)
+MESSAGE # HIT:the giant yellow centipede (2)
+MESSAGE # KILL:the giant yellow centipede (2)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE The prayer has expired.
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating a monster 'white jelly' at (46,96), HP: 43, Index: 41
+MESSAGE # Removing Regional Fear (46,96) because of a LOS white jelly
+MESSAGE # Performing attack type 58 with value 27.
+MESSAGE # Targeting white jelly who has 43 Hit Points (46,96).
+MESSAGE # Zapping Rod of Light.
+MESSAGE Target Selected.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE The white jelly cringes from the light!
+MESSAGE # PAIN:The white jelly (+)
+MESSAGE # PAIN:The white jelly (2)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object 'Neutralize Poison' at (106,46)
+MESSAGE # Creating an object 'Phase Door' at (100,45)
+MESSAGE # Creating an object '& Wooden Torch~' at (99,43)
+MESSAGE # Flowing toward item at cost 4
+MESSAGE # Walking onto and deleting a '& Wooden Torch~' at (43,99)
+MESSAGE You have 12 Wooden Torches (5000 turns) (n).
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Performing attack type 58 with value 32.
+MESSAGE # Targeting white jelly who has 8 Hit Points (46,96).
+MESSAGE # Zapping Rod of Light.
+MESSAGE Target Selected.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE Welcome to level 9.
+MESSAGE The white jelly shrivels away in the light!
+MESSAGE # DIED:The white jelly (+)
+MESSAGE # Forgetting a monster 'white jelly' at (46,96)
+MESSAGE # DIED:The white jelly (2)
+MESSAGE # Walking onto and deleting a 'Phase Door' at (45,100)
+MESSAGE You have 14 Scrolls of Phase Door (e).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward item at cost 6
+MESSAGE # Walking onto and deleting a 'Neutralize Poison' at (46,106)
+MESSAGE You have 3 Potions of Neutralize Poison (b).
+MESSAGE # Flowing toward dark-4 at cost 5
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Opening a door
+MESSAGE The crow bites you.
+MESSAGE # HIT_BY:The crow (+)
+MESSAGE # Creating an object 'Speed' at (111,27)
+MESSAGE # Creating a monster 'salamander' at (27,115), HP: 14, Index: 44
+MESSAGE # Creating a monster 'crow' at (28,107), HP: 4, Index: 52
+MESSAGE # HIT_BY:The crow (4)
+MESSAGE # Loc:28,106 Dep:2 Lev:9 HP:80/84 SP:0/0 Danger:p=6
+MESSAGE # Performing attack type 1 with value 20.
+MESSAGE # Facing crow at (28,107) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the crow.
+MESSAGE You have slain the crow.
+MESSAGE # HIT:the crow (+)
+MESSAGE # KILL:the crow (+)
+MESSAGE # Forgetting a monster 'crow' at (28,107)
+MESSAGE # HIT:the crow (2)
+MESSAGE # KILL:the crow (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Walking onto and deleting a 'Speed' at (27,111)
+MESSAGE You have 4 Potions of Speed (c).
+MESSAGE # Flowing toward kill at cost 4
+MESSAGE # Loc:27,114 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=11
+MESSAGE # Performing attack type 1 with value 24.
+MESSAGE # Facing salamander at (27,115) who has 14 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the salamander.
+MESSAGE You miss the salamander.
+MESSAGE The salamander flees in terror!
+MESSAGE # HIT:the salamander (+)
+MESSAGE # MISS:the salamander (+)
+MESSAGE # PAIN:The salamander (+)
+MESSAGE # Tracking a monster 'salamander' at (27,116) from (27,115)
+MESSAGE # HIT:the salamander (2)
+MESSAGE # MISS:the salamander (2)
+MESSAGE # PAIN:The salamander (2)
+MESSAGE # Tracking a monster 'salamander' at (27,117) from (27,116)
+MESSAGE # Flowing toward dark-4 at cost 6
+MESSAGE # Tracking a monster 'salamander' at (27,118) from (27,117)
+MESSAGE # Tracking a monster 'salamander' at (27,119) from (27,118)
+MESSAGE # Tracking a monster 'salamander' at (26,120) from (27,119)
+MESSAGE # Loc:27,119 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=6
+MESSAGE # Performing attack type 1 with value 16.
+MESSAGE # Facing salamander at (26,120) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the salamander.
+MESSAGE You have slain the salamander.
+MESSAGE # HIT:the salamander (+)
+MESSAGE # KILL:the salamander (+)
+MESSAGE # Forgetting a monster 'salamander' at (26,120)
+MESSAGE # HIT:the salamander (2)
+MESSAGE # KILL:the salamander (2)
+MESSAGE # Creating a monster 'blubbering icky thing' at (25,122), HP: 18, Index: 34
+MESSAGE # Loc:26,121 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=14
+MESSAGE # Performing attack type 1 with value 27.
+MESSAGE # Facing blubbering icky thing at (25,122) who has 18 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the blubbering icky thing.
+MESSAGE # HIT:the blubbering icky thing (+)
+MESSAGE # HIT:the blubbering icky thing (2)
+MESSAGE # Loc:26,121 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=14
+MESSAGE # Performing attack type 1 with value 24.
+MESSAGE # Facing blubbering icky thing at (25,122) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the blubbering icky thing.
+MESSAGE You have slain the blubbering icky thing.
+MESSAGE # HIT:the blubbering icky thing (+)
+MESSAGE # KILL:the blubbering icky thing (+)
+MESSAGE # Forgetting a monster 'blubbering icky thing' at (25,122)
+MESSAGE # HIT:the blubbering icky thing (2)
+MESSAGE # KILL:the blubbering icky thing (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Creating an object 'copper' at (142,29)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a 'copper' at (29,142)
+MESSAGE You have found 90 gold pieces worth of copper.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object '& Halberd~' at (134,35)
+MESSAGE # Flowing toward item at cost 7
+MESSAGE # Walking onto and deleting a '& Halberd~' at (35,134)
+MESSAGE You have a Halberd (3d5) (+0,+0) (s).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE You failed to zap the rod properly.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-4 at cost 6
+MESSAGE # Creating a monster 'blubbering icky thing' at (31,139), HP: 24, Index: 34
+MESSAGE # Removing Regional Fear (31,139) because of a LOS blubbering icky thing
+MESSAGE # Flowing toward kill at cost 5
+MESSAGE # Tracking a monster 'blubbering icky thing' at (31,138) from (31,139)
+MESSAGE # Tracking a monster 'blubbering icky thing' at (32,137) from (31,138)
+MESSAGE # Loc:32,136 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=14
+MESSAGE # Performing attack type 1 with value 27.
+MESSAGE # Facing blubbering icky thing at (32,137) who has 24 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You miss the blubbering icky thing.
+MESSAGE You hit the blubbering icky thing.
+MESSAGE # MISS:the blubbering icky thing (+)
+MESSAGE # HIT:the blubbering icky thing (+)
+MESSAGE # Tracking a monster 'blubbering icky thing' at (33,137) from (32,137)
+MESSAGE # MISS:the blubbering icky thing (2)
+MESSAGE # HIT:the blubbering icky thing (2)
+MESSAGE # Loc:32,136 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=14
+MESSAGE # Performing attack type 1 with value 27.
+MESSAGE # Facing blubbering icky thing at (33,137) who has 14 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the blubbering icky thing.
+MESSAGE The blubbering icky thing flees in terror!
+MESSAGE The blubbering icky thing crawls on you.
+MESSAGE You are poisoned!
+MESSAGE The blubbering icky thing crawls on you.
+MESSAGE # HIT:the blubbering icky thing (+)
+MESSAGE # PAIN:The blubbering icky thing (+)
+MESSAGE # HIT_BY:The blubbering icky thing (+)
+MESSAGE # HIT:the blubbering icky thing (2)
+MESSAGE # PAIN:The blubbering icky thing (2)
+MESSAGE # HIT_BY:The blubbering icky thing (3)
+MESSAGE # Loc:32,136 Dep:2 Lev:9 HP:81/84 SP:0/0 Danger:p=14
+MESSAGE # Performing attack type 1 with value 20.
+MESSAGE # Facing blubbering icky thing at (33,137) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the blubbering icky thing.
+MESSAGE You have slain the blubbering icky thing.
+MESSAGE # HIT:the blubbering icky thing (+)
+MESSAGE # KILL:the blubbering icky thing (+)
+MESSAGE # Forgetting a monster 'blubbering icky thing' at (33,137)
+MESSAGE # HIT:the blubbering icky thing (2)
+MESSAGE # KILL:the blubbering icky thing (2)
+MESSAGE # Quaffing Potions of Neutralize Poison.
+MESSAGE You are no longer poisoned.
+MESSAGE You have 2 Potions of Neutralize Poison (b).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-4 at cost 5
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object 'Blindness' at (147,39)
+MESSAGE # Flowing toward item at cost 11
+MESSAGE # Creating a monster 'white jelly' at (40,147), HP: 27, Index: 41
+MESSAGE # Performing attack type 58 with value 54.
+MESSAGE # Targeting white jelly who has 27 Hit Points (40,147).
+MESSAGE # Zapping Rod of Light.
+MESSAGE Target Selected.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE The white jelly cringes from the light!
+MESSAGE # PAIN:The white jelly (+)
+MESSAGE # PAIN:The white jelly (2)
+MESSAGE # Walking onto and deleting a 'Blindness' at (39,147)
+MESSAGE The white jelly touches you.
+MESSAGE You are poisoned!
+MESSAGE The white jelly misses you.
+MESSAGE You have 4 Smoky Potions (e).
+MESSAGE # HIT_BY:The white jelly (+)
+MESSAGE # MISS_BY:The white jelly (+)
+MESSAGE # HIT_BY:The white jelly (3)
+MESSAGE # MISS_BY:The white jelly (3)
+MESSAGE # Loc:39,147 Dep:2 Lev:9 HP:81/84 SP:0/0 Danger:p=24
+MESSAGE # Performing attack type 1 with value 38.
+MESSAGE # Facing white jelly at (40,147) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the white jelly.
+MESSAGE You have destroyed the white jelly.
+MESSAGE # HIT:the white jelly (+)
+MESSAGE # KILL:the white jelly (+)
+MESSAGE # Forgetting a monster 'white jelly' at (40,147)
+MESSAGE # HIT:the white jelly (2)
+MESSAGE # KILL:the white jelly (2)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE You are no longer poisoned.
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Reading Scrolls of Light.
+MESSAGE # Illuminating the dungeon
+MESSAGE You are surrounded by a white light.
+MESSAGE You have a Scroll of Light (g).
+MESSAGE # SELF:lite (+)
+MESSAGE # Called lite at (43,153)
+MESSAGE # SELF:lite (1)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE You hear a door burst open!
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object '& Robe~' at (148,54)
+MESSAGE # Flowing toward item at cost 7
+MESSAGE # Creating a monster 'apprentice' at (53,153), HP: 13, Index: 39
+MESSAGE # Removing Regional Fear (53,153) because of a LOS apprentice
+MESSAGE # Loc:53,149 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=22
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Robe~' at (54,148)
+MESSAGE You have a Robe [2,+1] {??} (p).
+MESSAGE # Tracking a monster 'apprentice' at (53,152) from (53,153)
+MESSAGE # Loc:54,148 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=22
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Tracking a monster 'apprentice' at (53,150) from (53,152)
+MESSAGE # Loc:54,148 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=22
+MESSAGE # Wearing Robe [2,+1] {??}.
+MESSAGE You are wearing a Robe [2,+1] {??} (g).
+MESSAGE You re-arrange your pack.
+MESSAGE You were wearing Soft Leather Armour [8,+0] (q).
+MESSAGE # Tracking a monster 'apprentice' at (54,149) from (53,150)
+MESSAGE # Loc:54,148 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=22
+MESSAGE # Performing attack type 1 with value 35.
+MESSAGE # Facing apprentice at (54,149) who has 13 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the apprentice.
+MESSAGE You miss the apprentice.
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # MISS:the apprentice (+)
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # MISS:the apprentice (2)
+MESSAGE # Loc:54,148 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=22
+MESSAGE # Performing attack type 1 with value 28.
+MESSAGE # Facing apprentice at (54,149) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You miss the apprentice.
+MESSAGE You hit the apprentice. It was a good hit!
+MESSAGE You have slain the apprentice.
+MESSAGE # MISS:the apprentice (+)
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # KILL:the apprentice (+)
+MESSAGE # Forgetting a monster 'apprentice' at (54,149)
+MESSAGE # Creating an object 'copper' at (149,54)
+MESSAGE # MISS:the apprentice (2)
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # KILL:the apprentice (2)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'copper' at (54,149)
+MESSAGE You have found 40 gold pieces worth of copper.
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating a monster 'soldier ant' at (63,136), HP: 7, Index: 30
+MESSAGE # Removing Regional Fear (63,136) because of a LOS soldier ant
+MESSAGE # Flowing toward kill at cost 8
+MESSAGE # Creating a monster 'kobold' at (61,132), HP: 16, Index: 32
+MESSAGE # Removing Regional Fear (61,132) because of a LOS kobold
+MESSAGE # Creating an object 'copper' at (127,59)
+MESSAGE # Flowing toward kill at cost 6
+MESSAGE # Creating an object 'Heroism' at (124,57)
+MESSAGE # Flowing toward kill at cost 5
+MESSAGE The soldier ant wakes up.
+MESSAGE # PAIN:The soldier ant (+)
+MESSAGE # PAIN:The soldier ant (2)
+MESSAGE # Loc:63,137 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=2
+MESSAGE # Performing attack type 1 with value 15.
+MESSAGE # Facing soldier ant at (63,136) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the soldier ant.
+MESSAGE You have slain the soldier ant.
+MESSAGE # HIT:the soldier ant (+)
+MESSAGE # KILL:the soldier ant (+)
+MESSAGE # Forgetting a monster 'soldier ant' at (63,136)
+MESSAGE # HIT:the soldier ant (2)
+MESSAGE # KILL:the soldier ant (2)
+MESSAGE # Flowing toward kill at cost 4
+MESSAGE The kobold wakes up.
+MESSAGE # PAIN:The kobold (+)
+MESSAGE # PAIN:The kobold (2)
+MESSAGE # Loc:62,133 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=8
+MESSAGE # Performing attack type 1 with value 21.
+MESSAGE # Facing kobold at (61,132) who has 16 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You miss the kobold.
+MESSAGE You hit the kobold.
+MESSAGE # MISS:the kobold (+)
+MESSAGE # HIT:the kobold (+)
+MESSAGE # MISS:the kobold (2)
+MESSAGE # HIT:the kobold (2)
+MESSAGE # Loc:62,133 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=8
+MESSAGE # Performing attack type 1 with value 21.
+MESSAGE # Facing kobold at (61,132) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the kobold.
+MESSAGE You hit the kobold. It was a good hit!
+MESSAGE You have slain the kobold.
+MESSAGE # HIT:the kobold (+)
+MESSAGE # KILL:the kobold (+)
+MESSAGE # Forgetting a monster 'kobold' at (61,132)
+MESSAGE # HIT:the kobold (2)
+MESSAGE # KILL:the kobold (2)
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Walking onto and deleting a 'copper' at (59,127)
+MESSAGE You have found 100 gold pieces worth of copper.
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a 'Heroism' at (57,124)
+MESSAGE You have 2 Potions of Heroism (d).
+MESSAGE # Creating a monster 'giant white mouse' at (62,121), HP: 3, Index: 23
+MESSAGE # Removing Regional Fear (62,121) because of a LOS giant white mouse
+MESSAGE # Flowing toward dark-4 at cost 5
+MESSAGE The giant white mouse wakes up.
+MESSAGE # PAIN:The giant white mouse (+)
+MESSAGE # PAIN:The giant white mouse (2)
+MESSAGE # Tracking a monster 'giant white mouse' at (63,122) from (62,121)
+MESSAGE # Tracking a monster 'giant white mouse' at (61,121) from (63,122)
+MESSAGE The giant white mouse bites you.
+MESSAGE # HIT_BY:The giant white mouse (+)
+MESSAGE # Creating a monster 'apprentice' at (60,114), HP: 18, Index: 39
+MESSAGE # Removing Regional Fear (60,114) because of a LOS apprentice
+MESSAGE # Creating a monster 'apprentice' at (60,113), HP: 17, Index: 39
+MESSAGE # Removing Regional Fear (60,113) because of a LOS apprentice
+MESSAGE # Creating a monster 'cave spider' at (60,112), HP: 7, Index: 50
+MESSAGE # Removing Regional Fear (60,112) because of a LOS cave spider
+MESSAGE # Creating a monster 'cave spider' at (60,109), HP: 8, Index: 50
+MESSAGE # Removing Regional Fear (60,109) because of a LOS cave spider
+MESSAGE # Creating a monster 'soldier' at (60,108), HP: 27, Index: 36
+MESSAGE # Removing Regional Fear (60,108) because of a LOS soldier
+MESSAGE # HIT_BY:The giant white mouse (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:60,120 Dep:2 Lev:9 HP:83/84 SP:0/0 Danger:p=53
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You have 13 Scrolls of Phase Door (g).
+MESSAGE # Tracking a monster 'giant white mouse' at (60,120) from (61,121)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 70
+MESSAGE # Tracking a monster 'giant white mouse' at (60,121) from (60,120)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'giant white mouse' at (61,121) from (60,121)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Creating a monster 'giant white mouse' at (60,120), HP: 1, Index: 23
+MESSAGE # Removing Regional Fear (60,120) because of a LOS giant white mouse
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Tracking a monster 'giant white mouse' at (62,121) from (61,121)
+MESSAGE # Tracking a monster 'giant white mouse' at (60,121) from (60,120)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'giant white mouse' at (62,122) from (62,121)
+MESSAGE # Tracking a monster 'giant white mouse' at (61,122) from (60,121)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE The giant white mouse bites you.
+MESSAGE # HIT_BY:The giant white mouse (+)
+MESSAGE # Tracking a monster 'giant white mouse' at (61,121) from (61,122)
+MESSAGE # HIT_BY:The giant white mouse (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,123 Dep:2 Lev:9 HP:83/84 SP:0/0 Danger:p=5
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 14.
+MESSAGE # Facing giant white mouse at (62,122) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the giant white mouse.
+MESSAGE You have slain the giant white mouse.
+MESSAGE # HIT:the giant white mouse (+)
+MESSAGE # KILL:the giant white mouse (+)
+MESSAGE # Forgetting a monster 'giant white mouse' at (62,122)
+MESSAGE # HIT:the giant white mouse (2)
+MESSAGE # KILL:the giant white mouse (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE The giant white mouse misses you.
+MESSAGE # MISS_BY:The giant white mouse (+)
+MESSAGE # Tracking a monster 'apprentice' at (60,120) from (60,114)
+MESSAGE # MISS_BY:The giant white mouse (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:62,122 Dep:2 Lev:9 HP:83/84 SP:0/0 Danger:p=27
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 8.
+MESSAGE # Facing giant white mouse at (61,121) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the giant white mouse.
+MESSAGE You have slain the giant white mouse.
+MESSAGE # HIT:the giant white mouse (+)
+MESSAGE # KILL:the giant white mouse (+)
+MESSAGE # Forgetting a monster 'giant white mouse' at (61,121)
+MESSAGE # Tracking a monster 'apprentice' at (61,121) from (60,120)
+MESSAGE # HIT:the giant white mouse (2)
+MESSAGE # KILL:the giant white mouse (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:62,122 Dep:2 Lev:9 HP:83/84 SP:0/0 Danger:p=22
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 35.
+MESSAGE # Facing apprentice at (61,121) who has 18 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the apprentice.
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:62,122 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=22
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 34.
+MESSAGE # Facing apprentice at (61,121) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the apprentice.
+MESSAGE You have slain the apprentice.
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # KILL:the apprentice (+)
+MESSAGE # Forgetting a monster 'apprentice' at (61,121)
+MESSAGE # Tracking a monster 'apprentice' at (60,120) from (60,113)
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # KILL:the apprentice (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:62,122 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=22
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE The apprentice hits you.
+MESSAGE # HIT_BY:The apprentice (+)
+MESSAGE # HIT_BY:The apprentice (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:61,121 Dep:2 Lev:9 HP:80/84 SP:0/0 Danger:p=22
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 35.
+MESSAGE # Facing apprentice at (60,120) who has 17 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the apprentice.
+MESSAGE The apprentice flees in terror!
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # PAIN:The apprentice (+)
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # PAIN:The apprentice (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:61,121 Dep:2 Lev:9 HP:80/84 SP:0/0 Danger:p=22
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Walking into a 'apprentice' at (60,120)
+MESSAGE You hit the apprentice.
+MESSAGE You have slain the apprentice.
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # KILL:the apprentice (+)
+MESSAGE # Forgetting a monster 'apprentice' at (60,120)
+MESSAGE # Creating an object 'copper' at (120,60)
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # KILL:the apprentice (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 62
+MESSAGE # Walking onto and deleting a 'copper' at (60,120)
+MESSAGE You have found 125 gold pieces worth of copper.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # There was a monster 'cave spider' at (60,112)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,113 Dep:2 Lev:9 HP:82/84 SP:0/0 Danger:p=21
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 53.
+MESSAGE # Facing cave spider at (60,112) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the cave spider.
+MESSAGE You have slain the cave spider.
+MESSAGE # HIT:the cave spider (+)
+MESSAGE # KILL:the cave spider (+)
+MESSAGE # Forgetting a monster 'cave spider' at (60,112)
+MESSAGE # Creating a monster 'cave spider' at (60,112), HP: 4, Index: 50
+MESSAGE # Removing Regional Fear (60,112) because of a LOS cave spider
+MESSAGE # HIT:the cave spider (2)
+MESSAGE # KILL:the cave spider (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,113 Dep:2 Lev:9 HP:82/84 SP:0/0 Danger:p=11
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 30.
+MESSAGE # Facing cave spider at (60,112) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the cave spider.
+MESSAGE You have slain the cave spider.
+MESSAGE # HIT:the cave spider (+)
+MESSAGE # KILL:the cave spider (+)
+MESSAGE # Forgetting a monster 'cave spider' at (60,112)
+MESSAGE # HIT:the cave spider (2)
+MESSAGE # KILL:the cave spider (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 54
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Creating a monster 'cave spider' at (60,110), HP: 7, Index: 50
+MESSAGE # Removing Regional Fear (60,110) because of a LOS cave spider
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,111 Dep:2 Lev:9 HP:83/84 SP:0/0 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,112 (distance 1) via 60,112 (32 > 7)
+MESSAGE # There was a monster 'cave spider' at (60,110)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,112 Dep:2 Lev:9 HP:83/84 SP:0/0 Danger:p=7
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Flowing toward stairs at cost 55
+MESSAGE The cave spider bites you.
+MESSAGE The cave spider wakes up.
+MESSAGE The cave spider bites you.
+MESSAGE # QUAKE:Somebody (+)
+MESSAGE # QUAKE:Somebody (0)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,111 Dep:2 Lev:9 HP:81/84 SP:0/0 Danger:p=19
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 35.
+MESSAGE # Facing cave spider at (60,110) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the cave spider.
+MESSAGE You have slain the cave spider.
+MESSAGE # HIT:the cave spider (+)
+MESSAGE # KILL:the cave spider (+)
+MESSAGE # Forgetting a monster 'cave spider' at (60,110)
+MESSAGE # Tracking a monster 'cave spider' at (60,110) from (60,109)
+MESSAGE # HIT:the cave spider (2)
+MESSAGE # KILL:the cave spider (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,111 Dep:2 Lev:9 HP:81/84 SP:0/0 Danger:p=12
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 35.
+MESSAGE # Facing cave spider at (60,110) who has 8 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the cave spider.
+MESSAGE You have slain the cave spider.
+MESSAGE # HIT:the cave spider (+)
+MESSAGE # KILL:the cave spider (+)
+MESSAGE # Forgetting a monster 'cave spider' at (60,110)
+MESSAGE # HIT:the cave spider (2)
+MESSAGE # KILL:the cave spider (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,111 Dep:2 Lev:9 HP:81/84 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,110 Dep:2 Lev:9 HP:81/84 SP:0/0 Danger:p=3
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE The soldier wakes up.
+MESSAGE # PAIN:The soldier (+)
+MESSAGE # PAIN:The soldier (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,109 Dep:2 Lev:9 HP:82/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,110 (distance 1) via 60,110 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (60,109) from (60,108)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,110 Dep:2 Lev:9 HP:82/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,111 (distance 1) via 60,111 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (60,110) from (60,109)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,111 Dep:2 Lev:9 HP:82/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,112 (distance 1) via 60,112 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (60,111) from (60,110)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,112 Dep:2 Lev:9 HP:83/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,113 (distance 1) via 60,113 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (60,112) from (60,111)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,113 Dep:2 Lev:9 HP:83/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,114 (distance 1) via 60,114 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (60,113) from (60,112)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,114 Dep:2 Lev:9 HP:83/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,115 (distance 1) via 60,115 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (60,114) from (60,113)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,115 Dep:2 Lev:9 HP:83/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,116 (distance 1) via 60,116 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (60,115) from (60,114)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,116 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,117 (distance 1) via 60,117 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (60,116) from (60,115)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,117 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,118 (distance 1) via 60,118 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (60,117) from (60,116)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,118 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,119 (distance 1) via 60,119 (41 > 1)
+MESSAGE The soldier hits you.
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # Tracking a monster 'soldier' at (60,118) from (60,117)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,119 Dep:2 Lev:9 HP:71/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,120 (distance 1) via 60,120 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (60,119) from (60,118)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,120 Dep:2 Lev:9 HP:71/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 59,126 (distance 6) via 60,121 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (60,120) from (60,119)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,121 Dep:2 Lev:9 HP:71/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 58,125 (distance 4) via 60,122 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (60,121) from (60,120)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,122 Dep:2 Lev:9 HP:71/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 58,125 (distance 3) via 60,123 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (60,122) from (60,121)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,123 Dep:2 Lev:9 HP:72/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 58,125 (distance 2) via 59,124 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (59,123) from (60,122)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,124 Dep:2 Lev:9 HP:72/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 58,125 (distance 1) via 58,125 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (58,124) from (59,123)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:58,125 Dep:2 Lev:9 HP:72/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 59,126 (distance 1) via 59,126 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (59,125) from (58,124)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,126 Dep:2 Lev:9 HP:73/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 59,127 (distance 1) via 59,127 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (59,126) from (59,125)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,127 Dep:2 Lev:9 HP:73/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 60,128 (distance 1) via 60,128 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (60,127) from (59,126)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:60,128 Dep:2 Lev:9 HP:73/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 61,129 (distance 1) via 61,129 (41 > 1)
+MESSAGE The soldier hits you.
+MESSAGE The soldier misses you.
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # Tracking a monster 'soldier' at (61,128) from (60,127)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:61,129 Dep:2 Lev:9 HP:69/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 61,130 (distance 1) via 61,130 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (61,129) from (61,128)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:61,130 Dep:2 Lev:9 HP:70/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 61,131 (distance 1) via 61,131 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (61,130) from (61,129)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:61,131 Dep:2 Lev:9 HP:70/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 61,132 (distance 1) via 61,132 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (61,131) from (61,130)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:61,132 Dep:2 Lev:9 HP:70/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 62,133 (distance 1) via 62,133 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (62,132) from (61,131)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:62,133 Dep:2 Lev:9 HP:71/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 63,134 (distance 1) via 63,134 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (63,133) from (62,132)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,134 Dep:2 Lev:9 HP:71/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 63,141 (distance 7) via 63,135 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (63,134) from (63,133)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,135 Dep:2 Lev:9 HP:71/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 63,141 (distance 6) via 63,136 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (63,135) from (63,134)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,136 Dep:2 Lev:9 HP:71/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 63,141 (distance 5) via 63,137 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (63,136) from (63,135)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,137 Dep:2 Lev:9 HP:72/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 63,141 (distance 4) via 63,138 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (63,137) from (63,136)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,138 Dep:2 Lev:9 HP:72/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 63,141 (distance 3) via 63,139 (41 > 0)
+MESSAGE The soldier hits you.
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # Tracking a monster 'soldier' at (63,138) from (63,137)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,139 Dep:2 Lev:9 HP:66/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 63,141 (distance 2) via 63,140 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (63,139) from (63,138)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,140 Dep:2 Lev:9 HP:67/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 63,141 (distance 1) via 63,141 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (63,140) from (63,139)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,141 Dep:2 Lev:9 HP:67/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 63,142 (distance 1) via 63,142 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (63,141) from (63,140)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,142 Dep:2 Lev:9 HP:67/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 63,143 (distance 1) via 63,143 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (63,142) from (63,141)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,143 Dep:2 Lev:9 HP:67/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 61,146 (distance 3) via 63,144 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (63,143) from (63,142)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:63,144 Dep:2 Lev:9 HP:68/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 61,146 (distance 2) via 62,145 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (62,144) from (63,143)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:62,145 Dep:2 Lev:9 HP:68/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 61,146 (distance 1) via 61,146 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (63,145) from (62,144)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:61,146 Dep:2 Lev:9 HP:68/84 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Flowing toward stairs at cost 89
+MESSAGE The soldier hits you.
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:62,145 Dep:2 Lev:9 HP:63/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You have 12 Scrolls of Phase Door (g).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 80
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (63,141) from (63,145)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (62,140) from (63,141)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (61,139) from (62,140)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (61,138) from (61,139)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (61,137) from (61,138)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (61,136) from (61,137)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (61,135) from (61,136)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (61,134) from (61,135)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (61,133) from (61,134)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,131) from (61,133)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,130) from (60,131)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,129) from (60,130)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,128) from (60,129)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,127) from (60,128)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,126) from (60,127)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,125) from (60,126)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,124) from (60,125)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,123) from (60,124)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,122) from (60,123)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,120) from (60,122)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,119) from (60,120)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,118) from (60,119)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,117) from (60,118)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,116) from (60,117)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,115) from (60,116)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,114) from (60,115)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,113) from (60,114)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,112) from (60,113)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (60,111) from (60,112)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 51
+MESSAGE # Tracking a monster 'soldier' at (60,109) from (60,111)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 51
+MESSAGE # Tracking a monster 'soldier' at (60,108) from (60,109)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (59,104) from (60,108)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'soldier' at (58,104) from (59,104)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 46
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 46
+MESSAGE # Tracking a monster 'soldier' at (56,104) from (58,104)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Flowing toward stairs at cost 46
+MESSAGE # Tracking a monster 'soldier' at (55,103) from (56,104)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,101 Dep:2 Lev:9 HP:74/84 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Flowing toward stairs at cost 46
+MESSAGE # Tracking a monster 'soldier' at (55,101) from (55,103)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,100 Dep:2 Lev:9 HP:75/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 5.1
+MESSAGE You have 11 Scrolls of Phase Door (g).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 36
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 28
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 28
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 28
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating an object 'Summon Monster' at (89,54)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating an object 'Boldness' at (91,54)
+MESSAGE # Flowing toward item at cost 11
+MESSAGE # Creating an object 'Neutralize Poison' at (94,54)
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Creating a monster 'fruit bat' at (53,92), HP: 1, Index: 31
+MESSAGE # Removing Regional Fear (53,92) because of a LOS fruit bat
+MESSAGE # Tracking a monster 'fruit bat' at (53,94) from (53,92)
+MESSAGE # Tracking a monster 'fruit bat' at (52,93) from (53,94)
+MESSAGE # Tracking a monster 'fruit bat' at (53,95) from (52,93)
+MESSAGE # Walking onto and deleting a 'Neutralize Poison' at (54,94)
+MESSAGE You have 3 Potions of Neutralize Poison (b).
+MESSAGE # Tracking a monster 'fruit bat' at (52,95) from (53,95)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE The fruit bat misses you.
+MESSAGE # MISS_BY:The fruit bat (+)
+MESSAGE # Tracking a monster 'fruit bat' at (53,94) from (52,95)
+MESSAGE # MISS_BY:The fruit bat (3)
+MESSAGE # Loc:54,93 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=1
+MESSAGE # Performing attack type 1 with value 4.
+MESSAGE # Facing fruit bat at (53,94) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the fruit bat.
+MESSAGE You have slain the fruit bat.
+MESSAGE # HIT:the fruit bat (+)
+MESSAGE # KILL:the fruit bat (+)
+MESSAGE # Forgetting a monster 'fruit bat' at (53,94)
+MESSAGE # HIT:the fruit bat (2)
+MESSAGE # KILL:the fruit bat (2)
+MESSAGE # Walking onto and deleting a 'Boldness' at (54,91)
+MESSAGE You have a Potion of Boldness (e).
+MESSAGE # Flowing toward dark-4 at cost 5
+MESSAGE # Walking onto and deleting a 'Summon Monster' at (54,89)
+MESSAGE You have 3 Scrolls of Summon Monster (m).
+MESSAGE # Creating an object 'Treasure Detection' at (81,53)
+MESSAGE # Flowing toward item at cost 6
+MESSAGE Something makes a high-pitched shriek.
+MESSAGE You hear a sudden stirring in the distance!
+MESSAGE # SPELL_001:Something (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Fearing region (52,82) value 14 because of a non-LOS Something
+MESSAGE # SPELL_001:Something (5)
+MESSAGE # Loc:52,82 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=14
+MESSAGE # Performing defense type 12 with value 1
+MESSAGE # Attempting to cast Hero
+MESSAGE # Quaffing Potions of Heroism.
+MESSAGE You feel like a hero!
+MESSAGE You have a Potion of Heroism (d).
+MESSAGE # Loc:52,82 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=14
+MESSAGE # Walking onto and deleting a 'Treasure Detection' at (53,81)
+MESSAGE Something makes a high-pitched shriek.
+MESSAGE You have 3 Scrolls of Treasure Detection (m).
+MESSAGE # SPELL_001:Something (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Fearing region (53,81) value 14 because of a non-LOS Something
+MESSAGE # SPELL_001:Something (5)
+MESSAGE # Loc:53,81 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=28
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE Something makes a high-pitched shriek.
+MESSAGE # SPELL_001:Something (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Fearing region (53,80) value 14 because of a non-LOS Something
+MESSAGE # SPELL_001:Something (5)
+MESSAGE # Loc:53,80 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=41
+MESSAGE # Loc:54,79 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=41
+MESSAGE # Backing up to 79,55 (41 > 20)
+MESSAGE # Loc:55,79 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=20
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Loc:55,78 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=20
+MESSAGE # Loc:55,77 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=20
+MESSAGE # Loc:55,76 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=11
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Loc:55,75 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=11
+MESSAGE # Loc:55,74 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=11
+MESSAGE # Loc:55,73 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=11
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Loc:55,73 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=11
+MESSAGE # Loc:56,72 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=10
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Loc:57,72 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=10
+MESSAGE # Loc:58,72 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=10
+MESSAGE You feel that there is naught but cobwebs here.
+MESSAGE # FEELING_STUFF:10 (+)
+MESSAGE # FEELING_STUFF:10 (1)
+MESSAGE # Loc:59,72 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=10
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Loc:60,72 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=10
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Loc:60,73 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=10
+MESSAGE # Loc:60,74 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=10
+MESSAGE # Loc:60,75 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=10
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Loc:60,76 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=10
+MESSAGE # Loc:60,77 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=19
+MESSAGE # Loc:60,78 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=18
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Loc:60,79 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=18
+MESSAGE # Creating a monster 'shrieker mushroom patch' at (60,81), HP: 1, Index: 33
+MESSAGE # Loc:60,80 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 7.
+MESSAGE # Facing shrieker mushroom patch at (60,81) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the shrieker mushroom patch.
+MESSAGE You have destroyed the shrieker mushroom patch.
+MESSAGE # HIT:the shrieker mushroom patch (+)
+MESSAGE # KILL:the shrieker mushroom patch (+)
+MESSAGE # Forgetting a monster 'shrieker mushroom patch' at (60,81)
+MESSAGE # HIT:the shrieker mushroom patch (2)
+MESSAGE # KILL:the shrieker mushroom patch (2)
+MESSAGE # Loc:60,80 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=18
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Loc:60,81 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=18
+MESSAGE # Flowing toward dark-5 at cost 42
+MESSAGE # Loc:59,81 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=18
+MESSAGE You no longer feel heroic.
+MESSAGE # Loc:58,81 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=18
+MESSAGE # Performing defense type 12 with value 1
+MESSAGE # Attempting to cast Hero
+MESSAGE # Quaffing Potion of Heroism.
+MESSAGE You feel like a hero!
+MESSAGE You have no more Potions of Heroism (d).
+MESSAGE # Loc:58,81 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=18
+MESSAGE # Loc:57,82 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=18
+MESSAGE # Loc:57,83 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=18
+MESSAGE # Loc:57,84 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=17
+MESSAGE # Loc:57,85 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=17
+MESSAGE # Loc:57,86 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=17
+MESSAGE # Loc:57,87 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=17
+MESSAGE You no longer feel heroic.
+MESSAGE # Shifted panel to locate offscreen monster.
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating a monster 'green worm mass' at (55,166), HP: 18, Index: 49
+MESSAGE # Removing Regional Fear (55,166) because of a LOS green worm mass
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE The green worm mass shrivels away in the light!
+MESSAGE # DIED:The green worm mass (+)
+MESSAGE # Forgetting a monster 'green worm mass' at (55,166)
+MESSAGE # Creating a monster 'white harpy' at (55,157), HP: 7, Index: 45
+MESSAGE # Removing Regional Fear (55,157) because of a LOS white harpy
+MESSAGE # DIED:The green worm mass (2)
+MESSAGE # Flowing toward kill at cost 5
+MESSAGE # Tracking a monster 'white harpy' at (55,158) from (55,157)
+MESSAGE # Tracking a monster 'white harpy' at (55,157) from (55,158)
+MESSAGE # Flowing toward kill at cost 3
+MESSAGE # Performing attack type 0 with value 1.
+MESSAGE # Waiting for monster 'white harpy' to approach.
+MESSAGE The white harpy claws you.
+MESSAGE The white harpy bites you.
+MESSAGE # HIT_BY:The white harpy (+)
+MESSAGE # HIT_BY:The white harpy (3)
+MESSAGE # Loc:55,156 Dep:2 Lev:9 HP:81/84 SP:0/0 Danger:p=4
+MESSAGE # Performing attack type 1 with value 17.
+MESSAGE # Facing white harpy at (55,157) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the white harpy.
+MESSAGE You have slain the white harpy.
+MESSAGE # HIT:the white harpy (+)
+MESSAGE # KILL:the white harpy (+)
+MESSAGE # Forgetting a monster 'white harpy' at (55,157)
+MESSAGE # HIT:the white harpy (2)
+MESSAGE # KILL:the white harpy (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object 'Speed' at (164,57)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a 'Speed' at (57,164)
+MESSAGE You have 5 Potions of Speed (c).
+MESSAGE # Spent too long (175) on level, leaving.
+MESSAGE # Flowing toward down-stairs at cost 53
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Needing to get back on correct depth
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Creating an object 'Boldness' at (31,37)
+MESSAGE # Flowing toward item at cost 10
+MESSAGE # Creating a monster 'soldier' at (31,33), HP: 22, Index: 36
+MESSAGE # Removing Regional Fear (31,33) because of a LOS soldier
+MESSAGE # Creating a monster 'soldier' at (30,33), HP: 21, Index: 36
+MESSAGE # Removing Regional Fear (30,33) because of a LOS soldier
+MESSAGE # Loc:28,32 Dep:2 Lev:9 HP:84/84 SP:0/0 Danger:p=3
+MESSAGE # Flowing toward item at cost 11
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE You are getting hungry.
+MESSAGE # Eating Rations of Food.
+MESSAGE That tastes good.
+MESSAGE You are no longer hungry.
+MESSAGE You have 7 Rations of Food (a).
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE You are surrounded by a strange white mist!
+MESSAGE You are paralysed!
+MESSAGE The soldier hits you.
+MESSAGE The soldier misses you.
+MESSAGE The soldier hits you.
+MESSAGE The soldier misses you.
+MESSAGE The soldier hits you.
+MESSAGE The soldier misses you.
+MESSAGE The soldier hits you.
+MESSAGE The soldier misses you.
+MESSAGE The soldier hits you.
+MESSAGE The soldier misses you.
+MESSAGE You can move again.
+MESSAGE The soldier misses you.
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # Creating a monster 'soldier' at (22,23), HP: 22, Index: 36
+MESSAGE # Removing Regional Fear (22,23) because of a LOS soldier
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # Loc:23,22 Dep:2 Lev:9 HP:52/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 22,21 (distance 1) via 22,21 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (22,22) from (22,23)
+MESSAGE # Loc:22,21 Dep:2 Lev:9 HP:52/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 22,20 (distance 1) via 22,20 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (22,21) from (22,22)
+MESSAGE # Loc:22,20 Dep:2 Lev:9 HP:53/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 22,19 (distance 1) via 22,19 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (22,20) from (22,21)
+MESSAGE # Loc:22,19 Dep:2 Lev:9 HP:53/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 22,18 (distance 1) via 22,18 (41 > 1)
+MESSAGE The soldier hits you.
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # Tracking a monster 'soldier' at (22,19) from (22,20)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # Loc:22,18 Dep:2 Lev:9 HP:42/84 SP:0/0 Danger:p=41
+MESSAGE # Safe to Phase. scary squares: 1
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You feel that there is naught but cobwebs here.
+MESSAGE You have 10 Scrolls of Phase Door (g).
+MESSAGE # FEELING_STUFF:10 (+)
+MESSAGE # Creating an object '[Novice's Handbook]' at (27,10)
+MESSAGE # Creating an object '& Ration~ of Food' at (26,10)
+MESSAGE # Creating an object 'copper' at (25,10)
+MESSAGE # Creating an object 'Speed' at (15,10)
+MESSAGE # FEELING_STUFF:10 (1)
+MESSAGE # Flowing toward item at cost 4
+MESSAGE # Tracking a monster 'soldier' at (20,17) from (22,19)
+MESSAGE # Walking onto and deleting a 'Speed' at (10,15)
+MESSAGE You have 6 Potions of Speed (c).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (16,17) from (20,17)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (15,17) from (16,17)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (13,16) from (15,17)
+MESSAGE # Flowing toward item at cost 10
+MESSAGE # Tracking a monster 'soldier' at (12,16) from (13,16)
+MESSAGE # Loc:10,16 Dep:2 Lev:9 HP:46/84 SP:0/0 Danger:p=1
+MESSAGE # Tracking a monster 'soldier' at (11,17) from (12,16)
+MESSAGE # Loc:10,17 Dep:2 Lev:9 HP:46/84 SP:0/0 Danger:p=41
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You have 9 Scrolls of Phase Door (g).
+MESSAGE # Tracking a monster 'soldier' at (12,17) from (11,17)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (13,17) from (12,17)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (14,17) from (13,17)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (15,17) from (14,17)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Tracking a monster 'soldier' at (16,17) from (15,17)
+MESSAGE # Loc:18,17 Dep:2 Lev:9 HP:47/84 SP:0/0 Danger:p=1
+MESSAGE The soldier hits you.
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # Loc:17,17 Dep:2 Lev:9 HP:44/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 18,17 (distance 1) via 18,17 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (17,17) from (16,17)
+MESSAGE # Loc:18,17 Dep:2 Lev:9 HP:44/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 19,17 (distance 1) via 19,17 (41 > 1)
+MESSAGE The soldier misses you.
+MESSAGE The soldier hits you.
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # Tracking a monster 'soldier' at (18,17) from (17,17)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # Loc:19,17 Dep:2 Lev:9 HP:39/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 20,17 (distance 1) via 20,17 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (19,17) from (18,17)
+MESSAGE # Loc:20,17 Dep:2 Lev:9 HP:40/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 21,17 (distance 1) via 21,17 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (20,17) from (19,17)
+MESSAGE # Loc:21,17 Dep:2 Lev:9 HP:40/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 22,18 (distance 1) via 22,18 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (21,17) from (20,17)
+MESSAGE # Loc:22,18 Dep:2 Lev:9 HP:40/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 22,19 (distance 1) via 22,19 (41 > 0)
+MESSAGE # Tracking a monster 'soldier' at (22,18) from (21,17)
+MESSAGE # Loc:22,19 Dep:2 Lev:9 HP:41/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 22,20 (distance 1) via 22,20 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (22,19) from (22,18)
+MESSAGE # Loc:22,20 Dep:2 Lev:9 HP:41/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 22,21 (distance 1) via 22,21 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (22,20) from (22,19)
+MESSAGE # Loc:22,21 Dep:2 Lev:9 HP:41/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 22,22 (distance 1) via 22,22 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (22,21) from (22,20)
+MESSAGE # Loc:22,22 Dep:2 Lev:9 HP:42/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 22,23 (distance 1) via 22,23 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (22,22) from (22,21)
+MESSAGE # Loc:22,23 Dep:2 Lev:9 HP:42/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 22,24 (distance 1) via 22,24 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (22,23) from (22,22)
+MESSAGE # Loc:22,24 Dep:2 Lev:9 HP:42/84 SP:0/0 Danger:p=41
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You have 8 Scrolls of Phase Door (g).
+MESSAGE # Flowing toward item at cost 4
+MESSAGE # Walking onto and deleting a 'copper' at (10,25)
+MESSAGE You have found 50 gold pieces worth of copper.
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Ration~ of Food' at (10,26)
+MESSAGE You have 11 Rations of Food (a).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '[Novice's Handbook]' at (10,27)
+MESSAGE You have a Holy Book of Prayers [Novice's Handbook] (a).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'soldier' at (14,18), HP: 22, Index: 36
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (14,19) from (14,18)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (13,20) from (14,19)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (13,21) from (13,20)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (12,22) from (13,21)
+MESSAGE # Performing attack type 2 with value 1.
+MESSAGE # Targeting soldier who has 22 Hit Points (12,22).
+MESSAGE # Throwing painful object 'Holy Book of Prayers [Novice's Handbook]'
+MESSAGE Target Selected.
+MESSAGE Your Holy Book of Prayers [Novice's Handbook] hits the soldier.
+MESSAGE You have no more Holy Books of Prayers [Novice's Handbook] (a).
+MESSAGE The Holy Book of Prayers [Novice's Handbook] breaks.
+MESSAGE The soldier grunts with pain.
+MESSAGE # PAIN:The soldier (+)
+MESSAGE # Tracking a monster 'soldier' at (11,24) from (12,22)
+MESSAGE # PAIN:The soldier (2)
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # Boosting bravery (1) from 49 to 98!
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Spastic Searching at (27,10)...value:0
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE You have 7 Scrolls of Phase Door (g).
+MESSAGE # Tracking a monster 'soldier' at (11,23) from (11,24)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (11,22) from (11,23)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (11,21) from (11,22)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (11,20) from (11,21)
+MESSAGE # Flowing toward dark-5 at cost 14
+MESSAGE # Tracking a monster 'soldier' at (11,19) from (11,20)
+MESSAGE # Tracking a monster 'soldier' at (11,18) from (11,19)
+MESSAGE # Loc:11,16 Dep:2 Lev:9 HP:52/84 SP:0/0 Danger:p=1
+MESSAGE # Tracking a monster 'soldier' at (12,17) from (11,18)
+MESSAGE # Loc:12,16 Dep:2 Lev:9 HP:52/84 SP:0/0 Danger:p=41
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You have 6 Scrolls of Phase Door (g).
+MESSAGE # Tracking a monster 'soldier' at (12,18) from (12,17)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (12,19) from (12,18)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (12,21) from (12,19)
+MESSAGE # Flowing toward dark-5 at cost 16
+MESSAGE # Tracking a monster 'soldier' at (12,22) from (12,21)
+MESSAGE # Loc:12,24 Dep:2 Lev:9 HP:53/84 SP:0/0 Danger:p=1
+MESSAGE The soldier hits you.
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # Loc:13,23 Dep:2 Lev:9 HP:47/84 SP:0/0 Danger:p=41
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You have 5 Scrolls of Phase Door (g).
+MESSAGE # Tracking a monster 'soldier' at (11,21) from (12,22)
+MESSAGE # Flowing toward dark-5 at cost 16
+MESSAGE # Tracking a monster 'soldier' at (10,20) from (11,21)
+MESSAGE # Tracking a monster 'soldier' at (10,19) from (10,20)
+MESSAGE # Loc:9,17 Dep:2 Lev:9 HP:48/84 SP:0/0 Danger:p=1
+MESSAGE # Tracking a monster 'soldier' at (10,18) from (10,19)
+MESSAGE # Loc:10,17 Dep:2 Lev:9 HP:48/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 11,16 (distance 1) via 11,16 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (11,17) from (10,18)
+MESSAGE # Loc:11,16 Dep:2 Lev:9 HP:48/84 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 10,15 (distance 1) via 10,15 (41 > 1)
+MESSAGE # Tracking a monster 'soldier' at (10,16) from (11,17)
+MESSAGE # Loc:10,15 Dep:2 Lev:9 HP:49/84 SP:0/0 Danger:p=41
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You have 4 Scrolls of Phase Door (g).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (15,17) from (10,16)
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Tracking a monster 'soldier' at (16,17) from (15,17)
+MESSAGE # Tracking a monster 'soldier' at (17,17) from (16,17)
+MESSAGE # Tracking a monster 'soldier' at (18,17) from (17,17)
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # Boosting bravery (1) from 52 to 104!
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Spastic Searching at (17,22)...value:0
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE You have 3 Scrolls of Phase Door (g).
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # Boosting bravery (1) from 52 to 104!
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Spastic Searching at (21,14)...value:0
+MESSAGE # Boosting bravery (2) from 52 to 336!
+MESSAGE # Flowing toward dark-4 at cost 17
+MESSAGE The soldier hits you.
+MESSAGE The soldier misses you.
+MESSAGE The soldier hits you.
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # Tracking a monster 'soldier' at (16,17) from (18,17)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # Loc:15,17 Dep:2 Lev:9 HP:38/84 SP:0/0 Danger:p=41
+MESSAGE # Safe to Phase. scary squares: 5
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 3.1
+MESSAGE You have 2 Scrolls of Phase Door (g).
+MESSAGE # Tracking a monster 'soldier' at (15,17) from (16,17)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (14,16) from (15,17)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (13,16) from (14,16)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (12,15) from (13,16)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (11,15) from (12,15)
+MESSAGE # Spent too long (102) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # Boosting bravery (1) from 41 to 82!
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Spastic Searching at (13,7)...value:0
+MESSAGE # Boosting bravery (2) from 41 to 336!
+MESSAGE # Flowing toward kill at cost 4
+MESSAGE # Tracking a monster 'soldier' at (10,14) from (11,15)
+MESSAGE # Loc:8,13 Dep:2 Lev:9 HP:41/84 SP:0/0 Danger:p=1
+MESSAGE The soldier misses you.
+MESSAGE The soldier hits you.
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # Loc:9,13 Dep:2 Lev:9 HP:37/84 SP:0/0 Danger:p=41
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 2.2
+MESSAGE You have a Scroll of Phase Door (g).
+MESSAGE # Tracking a monster 'soldier' at (10,15) from (10,14)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (10,16) from (10,15)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (10,18) from (10,16)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (10,19) from (10,18)
+MESSAGE # Spent too long (108) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 39 to 78!
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (2) from 39 to 336!
+MESSAGE # Flowing toward kill at cost 4
+MESSAGE # Tracking a monster 'soldier' at (10,20) from (10,19)
+MESSAGE # Loc:11,22 Dep:2 Lev:9 HP:39/84 SP:0/0 Danger:p=1
+MESSAGE # Performing attack type 0 with value 1.
+MESSAGE # Waiting for monster 'soldier' to approach.
+MESSAGE # Tracking a monster 'soldier' at (11,21) from (10,20)
+MESSAGE # Loc:11,22 Dep:2 Lev:9 HP:39/84 SP:0/0 Danger:p=41
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 3.1
+MESSAGE You have no more Scrolls of Phase Door (g).
+MESSAGE # Tracking a monster 'soldier' at (11,20) from (11,21)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (11,19) from (11,20)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (11,18) from (11,19)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier' at (11,17) from (11,18)
+MESSAGE # Spent too long (114) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 41 to 82!
+MESSAGE # heading up (bored and unable to dive: 2 cure)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (2) from 41 to 336!
+MESSAGE # Flowing toward kill at cost 4
+MESSAGE # Tracking a monster 'soldier' at (11,16) from (11,17)
+MESSAGE # Loc:10,14 Dep:2 Lev:9 HP:41/84 SP:0/0 Danger:p=1
+MESSAGE # Performing attack type 0 with value 1.
+MESSAGE # Waiting for monster 'soldier' to approach.
+MESSAGE # Tracking a monster 'soldier' at (10,15) from (11,16)
+MESSAGE # Loc:10,14 Dep:2 Lev:9 HP:41/84 SP:0/0 Danger:p=41
+MESSAGE # Fleeing (failed to teleport)
+MESSAGE # Leaving (failed to teleport)
+MESSAGE # Performing attack type 1 with value 52.
+MESSAGE # Facing soldier at (10,15) who has 22 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You miss the soldier.
+MESSAGE You hit the soldier.
+MESSAGE The soldier hits you.
+MESSAGE The soldier misses you.
+MESSAGE # MISS:the soldier (+)
+MESSAGE # HIT:the soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # MISS:the soldier (2)
+MESSAGE # HIT:the soldier (2)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # Loc:10,14 Dep:2 Lev:9 HP:34/84 SP:0/0 Danger:p=41
+MESSAGE # Reading Scroll of Deep Descent.
+MESSAGE # Danger Level 3.4
+MESSAGE The air around you starts to swirl...
+MESSAGE You have no more Scrolls of Deep Descent (n).
+MESSAGE The soldier misses you.
+MESSAGE The soldier hits you.
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # Loc:10,14 Dep:2 Lev:9 HP:32/84 SP:0/0 Danger:p=41
+MESSAGE # Performing attack type 1 with value 52.
+MESSAGE # Facing soldier at (10,15) who has 16 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the soldier. It was a good hit!
+MESSAGE You have slain the soldier.
+MESSAGE # HIT:the soldier (+)
+MESSAGE # KILL:the soldier (+)
+MESSAGE # Forgetting a monster 'soldier' at (10,15)
+MESSAGE # Creating an object 'Neutralize Poison' at (15,10)
+MESSAGE # HIT:the soldier (2)
+MESSAGE # KILL:the soldier (2)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'Neutralize Poison' at (10,15)
+MESSAGE You have 4 Potions of Neutralize Poison (b).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The floor opens beneath you!
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving (restock) restock phase door
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE The stegocentipede wakes up.
+MESSAGE # PAIN:The stegocentipede (+)
+MESSAGE # Creating a monster 'tiger' at (15,105), HP: 66, Index: 173
+MESSAGE # Creating a monster 'stegocentipede' at (15,100), HP: 65, Index: 176
+MESSAGE # PAIN:The stegocentipede (4)
+MESSAGE # Loc:15,106 Dep:12 Lev:9 HP:84/84 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 57.
+MESSAGE # Facing tiger at (15,105) who has 66 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the tiger.
+MESSAGE The tiger claws you.
+MESSAGE The tiger misses you.
+MESSAGE # HIT:the tiger (+)
+MESSAGE # HIT_BY:The tiger (+)
+MESSAGE # MISS_BY:The tiger (+)
+MESSAGE # Tracking a monster 'stegocentipede' at (15,101) from (15,100)
+MESSAGE # HIT:the tiger (2)
+MESSAGE # HIT_BY:The tiger (3)
+MESSAGE # MISS_BY:The tiger (3)
+MESSAGE # Loc:15,106 Dep:12 Lev:9 HP:78/84 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 57.
+MESSAGE # Facing tiger at (15,105) who has 50 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the tiger.
+MESSAGE The tiger claws you.
+MESSAGE The tiger misses you.
+MESSAGE # HIT:the tiger (+)
+MESSAGE # HIT_BY:The tiger (+)
+MESSAGE # MISS_BY:The tiger (+)
+MESSAGE # HIT:the tiger (2)
+MESSAGE # HIT_BY:The tiger (3)
+MESSAGE # MISS_BY:The tiger (3)
+MESSAGE # Loc:15,106 Dep:12 Lev:9 HP:71/84 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 57.
+MESSAGE # Facing tiger at (15,105) who has 39 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You get in a shield bash!
+MESSAGE You stumble!
+MESSAGE The tiger claws you.
+MESSAGE The tiger misses you.
+MESSAGE The tiger claws you.
+MESSAGE The tiger bites you.
+MESSAGE # HIT_BY:The tiger (+)
+MESSAGE # MISS_BY:The tiger (+)
+MESSAGE # HIT_BY:The tiger (+)
+MESSAGE # HIT_BY:The tiger (3)
+MESSAGE # MISS_BY:The tiger (3)
+MESSAGE # HIT_BY:The tiger (3)
+MESSAGE # Loc:15,106 Dep:12 Lev:9 HP:51/84 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 57.
+MESSAGE # Facing tiger at (15,105) who has 34 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the tiger.
+MESSAGE The tiger claws you.
+MESSAGE The tiger bites you.
+MESSAGE # HIT:the tiger (+)
+MESSAGE # HIT_BY:The tiger (+)
+MESSAGE # HIT:the tiger (2)
+MESSAGE # HIT_BY:The tiger (3)
+MESSAGE # Loc:15,106 Dep:12 Lev:9 HP:39/84 SP:0/0 Danger:p=23
+MESSAGE # Fleeing (failed to teleport)
+MESSAGE # Performing attack type 1 with value 57.
+MESSAGE # Facing tiger at (15,105) who has 20 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the tiger.
+MESSAGE The tiger misses you.
+MESSAGE The tiger claws you.
+MESSAGE The tiger bites you.
+MESSAGE # HIT:the tiger (+)
+MESSAGE # MISS_BY:The tiger (+)
+MESSAGE # HIT_BY:The tiger (+)
+MESSAGE # HIT:the tiger (2)
+MESSAGE # MISS_BY:The tiger (3)
+MESSAGE # HIT_BY:The tiger (3)
+MESSAGE # Loc:15,106 Dep:12 Lev:9 HP:30/84 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 57.
+MESSAGE # Facing tiger at (15,105) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the tiger.
+MESSAGE You have slain the tiger.
+MESSAGE The stegocentipede misses you.
+MESSAGE The stegocentipede bites you.
+MESSAGE The stegocentipede stings you.
+MESSAGE # HIT:the tiger (+)
+MESSAGE # KILL:the tiger (+)
+MESSAGE # MISS_BY:The stegocentipede (+)
+MESSAGE # HIT_BY:The stegocentipede (+)
+MESSAGE # Forgetting a monster 'tiger' at (15,105)
+MESSAGE # Tracking a monster 'stegocentipede' at (15,105) from (15,101)
+MESSAGE # HIT:the tiger (2)
+MESSAGE # KILL:the tiger (2)
+MESSAGE # MISS_BY:The stegocentipede (3)
+MESSAGE # HIT_BY:The stegocentipede (3)
+MESSAGE # Loc:15,106 Dep:12 Lev:9 HP:21/84 SP:0/0 Danger:p=25
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing stegocentipede at (15,105) who has 65 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the stegocentipede.
+MESSAGE The stegocentipede misses you.
+MESSAGE The stegocentipede bites you.
+MESSAGE The stegocentipede stings you.
+MESSAGE # HIT:the stegocentipede (+)
+MESSAGE # MISS_BY:The stegocentipede (+)
+MESSAGE # HIT_BY:The stegocentipede (+)
+MESSAGE # HIT:the stegocentipede (2)
+MESSAGE # MISS_BY:The stegocentipede (3)
+MESSAGE # HIT_BY:The stegocentipede (3)
+MESSAGE # Loc:15,106 Dep:12 Lev:9 HP:15/84 SP:0/0 Danger:p=25
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing stegocentipede at (15,105) who has 52 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche of Slay Demon (1d5) (+7,+1)'
+MESSAGE You hit the stegocentipede.
+MESSAGE You miss the stegocentipede.
+MESSAGE The stegocentipede bites you.
+MESSAGE The stegocentipede stings you.
+MESSAGE You die.

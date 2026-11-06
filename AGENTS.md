@@ -35,3 +35,12 @@ that queue permits, follow docs/measurement/DEATH-ANALYSIS-PLAN.md: record death
 causes and living saves; qualify pre-death replay; raise evidence-backed issues
 before changes. Original-C discoveries go to neo-angband-tracker first, then
 source fix and separate consumer carry. No per-PR external-review stop.
+
+Delivery is our Angband build tracking official angband/angband. Check official
+master during active integration; use normal verified upstream-import PRs and
+patch-retirement audits, preserving old baselines/death versions. See UPSTREAM.md
+for the separately owned later borg-rs adoption path; no Rust implementation now.
+Every natural death must be recorded under docs/deaths with its actual version/
+build, curated native logs/snapshots, evaluation/diagnosis/actions and index.
+Use tools/record-death.py and tools/aggregate-deaths.py; repeated replays are not
+new independent deaths. Full raw runs/saves/builds remain outside Git. Bugs first.

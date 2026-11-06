@@ -1,0 +1,14 @@
+key space
+key a
+key a
+key a
+key enter
+key enter
+key enter
+key enter
+key space
+key C-z
+key space
+key space
+key y
+key z

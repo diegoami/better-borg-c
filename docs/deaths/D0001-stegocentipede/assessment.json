@@ -1,0 +1,16 @@
+{
+  "classification": "original C behavior; defect not established",
+  "confidence": "death and replay verified; causal policy diagnosis provisional",
+  "cause_category": "monster melee",
+  "findings": [
+    {"status": "observed", "summary": "Tiger combat reduced84HP to30HP; a following stegocentipede killed the character at turn174862."},
+    {"status": "observed", "summary": "Six known Speed potions remained carried; no healing/phase/teleport stock was carried; four Phase Door scrolls remained at Home."},
+    {"status": "verified", "summary": "Unchanged repeat and pristine upstream reference have identical complete observations and the same terminal state/cause."},
+    {"status": "unproved", "summary": "Why speed and stock policy behaved this way, whether any alternative would safely avert death, and whether this is a code defect remain unproved."}
+  ],
+  "actions": [
+    {"key": "defend-speed-eligibility", "issue": "https://github.com/diegoami/better-borg-c/issues/22", "summary": "Observe actual existing speed-defense eligibility and p1/p2 in the pre-fight state", "status": "investigate before changing policy"},
+    {"key": "home-escape-stock", "issue": "https://github.com/diegoami/better-borg-c/issues/22", "summary": "Trace last Home/town decisions and escape-stock constraints", "status": "investigate before changing policy"},
+    {"key": "pristine-attribution", "issue": "https://github.com/diegoami/better-borg-c/issues/22", "summary": "Compare pristine upstream versus carried build", "status": "completed: identical death/trace; does not establish a defect"}
+  ]
+}

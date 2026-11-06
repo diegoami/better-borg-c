@@ -1,0 +1,631 @@
+{
+  "attempts": [
+    {
+      "binary_sha256": "234841aa91d1ae552d280c122c183c8aaf098af8af5b9e39aed873292aa88a79",
+      "build_record": "build.json",
+      "carried_patches": [
+        {
+          "applied_commits": [
+            "9c10b9b6a475b452c854bd480d87d06ad8226d1b",
+            "5aeae57a3484d6c5bb593fcccbf1cabd480728d7",
+            "39986cc52f3f70727ada24b6def5de98d0bd36c8"
+          ],
+          "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/4",
+          "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+          "evidence_ref": "1b67370d0dc56d9b7ef34e5356e63d21a7095545",
+          "id": "CBUG-0066",
+          "patch": "patches/0001-safer-emergency-swap.patch",
+          "patch_active": true,
+          "source_commits": [
+            "66e1012113fd7db634b19ffe86a470b58a7f7967",
+            "017ba47ebc8731fa0a61361a6f6777759a748d2a",
+            "ebcd255ba9064fc44a35d693f42f9df3dc00bd88"
+          ],
+          "source_head": "ebcd255ba9064fc44a35d693f42f9df3dc00bd88",
+          "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/82",
+          "verification": "docs/measurement/SAFER-SWAP.md"
+        },
+        {
+          "applied_commits": [
+            "8f320210924ffae36a4b592a988982fa7947ad79",
+            "0009ecddcd02b95ac02d63ff43c4c4f95db67b87"
+          ],
+          "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/7",
+          "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+          "evidence_ref": "3de1e3123915587483395dd40c4d2e75704e65f4",
+          "id": "CBUG-0002",
+          "patch": "patches/0002-knockout-reaction-reset.patch",
+          "patch_active": true,
+          "source_commits": [
+            "32ab6823c6a993d94ce382b72f8a855a20f7911c",
+            "6f463d01d753089ab695537495ab27f3bc928dfa"
+          ],
+          "source_head": "6f463d01d753089ab695537495ab27f3bc928dfa",
+          "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/14",
+          "verification": "docs/measurement/KNOCKOUT.md"
+        },
+        {
+          "applied_commits": [
+            "0e76ee35138b309ceb3ed43a6427f2baa42e6d1f"
+          ],
+          "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/15",
+          "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+          "evidence_ref": "a19c8733c0dfa8139b04eecd8117429ec5f55cd6",
+          "id": "CBUG-0094",
+          "patch": "patches/0003-regen-simulation.patch",
+          "patch_active": true,
+          "source_commits": [
+            "31a042d00581ed914d30f17cca1ed0e70e99d21f"
+          ],
+          "source_head": "31a042d00581ed914d30f17cca1ed0e70e99d21f",
+          "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/110",
+          "verification": "docs/measurement/PREPARATION.md"
+        },
+        {
+          "applied_commits": [
+            "2827b28fc378cbba32aaab30163756b64dea36b0"
+          ],
+          "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/17",
+          "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+          "evidence_ref": "b0b0fa2471a11e91838bcbc3d980f4b04f8c6b01",
+          "id": "CBUG-0004",
+          "patch": "patches/0004-cold-melee-protection.patch",
+          "patch_active": true,
+          "source_commits": [
+            "d504eb3d272ce96c0de2c00eba757a251b551334"
+          ],
+          "source_head": "d504eb3d272ce96c0de2c00eba757a251b551334",
+          "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/26",
+          "verification": "docs/measurement/COLD-PROTECTION.md"
+        }
+      ],
+      "cause": "a stegocentipede",
+      "harness_commit": "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3",
+      "outcome": "death",
+      "raw_directory": "/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/seed11-cap400000",
+      "recent_save_sha256": "e64964e684800e60244eb1d6ce40b26d8aab8c965c89674ee25a405487fddffd",
+      "result_sha256": "aee77ada4bd5d931d8e895b748df79ff2b6f154f5b91307d3fa532f53f1782f4",
+      "role": "original",
+      "runner_sha256": "34b7e921ad28e7766af5f83d7d3ddd17e99337092d762fe77226dd263af26752",
+      "same_complete_trace": true,
+      "source_commit": "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3",
+      "terminal": {
+        "borg_rng": 1093781422,
+        "dead": 1,
+        "decisions": 15366,
+        "depth": 12,
+        "energy": 1774459,
+        "hp": -4,
+        "kind": "death",
+        "level": 9,
+        "max_depth": 12,
+        "max_level": 9,
+        "quick": 0,
+        "quick_rng": 1858661567,
+        "rng": "f2a64bcb70b38ebaabc04ec8211ade7a7f57a00bf7ffccae9570cba10509e1ff19de64bf325f1f1a147355e44c47f05d67336f29beb48308492ed34f41ed4a7096eb8ef5a935465f649cef333d382153317cedb312d4e2fdf5c1b4e61c068303206210e5a64a06e4823f3a873f08c73e0ab9deefc43684941cfcc2a5645f4493",
+        "rng_index": 6,
+        "turn": 174862,
+        "winner": 0
+      },
+      "trace_sha256": "a74bb6424ed0662f5d27c3ff1411010654bd42894b50c991e239fe1f737d8553",
+      "upstream_baseline": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3",
+      "wall_seconds": 56.35128981100024
+    },
+    {
+      "binary_sha256": "234841aa91d1ae552d280c122c183c8aaf098af8af5b9e39aed873292aa88a79",
+      "build_record": "build.json",
+      "carried_patches": [
+        {
+          "applied_commits": [
+            "9c10b9b6a475b452c854bd480d87d06ad8226d1b",
+            "5aeae57a3484d6c5bb593fcccbf1cabd480728d7",
+            "39986cc52f3f70727ada24b6def5de98d0bd36c8"
+          ],
+          "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/4",
+          "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+          "evidence_ref": "1b67370d0dc56d9b7ef34e5356e63d21a7095545",
+          "id": "CBUG-0066",
+          "patch": "patches/0001-safer-emergency-swap.patch",
+          "patch_active": true,
+          "source_commits": [
+            "66e1012113fd7db634b19ffe86a470b58a7f7967",
+            "017ba47ebc8731fa0a61361a6f6777759a748d2a",
+            "ebcd255ba9064fc44a35d693f42f9df3dc00bd88"
+          ],
+          "source_head": "ebcd255ba9064fc44a35d693f42f9df3dc00bd88",
+          "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/82",
+          "verification": "docs/measurement/SAFER-SWAP.md"
+        },
+        {
+          "applied_commits": [
+            "8f320210924ffae36a4b592a988982fa7947ad79",
+            "0009ecddcd02b95ac02d63ff43c4c4f95db67b87"
+          ],
+          "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/7",
+          "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+          "evidence_ref": "3de1e3123915587483395dd40c4d2e75704e65f4",
+          "id": "CBUG-0002",
+          "patch": "patches/0002-knockout-reaction-reset.patch",
+          "patch_active": true,
+          "source_commits": [
+            "32ab6823c6a993d94ce382b72f8a855a20f7911c",
+            "6f463d01d753089ab695537495ab27f3bc928dfa"
+          ],
+          "source_head": "6f463d01d753089ab695537495ab27f3bc928dfa",
+          "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/14",
+          "verification": "docs/measurement/KNOCKOUT.md"
+        },
+        {
+          "applied_commits": [
+            "0e76ee35138b309ceb3ed43a6427f2baa42e6d1f"
+          ],
+          "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/15",
+          "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+          "evidence_ref": "a19c8733c0dfa8139b04eecd8117429ec5f55cd6",
+          "id": "CBUG-0094",
+          "patch": "patches/0003-regen-simulation.patch",
+          "patch_active": true,
+          "source_commits": [
+            "31a042d00581ed914d30f17cca1ed0e70e99d21f"
+          ],
+          "source_head": "31a042d00581ed914d30f17cca1ed0e70e99d21f",
+          "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/110",
+          "verification": "docs/measurement/PREPARATION.md"
+        },
+        {
+          "applied_commits": [
+            "2827b28fc378cbba32aaab30163756b64dea36b0"
+          ],
+          "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/17",
+          "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+          "evidence_ref": "b0b0fa2471a11e91838bcbc3d980f4b04f8c6b01",
+          "id": "CBUG-0004",
+          "patch": "patches/0004-cold-melee-protection.patch",
+          "patch_active": true,
+          "source_commits": [
+            "d504eb3d272ce96c0de2c00eba757a251b551334"
+          ],
+          "source_head": "d504eb3d272ce96c0de2c00eba757a251b551334",
+          "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/26",
+          "verification": "docs/measurement/COLD-PROTECTION.md"
+        }
+      ],
+      "cause": "a stegocentipede",
+      "harness_commit": "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3",
+      "outcome": "death",
+      "raw_directory": "/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/seed11-repeat400000",
+      "recent_save_sha256": "e64964e684800e60244eb1d6ce40b26d8aab8c965c89674ee25a405487fddffd",
+      "result_sha256": "2303837d612fa212262847c1029872e5c35d52fe1e6e6ad726bfbde680f05c90",
+      "role": "repeat",
+      "runner_sha256": "34b7e921ad28e7766af5f83d7d3ddd17e99337092d762fe77226dd263af26752",
+      "same_complete_trace": true,
+      "source_commit": "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3",
+      "terminal": {
+        "borg_rng": 1093781422,
+        "dead": 1,
+        "decisions": 15366,
+        "depth": 12,
+        "energy": 1774459,
+        "hp": -4,
+        "kind": "death",
+        "level": 9,
+        "max_depth": 12,
+        "max_level": 9,
+        "quick": 0,
+        "quick_rng": 1858661567,
+        "rng": "f2a64bcb70b38ebaabc04ec8211ade7a7f57a00bf7ffccae9570cba10509e1ff19de64bf325f1f1a147355e44c47f05d67336f29beb48308492ed34f41ed4a7096eb8ef5a935465f649cef333d382153317cedb312d4e2fdf5c1b4e61c068303206210e5a64a06e4823f3a873f08c73e0ab9deefc43684941cfcc2a5645f4493",
+        "rng_index": 6,
+        "turn": 174862,
+        "winner": 0
+      },
+      "trace_sha256": "a74bb6424ed0662f5d27c3ff1411010654bd42894b50c991e239fe1f737d8553",
+      "upstream_baseline": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3",
+      "wall_seconds": 56.88461182200081
+    },
+    {
+      "binary_sha256": "914289b331e3ee16f62bd0afc6e8b4e26a2c176cc1f8a7248cfc5a93afd1ac3d",
+      "build_record": "reference-1.build.json",
+      "carried_patches": [],
+      "cause": "a stegocentipede",
+      "harness_commit": "3638b690525cd8a381cb106b4c5ee40652babde2",
+      "outcome": "death",
+      "raw_directory": "/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/pristine-reference",
+      "recent_save_sha256": "e64964e684800e60244eb1d6ce40b26d8aab8c965c89674ee25a405487fddffd",
+      "result_sha256": "8ff78d8b4e469472b0e721c49a64b136368a42284ad7d54dc9a695654681b548",
+      "role": "reference",
+      "runner_sha256": "34b7e921ad28e7766af5f83d7d3ddd17e99337092d762fe77226dd263af26752",
+      "same_complete_trace": true,
+      "source_commit": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3",
+      "terminal": {
+        "borg_rng": 1093781422,
+        "dead": 1,
+        "decisions": 15366,
+        "depth": 12,
+        "energy": 1774459,
+        "hp": -4,
+        "kind": "death",
+        "level": 9,
+        "max_depth": 12,
+        "max_level": 9,
+        "quick": 0,
+        "quick_rng": 1858661567,
+        "rng": "f2a64bcb70b38ebaabc04ec8211ade7a7f57a00bf7ffccae9570cba10509e1ff19de64bf325f1f1a147355e44c47f05d67336f29beb48308492ed34f41ed4a7096eb8ef5a935465f649cef333d382153317cedb312d4e2fdf5c1b4e61c068303206210e5a64a06e4823f3a873f08c73e0ab9deefc43684941cfcc2a5645f4493",
+        "rng_index": 6,
+        "turn": 174862,
+        "winner": 0
+      },
+      "trace_sha256": "a74bb6424ed0662f5d27c3ff1411010654bd42894b50c991e239fe1f737d8553",
+      "upstream_baseline": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3",
+      "wall_seconds": 56.36745371899997
+    }
+  ],
+  "carried_patches": [
+    {
+      "applied_commits": [
+        "9c10b9b6a475b452c854bd480d87d06ad8226d1b",
+        "5aeae57a3484d6c5bb593fcccbf1cabd480728d7",
+        "39986cc52f3f70727ada24b6def5de98d0bd36c8"
+      ],
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/4",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+      "evidence_ref": "1b67370d0dc56d9b7ef34e5356e63d21a7095545",
+      "id": "CBUG-0066",
+      "patch": "patches/0001-safer-emergency-swap.patch",
+      "patch_active": true,
+      "source_commits": [
+        "66e1012113fd7db634b19ffe86a470b58a7f7967",
+        "017ba47ebc8731fa0a61361a6f6777759a748d2a",
+        "ebcd255ba9064fc44a35d693f42f9df3dc00bd88"
+      ],
+      "source_head": "ebcd255ba9064fc44a35d693f42f9df3dc00bd88",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/82",
+      "verification": "docs/measurement/SAFER-SWAP.md"
+    },
+    {
+      "applied_commits": [
+        "8f320210924ffae36a4b592a988982fa7947ad79",
+        "0009ecddcd02b95ac02d63ff43c4c4f95db67b87"
+      ],
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/7",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+      "evidence_ref": "3de1e3123915587483395dd40c4d2e75704e65f4",
+      "id": "CBUG-0002",
+      "patch": "patches/0002-knockout-reaction-reset.patch",
+      "patch_active": true,
+      "source_commits": [
+        "32ab6823c6a993d94ce382b72f8a855a20f7911c",
+        "6f463d01d753089ab695537495ab27f3bc928dfa"
+      ],
+      "source_head": "6f463d01d753089ab695537495ab27f3bc928dfa",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/14",
+      "verification": "docs/measurement/KNOCKOUT.md"
+    },
+    {
+      "applied_commits": [
+        "0e76ee35138b309ceb3ed43a6427f2baa42e6d1f"
+      ],
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/15",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+      "evidence_ref": "a19c8733c0dfa8139b04eecd8117429ec5f55cd6",
+      "id": "CBUG-0094",
+      "patch": "patches/0003-regen-simulation.patch",
+      "patch_active": true,
+      "source_commits": [
+        "31a042d00581ed914d30f17cca1ed0e70e99d21f"
+      ],
+      "source_head": "31a042d00581ed914d30f17cca1ed0e70e99d21f",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/110",
+      "verification": "docs/measurement/PREPARATION.md"
+    },
+    {
+      "applied_commits": [
+        "2827b28fc378cbba32aaab30163756b64dea36b0"
+      ],
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/17",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+      "evidence_ref": "b0b0fa2471a11e91838bcbc3d980f4b04f8c6b01",
+      "id": "CBUG-0004",
+      "patch": "patches/0004-cold-melee-protection.patch",
+      "patch_active": true,
+      "source_commits": [
+        "d504eb3d272ce96c0de2c00eba757a251b551334"
+      ],
+      "source_head": "d504eb3d272ce96c0de2c00eba757a251b551334",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/26",
+      "verification": "docs/measurement/COLD-PROTECTION.md"
+    }
+  ],
+  "character": "Human Warrior; default point buy; normal UI birth",
+  "command": [
+    "/home/diego/projects/angband/better-borg-c/artifacts/cold-protection-carry/main-build/build/game/angband",
+    "-mtest",
+    "-uMeasure",
+    "-duser=/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/seed11-cap400000/user",
+    "-darchive=/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/seed11-cap400000/archive",
+    "-dsave=/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/seed11-cap400000/save",
+    "-dscores=/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/seed11-cap400000/scores",
+    "-dpanic=/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/seed11-cap400000/panic",
+    "-dgamedata=/home/diego/projects/angband/better-borg-c/artifacts/cold-protection-carry/main-build/source/lib/gamedata",
+    "-dpref=/home/diego/projects/angband/better-borg-c/artifacts/cold-protection-carry/main-build/source/lib/customize"
+  ],
+  "curation": "Native maps include diagnostic/internal state and legacy death labels even at live window caps; outcomes come from result.json. Full runs, saves and builds stay outside Git.",
+  "cwd": "/home/diego/projects/angband/better-borg-c/artifacts/cold-protection-carry/main-build/source",
+  "encounter_family": "start-757c20535f43f2aad9504fe2cbd364f6ea09704eca75209ff01bcc3ad5d3f8ee",
+  "environment": {
+    "BORG_MEASURE_CAP": "400000",
+    "BORG_MEASURE_DIR": "/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/seed11-cap400000",
+    "BORG_MEASURE_SEED": "11",
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8"
+  },
+  "id": "D0001",
+  "identity": {
+    "binary": "234841aa91d1ae552d280c122c183c8aaf098af8af5b9e39aed873292aa88a79",
+    "cause": "a stegocentipede",
+    "seed": 11,
+    "source": "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3",
+    "start_save": "757c20535f43f2aad9504fe2cbd364f6ea09704eca75209ff01bcc3ad5d3f8ee",
+    "turn": 174862
+  },
+  "investigation": "https://github.com/diegoami/better-borg-c/issues/22",
+  "issue": "https://github.com/diegoami/better-borg-c/issues/19",
+  "limits": {
+    "stall_limit_seconds": 30,
+    "turn_cap": 400000,
+    "wall_limit_seconds": 180
+  },
+  "native_character": "CHARACTER Measure Human Warrior",
+  "options": {
+    "ACTIVE_OPTIONS": {
+      "animate_flicker": 0,
+      "auto_more": 0,
+      "autoexplore_commands": 0,
+      "birth_ai_learn": 1,
+      "birth_connect_stairs": 1,
+      "birth_feelings": 1,
+      "birth_force_descend": 0,
+      "birth_know_flavors": 0,
+      "birth_know_runes": 0,
+      "birth_levels_persist": 0,
+      "birth_lose_arts": 0,
+      "birth_no_artifacts": 0,
+      "birth_no_recall": 0,
+      "birth_no_selling": 1,
+      "birth_percent_damage": 0,
+      "birth_randarts": 0,
+      "birth_stacking": 1,
+      "birth_start_kit": 1,
+      "center_player": 0,
+      "cheat_hear": 0,
+      "cheat_live": 0,
+      "cheat_room": 0,
+      "cheat_xtra": 0,
+      "disturb_near": 1,
+      "effective_speed": 0,
+      "highlight_player": 0,
+      "hp_changes_color": 1,
+      "hybrid_walls": 0,
+      "mouse_movement": 1,
+      "none": 0,
+      "notify_recharge": 0,
+      "pickup_always": 1,
+      "pickup_inven": 1,
+      "purple_uniques": 0,
+      "rogue_like_commands": 0,
+      "score_hear": 0,
+      "score_live": 0,
+      "score_room": 0,
+      "score_xtra": 0,
+      "show_damage": 0,
+      "show_flavors": 0,
+      "show_target": 1,
+      "solid_walls": 0,
+      "use_old_target": 0,
+      "use_sound": 0,
+      "view_yellow_light": 0
+    },
+    "BORG_OPTIONS": {
+      "borg_allow_strange_opts": 0,
+      "borg_autosave": 0,
+      "borg_cheat_death": 0,
+      "borg_chest_fail_tolerance": 7,
+      "borg_delay_factor": 0,
+      "borg_dump_level": 1,
+      "borg_enchant_limit": 12,
+      "borg_kills_uniques": 0,
+      "borg_lunal_mode": 0,
+      "borg_money_scum_amount": 0,
+      "borg_munchkin_depth": 16,
+      "borg_munchkin_level": 12,
+      "borg_munchkin_start": 0,
+      "borg_no_deeper": 127,
+      "borg_plays_risky": 0,
+      "borg_respawn_class": -1,
+      "borg_respawn_race": -1,
+      "borg_respawn_winners": 0,
+      "borg_restore_ignore_settings": 0,
+      "borg_save_death": 1,
+      "borg_self_lunal": 0,
+      "borg_self_scum": 1,
+      "borg_stop_clevel": 51,
+      "borg_stop_dlevel": 128,
+      "borg_stop_king": 1,
+      "borg_stop_on_bell": 0,
+      "borg_uses_dynamic_calcs": 0,
+      "borg_uses_swaps": 1,
+      "borg_verbose": 0,
+      "borg_worships_ac": 0,
+      "borg_worships_damage": 0,
+      "borg_worships_gold": 0,
+      "borg_worships_hp": 0,
+      "borg_worships_mana": 0,
+      "borg_worships_speed": 0
+    },
+    "OPTIONS": {
+      "animate_flicker": 0,
+      "auto_more": 0,
+      "autoexplore_commands": 0,
+      "birth_ai_learn": 1,
+      "birth_connect_stairs": 1,
+      "birth_feelings": 1,
+      "birth_force_descend": 0,
+      "birth_know_flavors": 0,
+      "birth_know_runes": 0,
+      "birth_levels_persist": 0,
+      "birth_lose_arts": 0,
+      "birth_no_artifacts": 0,
+      "birth_no_recall": 0,
+      "birth_no_selling": 1,
+      "birth_percent_damage": 0,
+      "birth_randarts": 0,
+      "birth_stacking": 1,
+      "birth_start_kit": 1,
+      "center_player": 0,
+      "cheat_hear": 0,
+      "cheat_live": 0,
+      "cheat_room": 0,
+      "cheat_xtra": 0,
+      "disturb_near": 1,
+      "effective_speed": 0,
+      "highlight_player": 0,
+      "hp_changes_color": 1,
+      "hybrid_walls": 0,
+      "mouse_movement": 1,
+      "none": 0,
+      "notify_recharge": 0,
+      "pickup_always": 0,
+      "pickup_inven": 1,
+      "purple_uniques": 0,
+      "rogue_like_commands": 0,
+      "score_hear": 0,
+      "score_live": 0,
+      "score_room": 0,
+      "score_xtra": 0,
+      "show_damage": 0,
+      "show_flavors": 0,
+      "show_target": 1,
+      "solid_walls": 0,
+      "use_old_target": 0,
+      "use_sound": 0,
+      "view_yellow_light": 0
+    }
+  },
+  "raw_cause": "a stegocentipede",
+  "recording_scope": "Exact selected Borg observations, terminal recent messages and native map snapshots; not video or a complete every-turn engine event stream",
+  "schema": "better-borg-c/death-record@1",
+  "upstream_baseline": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3",
+  "windows": [
+    {
+      "matching_prior_observations": true,
+      "native_map_sha256": "34e0c0b490871cc7e21ea99a18af135a72dc8f0953f5f6e4a1bc7b0ea893d028",
+      "offset_engine_turns": 20,
+      "phase": "Immediately after world-turn increment, before remaining processing at that tick",
+      "raw_directory": "/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/window-174842",
+      "result_sha256": "e15f707e9c15a41a1d63944952d8be03c8c2a75af877a90c63b673f09239008b",
+      "snapshot": "snapshots/T-minus-20.txt",
+      "terminal": {
+        "borg_rng": 3097561473,
+        "dead": 0,
+        "decisions": 15363,
+        "depth": 12,
+        "energy": 1774243,
+        "hp": 39,
+        "kind": "turn_cap",
+        "level": 9,
+        "max_depth": 12,
+        "max_level": 9,
+        "quick": 0,
+        "quick_rng": 1858661567,
+        "rng": "5c0c94064aec4efa803b76f731d5c4a4899f2fd12b3cdd0f55ad066d7e634026cbba30ee3c04e78594ef549e31339d5255218a2e99f9542ced9dfe17079129dd1bb162b679921dba0e56bec087ca3e1400229e26e9be3b54e7156d4e8c97e3bf406cf3c6264ddd4c91498f117e6ce0451946faa36f6388c794d9316e29e252b9",
+        "rng_index": 5,
+        "turn": 174842,
+        "winner": 0
+      },
+      "turn": 174842
+    },
+    {
+      "matching_prior_observations": true,
+      "native_map_sha256": "97e5ee3ea428fd53794cc84e59603adaad1fd87f709612ebb12354231e744e2a",
+      "offset_engine_turns": 15,
+      "phase": "Immediately after world-turn increment, before remaining processing at that tick",
+      "raw_directory": "/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/window-174847",
+      "result_sha256": "0d62aaa4b03b32c469d30a3a271f920f987fc892807e8a8a3a08ba0f60cd8dc0",
+      "snapshot": "snapshots/T-minus-15.txt",
+      "terminal": {
+        "borg_rng": 3097561473,
+        "dead": 0,
+        "decisions": 15363,
+        "depth": 12,
+        "energy": 1774243,
+        "hp": 30,
+        "kind": "turn_cap",
+        "level": 9,
+        "max_depth": 12,
+        "max_level": 9,
+        "quick": 0,
+        "quick_rng": 1858661567,
+        "rng": "0d0cc142ef2ce529714eb5dbaea75bee4ec25e4884f0b6cb55ad066d7e634026cbba30ee3c04e78594ef549e31339d5255218a2e99f9542ced9dfe17079129dd1bb162b679921dbac525396959a297a9f986c5c3fd8ac0e78e6a0dbac4dd5859ccdf23293673522af595fbc0e1869c34f23147b53663769bc5f2362d1b56e9af",
+        "rng_index": 18,
+        "turn": 174847,
+        "winner": 0
+      },
+      "turn": 174847
+    },
+    {
+      "matching_prior_observations": true,
+      "native_map_sha256": "c1b7ae0f894ba46ac81d4bfcd340335648e8df8e14c3605b8ec2cbb10d112325",
+      "offset_engine_turns": 10,
+      "phase": "Immediately after world-turn increment, before remaining processing at that tick",
+      "raw_directory": "/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/window-174852",
+      "result_sha256": "c6fe7b394dc68a1ea22b270bba3b0bbfd7770f523804515484850245eddae593",
+      "snapshot": "snapshots/T-minus-10.txt",
+      "terminal": {
+        "borg_rng": 2105363578,
+        "dead": 0,
+        "decisions": 15364,
+        "depth": 12,
+        "energy": 1774315,
+        "hp": 31,
+        "kind": "turn_cap",
+        "level": 9,
+        "max_depth": 12,
+        "max_level": 9,
+        "quick": 0,
+        "quick_rng": 1858661567,
+        "rng": "99091b82bb98361af1b817d53a3ee3b3f75a8320729a4ea48172ad95c10fd9d3d26767dc3b60d49cf6e54d2337bae66f3854ad97dc97bb71adbfd0f303ee60da3958f24ebe6a1268ab91206559a297a9f986c5c3fd8ac0e78e6a0dbac4dd5859ccdf23293673522af595fbc09b5c97abcec2cf1f1f17107b7690e0cd00122d2a",
+        "rng_index": 27,
+        "turn": 174852,
+        "winner": 0
+      },
+      "turn": 174852
+    },
+    {
+      "matching_prior_observations": true,
+      "native_map_sha256": "517d87c5c5a8e5c096c823a49fa72dbe52f5585a2a691c47bfa5e282f62d462d",
+      "offset_engine_turns": 5,
+      "phase": "Immediately after world-turn increment, before remaining processing at that tick",
+      "raw_directory": "/home/diego/projects/angband/better-borg-c/artifacts/death-pilot1/window-174857",
+      "result_sha256": "1c60054886738a81d18acede94b5a693e056ed280f39c9178a54030f75e0ab80",
+      "snapshot": "snapshots/T-minus-5.txt",
+      "terminal": {
+        "borg_rng": 2491970492,
+        "dead": 0,
+        "decisions": 15365,
+        "depth": 12,
+        "energy": 1774387,
+        "hp": 21,
+        "kind": "turn_cap",
+        "level": 9,
+        "max_depth": 12,
+        "max_level": 9,
+        "quick": 0,
+        "quick_rng": 1858661567,
+        "rng": "16864903a0facdc33c7dde5d5db8322cc7e8e1403713dc919e2ffd60641e11831923b0b05b5b33793c28a69f3f484a618411298cdd0e7549923abc7cc692622e6a6c2cf19a7384f355812ebc2aad30c52d9684b46aed51f19818f23e2551e13df7fa30c3b4770c44b4590265e01e416407327a6fceb553e09cfb4223dfc42a6e",
+        "rng_index": 27,
+        "turn": 174857,
+        "winner": 0
+      },
+      "turn": 174857
+    }
+  ]
+}
