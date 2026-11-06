@@ -448,6 +448,24 @@
    "verification": "docs/measurement/TEXT-MULTIBYTE.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-text-multibyte; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0325",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/96",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/325",
+   "source_head": "253ab11468bd91f47f2a458ecc3f333a00eaa677",
+   "source_commits": [
+    "253ab11468bd91f47f2a458ecc3f333a00eaa677"
+   ],
+   "applied_commits": [
+    "c528eb81e0651bad91f28c896594cf56ad6fd3de"
+   ],
+   "patch": "patches/0026-calculation-reload-array.patch",
+   "patch_active": true,
+   "evidence_ref": "8764d94b8",
+   "verification": "docs/measurement/CALC-RELOAD.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-calc-reload; awaiting normal PR merge"
   }
  ]
 }
