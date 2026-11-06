@@ -73,10 +73,10 @@
   "impact_milestone_v2": "https://github.com/diegoami/better-borg-c/milestone/2",
   "external_review_package_v2": "https://github.com/diegoami/better-borg-c/issues/38",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/54",
-    "branch": "task/carry-tp-other-skip",
-    "worktree": ".worktrees/tp-other-skip",
-    "state": "merged-cfaff7be7-carried-open-patch-active",
-    "instructions": "docs/measurement/TP-OTHER-SKIP.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/57",
+    "branch": "task/carry-dispel-filter",
+    "worktree": ".worktrees/dispel-filter",
+    "state": "merged-c0174d583-carried-open-patch-active",
+    "instructions": "docs/measurement/DISPEL-FILTER.md"
   }
 }

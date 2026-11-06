@@ -161,9 +161,20 @@ defense; the one-comparison import layers onto borg-danger.c (before module
 + source diff equals the product module) and verifies fail-before
 (p2=208=192+16, product-accurate giant value 192) / pass-after (192) with
 byte-identical no-morgoth/single controls, no sanitizer report, 66 prior
-cases whole-log identical, merged v1 seeds unchanged. All three issues are
-carried/open+patch-active until upstream incorporation. Full stories:
-docs/measurement/GLYPH-TRACKER.md, MISSILE-NO-TARGET.md, TP-OTHER-SKIP.md
-and the issues' verification comments. Next queue: recheck source248
-(dispel rating) and source253 (arc angle) readiness, plus any newer
-demonstrations, before low-priority 81 or discretionary death work.
+cases whole-log identical, merged v1 seeds unchanged.
+
+Consumer57/source248 (dispel-248) merged as c0174d583 (PR58, import
+23d8ed57, patch 0013): the Dispel Life filter was the exact inverse of the
+game's drain, rating the spell below doing nothing against every enemy; the
+OR-filter import layers onto borg-fight-attack.c. The unchanged fixture's
+living expectation assumed the target's player-grid danger was zero — true
+only while pre-0008 projection zeroed this hill giant — so the adapted
+fixture computes the expectation with the production danger call (before
+value=-21 fails, after 39=39+20-20 passes with a real 66 HP native drain);
+undead/bolt controls byte-identical; 69 prior cases whole-log identical;
+merged v1 seeds unchanged. All four issues are carried/open+patch-active
+until upstream incorporation. Full stories: docs/measurement/GLYPH-TRACKER.md,
+MISSILE-NO-TARGET.md, TP-OTHER-SKIP.md, DISPEL-FILTER.md and the issues'
+verification comments. Next queue: recheck source253 (arc angle, PR297/298)
+readiness, plus any newer demonstrations, before low-priority 81 or
+discretionary death work.
