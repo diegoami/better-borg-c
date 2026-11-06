@@ -1,0 +1,27 @@
+From 7f33e9fbf83059a0a1ed5e530f463124ce1e4be0 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 18:17:59 +0100
+Subject: [PATCH] Borg: measure the arc angle at each blast grid, not the
+ target
+
+The arc delineation test reoriented the spell's target grid instead of
+the grid the blast scan was looking at, so every grid received the same
+angle difference: an arc counted every monster in range and line of
+sight, or none.  In practice the constant passed, and arcs were rated
+as full balls.  Use the scanned grid (ry, rx) for the table lookup.
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 45c5d140a..f898a9a1a 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -1966,8 +1966,8 @@ static int borg_launch_arc_at_location(
+ 
+             /* check on angle */
+             /* Reorient current grid for table access. */
+-            n2y = y - y1 + 20;
+-            n2x = x - x1 + 20;
++            n2y = ry - y1 + 20;
++            n2x = rx - x1 + 20;
+ 
+             /* Find the angular difference (/2) between the lines to
+                 * the end of the arc's center-line and to the current grid.

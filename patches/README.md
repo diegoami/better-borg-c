@@ -71,3 +71,7 @@ The thirteenth carry rates Dispel Life against living monsters like the
 game does (consumer #57/source #248). The inverted double filter rated the
 spell below doing nothing against every enemy; the OR-filter matches the
 game's drain and the undead/bolt controls stay unchanged.
+
+The fourteenth carry tests the arc angle against the scanned grid instead
+of the spell target (consumer #60/source #253). An off-arc bystander no
+longer inflates the arc's coverage; the in-arc control stays unchanged.
