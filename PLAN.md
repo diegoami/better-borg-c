@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through fifteenth carries merged (2026-11-06)
+## Tenth through sixteenth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -312,7 +312,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through fifteenth carries merged (2026-11-06)
+## Tenth through sixteenth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -352,7 +352,20 @@ undead/bolt controls byte-identical; 69 prior cases whole-log identical;
 merged v1 seeds unchanged. All four issues are carried/open+patch-active
 until upstream incorporation. Full stories: docs/measurement/GLYPH-TRACKER.md,
 MISSILE-NO-TARGET.md, TP-OTHER-SKIP.md, DISPEL-FILTER.md and the issues'
-verification comments. Next queue: vampire-257 (PR293/294), then recheck source207 for newer demonstrations before low-priority 81 or discretionary death work.
+verification comments. Next queue: recheck source207 for newer demonstrations before low-priority 81 or discretionary death work.
+Consumer66/source257 (vampire-257) merged as dfddcfff (PR67, import
+81b15066, patch 0016): the Vampire Strike closeness guard tested the last
+distance the scan examined instead of the chosen target's, so a bystander
+at exactly the range limit vetoed the cast; the one-token import layers
+onto borg-fight-attack.c and verifies on the unchanged fixture driving the
+full production chooser (near-far acted 0->1 with real cast keys,
+near-near/far controls byte-identical), 76 prior cases whole-log
+identical, merged v1 seeds unchanged. All seven issues are
+carried/open+patch-active until upstream incorporation; every pair the
+source lane demonstrated today is now carried. Next queue: recheck
+source207 for newer demonstrations (ranked leads 243/245 stair family,
+249 pending owner intent) before low-priority 81 or discretionary death
+work.
 Consumer63/source244 (munchkin-244) merged as d28dbb16 (PR64, import
 2cf521b8b, patch 0015): the munchkin stair tests read a stale neighbour
 pointer after the adjacent-monster scan and queued a take-stair key on
