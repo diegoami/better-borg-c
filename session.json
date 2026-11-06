@@ -44,7 +44,13 @@
     "path": "docs/deaths",
     "export_tool": "tools/record-death.py",
     "aggregate_tool": "tools/aggregate-deaths.py",
-    "required": "Actual version/build and native evidence, assessment/diagnosis/actions; no repeat inflation"
+    "required": "Actual version/build and native evidence, assessment/diagnosis/actions; no repeat inflation",
+    "feedback_process": "docs/deaths/FEEDBACK.md",
+    "feedback_threads": "Per-case linked GitHub investigation; owner comments -> evidence triage -> linked action -> findings reply/assessment/aggregate",
+    "owner_priorities": {
+      "survival_stock_proposal": "https://github.com/diegoami/better-borg-c/issues/41",
+      "early_exposure_investigation": "https://github.com/diegoami/better-borg-c/issues/34"
+    }
   },
   "donor_review": {
     "issue": "https://github.com/diegoami/better-borg-c/issues/24",

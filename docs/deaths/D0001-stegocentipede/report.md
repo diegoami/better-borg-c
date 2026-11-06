@@ -1,5 +1,7 @@
 # D0001 — stegocentipede death, seed11
 
+[Discuss this death](https://github.com/diegoami/better-borg-c/issues/22) · [Feedback process](../FEEDBACK.md)
+
 An ordinary level9 Human Warrior entered melee with a tiger, lost health and
 failed to teleport. After killing it, the Borg kept attacking a stegocentipede
 at21HP and15HP and died at **engine turn174862, depth12, HP−4**. Raw native
@@ -144,3 +146,22 @@ This is a fourth death process attempt in the same starting family, not another
 independent sampled life. Six-carry45eac63bd instead survives cap400000 along
 a different trajectory; it is a censored comparison, not a replay or a proof
 that a particular healing decision rescued this encounter.
+
+## Owner feedback: inventory and survival reserves
+
+[Owner comment on22](https://github.com/diegoami/better-borg-c/issues/22#issuecomment-6685775530)
+asks for escape/healing/survival stock to take priority over spare equipment.
+The pack held three spare weapons, four armor pieces and an empty Magic Missile
+wand, with no active swap equipment. It also had **19occupied/23slots, four free**
+(native empty-slot trait4); capacity alone does not explain absence of escapes.
+The actual retention/sale/identification purpose, gold and weight need tracing.
+
+Phase Door was carried and used earlier: last recorded BORG read173794, then
+`Leaving (restock) restock phase door`173901. At173834 it had already logged no
+up stairs found/going down. These observations do not prove a departure with
+zero scrolls or justify adding an omniscient escape item at the fatal action.
+Investigate restock/retreat continuation and reserves before the final encounter.
+[Proposal41](https://github.com/diegoami/better-borg-c/issues/41) tracks the owner
+priority and diagnostic comparisons;22 tracks actual decisions. No policy or
+claimed scroll rescue is implemented from this terminal dump. Original raw
+record/build identity remains unchanged.

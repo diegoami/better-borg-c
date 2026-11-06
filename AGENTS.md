@@ -49,3 +49,10 @@ Weekly donor inventory is explicitly scheduled by the owner: fork-review.yml,
 Mondays09:15 Europe/Berlin, ongoing issue24. Consult its latest pinned leads
 before discretionary redesign; semantic review and verified bug carries remain
 agent work. Metadata is not a performance claim; no automatic imports.
+
+Owner death feedback is durable on each case's linked GitHub investigation.
+Follow docs/deaths/FEEDBACK.md: record chat comments there, maintain feedback/
+actions in the assessment, distinguish observations from proof, reply with
+findings and regenerate the aggregate. Owner priorities include survival stock
+over spare gear (proposal41) and investigating premature crowd exposure (34).
+Actual pack capacity/consumption/knowledge/retreat must be checked; bugs first.

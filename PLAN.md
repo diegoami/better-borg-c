@@ -110,3 +110,15 @@ tracker ownership, turns useful candidates into issues/tests/carries and avoids
 reinventing existing solutions. Do not call an active/different fork better
 without same-game/cohort evidence. No auto-imports, tactics, heavy benchmarks,
 Rust polling or official posting. Bugs always first.
+
+## Owner death feedback outside chat
+
+Use docs/deaths/FEEDBACK.md and the per-case GitHub investigation as the durable
+discussion. Record owner comments, distinguish hypotheses/native facts, link
+actions and report findings back; regenerate the aggregate without changing
+old build identities or inflating replays. Current feedback: D0001 survival
+stock ahead of spare gear (proposal41/stock investigation22); D0002 dangerous
+crowd exposure too early (investigation34). Inspect departure stock/consumption,
+restock/retreat and knowledge before entry, not just the terminal inventory.
+Existing-rule bugs first, canonical source207 routing before fix/carry; broader
+policy changes remain evidence-backed proposals rather than arbitrary thresholds.
