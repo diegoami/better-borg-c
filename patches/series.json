@@ -412,6 +412,24 @@
    "verification": "docs/measurement/STAFF-HOLY.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-staff-holy; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0261",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/90",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/261",
+   "source_head": "a49b7a6c15f6353cd427af28903355fe258af4d5",
+   "source_commits": [
+    "a49b7a6c15f6353cd427af28903355fe258af4d5"
+   ],
+   "applied_commits": [
+    "713d9ad4603d7bc46eaf32de3469fa7344e6f892"
+   ],
+   "patch": "patches/0024-blind-frighten-fear.patch",
+   "patch_active": true,
+   "evidence_ref": "cb8554e07",
+   "verification": "docs/measurement/BLIND-FRIGHTEN.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-blind-frighten; awaiting normal PR merge"
   }
  ]
 }

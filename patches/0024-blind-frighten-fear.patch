@@ -1,0 +1,27 @@
+From a49b7a6c15f6353cd427af28903355fe258af4d5 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 21:35:06 +0100
+Subject: [PATCH] Borg: score the blind-creature maneuver's Frighten as fear
+
+The maneuver casts Frighten, a fear effect, but scored it with the
+confusion attack type: against a monster immune to confusion but
+fearable it valued nothing, and against one where confusion looked
+valuable it cast a fear spell expecting a confused monster.  Score it
+as the fear effect it casts, matching the dedicated Frighten maneuver.
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 45c5d140a..8d0cb1484 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -3924,8 +3924,10 @@ int borg_calculate_attack_effectiveness(int attack_type)
+     case BF_SPELL_BLIND_CREATURE:
+         rad = 0;
+         dam = 10;
++        /* Frighten is a fear effect; scoring it as confusion made the
++         * Borg expect a confused monster where the game applies fear. */
+         return (borg_attack_aux_spell_bolt(
+-            FRIGHTEN, rad, dam, BORG_ATTACK_OLD_CONF, z_info->max_range, false));
++            FRIGHTEN, rad, dam, BORG_ATTACK_TURN_ALL, z_info->max_range, false));
+ 
+     /* Druid - Trance */
+     case BF_SPELL_TRANCE:

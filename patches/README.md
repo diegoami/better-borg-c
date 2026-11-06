@@ -116,3 +116,8 @@ unchanged.
 The twenty-third carry values the staff-holiness activation as the LOS
 dispel it is (consumer #86/source #262), stacked on the losdispel
 arrival break. The single-target bolt control stays unchanged.
+
+The twenty-fourth carry scores Blind Creature's Frighten as fear, not
+confusion (consumer #90/source #261). The blind maneuver values exactly
+what the dedicated Frighten maneuver values; the dedicated control stays
+unchanged.
