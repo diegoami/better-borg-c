@@ -153,9 +153,10 @@ def capture(args):
     write(out / 'record.json', record)
     if not (out / 'assessment.json').exists():
         write(out / 'assessment.json', {'classification': 'unassessed', 'confidence': 'unassessed',
-                                        'findings': [], 'actions': []})
+                                        'findings': [], 'feedback': [], 'actions': []})
     if not (out / 'report.md').exists():
         (out / 'report.md').write_text(f"# {args.id}: {run['cause']} at turn {terminal['turn']}\n\n"
+            f'[Discuss this death]({args.investigation}) · [Feedback process](../FEEDBACK.md)\n\n'
             'See record.json and build.json for immutable source/build/seed/options.\n\n'
             '## Evaluation and diagnosis\n\nUnassessed; do not infer a defect from death alone.\n\n'
             '## Action items\n\nRecord issue links and evidence before changes.\n')

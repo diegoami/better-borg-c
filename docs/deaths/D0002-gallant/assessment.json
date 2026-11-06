@@ -18,6 +18,10 @@
     {
       "status": "unproved",
       "summary": "Whether earlier escape/resource decisions reveal an implementation defect or intended rules remains unproved."
+    },
+    {
+      "status": "observed",
+      "summary": "Phase Door20293 precedes the critical crowd observation20303; subsequent Phase Door attempts end20323. Reconstruct walk/flow/descent versus teleport entry and prior monster knowledge, not assume deliberate walking into the crowd."
     }
   ],
   "actions": [
@@ -38,6 +42,23 @@
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
       "summary": "Compare pristine upstream versus carried build",
       "status": "completed: pristine/five-carry identical trace; same death on six-carry; no defect established"
+    },
+    {
+      "key": "exposure-before-crowd",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "summary": "Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3",
+      "status": "recorded owner observation; needs native causal investigation"
+    }
+  ],
+  "feedback": [
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/34#issuecomment-6685824152",
+      "summary": "Character appears exposed to too many enemies too early; inspect entry/preparedness and earlier retreat.",
+      "status": "recorded; earliest-known-exposure investigation required",
+      "actions": [
+        "exposure-before-crowd"
+      ]
     }
   ]
 }

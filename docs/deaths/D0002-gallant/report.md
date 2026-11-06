@@ -1,5 +1,7 @@
 # D0002 — gallant death, seed29
 
+[Discuss this death](https://github.com/diegoami/better-borg-c/issues/34) · [Feedback process](../FEEDBACK.md)
+
 A level3 ordinary Human Warrior used its remaining Phase Door scrolls while
 fleeing a dangerous level, then fought scouts and a gallant. It continued melee
 at3HP and died to **a gallant at engine turn20445, depth2, HP−3**. Maximum depth3.
@@ -106,3 +108,16 @@ is a separate diagnostic, not part of the original trajectory.
 The actual recent living save at20073/49HP was loaded and advanced by one
 ordinary wait to20074 without activating Borg; [diagnostic receipt](save-load.json).
 This validates readability/advancement, not exact Borg-memory continuation.
+
+## Owner feedback: too many enemies too early
+
+[Owner comment on34](https://github.com/diegoami/better-borg-c/issues/34#issuecomment-6685824152)
+asks whether this level3 character entered a crowd too early. The investigation
+will identify the first known group, entry method and available retreat before
+proposing exposure policy. The trace records Phase Door20293 followed by the
+critical crowd at20303, then further Phase Door through20323; a deliberate walk
+into that crowd is not established. Both earlier preparedness and escape/landing
+risk deserve investigation using only information available to the Borg then.
+This is a tracked owner observation/action, not yet a code defect, a new crowd
+threshold or a demonstrated alternative rescue. Findings will be replied to on34
+and reflected in assessment.json/aggregate. Original evidence/version unchanged.

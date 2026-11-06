@@ -29,6 +29,15 @@
     },
     {
       "cases": [
+        "D0001"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/41",
+      "key": "survival-stock-priority",
+      "status": "recorded owner priority; proposal, not implemented",
+      "summary": "Evaluate survival-resource reserves/restocking priority over spare equipment"
+    },
+    {
+      "cases": [
         "D0002"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
@@ -53,6 +62,15 @@
       "key": "pristine-attribution",
       "status": "completed: pristine/five-carry identical trace; same death on six-carry; no defect established",
       "summary": "Compare pristine upstream versus carried build"
+    },
+    {
+      "cases": [
+        "D0002"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "key": "exposure-before-crowd",
+      "status": "recorded owner observation; needs native causal investigation",
+      "summary": "Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3"
     }
   ],
   "cases": 2,

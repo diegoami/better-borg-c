@@ -32,10 +32,11 @@ def aggregate(records_root):
                'actions': list(actions.values()),
                'limit': 'Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.'}
     text = '# Native death records\n\nBugs always take priority. Each natural death gets a curated dossier with its actual source/build, logs, evaluation, diagnosis and linked actions. Full runs/saves/builds stay outside Git. Replays append to the case; later fixes never overwrite its identity.\n\n'
+    text += 'To comment, open **Discuss** beside the case below. The linked GitHub investigation is the durable feedback thread; suggestions are checked against evidence and linked to actions. See [the feedback process](FEEDBACK.md). Chat feedback is copied there before it is considered tracked.\n\n'
     text += f"Dossiers: {summary['cases']}; distinct starting conditions: {summary['distinct_starting_conditions']}; recorded death process attempts: {summary['death_process_attempts']} (including repeats/reference variants). This registry is not a survival-rate estimate.\n\n"
-    text += '| Case | Actual source | Seed | Raw cause | Death turn | Diagnosis |\n| --- | --- | --- | --- | --- | --- |\n'
+    text += '| Case | Discussion | Actual source | Seed | Raw cause | Death turn | Diagnosis |\n| --- | --- | --- | --- | --- | --- | --- |\n'
     for p, r, a in records:
-        text += f"| [{r['id']}]({p.parent.name}/report.md) | `{r['identity']['source'][:12]}` | {r['identity']['seed']} | {r['raw_cause']} | {r['identity']['turn']} | {a['classification']} |\n"
+        text += f"| [{r['id']}]({p.parent.name}/report.md) | [Discuss]({r['investigation']}) | `{r['identity']['source'][:12]}` | {r['identity']['seed']} | {r['raw_cause']} | {r['identity']['turn']} | {a['classification']} |\n"
     text += '\n## Aggregated actions\n\n'
     for action in summary['actions']:
         text += f"- [{action['summary']}]({action['issue']}) — {action['status']}; cases {', '.join(action['cases'])}.\n"

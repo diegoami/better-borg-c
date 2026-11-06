@@ -22,6 +22,10 @@
     {
       "status": "verified",
       "summary": "Additional five-carry3638b690 reference from batch33 matches complete original trace/start save/death and RNG. Six-carry45eac63bd has a different trajectory and survives cap400000; not causal rescue proof."
+    },
+    {
+      "status": "observed",
+      "summary": "Pack19occupied/23slots,4free; spare3weapons/4armor/emptywand, no swaps. Last recorded Phase Door read173794, restock request173901 before death174862. Terminal absence does not show zero departure stock or capacity blockage."
     }
   ],
   "actions": [
@@ -42,6 +46,24 @@
       "issue": "https://github.com/diegoami/better-borg-c/issues/22",
       "summary": "Compare pristine upstream versus carried build",
       "status": "completed: identical death/trace; does not establish a defect"
+    },
+    {
+      "key": "survival-stock-priority",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/41",
+      "summary": "Evaluate survival-resource reserves/restocking priority over spare equipment",
+      "status": "recorded owner priority; proposal, not implemented"
+    }
+  ],
+  "feedback": [
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/22#issuecomment-6685775530",
+      "summary": "Prioritize escape/healing/survival stock over unused spare equipment; investigate whether better inventory could avert this death.",
+      "status": "recorded; existing stock/retreat trace under investigation; policy proposal41",
+      "actions": [
+        "home-escape-stock",
+        "survival-stock-priority"
+      ]
     }
   ]
 }
