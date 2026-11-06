@@ -250,6 +250,24 @@
    "verification": "docs/measurement/ARC-ANGLE.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-arc-angle; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0244",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/63",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/244",
+   "source_head": "5b31e13d1023a64bf4f8613352e738757b5f56ec",
+   "source_commits": [
+    "5b31e13d1023a64bf4f8613352e738757b5f56ec"
+   ],
+   "applied_commits": [
+    "2cf521b8bc8457eb0e585cb008077c484f7f0d3c"
+   ],
+   "patch": "patches/0015-munchkin-stair-own-grid.patch",
+   "patch_active": true,
+   "evidence_ref": "f5b3c50e2",
+   "verification": "docs/measurement/MUNCHKIN-STAIR.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-munchkin-stair; awaiting normal PR merge"
   }
  ]
 }

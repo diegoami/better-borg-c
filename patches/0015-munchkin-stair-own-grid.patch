@@ -1,0 +1,28 @@
+From 5b31e13d1023a64bf4f8613352e738757b5f56ec Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 19:02:30 +0100
+Subject: [PATCH] Borg: test the Borg's own grid for stairs in munchkin mode
+
+The adjacent-monster scan in borg_think_dungeon_munchkin() reuses ag,
+the pointer to the Borg's own grid, for each neighbour, so after the
+scan it points at the last in-bounds neighbour.  The stair tests that
+follow read that neighbour's feature: the Borg could press < or > while
+not standing on a staircase.  Re-acquire the Borg's own grid before the
+tests.
+
+diff --git a/src/borg/borg-think-dungeon.c b/src/borg/borg-think-dungeon.c
+index 243bb0fd0..4efebabb4 100644
+--- a/src/borg/borg-think-dungeon.c
++++ b/src/borg/borg-think-dungeon.c
+@@ -901,6 +901,11 @@ static bool borg_think_dungeon_munchkin(void)
+         /* Try to find some stairs */
+         if (borg_flow_stair_both(GOAL_FLEE, false))
+             return true;
++
++        /* Re-acquire the Borg's own grid: the adjacent-monster scan above
++         * leaves ag pointing at the last neighbour it examined. */
++        ag = &borg_grids[borg.c.y][borg.c.x];
++
+         if (ag->feat == FEAT_LESS && !OPT(player, birth_force_descend)) {
+             /* Take the Up Stair */
+             borg_keypress('<');

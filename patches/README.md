@@ -75,3 +75,7 @@ game's drain and the undead/bolt controls stay unchanged.
 The fourteenth carry tests the arc angle against the scanned grid instead
 of the spell target (consumer #60/source #253). An off-arc bystander no
 longer inflates the arc's coverage; the in-arc control stays unchanged.
+
+The fifteenth carry re-acquires the Borg's own grid before the munchkin
+stair tests (consumer #63/source #244). The stale neighbour pointer queued
+a take-stair key on plain floor; the on-stair control stays unchanged.
