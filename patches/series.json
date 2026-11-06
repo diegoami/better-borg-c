@@ -394,6 +394,24 @@
    "verification": "docs/measurement/LOSDISPEL.md",
    "credit": "borg-rs (lead); Diego Amicabile (native finding/validation/proposal/evidence)",
    "verification_status": "verified on task/carry-losdispel; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0262",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/87",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/262",
+   "source_head": "fe34f38d0c998cf34ace02d09bf97774f38e65df",
+   "source_commits": [
+    "fe34f38d0c998cf34ace02d09bf97774f38e65df"
+   ],
+   "applied_commits": [
+    "13fe885cb11a61c1a2ff9c2e53dd338b86bbddb0"
+   ],
+   "patch": "patches/0023-staff-holy-radius.patch",
+   "patch_active": true,
+   "evidence_ref": "ba63014b3",
+   "verification": "docs/measurement/STAFF-HOLY.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-staff-holy; awaiting normal PR merge"
   }
  ]
 }

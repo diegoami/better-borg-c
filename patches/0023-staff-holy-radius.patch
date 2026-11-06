@@ -1,0 +1,25 @@
+From fe34f38d0c998cf34ace02d09bf97774f38e65df Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 21:28:20 +0100
+Subject: [PATCH] Borg: value the staff-holiness dispel as an area of sight
+
+The activation floods the area with goodness, hitting every evil
+monster in sight, but the maneuver kept the bolt radius of zero and
+valued a single target on a line.  Use the LOS-dispel radius of ten,
+which the corrected launch now values as the sight-line sum.  Stacked
+on the LOS-dispel walk correction.
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 25531ddb9..0c68a2c68 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -4717,6 +4717,9 @@ int borg_calculate_attack_effectiveness(int attack_type)
+             act_wonder, rad, dam, BORG_ATTACK_MISSILE, true, -1));
+ 
+     case BF_ACT_STAFF_HOLY:
++        /* The effect floods the area with goodness: an area-of-sight
++         * dispel, not a single-target bolt. */
++        rad = 10;
+         if (borg.trait[BI_CURHP] < borg.trait[BI_MAXHP] / 2)
+             dam = 500;
+         else
