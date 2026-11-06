@@ -1,5 +1,6 @@
 /* Native measurement observer; same licensing as native-observer.h.
  * Reads state and writes evidence. No gameplay actions or RNG draws. */
+#define ALLOW_BORG
 #include "angband.h"
 #include "game-world.h"
 #include "player.h"
