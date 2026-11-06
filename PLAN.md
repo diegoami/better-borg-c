@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through twenty-first carries merged (2026-11-06)
+## Tenth through twenty-second carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -204,8 +204,20 @@ fixture cases whole-log identical, merged v1 seeds unchanged.
 
 All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
-issues' verification comments. Queue: recheck source207 for newer demonstrations before low-priority
-81 or discretionary death work.
+issues' verification comments. Queue: staff-262 (PR329/330), then recheck source207 for newer
+demonstrations before low-priority 81 or discretionary death work.
+Consumer84/source326 (losdispel-326, priority high) merged as 2e55c43f8
+(PR85, import 0489305b, patch 0022): the radius-ten beam walk had no
+arrival break, so the LOS-dispel blast scan ran only by accident and the
+launcher leaked its initial -1; the three-token correction lets the blast
+run and returns zero (dispel -15 -> 534 on the unchanged fixture, orb
+control byte-identical). Two documented cross-carry interactions asserted
+in the regression: dispel-248 undead direct=-1->0 (refusal contract
+unchanged) and dispel-259 both modes +296 (the bats now valued; the
+10500 doubled-penalty delta stays visible) — both prior carries' evidence
+remains valid at their recorded commits. 87 of 89 prior cases whole-log
+identical; merged v1 seeds unchanged. Queue: staff-262 (PR329/330) is
+unblocked by this correction, then recheck source207 (source-ranked 261).
 Consumer81/source259 (dispel-259) merged as 0c52dee46 (PR82, import
 c9f24544, patch 0021): the teleport-reserve mana penalty was applied by
 two back-to-back blocks (the fixed-six one a strict subset of every class
