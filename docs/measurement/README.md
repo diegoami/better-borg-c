@@ -72,6 +72,16 @@ flock /tmp/angband-validation.lock python3 tools/measure-native.py prepare --obs
 flock /tmp/angband-validation.lock python3 tools/measure-native.py run --build artifacts/measurement/baseline --output artifacts/measurement/pilot --seed 11 --cap 2000 --timeout 120
 ```
 
+The frozen cohort command (after a pilot and full-length save/non-save control):
+
+```sh
+flock /tmp/angband-validation.lock python3 tools/measure-cohort.py --build artifacts/measurement/baseline --output artifacts/measurement/cohort-baseline --phase baseline
+```
+
+A `--load` run is a diagnostic check of a retained living save. For a birth save,
+loading reproduced the initial state and the2000-turn pilot on the tested pin;
+mid-run Borg-memory continuation remains unproven.
+
 Directories must be new; a failed build may use `prepare --retry` to preserve its
 previous receipts while rebuilding. Do not overwrite run directories. Keep a
 persistent evidence archive under the primary checkout's ignored `artifacts/`,
