@@ -135,11 +135,17 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Active carry at owner-requested handover (2026-11-06)
+## Tenth carry merged (2026-11-06)
 
-Resume consumer48/source118 before discretionary death work. The isolated
-`task/carry-glyph-tracker` branch contains the reviewed C correction and an
-unfinished product verifier. Native gate passes; controlled product verification
-is incomplete. Read docs/measurement/GLYPH-TRACKER.md for the preserved failure,
-source/fixture pins, evidence recovery and exact next action. Do not merge this
-carry or count it as carried until the documented proof gaps are resolved.
+Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
+patch 0010). The unchanged evidence fixture legitimately stopped passing
+phaseB once the carried 0008 projection fix let the mage's bolts count; the
+tracked adapted scenario (tools/glyph-tracker-scenario.c) verifies the real
+failure message, the -1 count, the bounded creation and the ASan
+heap-buffer-overflow WRITE on the actual product core, with all 60 prior
+fixture cases whole-log identical and the merged v1 seeds 11/29/47 unchanged
+(3 cap survivors, traces identical to the nine-carry). Issue48 is
+carried/open+patch-active until upstream incorporation. Full story and exact
+next action: docs/measurement/GLYPH-TRACKER.md and issue48's verification
+comment. Next queue item: recheck live source67 readiness (medium-priority
+skip-list correction) before low-priority 81 or discretionary death work.
