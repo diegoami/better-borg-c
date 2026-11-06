@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth and eleventh carries merged (2026-11-06)
+## Tenth through twelfth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -144,8 +144,7 @@ tracked adapted scenario (tools/glyph-tracker-scenario.c) verifies the real
 failure message, the -1 count, the bounded creation and the ASan
 heap-buffer-overflow WRITE on the actual product core, with all prior
 fixture cases whole-log identical and the merged v1 seeds 11/29/47 unchanged
-(3 cap survivors, traces identical to the nine-carry). Issue48 is
-carried/open+patch-active until upstream incorporation.
+(3 cap survivors, traces identical to the nine-carry).
 
 Consumer51/source254 (missile-254) merged as ce6435679 (PR52, import
 09dd4435, patch 0011): the dead b_n < 0 guard in borg_attack_aux_launch let
@@ -153,8 +152,18 @@ a targetless probe read borg_items[-1].desc and queue a fire key from index
 -1; the one-guard import verifies fail-before/pass-after with byte-identical
 live-shot/simulated controls and the ASan heap-buffer-overflow READ on the
 actual product core, 63 prior cases whole-log identical, merged v1 seeds
-unchanged. Issue51 carried/open+patch-active. Full stories:
-docs/measurement/GLYPH-TRACKER.md, docs/measurement/MISSILE-NO-TARGET.md and
-the issues' verification comments. Next queue: recheck live source67
-(tp-other skip list) and source248 (dispel rating) readiness, in severity
-order, before low-priority 81 or discretionary death work.
+unchanged.
+
+Consumer54/source67 (CBUG-0051) merged as cfaff7be7 (PR55, import 706fb49b,
+patch 0012): the Teleport Other skip-list loop read one entry past the
+count and suppressed the monster named by a stale slot from the Morgoth-depth
+defense; the one-comparison import layers onto borg-danger.c (before module
++ source diff equals the product module) and verifies fail-before
+(p2=208=192+16, product-accurate giant value 192) / pass-after (192) with
+byte-identical no-morgoth/single controls, no sanitizer report, 66 prior
+cases whole-log identical, merged v1 seeds unchanged. All three issues are
+carried/open+patch-active until upstream incorporation. Full stories:
+docs/measurement/GLYPH-TRACKER.md, MISSILE-NO-TARGET.md, TP-OTHER-SKIP.md
+and the issues' verification comments. Next queue: recheck source248
+(dispel rating) and source253 (arc angle) readiness, plus any newer
+demonstrations, before low-priority 81 or discretionary death work.
