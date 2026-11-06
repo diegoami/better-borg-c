@@ -1,0 +1,26 @@
+From d504eb3d272ce96c0de2c00eba757a251b551334 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Fri, 6 Nov 2026 10:30:39 +0000
+Subject: [PATCH] Use temporary cold resistance when evaluating cold melee
+ attacks
+
+---
+ src/borg/borg-danger.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-danger.c b/src/borg/borg-danger.c
+index 11efe9f1a..15eb2732d 100644
+--- a/src/borg/borg-danger.c
++++ b/src/borg/borg-danger.c
+@@ -266,7 +266,7 @@ static int borg_danger_physical(int i, bool full_damage)
+             power = 10;
+             if (borg.trait[BI_RCOLD])
+                 z = (z + 2) / 3;
+-            if (borg.temp.res_acid)
++            if (borg.temp.res_cold)
+                 z = (z + 2) / 3;
+             /* Add fear for the effect */
+             z = z * 2;
+-- 
+2.53.0
+
