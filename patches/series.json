@@ -268,6 +268,24 @@
    "verification": "docs/measurement/MUNCHKIN-STAIR.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-munchkin-stair; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0257",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/66",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/257",
+   "source_head": "0119d5daee9b8a07a8096331eea78dbbb6c26050",
+   "source_commits": [
+    "0119d5daee9b8a07a8096331eea78dbbb6c26050"
+   ],
+   "applied_commits": [
+    "81b15066286c8f3818a309ac00d86bdf0b628367"
+   ],
+   "patch": "patches/0016-vampire-strike-distance.patch",
+   "patch_active": true,
+   "evidence_ref": "e41e44d96",
+   "verification": "docs/measurement/VAMPIRE-STRIKE.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-vampire-strike; awaiting normal PR merge"
   }
  ]
 }
