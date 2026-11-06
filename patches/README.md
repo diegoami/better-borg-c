@@ -24,3 +24,7 @@ before retiring its active patch. Preserve the historical ledger record and
 patch/evidence links with the replacement commit; do not delete history or infer
 closure merely from a patch file disappearing. `patch-active` is independent
 of carried/fixed status. No hand-maintained live-state overview table is used.
+
+The fifth carry includes the left ring in both lookup/activation loops
+(consumer #20/source #78). Both one-loop alternatives are retained as negative
+controls; ring readiness and right-hand preference stay unchanged.

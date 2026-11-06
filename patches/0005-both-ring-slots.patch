@@ -1,0 +1,34 @@
+From 46c14b2828ed751ff8be7ac67df93b28cdc15f87 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Fri, 6 Nov 2026 10:58:35 +0000
+Subject: [PATCH] Check both ring slots when finding and activating a ring
+
+---
+ src/borg/borg-item-use.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-item-use.c b/src/borg/borg-item-use.c
+index 020b03bbb..fa72e704b 100644
+--- a/src/borg/borg-item-use.c
++++ b/src/borg/borg-item-use.c
+@@ -728,7 +728,7 @@ bool borg_equips_ring(int ring_sval)
+     int lev, fail, i;
+     int skill;
+ 
+-    for (i = INVEN_RIGHT; i < INVEN_LEFT; i++) {
++    for (i = INVEN_RIGHT; i <= INVEN_LEFT; i++) {
+         borg_item *item = &borg_items[i];
+ 
+         if (!item->iqty || !item->aware)
+@@ -783,7 +783,7 @@ bool borg_activate_ring(int ring_sval)
+     int i;
+ 
+     /* Check the equipment */
+-    for (i = INVEN_RIGHT; i < INVEN_LEFT; i++) {
++    for (i = INVEN_RIGHT; i <= INVEN_LEFT; i++) {
+         borg_item *item = &borg_items[i];
+ 
+         /*  Make Sure item is IDed */
+-- 
+2.53.0
+
