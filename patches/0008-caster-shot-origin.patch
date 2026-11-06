@@ -1,0 +1,25 @@
+From 1bce07d8080b520589c292c793cc0b95ef9df182 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Fri, 6 Nov 2026 12:07:52 +0000
+Subject: [PATCH] Exclude the caster from intervening projectile obstructions
+
+---
+ src/borg/borg-projection.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-projection.c b/src/borg/borg-projection.c
+index 10c4e8d03..ae0556dad 100644
+--- a/src/borg/borg-projection.c
++++ b/src/borg/borg-projection.c
+@@ -397,7 +397,7 @@ bool borg_projectable_pure(int y1, int x1, int y2, int x2)
+             return true;
+ 
+         /* Stop at monsters */
+-        if (ag->kill)
++        if (dist && ag->kill)
+             break;
+ 
+         /* Calculate the new location */
+-- 
+2.53.0
+

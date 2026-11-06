@@ -36,3 +36,8 @@ injury untreated on that call; preserve that counterexample and emergency bypass
 The seventh carry matches the complete unseen pronoun It, keeping visible
 Itangast recognized (consumer #36/source #102). Four true-unseen/ogre controls
 remain unchanged; measured benefit is one potion, not combat or survival.
+
+The eighth carry excludes a projectile caster from intervening obstacles
+(consumer #40/source #279). Real blockers/endpoints remain; the hill-giant
+escape loses18->29HP and costs2mana, so no uniform safety claim. Independent
+per-spell source64 remains an explicit alternative, not part of this patch.
