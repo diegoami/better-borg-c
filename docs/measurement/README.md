@@ -3,6 +3,11 @@
 Owner-authorised work is tracked in consumer #3. Source defects remain on
 neo-angband-tracker/checkpoint207; the first carry is consumer #4/source #82.
 
+Accumulated [milestone2 review package](IMPACT-MILESTONE2.md) links all seven
+carried corrections, [paired deep results](DEEP-IMPACT-V2.md) and
+[versioned death dossiers](../deaths/README.md), including unfavorable outcomes
+and replay limits. External review remains pending; bugs take priority.
+
 The immutable unmodified baseline is Angband commit
 `e473720ed88a0f0c7ca66815cef3000eb4a38bc3`. `prepare` exports an exact Git archive,
 records its SHA256 and builds a separate tree. The archive is never patched.

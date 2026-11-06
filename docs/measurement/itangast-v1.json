@@ -1,0 +1,290 @@
+{
+  "fixture": "b61f6b611600fdbc4c6370fff3ac2835ee77017f",
+  "before_source": "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc",
+  "applied_source": "3d12dc5306be7d032332f3a9a6e6732261b432c0",
+  "cases": {
+    "before": {
+      "named-dragon": {
+        "exit": 0,
+        "passed": false,
+        "completed": true,
+        "log_sha256": "58186f74e2ba2ac3701e5aa47e987f9f52603e0aea9ba3e03e4edb14f11aa4df",
+        "located": 0,
+        "defend": 1,
+        "potions_spent": 1,
+        "see_invisible": 60,
+        "stamp": 100,
+        "hp": 421
+      },
+      "ogre-control": {
+        "exit": 0,
+        "passed": true,
+        "completed": true,
+        "log_sha256": "5e0488b630fc01fbbb6e51899253a58e324e2ad82f774c82707a3a8ae0c63612",
+        "located": 1,
+        "defend": 0,
+        "potions_spent": 0,
+        "see_invisible": 0,
+        "stamp": 0,
+        "hp": 421
+      },
+      "unseen-control": {
+        "exit": 0,
+        "passed": true,
+        "completed": true,
+        "log_sha256": "15909f595de514b77a34426f24ed4e66543330169a751c994480cb25607453cb",
+        "located": 0,
+        "defend": 1,
+        "potions_spent": 1,
+        "see_invisible": 61,
+        "stamp": 100,
+        "hp": 421
+      },
+      "it-control": {
+        "exit": 0,
+        "passed": true,
+        "completed": true,
+        "log_sha256": "e3b3961260a8305f5dbdc8f8601e276cdc30fa062029c06c064dacb9c3f08feb",
+        "located": 0,
+        "defend": 1,
+        "potions_spent": 1,
+        "see_invisible": 61,
+        "stamp": 100,
+        "hp": 421
+      },
+      "lower-it-control": {
+        "exit": 0,
+        "passed": true,
+        "completed": true,
+        "log_sha256": "1640eac422f1c4fed1091df8d9cf67aef4a8175eb3592160151e6c040af83553",
+        "located": 0,
+        "defend": 1,
+        "potions_spent": 1,
+        "see_invisible": 61,
+        "stamp": 100,
+        "hp": 421
+      }
+    },
+    "after": {
+      "named-dragon": {
+        "exit": 0,
+        "passed": true,
+        "completed": true,
+        "log_sha256": "35ecb56f7993ea3bfa30a07eb277fe26c2bbe16d0699f93dd2d85e20db37cb2d",
+        "located": 1,
+        "defend": 0,
+        "potions_spent": 0,
+        "see_invisible": 0,
+        "stamp": 0,
+        "hp": 421
+      },
+      "ogre-control": {
+        "exit": 0,
+        "passed": true,
+        "completed": true,
+        "log_sha256": "5e0488b630fc01fbbb6e51899253a58e324e2ad82f774c82707a3a8ae0c63612",
+        "located": 1,
+        "defend": 0,
+        "potions_spent": 0,
+        "see_invisible": 0,
+        "stamp": 0,
+        "hp": 421
+      },
+      "unseen-control": {
+        "exit": 0,
+        "passed": true,
+        "completed": true,
+        "log_sha256": "15909f595de514b77a34426f24ed4e66543330169a751c994480cb25607453cb",
+        "located": 0,
+        "defend": 1,
+        "potions_spent": 1,
+        "see_invisible": 61,
+        "stamp": 100,
+        "hp": 421
+      },
+      "it-control": {
+        "exit": 0,
+        "passed": true,
+        "completed": true,
+        "log_sha256": "e3b3961260a8305f5dbdc8f8601e276cdc30fa062029c06c064dacb9c3f08feb",
+        "located": 0,
+        "defend": 1,
+        "potions_spent": 1,
+        "see_invisible": 61,
+        "stamp": 100,
+        "hp": 421
+      },
+      "lower-it-control": {
+        "exit": 0,
+        "passed": true,
+        "completed": true,
+        "log_sha256": "1640eac422f1c4fed1091df8d9cf67aef4a8175eb3592160151e6c040af83553",
+        "located": 0,
+        "defend": 1,
+        "potions_spent": 1,
+        "see_invisible": 61,
+        "stamp": 100,
+        "hp": 421
+      }
+    }
+  },
+  "verified": true,
+  "native_gate": {
+    "units": 965,
+    "frontends": 5,
+    "tooling": 29
+  },
+  "prior_corrected_cases_identical": 44,
+  "cumulative_corrected_scenarios": 49,
+  "merge": "2675d198e4c3fcb1c69ee63ef25a2b6ac27ab96f",
+  "frozen_v1": {
+    "independent_n": 3,
+    "cap": 20000,
+    "wall": 120,
+    "stall": 30,
+    "runs": [
+      {
+        "seed": 11,
+        "outcome": "turn_cap",
+        "cause": "(alive and well)",
+        "wall_seconds": 7.235351402003289,
+        "final": {
+          "borg_rng": 3244265169,
+          "dead": 0,
+          "decisions": 1991,
+          "depth": 1,
+          "energy": 207208,
+          "hp": 28,
+          "kind": "turn_cap",
+          "level": 3,
+          "max_depth": 1,
+          "max_level": 3,
+          "quick": 0,
+          "quick_rng": 1858661567,
+          "rng": "949a2ea88f16d4398d9b45db75ad0405dd289a781880d121c58502e4bd2bda119a412c953c60985086a571380cf9d59d03e776b1d29102d7901c0cfd0063e696a16f70c6a9b97cdd16a85ef2e1420b4563db67baa46af96191428fd38fe7e6c58fd77e7fd32ab868fc6a52c72a7ea1f057131c28c19911d6924ea604c141dd90",
+          "rng_index": 5,
+          "turn": 20000,
+          "winner": 0
+        },
+        "source": "2675d198e4c3fcb1c69ee63ef25a2b6ac27ab96f",
+        "binary_sha256": "387aff9c2128be058384e47b7d6b670e76022f99c5f888ca112a38b5585af9b5",
+        "calendar_context": {
+          "clock_policy": "Native system clock unchanged",
+          "end": {
+            "TZ_environment": null,
+            "local": "2026-11-06T13:59:04.207777+01:00",
+            "timezone_name": "CET",
+            "utc": "2026-11-06T12:59:04.207777+00:00"
+          },
+          "start": {
+            "TZ_environment": null,
+            "local": "2026-11-06T13:58:56.972274+01:00",
+            "timezone_name": "CET",
+            "utc": "2026-11-06T12:58:56.972274+00:00"
+          },
+          "status": "recorded"
+        },
+        "same_as_six_carry": {
+          "trace.txt": true,
+          "start.save": true
+        },
+        "result_sha256": "ca9468f460bba860a0d95af7fd864371072f792edd3b0a52e30506eb78251aa1"
+      },
+      {
+        "seed": 29,
+        "outcome": "turn_cap",
+        "cause": "(alive and well)",
+        "wall_seconds": 6.130818846999318,
+        "final": {
+          "borg_rng": 943608294,
+          "dead": 0,
+          "decisions": 2019,
+          "depth": 2,
+          "energy": 203758,
+          "hp": 49,
+          "kind": "turn_cap",
+          "level": 3,
+          "max_depth": 3,
+          "max_level": 3,
+          "quick": 0,
+          "quick_rng": 2694408361,
+          "rng": "32b697b883ab7eee3b96d77631f60693be0671c63ac27b3d6b3d5e377c5e7f3559c258e6f97716b946bc80d443bbcba1d7f32016135072401af0565efa65e86d8da0cfdaaab5a60c7c0f3b217117aab362075c6033a964c08d7fce4a5b864c115e195a6c300f17639e6084bbcaf45b78b47c756a3674c3035d813af3622fc177",
+          "rng_index": 11,
+          "turn": 20000,
+          "winner": 0
+        },
+        "source": "2675d198e4c3fcb1c69ee63ef25a2b6ac27ab96f",
+        "binary_sha256": "387aff9c2128be058384e47b7d6b670e76022f99c5f888ca112a38b5585af9b5",
+        "calendar_context": {
+          "clock_policy": "Native system clock unchanged",
+          "end": {
+            "TZ_environment": null,
+            "local": "2026-11-06T13:59:10.385663+01:00",
+            "timezone_name": "CET",
+            "utc": "2026-11-06T12:59:10.385663+00:00"
+          },
+          "start": {
+            "TZ_environment": null,
+            "local": "2026-11-06T13:59:04.254747+01:00",
+            "timezone_name": "CET",
+            "utc": "2026-11-06T12:59:04.254747+00:00"
+          },
+          "status": "recorded"
+        },
+        "same_as_six_carry": {
+          "trace.txt": true,
+          "start.save": true
+        },
+        "result_sha256": "79f77a8c89665dbbaca621051b2c84ce37d60e4d4d3063c19abf3e5672ae0f49"
+      },
+      {
+        "seed": 47,
+        "outcome": "turn_cap",
+        "cause": "(alive and well)",
+        "wall_seconds": 5.627319700000953,
+        "final": {
+          "borg_rng": 2218749378,
+          "dead": 0,
+          "decisions": 2019,
+          "depth": 0,
+          "energy": 209384,
+          "hp": 38,
+          "kind": "turn_cap",
+          "level": 2,
+          "max_depth": 2,
+          "max_level": 2,
+          "quick": 0,
+          "quick_rng": 3195055545,
+          "rng": "87afdfebd97a8a4e8643410a78c9878f13ea05d85230597763f7f66a46a62fd8c4afda1644cef30094419d4c697bbbd8287cfee99e10aa72b6e8f215e425064645c8bc9a7ffc4f61d9099dd744375dc311a9cac23f8f99f51764f86d6bb1ac9ad47a2e132531bbd868ed4beed651b8df49606f46b12d581b9dd290142af921ed",
+          "rng_index": 2,
+          "turn": 20000,
+          "winner": 0
+        },
+        "source": "2675d198e4c3fcb1c69ee63ef25a2b6ac27ab96f",
+        "binary_sha256": "387aff9c2128be058384e47b7d6b670e76022f99c5f888ca112a38b5585af9b5",
+        "calendar_context": {
+          "clock_policy": "Native system clock unchanged",
+          "end": {
+            "TZ_environment": null,
+            "local": "2026-11-06T13:59:16.059360+01:00",
+            "timezone_name": "CET",
+            "utc": "2026-11-06T12:59:16.059360+00:00"
+          },
+          "start": {
+            "TZ_environment": null,
+            "local": "2026-11-06T13:59:10.431948+01:00",
+            "timezone_name": "CET",
+            "utc": "2026-11-06T12:59:10.431948+00:00"
+          },
+          "status": "recorded"
+        },
+        "same_as_six_carry": {
+          "trace.txt": true,
+          "start.save": true
+        },
+        "result_sha256": "c9e0c773f5f7e91358fbe09d2ddbf5dd7d2651bb506f95d62b596f2ceccb0d3e"
+      }
+    ],
+    "limit": "Identical to six-carry traces, not pristine. Earlier seed47 progress difference retained. No survival/speedup claim."
+  }
+}

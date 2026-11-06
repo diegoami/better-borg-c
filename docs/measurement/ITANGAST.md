@@ -71,3 +71,15 @@ actual versions. All generated runs/saves/builds remain ignored; full actual
 postmerge results and persistent evidence receipt belong to consumer36.
 Locally carried/open+patch-active only after verification; upstream incorporation
 and rebuild/verification are needed for fixed/close. No official posting/tactics.
+
+## Actual merged-source cohort
+
+Merge2675d198e4c3fcb1c69ee63ef25a2b6ac27ab96f was rebuilt and measured under
+unchanged frozen v1. [Every case/run summary](itangast-v1.json) records3/3cap
+survivors,0deaths/completions/stalls/timeouts/crashes/harness failures. All three
+starting saves and complete traces match the prior **six-carry45eac63bd** build,
+not the pristine baseline. Levels3/3/2,max depths1/3/2. Earlier potion-related
+private-RNG divergence and unfavorable seed47 level4→2 at cap20000 remain.
+Independent n=3, shallow cohort cannot establish Itangast encounter benefit;
+no survival improvement or runtime speedup claimed. Exact PR head hosted
+42221586833 passed29 tooling/965unit/5frontend, numerical logs inspected.
