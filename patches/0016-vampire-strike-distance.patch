@@ -1,0 +1,28 @@
+From 0119d5daee9b8a07a8096331eea78dbbb6c26050 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 17:11:51 +0100
+Subject: [PATCH] Borg: judge Vampire Strike closeness on the chosen monster
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+The closest-target scan left 'dist' holding the distance of the last
+entry examined, including entries it skipped, so the 'relatively close'
+guard rejected the strike whenever any single listed monster stood
+twenty or more grids away — even with the chosen target close by.  Since
+the chosen entry is the minimum, this only ever over-restricted the
+spell.  Test the chosen distance (best_dist) instead.
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 45c5d140a..c680602a3 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -3539,7 +3539,7 @@ static int borg_attack_aux_vampire_strike(void)
+         return 0;
+ 
+     /* Nothing to attack, require relatively close */
+-    if (dist >= 20)
++    if (best_dist >= 20)
+         return 0;
+ 
+     x = borg_temp_x[b_i];

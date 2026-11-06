@@ -79,3 +79,7 @@ longer inflates the arc's coverage; the in-arc control stays unchanged.
 The fifteenth carry re-acquires the Borg's own grid before the munchkin
 stair tests (consumer #63/source #244). The stale neighbour pointer queued
 a take-stair key on plain floor; the on-stair control stays unchanged.
+
+The sixteenth carry guards Vampire Strike on the chosen target's distance
+(consumer #66/source #257). A distant bystander no longer vetoes the cast;
+both-close and distant-only controls stay unchanged.
