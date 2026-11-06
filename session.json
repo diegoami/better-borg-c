@@ -73,10 +73,10 @@
   "impact_milestone_v2": "https://github.com/diegoami/better-borg-c/milestone/2",
   "external_review_package_v2": "https://github.com/diegoami/better-borg-c/issues/38",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/87",
-    "branch": "task/carry-staff-holy",
-    "worktree": ".worktrees/staff-holy",
-    "state": "merged-aa87ca74d-carried-open-patch-active",
-    "instructions": "docs/measurement/STAFF-HOLY.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/90",
+    "branch": "task/carry-blind-frighten",
+    "worktree": ".worktrees/blind-frighten",
+    "state": "merged-f997c8cee-carried-open-patch-active",
+    "instructions": "docs/measurement/BLIND-FRIGHTEN.md"
   }
 }

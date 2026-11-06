@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through twenty-third carries merged (2026-11-06)
+## Tenth through twenty-fourth carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -204,8 +204,17 @@ fixture cases whole-log identical, merged v1 seeds unchanged.
 
 All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
-issues' verification comments. Queue: recheck source207 for newer demonstrations (source-ranked 261)
+issues' verification comments. Queue: brand-240 (PR333/334, low priority) and any newer demonstrations
 before low-priority 81 or discretionary death work.
+Consumer90/source261 (blind-261) merged as f997c8cee (PR91, import
+713d9ad4, patch 0024): the blind-creature maneuver casts Frighten but
+scored as confusion, so dragons suppressed only by confusion carried a
+phantom 955 valuation the spell cannot deliver; the one-token import
+layers onto borg-fight-attack.c and verifies with a production-derived
+control expectation (the pinned -5 was pristine; the layered product
+measures -4 after the losdispel leak removal): blind 955->-4 ==
+frighten=-4, control byte-identical, 93 prior cases pass. Merged v1 seeds
+unchanged. All fifteen issues are carried/open+patch-active.
 Consumer87/source262 (staff-262) merged as aa87ca74d (PR88, import
 13fe885cb, patch 0023, stacked on the carried losdispel correction): the
 staff-holiness maneuver kept the bolt radius of zero and valued a single
