@@ -1,0 +1,30 @@
+From d4dcb983c9623757b523a7fae861b624d858e23d Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 23:59:40 +0100
+Subject: [PATCH] Borg: bound the out-of-light glow arrays
+
+borg_flow_light() appended every glowing grid on the visible panel to
+borg_glow_y/borg_glow_x without a bound check, although the arrays
+hold AUTO_LIGHT_MAX (1536) entries and an ordinary terminal panel can
+show more glowing grids than that.  The overflow writes ran into the
+neighbouring arrays - the tail of borg_glow_y landing in borg_glow_x
+and vice versa - so the read-back loop enqueued swapped and off-panel
+coordinates as flow targets.  Stop collecting once the arrays are
+full.
+
+diff --git a/src/borg/borg-flow-misc.c b/src/borg/borg-flow-misc.c
+index bbc6e1eca..749e3858f 100644
+--- a/src/borg/borg-flow-misc.c
++++ b/src/borg/borg-flow-misc.c
+@@ -839,6 +839,11 @@ bool borg_flow_light(int why)
+             if (!(ag->info & BORG_GLOW))
+                 continue;
+ 
++            /* Stop when the glow arrays are full: the panel can hold
++             * more glowing grids than AUTO_LIGHT_MAX. */
++            if (borg_glow_n >= AUTO_LIGHT_MAX)
++                continue;
++
+             /* keep count */
+             borg_glow_y[borg_glow_n] = y;
+             borg_glow_x[borg_glow_n] = x;

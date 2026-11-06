@@ -133,3 +133,7 @@ still evaluates to 7; the single-parse control stays unchanged.
 The twenty-seventh carry rejects stale melee targets on the player's own
 grid (consumer #99/source #322). Nothing is queued for that stale target;
 the genuinely adjacent-target control stays unchanged.
+
+The twenty-eighth carry bounds out-of-light glow collection to the
+1536-entry arrays (consumer #102/source #311). The overflowing write is
+gone; the thousand-grid control stays unchanged.
