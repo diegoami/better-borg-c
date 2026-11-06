@@ -75,6 +75,23 @@
       "evidence_ref": "b0b0fa2471a11e91838bcbc3d980f4b04f8c6b01",
       "verification": "docs/measurement/COLD-PROTECTION.md",
       "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+    },
+    {
+      "id": "CBUG-0062",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/20",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/78",
+      "source_head": "46c14b2828ed751ff8be7ac67df93b28cdc15f87",
+      "source_commits": [
+        "46c14b2828ed751ff8be7ac67df93b28cdc15f87"
+      ],
+      "applied_commits": [
+        "c3f631068ee9016c53e2a3598a298b64d2296f6a"
+      ],
+      "patch": "patches/0005-both-ring-slots.patch",
+      "patch_active": true,
+      "evidence_ref": "bfe3fc402e8ae6cdec74d8b35fa8f50e612f2a8e",
+      "verification": "docs/measurement/BOTH-RINGS.md",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
     }
   ]
 }
