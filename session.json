@@ -73,10 +73,10 @@
   "impact_milestone_v2": "https://github.com/diegoami/better-borg-c/milestone/2",
   "external_review_package_v2": "https://github.com/diegoami/better-borg-c/issues/38",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/60",
-    "branch": "task/carry-arc-angle",
-    "worktree": ".worktrees/arc-angle",
-    "state": "merged-a89e96a15-carried-open-patch-active",
-    "instructions": "docs/measurement/ARC-ANGLE.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/63",
+    "branch": "task/carry-munchkin-stair",
+    "worktree": ".worktrees/munchkin-stair",
+    "state": "merged-d28dbb16-carried-open-patch-active",
+    "instructions": "docs/measurement/MUNCHKIN-STAIR.md"
   }
 }
