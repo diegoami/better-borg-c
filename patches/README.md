@@ -103,3 +103,7 @@ The twentieth carry scopes the reserve-bolt hitpoints veto to near
 monsters (consumer #78/source #258). A distant tough monster no longer
 vetoes the emergency bolt for the one nearby weak monster; the
 kobold-only control stays unchanged.
+
+The twenty-first carry applies the teleport-reserve penalty once
+(consumer #81/source #259). The fixed-six block that duplicated every
+class reserve is removed; the out-of-band control stays unchanged.
