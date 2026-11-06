@@ -3,7 +3,10 @@
 `series.json` records applied runtime correction units, not reported defects.
 The first correction is the safer available emergency swap (consumer #4 /
 source #82). Its three C-only source commits include two comment cleanups;
-the cumulative code has one guarded lower-danger comparison. The authoritative live adoption state is the issue board.
+the cumulative code has one guarded lower-danger comparison. The second carry
+restores combat-message reactions after knockout (consumer #7/source #14). Its
+measured benefit is restored information, not a proved survival improvement.
+The authoritative live adoption state is the issue board.
 
 For each carry add its consumer/source issue URLs, original reviewed source
 commit, applied product commit, immutable patch path and verification/evidence
