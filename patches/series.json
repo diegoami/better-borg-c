@@ -286,6 +286,24 @@
    "verification": "docs/measurement/VAMPIRE-STRIKE.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-vampire-strike; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0239",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/69",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/239",
+   "source_head": "9ab78ae605ca4463268a669121d69b216285c2f1",
+   "source_commits": [
+    "9ab78ae605ca4463268a669121d69b216285c2f1"
+   ],
+   "applied_commits": [
+    "6bcdd28ace1248e223ac381d61051964bb50a592"
+   ],
+   "patch": "patches/0017-slay-trait-accumulation.patch",
+   "patch_active": true,
+   "evidence_ref": "25b011863",
+   "verification": "docs/measurement/SLAY-TRAITS.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-slay-traits; awaiting normal PR merge"
   }
  ]
 }
