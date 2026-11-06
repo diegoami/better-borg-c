@@ -1,0 +1,362 @@
+{
+  "schema": "better-borg-c/deep-results@1",
+  "cohort": {
+    "schema": "better-borg-c/deep-cohort@1",
+    "issue": 33,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "character": "Human Warrior; default point buy; unchanged ordinary native birth",
+    "cap": 400000,
+    "wall": 180,
+    "stall": 30,
+    "variants": {
+      "five-carry": "3638b690525cd8a381cb106b4c5ee40652babde2",
+      "six-carry": "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc"
+    },
+    "independent_starting_conditions": 3,
+    "no_adaptive_selection": true,
+    "frozen_v1_unchanged": true
+  },
+  "runs": [
+    {
+      "variant": "five-carry",
+      "seed": 11,
+      "outcome": "death",
+      "cause": "a stegocentipede",
+      "source": "3638b690525cd8a381cb106b4c5ee40652babde2",
+      "binary_sha256": "95ce961bb32c67e8a1af4700a4537895ac015228449f4765f3dbfc3899e76caa",
+      "calendar_context": {
+        "clock_policy": "Native system clock unchanged",
+        "end": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:42:26.603729+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:42:26.603729+00:00"
+        },
+        "start": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:41:29.710509+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:41:29.710509+00:00"
+        },
+        "status": "recorded"
+      },
+      "turn_cap": 400000,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 30,
+      "wall_seconds": 56.89310442799979,
+      "final": {
+        "borg_rng": 1093781422,
+        "dead": 1,
+        "decisions": 15366,
+        "depth": 12,
+        "energy": 1774459,
+        "hp": -4,
+        "kind": "death",
+        "level": 9,
+        "max_depth": 12,
+        "max_level": 9,
+        "quick": 0,
+        "quick_rng": 1858661567,
+        "rng": "f2a64bcb70b38ebaabc04ec8211ade7a7f57a00bf7ffccae9570cba10509e1ff19de64bf325f1f1a147355e44c47f05d67336f29beb48308492ed34f41ed4a7096eb8ef5a935465f649cef333d382153317cedb312d4e2fdf5c1b4e61c068303206210e5a64a06e4823f3a873f08c73e0ab9deefc43684941cfcc2a5645f4493",
+        "rng_index": 6,
+        "turn": 174862,
+        "winner": 0
+      },
+      "start_save_sha256": "757c20535f43f2aad9504fe2cbd364f6ea09704eca75209ff01bcc3ad5d3f8ee",
+      "trace_sha256": "a74bb6424ed0662f5d27c3ff1411010654bd42894b50c991e239fe1f737d8553",
+      "result_sha256": "844578ed5754130b1c3b27942f942aec6dd44accb970e460a2739e84531a0441"
+    },
+    {
+      "variant": "six-carry",
+      "seed": 11,
+      "outcome": "turn_cap",
+      "cause": "(alive and well)",
+      "source": "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc",
+      "binary_sha256": "aabad5875e34c232044d9989eaaacd9d922967027abd84c874602d61e0083b17",
+      "calendar_context": {
+        "clock_policy": "Native system clock unchanged",
+        "end": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:44:19.622835+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:44:19.622835+00:00"
+        },
+        "start": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:42:26.651402+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:42:26.651402+00:00"
+        },
+        "status": "recorded"
+      },
+      "turn_cap": 400000,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 30,
+      "wall_seconds": 112.97133005900105,
+      "final": {
+        "borg_rng": 3772857938,
+        "dead": 0,
+        "decisions": 40303,
+        "depth": 0,
+        "energy": 4042637,
+        "hp": 173,
+        "kind": "turn_cap",
+        "level": 15,
+        "max_depth": 9,
+        "max_level": 15,
+        "quick": 0,
+        "quick_rng": 1858661567,
+        "rng": "adae488045cebadf4c6d1d646499b8f7f71c26e28e511d64db849213f77088a0810234d27bffdc133ab8a8e005b98ded97cf50d79970e3e8008a84cb711f39c043598828390656ee3ce76de608616d3deb794f8a7abe21842a5091593eb357e826b4dcea72363d5b3957d526cad9f35a241ea0beb54783459cd87dc0b825f06a",
+        "rng_index": 2,
+        "turn": 400000,
+        "winner": 0
+      },
+      "start_save_sha256": "757c20535f43f2aad9504fe2cbd364f6ea09704eca75209ff01bcc3ad5d3f8ee",
+      "trace_sha256": "75eb6fa7a74144a36d7869217b0a59816496de1b106c5df5866aac0c56749e6c",
+      "result_sha256": "5f2eaa3593103034be47df11dca9c1d1531db9db5af030bef3010fb6e6dbe0e7"
+    },
+    {
+      "variant": "five-carry",
+      "seed": 29,
+      "outcome": "death",
+      "cause": "a gallant",
+      "source": "3638b690525cd8a381cb106b4c5ee40652babde2",
+      "binary_sha256": "95ce961bb32c67e8a1af4700a4537895ac015228449f4765f3dbfc3899e76caa",
+      "calendar_context": {
+        "clock_policy": "Native system clock unchanged",
+        "end": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:44:26.310253+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:44:26.310253+00:00"
+        },
+        "start": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:44:19.674733+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:44:19.674733+00:00"
+        },
+        "status": "recorded"
+      },
+      "turn_cap": 400000,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 30,
+      "wall_seconds": 6.635353672998463,
+      "final": {
+        "borg_rng": 2423884678,
+        "dead": 1,
+        "decisions": 2066,
+        "depth": 2,
+        "energy": 208234,
+        "hp": -3,
+        "kind": "death",
+        "level": 3,
+        "max_depth": 3,
+        "max_level": 3,
+        "quick": 0,
+        "quick_rng": 2694408361,
+        "rng": "e916bbcec535ca5e22b1ff2930cf7d99088783cfa87fa7ecc78bb84b08b16761f7f709afdeaf91dff71137a4830f17f67a091918ace63c14cfe363e222d818981314311395496248488fb1ee699da9d56852c90d61c0bd3e2609edb3e63784c46e2d6b3409dfc0c79428939a5084d6239407523c543e29d364b70cb5e8d2c388",
+        "rng_index": 5,
+        "turn": 20445,
+        "winner": 0
+      },
+      "start_save_sha256": "ba8e7ba91ecaf63812f343b311e27952e5c9ee04f9a4853ed8963915298d8be2",
+      "trace_sha256": "06ab858a7c67e9656f367220a478550311b71b46691d0da5ccb202a7d9dcc620",
+      "result_sha256": "dbf3087c4dcaf69c1addbf933dd61daf39bbb9327aa9774b4f69ed6aedc97c8e"
+    },
+    {
+      "variant": "six-carry",
+      "seed": 29,
+      "outcome": "death",
+      "cause": "a gallant",
+      "source": "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc",
+      "binary_sha256": "aabad5875e34c232044d9989eaaacd9d922967027abd84c874602d61e0083b17",
+      "calendar_context": {
+        "clock_policy": "Native system clock unchanged",
+        "end": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:44:32.996110+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:44:32.996110+00:00"
+        },
+        "start": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:44:26.356390+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:44:26.356390+00:00"
+        },
+        "status": "recorded"
+      },
+      "turn_cap": 400000,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 30,
+      "wall_seconds": 6.639610393001931,
+      "final": {
+        "borg_rng": 3394486205,
+        "dead": 1,
+        "decisions": 2066,
+        "depth": 2,
+        "energy": 208234,
+        "hp": -3,
+        "kind": "death",
+        "level": 3,
+        "max_depth": 3,
+        "max_level": 3,
+        "quick": 0,
+        "quick_rng": 2694408361,
+        "rng": "e916bbcec535ca5e22b1ff2930cf7d99088783cfa87fa7ecc78bb84b08b16761f7f709afdeaf91dff71137a4830f17f67a091918ace63c14cfe363e222d818981314311395496248488fb1ee699da9d56852c90d61c0bd3e2609edb3e63784c46e2d6b3409dfc0c79428939a5084d6239407523c543e29d364b70cb5e8d2c388",
+        "rng_index": 5,
+        "turn": 20445,
+        "winner": 0
+      },
+      "start_save_sha256": "ba8e7ba91ecaf63812f343b311e27952e5c9ee04f9a4853ed8963915298d8be2",
+      "trace_sha256": "eac31d1c64dab9fac314417aff901068ae30a9d2e3d6bd0bc87d4b43b66349c5",
+      "result_sha256": "2c2157c57b06e08cf6be33ee4666bf934b94be7bbed6f2441f393e0a43d6abd5"
+    },
+    {
+      "variant": "five-carry",
+      "seed": 47,
+      "outcome": "turn_cap",
+      "cause": "(alive and well)",
+      "source": "3638b690525cd8a381cb106b4c5ee40652babde2",
+      "binary_sha256": "95ce961bb32c67e8a1af4700a4537895ac015228449f4765f3dbfc3899e76caa",
+      "calendar_context": {
+        "clock_policy": "Native system clock unchanged",
+        "end": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:46:19.698485+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:46:19.698485+00:00"
+        },
+        "start": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:44:33.043844+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:44:33.043844+00:00"
+        },
+        "status": "recorded"
+      },
+      "turn_cap": 400000,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 30,
+      "wall_seconds": 106.65455471200039,
+      "final": {
+        "borg_rng": 3601350060,
+        "dead": 0,
+        "decisions": 40495,
+        "depth": 6,
+        "energy": 4032041,
+        "hp": 186,
+        "kind": "turn_cap",
+        "level": 14,
+        "max_depth": 6,
+        "max_level": 14,
+        "quick": 0,
+        "quick_rng": 3195055545,
+        "rng": "5152aeb8679b9afc9375fd38a5bbfbc67a27122b9b415debd9d0174a07bbb7f0955a5d4283e1a9841c41edadb4fa8f0d0e1a1a917d1005872bb117e1fcdc8117629feb2a5c516bf202273203e442beffa73f1c915a0f7ca5693a0b26d9cd2c16a0c3cfafcb006475179cdce360b99771a8e04fd26a32f83c43aa1ba9a739158d",
+        "rng_index": 23,
+        "turn": 400000,
+        "winner": 0
+      },
+      "start_save_sha256": "6e803fa5a54ce30cdf907a38de4ce010cb88899a5b6aa71d60306b593b05c357",
+      "trace_sha256": "d3bd3dfb270d38d45d1447251cc77d26ada165bdb432596b8e9e9d530eee7762",
+      "result_sha256": "396897b4cb35910c521a1a778de495dd7c5c5424fa54650d857e51b8331bffcf"
+    },
+    {
+      "variant": "six-carry",
+      "seed": 47,
+      "outcome": "turn_cap",
+      "cause": "(alive and well)",
+      "source": "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc",
+      "binary_sha256": "aabad5875e34c232044d9989eaaacd9d922967027abd84c874602d61e0083b17",
+      "calendar_context": {
+        "clock_policy": "Native system clock unchanged",
+        "end": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:48:02.163754+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:48:02.163754+00:00"
+        },
+        "start": {
+          "TZ_environment": null,
+          "local": "2026-11-06T13:46:26.741984+01:00",
+          "timezone_name": "CET",
+          "utc": "2026-11-06T12:46:26.741984+00:00"
+        },
+        "status": "recorded"
+      },
+      "turn_cap": 400000,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 30,
+      "wall_seconds": 95.42164606799997,
+      "final": {
+        "borg_rng": 877975720,
+        "dead": 0,
+        "decisions": 35928,
+        "depth": 1,
+        "energy": 4032512,
+        "hp": 206,
+        "kind": "turn_cap",
+        "level": 16,
+        "max_depth": 4,
+        "max_level": 16,
+        "quick": 0,
+        "quick_rng": 3195055545,
+        "rng": "2f34dc078919d3bf0e6a3feecc2b7cbcb5285115ad22449df7c0aa2289fa384b7656e585ef5db61fb82e3d68786ecffd204323c6c58f155a91a17aca51d939f5a9ddb5aa5a03de4066acbfa1bf58968d3135b8880349570030ba6a75a172972840c66941156db962d75ece33797b8dff8d5a9db2d51a8c04b6ddfc502776e556",
+        "rng_index": 27,
+        "turn": 400000,
+        "winner": 0
+      },
+      "start_save_sha256": "6e803fa5a54ce30cdf907a38de4ce010cb88899a5b6aa71d60306b593b05c357",
+      "trace_sha256": "12ab7c253336a23312201458a60f01fb4a6dedae9c6f99f75a636fa01cde126c",
+      "result_sha256": "1837a7765a9a7fc0067d7618c1b096b668e8c6661162b76e1a54a9231a278702"
+    }
+  ],
+  "aggregate": {
+    "five-carry": {
+      "death": 2,
+      "turn_cap": 1,
+      "completion": 0,
+      "stalled": 0,
+      "wall_timeout": 0,
+      "crash": 0,
+      "harness_failure": 0
+    },
+    "six-carry": {
+      "turn_cap": 2,
+      "death": 1,
+      "completion": 0,
+      "stalled": 0,
+      "wall_timeout": 0,
+      "crash": 0,
+      "harness_failure": 0
+    }
+  },
+  "limit": "n=3 paired starts, different subsequent RNG/encounters. No population survival gain or uniform progress/speedup claim; caps censored. Replay/reference attempts excluded from this cohort.",
+  "replay_qualification": {
+    "11": {
+      "six_carry_complete_repeat": {
+        "start.save": true,
+        "trace.txt": true
+      },
+      "repeat_result_sha256": "01fd3fb3e62bfb743404ea9460816256cc1b4856f7ce5bcba0fadcc1df20de59",
+      "short_v1_prefix_matches_deep_run": true
+    },
+    "29": {
+      "six_carry_complete_repeat": {
+        "start.save": true,
+        "trace.txt": true
+      },
+      "repeat_result_sha256": "6f59e3da181abe9acd522a55dc03049bc651e8da0fbee5e412c28d3cd63b95bf",
+      "short_v1_prefix_matches_deep_run": true
+    },
+    "47": {
+      "short_v1_prefix_matches_deep_run": true,
+      "six_carry_complete_repeat": "not performed; only first20000 observation prefix repeated"
+    }
+  }
+}
