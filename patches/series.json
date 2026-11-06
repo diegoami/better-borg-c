@@ -143,6 +143,23 @@
       "evidence_ref": "cef0b118e02976a3384d4c348ba4cd0210c1f492",
       "verification": "docs/measurement/SHOT-PATH.md",
       "credit": "Diego Amicabile (independent native C discovery/proposal/evidence)"
+    },
+    {
+      "id": "CBUG-0048",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/44",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/64",
+      "source_head": "b223c4f18622883549682f9f997b76fe1f06fc73",
+      "source_commits": [
+        "b223c4f18622883549682f9f997b76fe1f06fc73"
+      ],
+      "applied_commits": [
+        "f383220f299d22993bc8b2e0ffa907d966a47823"
+      ],
+      "patch": "patches/0009-per-spell-projectile.patch",
+      "patch_active": true,
+      "evidence_ref": "0507c24cccd2131710e4e6cd566f901bad94e081",
+      "verification": "docs/measurement/PER-SPELL.md",
+      "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
     }
   ]
 }

@@ -41,3 +41,7 @@ The eighth carry excludes a projectile caster from intervening obstacles
 (consumer #40/source #279). Real blockers/endpoints remain; the hill-giant
 escape loses18->29HP and costs2mana, so no uniform safety claim. Independent
 per-spell source64 remains an explicit alternative, not part of this patch.
+
+The ninth carry resets projectile classification for each monster spell
+(consumer #44/source #64). It preserves the source279 helper as a separate
+removal unit; real-blocker storm damage59->54 costs1scroll and remains a hit.
