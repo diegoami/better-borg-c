@@ -17,7 +17,7 @@ Next, after bootstrap handoff:
    patch-removal units. Reproduce the relevant before/after/control evidence
    against the product and run the normal native gate. No survival claim from
    unit tests alone. Keep interactions explicit as carries accumulate.
-4. Merge normally after review/required green checks; update patch ledger and
+4. Merge normally after agent review and required green checks; update patch ledger and
    checkpoint. Mark verified local corrections carried/open. Source tracker
    retains canonical defect/proposal ownership.
 5. On upstream resolution, integrate the replacement deliberately, rebuild/test,
@@ -52,3 +52,19 @@ private-data migration is started by this plan.
 
 Measurement ownership: consumer issue3; coordinator workspace7. New permission
 changes the bootstrap-only scope; other standing exclusions and lifecycle remain.
+
+## Owner-directed integration and milestone review (2026-11-06)
+
+The owner explicitly instructed the consumer agent to merge, measure the impact
+and keep going. Do not stop each verified PR waiting for independent review.
+Use isolated task branches, normal additive commits and PR merges, inspect actual
+numerical checks and unchanged before/after controls, then record merged source
+and measurements at the adoption issue and checkpoint. Required checks remain
+required; no evidence or test condition is weakened for a merge.
+
+Accumulate independent carries with individual provenance/removal units and
+measure them against frozen starting conditions. At a coherent milestone, link
+every change, source/applied/merged pin, controlled result, gameplay comparison,
+failed attempt and limitation in one review package. External review happens at
+that milestone; it is not fabricated or required before each internal merge.
+No official Angband posting or other standing exclusion is changed.
