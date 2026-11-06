@@ -73,10 +73,10 @@
   "impact_milestone_v2": "https://github.com/diegoami/better-borg-c/milestone/2",
   "external_review_package_v2": "https://github.com/diegoami/better-borg-c/issues/38",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/66",
-    "branch": "task/carry-vampire-strike",
-    "worktree": ".worktrees/vampire-strike",
-    "state": "merged-dfddcfff-carried-open-patch-active",
-    "instructions": "docs/measurement/VAMPIRE-STRIKE.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/69",
+    "branch": "task/carry-slay-traits",
+    "worktree": ".worktrees/slay-traits",
+    "state": "merged-a88da7a06-carried-open-patch-active",
+    "instructions": "docs/measurement/SLAY-TRAITS.md"
   }
 }
