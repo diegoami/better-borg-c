@@ -11,6 +11,7 @@ import time
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'e473720ed88a0f0c7ca66815cef3000eb4a38bc3'
+LOADED_RUNNER_SHA256 = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
 
 
 def sha(path):
@@ -182,7 +183,7 @@ def run(args):
         env['BORG_MEASURE_LOAD'] = str(args.load.resolve())
     if args.no_saves:
         env['BORG_MEASURE_NO_SAVES'] = '1'
-    result = {'runner_sha256': sha(Path(__file__)), 'harness_commit': git('rev-parse', 'HEAD'),
+    result = {'runner_sha256': LOADED_RUNNER_SHA256, 'harness_commit': git('rev-parse', 'HEAD'),
               'harness_dirty': git('status', '--porcelain', '--untracked-files=no'),
               'input_sha256': sha(out / 'input.txt'),
               'starting_save_sha256': sha(args.load) if args.load else None,
@@ -235,7 +236,20 @@ def main():
     args = p.parse_args()
     if args.action == 'run' and (not 0 <= args.seed <= 0xffffffff or args.cap < 2 or args.timeout < 1):
         p.error('seed must be uint32, cap >=2 and timeout positive')
-    return prepare(args) if args.action == 'prepare' else run(args)
+    if args.action == 'prepare':
+        return prepare(args)
+    existed = args.output.exists()
+    try:
+        return run(args)
+    except (OSError, ValueError, KeyError) as exc:
+        if existed:
+            raise
+        args.output.mkdir(parents=True, exist_ok=True)
+        write(args.output / 'result.json', {'outcome': 'harness_failure', 'phase': 'preflight',
+              'seed': args.seed, 'turn_cap': args.cap, 'error': str(exc),
+              'runner_sha256': LOADED_RUNNER_SHA256})
+        print(str(exc), flush=True)
+        return 1
 
 
 if __name__ == '__main__':
