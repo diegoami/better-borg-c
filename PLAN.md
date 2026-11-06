@@ -135,17 +135,26 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth carry merged (2026-11-06)
+## Tenth and eleventh carries merged (2026-11-06)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
 phaseB once the carried 0008 projection fix let the mage's bolts count; the
 tracked adapted scenario (tools/glyph-tracker-scenario.c) verifies the real
 failure message, the -1 count, the bounded creation and the ASan
-heap-buffer-overflow WRITE on the actual product core, with all 60 prior
+heap-buffer-overflow WRITE on the actual product core, with all prior
 fixture cases whole-log identical and the merged v1 seeds 11/29/47 unchanged
 (3 cap survivors, traces identical to the nine-carry). Issue48 is
-carried/open+patch-active until upstream incorporation. Full story and exact
-next action: docs/measurement/GLYPH-TRACKER.md and issue48's verification
-comment. Next queue item: recheck live source67 readiness (medium-priority
-skip-list correction) before low-priority 81 or discretionary death work.
+carried/open+patch-active until upstream incorporation.
+
+Consumer51/source254 (missile-254) merged as ce6435679 (PR52, import
+09dd4435, patch 0011): the dead b_n < 0 guard in borg_attack_aux_launch let
+a targetless probe read borg_items[-1].desc and queue a fire key from index
+-1; the one-guard import verifies fail-before/pass-after with byte-identical
+live-shot/simulated controls and the ASan heap-buffer-overflow READ on the
+actual product core, 63 prior cases whole-log identical, merged v1 seeds
+unchanged. Issue51 carried/open+patch-active. Full stories:
+docs/measurement/GLYPH-TRACKER.md, docs/measurement/MISSILE-NO-TARGET.md and
+the issues' verification comments. Next queue: recheck live source67
+(tp-other skip list) and source248 (dispel rating) readiness, in severity
+order, before low-priority 81 or discretionary death work.
