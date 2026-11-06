@@ -98,3 +98,8 @@ The nineteenth carry looks up the activation ids the maneuvers describe
 (consumer #75/source #260). The greater acid bolt and all-monsters dispel
 items are considered; the correctly-wired lesser-bolt control stays
 unchanged.
+
+The twentieth carry scopes the reserve-bolt hitpoints veto to near
+monsters (consumer #78/source #258). A distant tough monster no longer
+vetoes the emergency bolt for the one nearby weak monster; the
+kobold-only control stays unchanged.

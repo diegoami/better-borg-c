@@ -340,6 +340,24 @@
    "verification": "docs/measurement/ACTIV-LOOKUP.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-activ-lookup; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0258",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/78",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/258",
+   "source_head": "7b4ecd6b888a1d87b526f273c769449eb013ad9b",
+   "source_commits": [
+    "7b4ecd6b888a1d87b526f273c769449eb013ad9b"
+   ],
+   "applied_commits": [
+    "21c672a856079167820d22dbf299f39c98faa24d"
+   ],
+   "patch": "patches/0020-reserve-bolt-veto-scope.patch",
+   "patch_active": true,
+   "evidence_ref": "359882c25",
+   "verification": "docs/measurement/RESERVE-BOLT.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-reserve-bolt; awaiting normal PR merge"
   }
  ]
 }
