@@ -1,6 +1,7 @@
 """Fail-closed result and watchdog controls; no native game required."""
 import importlib.util
 from pathlib import Path
+import json
 import signal
 import subprocess
 import sys
@@ -28,6 +29,16 @@ class Results(unittest.TestCase):
 
     def test_timeout_does_not_become_survival(self):
         self.assertEqual(measure.classify(-15, [{'kind': 'turn_cap'}], 'wall_timeout'), 'wall_timeout')
+
+    def test_preflight_failure_is_recorded(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / 'attempt'
+            code = subprocess.run([sys.executable, str(Path(__file__).with_name('measure-native.py')),
+                                   'run', '--build', str(Path(tmp) / 'missing-build'),
+                                   '--output', str(out), '--seed', '11', '--cap', '2000'],
+                                  stdout=subprocess.PIPE, stderr=subprocess.PIPE).returncode
+            self.assertEqual(code, 1)
+            self.assertEqual(json.loads((out / 'result.json').read_text())['outcome'], 'harness_failure')
 
     def test_real_watchdog_keeps_missing_progress_distinct(self):
         with tempfile.TemporaryDirectory() as tmp:

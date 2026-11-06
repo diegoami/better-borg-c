@@ -11,6 +11,7 @@ import time
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'e473720ed88a0f0c7ca66815cef3000eb4a38bc3'
+LOADED_RUNNER_SHA256 = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
 
 
 def sha(path):
@@ -89,6 +90,33 @@ def prepare(args):
     manifest.update(binary_sha256=sha(out / 'build/game/angband'), complete=True,
                     data_sha256={str(p.relative_to(source)): sha(p) for d in ('gamedata', 'customize', 'screens', 'help')
                                  for p in sorted((source / 'lib' / d).rglob('*')) if p.is_file()})
+    write(out / 'build.json', manifest)
+
+
+def refresh_observer(args):
+    out = args.output.resolve()
+    manifest = json.loads((out / 'build.json').read_text())
+    binary = out / 'build/game/angband'
+    if not manifest['complete'] or not manifest['instrumented'] or sha(binary) != manifest['binary_sha256']:
+        raise ValueError('Require unchanged complete observer build')
+    previous = out / ('attempt-' + str(time.time_ns()))
+    previous.mkdir()
+    (previous / 'build.json').write_bytes((out / 'build.json').read_bytes())
+    (previous / 'angband').write_bytes(binary.read_bytes())
+    for name in ('native-observer.c', 'native-observer.h'):
+        source = out / 'source/src' / name
+        data = (ROOT / 'tools' / name).read_bytes()
+        if source.read_bytes() != data:
+            source.write_bytes(data)
+    manifest.update(complete=False, harness_commit=git('rev-parse', 'HEAD'),
+                    tools_sha256={p.name: sha(p) for p in (ROOT / 'tools').glob('*') if p.is_file()})
+    command = ['cmake', '--build', str(out / 'build'), '--target', 'OurExecutable', '--parallel', '2']
+    manifest['commands'].append(command)
+    write(out / 'build.json', manifest)
+    with (previous / 'refresh.log').open('w') as log:
+        subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, check=True)
+    manifest.update(complete=True, binary_sha256=sha(binary),
+                    previous_binary_sha256=sha(previous / 'angband'))
     write(out / 'build.json', manifest)
 
 
@@ -182,7 +210,7 @@ def run(args):
         env['BORG_MEASURE_LOAD'] = str(args.load.resolve())
     if args.no_saves:
         env['BORG_MEASURE_NO_SAVES'] = '1'
-    result = {'runner_sha256': sha(Path(__file__)), 'harness_commit': git('rev-parse', 'HEAD'),
+    result = {'runner_sha256': LOADED_RUNNER_SHA256, 'harness_commit': git('rev-parse', 'HEAD'),
               'harness_dirty': git('status', '--porcelain', '--untracked-files=no'),
               'input_sha256': sha(out / 'input.txt'),
               'starting_save_sha256': sha(args.load) if args.load else None,
@@ -223,6 +251,8 @@ def main():
     prep.add_argument('--output', type=Path, required=True)
     prep.add_argument('--observe', action='store_true')
     prep.add_argument('--retry', action='store_true', help='retain failed attempt receipts and rebuild same output')
+    refresh = sub.add_parser('refresh-observer', help='preserve old binary/manifest, rebuild only observer')
+    refresh.add_argument('--output', type=Path, required=True)
     r = sub.add_parser('run')
     r.add_argument('--build', type=Path, required=True)
     r.add_argument('--output', type=Path, required=True)
@@ -235,7 +265,22 @@ def main():
     args = p.parse_args()
     if args.action == 'run' and (not 0 <= args.seed <= 0xffffffff or args.cap < 2 or args.timeout < 1):
         p.error('seed must be uint32, cap >=2 and timeout positive')
-    return prepare(args) if args.action == 'prepare' else run(args)
+    if args.action == 'refresh-observer':
+        return refresh_observer(args)
+    if args.action == 'prepare':
+        return prepare(args)
+    existed = args.output.exists()
+    try:
+        return run(args)
+    except (OSError, ValueError, KeyError) as exc:
+        if existed:
+            raise
+        args.output.mkdir(parents=True, exist_ok=True)
+        write(args.output / 'result.json', {'outcome': 'harness_failure', 'phase': 'preflight',
+              'seed': args.seed, 'turn_cap': args.cap, 'error': str(exc),
+              'runner_sha256': LOADED_RUNNER_SHA256})
+        print(str(exc), flush=True)
+        return 1
 
 
 if __name__ == '__main__':
