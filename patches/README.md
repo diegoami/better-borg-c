@@ -66,3 +66,8 @@ count (consumer #54/source #67). The stale leftover slot suppressed an
 unlisted monster and inflated the cast value; the layered borg-danger.c
 module equals the eleven-carry module plus the one-comparison import, and
 the no-morgoth/single controls stay unchanged.
+
+The thirteenth carry rates Dispel Life against living monsters like the
+game does (consumer #57/source #248). The inverted double filter rated the
+spell below doing nothing against every enemy; the OR-filter matches the
+game's drain and the undead/bolt controls stay unchanged.

@@ -1,0 +1,34 @@
+From 6912b85cb7b902616ad786dfc20afe3b4cf28b10 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 16:58:28 +0100
+Subject: [PATCH] Borg: rate Dispel Life against living monsters like the game
+ does
+
+The Dispel Life evaluation kept damage only for monsters flagged both
+NONLIVING and UNDEAD, the inverse of the game's drain, which damages
+each living monster and treats undead or nonliving monsters as immune
+(monster_is_nonliving).  With no NONLIVING monsters in the game data
+the spell was rated at zero damage against every monster kind, so the
+Borg never considered casting it.  Zero the damage for nonliving
+monsters only.
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 45c5d140a..3fa9f4799 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -578,11 +578,11 @@ static int borg_launch_damage_one(int i, int dam, int typ, int ammo_location)
+             dam = 0;
+         break;
+ 
+-    /*  Dispel life */
++    /*  Dispel life: the game's drain only hurts living monsters
++     * (nonliving is undead or nonliving). */
+     case BORG_ATTACK_DRAIN_LIFE:
+-        if (!(rf_has(r_ptr->flags, RF_NONLIVING)))
+-            dam = 0;
+-        if (!(rf_has(r_ptr->flags, RF_UNDEAD)))
++        if (rf_has(r_ptr->flags, RF_NONLIVING)
++            || rf_has(r_ptr->flags, RF_UNDEAD))
+             dam = 0;
+         break;
+ 

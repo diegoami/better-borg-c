@@ -214,6 +214,24 @@
    "verification": "docs/measurement/TP-OTHER-SKIP.md",
    "credit": "borg-rs (discovery); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-tp-other-skip; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0248",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/57",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/248",
+   "source_head": "6912b85cb7b902616ad786dfc20afe3b4cf28b10",
+   "source_commits": [
+    "6912b85cb7b902616ad786dfc20afe3b4cf28b10"
+   ],
+   "applied_commits": [
+    "23d8ed579317db9e9d2037d21d529af3c29fd433"
+   ],
+   "patch": "patches/0013-dispel-life-filter.patch",
+   "patch_active": true,
+   "evidence_ref": "6df50d2e",
+   "verification": "docs/measurement/DISPEL-FILTER.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-dispel-filter; awaiting normal PR merge"
   }
  ]
 }
