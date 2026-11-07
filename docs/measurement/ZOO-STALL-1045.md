@@ -207,7 +207,9 @@ cell. The parameter is not asserted here to be an engine-enforced depth cap.
 ## Validation, raw evidence and next action
 
 All native experiments used the shared validation lock. Python sidecars compile;
-whitespace checks pass. Intermediate PR211 hosted job128560000819 passed95
+source/prose whitespace checks pass. Native log excerpts retain original
+trailing spaces and terminal text; the unfiltered whitespace check reports
+those data bytes, which are intentionally preserved. Intermediate PR211 hosted job128560000819 passed95
 tooling tests,965/965 native tests and5/5 frontend tests; final-head hosted
 checks are recorded on PR211/the issue receipt. There are no product C changes
 and no adoption/fix gate is being substituted by these experiments.
