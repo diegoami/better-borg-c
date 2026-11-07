@@ -36,7 +36,7 @@ def locked(path, blocking=True):
 
 def compatible_builds():
     """Old GAME sources are usable only with this recording implementation."""
-    names = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h')
+    names = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h', 'native-spells.h')
     expected = {name: measurement.sha(ROOT / 'tools' / name) for name in names}
     folder = ROOT / 'artifacts/headless/builds'
     for path in sorted(folder.glob('*/build.json'), key=lambda p: p.stat().st_mtime, reverse=True):
@@ -64,7 +64,7 @@ def prepared_build(allow_build=True):
     identity.update(inspect.getsource(measurement.prepare).encode())
     identity.update(inspect.getsource(measurement.named_play_bridge).encode())
     identity.update(inspect.getsource(measurement.recording_profile).encode())
-    for name in ('native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h'):
+    for name in ('native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h', 'native-spells.h'):
         identity.update((ROOT / 'tools' / name).read_bytes())
     build = ROOT / 'artifacts/headless/builds' / (commit[:12] + '-' + identity.hexdigest()[:12])
     if build.exists():

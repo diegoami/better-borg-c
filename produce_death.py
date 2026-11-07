@@ -24,7 +24,7 @@ def load(name, filename):
 
 workflow = load('producer_helpers', 'death-workflow.py')
 measurement = load('producer_measurement', 'measure-native.py')
-BUILD_TOOLS = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h')
+BUILD_TOOLS = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h', 'native-spells.h')
 DEFAULT_ISSUE = 'https://github.com/diegoami/better-borg-c/issues/163'
 
 

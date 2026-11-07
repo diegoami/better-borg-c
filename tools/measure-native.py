@@ -50,7 +50,7 @@ def named_play_bridge(source):
 
 
 def recording_profile(source):
-    for name in ('native-replay.c', 'native-replay.h', 'native-inventory.h'):
+    for name in ('native-replay.c', 'native-replay.h', 'native-inventory.h', 'native-spells.h'):
         (source / 'src' / name).write_bytes((ROOT / 'tools' / name).read_bytes())
     for name in ('main.c', 'ui-term.c', 'borg/borg.c'):
         path = source / 'src' / name

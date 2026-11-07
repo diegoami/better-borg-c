@@ -57,7 +57,7 @@ class Frames:
     def get(self, index):
         first = self.index[index][1]
         self.file.seek(self.index[first][0])
-        chars, attrs, palette, details, inventory = [], [], None, None, None
+        chars, attrs, palette, details, inventory, spells = [], [], None, None, None, None
         for _ in range(first, index + 1):
             frame = json.loads(self.file.readline())
             size = frame['width'] * frame['height']
@@ -75,8 +75,11 @@ class Frames:
                 details = frame['details']
             if frame.get('inventory') is not None:
                 inventory = frame['inventory']
+            if frame.get('spells') is not None:
+                spells = frame['spells']
         frame['diagnostics'] = details
         frame['inventory'] = inventory
+        frame['spells'] = spells
         return frame, chars, attrs, palette
 
 
@@ -112,6 +115,28 @@ def inventory_rows(frame, equipment=False):
         if not inventory[section]:
             rows.append(('(empty)', 1))
     return rows
+
+
+def spell_rows(frame):
+    spells = frame.get('spells')
+    if spells is None and frame.get('caster') is False:
+        return [('Spells', 1), ('This class has no spells.', 1)]
+    if spells is None:
+        return [('Spell data was not captured in this older movie.', 1),
+                ('Reopen normally to recover native spell availability.', 1)]
+    rows = [(f"Spells — {spells['class']} — Mana {spells['mana']}/{spells['max_mana']}", 1), ('', 1)]
+    if not spells['caster']:
+        return rows + [('This class has no spells.', 1)]
+    if not spells['learned']:
+        return rows + [('No learned spells at this moment.', 1)]
+    rows += [('Name                           Lv  MP Fail  Status', 1)]
+    for spell in spells['learned']:
+        color = 13 if spell['status'] == 'Ready' else 11
+        rows.append((f"{spell['label']}) {spell['name']:<27} {spell['level']:2} {spell['mana']:3} {spell['fail']:3}%  {spell['status']}", color))
+        if spell['book']:
+            label = 'on floor' if spell['book_label'] == '-' else spell['book_label'] + ')'
+            rows.append((f"  {label} {spell['book']}", 1))
+    return rows + [('', 1), ('Low mana: an overexertion attempt is possible, as in the game.', 1)]
 
 
 def color_attribute(color, palette):
@@ -155,7 +180,7 @@ def read_key(screen, playing=False):
         screen.timeout(100 if playing else -1)
 
 
-def show(directory, turn=None, verified=False, dump=False):
+def show(directory, turn=None, verified=False, dump=False, caster=None):
     frames = Frames(directory)
     index = frames.at_turn(turn if turn is not None else frames.turns[-1] - 105)
     try:
@@ -178,6 +203,7 @@ def show(directory, turn=None, verified=False, dump=False):
             horizontal = 0
             while True:
                 frame, chars, attrs, palette = frames.get(index)
+                frame['caster'] = caster
                 height, width = screen.getmaxyx()
                 screen.erase()
                 badge = 'VERIFIED' if verified else 'RECORDING ONLY / UNVERIFIED'
@@ -197,6 +223,8 @@ def show(directory, turn=None, verified=False, dump=False):
                             'This data was never supplied to the Borg as additional input.', '']
                     if panel in ('inventory', 'equipment'):
                         rows = inventory_rows(frame, panel == 'equipment')
+                    elif panel == 'spells':
+                        rows = spell_rows(frame)
                     elif panel == 'gear':
                         for item in detail.get('gear', []):
                             rows.append(f"{item['quantity']} x {item['actual_kind']} [aware={item['aware']}; known={item['known_kind']}]")
@@ -209,7 +237,7 @@ def show(directory, turn=None, verified=False, dump=False):
                     for row, line in enumerate(rows[scroll:scroll + height - 3], 1):
                         text, color = line if isinstance(line, tuple) else (line, 1)
                         screen.addnstr(row, 0, text[horizontal:], max(0, width - 1), color_attribute(color, palette))
-                screen.addnstr(height - 2, 0, '←/→ step  g turn  Space play  i inventory  e equip  m foes  d debug  Esc back  q quit', max(0, width - 1))
+                screen.addnstr(height - 2, 0, '←/→ step  g turn  Space play  i inventory  e equip  s spells  m foes  d debug  Esc back  q quit', max(0, width - 1))
                 screen.addnstr(height - 1, 0, f'Frame {index + 1}/{len(frames.index)}. Original observations; controls never change the game.', max(0, width - 1))
                 screen.refresh()
                 screen.timeout(100 if playing else -1)
@@ -219,8 +247,8 @@ def show(directory, turn=None, verified=False, dump=False):
                 if key == 27:
                     panel = 'screen'
                     scroll = horizontal = 0
-                elif key in (ord('i'), ord('e'), ord('d'), ord('m'), ord('v')):
-                    panel = {ord('i'): 'inventory', ord('e'): 'equipment', ord('d'): 'gear', ord('m'): 'monsters', ord('v'): 'screen'}[key]
+                elif key in (ord('i'), ord('e'), ord('s'), ord('d'), ord('m'), ord('v')):
+                    panel = {ord('i'): 'inventory', ord('e'): 'equipment', ord('s'): 'spells', ord('d'): 'gear', ord('m'): 'monsters', ord('v'): 'screen'}[key]
                     if panel != 'screen':
                         playing = False
                     scroll = horizontal = 0

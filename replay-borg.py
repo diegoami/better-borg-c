@@ -50,7 +50,7 @@ def resolve_recording(path):
     return path
 
 
-def first_difference(original, rerun, inventory_extension=False):
+def first_difference(original, rerun, inventory_extension=False, spells_extension=False):
     for name in ('events.txt', 'actions.txt', 'clock.txt', 'file-inputs.txt', 'trace.txt'):
         if name == 'trace.txt' and not (original / name).exists():
             continue
@@ -66,8 +66,11 @@ def first_difference(original, rerun, inventory_extension=False):
         for index, (left, right) in enumerate(itertools.zip_longest(a, b), 1):
             if left != right:
                 expected, actual = json.loads(left) if left else {}, json.loads(right) if right else {}
-                if inventory_extension and left is not None and right is not None and 'inventory' not in expected:
-                    actual.pop('inventory', None)
+                if left is not None and right is not None:
+                    if inventory_extension and 'inventory' not in expected:
+                        actual.pop('inventory', None)
+                    if spells_extension and 'spells' not in expected:
+                        actual.pop('spells', None)
                     if expected == actual:
                         continue
                 keys = sorted(k for k in expected.keys() | actual.keys() if expected.get(k) != actual.get(k))
@@ -79,7 +82,7 @@ def first_difference(original, rerun, inventory_extension=False):
     return None
 
 
-def verify(original, output, timeout, engine=None, inventory_extension=False):
+def verify(original, output, timeout, engine=None, inventory_extension=False, spells_extension=False):
     record = recordings.validate(original)
     if output.exists():
         raise ValueError('Replay output must be a new directory; original evidence is never overwritten')
@@ -139,7 +142,7 @@ def verify(original, output, timeout, engine=None, inventory_extension=False):
                     process.wait()
     missing = [name for name in ('events.txt', 'clock.txt', 'actions.txt', 'file-inputs.txt', 'frames.jsonl')
                if not (output / name).exists()]
-    difference = {'stream': 'missing replay output', 'files': missing} if missing else first_difference(original, output, inventory_extension)
+    difference = {'stream': 'missing replay output', 'files': missing} if missing else first_difference(original, output, inventory_extension, spells_extension)
     complete = (output / 'record-complete.json').exists()
     result = {'schema': 'borg-replay-verification@1', 'original': str(original),
               'recording_sha256': recordings.sha(original / 'recording.json'),
@@ -168,6 +171,27 @@ def verify(original, output, timeout, engine=None, inventory_extension=False):
                               if p.is_file() and p.name != 'result.json'}
     recordings.write(output / 'result.json', rerun)
     return result
+
+
+def recorded_caster(original):
+    """Class identity from the native trace, magic capability from frozen data."""
+    data = original / 'data/gamedata/class.txt'
+    trace = original / 'trace.txt'
+    if not data.exists() or not trace.exists():
+        return None
+    character = None
+    with trace.open() as stream:
+        for line in stream:
+            if line.startswith('CHARACTER '):
+                character = line.strip()
+                break
+    if character is None:
+        return None
+    for block in data.read_text().split('\nname:')[1:]:
+        name = block.splitlines()[0]
+        if character.endswith(' ' + name):
+            return any(row.startswith('spell:') for row in block.splitlines())
+    return None
 
 
 def main():
@@ -200,14 +224,18 @@ def main():
         if not args.verify_only:
             display = original
             with viewer.frame_lines(original) as rows:
-                native_inventory = 'inventory' in json.loads(next(rows))
-            if not native_inventory and args.dump_turn is None:
+                first = json.loads(next(rows))
+                native_inventory = 'inventory' in first
+                native_spells = 'spells' in first
+            caster = recorded_caster(original)
+            need_spells = caster is True and not native_spells
+            if (not native_inventory or need_spells) and args.dump_turn is None:
                 inventory = tool('replay_inventory_extension', 'replay-inventory.py')
-                display = inventory.cached(original, sys.modules[__name__]) or original
+                display = inventory.cached(original, sys.modules[__name__], include_spells=need_spells) or original
                 if display == original and not args.view_only:
-                    display = inventory.prepare(original, sys.modules[__name__], args.timeout)
+                    display = inventory.prepare(original, sys.modules[__name__], args.timeout, include_spells=need_spells)
             viewer.show(display, args.dump_turn if args.dump_turn is not None else args.from_turn,
-                        verified=verified, dump=args.dump_turn is not None)
+                        verified=verified, dump=args.dump_turn is not None, caster=caster)
         return 0
     except (OSError, ValueError, KeyError, json.JSONDecodeError, subprocess.CalledProcessError) as exc:
         print(str(exc), file=sys.stderr)
