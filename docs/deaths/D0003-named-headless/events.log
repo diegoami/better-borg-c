@@ -1,0 +1,2407 @@
+BORG 20253 # Tracking a monster 'cutpurse' at (34,69) from (35,69)
+BORG 20253 # Scary guy on level.
+BORG 20253 # Loc:33,68 Dep:2 Lev:3 HP:45/49 SP:0/0 Danger:p=188
+BORG 20253 # Fleeing and leaving the level. (scaryguy)
+BORG 20253 # Retreating to 33,67 (distance 1) via 33,67 (188 > 0)
+BORG 20263 # Tracking a monster 'cutpurse' at (33,68) from (34,69)
+BORG 20263 # Scary guy on level.
+BORG 20263 # Loc:33,67 Dep:2 Lev:3 HP:46/49 SP:0/0 Danger:p=188
+BORG 20263 # Fleeing and leaving the level. (scaryguy)
+BORG 20263 # Retreating to 33,66 (distance 1) via 33,66 (188 > 10)
+BORG 20273 # Tracking a monster 'cutpurse' at (33,67) from (33,68)
+BORG 20273 # Scary guy on level.
+BORG 20273 # Loc:33,66 Dep:2 Lev:3 HP:46/49 SP:0/0 Danger:p=188
+BORG 20273 # Fleeing and leaving the level. (scaryguy)
+BORG 20273 # Retreating to 33,65 (distance 1) via 33,65 (188 > 10)
+BORG 20283 # There was a monster 'cutpurse' at (33,67)
+BORG 20283 # Forgetting a monster 'cutpurse' at (33,67)
+BORG 20283 # Scary guy on level.
+BORG 20283 # Fleeing and leaving the level. (scaryguy)
+BORG 20283 # Flowing toward stairs at cost 62
+BORG 20293 # MISS_BY:The cutpurse (+)
+BORG 20293 # MISS_BY:The cutpurse (+)
+BORG 20293 # Creating a monster 'cutpurse' at (33,67), HP: 21, Index: 37
+BORG 20293 # Removing Regional Fear (33,67) because of a LOS cutpurse
+BORG 20293 # MISS_BY:The cutpurse (4)
+BORG 20293 # MISS_BY:The cutpurse (4)
+BORG 20293 # Scary guy on level.
+BORG 20293 # Loc:33,66 Dep:2 Lev:3 HP:46/49 SP:0/0 Danger:p=188
+BORG 20293 # Fleeing and leaving the level. (scaryguy)
+BORG 20293 # Safe to Phase. scary squares: 14
+BORG 20293 # Reading Scrolls of Phase Door.
+BORG 20293 # Danger Level 1.
+BORG 20303 # Creating an object '& Sling~' at (72,24)
+BORG 20303 # Creating an object '& Set~ of Leather Gloves' at (58,21)
+BORG 20303 # Creating a monster 'acolyte' at (23,73), HP: 20, Index: 38
+BORG 20303 # Removing Regional Fear (23,73) because of a LOS acolyte
+BORG 20303 # Creating a monster 'scout' at (22,62), HP: 21, Index: 71
+BORG 20303 # Removing Regional Fear (22,62) because of a LOS scout
+BORG 20303 # Creating a monster 'metallic green centipede' at (22,61), HP: 12, Index: 35
+BORG 20303 # Removing Regional Fear (22,61) because of a LOS metallic green centipede
+BORG 20303 # Creating a monster 'acolyte' at (24,73), HP: 22, Index: 38
+BORG 20303 # Removing Regional Fear (24,73) because of a LOS acolyte
+BORG 20303 # Creating a monster 'gallant' at (20,62), HP: 30, Index: 72
+BORG 20303 # Removing Regional Fear (20,62) because of a LOS gallant
+BORG 20303 # Scary guy on level.
+BORG 20303 # Loc:23,64 Dep:2 Lev:3 HP:46/49 SP:0/0 Danger:p=451
+BORG 20303 # Fleeing and leaving the level. (scaryguy)
+BORG 20303 # No Phase. scary squares: 97
+BORG 20303 # Reading Scrolls of Phase Door.
+BORG 20303 # Danger Level 1.2  Critical Phase
+BORG 20313 # Scary guy on level.
+BORG 20313 # Loc:22,75 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=401
+BORG 20313 # Fleeing and leaving the level. (scaryguy)
+BORG 20313 # No Phase. scary squares: 100
+BORG 20313 # Reading Scrolls of Phase Door.
+BORG 20313 # Danger Level 1.2  Critical Phase
+BORG 20323 # Tracking a monster 'metallic green centipede' at (20,63) from (22,61)
+BORG 20323 # Scary guy on level.
+BORG 20323 # Loc:19,66 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=427
+BORG 20323 # Fleeing and leaving the level. (scaryguy)
+BORG 20323 # No Phase. scary squares: 100
+BORG 20323 # Reading Scroll of Phase Door.
+BORG 20323 # Danger Level 1.2  Critical Phase
+BORG 20333 # Tracking a monster 'metallic green centipede' at (22,61) from (20,63)
+BORG 20333 # Scary guy on level.
+BORG 20333 # Loc:23,58 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=426
+BORG 20333 # Fleeing and leaving the level. (scaryguy)
+BORG 20333 # Reading unknown scroll Scrolls titled "thecus vigo co".
+BORG 20343 # Scary guy on level.
+BORG 20343 # Loc:23,58 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=426
+BORG 20343 # Fleeing and leaving the level. (scaryguy)
+BORG 20343 # Quaffing unknown potion Lavender Potion.
+BORG 20353 # Tracking a monster 'metallic green centipede' at (23,59) from (22,61)
+BORG 20353 # Scary guy on level.
+BORG 20353 # Loc:23,58 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=870
+BORG 20353 # Fleeing and leaving the level. (scaryguy)
+BORG 20353 # Adjacent to monster on Scaryguy Level.
+BORG 20353 # Adjacent to monster on Scaryguy Level.
+BORG 20353 # Adjacent to monster on Scaryguy Level.
+BORG 20353 # Performing attack type 1 with value 817.
+BORG 20353 # Facing metallic green centipede at (23,59) who has 12 Hit Points.
+BORG 20353 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 20360 # HIT:the metallic green centipede (+)
+BORG 20360 # HIT:the metallic green centipede (+)
+BORG 20360 # PAIN:The metallic green centipede (+)
+BORG 20360 # Tracking a monster 'metallic green centipede' at (23,60) from (23,59)
+BORG 20360 # HIT:the metallic green centipede (2)
+BORG 20360 # HIT:the metallic green centipede (2)
+BORG 20360 # PAIN:The metallic green centipede (2)
+BORG 20360 # Scary guy on level.
+BORG 20360 # Loc:23,58 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=637
+BORG 20360 # Fleeing and leaving the level. (scaryguy)
+BORG 20360 # Adjacent to monster on Scaryguy Level.
+BORG 20360 # Adjacent to monster on Scaryguy Level.
+BORG 20360 # Adjacent to monster on Scaryguy Level.
+BORG 20360 # Performing attack type 2 with value 20.
+BORG 20360 # Targeting gallant who has 30 Hit Points (20,62).
+BORG 20360 # Throwing painful object 'Flask of oil'
+BORG 20370 # Perhaps wall near targetted location (20,62)
+BORG 20370 # Guessing wall (20,61) near target (20,62)
+BORG 20370 # Tracking a monster 'metallic green centipede' at (24,62) from (23,60)
+BORG 20370 # Scary guy on level.
+BORG 20370 # Loc:23,58 Dep:2 Lev:3 HP:48/49 SP:0/0 Danger:p=409
+BORG 20370 # Fleeing and leaving the level. (scaryguy)
+BORG 20370 # Fleeing and leaving the level. (Looking for any stair)
+BORG 20370 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 20370 # heading up (bored and unable to dive: 50 hp)
+BORG 20370 # Looking for up stairs.  Going up.
+BORG 20370 # Bored but unable to flow to up stairs.
+BORG 20370 # no up stairs found, going down
+BORG 20370 # Boosting bravery (1) from 48 to 96!
+BORG 20370 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20370 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20370 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20370 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20370 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20370 # Fleeing and leaving the level. Brave Thinking.
+BORG 20370 # heading up (bored and unable to dive: 50 hp)
+BORG 20370 # Looking for up stairs.  Going up.
+BORG 20370 # Bored but unable to flow to up stairs.
+BORG 20370 # no up stairs found, going down
+BORG 20370 # Considering Phase (twitchy)
+BORG 20370 # Boosting bravery (2) from 48 to 196!
+BORG 20370 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20370 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20370 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20370 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20370 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20370 # Fleeing and leaving the level. Brave Thinking.
+BORG 20370 # Flowing toward down-stairs at cost 54
+BORG 20380 # Tracking a monster 'metallic green centipede' at (23,64) from (24,62)
+BORG 20380 # Creating a monster 'scout' at (24,68), HP: 27, Index: 71
+BORG 20380 # Removing Regional Fear (24,68) because of a LOS scout
+BORG 20380 # Scary guy on level.
+BORG 20380 # Loc:22,59 Dep:2 Lev:3 HP:48/49 SP:0/0 Danger:p=470
+BORG 20380 # Fleeing and leaving the level. (scaryguy)
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Fleeing and leaving the level. (Looking for any stair)
+BORG 20380 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 20380 # heading up (bored and unable to dive: 50 hp)
+BORG 20380 # Looking for up stairs.  Going up.
+BORG 20380 # Bored but unable to flow to up stairs.
+BORG 20380 # no up stairs found, going down
+BORG 20380 # Boosting bravery (1) from 48 to 96!
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Fleeing and leaving the level. Brave Thinking.
+BORG 20380 # heading up (bored and unable to dive: 50 hp)
+BORG 20380 # Looking for up stairs.  Going up.
+BORG 20380 # Bored but unable to flow to up stairs.
+BORG 20380 # no up stairs found, going down
+BORG 20380 # Considering Phase (twitchy)
+BORG 20380 # Boosting bravery (2) from 48 to 196!
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20380 # Fleeing and leaving the level. Brave Thinking.
+BORG 20380 # Flowing toward down-stairs at cost 55
+BORG 20390 # Tracking a monster 'scout' at (24,67) from (24,68)
+BORG 20390 # Tracking a monster 'metallic green centipede' at (24,64) from (23,64)
+BORG 20390 # Scary guy on level.
+BORG 20390 # Loc:21,60 Dep:2 Lev:3 HP:48/49 SP:0/0 Danger:p=524
+BORG 20390 # Fleeing and leaving the level. (scaryguy)
+BORG 20390 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20390 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20390 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20390 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20390 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20390 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20400 # SPELL_063:The scout (+)
+BORG 20400 # PAIN:The scout (+)
+BORG 20400 # PAIN:The scout (+)
+BORG 20400 # PAIN:The gallant (+)
+BORG 20400 # Tracking a monster 'metallic green centipede' at (23,65) from (24,64)
+BORG 20400 # SPELL_063:The scout (3)
+BORG 20400 # PAIN:The scout (2)
+BORG 20400 # PAIN:The scout (2)
+BORG 20400 # PAIN:The gallant (2)
+BORG 20400 # Scary guy on level.
+BORG 20400 # Loc:20,61 Dep:2 Lev:3 HP:48/49 SP:0/0 Danger:p=483
+BORG 20400 # Fleeing and leaving the level. (scaryguy)
+BORG 20400 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20400 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20400 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20400 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20400 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20400 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20400 # Performing attack type 1 with value 97.
+BORG 20400 # Facing gallant at (20,62) who has 30 Hit Points.
+BORG 20400 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 20407 # HIT:the gallant (+)
+BORG 20407 # HIT:the gallant (+)
+BORG 20407 # SPELL_005:The scout (+)
+BORG 20407 # HIT_BY:The gallant (+)
+BORG 20407 # HIT_BY:The gallant (+)
+BORG 20407 # Tracking a monster 'scout' at (21,61) from (22,62)
+BORG 20407 # Tracking a monster 'scout' at (23,66) from (24,67)
+BORG 20407 # Tracking a monster 'metallic green centipede' at (23,64) from (23,65)
+BORG 20407 # HIT:the gallant (2)
+BORG 20407 # HIT:the gallant (2)
+BORG 20407 # SPELL_005:The scout (3)
+BORG 20407 # HIT_BY:The gallant (3)
+BORG 20407 # HIT_BY:The gallant (3)
+BORG 20407 # Scary guy on level.
+BORG 20407 # Loc:20,61 Dep:2 Lev:3 HP:38/49 SP:0/0 Danger:p=503
+BORG 20407 # Fleeing and leaving the level. (scaryguy)
+BORG 20407 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20407 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20407 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20407 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20407 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20407 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20407 # Performing attack type 1 with value 113.
+BORG 20407 # Facing scout at (21,61) who has 21 Hit Points.
+BORG 20407 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 20414 # MISS:the scout (+)
+BORG 20414 # HIT:the scout (+)
+BORG 20414 # HIT_BY:The scout (+)
+BORG 20414 # HIT_BY:The scout (+)
+BORG 20414 # Tracking a monster 'scout' at (22,65) from (23,66)
+BORG 20414 # Tracking a monster 'metallic green centipede' at (24,66) from (23,64)
+BORG 20414 # MISS:the scout (2)
+BORG 20414 # HIT:the scout (2)
+BORG 20414 # HIT_BY:The scout (3)
+BORG 20414 # HIT_BY:The scout (3)
+BORG 20414 # Scary guy on level.
+BORG 20414 # Loc:20,61 Dep:2 Lev:3 HP:32/49 SP:0/0 Danger:p=500
+BORG 20414 # Fleeing and leaving the level. (scaryguy)
+BORG 20414 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20414 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20414 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20414 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20414 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20414 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20414 # Performing attack type 1 with value 113.
+BORG 20414 # Facing scout at (21,61) who has 12 Hit Points.
+BORG 20414 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 20422 # HIT:the scout (+)
+BORG 20422 # MISS:the scout (+)
+BORG 20422 # PAIN:The scout (+)
+BORG 20422 # HIT_BY:The gallant (+)
+BORG 20422 # MISS_BY:The gallant (+)
+BORG 20422 # Tracking a monster 'metallic green centipede' at (24,67) from (24,66)
+BORG 20422 # Tracking a monster 'scout' at (21,63) from (22,65)
+BORG 20422 # Creating a monster 'cutpurse' at (24,68), HP: 21, Index: 37
+BORG 20422 # Removing Regional Fear (24,68) because of a LOS cutpurse
+BORG 20422 # HIT:the scout (2)
+BORG 20422 # MISS:the scout (2)
+BORG 20422 # PAIN:The scout (2)
+BORG 20422 # HIT_BY:The gallant (3)
+BORG 20422 # MISS_BY:The gallant (3)
+BORG 20422 # Scary guy on level.
+BORG 20422 # Loc:20,61 Dep:2 Lev:3 HP:31/49 SP:0/0 Danger:p=513
+BORG 20422 # Fleeing and leaving the level. (scaryguy)
+BORG 20422 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20422 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20422 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20422 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20422 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20422 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20422 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20422 # Performing attack type 1 with value 113.
+BORG 20422 # Facing scout at (21,61) who has 5 Hit Points.
+BORG 20422 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 20429 # MISS:the scout (+)
+BORG 20429 # HIT:the scout (+)
+BORG 20429 # MISS_BY:The gallant (+)
+BORG 20429 # HIT_BY:The gallant (+)
+BORG 20429 # Tracking a monster 'scout' at (21,62) from (21,63)
+BORG 20429 # Tracking a monster 'cutpurse' at (23,67) from (24,68)
+BORG 20429 # Tracking a monster 'scout' at (22,61) from (21,61)
+BORG 20429 # MISS:the scout (2)
+BORG 20429 # HIT:the scout (2)
+BORG 20429 # MISS_BY:The gallant (3)
+BORG 20429 # HIT_BY:The gallant (3)
+BORG 20429 # Scary guy on level.
+BORG 20429 # Loc:20,61 Dep:2 Lev:3 HP:26/49 SP:0/0 Danger:p=526
+BORG 20429 # Fleeing and leaving the level. (scaryguy)
+BORG 20429 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20429 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20429 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20429 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20429 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20429 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20429 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20429 # Performing attack type 1 with value 113.
+BORG 20429 # Facing scout at (21,62) who has 27 Hit Points.
+BORG 20429 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 20436 # HIT:the scout (+)
+BORG 20436 # HIT:the scout (+)
+BORG 20436 # HIT_BY:The scout (+)
+BORG 20436 # HIT_BY:The scout (+)
+BORG 20436 # SPELL_005:The scout (+)
+BORG 20436 # SPELL_005:The scout (+)
+BORG 20436 # HIT_BY:The gallant (+)
+BORG 20436 # HIT_BY:The gallant (+)
+BORG 20436 # Tracking a monster 'metallic green centipede' at (24,68) from (24,67)
+BORG 20436 # HIT:the scout (2)
+BORG 20436 # HIT:the scout (2)
+BORG 20436 # HIT_BY:The scout (3)
+BORG 20436 # HIT_BY:The scout (3)
+BORG 20436 # SPELL_005:The scout (3)
+BORG 20436 # SPELL_005:The scout (3)
+BORG 20436 # HIT_BY:The gallant (3)
+BORG 20436 # HIT_BY:The gallant (3)
+BORG 20436 # Scary guy on level.
+BORG 20436 # Loc:20,61 Dep:2 Lev:3 HP:3/49 SP:0/0 Danger:p=551
+BORG 20436 # Fleeing and leaving the level. (scaryguy)
+BORG 20436 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20436 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20436 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20436 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20436 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20436 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20436 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20436 # Performing attack type 1 with value 141.
+BORG 20436 # Facing scout at (21,62) who has 13 Hit Points.
+BORG 20436 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 20443 # MISS:the scout (+)
+BORG 20443 # HIT:the scout (+)
+BORG 20443 # PAIN:The scout (+)
+BORG 20443 # Tracking a monster 'cutpurse' at (22,66) from (23,67)
+BORG 20443 # Tracking a monster 'scout' at (21,63) from (21,62)
+BORG 20443 # Tracking a monster 'scout' at (23,62) from (22,61)
+BORG 20443 # Tracking a monster 'metallic green centipede' at (24,69) from (24,68)
+BORG 20443 # MISS:the scout (2)
+BORG 20443 # HIT:the scout (2)
+BORG 20443 # PAIN:The scout (2)
+BORG 20443 # Scary guy on level.
+BORG 20443 # Loc:20,61 Dep:2 Lev:3 HP:3/49 SP:0/0 Danger:p=507
+BORG 20443 # Fleeing and leaving the level. (scaryguy)
+BORG 20443 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20443 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20443 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20443 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20443 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20443 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20443 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 20443 # Performing attack type 1 with value 97.
+BORG 20443 # Facing gallant at (20,62) who has 22 Hit Points.
+BORG 20443 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+
+[Terminal native state/cause]
+STATE death turn=20445 energy=208234 decisions=2066 depth=2 max_depth=3 level=3 max_level=3 hp=-3 dead=1 winner=0 borg_rng=3394486205 quick=0 quick_rng=2694408361 rng_index=5 rng=e916bbcec535ca5e22b1ff2930cf7d99088783cfa87fa7ecc78bb84b08b16761f7f709afdeaf91dff71137a4830f17f67a091918ace63c14cfe363e222d818981314311395496248488fb1ee699da9d56852c90d61c0bd3e2609edb3e63784c46e2d6b3409dfc0c79428939a5084d6239407523c543e29d364b70cb5e8d2c388
+CAUSE a gallant
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 61
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 62
+MESSAGE The giant white mouse wakes up.
+MESSAGE # PAIN:The giant white mouse (+)
+MESSAGE # Creating a monster 'giant white mouse' at (37,169), HP: 1, Index: 23
+MESSAGE # Removing Regional Fear (37,169) because of a LOS giant white mouse
+MESSAGE # PAIN:The giant white mouse (4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:37,168 Dep:1 Lev:2 HP:33/33 SP:0/0 Danger:p=5
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 13.
+MESSAGE # Facing giant white mouse at (37,169) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the giant white mouse.
+MESSAGE You have slain the giant white mouse.
+MESSAGE # HIT:the giant white mouse (+)
+MESSAGE # KILL:the giant white mouse (+)
+MESSAGE # Forgetting a monster 'giant white mouse' at (37,169)
+MESSAGE # HIT:the giant white mouse (2)
+MESSAGE # KILL:the giant white mouse (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 63
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 64
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 65
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 66
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 68
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Creating an object '& Wooden Torch~' at (180,33)
+MESSAGE # Creating an object '& Apple~' at (171,32)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 71
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 69
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 69
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 64
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 64
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 64
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 64
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 61
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 59
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Creating an object 'Phase Door' at (168,10)
+MESSAGE # Creating an object 'copper' at (163,9)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 57
+MESSAGE # Creating an object '& Flask~ of oil' at (159,9)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 56
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 50
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 48
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 48
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 48
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Creating a monster 'giant yellow centipede' at (21,149), HP: 7, Index: 19
+MESSAGE # Removing Regional Fear (21,149) because of a LOS giant yellow centipede
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:20,150 Dep:1 Lev:2 HP:33/33 SP:0/0 Danger:p=8
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 25.
+MESSAGE # Facing giant yellow centipede at (21,149) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the giant yellow centipede.
+MESSAGE You have slain the giant yellow centipede.
+MESSAGE # HIT:the giant yellow centipede (+)
+MESSAGE # KILL:the giant yellow centipede (+)
+MESSAGE # Forgetting a monster 'giant yellow centipede' at (21,149)
+MESSAGE # HIT:the giant yellow centipede (2)
+MESSAGE # KILL:the giant yellow centipede (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 42
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 32
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 31
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 31
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 31
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 31
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 26
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 34
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 37
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 37
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 35
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 37
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 51
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 59
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 58
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 53
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 54
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 55
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 103
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 95
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 89
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 83
+MESSAGE # Creating a monster 'large white snake' at (38,177), HP: 9, Index: 24
+MESSAGE # Removing Regional Fear (38,177) because of a LOS large white snake
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:39,176 Dep:1 Lev:2 HP:33/33 SP:0/0 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 13.
+MESSAGE # Facing large white snake at (38,177) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the large white snake.
+MESSAGE You have slain the large white snake.
+MESSAGE # HIT:the large white snake (+)
+MESSAGE # KILL:the large white snake (+)
+MESSAGE # Forgetting a monster 'large white snake' at (38,177)
+MESSAGE # HIT:the large white snake (2)
+MESSAGE # KILL:the large white snake (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 1
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-5 at cost 14
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 15
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'giant yellow centipede' at (22,70), HP: 7, Index: 19
+MESSAGE # Removing Regional Fear (22,70) because of a LOS giant yellow centipede
+MESSAGE # Loc:22,69 Dep:1 Lev:2 HP:33/33 SP:0/0 Danger:p=16
+MESSAGE # Retreating to 22,68 (distance 1) via 22,68 (16 > 8)
+MESSAGE # There was a monster 'giant yellow centipede' at (22,70)
+MESSAGE # Loc:22,68 Dep:1 Lev:2 HP:33/33 SP:0/0 Danger:p=8
+MESSAGE # Flowing toward dark-4 at cost 9
+MESSAGE # Creating a monster 'giant yellow centipede' at (22,62), HP: 7, Index: 19
+MESSAGE # Removing Regional Fear (22,62) because of a LOS giant yellow centipede
+MESSAGE # Loc:21,61 Dep:1 Lev:2 HP:33/33 SP:0/0 Danger:p=12
+MESSAGE # Performing attack type 1 with value 27.
+MESSAGE # Facing giant yellow centipede at (22,62) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You get in a shield bash!
+MESSAGE You hit the giant yellow centipede.
+MESSAGE The giant yellow centipede is stunned.
+MESSAGE You have slain the giant yellow centipede.
+MESSAGE # HIT:the giant yellow centipede (+)
+MESSAGE # PAIN:The giant yellow centipede (+)
+MESSAGE # KILL:the giant yellow centipede (+)
+MESSAGE # Forgetting a monster 'giant yellow centipede' at (22,62)
+MESSAGE # HIT:the giant yellow centipede (2)
+MESSAGE # PAIN:The giant yellow centipede (2)
+MESSAGE # KILL:the giant yellow centipede (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object 'Treasure Detection' at (43,20)
+MESSAGE # Flowing toward item at cost 18
+MESSAGE # Creating a monster 'fruit bat' at (20,59), HP: 4, Index: 31
+MESSAGE # Removing Regional Fear (20,59) because of a LOS fruit bat
+MESSAGE # Loc:20,58 Dep:1 Lev:2 HP:33/33 SP:0/0 Danger:p=2
+MESSAGE # Performing attack type 1 with value 12.
+MESSAGE # Facing fruit bat at (20,59) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the fruit bat.
+MESSAGE You have slain the fruit bat.
+MESSAGE # HIT:the fruit bat (+)
+MESSAGE # KILL:the fruit bat (+)
+MESSAGE # Forgetting a monster 'fruit bat' at (20,59)
+MESSAGE # HIT:the fruit bat (2)
+MESSAGE # KILL:the fruit bat (2)
+MESSAGE # Flowing toward item at cost 15
+MESSAGE You feel that there is naught but cobwebs here.
+MESSAGE # FEELING_STUFF:10 (+)
+MESSAGE # FEELING_STUFF:10 (1)
+MESSAGE # Creating an object 'Treasure Detection' at (40,22)
+MESSAGE # Flowing toward item at cost 13
+MESSAGE You hit something.
+MESSAGE You have killed it.
+MESSAGE Welcome to level 3.
+MESSAGE # HIT:something (+)
+MESSAGE # KILL:it (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # HIT:something (0)
+MESSAGE # KILL:it (0)
+MESSAGE # Creating an object 'Phase Door' at (37,24)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'giant white centipede' at (22,48), HP: 9, Index: 20
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (21,49) from (22,48)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (22,48) from (21,49)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (21,49) from (22,48)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (21,50) from (21,49)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (21,51) from (21,50)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (21,50) from (21,51)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (21,51) from (21,50)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (21,52) from (21,51)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'rock lizard' at (19,47), HP: 6, Index: 28
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'rock lizard' at (19,48) from (19,47)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (21,51) from (21,52)
+MESSAGE # Tracking a monster 'rock lizard' at (19,49) from (19,48)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (21,52) from (21,51)
+MESSAGE # Tracking a monster 'rock lizard' at (19,50) from (19,49)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (20,51) from (21,52)
+MESSAGE # Tracking a monster 'rock lizard' at (19,51) from (19,50)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'rock lizard' at (20,52) from (19,51)
+MESSAGE # Tracking a monster 'giant white centipede' at (19,52) from (20,51)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (20,51) from (19,52)
+MESSAGE # Tracking a monster 'rock lizard' at (20,53) from (20,52)
+MESSAGE # Loc:20,54 Dep:1 Lev:3 HP:46/49 SP:0/0 Danger:p=1
+MESSAGE # Performing attack type 1 with value 11.
+MESSAGE # Facing rock lizard at (20,53) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the rock lizard.
+MESSAGE You have slain the rock lizard.
+MESSAGE # HIT:the rock lizard (+)
+MESSAGE # KILL:the rock lizard (+)
+MESSAGE # Forgetting a monster 'rock lizard' at (20,53)
+MESSAGE # Tracking a monster 'giant white centipede' at (20,52) from (20,51)
+MESSAGE # HIT:the rock lizard (2)
+MESSAGE # KILL:the rock lizard (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'giant white centipede' at (20,53) from (20,52)
+MESSAGE # Loc:20,54 Dep:1 Lev:3 HP:46/49 SP:0/0 Danger:p=6
+MESSAGE # Performing attack type 1 with value 21.
+MESSAGE # Facing giant white centipede at (20,53) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the giant white centipede.
+MESSAGE You have slain the giant white centipede.
+MESSAGE # HIT:the giant white centipede (+)
+MESSAGE # KILL:the giant white centipede (+)
+MESSAGE # Forgetting a monster 'giant white centipede' at (20,53)
+MESSAGE # HIT:the giant white centipede (2)
+MESSAGE # KILL:the giant white centipede (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward item at cost 11
+MESSAGE # Creating a monster 'grey mushroom patch' at (22,49), HP: 2, Index: 18
+MESSAGE # Flowing toward item at cost 10
+MESSAGE # Walking onto and deleting a 'Treasure Detection' at (20,43)
+MESSAGE Something touches you.
+MESSAGE You have 2 Scrolls titled "thecus vigo co" (d).
+MESSAGE # HIT_BY:Something (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Fearing region (20,43) value 4 because of a non-LOS Something
+MESSAGE # HIT_BY:Something (5)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a 'Treasure Detection' at (22,40)
+MESSAGE You have 3 Scrolls titled "thecus vigo co" (d).
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a 'Phase Door' at (24,37)
+MESSAGE You have 5 Scrolls of Phase Door (d).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-4 at cost 7
+MESSAGE The giant white centipede wakes up.
+MESSAGE # PAIN:The giant white centipede (+)
+MESSAGE # Creating a monster 'giant white centipede' at (17,36), HP: 7, Index: 20
+MESSAGE # PAIN:The giant white centipede (4)
+MESSAGE # Loc:18,36 Dep:1 Lev:3 HP:49/49 SP:0/0 Danger:p=9
+MESSAGE # Performing attack type 1 with value 21.
+MESSAGE # Facing giant white centipede at (17,36) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the giant white centipede.
+MESSAGE You have slain the giant white centipede.
+MESSAGE # HIT:the giant white centipede (+)
+MESSAGE # KILL:the giant white centipede (+)
+MESSAGE # Forgetting a monster 'giant white centipede' at (17,36)
+MESSAGE # HIT:the giant white centipede (2)
+MESSAGE # KILL:the giant white centipede (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'large white snake' at (16,46), HP: 11, Index: 24
+MESSAGE # Loc:15,45 Dep:1 Lev:3 HP:49/49 SP:0/0 Danger:p=5
+MESSAGE # Performing attack type 1 with value 13.
+MESSAGE # Facing large white snake at (16,46) who has 11 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You get in a shield bash!
+MESSAGE You stumble!
+MESSAGE You miss the large white snake.
+MESSAGE The large white snake looks confused.
+MESSAGE # MISS:the large white snake (+)
+MESSAGE # PAIN:The large white snake (+)
+MESSAGE # MISS:the large white snake (2)
+MESSAGE # PAIN:The large white snake (2)
+MESSAGE # Loc:15,45 Dep:1 Lev:3 HP:49/49 SP:0/0 Danger:p=2
+MESSAGE # Performing attack type 1 with value 10.
+MESSAGE # Facing large white snake at (16,46) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the large white snake.
+MESSAGE You miss the large white snake.
+MESSAGE The large white snake flees in terror!
+MESSAGE # HIT:the large white snake (+)
+MESSAGE # MISS:the large white snake (+)
+MESSAGE # PAIN:The large white snake (+)
+MESSAGE # HIT:the large white snake (2)
+MESSAGE # MISS:the large white snake (2)
+MESSAGE # PAIN:The large white snake (2)
+MESSAGE # Loc:15,45 Dep:1 Lev:3 HP:49/49 SP:0/0 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (16,46) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the large white snake.
+MESSAGE You have slain the large white snake.
+MESSAGE # HIT:the large white snake (+)
+MESSAGE # KILL:the large white snake (+)
+MESSAGE # Forgetting a monster 'large white snake' at (16,46)
+MESSAGE # HIT:the large white snake (2)
+MESSAGE # KILL:the large white snake (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 10
+MESSAGE # Shifted panel to locate offscreen monster.
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'floating eye' at (37,44), HP: 11, Index: 27
+MESSAGE # Removing Regional Fear (37,44) because of a LOS floating eye
+MESSAGE # Loc:36,44 Dep:1 Lev:3 HP:49/49 SP:0/0 Danger:p=400
+MESSAGE # Retreating to 35,44 (distance 1) via 35,44 (400 > 0)
+MESSAGE # There was a monster 'floating eye' at (37,44)
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-4 at cost 8
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # Spastic Searching at (46,36)...value:0
+MESSAGE # Boosting bravery (1) from 49 to 98!
+MESSAGE # Flowing toward dark-5 at cost 37
+MESSAGE # There was a monster 'giant yellow centipede' at (22,70)
+MESSAGE # Loc:22,68 Dep:1 Lev:3 HP:49/49 SP:0/0 Danger:p=8
+MESSAGE # There was a monster 'giant yellow centipede' at (22,70)
+MESSAGE # Loc:22,69 Dep:1 Lev:3 HP:49/49 SP:0/0 Danger:p=16
+MESSAGE # Walking into a 'giant yellow centipede' at (22,70)
+MESSAGE You spin around.
+MESSAGE # Forgetting a monster 'giant yellow centipede' at (22,70)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object 'Cure Light Wounds' at (100,22)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'Cure Light Wounds' at (22,100)
+MESSAGE You have 9 Potions of Cure Light Wounds (b).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'giant white mouse' at (23,117), HP: 1, Index: 23
+MESSAGE # Removing Regional Fear (23,117) because of a LOS giant white mouse
+MESSAGE # Creating an object 'Cure Light Wounds' at (123,24)
+MESSAGE # Flowing toward item at cost 12
+MESSAGE # Creating an object 'Treasure Detection' at (115,23)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE The giant white mouse wakes up.
+MESSAGE # PAIN:The giant white mouse (+)
+MESSAGE # PAIN:The giant white mouse (2)
+MESSAGE # Tracking a monster 'giant white mouse' at (23,116) from (23,117)
+MESSAGE # Walking onto and deleting a 'Treasure Detection' at (23,115)
+MESSAGE The giant white mouse misses you.
+MESSAGE You have 4 Scrolls titled "thecus vigo co" (e).
+MESSAGE # MISS_BY:The giant white mouse (+)
+MESSAGE # MISS_BY:The giant white mouse (3)
+MESSAGE # Loc:23,115 Dep:1 Lev:3 HP:49/49 SP:0/0 Danger:p=5
+MESSAGE # Performing attack type 1 with value 13.
+MESSAGE # Facing giant white mouse at (23,116) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the giant white mouse.
+MESSAGE You have slain the giant white mouse.
+MESSAGE # HIT:the giant white mouse (+)
+MESSAGE # KILL:the giant white mouse (+)
+MESSAGE # Forgetting a monster 'giant white mouse' at (23,116)
+MESSAGE # HIT:the giant white mouse (2)
+MESSAGE # KILL:the giant white mouse (2)
+MESSAGE # Flowing toward item at cost 8
+MESSAGE # Creating a monster 'fruit bat' at (24,120), HP: 3, Index: 31
+MESSAGE # Removing Regional Fear (24,120) because of a LOS fruit bat
+MESSAGE # Flowing toward kill at cost 3
+MESSAGE # Tracking a monster 'fruit bat' at (24,119) from (24,120)
+MESSAGE # Loc:23,118 Dep:1 Lev:3 HP:49/49 SP:0/0 Danger:p=3
+MESSAGE # Performing attack type 1 with value 11.
+MESSAGE # Facing fruit bat at (24,119) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the fruit bat.
+MESSAGE You have slain the fruit bat.
+MESSAGE # HIT:the fruit bat (+)
+MESSAGE # KILL:the fruit bat (+)
+MESSAGE # Forgetting a monster 'fruit bat' at (24,119)
+MESSAGE # HIT:the fruit bat (2)
+MESSAGE # KILL:the fruit bat (2)
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Creating an object 'Detect Invisible' at (127,20)
+MESSAGE # Creating an object 'Phase Door' at (125,20)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a 'Cure Light Wounds' at (24,123)
+MESSAGE You have 12 Potions of Cure Light Wounds (b).
+MESSAGE # Flowing toward item at cost 4
+MESSAGE # Walking onto and deleting a 'Phase Door' at (20,125)
+MESSAGE You have 10 Scrolls of Phase Door (d).
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a 'Detect Invisible' at (20,127)
+MESSAGE You have 2 Scrolls of Detect Invisible (e).
+MESSAGE # Spent too long (244) on level, leaving.
+MESSAGE # Flowing toward down-stairs at cost 67
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object '& Flask~ of oil' at (131,44)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Flask~ of oil' at (44,131)
+MESSAGE You have a Flask of oil (b).
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Creating an object 'Phase Door' at (129,42)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'Phase Door' at (42,129)
+MESSAGE You have 14 Scrolls of Phase Door (e).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE The giant white louse misses you.
+MESSAGE The giant white louse bites you.
+MESSAGE # MISS_BY:The giant white louse (+)
+MESSAGE # HIT_BY:The giant white louse (+)
+MESSAGE # Creating a monster 'giant white louse' at (46,124), HP: 1, Index: 57
+MESSAGE # Removing Regional Fear (46,124) because of a LOS giant white louse
+MESSAGE # MISS_BY:The giant white louse (4)
+MESSAGE # HIT_BY:The giant white louse (4)
+MESSAGE # Loc:46,125 Dep:2 Lev:3 HP:48/49 SP:0/0 Danger:p=4
+MESSAGE # Performing attack type 1 with value 11.
+MESSAGE # Facing giant white louse at (46,124) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the giant white louse.
+MESSAGE You have slain the giant white louse.
+MESSAGE # HIT:the giant white louse (+)
+MESSAGE # KILL:the giant white louse (+)
+MESSAGE # Forgetting a monster 'giant white louse' at (46,124)
+MESSAGE # HIT:the giant white louse (2)
+MESSAGE # KILL:the giant white louse (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'cave spider' at (46,122), HP: 9, Index: 50
+MESSAGE # Removing Regional Fear (46,122) because of a LOS cave spider
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:46,123 Dep:2 Lev:3 HP:48/49 SP:0/0 Danger:p=66
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 2.2
+MESSAGE You have 13 Scrolls of Phase Door (e).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Needing to get back on correct depth
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'acolyte' at (29,60), HP: 18, Index: 38
+MESSAGE # Removing Regional Fear (29,60) because of a LOS acolyte
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:29,80 Dep:2 Lev:3 HP:49/49 SP:0/0 Danger:p=40
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 29,81 (distance 1) via 29,81 (40 > 0)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 12
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 11
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Close enough to Stair.
+MESSAGE # Needing to get back on correct depth
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # Creating a monster 'giant green frog' at (54,25), HP: 9, Index: 42
+MESSAGE # Removing Regional Fear (54,25) because of a LOS giant green frog
+MESSAGE # Creating a monster 'giant black ant' at (54,23), HP: 11, Index: 43
+MESSAGE # Removing Regional Fear (54,23) because of a LOS giant black ant
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward kill at cost 10
+MESSAGE You hear a door burst open!
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Close enough to Stair.
+MESSAGE # Needing to get back on correct depth
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE The cave spider wakes up.
+MESSAGE The cave spider bites you.
+MESSAGE # QUAKE:Somebody (+)
+MESSAGE # Creating a monster 'cave spider' at (31,32), HP: 7, Index: 50
+MESSAGE # Removing Regional Fear (31,32) because of a LOS cave spider
+MESSAGE # QUAKE:Somebody (0)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:30,31 Dep:2 Lev:3 HP:45/49 SP:0/0 Danger:p=35
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 30,30 (distance 1) via 30,30 (35 > 11)
+MESSAGE The cave spider bites you.
+MESSAGE # QUAKE:Somebody (+)
+MESSAGE # Tracking a monster 'cave spider' at (30,31) from (31,32)
+MESSAGE # QUAKE:Somebody (0)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:30,30 Dep:2 Lev:3 HP:41/49 SP:0/0 Danger:p=35
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 30,29 (distance 1) via 30,29 (35 > 12)
+MESSAGE The cave spider bites you.
+MESSAGE # QUAKE:Somebody (+)
+MESSAGE # Tracking a monster 'cave spider' at (30,30) from (30,31)
+MESSAGE # QUAKE:Somebody (0)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:30,29 Dep:2 Lev:3 HP:37/49 SP:0/0 Danger:p=35
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 31,28 (distance 1) via 31,28 (35 > 12)
+MESSAGE The cave spider bites you.
+MESSAGE # QUAKE:Somebody (+)
+MESSAGE # Tracking a monster 'cave spider' at (30,29) from (30,30)
+MESSAGE # Creating a monster 'cave spider' at (31,29), HP: 7, Index: 50
+MESSAGE # Removing Regional Fear (31,29) because of a LOS cave spider
+MESSAGE # QUAKE:Somebody (0)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,28 Dep:2 Lev:3 HP:36/49 SP:0/0 Danger:p=78
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 39
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have 12 Scrolls of Phase Door (e).
+MESSAGE # Creating an object 'Treasure Detection' at (17,23)
+MESSAGE # Creating a monster 'shrieker mushroom patch' at (25,23), HP: 1, Index: 33
+MESSAGE # Removing Regional Fear (25,23) because of a LOS shrieker mushroom patch
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:21,28 Dep:2 Lev:3 HP:36/49 SP:0/0 Danger:p=20
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 9
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 5.1
+MESSAGE You have 11 Scrolls of Phase Door (e).
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:20,18 Dep:2 Lev:3 HP:37/49 SP:0/0 Danger:p=20
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 5.1
+MESSAGE You have 10 Scrolls of Phase Door (e).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 12
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:29,26 Dep:2 Lev:3 HP:37/49 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:29,27 Dep:2 Lev:3 HP:38/49 SP:0/0 Danger:p=28
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 29,26 (distance 1) via 29,26 (28 > 1)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:29,26 Dep:2 Lev:3 HP:38/49 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 9
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:29,27 Dep:2 Lev:3 HP:38/49 SP:0/0 Danger:p=28
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You have 9 Scrolls of Phase Door (e).
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:20,27 Dep:2 Lev:3 HP:38/49 SP:0/0 Danger:p=20
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 2
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 5.1
+MESSAGE You have 8 Scrolls of Phase Door (e).
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,19 Dep:2 Lev:3 HP:38/49 SP:0/0 Danger:p=20
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 3
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 5.1
+MESSAGE You have 7 Scrolls of Phase Door (e).
+MESSAGE The shrieker mushroom patch makes a high-pitched shriek.
+MESSAGE You hear a sudden stirring in the distance!
+MESSAGE # SPELL_001:The shrieker mushroom patch (+)
+MESSAGE # SPELL_001:The shrieker mushroom patch (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:20,27 Dep:2 Lev:3 HP:39/49 SP:0/0 Danger:p=20
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 4
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 5.1
+MESSAGE You have 6 Scrolls of Phase Door (e).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:29,26 Dep:2 Lev:3 HP:40/49 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:29,27 Dep:2 Lev:3 HP:40/49 SP:0/0 Danger:p=28
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 29,26 (distance 1) via 29,26 (28 > 1)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:29,26 Dep:2 Lev:3 HP:40/49 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 9
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:29,27 Dep:2 Lev:3 HP:41/49 SP:0/0 Danger:p=28
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You have 5 Scrolls of Phase Door (e).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 10
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 10
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 10
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 10
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Creating a monster 'cave spider' at (36,32), HP: 6, Index: 50
+MESSAGE # Removing Regional Fear (36,32) because of a LOS cave spider
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:37,32 Dep:2 Lev:3 HP:42/49 SP:0/0 Danger:p=23
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 38,33 (distance 1) via 38,33 (23 > 11)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,33 Dep:2 Lev:3 HP:42/49 SP:0/0 Danger:p=11
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Flowing toward stairs at cost 10
+MESSAGE # Tracking a monster 'cave spider' at (37,32) from (36,32)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,32 Dep:2 Lev:3 HP:43/49 SP:0/0 Danger:p=23
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # No Phase. scary squares: 31
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 53.
+MESSAGE # Facing cave spider at (37,32) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the cave spider.
+MESSAGE You hit the cave spider.
+MESSAGE The cave spider flees in terror!
+MESSAGE # MISS:the cave spider (+)
+MESSAGE # HIT:the cave spider (+)
+MESSAGE # QUAKE:Somebody (+)
+MESSAGE # MISS:the cave spider (2)
+MESSAGE # HIT:the cave spider (2)
+MESSAGE # QUAKE:Somebody (0)
+MESSAGE # There was a monster 'cave spider' at (37,32)
+MESSAGE # Forgetting a monster 'cave spider' at (37,32)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 8
+MESSAGE # Creating a monster 'cave spider' at (36,32), HP: 1, Index: 50
+MESSAGE # Removing Regional Fear (36,32) because of a LOS cave spider
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:37,32 Dep:2 Lev:3 HP:43/49 SP:0/0 Danger:p=23
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 38,33 (distance 1) via 38,33 (23 > 11)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,33 Dep:2 Lev:3 HP:43/49 SP:0/0 Danger:p=11
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Flowing toward stairs at cost 17
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 17
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 15
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 16
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 17
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 18
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 19
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 20
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 21
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 22
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 23
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 24
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 25
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 26
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 27
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 28
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 29
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 30
+MESSAGE You feel that there is naught but cobwebs here.
+MESSAGE # FEELING_STUFF:10 (+)
+MESSAGE # FEELING_STUFF:10 (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 31
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 32
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 33
+MESSAGE The crow misses you.
+MESSAGE The crow bites you.
+MESSAGE # MISS_BY:The crow (+)
+MESSAGE # HIT_BY:The crow (+)
+MESSAGE # Creating a monster 'crow' at (33,57), HP: 8, Index: 52
+MESSAGE # Removing Regional Fear (33,57) because of a LOS crow
+MESSAGE # MISS_BY:The crow (4)
+MESSAGE # HIT_BY:The crow (4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,56 Dep:2 Lev:3 HP:44/49 SP:0/0 Danger:p=12
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 33.
+MESSAGE # Facing crow at (33,57) who has 8 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the crow.
+MESSAGE You have slain the crow.
+MESSAGE # HIT:the crow (+)
+MESSAGE # KILL:the crow (+)
+MESSAGE # Forgetting a monster 'crow' at (33,57)
+MESSAGE # HIT:the crow (2)
+MESSAGE # KILL:the crow (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 34
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 35
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 36
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 37
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 38
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 39
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 40
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 42
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 43
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 44
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 45
+MESSAGE You have found a trap.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You have disarmed the discolored spot.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 48
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 48
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 48
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 48
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 44
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 44
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 44
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 44
+MESSAGE # Creating a monster 'metallic green centipede' at (43,81), HP: 10, Index: 35
+MESSAGE # Removing Regional Fear (43,81) because of a LOS metallic green centipede
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 47
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 48
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 49
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 50
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 53
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 57
+MESSAGE The metallic green centipede wakes up.
+MESSAGE # PAIN:The metallic green centipede (+)
+MESSAGE # Tracking a monster 'metallic green centipede' at (44,81) from (43,81)
+MESSAGE # PAIN:The metallic green centipede (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'metallic green centipede' at (44,79) from (44,81)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:44,74 Dep:2 Lev:3 HP:49/49 SP:0/0 Danger:p=7
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 70
+MESSAGE # Tracking a monster 'metallic green centipede' at (44,78) from (44,79)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:44,74 Dep:2 Lev:3 HP:49/49 SP:0/0 Danger:p=19
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 42,71 (distance 3) via 44,73 (19 > 0)
+MESSAGE # Tracking a monster 'metallic green centipede' at (43,76) from (44,78)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:44,73 Dep:2 Lev:3 HP:49/49 SP:0/0 Danger:p=19
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 68
+MESSAGE # Tracking a monster 'metallic green centipede' at (44,75) from (43,76)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:43,72 Dep:2 Lev:3 HP:49/49 SP:0/0 Danger:p=19
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Creating a monster 'scout' at (42,68), HP: 27, Index: 71
+MESSAGE # Removing Regional Fear (42,68) because of a LOS scout
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:42,71 Dep:2 Lev:3 HP:49/49 SP:0/0 Danger:p=90
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 55
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have 4 Scrolls of Phase Door (e).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 61
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE The cutpurse hits you.
+MESSAGE The cutpurse misses you.
+MESSAGE # HIT_BY:The cutpurse (+)
+MESSAGE # MISS_BY:The cutpurse (+)
+MESSAGE # Creating a monster 'cutpurse' at (37,69), HP: 21, Index: 37
+MESSAGE # Removing Regional Fear (37,69) because of a LOS cutpurse
+MESSAGE # HIT_BY:The cutpurse (4)
+MESSAGE # MISS_BY:The cutpurse (4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:36,69 Dep:2 Lev:3 HP:45/49 SP:0/0 Danger:p=188
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 35,69 (distance 1) via 35,69 (188 > 10)
+MESSAGE # Tracking a monster 'cutpurse' at (36,69) from (37,69)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:35,69 Dep:2 Lev:3 HP:45/49 SP:0/0 Danger:p=188
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 34,69 (distance 1) via 34,69 (188 > 10)
+MESSAGE # Tracking a monster 'cutpurse' at (35,69) from (36,69)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:34,69 Dep:2 Lev:3 HP:45/49 SP:0/0 Danger:p=188
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 33,68 (distance 1) via 33,68 (188 > 10)
+MESSAGE # Tracking a monster 'cutpurse' at (34,69) from (35,69)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,68 Dep:2 Lev:3 HP:45/49 SP:0/0 Danger:p=188
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 33,67 (distance 1) via 33,67 (188 > 0)
+MESSAGE # Tracking a monster 'cutpurse' at (33,68) from (34,69)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,67 Dep:2 Lev:3 HP:46/49 SP:0/0 Danger:p=188
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 33,66 (distance 1) via 33,66 (188 > 10)
+MESSAGE # Tracking a monster 'cutpurse' at (33,67) from (33,68)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,66 Dep:2 Lev:3 HP:46/49 SP:0/0 Danger:p=188
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 33,65 (distance 1) via 33,65 (188 > 10)
+MESSAGE # There was a monster 'cutpurse' at (33,67)
+MESSAGE # Forgetting a monster 'cutpurse' at (33,67)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 62
+MESSAGE The cutpurse misses you.
+MESSAGE # MISS_BY:The cutpurse (+)
+MESSAGE # Creating a monster 'cutpurse' at (33,67), HP: 21, Index: 37
+MESSAGE # Removing Regional Fear (33,67) because of a LOS cutpurse
+MESSAGE # MISS_BY:The cutpurse (4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,66 Dep:2 Lev:3 HP:46/49 SP:0/0 Danger:p=188
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 14
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have 3 Scrolls of Phase Door (e).
+MESSAGE # Creating an object '& Sling~' at (72,24)
+MESSAGE # Creating an object '& Set~ of Leather Gloves' at (58,21)
+MESSAGE # Creating a monster 'acolyte' at (23,73), HP: 20, Index: 38
+MESSAGE # Removing Regional Fear (23,73) because of a LOS acolyte
+MESSAGE # Creating a monster 'scout' at (22,62), HP: 21, Index: 71
+MESSAGE # Removing Regional Fear (22,62) because of a LOS scout
+MESSAGE # Creating a monster 'metallic green centipede' at (22,61), HP: 12, Index: 35
+MESSAGE # Removing Regional Fear (22,61) because of a LOS metallic green centipede
+MESSAGE # Creating a monster 'acolyte' at (24,73), HP: 22, Index: 38
+MESSAGE # Removing Regional Fear (24,73) because of a LOS acolyte
+MESSAGE # Creating a monster 'gallant' at (20,62), HP: 30, Index: 72
+MESSAGE # Removing Regional Fear (20,62) because of a LOS gallant
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:23,64 Dep:2 Lev:3 HP:46/49 SP:0/0 Danger:p=451
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # No Phase. scary squares: 97
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.2  Critical Phase
+MESSAGE You have 2 Scrolls of Phase Door (e).
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:22,75 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=401
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # No Phase. scary squares: 100
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.2  Critical Phase
+MESSAGE You have a Scroll of Phase Door (e).
+MESSAGE # Tracking a monster 'metallic green centipede' at (20,63) from (22,61)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:19,66 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=427
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # No Phase. scary squares: 100
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 1.2  Critical Phase
+MESSAGE You have no more Scrolls of Phase Door (e).
+MESSAGE # Tracking a monster 'metallic green centipede' at (22,61) from (20,63)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:23,58 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=426
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Reading unknown scroll Scrolls titled "thecus vigo co".
+MESSAGE You sense the presence of buried treasure!
+MESSAGE You sense the presence of objects!
+MESSAGE You have 3 Scrolls of Treasure Detection (f).
+MESSAGE You re-arrange your pack.
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:23,58 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=426
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Quaffing unknown potion Lavender Potion.
+MESSAGE You have no more Potions of Boldness (d).
+MESSAGE # Tracking a monster 'metallic green centipede' at (23,59) from (22,61)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:23,58 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=870
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 817.
+MESSAGE # Facing metallic green centipede at (23,59) who has 12 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the metallic green centipede.
+MESSAGE The metallic green centipede flees in terror!
+MESSAGE # HIT:the metallic green centipede (+)
+MESSAGE # PAIN:The metallic green centipede (+)
+MESSAGE # Tracking a monster 'metallic green centipede' at (23,60) from (23,59)
+MESSAGE # HIT:the metallic green centipede (2)
+MESSAGE # PAIN:The metallic green centipede (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:23,58 Dep:2 Lev:3 HP:47/49 SP:0/0 Danger:p=637
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 2 with value 20.
+MESSAGE # Targeting gallant who has 30 Hit Points (20,62).
+MESSAGE # Throwing painful object 'Flask of oil'
+MESSAGE Target Selected.
+MESSAGE You have no more Flasks of oil (b).
+MESSAGE The Flask of oil breaks.
+MESSAGE # Perhaps wall near targetted location (20,62)
+MESSAGE # Guessing wall (20,61) near target (20,62)
+MESSAGE # Tracking a monster 'metallic green centipede' at (24,62) from (23,60)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:23,58 Dep:2 Lev:3 HP:48/49 SP:0/0 Danger:p=409
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up (bored and unable to dive: 50 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 48 to 96!
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 50 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Boosting bravery (2) from 48 to 196!
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward down-stairs at cost 54
+MESSAGE # Tracking a monster 'metallic green centipede' at (23,64) from (24,62)
+MESSAGE # Creating a monster 'scout' at (24,68), HP: 27, Index: 71
+MESSAGE # Removing Regional Fear (24,68) because of a LOS scout
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:22,59 Dep:2 Lev:3 HP:48/49 SP:0/0 Danger:p=470
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up (bored and unable to dive: 50 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 48 to 96!
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 50 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Boosting bravery (2) from 48 to 196!
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward down-stairs at cost 55
+MESSAGE # Tracking a monster 'scout' at (24,67) from (24,68)
+MESSAGE # Tracking a monster 'metallic green centipede' at (24,64) from (23,64)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:21,60 Dep:2 Lev:3 HP:48/49 SP:0/0 Danger:p=524
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE The scout concentrates on his body.
+MESSAGE The scout wakes up.
+MESSAGE The scout starts moving faster.
+MESSAGE The gallant wakes up.
+MESSAGE # SPELL_063:The scout (+)
+MESSAGE # PAIN:The scout (+)
+MESSAGE # PAIN:The gallant (+)
+MESSAGE # Tracking a monster 'metallic green centipede' at (23,65) from (24,64)
+MESSAGE # SPELL_063:The scout (3)
+MESSAGE # PAIN:The scout (2)
+MESSAGE # PAIN:The gallant (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:20,61 Dep:2 Lev:3 HP:48/49 SP:0/0 Danger:p=483
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 97.
+MESSAGE # Facing gallant at (20,62) who has 30 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the gallant.
+MESSAGE The scout fires a small arrow.
+MESSAGE The gallant hits you.
+MESSAGE # HIT:the gallant (+)
+MESSAGE # SPELL_005:The scout (+)
+MESSAGE # HIT_BY:The gallant (+)
+MESSAGE # Tracking a monster 'scout' at (21,61) from (22,62)
+MESSAGE # Tracking a monster 'scout' at (23,66) from (24,67)
+MESSAGE # Tracking a monster 'metallic green centipede' at (23,64) from (23,65)
+MESSAGE # HIT:the gallant (2)
+MESSAGE # SPELL_005:The scout (3)
+MESSAGE # HIT_BY:The gallant (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:20,61 Dep:2 Lev:3 HP:38/49 SP:0/0 Danger:p=503
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 113.
+MESSAGE # Facing scout at (21,61) who has 21 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You get in a shield bash!
+MESSAGE You miss the scout.
+MESSAGE You hit the scout.
+MESSAGE The scout hits you.
+MESSAGE # MISS:the scout (+)
+MESSAGE # HIT:the scout (+)
+MESSAGE # HIT_BY:The scout (+)
+MESSAGE # Tracking a monster 'scout' at (22,65) from (23,66)
+MESSAGE # Tracking a monster 'metallic green centipede' at (24,66) from (23,64)
+MESSAGE # MISS:the scout (2)
+MESSAGE # HIT:the scout (2)
+MESSAGE # HIT_BY:The scout (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:20,61 Dep:2 Lev:3 HP:32/49 SP:0/0 Danger:p=500
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 113.
+MESSAGE # Facing scout at (21,61) who has 12 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the scout.
+MESSAGE You miss the scout.
+MESSAGE The scout flees in terror!
+MESSAGE The gallant hits you.
+MESSAGE The gallant misses you.
+MESSAGE # HIT:the scout (+)
+MESSAGE # MISS:the scout (+)
+MESSAGE # PAIN:The scout (+)
+MESSAGE # HIT_BY:The gallant (+)
+MESSAGE # MISS_BY:The gallant (+)
+MESSAGE # Tracking a monster 'metallic green centipede' at (24,67) from (24,66)
+MESSAGE # Tracking a monster 'scout' at (21,63) from (22,65)
+MESSAGE # Creating a monster 'cutpurse' at (24,68), HP: 21, Index: 37
+MESSAGE # Removing Regional Fear (24,68) because of a LOS cutpurse
+MESSAGE # HIT:the scout (2)
+MESSAGE # MISS:the scout (2)
+MESSAGE # PAIN:The scout (2)
+MESSAGE # HIT_BY:The gallant (3)
+MESSAGE # MISS_BY:The gallant (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:20,61 Dep:2 Lev:3 HP:31/49 SP:0/0 Danger:p=513
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 113.
+MESSAGE # Facing scout at (21,61) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the scout.
+MESSAGE You hit the scout.
+MESSAGE The gallant misses you.
+MESSAGE The gallant hits you.
+MESSAGE # MISS:the scout (+)
+MESSAGE # HIT:the scout (+)
+MESSAGE # MISS_BY:The gallant (+)
+MESSAGE # HIT_BY:The gallant (+)
+MESSAGE # Tracking a monster 'scout' at (21,62) from (21,63)
+MESSAGE # Tracking a monster 'cutpurse' at (23,67) from (24,68)
+MESSAGE # Tracking a monster 'scout' at (22,61) from (21,61)
+MESSAGE # MISS:the scout (2)
+MESSAGE # HIT:the scout (2)
+MESSAGE # MISS_BY:The gallant (3)
+MESSAGE # HIT_BY:The gallant (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:20,61 Dep:2 Lev:3 HP:26/49 SP:0/0 Danger:p=526
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 113.
+MESSAGE # Facing scout at (21,62) who has 27 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the scout.
+MESSAGE The scout hits you.
+MESSAGE The scout fires a small arrow.
+MESSAGE The gallant hits you.
+MESSAGE # HIT:the scout (+)
+MESSAGE # HIT_BY:The scout (+)
+MESSAGE # SPELL_005:The scout (+)
+MESSAGE # HIT_BY:The gallant (+)
+MESSAGE # Tracking a monster 'metallic green centipede' at (24,68) from (24,67)
+MESSAGE # HIT:the scout (2)
+MESSAGE # HIT_BY:The scout (3)
+MESSAGE # SPELL_005:The scout (3)
+MESSAGE # HIT_BY:The gallant (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:20,61 Dep:2 Lev:3 HP:3/49 SP:0/0 Danger:p=551
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 141.
+MESSAGE # Facing scout at (21,62) who has 13 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the scout.
+MESSAGE You hit the scout.
+MESSAGE The scout flees in terror!
+MESSAGE # MISS:the scout (+)
+MESSAGE # HIT:the scout (+)
+MESSAGE # PAIN:The scout (+)
+MESSAGE # Tracking a monster 'cutpurse' at (22,66) from (23,67)
+MESSAGE # Tracking a monster 'scout' at (21,63) from (21,62)
+MESSAGE # Tracking a monster 'scout' at (23,62) from (22,61)
+MESSAGE # Tracking a monster 'metallic green centipede' at (24,69) from (24,68)
+MESSAGE # MISS:the scout (2)
+MESSAGE # HIT:the scout (2)
+MESSAGE # PAIN:The scout (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:20,61 Dep:2 Lev:3 HP:3/49 SP:0/0 Danger:p=507
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 97.
+MESSAGE # Facing gallant at (20,62) who has 22 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the gallant.
+MESSAGE The gallant misses you.
+MESSAGE The gallant hits you.
+MESSAGE You die.

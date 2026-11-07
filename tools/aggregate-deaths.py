@@ -8,6 +8,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def encounter_family(record, assessment):
+    # Different build/name save bytes can still be a qualified reference replay.
+    if assessment.get('encounter_family_qualification', {}).get('status') == 'verified':
+        return assessment.get('encounter_family') or record['encounter_family']
+    return record['encounter_family']
+
+
 def aggregate(records_root):
     records = []
     causes = defaultdict(set)
@@ -18,14 +25,14 @@ def aggregate(records_root):
             raise ValueError(f'Unknown record schema: {p}')
         a = json.loads(p.with_name('assessment.json').read_text())
         records.append((p, r, a))
-        causes[r['raw_cause']].add(r['encounter_family'])
+        causes[r['raw_cause']].add(encounter_family(r, a))
         for action in a['actions']:
             key = (action['issue'], action.get('key', action['summary']))
             entry = actions.setdefault(key, {'issue': action['issue'], 'key': action.get('key', action['summary']), 'summary': action['summary'], 'cases': [], 'status': action['status']})
             entry['cases'].append(r['id'])
     attempts = {x['result_sha256']: x for _, r, _ in records for x in r['attempts'] if x['outcome'] == 'death'}
     summary = {'schema': 'better-borg-c/death-index@1', 'cases': len(records),
-               'distinct_starting_conditions': len({r['encounter_family'] for _, r, _ in records}),
+               'distinct_starting_conditions': len({encounter_family(r, a) for _, r, a in records}),
                'death_process_attempts': len(attempts),
                'versions': dict(Counter(x['source_commit'] for x in attempts.values())),
                'causes_by_distinct_start': {k: len(v) for k, v in sorted(causes.items())},

@@ -47,7 +47,8 @@
     },
     {
       "cases": [
-        "D0002"
+        "D0002",
+        "D0003"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
       "key": "heal-eligibility",
@@ -80,18 +81,28 @@
       "key": "exposure-before-crowd",
       "status": "recorded owner observation; needs native causal investigation",
       "summary": "Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3"
+    },
+    {
+      "cases": [
+        "D0003"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "key": "entry-exposure",
+      "status": "investigating recorded original-rule behavior; no defect established",
+      "summary": "Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3"
     }
   ],
-  "cases": 2,
+  "cases": 3,
   "causes_by_distinct_start": {
     "a gallant": 1,
     "a stegocentipede": 1
   },
-  "death_process_attempts": 8,
+  "death_process_attempts": 9,
   "distinct_starting_conditions": 2,
   "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
   "schema": "better-borg-c/death-index@1",
   "versions": {
+    "127483bc4724c0f75ff7bbc4edddde9293e37c2c": 1,
     "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3": 2,
     "3638b690525cd8a381cb106b4c5ee40652babde2": 2,
     "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc": 2,

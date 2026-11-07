@@ -22,6 +22,12 @@ static int32_t last_save = -10000;
 static bool started;
 static const char *directory;
 static bool checkpoints;
+/* Named play resumes a save and stops only at a command boundary.  Ordinary
+ * measurement keeps its exact world-tick cap and never publishes a save. */
+static int32_t play_turns;
+static const char *final_save;
+static bool snapshot(const char *path);
+extern void measure_activate_borg(void);
 
 static void state(const char *kind)
 {
@@ -45,6 +51,14 @@ void measure_init(void)
     trace = fopen(format("%s/trace.txt", directory), "w");
     if (!trace) quit("measurement trace open failed");
     cap = strtol(getenv("BORG_MEASURE_CAP"), NULL, 10);
+    if (getenv("BORG_MEASURE_PLAY_TURNS")) {
+        long requested = strtol(getenv("BORG_MEASURE_PLAY_TURNS"), NULL, 10);
+        if (requested < 1 || requested > INT32_MAX)
+            quit("invalid named-play turn count");
+        play_turns = requested;
+        final_save = getenv("BORG_MEASURE_FINAL_SAVE");
+        if (!final_save) quit("named-play final save missing");
+    }
     checkpoints = !getenv("BORG_MEASURE_NO_SAVES");
     Rand_state_init(strtoul(seed, NULL, 10));
     Rand_quick = false;
@@ -55,6 +69,8 @@ void measure_init(void)
 static void finish(const char *outcome)
 {
     int i;
+    if (play_turns && !snapshot(final_save))
+        quit("final named-play save failed");
     state(outcome);
     fprintf(trace, "CAUSE %s\n", player->died_from);
     for (i = messages_num() - 1; i >= 0; --i)
@@ -66,7 +82,7 @@ static void finish(const char *outcome)
 
 void measure_tick(void)
 {
-    if (started && turn >= cap) finish("turn_cap");
+    if (!play_turns && started && turn >= cap) finish("turn_cap");
 }
 
 /* Native saving compacts the monster list. Save in a copy-on-write child so
@@ -91,6 +107,16 @@ void measure_boundary(void)
     char path[1024];
     if (!started) {
         started = true;
+        if (play_turns) {
+            if (turn > INT32_MAX - play_turns)
+                quit("named-play turn target overflow");
+            cap = turn + play_turns;
+            /* This is a bounded life, not the GUI's continuous/cheat mode. */
+            option_set("cheat_live", false);
+            player->opts.delay_factor = 0;
+            fprintf(trace, "PLAY target=%ld borg_marked=%d\n", (long)cap,
+                (player->noscore & NOSCORE_BORG) != 0);
+        }
         /* Preserve the native birth save, without activating Borg first. */
         strnfmt(path, sizeof(path), "%s/start.save", directory);
         if (checkpoints && !snapshot(path))
@@ -102,6 +128,15 @@ void measure_boundary(void)
             if (option_name(i)) fprintf(trace, " %s=%d", option_name(i), player->opts.opt[i]);
         fprintf(trace, "\n");
         state("start");
+        if (play_turns) {
+            /* Native level-change autosaves must not overwrite the frozen
+             * input used to reproduce this life. Publication is runner-owned. */
+            strnfmt(savefile, sizeof(savefile), "%s/autosave.save", directory);
+            player->noscore |= NOSCORE_BORG;
+            borg_init();
+            if (borg_init_failure) quit("named-play Borg startup failed");
+            measure_activate_borg();
+        }
     }
     if (checkpoints && turn - last_save >= 1000) {
         strnfmt(path, sizeof(path), "%s/recent.save", directory);
@@ -111,6 +146,7 @@ void measure_boundary(void)
         state("checkpoint");
     }
     if (player->total_winner) finish("completion");
+    if (play_turns && turn >= cap) finish("turn_cap");
     measure_tick();
 }
 
