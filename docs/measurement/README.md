@@ -11,7 +11,10 @@ The subsequent bug-fix wave is collected in
 [milestone3](https://github.com/diegoami/better-borg-c/milestone/3) and
 [IMPACT-MILESTONE3.md](IMPACT-MILESTONE3.md): 27 more verified carries
 (patches 0008-0034), their interactions, process/tooling context and review
-questions. No external verdict is claimed.
+questions. Owner-led accumulated review completed on 2026-11-07: milestone2
+approved, milestone3 approved with evidence-durability/metadata findings;
+follow-up issue130 records the corrections. This is not an upstream
+incorporation approval.
 Operational lessons from the 2026-11-06/07 carry wave are recorded in
 [LESSONS-LEARNED.md](LESSONS-LEARNED.md); they refine verification practice
 without changing any gate, fixture, assertion or baseline.
