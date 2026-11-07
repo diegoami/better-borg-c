@@ -102,3 +102,13 @@ Follow [the improvement workflow](../measurement/DEATH-IMPROVEMENT-WORKFLOW.md)
 for death-derived investigations/enhancements and the separate prospective
 implementation, survival and progress evidence gate. Local enhancement154 links
 source370; neither filing nor a rescued replay proves a benefit.
+
+## Every processed death includes brainstorming and an overall picture
+
+Use [the review template](REVIEW-TEMPLATE.md) to connect preparedness, threat
+valuation, exposure, escape and recovery rather than discuss only the final blow.
+List competing mechanisms, candidate fit/costs, confidence and next evidence.
+Explicitly assess attempted walking retreat, especially with no Phase Door;
+a guaranteed-safe route is not required to consider the attempt.
+The [gallant family assessment](D0004-named-headless/overall-assessment.md) links
+the theft-weight158 and room-retreat159 analysis candidates under investigation34.

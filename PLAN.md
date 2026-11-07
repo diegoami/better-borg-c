@@ -462,3 +462,9 @@ scoped implementation experiment with prospective survival AND long-term progres
 acceptance. Local154 links source370; it is an enhancement, not a bug carry.
 This request establishes the process; it starts no gameplay implementation or
 automatic batches. Bugs retain priority and existing source ownership.
+
+Owner clarification2026-11-07: every processed death needs brainstorming and
+a complete overall assessment using docs/deaths/REVIEW-TEMPLATE.md. Explicitly
+consider attempted walking escape, especially after Phase Door exhaustion.
+Gallant-family candidates158(theft valuation)/159(room retreat) are analysis,
+not implementations; shared overall assessment lives in D0004.

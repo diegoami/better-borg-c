@@ -25,3 +25,11 @@ record the disputed first jump, room retreat proposal and danger188→451. These
 are qualified family-reference observations; this dossier keeps its actual build.
 Fight/door rescue and wake order remain unproved. Enhancement154 links source370
 separately from bug carries; assessment actions remain open.
+
+## Brainstorming and overall picture
+
+[Shared gallant-family assessment](../D0004-named-headless/overall-assessment.md)
+connects stock, threat valuation, entry/escape and recovery, with competing
+explanations and focused candidates158/159. Attempted walking escape is examined
+both after landing and after scroll exhaustion; safe success and sleeping-enemy
+timing remain unproved. This dossier retains its actual source and evidence.

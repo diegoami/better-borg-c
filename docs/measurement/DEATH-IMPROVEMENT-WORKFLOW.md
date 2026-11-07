@@ -16,9 +16,18 @@ candidate, change, budget and acceptance plan before work starts.
    actual turn AND phase, knowledge before action, resources, legal alternatives,
    action energy and subsequent consequences. Separate hidden diagnostic state
    from what the Borg knew. Source reasoning is not runtime branch proof.
-3. Write an evaluation: observed behavior, proposed mechanism, alternative
-   explanations, confidence and missing evidence. A death may be ordinary bad
-   luck, a harness defect, an implementation bug or a strategy weakness.
+3. Every processed death report includes a brainstorming pass AND an overall
+   assessment, using docs/deaths/REVIEW-TEMPLATE.md. Explain the whole trajectory:
+   preparedness/stock → threat assessment → entry/escape → recovery → fatal
+   sequence. List competing explanations and candidate improvements, including
+   no-bug/bad-luck outcomes; distinguish evidence, inference and owner hypotheses.
+   State confidence, missing observations, dependencies and the next discriminating
+   experiment. Share this complete picture with the owner, not only one threshold
+   or the final blow. A death may involve several interacting mechanisms.
+   Explicitly examine attempted walking retreat, even without a guaranteed-safe
+   route, especially after Phase Door is exhausted. Record why the current chooser
+   considered/rejected it or whether it was actually blocked. Do not equate no
+   scrolls with no escape option, or unknown terrain with an unavailable route.
 4. Search existing issues and ownership. Reusable original-C bugs go first to
    neo-angband-tracker/source207, then source fix and separate consumer carry.
    Consumer investigations and improvement candidates live here. Link a reusable
@@ -114,3 +123,13 @@ revision gets a new prospective contract; it does not overwrite the earlier resu
 [153](https://github.com/diegoami/better-borg-c/issues/153) records a future
 viewer danger/decision pane. It is file-only and deferred; this process does not
 implement it or alter Borg behavior.
+
+## Owner brainstorming candidates (2026-11-07)
+
+[158](https://github.com/diegoami/better-borg-c/issues/158): assess theft danger
+weighting and whether economic penalties trigger harmful early escape decisions.
+[159](https://github.com/diegoami/better-borg-c/issues/159): assess attempted
+room/door/upstairs retreat before repeated phases AND after scroll exhaustion.
+Both are focused children of34, linked to the same encounter evaluation rather
+than new independent death claims. Sleep timing, safe fight and retreat outcomes
+remain unproved. [Current overall assessment](../deaths/D0004-named-headless/overall-assessment.md).

@@ -110,6 +110,30 @@
       "key": "early-escape-cure-restock",
       "status": "proposed enhancement; no implementation or survival benefit established",
       "summary": "Evaluate early Phase Door/cure restock requirement linked to source370"
+    },
+    {
+      "cases": [
+        "D0002",
+        "D0003",
+        "D0004",
+        "D0005"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/158",
+      "key": "theft-danger-weight",
+      "status": "proposed analysis; runtime decomposition and survival/progress benefit unproved",
+      "summary": "Evaluate theft danger contribution and sensitivity of first escape choice"
+    },
+    {
+      "cases": [
+        "D0002",
+        "D0003",
+        "D0004",
+        "D0005"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/159",
+      "key": "attempted-room-retreat",
+      "status": "proposed analysis; sleep timing, route knowledge and outcomes unproved",
+      "summary": "Evaluate attempted door/upstairs retreat before repeated phases and after scroll exhaustion"
     }
   ],
   "cases": 5,
