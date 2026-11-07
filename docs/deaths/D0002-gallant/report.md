@@ -148,3 +148,11 @@ states or eight independent lives. Windows stop immediately after world-turn
 increment; healing/damage between nearby offsets may not align with Borg note
 boundaries. No post-death reload/Borg-memory continuation assumed. Full raw
 runs/saves/maps/metadata are preserved on the expanded-window receipt22/34.
+
+## Owner Phase Door feedback and improvement candidates
+
+[20293/20294/20303/20430 original C34 anchors and analysis](../D0004-named-headless/owner-phase-feedback.md)
+record the disputed first jump, room retreat proposal and danger188→451. These
+are qualified family-reference observations; this dossier keeps its actual build.
+Fight/door rescue and wake order remain unproved. Enhancement154 links source370
+separately from bug carries; assessment actions remain open.

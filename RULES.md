@@ -85,3 +85,11 @@
     session.json and PLAN.md. Commit/push a clearly unfinished task branch and
     post adoption/checkpoint receipts; do not imply that a passing native gate
     verifies a failed controlled scenario or permits merging an unverified carry.
+
+18. Owner-requested death improvement process (2026-11-07): consumer-specific
+    evaluations/investigations/enhancement candidates belong here, linked to any
+    reusable tracker proposal. Follow docs/measurement/DEATH-IMPROVEMENT-WORKFLOW.md.
+    Separate diagnosis from a scoped implementation experiment and require
+    prospective survival AND long-term progress evidence before claiming benefit.
+    This process request authorises documentation/evaluation, not automatic
+    strategy implementation; bugs retain priority and original-C source routing.

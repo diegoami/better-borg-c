@@ -25,6 +25,8 @@ Dossiers: 5; distinct starting conditions: 2; recorded death process attempts: 1
 - [Trace why Phase Door was exhausted and whether earlier escape was legally available](https://github.com/diegoami/better-borg-c/issues/34) — investigate before changing policy; cases D0002.
 - [Compare pristine upstream versus carried build](https://github.com/diegoami/better-borg-c/issues/34) — completed: pristine/five-carry identical trace; same death on six-carry; no defect established; cases D0002.
 - [Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3](https://github.com/diegoami/better-borg-c/issues/34) — recorded owner observation; needs native causal investigation; cases D0002, D0003, D0004, D0005.
+- [Evaluate first Phase Door20293 versus legal fight/walk alternatives and crowd retreat at next decision20303](https://github.com/diegoami/better-borg-c/issues/34) — investigating; no rescue or implementation defect established; cases D0002, D0003, D0004, D0005.
+- [Evaluate early Phase Door/cure restock requirement linked to source370](https://github.com/diegoami/better-borg-c/issues/154) — proposed enhancement; no implementation or survival benefit established; cases D0002, D0003, D0004, D0005.
 
 Recurring mechanisms are grouped by canonical issue, not by number of replays. Investigations are hypotheses until native causal proof; original-C bugs route to neo-angband-tracker before source fix and consumer carry.
 

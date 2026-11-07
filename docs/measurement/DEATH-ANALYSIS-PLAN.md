@@ -160,3 +160,11 @@ and representative facts on issues, and keep reproduction scripts/pins in Git.
 Use the shared validation lock, small watched jobs, numerical gates and unchanged
 controls. Preserve failures; no private profiles/lab/data, publisher/release/tag,
 cleanup, amendment, force-push or source-worktree mutation is authorised.
+
+## Owner-requested improvement evaluation process (2026-11-07)
+
+[Death improvement workflow](DEATH-IMPROVEMENT-WORKFLOW.md) separates diagnosis
+and candidate filing from implementation experiments and confirmation. It adds
+no automatic strategy queue. Enhancements live here with source proposal links;
+original-C defects retain canonical source/fix/carry routing. Survival and
+long-term progress require prospective paired evidence, not one rescued death.
