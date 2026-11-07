@@ -325,6 +325,24 @@ concurrent-session process/tooling context (recording/replay feature and
 death documentation outside the build inputs; tooling 41→71). No external
 verdict is claimed; the owner launches the review.
 
+Consumer188/source236 (excavate-236) merged as 5053915f5 (PR189,
+import 8e0f8448e, patch 0043): borg_excavate_vault()'s dug vault grid
+was remembered with the comment "Dark" but the flag line set BORG_GLOW
+- a copy of the preceding "Not Lit" clear - so the excavated grid was
+remembered glowing where the routine intends darkness; the correction
+sets BORG_DARK. The unchanged source evidence fixture verifies the dig
+site acted=1 dark_marked=0 fail-before / dark_marked=1 pass-after with
+the no-target control byte-identical and no sanitizer product fault
+(the sanitized phases report the pre-existing init-time
+borg_sort_comp_hook overflow, source #399, in every phase as expected
+and asserted); borg-think-dungeon-util.c already carries
+0032/0036/0038/0041 and the applied diff body is byte-identical to the
+source diff. Gate 965/965 + 5/5, tooling 73/73, and all 139 prior
+matrix cases match the recorded forty-two-carry tally. Post-merge
+frozen v1 measurement: seeds 11/29/47 all turn_cap alive and well with
+whole-trace hashes identical to the forty-two-carry (blowname) run —
+behavior-neutral on the cohort. Next: recheck source207 for newer
+demonstrations.
 Consumer176/source247 (blowname-247) merged as 70993393a (PR179,
 import 541e03b1e, patch 0042): borg_mon_blow_effect()'s name-table loop
 bounded itself with the full array length, so an unknown blow name

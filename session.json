@@ -75,11 +75,11 @@
   "impact_milestone_v3": "https://github.com/diegoami/better-borg-c/milestone/3",
   "external_review_package_v3": "https://github.com/diegoami/better-borg-c/issues/128",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/184",
-    "branch": "task/impact-milestone4",
-    "worktree": ".worktrees/milestone4",
-    "state": "milestone4-package-open-pending-external-review",
-    "instructions": "docs/measurement/IMPACT-MILESTONE4.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/188",
+    "branch": "task/carry-excavate",
+    "worktree": ".worktrees/excavate",
+    "state": "merged-5053915f5-measured-issue188-carried-open-tapunlife-blocked",
+    "instructions": "docs/measurement/EXCAVATE-DARK-FLAG.md"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
   "impact_milestone_v4": "https://github.com/diegoami/better-borg-c/milestone/4",
