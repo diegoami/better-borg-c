@@ -1,0 +1,36 @@
+From 6b43497330399bfc8711289a3e873868a8af910f Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 19:14:53 +0100
+Subject: [PATCH] Borg: visit the Borg's own grid in the call-light scan
+
+The call-light scan in borg_think_dungeon_light() iterated the eight
+neighbours only (ii < 8), but its open/broken-door case tests the
+Borg's own grid (y == borg.c.y && x == borg.c.x) -- a case that could
+never fire, so the is-the-door-lit cheat (square_isglow) never ran and
+an open doorway underfoot kept whatever glow mark the Borg's map
+happened to hold. Include index 8 (the Borg's own grid, ddx_ddd[8] ==
+ddy_ddd[8] == 0) so the door case runs, and so a dark own grid can be
+lit by the routine like any other grid.
+---
+ src/borg/borg-think-dungeon-util.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-think-dungeon-util.c b/src/borg/borg-think-dungeon-util.c
+index bdc8e1a32..e4687edc6 100644
+--- a/src/borg/borg-think-dungeon-util.c
++++ b/src/borg/borg-think-dungeon-util.c
+@@ -253,8 +253,9 @@ bool borg_think_dungeon_light(void)
+          */
+         if (borg.time.call_light == 0
+             || (borg_timer(borg.time.call_light) > 7)) {
+-            /* Scan grids adjacent to me */
+-            for (ii = 0; ii < 8; ii++) {
++            /* Scan the grids adjacent to me and my own grid (an open
++             * door underfoot is handled below) */
++            for (ii = 0; ii <= 8; ii++) {
+                 x = borg.c.x + ddx_ddd[ii];
+                 y = borg.c.y + ddy_ddd[ii];
+ 
+-- 
+2.53.0
+
