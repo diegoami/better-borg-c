@@ -1630,8 +1630,8 @@ static int borg_launch_bolt_at_location(
         return 0;
 
     /* Check monsters and objects in blast radius */
-    for (ry = y2 - rad; ry < y2 + rad; ry++) {
-        for (rx = x2 - rad; rx < x2 + rad; rx++) {
+    for (ry = y2 - rad; ry <= y2 + rad; ry++) {
+        for (rx = x2 - rad; rx <= x2 + rad; rx++) {
 
             /* Bounds check */
             if (!square_in_bounds(cave, loc(rx, ry)))
@@ -1947,8 +1947,8 @@ static int borg_launch_arc_at_location(
 
     /* Check monsters and objects in blast radius and on the arc */
     /* for an arc, blast radius starts at player */
-    for (ry = y1 - max; ry < y1 + max; ry++) {
-        for (rx = x1 - max; rx < x1 + max; rx++) {
+    for (ry = y1 - max; ry <= y1 + max; ry++) {
+        for (rx = x1 - max; rx <= x1 + max; rx++) {
 
             /* Bounds check */
             if (!square_in_bounds(cave, loc(rx, ry)))
