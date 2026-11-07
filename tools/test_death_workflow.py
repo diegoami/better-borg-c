@@ -1,5 +1,6 @@
 """Owner-review queue isolation and bounded natural-death collection controls."""
 import importlib.util
+from contextlib import nullcontext
 import json
 from pathlib import Path
 import tempfile
@@ -133,7 +134,10 @@ class Collection(unittest.TestCase):
             def prepared(*_):
                 self.assertEqual(producer.workflow.read(output / 'collection.json')['status'], 'preparing')
                 return build
-            with mock.patch.object(producer, 'prepare_build', side_effect=prepared), \
+            # These are simulated games. The outer native gate may already own
+            # the real validation lock; unit controls must not reacquire it.
+            with mock.patch.object(producer.workflow, 'locked', return_value=nullcontext()), \
+                 mock.patch.object(producer, 'prepare_build', side_effect=prepared), \
                  mock.patch.object(producer.measurement, 'run', side_effect=native), \
                  mock.patch.object(producer, 'export_death', side_effect=ValueError('export failed') if export_error else None,
                                    return_value=Path(d) / 'D0006-collected') as export:
