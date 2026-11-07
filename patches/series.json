@@ -862,6 +862,24 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured (behavior-neutral on the v1 cohort); carried/open+patch-active",
    "merge_commit": "813feaec7ec9a5f3dc7e9e6609d0b1b24b0ba376"
+  },
+  {
+   "id": "CBUG-0219",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/205",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/219",
+   "source_head": "3d104a8b82aafeb421869c62736c8046b6272d82",
+   "source_commits": [
+    "3d104a8b82aafeb421869c62736c8046b6272d82"
+   ],
+   "applied_commits": [
+    "7be6518287d8bb20b08c3e59f58c8f3707e36ae2"
+   ],
+   "patch": "patches/0046-detection-carryover.patch",
+   "patch_active": true,
+   "evidence_ref": "55e00023674b9e7634713f2117b5c8c47802ca5f",
+   "verification": "docs/measurement/DETECTION-CARRYOVER.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-detectcarry; awaiting normal PR merge"
   }
  ]
 }
