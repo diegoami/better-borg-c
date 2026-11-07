@@ -57,13 +57,49 @@ defect's real effect. Here the effect is nil on the unchanged fixture, and
 no product-manifesting demonstration exists. Nothing was weakened; the red
 attempt is retained in full.
 
+## Masking diagnosis (2026-11-07, bisect complete)
+
+A bisection over the ten carried `borg-fight-attack.c` patches, run in the
+diagnosis worktree `.worktrees/tapdiag` at the 36-carry state (builds and
+per-step logs retained under `/tmp/opencode/tapdiag/` and
+`artifacts/t249-carry/diagnosis/`), identifies the masking change:
+
+| Step | Reverted patches | undead targeting |
+| --- | --- | --- |
+| A | none (36-carry as-is) | `* p 3 6 6 6 5 m c a` (injured; reproduces the red run) |
+| B | all ten | `* p 2 2 2 2 2 2 5 m c a` (healthy; pristine behavior restored) |
+| C | 0024+0023+0022+0021+0020 | healthy |
+| D | 0019+0016+0014+0013+0011 | injured |
+| E | 0024+0023 | injured |
+| F | 0022+0021+0020 | healthy |
+| G | 0020 | injured |
+| H | 0022+0021 | healthy |
+| I | 0021 | injured |
+
+**The masker is carried patch 0022 (losdispel arrival break, source326).**
+The mechanism is grounded in its diff: the rad-10 walk that the tap-ray
+model uses (the source fixture's own comment: "The tap ray model (rad-10
+dispel walk) only returns a value when the ray reaches a wall") collected
+path damage on every step and had no arrival break, so on pristine the
+healthy bat's ray (dam misrated to power 47 over six steps) outvalued the
+injured bat's (power 10 over four steps). Carrying 0022 breaks the walk at
+arrival and stops the per-step collection for rad-10 rays; the two rays'
+valuations converge and the injured bat's kill bonus and closeness win
+*with the misrating still present in the code*. Adapted-geometry probe:
+removing the walls entirely (they only mattered to the pristine walk)
+changes nothing — the before-build still targets the injured bat.
+
+**Consequence for the carry:** the misrating (`dam = kill->power`) is real
+in our source but its decision-level effect is masked by 0022 in this
+fixture family. Demonstrating it on the product would need a harmless
+high-power undead species to widen the power gap beyond the injured bat's
+kill-bonus/closeness advantage — the source receipt itself documents the
+obstacle (a master lich's danger term dwarfs the rating difference). That
+fixture-design work is deferred; the carry stays blocked and uncarried.
+
 ## Exact next work
 
-1. Optionally diagnose the masking (which carried change removes the
-   healthy-bat preference or shifts the cursor path) and construct an
-   adapted product-manifesting scenario with asserted provenance — the
-   glyph-0010 pattern — before reconsidering the carry.
-2. Otherwise leave the fix uncarried: source249 stays canonical; borg-rs
-   already keeps the misrating faithfully for its parity contract.
-3. Recheck source207 for newer demonstrations; acidarc-252's source PRs
-   (#382/#383) were pending hosted checks when this carry was selected.
+1. Leave the fix uncarried unless the owner directs new fixture-design
+   work: source249 stays canonical; borg-rs already keeps the misrating
+   faithfully for its parity contract.
+2. Recheck source207 for newer demonstrations.
