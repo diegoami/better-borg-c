@@ -216,6 +216,22 @@ with evidence-durability/metadata findings on issues38/128. Follow-up
 issue130 preserves the 25 worktree-held carry archives in primary artifacts,
 corrects matrix/ledger metadata and records the final formula-memory ASan
 receipt; no worktree is removed until that evidence copy is verified.
+Consumer144/source229 (outoflight-229) merged as 04ab89381 (PR145,
+import 54a26b3b3, patch 0038): borg_think_dungeon_light()'s entry test
+`!BI_LIGHT && (BI_LIGHT <= 0 || timeout <= 3)` swallows its own
+about-to-burn-out clause, leaving a lantern three turns from dark to die
+with a spare torch in the pack; the corrected test
+`(!BI_LIGHT || (timeout <= 3 && !NO_FUEL))` starts the maneuvers while
+keeping everburning lights guarded. The unchanged source evidence
+fixture verifies dying acted=0 fail-before / acted=1 keys `w e`
+pass-after with lit, everburn and dead controls byte-identical and no
+sanitizer report; borg-think-dungeon-util.c already carries 0032/0036
+and the applied diff body is byte-identical to the source diff. Gate
+965/965 + 5/5, tooling 41/41, and all 122 prior matrix cases match the
+recorded thirty-seven-carry tally. Post-merge frozen v1 measurement:
+seeds 11/29/47 all turn_cap alive and well with whole-trace hashes
+identical to the recorded run. Next: recheck source207 for newer
+demonstrations.
 Consumer141/source252 (acidarc-252) merged as d619eec5f (PR142, import
 2a4125e44, patch 0037): the blast loops in borg_launch_bolt_at_location()
 and borg_launch_arc_at_location() excluded the south and east radius
