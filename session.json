@@ -73,10 +73,10 @@
   "impact_milestone_v2": "https://github.com/diegoami/better-borg-c/milestone/2",
   "external_review_package_v2": "https://github.com/diegoami/better-borg-c/issues/38",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/109",
-    "branch": "task/carry-surrounded-traps",
-    "worktree": ".worktrees/surrounded-traps",
-    "state": "merged-75e92924f-carried-open-patch-active",
-    "instructions": "docs/measurement/SURROUNDED-TRAPS.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/113",
+    "branch": "task/carry-home-blows",
+    "worktree": ".worktrees/home-blows",
+    "state": "merged-8a7eba1ad-carried-open-patch-active",
+    "instructions": "docs/measurement/HOME-BLOWS.md"
   }
 }

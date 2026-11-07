@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through thirtieth carries merged (2026-11-07)
+## Tenth through thirty-first carries merged (2026-11-07)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -204,9 +204,17 @@ fixture cases whole-log identical, merged v1 seeds unchanged.
 
 All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
-issues' verification comments. Queue: homeblows-313 (priority medium), then opblock-324/calfree-323
-and brand-240 plus any newer demonstrations before low-priority 81 or
+issues' verification comments. Queue: lunal-314 (priority medium), then opblock-324/calfree-323 and
+brand-240 plus any newer demonstrations before low-priority 81 or
 discretionary death work.
+Consumer113/source313 (homeblows-313, priority medium) merged as
+8a7eba1ad (PR114, import 668ac32c, patch 0031): the home-blows
+calculation weighed a whole weapon stack rather than one weapon, giving
+Borg 1 blow against the engine's 2 for ten rapiers; the correction weighs
+one weapon. The unchanged production analyzer fixture verifies 1/2->2/2
+with the single-rapier control byte-identical at 2/2, 107 prior cases
+passing and merged v1 seeds unchanged. All twenty-two issues are
+carried/open+patch-active.
 Consumer109/source312 (surrounded-312, priority medium) merged as
 75e92924f (PR110, import dbdb5f7f, patch 0030): trapped walls matched
 both wall and trap branches and could produce a surrounded verdict with
