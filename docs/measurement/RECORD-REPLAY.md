@@ -229,3 +229,14 @@ PTY harness read a partial terminal write too soon; it was corrected to wait for
 the expected text, without changing the viewer or native comparison assertions.
 Fixed-birth and loaded-Mage controls are retained separately; loaded saves use
 their actual native CHARACTER rather than a hard-coded Warrior description.
+
+The direct recorded-load control initially exposed product harness issue173:
+native autosaving could overwrite the run's frozen origin copy, and immutable
+validation correctly rejected it. Original supplied saves were unchanged. The
+observer now redirects every recorded loaded life's save target to autosave.save.
+Unchanged cap200 before/after: old loaded-Mage control fails the origin guard;
+corrected loaded Mage preserves both the supplied start and copied origin,
+reports Kobold Mage, and original-start replay verifies. Both fixed Human Warrior
+and loaded Mage full traces are byte-identical before/after this file-destination
+correction. Evidence and the failed run stay under primary
+artifacts/replay-inventory-validation; origin checks were retained.
