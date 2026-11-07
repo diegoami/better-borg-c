@@ -748,6 +748,24 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured (behavior-active: v1 traces legitimately diverge, outcomes unchanged); carried/open+patch-active",
    "merge_commit": "f0288cca5471cf5cbaa3a041f93fe64fb913eb6f"
+  },
+  {
+   "id": "CBUG-0065",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/157",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/81",
+   "source_head": "526906c0f367cd690bdd92b99ac1e114fd84b1a2",
+   "source_commits": [
+    "526906c0f367cd690bdd92b99ac1e114fd84b1a2"
+   ],
+   "applied_commits": [
+    "2c3d8172c38bd83090f6869f775893b31216bf13"
+   ],
+   "patch": "patches/0040-use-enlightenment.patch",
+   "patch_active": true,
+   "evidence_ref": "8eb4b9951cdd8a3cc3a702ce0109643dba1f98f1",
+   "verification": "docs/measurement/ENLIGHTENMENT-USE.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-enlightenment; awaiting normal PR merge"
   }
  ]
 }
