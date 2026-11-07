@@ -710,6 +710,24 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured; carried/open+patch-active",
    "merge_commit": "d619eec5fc54e6680571c9316a74ceff270f327d"
+  },
+  {
+   "id": "CBUG-0229",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/144",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/229",
+   "source_head": "54a26b3b3fe4e12ed4d8fc3380219727b48eda2b",
+   "source_commits": [
+    "54a26b3b3fe4e12ed4d8fc3380219727b48eda2b"
+   ],
+   "applied_commits": [
+    "21fbfba5c4d3a2cc77707fea885590479cec18c3"
+   ],
+   "patch": "patches/0038-dying-light-gate.patch",
+   "patch_active": true,
+   "evidence_ref": "e1638569ea292812dd6633e3968b99f78c18c2f4",
+   "verification": "docs/measurement/OUT-OF-LIGHT-GATE.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-outoflight; awaiting normal PR merge"
   }
  ]
 }

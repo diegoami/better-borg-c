@@ -174,3 +174,9 @@ like the down-stair scan; the fresh-discovery control stays byte-identical.
 The thirty-seventh carry counts the south and east edges of ball and arc
 blasts (consumer #141/source #252). The four blast-loop bounds are
 inclusive; the near and empty controls stay byte-identical.
+
+The thirty-eighth carry starts the out-of-light maneuvers when the light
+is about to burn out (consumer #144/source #229). The entry test no
+longer swallows its own about-to-burn-out clause; everburning lights
+keep their NO_FUEL guard and the lit/everburn/dead controls stay
+byte-identical.
