@@ -538,6 +538,24 @@
    "verification": "docs/measurement/SURROUNDED-TRAPS.md",
    "credit": "Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-surrounded-traps; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0313",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/113",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/313",
+   "source_head": "d7b42db02cc74473bc175d2c37dd6feba1a77811",
+   "source_commits": [
+    "d7b42db02cc74473bc175d2c37dd6feba1a77811"
+   ],
+   "applied_commits": [
+    "668ac32c4be91b773410e652d3913cbb12dfe199"
+   ],
+   "patch": "patches/0031-home-blows-single-weapon.patch",
+   "patch_active": true,
+   "evidence_ref": "d73c67ab",
+   "verification": "docs/measurement/HOME-BLOWS.md",
+   "credit": "Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-home-blows; awaiting normal PR merge"
   }
  ]
 }
