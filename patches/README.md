@@ -180,3 +180,9 @@ is about to burn out (consumer #144/source #229). The entry test no
 longer swallows its own about-to-burn-out clause; everburning lights
 keep their NO_FUEL guard and the lit/everburn/dead controls stay
 byte-identical.
+
+The thirty-ninth carry takes the map pass's old-wall capture before the
+grid feature is overwritten (consumer #148/source #212). Door
+close/open transitions under the Borg now invalidate the stale flow,
+knowledge, icky flags and stamps; the no-change control stays
+byte-identical.
