@@ -135,7 +135,8 @@ the complete input/action/trace/state/frame streams and native save bytes.
 Only a matching rerun gets **VERIFIED**. It then shows the ORIGINAL recording,
 not a newly loaded mid-run checkpoint. Arrows step, **g** seeks an absolute
 engine turn, Space plays/pauses, **i** shows gear, **m** monsters, **v** the
-screen, **j/k** scroll and **q** exits. Diagnostic panes explicitly label actual
+screen (**Escape** also returns from panels), **j/k** scroll and **q** exits.
+Click/focus the terminal's replay area before using controls. Diagnostic panes explicitly label actual
 unknown/unseen information; none was fed into Borg decisions. The viewer uses
 logical cells/colors, not pixel video. Each frame includes its actual tick,
 command or input phase; a resting interval need not redraw the screen.
