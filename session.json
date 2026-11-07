@@ -73,10 +73,10 @@
   "impact_milestone_v2": "https://github.com/diegoami/better-borg-c/milestone/2",
   "external_review_package_v2": "https://github.com/diegoami/better-borg-c/issues/38",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/105",
-    "branch": "task/carry-light-modifier",
-    "worktree": ".worktrees/light-modifier",
-    "state": "merged-958f9744b-carried-open-patch-active",
-    "instructions": "docs/measurement/LIGHT-MODIFIER.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/113",
+    "branch": "task/carry-home-blows",
+    "worktree": ".worktrees/home-blows",
+    "state": "merged-8a7eba1ad-carried-open-patch-active",
+    "instructions": "docs/measurement/HOME-BLOWS.md"
   }
 }

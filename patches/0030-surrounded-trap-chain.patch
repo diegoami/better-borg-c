@@ -1,0 +1,29 @@
+From d366ef4e75e40f17fb293135c05fa74524f2e184 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 00:35:25 +0100
+Subject: [PATCH] Borg: count a trapped wall once in the surrounded check
+
+borg_surrounded() tested the trap flag with a separate "if" after the
+wall/unknown/monster/shop chain, so a wall that also carried the trap
+flag was counted as two non-safe grids.  Enough double-counted
+neighbours pushed the safe-square count below zero, and the
+"monsters > safe squares" verdict then fired with no monsters nearby
+at all - the Borg believed it was surrounded and abandoned fights or
+fled the level for nothing.  Make the trap test the fifth branch of
+the chain so each non-safe grid counts once.
+
+diff --git a/src/borg/borg-escape.c b/src/borg/borg-escape.c
+index 1a77bc61b..79ef7add7 100644
+--- a/src/borg/borg-escape.c
++++ b/src/borg/borg-escape.c
+@@ -232,7 +232,9 @@ bool borg_surrounded(void)
+             non_safe_grids++;
+ 
+         /* Mega-Hack -- skip traps XXX XXX XXX */
+-        if (ag->trap && !ag->glyph)
++        /* (part of the same chain: a trapped wall is one non-safe
++         * grid, not two) */
++        else if (ag->trap && !ag->glyph)
+             non_safe_grids++;
+     }
+ 

@@ -520,6 +520,42 @@
    "verification": "docs/measurement/LIGHT-MODIFIER.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-light-modifier; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0312",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/109",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/312",
+   "source_head": "d366ef4e75e40f17fb293135c05fa74524f2e184",
+   "source_commits": [
+    "d366ef4e75e40f17fb293135c05fa74524f2e184"
+   ],
+   "applied_commits": [
+    "dbdb5f7fa49963653abebfbce05537c502254c6f"
+   ],
+   "patch": "patches/0030-surrounded-trap-chain.patch",
+   "patch_active": true,
+   "evidence_ref": "44334c6f",
+   "verification": "docs/measurement/SURROUNDED-TRAPS.md",
+   "credit": "Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-surrounded-traps; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0313",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/113",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/313",
+   "source_head": "d7b42db02cc74473bc175d2c37dd6feba1a77811",
+   "source_commits": [
+    "d7b42db02cc74473bc175d2c37dd6feba1a77811"
+   ],
+   "applied_commits": [
+    "668ac32c4be91b773410e652d3913cbb12dfe199"
+   ],
+   "patch": "patches/0031-home-blows-single-weapon.patch",
+   "patch_active": true,
+   "evidence_ref": "d73c67ab",
+   "verification": "docs/measurement/HOME-BLOWS.md",
+   "credit": "Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-home-blows; awaiting normal PR merge"
   }
  ]
 }
