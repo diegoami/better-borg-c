@@ -805,6 +805,24 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured (behavior-neutral on the v1 cohort); carried/open+patch-active",
    "merge_commit": "70993393a1c946ce8cd38ee558bf1ce6464350e7"
+  },
+  {
+   "id": "CBUG-0236",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/188",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/236",
+   "source_head": "8e0f8448e9ebc6d164e4e621840acb0005094f81",
+   "source_commits": [
+    "8e0f8448e9ebc6d164e4e621840acb0005094f81"
+   ],
+   "applied_commits": [
+    "bdd3c2ea2c120c5200f182b1676b860942abc71e"
+   ],
+   "patch": "patches/0043-excavate-dark-flag.patch",
+   "patch_active": true,
+   "evidence_ref": "793f723ebb684f1f2abcdb267dc759861bc7874d",
+   "verification": "docs/measurement/EXCAVATE-DARK-FLAG.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-excavate; awaiting normal PR merge"
   }
  ]
 }
