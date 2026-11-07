@@ -216,6 +216,23 @@ with evidence-durability/metadata findings on issues38/128. Follow-up
 issue130 preserves the 25 worktree-held carry archives in primary artifacts,
 corrects matrix/ledger metadata and records the final formula-memory ASan
 receipt; no worktree is removed until that evidence copy is verified.
+Consumer137/source232 (stairtrack-232, priority low) merged as 4fc3c481f
+(PR138, import 8310e9cc, patch 0036): borg_think_stair_scum()'s
+up-staircase "already known" scan used continue where the down-stair
+scan uses break, so the staircase under the Borg was re-appended to
+track_less on every visit (1 grows to 2 per visit until the array
+fills); the one-keyword correction breaks on the match. The unchanged
+source evidence fixture verifies known 1-to-2 fail-before / stays-1
+pass-after with the fresh-discovery control byte-identical at 0-to-1
+and no sanitizer report; borg-think-dungeon-util.c already carries 0032
+in this same function and the applied diff is byte-identical to the
+source diff. Gate 965/965 + 5/5, tooling 41/41, and all 117 prior
+matrix cases match the recorded thirty-five-carry tally. Post-merge
+frozen v1 measurement on the prepared merged-main build: seeds
+11/29/47 all turn_cap alive and well with whole-trace hashes identical
+to the recorded run. Next: recheck source207; the source348
+panel-vs-DUNGEON_WID overread lead remains source-owned and not
+consumer-ready; carry a newer demonstration when one is ready.
 Consumer133/source240 (brand-240, priority low) merged as 638513e91
 (PR135, import b30afa1a, patch 0035): the brand-the-ammo test in
 borg_notice_ammo() was pasted twice with identical conditions (inside the
