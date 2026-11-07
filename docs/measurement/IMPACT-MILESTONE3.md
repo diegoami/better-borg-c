@@ -6,9 +6,14 @@ the bug-fix wave after [milestone2](IMPACT-MILESTONE2.md). The prior runtime
 snapshot is **2675d198e4c3fcb1c69ee63ef25a2b6ac27ab96f** (seven carries,
 patches 0001-0007). This package pins the runtime snapshot after the final
 carry at **702f091f6ac06cae1014df2f85ac218be0189813**. The pristine baseline
-remains **e473720ed88a0f0c7ca66815cef3000eb4a38bc3**. External review has not
-occurred; the owner requests it at this accumulated milestone. Nothing here
-reinstates a per-PR review stop.
+remains **e473720ed88a0f0c7ca66815cef3000eb4a38bc3**. Owner-led accumulated
+review completed on 2026-11-07: milestone2 was approved, and milestone3 was
+approved with evidence-durability and metadata findings
+([M2 report](https://github.com/diegoami/better-borg-c/issues/38#issuecomment-6705894080),
+[M3 report](https://github.com/diegoami/better-borg-c/issues/128#issuecomment-6705894431)).
+Follow-up [issue130](https://github.com/diegoami/better-borg-c/issues/130)
+records those findings and this correction. This is not approval of upstream
+incorporation and does not reinstate a per-PR review stop.
 
 ## Scope
 
@@ -71,11 +76,21 @@ resolved by a consumer merge.
 - Adapted fixtures carry provenance headers, and the original red attempts
   are retained. No assertion, seed, cap, timeout or control was weakened for
   green.
-- The final accumulated matrix on the 34-carry runtime snapshot passes
-  **115 native fixture cases** (113 prior plus the final carry's two; the two
-  losdispel interactions are asserted transitions, not silently accepted
-  drift). Final hosted checks read numerically: **41/41 tooling, 965/965
-  unit, 5/5 frontend**.
+- The final accumulated matrix on the 34-carry runtime snapshot records
+  **115 native fixture cases**: **113 pass** — 112 with whole-log identical
+  output and one dispel-248 case passing with an asserted changed log — while
+  the two dispel-259 cases are **asserted-red** at pinned post-losdispel
+  values (`-10627→-10331` and `-127→169`). This is deliberate interaction
+  checking, not silent drift and not 115 green cases. The accumulated runner
+  and ASan fixture coverage are local-only; they are not part of hosted CI.
+  Final hosted checks read numerically: **41/41 tooling, 965/965 unit,
+  5/5 frontend**.
+- A post-review final-runtime LeakSanitizer receipt
+  (`artifacts/formula-leaks-final/`) runs the unchanged calc-reload-325,
+  opblock-324 and calfree-323 fixtures against the ASan build source-identical
+  to `702f091f6`: all three pass with **no leaks reported**, while the retained
+  pre-fix calc-reload binary still reports **320 bytes in 4 allocations** as a
+  positive control.
 - Every bug-fix merge reran frozen v1 seeds 11/29/47 with cap20000,
   wall120 and stall30, and all reported 3/3 turn-cap survivors. The first
   carry in this interval (0008) left seeds11/29 byte-identical and changed
@@ -148,10 +163,23 @@ These are context for reviewers, not counted in the 27:
 
 Every consumer issue linked above contains its verification comment with
 commands, actual results, archive size/member count and SHA256. Persistent
-evidence archives remain outside Git under the primary checkout's ignored
-`artifacts/`; Git carries the tools, patch ledger, reports and exact pins
-needed to rebuild and re-run. No workstation `/tmp` path is part of
-recovery. Official upstream master was still `e473720e` at the latest check;
-all 34 consumer issues remain carried/open+patch-active pending upstream
-incorporation. No release, tag, official post, Rust integration, private-data
-operation or new gameplay strategy is part of this milestone.
+evidence archives for all 34 carries are outside Git under the primary
+checkout's ignored `artifacts/` tree. On 2026-11-08, follow-up
+[issue130](https://github.com/diegoami/better-borg-c/issues/130) copied the
+25 milestone3 carry evidence directories (patches 0010-0034) from retained
+task worktrees into that primary tree — 1,122,191,729 archive bytes and 9,390
+members — re-checked every archive against its sidecar and receipt, and wrote
+a per-directory `RECOVERY.txt` plus the aggregate
+`artifacts/milestone3-evidence-recovery/manifest.json`. No originating
+worktree was modified or removed.
+
+Git carries the per-carry verifier tools, patch ledger, reports and exact
+pins needed to rebuild and re-run individual controlled scenarios. The
+accumulated 115-case matrix runner itself remains local-only and is preserved
+as ignored `artifacts/c323-carry/regression.py`; hosted CI runs the tooling,
+unit and frontend suites but no Borg fixture or ASan scenario. No workstation
+`/tmp` path is part of recovery. Official upstream master was still
+`e473720e` at the latest review check; all 34 consumer issues remain
+carried/open+patch-active pending upstream incorporation. No release, tag,
+official post, Rust integration, private-data operation or new gameplay
+strategy is part of this milestone.

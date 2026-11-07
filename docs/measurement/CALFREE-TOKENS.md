@@ -44,9 +44,20 @@ no source expectation is copied blindly.
 - `result.json` records `verified: true` with all commands and hashes.
 
 Native gate on this core: **965/965 unit + 5/5 frontend**. Regression matrix
-(`artifacts/c323-carry/regression.py`): all **113 prior native fixture cases**
-pass (111 identical plus the two documented losdispel interactions asserted),
-and the two new free cases pass, **115 total**. Tooling **41/41**.
+(`artifacts/c323-carry/regression.py`, local-only): the preceding 113 cases
+comprise 110 whole-log identical cases, one dispel-248 case passing with an
+asserted changed log, and two dispel-259 cases that are asserted-red at
+pinned post-losdispel values. With the two new byte-identical free cases,
+the final matrix records **113 passing and two asserted-red interaction
+cases (115 total)**. Tooling **41/41**.
+
+A post-review final-runtime receipt (`artifacts/formula-leaks-final/`)
+links the unchanged calc-reload-325, opblock-324 and calfree-323 fixtures
+against the ASan build source-identical to `702f091f6`: all three pass with
+no LeakSanitizer report. The retained pre-fix calc-reload binary still
+reports 320 bytes in 4 allocations in the same environment, confirming leak
+detection. An initial verifier-only suite-spelling failure is retained at
+`artifacts/formula-leaks-final-verifier-suite-name-error`.
 
 ## Scope and limits
 

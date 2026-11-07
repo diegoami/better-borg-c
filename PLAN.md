@@ -210,8 +210,12 @@ low-priority 81 or discretionary death work. The owner separately requested
 an accumulated bug-fix review: milestone3/issue128 collects the 27 verified
 carries after milestone2 snapshot 2675d198e through runtime snapshot
 702f091f6 (patches 0008-0034), with process/tooling context and review
-questions in docs/measurement/IMPACT-MILESTONE3.md. External findings belong
-on issue128; no external verdict is claimed.
+questions in docs/measurement/IMPACT-MILESTONE3.md. Owner-led accumulated
+review completed 2026-11-07: milestone2 approved and milestone3 approved
+with evidence-durability/metadata findings on issues38/128. Follow-up
+issue130 preserves the 25 worktree-held carry archives in primary artifacts,
+corrects matrix/ledger metadata and records the final formula-memory ASan
+receipt; no worktree is removed until that evidence copy is verified.
 Consumer124/source323 (calfree-323) merged as 5fb5d1f74 (PR125, import
 dc1ea0c3, patch 0034): calculations_free() released calculation structs
 without token-list backing arrays; the correction releases them. The
@@ -219,8 +223,10 @@ unchanged fixture keeps freed value 3/count 0 and constant 42/count 1
 byte-identical. With opblock-324 already carried, stack-attributed
 LeakSanitizer moves from 80 bytes/1 token allocation to no leaks, with
 zero operator leaks in both phases; the pristine 160/2 expectation is not
-copied blindly. 113 prior cases pass, tooling is 41/41 and merged v1 seeds
-are unchanged. All twenty-five issues are carried/open+patch-active.
+copied blindly. The preceding 113 matrix cases comprise 111 passing (110
+whole-log identical plus one asserted changed log) and two asserted-red
+interactions; the final two calfree cases pass, tooling is 41/41 and merged
+v1 seeds are unchanged. All twenty-five issues are carried/open+patch-active.
 Owner requested a pause after this carry.
 Consumer121/source324 (opblock-324) merged as 6a00d4408 (PR122, import
 ced816c3, patch 0033): precedence adjustment freed operator-block structs

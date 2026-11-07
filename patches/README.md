@@ -114,7 +114,7 @@ should, the launcher no longer leaks -1, and the orb-ball control stays
 unchanged.
 
 The twenty-third carry values the staff-holiness activation as the LOS
-dispel it is (consumer #86/source #262), stacked on the losdispel
+dispel it is (consumer #87/source #262), stacked on the losdispel
 arrival break. The single-target bolt control stays unchanged.
 
 The twenty-fourth carry scores Blind Creature's Frighten as fear, not

@@ -21,7 +21,9 @@
    "patch_active": true,
    "evidence_ref": "1b67370d0dc56d9b7ef34e5356e63d21a7095545",
    "verification": "docs/measurement/SAFER-SWAP.md",
-   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+   "merge_commit": "e4932f358beffcf9956b4e4b8d9e719c5086f664",
+   "verification_status": "merged; verified and measured; carried/open+patch-active"
   },
   {
    "id": "CBUG-0002",
@@ -40,7 +42,9 @@
    "patch_active": true,
    "evidence_ref": "3de1e3123915587483395dd40c4d2e75704e65f4",
    "verification": "docs/measurement/KNOCKOUT.md",
-   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+   "merge_commit": "d4bfdce9d4782cf83994ad52de707a52d1f31018",
+   "verification_status": "merged; verified and measured; carried/open+patch-active"
   },
   {
    "id": "CBUG-0094",
@@ -57,7 +61,9 @@
    "patch_active": true,
    "evidence_ref": "a19c8733c0dfa8139b04eecd8117429ec5f55cd6",
    "verification": "docs/measurement/PREPARATION.md",
-   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+   "merge_commit": "8208d7886208414c3e6ca2df4885175855f34011",
+   "verification_status": "merged; verified and measured; carried/open+patch-active"
   },
   {
    "id": "CBUG-0004",
@@ -74,7 +80,9 @@
    "patch_active": true,
    "evidence_ref": "b0b0fa2471a11e91838bcbc3d980f4b04f8c6b01",
    "verification": "docs/measurement/COLD-PROTECTION.md",
-   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+   "merge_commit": "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3",
+   "verification_status": "merged; verified and measured; carried/open+patch-active"
   },
   {
    "id": "CBUG-0062",
@@ -91,7 +99,9 @@
    "patch_active": true,
    "evidence_ref": "bfe3fc402e8ae6cdec74d8b35fa8f50e612f2a8e",
    "verification": "docs/measurement/BOTH-RINGS.md",
-   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+   "merge_commit": "3638b690525cd8a381cb106b4c5ee40652babde2",
+   "verification_status": "merged; verified and measured; carried/open+patch-active"
   },
   {
    "id": "CBUG-0061",
@@ -108,7 +118,9 @@
    "patch_active": true,
    "evidence_ref": "cce1d5d92079e78e939126d3cf35e24121442734",
    "verification": "docs/measurement/POTION-TIMING.md",
-   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+   "merge_commit": "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc",
+   "verification_status": "merged; verified and measured; carried/open+patch-active"
   },
   {
    "id": "CBUG-0086",
@@ -125,7 +137,9 @@
    "patch_active": true,
    "evidence_ref": "b61f6b611600fdbc4c6370fff3ac2835ee77017f",
    "verification": "docs/measurement/ITANGAST.md",
-   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+   "merge_commit": "2675d198e4c3fcb1c69ee63ef25a2b6ac27ab96f",
+   "verification_status": "merged; verified and measured; carried/open+patch-active"
   },
   {
    "id": "native-shot-path-279",
@@ -142,7 +156,9 @@
    "patch_active": true,
    "evidence_ref": "cef0b118e02976a3384d4c348ba4cd0210c1f492",
    "verification": "docs/measurement/SHOT-PATH.md",
-   "credit": "Diego Amicabile (independent native C discovery/proposal/evidence)"
+   "credit": "Diego Amicabile (independent native C discovery/proposal/evidence)",
+   "merge_commit": "4e2af89f34cad98d10131727b3fa4c0e5ddef5fb",
+   "verification_status": "merged; verified and measured; carried/open+patch-active"
   },
   {
    "id": "CBUG-0048",
@@ -159,7 +175,9 @@
    "patch_active": true,
    "evidence_ref": "0507c24cccd2131710e4e6cd566f901bad94e081",
    "verification": "docs/measurement/PER-SPELL.md",
-   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)"
+   "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
+   "merge_commit": "cf53f9b195d297f9f8b1fb61df3b6c1aff7311c6",
+   "verification_status": "merged; verified and measured; carried/open+patch-active"
   },
   {
    "id": "CBUG-0102",
@@ -177,7 +195,8 @@
    "evidence_ref": "f1f53106526412cfe44fa01c73d00e7dbf4dbeed",
    "verification": "docs/measurement/GLYPH-TRACKER.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-glyph-tracker with the adapted scenario; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "b72ad8eae676ba7c2b9d90026eb0e2d4a2468540"
   },
   {
    "id": "CBUG-0254",
@@ -192,10 +211,11 @@
    ],
    "patch": "patches/0011-missile-no-target.patch",
    "patch_active": true,
-   "evidence_ref": "8b30eb584",
+   "evidence_ref": "8b30eb5845ae542b41f2601d4370c044f13c21ac",
    "verification": "docs/measurement/MISSILE-NO-TARGET.md",
    "credit": "borg-rs (fuzzing lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-missile-no-target; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "ce6435679ade1072614a7c1f525a39e9b4b6c8ec"
   },
   {
    "id": "CBUG-0051",
@@ -210,10 +230,11 @@
    ],
    "patch": "patches/0012-tp-other-skip.patch",
    "patch_active": true,
-   "evidence_ref": "83cedb3fe",
+   "evidence_ref": "83cedb3fe33f494d58d2ceb0016c0feab95be6d8",
    "verification": "docs/measurement/TP-OTHER-SKIP.md",
    "credit": "borg-rs (discovery); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-tp-other-skip; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "cfaff7be719971e81d91b6c05533aadd29045078"
   },
   {
    "id": "CBUG-0248",
@@ -228,10 +249,11 @@
    ],
    "patch": "patches/0013-dispel-life-filter.patch",
    "patch_active": true,
-   "evidence_ref": "6df50d2e",
+   "evidence_ref": "6df50d2e5ad605ec8d3898ca1b653985a373480c",
    "verification": "docs/measurement/DISPEL-FILTER.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-dispel-filter; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "c0174d583949ed513c4184a1fe77335122c30a60"
   },
   {
    "id": "CBUG-0253",
@@ -246,10 +268,11 @@
    ],
    "patch": "patches/0014-arc-grid-angle.patch",
    "patch_active": true,
-   "evidence_ref": "6f1f66446",
+   "evidence_ref": "6f1f66446e1bc2232e7eb71d03246b6d4e2b4fb3",
    "verification": "docs/measurement/ARC-ANGLE.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-arc-angle; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "a89e96a159bf59e234bae229aad889bee547d870"
   },
   {
    "id": "CBUG-0244",
@@ -264,10 +287,11 @@
    ],
    "patch": "patches/0015-munchkin-stair-own-grid.patch",
    "patch_active": true,
-   "evidence_ref": "f5b3c50e2",
+   "evidence_ref": "f5b3c50e26e4803fb2c5af07a047ba37d92ebeb1",
    "verification": "docs/measurement/MUNCHKIN-STAIR.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-munchkin-stair; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "d28dbb165706099dd44467383c9e8fe84f71d83a"
   },
   {
    "id": "CBUG-0257",
@@ -282,10 +306,11 @@
    ],
    "patch": "patches/0016-vampire-strike-distance.patch",
    "patch_active": true,
-   "evidence_ref": "e41e44d96",
+   "evidence_ref": "e41e44d9652c38266dcee5e9e5b4b363f3813212",
    "verification": "docs/measurement/VAMPIRE-STRIKE.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-vampire-strike; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "dfddcfff9429e16f1141d53a5d7c619bed65fbb7"
   },
   {
    "id": "CBUG-0239",
@@ -300,10 +325,11 @@
    ],
    "patch": "patches/0017-slay-trait-accumulation.patch",
    "patch_active": true,
-   "evidence_ref": "25b011863",
+   "evidence_ref": "25b0118631f108edc926856c8f4b3c35d3611bf9",
    "verification": "docs/measurement/SLAY-TRAITS.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-slay-traits; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "a88da7a063221bd56a6e40e5fec472b38286d5c0"
   },
   {
    "id": "CBUG-0290",
@@ -318,10 +344,11 @@
    ],
    "patch": "patches/0018-detect-panel-bounds.patch",
    "patch_active": true,
-   "evidence_ref": "d9d4c7186",
+   "evidence_ref": "d9d4c7186293b4c08925c78e8e72d2728a84732b",
    "verification": "docs/measurement/DETECT-PANEL.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-detect-panel; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "3cd2c3237a0c45f6f38a8cad108ecaa88cb151f2"
   },
   {
    "id": "CBUG-0260",
@@ -336,10 +363,11 @@
    ],
    "patch": "patches/0019-activ-lookup-ids.patch",
    "patch_active": true,
-   "evidence_ref": "f0e856241",
+   "evidence_ref": "f0e856241b1fe3d62005edda0722c991278afdf9",
    "verification": "docs/measurement/ACTIV-LOOKUP.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-activ-lookup; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "5ea7baed65d1040e9330ce8fe3a5317dcd995b0c"
   },
   {
    "id": "CBUG-0258",
@@ -354,10 +382,11 @@
    ],
    "patch": "patches/0020-reserve-bolt-veto-scope.patch",
    "patch_active": true,
-   "evidence_ref": "359882c25",
+   "evidence_ref": "359882c25f81baa3824f20f7db8ae290ae2d4ed2",
    "verification": "docs/measurement/RESERVE-BOLT.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-reserve-bolt; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "c7f5b5758c8599a55fd81c0decfba67ffce3d713"
   },
   {
    "id": "CBUG-0259",
@@ -372,10 +401,11 @@
    ],
    "patch": "patches/0021-dispel-reserve-single-penalty.patch",
    "patch_active": true,
-   "evidence_ref": "f0ed9115c",
+   "evidence_ref": "f0ed9115c696b70422e1d8639a92511278c4de2a",
    "verification": "docs/measurement/DISPEL-RESERVE.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-dispel-reserve; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "0c52dee46ec3e4bcc076188a1c9f985971118e7f"
   },
   {
    "id": "CBUG-0326",
@@ -390,10 +420,11 @@
    ],
    "patch": "patches/0022-losdispel-arrival-break.patch",
    "patch_active": true,
-   "evidence_ref": "9ae8856aa",
+   "evidence_ref": "9ae8856aa9f3f7e1e28d5eb8d7ef3070e0f3b58e",
    "verification": "docs/measurement/LOSDISPEL.md",
    "credit": "borg-rs (lead); Diego Amicabile (native finding/validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-losdispel; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "2e55c43f86e40e13ba26db8dffcd719ecb8419db"
   },
   {
    "id": "CBUG-0262",
@@ -408,10 +439,11 @@
    ],
    "patch": "patches/0023-staff-holy-radius.patch",
    "patch_active": true,
-   "evidence_ref": "ba63014b3",
+   "evidence_ref": "ba63014b3caf3926bd86a7c8edc8a26e5e947860",
    "verification": "docs/measurement/STAFF-HOLY.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-staff-holy; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "aa87ca74d0344567594bbb221109fe0df96d9753"
   },
   {
    "id": "CBUG-0261",
@@ -426,10 +458,11 @@
    ],
    "patch": "patches/0024-blind-frighten-fear.patch",
    "patch_active": true,
-   "evidence_ref": "cb8554e07",
+   "evidence_ref": "cb8554e079e404993c060d0c1d4a05df67581099",
    "verification": "docs/measurement/BLIND-FRIGHTEN.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-blind-frighten; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "f997c8cee3c72565a906716d6ac5f6da7b871505"
   },
   {
    "id": "CBUG-0287",
@@ -444,10 +477,11 @@
    ],
    "patch": "patches/0025-text-multibyte-termination.patch",
    "patch_active": true,
-   "evidence_ref": "8d844e379",
+   "evidence_ref": "8d844e37938c09f3445860f9559da1b5009fa3a7",
    "verification": "docs/measurement/TEXT-MULTIBYTE.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-text-multibyte; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "b68eb22233c11725499480c27a095d525949c2de"
   },
   {
    "id": "CBUG-0325",
@@ -462,10 +496,11 @@
    ],
    "patch": "patches/0026-calculation-reload-array.patch",
    "patch_active": true,
-   "evidence_ref": "8764d94b8",
+   "evidence_ref": "8764d94b8a2007214e4bc35a923f0a92f0f17613",
    "verification": "docs/measurement/CALC-RELOAD.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-calc-reload; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "0900c5cf4f2c3d3fa7b4c2524d38aa94da5aed07"
   },
   {
    "id": "CBUG-0322",
@@ -480,10 +515,11 @@
    ],
    "patch": "patches/0027-stale-same-square-target.patch",
    "patch_active": true,
-   "evidence_ref": "929764f4",
+   "evidence_ref": "929764f4d12cece8181a22106c1d808bdd3c2881",
    "verification": "docs/measurement/STALE-TARGET.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-stale-target; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "29190814b7e7de6ed272d3c5e1ca0cd528758515"
   },
   {
    "id": "CBUG-0311",
@@ -498,10 +534,11 @@
    ],
    "patch": "patches/0028-glow-array-bound.patch",
    "patch_active": true,
-   "evidence_ref": "1a9946c6",
+   "evidence_ref": "1a9946c6111c541a4041edc7a200e7440434d85e",
    "verification": "docs/measurement/GLOW-OVERFLOW.md",
    "credit": "Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-glow-overflow; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "9aee811384e201f6ead4e0a842f8b718640375b0"
   },
   {
    "id": "CBUG-0238",
@@ -516,10 +553,11 @@
    ],
    "patch": "patches/0029-light-modifier-once.patch",
    "patch_active": true,
-   "evidence_ref": "f1e899b6",
+   "evidence_ref": "f1e899b66b383b19ab2d69b4d7ffbb2148ba5444",
    "verification": "docs/measurement/LIGHT-MODIFIER.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-light-modifier; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "958f9744b86a094dd7491ddaf0cfa9c9247a1fda"
   },
   {
    "id": "CBUG-0312",
@@ -534,10 +572,11 @@
    ],
    "patch": "patches/0030-surrounded-trap-chain.patch",
    "patch_active": true,
-   "evidence_ref": "44334c6f",
+   "evidence_ref": "44334c6fc0ccad023b5c632eef39d955e36c19eb",
    "verification": "docs/measurement/SURROUNDED-TRAPS.md",
    "credit": "Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-surrounded-traps; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "75e92924f1c276469905a02382119eaf671489df"
   },
   {
    "id": "CBUG-0313",
@@ -552,10 +591,11 @@
    ],
    "patch": "patches/0031-home-blows-single-weapon.patch",
    "patch_active": true,
-   "evidence_ref": "d73c67ab",
+   "evidence_ref": "d73c67ab573e5406e4993315d846836b3e7b052a",
    "verification": "docs/measurement/HOME-BLOWS.md",
    "credit": "Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-home-blows; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "8a7eba1ad1b7e83319e09e3fc429d91d75410393"
   },
   {
    "id": "CBUG-0314",
@@ -570,10 +610,11 @@
    ],
    "patch": "patches/0032-lunal-flag-pair.patch",
    "patch_active": true,
-   "evidence_ref": "d50baba7",
+   "evidence_ref": "d50baba77bd2101732e7db3413e7dab25ba72cb4",
    "verification": "docs/measurement/LUNAL-STATE.md",
    "credit": "Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-lunal-state; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "4bfb44d735e7bdc07fbf6d33d366be1208528b26"
   },
   {
    "id": "CBUG-0324",
@@ -588,10 +629,11 @@
    ],
    "patch": "patches/0033-operator-block-arrays.patch",
    "patch_active": true,
-   "evidence_ref": "6cbb0347",
+   "evidence_ref": "6cbb034794f10b6e8832a55103233f52cee67dfa",
    "verification": "docs/measurement/OPBLOCK-LEAK.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-opblock-leak; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "6a00d4408717e95fd29f1aa95542c5f8fe581d16"
   },
   {
    "id": "CBUG-0323",
@@ -606,10 +648,11 @@
    ],
    "patch": "patches/0034-calculation-token-arrays.patch",
    "patch_active": true,
-   "evidence_ref": "0799d463",
+   "evidence_ref": "0799d4639ed837b06a301d412ad0aca977b59756",
    "verification": "docs/measurement/CALFREE-TOKENS.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-calfree-tokens; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "5fb5d1f74abe87f1e4d52096c0eb13b799da9251"
   }
  ]
 }
