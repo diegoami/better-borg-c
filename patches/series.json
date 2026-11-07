@@ -786,6 +786,24 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured (behavior-neutral on the v1 cohort); carried/open+patch-active",
    "merge_commit": "bc8cf805f2ec07b1224ba636a2aea4a058ad38be"
+  },
+  {
+   "id": "CBUG-0247",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/176",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/247",
+   "source_head": "541e03b1e6e0bed42e0b71ec520cb6ced8f29d65",
+   "source_commits": [
+    "541e03b1e6e0bed42e0b71ec520cb6ced8f29d65"
+   ],
+   "applied_commits": [
+    "64046743679e0925ae6698b458a7bbf9dfa6cb19"
+   ],
+   "patch": "patches/0042-blow-name-sentinel.patch",
+   "patch_active": true,
+   "evidence_ref": "eea8f6e1cc24ef72fb0dc07ff6df888e100bf3f9",
+   "verification": "docs/measurement/BLOW-NAME-SENTINEL.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-blowname; awaiting normal PR merge"
   }
  ]
 }

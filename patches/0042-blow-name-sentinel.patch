@@ -1,0 +1,32 @@
+From 64046743679e0925ae6698b458a7bbf9dfa6cb19 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 19:35:13 +0100
+Subject: [PATCH] Borg: stop the blow-effect name lookup before its NULL end
+ entry
+
+borg_mon_blow_effect()'s lookup loop visited every entry of its table
+including the { NULL, MONBLOW_NONE } end marker, so a blow name absent
+from the table reached strcmp against NULL and crashed the Borg. Every
+name in stock blow_effects.txt is in the table, but the file is
+user-modable: any added blow name reaches the sentinel. Stop the loop
+one entry short of the marker; unknown names return MONBLOW_NONE.
+---
+ src/borg/borg-fight-attack.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index f0c07577f..62136e297 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -89,7 +89,7 @@ int borg_mon_blow_effect(const char *name)
+         { "EXP_80", MONBLOW_EXP_80 }, { "HALLU", MONBLOW_HALLU },
+         { "BLACK_BREATH", MONBLOW_BLACK_BREATH }, { NULL, MONBLOW_NONE } };
+     unsigned long i;
+-    for (i = 0; i < sizeof(monblow) / sizeof(monblow[0]); ++i)
++    for (i = 0; i + 1 < sizeof(monblow) / sizeof(monblow[0]); ++i)
+         if (!strcmp(name, monblow[i].name))
+             return monblow[i].val;
+     return MONBLOW_NONE;
+-- 
+2.53.0
+
