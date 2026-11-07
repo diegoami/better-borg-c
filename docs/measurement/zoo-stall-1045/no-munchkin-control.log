@@ -1,0 +1,115 @@
+PLAY target=60000 borg_marked=1
+CHARACTER Measure Human Warrior
+OPTIONS none=0 rogue_like_commands=0 autoexplore_commands=0 use_sound=0 show_damage=0 use_old_target=0 pickup_always=1 pickup_inven=1 show_flavors=0 show_target=1 highlight_player=0 disturb_near=1 solid_walls=0 hybrid_walls=0 view_yellow_light=0 animate_flicker=0 center_player=0 purple_uniques=0 auto_more=0 hp_changes_color=1 mouse_movement=1 notify_recharge=0 effective_speed=0 cheat_hear=0 score_hear=0 cheat_room=0 score_room=0 cheat_xtra=0 score_xtra=0 cheat_live=0 score_live=0 birth_randarts=0 birth_connect_stairs=1 birth_force_descend=0 birth_no_recall=0 birth_no_artifacts=0 birth_stacking=1 birth_lose_arts=0 birth_feelings=1 birth_no_selling=1 birth_start_kit=1 birth_ai_learn=1 birth_know_runes=0 birth_know_flavors=0 birth_levels_persist=0 birth_percent_damage=0
+STATE start turn=59893 energy=2076456 decisions=0 depth=1 max_depth=6 level=9 max_level=9 hp=129 dead=0 winner=0 borg_rng=0 quick=0 quick_rng=1406981960 rng_index=28 rng=0fe5166240cc93349669e4b1f05132850a425ccdb43ae45e664839e503f1f33608bb81840c30e587adc9c099efe4c0c188327e407e5e62df11b2f09d1cbe68563e89013cd272f59de0ab893fdc10010a11a333e48ed429c1620fbd98c5c7524b3e8fc6287efa67cd85693000266a1f22045ecbbeb22f1d341fe1cc1ca0d57c1b
+BORG 59893 Initializing the Borg... (memory)
+BORG 59893 Initializing the Borg... (borg.txt)
+BORG 59893 Initializing the Borg... (options)
+BORG 59893 Initializing the Borg... (various)
+BORG 59893 Initializing the Borg... done.
+BORG 59893 # Ready...
+BORG 59893 # Installing keypress hook
+BORG_OPTIONS borg_verbose=0 borg_munchkin_start=0 borg_munchkin_level=12 borg_munchkin_depth=16 borg_worships_damage=0 borg_worships_speed=0 borg_worships_hp=0 borg_worships_mana=0 borg_worships_ac=0 borg_worships_gold=0 borg_plays_risky=0 borg_kills_uniques=0 borg_uses_swaps=1 borg_uses_dynamic_calcs=0 borg_stop_dlevel=128 borg_stop_clevel=51 borg_no_deeper=127 borg_stop_king=1 borg_cheat_death=0 borg_respawn_winners=0 borg_respawn_class=-1 borg_respawn_race=-1 borg_chest_fail_tolerance=7 borg_delay_factor=0 borg_money_scum_amount=0 borg_self_scum=1 borg_lunal_mode=0 borg_self_lunal=0 borg_enchant_limit=12 borg_dump_level=1 borg_save_death=1 borg_stop_on_bell=0 borg_allow_strange_opts=0 borg_autosave=0 borg_restore_ignore_settings=0
+ACTIVE_OPTIONS none=0 rogue_like_commands=0 autoexplore_commands=0 use_sound=0 show_damage=0 use_old_target=0 pickup_always=1 pickup_inven=1 show_flavors=0 show_target=1 highlight_player=0 disturb_near=1 solid_walls=0 hybrid_walls=0 view_yellow_light=0 animate_flicker=0 center_player=0 purple_uniques=0 auto_more=0 hp_changes_color=1 mouse_movement=1 notify_recharge=0 effective_speed=0 cheat_hear=0 score_hear=0 cheat_room=0 score_room=0 cheat_xtra=0 score_xtra=0 cheat_live=0 score_live=0 birth_randarts=0 birth_connect_stairs=1 birth_force_descend=0 birth_no_recall=0 birth_no_artifacts=0 birth_stacking=1 birth_lose_arts=0 birth_feelings=1 birth_no_selling=1 birth_start_kit=1 birth_ai_learn=1 birth_know_runes=0 birth_know_flavors=0 birth_levels_persist=0 birth_percent_damage=0
+STATE borg_start turn=59893 energy=2076456 decisions=1 depth=1 max_depth=6 level=9 max_level=9 hp=129 dead=0 winner=0 borg_rng=200539097 quick=1 quick_rng=200539097 rng_index=12 rng=0c4ebc2c0cadedb7a7d6303b06fc70a0bbc2340d658238419f6ece3e0a69802064ae1a5895a16779f6b110cd2f95b8c6ad456ec3592950785eb92ffc437797e686fb5f0cf3345b8ab9811aa31a1ee4f4194c64523459a57db1c549c6568bbe5403a778582f969a3f632782ade7b45668d55a23791f2eeb4f44b75d15bfab5ba8
+BORG 59893 # Standing on dn-stairs
+BORG 59893 # Flowing toward dark-2 at cost 3
+BORG 59903 # Flowing toward dark-2 at cost 3
+BORG 59913 # Resting to recover HP/SP...
+STATE turn_cap turn=60033 energy=2077856 decisions=3 depth=1 max_depth=6 level=9 max_level=9 hp=131 dead=0 winner=0 borg_rng=919835164 quick=0 quick_rng=1406981960 rng_index=23 rng=c3ef46e34e9076f716485481ab2217495cd22fd0d9ece5e2f7db0f3465935a0f0f8ab31946b9621f18297feda652eca24f06880c1e5bc76e2d82434164b7c06f718be3bb29adce278f12c36fd2d333fe459f778be7c92b86520831cd36b3fd1217bdb3b02bd550ebd15eed64f70c7935259887c559df0c99cd6e2efc035d9dde
+CAUSE (alive and well)
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Munchkin Mode
+MESSAGE # Munchkin Mode: I know of a down stair.
+MESSAGE # Munchkin Mode.  Power Diving. 
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Munchkin Mode
+MESSAGE # Munchkin Mode.  Power Climb. 
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Fleeing level. Munchkin Mode
+MESSAGE # Munchkin Mode: I know of a down stair.
+MESSAGE # Munchkin Mode.  Power Diving. 
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Munchkin Mode
+MESSAGE # Munchkin Mode.  Power Climb. 
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Munchkin Mode
+MESSAGE # Munchkin Mode: I know of a down stair.
+MESSAGE # Munchkin Mode.  Power Diving. 
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Munchkin Mode
+MESSAGE # Munchkin Mode.  Power Climb. 
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Munchkin Mode
+MESSAGE # Munchkin Mode: I know of a down stair.
+MESSAGE # Munchkin Mode.  Power Diving. 
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Munchkin Mode
+MESSAGE # Munchkin Mode.  Power Climb. 
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Munchkin Mode
+MESSAGE # Munchkin Mode: I know of a down stair.
+MESSAGE # Munchkin Mode.  Power Diving. 
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Munchkin Mode
+MESSAGE # Munchkin Mode.  Power Climb. 
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # Aborting (terminal disconnect abort).
+MESSAGE # Removing keypress hook
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE Initializing the Borg... (memory)
+MESSAGE Initializing the Borg... (borg.txt)
+MESSAGE Initializing the Borg... (options)
+MESSAGE Initializing the Borg... (various)
+MESSAGE Initializing the Borg... done.
+MESSAGE # Ready...
+MESSAGE # Installing keypress hook
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE A horn blast sounds!
+MESSAGE You hear a sudden stirring in the distance!
+MESSAGE You are no longer poisoned.
+MESSAGE # Resting to recover HP/SP...
+MESSAGE You can see clearly again.

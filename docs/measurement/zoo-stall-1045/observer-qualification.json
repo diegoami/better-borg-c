@@ -1,0 +1,10 @@
+{
+  "m3": {
+    "shared_progress_records": 192,
+    "all_shared_byte_identical": true
+  },
+  "diagnostic": {
+    "shared_progress_records": 204,
+    "all_shared_byte_identical": true
+  }
+}

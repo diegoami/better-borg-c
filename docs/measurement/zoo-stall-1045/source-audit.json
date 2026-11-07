@@ -1,0 +1,44 @@
+{
+  "pins": [
+    "e473720ed88a0f0c7ca66815cef3000eb4a38bc3",
+    "70993393a1c946ce8cd38ee558bf1ce6464350e7"
+  ],
+  "files": {
+    "src/game-world.c": {
+      "identical": true,
+      "sha256": [
+        "2825dccea6e0858e06a731d5c514aa87ec22bc6cb0a8816fa9b0f97c1ffa53b8",
+        "2825dccea6e0858e06a731d5c514aa87ec22bc6cb0a8816fa9b0f97c1ffa53b8"
+      ]
+    },
+    "src/borg/borg-recover.c": {
+      "identical": true,
+      "sha256": [
+        "bb71e6b1d7655e626188090d5261f1948ca805ea4e5882a28523aa918751e9d3",
+        "bb71e6b1d7655e626188090d5261f1948ca805ea4e5882a28523aa918751e9d3"
+      ]
+    },
+    "src/borg/borg-flow-stairs.c": {
+      "identical": true,
+      "sha256": [
+        "0e5355689ebd03ec339af5636a7a8044183712471aabcfbdf0a02fef4efc94a3",
+        "0e5355689ebd03ec339af5636a7a8044183712471aabcfbdf0a02fef4efc94a3"
+      ]
+    },
+    "src/borg/borg-think-dungeon.c": {
+      "identical": false,
+      "sha256": [
+        "3151fb508ca305a107438cad89d2c5d0ea9c78151f4ba8904f3a3972aeb2e453",
+        "34fc4b9b292ccab203ef18382c47d2cfe2574188c579ace7e9539fb238f5a696"
+      ]
+    },
+    "src/borg/borg-flow-misc.c": {
+      "identical": false,
+      "sha256": [
+        "704620fb3833b5ce99116b510b7ae846520fb4af582fb483ad34d5db84ff823b",
+        "97b9c3b1e4be0e8e66928618c8909199aed41a559c27c664cc678668703ba918"
+      ]
+    }
+  },
+  "diff": "diff --git a/src/borg/borg-flow-misc.c b/src/borg/borg-flow-misc.c\nindex bbc6e1eca..749e3858f 100644\n--- a/src/borg/borg-flow-misc.c\n+++ b/src/borg/borg-flow-misc.c\n@@ -839,6 +839,11 @@ bool borg_flow_light(int why)\n             if (!(ag->info & BORG_GLOW))\n                 continue;\n \n+            /* Stop when the glow arrays are full: the panel can hold\n+             * more glowing grids than AUTO_LIGHT_MAX. */\n+            if (borg_glow_n >= AUTO_LIGHT_MAX)\n+                continue;\n+\n             /* keep count */\n             borg_glow_y[borg_glow_n] = y;\n             borg_glow_x[borg_glow_n] = x;\ndiff --git a/src/borg/borg-think-dungeon.c b/src/borg/borg-think-dungeon.c\nindex 243bb0fd0..4efebabb4 100644\n--- a/src/borg/borg-think-dungeon.c\n+++ b/src/borg/borg-think-dungeon.c\n@@ -901,6 +901,11 @@ static bool borg_think_dungeon_munchkin(void)\n         /* Try to find some stairs */\n         if (borg_flow_stair_both(GOAL_FLEE, false))\n             return true;\n+\n+        /* Re-acquire the Borg's own grid: the adjacent-monster scan above\n+         * leaves ag pointing at the last neighbour it examined. */\n+        ag = &borg_grids[borg.c.y][borg.c.x];\n+\n         if (ag->feat == FEAT_LESS && !OPT(player, birth_force_descend)) {\n             /* Take the Up Stair */\n             borg_keypress('<');\n"
+}

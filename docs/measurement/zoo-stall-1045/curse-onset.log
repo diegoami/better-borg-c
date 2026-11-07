@@ -1,0 +1,70 @@
+BORG 59863 # Parsing msg <This seems a tame, sheltered place. You have found a secret door.>
+BORG 59863 # Parse Msg bite <You enter a maze of down staircases.>
+BORG 59863 & Key < > (0x20)
+BORG 59863 # Parse Msg bite <This seems a tame, sheltered place.>
+BORG 59863 > Reacting Msg (This seems a tame, sheltered place.)
+BORG 59863 # Parse Msg bite <You have found a secret door.>
+BORG 59863 # FEELING_DANGER:8 (+)
+BORG 59863 # Creating an object '& Handful~ of Dried Fruits' at (25,10)
+BORG 59863 # FEELING_DANGER:8 (1)
+BORG 59863 DIAG safe=1 scary=0 hp=131/131 hungry=0 weak=0
+BORG 59863 # Flowing toward munchkin item at cost 2
+BORG 59863 & Key <8> (0x38)
+BORG 59870 # message with -more-
+BORG 59870 # Parsing msg <You have found a secret door. You feel drugged!>
+BORG 59870 clearing -more-
+BORG 59870 & Key < > (0x20)
+BORG 59870 # message with -more-
+BORG 59870 # Parsing msg <You have learned the rune of hallucination curse. You are poisoned!>
+BORG 59870 # Parse Msg bite <You have found a secret door.>
+BORG 59870 # Parse Msg bite <You feel drugged!>
+BORG 59870 # Hallucinating.  Special control of wanks.
+BORG 59870 clearing -more-
+BORG 59870 & Key < > (0x20)
+BORG 59873 # parse normal message
+BORG 59873 # Parsing msg <You have learned the rune of poison curse.>
+BORG 59873 # Parse Msg bite <You have learned the rune of hallucination curse.>
+BORG 59873 # Parse Msg bite <You are poisoned!>
+BORG 59873 & Key < > (0x20)
+BORG 59873 # Parse Msg bite <You have learned the rune of poison curse.>
+BORG 59873 # Forgetting an object '& Handful~ of Dried Fruits' at (10,25)
+BORG 59873 DIAG safe=1 scary=0 hp=131/131 hungry=0 weak=0
+BORG 59873 # Wearing Pair of Leather Sandals [1,+0].
+BORG 59873 & Key <w> (0x77)
+BORG 59873 & Key <t> (0x74)
+BORG 59873 # message with -more-
+BORG 59873 # Parsing msg <You are wearing a Pair of Leather Sandals [1,+0] (p).>
+BORG 59873 clearing -more-
+BORG 59873 & Key < > (0x20)
+BORG 59883 # parse normal message
+BORG 59883 # Parsing msg <You were wearing a Pair of Leather Sandals [1,+0] {cursed} (t).>
+BORG 59883 # Parse Msg bite <You are wearing a Pair of Leather Sandals [1,+0] (p).>
+BORG 59883 & Key < > (0x20)
+BORG 59883 # Parse Msg bite <You were wearing a Pair of Leather Sandals [1,+0] {cursed} (t).>
+BORG 59883 DIAG safe=1 scary=0 hp=130/131 hungry=0 weak=0
+BORG 59883 # Fleeing level. Munchkin Mode
+BORG 59883 # Munchkin Mode.  Power Climb. 
+BORG 59883 # Flowing toward up-stairs at cost 1
+BORG 59883 # Looking for stairs. Munchkin Mode.
+BORG 59883 & Key <2> (0x32)
+BORG 59893 # parse normal message
+BORG 59893 # Parsing msg <You hear a door burst open!>
+BORG 59893 & Key < > (0x20)
+BORG 59893 # Parse Msg bite <You hear a door burst open!>
+BORG 59893 DIAG safe=1 scary=0 hp=129/131 hungry=0 weak=0
+BORG 59893 # Fleeing level. Munchkin Mode
+DETAIL turn=59893 decisions=12726 energy=1301156 depth=2 pos=25,12 borgpos=25,12 borgdepth=2 ownfeat=5 nativefeat=5 munchkin=1 flee=1 flee_munchkin=1 less=1 goal=0 goalpos=25,12 flow=0 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up=25,12; down=
+BORG 59893 # Munchkin Mode.  Power Climb. 
+DETAIL turn=59893 decisions=12726 energy=1301156 depth=2 pos=25,12 borgpos=25,12 borgdepth=2 ownfeat=5 nativefeat=5 munchkin=1 flee=1 flee_munchkin=1 less=1 goal=0 goalpos=25,12 flow=0 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up=25,12; down=
+BORG 59893 # Flowing toward up-stairs at cost 0
+BORG 59893 & Key <<> (0x3C)
+BORG 59893 # message with -more-
+BORG 59893 # Parsing msg <You enter a maze of up staircases.>
+BORG 59893 clearing -more-
+BORG 59893 & Key < > (0x20)
+BORG 59893 # parse normal message
+BORG 59893 # Parsing msg <This seems a quiet, peaceful place.>
+BORG 59893 # Parse Msg bite <You enter a maze of up staircases.>
+BORG 59893 & Key < > (0x20)
+BORG 59893 # Parse Msg bite <This seems a quiet, peaceful place.>
+BORG 59893 > Reacting Msg (This seems a quiet, peaceful place.)
