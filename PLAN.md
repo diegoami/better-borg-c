@@ -325,6 +325,23 @@ concurrent-session process/tooling context (recording/replay feature and
 death documentation outside the build inputs; tooling 41→71). No external
 verdict is claimed; the owner launches the review.
 
+Consumer201/source205 (gloves-205) merged as 813feaec7 (PR202, import
+c52527eed, patch 0045): borg_notice_armour_swap()'s armour-swap case
+list accepted HELM, CROWN, SHIELD, CLOAK, SOFT_ARMOR, HARD_ARMOR and
+DRAG_ARMOR but never TV_GLOVES, so free-action gauntlets in the pack
+could never be chosen as the armour swap when the Borg has no free
+action; the correction adds case TV_GLOVES to the list. The unchanged
+source evidence fixture verifies glove-fa armour_swap=0/free_act=0
+fail-before / armour_swap=1/free_act=1 pass-after with the plain-glove
+and free-action-already-worn controls byte-identical and the expected
+#399 init-overflow reports in every sanitized phase; borg-trait-swap.c
+is pristine and the verifier proves the source diff applied to the
+pristine before module equals the product module. Gate 965/965 + 5/5,
+tooling 85/85, and all 143 prior matrix cases match the recorded
+forty-four-carry tally. Post-merge frozen v1 measurement: seeds
+11/29/47 all turn_cap alive and well with whole-trace hashes identical
+to the forty-four-carry (calllight) run — behavior-neutral on the
+cohort. Next: recheck source207 for newer demonstrations.
 Consumer196/source231 (calllight-231) merged as 85b6ba8e3 (PR198,
 import cda4fb662, patch 0044): the out-of-light routine's call-light
 scan looped over the eight neighbours but its open-doorway special case
