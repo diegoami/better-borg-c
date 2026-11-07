@@ -285,6 +285,8 @@ static void diagnostics(void)
         borg.goal.fleeing_to_town, borg.avoidance);
 }
 
+#include "native-inventory.h"
+
 void record_frame(const char *phase, long decisions)
 {
     int x, y, i, full, comma = 0;
@@ -338,6 +340,7 @@ void record_frame(const char *phase, long decisions)
     if (full || detail_hash != previous_details) diagnostics();
     else fprintf(frames, "null");
     previous_details = detail_hash;
+    replay_inventory(full);
     fprintf(frames, "}\n");
     fflush(frames);
 }

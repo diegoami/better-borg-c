@@ -152,3 +152,35 @@ and instrumented source overlays explain the original engine; Linux ABI/runtime
 compatibility is still required. Retain original binaries rather than refreshing
 recording caches in place. Rebuilding is a new engine variant until separately
 qualified, never a silent historical replacement.
+
+## Player-readable inventory
+
+In the replay, `i` shows the pack and `e` shows equipment/quiver, using normal
+slot letters, quantities, Angband item descriptions, weights, fuel, charges and
+inscriptions. Unknown objects retain the character's unidentified appearances;
+the old diagnostic true-kind list is available separately under `d`. Inventory
+panels pause autoplay. Escape returns to the original screen; q exits.
+
+New recording exports use native `object_desc(ODESC_PREFIX | ODESC_FULL)` with
+player knowledge, never ODESC_SPOIL, and the actual pack/equipment/quiver order.
+The observer restores the two everseen flags that object_desc normally sets;
+it does not call interactive inventory commands, learn items, spend energy or
+change Borg decisions. Delta frames retain the last native inventory snapshot.
+
+Older immutable recordings lack those descriptions and slot/knowledge details.
+A normal interactive replay can prepare a separate observation-enriched rebuild
+of the ACTUAL historical source plus its FROZEN recording overlay. Only the
+inventory observation is added. Qualification requires all original external
+inputs/actions/clock/files, trace, frame fields including RNG/native world hashes,
+and native save bytes to match. Only the newly added inventory JSON field is
+excluded from that comparison; original inventory fields, if present, remain
+strict. Failure retains evidence and stops without a claimed native inventory.
+The original recording/engine/death identity is never overwritten. The first
+preparation compiles locally and reruns the original life; later opens reuse a
+hashed qualified cache under primary artifacts/death-workflow/inventory.
+
+`--view-only` never builds or executes an engine. It can use an existing qualified
+inventory cache; otherwise an older movie explicitly says inventory was not
+captured and asks for a normal replay. It never guesses native names or reveals
+raw diagnostic identities as the character's inventory. `--verify-only` and
+`--dump-turn` retain the existing strict original-engine verification semantics.

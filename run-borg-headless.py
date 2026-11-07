@@ -9,6 +9,7 @@ import importlib.util
 import inspect
 import json
 import os
+import secrets
 from pathlib import Path
 import shutil
 import subprocess
@@ -35,7 +36,7 @@ def locked(path, blocking=True):
 
 def compatible_builds():
     """Old GAME sources are usable only with this recording implementation."""
-    names = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h')
+    names = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h')
     expected = {name: measurement.sha(ROOT / 'tools' / name) for name in names}
     folder = ROOT / 'artifacts/headless/builds'
     for path in sorted(folder.glob('*/build.json'), key=lambda p: p.stat().st_mtime, reverse=True):
@@ -63,7 +64,7 @@ def prepared_build(allow_build=True):
     identity.update(inspect.getsource(measurement.prepare).encode())
     identity.update(inspect.getsource(measurement.named_play_bridge).encode())
     identity.update(inspect.getsource(measurement.recording_profile).encode())
-    for name in ('native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h'):
+    for name in ('native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h'):
         identity.update((ROOT / 'tools' / name).read_bytes())
     build = ROOT / 'artifacts/headless/builds' / (commit[:12] + '-' + identity.hexdigest()[:12])
     if build.exists():
@@ -110,6 +111,7 @@ def run(args):
             if args.from_backup is not None:
                 borg_saves.restore(save, args.from_backup)
             original_digest = borg_saves.backup(save)
+            seed = args.seed if args.seed is not None else secrets.randbits(32)
             stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
             out = ROOT / 'artifacts/headless/runs' / stamp
             # The runner itself creates its output directory; preserve the input
@@ -124,13 +126,16 @@ def run(args):
             config = user_config.read_text() if user_config.exists() else ''
             config += '\nborg_save_death = 1\n'
             print(f'Character: {args.character}; additional engine turns: {args.turns}', flush=True)
+            if original_digest is None:
+                print(f'New character birth: {getattr(args, "birth", "random")}; seed: {seed}', flush=True)
             print('Waiting for the shared native validation lock...', flush=True)
             with locked(Path('/tmp/angband-validation.lock')):
                 build = prepared_build()
-                options = SimpleNamespace(build=build, output=out, seed=args.seed, cap=2,
+                options = SimpleNamespace(build=build, output=out, seed=seed, cap=2,
                     timeout=args.timeout, stall_timeout=args.stall_timeout, no_saves=False,
                     load=frozen if original_digest else None, play_turns=args.turns,
-                    save_name=args.character, configuration=config, recording=True)
+                    save_name=args.character, configuration=config, recording=True,
+                    random_birth=getattr(args, 'birth', 'random') == 'random')
                 code = measurement.run(options)
             result = json.loads((out / 'result.json').read_text())
             result['named_save'] = str(save)
@@ -171,7 +176,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('character', help='same save name used by start-borg.sh')
     parser.add_argument('--turns', type=int, required=True, help='additional engine turns; stop at the next command boundary')
-    parser.add_argument('--seed', type=int, default=1, help='new-character RNG seed (loaded saves restore their own game RNG)')
+    parser.add_argument('--birth', choices=('random', 'fixed'), default='random', help='NEW character race/class: random (default) or Human Warrior; loaded saves keep their character')
+    parser.add_argument('--seed', type=int, help='new-character RNG seed (default random; loaded saves restore their own game RNG)')
     parser.add_argument('--timeout', type=int, default=300, help='wall limit in seconds; failures leave the original save untouched')
     parser.add_argument('--stall-timeout', type=int, default=30)
     parser.add_argument('--from-backup', type=int, choices=range(1, 6), nargs='?', const=1,
@@ -180,7 +186,7 @@ def main():
                         help='discussion/work issue linked from any newly exported death dossier')
     args = parser.parse_args()
     if (not args.character or args.character[0] in '.-' or '/' in args.character
-            or not 1 <= args.turns <= 2147483647 or not 0 <= args.seed <= 0xffffffff
+            or not 1 <= args.turns <= 2147483647 or (args.seed is not None and not 0 <= args.seed <= 0xffffffff)
             or args.timeout < 1 or args.stall_timeout < 1):
         parser.error('Use a plain character name, positive limits and a uint32 seed')
     try:

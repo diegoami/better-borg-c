@@ -50,7 +50,7 @@ def named_play_bridge(source):
 
 
 def recording_profile(source):
-    for name in ('native-replay.c', 'native-replay.h'):
+    for name in ('native-replay.c', 'native-replay.h', 'native-inventory.h'):
         (source / 'src' / name).write_bytes((ROOT / 'tools' / name).read_bytes())
     for name in ('main.c', 'ui-term.c', 'borg/borg.c'):
         path = source / 'src' / name
@@ -211,6 +211,12 @@ key z
 '''
 
 
+def birth_keys(random_birth=False):
+    # Use the native UI's random choices; its seeded game RNG determines them.
+    # Regression cohorts retain the original fixed Human Warrior input.
+    return INPUT.replace('key a\nkey a\n', 'key *\nkey *\n', 1) if random_birth else INPUT
+
+
 def parse_states(text):
     states = []
     for line in text.splitlines(keepends=True):
@@ -273,9 +279,10 @@ def run(args):
     config = getattr(args, 'configuration', None)
     config = (config + '\n' if config is not None else '') + 'borg_cheat_death = FALSE\nborg_respawn_winners = FALSE\n'
     (out / 'user/borg.txt').write_text(config)
-    run_input = ('key space\nkey C-z\nkey space\nkey space\nkey y\nkey z\n' if args.load else INPUT)
+    birth_input = birth_keys(getattr(args, 'random_birth', False))
+    run_input = ('key space\nkey C-z\nkey space\nkey space\nkey y\nkey z\n' if args.load else birth_input)
     if play_turns:
-        run_input = 'key space\n' if args.load else INPUT.split('key C-z')[0]
+        run_input = 'key space\n' if args.load else birth_input.split('key C-z')[0]
     (out / 'input.txt').write_text(run_input)
     command = [str(build / 'build/game/angband'), '-mtest', '-u' + getattr(args, 'save_name', 'Measure')]
     command += [f'-d{d}={out / d}' for d in ('user', 'archive', 'save', 'scores', 'panic')]
@@ -337,6 +344,9 @@ def run(args):
         result['states'] = states
         result['outcome'] = classify(p.returncode, states, interrupted)
         result['cause'] = next((line[6:] for line in trace.splitlines() if line.startswith('CAUSE ')), None)
+        if getattr(args, 'random_birth', False) and not args.load:
+            result['birth_policy'] = 'native random race and class; default point buy; game-seed reproducible'
+            result['character'] = next((s[10:] for s in trace.splitlines() if s.startswith('CHARACTER ')), 'unknown')
         if play_turns:
             result['requested_additional_turns'] = play_turns
             result['character'] = next((s[10:] for s in trace.splitlines() if s.startswith('CHARACTER ')), 'unknown')
@@ -387,6 +397,7 @@ def main():
     r.add_argument('--cap', type=int, required=True)
     r.add_argument('--timeout', type=int, default=120)
     r.add_argument('--stall-timeout', type=int, default=30)
+    r.add_argument('--random-birth', action='store_true', help='native random race and class for a NEW character; fixed cohort defaults unchanged')
     r.add_argument('--load', type=Path, help='diagnostic load; continuation reproducibility is not assumed')
     r.add_argument('--no-saves', action='store_true', help='observer non-interference control')
     args = p.parse_args()

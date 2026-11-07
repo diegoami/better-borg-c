@@ -24,7 +24,7 @@ def load(name, filename):
 
 workflow = load('producer_helpers', 'death-workflow.py')
 measurement = load('producer_measurement', 'measure-native.py')
-BUILD_TOOLS = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h')
+BUILD_TOOLS = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h')
 DEFAULT_ISSUE = 'https://github.com/diegoami/better-borg-c/issues/163'
 
 
@@ -82,7 +82,8 @@ def collect(args, output, seeds, commit):
             'source_commit': commit, 'seeds': seeds, 'turn_cap': args.turns,
             'wall_limit_per_game_seconds': args.timeout, 'stall_timeout_seconds': args.stall_timeout,
             'stop_rule': 'first natural death, operational failure, or listed seeds exhausted',
-            'character': 'Human Warrior; default point buy; native Borg defaults; death evidence on; cheat death and winner respawn off',
+            'birth_policy': getattr(args, 'birth', 'random'),
+            'character': ('Random race and class' if getattr(args, 'birth', 'random') == 'random' else 'Human Warrior') + '; default point buy; native Borg defaults; death evidence on; cheat death and winner respawn off',
             'runner_sha256': workflow.sha(Path(__file__)), 'issue': args.death_issue,
             'runs': [], 'counts': {}, 'status': 'preparing',
             'limit': 'Death collection, not an unbiased survival-rate cohort; all attempted outcomes retained.'}
@@ -101,9 +102,10 @@ def collect(args, output, seeds, commit):
                 print(f'Game {index}/{len(seeds)}; seed {seed}; cap {args.turns}', flush=True)
                 code = measurement.run(SimpleNamespace(build=build, output=run, seed=seed, cap=args.turns,
                     timeout=args.timeout, stall_timeout=args.stall_timeout, no_saves=False, load=None,
-                    recording=True, configuration='borg_save_death = 1\n'))
+                    recording=True, random_birth=getattr(args, 'birth', 'random') == 'random', configuration='borg_save_death = 1\n'))
                 result = workflow.read(run / 'result.json')
-                entry.update(outcome=result['outcome'], cause=result.get('cause'),
+                print('Character: ' + result.get('character', 'unknown'), flush=True)
+                entry.update(outcome=result['outcome'], cause=result.get('cause'), character=result.get('character'),
                              result_sha256=workflow.sha(run / 'result.json'), wall_seconds=result.get('wall_seconds'),
                              final=result.get('states', [None])[-1] if result.get('states') else None)
                 plan['counts'] = dict(Counter(e['outcome'] for e in plan['runs']))
@@ -133,6 +135,7 @@ def collect(args, output, seeds, commit):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--birth', choices=('random', 'fixed'), default='random', help='new characters: random race/class (default), or fixed Human Warrior')
     p.add_argument('--games', type=int, help='maximum games (default3); stops after first death/failure')
     p.add_argument('--seed', type=int, help='first uint32 seed (default random); subsequent seeds are consecutive')
     p.add_argument('--seeds', nargs='+', type=int, help='explicit prospective seed list instead of --games/--seed')

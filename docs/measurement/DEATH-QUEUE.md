@@ -108,3 +108,21 @@ Queue handoff: D0004 historical original C34 recording rerun VERIFIED via
 Owner review ledger and historical dossiers were unchanged; no desktop window,
 new natural death or personal character publication. Default queue honestly
 reported no unseen available movie.
+
+## Random characters for new exploration games
+
+Owner request: fresh `produce_death.py` games now default to native random race
+AND class. `--birth fixed` selects the old Human Warrior profile explicitly.
+The native birth menus receive `*`, so the recorded game seed determines both
+choices through ordinary game RNG; point buy remains the game's class-specific
+default. The prospective seed list, effective input and actual native CHARACTER
+are retained. A game is not described as Human Warrior merely because it used
+the exploration runner.
+
+Fresh `run-borg-headless.py NAME --turns N` characters use the same random-birth
+policy and a randomly chosen seed when --seed is omitted. Explicit --seed is
+reproducible, and --birth fixed remains available. Loaded saves retain their
+character; visible manual birth still follows the player's choices. Frozen
+ordinary measurement cohorts retain their original fixed birth unless explicitly
+run with the new --random-birth option. Historical cases and baselines are not
+rewritten by this new exploration default.

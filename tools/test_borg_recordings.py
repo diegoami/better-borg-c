@@ -72,6 +72,38 @@ class FrameInspection(unittest.TestCase):
             finally:
                 frames.close()
 
+    def test_native_inventory_survives_deltas_without_spoiler_fallback(self):
+        inventory = {'pack': [{'label': 'c', 'description': '4 Crimson Potions', 'weight': 16, 'attr': 4}],
+                     'equipment': [], 'quiver': [], 'total_weight': 16, 'remaining_weight': 900}
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            streams(root, [frame(1, 1, 1, [], inventory=inventory),
+                           frame(2, 2, 0, [], inventory=None, details={'gear': [{'actual_kind': 'Sleep'}]})])
+            frames = viewer.Frames(root)
+            try:
+                reconstructed = frames.get(1)[0]
+                lines = str(viewer.inventory_rows(reconstructed))
+                self.assertIn('c) 4 Crimson Potions', lines)
+                self.assertNotIn('Sleep', lines)
+                self.assertIn('1.6 lb', lines)
+            finally:
+                frames.close()
+        self.assertNotIn('Sleep', str(viewer.inventory_rows({'diagnostics': {'gear': [{'actual_kind': 'Sleep'}]}})))
+
+    def test_inventory_extension_cannot_hide_any_original_field_difference(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            a, b = Path(tmp) / 'original', Path(tmp) / 'rerun'
+            base = frame(1, 1, 1, [[0,64,1]])
+            streams(a, [base])
+            streams(b, [dict(base, inventory={'pack': []})])
+            self.assertIsNone(replay.first_difference(a, b, inventory_extension=True))
+            self.assertIsNotNone(replay.first_difference(a, b))
+            streams(b, [dict(base, hp=1, inventory={'pack': []})])
+            self.assertIsNotNone(replay.first_difference(a, b, inventory_extension=True))
+            with (b / 'frames.jsonl').open('a') as target:
+                target.write('{"inventory": {}}\n')
+            self.assertIsNotNone(replay.first_difference(a, b, inventory_extension=True))
+
     def test_missing_first_full_frame_is_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

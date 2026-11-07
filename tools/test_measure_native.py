@@ -16,6 +16,12 @@ spec.loader.exec_module(measure)
 
 
 class Results(unittest.TestCase):
+    def test_random_birth_is_opt_in_to_frozen_measurement_and_uses_native_choices(self):
+        self.assertEqual(measure.birth_keys(), measure.INPUT)
+        self.assertTrue(measure.birth_keys().startswith('key space\nkey a\nkey a\nkey a\n'))
+        self.assertTrue(measure.birth_keys(True).startswith('key space\nkey *\nkey *\nkey a\n'))
+        self.assertEqual(measure.birth_keys(True).split('key C-z')[1], measure.INPUT.split('key C-z')[1])
+
     def test_no_result_is_failure_even_on_zero_exit(self):
         self.assertEqual(measure.classify(0, []), 'harness_failure')
 
