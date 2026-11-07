@@ -1,0 +1,27 @@
+Original recording: frame 194367, engine turn 179013, phase tick; HP 20, SP 2, depth 1
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You hit the white jelly.                                                        
+Gnome                                                                           
+Novice                                                                          
+Mage                                         ###                                
+LEVEL      4                                 #<#                                
+NXT       14                                 #.#                                
+AU       239                                 #..   ...                          
+| =  ~(()]]]                           #######.#   ...                          
+STR:      13                       #####....j..#####...                         
+INT:   18/30                     ###........@......##..                         
+WIS:      10                     #...c...............#.#                        
+DEX:      12                     ###.......p.......##'.#                        
+CON:      15                       #####.......#######.#                        
+                                 ###...............###                          
+Cur AC    25                     ..........R.........#.                         
+HP   20/  27                     ###...............##'.#                        
+SP    2/   8                       #####.......######..#                        
+                                       #########     ..#                        
+[*********-]                                                                    
+                                                                                
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:2-1 Light 3  Poisoned Fed 30 % DTrap Open floor                 

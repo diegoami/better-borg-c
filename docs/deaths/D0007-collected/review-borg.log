@@ -1,0 +1,548 @@
+BORG 178276 # Scary guy on level.
+BORG 178276 # Fleeing and leaving the level. (scaryguy)
+BORG 178276 # Flowing toward down-stairs at cost 1
+BORG 178276 # Desperate for Stairs (four)
+BORG 178286 # Scary guy on level.
+BORG 178286 # Standing on dn-stairs
+BORG 178286 # Fleeing and leaving the level. (scaryguy)
+BORG 178286 # FEELING_DANGER:8 (+)
+BORG 178286 # FEELING_DANGER:8 (1)
+BORG 178286 # Fleeing level. Scumming Mode
+BORG 178286 # Leaving (finish shopping)
+BORG 178286 # Standing on up-stairs
+BORG 178286 # Leaving via up stairs.
+BORG 178286 # Creating a monster 'filthy street urchin' at (4,33), HP: 3, Index: 1
+BORG 178286 # Removing Regional Fear (4,33) because of a LOS filthy street urchin
+BORG 178286 # Creating a monster 'filthy street urchin' at (3,34), HP: 3, Index: 1
+BORG 178286 # Removing Regional Fear (3,34) because of a LOS filthy street urchin
+BORG 178286 # Creating a monster 'filthy street urchin' at (3,33), HP: 3, Index: 1
+BORG 178286 # Removing Regional Fear (3,33) because of a LOS filthy street urchin
+BORG 178286 # Scary guy on level.
+BORG 178286 # Leaving (Scary guy on level)
+BORG 178286 # Fleeing (Scary guy on level)
+BORG 178286 # Standing on dn-stairs
+BORG 178286 # Fleeing and leaving the level. (scaryguy)
+BORG 178286 # FEELING_DANGER:9 (+)
+BORG 178286 # Creating a monster 'clear icky thing' at (43,85), HP: 9, Index: 22
+BORG 178286 # Removing Regional Fear (43,85) because of a LOS clear icky thing
+BORG 178286 # FEELING_DANGER:9 (1)
+BORG 178286 # Fleeing level. Scumming Mode
+BORG 178286 # Leaving (finish shopping)
+BORG 178286 # Loc:45,85 Dep:1 Lev:4 HP:27/27 SP:8/8 Danger:p=2
+BORG 178286 # Standing on up-stairs
+BORG 178286 # Leaving via up stairs.
+BORG 178286 # Creating a monster 'battle-scarred veteran' at (4,33), HP: 40, Index: 14
+BORG 178286 # Removing Regional Fear (4,33) because of a LOS battle-scarred veteran
+BORG 178286 # Scary guy on level.
+BORG 178286 # Leaving (Scary guy on level)
+BORG 178286 # Fleeing (Scary guy on level)
+BORG 178286 # Standing on dn-stairs
+BORG 178286 # Fleeing and leaving the level. (scaryguy)
+BORG 178286 # FEELING_DANGER:8 (+)
+BORG 178286 # Creating an object 'Boldness' at (101,10)
+BORG 178286 # Creating an object '& Handful~ of Dried Fruits' at (102,8)
+BORG 178286 # FEELING_DANGER:8 (1)
+BORG 178286 # Flowing toward Scum item at cost 5
+BORG 178296 # Creating a monster 'soldier' at (14,100), HP: 28, Index: 36
+BORG 178296 # Removing Regional Fear (14,100) because of a LOS soldier
+BORG 178316 # Creating an object '& Apple~' at (97,13)
+BORG 178316 # Creating an object '& Ration~ of Food' at (100,10)
+BORG 178316 # Creating a monster 'cutpurse' at (15,98), HP: 15, Index: 37
+BORG 178316 # Removing Regional Fear (15,98) because of a LOS cutpurse
+BORG 178316 # Creating a monster 'salamander' at (13,99), HP: 16, Index: 44
+BORG 178316 # Removing Regional Fear (13,99) because of a LOS salamander
+BORG 178316 # Flowing toward Scum item at cost 2
+BORG 178326 # Creating an object '& Handful~ of Dried Fruits' at (98,9)
+BORG 178326 # Creating an object '& Handful~ of Dried Fruits' at (95,10)
+BORG 178326 # Creating a monster 'giant white centipede' at (9,93), HP: 9, Index: 20
+BORG 178326 # Removing Regional Fear (9,93) because of a LOS giant white centipede
+BORG 178326 # Creating a monster 'white jelly' at (7,100), HP: 29, Index: 41
+BORG 178326 # Removing Regional Fear (7,100) because of a LOS white jelly
+BORG 178326 # Flowing toward Scum item at cost 1
+BORG 178326 # Walking onto and deleting a '& Handful~ of Dried Fruits' at (8,102)
+BORG 178337 # Flowing toward Scum item at cost 2
+BORG 178347 # Creating a monster 'clear icky thing' at (10,98), HP: 3, Index: 22
+BORG 178347 # Removing Regional Fear (10,98) because of a LOS clear icky thing
+BORG 178347 # Flowing toward Scum item at cost 1
+BORG 178347 # Walking onto and deleting a 'Boldness' at (10,101)
+BORG 178358 # Flowing toward Scum item at cost 1
+BORG 178358 # Walking onto and deleting a '& Ration~ of Food' at (10,100)
+BORG 178369 # FEELING_STUFF:10 (+)
+BORG 178369 # PAIN:The clear icky thing (+)
+BORG 178369 # FEELING_STUFF:10 (1)
+BORG 178369 # PAIN:The clear icky thing (2)
+BORG 178369 # Fleeing level. Scumming Mode
+BORG 178369 # Leaving (finish shopping)
+BORG 178369 # Scary guy on level.
+BORG 178369 # Loc:10,100 Dep:1 Lev:4 HP:27/27 SP:8/8 Danger:p=25
+BORG 178369 # Fleeing and leaving the level. (scaryguy)
+BORG 178369 # Flowing toward up-stairs at cost 7
+BORG 178369 # Desperate for Stairs (three)
+BORG 178379 # Tracking a monster 'clear icky thing' at (9,99) from (10,98)
+BORG 178379 # Fleeing level. Scumming Mode
+BORG 178379 # Scary guy on level.
+BORG 178379 # Loc:9,100 Dep:1 Lev:4 HP:27/27 SP:8/8 Danger:p=23
+BORG 178379 # Fleeing and leaving the level. (scaryguy)
+BORG 178379 # No Phase. scary squares: 44
+BORG 178379 # Safe to Phase. scary squares: 45
+BORG 178379 # Casting Phase Door (0,3).
+BORG 178379 # Danger Level 4.3
+BORG 178389 # Fleeing level. Scumming Mode
+BORG 178389 # Scary guy on level.
+BORG 178389 # Fleeing and leaving the level. (scaryguy)
+BORG 178389 # Flowing toward up-stairs at cost 12
+BORG 178389 # Desperate for Stairs (three)
+BORG 178399 # Fleeing level. Scumming Mode
+BORG 178399 # Scary guy on level.
+BORG 178399 # Fleeing and leaving the level. (scaryguy)
+BORG 178399 # Flowing toward up-stairs at cost 11
+BORG 178399 # Desperate for Stairs (three)
+BORG 178409 # Fleeing level. Scumming Mode
+BORG 178409 # Scary guy on level.
+BORG 178409 # Fleeing and leaving the level. (scaryguy)
+BORG 178409 # Flowing toward up-stairs at cost 10
+BORG 178409 # Desperate for Stairs (three)
+BORG 178419 # Fleeing level. Scumming Mode
+BORG 178419 # Scary guy on level.
+BORG 178419 # Fleeing and leaving the level. (scaryguy)
+BORG 178419 # Flowing toward up-stairs at cost 9
+BORG 178419 # Desperate for Stairs (three)
+BORG 178429 # Fleeing level. Scumming Mode
+BORG 178429 # Scary guy on level.
+BORG 178429 # Fleeing and leaving the level. (scaryguy)
+BORG 178429 # Flowing toward up-stairs at cost 8
+BORG 178429 # Desperate for Stairs (three)
+BORG 178439 # Fleeing level. Scumming Mode
+BORG 178439 # Scary guy on level.
+BORG 178439 # Fleeing and leaving the level. (scaryguy)
+BORG 178439 # Flowing toward up-stairs at cost 7
+BORG 178439 # Desperate for Stairs (three)
+BORG 178449 # HIT_BY:The cutpurse (+)
+BORG 178449 # MISS_BY:The cutpurse (+)
+BORG 178449 # Tracking a monster 'clear icky thing' at (10,101) from (9,99)
+BORG 178449 # Tracking a monster 'cutpurse' at (10,103) from (15,98)
+BORG 178449 # HIT_BY:The cutpurse (3)
+BORG 178449 # MISS_BY:The cutpurse (3)
+BORG 178449 # Fleeing level. Scumming Mode
+BORG 178449 # Scary guy on level.
+BORG 178449 # Loc:9,104 Dep:1 Lev:4 HP:25/27 SP:6/8 Danger:p=385
+BORG 178449 # Fleeing and leaving the level. (scaryguy)
+BORG 178449 # Safe to Phase. scary squares: 47
+BORG 178449 # Reading Scrolls of Phase Door.
+BORG 178449 # Danger Level 1.
+BORG 178459 # Fleeing level. Scumming Mode
+BORG 178459 # Scary guy on level.
+BORG 178459 # Fleeing and leaving the level. (scaryguy)
+BORG 178459 # Casting Detect Monsters (0,5).
+BORG 178459 # Checking for monsters.
+BORG 178469 # SELF:evil (+)
+BORG 178469 # Detected evil (0,1 to 1,2)
+BORG 178469 # Tracking a monster 'cutpurse' at (12,103) from (10,103)
+BORG 178469 # SELF:evil (1)
+BORG 178469 # Fleeing level. Scumming Mode
+BORG 178469 # Scary guy on level.
+BORG 178469 # Fleeing and leaving the level. (scaryguy)
+BORG 178469 # Casting Find Traps, Doors & Stairs (0,2).
+BORG 178469 # Checking for traps, doors & stairs.
+BORG 178479 # SELF:both (+)
+BORG 178479 # Detected traps and doors (0,1 to 1,2)
+BORG 178479 # SELF:both (1)
+BORG 178479 # Fleeing level. Scumming Mode
+BORG 178479 # Scary guy on level.
+BORG 178479 # Fleeing and leaving the level. (scaryguy)
+BORG 178479 # Resting to gain Mana. (danger 0)...
+BORG 178529 # Monster opened door at 14,109.  That's scary.
+BORG 178529 # Tracking a monster 'cutpurse' at (13,108) from (12,103)
+BORG 178529 # Fleeing level. Scumming Mode
+BORG 178529 # Scary guy on level.
+BORG 178529 # Loc:15,110 Dep:1 Lev:4 HP:26/27 SP:3/8 Danger:p=191
+BORG 178529 # Fleeing and leaving the level. (scaryguy)
+BORG 178529 # Safe to Phase. scary squares: 32
+BORG 178529 # Reading Scrolls of Phase Door.
+BORG 178529 # Danger Level 1.
+BORG 178539 # Monster opened door at 14,109.  That's scary.
+BORG 178539 # Tracking a monster 'clear icky thing' at (9,103) from (10,101)
+BORG 178539 # Fleeing level. Scumming Mode
+BORG 178539 # Scary guy on level.
+BORG 178539 # Fleeing and leaving the level. (scaryguy)
+BORG 178539 # Flowing toward up-stairs at cost 8
+BORG 178539 # Desperate for Stairs (three)
+BORG 178549 # PAIN:The white jelly (+)
+BORG 178549 # Monster opened door at 14,109.  That's scary.
+BORG 178549 # Tracking a monster 'clear icky thing' at (10,104) from (9,103)
+BORG 178549 # PAIN:The white jelly (2)
+BORG 178549 # Fleeing level. Scumming Mode
+BORG 178549 # Scary guy on level.
+BORG 178549 # Loc:8,105 Dep:1 Lev:4 HP:26/27 SP:3/8 Danger:p=3
+BORG 178549 # Fleeing and leaving the level. (scaryguy)
+BORG 178549 # Flowing toward up-stairs at cost 7
+BORG 178549 # Desperate for Stairs (three)
+BORG 178559 # Monster opened door at 14,109.  That's scary.
+BORG 178559 # Tracking a monster 'clear icky thing' at (9,104) from (10,104)
+BORG 178559 # Fleeing level. Scumming Mode
+BORG 178559 # Scary guy on level.
+BORG 178559 # Loc:8,104 Dep:1 Lev:4 HP:26/27 SP:3/8 Danger:p=6
+BORG 178559 # Fleeing and leaving the level. (scaryguy)
+BORG 178559 # Adjacent to monster on Scaryguy Level.
+BORG 178559 # Performing attack type 4 with value 12.
+BORG 178559 # Targeting clear icky thing who has 3 Hit Points (9,104).
+BORG 178559 # Casting Magic Missile (0,0).
+BORG 178569 # DIED:The clear icky thing (+)
+BORG 178569 # Forgetting a monster 'clear icky thing' at (9,104)
+BORG 178569 # Monster opened door at 14,109.  That's scary.
+BORG 178569 # DIED:The clear icky thing (2)
+BORG 178569 # Flowing toward Scum item at cost 6
+BORG 178579 # Monster opened door at 14,109.  That's scary.
+BORG 178579 # Tracking a monster 'cutpurse' at (9,108) from (13,108)
+BORG 178589 # Monster opened door at 14,109.  That's scary.
+BORG 178589 # Tracking a monster 'cutpurse' at (9,107) from (9,108)
+BORG 178599 # Monster opened door at 14,109.  That's scary.
+BORG 178599 # Tracking a monster 'cutpurse' at (9,106) from (9,107)
+BORG 178609 # Monster opened door at 14,109.  That's scary.
+BORG 178609 # Tracking a monster 'cutpurse' at (9,105) from (9,106)
+BORG 178619 # Monster opened door at 14,109.  That's scary.
+BORG 178619 # Tracking a monster 'cutpurse' at (9,104) from (9,105)
+BORG 178619 # Walking onto and deleting a '& Handful~ of Dried Fruits' at (9,98)
+BORG 178630 # Monster opened door at 14,109.  That's scary.
+BORG 178630 # Tracking a monster 'cutpurse' at (9,103) from (9,104)
+BORG 178630 # Fleeing level. Scumming Mode
+BORG 178630 # Scary guy on level.
+BORG 178630 # Loc:9,98 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=8
+BORG 178630 # Fleeing and leaving the level. (scaryguy)
+BORG 178630 # Flowing toward up-stairs at cost 7
+BORG 178630 # Desperate for Stairs (three)
+BORG 178640 # Monster opened door at 14,109.  That's scary.
+BORG 178640 # Tracking a monster 'cutpurse' at (9,101) from (9,103)
+BORG 178640 # Fleeing level. Scumming Mode
+BORG 178640 # Scary guy on level.
+BORG 178640 # Loc:9,99 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=195
+BORG 178640 # Fleeing and leaving the level. (scaryguy)
+BORG 178640 # Safe to Phase. scary squares: 19
+BORG 178640 # Reading Scrolls of Phase Door.
+BORG 178640 # Danger Level 1.
+BORG 178650 # Monster opened door at 14,109.  That's scary.
+BORG 178650 # Fleeing level. Scumming Mode
+BORG 178650 # Scary guy on level.
+BORG 178650 # Fleeing and leaving the level. (scaryguy)
+BORG 178650 # Resting to gain Mana. (danger 0)...
+BORG 178690 # Monster opened door at 14,109.  That's scary.
+BORG 178690 # Tracking a monster 'cutpurse' at (5,104) from (9,101)
+BORG 178690 # Fleeing level. Scumming Mode
+BORG 178690 # Scary guy on level.
+BORG 178690 # Fleeing and leaving the level. (scaryguy)
+BORG 178690 # Flowing toward up-stairs at cost 13
+BORG 178690 # Desperate for Stairs (three)
+BORG 178700 # Monster opened door at 14,109.  That's scary.
+BORG 178700 # Fleeing level. Scumming Mode
+BORG 178700 # Scary guy on level.
+BORG 178700 # Fleeing and leaving the level. (scaryguy)
+BORG 178700 # Flowing toward up-stairs at cost 12
+BORG 178700 # Desperate for Stairs (three)
+BORG 178710 # Monster opened door at 14,109.  That's scary.
+BORG 178710 # Tracking a monster 'cutpurse' at (5,106) from (5,104)
+BORG 178710 # Fleeing level. Scumming Mode
+BORG 178710 # Scary guy on level.
+BORG 178710 # Loc:8,109 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=10
+BORG 178710 # Fleeing and leaving the level. (scaryguy)
+BORG 178710 # Flowing toward up-stairs at cost 11
+BORG 178710 # Desperate for Stairs (three)
+BORG 178720 # Monster opened door at 14,109.  That's scary.
+BORG 178720 # Fleeing level. Scumming Mode
+BORG 178720 # Scary guy on level.
+BORG 178720 # Fleeing and leaving the level. (scaryguy)
+BORG 178720 # Flowing toward up-stairs at cost 10
+BORG 178720 # Desperate for Stairs (three)
+BORG 178730 # Monster opened door at 14,109.  That's scary.
+BORG 178730 # Fleeing level. Scumming Mode
+BORG 178730 # Scary guy on level.
+BORG 178730 # Fleeing and leaving the level. (scaryguy)
+BORG 178730 # Flowing toward up-stairs at cost 9
+BORG 178730 # Desperate for Stairs (three)
+BORG 178740 # Monster opened door at 14,109.  That's scary.
+BORG 178740 # Tracking a monster 'cutpurse' at (9,108) from (5,106)
+BORG 178740 # Fleeing level. Scumming Mode
+BORG 178740 # Scary guy on level.
+BORG 178740 # Loc:9,106 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=191
+BORG 178740 # Fleeing and leaving the level. (scaryguy)
+BORG 178740 # Safe to Phase. scary squares: 28
+BORG 178740 # Reading Scrolls of Phase Door.
+BORG 178740 # Danger Level 1.
+BORG 178750 # Monster opened door at 14,109.  That's scary.
+BORG 178750 # Tracking a monster 'cutpurse' at (9,107) from (9,108)
+BORG 178750 # Flowing toward Scum item at cost 3
+BORG 178760 # Monster opened door at 14,109.  That's scary.
+BORG 178760 # Tracking a monster 'cutpurse' at (9,106) from (9,107)
+BORG 178770 # Monster opened door at 14,109.  That's scary.
+BORG 178770 # Tracking a monster 'cutpurse' at (9,105) from (9,106)
+BORG 178770 # Creating a monster 'clear icky thing' at (10,100), HP: 6, Index: 22
+BORG 178770 # Removing Regional Fear (10,100) because of a LOS clear icky thing
+BORG 178770 # Flowing toward Scum item at cost 1
+BORG 178770 # Walking onto and deleting a '& Handful~ of Dried Fruits' at (10,95)
+BORG 178781 # Monster opened door at 14,109.  That's scary.
+BORG 178781 # Tracking a monster 'cutpurse' at (9,104) from (9,105)
+BORG 178781 # Fleeing level. Scumming Mode
+BORG 178781 # Scary guy on level.
+BORG 178781 # Loc:10,95 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=3
+BORG 178781 # Fleeing and leaving the level. (scaryguy)
+BORG 178781 # Flowing toward up-stairs at cost 10
+BORG 178781 # Desperate for Stairs (three)
+BORG 178791 # Monster opened door at 14,109.  That's scary.
+BORG 178791 # Tracking a monster 'cutpurse' at (9,103) from (9,104)
+BORG 178791 # There was a monster 'clear icky thing' at (10,100)
+BORG 178791 # Forgetting a monster 'clear icky thing' at (10,100)
+BORG 178791 # Fleeing level. Scumming Mode
+BORG 178791 # Scary guy on level.
+BORG 178791 # Loc:10,96 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=5
+BORG 178791 # Fleeing and leaving the level. (scaryguy)
+BORG 178791 # Fleeing and leaving the level. (Looking for any stair)
+BORG 178801 # Monster opened door at 14,109.  That's scary.
+BORG 178801 # Tracking a monster 'cutpurse' at (9,102) from (9,103)
+BORG 178801 # Fleeing level. Scumming Mode
+BORG 178801 # Scary guy on level.
+BORG 178801 # Loc:10,97 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=9
+BORG 178801 # Fleeing and leaving the level. (scaryguy)
+BORG 178801 # Fleeing and leaving the level. (Looking for any stair)
+BORG 178811 # Monster opened door at 14,109.  That's scary.
+BORG 178811 # Tracking a monster 'cutpurse' at (9,101) from (9,102)
+BORG 178811 # Creating a monster 'clear icky thing' at (13,101), HP: 6, Index: 22
+BORG 178811 # Removing Regional Fear (13,101) because of a LOS clear icky thing
+BORG 178811 # Fleeing level. Scumming Mode
+BORG 178811 # Scary guy on level.
+BORG 178811 # Loc:10,98 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=18
+BORG 178811 # Fleeing and leaving the level. (scaryguy)
+BORG 178811 # No Phase. scary squares: 26
+BORG 178811 # Safe to Phase. scary squares: 30
+BORG 178811 # Casting Phase Door (0,3).
+BORG 178811 # Danger Level 4.3
+BORG 178821 # Monster opened door at 14,109.  That's scary.
+BORG 178821 # Fleeing level. Scumming Mode
+BORG 178821 # Scary guy on level.
+BORG 178821 # Loc:13,107 Dep:1 Lev:4 HP:27/27 SP:1/8 Danger:p=1
+BORG 178821 # Fleeing and leaving the level. (scaryguy)
+BORG 178821 # Resting to gain Mana. (danger 1)...
+BORG 178831 # Monster opened door at 14,109.  That's scary.
+BORG 178831 # Tracking a monster 'clear icky thing' at (13,103) from (13,101)
+BORG 178831 # Fleeing level. Scumming Mode
+BORG 178831 # Scary guy on level.
+BORG 178831 # Fleeing and leaving the level. (scaryguy)
+BORG 178831 # Resting to gain Mana. (danger 0)...
+BORG 178841 # Monster opened door at 14,109.  That's scary.
+BORG 178841 # Tracking a monster 'cutpurse' at (12,103) from (9,101)
+BORG 178841 # There was a monster 'clear icky thing' at (13,103)
+BORG 178841 # Forgetting a monster 'clear icky thing' at (13,103)
+BORG 178841 # Fleeing level. Scumming Mode
+BORG 178841 # Scary guy on level.
+BORG 178841 # Loc:13,107 Dep:1 Lev:4 HP:27/27 SP:1/8 Danger:p=10
+BORG 178841 # Fleeing and leaving the level. (scaryguy)
+BORG 178841 # Fleeing and leaving the level. (Looking for any stair)
+BORG 178841 # Flowing toward stairs at cost 16
+BORG 178851 # Monster opened door at 14,109.  That's scary.
+BORG 178851 # Tracking a monster 'cutpurse' at (12,104) from (12,103)
+BORG 178851 # Fleeing level. Scumming Mode
+BORG 178851 # Scary guy on level.
+BORG 178851 # Loc:13,108 Dep:1 Lev:4 HP:27/27 SP:1/8 Danger:p=10
+BORG 178851 # Fleeing and leaving the level. (scaryguy)
+BORG 178851 # Retreating to 15,110 (distance 2) via 14,109 (10 > 0)
+BORG 178861 # Monster opened door at 14,109.  That's scary.
+BORG 178861 # Fleeing level. Scumming Mode
+BORG 178861 # Scary guy on level.
+BORG 178861 # Fleeing and leaving the level. (scaryguy)
+BORG 178861 # Resting to gain Mana. (danger 0)...
+BORG 178891 # Monster opened door at 14,109.  That's scary.
+BORG 178891 # Tracking a monster 'cutpurse' at (13,108) from (12,104)
+BORG 178891 # Fleeing level. Scumming Mode
+BORG 178891 # Scary guy on level.
+BORG 178891 # Loc:14,109 Dep:1 Lev:4 HP:27/27 SP:1/8 Danger:p=378
+BORG 178891 # Fleeing and leaving the level. (scaryguy)
+BORG 178891 # Safe to Phase. scary squares: 20
+BORG 178891 # Reading Scroll of Phase Door.
+BORG 178891 # Danger Level 1.
+BORG 178901 # Monster opened door at 14,109.  That's scary.
+BORG 178901 # Creating a monster 'clear icky thing' at (11,102), HP: 6, Index: 22
+BORG 178901 # Removing Regional Fear (11,102) because of a LOS clear icky thing
+BORG 178901 # Flowing toward Scum item at cost 5
+BORG 178911 # Monster opened door at 14,109.  That's scary.
+BORG 178911 # Tracking a monster 'clear icky thing' at (12,102) from (11,102)
+BORG 178921 # Monster opened door at 14,109.  That's scary.
+BORG 178921 # Tracking a monster 'clear icky thing' at (13,102) from (12,102)
+BORG 178921 # Tracking a monster 'cutpurse' at (13,106) from (13,108)
+BORG 178931 # Monster opened door at 14,109.  That's scary.
+BORG 178931 # Tracking a monster 'cutpurse' at (13,105) from (13,106)
+BORG 178941 # Monster opened door at 14,109.  That's scary.
+BORG 178941 # Tracking a monster 'cutpurse' at (13,104) from (13,105)
+BORG 178941 # Walking onto and deleting a '& Apple~' at (13,97)
+BORG 178952 # Monster opened door at 14,109.  That's scary.
+BORG 178952 # Tracking a monster 'clear icky thing' at (14,101) from (13,102)
+BORG 178952 # Tracking a monster 'cutpurse' at (13,103) from (13,104)
+BORG 178952 # Fleeing level. Scumming Mode
+BORG 178952 # Scary guy on level.
+BORG 178952 # Loc:13,97 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=20
+BORG 178952 # Fleeing and leaving the level. (scaryguy)
+BORG 178952 # Flowing toward up-stairs at cost 10
+BORG 178952 # Desperate for Stairs (three)
+BORG 178962 # Monster opened door at 14,109.  That's scary.
+BORG 178962 # Tracking a monster 'clear icky thing' at (15,100) from (14,101)
+BORG 178962 # Tracking a monster 'cutpurse' at (13,102) from (13,103)
+BORG 178962 # Fleeing level. Scumming Mode
+BORG 178962 # Scary guy on level.
+BORG 178962 # Loc:12,97 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=28
+BORG 178962 # Fleeing and leaving the level. (scaryguy)
+BORG 178962 # Flowing toward up-stairs at cost 9
+BORG 178962 # Desperate for Stairs (three)
+BORG 178972 # PAIN:The soldier (+)
+BORG 178972 # Monster opened door at 14,109.  That's scary.
+BORG 178972 # Tracking a monster 'cutpurse' at (13,101) from (13,102)
+BORG 178972 # PAIN:The soldier (2)
+BORG 178972 # Fleeing level. Scumming Mode
+BORG 178972 # Scary guy on level.
+BORG 178972 # Loc:11,97 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=50
+BORG 178972 # Fleeing and leaving the level. (scaryguy)
+BORG 178972 # Flowing toward up-stairs at cost 8
+BORG 178972 # Desperate for Stairs (three)
+BORG 178982 # Monster opened door at 14,109.  That's scary.
+BORG 178982 # Tracking a monster 'soldier' at (13,100) from (14,100)
+BORG 178982 # Tracking a monster 'cutpurse' at (12,100) from (13,101)
+BORG 178982 # Fleeing level. Scumming Mode
+BORG 178982 # Scary guy on level.
+BORG 178982 # Loc:10,98 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=223
+BORG 178982 # Fleeing and leaving the level. (scaryguy)
+BORG 178982 # Flowing toward up-stairs at cost 7
+BORG 178982 # Desperate for Stairs (three)
+BORG 178992 # Monster opened door at 14,109.  That's scary.
+BORG 178992 # Tracking a monster 'soldier' at (12,99) from (13,100)
+BORG 178992 # Tracking a monster 'cutpurse' at (11,100) from (12,100)
+BORG 178992 # Fleeing level. Scumming Mode
+BORG 178992 # Scary guy on level.
+BORG 178992 # Loc:9,99 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=216
+BORG 178992 # Fleeing and leaving the level. (scaryguy)
+BORG 178992 # Flowing toward up-stairs at cost 6
+BORG 178992 # Desperate for Stairs (three)
+BORG 179002 # MISS_BY:The white jelly (+)
+BORG 179002 # HIT_BY:The white jelly (+)
+BORG 179002 # Monster opened door at 14,109.  That's scary.
+BORG 179002 # Tracking a monster 'soldier' at (11,99) from (12,99)
+BORG 179002 # Tracking a monster 'cutpurse' at (10,100) from (11,100)
+BORG 179002 # MISS_BY:The white jelly (3)
+BORG 179002 # HIT_BY:The white jelly (3)
+BORG 179002 # Fleeing level. Scumming Mode
+BORG 179002 # Scary guy on level.
+BORG 179002 # Loc:8,100 Dep:1 Lev:4 HP:25/27 SP:2/8 Danger:p=244
+BORG 179002 # Fleeing and leaving the level. (scaryguy)
+BORG 179002 # Adjacent to monster on Scaryguy Level.
+BORG 179002 # Adjacent to monster on Scaryguy Level.
+BORG 179002 # Adjacent to monster on Scaryguy Level.
+BORG 179002 # Adjacent to monster on Scaryguy Level.
+BORG 179002 # Performing attack type 1 with value 61.
+BORG 179002 # Facing white jelly at (7,100) who has 29 Hit Points.
+BORG 179002 # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+BORG 179012 # MISS:the white jelly (+)
+BORG 179012 # HIT_BY:The white jelly (+)
+BORG 179012 # HIT_BY:The white jelly (+)
+BORG 179012 # MISS_BY:The cutpurse (+)
+BORG 179012 # HIT_BY:The cutpurse (+)
+BORG 179012 # Monster opened door at 14,109.  That's scary.
+BORG 179012 # Tracking a monster 'soldier' at (10,99) from (11,99)
+BORG 179012 # MISS:the white jelly (2)
+BORG 179012 # HIT_BY:The white jelly (3)
+BORG 179012 # HIT_BY:The white jelly (3)
+BORG 179012 # MISS_BY:The cutpurse (3)
+BORG 179012 # HIT_BY:The cutpurse (3)
+BORG 179012 # There was a monster 'cutpurse' at (10,100)
+BORG 179012 # Forgetting a monster 'cutpurse' at (10,100)
+BORG 179012 # Fleeing level. Scumming Mode
+BORG 179012 # Scary guy on level.
+BORG 179012 # Loc:8,100 Dep:1 Lev:4 HP:20/27 SP:2/8 Danger:p=37
+BORG 179012 # Fleeing and leaving the level. (scaryguy)
+BORG 179012 # Adjacent to monster on Scaryguy Level.
+BORG 179012 # Performing attack type 1 with value 61.
+BORG 179012 # Facing white jelly at (7,100) who has 29 Hit Points.
+BORG 179012 # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+BORG 179022 # HIT:the white jelly (+)
+BORG 179022 # HIT_BY:The white jelly (+)
+BORG 179022 # MISS_BY:The white jelly (+)
+BORG 179022 # MISS_BY:The white jelly (+)
+BORG 179022 # Monster opened door at 14,109.  That's scary.
+BORG 179022 # Tracking a monster 'soldier' at (9,100) from (10,99)
+BORG 179022 # HIT:the white jelly (2)
+BORG 179022 # HIT_BY:The white jelly (3)
+BORG 179022 # MISS_BY:The white jelly (3)
+BORG 179022 # MISS_BY:The white jelly (3)
+BORG 179022 # Fleeing level. Scumming Mode
+BORG 179022 # Scary guy on level.
+BORG 179022 # Loc:8,100 Dep:1 Lev:4 HP:18/27 SP:2/8 Danger:p=77
+BORG 179022 # Fleeing and leaving the level. (scaryguy)
+BORG 179022 # Adjacent to monster on Scaryguy Level.
+BORG 179022 # Adjacent to monster on Scaryguy Level.
+BORG 179022 # Adjacent to monster on Scaryguy Level.
+BORG 179022 # Adjacent to monster on Scaryguy Level.
+BORG 179022 # Performing attack type 1 with value 79.
+BORG 179022 # Facing soldier at (9,100) who has 28 Hit Points.
+BORG 179022 # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+BORG 179032 # MISS:the soldier (+)
+BORG 179032 # MISS_BY:The soldier (+)
+BORG 179032 # HIT_BY:The soldier (+)
+BORG 179032 # MISS_BY:The white jelly (+)
+BORG 179032 # MISS_BY:The white jelly (+)
+BORG 179032 # Monster opened door at 14,109.  That's scary.
+BORG 179032 # MISS:the soldier (2)
+BORG 179032 # MISS_BY:The soldier (3)
+BORG 179032 # HIT_BY:The soldier (3)
+BORG 179032 # MISS_BY:The white jelly (3)
+BORG 179032 # MISS_BY:The white jelly (3)
+BORG 179032 # Fleeing level. Scumming Mode
+BORG 179032 # Scary guy on level.
+BORG 179032 # Loc:8,100 Dep:1 Lev:4 HP:14/27 SP:2/8 Danger:p=77
+BORG 179032 # Fleeing and leaving the level. (scaryguy)
+BORG 179032 # Adjacent to monster on Scaryguy Level.
+BORG 179032 # Adjacent to monster on Scaryguy Level.
+BORG 179032 # Adjacent to monster on Scaryguy Level.
+BORG 179032 # Adjacent to monster on Scaryguy Level.
+BORG 179032 # Performing attack type 1 with value 79.
+BORG 179032 # Facing soldier at (9,100) who has 28 Hit Points.
+BORG 179032 # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+BORG 179042 # MISS:the soldier (+)
+BORG 179042 # MISS_BY:The soldier (+)
+BORG 179042 # HIT_BY:The soldier (+)
+BORG 179042 # HIT_BY:The white jelly (+)
+BORG 179042 # MISS_BY:The white jelly (+)
+BORG 179042 # Monster opened door at 14,109.  That's scary.
+BORG 179042 # MISS:the soldier (2)
+BORG 179042 # MISS_BY:The soldier (3)
+BORG 179042 # HIT_BY:The soldier (3)
+BORG 179042 # HIT_BY:The white jelly (3)
+BORG 179042 # MISS_BY:The white jelly (3)
+BORG 179042 # Fleeing level. Scumming Mode
+BORG 179042 # Scary guy on level.
+BORG 179042 # Loc:8,100 Dep:1 Lev:4 HP:10/27 SP:2/8 Danger:p=77
+BORG 179042 # Fleeing and leaving the level. (scaryguy)
+BORG 179042 # Adjacent to monster on Scaryguy Level.
+BORG 179042 # Adjacent to monster on Scaryguy Level.
+BORG 179042 # Adjacent to monster on Scaryguy Level.
+BORG 179042 # Adjacent to monster on Scaryguy Level.
+BORG 179042 # Performing attack type 1 with value 79.
+BORG 179042 # Facing soldier at (9,100) who has 28 Hit Points.
+BORG 179042 # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+BORG 179052 # HIT:the soldier (+)
+BORG 179052 # MISS_BY:The soldier (+)
+BORG 179052 # HIT_BY:The soldier (+)
+BORG 179052 # HIT_BY:The white jelly (+)
+BORG 179052 # MISS_BY:The white jelly (+)
+BORG 179052 # Monster opened door at 14,109.  That's scary.
+BORG 179052 # Tracking a monster 'clear icky thing' at (11,101) from (15,100)
+BORG 179052 # HIT:the soldier (2)
+BORG 179052 # MISS_BY:The soldier (3)
+BORG 179052 # HIT_BY:The soldier (3)
+BORG 179052 # HIT_BY:The white jelly (3)
+BORG 179052 # MISS_BY:The white jelly (3)
+BORG 179052 # Fleeing level. Scumming Mode
+BORG 179052 # Scary guy on level.
+BORG 179052 # Loc:8,100 Dep:1 Lev:4 HP:2/27 SP:2/8 Danger:p=78
+BORG 179052 # Fleeing and leaving the level. (scaryguy)
+BORG 179052 # Adjacent to monster on Scaryguy Level.
+BORG 179052 # Adjacent to monster on Scaryguy Level.
+BORG 179052 # Adjacent to monster on Scaryguy Level.
+BORG 179052 # Adjacent to monster on Scaryguy Level.
+BORG 179052 # Adjacent to monster on Scaryguy Level.
+BORG 179052 # Performing attack type 1 with value 79.
+BORG 179052 # Facing soldier at (9,100) who has 21 Hit Points.
+BORG 179052 # Attacking with weapon 'Rapier (1d6) (+0,+0)'

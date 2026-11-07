@@ -1,0 +1,2257 @@
+BORG 178861 # Monster opened door at 14,109.  That's scary.
+BORG 178861 # Fleeing level. Scumming Mode
+BORG 178861 # Scary guy on level.
+BORG 178861 # Fleeing and leaving the level. (scaryguy)
+BORG 178861 # Resting to gain Mana. (danger 0)...
+BORG 178891 # Monster opened door at 14,109.  That's scary.
+BORG 178891 # Tracking a monster 'cutpurse' at (13,108) from (12,104)
+BORG 178891 # Fleeing level. Scumming Mode
+BORG 178891 # Scary guy on level.
+BORG 178891 # Loc:14,109 Dep:1 Lev:4 HP:27/27 SP:1/8 Danger:p=378
+BORG 178891 # Fleeing and leaving the level. (scaryguy)
+BORG 178891 # Safe to Phase. scary squares: 20
+BORG 178891 # Reading Scroll of Phase Door.
+BORG 178891 # Danger Level 1.
+BORG 178901 # Monster opened door at 14,109.  That's scary.
+BORG 178901 # Creating a monster 'clear icky thing' at (11,102), HP: 6, Index: 22
+BORG 178901 # Removing Regional Fear (11,102) because of a LOS clear icky thing
+BORG 178901 # Flowing toward Scum item at cost 5
+BORG 178911 # Monster opened door at 14,109.  That's scary.
+BORG 178911 # Tracking a monster 'clear icky thing' at (12,102) from (11,102)
+BORG 178921 # Monster opened door at 14,109.  That's scary.
+BORG 178921 # Tracking a monster 'clear icky thing' at (13,102) from (12,102)
+BORG 178921 # Tracking a monster 'cutpurse' at (13,106) from (13,108)
+BORG 178931 # Monster opened door at 14,109.  That's scary.
+BORG 178931 # Tracking a monster 'cutpurse' at (13,105) from (13,106)
+BORG 178941 # Monster opened door at 14,109.  That's scary.
+BORG 178941 # Tracking a monster 'cutpurse' at (13,104) from (13,105)
+BORG 178941 # Walking onto and deleting a '& Apple~' at (13,97)
+BORG 178952 # Monster opened door at 14,109.  That's scary.
+BORG 178952 # Tracking a monster 'clear icky thing' at (14,101) from (13,102)
+BORG 178952 # Tracking a monster 'cutpurse' at (13,103) from (13,104)
+BORG 178952 # Fleeing level. Scumming Mode
+BORG 178952 # Scary guy on level.
+BORG 178952 # Loc:13,97 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=20
+BORG 178952 # Fleeing and leaving the level. (scaryguy)
+BORG 178952 # Flowing toward up-stairs at cost 10
+BORG 178952 # Desperate for Stairs (three)
+BORG 178962 # Monster opened door at 14,109.  That's scary.
+BORG 178962 # Tracking a monster 'clear icky thing' at (15,100) from (14,101)
+BORG 178962 # Tracking a monster 'cutpurse' at (13,102) from (13,103)
+BORG 178962 # Fleeing level. Scumming Mode
+BORG 178962 # Scary guy on level.
+BORG 178962 # Loc:12,97 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=28
+BORG 178962 # Fleeing and leaving the level. (scaryguy)
+BORG 178962 # Flowing toward up-stairs at cost 9
+BORG 178962 # Desperate for Stairs (three)
+BORG 178972 # PAIN:The soldier (+)
+BORG 178972 # Monster opened door at 14,109.  That's scary.
+BORG 178972 # Tracking a monster 'cutpurse' at (13,101) from (13,102)
+BORG 178972 # PAIN:The soldier (2)
+BORG 178972 # Fleeing level. Scumming Mode
+BORG 178972 # Scary guy on level.
+BORG 178972 # Loc:11,97 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=50
+BORG 178972 # Fleeing and leaving the level. (scaryguy)
+BORG 178972 # Flowing toward up-stairs at cost 8
+BORG 178972 # Desperate for Stairs (three)
+BORG 178982 # Monster opened door at 14,109.  That's scary.
+BORG 178982 # Tracking a monster 'soldier' at (13,100) from (14,100)
+BORG 178982 # Tracking a monster 'cutpurse' at (12,100) from (13,101)
+BORG 178982 # Fleeing level. Scumming Mode
+BORG 178982 # Scary guy on level.
+BORG 178982 # Loc:10,98 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=223
+BORG 178982 # Fleeing and leaving the level. (scaryguy)
+BORG 178982 # Flowing toward up-stairs at cost 7
+BORG 178982 # Desperate for Stairs (three)
+BORG 178992 # Monster opened door at 14,109.  That's scary.
+BORG 178992 # Tracking a monster 'soldier' at (12,99) from (13,100)
+BORG 178992 # Tracking a monster 'cutpurse' at (11,100) from (12,100)
+BORG 178992 # Fleeing level. Scumming Mode
+BORG 178992 # Scary guy on level.
+BORG 178992 # Loc:9,99 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=216
+BORG 178992 # Fleeing and leaving the level. (scaryguy)
+BORG 178992 # Flowing toward up-stairs at cost 6
+BORG 178992 # Desperate for Stairs (three)
+BORG 179002 # MISS_BY:The white jelly (+)
+BORG 179002 # HIT_BY:The white jelly (+)
+BORG 179002 # Monster opened door at 14,109.  That's scary.
+BORG 179002 # Tracking a monster 'soldier' at (11,99) from (12,99)
+BORG 179002 # Tracking a monster 'cutpurse' at (10,100) from (11,100)
+BORG 179002 # MISS_BY:The white jelly (3)
+BORG 179002 # HIT_BY:The white jelly (3)
+BORG 179002 # Fleeing level. Scumming Mode
+BORG 179002 # Scary guy on level.
+BORG 179002 # Loc:8,100 Dep:1 Lev:4 HP:25/27 SP:2/8 Danger:p=244
+BORG 179002 # Fleeing and leaving the level. (scaryguy)
+BORG 179002 # Adjacent to monster on Scaryguy Level.
+BORG 179002 # Adjacent to monster on Scaryguy Level.
+BORG 179002 # Adjacent to monster on Scaryguy Level.
+BORG 179002 # Adjacent to monster on Scaryguy Level.
+BORG 179002 # Performing attack type 1 with value 61.
+BORG 179002 # Facing white jelly at (7,100) who has 29 Hit Points.
+BORG 179002 # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+BORG 179012 # MISS:the white jelly (+)
+BORG 179012 # HIT_BY:The white jelly (+)
+BORG 179012 # HIT_BY:The white jelly (+)
+BORG 179012 # MISS_BY:The cutpurse (+)
+BORG 179012 # HIT_BY:The cutpurse (+)
+BORG 179012 # Monster opened door at 14,109.  That's scary.
+BORG 179012 # Tracking a monster 'soldier' at (10,99) from (11,99)
+BORG 179012 # MISS:the white jelly (2)
+BORG 179012 # HIT_BY:The white jelly (3)
+BORG 179012 # HIT_BY:The white jelly (3)
+BORG 179012 # MISS_BY:The cutpurse (3)
+BORG 179012 # HIT_BY:The cutpurse (3)
+BORG 179012 # There was a monster 'cutpurse' at (10,100)
+BORG 179012 # Forgetting a monster 'cutpurse' at (10,100)
+BORG 179012 # Fleeing level. Scumming Mode
+BORG 179012 # Scary guy on level.
+BORG 179012 # Loc:8,100 Dep:1 Lev:4 HP:20/27 SP:2/8 Danger:p=37
+BORG 179012 # Fleeing and leaving the level. (scaryguy)
+BORG 179012 # Adjacent to monster on Scaryguy Level.
+BORG 179012 # Performing attack type 1 with value 61.
+BORG 179012 # Facing white jelly at (7,100) who has 29 Hit Points.
+BORG 179012 # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+BORG 179022 # HIT:the white jelly (+)
+BORG 179022 # HIT_BY:The white jelly (+)
+BORG 179022 # MISS_BY:The white jelly (+)
+BORG 179022 # MISS_BY:The white jelly (+)
+BORG 179022 # Monster opened door at 14,109.  That's scary.
+BORG 179022 # Tracking a monster 'soldier' at (9,100) from (10,99)
+BORG 179022 # HIT:the white jelly (2)
+BORG 179022 # HIT_BY:The white jelly (3)
+BORG 179022 # MISS_BY:The white jelly (3)
+BORG 179022 # MISS_BY:The white jelly (3)
+BORG 179022 # Fleeing level. Scumming Mode
+BORG 179022 # Scary guy on level.
+BORG 179022 # Loc:8,100 Dep:1 Lev:4 HP:18/27 SP:2/8 Danger:p=77
+BORG 179022 # Fleeing and leaving the level. (scaryguy)
+BORG 179022 # Adjacent to monster on Scaryguy Level.
+BORG 179022 # Adjacent to monster on Scaryguy Level.
+BORG 179022 # Adjacent to monster on Scaryguy Level.
+BORG 179022 # Adjacent to monster on Scaryguy Level.
+BORG 179022 # Performing attack type 1 with value 79.
+BORG 179022 # Facing soldier at (9,100) who has 28 Hit Points.
+BORG 179022 # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+BORG 179032 # MISS:the soldier (+)
+BORG 179032 # MISS_BY:The soldier (+)
+BORG 179032 # HIT_BY:The soldier (+)
+BORG 179032 # MISS_BY:The white jelly (+)
+BORG 179032 # MISS_BY:The white jelly (+)
+BORG 179032 # Monster opened door at 14,109.  That's scary.
+BORG 179032 # MISS:the soldier (2)
+BORG 179032 # MISS_BY:The soldier (3)
+BORG 179032 # HIT_BY:The soldier (3)
+BORG 179032 # MISS_BY:The white jelly (3)
+BORG 179032 # MISS_BY:The white jelly (3)
+BORG 179032 # Fleeing level. Scumming Mode
+BORG 179032 # Scary guy on level.
+BORG 179032 # Loc:8,100 Dep:1 Lev:4 HP:14/27 SP:2/8 Danger:p=77
+BORG 179032 # Fleeing and leaving the level. (scaryguy)
+BORG 179032 # Adjacent to monster on Scaryguy Level.
+BORG 179032 # Adjacent to monster on Scaryguy Level.
+BORG 179032 # Adjacent to monster on Scaryguy Level.
+BORG 179032 # Adjacent to monster on Scaryguy Level.
+BORG 179032 # Performing attack type 1 with value 79.
+BORG 179032 # Facing soldier at (9,100) who has 28 Hit Points.
+BORG 179032 # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+BORG 179042 # MISS:the soldier (+)
+BORG 179042 # MISS_BY:The soldier (+)
+BORG 179042 # HIT_BY:The soldier (+)
+BORG 179042 # HIT_BY:The white jelly (+)
+BORG 179042 # MISS_BY:The white jelly (+)
+BORG 179042 # Monster opened door at 14,109.  That's scary.
+BORG 179042 # MISS:the soldier (2)
+BORG 179042 # MISS_BY:The soldier (3)
+BORG 179042 # HIT_BY:The soldier (3)
+BORG 179042 # HIT_BY:The white jelly (3)
+BORG 179042 # MISS_BY:The white jelly (3)
+BORG 179042 # Fleeing level. Scumming Mode
+BORG 179042 # Scary guy on level.
+BORG 179042 # Loc:8,100 Dep:1 Lev:4 HP:10/27 SP:2/8 Danger:p=77
+BORG 179042 # Fleeing and leaving the level. (scaryguy)
+BORG 179042 # Adjacent to monster on Scaryguy Level.
+BORG 179042 # Adjacent to monster on Scaryguy Level.
+BORG 179042 # Adjacent to monster on Scaryguy Level.
+BORG 179042 # Adjacent to monster on Scaryguy Level.
+BORG 179042 # Performing attack type 1 with value 79.
+BORG 179042 # Facing soldier at (9,100) who has 28 Hit Points.
+BORG 179042 # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+BORG 179052 # HIT:the soldier (+)
+BORG 179052 # MISS_BY:The soldier (+)
+BORG 179052 # HIT_BY:The soldier (+)
+BORG 179052 # HIT_BY:The white jelly (+)
+BORG 179052 # MISS_BY:The white jelly (+)
+BORG 179052 # Monster opened door at 14,109.  That's scary.
+BORG 179052 # Tracking a monster 'clear icky thing' at (11,101) from (15,100)
+BORG 179052 # HIT:the soldier (2)
+BORG 179052 # MISS_BY:The soldier (3)
+BORG 179052 # HIT_BY:The soldier (3)
+BORG 179052 # HIT_BY:The white jelly (3)
+BORG 179052 # MISS_BY:The white jelly (3)
+BORG 179052 # Fleeing level. Scumming Mode
+BORG 179052 # Scary guy on level.
+BORG 179052 # Loc:8,100 Dep:1 Lev:4 HP:2/27 SP:2/8 Danger:p=78
+BORG 179052 # Fleeing and leaving the level. (scaryguy)
+BORG 179052 # Adjacent to monster on Scaryguy Level.
+BORG 179052 # Adjacent to monster on Scaryguy Level.
+BORG 179052 # Adjacent to monster on Scaryguy Level.
+BORG 179052 # Adjacent to monster on Scaryguy Level.
+BORG 179052 # Adjacent to monster on Scaryguy Level.
+BORG 179052 # Performing attack type 1 with value 79.
+BORG 179052 # Facing soldier at (9,100) who has 21 Hit Points.
+BORG 179052 # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+
+[Terminal native state/cause]
+STATE death turn=179053 energy=1847110 decisions=6066 depth=1 max_depth=1 level=4 max_level=4 hp=-5 dead=1 winner=0 borg_rng=30728320 quick=0 quick_rng=3555685317 rng_index=7 rng=ddb87fd083860539b4ab6a2bea7f00a55953fe8a629b602b80ab55e4c4b24a7c7c3371e0e1c504e94440aa3a65ee0dfb4b13bd5002b4666bc968b6e427368faf0cc778d832f6fb7c244e1a52f4540d07c480744c880bd47e3af6271ce35e12cb97dfb94c21fef4b4ff5cd25fcbefc07f78833239b9be65b2cb1259660cf444b2
+CAUSE a soldier
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE # Walking onto and deleting a 'Poison' at (57,43)
+MESSAGE You have a Metallic Blue Potion (g).
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'singing, happy drunk' at (6,38), HP: 1, Index: 11
+MESSAGE # Removing Regional Fear (6,38) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'blubbering idiot' at (1,33), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (1,33) because of a LOS blubbering idiot
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (5,38) from (6,38)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (4,38) from (5,38)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (3,38) from (4,38)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (2,37) from (3,38)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Performing attack type 1 with value 1.
+MESSAGE # Facing singing, happy drunk at (2,37) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You hit the singing, happy drunk.
+MESSAGE You have slain the singing, happy drunk.
+MESSAGE # HIT:the singing, happy drunk (+)
+MESSAGE # KILL:the singing, happy drunk (+)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (2,37)
+MESSAGE # Creating an object 'copper' at (37,2)
+MESSAGE # HIT:the singing, happy drunk (2)
+MESSAGE # KILL:the singing, happy drunk (2)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'copper' at (2,37)
+MESSAGE You have found 11 gold pieces worth of copper.
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The blubbering idiot wakes up.
+MESSAGE # PAIN:The blubbering idiot (+)
+MESSAGE # Tracking a monster 'blubbering idiot' at (1,34) from (1,33)
+MESSAGE # PAIN:The blubbering idiot (2)
+MESSAGE # Performing attack type 4 with value 8.
+MESSAGE # Targeting blubbering idiot who has 2 Hit Points (1,34).
+MESSAGE # Casting Magic Missile (0,0).
+MESSAGE Target Selected.
+MESSAGE The blubbering idiot dies.
+MESSAGE # DIED:The blubbering idiot (+)
+MESSAGE # Forgetting a monster 'blubbering idiot' at (1,34)
+MESSAGE # DIED:The blubbering idiot (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'mangy-looking leper' at (20,41), HP: 1, Index: 9
+MESSAGE # Creating a monster 'battle-scarred veteran' at (11,53), HP: 29, Index: 14
+MESSAGE # Creating a monster 'battle-scarred veteran' at (9,30), HP: 32, Index: 14
+MESSAGE # Creating a monster 'boil-covered wretch' at (8,47), HP: 2, Index: 6
+MESSAGE # Creating a monster 'battle-scarred veteran' at (8,14), HP: 38, Index: 14
+MESSAGE # Creating a monster 'mangy-looking leper' at (5,14), HP: 1, Index: 9
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'boil-covered wretch' at (18,41), HP: 1, Index: 6
+MESSAGE # Removing Regional Fear (18,41) because of a LOS boil-covered wretch
+MESSAGE # Creating a monster 'scrawny cat' at (18,37), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (18,37) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'blubbering idiot' at (18,23), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (18,23) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'singing, happy drunk' at (13,44), HP: 2, Index: 11
+MESSAGE # Removing Regional Fear (13,44) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'aimless-looking merchant' at (12,17), HP: 4, Index: 12
+MESSAGE # Removing Regional Fear (12,17) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'blubbering idiot' at (11,45), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (11,45) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'mean-looking mercenary' at (7,52), HP: 19, Index: 13
+MESSAGE # Removing Regional Fear (7,52) because of a LOS mean-looking mercenary
+MESSAGE # Creating a monster 'village idiot' at (6,15), HP: 6, Index: 7
+MESSAGE # Removing Regional Fear (6,15) because of a LOS village idiot
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'aimless-looking merchant' at (18,16), HP: 5, Index: 12
+MESSAGE # Removing Regional Fear (18,16) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'boil-covered wretch' at (16,28), HP: 2, Index: 6
+MESSAGE # Removing Regional Fear (16,28) because of a LOS boil-covered wretch
+MESSAGE # Creating a monster 'battle-scarred veteran' at (12,7), HP: 27, Index: 14
+MESSAGE # Removing Regional Fear (12,7) because of a LOS battle-scarred veteran
+MESSAGE # Creating a monster 'scruffy little dog' at (11,38), HP: 2, Index: 3
+MESSAGE # Removing Regional Fear (11,38) because of a LOS scruffy little dog
+MESSAGE # Creating a monster 'blubbering idiot' at (11,30), HP: 1, Index: 5
+MESSAGE # Removing Regional Fear (11,30) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'scruffy little dog' at (10,38), HP: 2, Index: 3
+MESSAGE # Removing Regional Fear (10,38) because of a LOS scruffy little dog
+MESSAGE # Creating a monster 'filthy street urchin' at (10,37), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (10,37) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (9,38), HP: 2, Index: 1
+MESSAGE # Removing Regional Fear (9,38) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (9,37), HP: 4, Index: 1
+MESSAGE # Removing Regional Fear (9,37) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'battle-scarred veteran' at (9,33), HP: 32, Index: 14
+MESSAGE # Removing Regional Fear (9,33) because of a LOS battle-scarred veteran
+MESSAGE # Creating a monster 'singing, happy drunk' at (9,23), HP: 3, Index: 11
+MESSAGE # Removing Regional Fear (9,23) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (8,52), HP: 3, Index: 8
+MESSAGE # Removing Regional Fear (8,52) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'filthy street urchin' at (8,37), HP: 4, Index: 1
+MESSAGE # Removing Regional Fear (8,37) because of a LOS filthy street urchin
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'battle-scarred veteran' at (18,29), HP: 30, Index: 14
+MESSAGE # Removing Regional Fear (18,29) because of a LOS battle-scarred veteran
+MESSAGE # Creating a monster 'squint-eyed rogue' at (16,36), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (16,36) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (13,36), HP: 2, Index: 8
+MESSAGE # Removing Regional Fear (13,36) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'scrawny cat' at (10,25), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (10,25) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'scrawny cat' at (9,42), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (9,42) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'scrawny cat' at (9,28), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (9,28) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'squint-eyed rogue' at (6,39), HP: 5, Index: 10
+MESSAGE # Removing Regional Fear (6,39) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'squint-eyed rogue' at (5,13), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (5,13) because of a LOS squint-eyed rogue
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'singing, happy drunk' at (16,36), HP: 3, Index: 11
+MESSAGE # Removing Regional Fear (16,36) because of a LOS singing, happy drunk
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (17,36) from (16,36)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (18,36) from (17,36)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (17,36) from (18,36)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (18,37) from (17,36)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (17,38) from (18,37)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (16,38) from (17,38)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (15,38) from (16,38)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (14,38) from (15,38)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (15,39) from (14,38)
+MESSAGE # Creating a monster 'boil-covered wretch' at (16,55), HP: 4, Index: 6
+MESSAGE # Creating a monster 'battle-scarred veteran' at (13,6), HP: 32, Index: 14
+MESSAGE # Creating a monster 'aimless-looking merchant' at (11,14), HP: 4, Index: 12
+MESSAGE # Creating a monster 'mean-looking mercenary' at (10,54), HP: 22, Index: 13
+MESSAGE # Creating a monster 'filthy street urchin' at (8,13), HP: 4, Index: 1
+MESSAGE # Creating a monster 'battle-scarred veteran' at (7,30), HP: 30, Index: 14
+MESSAGE # Creating a monster 'boil-covered wretch' at (6,12), HP: 1, Index: 6
+MESSAGE # Creating a monster 'singing, happy drunk' at (5,23), HP: 4, Index: 11
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'scrawny cat' at (20,14), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (20,14) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'boil-covered wretch' at (18,42), HP: 1, Index: 6
+MESSAGE # Removing Regional Fear (18,42) because of a LOS boil-covered wretch
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (15,39), HP: 3, Index: 8
+MESSAGE # Removing Regional Fear (15,39) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'battle-scarred veteran' at (9,55), HP: 26, Index: 14
+MESSAGE # Removing Regional Fear (9,55) because of a LOS battle-scarred veteran
+MESSAGE # Creating a monster 'mangy-looking leper' at (8,42), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (8,42) because of a LOS mangy-looking leper
+MESSAGE # Creating a monster 'mangy-looking leper' at (8,34), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (8,34) because of a LOS mangy-looking leper
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (5,10), HP: 3, Index: 8
+MESSAGE # Removing Regional Fear (5,10) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'village idiot' at (3,13), HP: 8, Index: 7
+MESSAGE # Removing Regional Fear (3,13) because of a LOS village idiot
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating an object '& Wooden Torch~' at (169,9)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Flowing toward Scum item at cost 1
+MESSAGE # Walking onto and deleting a '& Wooden Torch~' at (9,169)
+MESSAGE You hear a door burst open!
+MESSAGE You have 6 Wooden Torches (5000 turns) (n).
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE You hear a door burst open!
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'mangy-looking leper' at (17,44), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (17,44) because of a LOS mangy-looking leper
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (15,30), HP: 3, Index: 8
+MESSAGE # Removing Regional Fear (15,30) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'battle-scarred veteran' at (14,8), HP: 31, Index: 14
+MESSAGE # Removing Regional Fear (14,8) because of a LOS battle-scarred veteran
+MESSAGE # Creating a monster 'mangy-looking leper' at (11,20), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (11,20) because of a LOS mangy-looking leper
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (9,43), HP: 2, Index: 8
+MESSAGE # Removing Regional Fear (9,43) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'village idiot' at (9,24), HP: 8, Index: 7
+MESSAGE # Removing Regional Fear (9,24) because of a LOS village idiot
+MESSAGE # Creating a monster 'mangy-looking leper' at (7,47), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (7,47) because of a LOS mangy-looking leper
+MESSAGE # Creating a monster 'village idiot' at (5,44), HP: 10, Index: 7
+MESSAGE # Removing Regional Fear (5,44) because of a LOS village idiot
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'squint-eyed rogue' at (17,20), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (17,20) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'aimless-looking merchant' at (17,9), HP: 3, Index: 12
+MESSAGE # Removing Regional Fear (17,9) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'boil-covered wretch' at (16,54), HP: 1, Index: 6
+MESSAGE # Removing Regional Fear (16,54) because of a LOS boil-covered wretch
+MESSAGE # Creating a monster 'aimless-looking merchant' at (16,51), HP: 7, Index: 12
+MESSAGE # Removing Regional Fear (16,51) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'singing, happy drunk' at (15,17), HP: 6, Index: 11
+MESSAGE # Removing Regional Fear (15,17) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'filthy street urchin' at (14,7), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (14,7) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (13,7), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (13,7) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (13,6), HP: 4, Index: 1
+MESSAGE # Removing Regional Fear (13,6) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (12,7), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (12,7) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'blubbering idiot' at (9,10), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (9,10) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'singing, happy drunk' at (6,45), HP: 3, Index: 11
+MESSAGE # Removing Regional Fear (6,45) because of a LOS singing, happy drunk
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'mangy-looking leper' at (3,34), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (3,34) because of a LOS mangy-looking leper
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'filthy street urchin' at (19,16), HP: 3, Index: 1
+MESSAGE # Creating a monster 'filthy street urchin' at (18,17), HP: 3, Index: 1
+MESSAGE # Creating a monster 'filthy street urchin' at (18,16), HP: 4, Index: 1
+MESSAGE # Creating a monster 'filthy street urchin' at (18,15), HP: 3, Index: 1
+MESSAGE # Creating a monster 'filthy street urchin' at (17,16), HP: 3, Index: 1
+MESSAGE # Creating a monster 'scrawny cat' at (16,17), HP: 2, Index: 2
+MESSAGE # Creating a monster 'scruffy little dog' at (16,12), HP: 3, Index: 3
+MESSAGE # Creating a monster 'scrawny cat' at (15,17), HP: 2, Index: 2
+MESSAGE # Creating a monster 'scruffy little dog' at (15,12), HP: 3, Index: 3
+MESSAGE # Creating a monster 'mean-looking mercenary' at (9,23), HP: 23, Index: 13
+MESSAGE # Creating a monster 'village idiot' at (9,21), HP: 11, Index: 7
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (9,13), HP: 3, Index: 8
+MESSAGE # Creating a monster 'squint-eyed rogue' at (8,5), HP: 9, Index: 10
+MESSAGE # Creating a monster 'aimless-looking merchant' at (19,46), HP: 7, Index: 12
+MESSAGE # Creating a monster 'battle-scarred veteran' at (3,13), HP: 44, Index: 14
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (1,28), HP: 3, Index: 8
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (18,44), HP: 4, Index: 8
+MESSAGE # Removing Regional Fear (18,44) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'aimless-looking merchant' at (17,21), HP: 6, Index: 12
+MESSAGE # Removing Regional Fear (17,21) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'mean-looking mercenary' at (16,44), HP: 23, Index: 13
+MESSAGE # Removing Regional Fear (16,44) because of a LOS mean-looking mercenary
+MESSAGE # Creating a monster 'blubbering idiot' at (15,16), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (15,16) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'blubbering idiot' at (14,11), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (14,11) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'mean-looking mercenary' at (13,28), HP: 28, Index: 13
+MESSAGE # Removing Regional Fear (13,28) because of a LOS mean-looking mercenary
+MESSAGE # Creating a monster 'aimless-looking merchant' at (10,15), HP: 9, Index: 12
+MESSAGE # Removing Regional Fear (10,15) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'battle-scarred veteran' at (6,13), HP: 32, Index: 14
+MESSAGE # Removing Regional Fear (6,13) because of a LOS battle-scarred veteran
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'singing, happy drunk' at (3,34), HP: 1, Index: 11
+MESSAGE # Removing Regional Fear (3,34) because of a LOS singing, happy drunk
+MESSAGE # Standing on dn-stairs
+MESSAGE # Performing attack type 4 with value 4.
+MESSAGE # Targeting singing, happy drunk who has 1 Hit Points (3,34).
+MESSAGE # Casting Magic Missile (0,0).
+MESSAGE Target Selected.
+MESSAGE The singing, happy drunk dies.
+MESSAGE # DIED:The singing, happy drunk (+)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (3,34)
+MESSAGE # Creating an object 'copper' at (34,3)
+MESSAGE # DIED:The singing, happy drunk (2)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a 'copper' at (3,34)
+MESSAGE You have found 19 gold pieces worth of copper.
+MESSAGE # Creating a monster 'mean-looking mercenary' at (9,34), HP: 29, Index: 13
+MESSAGE # Removing Regional Fear (9,34) because of a LOS mean-looking mercenary
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'blubbering idiot' at (12,30), HP: 3, Index: 5
+MESSAGE # Removing Regional Fear (12,30) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'filthy street urchin' at (11,44), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (11,44) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (11,43), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (11,43) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'scrawny cat' at (11,11), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (11,11) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'filthy street urchin' at (10,44), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (10,44) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (10,43), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (10,43) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (10,42), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (10,42) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (9,43), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (9,43) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'aimless-looking merchant' at (15,23), HP: 7, Index: 12
+MESSAGE # Removing Regional Fear (15,23) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'squint-eyed rogue' at (8,54), HP: 5, Index: 10
+MESSAGE # Removing Regional Fear (8,54) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'singing, happy drunk' at (5,22), HP: 4, Index: 11
+MESSAGE # Removing Regional Fear (5,22) because of a LOS singing, happy drunk
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Creating a monster 'scrawny cat' at (4,31), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (4,31) because of a LOS scrawny cat
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Tracking a monster 'scrawny cat' at (5,31) from (4,31)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Tracking a monster 'scrawny cat' at (4,32) from (5,31)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Tracking a monster 'scrawny cat' at (3,33) from (4,32)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:3,34 Dep:0 Lev:4 HP:27/27 SP:4/8 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 4 with value 8.
+MESSAGE # Targeting scrawny cat who has 2 Hit Points (3,33).
+MESSAGE # Casting Magic Missile (0,0).
+MESSAGE Target Selected.
+MESSAGE The scrawny cat dies.
+MESSAGE # DIED:The scrawny cat (+)
+MESSAGE # Forgetting a monster 'scrawny cat' at (3,33)
+MESSAGE # DIED:The scrawny cat (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'mean-looking mercenary' at (14,34), HP: 28, Index: 13
+MESSAGE # Removing Regional Fear (14,34) because of a LOS mean-looking mercenary
+MESSAGE # Creating a monster 'singing, happy drunk' at (8,36), HP: 1, Index: 11
+MESSAGE # Removing Regional Fear (8,36) because of a LOS singing, happy drunk
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'blubbering idiot' at (19,41), HP: 1, Index: 5
+MESSAGE # Removing Regional Fear (19,41) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'battle-scarred veteran' at (17,20), HP: 31, Index: 14
+MESSAGE # Removing Regional Fear (17,20) because of a LOS battle-scarred veteran
+MESSAGE # Creating a monster 'mean-looking mercenary' at (16,52), HP: 29, Index: 13
+MESSAGE # Removing Regional Fear (16,52) because of a LOS mean-looking mercenary
+MESSAGE # Creating a monster 'scruffy little dog' at (16,12), HP: 2, Index: 3
+MESSAGE # Removing Regional Fear (16,12) because of a LOS scruffy little dog
+MESSAGE # Creating a monster 'scruffy little dog' at (15,12), HP: 2, Index: 3
+MESSAGE # Removing Regional Fear (15,12) because of a LOS scruffy little dog
+MESSAGE # Creating a monster 'scrawny cat' at (15,7), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (15,7) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'battle-scarred veteran' at (14,42), HP: 25, Index: 14
+MESSAGE # Removing Regional Fear (14,42) because of a LOS battle-scarred veteran
+MESSAGE # Creating a monster 'scrawny cat' at (14,7), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (14,7) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'filthy street urchin' at (13,12), HP: 2, Index: 1
+MESSAGE # Removing Regional Fear (13,12) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (13,11), HP: 4, Index: 1
+MESSAGE # Removing Regional Fear (13,11) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (12,12), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (12,12) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (12,11), HP: 2, Index: 1
+MESSAGE # Removing Regional Fear (12,11) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (11,11), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (11,11) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (8,14), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (8,14) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (7,14), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (7,14) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'scruffy little dog' at (6,30), HP: 2, Index: 3
+MESSAGE # Removing Regional Fear (6,30) because of a LOS scruffy little dog
+MESSAGE # Creating a monster 'filthy street urchin' at (6,14), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (6,14) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'scrawny cat' at (3,31), HP: 1, Index: 2
+MESSAGE # Removing Regional Fear (3,31) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'aimless-looking merchant' at (2,13), HP: 6, Index: 12
+MESSAGE # Removing Regional Fear (2,13) because of a LOS aimless-looking merchant
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'filthy street urchin' at (5,37), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (5,37) because of a LOS filthy street urchin
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'village idiot' at (19,14), HP: 9, Index: 7
+MESSAGE # Removing Regional Fear (19,14) because of a LOS village idiot
+MESSAGE # Creating a monster 'squint-eyed rogue' at (17,53), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (17,53) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'singing, happy drunk' at (16,51), HP: 7, Index: 11
+MESSAGE # Removing Regional Fear (16,51) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'singing, happy drunk' at (11,30), HP: 2, Index: 11
+MESSAGE # Removing Regional Fear (11,30) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'aimless-looking merchant' at (10,16), HP: 5, Index: 12
+MESSAGE # Removing Regional Fear (10,16) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'blubbering idiot' at (9,18), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (9,18) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'blubbering idiot' at (7,23), HP: 3, Index: 5
+MESSAGE # Removing Regional Fear (7,23) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'singing, happy drunk' at (5,19), HP: 3, Index: 11
+MESSAGE # Removing Regional Fear (5,19) because of a LOS singing, happy drunk
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # Creating an object 'copper' at (156,32)
+MESSAGE # Creating a monster 'giant white mouse' at (32,152), HP: 2, Index: 23
+MESSAGE # Removing Regional Fear (32,152) because of a LOS giant white mouse
+MESSAGE # Creating a monster 'fruit bat' at (32,148), HP: 4, Index: 31
+MESSAGE # Removing Regional Fear (32,148) because of a LOS fruit bat
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'village idiot' at (5,38), HP: 9, Index: 7
+MESSAGE # Removing Regional Fear (5,38) because of a LOS village idiot
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'boil-covered wretch' at (19,16), HP: 1, Index: 6
+MESSAGE # Removing Regional Fear (19,16) because of a LOS boil-covered wretch
+MESSAGE # Creating a monster 'boil-covered wretch' at (16,46), HP: 1, Index: 6
+MESSAGE # Removing Regional Fear (16,46) because of a LOS boil-covered wretch
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (14,32), HP: 4, Index: 8
+MESSAGE # Removing Regional Fear (14,32) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'mean-looking mercenary' at (10,15), HP: 21, Index: 13
+MESSAGE # Removing Regional Fear (10,15) because of a LOS mean-looking mercenary
+MESSAGE # Creating a monster 'village idiot' at (6,18), HP: 12, Index: 7
+MESSAGE # Removing Regional Fear (6,18) because of a LOS village idiot
+MESSAGE # Creating a monster 'singing, happy drunk' at (19,45), HP: 7, Index: 11
+MESSAGE # Removing Regional Fear (19,45) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'village idiot' at (5,12), HP: 9, Index: 7
+MESSAGE # Removing Regional Fear (5,12) because of a LOS village idiot
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # Creating an object '& Cloak~' at (176,10)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Flowing toward Scum item at cost 5
+MESSAGE # Creating an object 'Boldness' at (179,12)
+MESSAGE # Flowing toward Scum item at cost 2
+MESSAGE The wild dog wakes up.
+MESSAGE # PAIN:The wild dog (+)
+MESSAGE # Creating an object 'copper' at (182,10)
+MESSAGE # Creating a monster 'wild dog' at (11,172), HP: 3, Index: 29
+MESSAGE # Removing Regional Fear (11,172) because of a LOS wild dog
+MESSAGE # Creating a monster 'wild dog' at (11,171), HP: 3, Index: 29
+MESSAGE # Removing Regional Fear (11,171) because of a LOS wild dog
+MESSAGE # Creating a monster 'large white snake' at (11,183), HP: 10, Index: 24
+MESSAGE # Removing Regional Fear (11,183) because of a LOS large white snake
+MESSAGE # Creating a monster 'wild dog' at (12,170), HP: 2, Index: 29
+MESSAGE # Removing Regional Fear (12,170) because of a LOS wild dog
+MESSAGE # Creating a monster 'wild dog' at (10,171), HP: 3, Index: 29
+MESSAGE # Removing Regional Fear (10,171) because of a LOS wild dog
+MESSAGE # PAIN:The wild dog (4)
+MESSAGE # Flowing toward Scum item at cost 1
+MESSAGE # Walking onto and deleting a '& Cloak~' at (10,176)
+MESSAGE The wild dog wakes up.
+MESSAGE You have 2 Cloaks [1,+0] (o).
+MESSAGE # PAIN:The wild dog (+)
+MESSAGE # Tracking a monster 'wild dog' at (11,173) from (11,172)
+MESSAGE # Tracking a monster 'wild dog' at (10,172) from (10,171)
+MESSAGE # PAIN:The wild dog (2)
+MESSAGE # Flowing toward Scum item at cost 3
+MESSAGE # Tracking a monster 'wild dog' at (12,171) from (12,170)
+MESSAGE # Tracking a monster 'wild dog' at (11,174) from (11,173)
+MESSAGE # Tracking a monster 'wild dog' at (10,173) from (10,172)
+MESSAGE # Tracking a monster 'wild dog' at (12,172) from (12,171)
+MESSAGE # Tracking a monster 'wild dog' at (11,175) from (11,174)
+MESSAGE # Tracking a monster 'wild dog' at (10,174) from (10,173)
+MESSAGE # Walking onto and deleting a 'Boldness' at (12,179)
+MESSAGE You have a Potion of Boldness (e).
+MESSAGE # Tracking a monster 'wild dog' at (12,173) from (12,172)
+MESSAGE # Tracking a monster 'wild dog' at (11,176) from (11,175)
+MESSAGE # Tracking a monster 'wild dog' at (10,175) from (10,174)
+MESSAGE # Flowing toward Scum item at cost 3
+MESSAGE # Tracking a monster 'wild dog' at (11,176) from (10,175)
+MESSAGE # Tracking a monster 'wild dog' at (12,174) from (12,173)
+MESSAGE # Tracking a monster 'wild dog' at (11,177) from (11,176)
+MESSAGE # Tracking a monster 'wild dog' at (12,175) from (12,174)
+MESSAGE # Tracking a monster 'wild dog' at (11,178) from (11,177)
+MESSAGE # Walking onto and deleting a 'copper' at (10,182)
+MESSAGE You have found 85 gold pieces worth of copper.
+MESSAGE # Tracking a monster 'wild dog' at (11,179) from (11,178)
+MESSAGE # Tracking a monster 'wild dog' at (11,178) from (11,177)
+MESSAGE # Tracking a monster 'wild dog' at (12,176) from (12,175)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=4
+MESSAGE # Performing attack type 4 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (11,179).
+MESSAGE # Casting Magic Missile (0,0).
+MESSAGE Target Selected.
+MESSAGE The wild dog dies.
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (11,179)
+MESSAGE # Tracking a monster 'wild dog' at (11,179) from (11,178)
+MESSAGE # Tracking a monster 'wild dog' at (12,177) from (12,176)
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:27/27 SP:1/8 Danger:p=4
+MESSAGE # Performing attack type 4 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (11,179).
+MESSAGE # Casting Magic Missile (0,0).
+MESSAGE Target Selected.
+MESSAGE The wild dog dies.
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (11,179)
+MESSAGE # Tracking a monster 'wild dog' at (12,178) from (12,177)
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:27/27 SP:0/8 Danger:p=4
+MESSAGE # Performing attack type 1 with value 5.
+MESSAGE # Facing large white snake at (11,183) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You hit the large white snake.
+MESSAGE # HIT:the large white snake (+)
+MESSAGE # Tracking a monster 'wild dog' at (11,179) from (12,178)
+MESSAGE # Tracking a monster 'large white snake' at (10,183) from (11,183)
+MESSAGE # HIT:the large white snake (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:27/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 2 with value 4.
+MESSAGE # Targeting wild dog who has 2 Hit Points (11,179).
+MESSAGE # Throwing painful object 'Flasks of oil'
+MESSAGE Target Selected.
+MESSAGE Your Flask of oil hits the wild dog.
+MESSAGE The wild dog dies.
+MESSAGE You have 14 Flasks of oil (c).
+MESSAGE The Flask of oil breaks.
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (11,179)
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:27/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (10,183) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the large white snake.
+MESSAGE The large white snake bites you.
+MESSAGE The large white snake crushes you.
+MESSAGE # MISS:the large white snake (+)
+MESSAGE # HIT_BY:The large white snake (+)
+MESSAGE # MISS:the large white snake (2)
+MESSAGE # HIT_BY:The large white snake (3)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:25/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (10,183) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the large white snake.
+MESSAGE # MISS:the large white snake (+)
+MESSAGE # MISS:the large white snake (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:25/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (10,183) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the large white snake.
+MESSAGE The large white snake bites you.
+MESSAGE The large white snake misses you.
+MESSAGE # MISS:the large white snake (+)
+MESSAGE # HIT_BY:The large white snake (+)
+MESSAGE # MISS_BY:The large white snake (+)
+MESSAGE # MISS:the large white snake (2)
+MESSAGE # HIT_BY:The large white snake (3)
+MESSAGE # MISS_BY:The large white snake (3)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:24/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (10,183) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the large white snake.
+MESSAGE # MISS:the large white snake (+)
+MESSAGE # MISS:the large white snake (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:24/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (10,183) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the large white snake.
+MESSAGE # MISS:the large white snake (+)
+MESSAGE # Tracking a monster 'large white snake' at (9,183) from (10,183)
+MESSAGE # MISS:the large white snake (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:24/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (9,183) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the large white snake.
+MESSAGE # MISS:the large white snake (+)
+MESSAGE # MISS:the large white snake (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:24/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (9,183) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the large white snake.
+MESSAGE # MISS:the large white snake (+)
+MESSAGE # Tracking a monster 'large white snake' at (10,183) from (9,183)
+MESSAGE # MISS:the large white snake (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:24/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (10,183) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the large white snake.
+MESSAGE # MISS:the large white snake (+)
+MESSAGE # MISS:the large white snake (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:24/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (10,183) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You hit the large white snake.
+MESSAGE The large white snake flees in terror!
+MESSAGE # HIT:the large white snake (+)
+MESSAGE # PAIN:The large white snake (+)
+MESSAGE # Tracking a monster 'large white snake' at (9,182) from (10,183)
+MESSAGE # HIT:the large white snake (2)
+MESSAGE # PAIN:The large white snake (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:25/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (9,182) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the large white snake.
+MESSAGE # MISS:the large white snake (+)
+MESSAGE # MISS:the large white snake (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:25/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (9,182) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You hit the large white snake.
+MESSAGE # HIT:the large white snake (+)
+MESSAGE # Tracking a monster 'large white snake' at (9,181) from (9,182)
+MESSAGE # HIT:the large white snake (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Loc:10,182 Dep:1 Lev:4 HP:25/27 SP:0/8 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (9,181) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You hit the large white snake.
+MESSAGE You have slain the large white snake.
+MESSAGE # HIT:the large white snake (+)
+MESSAGE # KILL:the large white snake (+)
+MESSAGE # Forgetting a monster 'large white snake' at (9,181)
+MESSAGE # HIT:the large white snake (2)
+MESSAGE # KILL:the large white snake (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The wild dog wakes up.
+MESSAGE # PAIN:The wild dog (+)
+MESSAGE # Tracking a monster 'wild dog' at (11,172) from (11,171)
+MESSAGE # PAIN:The wild dog (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Performing attack type 4 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (11,172).
+MESSAGE # Casting Magic Missile (0,0).
+MESSAGE Target Selected.
+MESSAGE The wild dog dies.
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (11,172)
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Casting Find Traps, Doors & Stairs (0,2).
+MESSAGE # Checking for traps, doors & stairs.
+MESSAGE You sense no traps.
+MESSAGE You sense the presence of doors!
+MESSAGE You sense the presence of stairs!
+MESSAGE # SELF:both (+)
+MESSAGE # Detected traps and doors (0,2 to 1,3)
+MESSAGE # SELF:both (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,2 to 1,3)
+MESSAGE # SELF:evil (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Looking for stairs. Fleeing.
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'scruffy little dog' at (19,45), HP: 2, Index: 3
+MESSAGE # Removing Regional Fear (19,45) because of a LOS scruffy little dog
+MESSAGE # Creating a monster 'blubbering idiot' at (19,31), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (19,31) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'singing, happy drunk' at (19,16), HP: 4, Index: 11
+MESSAGE # Removing Regional Fear (19,16) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'battle-scarred veteran' at (14,53), HP: 43, Index: 14
+MESSAGE # Removing Regional Fear (14,53) because of a LOS battle-scarred veteran
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (14,30), HP: 3, Index: 8
+MESSAGE # Removing Regional Fear (14,30) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'village idiot' at (12,27), HP: 10, Index: 7
+MESSAGE # Removing Regional Fear (12,27) because of a LOS village idiot
+MESSAGE # Creating a monster 'battle-scarred veteran' at (8,15), HP: 28, Index: 14
+MESSAGE # Removing Regional Fear (8,15) because of a LOS battle-scarred veteran
+MESSAGE # Creating a monster 'battle-scarred veteran' at (6,43), HP: 25, Index: 14
+MESSAGE # Removing Regional Fear (6,43) because of a LOS battle-scarred veteran
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'singing, happy drunk' at (20,9), HP: 4, Index: 11
+MESSAGE # Removing Regional Fear (20,9) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'mangy-looking leper' at (19,44), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (19,44) because of a LOS mangy-looking leper
+MESSAGE # Creating a monster 'singing, happy drunk' at (19,41), HP: 4, Index: 11
+MESSAGE # Removing Regional Fear (19,41) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'aimless-looking merchant' at (18,43), HP: 4, Index: 12
+MESSAGE # Removing Regional Fear (18,43) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'blubbering idiot' at (17,25), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (17,25) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'scrawny cat' at (13,7), HP: 1, Index: 2
+MESSAGE # Removing Regional Fear (13,7) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'boil-covered wretch' at (12,25), HP: 3, Index: 6
+MESSAGE # Removing Regional Fear (12,25) because of a LOS boil-covered wretch
+MESSAGE # Creating a monster 'blubbering idiot' at (11,48), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (11,48) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'filthy street urchin' at (10,8), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (10,8) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (10,7), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (10,7) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (9,8), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (9,8) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (9,7), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (9,7) because of a LOS filthy street urchin
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'soldier ant' at (46,50), HP: 6, Index: 30
+MESSAGE # Removing Regional Fear (46,50) because of a LOS soldier ant
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'squint-eyed rogue' at (16,48), HP: 8, Index: 10
+MESSAGE # Removing Regional Fear (16,48) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'village idiot' at (16,28), HP: 10, Index: 7
+MESSAGE # Removing Regional Fear (16,28) because of a LOS village idiot
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (15,15), HP: 3, Index: 8
+MESSAGE # Removing Regional Fear (15,15) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'singing, happy drunk' at (10,39), HP: 2, Index: 11
+MESSAGE # Removing Regional Fear (10,39) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'squint-eyed rogue' at (9,52), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (9,52) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'boil-covered wretch' at (9,49), HP: 3, Index: 6
+MESSAGE # Removing Regional Fear (9,49) because of a LOS boil-covered wretch
+MESSAGE # Creating a monster 'singing, happy drunk' at (7,30), HP: 5, Index: 11
+MESSAGE # Removing Regional Fear (7,30) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'village idiot' at (2,31), HP: 10, Index: 7
+MESSAGE # Removing Regional Fear (2,31) because of a LOS village idiot
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'filthy street urchin' at (19,51), HP: 2, Index: 1
+MESSAGE # Creating a monster 'filthy street urchin' at (18,52), HP: 3, Index: 1
+MESSAGE # Creating a monster 'filthy street urchin' at (18,51), HP: 4, Index: 1
+MESSAGE # Creating a monster 'filthy street urchin' at (17,51), HP: 4, Index: 1
+MESSAGE # Creating a monster 'mean-looking mercenary' at (14,12), HP: 23, Index: 13
+MESSAGE # Creating a monster 'battle-scarred veteran' at (12,19), HP: 34, Index: 14
+MESSAGE # Creating a monster 'blubbering idiot' at (9,21), HP: 2, Index: 5
+MESSAGE # Creating a monster 'mangy-looking leper' at (9,12), HP: 1, Index: 9
+MESSAGE # Creating a monster 'squint-eyed rogue' at (7,24), HP: 9, Index: 10
+MESSAGE # Creating a monster 'boil-covered wretch' at (5,44), HP: 1, Index: 6
+MESSAGE # Creating a monster 'scrawny cat' at (3,31), HP: 2, Index: 2
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'aimless-looking merchant' at (3,34), HP: 5, Index: 12
+MESSAGE # Removing Regional Fear (3,34) because of a LOS aimless-looking merchant
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'scrawny cat' at (16,53), HP: 1, Index: 2
+MESSAGE # Removing Regional Fear (16,53) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (15,47), HP: 3, Index: 8
+MESSAGE # Removing Regional Fear (15,47) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'village idiot' at (14,56), HP: 8, Index: 7
+MESSAGE # Removing Regional Fear (14,56) because of a LOS village idiot
+MESSAGE # Creating a monster 'battle-scarred veteran' at (13,27), HP: 32, Index: 14
+MESSAGE # Removing Regional Fear (13,27) because of a LOS battle-scarred veteran
+MESSAGE # Creating a monster 'aimless-looking merchant' at (11,48), HP: 6, Index: 12
+MESSAGE # Removing Regional Fear (11,48) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'filthy street urchin' at (9,35), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (9,35) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (8,35), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (8,35) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (7,48), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (7,48) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (7,47), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (7,47) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (6,48), HP: 1, Index: 1
+MESSAGE # Removing Regional Fear (6,48) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (6,47), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (6,47) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (6,46), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (6,46) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'village idiot' at (18,36), HP: 10, Index: 7
+MESSAGE # Removing Regional Fear (18,36) because of a LOS village idiot
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'squint-eyed rogue' at (17,50), HP: 11, Index: 10
+MESSAGE # Removing Regional Fear (17,50) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'squint-eyed rogue' at (17,18), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (17,18) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'boil-covered wretch' at (16,48), HP: 3, Index: 6
+MESSAGE # Removing Regional Fear (16,48) because of a LOS boil-covered wretch
+MESSAGE # Creating a monster 'boil-covered wretch' at (15,21), HP: 3, Index: 6
+MESSAGE # Removing Regional Fear (15,21) because of a LOS boil-covered wretch
+MESSAGE # Creating a monster 'blubbering idiot' at (9,23), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (9,23) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'aimless-looking merchant' at (8,34), HP: 8, Index: 12
+MESSAGE # Removing Regional Fear (8,34) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'blubbering idiot' at (8,33), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (8,33) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'filthy street urchin' at (6,22), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (6,22) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (5,34), HP: 4, Index: 1
+MESSAGE # Removing Regional Fear (5,34) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (5,22), HP: 2, Index: 1
+MESSAGE # Removing Regional Fear (5,22) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'aimless-looking merchant' at (4,24), HP: 4, Index: 12
+MESSAGE # Removing Regional Fear (4,24) because of a LOS aimless-looking merchant
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'aimless-looking merchant' at (19,24), HP: 4, Index: 12
+MESSAGE # Removing Regional Fear (19,24) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'scrawny cat' at (18,52), HP: 3, Index: 2
+MESSAGE # Removing Regional Fear (18,52) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'filthy street urchin' at (18,24), HP: 2, Index: 1
+MESSAGE # Removing Regional Fear (18,24) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (17,24), HP: 2, Index: 1
+MESSAGE # Removing Regional Fear (17,24) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'mangy-looking leper' at (13,24), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (13,24) because of a LOS mangy-looking leper
+MESSAGE # Creating a monster 'filthy street urchin' at (13,19), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (13,19) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (12,20), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (12,20) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (12,19), HP: 5, Index: 1
+MESSAGE # Removing Regional Fear (12,19) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (12,18), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (12,18) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (11,19), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (11,19) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'scrawny cat' at (11,15), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (11,15) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'scrawny cat' at (10,15), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (10,15) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'scruffy little dog' at (7,18), HP: 3, Index: 3
+MESSAGE # Removing Regional Fear (7,18) because of a LOS scruffy little dog
+MESSAGE # Creating a monster 'village idiot' at (6,46), HP: 7, Index: 7
+MESSAGE # Removing Regional Fear (6,46) because of a LOS village idiot
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (5,52), HP: 2, Index: 8
+MESSAGE # Removing Regional Fear (5,52) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'village idiot' at (5,49), HP: 10, Index: 7
+MESSAGE # Removing Regional Fear (5,49) because of a LOS village idiot
+MESSAGE # Creating a monster 'squint-eyed rogue' at (2,30), HP: 10, Index: 10
+MESSAGE # Removing Regional Fear (2,30) because of a LOS squint-eyed rogue
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'battle-scarred veteran' at (14,36), HP: 36, Index: 14
+MESSAGE # Removing Regional Fear (14,36) because of a LOS battle-scarred veteran
+MESSAGE # Creating a monster 'aimless-looking merchant' at (4,33), HP: 4, Index: 12
+MESSAGE # Removing Regional Fear (4,33) because of a LOS aimless-looking merchant
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # Creating an object 'copper' at (123,28)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Flowing toward Scum item at cost 1
+MESSAGE # Walking onto and deleting a 'copper' at (28,123)
+MESSAGE You have found 115 gold pieces worth of copper.
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # SELF:evil (+)
+MESSAGE # Something failed
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 11
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Wooden Torch (2146 turns)' at 'Black Market'
+MESSAGE # Currently in store '8' would prefer '7'.
+MESSAGE # Selling 'Wooden Torch (2146 turns)' at 'Black Market'
+MESSAGE # Flowing toward Black Market at cost 6
+MESSAGE # Entering a '6' shop
+MESSAGE "If you're in a bad situation, take a breather and "I"nspect all your gear."
+MESSAGE # Selling 'Wooden Torch (2146 turns)' at 'Black Market'
+MESSAGE # Currently in preferred store '7'.
+MESSAGE # Selling Wooden Torch (2146 turns)
+MESSAGE You had a Wooden Torch (2146 turns) (n).
+MESSAGE # Selling 'Cloaks [1,+0]' at 'Black Market'
+MESSAGE # Re-entering a shop
+MESSAGE "You always get the first move when entering a level. "
+MESSAGE # Selling 'Cloaks [1,+0]' at 'Black Market'
+MESSAGE # Currently in preferred store '7'.
+MESSAGE # Selling Cloaks [1,+0]
+MESSAGE You had a Cloak [1,+0] (o).
+MESSAGE # Selling 'Cloak [1,+0]' at 'Black Market'
+MESSAGE # Re-entering a shop
+MESSAGE "Be sure to set your hitpoint warning in the options menu ('=')."
+MESSAGE # Selling 'Cloak [1,+0]' at 'Black Market'
+MESSAGE # Currently in preferred store '7'.
+MESSAGE # Selling Cloak [1,+0]
+MESSAGE You had a Cloak [1,+0] (o).
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'village idiot' at (17,49), HP: 10, Index: 7
+MESSAGE # Creating a monster 'mangy-looking leper' at (16,44), HP: 1, Index: 9
+MESSAGE # Creating a monster 'filthy street urchin' at (16,16), HP: 3, Index: 1
+MESSAGE # Creating a monster 'aimless-looking merchant' at (15,19), HP: 6, Index: 12
+MESSAGE # Creating a monster 'filthy street urchin' at (15,16), HP: 3, Index: 1
+MESSAGE # Creating a monster 'squint-eyed rogue' at (12,38), HP: 7, Index: 10
+MESSAGE # Creating a monster 'blubbering idiot' at (10,12), HP: 2, Index: 5
+MESSAGE # Creating a monster 'blubbering idiot' at (7,14), HP: 2, Index: 5
+MESSAGE # Creating a monster 'village idiot' at (5,19), HP: 11, Index: 7
+MESSAGE # Creating a monster 'squint-eyed rogue' at (5,13), HP: 11, Index: 10
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 17
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'filthy street urchin' at (4,33), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (4,33) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (3,34), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (3,34) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (3,33), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (3,33) because of a LOS filthy street urchin
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # Creating a monster 'clear icky thing' at (43,85), HP: 9, Index: 22
+MESSAGE # Removing Regional Fear (43,85) because of a LOS clear icky thing
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Loc:45,85 Dep:1 Lev:4 HP:27/27 SP:8/8 Danger:p=2
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'battle-scarred veteran' at (4,33), HP: 40, Index: 14
+MESSAGE # Removing Regional Fear (4,33) because of a LOS battle-scarred veteran
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating an object 'Boldness' at (101,10)
+MESSAGE # Creating an object '& Handful~ of Dried Fruits' at (102,8)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Flowing toward Scum item at cost 5
+MESSAGE # Creating a monster 'soldier' at (14,100), HP: 28, Index: 36
+MESSAGE # Removing Regional Fear (14,100) because of a LOS soldier
+MESSAGE # Creating an object '& Apple~' at (97,13)
+MESSAGE # Creating an object '& Ration~ of Food' at (100,10)
+MESSAGE # Creating a monster 'cutpurse' at (15,98), HP: 15, Index: 37
+MESSAGE # Removing Regional Fear (15,98) because of a LOS cutpurse
+MESSAGE # Creating a monster 'salamander' at (13,99), HP: 16, Index: 44
+MESSAGE # Removing Regional Fear (13,99) because of a LOS salamander
+MESSAGE # Flowing toward Scum item at cost 2
+MESSAGE # Creating an object '& Handful~ of Dried Fruits' at (98,9)
+MESSAGE # Creating an object '& Handful~ of Dried Fruits' at (95,10)
+MESSAGE # Creating a monster 'giant white centipede' at (9,93), HP: 9, Index: 20
+MESSAGE # Removing Regional Fear (9,93) because of a LOS giant white centipede
+MESSAGE # Creating a monster 'white jelly' at (7,100), HP: 29, Index: 41
+MESSAGE # Removing Regional Fear (7,100) because of a LOS white jelly
+MESSAGE # Flowing toward Scum item at cost 1
+MESSAGE # Walking onto and deleting a '& Handful~ of Dried Fruits' at (8,102)
+MESSAGE You have a Handful of Dried Fruits (b).
+MESSAGE # Flowing toward Scum item at cost 2
+MESSAGE # Creating a monster 'clear icky thing' at (10,98), HP: 3, Index: 22
+MESSAGE # Removing Regional Fear (10,98) because of a LOS clear icky thing
+MESSAGE # Flowing toward Scum item at cost 1
+MESSAGE # Walking onto and deleting a 'Boldness' at (10,101)
+MESSAGE You have 2 Potions of Boldness (f).
+MESSAGE # Flowing toward Scum item at cost 1
+MESSAGE # Walking onto and deleting a '& Ration~ of Food' at (10,100)
+MESSAGE You feel that there is naught but cobwebs here.
+MESSAGE The clear icky thing wakes up.
+MESSAGE You have 10 Rations of Food (c).
+MESSAGE # FEELING_STUFF:10 (+)
+MESSAGE # PAIN:The clear icky thing (+)
+MESSAGE # FEELING_STUFF:10 (1)
+MESSAGE # PAIN:The clear icky thing (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:10,100 Dep:1 Lev:4 HP:27/27 SP:8/8 Danger:p=25
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'clear icky thing' at (9,99) from (10,98)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:9,100 Dep:1 Lev:4 HP:27/27 SP:8/8 Danger:p=23
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # No Phase. scary squares: 44
+MESSAGE # Safe to Phase. scary squares: 45
+MESSAGE # Casting Phase Door (0,3).
+MESSAGE # Danger Level 4.3
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 11
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE The cutpurse hits you.
+MESSAGE The cutpurse misses you.
+MESSAGE # HIT_BY:The cutpurse (+)
+MESSAGE # MISS_BY:The cutpurse (+)
+MESSAGE # Tracking a monster 'clear icky thing' at (10,101) from (9,99)
+MESSAGE # Tracking a monster 'cutpurse' at (10,103) from (15,98)
+MESSAGE # HIT_BY:The cutpurse (3)
+MESSAGE # MISS_BY:The cutpurse (3)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:9,104 Dep:1 Lev:4 HP:25/27 SP:6/8 Danger:p=385
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 47
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have 4 Scrolls of Phase Door (n).
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Casting Detect Monsters (0,5).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of monsters!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,1 to 1,2)
+MESSAGE # Tracking a monster 'cutpurse' at (12,103) from (10,103)
+MESSAGE # SELF:evil (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Casting Find Traps, Doors & Stairs (0,2).
+MESSAGE # Checking for traps, doors & stairs.
+MESSAGE You sense no traps.
+MESSAGE You sense the presence of doors!
+MESSAGE You sense the presence of stairs!
+MESSAGE # SELF:both (+)
+MESSAGE # Detected traps and doors (0,1 to 1,2)
+MESSAGE # SELF:both (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (13,108) from (12,103)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:15,110 Dep:1 Lev:4 HP:26/27 SP:3/8 Danger:p=191
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 32
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have 3 Scrolls of Phase Door (n).
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'clear icky thing' at (9,103) from (10,101)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Desperate for Stairs (three)
+MESSAGE The white jelly wakes up.
+MESSAGE # PAIN:The white jelly (+)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'clear icky thing' at (10,104) from (9,103)
+MESSAGE # PAIN:The white jelly (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:8,105 Dep:1 Lev:4 HP:26/27 SP:3/8 Danger:p=3
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'clear icky thing' at (9,104) from (10,104)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:8,104 Dep:1 Lev:4 HP:26/27 SP:3/8 Danger:p=6
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 4 with value 12.
+MESSAGE # Targeting clear icky thing who has 3 Hit Points (9,104).
+MESSAGE # Casting Magic Missile (0,0).
+MESSAGE Target Selected.
+MESSAGE The clear icky thing dies.
+MESSAGE # DIED:The clear icky thing (+)
+MESSAGE # Forgetting a monster 'clear icky thing' at (9,104)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # DIED:The clear icky thing (2)
+MESSAGE # Flowing toward Scum item at cost 6
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,108) from (13,108)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,107) from (9,108)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,106) from (9,107)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,105) from (9,106)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,104) from (9,105)
+MESSAGE # Walking onto and deleting a '& Handful~ of Dried Fruits' at (9,98)
+MESSAGE You have 2 Handfuls of Dried Fruits (b).
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,103) from (9,104)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:9,98 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=8
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,101) from (9,103)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:9,99 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=195
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 19
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have 2 Scrolls of Phase Door (n).
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (5,104) from (9,101)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 13
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (5,106) from (5,104)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:8,109 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 11
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,108) from (5,106)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:9,106 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=191
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 28
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have a Scroll of Phase Door (n).
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,107) from (9,108)
+MESSAGE # Flowing toward Scum item at cost 3
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,106) from (9,107)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,105) from (9,106)
+MESSAGE # Creating a monster 'clear icky thing' at (10,100), HP: 6, Index: 22
+MESSAGE # Removing Regional Fear (10,100) because of a LOS clear icky thing
+MESSAGE # Flowing toward Scum item at cost 1
+MESSAGE # Walking onto and deleting a '& Handful~ of Dried Fruits' at (10,95)
+MESSAGE You have 3 Handfuls of Dried Fruits (b).
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,104) from (9,105)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:10,95 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=3
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,103) from (9,104)
+MESSAGE # There was a monster 'clear icky thing' at (10,100)
+MESSAGE # Forgetting a monster 'clear icky thing' at (10,100)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:10,96 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=5
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,102) from (9,103)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:10,97 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=9
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (9,101) from (9,102)
+MESSAGE # Creating a monster 'clear icky thing' at (13,101), HP: 6, Index: 22
+MESSAGE # Removing Regional Fear (13,101) because of a LOS clear icky thing
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:10,98 Dep:1 Lev:4 HP:27/27 SP:3/8 Danger:p=18
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # No Phase. scary squares: 26
+MESSAGE # Safe to Phase. scary squares: 30
+MESSAGE # Casting Phase Door (0,3).
+MESSAGE # Danger Level 4.3
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:13,107 Dep:1 Lev:4 HP:27/27 SP:1/8 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 1)...
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'clear icky thing' at (13,103) from (13,101)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (12,103) from (9,101)
+MESSAGE # There was a monster 'clear icky thing' at (13,103)
+MESSAGE # Forgetting a monster 'clear icky thing' at (13,103)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:13,107 Dep:1 Lev:4 HP:27/27 SP:1/8 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 16
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (12,104) from (12,103)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:13,108 Dep:1 Lev:4 HP:27/27 SP:1/8 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 15,110 (distance 2) via 14,109 (10 > 0)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (13,108) from (12,104)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:14,109 Dep:1 Lev:4 HP:27/27 SP:1/8 Danger:p=378
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 20
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have no more Scrolls of Phase Door (n).
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Creating a monster 'clear icky thing' at (11,102), HP: 6, Index: 22
+MESSAGE # Removing Regional Fear (11,102) because of a LOS clear icky thing
+MESSAGE # Flowing toward Scum item at cost 5
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'clear icky thing' at (12,102) from (11,102)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'clear icky thing' at (13,102) from (12,102)
+MESSAGE # Tracking a monster 'cutpurse' at (13,106) from (13,108)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (13,105) from (13,106)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (13,104) from (13,105)
+MESSAGE # Walking onto and deleting a '& Apple~' at (13,97)
+MESSAGE You have an Apple (b).
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'clear icky thing' at (14,101) from (13,102)
+MESSAGE # Tracking a monster 'cutpurse' at (13,103) from (13,104)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:13,97 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=20
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'clear icky thing' at (15,100) from (14,101)
+MESSAGE # Tracking a monster 'cutpurse' at (13,102) from (13,103)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:12,97 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=28
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Desperate for Stairs (three)
+MESSAGE The soldier wakes up.
+MESSAGE # PAIN:The soldier (+)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'cutpurse' at (13,101) from (13,102)
+MESSAGE # PAIN:The soldier (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:11,97 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=50
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'soldier' at (13,100) from (14,100)
+MESSAGE # Tracking a monster 'cutpurse' at (12,100) from (13,101)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:10,98 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=223
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'soldier' at (12,99) from (13,100)
+MESSAGE # Tracking a monster 'cutpurse' at (11,100) from (12,100)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:9,99 Dep:1 Lev:4 HP:27/27 SP:2/8 Danger:p=216
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 6
+MESSAGE # Desperate for Stairs (three)
+MESSAGE The white jelly misses you.
+MESSAGE The white jelly touches you.
+MESSAGE You are poisoned!
+MESSAGE # MISS_BY:The white jelly (+)
+MESSAGE # HIT_BY:The white jelly (+)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'soldier' at (11,99) from (12,99)
+MESSAGE # Tracking a monster 'cutpurse' at (10,100) from (11,100)
+MESSAGE # MISS_BY:The white jelly (3)
+MESSAGE # HIT_BY:The white jelly (3)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:8,100 Dep:1 Lev:4 HP:25/27 SP:2/8 Danger:p=244
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing white jelly at (7,100) who has 29 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the white jelly.
+MESSAGE The white jelly touches you.
+MESSAGE You are more poisoned!
+MESSAGE The white jelly touches you.
+MESSAGE You are more poisoned!
+MESSAGE The cutpurse misses you.
+MESSAGE The cutpurse touches you.
+MESSAGE Your purse feels lighter.
+MESSAGE 49 coins were stolen!
+MESSAGE There is a puff of smoke!
+MESSAGE # MISS:the white jelly (+)
+MESSAGE # HIT_BY:The white jelly (+)
+MESSAGE # MISS_BY:The cutpurse (+)
+MESSAGE # HIT_BY:The cutpurse (+)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'soldier' at (10,99) from (11,99)
+MESSAGE # MISS:the white jelly (2)
+MESSAGE # HIT_BY:The white jelly (3)
+MESSAGE # MISS_BY:The cutpurse (3)
+MESSAGE # HIT_BY:The cutpurse (3)
+MESSAGE # There was a monster 'cutpurse' at (10,100)
+MESSAGE # Forgetting a monster 'cutpurse' at (10,100)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:8,100 Dep:1 Lev:4 HP:20/27 SP:2/8 Danger:p=37
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing white jelly at (7,100) who has 29 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You hit the white jelly.
+MESSAGE The white jelly touches you.
+MESSAGE You are more poisoned!
+MESSAGE The white jelly misses you.
+MESSAGE # HIT:the white jelly (+)
+MESSAGE # HIT_BY:The white jelly (+)
+MESSAGE # MISS_BY:The white jelly (+)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'soldier' at (9,100) from (10,99)
+MESSAGE # HIT:the white jelly (2)
+MESSAGE # HIT_BY:The white jelly (3)
+MESSAGE # MISS_BY:The white jelly (3)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:8,100 Dep:1 Lev:4 HP:18/27 SP:2/8 Danger:p=77
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 79.
+MESSAGE # Facing soldier at (9,100) who has 28 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the soldier.
+MESSAGE The soldier misses you.
+MESSAGE The soldier hits you.
+MESSAGE The white jelly misses you.
+MESSAGE # MISS:the soldier (+)
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # MISS_BY:The white jelly (+)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # MISS:the soldier (2)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # MISS_BY:The white jelly (3)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:8,100 Dep:1 Lev:4 HP:14/27 SP:2/8 Danger:p=77
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 79.
+MESSAGE # Facing soldier at (9,100) who has 28 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You miss the soldier.
+MESSAGE The soldier misses you.
+MESSAGE The soldier hits you.
+MESSAGE The white jelly touches you.
+MESSAGE You are more poisoned!
+MESSAGE The white jelly misses you.
+MESSAGE # MISS:the soldier (+)
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # HIT_BY:The white jelly (+)
+MESSAGE # MISS_BY:The white jelly (+)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # MISS:the soldier (2)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # HIT_BY:The white jelly (3)
+MESSAGE # MISS_BY:The white jelly (3)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:8,100 Dep:1 Lev:4 HP:10/27 SP:2/8 Danger:p=77
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 79.
+MESSAGE # Facing soldier at (9,100) who has 28 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You hit the soldier.
+MESSAGE The soldier misses you.
+MESSAGE The soldier hits you.
+MESSAGE The white jelly touches you.
+MESSAGE You are more poisoned!
+MESSAGE The white jelly misses you.
+MESSAGE # HIT:the soldier (+)
+MESSAGE # MISS_BY:The soldier (+)
+MESSAGE # HIT_BY:The soldier (+)
+MESSAGE # HIT_BY:The white jelly (+)
+MESSAGE # MISS_BY:The white jelly (+)
+MESSAGE # Monster opened door at 14,109.  That's scary.
+MESSAGE # Tracking a monster 'clear icky thing' at (11,101) from (15,100)
+MESSAGE # HIT:the soldier (2)
+MESSAGE # MISS_BY:The soldier (3)
+MESSAGE # HIT_BY:The soldier (3)
+MESSAGE # HIT_BY:The white jelly (3)
+MESSAGE # MISS_BY:The white jelly (3)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:8,100 Dep:1 Lev:4 HP:2/27 SP:2/8 Danger:p=78
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 79.
+MESSAGE # Facing soldier at (9,100) who has 21 Hit Points.
+MESSAGE # Attacking with weapon 'Rapier (1d6) (+0,+0)'
+MESSAGE You hit the soldier.
+MESSAGE The soldier hits you.
+MESSAGE You die.

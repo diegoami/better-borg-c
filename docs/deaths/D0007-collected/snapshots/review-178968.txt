@@ -1,0 +1,27 @@
+Original frame 194306, engine turn 178968, phase tick; HP 27/27, SP 2/8, depth 1
+Logical terminal cells; diagnostics include hidden actual state, not extra Borg knowledge.
+
+The soldier wakes up.                                                           
+Gnome                                                                           
+Novice                                                                          
+Mage                                         ###                                
+LEVEL      4                                 #<#                                
+NXT       14                                 #.#                                
+AU       288                                 #..   ...                          
+| =  ~(()]]]                           #######.#   ...                          
+STR:      13                       #####....j..#####...                         
+INT:   18/30                     ###...............##..                         
+WIS:      10                     #...c...............#.#                        
+DEX:      12                     ###...............##'.#                        
+CON:      15                       #####.@.....#######.#                        
+                                 ###...............###                          
+Cur AC    25                     ..........R.p.......#.                         
+HP   27/  27                     ###........p......##'.#                        
+SP    2/   8                       #####.......######..#                        
+                                       #########     ..#                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:2-1 Light 3  Fed 31 % DTrap Open floor                          
