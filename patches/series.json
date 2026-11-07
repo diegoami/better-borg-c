@@ -879,7 +879,8 @@
    "evidence_ref": "55e00023674b9e7634713f2117b5c8c47802ca5f",
    "verification": "docs/measurement/DETECTION-CARRYOVER.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-detectcarry; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured (behavior-neutral on the v1 cohort); carried/open+patch-active",
+   "merge_commit": "7a02072cda8bc79cccabe3ad32d578e233a1edd1"
   }
  ]
 }
