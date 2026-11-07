@@ -276,3 +276,42 @@ artifacts/replay-inventory-validation/mage-spells-overlay.json. These short
 observation checks are not survival/progress measurements. Non-ready edge states
 have representation/source guards; these four native runs exercise ready
 casters/noncaster, not every possible impairment or missing-book trajectory.
+
+## Recorded action and message log
+
+Press `p` to inspect the log at the selected moment. `Tab` cycles **Borg action
+notes**, **all Borg notes**, and **game messages**. `k` scrolls older entries and
+`j` returns toward newer entries. Arrows/g still change the replay position;
+the log follows that position. Opening the panel pauses autoplay, Escape returns
+to the screen, and q exits. Inventory/equipment/spell views retain i/e/s.
+
+Borg action notes include attacks/targets, spells/prayers, firing, consumables,
+activation, retreat, rest and other native action descriptions. All-notes also
+shows existing danger/flow/rejection notes where originally logged; values are
+never recomputed under today's Borg. These are recorded notes/intent, not proof
+that an attempted attack or spell succeeded.
+
+Legacy BORG trace rows have engine-turn timestamps but no frame/decision phase.
+Several actions and level changes can share one turn (D0007 turn178286 is a real
+example). The panel therefore includes those notes only AFTER that turn has
+completed, with an explicit through-turn caption. At the final frame of a
+complete movie, final-turn notes are included. It does not present a later
+same-turn note as if it had already occurred at an earlier frame.
+
+Game-message view indexes changes of the recorded visible top message line,
+using exact frame/turn/phase. Transient prompts/combat messages remain inspectable
+after the live sidebar clears them. Identical unchanged text is not a separate
+visible change; a clear followed by repeated text is retained. Undated MESSAGE
+rows from the terminal's end-of-run buffer are not assigned invented historical
+times. This is the available recorded history, not a promise of an unrecorded
+complete per-blow event stream. No game rerun/instrumentation or movie modification
+is needed to open the log, including with --view-only.
+
+Controls verify same-turn future-note/message exclusion, completed-final-turn
+handling, action/all-note filtering, delta/repeated-message reconstruction and
+bounded scrollback to the oldest entry. Real D0007 PTY178380 shows the original
+Casting Phase Door178379, cycles sources, scrolls back and exercises Escape/i/q.
+Evidence is primary artifacts/replay-log-validation. The initial PTY harness
+expected a contiguous repainted title; curses correctly emitted incremental
+updates. The final harness observes actual window rows while sending real PTY
+keys, with no change to the viewer's output or game data.
