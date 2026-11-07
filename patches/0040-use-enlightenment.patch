@@ -1,0 +1,32 @@
+From 2c3d8172c38bd83090f6869f775893b31216bf13 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Fri, 6 Nov 2026 11:36:47 +0000
+Subject: [PATCH] Drink recognized Enlightenment potions in the dungeon
+
+---
+ src/borg/borg-item-use.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-item-use.c b/src/borg/borg-item-use.c
+index 17a780478..ebce687af 100644
+--- a/src/borg/borg-item-use.c
++++ b/src/borg/borg-item-use.c
+@@ -1116,11 +1116,14 @@ bool borg_use_things(void)
+         /* Process "force" items */
+         switch (item->tval) {
+         case TV_POTION: {
+-            /* Check the scroll */
++            /* Check the potion */
+             if (item->sval == sv_potion_enlightenment) {
+                 /* Never quaff these in town */
+                 if (!borg.trait[BI_CDEPTH])
+                     break;
++
++                if (borg_quaff_potion(item->sval))
++                    return true;
+             } else if (item->sval == sv_potion_inc_all)
+                 /* Try quaffing the potion */
+                 if (borg_quaff_potion(item->sval))
+-- 
+2.53.0
+

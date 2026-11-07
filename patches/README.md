@@ -186,3 +186,8 @@ grid feature is overwritten (consumer #148/source #212). Door
 close/open transitions under the Borg now invalidate the stale flow,
 knowledge, icky flags and stamps; the no-change control stays
 byte-identical.
+
+The fortieth carry drinks recognized Enlightenment potions in the
+dungeon (consumer #157/source #81). The missing quaff call is added
+after the town guard; the town, unknown-flavor, unrelated-potion and
+Augmentation controls stay byte-identical.
