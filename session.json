@@ -80,5 +80,6 @@
     "worktree": ".worktrees/enlightenment",
     "state": "merged-503e7a07b-measured-issue157-carried-open-tapunlife-blocked",
     "instructions": "docs/measurement/ENLIGHTENMENT-USE.md"
-  }
+  },
+  "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references"
 }
