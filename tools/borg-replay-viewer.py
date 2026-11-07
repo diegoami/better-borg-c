@@ -1,11 +1,12 @@
 """Local, reversible inspection of original terminal frames; no game execution."""
-from bisect import bisect_right
+from bisect import bisect_left, bisect_right
 from contextlib import contextmanager
 import curses
 import gzip
 import json
 import re
 import tempfile
+import textwrap
 
 
 @contextmanager
@@ -21,6 +22,7 @@ class Frames:
         self.file = tempfile.TemporaryFile()
         self.index = []
         self.turns = []
+        self.messages = []
         try:
             self._build_index(directory)
         except BaseException:
@@ -29,6 +31,7 @@ class Frames:
 
     def _build_index(self, directory):
         last_full = 0
+        message_chars, last_message = [], ''
         with frame_lines(directory) as stream:
             for line in stream:
                 try:
@@ -46,6 +49,20 @@ class Frames:
                 self.file.write(line.encode())
                 self.index.append((offset, last_full))
                 self.turns.append(frame['turn'])
+                changed = frame['full'] or len(message_chars) != frame['width']
+                if changed:
+                    message_chars = [32] * frame['width']
+                for at, character, _ in frame['cells']:
+                    if 0 <= at < len(message_chars):
+                        changed = changed or message_chars[at] != character
+                        message_chars[at] = character
+                if changed:
+                    message = ''.join(glyph(c) for c in message_chars).strip()
+                    if message != last_message:
+                        if message:
+                            self.messages.append((len(self.index) - 1, frame['turn'], frame['phase'], message))
+                        last_message = message
+
         if not self.index:
             raise ValueError('No game frames recorded')
 
@@ -82,6 +99,57 @@ class Frames:
         frame['inventory'] = inventory
         frame['spells'] = spells
         return frame, chars, attrs, palette
+
+
+class ReplayLog:
+    """Window recorded messages/notes without inventing within-turn timestamps."""
+    MODES = ('Borg action notes', 'All Borg notes', 'Game messages')
+    ACTION = re.compile(r'\b(attacking|casting|praying|firing|quaffing|reading|activating|zapping|aiming|using|wearing|taking off|buying|selling|retreating|resting|climbing|descending|ascending|walking|performing attack|facing|targeting|fleeing|recalling)\b', re.I)
+
+    def __init__(self, directory, frames):
+        self.frames = frames
+        self.notes = []
+        trace = directory / 'trace.txt'
+        if trace.exists():
+            with trace.open() as stream:
+                for line in stream:
+                    match = re.match(r'^BORG (\d+) (.*)', line)
+                    if match:
+                        self.notes.append((int(match[1]), match[2].removeprefix('# ').rstrip()))
+        self.actions = [row for row in self.notes if self.ACTION.search(row[1])]
+        self.note_turns = [row[0] for row in self.notes]
+        self.action_turns = [row[0] for row in self.actions]
+        self.message_positions = [row[0] for row in frames.messages]
+        self.complete = (directory / 'record-complete.json').exists()
+
+    def window(self, frame, position, height, width, back=0, mode=0):
+        if mode == 2:
+            events = self.frames.messages
+            end = bisect_right(self.message_positions, position)
+            caption = f"Game messages through frame {frame['index']} (turn {frame['turn']})"
+            precision = 'Recorded visible message-line changes, in frame order.'
+            def label(row):
+                return f"{row[1]} F{row[0] + 1} {row[2]}: {row[3]}"
+        else:
+            events, turns = (self.actions, self.action_turns) if mode == 0 else (self.notes, self.note_turns)
+            final = self.complete and position == len(self.frames.index) - 1
+            end = bisect_right(turns, frame['turn']) if final else bisect_left(turns, frame['turn'])
+            through = frame['turn'] if final else frame['turn'] - 1
+            caption = f"{self.MODES[mode]} through completed turn {through}"
+            precision = 'Turn timestamps only; current-turn notes appear after the turn ends.'
+            def label(row):
+                return f'{row[0]}: {row[1]}'
+        back = min(max(0, back), max(0, end - 1))
+        budget = max(1, height - 3)
+        stop = max(0, end - back)
+        selected = events[max(0, stop - budget):stop]
+        lines = []
+        for event in selected:
+            lines.extend(textwrap.wrap(label(event), width=max(1, width - 1), subsequent_indent='  ', replace_whitespace=False) or [''])
+        if not lines:
+            lines = ['No recorded entries yet. Tab switches log source.']
+        rows = [(caption, 1), (precision, 2), ('', 1)] + [(line, 1) for line in lines[-budget:]]
+        return rows[:height], back
 
 
 def glyph(code):
@@ -229,6 +297,7 @@ def show(directory, turn=None, verified=False, dump=False, caster=None):
             panel = 'screen'
             scroll = 0
             horizontal = 0
+            log_mode, logs = 0, None
             while True:
                 frame, chars, attrs, palette = frames.get(index)
                 frame['caster'] = caster
@@ -255,6 +324,10 @@ def show(directory, turn=None, verified=False, dump=False, caster=None):
                         rows = inventory_rows(frame, panel == 'equipment')
                     elif panel == 'spells':
                         rows = spell_rows(frame)
+                    elif panel == 'log':
+                        if logs is None:
+                            logs = ReplayLog(directory, frames)
+                        rows, scroll = logs.window(frame, index, height - 3, width, scroll, log_mode)
                     elif panel == 'gear':
                         for item in detail.get('gear', []):
                             rows.append(f"{item['quantity']} x {item['actual_kind']} [aware={item['aware']}; known={item['known_kind']}]")
@@ -264,30 +337,37 @@ def show(directory, turn=None, verified=False, dump=False, caster=None):
                     else:
                         monsters = sorted(detail.get('monsters', []), key=lambda m: abs(m['x'] - frame['x']) + abs(m['y'] - frame['y']))
                         rows += [f"{'visible' if m['visible'] else 'UNSEEN ':7} {m['name']} HP {m['hp']}/{m['max_hp']} at({m['x']},{m['y']}) speed {m['speed']}" for m in monsters]
-                    for row, line in enumerate(rows[scroll:scroll + height - 3], 1):
+                    displayed = rows if panel == 'log' else rows[scroll:scroll + height - 3]
+                    for row, line in enumerate(displayed, 1):
                         text, color = line if isinstance(line, tuple) else (line, 1)
                         screen.addnstr(row, 0, text[horizontal:], max(0, width - 1), color_attribute(color, palette))
-                screen.addnstr(height - 2, 0, '←/→ step g turn Space play | i pack e equipment s magic | Esc back q quit', max(0, width - 1))
+                screen.addnstr(height - 2, 0, '←/→ g turn Space | i pack e equipment s magic p log | Esc back q quit', max(0, width - 1))
                 status, pending = playback_status(frame, chars, len(frames.index), panel == 'screen')
+                if panel == 'log':
+                    status = f'Frame {index + 1}/{len(frames.index)} | Tab source | k older  j newer'
                 screen.addnstr(height - 1, 0, status, max(0, width - 1), color_attribute(11, palette) if pending else 0)
 
                 screen.refresh()
                 screen.timeout(100 if playing else -1)
                 key = read_key(screen, playing)
+                previous_index = index
                 if key == ord('q'):
                     break
                 if key == 27:
                     panel = 'screen'
                     scroll = horizontal = 0
-                elif key in (ord('i'), ord('e'), ord('s'), ord('d'), ord('m'), ord('v')):
-                    panel = {ord('i'): 'inventory', ord('e'): 'equipment', ord('s'): 'spells', ord('d'): 'gear', ord('m'): 'monsters', ord('v'): 'screen'}[key]
+                elif key in (ord('i'), ord('e'), ord('s'), ord('p'), ord('d'), ord('m'), ord('v')):
+                    panel = {ord('i'): 'inventory', ord('e'): 'equipment', ord('s'): 'spells', ord('p'): 'log', ord('d'): 'gear', ord('m'): 'monsters', ord('v'): 'screen'}[key]
                     if panel != 'screen':
                         playing = False
                     scroll = horizontal = 0
+                elif key == 9 and panel == 'log':
+                    log_mode = (log_mode + 1) % len(ReplayLog.MODES)
+                    scroll = horizontal = 0
                 elif key == ord('j'):
-                    scroll += 1
+                    scroll = max(0, scroll - 1) if panel == 'log' else scroll + 1
                 elif key == ord('k'):
-                    scroll = max(0, scroll - 1)
+                    scroll = scroll + 1 if panel == 'log' else max(0, scroll - 1)
                 elif key == ord('['):
                     horizontal = max(0, horizontal - 10)
                 elif key == ord(']'):
@@ -320,6 +400,8 @@ def show(directory, turn=None, verified=False, dump=False, caster=None):
                     except ValueError:
                         pass
                     curses.noecho()
+                if panel == 'log' and index != previous_index:
+                    scroll = 0
         curses.wrapper(interactive)
     finally:
         frames.close()
