@@ -1,0 +1,14 @@
+{
+  "last_good": 5,
+  "first_bad": 6,
+  "samples": {
+    "0": "turn_cap",
+    "34": "stalled",
+    "42": "stalled",
+    "17": "stalled",
+    "8": "stalled",
+    "4": "turn_cap",
+    "6": "stalled",
+    "5": "turn_cap"
+  }
+}

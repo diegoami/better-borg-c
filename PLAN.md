@@ -5,6 +5,20 @@ session/rules/checkpoint, contain inherited publishers, build and run the native
 baseline, then register a verified workspace recovery pin. No gameplay changes
 are part of bootstrap. Live readiness/results belong to checkpoint1.
 
+## Owner-directed zoo stall investigation (2026-11-07/08)
+
+Bug-first [consumer204](https://github.com/diegoami/better-borg-c/issues/204)
+pre-empts queued carries: M4 and M3 munchkin seed1045 reproduce the successful
+stair cycle at engine59893. Pristine loaded-state proof routes the original-C
+mechanism to [source403](https://github.com/diegoami/neo-angband-tracker/issues/403).
+The disabled-munchkin loaded-state control advances140 turns and recovers.
+See [reproduction/evidence](docs/measurement/ZOO-STALL-1045.md).
+Carry-prefix bisection finds5 passing/6 failing; seed1047/no-deeper5 reaches
+100000 alive in793.508s, so its wall timeout is not reproduced locally. The
+investigation is complete; source403 correction/controls precede a separate
+verified consumer carry. Raw archive and issue/checkpoint receipts retain the evidence. No gameplay
+fix or borg-zoo mutation is part of this investigation.
+
 ## Borg design, tuning proposal and evidence references
 
 Owner-requested reference inventory, reviewed2026-11-07. Start with the

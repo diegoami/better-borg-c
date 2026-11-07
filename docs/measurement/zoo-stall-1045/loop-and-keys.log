@@ -1,0 +1,94 @@
+BORG 59883 # Looking for stairs. Munchkin Mode.
+BORG 59883 & Key <2> (0x32)
+BORG 59893 # parse normal message
+BORG 59893 # Parsing msg <You hear a door burst open!>
+BORG 59893 & Key < > (0x20)
+BORG 59893 # Parse Msg bite <You hear a door burst open!>
+BORG 59893 DIAG safe=1 scary=0 hp=129/131 hungry=0 weak=0
+BORG 59893 # Fleeing level. Munchkin Mode
+DETAIL turn=59893 decisions=12726 energy=1301156 depth=2 pos=25,12 borgpos=25,12 borgdepth=2 ownfeat=5 nativefeat=5 munchkin=1 flee=1 flee_munchkin=1 less=1 goal=0 goalpos=25,12 flow=0 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up=25,12; down=
+BORG 59893 # Munchkin Mode.  Power Climb. 
+DETAIL turn=59893 decisions=12726 energy=1301156 depth=2 pos=25,12 borgpos=25,12 borgdepth=2 ownfeat=5 nativefeat=5 munchkin=1 flee=1 flee_munchkin=1 less=1 goal=0 goalpos=25,12 flow=0 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up=25,12; down=
+BORG 59893 # Flowing toward up-stairs at cost 0
+BORG 59893 & Key <<> (0x3C)
+BORG 59893 # message with -more-
+BORG 59893 # Parsing msg <You enter a maze of up staircases.>
+BORG 59893 clearing -more-
+BORG 59893 & Key < > (0x20)
+BORG 59893 # parse normal message
+BORG 59893 # Parsing msg <This seems a quiet, peaceful place.>
+BORG 59893 # Parse Msg bite <You enter a maze of up staircases.>
+BORG 59893 & Key < > (0x20)
+BORG 59893 # Parse Msg bite <This seems a quiet, peaceful place.>
+BORG 59893 > Reacting Msg (This seems a quiet, peaceful place.)
+BORG 59893 # FEELING_DANGER:9 (+)
+BORG 59893 # FEELING_DANGER:9 (1)
+BORG 59893 DIAG safe=1 scary=0 hp=129/131 hungry=0 weak=0
+BORG 59893 # Fleeing level. Munchkin Mode
+DETAIL turn=59893 decisions=12727 energy=1301256 depth=1 pos=13,31 borgpos=13,31 borgdepth=1 ownfeat=6 nativefeat=6 munchkin=1 flee=0 flee_munchkin=0 less=1 goal=0 goalpos=13,31 flow=255 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up= down=13,31;
+BORG 59893 # Munchkin Mode: I know of a down stair.
+BORG 59893 # Munchkin Mode.  Power Diving. 
+DETAIL turn=59893 decisions=12727 energy=1301256 depth=1 pos=13,31 borgpos=13,31 borgdepth=1 ownfeat=6 nativefeat=6 munchkin=1 flee=1 flee_munchkin=1 less=1 goal=0 goalpos=13,31 flow=255 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up= down=13,31;
+BORG 59893 # Flowing toward down-stairs at cost 0
+BORG 59893 & Key <>> (0x3E)
+BORG 59893 # message with -more-
+BORG 59893 # Parsing msg <You enter a maze of down staircases.>
+BORG 59893 clearing -more-
+BORG 59893 & Key < > (0x20)
+BORG 59893 # parse normal message
+BORG 59893 # Parsing msg <This seems a quiet, peaceful place.>
+BORG 59893 # Parse Msg bite <You enter a maze of down staircases.>
+BORG 59893 & Key < > (0x20)
+BORG 59893 # Parse Msg bite <This seems a quiet, peaceful place.>
+BORG 59893 > Reacting Msg (This seems a quiet, peaceful place.)
+BORG 59893 # FEELING_DANGER:9 (+)
+BORG 59893 # FEELING_DANGER:9 (1)
+BORG 59893 DIAG safe=1 scary=0 hp=129/131 hungry=0 weak=0
+BORG 59893 # Fleeing level. Munchkin Mode
+DETAIL turn=59893 decisions=12728 energy=1301356 depth=2 pos=96,41 borgpos=96,41 borgdepth=2 ownfeat=5 nativefeat=5 munchkin=1 flee=0 flee_munchkin=0 less=1 goal=0 goalpos=96,41 flow=255 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up=96,41; down=
+BORG 59893 # Munchkin Mode.  Power Climb. 
+DETAIL turn=59893 decisions=12728 energy=1301356 depth=2 pos=96,41 borgpos=96,41 borgdepth=2 ownfeat=5 nativefeat=5 munchkin=1 flee=1 flee_munchkin=1 less=1 goal=0 goalpos=96,41 flow=255 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up=96,41; down=
+BORG 59893 # Flowing toward up-stairs at cost 0
+BORG 59893 & Key <<> (0x3C)
+BORG 59893 # message with -more-
+BORG 59893 # Parsing msg <You enter a maze of up staircases.>
+BORG 59893 clearing -more-
+BORG 59893 & Key < > (0x20)
+BORG 59893 # parse normal message
+BORG 59893 # Parsing msg <This seems a tame, sheltered place.>
+BORG 59893 # Parse Msg bite <You enter a maze of up staircases.>
+BORG 59893 & Key < > (0x20)
+BORG 59893 # Parse Msg bite <This seems a tame, sheltered place.>
+BORG 59893 > Reacting Msg (This seems a tame, sheltered place.)
+BORG 59893 # FEELING_DANGER:8 (+)
+BORG 59893 # FEELING_DANGER:8 (1)
+BORG 59893 DIAG safe=1 scary=0 hp=129/131 hungry=0 weak=0
+BORG 59893 # Fleeing level. Munchkin Mode
+DETAIL turn=59893 decisions=12729 energy=1301456 depth=1 pos=48,12 borgpos=48,12 borgdepth=1 ownfeat=6 nativefeat=6 munchkin=1 flee=0 flee_munchkin=0 less=1 goal=0 goalpos=48,12 flow=255 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up= down=48,12;
+BORG 59893 # Munchkin Mode: I know of a down stair.
+BORG 59893 # Munchkin Mode.  Power Diving. 
+DETAIL turn=59893 decisions=12729 energy=1301456 depth=1 pos=48,12 borgpos=48,12 borgdepth=1 ownfeat=6 nativefeat=6 munchkin=1 flee=1 flee_munchkin=1 less=1 goal=0 goalpos=48,12 flow=255 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up= down=48,12;
+BORG 59893 # Flowing toward down-stairs at cost 0
+BORG 59893 & Key <>> (0x3E)
+BORG 59893 # message with -more-
+BORG 59893 # Parsing msg <You enter a maze of down staircases.>
+BORG 59893 clearing -more-
+BORG 59893 & Key < > (0x20)
+BORG 59893 # parse normal message
+BORG 59893 # Parsing msg <This seems a tame, sheltered place.>
+BORG 59893 # Parse Msg bite <You enter a maze of down staircases.>
+BORG 59893 & Key < > (0x20)
+BORG 59893 # Parse Msg bite <This seems a tame, sheltered place.>
+BORG 59893 > Reacting Msg (This seems a tame, sheltered place.)
+BORG 59893 # FEELING_DANGER:8 (+)
+BORG 59893 # FEELING_DANGER:8 (1)
+BORG 59893 DIAG safe=1 scary=0 hp=129/131 hungry=0 weak=0
+BORG 59893 # Fleeing level. Munchkin Mode
+DETAIL turn=59893 decisions=12730 energy=1301556 depth=2 pos=67,10 borgpos=67,10 borgdepth=2 ownfeat=5 nativefeat=5 munchkin=1 flee=0 flee_munchkin=0 less=1 goal=0 goalpos=67,10 flow=255 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up=67,10; down=
+BORG 59893 # Munchkin Mode.  Power Climb. 
+DETAIL turn=59893 decisions=12730 energy=1301556 depth=2 pos=67,10 borgpos=67,10 borgdepth=2 ownfeat=5 nativefeat=5 munchkin=1 flee=1 flee_munchkin=1 less=1 goal=0 goalpos=67,10 flow=255 packpenultimate=0 light=2 fuel=11 timeout=3630 image=14 borgimage=1 up=67,10; down=
+BORG 59893 # Flowing toward up-stairs at cost 0
+BORG 59893 & Key <<> (0x3C)
+BORG 59893 # message with -more-
+BORG 59893 # Parsing msg <You enter a maze of up staircases.>
+BORG 59893 clearing -more-

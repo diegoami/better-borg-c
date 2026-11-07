@@ -1,0 +1,10 @@
+{
+  "local_archive": "/home/diego/projects/angband-workspace/better-borg-c/artifacts/zoo1045/evidence.tar.gz",
+  "bytes": 270336391,
+  "members": 227,
+  "sha256": "f0c9dc35d3bfe8531b4f3f205502df341f761f7eec735c9b80a357793c45e55e",
+  "manifest_sha256": "41f13deba01ae8757dd4fe20bcc8b7edbfe5ba191cc1df2c6c98dbc9678113a5",
+  "all_member_sha256_readback_verified": true,
+  "hosting": "Persistent local ignored artifacts; not claimed uploaded",
+  "contents": "Full raw native runs/saves, frozen save, exact binaries/build manifests/source archives and session drivers/logs; curated excerpts are in Git"
+}

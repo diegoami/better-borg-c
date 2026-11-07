@@ -1,0 +1,11 @@
+{
+  "invalid_save_load": {
+    "directory": "/tmp/zoo1045-replay-pristine",
+    "outcome": "stalled",
+    "borg_decisions": 0,
+    "meaning": "UI keys did not activate Borg; exclude from gameplay evidence",
+    "resaved_input_sha256": "92d0757d445bec057fdcbd8e90121a14e0c5702756e3ae4b77c4630800437570",
+    "original_frozen_save_sha256": "d03039590e5edfd2b65dd7f6026c00820327c4cde90a723d7d861fb99f1d3c26",
+    "preservation": "Retained resaved bytes inside invalid attempt; restored own disposable M4 output save from the frozen copy; verified against original result manifest. Named-play reruns redirect native autosaves."
+  }
+}

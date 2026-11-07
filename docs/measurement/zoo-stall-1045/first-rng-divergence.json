@@ -1,0 +1,15 @@
+{
+  "decision": 5000,
+  "turn": 23997,
+  "differences_pristine_vs_prefix6": {
+    "borg_rng": [
+      "3240558283",
+      "2052363857"
+    ],
+    "quick_rng": [
+      "3240558283",
+      "2052363857"
+    ]
+  },
+  "engine_rng_array_and_index_equal": true
+}

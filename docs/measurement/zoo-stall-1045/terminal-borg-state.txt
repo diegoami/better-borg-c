@@ -1,0 +1,80 @@
+Historical Borg map writer labels this section at death; this run was alive, monitor-terminated.
+  [Character Equipment]
+
+a) Rapier (1d6) (+0,+0)
+b) (nothing)
+c) Ring of Searching <+1>
+d) Ring of Protection [+10]
+e) Amulet of Resist Acid
+f) Wooden Torch (3630 turns)
+g) Leather Scale Mail (-1) [20,+0]
+i) Cloak [1,+0]
+m) Leather Shield [8,+4]
+n) Hard Leather Cap [2,+0]
+o) (nothing)
+p) Pair of Leather Sandals [1,+0]
+
+
+  [Character Quiver]
+
+a) (nothing)
+b) (nothing)
+c) (nothing)
+d) (nothing)
+e) (nothing)
+f) (nothing)
+g) (nothing)
+i) (nothing)
+m) (nothing)
+n) (nothing)
+
+
+  [Character Inventory]
+
+a) 10 Rations of Food
+b) Potion of Healing
+c) 2 Potions of Speed
+d) Potion of Salt Water
+e) 5 Crimson Potions
+f) Misty Potion
+g) 6 Scrolls of Phase Door
+i) 3 Scrolls of Teleportation
+m) 2 Scrolls of Summon Monster
+n) Scroll of Deep Descent
+o) Scroll titled "puga grurrum"
+p) 2 Rods of Light
+q) Wand of Magic Missile (0 charges)
+r) 11 Wooden Torches (5000 turns)
+s) Soft Leather Armour [8,-1]
+t) Pair of Leather Sandals [1,+0] {cursed}
+u) Shovel (1d2) (+6,+2)
+
+
+  [Player State at Death] 
+
+Current speed: 110. 
+You are poisoned.
+You are hallucinating.
+
+
+Anti-bounce counter: 2
+Time on this level: 1
+Time since left town: 9178
+Borg_no_retreat: 0
+borg.near.breeder: 0
+borg.mon.unique: 0
+It is night-time in town.
+
+
+borg_uses_swaps: 1
+borg_worships_damage: 0
+borg_worships_speed: 0
+borg_worships_hp: 0
+borg_worships_mana: 0
+borg_worships_ac: 0
+borg_worships_gold: 0
+borg_plays_risky: 0
+prepping for big fight: 0
+
+
+
