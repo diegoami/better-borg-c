@@ -347,6 +347,8 @@ def run(args):
         if getattr(args, 'random_birth', False) and not args.load:
             result['birth_policy'] = 'native random race and class; default point buy; game-seed reproducible'
             result['character'] = next((s[10:] for s in trace.splitlines() if s.startswith('CHARACTER ')), 'unknown')
+        if args.load:
+            result['character'] = next((s[10:] for s in trace.splitlines() if s.startswith('CHARACTER ')), 'unknown')
         if play_turns:
             result['requested_additional_turns'] = play_turns
             result['character'] = next((s[10:] for s in trace.splitlines() if s.startswith('CHARACTER ')), 'unknown')

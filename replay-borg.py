@@ -151,7 +151,8 @@ def verify(original, output, timeout, engine=None, inventory_extension=False, sp
               'verified': process is not None and process.returncode == 0 and not interrupted and complete and difference is None,
               'scope': 'All recorded input, Borg actions, clock/file inputs, native-save fingerprints, RNG/player state and logical terminal frames; no checkpoint restore or new independent life'}
     if engine is not None:
-        result.update(engine_mode='historical rebuild with inventory-only observation extension',
+        result.update(engine_mode='historical rebuild with player-known observation extensions',
+                      extensions=(['inventory'] if inventory_extension else []) + (['spells'] if spells_extension else []),
                       engine_sha256=recordings.sha(engine), original_engine_sha256=recordings.sha(original / 'engine'))
     recordings.write(output / 'verification.json', result)
     original_result = json.loads((original / 'result.json').read_text()) if (original / 'result.json').exists() else {}

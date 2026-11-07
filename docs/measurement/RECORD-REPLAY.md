@@ -184,3 +184,59 @@ inventory cache; otherwise an older movie explicitly says inventory was not
 captured and asks for a normal replay. It never guesses native names or reveals
 raw diagnostic identities as the character's inventory. `--verify-only` and
 `--dump-turn` retain the existing strict original-engine verification semantics.
+
+Inventory recovery for the earliest C34 prototype movies uses a separate
+primary `artifacts/death-workflow/legacy-observers.json` catalog when the bundle
+predates embedded instrumentation files. D0004's24 modified observer/source files
+were recovered from the previously hash-verified full recording archive at
+`artifacts/recording-replay-validation/20261107T142051Z/evidence.tar.gz`, build
+`1b95154f65b2-4b7de28fe4b7`; all four native observer/replay C/header hashes match
+its original build manifest. The catalog freezes every recovered file hash and
+source pin. It does not rewrite the old bundle or substitute today's Borg code.
+Without those archived sources, `--view-only` still opens original frames and
+inventory recovery explains the missing prerequisite honestly.
+
+### Inventory and random-birth native evidence
+
+Actual sourceb8095941ff42 observation export: seeds1001/1002/1003/1004 cap200
+produce Dunadan Warrior, Half-Orc Priest, Half-Elf Druid and Kobold Mage.
+Seed1001 repeat has the same character and whole trace hash. Each original
+new recording rerun verifies all streams/frames/native saves. These five short
+games are birth/observation controls, not survival estimates. Full results:
+primary artifacts/replay-inventory-validation/validation.json.
+
+Original D0006/C40 and D0004/C34 observation-enriched historical runs both
+verify every original input/action/clock/file/trace/frame/RNG/native-save field.
+Only the additional inventory JSON field is excluded; original fields cannot
+be suppressed by that extension. Their qualified cache receipts and native
+inventory text exports are retained beside the validation manifest. D0006
+shows8 Potions of Cure Light Wounds and4 Coagulated Crimson Potions, keeping
+the latter unidentified rather than exposing Sleep. Equipment is a separate
+panel rather than mixed into the backpack. No new natural death was generated
+or historical source/recording changed by these replays.
+
+Early observer build attempts with missing C header includes were retained,
+corrected, then rebuilt; no assertion, input or identity check was loosened.
+The independent collector-unit nested-lock bug was fixed in PR169; the owner
+approved terminating only the other task's already-stuck unittest child, whose
+interrupted tooling result remains an interruption, not a passing gate.
+
+The real PTY check at D0006 turn72995 verifies native pack text, unidentified
+Coagulated Crimson Potions, separate equipment slots, Escape returning without
+exiting and q closing the private test viewer. Transcript/receipt:
+primary artifacts/replay-inventory-validation/pty-inventory.{txt,json}. An early
+PTY harness read a partial terminal write too soon; it was corrected to wait for
+the expected text, without changing the viewer or native comparison assertions.
+Fixed-birth and loaded-Mage controls are retained separately; loaded saves use
+their actual native CHARACTER rather than a hard-coded Warrior description.
+
+The direct recorded-load control initially exposed product harness issue173:
+native autosaving could overwrite the run's frozen origin copy, and immutable
+validation correctly rejected it. Original supplied saves were unchanged. The
+observer now redirects every recorded loaded life's save target to autosave.save.
+Unchanged cap200 before/after: old loaded-Mage control fails the origin guard;
+corrected loaded Mage preserves both the supplied start and copied origin,
+reports Kobold Mage, and original-start replay verifies. Both fixed Human Warrior
+and loaded Mage full traces are byte-identical before/after this file-destination
+correction. Evidence and the failed run stay under primary
+artifacts/replay-inventory-validation; origin checks were retained.

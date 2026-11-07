@@ -8,7 +8,7 @@ backup restore in both launchers, and export natural-death dossiers.
 
 `./run-borg-headless.py NAME --turns N` exports a pinned observer build, uses the
 real test frontend/native game loop, and loads an immutable copy of an existing
-save or performs ordinary Human Warrior birth. Named-only activation invokes
+save or performs ordinary birth with a random race and class. Named-only activation invokes
 the existing `borg_cmd_start` via a bridge in the disposable source export.
 The ordinary product C sources are unchanged. Full game/Borg memory parity after
 loading is not claimed; the game RNG and character/dungeon restore, while Borg
@@ -105,3 +105,9 @@ when reproducing; never overwrite the old evidence. Public source/committed
 tools and archived source/observer bytes avoid a dependency on /tmp. A normal
 new root-script invocation uses its current committed source, not the historical
 D0003 build.
+
+Fresh automated births use the native random race/class menu choices and a
+random seed when --seed is omitted. Use --seed N for reproducibility and
+--birth fixed for a Human Warrior control. Loaded saves keep their character.
+The actual native CHARACTER, seed and input are retained in the run metadata.
+Frozen ordinary measurement cohorts keep their existing birth profile.

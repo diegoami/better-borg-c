@@ -23,12 +23,24 @@ def module(name, filename):
 workflow = module('inventory_workflow', 'death-workflow.py')
 
 
+def legacy_observer(original, replay):
+    catalog = workflow.artifacts() / 'legacy-observers.json'
+    if not catalog.exists():
+        return None
+    return workflow.read(catalog).get(replay.recordings.sha(original / 'recording.json'))
+
+
 def cache_base(original, replay, include_spells=False):
     helper = ROOT / 'tools/native-inventory.h'
     identity = hashlib.sha256((replay.recordings.sha(original / 'recording.json') +
         replay.recordings.sha(helper) + 'inventory-observer@1').encode()).hexdigest()
+    if not (original / 'instrumentation').is_dir():
+        legacy = legacy_observer(original, replay)
+        if legacy:
+            identity = hashlib.sha256((identity + json.dumps(legacy, sort_keys=True)).encode()).hexdigest()
     if include_spells:
         identity = hashlib.sha256((identity + replay.recordings.sha(ROOT / 'tools/native-spells.h') + 'spells@1').encode()).hexdigest()
+
     return workflow.artifacts() / 'inventory' / identity
 
 
@@ -43,13 +55,28 @@ def cached(original, replay, include_spells=False):
             or receipt['verification_sha256'] != replay.recordings.sha(output / 'verification.json')
             or not workflow.read(output / 'verification.json')['verified']):
         raise ValueError('Cached native inventory overlay changed; preserve it and investigate')
+    if include_spells and 'spells' not in workflow.read(output / 'verification.json').get('extensions', []):
+        return None
     return output
 
 
 def prepare(original, replay, timeout, include_spells=False):
     record = replay.recordings.validate(original)
     helper = ROOT / 'tools/native-inventory.h'
+    overlay = original / 'instrumentation'
+    if not overlay.is_dir():
+        legacy = legacy_observer(original, replay)
+        if not legacy or legacy['source_commit'] != record['build']['source_commit']:
+            raise ValueError('This early movie needs its archived historical observer sources restored before inventory recovery; --view-only still opens the original movie')
+        overlay = Path(legacy['directory'])
+        for name, digest in legacy['files_sha256'].items():
+            if Path(name).is_absolute() or '..' in Path(name).parts or replay.recordings.sha(overlay / name) != digest:
+                raise ValueError('Recovered historical observer source changed')
+        for name in ('native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h'):
+            if replay.recordings.sha(overlay / 'src' / name) != record['build']['tools_sha256'][name]:
+                raise ValueError('Recovered observer differs from the original build tools')
     base = cache_base(original, replay, include_spells)
+
     with workflow.locked(base.with_suffix('.lock')):
         existing = cached(original, replay, include_spells)
         if existing is not None:
@@ -70,7 +97,7 @@ def prepare(original, replay, timeout, include_spells=False):
                                cwd=ROOT, check=True)
                 with tarfile.open(archive) as stream:
                     stream.extractall(source, filter='data')
-                shutil.copytree(original / 'instrumentation', source, dirs_exist_ok=True)
+                shutil.copytree(overlay, source, dirs_exist_ok=True)
                 target = source / 'src/native-replay.c'
                 text = target.read_text()
                 start = 'void record_frame(const char *phase, long decisions)'
@@ -112,5 +139,5 @@ def prepare(original, replay, timeout, include_spells=False):
             'original_manifest_sha256': replay.recordings.sha(original / 'recording.json'),
             'frames_sha256': replay.recordings.sha(output / 'frames.jsonl'),
             'verification_sha256': replay.recordings.sha(output / 'verification.json'),
-            'scope': 'Historical native descriptions; every original frame/state/input/action/native-save field matches, only inventory observation added'})
+            'scope': 'Historical native player-known views; every original frame/state/input/action/native-save field matches; only requested new fields added'})
         return output
