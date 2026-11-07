@@ -1,0 +1,36 @@
+From 0e8580614a45ab832762437439e11335378df920 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 12:33:00 +0100
+Subject: [PATCH] Borg: rate Tap Unlife at the spell's real damage, not the
+ target's full hp
+
+borg_launch_damage_one()'s BORG_ATTACK_TAP_UNLIFE case computed the mana
+gain as BI_CURSP - BI_CURSP (always zero) and then rated the cast at
+kill->power - sp_drain -- the target's full estimated hp. The comment
+above it says to ignore the mana gain. Rate the tap at the passed average
+damage like the sibling dispel cases (DISP_UNDEAD, DISP_EVIL), zero for
+non-undead, so a free level-7 spell no longer looks like a one-shot for
+any undead.
+---
+ src/borg/borg-fight-attack.c | 5 -----
+ 1 file changed, 5 deletions(-)
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 4e1630e6f..8356ffea5 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -1104,11 +1104,6 @@ static int borg_launch_damage_one(int i, int dam, int typ, int ammo_location)
+         /* for now ignore the gain in sp */
+         if (!(rf_has(r_ptr->flags, RF_UNDEAD)))
+             dam = 0;
+-        else {
+-            int sp_drain = borg.trait[BI_CURSP] - borg.trait[BI_CURSP];
+-            if (sp_drain < kill->power)
+-                dam = kill->power - sp_drain;
+-        }
+         break;
+ 
+     case BORG_ATTACK_CURSE:
+-- 
+2.53.0
+
