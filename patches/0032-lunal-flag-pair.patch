@@ -1,0 +1,29 @@
+From a26da54d61be83236c2c5859141b801521d6c6d5 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 00:50:59 +0100
+Subject: [PATCH] Borg: clear the lunal pair when bailing out of stair scumming
+
+borg_think_stair_scum()'s town-or-weak bail announced "Leaving
+Scumming Mode" and cleared borg.lunal_mode, but the lunal mode is
+entered and left as a pair: the companion flag goal.fleeing_lunal
+stayed set, so the caution phase and the flow-recovery rest check kept
+behaving as if the Borg were still in its reckless lunal rush.  Clear
+both halves, as the normal lunal exit does.
+
+diff --git a/src/borg/borg-think-dungeon-util.c b/src/borg/borg-think-dungeon-util.c
+index 8b1145abb..53d1c144b 100644
+--- a/src/borg/borg-think-dungeon-util.c
++++ b/src/borg/borg-think-dungeon-util.c
+@@ -363,7 +363,11 @@ bool borg_think_stair_scum(void)
+     /* No scumming mode if starving or in town */
+     if (borg.trait[BI_CDEPTH] == 0 || borg.trait[BI_ISWEAK]) {
+         borg_note("# Leaving Scumming Mode. (Town or Weak)");
+-        borg.lunal_mode = false;
++        /* The lunal mode is entered and left as a pair; clearing only
++         * lunal_mode here left goal.fleeing_lunal set, and the caution
++         * phase kept behaving as if the Borg were still lunal. */
++        borg.lunal_mode           = false;
++        borg.goal.fleeing_lunal   = false;
+         return false;
+     }
+ 
