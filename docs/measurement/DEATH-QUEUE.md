@@ -146,3 +146,9 @@ character; visible manual birth still follows the player's choices. Frozen
 ordinary measurement cohorts retain their original fixed birth unless explicitly
 run with the new --random-birth option. Historical cases and baselines are not
 rewritten by this new exploration default.
+
+For a manual attempt at an alternative decision, use
+`./play-from-replay.py DOSSIER --from-turn N`. It verifies the historical prefix
+and loads a separate native save with the Borg off. First use offers a separate
+historical helper build; existing replay engines remain frozen. See
+[manual takeover and resume](RECORD-REPLAY.md#play-a-manual-alternative-from-a-recorded-turn).
