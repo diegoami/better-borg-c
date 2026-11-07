@@ -149,3 +149,7 @@ longer count twice; the plain-wall control stays unchanged.
 The thirty-first carry weighs one weapon rather than the whole stack for
 home-inventory blows (consumer #113/source #313). Borg and engine agree
 at two blows for the ten-rapier stack; the single-rapier control is unchanged.
+
+The thirty-second carry clears both lunal flags when the town stair-scum
+bail exits (consumer #117/source #314). The full-pack control leaves both
+flags set and stays byte-identical.

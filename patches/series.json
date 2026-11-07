@@ -556,6 +556,24 @@
    "verification": "docs/measurement/HOME-BLOWS.md",
    "credit": "Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-home-blows; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0314",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/117",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/314",
+   "source_head": "a26da54d61be83236c2c5859141b801521d6c6d5",
+   "source_commits": [
+    "a26da54d61be83236c2c5859141b801521d6c6d5"
+   ],
+   "applied_commits": [
+    "2e0593f6effcd211b565be3c589d8716de85c1ec"
+   ],
+   "patch": "patches/0032-lunal-flag-pair.patch",
+   "patch_active": true,
+   "evidence_ref": "d50baba7",
+   "verification": "docs/measurement/LUNAL-STATE.md",
+   "credit": "Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-lunal-state; awaiting normal PR merge"
   }
  ]
 }
