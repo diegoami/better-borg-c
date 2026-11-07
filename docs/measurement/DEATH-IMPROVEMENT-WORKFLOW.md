@@ -6,6 +6,11 @@ analysis and experiment planning, not automatic strategy implementation, tuning,
 batches or promotion. Bugs retain priority. An implementation task must name the
 candidate, change, budget and acceptance plan before work starts.
 
+For the canonical architecture specification, revision3 tuning plan/reviews,
+source-check limits and quick gains368–371/toolkit376, read the
+[reference inventory in PLAN.md](../../PLAN.md#borg-design-tuning-proposal-and-evidence-references).
+These references inform scoped candidates and do not start their implementation.
+
 ## Process 1: analyse a death and evaluate candidates
 
 1. Record the natural death using tools/record-death.py and qualify its replay.

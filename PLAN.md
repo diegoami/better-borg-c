@@ -5,6 +5,97 @@ session/rules/checkpoint, contain inherited publishers, build and run the native
 baseline, then register a verified workspace recovery pin. No gameplay changes
 are part of bootstrap. Live readiness/results belong to checkpoint1.
 
+## Borg design, tuning proposal and evidence references
+
+Owner-requested reference inventory, reviewed2026-11-07. Start with the
+[canonical C Borg documents index](https://github.com/diegoami/neo-angband-tracker/blob/master/docs/c-borg/README.md).
+These are design/evidence references, not a second live backlog. Check the linked
+boards and actual product source before selecting work or interpreting a claim.
+
+### How the C Borg works
+
+[The C Borg: purpose and architecture (BORG_SPEC.md)](https://github.com/diegoami/neo-angband-tracker/blob/master/docs/c-borg/BORG_SPEC.md)
+is the specification: perception, input/key channel, decision ladder, danger,
+flow, caution, preparedness, modes and configuration. Its source reference is
+original C at `e473720ed88a0f0c7ca66815cef3000eb4a38bc3`, not a description of
+all later consumer carries. In particular, perception includes screen/message
+observations AND direct game-state reads; do not revive the screen-only model.
+Use it to understand the mechanisms behind death evidence and candidate changes.
+
+### Redesign: a tunable, better Borg
+
+- [Tunable Borg Plan, revision3](https://github.com/diegoami/neo-angband-tracker/blob/master/docs/c-borg/TUNABLE-BORG-PLAN.md):
+  shared evaluation/roadmap for better-borg-c and borg-rs. Keep the working Borg,
+  expose a justified parameter surface with defaults identical to a frozen carry
+  baseline, compare profiles, and replace decision modules only on evidence.
+- [Owner's private rendered copy](https://claude.ai/artifact/V3PXru2tuwtBdcUt9TMNKR):
+  convenience pointer supplied by the owner; the GitHub Markdown is the
+  reviewable source used for this inventory. Private-copy parity was not checked.
+- [Plan review prompt](https://github.com/diegoami/neo-angband-tracker/blob/master/docs/c-borg/TUNABLE-BORG-PLAN-REVIEW-PROMPT.md):
+  the rubric for a planning review, separate from an implementation task.
+- [Review360](https://github.com/diegoami/neo-angband-tracker/issues/360) and
+  [re-review on PR361](https://github.com/diegoami/neo-angband-tracker/pull/361#issuecomment-6706003438):
+  read alongside the plan and its [revision3 response](https://github.com/diegoami/neo-angband-tracker/pull/361#issuecomment-6706050466).
+  They explain the baseline, coverage, endpoint, seed-secrecy and compute
+  corrections; a merged plan is not proof of implementation or measured benefit.
+
+Important experiment constraints from revision3: pristine reference and frozen
+carry baseline are different identities; default equivalence is against that
+same carry set and proves only tested executions. The proposed primary endpoint
+is verified victory before T or alive at T having reached D, with a declared
+boundary rule, progress floor and survival tolerance. Preserve separate
+identity/regression, training, validation and sealed test seeds. Test outcomes
+must not leak into identity checks or policy selection. Costs/counts/builds in
+the plan and reviews are historical observations, not current throughput promises.
+The plan's cross-repository R0/R1 ordering is a proposal with scope/ownership
+decisions; this reference task starts no Rust adoption, tuning or new strategy.
+
+### How the claims were checked
+
+- [Source-level check programs](https://github.com/diegoami/neo-angband-tracker/blob/master/docs/audit/c-reports/spec-checks/README.md):
+  transcribed C logic on stated, sometimes synthetic inputs; these are not game
+  runs and do not establish that ordinary play reaches the tested states.
+- [Re-check record](https://github.com/diegoami/neo-angband-tracker/blob/master/docs/audit/c-reports/spec-checks/RECHECK.md):
+  reproducible checks, corrected source interpretations, review responses and
+  explicit unverified claims. Mechanical citation checks do not prove semantics.
+- [Findings provenance](https://github.com/diegoami/neo-angband-tracker/blob/master/docs/audit/c-reports/spec-checks/PROVENANCE.md):
+  origin and limits of findings310–316. Its re-check notes that the historical
+  harness source was unavailable and those runtime statements were not reverified;
+  do not treat them as validation of our current native observer/replay tools.
+
+### Quick gains and experiment toolkit
+
+| Source candidate | What to evaluate | Local relationship |
+| --- | --- | --- |
+| [368: existing borg.txt switches](https://github.com/diegoami/neo-angband-tracker/issues/368) | Screen existing settings on frozen seeds before new code | Candidate experiment, not a default change; current general runner does not expose arbitrary Borg configuration via CLI |
+| [369: formula identity before tuning](https://github.com/diegoami/neo-angband-tracker/issues/369) | Compare dynamic formulas with built-in calculations, then consider text tuning | Identity and prerequisite carry/branch coverage checks come first; formulas do not replace every power/preparedness gate |
+| [370: early Phase Door and cure reserve](https://github.com/diegoami/neo-angband-tracker/issues/370) | Early-dive/restock policy and its town/progress costs | Local [154](https://github.com/diegoami/better-borg-c/issues/154); distinct from reserve-priority41 and escape-choice158/159 |
+| [371: character-level/depth ratio](https://github.com/diegoami/neo-angband-tracker/issues/371) | Tunable dive gate with identity at its default | Text-only route depends on369; compare survival AND progress, not depth alone |
+| [376: experiment toolkit](https://github.com/diegoami/neo-angband-tracker/issues/376) | Early-death corpus, activation checks, replay, branching, shadow evaluation and paired confirmation | Reuse current dossier/replay tools; exact state branching, safe shadow evaluation and a general population experiment toolkit are not delivered by the death collector |
+
+[All open source enhancements](https://github.com/diegoami/neo-angband-tracker/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+is the live discovery view; do not freeze that queue in this document or create
+local duplicates before checking ownership and relevance.
+
+### Fit with this repository's processes
+
+Use [death brainstorming and overall assessment](docs/deaths/REVIEW-TEMPLATE.md)
+and the [two-stage improvement workflow](docs/measurement/DEATH-IMPROVEMENT-WORKFLOW.md)
+to turn evidence into focused local investigations/enhancements, then a separately
+scoped prospective implementation experiment. Existing examples: [41 stock
+priority](https://github.com/diegoami/better-borg-c/issues/41), [154 early
+reserves](https://github.com/diegoami/better-borg-c/issues/154), [158 theft danger](https://github.com/diegoami/better-borg-c/issues/158)
+and [159 attempted walking retreat](https://github.com/diegoami/better-borg-c/issues/159).
+
+[Native measurement](docs/measurement/README.md), [recorded replay](docs/measurement/RECORD-REPLAY.md)
+and the [owner replay queue/bounded collector](docs/measurement/DEATH-QUEUE.md)
+already provide evidence infrastructure. Death-only collection or a rescued
+replay does not estimate a population benefit. Activation instrumentation,
+branching/shadow safety, endpoint observation, shared calendar policy and
+prospective profile comparisons must each be qualified before claiming toolkit376
+or the redesign acceptance contract is implemented. Bugs retain priority and
+source defects retain their canonical source-fix/consumer-carry route.
+
 Next, after bootstrap handoff:
 1. Review source tracker checkpoint207 and ready C proposals/evidence. Start
    with confirmed measurable harm, not every reported code anomaly. Source14
