@@ -1,0 +1,529 @@
+{
+  "index": 11851,
+  "turn": 10807,
+  "phase": "command",
+  "hp": 13,
+  "sp": 2,
+  "max_hp": 13,
+  "max_sp": 2,
+  "depth": 1,
+  "level": 1,
+  "x": 53,
+  "y": 7,
+  "diagnostics": {
+    "scope": "diagnostic actual state; never supplied to Borg inputs",
+    "gear": [
+      {
+        "actual_kind": "[Novice's Handbook]",
+        "known_kind": "[Novice's Handbook]",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 30,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Mace~",
+        "known_kind": "& Mace~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 120,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Wooden Torch~",
+        "known_kind": "& Wooden Torch~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 22,
+        "pval": 0,
+        "timeout": 4372,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Ration~ of Food",
+        "known_kind": "& Ration~ of Food",
+        "aware": 1,
+        "quantity": 7,
+        "weight": 8,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Wooden Torch~",
+        "known_kind": "& Wooden Torch~",
+        "aware": 1,
+        "quantity": 10,
+        "weight": 22,
+        "pval": 0,
+        "timeout": 5000,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Phase Door",
+        "known_kind": "Phase Door",
+        "aware": 1,
+        "quantity": 2,
+        "weight": 5,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Set~ of Gauntlets",
+        "known_kind": "& Set~ of Gauntlets",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 25,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 2,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Cloak~",
+        "known_kind": "& Cloak~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 10,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Cure Light Wounds",
+        "known_kind": "Cure Light Wounds",
+        "aware": 1,
+        "quantity": 3,
+        "weight": 4,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      }
+    ],
+    "monsters": [
+      {
+        "id": 1,
+        "name": "fruit bat",
+        "x": 100,
+        "y": 50,
+        "hp": 3,
+        "max_hp": 3,
+        "speed": 118,
+        "visible": 0
+      },
+      {
+        "id": 2,
+        "name": "rock lizard",
+        "x": 108,
+        "y": 55,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 3,
+        "name": "fruit bat",
+        "x": 80,
+        "y": 49,
+        "hp": 4,
+        "max_hp": 4,
+        "speed": 120,
+        "visible": 0
+      },
+      {
+        "id": 4,
+        "name": "grey mushroom patch",
+        "x": 77,
+        "y": 27,
+        "hp": 2,
+        "max_hp": 2,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 5,
+        "name": "giant white mouse",
+        "x": 105,
+        "y": 55,
+        "hp": 2,
+        "max_hp": 2,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 6,
+        "name": "large white snake",
+        "x": 154,
+        "y": 33,
+        "hp": 13,
+        "max_hp": 13,
+        "speed": 100,
+        "visible": 0
+      },
+      {
+        "id": 7,
+        "name": "small kobold",
+        "x": 79,
+        "y": 16,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 8,
+        "name": "giant white centipede",
+        "x": 134,
+        "y": 13,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 9,
+        "name": "soldier ant",
+        "x": 30,
+        "y": 22,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 10,
+        "name": "floating eye",
+        "x": 25,
+        "y": 10,
+        "hp": 14,
+        "max_hp": 14,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 11,
+        "name": "giant white centipede",
+        "x": 109,
+        "y": 14,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 12,
+        "name": "soldier ant",
+        "x": 111,
+        "y": 11,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 13,
+        "name": "fruit bat",
+        "x": 74,
+        "y": 47,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 118,
+        "visible": 0
+      },
+      {
+        "id": 14,
+        "name": "fruit bat",
+        "x": 18,
+        "y": 26,
+        "hp": 5,
+        "max_hp": 5,
+        "speed": 119,
+        "visible": 0
+      },
+      {
+        "id": 15,
+        "name": "fruit bat",
+        "x": 149,
+        "y": 32,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 121,
+        "visible": 0
+      },
+      {
+        "id": 16,
+        "name": "white worm mass",
+        "x": 143,
+        "y": 7,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 100,
+        "visible": 0
+      },
+      {
+        "id": 17,
+        "name": "white icky thing",
+        "x": 78,
+        "y": 10,
+        "hp": 3,
+        "max_hp": 3,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 18,
+        "name": "rock lizard",
+        "x": 29,
+        "y": 22,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 19,
+        "name": "grey mold",
+        "x": 55,
+        "y": 8,
+        "hp": 2,
+        "max_hp": 2,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 20,
+        "name": "grey mushroom patch",
+        "x": 82,
+        "y": 27,
+        "hp": 2,
+        "max_hp": 2,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 21,
+        "name": "small kobold",
+        "x": 159,
+        "y": 23,
+        "hp": 5,
+        "max_hp": 5,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 22,
+        "name": "grey mold",
+        "x": 128,
+        "y": 46,
+        "hp": 1,
+        "max_hp": 1,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 23,
+        "name": "grey mold",
+        "x": 44,
+        "y": 35,
+        "hp": 2,
+        "max_hp": 2,
+        "speed": 109,
+        "visible": 0
+      }
+    ],
+    "timed": {
+      "FOOD": 7919
+    },
+    "borg": {
+      "initialized": 1,
+      "active": 1,
+      "fleeing": 0,
+      "leaving": 0,
+      "fleeing_to_town": 0,
+      "avoidance": 13
+    }
+  },
+  "inventory": {
+    "pack": [
+      {
+        "label": "a",
+        "description": "a Holy Book of Prayers [Novice's Handbook]",
+        "slot": "",
+        "attr": 13,
+        "weight": 30
+      },
+      {
+        "label": "b",
+        "description": "7 Rations of Food",
+        "slot": "",
+        "attr": 15,
+        "weight": 56
+      },
+      {
+        "label": "c",
+        "description": "3 Potions of Cure Light Wounds",
+        "slot": "",
+        "attr": 5,
+        "weight": 12
+      },
+      {
+        "label": "d",
+        "description": "2 Scrolls of Phase Door",
+        "slot": "",
+        "attr": 1,
+        "weight": 10
+      },
+      {
+        "label": "e",
+        "description": "10 Wooden Torches (5000 turns)",
+        "slot": "",
+        "attr": 7,
+        "weight": 220
+      }
+    ],
+    "equipment": [
+      {
+        "label": "a",
+        "description": "a Mace (2d4) (+0,+0)",
+        "slot": "weapon",
+        "attr": 8,
+        "weight": 120
+      },
+      {
+        "label": "b",
+        "description": "(nothing)",
+        "slot": "shooting",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "c",
+        "description": "(nothing)",
+        "slot": "right hand",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "d",
+        "description": "(nothing)",
+        "slot": "left hand",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "e",
+        "description": "(nothing)",
+        "slot": "neck",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "f",
+        "description": "a Wooden Torch (4372 turns)",
+        "slot": "light",
+        "attr": 7,
+        "weight": 22
+      },
+      {
+        "label": "g",
+        "description": "(nothing)",
+        "slot": "body",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "i",
+        "description": "a Cloak [1,+0]",
+        "slot": "back",
+        "attr": 5,
+        "weight": 10
+      },
+      {
+        "label": "m",
+        "description": "(nothing)",
+        "slot": "arm",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "n",
+        "description": "(nothing)",
+        "slot": "head",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "o",
+        "description": "a Set of Gauntlets [3,+2]",
+        "slot": "hands",
+        "attr": 2,
+        "weight": 25
+      },
+      {
+        "label": "p",
+        "description": "(nothing)",
+        "slot": "feet",
+        "attr": 2,
+        "weight": 0
+      }
+    ],
+    "quiver": [],
+    "total_weight": 505,
+    "remaining_weight": 574
+  },
+  "spells": {
+    "class": "Priest",
+    "mana": 2,
+    "max_mana": 2,
+    "caster": 1,
+    "learned": [
+      {
+        "name": "Bless",
+        "label": "d",
+        "book": "a Holy Book of Prayers [Novice's Handbook]",
+        "book_label": "a",
+        "level": 1,
+        "mana": 2,
+        "fail": 14,
+        "castable": 1,
+        "status": "Ready"
+      }
+    ]
+  },
+  "world": "83d86ba793fde741",
+  "rng": "504dca8ad223115163ed69951d722be0fa952398dbaad88dacf41aab088bde9b86a64351979f84ba7cd6faaebe98c9b93737ce84074132f2e533488fa9f27284701df4a2bd387e6478de2c962ba5b3a886286e9193c4e4026c0d93eca0473c0162fc418a6b8b9c3d581b4590665bb360e81f89e60e72200860be6a5cda5b1e8a",
+  "rng_index": 25,
+  "borg_rng": 3413847329
+}

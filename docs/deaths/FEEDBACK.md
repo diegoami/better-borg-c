@@ -135,3 +135,13 @@ first Phase spell, actual stair-return attempts and the jelly/soldier finish.
 [193](https://github.com/diegoami/better-borg-c/issues/193) investigates native-ready
 Phase Door versus Borg admission; shared159 covers retreat/loot priority and34
 healing eligibility. Five known cures and2MP remain late; no safe rescue proved.
+
+D0008 owner review is on [163](https://github.com/diegoami/better-borg-c/issues/163#issuecomment-6714388294),
+with focused [212](https://github.com/diegoami/better-borg-c/issues/212) and an
+[overall assessment](D0008-collected/overall-assessment.md). Exact original and
+stderr-only diagnostic replays establish repeated upstairs retreat/re-exposure,
+three CLW consumed, two Phase left and no melee. Qualified C cache transitions
+match the owner's linked [Rust report5](https://github.com/diegoami/borg-rs/issues/5)
+while retaining separate actual lives. Canonical [source404](https://github.com/diegoami/neo-angband-tracker/issues/404)
+tracks unchecked emergency-flow cache reuse; source156 and shared159 remain
+separate guard/escape-intent actions. No fix or successful rescue is claimed.

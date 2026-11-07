@@ -1,0 +1,69 @@
+--- a/src/borg/borg-caution.c
++++ b/src/borg/borg-caution.c
+@@ -1,3 +1,4 @@
++#include "../game-world.h"
+ /**
+  * \file borg-caution.c
+  * \brief Try to be careful and not die when things are dangerous
+@@ -923,6 +924,7 @@
+ 
+     /* Look around */
+     pos_danger = borg_danger(borg.c.y, borg.c.x, 1, true, false);
++    if ((turn >= 10800 && turn <= 10940)) fprintf(stderr, "D8 CAUTION turn=%ld x=%d y=%d hp=%d danger=%d avoidance=%d fleeing=%d leaving=%d scary=%d stair_less=%d ready=%d feat=%d\n", (long)turn, borg.c.x, borg.c.y, borg.trait[BI_CURHP], pos_danger, borg.avoidance, borg.goal.fleeing, borg.goal.leaving, borg.mon.scary, borg.stair_less, borg.ready_morgoth, borg_grids[borg.c.y][borg.c.x].feat);
+ 
+     /* Describe (briefly) the current situation */
+     /* Danger (ignore stupid "fear" danger) */
+--- a/src/borg/borg-flow.c
++++ b/src/borg/borg-flow.c
+@@ -1,3 +1,4 @@
++#include "../game-world.h"
+ /**
+  * \file borg-flow.c
+  * \brief The basic things used to flow (move) around
+@@ -168,6 +169,7 @@
+     /* Reset the "cost" fields */
+     memcpy(borg_data_cost, borg_data_hard, sizeof(borg_data));
+ 
++    if ((turn >= 10800 && turn <= 10940)) fprintf(stderr, "D8 CLEAR turn=%ld desperate=%d wipe=%d know=%d icky=%d\n", (long)turn, borg.status.desperate, borg_danger_wipe, borg_data_know->data[7][54], borg_data_icky->data[7][54]);
+     /* Wipe costs and danger */
+     if (borg_danger_wipe) {
+         /* Wipe the "know" flags */
+@@ -426,6 +428,7 @@
+                  */
+             }
+ 
++            if ((turn >= 10800 && turn <= 10940) && x==54 && y==7) fprintf(stderr, "D8 CACHE turn=%ld x=%d y=%d desperate=%d lunal=%d munchkin=%d digging=%d know=%d icky=%d avoidance=%d\n", (long)turn,x,y,borg.status.desperate,borg.lunal_mode,borg.munchkin_mode,borg.status.digging,borg_data_know->data[y][x],borg_data_icky->data[y][x],borg.avoidance);
+             /* Ignore "icky" grids */
+             if (borg_data_icky->data[y][x])
+                 continue;
+@@ -465,6 +468,7 @@
+                     if (borg.trait[BI_CLEVEL] == 0)
+                         fear = borg.avoidance * 3 / 10;
+ 
++                    if ((turn >= 10800 && turn <= 10940) && x==54 && y==7) fprintf(stderr, "D8 EVAL turn=%ld p=%d fear=%d\n",(long)turn,p,fear);
+                     /* Dangerous grid */
+                     if (p > fear) {
+                         /* Mark as icky */
+@@ -476,6 +480,7 @@
+                 }
+             }
+ 
++            if ((turn >= 10800 && turn <= 10940) && x==54 && y==7) fprintf(stderr, "D8 ACCEPT turn=%ld desperate=%d know=%d icky=%d\n",(long)turn,borg.status.desperate,borg_data_know->data[y][x],borg_data_icky->data[y][x]);
+             /* Save the flow cost */
+             borg_data_cost->data[y][x] = n;
+ 
+--- a/src/borg/borg-think-dungeon.c
++++ b/src/borg/borg-think-dungeon.c
+@@ -1,3 +1,4 @@
++#include "../game-world.h"
+ /**
+  * \file borg-think-dungeon.c
+  * \brief Decide on an action while in the dungeon
+@@ -1568,6 +1569,7 @@
+     if (borg_flow_kill_corridor())
+         return true;
+ 
++    if ((turn >= 10800 && turn <= 10940)) fprintf(stderr, "D8 ATTACK_REACHED turn=%ld x=%d y=%d hp=%d\n",(long)turn,borg.c.x,borg.c.y,borg.trait[BI_CURHP]);
+     /* Attack monsters */
+     if (borg_attack(false))
+         return true;

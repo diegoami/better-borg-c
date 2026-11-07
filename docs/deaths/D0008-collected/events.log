@@ -1,0 +1,878 @@
+BORG 10807 # Standing on up-stairs
+BORG 10807 # Flowing toward dark-2 at cost 3
+BORG 10817 # HIT_BY:The grey mold (+)
+BORG 10817 # HIT_BY:The grey mold (+)
+BORG 10817 # Creating a monster 'grey mold' at (8,55), HP: 2, Index: 17
+BORG 10817 # HIT_BY:The grey mold (4)
+BORG 10817 # HIT_BY:The grey mold (4)
+BORG 10817 # Loc:7,54 Dep:1 Lev:1 HP:6/13 SP:2/2 Danger:p=16
+BORG 10817 # Quaffing Potions of Cure Light Wounds.
+BORG 10817 # Healing Level 1.
+BORG 10827 # HIT_BY:The grey mold (+)
+BORG 10827 # HIT_BY:The grey mold (+)
+BORG 10827 # HIT_BY:The grey mold (3)
+BORG 10827 # HIT_BY:The grey mold (3)
+BORG 10827 # Loc:7,54 Dep:1 Lev:1 HP:7/13 SP:2/2 Danger:p=16
+BORG 10827 # Flowing toward up-stairs at cost 1
+BORG 10827 # Desperate for Stairs (two)
+BORG 10837 # There was a monster 'grey mold' at (8,55)
+BORG 10837 # Standing on up-stairs
+BORG 10837 # Flowing toward dark-3 at cost 3
+BORG 10847 # HIT_BY:The grey mold (+)
+BORG 10847 # HIT_BY:The grey mold (+)
+BORG 10847 # HIT_BY:The grey mold (3)
+BORG 10847 # HIT_BY:The grey mold (3)
+BORG 10847 # Loc:7,54 Dep:1 Lev:1 HP:2/13 SP:2/2 Danger:p=16
+BORG 10847 # Quaffing Potions of Cure Light Wounds.
+BORG 10847 # Healing Level 1.
+BORG 10857 # Loc:7,54 Dep:1 Lev:1 HP:13/13 SP:2/2 Danger:p=16
+BORG 10857 # Flowing toward up-stairs at cost 1
+BORG 10857 # Desperate for Stairs (two)
+BORG 10867 # There was a monster 'grey mold' at (8,55)
+BORG 10867 # Standing on up-stairs
+BORG 10867 # Flowing toward dark-3 at cost 3
+BORG 10877 # HIT_BY:The grey mold (+)
+BORG 10877 # HIT_BY:The grey mold (+)
+BORG 10877 # HIT_BY:The grey mold (3)
+BORG 10877 # HIT_BY:The grey mold (3)
+BORG 10877 # Loc:7,54 Dep:1 Lev:1 HP:8/13 SP:2/2 Danger:p=16
+BORG 10877 # Quaffing Potion of Cure Light Wounds.
+BORG 10877 # Healing Level 1.
+BORG 10887 # HIT_BY:The grey mold (+)
+BORG 10887 # HIT_BY:The grey mold (+)
+BORG 10887 # HIT_BY:The grey mold (3)
+BORG 10887 # HIT_BY:The grey mold (3)
+BORG 10887 # Loc:7,54 Dep:1 Lev:1 HP:11/13 SP:2/2 Danger:p=16
+BORG 10887 # Flowing toward up-stairs at cost 1
+BORG 10887 # Desperate for Stairs (two)
+BORG 10897 # There was a monster 'grey mold' at (8,55)
+BORG 10897 # Standing on up-stairs
+BORG 10897 # Flowing toward dark-3 at cost 3
+BORG 10907 # HIT_BY:The grey mold (+)
+BORG 10907 # HIT_BY:The grey mold (+)
+BORG 10907 # HIT_BY:The grey mold (3)
+BORG 10907 # HIT_BY:The grey mold (3)
+BORG 10907 # Loc:7,54 Dep:1 Lev:1 HP:8/13 SP:2/2 Danger:p=16
+BORG 10907 # Flowing toward up-stairs at cost 1
+BORG 10907 # Desperate for Stairs (two)
+BORG 10917 # There was a monster 'grey mold' at (8,55)
+BORG 10917 # Standing on up-stairs
+BORG 10917 # Flowing toward dark-3 at cost 3
+BORG 10927 # HIT_BY:The grey mold (+)
+BORG 10927 # HIT_BY:The grey mold (+)
+BORG 10927 # HIT_BY:The grey mold (3)
+BORG 10927 # HIT_BY:The grey mold (3)
+BORG 10927 # Loc:7,54 Dep:1 Lev:1 HP:2/13 SP:2/2 Danger:p=16
+BORG 10927 # Flowing toward up-stairs at cost 1
+BORG 10927 # Desperate for Stairs (two)
+BORG 10937 # There was a monster 'grey mold' at (8,55)
+BORG 10937 # Standing on up-stairs
+BORG 10937 # Flowing toward dark-3 at cost 3
+
+[Terminal native state/cause]
+STATE death turn=10940 energy=110960 decisions=464 depth=1 max_depth=1 level=1 max_level=1 hp=-2 dead=1 winner=0 borg_rng=3011096502 quick=0 quick_rng=2385513754 rng_index=19 rng=d91e421bd41c4a158433e9eb78c2441a7c551527acf88e1d38745f52728a609be1539d300fd3e997f2703d78b2b81cda45fe3db78bd02e76065f39e8d37bdf73b6ad4097aecc60acc0a8b8bfd27280ff3d4404315b9e21e41504db18244baef8c5e4440b3ff4f8ad235caab4cd9c7570837a025e38998c5238b2752aac643ae4
+CAUSE a grey mold
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE  
+MESSAGE   
+MESSAGE ====================
+MESSAGE   
+MESSAGE  
+MESSAGE You can learn 1 more prayer.
+MESSAGE You are about to use the dangerous, unsupported, borg commands!
+MESSAGE Your machine may crash, and your savefile may become corrupted!
+MESSAGE Initializing the Borg... (memory)
+MESSAGE Initializing the Borg... (borg.txt)
+MESSAGE Initializing the Borg... (options)
+MESSAGE Initializing the Borg... (various)
+MESSAGE Initializing the Borg... done.
+MESSAGE # Ready...
+MESSAGE # Installing keypress hook
+MESSAGE # Standing on dn-stairs
+MESSAGE # Studying spell/prayer Bless.
+MESSAGE You have learned the prayer of Bless.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 14
+MESSAGE # Creating a monster 'aimless-looking merchant' at (6,10), HP: 6, Index: 12
+MESSAGE # Flowing toward Home at cost 11
+MESSAGE # Creating a monster 'Farmer Maggot' at (12,18), HP: 350, Index: 4
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 5
+MESSAGE # Tracking a monster 'Farmer Maggot' at (11,19) from (12,18)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'Farmer Maggot' at (10,20) from (11,19)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'Farmer Maggot' at (9,21) from (10,20)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'Farmer Maggot' at (8,22) from (9,21)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Tracking a monster 'Farmer Maggot' at (7,22) from (8,22)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # Creating a monster 'giant white centipede' at (47,9), HP: 7, Index: 20
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 14
+MESSAGE # Creating a monster 'aimless-looking merchant' at (17,30), HP: 6, Index: 12
+MESSAGE # Flowing toward Home at cost 6
+MESSAGE # Creating a monster 'squint-eyed rogue' at (4,44), HP: 5, Index: 10
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 13
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating an object 'copper' at (94,47)
+MESSAGE # Creating an object '& Rounded Pebble~' at (92,46)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Flowing toward Scum item at cost 5
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (46,92)
+MESSAGE You have 23 Rounded Pebbles (1d2) (+0,+0) (0).
+MESSAGE # Flowing toward Scum item at cost 2
+MESSAGE # Walking onto and deleting a 'copper' at (47,94)
+MESSAGE You have found 105 gold pieces worth of copper.
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Dumping Rounded Pebbles (1d2) (+0,+0).  Bad ammo in quiver.
+MESSAGE Inscribing 23 Rounded Pebbles (1d2) (+0,+0).
+MESSAGE You re-arrange your quiver.
+MESSAGE You drop 23 Rounded Pebbles (1d2) (+0,+0) {borg ignore} (0).
+MESSAGE You have no more Rounded Pebbles (1d2) (+0,+0) {borg ignore} (0).
+MESSAGE # Creating an object '& Rounded Pebble~' at (94,47)
+MESSAGE # Destroying floor item Shot~& Rounded Pebble~
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Looking for stairs. Fleeing.
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 14
+MESSAGE # Creating a monster 'scrawny cat' at (14,37), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (14,37) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'filthy street urchin' at (16,41), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (16,41) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (15,40), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (15,40) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'scrawny cat' at (15,39), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (15,39) because of a LOS scrawny cat
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 9
+MESSAGE # Tracking a monster 'scrawny cat' at (11,33) from (14,37)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'scrawny cat' at (12,34) from (11,33)
+MESSAGE # Creating a monster 'scruffy little dog' at (11,33), HP: 1, Index: 3
+MESSAGE # Removing Regional Fear (11,33) because of a LOS scruffy little dog
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'scrawny cat' at (12,33) from (12,34)
+MESSAGE # Tracking a monster 'scruffy little dog' at (10,32) from (11,33)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Creating a monster 'scruffy little dog' at (6,25), HP: 1, Index: 3
+MESSAGE # Removing Regional Fear (6,25) because of a LOS scruffy little dog
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'scrawny cat' at (15,22), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (15,22) because of a LOS scrawny cat
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 14
+MESSAGE The scrawny cat wakes up.
+MESSAGE # PAIN:The scrawny cat (+)
+MESSAGE # PAIN:The scrawny cat (2)
+MESSAGE # Tracking a monster 'scrawny cat' at (15,23) from (15,22)
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Scroll of Word of Recall' to the home
+MESSAGE # Currently in preferred store '8'.
+MESSAGE # Selling Scroll of Word of Recall
+MESSAGE You drop a Scroll of Word of Recall (d).
+MESSAGE # Tracking a monster 'scrawny cat' at (15,24) from (15,23)
+MESSAGE # Selling 'Potions of Cure Serious Wounds' at 'Alchemy Shop'
+MESSAGE # Flowing toward Alchemy Shop at cost 14
+MESSAGE # Tracking a monster 'scrawny cat' at (15,25) from (15,24)
+MESSAGE # Tracking a monster 'scrawny cat' at (14,24) from (15,25)
+MESSAGE # Tracking a monster 'scrawny cat' at (14,25) from (14,24)
+MESSAGE # Tracking a monster 'scrawny cat' at (14,26) from (14,25)
+MESSAGE The scrawny cat claws you.
+MESSAGE # HIT_BY:The scrawny cat (+)
+MESSAGE # Tracking a monster 'scrawny cat' at (15,27) from (14,26)
+MESSAGE # HIT_BY:The scrawny cat (3)
+MESSAGE # Loc:15,28 Dep:0 Lev:1 HP:12/13 SP:2/2 Danger:p=2
+MESSAGE # Performing defense type 0 with value 1
+MESSAGE # Attempting to cast Bless
+MESSAGE # Casting Bless (0,3).
+MESSAGE You failed to concentrate hard enough!
+MESSAGE The scrawny cat misses you.
+MESSAGE # Normal failure.
+MESSAGE # MISS_BY:The scrawny cat (+)
+MESSAGE # MISS_BY:The scrawny cat (3)
+MESSAGE # Loc:15,28 Dep:0 Lev:1 HP:12/13 SP:0/2 Danger:p=2
+MESSAGE # Performing attack type 1 with value 7.
+MESSAGE # Facing scrawny cat at (15,27) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the scrawny cat.
+MESSAGE You have slain the scrawny cat.
+MESSAGE # HIT:the scrawny cat (+)
+MESSAGE # KILL:the scrawny cat (+)
+MESSAGE # Forgetting a monster 'scrawny cat' at (15,27)
+MESSAGE # HIT:the scrawny cat (2)
+MESSAGE # KILL:the scrawny cat (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Entering a '4' shop
+MESSAGE # Selling 'Potions of Cure Serious Wounds' at 'Alchemy Shop'
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Selling Potions of Cure Serious Wounds
+MESSAGE You had a Potion of Cure Serious Wounds (c).
+MESSAGE # Selling 'Potion of Cure Serious Wounds' at 'Alchemy Shop'
+MESSAGE # Re-entering a shop
+MESSAGE "Don't worry about using up your potions, wands, and staves to stay alive."
+MESSAGE # Selling 'Potion of Cure Serious Wounds' at 'Alchemy Shop'
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Selling Potion of Cure Serious Wounds
+MESSAGE You had a Potion of Cure Serious Wounds (c).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(h) at 'General Store' (for player 'b')
+MESSAGE # Flowing toward General Store at cost 21
+MESSAGE # Entering a '0' shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 3 Wooden Torches (5000 turns) (c).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(h) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 4 Wooden Torches (5000 turns) (c).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(h) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE Accepted!
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 5 Wooden Torches (5000 turns) (c).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(h) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 6 Wooden Torches (5000 turns) (c).
+MESSAGE # Buying 'Rations of Food'(c) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 4 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food'(c) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 5 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food'(c) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 6 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food'(c) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE "Never underestimate the value of constitution. Hitpoints keep you alive. "
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Taken!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 7 Rations of Food (b).
+MESSAGE # Buying 'Scrolls of Phase Door {unseen}'(o) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Flowing toward Alchemy Shop at cost 21
+MESSAGE # Entering a '4' shop
+MESSAGE "You cannot cast spells or fire missiles at monsters in walls, but they can."
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Scrolls of Phase Door {unseen}.
+MESSAGE You bought a Scroll titled "pro sactus" for 15 gold.
+MESSAGE You have a Scroll of Phase Door (c).
+MESSAGE # Buying 'Sets of Gauntlets [3,+2]'(h) at 'Armoury' (for player 'b')
+MESSAGE # Flowing toward Armoury at cost 27
+MESSAGE # Creating a monster 'aimless-looking merchant' at (14,60), HP: 5, Index: 12
+MESSAGE # Removing Regional Fear (14,60) because of a LOS aimless-looking merchant
+MESSAGE # Flowing toward Armoury at cost 1
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Sets of Gauntlets [3,+2].
+MESSAGE You bought a Set of Gauntlets [3,+2] for 84 gold.
+MESSAGE You have a Set of Gauntlets [3,+2] (e).
+MESSAGE # Wearing Set of Gauntlets [3,+2].
+MESSAGE You are wearing a Set of Gauntlets [3,+2] (o).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(h) at 'General Store' (for player 'b')
+MESSAGE # Flowing toward General Store at cost 6
+MESSAGE # Creating a monster 'boil-covered wretch' at (11,54), HP: 2, Index: 6
+MESSAGE # Removing Regional Fear (11,54) because of a LOS boil-covered wretch
+MESSAGE # Flowing toward General Store at cost 4
+MESSAGE # Entering a '0' shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 7 Wooden Torches (5000 turns) (d).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(h) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE Okay.
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 8 Wooden Torches (5000 turns) (d).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(h) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE Accepted!
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 9 Wooden Torches (5000 turns) (d).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(h) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE Okay.
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 10 Wooden Torches (5000 turns) (d).
+MESSAGE # Buying 'Cloaks [1,+0]'(j) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Cloaks [1,+0].
+MESSAGE Done!
+MESSAGE You bought a Cloak [1,+0] for 6 gold.
+MESSAGE You have a Cloak [1,+0] (e).
+MESSAGE # Wearing Cloak [1,+0].
+MESSAGE You are wearing a Cloak [1,+0] (i).
+MESSAGE # Buying 'Scrolls of Phase Door'(o) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Flowing toward Alchemy Shop at cost 21
+MESSAGE # Entering a '4' shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Scrolls of Phase Door.
+MESSAGE You bought a Scroll of Phase Door for 15 gold.
+MESSAGE You have 2 Scrolls of Phase Door (c).
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 8
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Bless (0,3).
+MESSAGE # Casting blessing before leaving level.
+MESSAGE You feel righteous!
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-4 at cost 10
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating a monster 'giant white mouse' at (42,103), HP: 3, Index: 23
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 6
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 3
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 14
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Bless (0,3).
+MESSAGE # Casting blessing before leaving level.
+MESSAGE You feel righteous!
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE You feel that there may not be much interesting here.
+MESSAGE # FEELING_STUFF:7 (+)
+MESSAGE # Creating an object 'copper' at (17,50)
+MESSAGE # Creating an object 'Detect Invisible' at (16,46)
+MESSAGE # Creating a monster 'giant yellow centipede' at (53,16), HP: 8, Index: 19
+MESSAGE # Creating a monster 'grey mold' at (52,12), HP: 2, Index: 17
+MESSAGE # Creating a monster 'grey mushroom patch' at (45,20), HP: 1, Index: 18
+MESSAGE # FEELING_STUFF:7 (1)
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Walking onto and deleting a 'copper' at (50,17)
+MESSAGE You have found 60 gold pieces worth of copper.
+MESSAGE # Flowing toward dark-4 at cost 10
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Standing on dn-stairs
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 14
+MESSAGE # Creating a monster 'village idiot' at (6,16), HP: 9, Index: 7
+MESSAGE # Removing Regional Fear (6,16) because of a LOS village idiot
+MESSAGE # Flowing toward Home at cost 13
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (17,29), HP: 2, Index: 8
+MESSAGE # Removing Regional Fear (17,29) because of a LOS pitiful-looking beggar
+MESSAGE # Creating a monster 'Farmer Maggot' at (10,29), HP: 350, Index: 4
+MESSAGE # Removing Regional Fear (10,29) because of a LOS Farmer Maggot
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 8
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'Farmer Maggot' at (8,29) from (10,29)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'Farmer Maggot' at (7,28) from (8,29)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'Farmer Maggot' at (7,26) from (7,28)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'Farmer Maggot' at (6,25) from (7,26)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'Farmer Maggot' at (5,25) from (6,25)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Tracking a monster 'Farmer Maggot' at (4,24) from (5,25)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 14
+MESSAGE The scruffy little dog wakes up.
+MESSAGE # PAIN:The scruffy little dog (+)
+MESSAGE # Creating a monster 'scruffy little dog' at (13,15), HP: 2, Index: 3
+MESSAGE # Removing Regional Fear (13,15) because of a LOS scruffy little dog
+MESSAGE # PAIN:The scruffy little dog (4)
+MESSAGE # Tracking a monster 'scruffy little dog' at (12,16) from (13,15)
+MESSAGE # Creating a monster 'singing, happy drunk' at (14,37), HP: 4, Index: 11
+MESSAGE # Removing Regional Fear (14,37) because of a LOS singing, happy drunk
+MESSAGE # Flowing toward Home at cost 5
+MESSAGE # Tracking a monster 'singing, happy drunk' at (13,36) from (14,37)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (13,35) from (13,36)
+MESSAGE # Tracking a monster 'scruffy little dog' at (10,21) from (12,16)
+MESSAGE # Tracking a monster 'scruffy little dog' at (10,22) from (10,21)
+MESSAGE # Tracking a monster 'scruffy little dog' at (10,23) from (10,22)
+MESSAGE # Entering a '7' shop
+MESSAGE # Buying 'Potions of Cure Light Wounds {unseen}'(a) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Currently in store '8' would prefer '5'.
+MESSAGE # Tracking a monster 'singing, happy drunk' at (13,34) from (13,35)
+MESSAGE # Tracking a monster 'scruffy little dog' at (11,24) from (10,23)
+MESSAGE # Performing attack type 1 with value 4.
+MESSAGE # Facing singing, happy drunk at (13,34) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the singing, happy drunk.
+MESSAGE You have slain the singing, happy drunk.
+MESSAGE # HIT:the singing, happy drunk (+)
+MESSAGE # KILL:the singing, happy drunk (+)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (13,34)
+MESSAGE # Tracking a monster 'scruffy little dog' at (12,24) from (11,24)
+MESSAGE # HIT:the singing, happy drunk (2)
+MESSAGE # KILL:the singing, happy drunk (2)
+MESSAGE # Buying 'Potions of Cure Light Wounds {unseen}'(a) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Flowing toward Alchemy Shop at cost 14
+MESSAGE # Tracking a monster 'scruffy little dog' at (12,25) from (12,24)
+MESSAGE # Tracking a monster 'scruffy little dog' at (12,26) from (12,25)
+MESSAGE # Tracking a monster 'scruffy little dog' at (12,27) from (12,26)
+MESSAGE # Loc:14,29 Dep:0 Lev:1 HP:13/13 SP:2/2 Danger:p=1
+MESSAGE # Performing defense type 0 with value 1
+MESSAGE # Attempting to cast Bless
+MESSAGE # Casting Bless (0,3).
+MESSAGE You feel righteous!
+MESSAGE # Tracking a monster 'scruffy little dog' at (13,28) from (12,27)
+MESSAGE # Loc:14,29 Dep:0 Lev:1 HP:13/13 SP:0/2 Danger:p=2
+MESSAGE # Performing attack type 1 with value 7.
+MESSAGE # Facing scruffy little dog at (13,28) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the scruffy little dog.
+MESSAGE You have slain the scruffy little dog.
+MESSAGE # HIT:the scruffy little dog (+)
+MESSAGE # KILL:the scruffy little dog (+)
+MESSAGE # Forgetting a monster 'scruffy little dog' at (13,28)
+MESSAGE # HIT:the scruffy little dog (2)
+MESSAGE # KILL:the scruffy little dog (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Entering a '4' shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Potions of Cure Light Wounds {unseen}.
+MESSAGE You bought a Metallic Green Potion for 20 gold.
+MESSAGE You have a Potion of Cure Light Wounds (c).
+MESSAGE # Creating a monster 'mangy-looking leper' at (18,13), HP: 1, Index: 9
+MESSAGE # Buying 'Potions of Cure Light Wounds'(a) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Potions of Cure Light Wounds.
+MESSAGE Accepted!
+MESSAGE You bought a Potion of Cure Light Wounds for 20 gold.
+MESSAGE You have 2 Potions of Cure Light Wounds (c).
+MESSAGE # Buying 'Potions of Cure Light Wounds'(a) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Potions of Cure Light Wounds.
+MESSAGE You bought a Potion of Cure Light Wounds for 20 gold.
+MESSAGE You have 3 Potions of Cure Light Wounds (c).
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 8
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Bless (0,3).
+MESSAGE # Casting blessing before leaving level.
+MESSAGE You feel righteous!
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating a monster 'soldier ant' at (17,119), HP: 5, Index: 30
+MESSAGE # Loc:17,118 Dep:1 Lev:1 HP:13/13 SP:2/2 Danger:p=4
+MESSAGE # Performing defense type 0 with value 1
+MESSAGE # Attempting to cast Bless
+MESSAGE # Casting Bless (0,3).
+MESSAGE You feel righteous!
+MESSAGE # Loc:17,118 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=4
+MESSAGE # Performing attack type 1 with value 10.
+MESSAGE # Facing soldier ant at (17,119) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the soldier ant.
+MESSAGE You have slain the soldier ant.
+MESSAGE # HIT:the soldier ant (+)
+MESSAGE # KILL:the soldier ant (+)
+MESSAGE # Forgetting a monster 'soldier ant' at (17,119)
+MESSAGE # HIT:the soldier ant (2)
+MESSAGE # KILL:the soldier ant (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-5 at cost 12
+MESSAGE # Creating an object '& Wooden Torch~' at (96,12)
+MESSAGE # Creating an object 'Cure Light Wounds' at (93,10)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating a monster 'large white snake' at (10,87), HP: 12, Index: 24
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'singing, happy drunk' at (14,23), HP: 1, Index: 11
+MESSAGE # Removing Regional Fear (14,23) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'singing, happy drunk' at (8,22), HP: 4, Index: 11
+MESSAGE # Removing Regional Fear (8,22) because of a LOS singing, happy drunk
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 14
+MESSAGE # Tracking a monster 'singing, happy drunk' at (13,23) from (14,23)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (7,21) from (8,22)
+MESSAGE # Creating a monster 'village idiot' at (5,17), HP: 11, Index: 7
+MESSAGE # Removing Regional Fear (5,17) because of a LOS village idiot
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Tracking a monster 'singing, happy drunk' at (6,21) from (7,21)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Bless (0,3).
+MESSAGE # Casting blessing before leaving level.
+MESSAGE You feel righteous!
+MESSAGE # Tracking a monster 'singing, happy drunk' at (14,22) from (13,23)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (5,22) from (6,21)
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE The grey mold releases spores at you.
+MESSAGE # HIT_BY:The grey mold (+)
+MESSAGE # Creating a monster 'grey mold' at (8,55), HP: 2, Index: 17
+MESSAGE # HIT_BY:The grey mold (4)
+MESSAGE # Loc:7,54 Dep:1 Lev:1 HP:6/13 SP:2/2 Danger:p=16
+MESSAGE # Quaffing Potions of Cure Light Wounds.
+MESSAGE # Healing Level 1.
+MESSAGE You feel much better.
+MESSAGE You have 2 Potions of Cure Light Wounds (c).
+MESSAGE The grey mold releases spores at you.
+MESSAGE # HIT_BY:The grey mold (+)
+MESSAGE # HIT_BY:The grey mold (3)
+MESSAGE # Loc:7,54 Dep:1 Lev:1 HP:7/13 SP:2/2 Danger:p=16
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (two)
+MESSAGE # There was a monster 'grey mold' at (8,55)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The grey mold releases spores at you.
+MESSAGE # HIT_BY:The grey mold (+)
+MESSAGE # HIT_BY:The grey mold (3)
+MESSAGE # Loc:7,54 Dep:1 Lev:1 HP:2/13 SP:2/2 Danger:p=16
+MESSAGE # Quaffing Potions of Cure Light Wounds.
+MESSAGE # Healing Level 1.
+MESSAGE You feel much better.
+MESSAGE You have a Potion of Cure Light Wounds (c).
+MESSAGE # Loc:7,54 Dep:1 Lev:1 HP:13/13 SP:2/2 Danger:p=16
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (two)
+MESSAGE # There was a monster 'grey mold' at (8,55)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The grey mold releases spores at you.
+MESSAGE # HIT_BY:The grey mold (+)
+MESSAGE # HIT_BY:The grey mold (3)
+MESSAGE # Loc:7,54 Dep:1 Lev:1 HP:8/13 SP:2/2 Danger:p=16
+MESSAGE # Quaffing Potion of Cure Light Wounds.
+MESSAGE # Healing Level 1.
+MESSAGE You feel much better.
+MESSAGE You have no more Potions of Cure Light Wounds (c).
+MESSAGE The grey mold releases spores at you.
+MESSAGE # HIT_BY:The grey mold (+)
+MESSAGE # HIT_BY:The grey mold (3)
+MESSAGE # Loc:7,54 Dep:1 Lev:1 HP:11/13 SP:2/2 Danger:p=16
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (two)
+MESSAGE # There was a monster 'grey mold' at (8,55)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The grey mold releases spores at you.
+MESSAGE # HIT_BY:The grey mold (+)
+MESSAGE # HIT_BY:The grey mold (3)
+MESSAGE # Loc:7,54 Dep:1 Lev:1 HP:8/13 SP:2/2 Danger:p=16
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (two)
+MESSAGE # There was a monster 'grey mold' at (8,55)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The grey mold releases spores at you.
+MESSAGE # HIT_BY:The grey mold (+)
+MESSAGE # HIT_BY:The grey mold (3)
+MESSAGE # Loc:7,54 Dep:1 Lev:1 HP:2/13 SP:2/2 Danger:p=16
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (two)
+MESSAGE # There was a monster 'grey mold' at (8,55)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The grey mold releases spores at you.
+MESSAGE You die.
