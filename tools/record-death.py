@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import shutil
 import subprocess
+import importlib.util
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -24,6 +25,57 @@ def write(path, value):
 
 def native_map(directory, run):
     return directory / run.get('native_map', 'archive/Measure.map')
+
+
+def recording_manifest(original, run):
+    path = original / 'recording.json'
+    if not path.exists():
+        return None
+    spec = importlib.util.spec_from_file_location('death_recording', ROOT / 'tools/borg-recordings.py')
+    recording = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(recording)
+    manifest = recording.validate(original)
+    if any(manifest['build'][key] != run['build'][key] for key in ('source_commit', 'binary_sha256')):
+        raise ValueError('Recording build differs from the death identity')
+    return manifest
+
+
+def recorded_windows(original, out, death_turn, manifest):
+    if manifest is None:
+        return None
+    spec = importlib.util.spec_from_file_location('death_movie', ROOT / 'tools/borg-replay-viewer.py')
+    movie = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(movie)
+    frames = movie.Frames(original)
+    offsets = read(ROOT / 'docs/deaths/window-profile-v2.json')['offsets']
+    selected, unavailable = [], []
+    try:
+        for offset in offsets:
+            wanted = death_turn - offset
+            frame, chars, attrs, palette = frames.get(frames.at_turn(wanted))
+            if frame['turn'] != wanted:
+                unavailable.append(offset)
+                continue
+            prefix = f'snapshots/recorded-T-minus-{offset}'
+            text = f"Original recording: frame {frame['index']}, engine turn {frame['turn']}, phase {frame['phase']}; HP {frame['hp']}, SP {frame['sp']}, depth {frame['depth']}\n"
+            text += 'Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.\n\n'
+            text += '\n'.join(''.join(movie.glyph(c) for c in chars[row * frame['width']:(row + 1) * frame['width']])
+                              for row in range(frame['height'])) + '\n'
+            (out / (prefix + '.txt')).write_text(text)
+            payload = dict(frame, reconstructed_chars=chars,
+                           reconstructed_attrs=attrs, reconstructed_palette=palette)
+            (out / (prefix + '.json')).write_text(json.dumps(payload, sort_keys=True, separators=(',', ':')) + '\n')
+            selected.append({'offset_engine_turns': offset, 'turn': frame['turn'],
+                'phase': frame['phase'], 'frame_index': frame['index'],
+                'text': prefix + '.txt', 'json': prefix + '.json',
+                'text_sha256': sha(out / (prefix + '.txt')), 'json_sha256': sha(out / (prefix + '.json'))})
+    finally:
+        frames.close()
+    return {'schema': manifest['schema'], 'raw_directory': str(original),
+        'manifest_sha256': sha(original / 'recording.json'), 'frames_sha256': sha(original / 'frames.jsonl.gz'),
+        'replay_command': f'./replay-borg.py {original} --from-turn {max(0, death_turn - 105)}',
+        'selected_original_frames': selected, 'unavailable_offsets_before_recording': unavailable,
+        'qualification': 'Losslessly decoded original observations; rerun verification is separate, never assumed from a seed'}
 
 
 def source_ledger(commit):
@@ -67,6 +119,7 @@ def capture(args):
     terminal = run['states'][-1]
     if terminal['kind'] != 'death' or not terminal['dead']:
         raise ValueError('Terminal native state does not confirm death')
+    manifest = recording_manifest(original, run)
     out = args.output.resolve()
     key = {'source': run['build']['source_commit'], 'binary': run['build']['binary_sha256'],
            'seed': run['seed'], 'start_save': sha(original / 'start.save'),
@@ -158,6 +211,10 @@ def capture(args):
     if 'run_kind' in run:
         record.update(run_kind=run['run_kind'], restored_backup_slot=run.get('restored_backup_slot'),
                       continuation=run.get('continuation'))
+    recording = recorded_windows(original, out, terminal['turn'], manifest)
+    if recording:
+        record['recording'] = recording
+        record['recording_scope'] = 'Original logical terminal cells and diagnostic/RNG state per engine tick/command/input phase, plus native logs/snapshots; not pixel video or a mid-run Borg-memory restore'
     write(out / 'record.json', record)
     if not (out / 'assessment.json').exists():
         write(out / 'assessment.json', {'classification': 'unassessed', 'confidence': 'unassessed',

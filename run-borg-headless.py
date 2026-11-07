@@ -33,7 +33,28 @@ def locked(path, blocking=True):
         yield
 
 
-def prepared_build():
+def compatible_builds():
+    """Old GAME sources are usable only with this recording implementation."""
+    names = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h')
+    expected = {name: measurement.sha(ROOT / 'tools' / name) for name in names}
+    folder = ROOT / 'artifacts/headless/builds'
+    for path in sorted(folder.glob('*/build.json'), key=lambda p: p.stat().st_mtime, reverse=True):
+        try:
+            manifest = json.loads(path.read_text())
+            if (manifest.get('complete') is True and manifest.get('recording_schema') == 'borg-recording@1'
+                    and all(manifest.get('tools_sha256', {}).get(name) == value for name, value in expected.items())
+                    and measurement.sha(path.parent / 'build/game/angband') == manifest['binary_sha256']):
+                yield path.parent, manifest
+        except (OSError, ValueError, KeyError):
+            continue
+
+
+def runtime_matches(commit):
+    return subprocess.run(['git', '-C', str(ROOT), 'diff', '--quiet', commit, 'HEAD', '--',
+                           'src', 'lib', 'CMakeLists.txt', 'scripts', 'm4']).returncode == 0
+
+
+def prepared_build(allow_build=True):
     commit = measurement.git('rev-parse', 'HEAD')
     changed = subprocess.run(['git', 'diff', '--quiet', 'HEAD', '--', 'src', 'lib', 'CMakeLists.txt', 'scripts'], cwd=ROOT)
     if changed.returncode:
@@ -41,7 +62,8 @@ def prepared_build():
     identity = hashlib.sha256()
     identity.update(inspect.getsource(measurement.prepare).encode())
     identity.update(inspect.getsource(measurement.named_play_bridge).encode())
-    for name in ('native-observer.c', 'native-observer.h'):
+    identity.update(inspect.getsource(measurement.recording_profile).encode())
+    for name in ('native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h'):
         identity.update((ROOT / 'tools' / name).read_bytes())
     build = ROOT / 'artifacts/headless/builds' / (commit[:12] + '-' + identity.hexdigest()[:12])
     if build.exists():
@@ -51,8 +73,14 @@ def prepared_build():
                 or manifest.get('tools_sha256', {}).get('native-observer.c') != measurement.sha(ROOT / 'tools/native-observer.c')):
             raise ValueError(f'Incomplete or changed cached build at {build}; preserve it and investigate')
     else:
+        for candidate, manifest in compatible_builds():
+            if runtime_matches(manifest['source_commit']):
+                print('Reusing recording build from identical runtime source ' + manifest['source_commit'][:12] + '.', flush=True)
+                return candidate
+        if not allow_build:
+            return None
         print(f'Preparing headless build from {commit[:12]} (first run only).', flush=True)
-        measurement.prepare(SimpleNamespace(output=build, ref=commit, observe=True, retry=False))
+        measurement.prepare(SimpleNamespace(output=build, ref=commit, observe=True, retry=False, recording=True))
     return build
 
 
@@ -62,7 +90,9 @@ def record_natural_death(out, issue):
         records = ROOT / 'docs/deaths'
         numbers = [int(p.name[1:5]) for p in records.glob('D[0-9][0-9][0-9][0-9]-*')]
         case = f'D{max(numbers, default=0) + 1:04d}'
-        dossier = records / (case + '-named-headless')
+        metadata = json.loads((out / 'recording.json').read_text()) if (out / 'recording.json').exists() else {}
+        kind = 'visible-recording' if metadata.get('profile', {}).get('frontend') == 'x11' else 'named-headless'
+        dossier = records / (case + '-' + kind)
         subprocess.run([sys.executable, str(ROOT / 'tools/record-death.py'),
             '--run', str(out), '--output', str(dossier), '--id', case,
             '--issue', issue, '--investigation', issue], check=True)
@@ -100,7 +130,7 @@ def run(args):
                 options = SimpleNamespace(build=build, output=out, seed=args.seed, cap=2,
                     timeout=args.timeout, stall_timeout=args.stall_timeout, no_saves=False,
                     load=frozen if original_digest else None, play_turns=args.turns,
-                    save_name=args.character, configuration=config)
+                    save_name=args.character, configuration=config, recording=True)
                 code = measurement.run(options)
             result = json.loads((out / 'result.json').read_text())
             result['named_save'] = str(save)
@@ -129,6 +159,7 @@ def run(args):
             measurement.write(out / 'result.json', result)
             print(f"{result['outcome']}: {result.get('actual_additional_turns', '?')} additional engine turns.")
             print(f'Saved: {save}\nEvidence: {out}')
+            print(f'Replay: {ROOT / "replay-borg.py"} {out}')
             if result['outcome'] == 'death':
                 record_natural_death(out, args.death_issue)
             return 0

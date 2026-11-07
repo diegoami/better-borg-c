@@ -1,0 +1,27 @@
+Original recording: frame 25052, engine turn 20433, phase tick; HP 18, SP 0, depth 2
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+The scout hits you. The scout fires a small arrow.                              
+Human                                                                           
+Rookie                                                                          
+Warrior                                                                         
+LEVEL      3                                                                    
+NXT       10                                                                    
+AU       201                                                                    
+|    ~(() ]                             ##############+###                      
+STR:   18/20                            #................#                      
+INT:       8                            #...@p...........####                   
+WIS:       8                            #]...p..............#                   
+DEX:      18                            #...p...............#                   
+CON:      18                            #.........p.....p...#                   
+                                        #.........c....}p####                   
+Cur AC    24                            ############.#####                      
+HP   18/  49                                                                    
+                                                                         *      
+                                                                                
+[******----] %%%         *           *                                          
+             ...   *                                                            
+             ##.                                   %.%                          
+             #   %%#%%##%#%%#%%%%%%%%%#%#%#%#%##%%%#.%                          
+100' (L2)    %   #...................................#                          
+             LF:2-1 Light 5  Fed 69 % Open floor                                

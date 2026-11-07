@@ -1,0 +1,27 @@
+Original recording: frame 24930, engine turn 20340, phase tick; HP 47, SP 0, depth 2
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You have 3 Scrolls of Treasure Detection (f). You re-arrange your pack.         
+Human                                                                           
+Rookie                                                                          
+Warrior                                                                         
+LEVEL      3                                                                    
+NXT       10                                                                    
+AU       201                                                                    
+|    ~(() ]                             ##############+###                      
+STR:   18/20                            #················#                      
+INT:       8                            #····p···········####                   
+WIS:       8                            #]··················#                   
+DEX:      18                            #··c·p··············#                   
+CON:      18                            #@··············p···#                   
+                                        #··············}p####                   
+Cur AC    24                            ############·#####                      
+HP   47/  49                                                                    
+                                                                         ♦      
+                                                                                
+             %%%         ♦           ♦                                          
+             ···   ♦                                                            
+             ##·                                   %·%                          
+             #   %%#%%##%#%%#%%%%%%%%%#%#%#%#%##%%%#·%                          
+100' (L2)    %   #···································#                          
+             LF:2-1 Light 3  Fed 69 % Open floor                                

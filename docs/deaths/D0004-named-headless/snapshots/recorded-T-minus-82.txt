@@ -1,0 +1,27 @@
+Original recording: frame 24954, engine turn 20363, phase tick; HP 48, SP 0, depth 2
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You have no more Flasks of oil (b). The Flask of oil breaks.                    
+Human                                                                           
+Rookie                                                                          
+Warrior                                                                         
+LEVEL      3                                                                    
+NXT       10                                                                    
+AU       201                                                                    
+|    ~(() ]                             ##############+###                      
+STR:   18/20                            #................#                      
+INT:       8                            #....p...........####                   
+WIS:       8                            #]..................#                   
+DEX:      18                            #....p..............#                   
+CON:      18                            #@.c............p...#                   
+                                        #..............}p####                   
+Cur AC    24                            ############.#####                      
+HP   48/  49                                                                    
+                                                                         *      
+                                                                                
+[**********] %%%         *           *                                          
+             ...   *                                                            
+             ##.                                   %.%                          
+             #   %%#%%##%#%%#%%%%%%%%%#%#%#%#%##%%%#.%                          
+100' (L2)    %   #...................................#                          
+             LF:2-1 Light 3  Fed 69 % Open floor                                

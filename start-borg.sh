@@ -7,7 +7,7 @@ game_dir="$repo_dir/build/native/game"
 
 usage() {
     cat <<'EOF'
-Usage: ./start-borg.sh [CHARACTER] [--from-backup[=SLOT]]
+Usage: ./start-borg.sh [CHARACTER] [--from-backup[=SLOT]] [--seed SEED]
 
 Open Angband using CHARACTER's save, or create it if it does not exist.
 Without a name, ask which character to use (default: BorgPlay).
@@ -21,14 +21,21 @@ Offers to rebuild missing/stale local sources; does not fetch remote updates.
 Different character names can run together; each save is locked while playing.
 --from-backup restores slot 1; --from-backup=2 selects another slot (1..5).
 The current save is preserved in a timestamped before-restore file first.
+Both visible and headless sessions record replay data. --seed sets a new
+character's seed; otherwise a random seed is recorded for visible play.
 EOF
 }
 
 character=''
 restore_slot=''
+seed=''
 while (( $# )); do
     case "$1" in
         --help|-h) usage; exit 0 ;;
+        --seed)
+            if (( $# < 2 )); then echo '--seed requires a uint32 value.' >&2; exit 2; fi
+            seed="$2"; shift
+            ;;
         --from-backup) restore_slot=1 ;;
         --from-backup=*)
             restore_slot="${1#*=}"
@@ -42,6 +49,9 @@ while (( $# )); do
     esac
     shift
 done
+if [[ -n "$seed" ]] && ! python3 -c 'import sys; n=int(sys.argv[1]); sys.exit(not 0 <= n <= 0xffffffff)' "$seed"; then
+    echo 'Seed must be uint32.' >&2; exit 2
+fi
 if [[ -n "$restore_slot" && ! "$restore_slot" =~ ^[1-5]$ ]]; then
     echo 'Backup slot must be 1 through 5.' >&2
     exit 2
@@ -57,47 +67,6 @@ fi
 if [[ -z ${DISPLAY:-} ]]; then
     echo 'An X11 display is required; run this from a WSLg or X11 terminal.' >&2
     exit 1
-fi
-
-check_build() {
-    python3 - "$repo_dir" <<'PY'
-import json
-from pathlib import Path
-import subprocess
-import sys
-
-root = Path(sys.argv[1])
-try:
-    receipt = json.loads((root / 'artifacts/native/result.json').read_text())
-    if not receipt.get('success') or not (root / 'build/native/game/angband').is_file():
-        raise ValueError('No verified playable build found.')
-    commit = receipt['commit']
-    subprocess.run(['git', '-C', str(root), 'cat-file', '-e', commit + '^{commit}'],
-                   check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    changed = subprocess.run(['git', '-C', str(root), 'diff', '--quiet', commit, '--',
-                              'src', 'lib', 'CMakeLists.txt', 'scripts', 'm4',
-                              'tools/verify-native.py'], check=False)
-    if changed.returncode:
-        raise ValueError('Build sources differ from verified commit ' + commit[:12] + '.')
-    print('Build sources match verified commit ' + commit[:12] + '.')
-except (OSError, ValueError, KeyError, subprocess.CalledProcessError) as exc:
-    print(str(exc))
-    sys.exit(1)
-PY
-}
-
-if ! check_build; then
-    answer=''
-    read -r -p 'Build and verify the local checkout now? [y/N] ' answer || true
-    if [[ "$answer" == y || "$answer" == Y || "$answer" == yes ]]; then
-        (cd -- "$repo_dir" && flock /tmp/angband-validation.lock python3 tools/verify-native.py)
-        check_build
-    elif [[ ! -x "$game_dir/angband" ]]; then
-        echo 'No playable executable; build before starting the game.' >&2
-        exit 1
-    else
-        echo 'Continuing with the existing executable.'
-    fi
 fi
 
 mkdir -p -- "$game_dir/lib/save/.locks"
@@ -127,5 +96,7 @@ fi
 export ANGBAND_X11_FONT_0="${BORG_PLAY_FONT:-${ANGBAND_X11_FONT_0:--adobe-courier-medium-r-normal--28-*-*-*-p-*-iso8859-1}}"
 printf 'Save: %s/lib/save/%s\n' "$game_dir" "$character"
 echo 'Start Borg: Ctrl+Z, confirm if asked, then z. Save and exit: Ctrl+X.'
-cd -- "$game_dir"
-exec ./angband -mx11 "-u$character" -- -n1
+if [[ -n "$seed" ]]; then
+    exec python3 "$repo_dir/tools/start-recorded-borg.py" "$character" "$seed"
+fi
+exec python3 "$repo_dir/tools/start-recorded-borg.py" "$character"
