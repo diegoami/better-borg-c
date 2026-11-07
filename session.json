@@ -78,7 +78,7 @@
     "issue": "https://github.com/diegoami/better-borg-c/issues/130",
     "branch": "docs/milestone3-review-followup",
     "worktree": ".worktrees/milestone3-followup",
-    "state": "evidence-preserved-and-docs-followup-in-review",
+    "state": "completed-8a8d66fea-issue130-closed-paused-for-new-carries",
     "instructions": "docs/measurement/IMPACT-MILESTONE3.md"
   }
 }
