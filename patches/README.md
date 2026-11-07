@@ -223,3 +223,8 @@ still resolves.
 The forty-third carry marks the excavated vault grid dark, as its comment
 says (consumer #188/source #236). The duplicated GLOW set becomes DARK;
 the no-target control stays byte-identical.
+
+The forty-fourth carry visits the Borg's own grid in the call-light
+scan (consumer #196/source #231). The never-taken open-doorway case
+now repairs the doorway glow mark from the game; the plain-lit-floor
+control stays byte-identical.
