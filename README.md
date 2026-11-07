@@ -46,8 +46,8 @@ return zero after a failed assertion. Logs and hashed results go to ignored
 `artifacts/native/`. These baseline checks do not establish Borg survival;
 each adoption also needs the source bug's legal scenario and controls.
 
-For an interactive X11 build, run `./start-borg.sh BorgPlay` from the repository
-root after building. Omit the name to be prompted, or give another name to use
+For an interactive recorded X11 game, run `./start-borg.sh BorgPlay` from the repository
+root. Omit the name to be prompted, or give another name to use
 another character. Existing saves resume; missing saves enter character creation.
 The launcher uses a readable 28-pixel Courier font (`BORG_PLAY_FONT` overrides it)
 and one window. Start the Borg manually with Ctrl+Z, confirm if asked, then `z`.
@@ -60,9 +60,11 @@ It stops if a backup fails. Run
 are imported by bootstrap. See [original build documentation](docs/hacking/compiling.rst)
 and [upstream README](docs/upstream-reference/README.md).
 
-The launcher compares the native verification receipt with the local build
-sources and offers the normal locked build/test gate when missing or stale.
-Declining keeps the existing executable, if available. It does not pull remote
+The launcher selects a recording-capable engine whose runtime source and
+instrumentation match. If missing or stale, it offers the normal locked
+build/test gate and recording build. Declining keeps a compatible older
+recording engine, if available; first-time recording requires accepting the
+build. It does not pull remote
 changes. Different character names may run concurrently; a per-character lock
 prevents two launches through this script from opening the same save.
 
@@ -90,7 +92,8 @@ slot 2. Different names can coexist; heavy headless builds/runs serialize on
 the shared validation lock.
 
 The first headless launch prepares a cached observer build from the checkout's
-committed source; later launches reuse it while source/observer identity matches.
+committed source; later launches reuse it while source/observer identity matches
+(documentation-only source changes do not require rebuilding).
 Tracked runtime edits must be committed first. Full traces, input/final/living
 saves, native maps and hashed build/results remain under `artifacts/headless/`.
 The normal GUI binary is unchanged. Loaded saves restore the character/dungeon
@@ -112,6 +115,56 @@ under `docs/deaths/`, link the discussion in issue111 (`--death-issue` overrides
 it), and regenerate the registry. Replay qualification, assessment and causal
 investigation remain pending agent work under the death protocol; automatic
 export does not establish a bug or a completed investigation.
+
+## Local recording and verified replay
+
+Both launchers now print a **Recording/Evidence** directory and a replay command.
+Visible play still uses your own character creation and manual Borg activation;
+`--seed N` optionally fixes a new visible character's seed. Otherwise a fresh
+seed is generated and retained. Existing characters retain their native save
+state. Ordinary save/autosave behavior is preserved through the visible wrapper.
+
+```sh
+./replay-borg.py artifacts/headless/runs/RUN-ID --from-turn 20340
+./replay-borg.py docs/deaths/D0004-named-headless --from-turn 20340
+```
+
+The command first reruns the recorded start with the original engine, origin
+save/seed, settings, terminal events and native time/file inputs. It compares
+the complete input/action/trace/state/frame streams and native save bytes.
+Only a matching rerun gets **VERIFIED**. It then shows the ORIGINAL recording,
+not a newly loaded mid-run checkpoint. Arrows step, **g** seeks an absolute
+engine turn, Space plays/pauses, **i** shows gear, **m** monsters, **v** the
+screen, **j/k** scroll and **q** exits. Diagnostic panes explicitly label actual
+unknown/unseen information; none was fed into Borg decisions. The viewer uses
+logical cells/colors, not pixel video. Each frame includes its actual tick,
+command or input phase; a resting interval need not redraw the screen.
+
+```sh
+./replay-borg.py RECORDING --verify-only
+./replay-borg.py RECORDING --view-only --from-turn 20340
+./replay-borg.py RECORDING --view-only --dump-turn 20340
+```
+
+Verification writes an independent machine-readable certificate/result under
+`artifacts/replays/`, exits nonzero on divergence and never publishes a character
+save or creates another death case. `--view-only` labels the original frames
+unverified. A dossier resolves its raw bundle by the recorded manifest hash;
+restore missing raw artifacts first. On death, dossiers also retain decoded
+original frames at offsets5/12/25/40/60/82/105 with actual phase and metadata.
+Repeated reruns are reference attempts, not independent lives.
+
+A seed ALONE is insufficient. New bundles freeze the engine, data, initial user
+files, origin save, seed and recorded preference/clock/input history. A loaded
+save begins a new cold-Borg session; a matching prior recording is linked by
+snapshot SHA256, without claiming its complete Borg memory was serialized.
+Earlier unrecorded sessions and legacy dossiers cannot acquire missing input
+history retrospectively. Unsupported or divergent runs are reported honestly;
+recorded original observations remain inspectable. This is local tooling; no
+pipeline, scheduler, hosting or gameplay strategy is introduced.
+
+See [recording/replay verification](docs/measurement/RECORD-REPLAY.md) for the
+native qualification results and limitations.
 
 This is an independent GitHub repository with preserved C ancestry, not a
 second fork-network member: the owner's existing Angband fork hosts the source

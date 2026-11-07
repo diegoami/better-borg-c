@@ -1,0 +1,43 @@
+{
+  "classification": "D0002 reference; verified visible recording/replay; defect not established",
+  "confidence": "Original and rerun match all captured streams/frames, RNG/player/diagnostic state and native save bytes; existing D0002 Borg notes/sampled RNG match.",
+  "encounter_family": "start-ba8e7ba91ecaf63812f343b311e27952e5c9ee04f9a4853ed8963915298d8be2",
+  "encounter_family_qualification": {
+    "status": "verified",
+    "evidence": "comparison.json",
+    "reference_case": "D0002"
+  },
+  "findings": [
+    {
+      "status": "observed",
+      "summary": "Actual visible source1b95154f65b2 (34 carries), seed29 Human Warrior, native gallant death at20445."
+    },
+    {
+      "status": "verified",
+      "summary": "Original recording rerun matched every terminal event/poll, Borg action, native time/file input, logical frame and state fingerprint; start/recent/final saves match byte-for-byte."
+    },
+    {
+      "status": "original observations available",
+      "summary": "Recorded original frames at death minus5/12/25/40/60/82/105 are retained with actual phase/turn/metadata; no interpolation or checkpoint reload."
+    },
+    {
+      "status": "causal analysis pending",
+      "summary": "No new bug, rescue or survival improvement inferred. Follow existing heal/flee/entry investigation34."
+    }
+  ],
+  "feedback": [],
+  "actions": [
+    {
+      "key": "heal-eligibility",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "summary": "Observe existing heal eligibility/call order and fleeing flag before the fatal melee",
+      "status": "investigate before changing policy"
+    },
+    {
+      "key": "exposure-before-crowd",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "summary": "Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3",
+      "status": "investigating recorded original-rule behavior; no defect established"
+    }
+  ]
+}

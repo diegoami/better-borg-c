@@ -8,4 +8,5 @@ void measure_boundary(void);
 void measure_decision(void);
 void measure_end(void);
 void measure_note(const char *text);
+void measure_frame(void);
 #endif

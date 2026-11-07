@@ -48,7 +48,9 @@
     {
       "cases": [
         "D0002",
-        "D0003"
+        "D0003",
+        "D0004",
+        "D0005"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
       "key": "heal-eligibility",
@@ -76,7 +78,9 @@
     {
       "cases": [
         "D0002",
-        "D0003"
+        "D0003",
+        "D0004",
+        "D0005"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
       "key": "exposure-before-crowd",
@@ -84,17 +88,18 @@
       "summary": "Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3"
     }
   ],
-  "cases": 3,
+  "cases": 5,
   "causes_by_distinct_start": {
     "a gallant": 1,
     "a stegocentipede": 1
   },
-  "death_process_attempts": 9,
+  "death_process_attempts": 13,
   "distinct_starting_conditions": 2,
   "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
   "schema": "better-borg-c/death-index@1",
   "versions": {
     "127483bc4724c0f75ff7bbc4edddde9293e37c2c": 1,
+    "1b95154f65b2ac1ed5fc9a080df6cff971643b5d": 4,
     "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3": 2,
     "3638b690525cd8a381cb106b4c5ee40652babde2": 2,
     "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc": 2,

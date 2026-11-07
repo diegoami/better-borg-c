@@ -9,6 +9,7 @@ from pathlib import Path
 import subprocess
 import tarfile
 import time
+import re
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'e473720ed88a0f0c7ca66815cef3000eb4a38bc3'
@@ -48,6 +49,54 @@ def named_play_bridge(source):
             saved.write('\n#ifdef ALLOW_BORG\nvoid measure_activate_borg(void) { borg_cmd_start(); }\n#endif\n')
 
 
+def recording_profile(source):
+    for name in ('native-replay.c', 'native-replay.h'):
+        (source / 'src' / name).write_bytes((ROOT / 'tools' / name).read_bytes())
+    for name in ('main.c', 'ui-term.c', 'borg/borg.c'):
+        path = source / 'src' / name
+        path.write_text('#include "native-replay.h"\n' + path.read_text())
+    replace(source / 'src/main.c', '\t/* Catch nasty signals */', '\tmeasure_init();\n\n\t/* Catch nasty signals */')
+    replace(source / 'src/main-test.c', 'term_init(t, 80, 24, 256);',
+            'term_init(t, getenv("BORG_REPLAY_WIDTH") ? atoi(getenv("BORG_REPLAY_WIDTH")) : 80,\n'
+            '\t\tgetenv("BORG_REPLAY_HEIGHT") ? atoi(getenv("BORG_REPLAY_HEIGHT")) : 24,\n'
+            '\t\tgetenv("BORG_REPLAY_KEY_SIZE") ? atoi(getenv("BORG_REPLAY_KEY_SIZE")) : 256);')
+    path = source / 'src/savefile.c'
+    path.write_text('#include "native-replay.h"\n' + path.read_text())
+    replace(path, '(void) save_charoutput();', 'if (!record_in_snapshot()) (void) save_charoutput();')
+    replace(source / 'src/ui-term.c', 'errr Term_inkey(ui_event *ch, bool wait, bool take)',
+            'static errr recording_real_inkey(ui_event *ch, bool wait, bool take)')
+    with (source / 'src/ui-term.c').open('a') as saved:
+        saved.write('''\nerrr Term_inkey(ui_event *ch, bool wait, bool take)
+{
+    int result;
+    if (!record_input_replay(ch, wait, take, &result))
+        result = recording_real_inkey(ch, wait, take);
+    record_input_result(ch, wait, take, result);
+    return result;
+}
+''')
+    replace(source / 'src/borg/borg.c', 'return borg_save_keypress(generate_keypress(flush_first));',
+            'return record_borg_key(borg_save_keypress(generate_keypress(flush_first)));')
+    replace(source / 'src/ui-game.c', '\t\t\tpre_turn_refresh();', '\t\t\tpre_turn_refresh();\n\t\t\tmeasure_frame();')
+    for name in ('ui-prefs.c', 'borg/borg-init.c'):
+        path = source / 'src' / name
+        path.write_text('#include "native-replay.h"\n' + path.read_text())
+    replace(source / 'src/ui-prefs.c', 'ang_file *f = file_open(path, MODE_READ, -1);',
+            'ang_file *f = file_open(record_read_path(path), MODE_READ, -1);')
+    for indentation in ('    ', '        '):
+        replace(source / 'src/borg/borg-init.c', '\n' + indentation + 'fp = file_open(buf, MODE_READ, -1);',
+                '\n' + indentation + 'fp = file_open(record_read_path(buf), MODE_READ, -1);')
+    # Time/calendar are external inputs; recording calls the native clock
+    # unchanged. Replay supplies those recorded inputs, never game RNG values.
+    for name in ('z-rand.c', 'randname.c', 'mon-make.c', 'ui-input.c',
+                 'player-util.c', 'ui-death.c', 'borg/borg-log.c'):
+        path = source / 'src' / name
+        data = re.sub(r'\btime\(', 'record_time(', path.read_text())
+        path.write_text('#include "native-replay.h"\n' + data)
+    with (source / 'CMakeLists.txt').open('a') as saved:
+        saved.write('\nadd_compile_definitions(BORG_RECORDING)\ntarget_sources(OurExecutable PRIVATE src/native-replay.c)\n')
+
+
 def prepare(args):
     out = args.output.resolve()
     out.mkdir(parents=True, exist_ok=args.retry)
@@ -77,7 +126,8 @@ def prepare(args):
         for file in ('main-test.c', 'game-world.c', 'ui-game.c', 'borg/borg.c', 'borg/borg-io.c'):
             p = source / 'src' / file
             p.write_text('#include "native-observer.h"\n' + p.read_text())
-        replace(source / 'src/main-test.c', 'term_data_link(0);', 'measure_init();\n\tterm_data_link(0);')
+        if not getattr(args, 'recording', False):
+            replace(source / 'src/main-test.c', 'term_data_link(0);', 'measure_init();\n\tterm_data_link(0);')
         replace(source / 'src/game-world.c', '\t\t\tturn++;', '\t\t\tturn++;\n\t\t\tmeasure_tick();')
         replace(source / 'src/ui-game.c', '\t\t\tpre_turn_refresh();', '\t\t\tmeasure_boundary();\n\t\t\tpre_turn_refresh();')
         replace(source / 'src/ui-game.c', '\t\tclose_game(true);', '\t\tmeasure_end();\n\t\tclose_game(true);')
@@ -88,6 +138,9 @@ def prepare(args):
         named_play_bridge(source)
         with (source / 'CMakeLists.txt').open('a') as f:
             f.write('\ntarget_sources(OurExecutable PRIVATE src/native-observer.c)\n')
+        if getattr(args, 'recording', False):
+            recording_profile(source)
+            manifest['recording_schema'] = 'borg-recording@1'
     with (source / 'CMakeLists.txt').open('a') as f:
         f.write(f'\nadd_compile_definitions(PRIVATE_USER_PATH="{out / "private-user"}")\n')
     env = os.environ.copy()
@@ -114,6 +167,8 @@ def prepare(args):
 def refresh_observer(args):
     out = args.output.resolve()
     manifest = json.loads((out / 'build.json').read_text())
+    if manifest.get('recording_schema'):
+        raise ValueError('Recording builds are immutable; prepare a new recording build instead of refreshing history')
     binary = out / 'build/game/angband'
     if not manifest['complete'] or not manifest['instrumented'] or sha(binary) != manifest['binary_sha256']:
         raise ValueError('Require unchanged complete observer build')
@@ -172,7 +227,7 @@ def classify(code, states, interrupted=None):
         return interrupted
     if code < 0:
         return 'crash'
-    if code == 0 and states and states[-1]['kind'] in ('death', 'completion', 'turn_cap'):
+    if code == 0 and states and states[-1]['kind'] in ('death', 'completion', 'turn_cap', 'saved'):
         return states[-1]['kind']
     return 'harness_failure'
 
@@ -226,6 +281,9 @@ def run(args):
     command += [f'-d{d}={out / d}' for d in ('user', 'archive', 'save', 'scores', 'panic')]
     command += [f'-d{key}={build / "source/lib" / directory}' for key, directory in (('gamedata', 'gamedata'), ('pref', 'customize'))]
     env = os.environ.copy()
+    for key in list(env):
+        if key.startswith(('BORG_RECORD_', 'BORG_REPLAY_')):
+            env.pop(key)
     env.update(BORG_MEASURE_SEED=str(args.seed), BORG_MEASURE_CAP=str(args.cap),
                BORG_MEASURE_DIR=str(out), LC_ALL='C.UTF-8', LANG='C.UTF-8')
     for key in ('BORG_MEASURE_NO_SAVES', 'BORG_MEASURE_LOAD'):
@@ -239,6 +297,15 @@ def run(args):
         env['BORG_MEASURE_LOAD'] = str(args.load.resolve())
     if args.no_saves:
         env['BORG_MEASURE_NO_SAVES'] = '1'
+    recording = getattr(args, 'recording', False)
+    if recording:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location('recording', ROOT / 'tools/borg-recordings.py')
+        recorder = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(recorder)
+        command = recorder.begin(build, out, command, env,
+            {'frontend': 'test', 'seed': args.seed, 'cap': args.cap,
+             'play_turns': play_turns, 'character': getattr(args, 'save_name', 'Measure')})
     result = {'runner_sha256': LOADED_RUNNER_SHA256, 'harness_commit': git('rev-parse', 'HEAD'),
               'harness_dirty': git('status', '--porcelain', '--untracked-files=no'),
               'input_sha256': sha(out / 'input.txt'),
@@ -293,6 +360,8 @@ def run(args):
                 p.wait()
         result['calendar_context']['end'] = calendar_snapshot()
         result['wall_seconds'] = time.monotonic() - start
+        if recording:
+            recorder.finalize(out, result)
         result['files_sha256'] = {str(p.relative_to(out)): sha(p) for p in sorted(out.rglob('*'))
                                   if p.is_file() and p.name != 'result.json'}
         write(out / 'result.json', result)
@@ -307,6 +376,7 @@ def main():
     prep.add_argument('--ref', default=BASE)
     prep.add_argument('--output', type=Path, required=True)
     prep.add_argument('--observe', action='store_true')
+    prep.add_argument('--recording', action='store_true', help='prepare full input/state/frame recording export')
     prep.add_argument('--retry', action='store_true', help='retain failed attempt receipts and rebuild same output')
     refresh = sub.add_parser('refresh-observer', help='preserve old binary/manifest, rebuild only observer')
     refresh.add_argument('--output', type=Path, required=True)
@@ -325,6 +395,8 @@ def main():
     if args.action == 'refresh-observer':
         return refresh_observer(args)
     if args.action == 'prepare':
+        if args.recording:
+            args.observe = True
         return prepare(args)
     existed = args.output.exists()
     try:

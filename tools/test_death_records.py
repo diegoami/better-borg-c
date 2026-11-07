@@ -1,6 +1,7 @@
 """Version fidelity, immutable attempts and non-inflated death aggregation."""
 import importlib.util
 import json
+import gzip
 from pathlib import Path
 import tempfile
 from types import SimpleNamespace
@@ -60,6 +61,40 @@ class Records(unittest.TestCase):
             out = root / 'dossier'
             record.capture(self.args(run, out))
             self.assertEqual((out / 'terminal.map.txt').read_bytes(), (run / 'archive/Hero.map').read_bytes())
+
+    def recording_fixture(self, run, source='old'):
+        movie = run / 'frames.jsonl.gz'
+        with gzip.open(movie, 'wt') as stream:
+            for index, turn in enumerate((1, 95), 1):
+                stream.write(json.dumps({'index': index, 'turn': turn, 'phase': 'tick',
+                    'full': 1, 'width': 2, 'height': 1, 'cells': [[0, 64, 1], [1, 46, 1]],
+                    'palette': [[0, 0, 0], [255, 255, 255]], 'hp': 5, 'sp': 0, 'depth': 0}) + '\n')
+        (run / 'recording.json').write_text(json.dumps({'schema': 'borg-recording@1', 'status': 'complete',
+            'build': {'source_commit': source, 'binary_sha256': 'binary-' + source},
+            'files_sha256': {'frames.jsonl.gz': record.sha(movie)}}))
+
+    def test_original_movie_offsets_have_real_phase_and_unavailable_history(self):
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(record, 'source_ledger', side_effect=self.ledger):
+            root = Path(tmp)
+            run = self.fixture(root, 'movie')
+            self.recording_fixture(run)
+            result = record.capture(self.args(run, root / 'dossier'))
+            windows = result['recording']['selected_original_frames']
+            self.assertEqual(len(windows), 1)
+            self.assertEqual(windows[0]['offset_engine_turns'], 5)
+            self.assertEqual(windows[0]['turn'], 95)
+            self.assertEqual(windows[0]['phase'], 'tick')
+            self.assertIn(105, result['recording']['unavailable_offsets_before_recording'])
+            self.assertTrue((root / 'dossier' / windows[0]['text']).is_file())
+
+    def test_recording_of_another_build_is_rejected_before_export(self):
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(record, 'source_ledger', side_effect=self.ledger):
+            root = Path(tmp)
+            run = self.fixture(root, 'movie')
+            self.recording_fixture(run, source='wrong')
+            with self.assertRaisesRegex(ValueError, 'Recording build differs'):
+                record.capture(self.args(run, root / 'dossier'))
+            self.assertFalse((root / 'dossier').exists())
 
     def test_actual_old_build_is_pinned_and_cannot_be_replaced(self):
         with tempfile.TemporaryDirectory() as tmp, mock.patch.object(record, 'source_ledger', side_effect=self.ledger):
