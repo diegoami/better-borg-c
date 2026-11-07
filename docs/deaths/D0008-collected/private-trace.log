@@ -1,0 +1,165 @@
+D8 CAUTION turn=10807 x=53 y=7 hp=13 danger=0 avoidance=13 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=5
+D8 ATTACK_REACHED turn=10807 x=53 y=7 hp=13
+D8 CLEAR turn=10807 desperate=0 wipe=1 know=0 icky=0
+D8 CACHE turn=10807 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=0 icky=0 avoidance=13
+D8 EVAL turn=10807 p=0 fear=3
+D8 ACCEPT turn=10807 desperate=0 know=1 icky=0
+D8 CLEAR turn=10807 desperate=0 wipe=0 know=1 icky=0
+D8 CAUTION turn=10817 x=54 y=7 hp=6 danger=16 avoidance=6 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=1
+D8 CAUTION turn=10827 x=54 y=7 hp=7 danger=16 avoidance=7 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=1
+D8 CLEAR turn=10827 desperate=1 wipe=1 know=1 icky=0
+D8 CACHE turn=10827 x=54 y=7 desperate=1 lunal=0 munchkin=0 digging=0 know=0 icky=0 avoidance=7
+D8 ACCEPT turn=10827 desperate=1 know=1 icky=0
+D8 CAUTION turn=10837 x=53 y=7 hp=7 danger=0 avoidance=7 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=5
+D8 ATTACK_REACHED turn=10837 x=53 y=7 hp=7
+D8 CLEAR turn=10837 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10837 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=7
+D8 ACCEPT turn=10837 desperate=0 know=1 icky=0
+D8 CLEAR turn=10837 desperate=0 wipe=0 know=1 icky=0
+D8 CLEAR turn=10837 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10837 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=7
+D8 ACCEPT turn=10837 desperate=0 know=1 icky=0
+D8 CLEAR turn=10837 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10837 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=7
+D8 ACCEPT turn=10837 desperate=0 know=1 icky=0
+D8 CLEAR turn=10837 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10837 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=7
+D8 ACCEPT turn=10837 desperate=0 know=1 icky=0
+D8 CLEAR turn=10837 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10837 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=7
+D8 ACCEPT turn=10837 desperate=0 know=1 icky=0
+D8 CLEAR turn=10837 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10837 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=7
+D8 ACCEPT turn=10837 desperate=0 know=1 icky=0
+D8 CLEAR turn=10837 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10837 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=7
+D8 ACCEPT turn=10837 desperate=0 know=1 icky=0
+D8 CLEAR turn=10837 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10837 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=7
+D8 ACCEPT turn=10837 desperate=0 know=1 icky=0
+D8 CAUTION turn=10847 x=54 y=7 hp=2 danger=16 avoidance=2 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=1
+D8 CAUTION turn=10857 x=54 y=7 hp=13 danger=16 avoidance=13 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=1
+D8 CLEAR turn=10857 desperate=1 wipe=1 know=1 icky=0
+D8 CACHE turn=10857 x=54 y=7 desperate=1 lunal=0 munchkin=0 digging=0 know=0 icky=0 avoidance=13
+D8 ACCEPT turn=10857 desperate=1 know=1 icky=0
+D8 CAUTION turn=10867 x=53 y=7 hp=13 danger=0 avoidance=13 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=5
+D8 ATTACK_REACHED turn=10867 x=53 y=7 hp=13
+D8 CLEAR turn=10867 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10867 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=13
+D8 ACCEPT turn=10867 desperate=0 know=1 icky=0
+D8 CLEAR turn=10867 desperate=0 wipe=0 know=1 icky=0
+D8 CLEAR turn=10867 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10867 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=13
+D8 ACCEPT turn=10867 desperate=0 know=1 icky=0
+D8 CLEAR turn=10867 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10867 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=13
+D8 ACCEPT turn=10867 desperate=0 know=1 icky=0
+D8 CLEAR turn=10867 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10867 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=13
+D8 ACCEPT turn=10867 desperate=0 know=1 icky=0
+D8 CLEAR turn=10867 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10867 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=13
+D8 ACCEPT turn=10867 desperate=0 know=1 icky=0
+D8 CLEAR turn=10867 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10867 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=13
+D8 ACCEPT turn=10867 desperate=0 know=1 icky=0
+D8 CLEAR turn=10867 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10867 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=13
+D8 ACCEPT turn=10867 desperate=0 know=1 icky=0
+D8 CLEAR turn=10867 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10867 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=13
+D8 ACCEPT turn=10867 desperate=0 know=1 icky=0
+D8 CAUTION turn=10877 x=54 y=7 hp=8 danger=16 avoidance=8 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=1
+D8 CAUTION turn=10887 x=54 y=7 hp=11 danger=16 avoidance=11 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=1
+D8 CLEAR turn=10887 desperate=1 wipe=1 know=1 icky=0
+D8 CACHE turn=10887 x=54 y=7 desperate=1 lunal=0 munchkin=0 digging=0 know=0 icky=0 avoidance=11
+D8 ACCEPT turn=10887 desperate=1 know=1 icky=0
+D8 CAUTION turn=10897 x=53 y=7 hp=11 danger=0 avoidance=11 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=5
+D8 ATTACK_REACHED turn=10897 x=53 y=7 hp=11
+D8 CLEAR turn=10897 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10897 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=11
+D8 ACCEPT turn=10897 desperate=0 know=1 icky=0
+D8 CLEAR turn=10897 desperate=0 wipe=0 know=1 icky=0
+D8 CLEAR turn=10897 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10897 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=11
+D8 ACCEPT turn=10897 desperate=0 know=1 icky=0
+D8 CLEAR turn=10897 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10897 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=11
+D8 ACCEPT turn=10897 desperate=0 know=1 icky=0
+D8 CLEAR turn=10897 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10897 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=11
+D8 ACCEPT turn=10897 desperate=0 know=1 icky=0
+D8 CLEAR turn=10897 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10897 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=11
+D8 ACCEPT turn=10897 desperate=0 know=1 icky=0
+D8 CLEAR turn=10897 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10897 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=11
+D8 ACCEPT turn=10897 desperate=0 know=1 icky=0
+D8 CLEAR turn=10897 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10897 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=11
+D8 ACCEPT turn=10897 desperate=0 know=1 icky=0
+D8 CLEAR turn=10897 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10897 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=11
+D8 ACCEPT turn=10897 desperate=0 know=1 icky=0
+D8 CAUTION turn=10907 x=54 y=7 hp=8 danger=16 avoidance=8 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=1
+D8 CLEAR turn=10907 desperate=1 wipe=1 know=1 icky=0
+D8 CACHE turn=10907 x=54 y=7 desperate=1 lunal=0 munchkin=0 digging=0 know=0 icky=0 avoidance=8
+D8 ACCEPT turn=10907 desperate=1 know=1 icky=0
+D8 CAUTION turn=10917 x=53 y=7 hp=8 danger=0 avoidance=8 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=5
+D8 ATTACK_REACHED turn=10917 x=53 y=7 hp=8
+D8 CLEAR turn=10917 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10917 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=8
+D8 ACCEPT turn=10917 desperate=0 know=1 icky=0
+D8 CLEAR turn=10917 desperate=0 wipe=0 know=1 icky=0
+D8 CLEAR turn=10917 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10917 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=8
+D8 ACCEPT turn=10917 desperate=0 know=1 icky=0
+D8 CLEAR turn=10917 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10917 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=8
+D8 ACCEPT turn=10917 desperate=0 know=1 icky=0
+D8 CLEAR turn=10917 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10917 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=8
+D8 ACCEPT turn=10917 desperate=0 know=1 icky=0
+D8 CLEAR turn=10917 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10917 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=8
+D8 ACCEPT turn=10917 desperate=0 know=1 icky=0
+D8 CLEAR turn=10917 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10917 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=8
+D8 ACCEPT turn=10917 desperate=0 know=1 icky=0
+D8 CLEAR turn=10917 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10917 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=8
+D8 ACCEPT turn=10917 desperate=0 know=1 icky=0
+D8 CLEAR turn=10917 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10917 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=8
+D8 ACCEPT turn=10917 desperate=0 know=1 icky=0
+D8 CAUTION turn=10927 x=54 y=7 hp=2 danger=16 avoidance=2 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=1
+D8 CLEAR turn=10927 desperate=1 wipe=1 know=1 icky=0
+D8 CACHE turn=10927 x=54 y=7 desperate=1 lunal=0 munchkin=0 digging=0 know=0 icky=0 avoidance=2
+D8 ACCEPT turn=10927 desperate=1 know=1 icky=0
+D8 CAUTION turn=10937 x=53 y=7 hp=2 danger=0 avoidance=2 fleeing=0 leaving=0 scary=0 stair_less=0 ready=0 feat=5
+D8 ATTACK_REACHED turn=10937 x=53 y=7 hp=2
+D8 CLEAR turn=10937 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10937 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=2
+D8 ACCEPT turn=10937 desperate=0 know=1 icky=0
+D8 CLEAR turn=10937 desperate=0 wipe=0 know=1 icky=0
+D8 CLEAR turn=10937 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10937 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=2
+D8 ACCEPT turn=10937 desperate=0 know=1 icky=0
+D8 CLEAR turn=10937 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10937 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=2
+D8 ACCEPT turn=10937 desperate=0 know=1 icky=0
+D8 CLEAR turn=10937 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10937 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=2
+D8 ACCEPT turn=10937 desperate=0 know=1 icky=0
+D8 CLEAR turn=10937 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10937 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=2
+D8 ACCEPT turn=10937 desperate=0 know=1 icky=0
+D8 CLEAR turn=10937 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10937 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=2
+D8 ACCEPT turn=10937 desperate=0 know=1 icky=0
+D8 CLEAR turn=10937 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10937 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=2
+D8 ACCEPT turn=10937 desperate=0 know=1 icky=0
+D8 CLEAR turn=10937 desperate=0 wipe=0 know=1 icky=0
+D8 CACHE turn=10937 x=54 y=7 desperate=0 lunal=0 munchkin=0 digging=0 know=1 icky=0 avoidance=2
+D8 ACCEPT turn=10937 desperate=0 know=1 icky=0

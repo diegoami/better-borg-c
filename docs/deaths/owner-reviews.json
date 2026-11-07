@@ -18,6 +18,12 @@
       "case": "D0007",
       "reason": "Owner provided detailed review of room entry, Phase Door, stair return, jelly melee and soldier death; technical investigations remain open.",
       "evidence": "https://github.com/diegoami/better-borg-c/issues/163#issuecomment-6712916845"
+    },
+    "start-8a7977170aea7f057fe101e8c7071e6f7a3fd3c0f0afe74816fb5c3b8681d1d6": {
+      "reviewed": true,
+      "case": "D0008",
+      "reason": "Owner completed grey-mold replay review and linked the corresponding Rust report; technical investigations remain open.",
+      "evidence": "https://github.com/diegoami/better-borg-c/issues/163#issuecomment-6714388294"
     }
   }
 }

@@ -4,7 +4,7 @@ Bugs always take priority. Each natural death gets a curated dossier with its ac
 
 To comment, open **Discuss** beside the case below. The linked GitHub investigation is the durable feedback thread; suggestions are checked against evidence and linked to actions. See [the feedback process](FEEDBACK.md). Chat feedback is copied there before it is considered tracked.
 
-Dossiers: 7; distinct starting conditions: 4; recorded death process attempts: 15 (including repeats/reference variants). This registry is not a survival-rate estimate.
+Dossiers: 8; distinct starting conditions: 5; recorded death process attempts: 16 (including repeats/reference variants). This registry is not a survival-rate estimate.
 
 | Case | Discussion | Actual source | Seed | Raw cause | Death turn | Diagnosis |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -15,6 +15,7 @@ Dossiers: 7; distinct starting conditions: 4; recorded death process attempts: 1
 | [D0005](D0005-visible-recording/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/34) | `1b95154f65b2` | 29 | a gallant | 20445 | D0002 reference; verified visible recording/replay; defect not established |
 | [D0006](D0006-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/177) | `2cebef1b0f39` | 1344203209 | a killer brown beetle | 73100 | policy/resource/escape investigation; native implementation defect not established; sidebar redraw mismatch confirmed |
 | [D0007](D0007-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `22f817c96843` | 2624955988 | a soldier | 179053 | policy/call-order/escape investigation; reusable C defect not established |
+| [D0008](D0008-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `5c23742ced30` | 1668846659 | a grey mold | 10940 | native emergency/normal flow cache and escape-intent investigation; original-C source404 reported |
 
 ## Aggregated actions
 
@@ -36,6 +37,9 @@ Dossiers: 7; distinct starting conditions: 4; recorded death process attempts: 1
 - [Evaluate early Recall retention and destination-aware delayed Deep Descent escape](https://github.com/diegoami/better-borg-c/issues/183) — investigating; Recall at Home and two five-level drops observed; rescue untested; cases D0006.
 - [Label native sidebar HP/SP redraw lag without modifying original game cells](https://github.com/diegoami/better-borg-c/issues/178) — confirmed presentation defect; viewer correction and native-frame/PTY controls pass; cases D0006.
 - [Observe actual Borg spell/teleport/phase safety gates versus native readiness at179002/179022](https://github.com/diegoami/better-borg-c/issues/193) — needs evidence; original-C defect not established; cases D0007.
+- [Minimal native exception→normal cache fixture, safe/dangerous/blocked/emergency controls, narrow source correction then separate consumer carry](https://github.com/diegoami/better-borg-c/issues/212) — investigating; historical C mechanism qualified, isolated fix and benefit untested; cases D0008.
+- [Separate actual temporary desperate retreat from taking the known upstairs, plus melee/Phase admission; compare ordinary legal alternatives](https://github.com/diegoami/better-borg-c/issues/159) — investigating; no successful rescue established; cases D0008.
+- [Audit ready_morgoth0 guard at lowHP separately from source152 flags and source404 cache reuse](https://github.com/diegoami/neo-angband-tracker/issues/156) — needs evidence; contributing candidate, not isolated fix proof; cases D0008.
 
 Recurring mechanisms are grouped by canonical issue, not by number of replays. Investigations are hypotheses until native causal proof; original-C bugs route to neo-angband-tracker before source fix and consumer carry.
 

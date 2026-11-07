@@ -1,0 +1,27 @@
+Original recording: frame 11993, engine turn 10915, phase tick; HP 8, SP 2, depth 1
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+                                                                                
+Human                                                                           
+Believer                                                                        
+Priest                                                                          
+LEVEL      1                                                                    
+NXT        3                                                                    
+AU         4                                                                    
+\    ~ (  ]                                  %%#%                               
+STR:      16                                 %@..                               
+INT:       7                                 %%%.                               
+WIS:   18/10                                                                    
+DEX:       9                                                                    
+CON:      17                                                                    
+                                                                                
+Cur AC     6                                                                    
+HP    8/  13                                                                    
+SP    2/   2                                                                    
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:1-? Light 2  Fed 82 % Up staircase                              

@@ -183,17 +183,45 @@
       "key": "caster-escape-eligibility",
       "status": "needs evidence; original-C defect not established",
       "summary": "Observe actual Borg spell/teleport/phase safety gates versus native readiness at179002/179022"
+    },
+    {
+      "cases": [
+        "D0008"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/212",
+      "key": "emergency-flow-cache",
+      "status": "investigating; historical C mechanism qualified, isolated fix and benefit untested",
+      "summary": "Minimal native exception\u2192normal cache fixture, safe/dangerous/blocked/emergency controls, narrow source correction then separate consumer carry"
+    },
+    {
+      "cases": [
+        "D0008"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/159",
+      "key": "stair-escape-intent",
+      "status": "investigating; no successful rescue established",
+      "summary": "Separate actual temporary desperate retreat from taking the known upstairs, plus melee/Phase admission; compare ordinary legal alternatives"
+    },
+    {
+      "cases": [
+        "D0008"
+      ],
+      "issue": "https://github.com/diegoami/neo-angband-tracker/issues/156",
+      "key": "excessive-danger-guard",
+      "status": "needs evidence; contributing candidate, not isolated fix proof",
+      "summary": "Audit ready_morgoth0 guard at lowHP separately from source152 flags and source404 cache reuse"
     }
   ],
-  "cases": 7,
+  "cases": 8,
   "causes_by_distinct_start": {
     "a gallant": 1,
+    "a grey mold": 1,
     "a killer brown beetle": 1,
     "a soldier": 1,
     "a stegocentipede": 1
   },
-  "death_process_attempts": 15,
-  "distinct_starting_conditions": 4,
+  "death_process_attempts": 16,
+  "distinct_starting_conditions": 5,
   "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
   "schema": "better-borg-c/death-index@1",
   "versions": {
@@ -204,6 +232,7 @@
     "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3": 2,
     "3638b690525cd8a381cb106b4c5ee40652babde2": 2,
     "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc": 2,
+    "5c23742ced30ad76ab9778cfa8bf23f04fc0eb1f": 1,
     "e473720ed88a0f0c7ca66815cef3000eb4a38bc3": 2
   }
 }
