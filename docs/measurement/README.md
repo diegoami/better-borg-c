@@ -111,3 +111,11 @@ Native monster selection consults local calendar date for seasonal monsters
 context; no clock override is applied. Legacy records explicitly remain
 unrecorded rather than borrowing today's date. Seed/save identity alone does
 not establish replay equivalence across calendar contexts.
+
+## Owner replay queue and fresh death collection
+
+`./replay_next_death.py` opens the next recorded encounter not explicitly marked
+reviewed by the owner; `--list` shows legacy/missing and reviewed families.
+`./produce_death.py` runs bounded fresh recorded games and stops at the first
+natural death or declared limits. See [usage and limits](DEATH-QUEUE.md). These
+commands do not perform causal analysis or mark review complete on viewer exit.
