@@ -7,6 +7,11 @@ Accumulated [milestone2 review package](IMPACT-MILESTONE2.md) links all seven
 carried corrections, [paired deep results](DEEP-IMPACT-V2.md) and
 [versioned death dossiers](../deaths/README.md), including unfavorable outcomes
 and replay limits. External review remains pending; bugs take priority.
+The subsequent bug-fix wave is collected in
+[milestone3](https://github.com/diegoami/better-borg-c/milestone/3) and
+[IMPACT-MILESTONE3.md](IMPACT-MILESTONE3.md): 27 more verified carries
+(patches 0008-0034), their interactions, process/tooling context and review
+questions. No external verdict is claimed.
 Operational lessons from the 2026-11-06/07 carry wave are recorded in
 [LESSONS-LEARNED.md](LESSONS-LEARNED.md); they refine verification practice
 without changing any gate, fixture, assertion or baseline.
