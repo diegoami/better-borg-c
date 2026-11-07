@@ -36,7 +36,7 @@
       "status": "investigate before changing policy"
     },
     {
-      "key": "entry-exposure",
+      "key": "exposure-before-crowd",
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
       "summary": "Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3",
       "status": "investigating recorded original-rule behavior; no defect established"
