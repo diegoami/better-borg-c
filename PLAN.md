@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through thirty-third carries merged (2026-11-07)
+## Tenth through thirty-fourth carries merged (2026-11-07)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -204,8 +204,19 @@ fixture cases whole-log identical, merged v1 seeds unchanged.
 
 All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
-issues' verification comments. Queue: calfree-323 and brand-240 plus any newer demonstrations before
+issues' verification comments. Queue: paused after consumer124 as owner requested. Resume with a source207
+recheck, then brand-240/stairtrack-232 and any newer demonstrations before
 low-priority 81 or discretionary death work.
+Consumer124/source323 (calfree-323) merged as 5fb5d1f74 (PR125, import
+dc1ea0c3, patch 0034): calculations_free() released calculation structs
+without token-list backing arrays; the correction releases them. The
+unchanged fixture keeps freed value 3/count 0 and constant 42/count 1
+byte-identical. With opblock-324 already carried, stack-attributed
+LeakSanitizer moves from 80 bytes/1 token allocation to no leaks, with
+zero operator leaks in both phases; the pristine 160/2 expectation is not
+copied blindly. 113 prior cases pass, tooling is 41/41 and merged v1 seeds
+are unchanged. All twenty-five issues are carried/open+patch-active.
+Owner requested a pause after this carry.
 Consumer121/source324 (opblock-324) merged as 6a00d4408 (PR122, import
 ced816c3, patch 0033): precedence adjustment freed operator-block structs
 without their backing arrays; the correction releases them. The unchanged
