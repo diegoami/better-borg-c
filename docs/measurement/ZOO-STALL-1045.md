@@ -48,8 +48,59 @@ zero-energy keys. Angband's original `on_new_level()` grants minimum move energy
 `run_game_loop()` skips its world-tick/turn increment when generating a level.
 The observer counts those original counters rather than causing this behavior.
 
-M3, pristine control, carry-prefix bisection, known-state/key instrumentation,
-source classification and full evidence receipts are being completed under204.
+The native pristine control reaches100000 alive. M3 and carry-prefix tests
+localise the triggering trajectory; the loaded-state check demonstrates the
+original mechanism. Curated results and exact binary identities are in
+[zoo-stall-1045/results.json](zoo-stall-1045/results.json).
+
+## Carry-prefix bisection
+
+Same seed/profile/cap100000/wall900/stall90/no-saves throughout. The ordinary
+from-birth samples were pristine,42,34,17,8,4,6,5; the adjacent boundary is:
+
+| Prefix | Immutable source ref | Result |
+|---|---|---|
+|0|`e473720ed88a0f0c7ca66815cef3000eb4a38bc3`|100000 alive|
+|4|`337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3`|100000 alive|
+|5|`3638b690525cd8a381cb106b4c5ee40652babde2`|100000 alive|
+|6|`45eac63bd9f7cabe3c4ef1607703324ca8dae0fc`|stalled59893|
+|8|`4e2af89f34cad98d10131727b3fa4c0e5ddef5fb`|stalled59893|
+|17|`a88da7a063221bd56a6e40e5fec472b38286d5c0`|stalled59893|
+|34/M3|`702f091f6ac06cae1014df2f85ac218be0189813`|stalled59893|
+|42/M4|`70993393a1c946ce8cd38ee558bf1ce6464350e7`|stalled59893|
+
+**First bad carry boundary found by bisection:0006, healing-potion timing**,
+consumer31/source77, original source commit
+`cedf25eb790f2ff7c7c161cd1612b18ed99fb35e`, applied
+`5e9417be42cb1401708a7a37ec1b13641bc04b83`, merge45eac63.
+Prefixes0/4/5 have the **same complete trace SHA256** as the zoo's pristine run:
+`77f8399dc5cc41277244dc6d199c2a7aac66f7e27d2308c3f042cae98f210ade`.
+Prefix6 matches every one of204 shared M4 progress records including complete
+RNG. The other failing samples likewise match every shared M4 progress record.
+See `bisection.json` and `observer-qualification.json`. This is a sampled
+prefix bisection and adjacent5/6 confirmation, not exhaustive testing of every
+possible carry subset or a universal monotonicity claim.
+
+Carry6 changes the eligibility of the `randint1(100)` call in
+`borg_quaff_crit()`: the corrected recent-drink condition includes a nonzero
+last-drink timestamp. Different later Borg RNG trajectories are therefore
+expected even if no early command outcome changes. First sampled divergence
+against pristine occurs at decision5000 in **Borg RNG**; the engine state/RNG
+still match at that sample. This source-level explanation is separate from
+claiming a measured value for every call's last-drink timestamp.
+
+The carry did not add the repeated stair branches, the poison-rest exclusion,
+or level-entry energy handling. Pristine executing the loop from the reached
+save proves the distinction. Do not roll back the verified timing correction
+or call this a newly introduced M4 stair algorithm. Source403 owns the separate
+original-C liveness defect. Original range245 is not established as a cause:
+closeness is positive here (CL9/depth1-2), with known stairs underfoot.
+
+Initial runs recorded harness8c23ec0. After the durable documentation-only
+commit `b3ae91f8a25e0a06fd3b344562d9268833639f22`, later manifests record that
+head instead. **Every measurement-tool file hash is identical to8c23ec0**;
+no tool or runtime source was changed by that report commit. The diagnostic
+export's additive instrumentation is separately declared and qualified.
 
 ## Known state and repeated decisions
 

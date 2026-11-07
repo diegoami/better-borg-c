@@ -6,5 +6,67 @@
   "diagnostic": {
     "shared_progress_records": 204,
     "all_shared_byte_identical": true
+  },
+  "p6": {
+    "shared_progress_records": 204,
+    "all_shared_byte_identical": true
+  },
+  "p8": {
+    "shared_progress_records": 160,
+    "all_shared_byte_identical": true
+  },
+  "p17": {
+    "shared_progress_records": 180,
+    "all_shared_byte_identical": true
+  },
+  "pristine": {
+    "whole_trace_sha256": "77f8399dc5cc41277244dc6d199c2a7aac66f7e27d2308c3f042cae98f210ade",
+    "matches_zoo_pristine": true
+  },
+  "p4": {
+    "whole_trace_sha256": "77f8399dc5cc41277244dc6d199c2a7aac66f7e27d2308c3f042cae98f210ade",
+    "matches_zoo_pristine": true
+  },
+  "p5": {
+    "whole_trace_sha256": "77f8399dc5cc41277244dc6d199c2a7aac66f7e27d2308c3f042cae98f210ade",
+    "matches_zoo_pristine": true
+  },
+  "measurement_tools": {
+    "zoo1045-diagnostic": {
+      "harness_commit": "8c23ec0d4840246bbc47324a1673fa7aa714c056",
+      "all_tool_hashes_match_8c23ec0": true
+    },
+    "zoo1045-m3": {
+      "harness_commit": "8c23ec0d4840246bbc47324a1673fa7aa714c056",
+      "all_tool_hashes_match_8c23ec0": true
+    },
+    "zoo1045-m4": {
+      "harness_commit": "8c23ec0d4840246bbc47324a1673fa7aa714c056",
+      "all_tool_hashes_match_8c23ec0": true
+    },
+    "zoo1045-p17": {
+      "harness_commit": "8c23ec0d4840246bbc47324a1673fa7aa714c056",
+      "all_tool_hashes_match_8c23ec0": true
+    },
+    "zoo1045-p4": {
+      "harness_commit": "8c23ec0d4840246bbc47324a1673fa7aa714c056",
+      "all_tool_hashes_match_8c23ec0": true
+    },
+    "zoo1045-p5": {
+      "harness_commit": "b3ae91f8a25e0a06fd3b344562d9268833639f22",
+      "all_tool_hashes_match_8c23ec0": true
+    },
+    "zoo1045-p6": {
+      "harness_commit": "b3ae91f8a25e0a06fd3b344562d9268833639f22",
+      "all_tool_hashes_match_8c23ec0": true
+    },
+    "zoo1045-p8": {
+      "harness_commit": "8c23ec0d4840246bbc47324a1673fa7aa714c056",
+      "all_tool_hashes_match_8c23ec0": true
+    },
+    "zoo1045-pristine": {
+      "harness_commit": "8c23ec0d4840246bbc47324a1673fa7aa714c056",
+      "all_tool_hashes_match_8c23ec0": true
+    }
   }
 }

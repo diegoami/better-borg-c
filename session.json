@@ -7,7 +7,7 @@
     "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/403",
     "branch": "task/zoo-stall-1045",
     "instructions": "docs/measurement/ZOO-STALL-1045.md",
-    "state": "reproduced-original-c-stair-cycle-prefix-bisection-in-progress"
+    "state": "investigated-source403-boundary5-6-secondary1047-running"
   },
   "scope": "Native C bug-fix adoption, reproducible execution/measurement, baseline statistics and failure analysis; no new gameplay strategies",
   "checkpoint": "https://github.com/diegoami/better-borg-c/issues/1",
