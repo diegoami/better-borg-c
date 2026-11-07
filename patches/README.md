@@ -161,3 +161,8 @@ stay byte-identical; the two operator-array leaks are gone.
 The thirty-fourth carry frees token-list backing arrays with calculations
 (consumer #124/source #323). Functional free/control logs are unchanged;
 with opblock-324 already carried, the token-only 80-byte leak is gone.
+
+The thirty-fifth carry counts the brand-ammo need once per stack
+(consumer #133/source #240). The duplicated brand-the-ammo test in
+borg_notice_ammo() is deleted; the two-arrow control below the five-stack
+threshold stays byte-identical at zero.
