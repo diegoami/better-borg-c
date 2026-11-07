@@ -196,3 +196,8 @@ The forty-first carry reports acting after queueing the out-of-light
 stair key (consumer #167/source #230). The think loop no longer treats
 the queued '<' as disowned; the lit and dead-no-stairs controls stay
 byte-identical.
+
+The forty-second carry stops the blow-effect name lookup before its NULL
+end entry (consumer #176/source #247). A made-up name no longer
+segfaults the lookup and resolves to MONBLOW_NONE; the in-table name
+still resolves.
