@@ -166,3 +166,7 @@ The thirty-fifth carry counts the brand-ammo need once per stack
 (consumer #133/source #240). The duplicated brand-the-ammo test in
 borg_notice_ammo() is deleted; the two-arrow control below the five-stack
 threshold stays byte-identical at zero.
+
+The thirty-sixth carry stops re-adding the known up staircase in stair
+scum (consumer #137/source #232). The up-stair scan breaks on a match
+like the down-stair scan; the fresh-discovery control stays byte-identical.

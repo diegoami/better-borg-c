@@ -672,6 +672,24 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured; carried/open+patch-active",
    "merge_commit": "638513e9193d2d69daf7c10108a9328fc526a139"
+  },
+  {
+   "id": "CBUG-0232",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/137",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/232",
+   "source_head": "8310e9cc9fe90a82f93609f542d5f057b835fbcf",
+   "source_commits": [
+    "8310e9cc9fe90a82f93609f542d5f057b835fbcf"
+   ],
+   "applied_commits": [
+    "faa86f83b12f7f43cdde21f48faf045f9e385c60"
+   ],
+   "patch": "patches/0036-stair-track-break.patch",
+   "patch_active": true,
+   "evidence_ref": "07a71c16084398643ac09da9cc56e3b2b5b6ea6b",
+   "verification": "docs/measurement/STAIRTRACK.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-stairtrack; awaiting normal PR merge"
   }
  ]
 }
