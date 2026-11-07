@@ -228,3 +228,8 @@ The forty-fourth carry visits the Borg's own grid in the call-light
 scan (consumer #196/source #231). The never-taken open-doorway case
 now repairs the doorway glow mark from the game; the plain-lit-floor
 control stays byte-identical.
+
+The forty-fifth carry considers gloves as armour-swap candidates
+(consumer #201/source #205). Free-action gauntlets in the pack are now
+chosen when the Borg has no free action; the plain-glove and
+free-action-already-worn controls stay byte-identical.
