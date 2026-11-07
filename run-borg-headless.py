@@ -16,6 +16,7 @@ import sys
 from types import SimpleNamespace
 
 ROOT = Path(__file__).resolve().parent
+LOADED_NAMED_RUNNER_SHA256 = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
 spec = importlib.util.spec_from_file_location('measurement', ROOT / 'tools/measure-native.py')
 measurement = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(measurement)
@@ -103,7 +104,7 @@ def run(args):
                 code = measurement.run(options)
             result = json.loads((out / 'result.json').read_text())
             result['named_save'] = str(save)
-            result['named_runner_sha256'] = measurement.sha(Path(__file__))
+            result['named_runner_sha256'] = LOADED_NAMED_RUNNER_SHA256
             result['restored_backup_slot'] = args.from_backup
             result['run_kind'] = ('backup replay branch' if args.from_backup is not None
                                   else 'save continuation' if original_digest else 'new character')
