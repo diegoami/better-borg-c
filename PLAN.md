@@ -13,8 +13,10 @@ stair cycle at engine59893. Pristine loaded-state proof routes the original-C
 mechanism to [source403](https://github.com/diegoami/neo-angband-tracker/issues/403).
 The disabled-munchkin loaded-state control advances140 turns and recovers.
 See [reproduction/evidence](docs/measurement/ZOO-STALL-1045.md).
-Carry-prefix bisection finds5 passing/6 failing; complete the conditional
-seed1047 no-deeper check and durable archive before the final issue/checkpoint report. No gameplay
+Carry-prefix bisection finds5 passing/6 failing; seed1047/no-deeper5 reaches
+100000 alive in793.508s, so its wall timeout is not reproduced locally. The
+investigation is complete; source403 correction/controls precede a separate
+verified consumer carry. Raw archive and issue/checkpoint receipts retain the evidence. No gameplay
 fix or borg-zoo mutation is part of this investigation.
 
 ## Borg design, tuning proposal and evidence references

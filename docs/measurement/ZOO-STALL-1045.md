@@ -190,3 +190,37 @@ demonstrates the mechanism in uncarried C, separately from the passing pristine
 from-birth control. Classification is **(b), original C Borg defect reached by
 a carried trajectory**. Source403 owns diagnosis/correction; consumer204 owns
 reproduction and subsequent adoption. No source fix has been made here.
+
+## Secondary seed1047/no-deeper5
+
+Only after completing1045, ran the same M4 binary with configuration
+`borg_no_deeper = 5`, fixed birth/no saves, cap100000/wall900/stall90.
+Actual result: **turn_cap alive at100000, wall793.508s**, depth4/max4, CL8,
+HP106. It passed90120 and reached the full cap within the declared limit.
+This does **not reproduce** the zoo's900s wall timeout. The trace does show
+slow advancing exploration/leave/stair-flow attempts; no second defect or
+portable performance conclusion is established, and no further secondary
+mechanism investigation is claimed. Different runner load/compiler/platform
+can affect a wall endpoint; this is not a contradiction of the retained zoo
+cell. The parameter is not asserted here to be an engine-enforced depth cap.
+
+## Validation, raw evidence and next action
+
+All native experiments used the shared validation lock. Python sidecars compile;
+whitespace checks pass. Intermediate PR211 hosted job128560000819 passed95
+tooling tests,965/965 native tests and5/5 frontend tests; final-head hosted
+checks are recorded on PR211/the issue receipt. There are no product C changes
+and no adoption/fix gate is being substituted by these experiments.
+
+Full runs/saves/binaries/build manifests/source exports remain outside Git in
+the persistent ignored `artifacts/zoo1045/evidence.tar.gz`; see the curated
+archive receipt for its exact SHA256, size and member readback verification.
+This is local durable evidence, not a claim of a hosted raw artifact. The report,
+commands, machine-readable results and selected native logs are in Git.
+
+Investigation complete; consumer204 remains open for source403 follow-up.
+Next source action: a scoped liveness correction plus unchanged poisoned/
+hallucinating failure and normal-munchkin/disabled-munchkin controls. Only
+then make a separate verified consumer carry through its normal native gates.
+No rollback of the valid timing correction, gameplay strategy, official post,
+Rust work or borg-zoo mutation was performed.

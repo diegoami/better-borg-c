@@ -408,6 +408,40 @@
         "winner": 0
       },
       "turn59893_notes": 0
+    },
+    {
+      "run": "zoo1045-secondary-1047",
+      "gameplay_valid": true,
+      "diagnostic_load": false,
+      "source": "70993393a1c946ce8cd38ee558bf1ce6464350e7",
+      "harness": "b3ae91f8a25e0a06fd3b344562d9268833639f22",
+      "runner_sha256": "ef6a0001496a859c1ff02821f95791d4144996e9cce2386d9d83c3172693cbb6",
+      "compiler": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "binary_sha256": "dc72f57fcde361cb0fda19635ed0233370bb87125c645697f8480aa09d1bcb7c",
+      "outcome": "turn_cap",
+      "wall_seconds": 793.5077766680042,
+      "cap": 100000,
+      "configuration": "borg_no_deeper = 5\nborg_cheat_death = FALSE\nborg_respawn_winners = FALSE\n",
+      "starting_save_sha256": null,
+      "trace_sha256": "719a548db0c2acaac1efe17bfc25f931a2b67235bbbcf4efe38a81af760695b9",
+      "final": {
+        "borg_rng": 820142001,
+        "dead": 0,
+        "decisions": 9697,
+        "depth": 4,
+        "energy": 1011579,
+        "hp": 106,
+        "kind": "turn_cap",
+        "level": 8,
+        "max_depth": 4,
+        "max_level": 8,
+        "quick": 0,
+        "quick_rng": 2536173760,
+        "rng_index": 7,
+        "turn": 100000,
+        "winner": 0
+      },
+      "turn59893_notes": 0
     }
   ]
 }
