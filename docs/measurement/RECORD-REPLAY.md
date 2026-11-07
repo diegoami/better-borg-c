@@ -240,3 +240,39 @@ reports Kobold Mage, and original-start replay verifies. Both fixed Human Warrio
 and loaded Mage full traces are byte-identical before/after this file-destination
 correction. Evidence and the failed run stay under primary
 artifacts/replay-inventory-validation; origin checks were retained.
+
+## Caster spells at the selected moment
+
+Press `s` for learned spells: native spell letter/name, level, mana cost, current
+failure percentage, book and current availability. Ready means the ordinary
+casting guards and book/learned checks pass; targeting/effect success is not
+predicted. Low mana is a legal overexertion attempt requiring the game's normal
+confirmation, not an ordinary fully funded cast. Missing book, forgotten spells,
+blindness/darkness, confusion and death are distinguished. Unknown/unlearned
+spell names are not added to the replay view.
+
+The observation uses native player spell flags, class-book definitions,
+`player_can_cast(false)` and `spell_chance()`. It invokes no study/casting command
+and consumes no game RNG. Carried books and known books at the player's feet
+are considered, as the game permits. New recordings freeze native-spells.h with
+other observer sources and carry spell snapshots through delta frames.
+
+An older caster recording can add only the spell field through a qualified
+historical observer rerun, preserving EVERY pre-existing field including native
+inventory if already recorded. A cached inventory-only certificate does not
+qualify spells; the certificate must explicitly include that extension. Older
+noncasters are recognised from native CHARACTER and frozen class data, reusing
+the existing inventory cache without another full-life run. View-only never
+builds/executes an engine; absent uncached spell data stays explicitly unavailable.
+
+Native results on source963adf0629e5, four independent birth seeds/cap200:
+Dunadan Warrior (no spells), Half-Orc Priest (Bless,2MP,14% failure), Half-Elf
+Druid (Detect Life,1MP,18%) and Kobold Mage (Magic Missile,1MP,17%), each with
+verified original-start replay. The older Mage inventory recording also gains
+spells with every original inventory/state/input/native save field identical.
+Real PTY exercises s, native cost/failure/Ready, Escape-back, i and q. Evidence:
+primary artifacts/replay-spells-validation/ and
+artifacts/replay-inventory-validation/mage-spells-overlay.json. These short
+observation checks are not survival/progress measurements. Non-ready edge states
+have representation/source guards; these four native runs exercise ready
+casters/noncaster, not every possible impairment or missing-book trajectory.
