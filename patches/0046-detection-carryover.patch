@@ -1,0 +1,31 @@
+From 7be6518287d8bb20b08c3e59f58c8f3707e36ae2 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 18:02:49 +0100
+Subject: [PATCH] Borg: clear object-detection panel flags on a new level
+
+The new-level block in borg_update() cleared the per-panel
+borg_detect_wall, borg_detect_trap, borg_detect_door and
+borg_detect_evil flags but not borg_detect_obj, so object detection
+stamped on a previous level's panel still counted after taking stairs:
+the panel indices are positions, so the same panel on the new level
+looked already-detected and the Borg skipped casting detect objects
+there. Clear it with the others.
+---
+ src/borg/borg-update.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/borg/borg-update.c b/src/borg/borg-update.c
+index 9c415ef12..6cd7a85e6 100644
+--- a/src/borg/borg-update.c
++++ b/src/borg/borg-update.c
+@@ -2144,6 +2144,7 @@ void borg_update(void)
+                 borg_detect_trap[y][x] = false;
+                 borg_detect_door[y][x] = false;
+                 borg_detect_evil[y][x] = false;
++                borg_detect_obj[y][x] = false;
+             }
+         }
+ 
+-- 
+2.53.0
+
