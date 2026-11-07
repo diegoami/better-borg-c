@@ -75,11 +75,11 @@
   "impact_milestone_v3": "https://github.com/diegoami/better-borg-c/milestone/3",
   "external_review_package_v3": "https://github.com/diegoami/better-borg-c/issues/128",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/201",
-    "branch": "task/carry-gloves",
-    "worktree": ".worktrees/gloves",
-    "state": "merged-813feaec7-measured-issue201-carried-open-tapunlife-blocked",
-    "instructions": "docs/measurement/GLOVES-ARMOUR-SWAP.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/205",
+    "branch": "task/carry-detectcarry",
+    "worktree": ".worktrees/detectcarry",
+    "state": "merged-7a02072cd-measured-issue205-carried-open-tapunlife-blocked",
+    "instructions": "docs/measurement/DETECTION-CARRYOVER.md"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
   "impact_milestone_v4": "https://github.com/diegoami/better-borg-c/milestone/4",

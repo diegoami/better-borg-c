@@ -325,6 +325,22 @@ concurrent-session process/tooling context (recording/replay feature and
 death documentation outside the build inputs; tooling 41→71). No external
 verdict is claimed; the owner launches the review.
 
+Consumer205/source219 (detection carryover) merged as 7a02072cd (PR207,
+import 3d104a8b8, patch 0046): borg_update()'s depth-change branch
+cleared the per-panel trap/door/evil detection flags but not
+borg_detect_obj, so object-detection knowledge carried over to the new
+level and its panels still counted as object-detected; the correction
+adds borg_detect_obj[y][x] = false to the clear. The unchanged source
+evidence fixture verifies new-level obj surviving while the wall flag
+clears fail-before / both clearing pass-after with the same-level
+control byte-identical and the expected #399 init-overflow reports in
+every sanitized phase; borg-update.c already carries 0018/0039 and the
+applied diff body is byte-identical to the source diff. Gate 965/965 +
+5/5, tooling 85/85, and all 146 prior matrix cases match the recorded
+forty-five-carry tally. Post-merge frozen v1 measurement: seeds
+11/29/47 all turn_cap alive and well with whole-trace hashes identical
+to the forty-five-carry (gloves) run — behavior-neutral on the cohort.
+Next: recheck source207 for newer demonstrations.
 Consumer201/source205 (gloves-205) merged as 813feaec7 (PR202, import
 c52527eed, patch 0045): borg_notice_armour_swap()'s armour-swap case
 list accepted HELM, CROWN, SHIELD, CLOAK, SOFT_ARMOR, HARD_ARMOR and
