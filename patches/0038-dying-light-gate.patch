@@ -1,0 +1,42 @@
+From 21fbfba5c4d3a2cc77707fea885590479cec18c3 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 14:52:51 +0100
+Subject: [PATCH] Borg: start out-of-light maneuvers when the light is about to
+ burn out
+
+borg_think_dungeon_light()'s entry test was
+  !BI_LIGHT && (BI_LIGHT <= 0 || timeout <= 3)
+-- once the first clause holds, the second is always true, so the
+about-to-burn-out clause (timeout <= 3) never fired on its own: a lit
+lantern three turns from dying was left to go dark even with a spare
+torch or oil in the pack.
+
+Make the test  (!BI_LIGHT || (timeout <= 3 && !NO_FUEL)): the
+fuel-less (everburning) lights keep their timeout permanently at zero
+and must not trigger the maneuvers, so the timeout arm only applies to
+fueled lights. Owner-facing effect measured natively: a Warrior with a
+lit lantern at timeout 3 and a fresh torch in the pack now swaps to
+the torch instead of walking into darkness.
+---
+ src/borg/borg-think-dungeon-util.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-think-dungeon-util.c b/src/borg/borg-think-dungeon-util.c
+index 59560f0a0..a0255e4be 100644
+--- a/src/borg/borg-think-dungeon-util.c
++++ b/src/borg/borg-think-dungeon-util.c
+@@ -149,8 +149,9 @@ bool borg_think_dungeon_light(void)
+     if (borg.trait[BI_ISHUNGRY] && borg_use_things())
+         return true;
+ 
+-    if (!borg.trait[BI_LIGHT]
+-        && (borg.trait[BI_LIGHT] <= 0 || borg_items[INVEN_LIGHT].timeout <= 3)
++    if ((!borg.trait[BI_LIGHT]
++        || (borg_items[INVEN_LIGHT].timeout <= 3
++            && !of_has(borg_items[INVEN_LIGHT].flags, OF_NO_FUEL)))
+         && borg.trait[BI_CDEPTH] >= 1) {
+         enum borg_need need;
+ 
+-- 
+2.53.0
+
