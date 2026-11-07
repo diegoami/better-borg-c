@@ -1,0 +1,29 @@
+From d7b42db02cc74473bc175d2c37dd6feba1a77811 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 00:43:12 +0100
+Subject: [PATCH] Borg: weigh one weapon in the blows calculation
+
+borg_calc_blows() multiplied the weapon's weight by the stack size,
+while the engine's calc_blows() weighs a single weapon.  For the
+wielded weapon the two agree (quantity one), but for a stack of
+weapons in the home the Borg's home-damage total used the whole
+stack's weight, so a stack of light weapons was treated as one very
+heavy weapon and under-counted the blows - measured natively at 1
+blow versus the engine's 2 for a stack of ten rapiers.  Weigh one
+weapon, like the engine.
+
+diff --git a/src/borg/borg-trait.c b/src/borg/borg-trait.c
+index 154eb3849..72904f742 100644
+--- a/src/borg/borg-trait.c
++++ b/src/borg/borg-trait.c
+@@ -1039,7 +1039,9 @@ int borg_calc_blows(borg_item *item)
+     int div;
+     int blow_energy;
+ 
+-    int weight     = item->weight * item->iqty;
++    /* The engine weighs one weapon (object_weight_one): blows per
++     * weapon must not depend on how many weapons are stacked. */
++    int weight     = item->weight;
+     int min_weight = player->class->min_weight;
+ 
+     /* Enforce a minimum "weight" (tenth pounds) */
