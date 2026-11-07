@@ -55,6 +55,30 @@ and outoflight-229 cases), the dispel-248 undead case passing with its
 asserted losdispel log change, and the two dispel-259 cases asserted-red
 at the pinned post-losdispel values.
 
+## Frozen v1 measurement: legitimate divergence, outcomes unchanged
+
+Unlike carries 0035-0038, this fix is **behavior-active on ordinary
+maps**: corrected wall-change invalidation changes the Borg's flow
+decisions wherever a feature changes during play. Post-merge frozen v1
+measurement on a prepared observer build of merged main (seeds 11/29/47,
+cap 20000, wall 120, stall 30):
+
+- All three seeds still finish **turn_cap "(alive and well)"** — no
+  deaths, no survival regression (final states: seed11 hp 28 depth 1,
+  seed29 hp 49 depth 2, seed47 hp 58 depth 1).
+- Traces diverge from the recorded 34-carry run, as expected from the
+  fix: seed11 substantially (3,746 added / 3,552 removed of 4,453
+  recorded lines; first new note `Flowing toward dark-1 at cost 1`
+  beside a door interaction at tick 1340), seed47 substantially (3,397 /
+  2,720 of 4,598; an added flow note at tick 2757), seed29 barely (32 /
+  31 of 5,503; a bravery boost and level-exit re-evaluation at tick
+  6037). The examined divergence points are additional or re-ordered
+  flow notes after ordinary feature changes — consistent with the
+  correction's purpose, nothing anomalous.
+- This is the measured impact of the carry, recorded rather than
+  asserted away; the recorded 34-carry traces remain valid at their
+  recorded commits.
+
 ## Scope and limits
 
 Bounded native production map-pass scenario with one watched grid and
@@ -67,9 +91,8 @@ correction, not a gameplay frequency or survival claim.
    hosted checks, then normal merge.
 2. On merged main: prepare the measurement build
    (`tools/measure-native.py prepare --observe`), run frozen v1 seeds
-   11/29/47, cap 20000, wall 120, stall 30, and compare outcomes and trace
-   hashes with the recorded thirty-four-carry run (unchanged through the
-   thirty-fifth through thirty-eighth carries).
+   11/29/47, cap 20000, wall 120, stall 30, and record the divergence
+   from the 34-carry traces (this fix is behavior-active; see above).
 3. Mark 148 carried/open+patch-active; receipts on issue 148, source 212
    and checkpoint 1; evidence archive under `artifacts/m212-carry/`.
 4. Recheck source207 for newer demonstrations; tapunlife-249 remains
