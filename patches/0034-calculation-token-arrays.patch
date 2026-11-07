@@ -1,0 +1,24 @@
+From 2b98c831ba7b3f53b05ddcf620b8b2c54f5ed6a3 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 23:21:28 +0100
+Subject: [PATCH] Borg: free the calculation's token pointer array
+
+calc_free() freed every token and the token_array struct, but not the
+separately allocated items backing array, so releasing a parsed
+calculation - as a borg reinitialize does for every dynamic formula -
+lost that allocation.  Free the backing array along with the struct.
+
+diff --git a/src/borg/borg-formulas-calc.c b/src/borg/borg-formulas-calc.c
+index ca7a0c261..c9215336f 100644
+--- a/src/borg/borg-formulas-calc.c
++++ b/src/borg/borg-formulas-calc.c
+@@ -549,6 +549,9 @@ static void calc_free(struct borg_calculation *calc)
+             token_free(calc->token_array->items[i]);
+             calc->token_array->items[i] = NULL;
+         }
++        /* Release the backing pointer array too: borg_array_add()
++         * allocated it separately from the array struct. */
++        mem_free(calc->token_array->items);
+         if (calc->token_array)
+             mem_free(calc->token_array);
+         calc->token_array = NULL;

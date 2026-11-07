@@ -157,3 +157,7 @@ flags set and stays byte-identical.
 The thirty-third carry frees temporary operator-block backing arrays
 (consumer #121/source #324). Formula value 7 and the bare-constant control
 stay byte-identical; the two operator-array leaks are gone.
+
+The thirty-fourth carry frees token-list backing arrays with calculations
+(consumer #124/source #323). Functional free/control logs are unchanged;
+with opblock-324 already carried, the token-only 80-byte leak is gone.

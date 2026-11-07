@@ -592,6 +592,24 @@
    "verification": "docs/measurement/OPBLOCK-LEAK.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-opblock-leak; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0323",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/124",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/323",
+   "source_head": "2b98c831ba7b3f53b05ddcf620b8b2c54f5ed6a3",
+   "source_commits": [
+    "2b98c831ba7b3f53b05ddcf620b8b2c54f5ed6a3"
+   ],
+   "applied_commits": [
+    "dc1ea0c3a3554b69b9a70920cd8981351b685389"
+   ],
+   "patch": "patches/0034-calculation-token-arrays.patch",
+   "patch_active": true,
+   "evidence_ref": "0799d463",
+   "verification": "docs/measurement/CALFREE-TOKENS.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-calfree-tokens; awaiting normal PR merge"
   }
  ]
 }
