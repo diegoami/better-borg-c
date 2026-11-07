@@ -574,6 +574,24 @@
    "verification": "docs/measurement/LUNAL-STATE.md",
    "credit": "Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-lunal-state; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0324",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/121",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/324",
+   "source_head": "02be7739db306897f2441562ee8d27dddc15d36c",
+   "source_commits": [
+    "02be7739db306897f2441562ee8d27dddc15d36c"
+   ],
+   "applied_commits": [
+    "ced816c3c53ae1ad2346e0ab3064a32fb489ad1f"
+   ],
+   "patch": "patches/0033-operator-block-arrays.patch",
+   "patch_active": true,
+   "evidence_ref": "6cbb0347",
+   "verification": "docs/measurement/OPBLOCK-LEAK.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-opblock-leak; awaiting normal PR merge"
   }
  ]
 }
