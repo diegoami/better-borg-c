@@ -307,6 +307,24 @@ with evidence-durability/metadata findings on issues38/128. Follow-up
 issue130 preserves the 25 worktree-held carry archives in primary artifacts,
 corrects matrix/ledger metadata and records the final formula-memory ASan
 receipt; no worktree is removed until that evidence copy is verified.
+## Milestone 4 review package: eight carries since impact v3 (2026-11-07)
+
+The owner authorized the accumulated review package. Milestone4 and
+[review issue184](https://github.com/diegoami/better-borg-c/issues/184)
+collect the eight verified carries after the reviewed v3 snapshot
+702f091f6 (patches 0035-0042: brand-240, stairtrack-232, acidarc-252,
+outoflight-229, mapwall-212, enlightenment-81, stairreturn-230,
+blowname-247), pinned at runtime snapshot 70993393a, with the package in
+docs/measurement/IMPACT-MILESTONE4.md. The package records the first
+behavior-active carry (mapwall-212: the v1 traces legitimately diverge
+from the 34-carry recording with unchanged survivor outcomes), the
+blocked tapunlife-249 attempt (masker: carried patch 0022, red retained,
+not counted), the separately owned source finding #399 (init-time
+borg_sort_comp_hook overflow, expected in sanitized evidence), and the
+concurrent-session process/tooling context (recording/replay feature and
+death documentation outside the build inputs; tooling 41→71). No external
+verdict is claimed; the owner launches the review.
+
 Consumer176/source247 (blowname-247) merged as 70993393a (PR179,
 import 541e03b1e, patch 0042): borg_mon_blow_effect()'s name-table loop
 bounded itself with the full array length, so an unknown blow name
