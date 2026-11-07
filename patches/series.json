@@ -841,7 +841,8 @@
    "evidence_ref": "85de924fa8c008a86a2ab3ff6340bfd157a69b7a",
    "verification": "docs/measurement/CALL-LIGHT-OWN-GRID.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-calllight; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured (behavior-neutral on the v1 cohort); carried/open+patch-active",
+   "merge_commit": "85b6ba8e3748e061db1ff1206163c27272d2de31"
   }
  ]
 }

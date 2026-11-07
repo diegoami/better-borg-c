@@ -325,6 +325,24 @@ concurrent-session process/tooling context (recording/replay feature and
 death documentation outside the build inputs; tooling 41→71). No external
 verdict is claimed; the owner launches the review.
 
+Consumer196/source231 (calllight-231) merged as 85b6ba8e3 (PR198,
+import cda4fb662, patch 0044): the out-of-light routine's call-light
+scan looped over the eight neighbours but its open-doorway special case
+tested the Borg's own grid — a case that could never fire — so the
+is-the-door-lit cheat never ran and an open doorway underfoot kept a
+stale glow mark; the loop widening to ii <= 8 (index 8 is the own grid)
+repairs the doorway mark from the game. The unchanged source evidence
+fixture verifies own-open-door ownglow=0 fail-before / ownglow=1
+pass-after with the plain-lit-floor control byte-identical and the
+expected #399 init-overflow reports in every sanitized phase;
+borg-think-dungeon-util.c already carries
+0032/0036/0038/0041/0043 and the applied +/- lines are byte-identical
+to the source diff. Gate 965/965 + 5/5, tooling 81/81, and all 141
+prior matrix cases match the recorded forty-three-carry tally.
+Post-merge frozen v1 measurement: seeds 11/29/47 all turn_cap alive and
+well with whole-trace hashes identical to the forty-three-carry
+(excavate) run — behavior-neutral on the cohort. Next: recheck source207
+for newer demonstrations.
 Consumer188/source236 (excavate-236) merged as 5053915f5 (PR189,
 import 8e0f8448e, patch 0043): borg_excavate_vault()'s dug vault grid
 was remembered with the comment "Dark" but the flag line set BORG_GLOW
