@@ -51,7 +51,8 @@
         "D0003",
         "D0004",
         "D0005",
-        "D0006"
+        "D0006",
+        "D0007"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
       "key": "heal-eligibility",
@@ -130,7 +131,8 @@
         "D0003",
         "D0004",
         "D0005",
-        "D0006"
+        "D0006",
+        "D0007"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/159",
       "key": "attempted-room-retreat",
@@ -172,21 +174,32 @@
       "key": "sidebar-redraw-clarity",
       "status": "confirmed presentation defect; viewer correction and native-frame/PTY controls pass",
       "summary": "Label native sidebar HP/SP redraw lag without modifying original game cells"
+    },
+    {
+      "cases": [
+        "D0007"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/193",
+      "key": "caster-escape-eligibility",
+      "status": "needs evidence; original-C defect not established",
+      "summary": "Observe actual Borg spell/teleport/phase safety gates versus native readiness at179002/179022"
     }
   ],
-  "cases": 6,
+  "cases": 7,
   "causes_by_distinct_start": {
     "a gallant": 1,
     "a killer brown beetle": 1,
+    "a soldier": 1,
     "a stegocentipede": 1
   },
-  "death_process_attempts": 14,
-  "distinct_starting_conditions": 3,
+  "death_process_attempts": 15,
+  "distinct_starting_conditions": 4,
   "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
   "schema": "better-borg-c/death-index@1",
   "versions": {
     "127483bc4724c0f75ff7bbc4edddde9293e37c2c": 1,
     "1b95154f65b2ac1ed5fc9a080df6cff971643b5d": 4,
+    "22f817c96843cc45da41dcefb0856ca507d8c66a": 1,
     "2cebef1b0f39aa068cde45b422df681a0e80d188": 1,
     "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3": 2,
     "3638b690525cd8a381cb106b4c5ee40652babde2": 2,

@@ -1,0 +1,27 @@
+Original frame 194422, engine turn 179052, phase command; HP 2/27, SP 2/8, depth 1
+Logical terminal cells; diagnostics include hidden actual state, not extra Borg knowledge.
+
+                                                                                
+Gnome                                                                           
+Novice                                                                          
+Mage                                         ###                                
+LEVEL      4                                 #<#                                
+NXT       14                                 #.#                                
+AU       239                                 #..   ...                          
+| =  ~(()]]]                           #######.#   ...                          
+STR:      13                       #####....j..#####...                         
+INT:   18/30                     ###........@......##..                         
+WIS:      10                     #...c......p........#.#                        
+DEX:      12                     ###...............##'.#                        
+CON:      15                       #####.....i.#######.#                        
+                                 ###...............###                          
+Cur AC    25                     ..........R.........#.                         
+HP    2/  27                     ###...............##'.#                        
+SP    2/   8                       #####.......######..#                        
+                                       #########     ..#                        
+[********--]                                                                    
+                                                                                
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:2-1 Light 4  Poisoned Fed 30 % DTrap Open floor                 

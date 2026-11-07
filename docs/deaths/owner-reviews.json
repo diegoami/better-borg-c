@@ -12,6 +12,12 @@
       "case": "D0006",
       "reason": "Owner provided detailed replay review at71191/71511/72885, inventory/equipment and escape feedback; technical investigations remain open.",
       "evidence": "https://github.com/diegoami/better-borg-c/issues/177"
+    },
+    "start-f7f51c4d9967fbf8c4e7ca587cbb2318ab44ee54914c312cdc61702e296398e0": {
+      "reviewed": true,
+      "case": "D0007",
+      "reason": "Owner provided detailed review of room entry, Phase Door, stair return, jelly melee and soldier death; technical investigations remain open.",
+      "evidence": "https://github.com/diegoami/better-borg-c/issues/163#issuecomment-6712916845"
     }
   }
 }

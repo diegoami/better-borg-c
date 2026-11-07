@@ -128,3 +128,10 @@ DeepDescent jumps183, shared walking-retreat159 and heal-eligibility34.
 [Overall picture](D0006-collected/overall-assessment.md) distinguishes verified
 trajectory from untested rescues. HP mismatch178 is stale sidebar rendering
 during successful rest regeneration; original recording/state stays intact.
+
+D0007 owner review remains on [163](https://github.com/diegoami/better-borg-c/issues/163#issuecomment-6712916845):
+[overall picture](D0007-collected/overall-assessment.md) qualifies early room loot,
+first Phase spell, actual stair-return attempts and the jelly/soldier finish.
+[193](https://github.com/diegoami/better-borg-c/issues/193) investigates native-ready
+Phase Door versus Borg admission; shared159 covers retreat/loot priority and34
+healing eligibility. Five known cures and2MP remain late; no safe rescue proved.

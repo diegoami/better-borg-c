@@ -1,0 +1,27 @@
+Original frame 193582, engine turn 178390, phase tick; HP 27/27, SP 6/8, depth 1
+Logical terminal cells; diagnostics include hidden actual state, not extra Borg knowledge.
+
+                                                                                
+Gnome                                                                           
+Novice                                                                          
+Mage                                         ###                                
+LEVEL      4                                 #<#                                
+NXT       14                                 #.#                                
+AU       288                                 #..                                
+| =  ~(()]]]                           #######.#                                
+STR:      13                       #####.......#####                            
+INT:   18/30                     ###...............##.                          
+WIS:      10                     #........,..........#.#                        
+DEX:      12                     ###...,...........##@.#                        
+CON:      15                       #####.......#######.#                        
+                                      ..........                                
+Cur AC    25                      .......,........                              
+HP   27/  27                     ###...............                             
+SP    6/   8                       #####.......#####                            
+                                       #########                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:2-1 Light 3  Fed 31 % Open door                                 
