@@ -43,10 +43,13 @@ is marked resolved by a consumer merge.
   unit.
 - For layered modules, provenance is mechanical: the reviewed source diff
   applied to the before module equals the product module (applied for
-  borg-trait.c over 0017/0029, borg-think-dungeon-util.c over
-  0032/0036/0038, borg-fight-attack.c over eleven patches, borg-update.c
-  over 0018, borg-item-use.c over 0006); otherwise the module was pristine.
-  Each applied diff body is byte-identical to its source commit's diff.
+  borg-trait.c over 0017/0029/0031, borg-think-dungeon-util.c over
+  0032/0036/0038/0041, borg-fight-attack.c over twelve patches,
+  borg-update.c over 0018, borg-item-use.c over 0005/0006); otherwise the
+  module was pristine. Each applied diff body is content-identical to its
+  source commit's diff; where the consumer module had pre-existing drift
+  from other carried fixes the hunk-header line numbers are adjusted and
+  the +/- lines are byte-identical (byte-identical throughout for 0038).
 - Functional defects use actual fail-before/pass-after runs; the one crash
   defect (0042) uses the SIGSEGV itself as fail-before with the sanitizer
   naming the NULL-sentinel dereference directly.
@@ -99,14 +102,32 @@ rediscover:
   interval.
 - **tapunlife-249 was attempted and is blocked, not counted**: the
   unchanged fixture produces byte-identical before/after logs on this
-  product. A completed bisection identifies carried patch 0022
-  (losdispel-326) as the masker — the rad-10 walk the tap-ray model uses
-  collected per-step path damage on pristine and the misrating (dam =
-  target power) dominated; 0022's arrival break converges the valuations
-  so the injured bat's kill bonus wins with the misrating still present.
+  product. A completed bisection — closed after this package's external
+  review with a step reverting the masker alone — identifies carried
+  patch 0022 (losdispel-326) as the masker: the rad-10 walk the tap-ray
+  model uses collected per-step path damage on pristine and the misrating
+  (dam = target power) dominated; 0022's arrival break converges the
+  valuations so the injured bat's kill bonus wins with the misrating
+  still present. Full bisection table (steps A-J, the last added to close
+  the reviewer's M4-06 observation):
+
+  | Step | Reverted patches | undead targeting |
+  | --- | --- | --- |
+  | A | none (36-carry as-is) | `* p 3 6 6 6 5 m c a` (injured; reproduces the red run) |
+  | B | all ten fight-attack patches | `* p 2 2 2 2 2 2 5 m c a` (healthy; pristine behavior restored) |
+  | C | 0024+0023+0022+0021+0020 | healthy |
+  | D | 0019+0016+0014+0013+0011 | injured |
+  | E | 0024+0023 | injured |
+  | F | 0022+0021+0020 | healthy |
+  | G | 0020 | injured |
+  | H | 0022+0021 | healthy |
+  | I | 0021 | injured |
+  | J | 0022 alone | healthy — 0022 alone is the masker |
+
   The consumer issue [140](https://github.com/diegoami/better-borg-c/issues/140)
-  retains the red attempt, the diagnosis and the unmerged branch; the
-  source demonstration stays valid at its recorded commits.
+  retains the red attempt, the diagnosis (now landed as
+  `docs/measurement/TAP-UNLIFE.md`) and the unmerged branch; the source
+  demonstration stays valid at its recorded commits.
 - **source #399 (new finding, not carried)**: blowname's sanitized runs
   surface a pre-existing init-time heap-buffer-overflow in
   `borg_sort_comp_hook` (borg-util.c:106) reachable in every sanitized

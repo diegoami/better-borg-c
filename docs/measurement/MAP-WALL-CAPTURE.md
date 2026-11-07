@@ -74,7 +74,9 @@ cap 20000, wall 120, stall 30):
   31 of 5,503; a bravery boost and level-exit re-evaluation at tick
   6037). The examined divergence points are additional or re-ordered
   flow notes after ordinary feature changes — consistent with the
-  correction's purpose, nothing anomalous.
+  correction's purpose. Three divergence points were examined (one per
+  seed); the remaining changed lines are not individually inspected, and
+  this is a decision-stream change, not a survival or speed claim.
 - This is the measured impact of the carry, recorded rather than
   asserted away; the recorded 34-carry traces remain valid at their
   recorded commits.
