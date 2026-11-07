@@ -113,7 +113,7 @@ class Collection(unittest.TestCase):
                     producer.prepare_build(args, 'pin')
             native.assert_not_called()
 
-    def simulate(self, outcomes, export_error=False):
+    def simulate(self, outcomes, export_error=False, result_error=None):
         with tempfile.TemporaryDirectory() as d:
             output = Path(d) / 'collection'
             output.mkdir()
@@ -130,8 +130,8 @@ class Collection(unittest.TestCase):
                 calls.append(options.seed)
                 outcome = outcomes[len(calls)-1]
                 options.output.mkdir()
-                producer.workflow.write(options.output / 'result.json', {'outcome': outcome, 'states': [], 'cause': 'a foe'})
-                return int(outcome == 'stall')
+                producer.workflow.write(options.output / 'result.json', {'outcome': outcome, 'states': [], 'cause': 'a foe', 'error': result_error})
+                return int(outcome in ('stall', 'stalled', 'wall_timeout', 'crash', 'harness_failure'))
             def prepared(*_):
                 self.assertEqual(producer.workflow.read(output / 'collection.json')['status'], 'preparing')
                 return build
@@ -158,6 +158,30 @@ class Collection(unittest.TestCase):
         code, calls, plan, exports = self.simulate(['turn_cap']*3)
         self.assertEqual((code, calls, exports), (0, [3,4,5], 0))
         self.assertEqual(plan['status'], 'limits_reached_without_death')
+
+    def test_wall_timeout_tries_fresh_seed_then_exports_first_death(self):
+        code, calls, plan, exports = self.simulate(['wall_timeout', 'turn_cap', 'death'])
+        self.assertEqual((code, calls, exports), (0, [3,4,5], 1))
+        self.assertEqual(plan['counts'], {'wall_timeout': 1, 'turn_cap': 1, 'death': 1})
+        self.assertEqual(plan['status'], 'natural_death_recorded')
+
+    def test_all_wall_timeouts_exhaust_declared_seeds_without_escalating(self):
+        code, calls, plan, exports = self.simulate(['wall_timeout'] * 3)
+        self.assertEqual((code, calls, exports), (0, [3,4,5], 0))
+        self.assertEqual(plan['counts'], {'wall_timeout': 3})
+        self.assertEqual(plan['status'], 'limits_reached_without_death')
+
+    def test_wall_timeout_with_recorded_error_stops(self):
+        code, calls, plan, exports = self.simulate(['wall_timeout'], result_error='reader failed')
+        self.assertEqual((code, calls, exports), (1, [3], 0))
+        self.assertEqual(plan['status'], 'failed')
+
+    def test_crash_harness_failure_and_native_stall_stop(self):
+        for outcome in ('crash', 'harness_failure', 'stalled'):
+            with self.subTest(outcome=outcome):
+                code, calls, plan, exports = self.simulate([outcome])
+                self.assertEqual((code, calls, exports), (1, [3], 0))
+                self.assertEqual(plan['status'], 'failed')
 
     def test_stall_stops_and_remains_operational_failure(self):
         code, calls, plan, exports = self.simulate(['stall'])

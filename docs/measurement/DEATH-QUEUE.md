@@ -53,9 +53,12 @@ copyable. No arbitrary class/Borg-parameter options are supported here; effectiv
 native configuration is recorded. Never silently simulate another configuration.
 Cheat death and winner respawn are off; ordinary rules/AI unchanged.
 
-Stops after the first natural death, any operational failure, or the listed seeds
-are exhausted. No forced death, automatic cap/seed enlargement, unattended job or
-retry-until-favorable loop. Cap survivors are retained as cap survivors. The
+To look for an early death, a wall timeout or turn cap moves on to the next
+fresh seeded character with the same limits. Stops after the first natural death,
+a crash/stall/recording error, or exhaustion of the listed seeds. Timed-out runs
+and their evidence remain recorded as wall_timeout, not deaths. No forced death,
+automatic cap/seed enlargement or unattended job. Cap survivors are retained as
+cap survivors. Use --games to choose a larger bounded attempt budget. The
 stop-at-first-death sample is collection, not an unbiased survival-rate cohort.
 
 At startup the command prints the requested source commit/subject and the actual
