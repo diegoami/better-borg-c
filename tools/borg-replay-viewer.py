@@ -120,13 +120,13 @@ def inventory_rows(frame, equipment=False):
 def spell_rows(frame):
     spells = frame.get('spells')
     if spells is None and frame.get('caster') is False:
-        return [('Spells', 1), ('This class has no spells.', 1)]
+        return [('Spells / prayers', 1), ('This class has no spells or prayers.', 1)]
     if spells is None:
         return [('Spell data was not captured in this older movie.', 1),
                 ('Reopen normally to recover native spell availability.', 1)]
-    rows = [(f"Spells — {spells['class']} — Mana {spells['mana']}/{spells['max_mana']}", 1), ('', 1)]
+    rows = [(f"Spells / prayers — {spells['class']} — Mana {spells['mana']}/{spells['max_mana']}", 1), ('', 1)]
     if not spells['caster']:
-        return rows + [('This class has no spells.', 1)]
+        return rows + [('This class has no spells or prayers.', 1)]
     if not spells['learned']:
         return rows + [('No learned spells at this moment.', 1)]
     rows += [('Name                           Lv  MP Fail  Status', 1)]
@@ -237,7 +237,7 @@ def show(directory, turn=None, verified=False, dump=False, caster=None):
                     for row, line in enumerate(rows[scroll:scroll + height - 3], 1):
                         text, color = line if isinstance(line, tuple) else (line, 1)
                         screen.addnstr(row, 0, text[horizontal:], max(0, width - 1), color_attribute(color, palette))
-                screen.addnstr(height - 2, 0, '←/→ step  g turn  Space play  i pack  e equip  s spells  Esc back  q quit', max(0, width - 1))
+                screen.addnstr(height - 2, 0, '←/→ step g turn Space play | i pack e equipment s magic | Esc back q quit', max(0, width - 1))
                 screen.addnstr(height - 1, 0, f'Frame {index + 1}/{len(frames.index)} | j/k scroll  [] pan | m monsters  d debug', max(0, width - 1))
 
                 screen.refresh()

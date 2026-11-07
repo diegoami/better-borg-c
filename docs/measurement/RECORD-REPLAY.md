@@ -241,9 +241,9 @@ and loaded Mage full traces are byte-identical before/after this file-destinatio
 correction. Evidence and the failed run stay under primary
 artifacts/replay-inventory-validation; origin checks were retained.
 
-## Caster spells at the selected moment
+## Caster spells and prayers at the selected moment
 
-Press `s` for learned spells: native spell letter/name, level, mana cost, current
+Press `s` for learned spells and prayers: native spell letter/name, level, mana cost, current
 failure percentage, book and current availability. Ready means the ordinary
 casting guards and book/learned checks pass; targeting/effect success is not
 predicted. Low mana is a legal overexertion attempt requiring the game's normal
