@@ -38,6 +38,22 @@ def streams(folder, frames):
 
 
 class FrameInspection(unittest.TestCase):
+    def test_normal_and_application_arrow_sequences_are_navigation(self):
+        for sequence in ('[C', 'OC', '[D', 'OD'):
+            screen = mock.Mock()
+            screen.getch.side_effect = [27] + [ord(c) for c in sequence]
+            expected = viewer.curses.KEY_RIGHT if sequence.endswith('C') else viewer.curses.KEY_LEFT
+            self.assertEqual(viewer.read_key(screen), expected)
+            screen.timeout.assert_called_with(-1)
+
+    def test_escape_is_back_and_preserves_a_following_plain_key(self):
+        screen = mock.Mock()
+        screen.getch.side_effect = [27, ord('q')]
+        with mock.patch.object(viewer.curses, 'ungetch') as push:
+            self.assertEqual(viewer.read_key(screen, playing=True), 27)
+            push.assert_called_once_with(ord('q'))
+        screen.timeout.assert_called_with(100)
+
     def test_seek_reconstructs_deltas_and_diagnostic_state(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
