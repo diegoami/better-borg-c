@@ -219,3 +219,7 @@ The forty-second carry stops the blow-effect name lookup before its NULL
 end entry (consumer #176/source #247). A made-up name no longer
 segfaults the lookup and resolves to MONBLOW_NONE; the in-table name
 still resolves.
+
+The forty-third carry marks the excavated vault grid dark, as its comment
+says (consumer #188/source #236). The duplicated GLOW set becomes DARK;
+the no-target control stays byte-identical.

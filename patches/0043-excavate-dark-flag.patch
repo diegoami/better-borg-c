@@ -1,0 +1,31 @@
+From bdd3c2ea2c120c5200f182b1676b860942abc71e Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 20:34:26 +0100
+Subject: [PATCH] Borg: mark the excavated vault grid dark, as the comment says
+
+borg_excavate_vault() cleared BORG_GLOW on the grid it had just dug and
+then set BORG_GLOW again under a comment reading "Dark" -- BORG_DARK
+was almost certainly meant. The freshly dug grid was remembered as
+glowing, so glow-driven decisions (resting on lit grids, light-driven
+flows) could treat a dark, freshly excavated pocket as safe light.
+Set BORG_DARK to match the comment.
+---
+ src/borg/borg-think-dungeon-util.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-think-dungeon-util.c b/src/borg/borg-think-dungeon-util.c
+index 559d06053..bdc8e1a32 100644
+--- a/src/borg/borg-think-dungeon-util.c
++++ b/src/borg/borg-think-dungeon-util.c
+@@ -1096,7 +1096,7 @@ bool borg_excavate_vault(int range)
+             /* Not Lit */
+             borg_grids[borg_temp_y[i]][borg_temp_x[i]].info &= ~BORG_GLOW;
+             /* Dark */
+-            borg_grids[borg_temp_y[i]][borg_temp_x[i]].info |= BORG_GLOW;
++            borg_grids[borg_temp_y[i]][borg_temp_x[i]].info |= BORG_DARK;
+             /* Feat Floor */
+             borg_grids[borg_temp_y[i]][borg_temp_x[i]].feat = FEAT_FLOOR;
+             /*
+-- 
+2.53.0
+
