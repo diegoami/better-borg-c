@@ -315,3 +315,65 @@ Evidence is primary artifacts/replay-log-validation. The initial PTY harness
 expected a contiguous repainted title; curses correctly emitted incremental
 updates. The final harness observes actual window rows while sending real PTY
 keys, with no change to the viewer's output or game data.
+
+## Play a manual alternative from a recorded turn
+
+```sh
+./play-from-replay.py docs/deaths/D0007-collected --from-turn 178325
+```
+
+This separate script replays the historical game up to the **first living player
+command boundary at or after** the requested absolute engine turn, then opens
+X11 with the Borg off. It prints the actual turn and frame: for D0007,178325
+selects178326. A turn may contain several commands or other phases; this selects
+the first qualifying command, not an arbitrary displayed frame. Requests before
+the recording's first command or beyond its last living command are rejected.
+Use normal Angband controls (arrow keys with the standard keymap), click/focus
+the game window, and use Ctrl+X to save and exit.
+
+Historical replay engines/build caches and original recording bundles are never
+updated in place. On first use the script **offers a separate historical takeover
+helper build**, using the recorded source commit, frozen observer overlay and
+runtime data. Declining cancels; `--yes` accepts that build, and `--no-build`
+requires a matching existing helper. No current-main gameplay fixes are imported.
+A missing/changed/incomplete helper is preserved and rejected, not overwritten.
+Legacy movies need their archived historical observer sources restored first.
+The ordinary `replay-borg.py` behavior and its original engine are unchanged.
+
+Before opening manual play, the helper reruns the original inputs to the selected
+command, freezes its native world save and stops. Every output row of terminal
+input, Borg actions, clock/file inputs and native trace must match the original
+prefix. All logical terminal frames, RNG/world fingerprints and recorded
+observation fields must match through the exact command frame; footer counts,
+consumed file contents and the actual saved-world fingerprint are checked too.
+A mismatch, timeout, missing source or missing save prevents manual launch and
+retains diagnostic output. `--timeout` bounds the prefix replay (default600s);
+it does not limit your manual session. This is prefix qualification, not a claim
+to have rerun or verified the remainder of the original death.
+
+Manual play starts by loading that native save, using the frozen historical
+helper in an isolated session. Normal save/load semantics apply: the Borg's
+in-memory goals are not serialized or restored. The script does not restore
+mid-animation/mid-command execution, feed diagnostic knowledge to the player,
+or promise the same future random events after your choices differ. Initial
+player-known state is retained by the native save; the new branch is a human
+counterfactual, not an additional independent Borg life or survival improvement.
+
+The script prints the branch directory under
+`artifacts/death-workflow/takeover/branches/`. Saves and new full recordings stay
+there, including parent recording/build/boundary identity. Named playable saves,
+the original death dossier and owner-review state are unaffected. To prepare a
+verified save without opening a window, append `--prepare-only`. To continue your
+own saved branch later:
+
+```sh
+./play-from-replay.py --resume /absolute/path/to/takeover/branches/TIMESTAMP
+```
+
+Resume retains the branch's exact helper build even after newer game fixes or
+script updates. A dead branch cannot be resumed as alive; start a fresh branch
+from the historical recording to try another alternative. Concurrent launches
+of the same branch serialize on its manual lock. A display is required for play;
+`--prepare-only` works headlessly. Manual branch recordings can be inspected with
+`./replay-borg.py SESSION_DIRECTORY`; they are explicitly labeled counterfactuals
+and are not automatically added to the next-unreviewed Borg-death queue.
