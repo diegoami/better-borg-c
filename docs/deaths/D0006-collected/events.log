@@ -1,0 +1,2401 @@
+BORG 72902 # HIT:the zombified human (+)
+BORG 72902 # HIT:the zombified human (+)
+BORG 72902 # HIT_BY:The zombified human (+)
+BORG 72902 # MISS_BY:The zombified human (+)
+BORG 72902 # Creating a monster 'orc shaman' at (6,43), HP: 47, Index: 130
+BORG 72902 # Removing Regional Fear (6,43) because of a LOS orc shaman
+BORG 72902 # HIT:the zombified human (2)
+BORG 72902 # HIT:the zombified human (2)
+BORG 72902 # HIT_BY:The zombified human (3)
+BORG 72902 # MISS_BY:The zombified human (3)
+BORG 72902 # Possibility of being surrounded (monsters/safegrids)(3/1)
+BORG 72902 # Loc:8,43 Dep:14 Lev:8 HP:76/100 SP:0/0 Danger:p=121
+BORG 72902 # Retreating to 9,43 (distance 1) via 9,43 (121 > 43)
+BORG 72912 # Tracking a monster 'creeping copper coins' at (8,43) from (7,43)
+BORG 72912 # Tracking a monster 'zombified human' at (7,43) from (7,42)
+BORG 72912 # Tracking a monster 'orc shaman' at (7,42) from (6,43)
+BORG 72912 # Loc:9,43 Dep:14 Lev:8 HP:75/100 SP:0/0 Danger:p=55
+BORG 72912 # Performing attack type 1 with value 31.
+BORG 72912 # Facing creeping copper coins at (8,43) who has 39 Hit Points.
+BORG 72912 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 72919 # MISS:the creeping copper coins (+)
+BORG 72919 # HIT:the creeping copper coins (+)
+BORG 72919 # Creating a monster 'killer brown beetle' at (6,43), HP: 53, Index: 178
+BORG 72919 # Removing Regional Fear (6,43) because of a LOS killer brown beetle
+BORG 72919 # MISS:the creeping copper coins (2)
+BORG 72919 # HIT:the creeping copper coins (2)
+BORG 72919 # Loc:9,43 Dep:14 Lev:8 HP:75/100 SP:0/0 Danger:p=60
+BORG 72919 # Performing attack type 1 with value 31.
+BORG 72919 # Facing creeping copper coins at (8,43) who has 32 Hit Points.
+BORG 72919 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 72927 # HIT:the creeping copper coins (+)
+BORG 72927 # HIT:the creeping copper coins (+)
+BORG 72927 # HIT:the creeping copper coins (2)
+BORG 72927 # HIT:the creeping copper coins (2)
+BORG 72927 # Loc:9,43 Dep:14 Lev:8 HP:76/100 SP:0/0 Danger:p=60
+BORG 72927 # Performing attack type 1 with value 31.
+BORG 72927 # Facing creeping copper coins at (8,43) who has 22 Hit Points.
+BORG 72927 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 72934 # HIT:the creeping copper coins (+)
+BORG 72934 # MISS:the creeping copper coins (+)
+BORG 72934 # HIT_BY:The creeping copper coins (+)
+BORG 72934 # MISS_BY:The creeping copper coins (+)
+BORG 72934 # HIT:the creeping copper coins (2)
+BORG 72934 # MISS:the creeping copper coins (2)
+BORG 72934 # HIT_BY:The creeping copper coins (3)
+BORG 72934 # MISS_BY:The creeping copper coins (3)
+BORG 72934 # Loc:9,43 Dep:14 Lev:8 HP:72/100 SP:0/0 Danger:p=60
+BORG 72934 # Performing attack type 1 with value 31.
+BORG 72934 # Facing creeping copper coins at (8,43) who has 18 Hit Points.
+BORG 72934 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 72941 # HIT:the creeping copper coins (+)
+BORG 72941 # MISS:the creeping copper coins (+)
+BORG 72941 # HIT:the creeping copper coins (2)
+BORG 72941 # MISS:the creeping copper coins (2)
+BORG 72941 # Loc:9,43 Dep:14 Lev:8 HP:72/100 SP:0/0 Danger:p=60
+BORG 72941 # Performing attack type 1 with value 31.
+BORG 72941 # Facing creeping copper coins at (8,43) who has 11 Hit Points.
+BORG 72941 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 72948 # MISS:the creeping copper coins (+)
+BORG 72948 # MISS:the creeping copper coins (+)
+BORG 72948 # MISS:the creeping copper coins (2)
+BORG 72948 # MISS:the creeping copper coins (2)
+BORG 72948 # Loc:9,43 Dep:14 Lev:8 HP:72/100 SP:0/0 Danger:p=60
+BORG 72948 # Performing attack type 1 with value 31.
+BORG 72948 # Facing creeping copper coins at (8,43) who has 11 Hit Points.
+BORG 72948 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 72955 # HIT:the creeping copper coins (+)
+BORG 72955 # HIT:the creeping copper coins (+)
+BORG 72955 # PAIN:The creeping copper coins (+)
+BORG 72955 # HIT:the creeping copper coins (2)
+BORG 72955 # HIT:the creeping copper coins (2)
+BORG 72955 # PAIN:The creeping copper coins (2)
+BORG 72955 # Loc:9,43 Dep:14 Lev:8 HP:73/100 SP:0/0 Danger:p=60
+BORG 72955 # Fleeing and leaving the level. (Looking for any stair)
+BORG 72955 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 72955 # heading up, not prep for current level: restock phase door)
+BORG 72955 # Climbing (too deep: restock phase door)
+BORG 72955 # Looking for up stairs.  Going up.
+BORG 72955 # Bored but unable to flow to up stairs.
+BORG 72955 # no up stairs found, going down
+BORG 72955 # heading up, not prep for current level: restock phase door)
+BORG 72955 # heading up (bored and unable to dive: restock phase door)
+BORG 72955 # Climbing (too deep: restock phase door)
+BORG 72955 # Looking for up stairs.  Going up.
+BORG 72955 # Bored but unable to flow to up stairs.
+BORG 72955 # no up stairs found, going down
+BORG 72955 # Spastic Searching at (43,9)...value:0
+BORG 72955 # Boosting bravery (1) from 73 to 146!
+BORG 72955 # Fleeing and leaving the level. Brave Thinking.
+BORG 72955 # heading up, not prep for current level: restock phase door)
+BORG 72955 # heading up (bored and unable to dive: restock phase door)
+BORG 72955 # Climbing (too deep: restock phase door)
+BORG 72955 # Looking for up stairs.  Going up.
+BORG 72955 # Bored but unable to flow to up stairs.
+BORG 72955 # no up stairs found, going down
+BORG 72955 # Considering Phase (twitchy)
+BORG 72955 # Boosting bravery (2) from 73 to 400!
+BORG 72955 # Fleeing and leaving the level. Brave Thinking.
+BORG 72955 # heading up, not prep for current level: restock phase door)
+BORG 72955 # heading up (bored and unable to dive: restock phase door)
+BORG 72955 # Climbing (too deep: restock phase door)
+BORG 72955 # Looking for up stairs.  Going up.
+BORG 72955 # Bored but unable to flow to up stairs.
+BORG 72955 # no up stairs found, going down
+BORG 72955 # Boosting bravery (3) from 73 to 30000!
+BORG 72955 # Fleeing and leaving the level. Brave Thinking.
+BORG 72955 # Flowing toward dark-3 at cost 4
+BORG 72955 # Walking into a 'creeping copper coins' at (8,43)
+BORG 72959 # HIT:the creeping copper coins (+)
+BORG 72959 # KILL:the creeping copper coins (+)
+BORG 72959 # Forgetting a monster 'creeping copper coins' at (8,43)
+BORG 72959 # Creating an object 'copper' at (43,8)
+BORG 72959 # Creating an object '& Iron Shot~' at (51,12)
+BORG 72959 # HIT:the creeping copper coins (2)
+BORG 72959 # KILL:the creeping copper coins (2)
+BORG 72959 # Possibility of being surrounded (monsters/safegrids)(3/2)
+BORG 72959 # Loc:9,43 Dep:14 Lev:8 HP:73/100 SP:0/0 Danger:p=41
+BORG 72959 # Retreating to 10,43 (distance 1) via 10,43 (41 > 4)
+BORG 72969 # Tracking a monster 'orc shaman' at (8,43) from (7,42)
+BORG 72969 # Creating an object 'copper' at (43,8)
+BORG 72969 # Loc:10,43 Dep:14 Lev:8 HP:73/100 SP:0/0 Danger:p=31
+BORG 72969 # Fleeing and leaving the level. (Looking for any stair)
+BORG 72969 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 72969 # heading up, not prep for current level: restock phase door)
+BORG 72969 # Climbing (too deep: restock phase door)
+BORG 72969 # Looking for up stairs.  Going up.
+BORG 72969 # Bored but unable to flow to up stairs.
+BORG 72969 # no up stairs found, going down
+BORG 72969 # heading up, not prep for current level: restock phase door)
+BORG 72969 # heading up (bored and unable to dive: restock phase door)
+BORG 72969 # Climbing (too deep: restock phase door)
+BORG 72969 # Looking for up stairs.  Going up.
+BORG 72969 # Bored but unable to flow to up stairs.
+BORG 72969 # no up stairs found, going down
+BORG 72969 # Boosting bravery (1) from 73 to 146!
+BORG 72969 # Fleeing and leaving the level. Brave Thinking.
+BORG 72969 # heading up, not prep for current level: restock phase door)
+BORG 72969 # heading up (bored and unable to dive: restock phase door)
+BORG 72969 # Climbing (too deep: restock phase door)
+BORG 72969 # Looking for up stairs.  Going up.
+BORG 72969 # Bored but unable to flow to up stairs.
+BORG 72969 # no up stairs found, going down
+BORG 72969 # Boosting bravery (2) from 73 to 400!
+BORG 72969 # Fleeing and leaving the level. Brave Thinking.
+BORG 72969 # Flowing toward kill at cost 2
+BORG 72979 # HIT_BY:The orc shaman (+)
+BORG 72979 # MISS_BY:The orc shaman (+)
+BORG 72979 # Tracking a monster 'zombified human' at (7,42) from (7,43)
+BORG 72979 # Creating an object 'copper' at (43,8)
+BORG 72979 # HIT_BY:The orc shaman (3)
+BORG 72979 # MISS_BY:The orc shaman (3)
+BORG 72979 # Loc:9,43 Dep:14 Lev:8 HP:69/100 SP:0/0 Danger:p=38
+BORG 72979 # Performing attack type 1 with value 117.
+BORG 72979 # Facing orc shaman at (8,43) who has 47 Hit Points.
+BORG 72979 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 72986 # HIT:the orc shaman (+)
+BORG 72986 # HIT:the orc shaman (+)
+BORG 72986 # MISS_BY:The orc shaman (+)
+BORG 72986 # HIT_BY:The orc shaman (+)
+BORG 72986 # Tracking a monster 'killer brown beetle' at (7,43) from (6,43)
+BORG 72986 # Tracking a monster 'zombified human' at (6,43) from (7,42)
+BORG 72986 # Creating an object 'copper' at (43,8)
+BORG 72986 # HIT:the orc shaman (2)
+BORG 72986 # HIT:the orc shaman (2)
+BORG 72986 # MISS_BY:The orc shaman (3)
+BORG 72986 # HIT_BY:The orc shaman (3)
+BORG 72986 # Loc:9,43 Dep:14 Lev:8 HP:64/100 SP:0/0 Danger:p=35
+BORG 72986 # Performing attack type 1 with value 117.
+BORG 72986 # Facing orc shaman at (8,43) who has 35 Hit Points.
+BORG 72986 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 72993 # HIT:the orc shaman (+)
+BORG 72993 # HIT:the orc shaman (+)
+BORG 72993 # MISS_BY:The orc shaman (+)
+BORG 72993 # HIT_BY:The orc shaman (+)
+BORG 72993 # Tracking a monster 'zombified human' at (7,43) from (6,43)
+BORG 72993 # Tracking a monster 'killer brown beetle' at (7,42) from (7,43)
+BORG 72993 # Creating an object 'copper' at (43,8)
+BORG 72993 # HIT:the orc shaman (2)
+BORG 72993 # HIT:the orc shaman (2)
+BORG 72993 # MISS_BY:The orc shaman (3)
+BORG 72993 # HIT_BY:The orc shaman (3)
+BORG 72993 # Loc:9,43 Dep:14 Lev:8 HP:63/100 SP:0/0 Danger:p=33
+BORG 72993 # Performing attack type 1 with value 117.
+BORG 72993 # Facing orc shaman at (8,43) who has 24 Hit Points.
+BORG 72993 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 73001 # HIT:the orc shaman (+)
+BORG 73001 # HIT:the orc shaman (+)
+BORG 73001 # HIT_BY:The orc shaman (+)
+BORG 73001 # HIT_BY:The orc shaman (+)
+BORG 73001 # Tracking a monster 'zombified human' at (7,42) from (7,43)
+BORG 73001 # Tracking a monster 'killer brown beetle' at (6,43) from (7,42)
+BORG 73001 # Creating an object 'copper' at (43,8)
+BORG 73001 # HIT:the orc shaman (2)
+BORG 73001 # HIT:the orc shaman (2)
+BORG 73001 # HIT_BY:The orc shaman (3)
+BORG 73001 # HIT_BY:The orc shaman (3)
+BORG 73001 # Loc:9,43 Dep:14 Lev:8 HP:52/100 SP:0/0 Danger:p=31
+BORG 73001 # Performing attack type 1 with value 117.
+BORG 73001 # Facing orc shaman at (8,43) who has 11 Hit Points.
+BORG 73001 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 73008 # MISS:the orc shaman (+)
+BORG 73008 # HIT:the orc shaman (+)
+BORG 73008 # PAIN:The orc shaman (+)
+BORG 73008 # Creating an object 'copper' at (43,8)
+BORG 73008 # MISS:the orc shaman (2)
+BORG 73008 # HIT:the orc shaman (2)
+BORG 73008 # PAIN:The orc shaman (2)
+BORG 73008 # Loc:9,43 Dep:14 Lev:8 HP:52/100 SP:0/0 Danger:p=38
+BORG 73008 # Performing attack type 1 with value 117.
+BORG 73008 # Facing orc shaman at (8,43) who has 5 Hit Points.
+BORG 73008 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 73015 # HIT:the orc shaman (+)
+BORG 73015 # HIT:the orc shaman (+)
+BORG 73015 # KILL:the orc shaman (+)
+BORG 73015 # Forgetting a monster 'orc shaman' at (8,43)
+BORG 73015 # Tracking a monster 'zombified human' at (8,43) from (7,42)
+BORG 73015 # Tracking a monster 'killer brown beetle' at (7,43) from (6,43)
+BORG 73015 # Creating an object 'copper' at (43,8)
+BORG 73015 # Creating an object '& Long Sword~' at (43,9)
+BORG 73015 # HIT:the orc shaman (2)
+BORG 73015 # HIT:the orc shaman (2)
+BORG 73015 # KILL:the orc shaman (2)
+BORG 73015 # Loc:9,43 Dep:14 Lev:9 HP:52/106 SP:0/0 Danger:p=21
+BORG 73015 # Performing attack type 1 with value 33.
+BORG 73015 # Facing zombified human at (8,43) who has 34 Hit Points.
+BORG 73015 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 73022 # MISS:the zombified human (+)
+BORG 73022 # HIT:the zombified human (+)
+BORG 73022 # HIT_BY:The zombified human (+)
+BORG 73022 # HIT_BY:The zombified human (+)
+BORG 73022 # Tracking a monster 'killer brown beetle' at (7,42) from (7,43)
+BORG 73022 # Creating an object 'copper' at (43,8)
+BORG 73022 # Creating an object '& Long Sword~' at (43,9)
+BORG 73022 # Creating a monster 'white wolf' at (6,43), HP: 25, Index: 163
+BORG 73022 # Removing Regional Fear (6,43) because of a LOS white wolf
+BORG 73022 # MISS:the zombified human (2)
+BORG 73022 # HIT:the zombified human (2)
+BORG 73022 # HIT_BY:The zombified human (3)
+BORG 73022 # HIT_BY:The zombified human (3)
+BORG 73022 # Loc:9,43 Dep:14 Lev:9 HP:48/106 SP:0/0 Danger:p=24
+BORG 73022 # Performing attack type 1 with value 33.
+BORG 73022 # Facing zombified human at (8,43) who has 27 Hit Points.
+BORG 73022 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 73029 # HIT:the zombified human (+)
+BORG 73029 # HIT:the zombified human (+)
+BORG 73029 # MISS_BY:The zombified human (+)
+BORG 73029 # MISS_BY:The zombified human (+)
+BORG 73029 # Tracking a monster 'white wolf' at (7,43) from (6,43)
+BORG 73029 # Tracking a monster 'killer brown beetle' at (6,43) from (7,42)
+BORG 73029 # Creating an object '& Long Sword~' at (43,9)
+BORG 73029 # Creating an object 'copper' at (43,8)
+BORG 73029 # HIT:the zombified human (2)
+BORG 73029 # HIT:the zombified human (2)
+BORG 73029 # MISS_BY:The zombified human (3)
+BORG 73029 # MISS_BY:The zombified human (3)
+BORG 73029 # Loc:9,43 Dep:14 Lev:9 HP:48/106 SP:0/0 Danger:p=29
+BORG 73029 # Performing attack type 1 with value 33.
+BORG 73029 # Facing zombified human at (8,43) who has 13 Hit Points.
+BORG 73029 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 73037 # HIT:the zombified human (+)
+BORG 73037 # MISS:the zombified human (+)
+BORG 73037 # HIT_BY:The zombified human (+)
+BORG 73037 # HIT_BY:The zombified human (+)
+BORG 73037 # Tracking a monster 'killer brown beetle' at (7,43) from (6,43)
+BORG 73037 # Tracking a monster 'white wolf' at (7,42) from (7,43)
+BORG 73037 # Creating an object '& Long Sword~' at (43,9)
+BORG 73037 # Creating an object 'copper' at (43,8)
+BORG 73037 # Creating a monster 'white wolf' at (5,43), HP: 33, Index: 163
+BORG 73037 # Removing Regional Fear (5,43) because of a LOS white wolf
+BORG 73037 # HIT:the zombified human (2)
+BORG 73037 # MISS:the zombified human (2)
+BORG 73037 # HIT_BY:The zombified human (3)
+BORG 73037 # HIT_BY:The zombified human (3)
+BORG 73037 # Loc:9,43 Dep:14 Lev:9 HP:43/106 SP:0/0 Danger:p=25
+BORG 73037 # Performing attack type 1 with value 33.
+BORG 73037 # Facing zombified human at (8,43) who has 9 Hit Points.
+BORG 73037 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 73044 # MISS:the zombified human (+)
+BORG 73044 # HIT:the zombified human (+)
+BORG 73044 # Tracking a monster 'white wolf' at (6,43) from (5,43)
+BORG 73044 # Creating an object '& Long Sword~' at (43,9)
+BORG 73044 # Creating an object 'copper' at (43,8)
+BORG 73044 # Creating a monster 'white wolf' at (5,43), HP: 32, Index: 163
+BORG 73044 # Removing Regional Fear (5,43) because of a LOS white wolf
+BORG 73044 # MISS:the zombified human (2)
+BORG 73044 # HIT:the zombified human (2)
+BORG 73044 # Loc:9,43 Dep:14 Lev:9 HP:43/106 SP:0/0 Danger:p=44
+BORG 73044 # Performing attack type 1 with value 30.
+BORG 73044 # Facing zombified human at (8,43) who has 3 Hit Points.
+BORG 73044 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 73051 # MISS:the zombified human (+)
+BORG 73051 # HIT:the zombified human (+)
+BORG 73051 # KILL:the zombified human (+)
+BORG 73051 # Forgetting a monster 'zombified human' at (8,43)
+BORG 73051 # Tracking a monster 'killer brown beetle' at (8,43) from (7,43)
+BORG 73051 # Tracking a monster 'white wolf' at (7,43) from (6,43)
+BORG 73051 # Tracking a monster 'white wolf' at (6,43) from (5,43)
+BORG 73051 # Creating an object '& Long Sword~' at (43,9)
+BORG 73051 # Creating an object 'copper' at (43,8)
+BORG 73051 # MISS:the zombified human (2)
+BORG 73051 # HIT:the zombified human (2)
+BORG 73051 # KILL:the zombified human (2)
+BORG 73051 # Loc:9,43 Dep:14 Lev:9 HP:43/106 SP:0/0 Danger:p=68
+BORG 73051 # Performing attack type 1 with value 57.
+BORG 73051 # Facing killer brown beetle at (8,43) who has 53 Hit Points.
+BORG 73051 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 73058 # HIT:the killer brown beetle (+)
+BORG 73058 # MISS:the killer brown beetle (+)
+BORG 73058 # HIT_BY:The killer brown beetle (+)
+BORG 73058 # Tracking a monster 'white wolf' at (5,43) from (6,43)
+BORG 73058 # Creating an object '& Long Sword~' at (43,9)
+BORG 73058 # Creating an object 'copper' at (43,8)
+BORG 73058 # Creating a monster 'white wolf' at (6,43), HP: 38, Index: 163
+BORG 73058 # Removing Regional Fear (6,43) because of a LOS white wolf
+BORG 73058 # HIT:the killer brown beetle (2)
+BORG 73058 # MISS:the killer brown beetle (2)
+BORG 73058 # HIT_BY:The killer brown beetle (3)
+BORG 73058 # Loc:9,43 Dep:14 Lev:9 HP:32/106 SP:0/0 Danger:p=72
+BORG 73058 # Performing attack type 1 with value 57.
+BORG 73058 # Facing killer brown beetle at (8,43) who has 45 Hit Points.
+BORG 73058 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 73065 # MISS:the killer brown beetle (+)
+BORG 73065 # HIT:the killer brown beetle (+)
+BORG 73065 # HIT_BY:The killer brown beetle (+)
+BORG 73065 # Creating an object '& Long Sword~' at (43,9)
+BORG 73065 # Creating an object 'copper' at (43,8)
+BORG 73065 # MISS:the killer brown beetle (2)
+BORG 73065 # HIT:the killer brown beetle (2)
+BORG 73065 # HIT_BY:The killer brown beetle (3)
+BORG 73065 # Loc:9,43 Dep:14 Lev:9 HP:26/106 SP:0/0 Danger:p=72
+BORG 73065 # Performing attack type 1 with value 57.
+BORG 73065 # Facing killer brown beetle at (8,43) who has 39 Hit Points.
+BORG 73065 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 73073 # HIT_BY:The killer brown beetle (+)
+BORG 73073 # Tracking a monster 'white wolf' at (6,43) from (5,43)
+BORG 73073 # Creating an object '& Long Sword~' at (43,9)
+BORG 73073 # Creating an object 'copper' at (43,8)
+BORG 73073 # HIT_BY:The killer brown beetle (3)
+BORG 73073 # Loc:9,43 Dep:14 Lev:9 HP:17/106 SP:0/0 Danger:p=82
+BORG 73073 # Quaffing unknown potion Clear Potion.
+BORG 73083 # HIT_BY:The killer brown beetle (+)
+BORG 73083 # Tracking a monster 'white wolf' at (7,42) from (6,43)
+BORG 73083 # Creating an object 'copper' at (43,8)
+BORG 73083 # Creating an object '& Long Sword~' at (43,9)
+BORG 73083 # HIT_BY:The killer brown beetle (3)
+BORG 73083 # Loc:9,43 Dep:14 Lev:9 HP:10/106 SP:0/0 Danger:p=71
+BORG 73083 # Quaffing unknown potion Black Potions.
+
+[Terminal native state/cause]
+STATE death turn=73100 energy=740979 decisions=6851 depth=14 max_depth=14 level=9 max_level=9 hp=-6 dead=1 winner=0 borg_rng=3058807332 quick=0 quick_rng=3030385321 rng_index=8 rng=03197c6a48dd707c52efad530a7af906ecf77a32b183abdc4b6e98e3b5a88cbd0f6c94618a0d9306d20c71a0ab83cc606a878ac1e629a51894d89b9c5332ba6ccc92da2049cb3f93a9cefc136f588bdadc4afaa4b99817cc9196e32c69778db95d565a291bdfaa8aa2699af6964dbbcff0ac9469e93335b2d30c066a3d8e1998
+CAUSE a killer brown beetle
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 1
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Close enough to Stair.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object '& Whip~' at (104,11)
+MESSAGE # Flowing toward item at cost 4
+MESSAGE # Walking onto and deleting a '& Whip~' at (11,104)
+MESSAGE You have a Whip (1d3) (+0,+0) (q).
+MESSAGE # Flowing toward dark-4 at cost 6
+MESSAGE # Creating a monster 'cutpurse' at (11,110), HP: 20, Index: 37
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:11,109 Dep:4 Lev:6 HP:69/69 SP:0/0 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 21
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # There was a monster 'cutpurse' at (11,110)
+MESSAGE # Forgetting a monster 'cutpurse' at (11,110)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 20
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Creating a monster 'cutpurse' at (11,109), HP: 20, Index: 37
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:11,107 Dep:4 Lev:6 HP:69/69 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 19
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'cutpurse' at (11,108) from (11,109)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:11,106 Dep:4 Lev:6 HP:69/69 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 18
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'cutpurse' at (11,107) from (11,108)
+MESSAGE # Creating a monster 'cutpurse' at (11,109), HP: 20, Index: 37
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:11,105 Dep:4 Lev:6 HP:69/69 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 17
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'cutpurse' at (11,108) from (11,109)
+MESSAGE # Tracking a monster 'cutpurse' at (11,106) from (11,107)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:11,104 Dep:4 Lev:6 HP:69/69 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 16
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'cutpurse' at (11,107) from (11,108)
+MESSAGE # Tracking a monster 'cutpurse' at (11,105) from (11,106)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:11,103 Dep:4 Lev:6 HP:69/69 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 15
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'cutpurse' at (11,106) from (11,107)
+MESSAGE # Tracking a monster 'cutpurse' at (11,104) from (11,105)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:11,102 Dep:4 Lev:6 HP:69/69 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 14
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'cutpurse' at (11,105) from (11,106)
+MESSAGE # Tracking a monster 'cutpurse' at (11,103) from (11,104)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:11,101 Dep:4 Lev:6 HP:69/69 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 13
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'cutpurse' at (11,104) from (11,105)
+MESSAGE # Tracking a monster 'cutpurse' at (11,102) from (11,103)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:12,100 Dep:4 Lev:6 HP:69/69 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'cutpurse' at (11,101) from (11,102)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:13,99 Dep:4 Lev:6 HP:69/69 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 11
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'cutpurse' at (13,99) from (11,101)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'cutpurse' at (13,99) from (11,104)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 6
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 3
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object 'Blindness' at (70,45)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Creating an object '& Wooden Torch~' at (64,41)
+MESSAGE # Creating a monster 'blue yeek' at (44,65), HP: 5, Index: 46
+MESSAGE # Removing Regional Fear (44,65) because of a LOS blue yeek
+MESSAGE # Creating a monster 'black naga' at (41,70), HP: 25, Index: 58
+MESSAGE # Removing Regional Fear (41,70) because of a LOS black naga
+MESSAGE # Creating a monster 'metallic red centipede' at (44,68), HP: 21, Index: 65
+MESSAGE # Removing Regional Fear (44,68) because of a LOS metallic red centipede
+MESSAGE # Performing attack type 3 with value 20.
+MESSAGE # Targeting metallic red centipede who has 21 Hit Points (44,68).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) pierces the metallic red centipede.
+MESSAGE The metallic red centipede dies.
+MESSAGE Welcome to level 7.
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The metallic red centipede (+)
+MESSAGE # Forgetting a monster 'metallic red centipede' at (44,68)
+MESSAGE # Creating an object '& Iron Shot~' at (68,44)
+MESSAGE # DIED:The metallic red centipede (2)
+MESSAGE # Performing attack type 3 with value 20.
+MESSAGE # Targeting blue yeek who has 5 Hit Points (44,65).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) pierces the blue yeek.
+MESSAGE The blue yeek dies.
+MESSAGE You have an Iron Shot of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The blue yeek (+)
+MESSAGE # Forgetting a monster 'blue yeek' at (44,65)
+MESSAGE # Creating an object 'Cure Light Wounds' at (65,44)
+MESSAGE # Creating an object '& Iron Shot~' at (65,43)
+MESSAGE # DIED:The blue yeek (2)
+MESSAGE # Performing attack type 3 with value 20.
+MESSAGE # Targeting black naga who has 25 Hit Points (41,70).
+MESSAGE # Firing missile 'Iron Shot of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) hits the black naga.
+MESSAGE You re-arrange your quiver.
+MESSAGE You have no more Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE The black naga cries out feebly.
+MESSAGE The black naga flees in terror!
+MESSAGE # PAIN:The black naga (+)
+MESSAGE # Tracking a monster 'black naga' at (41,71) from (41,70)
+MESSAGE # Creating an object '& Iron Shot~' at (70,41)
+MESSAGE # PAIN:The black naga (2)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE You feel that there are only scraps of junk here.
+MESSAGE # FEELING_STUFF:9 (+)
+MESSAGE # Tracking a monster 'black naga' at (41,70) from (41,71)
+MESSAGE # Creating an object '& Iron Shot~' at (70,41)
+MESSAGE # FEELING_STUFF:9 (1)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'Blindness' at (45,70)
+MESSAGE You have a Blue Potion (m).
+MESSAGE # Tracking a monster 'black naga' at (42,71) from (41,70)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Tracking a monster 'black naga' at (41,70) from (42,71)
+MESSAGE # Creating an object '& Iron Shot~' at (70,41)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (44,68)
+MESSAGE You have an Iron Shot of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Tracking a monster 'black naga' at (41,69) from (41,70)
+MESSAGE # There was an object '& Iron Shot~' at (70,41)
+MESSAGE # Performing attack type 3 with value 4.
+MESSAGE # Targeting black naga who has 1 Hit Points (41,69).
+MESSAGE # Firing missile 'Iron Shot of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) hits the black naga.
+MESSAGE The black naga dies.
+MESSAGE You re-arrange your quiver.
+MESSAGE You have no more Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The black naga (+)
+MESSAGE # Forgetting a monster 'black naga' at (41,69)
+MESSAGE # Creating an object 'copper' at (69,41)
+MESSAGE # Creating an object '& Iron Shot~' at (69,42)
+MESSAGE # DIED:The black naga (2)
+MESSAGE # There was an object '& Iron Shot~' at (70,41)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (42,69)
+MESSAGE You have an Iron Shot of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'copper' at (41,69)
+MESSAGE You have found 95 gold pieces worth of copper.
+MESSAGE # Shifted panel to locate offscreen monster.
+MESSAGE # Flowing toward item at cost 1
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward item at cost 0
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (43,65)
+MESSAGE You have 3 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'Cure Light Wounds' at (44,65)
+MESSAGE You have 8 Potions of Cure Light Wounds (d).
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a '& Wooden Torch~' at (41,64)
+MESSAGE You have 11 Wooden Torches (5000 turns) (p).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Creating an object 'copper' at (58,20)
+MESSAGE # Flowing toward item at cost 6
+MESSAGE # Creating an object '& Bolt~' at (52,24)
+MESSAGE # Creating an object 'Darkness' at (49,25)
+MESSAGE # Creating a monster 'kobold' at (23,51), HP: 15, Index: 32
+MESSAGE # Creating a monster 'yellow worm mass' at (22,44), HP: 15, Index: 66
+MESSAGE # Creating a monster 'yellow jelly' at (25,47), HP: 43, Index: 61
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 30
+MESSAGE The kobold wakes up.
+MESSAGE # PAIN:The kobold (+)
+MESSAGE # PAIN:The kobold (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'kobold' at (23,52) from (23,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 35
+MESSAGE # Tracking a monster 'kobold' at (23,53) from (23,52)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'kobold' at (24,54) from (23,53)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'kobold' at (25,55) from (24,54)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:26,55 Dep:3 Lev:7 HP:89/89 SP:0/0 Danger:p=8
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 25.
+MESSAGE # Facing kobold at (25,55) who has 15 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the kobold.
+MESSAGE The kobold hits you.
+MESSAGE # HIT:the kobold (+)
+MESSAGE # HIT_BY:The kobold (+)
+MESSAGE # HIT:the kobold (2)
+MESSAGE # HIT_BY:The kobold (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:26,55 Dep:3 Lev:7 HP:83/89 SP:0/0 Danger:p=8
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 25.
+MESSAGE # Facing kobold at (25,55) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the kobold.
+MESSAGE You have slain the kobold.
+MESSAGE # HIT:the kobold (+)
+MESSAGE # KILL:the kobold (+)
+MESSAGE # Forgetting a monster 'kobold' at (25,55)
+MESSAGE # Creating an object 'Detect Invisible' at (55,25)
+MESSAGE # HIT:the kobold (2)
+MESSAGE # KILL:the kobold (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 32
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE The giant white louse misses you.
+MESSAGE # MISS_BY:The giant white louse (+)
+MESSAGE # Creating a monster 'giant white louse' at (29,170), HP: 1, Index: 57
+MESSAGE # Removing Regional Fear (29,170) because of a LOS giant white louse
+MESSAGE # MISS_BY:The giant white louse (4)
+MESSAGE # Loc:30,170 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=6
+MESSAGE # Performing attack type 1 with value 13.
+MESSAGE # Facing giant white louse at (29,170) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the giant white louse.
+MESSAGE You have slain the giant white louse.
+MESSAGE # HIT:the giant white louse (+)
+MESSAGE # KILL:the giant white louse (+)
+MESSAGE # Forgetting a monster 'giant white louse' at (29,170)
+MESSAGE # HIT:the giant white louse (2)
+MESSAGE # KILL:the giant white louse (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Creating a monster 'rattlesnake' at (18,168), HP: 24, Index: 100
+MESSAGE # Removing Regional Fear (18,168) because of a LOS rattlesnake
+MESSAGE # Performing attack type 3 with value 20.
+MESSAGE # Targeting rattlesnake who has 24 Hit Points (18,168).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) pierces the rattlesnake.
+MESSAGE The rattlesnake dies.
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The rattlesnake (+)
+MESSAGE # Forgetting a monster 'rattlesnake' at (18,168)
+MESSAGE # Creating an object '& Iron Shot~' at (168,18)
+MESSAGE # DIED:The rattlesnake (2)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Creating a monster 'giant white centipede' at (18,167), HP: 8, Index: 20
+MESSAGE # Removing Regional Fear (18,167) because of a LOS giant white centipede
+MESSAGE # Performing attack type 3 with value 32.
+MESSAGE # Targeting giant white centipede who has 8 Hit Points (18,167).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) pierces the giant white centipede.
+MESSAGE The giant white centipede dies.
+MESSAGE You have an Iron Shot of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The giant white centipede (+)
+MESSAGE # Forgetting a monster 'giant white centipede' at (18,167)
+MESSAGE # Creating an object '& Iron Shot~' at (167,18)
+MESSAGE # DIED:The giant white centipede (2)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (18,168)
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (18,167)
+MESSAGE You have 3 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating a monster 'yellow worm mass' at (15,179), HP: 16, Index: 66
+MESSAGE # Removing Regional Fear (15,179) because of a LOS yellow worm mass
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Loc:15,177 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=27
+MESSAGE # Performing defense type 13 with value 5
+MESSAGE # Quaffing Potion of Berserk Strength.
+MESSAGE You feel like a killing machine!
+MESSAGE You have no more Potions of Berserk Strength (f).
+MESSAGE The yellow worm mass wakes up.
+MESSAGE # PAIN:The yellow worm mass (+)
+MESSAGE # PAIN:The yellow worm mass (2)
+MESSAGE # Loc:15,177 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 3 with value 60.
+MESSAGE # Targeting yellow worm mass who has 16 Hit Points (15,179).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) pierces the yellow worm mass.
+MESSAGE The yellow worm mass is destroyed.
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The yellow worm mass (+)
+MESSAGE # Forgetting a monster 'yellow worm mass' at (15,179)
+MESSAGE # Creating an object '& Iron Shot~' at (179,15)
+MESSAGE # DIED:The yellow worm mass (2)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Creating an object 'Deep Descent' at (180,14)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (15,179)
+MESSAGE You have 3 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'Deep Descent' at (14,180)
+MESSAGE You have 2 Scrolls of Deep Descent (n).
+MESSAGE # Creating an object 'diamonds' at (182,11)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'shrieker mushroom patch' at (18,183), HP: 1, Index: 33
+MESSAGE # Removing Regional Fear (18,183) because of a LOS shrieker mushroom patch
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:17,183 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=5
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 22.
+MESSAGE # Facing shrieker mushroom patch at (18,183) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the shrieker mushroom patch.
+MESSAGE You have destroyed the shrieker mushroom patch.
+MESSAGE # HIT:the shrieker mushroom patch (+)
+MESSAGE # KILL:the shrieker mushroom patch (+)
+MESSAGE # Forgetting a monster 'shrieker mushroom patch' at (18,183)
+MESSAGE # HIT:the shrieker mushroom patch (2)
+MESSAGE # KILL:the shrieker mushroom patch (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 28
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 42
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 19
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 18
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 17
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 16
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 15
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 14
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 13
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 11
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You no longer feel berserk.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 6
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 3
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Standing on dn-stairs
+MESSAGE You have found a secret door.
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Creating an object 'Slowness' at (28,11)
+MESSAGE # Creating an object '& Wooden Torch~' at (23,11)
+MESSAGE # Creating a monster 'blubbering icky thing' at (10,26), HP: 14, Index: 34
+MESSAGE # Removing Regional Fear (10,26) because of a LOS blubbering icky thing
+MESSAGE # Performing attack type 3 with value 40.
+MESSAGE # Targeting blubbering icky thing who has 14 Hit Points (10,26).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) hits the blubbering icky thing.
+MESSAGE The blubbering icky thing dies.
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The blubbering icky thing (+)
+MESSAGE # Forgetting a monster 'blubbering icky thing' at (10,26)
+MESSAGE # Creating an object '& Iron Shot~' at (26,10)
+MESSAGE # DIED:The blubbering icky thing (2)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (10,26)
+MESSAGE You have 3 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a 'Slowness' at (11,28)
+MESSAGE You have 3 Black Potions (m).
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Walking onto and deleting a '& Wooden Torch~' at (11,23)
+MESSAGE You have 12 Wooden Torches (5000 turns) (q).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Opening a door
+MESSAGE You failed to pick the lock.
+MESSAGE You have picked the lock.
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Opening a door
+MESSAGE You failed to pick the lock.
+MESSAGE You have picked the lock.
+MESSAGE # Creating a monster 'kobold shaman' at (6,20), HP: 11, Index: 69
+MESSAGE # Removing Regional Fear (6,20) because of a LOS kobold shaman
+MESSAGE # Loc:7,22 Dep:3 Lev:7 HP:89/89 SP:0/0 Danger:p=22
+MESSAGE # Performing attack type 3 with value 48.
+MESSAGE # Targeting kobold shaman who has 11 Hit Points (6,20).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) hits the kobold shaman.
+MESSAGE The kobold shaman dies.
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The kobold shaman (+)
+MESSAGE # Forgetting a monster 'kobold shaman' at (6,20)
+MESSAGE # Creating an object 'copper' at (20,6)
+MESSAGE # Creating an object '& Iron Shot~' at (19,6)
+MESSAGE # DIED:The kobold shaman (2)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a 'copper' at (6,20)
+MESSAGE You have found 145 gold pieces worth of copper.
+MESSAGE # Creating an object '& Pair~ of Leather Sandals' at (21,3)
+MESSAGE # Creating a monster 'kobold shaman' at (4,20), HP: 11, Index: 69
+MESSAGE # Removing Regional Fear (4,20) because of a LOS kobold shaman
+MESSAGE # Loc:6,20 Dep:3 Lev:7 HP:89/89 SP:0/0 Danger:p=35
+MESSAGE # Retreating to 7,21 (distance 1) via 7,21 (35 > 0)
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # Boosting bravery (1) from 89 to 178!
+MESSAGE # Flowing toward item at cost 2
+MESSAGE The kobold shaman wakes up.
+MESSAGE # PAIN:The kobold shaman (+)
+MESSAGE # PAIN:The kobold shaman (2)
+MESSAGE # Loc:7,20 Dep:3 Lev:7 HP:89/89 SP:0/0 Danger:p=22
+MESSAGE # Performing attack type 3 with value 48.
+MESSAGE # Targeting kobold shaman who has 11 Hit Points (4,20).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) hits the kobold shaman.
+MESSAGE The kobold shaman dies.
+MESSAGE You have an Iron Shot of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The kobold shaman (+)
+MESSAGE # Forgetting a monster 'kobold shaman' at (4,20)
+MESSAGE # Creating an object '& Iron Shot~' at (20,4)
+MESSAGE # DIED:The kobold shaman (2)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (6,19)
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (4,20)
+MESSAGE You have 3 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Pair~ of Leather Sandals' at (3,21)
+MESSAGE You have a Pair of Leather Sandals [1,+0] (r).
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # Boosting bravery (1) from 89 to 178!
+MESSAGE # heading down (bored and spastic).
+MESSAGE # Flowing toward down-stairs at cost 10
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object '& Short Bow~' at (40,17)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Short Bow~' at (17,40)
+MESSAGE You have a Short Bow (x2) (+4,+4) (u).
+MESSAGE # Dropping junk Potion of Salt Water (valued at 850)
+MESSAGE Inscribing a Potion of Salt Water.
+MESSAGE You drop a Potion of Salt Water {borg ignore} (f).
+MESSAGE You have no more Potions of Salt Water {borg ignore} (f).
+MESSAGE # Creating an object 'Salt Water' at (40,17)
+MESSAGE # Destroying floor item Potion~Salt Water
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Creating an object 'Infravision' at (27,14)
+MESSAGE # Creating a monster 'blue worm mass' at (19,23), HP: 28, Index: 77
+MESSAGE # Removing Regional Fear (19,23) because of a LOS blue worm mass
+MESSAGE # Flowing toward item at cost 10
+MESSAGE # Performing attack type 3 with value 60.
+MESSAGE # Targeting blue worm mass who has 28 Hit Points (19,23).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) pierces the blue worm mass.
+MESSAGE The blue worm mass is destroyed.
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The blue worm mass (+)
+MESSAGE # Forgetting a monster 'blue worm mass' at (19,23)
+MESSAGE # Creating an object '& Iron Shot~' at (23,19)
+MESSAGE # DIED:The blue worm mass (2)
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Walking onto and deleting a 'Infravision' at (14,27)
+MESSAGE You have a Clear Potion (m).
+MESSAGE # Flowing toward item at cost 5
+MESSAGE Someone touches you.
+MESSAGE Your purse feels lighter.
+MESSAGE 93 coins were stolen!
+MESSAGE There is a puff of smoke!
+MESSAGE # HIT_BY:Someone (+)
+MESSAGE # Assuming player ghost (Someone) (a)
+MESSAGE # Fearing region (15,27) value 4 because of a non-LOS Someone
+MESSAGE # HIT_BY:Someone (5)
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (19,23)
+MESSAGE You have 3 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'scruffy looking hobbit' at (20,20), HP: 9, Index: 62
+MESSAGE # Performing attack type 3 with value 36.
+MESSAGE # Targeting scruffy looking hobbit who has 9 Hit Points (20,20).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Perhaps wall near targetted location (20,20)
+MESSAGE # Guessing wall (20,21) near target (20,20)
+MESSAGE # Tracking a monster 'scruffy looking hobbit' at (20,21) from (20,20)
+MESSAGE # Creating an object '& Iron Shot~' at (20,20)
+MESSAGE # Performing attack type 3 with value 36.
+MESSAGE # Targeting scruffy looking hobbit who has 9 Hit Points (20,21).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) hits the scruffy looking hobbit.
+MESSAGE The scruffy looking hobbit dies.
+MESSAGE You have an Iron Shot of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The scruffy looking hobbit (+)
+MESSAGE # Forgetting a monster 'scruffy looking hobbit' at (20,21)
+MESSAGE # Creating an object '& Iron Shot~' at (21,20)
+MESSAGE # DIED:The scruffy looking hobbit (2)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (20,21)
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (20,20)
+MESSAGE You have 3 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Shifted panel to locate offscreen monster.
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Return to Stair (wandered too far.  Leash: 35)
+MESSAGE # Flowing toward up-stairs at cost 45
+MESSAGE # Looking for stairs. Goal_less, Fleeing.
+MESSAGE # Close enough to Stair.
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object '& Wooden Torch~' at (49,25)
+MESSAGE # Creating a monster 'giant white louse' at (25,46), HP: 1, Index: 57
+MESSAGE # Removing Regional Fear (25,46) because of a LOS giant white louse
+MESSAGE # Performing attack type 3 with value 6.
+MESSAGE # Targeting giant white louse who has 1 Hit Points (25,46).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Perhaps wall near targetted location (25,46)
+MESSAGE # Guessing wall (25,45) near target (25,46)
+MESSAGE # Tracking a monster 'giant white louse' at (26,46) from (25,46)
+MESSAGE # Creating an object '& Iron Shot~' at (46,25)
+MESSAGE # Performing attack type 3 with value 6.
+MESSAGE # Targeting giant white louse who has 1 Hit Points (26,46).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) pierces the giant white louse.
+MESSAGE The giant white louse dies.
+MESSAGE You have an Iron Shot of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # DIED:The giant white louse (+)
+MESSAGE # Forgetting a monster 'giant white louse' at (26,46)
+MESSAGE # Creating an object '& Iron Shot~' at (46,26)
+MESSAGE # DIED:The giant white louse (2)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (25,46)
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Iron Shot~' at (26,46)
+MESSAGE You have 3 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a '& Wooden Torch~' at (25,49)
+MESSAGE You have 13 Wooden Torches (5000 turns) (q).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating a monster 'giant white centipede' at (17,60), HP: 11, Index: 20
+MESSAGE # Removing Regional Fear (17,60) because of a LOS giant white centipede
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE You hear a door burst open!
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE You failed to pick the lock.
+MESSAGE You have picked the lock.
+MESSAGE # Flowing toward dark-4 at cost 7
+MESSAGE # Creating a monster 'acolyte' at (23,45), HP: 16, Index: 38
+MESSAGE # Removing Regional Fear (23,45) because of a LOS acolyte
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:28,40 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=89
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 14
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:27,40 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=88
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 13
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'acolyte' at (25,43) from (23,45)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:26,40 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=90
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'acolyte' at (25,42) from (25,43)
+MESSAGE # Creating a monster 'gallant' at (25,43), HP: 34, Index: 72
+MESSAGE # Removing Regional Fear (25,43) because of a LOS gallant
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:25,41 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=205
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Reading Scrolls of Deep Descent.
+MESSAGE # Danger Level 1.
+MESSAGE The air around you starts to swirl...
+MESSAGE You have a Scroll of Deep Descent (o).
+MESSAGE The acolyte hits you.
+MESSAGE # HIT_BY:The acolyte (+)
+MESSAGE # Tracking a monster 'gallant' at (24,42) from (25,43)
+MESSAGE # HIT_BY:The acolyte (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:25,41 Dep:4 Lev:7 HP:86/89 SP:0/0 Danger:p=214
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 141.
+MESSAGE # Facing gallant at (24,42) who has 34 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the gallant.
+MESSAGE You miss the gallant.
+MESSAGE The acolyte hits you.
+MESSAGE The gallant hits you.
+MESSAGE # HIT:the gallant (+)
+MESSAGE # MISS:the gallant (+)
+MESSAGE # HIT_BY:The acolyte (+)
+MESSAGE # HIT_BY:The gallant (+)
+MESSAGE # HIT:the gallant (2)
+MESSAGE # MISS:the gallant (2)
+MESSAGE # HIT_BY:The acolyte (3)
+MESSAGE # HIT_BY:The gallant (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:25,41 Dep:4 Lev:7 HP:81/89 SP:0/0 Danger:p=214
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 141.
+MESSAGE # Facing gallant at (24,42) who has 28 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the gallant.
+MESSAGE You hit the gallant.
+MESSAGE The acolyte hits you.
+MESSAGE The gallant misses you.
+MESSAGE The gallant hits you.
+MESSAGE # MISS:the gallant (+)
+MESSAGE # HIT:the gallant (+)
+MESSAGE # HIT_BY:The acolyte (+)
+MESSAGE # MISS_BY:The gallant (+)
+MESSAGE # HIT_BY:The gallant (+)
+MESSAGE # MISS:the gallant (2)
+MESSAGE # HIT:the gallant (2)
+MESSAGE # HIT_BY:The acolyte (3)
+MESSAGE # MISS_BY:The gallant (3)
+MESSAGE # HIT_BY:The gallant (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:25,41 Dep:4 Lev:7 HP:74/89 SP:0/0 Danger:p=214
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 141.
+MESSAGE # Facing gallant at (24,42) who has 24 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the gallant.
+MESSAGE # HIT:the gallant (+)
+MESSAGE # Creating a monster 'apprentice' at (25,43), HP: 15, Index: 39
+MESSAGE # Removing Regional Fear (25,43) because of a LOS apprentice
+MESSAGE # HIT:the gallant (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:25,41 Dep:4 Lev:7 HP:74/89 SP:0/0 Danger:p=253
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 141.
+MESSAGE # Facing gallant at (24,42) who has 11 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the gallant.
+MESSAGE You hit the gallant.
+MESSAGE The acolyte misses you.
+MESSAGE The gallant tries to cast a spell, but fails.
+MESSAGE # MISS:the gallant (+)
+MESSAGE # HIT:the gallant (+)
+MESSAGE # MISS_BY:The acolyte (+)
+MESSAGE # Tracking a monster 'apprentice' at (26,42) from (25,43)
+MESSAGE # MISS:the gallant (2)
+MESSAGE # HIT:the gallant (2)
+MESSAGE # MISS_BY:The acolyte (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:25,41 Dep:4 Lev:7 HP:75/89 SP:0/0 Danger:p=269
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 141.
+MESSAGE # Facing gallant at (24,42) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the gallant.
+MESSAGE You miss the gallant.
+MESSAGE The gallant flees in terror!
+MESSAGE The acolyte conjures up scary horrors.
+MESSAGE You are terrified!
+MESSAGE # HIT:the gallant (+)
+MESSAGE # MISS:the gallant (+)
+MESSAGE # PAIN:The gallant (+)
+MESSAGE # HIT:the gallant (2)
+MESSAGE # MISS:the gallant (2)
+MESSAGE # PAIN:The gallant (2)
+MESSAGE # There was a monster 'gallant' at (24,42)
+MESSAGE # Forgetting a monster 'gallant' at (24,42)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:25,41 Dep:4 Lev:7 HP:75/89 SP:0/0 Danger:p=136
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 14.
+MESSAGE # Targeting apprentice who has 15 Hit Points (26,42).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) hits the apprentice.
+MESSAGE The apprentice dies.
+MESSAGE You have 2 Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE The acolyte conjures up scary horrors.
+MESSAGE You are more scared!
+MESSAGE The floor opens beneath you!
+MESSAGE This place seems reasonably safe.
+MESSAGE # DIED:The apprentice (+)
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # Forgetting a monster 'apprentice' at (26,42)
+MESSAGE # DIED:The apprentice (2)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving (restock) restock phase door
+MESSAGE # Resting to recover HP/SP...
+MESSAGE You feel bolder now.
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'snaga' at (16,93), HP: 39, Index: 99
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:7 HP:82/89 SP:0/0 Danger:p=56
+MESSAGE # Fleeing (failed to teleport)
+MESSAGE # Performing attack type 1 with value 87.
+MESSAGE # Facing snaga at (16,93) who has 39 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE The snaga hits you.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # HIT_BY:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # HIT_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:7 HP:78/89 SP:0/0 Danger:p=56
+MESSAGE # Performing attack type 1 with value 87.
+MESSAGE # Facing snaga at (16,93) who has 28 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE You miss the snaga.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # MISS:the snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:7 HP:78/89 SP:0/0 Danger:p=56
+MESSAGE # Performing attack type 1 with value 87.
+MESSAGE # Facing snaga at (16,93) who has 24 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE You miss the snaga.
+MESSAGE The snaga hits you.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # MISS:the snaga (+)
+MESSAGE # HIT_BY:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # HIT_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:7 HP:77/89 SP:0/0 Danger:p=56
+MESSAGE # Performing attack type 1 with value 87.
+MESSAGE # Facing snaga at (16,93) who has 18 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE The snaga hits you.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # HIT_BY:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # HIT_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:7 HP:71/89 SP:0/0 Danger:p=56
+MESSAGE # Performing attack type 1 with value 87.
+MESSAGE # Facing snaga at (16,93) who has 8 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE You have slain the snaga.
+MESSAGE Welcome to level 8.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # KILL:the snaga (+)
+MESSAGE # Forgetting a monster 'snaga' at (16,93)
+MESSAGE # Creating a monster 'snaga' at (16,93), HP: 38, Index: 99
+MESSAGE # HIT:the snaga (2)
+MESSAGE # KILL:the snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:71/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 38 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:71/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 24 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE The snaga hits you.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # HIT_BY:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # HIT_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:68/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE You have slain the snaga.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # KILL:the snaga (+)
+MESSAGE # Forgetting a monster 'snaga' at (16,93)
+MESSAGE # Creating a monster 'snaga' at (16,93), HP: 42, Index: 99
+MESSAGE # HIT:the snaga (2)
+MESSAGE # KILL:the snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:68/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 42 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the snaga.
+MESSAGE You hit the snaga.
+MESSAGE # MISS:the snaga (+)
+MESSAGE # HIT:the snaga (+)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:68/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 37 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the snaga.
+MESSAGE You hit the snaga.
+MESSAGE The snaga hits you.
+MESSAGE # MISS:the snaga (+)
+MESSAGE # HIT:the snaga (+)
+MESSAGE # HIT_BY:The snaga (+)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # HIT_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:60/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 33 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the snaga.
+MESSAGE The snaga misses you.
+MESSAGE # MISS:the snaga (+)
+MESSAGE # MISS_BY:The snaga (+)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # MISS_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:61/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 33 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE You miss the snaga.
+MESSAGE The snaga hits you.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # MISS:the snaga (+)
+MESSAGE # HIT_BY:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # HIT_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:56/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 28 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:56/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 16 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE You miss the snaga.
+MESSAGE The snaga fires a small arrow.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # MISS:the snaga (+)
+MESSAGE # SPELL_005:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # SPELL_005:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:53/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 12 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE The snaga flees in terror!
+MESSAGE The snaga is frozen to the spot!
+MESSAGE # HIT:the snaga (+)
+MESSAGE # PAIN:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # PAIN:The snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:53/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 58.
+MESSAGE # Facing snaga at (16,93) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE The snaga can move again.
+MESSAGE You have slain the snaga.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # KILL:the snaga (+)
+MESSAGE # Forgetting a monster 'snaga' at (16,93)
+MESSAGE # Creating a monster 'snaga' at (16,93), HP: 31, Index: 99
+MESSAGE # HIT:the snaga (2)
+MESSAGE # KILL:the snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:54/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 31 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE The snaga hits you.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # HIT_BY:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # HIT_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:52/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 18 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE You miss the snaga.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # MISS:the snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:52/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 12 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the snaga.
+MESSAGE You hit the snaga.
+MESSAGE The snaga hits you.
+MESSAGE # MISS:the snaga (+)
+MESSAGE # HIT:the snaga (+)
+MESSAGE # HIT_BY:The snaga (+)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # HIT_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:45/100 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 61.
+MESSAGE # Facing snaga at (16,93) who has 8 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE The snaga flees in terror!
+MESSAGE The snaga fires a small arrow.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # PAIN:The snaga (+)
+MESSAGE # SPELL_005:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # PAIN:The snaga (2)
+MESSAGE # SPELL_005:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:39/100 SP:0/0 Danger:p=23
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # heading up (bored and unable to dive: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 39 to 78!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # heading up (bored and unable to dive: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Boosting bravery (2) from 39 to 400!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward kill at cost 1
+MESSAGE # Walking into a 'snaga' at (16,93)
+MESSAGE You hit the snaga. It was a good hit!
+MESSAGE You have slain the snaga.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # KILL:the snaga (+)
+MESSAGE # Forgetting a monster 'snaga' at (16,93)
+MESSAGE # Creating a monster 'snaga' at (16,93), HP: 28, Index: 99
+MESSAGE # HIT:the snaga (2)
+MESSAGE # KILL:the snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:39/100 SP:0/0 Danger:p=56
+MESSAGE # Reading Scroll of Deep Descent.
+MESSAGE # Danger Level 3.4
+MESSAGE The air around you starts to swirl...
+MESSAGE You have no more Scrolls of Deep Descent (o).
+MESSAGE The snaga misses you.
+MESSAGE # MISS_BY:The snaga (+)
+MESSAGE # MISS_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:39/100 SP:0/0 Danger:p=56
+MESSAGE # Performing attack type 1 with value 87.
+MESSAGE # Facing snaga at (16,93) who has 28 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE The snaga hits you.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # HIT_BY:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # HIT_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:36/100 SP:0/0 Danger:p=56
+MESSAGE # Performing attack type 1 with value 87.
+MESSAGE # Facing snaga at (16,93) who has 18 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the snaga.
+MESSAGE You hit the snaga.
+MESSAGE The snaga misses you.
+MESSAGE # MISS:the snaga (+)
+MESSAGE # HIT:the snaga (+)
+MESSAGE # MISS_BY:The snaga (+)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # MISS_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:36/100 SP:0/0 Danger:p=56
+MESSAGE # Performing attack type 1 with value 87.
+MESSAGE # Facing snaga at (16,93) who has 12 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE You miss the snaga.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # MISS:the snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:36/100 SP:0/0 Danger:p=56
+MESSAGE # Performing attack type 1 with value 87.
+MESSAGE # Facing snaga at (16,93) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE You miss the snaga.
+MESSAGE The snaga flees in terror!
+MESSAGE The snaga is frozen to the spot!
+MESSAGE # HIT:the snaga (+)
+MESSAGE # MISS:the snaga (+)
+MESSAGE # PAIN:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # MISS:the snaga (2)
+MESSAGE # PAIN:The snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:36/100 SP:0/0 Danger:p=56
+MESSAGE # Performing attack type 1 with value 82.
+MESSAGE # Facing snaga at (16,93) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE The snaga can move again.
+MESSAGE You have slain the snaga.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # KILL:the snaga (+)
+MESSAGE # Forgetting a monster 'snaga' at (16,93)
+MESSAGE # Creating a monster 'crow' at (16,93), HP: 9, Index: 52
+MESSAGE # HIT:the snaga (2)
+MESSAGE # KILL:the snaga (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:36/100 SP:0/0 Danger:p=12
+MESSAGE # Performing attack type 1 with value 33.
+MESSAGE # Facing crow at (16,93) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the crow. It was a good hit!
+MESSAGE You have slain the crow.
+MESSAGE # HIT:the crow (+)
+MESSAGE # KILL:the crow (+)
+MESSAGE # Forgetting a monster 'crow' at (16,93)
+MESSAGE # HIT:the crow (2)
+MESSAGE # KILL:the crow (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'snaga' at (16,93), HP: 39, Index: 99
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:37/100 SP:0/0 Danger:p=56
+MESSAGE # Performing attack type 1 with value 87.
+MESSAGE # Facing snaga at (16,93) who has 39 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE The snaga misses you.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # MISS_BY:The snaga (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # MISS_BY:The snaga (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:16,94 Dep:9 Lev:8 HP:37/100 SP:0/0 Danger:p=56
+MESSAGE # Performing attack type 1 with value 87.
+MESSAGE # Facing snaga at (16,93) who has 29 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the snaga.
+MESSAGE The floor opens beneath you!
+MESSAGE This place seems reasonably safe.
+MESSAGE # HIT:the snaga (+)
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # HIT:the snaga (2)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving (restock) restock phase door
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Creating a monster 'brown mold' at (12,51), HP: 60, Index: 96
+MESSAGE # Loc:11,50 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=832
+MESSAGE # Retreating to 10,49 (distance 1) via 10,49 (832 > 0)
+MESSAGE The brown mold wakes up.
+MESSAGE # PAIN:The brown mold (+)
+MESSAGE # PAIN:The brown mold (2)
+MESSAGE # Performing attack type 3 with value 20.
+MESSAGE # Targeting brown mold who has 60 Hit Points (12,51).
+MESSAGE # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) hits the brown mold.
+MESSAGE You have an Iron Shot of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE The brown mold squelches.
+MESSAGE # PAIN:The brown mold (+)
+MESSAGE # Creating an object '& Iron Shot~' at (51,12)
+MESSAGE # PAIN:The brown mold (2)
+MESSAGE # Performing attack type 3 with value 20.
+MESSAGE # Targeting brown mold who has 36 Hit Points (12,51).
+MESSAGE # Firing missile 'Iron Shot of Slay Animal (1d4) (+6,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Iron Shot of Slay Animal (1d4) (+6,+3) hits the brown mold.
+MESSAGE You re-arrange your quiver.
+MESSAGE You have no more Iron Shots of Slay Animal (1d4) (+6,+3) (0).
+MESSAGE The brown mold quivers in pain.
+MESSAGE # PAIN:The brown mold (+)
+MESSAGE # Creating an object '& Iron Shot~' at (51,12)
+MESSAGE # PAIN:The brown mold (2)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE Something releases spores at you.
+MESSAGE # HIT_BY:Something (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Fearing region (8,51) value 12 because of a non-LOS Something
+MESSAGE # HIT_BY:Something (5)
+MESSAGE # Loc:8,51 Dep:14 Lev:8 HP:99/100 SP:0/0 Danger:p=18
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE You hit something.
+MESSAGE You have killed it.
+MESSAGE # HIT:something (+)
+MESSAGE # KILL:it (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # HIT:something (0)
+MESSAGE # KILL:it (0)
+MESSAGE # Loc:8,51 Dep:14 Lev:8 HP:99/100 SP:0/0 Danger:p=18
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Loc:9,51 Dep:14 Lev:8 HP:99/100 SP:0/0 Danger:p=18
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Loc:8,51 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=18
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Loc:7,50 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=18
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Loc:6,49 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=18
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Loc:5,50 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=18
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Loc:6,49 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=18
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Loc:7,48 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=18
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Loc:8,47 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=17
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Loc:9,47 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=17
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward dark-4 at cost 9
+MESSAGE # Loc:8,47 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=17
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Loc:7,48 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=17
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Loc:8,49 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=17
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Loc:9,49 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=17
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Creating an object '& Iron Shot~' at (51,12)
+MESSAGE # Loc:10,49 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=17
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Opening a door
+MESSAGE You feel that there may be something worthwhile here.
+MESSAGE # FEELING_STUFF:6 (+)
+MESSAGE # Creating an object 'copper' at (43,6)
+MESSAGE # Creating a monster 'zombified human' at (5,43), HP: 45, Index: 172
+MESSAGE # FEELING_STUFF:6 (1)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # heading up (bored and unable to dive: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Spastic Searching at (43,11)...value:0
+MESSAGE # Boosting bravery (1) from 100 to 200!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward kill at cost 6
+MESSAGE # Loc:10,43 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=16
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=16
+MESSAGE # Loc:8,43 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=16
+MESSAGE # Creating a monster 'red jelly' at (8,41), HP: 111, Index: 108
+MESSAGE # Loc:7,43 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=33
+MESSAGE # Walking onto and deleting a 'copper' at (6,43)
+MESSAGE The 110 gold pieces worth of copper was really a monster!
+MESSAGE The zombified human wakes up.
+MESSAGE The creeping copper coins hits you.
+MESSAGE The creeping copper coins touches you.
+MESSAGE You are poisoned!
+MESSAGE # PAIN:The zombified human (+)
+MESSAGE # HIT_BY:The creeping copper coins (+)
+MESSAGE # Tracking a monster 'zombified human' at (5,42) from (5,43)
+MESSAGE # Creating a monster 'creeping copper coins' at (6,43), HP: 39, Index: 75
+MESSAGE # PAIN:The zombified human (2)
+MESSAGE # HIT_BY:The creeping copper coins (4)
+MESSAGE # Loc:7,43 Dep:14 Lev:8 HP:90/100 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 8,43 (distance 1) via 8,43 (41 > 17)
+MESSAGE # Tracking a monster 'zombified human' at (5,43) from (5,42)
+MESSAGE # Loc:8,43 Dep:14 Lev:8 HP:89/100 SP:0/0 Danger:p=18
+MESSAGE # Quaffing Potions of Neutralize Poison.
+MESSAGE You are no longer poisoned.
+MESSAGE You have a Potion of Neutralize Poison (e).
+MESSAGE # Tracking a monster 'creeping copper coins' at (7,43) from (6,43)
+MESSAGE # Tracking a monster 'zombified human' at (6,43) from (5,43)
+MESSAGE # Loc:8,43 Dep:14 Lev:8 HP:89/100 SP:0/0 Danger:p=51
+MESSAGE # Retreating to 9,43 (distance 1) via 9,43 (51 > 18)
+MESSAGE # Tracking a monster 'zombified human' at (7,42) from (6,43)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:89/100 SP:0/0 Danger:p=28
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # heading up (bored and unable to dive: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 89 to 178!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # heading up (bored and unable to dive: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Boosting bravery (2) from 89 to 400!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward dark-3 at cost 5
+MESSAGE The creeping copper coins hits you.
+MESSAGE The creeping copper coins touches you.
+MESSAGE You are poisoned!
+MESSAGE The zombified human misses you.
+MESSAGE # HIT_BY:The creeping copper coins (+)
+MESSAGE # MISS_BY:The zombified human (+)
+MESSAGE # HIT_BY:The creeping copper coins (3)
+MESSAGE # MISS_BY:The zombified human (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(2/1)
+MESSAGE # Loc:8,43 Dep:14 Lev:8 HP:81/100 SP:0/0 Danger:p=103
+MESSAGE # Fleeing (failed to teleport)
+MESSAGE # Performing attack type 1 with value 33.
+MESSAGE # Facing zombified human at (7,42) who has 45 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the zombified human.
+MESSAGE The zombified human hits you.
+MESSAGE The zombified human misses you.
+MESSAGE # HIT:the zombified human (+)
+MESSAGE # HIT_BY:The zombified human (+)
+MESSAGE # MISS_BY:The zombified human (+)
+MESSAGE # Creating a monster 'orc shaman' at (6,43), HP: 47, Index: 130
+MESSAGE # Removing Regional Fear (6,43) because of a LOS orc shaman
+MESSAGE # HIT:the zombified human (2)
+MESSAGE # HIT_BY:The zombified human (3)
+MESSAGE # MISS_BY:The zombified human (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(3/1)
+MESSAGE # Loc:8,43 Dep:14 Lev:8 HP:76/100 SP:0/0 Danger:p=121
+MESSAGE # Retreating to 9,43 (distance 1) via 9,43 (121 > 43)
+MESSAGE You are no longer poisoned.
+MESSAGE # Tracking a monster 'creeping copper coins' at (8,43) from (7,43)
+MESSAGE # Tracking a monster 'zombified human' at (7,43) from (7,42)
+MESSAGE # Tracking a monster 'orc shaman' at (7,42) from (6,43)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:75/100 SP:0/0 Danger:p=55
+MESSAGE # Performing attack type 1 with value 31.
+MESSAGE # Facing creeping copper coins at (8,43) who has 39 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the creeping copper coins.
+MESSAGE You hit the creeping copper coins.
+MESSAGE # MISS:the creeping copper coins (+)
+MESSAGE # HIT:the creeping copper coins (+)
+MESSAGE # Creating a monster 'killer brown beetle' at (6,43), HP: 53, Index: 178
+MESSAGE # Removing Regional Fear (6,43) because of a LOS killer brown beetle
+MESSAGE # MISS:the creeping copper coins (2)
+MESSAGE # HIT:the creeping copper coins (2)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:75/100 SP:0/0 Danger:p=60
+MESSAGE # Performing attack type 1 with value 31.
+MESSAGE # Facing creeping copper coins at (8,43) who has 32 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the creeping copper coins.
+MESSAGE # HIT:the creeping copper coins (+)
+MESSAGE # HIT:the creeping copper coins (2)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:76/100 SP:0/0 Danger:p=60
+MESSAGE # Performing attack type 1 with value 31.
+MESSAGE # Facing creeping copper coins at (8,43) who has 22 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the creeping copper coins.
+MESSAGE You miss the creeping copper coins.
+MESSAGE The creeping copper coins hits you.
+MESSAGE The creeping copper coins misses you.
+MESSAGE # HIT:the creeping copper coins (+)
+MESSAGE # MISS:the creeping copper coins (+)
+MESSAGE # HIT_BY:The creeping copper coins (+)
+MESSAGE # MISS_BY:The creeping copper coins (+)
+MESSAGE # HIT:the creeping copper coins (2)
+MESSAGE # MISS:the creeping copper coins (2)
+MESSAGE # HIT_BY:The creeping copper coins (3)
+MESSAGE # MISS_BY:The creeping copper coins (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:72/100 SP:0/0 Danger:p=60
+MESSAGE # Performing attack type 1 with value 31.
+MESSAGE # Facing creeping copper coins at (8,43) who has 18 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the creeping copper coins.
+MESSAGE You miss the creeping copper coins.
+MESSAGE # HIT:the creeping copper coins (+)
+MESSAGE # MISS:the creeping copper coins (+)
+MESSAGE # HIT:the creeping copper coins (2)
+MESSAGE # MISS:the creeping copper coins (2)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:72/100 SP:0/0 Danger:p=60
+MESSAGE # Performing attack type 1 with value 31.
+MESSAGE # Facing creeping copper coins at (8,43) who has 11 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the creeping copper coins.
+MESSAGE # MISS:the creeping copper coins (+)
+MESSAGE # MISS:the creeping copper coins (2)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:72/100 SP:0/0 Danger:p=60
+MESSAGE # Performing attack type 1 with value 31.
+MESSAGE # Facing creeping copper coins at (8,43) who has 11 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the creeping copper coins.
+MESSAGE The creeping copper coins is frozen to the spot!
+MESSAGE # HIT:the creeping copper coins (+)
+MESSAGE # PAIN:The creeping copper coins (+)
+MESSAGE # HIT:the creeping copper coins (2)
+MESSAGE # PAIN:The creeping copper coins (2)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:73/100 SP:0/0 Danger:p=60
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # heading up (bored and unable to dive: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Spastic Searching at (43,9)...value:0
+MESSAGE # Boosting bravery (1) from 73 to 146!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # heading up (bored and unable to dive: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Boosting bravery (2) from 73 to 400!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # heading up (bored and unable to dive: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (3) from 73 to 30000!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Walking into a 'creeping copper coins' at (8,43)
+MESSAGE You hit the creeping copper coins.
+MESSAGE The creeping copper coins can move again.
+MESSAGE You have slain the creeping copper coins.
+MESSAGE # HIT:the creeping copper coins (+)
+MESSAGE # KILL:the creeping copper coins (+)
+MESSAGE # Forgetting a monster 'creeping copper coins' at (8,43)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # Creating an object '& Iron Shot~' at (51,12)
+MESSAGE # HIT:the creeping copper coins (2)
+MESSAGE # KILL:the creeping copper coins (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(3/2)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:73/100 SP:0/0 Danger:p=41
+MESSAGE # Retreating to 10,43 (distance 1) via 10,43 (41 > 4)
+MESSAGE # Tracking a monster 'orc shaman' at (8,43) from (7,42)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # Loc:10,43 Dep:14 Lev:8 HP:73/100 SP:0/0 Danger:p=31
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # heading up (bored and unable to dive: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 73 to 146!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # heading up (bored and unable to dive: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (2) from 73 to 400!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward kill at cost 2
+MESSAGE The orc shaman hits you.
+MESSAGE The orc shaman misses you.
+MESSAGE # HIT_BY:The orc shaman (+)
+MESSAGE # MISS_BY:The orc shaman (+)
+MESSAGE # Tracking a monster 'zombified human' at (7,42) from (7,43)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # HIT_BY:The orc shaman (3)
+MESSAGE # MISS_BY:The orc shaman (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:69/100 SP:0/0 Danger:p=38
+MESSAGE # Performing attack type 1 with value 117.
+MESSAGE # Facing orc shaman at (8,43) who has 47 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the orc shaman.
+MESSAGE The orc shaman misses you.
+MESSAGE The orc shaman hits you.
+MESSAGE # HIT:the orc shaman (+)
+MESSAGE # MISS_BY:The orc shaman (+)
+MESSAGE # HIT_BY:The orc shaman (+)
+MESSAGE # Tracking a monster 'killer brown beetle' at (7,43) from (6,43)
+MESSAGE # Tracking a monster 'zombified human' at (6,43) from (7,42)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # HIT:the orc shaman (2)
+MESSAGE # MISS_BY:The orc shaman (3)
+MESSAGE # HIT_BY:The orc shaman (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:64/100 SP:0/0 Danger:p=35
+MESSAGE # Performing attack type 1 with value 117.
+MESSAGE # Facing orc shaman at (8,43) who has 35 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the orc shaman.
+MESSAGE The orc shaman misses you.
+MESSAGE The orc shaman hits you.
+MESSAGE # HIT:the orc shaman (+)
+MESSAGE # MISS_BY:The orc shaman (+)
+MESSAGE # HIT_BY:The orc shaman (+)
+MESSAGE # Tracking a monster 'zombified human' at (7,43) from (6,43)
+MESSAGE # Tracking a monster 'killer brown beetle' at (7,42) from (7,43)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # HIT:the orc shaman (2)
+MESSAGE # MISS_BY:The orc shaman (3)
+MESSAGE # HIT_BY:The orc shaman (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:63/100 SP:0/0 Danger:p=33
+MESSAGE # Performing attack type 1 with value 117.
+MESSAGE # Facing orc shaman at (8,43) who has 24 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the orc shaman.
+MESSAGE The orc shaman hits you.
+MESSAGE # HIT:the orc shaman (+)
+MESSAGE # HIT_BY:The orc shaman (+)
+MESSAGE # Tracking a monster 'zombified human' at (7,42) from (7,43)
+MESSAGE # Tracking a monster 'killer brown beetle' at (6,43) from (7,42)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # HIT:the orc shaman (2)
+MESSAGE # HIT_BY:The orc shaman (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:52/100 SP:0/0 Danger:p=31
+MESSAGE # Performing attack type 1 with value 117.
+MESSAGE # Facing orc shaman at (8,43) who has 11 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the orc shaman.
+MESSAGE You hit the orc shaman.
+MESSAGE The orc shaman flees in terror!
+MESSAGE # MISS:the orc shaman (+)
+MESSAGE # HIT:the orc shaman (+)
+MESSAGE # PAIN:The orc shaman (+)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # MISS:the orc shaman (2)
+MESSAGE # HIT:the orc shaman (2)
+MESSAGE # PAIN:The orc shaman (2)
+MESSAGE # Loc:9,43 Dep:14 Lev:8 HP:52/100 SP:0/0 Danger:p=38
+MESSAGE # Performing attack type 1 with value 117.
+MESSAGE # Facing orc shaman at (8,43) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the orc shaman.
+MESSAGE You have slain the orc shaman.
+MESSAGE Welcome to level 9.
+MESSAGE You feel something roll beneath your feet.
+MESSAGE # HIT:the orc shaman (+)
+MESSAGE # KILL:the orc shaman (+)
+MESSAGE # Forgetting a monster 'orc shaman' at (8,43)
+MESSAGE # Tracking a monster 'zombified human' at (8,43) from (7,42)
+MESSAGE # Tracking a monster 'killer brown beetle' at (7,43) from (6,43)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # Creating an object '& Long Sword~' at (43,9)
+MESSAGE # HIT:the orc shaman (2)
+MESSAGE # KILL:the orc shaman (2)
+MESSAGE # Loc:9,43 Dep:14 Lev:9 HP:52/106 SP:0/0 Danger:p=21
+MESSAGE # Performing attack type 1 with value 33.
+MESSAGE # Facing zombified human at (8,43) who has 34 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the zombified human.
+MESSAGE You hit the zombified human.
+MESSAGE The zombified human hits you.
+MESSAGE # MISS:the zombified human (+)
+MESSAGE # HIT:the zombified human (+)
+MESSAGE # HIT_BY:The zombified human (+)
+MESSAGE # Tracking a monster 'killer brown beetle' at (7,42) from (7,43)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # Creating an object '& Long Sword~' at (43,9)
+MESSAGE # Creating a monster 'white wolf' at (6,43), HP: 25, Index: 163
+MESSAGE # Removing Regional Fear (6,43) because of a LOS white wolf
+MESSAGE # MISS:the zombified human (2)
+MESSAGE # HIT:the zombified human (2)
+MESSAGE # HIT_BY:The zombified human (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:9 HP:48/106 SP:0/0 Danger:p=24
+MESSAGE # Performing attack type 1 with value 33.
+MESSAGE # Facing zombified human at (8,43) who has 27 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the zombified human.
+MESSAGE The zombified human misses you.
+MESSAGE # HIT:the zombified human (+)
+MESSAGE # MISS_BY:The zombified human (+)
+MESSAGE # Tracking a monster 'white wolf' at (7,43) from (6,43)
+MESSAGE # Tracking a monster 'killer brown beetle' at (6,43) from (7,42)
+MESSAGE # Creating an object '& Long Sword~' at (43,9)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # HIT:the zombified human (2)
+MESSAGE # MISS_BY:The zombified human (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:9 HP:48/106 SP:0/0 Danger:p=29
+MESSAGE # Performing attack type 1 with value 33.
+MESSAGE # Facing zombified human at (8,43) who has 13 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the zombified human.
+MESSAGE You miss the zombified human.
+MESSAGE The zombified human hits you.
+MESSAGE # HIT:the zombified human (+)
+MESSAGE # MISS:the zombified human (+)
+MESSAGE # HIT_BY:The zombified human (+)
+MESSAGE # Tracking a monster 'killer brown beetle' at (7,43) from (6,43)
+MESSAGE # Tracking a monster 'white wolf' at (7,42) from (7,43)
+MESSAGE # Creating an object '& Long Sword~' at (43,9)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # Creating a monster 'white wolf' at (5,43), HP: 33, Index: 163
+MESSAGE # Removing Regional Fear (5,43) because of a LOS white wolf
+MESSAGE # HIT:the zombified human (2)
+MESSAGE # MISS:the zombified human (2)
+MESSAGE # HIT_BY:The zombified human (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:9 HP:43/106 SP:0/0 Danger:p=25
+MESSAGE # Performing attack type 1 with value 33.
+MESSAGE # Facing zombified human at (8,43) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the zombified human.
+MESSAGE You hit the zombified human.
+MESSAGE # MISS:the zombified human (+)
+MESSAGE # HIT:the zombified human (+)
+MESSAGE # Tracking a monster 'white wolf' at (6,43) from (5,43)
+MESSAGE # Creating an object '& Long Sword~' at (43,9)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # Creating a monster 'white wolf' at (5,43), HP: 32, Index: 163
+MESSAGE # Removing Regional Fear (5,43) because of a LOS white wolf
+MESSAGE # MISS:the zombified human (2)
+MESSAGE # HIT:the zombified human (2)
+MESSAGE # Loc:9,43 Dep:14 Lev:9 HP:43/106 SP:0/0 Danger:p=44
+MESSAGE # Performing attack type 1 with value 30.
+MESSAGE # Facing zombified human at (8,43) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the zombified human.
+MESSAGE You hit the zombified human.
+MESSAGE You have destroyed the zombified human.
+MESSAGE # MISS:the zombified human (+)
+MESSAGE # HIT:the zombified human (+)
+MESSAGE # KILL:the zombified human (+)
+MESSAGE # Forgetting a monster 'zombified human' at (8,43)
+MESSAGE # Tracking a monster 'killer brown beetle' at (8,43) from (7,43)
+MESSAGE # Tracking a monster 'white wolf' at (7,43) from (6,43)
+MESSAGE # Tracking a monster 'white wolf' at (6,43) from (5,43)
+MESSAGE # Creating an object '& Long Sword~' at (43,9)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # MISS:the zombified human (2)
+MESSAGE # HIT:the zombified human (2)
+MESSAGE # KILL:the zombified human (2)
+MESSAGE # Loc:9,43 Dep:14 Lev:9 HP:43/106 SP:0/0 Danger:p=68
+MESSAGE # Performing attack type 1 with value 57.
+MESSAGE # Facing killer brown beetle at (8,43) who has 53 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the killer brown beetle.
+MESSAGE You miss the killer brown beetle.
+MESSAGE The killer brown beetle bites you.
+MESSAGE # HIT:the killer brown beetle (+)
+MESSAGE # MISS:the killer brown beetle (+)
+MESSAGE # HIT_BY:The killer brown beetle (+)
+MESSAGE # Tracking a monster 'white wolf' at (5,43) from (6,43)
+MESSAGE # Creating an object '& Long Sword~' at (43,9)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # Creating a monster 'white wolf' at (6,43), HP: 38, Index: 163
+MESSAGE # Removing Regional Fear (6,43) because of a LOS white wolf
+MESSAGE # HIT:the killer brown beetle (2)
+MESSAGE # MISS:the killer brown beetle (2)
+MESSAGE # HIT_BY:The killer brown beetle (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:9 HP:32/106 SP:0/0 Danger:p=72
+MESSAGE # Performing attack type 1 with value 57.
+MESSAGE # Facing killer brown beetle at (8,43) who has 45 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the killer brown beetle.
+MESSAGE You hit the killer brown beetle.
+MESSAGE The killer brown beetle bites you.
+MESSAGE # MISS:the killer brown beetle (+)
+MESSAGE # HIT:the killer brown beetle (+)
+MESSAGE # HIT_BY:The killer brown beetle (+)
+MESSAGE # Creating an object '& Long Sword~' at (43,9)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # MISS:the killer brown beetle (2)
+MESSAGE # HIT:the killer brown beetle (2)
+MESSAGE # HIT_BY:The killer brown beetle (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:9 HP:26/106 SP:0/0 Danger:p=72
+MESSAGE # Performing attack type 1 with value 57.
+MESSAGE # Facing killer brown beetle at (8,43) who has 39 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You get in a shield bash!
+MESSAGE You stumble!
+MESSAGE The killer brown beetle bites you.
+MESSAGE # HIT_BY:The killer brown beetle (+)
+MESSAGE # Tracking a monster 'white wolf' at (6,43) from (5,43)
+MESSAGE # Creating an object '& Long Sword~' at (43,9)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # HIT_BY:The killer brown beetle (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:9 HP:17/106 SP:0/0 Danger:p=82
+MESSAGE # Quaffing unknown potion Clear Potion.
+MESSAGE Your eyes begin to tingle!
+MESSAGE You have no more Potions of Infravision (m).
+MESSAGE The killer brown beetle bites you.
+MESSAGE # HIT_BY:The killer brown beetle (+)
+MESSAGE # Tracking a monster 'white wolf' at (7,42) from (6,43)
+MESSAGE # Creating an object 'copper' at (43,8)
+MESSAGE # Creating an object '& Long Sword~' at (43,9)
+MESSAGE # HIT_BY:The killer brown beetle (3)
+MESSAGE # Loc:9,43 Dep:14 Lev:9 HP:10/106 SP:0/0 Danger:p=71
+MESSAGE # Quaffing unknown potion Black Potions.
+MESSAGE You feel yourself moving slower!
+MESSAGE You have 2 Potions of Slowness (i).
+MESSAGE You re-arrange your pack.
+MESSAGE The killer brown beetle bites you.
+MESSAGE You die.

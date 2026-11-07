@@ -1,0 +1,663 @@
+BORG 111 # Selling 'Scroll of Word of Recall' to the home
+BORG 111 # Selling Scroll of Word of Recall
+BORG 48099 # Selling 'Potion of Boldness' at 'Alchemy Shop'
+BORG 48099 # Selling Potion of Boldness
+BORG 48109 # Selling 'Scroll of Detect Invisible' at 'Alchemy Shop'
+BORG 48109 # Selling 'Scroll of Detect Invisible' at 'Alchemy Shop'
+BORG 48109 # Selling Scroll of Detect Invisible
+BORG 48109 # Selling 'Wicker Shield [2,+0]' at 'Armoury'
+BORG 48139 # Selling 'Wicker Shield [2,+0]' at 'Armoury'
+BORG 48139 # Selling Wicker Shield [2,+0]
+BORG 48149 # Selling 'Potions of Cure Light Wounds' at 'Alchemy Shop'
+BORG 48179 # Selling 'Potions of Cure Light Wounds' at 'Alchemy Shop'
+BORG 48179 # Selling Potions of Cure Light Wounds
+BORG 48189 # Selling 'Potions of Cure Light Wounds' at 'Alchemy Shop'
+BORG 48189 # Selling 'Potions of Cure Light Wounds' at 'Alchemy Shop'
+BORG 48189 # Selling Potions of Cure Light Wounds
+BORG 48189 # Selling 'Potions of Cure Light Wounds' at 'Alchemy Shop'
+BORG 48189 # Selling 'Potions of Cure Light Wounds' at 'Alchemy Shop'
+BORG 48189 # Selling Potions of Cure Light Wounds
+BORG 48189 # Selling 'Potions of Cure Light Wounds' at 'Alchemy Shop'
+BORG 48189 # Selling 'Potions of Cure Light Wounds' at 'Alchemy Shop'
+BORG 48189 # Selling Potions of Cure Light Wounds
+BORG 48189 # Selling 'Smoky Potions' at 'Alchemy Shop'
+BORG 48189 # Selling 'Smoky Potions' at 'Alchemy Shop'
+BORG 48189 # Selling Smoky Potions
+BORG 48189 # Selling 'Shimmering Potion' at 'Alchemy Shop'
+BORG 48189 # Selling 'Shimmering Potion' at 'Alchemy Shop'
+BORG 48189 # Selling Shimmering Potion
+BORG 48189 # Selling 'Scroll titled "puludita us"' at 'Alchemy Shop'
+BORG 48189 # Selling 'Scroll titled "puludita us"' at 'Alchemy Shop'
+BORG 48189 # Selling Scroll titled "puludita us"
+BORG 48189 # Selling 'Scrolls titled "pus tas hum ex"' at 'Alchemy Shop'
+BORG 48189 # Selling 'Scrolls titled "pus tas hum ex"' at 'Alchemy Shop'
+BORG 48189 # Selling Scrolls titled "pus tas hum ex"
+BORG 48189 # Selling 'Scrolls titled "quo plucus veo"' at 'Alchemy Shop'
+BORG 48189 # Selling 'Scrolls titled "quo plucus veo"' at 'Alchemy Shop'
+BORG 48189 # Selling Scrolls titled "quo plucus veo"
+BORG 48189 # Selling 'Scroll of Light' at 'Alchemy Shop'
+BORG 48189 # Selling 'Scroll of Light' at 'Alchemy Shop'
+BORG 48189 # Selling Scroll of Light
+BORG 48189 # Selling 'Robe [2,+1]' at 'Armoury'
+BORG 48219 # Selling 'Robe [2,+1]' at 'Armoury'
+BORG 48219 # Selling Robe [2,+1]
+BORG 48229 # Selling 'Scroll of Deep Descent' at 'Alchemy Shop'
+BORG 48259 # Selling 'Scroll of Deep Descent' at 'Alchemy Shop'
+BORG 48259 # Selling Scroll of Deep Descent
+BORG 48269 # Selling 'Hard Leather Cap [2,+3]' at 'Armoury'
+BORG 48299 # Selling 'Hard Leather Cap [2,+3]' at 'Armoury'
+BORG 48299 # Selling Hard Leather Cap [2,+3]
+BORG 48309 # Buying 'Amulet of Resist Acid {unseen}'(m) at 'Magic Shop' (for player 'b')
+BORG 48369 # Buying Amulet of Resist Acid {unseen}.
+BORG 48389 # Selling 'Amulet of Slow Digestion' to the home
+BORG 48449 # Selling 'Amulet of Slow Digestion' to the home
+BORG 48449 # Selling Amulet of Slow Digestion
+BORG 48459 # Buying 'Scrolls of Phase Door'(r) at 'Alchemy Shop' (for player 'b')
+BORG 48579 # Buying Scrolls of Phase Door.
+BORG 48589 # Buying 'Scrolls of Phase Door'(r) at 'Alchemy Shop' (for player 'b')
+BORG 48589 # Buying Scrolls of Phase Door.
+BORG 71105 # Creating a monster 'acolyte' at (23,45), HP: 16, Index: 38
+BORG 71105 # Removing Regional Fear (23,45) because of a LOS acolyte
+BORG 71105 # Scary guy on level.
+BORG 71105 # Leaving (Scary guy on level)
+BORG 71105 # Fleeing (Scary guy on level)
+BORG 71105 # Loc:28,40 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=89
+BORG 71105 # Fleeing and leaving the level. (scaryguy)
+BORG 71105 # Flowing toward up-stairs at cost 14
+BORG 71105 # Desperate for Stairs (three)
+BORG 71115 # Scary guy on level.
+BORG 71115 # Loc:27,40 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=88
+BORG 71115 # Fleeing and leaving the level. (scaryguy)
+BORG 71115 # Flowing toward up-stairs at cost 13
+BORG 71115 # Desperate for Stairs (three)
+BORG 71125 # Tracking a monster 'acolyte' at (25,43) from (23,45)
+BORG 71125 # Scary guy on level.
+BORG 71125 # Loc:26,40 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=90
+BORG 71125 # Fleeing and leaving the level. (scaryguy)
+BORG 71125 # Flowing toward up-stairs at cost 12
+BORG 71125 # Desperate for Stairs (three)
+BORG 71135 # Tracking a monster 'acolyte' at (25,42) from (25,43)
+BORG 71135 # Creating a monster 'gallant' at (25,43), HP: 34, Index: 72
+BORG 71135 # Removing Regional Fear (25,43) because of a LOS gallant
+BORG 71135 # Scary guy on level.
+BORG 71135 # Loc:25,41 Dep:4 Lev:7 HP:89/89 SP:0/0 Danger:p=205
+BORG 71135 # Fleeing and leaving the level. (scaryguy)
+BORG 71135 # Reading Scrolls of Deep Descent.
+BORG 71135 # Danger Level 1.
+BORG 71145 # HIT_BY:The acolyte (+)
+BORG 71145 # Tracking a monster 'gallant' at (24,42) from (25,43)
+BORG 71145 # HIT_BY:The acolyte (3)
+BORG 71145 # Scary guy on level.
+BORG 71145 # Loc:25,41 Dep:4 Lev:7 HP:86/89 SP:0/0 Danger:p=214
+BORG 71145 # Fleeing and leaving the level. (scaryguy)
+BORG 71145 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71145 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71145 # Performing attack type 1 with value 141.
+BORG 71145 # Facing gallant at (24,42) who has 34 Hit Points.
+BORG 71145 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71153 # HIT:the gallant (+)
+BORG 71153 # MISS:the gallant (+)
+BORG 71153 # HIT_BY:The acolyte (+)
+BORG 71153 # HIT_BY:The gallant (+)
+BORG 71153 # HIT_BY:The gallant (+)
+BORG 71153 # HIT:the gallant (2)
+BORG 71153 # MISS:the gallant (2)
+BORG 71153 # HIT_BY:The acolyte (3)
+BORG 71153 # HIT_BY:The gallant (3)
+BORG 71153 # HIT_BY:The gallant (3)
+BORG 71153 # Scary guy on level.
+BORG 71153 # Loc:25,41 Dep:4 Lev:7 HP:81/89 SP:0/0 Danger:p=214
+BORG 71153 # Fleeing and leaving the level. (scaryguy)
+BORG 71153 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71153 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71153 # Performing attack type 1 with value 141.
+BORG 71153 # Facing gallant at (24,42) who has 28 Hit Points.
+BORG 71153 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71160 # MISS:the gallant (+)
+BORG 71160 # HIT:the gallant (+)
+BORG 71160 # HIT_BY:The acolyte (+)
+BORG 71160 # MISS_BY:The gallant (+)
+BORG 71160 # HIT_BY:The gallant (+)
+BORG 71160 # MISS:the gallant (2)
+BORG 71160 # HIT:the gallant (2)
+BORG 71160 # HIT_BY:The acolyte (3)
+BORG 71160 # MISS_BY:The gallant (3)
+BORG 71160 # HIT_BY:The gallant (3)
+BORG 71160 # Scary guy on level.
+BORG 71160 # Loc:25,41 Dep:4 Lev:7 HP:74/89 SP:0/0 Danger:p=214
+BORG 71160 # Fleeing and leaving the level. (scaryguy)
+BORG 71160 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71160 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71160 # Performing attack type 1 with value 141.
+BORG 71160 # Facing gallant at (24,42) who has 24 Hit Points.
+BORG 71160 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71167 # HIT:the gallant (+)
+BORG 71167 # HIT:the gallant (+)
+BORG 71167 # Creating a monster 'apprentice' at (25,43), HP: 15, Index: 39
+BORG 71167 # Removing Regional Fear (25,43) because of a LOS apprentice
+BORG 71167 # HIT:the gallant (2)
+BORG 71167 # HIT:the gallant (2)
+BORG 71167 # Scary guy on level.
+BORG 71167 # Loc:25,41 Dep:4 Lev:7 HP:74/89 SP:0/0 Danger:p=253
+BORG 71167 # Fleeing and leaving the level. (scaryguy)
+BORG 71167 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71167 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71167 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71167 # Performing attack type 1 with value 141.
+BORG 71167 # Facing gallant at (24,42) who has 11 Hit Points.
+BORG 71167 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71174 # MISS:the gallant (+)
+BORG 71174 # HIT:the gallant (+)
+BORG 71174 # MISS_BY:The acolyte (+)
+BORG 71174 # Tracking a monster 'apprentice' at (26,42) from (25,43)
+BORG 71174 # MISS:the gallant (2)
+BORG 71174 # HIT:the gallant (2)
+BORG 71174 # MISS_BY:The acolyte (3)
+BORG 71174 # Scary guy on level.
+BORG 71174 # Loc:25,41 Dep:4 Lev:7 HP:75/89 SP:0/0 Danger:p=269
+BORG 71174 # Fleeing and leaving the level. (scaryguy)
+BORG 71174 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71174 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71174 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71174 # Performing attack type 1 with value 141.
+BORG 71174 # Facing gallant at (24,42) who has 6 Hit Points.
+BORG 71174 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71181 # HIT:the gallant (+)
+BORG 71181 # MISS:the gallant (+)
+BORG 71181 # PAIN:The gallant (+)
+BORG 71181 # HIT:the gallant (2)
+BORG 71181 # MISS:the gallant (2)
+BORG 71181 # PAIN:The gallant (2)
+BORG 71181 # There was a monster 'gallant' at (24,42)
+BORG 71181 # Forgetting a monster 'gallant' at (24,42)
+BORG 71181 # Scary guy on level.
+BORG 71181 # Loc:25,41 Dep:4 Lev:7 HP:75/89 SP:0/0 Danger:p=136
+BORG 71181 # Fleeing and leaving the level. (scaryguy)
+BORG 71181 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71181 # Bored, or recalling and fighting a monster on Scaryguy Level.
+BORG 71181 # Performing attack type 3 with value 14.
+BORG 71181 # Targeting apprentice who has 15 Hit Points (26,42).
+BORG 71181 # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+BORG 71191 # DIED:The apprentice (+)
+BORG 71191 # FEELING_DANGER:7 (+)
+BORG 71191 # Forgetting a monster 'apprentice' at (26,42)
+BORG 71191 # DIED:The apprentice (2)
+BORG 71191 # FEELING_DANGER:7 (1)
+BORG 71191 # Leaving (restock) restock phase door
+BORG 71191 # Resting to recover HP/SP...
+BORG 71261 # Resting to recover HP/SP...
+BORG 71301 # Creating a monster 'snaga' at (16,93), HP: 39, Index: 99
+BORG 71301 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71301 # Loc:16,94 Dep:9 Lev:7 HP:82/89 SP:0/0 Danger:p=56
+BORG 71301 # Fleeing (failed to teleport)
+BORG 71301 # Performing attack type 1 with value 87.
+BORG 71301 # Facing snaga at (16,93) who has 39 Hit Points.
+BORG 71301 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71309 # HIT:the snaga (+)
+BORG 71309 # HIT:the snaga (+)
+BORG 71309 # HIT_BY:The snaga (+)
+BORG 71309 # HIT:the snaga (2)
+BORG 71309 # HIT:the snaga (2)
+BORG 71309 # HIT_BY:The snaga (3)
+BORG 71309 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71309 # Loc:16,94 Dep:9 Lev:7 HP:78/89 SP:0/0 Danger:p=56
+BORG 71309 # Performing attack type 1 with value 87.
+BORG 71309 # Facing snaga at (16,93) who has 28 Hit Points.
+BORG 71309 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71316 # HIT:the snaga (+)
+BORG 71316 # MISS:the snaga (+)
+BORG 71316 # HIT:the snaga (2)
+BORG 71316 # MISS:the snaga (2)
+BORG 71316 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71316 # Loc:16,94 Dep:9 Lev:7 HP:78/89 SP:0/0 Danger:p=56
+BORG 71316 # Performing attack type 1 with value 87.
+BORG 71316 # Facing snaga at (16,93) who has 24 Hit Points.
+BORG 71316 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71323 # HIT:the snaga (+)
+BORG 71323 # MISS:the snaga (+)
+BORG 71323 # HIT_BY:The snaga (+)
+BORG 71323 # HIT:the snaga (2)
+BORG 71323 # MISS:the snaga (2)
+BORG 71323 # HIT_BY:The snaga (3)
+BORG 71323 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71323 # Loc:16,94 Dep:9 Lev:7 HP:77/89 SP:0/0 Danger:p=56
+BORG 71323 # Performing attack type 1 with value 87.
+BORG 71323 # Facing snaga at (16,93) who has 18 Hit Points.
+BORG 71323 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71330 # HIT:the snaga (+)
+BORG 71330 # HIT:the snaga (+)
+BORG 71330 # HIT_BY:The snaga (+)
+BORG 71330 # HIT:the snaga (2)
+BORG 71330 # HIT:the snaga (2)
+BORG 71330 # HIT_BY:The snaga (3)
+BORG 71330 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71330 # Loc:16,94 Dep:9 Lev:7 HP:71/89 SP:0/0 Danger:p=56
+BORG 71330 # Performing attack type 1 with value 87.
+BORG 71330 # Facing snaga at (16,93) who has 8 Hit Points.
+BORG 71330 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71337 # HIT:the snaga (+)
+BORG 71337 # HIT:the snaga (+)
+BORG 71337 # KILL:the snaga (+)
+BORG 71337 # Forgetting a monster 'snaga' at (16,93)
+BORG 71337 # Creating a monster 'snaga' at (16,93), HP: 38, Index: 99
+BORG 71337 # HIT:the snaga (2)
+BORG 71337 # HIT:the snaga (2)
+BORG 71337 # KILL:the snaga (2)
+BORG 71337 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71337 # Loc:16,94 Dep:9 Lev:8 HP:71/100 SP:0/0 Danger:p=23
+BORG 71337 # Performing attack type 1 with value 61.
+BORG 71337 # Facing snaga at (16,93) who has 38 Hit Points.
+BORG 71337 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71345 # HIT:the snaga (+)
+BORG 71345 # HIT:the snaga (+)
+BORG 71345 # HIT:the snaga (2)
+BORG 71345 # HIT:the snaga (2)
+BORG 71345 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71345 # Loc:16,94 Dep:9 Lev:8 HP:71/100 SP:0/0 Danger:p=23
+BORG 71345 # Performing attack type 1 with value 61.
+BORG 71345 # Facing snaga at (16,93) who has 24 Hit Points.
+BORG 71345 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71352 # HIT:the snaga (+)
+BORG 71352 # HIT:the snaga (+)
+BORG 71352 # HIT_BY:The snaga (+)
+BORG 71352 # HIT:the snaga (2)
+BORG 71352 # HIT:the snaga (2)
+BORG 71352 # HIT_BY:The snaga (3)
+BORG 71352 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71352 # Loc:16,94 Dep:9 Lev:8 HP:68/100 SP:0/0 Danger:p=23
+BORG 71352 # Performing attack type 1 with value 61.
+BORG 71352 # Facing snaga at (16,93) who has 10 Hit Points.
+BORG 71352 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71359 # HIT:the snaga (+)
+BORG 71359 # HIT:the snaga (+)
+BORG 71359 # KILL:the snaga (+)
+BORG 71359 # Forgetting a monster 'snaga' at (16,93)
+BORG 71359 # Creating a monster 'snaga' at (16,93), HP: 42, Index: 99
+BORG 71359 # HIT:the snaga (2)
+BORG 71359 # HIT:the snaga (2)
+BORG 71359 # KILL:the snaga (2)
+BORG 71359 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71359 # Loc:16,94 Dep:9 Lev:8 HP:68/100 SP:0/0 Danger:p=23
+BORG 71359 # Performing attack type 1 with value 61.
+BORG 71359 # Facing snaga at (16,93) who has 42 Hit Points.
+BORG 71359 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71366 # MISS:the snaga (+)
+BORG 71366 # HIT:the snaga (+)
+BORG 71366 # MISS:the snaga (2)
+BORG 71366 # HIT:the snaga (2)
+BORG 71366 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71366 # Loc:16,94 Dep:9 Lev:8 HP:68/100 SP:0/0 Danger:p=23
+BORG 71366 # Performing attack type 1 with value 61.
+BORG 71366 # Facing snaga at (16,93) who has 37 Hit Points.
+BORG 71366 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71373 # MISS:the snaga (+)
+BORG 71373 # HIT:the snaga (+)
+BORG 71373 # HIT_BY:The snaga (+)
+BORG 71373 # MISS:the snaga (2)
+BORG 71373 # HIT:the snaga (2)
+BORG 71373 # HIT_BY:The snaga (3)
+BORG 71373 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71373 # Loc:16,94 Dep:9 Lev:8 HP:60/100 SP:0/0 Danger:p=23
+BORG 71373 # Performing attack type 1 with value 61.
+BORG 71373 # Facing snaga at (16,93) who has 33 Hit Points.
+BORG 71373 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71381 # MISS:the snaga (+)
+BORG 71381 # MISS:the snaga (+)
+BORG 71381 # MISS_BY:The snaga (+)
+BORG 71381 # MISS:the snaga (2)
+BORG 71381 # MISS:the snaga (2)
+BORG 71381 # MISS_BY:The snaga (3)
+BORG 71381 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71381 # Loc:16,94 Dep:9 Lev:8 HP:61/100 SP:0/0 Danger:p=23
+BORG 71381 # Performing attack type 1 with value 61.
+BORG 71381 # Facing snaga at (16,93) who has 33 Hit Points.
+BORG 71381 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71388 # HIT:the snaga (+)
+BORG 71388 # MISS:the snaga (+)
+BORG 71388 # HIT_BY:The snaga (+)
+BORG 71388 # HIT:the snaga (2)
+BORG 71388 # MISS:the snaga (2)
+BORG 71388 # HIT_BY:The snaga (3)
+BORG 71388 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71388 # Loc:16,94 Dep:9 Lev:8 HP:56/100 SP:0/0 Danger:p=23
+BORG 71388 # Performing attack type 1 with value 61.
+BORG 71388 # Facing snaga at (16,93) who has 28 Hit Points.
+BORG 71388 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71395 # HIT:the snaga (+)
+BORG 71395 # HIT:the snaga (+)
+BORG 71395 # HIT:the snaga (2)
+BORG 71395 # HIT:the snaga (2)
+BORG 71395 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71395 # Loc:16,94 Dep:9 Lev:8 HP:56/100 SP:0/0 Danger:p=23
+BORG 71395 # Performing attack type 1 with value 61.
+BORG 71395 # Facing snaga at (16,93) who has 16 Hit Points.
+BORG 71395 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71402 # HIT:the snaga (+)
+BORG 71402 # MISS:the snaga (+)
+BORG 71402 # SPELL_005:The snaga (+)
+BORG 71402 # HIT:the snaga (2)
+BORG 71402 # MISS:the snaga (2)
+BORG 71402 # SPELL_005:The snaga (3)
+BORG 71402 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71402 # Loc:16,94 Dep:9 Lev:8 HP:53/100 SP:0/0 Danger:p=23
+BORG 71402 # Performing attack type 1 with value 61.
+BORG 71402 # Facing snaga at (16,93) who has 12 Hit Points.
+BORG 71402 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71409 # HIT:the snaga (+)
+BORG 71409 # HIT:the snaga (+)
+BORG 71409 # PAIN:The snaga (+)
+BORG 71409 # PAIN:The snaga (+)
+BORG 71409 # HIT:the snaga (2)
+BORG 71409 # HIT:the snaga (2)
+BORG 71409 # PAIN:The snaga (2)
+BORG 71409 # PAIN:The snaga (2)
+BORG 71409 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71409 # Loc:16,94 Dep:9 Lev:8 HP:53/100 SP:0/0 Danger:p=23
+BORG 71409 # Performing attack type 1 with value 58.
+BORG 71409 # Facing snaga at (16,93) who has 3 Hit Points.
+BORG 71409 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71413 # HIT:the snaga (+)
+BORG 71413 # KILL:the snaga (+)
+BORG 71413 # Forgetting a monster 'snaga' at (16,93)
+BORG 71413 # Creating a monster 'snaga' at (16,93), HP: 31, Index: 99
+BORG 71413 # HIT:the snaga (2)
+BORG 71413 # KILL:the snaga (2)
+BORG 71413 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71413 # Loc:16,94 Dep:9 Lev:8 HP:54/100 SP:0/0 Danger:p=23
+BORG 71413 # Performing attack type 1 with value 61.
+BORG 71413 # Facing snaga at (16,93) who has 31 Hit Points.
+BORG 71413 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71420 # HIT:the snaga (+)
+BORG 71420 # HIT:the snaga (+)
+BORG 71420 # HIT_BY:The snaga (+)
+BORG 71420 # HIT:the snaga (2)
+BORG 71420 # HIT:the snaga (2)
+BORG 71420 # HIT_BY:The snaga (3)
+BORG 71420 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71420 # Loc:16,94 Dep:9 Lev:8 HP:52/100 SP:0/0 Danger:p=23
+BORG 71420 # Performing attack type 1 with value 61.
+BORG 71420 # Facing snaga at (16,93) who has 18 Hit Points.
+BORG 71420 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71427 # HIT:the snaga (+)
+BORG 71427 # MISS:the snaga (+)
+BORG 71427 # HIT:the snaga (2)
+BORG 71427 # MISS:the snaga (2)
+BORG 71427 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71427 # Loc:16,94 Dep:9 Lev:8 HP:52/100 SP:0/0 Danger:p=23
+BORG 71427 # Performing attack type 1 with value 61.
+BORG 71427 # Facing snaga at (16,93) who has 12 Hit Points.
+BORG 71427 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71435 # MISS:the snaga (+)
+BORG 71435 # HIT:the snaga (+)
+BORG 71435 # HIT_BY:The snaga (+)
+BORG 71435 # MISS:the snaga (2)
+BORG 71435 # HIT:the snaga (2)
+BORG 71435 # HIT_BY:The snaga (3)
+BORG 71435 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71435 # Loc:16,94 Dep:9 Lev:8 HP:45/100 SP:0/0 Danger:p=23
+BORG 71435 # Performing attack type 1 with value 61.
+BORG 71435 # Facing snaga at (16,93) who has 8 Hit Points.
+BORG 71435 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71442 # HIT:the snaga (+)
+BORG 71442 # HIT:the snaga (+)
+BORG 71442 # PAIN:The snaga (+)
+BORG 71442 # SPELL_005:The snaga (+)
+BORG 71442 # HIT:the snaga (2)
+BORG 71442 # HIT:the snaga (2)
+BORG 71442 # PAIN:The snaga (2)
+BORG 71442 # SPELL_005:The snaga (3)
+BORG 71442 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71442 # Loc:16,94 Dep:9 Lev:8 HP:39/100 SP:0/0 Danger:p=23
+BORG 71442 # Fleeing and leaving the level. (Looking for any stair)
+BORG 71442 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 71442 # heading up, not prep for current level: restock phase door)
+BORG 71442 # Climbing (too deep: restock phase door)
+BORG 71442 # Looking for up stairs.  Going up.
+BORG 71442 # Bored but unable to flow to up stairs.
+BORG 71442 # no up stairs found, going down
+BORG 71442 # heading up, not prep for current level: restock phase door)
+BORG 71442 # heading up (bored and unable to dive: restock phase door)
+BORG 71442 # Climbing (too deep: restock phase door)
+BORG 71442 # Looking for up stairs.  Going up.
+BORG 71442 # Bored but unable to flow to up stairs.
+BORG 71442 # no up stairs found, going down
+BORG 71442 # Boosting bravery (1) from 39 to 78!
+BORG 71442 # Fleeing and leaving the level. Brave Thinking.
+BORG 71442 # heading up, not prep for current level: restock phase door)
+BORG 71442 # heading up (bored and unable to dive: restock phase door)
+BORG 71442 # Climbing (too deep: restock phase door)
+BORG 71442 # Looking for up stairs.  Going up.
+BORG 71442 # Bored but unable to flow to up stairs.
+BORG 71442 # no up stairs found, going down
+BORG 71442 # Considering Phase (twitchy)
+BORG 71442 # Boosting bravery (2) from 39 to 400!
+BORG 71442 # Fleeing and leaving the level. Brave Thinking.
+BORG 71442 # Flowing toward kill at cost 1
+BORG 71442 # Walking into a 'snaga' at (16,93)
+BORG 71445 # HIT:the snaga (+)
+BORG 71445 # KILL:the snaga (+)
+BORG 71445 # Forgetting a monster 'snaga' at (16,93)
+BORG 71445 # Creating a monster 'snaga' at (16,93), HP: 28, Index: 99
+BORG 71445 # HIT:the snaga (2)
+BORG 71445 # KILL:the snaga (2)
+BORG 71445 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71445 # Loc:16,94 Dep:9 Lev:8 HP:39/100 SP:0/0 Danger:p=56
+BORG 71445 # Reading Scroll of Deep Descent.
+BORG 71445 # Danger Level 3.4
+BORG 71455 # MISS_BY:The snaga (+)
+BORG 71455 # MISS_BY:The snaga (3)
+BORG 71455 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71455 # Loc:16,94 Dep:9 Lev:8 HP:39/100 SP:0/0 Danger:p=56
+BORG 71455 # Performing attack type 1 with value 87.
+BORG 71455 # Facing snaga at (16,93) who has 28 Hit Points.
+BORG 71455 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71463 # HIT:the snaga (+)
+BORG 71463 # HIT:the snaga (+)
+BORG 71463 # HIT_BY:The snaga (+)
+BORG 71463 # HIT:the snaga (2)
+BORG 71463 # HIT:the snaga (2)
+BORG 71463 # HIT_BY:The snaga (3)
+BORG 71463 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71463 # Loc:16,94 Dep:9 Lev:8 HP:36/100 SP:0/0 Danger:p=56
+BORG 71463 # Performing attack type 1 with value 87.
+BORG 71463 # Facing snaga at (16,93) who has 18 Hit Points.
+BORG 71463 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71470 # MISS:the snaga (+)
+BORG 71470 # HIT:the snaga (+)
+BORG 71470 # MISS_BY:The snaga (+)
+BORG 71470 # MISS:the snaga (2)
+BORG 71470 # HIT:the snaga (2)
+BORG 71470 # MISS_BY:The snaga (3)
+BORG 71470 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71470 # Loc:16,94 Dep:9 Lev:8 HP:36/100 SP:0/0 Danger:p=56
+BORG 71470 # Performing attack type 1 with value 87.
+BORG 71470 # Facing snaga at (16,93) who has 12 Hit Points.
+BORG 71470 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71477 # HIT:the snaga (+)
+BORG 71477 # MISS:the snaga (+)
+BORG 71477 # HIT:the snaga (2)
+BORG 71477 # MISS:the snaga (2)
+BORG 71477 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71477 # Loc:16,94 Dep:9 Lev:8 HP:36/100 SP:0/0 Danger:p=56
+BORG 71477 # Performing attack type 1 with value 87.
+BORG 71477 # Facing snaga at (16,93) who has 7 Hit Points.
+BORG 71477 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71484 # HIT:the snaga (+)
+BORG 71484 # MISS:the snaga (+)
+BORG 71484 # PAIN:The snaga (+)
+BORG 71484 # PAIN:The snaga (+)
+BORG 71484 # HIT:the snaga (2)
+BORG 71484 # MISS:the snaga (2)
+BORG 71484 # PAIN:The snaga (2)
+BORG 71484 # PAIN:The snaga (2)
+BORG 71484 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71484 # Loc:16,94 Dep:9 Lev:8 HP:36/100 SP:0/0 Danger:p=56
+BORG 71484 # Performing attack type 1 with value 82.
+BORG 71484 # Facing snaga at (16,93) who has 2 Hit Points.
+BORG 71484 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71488 # HIT:the snaga (+)
+BORG 71488 # KILL:the snaga (+)
+BORG 71488 # Forgetting a monster 'snaga' at (16,93)
+BORG 71488 # Creating a monster 'crow' at (16,93), HP: 9, Index: 52
+BORG 71488 # HIT:the snaga (2)
+BORG 71488 # KILL:the snaga (2)
+BORG 71488 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71488 # Loc:16,94 Dep:9 Lev:8 HP:36/100 SP:0/0 Danger:p=12
+BORG 71488 # Performing attack type 1 with value 33.
+BORG 71488 # Facing crow at (16,93) who has 9 Hit Points.
+BORG 71488 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71491 # HIT:the crow (+)
+BORG 71491 # KILL:the crow (+)
+BORG 71491 # Forgetting a monster 'crow' at (16,93)
+BORG 71491 # HIT:the crow (2)
+BORG 71491 # KILL:the crow (2)
+BORG 71491 # Resting to recover HP/SP...
+BORG 71501 # Creating a monster 'snaga' at (16,93), HP: 39, Index: 99
+BORG 71501 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71501 # Loc:16,94 Dep:9 Lev:8 HP:37/100 SP:0/0 Danger:p=56
+BORG 71501 # Performing attack type 1 with value 87.
+BORG 71501 # Facing snaga at (16,93) who has 39 Hit Points.
+BORG 71501 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71509 # HIT:the snaga (+)
+BORG 71509 # HIT:the snaga (+)
+BORG 71509 # MISS_BY:The snaga (+)
+BORG 71509 # HIT:the snaga (2)
+BORG 71509 # HIT:the snaga (2)
+BORG 71509 # MISS_BY:The snaga (3)
+BORG 71509 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 71509 # Loc:16,94 Dep:9 Lev:8 HP:37/100 SP:0/0 Danger:p=56
+BORG 71509 # Performing attack type 1 with value 87.
+BORG 71509 # Facing snaga at (16,93) who has 29 Hit Points.
+BORG 71509 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 71511 # HIT:the snaga (+)
+BORG 71511 # HIT:the snaga (+)
+BORG 71511 # FEELING_DANGER:7 (+)
+BORG 71511 # HIT:the snaga (2)
+BORG 71511 # HIT:the snaga (2)
+BORG 71511 # FEELING_DANGER:7 (1)
+BORG 71511 # Leaving (restock) restock phase door
+BORG 71511 # Resting to recover HP/SP...
+BORG 72441 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 72451 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 72461 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 72461 # Flowing toward dark-3 at cost 2
+BORG 72471 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 72481 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 72481 # Flowing toward dark-3 at cost 3
+BORG 72491 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 72501 # Creating a monster 'brown mold' at (12,51), HP: 60, Index: 96
+BORG 72501 # Loc:11,50 Dep:14 Lev:8 HP:100/100 SP:0/0 Danger:p=832
+BORG 72501 # Retreating to 10,49 (distance 1) via 10,49 (832 > 0)
+BORG 72511 # PAIN:The brown mold (+)
+BORG 72511 # PAIN:The brown mold (2)
+BORG 72511 # Performing attack type 3 with value 20.
+BORG 72511 # Targeting brown mold who has 60 Hit Points (12,51).
+BORG 72511 # Firing missile 'Iron Shots of Slay Animal (1d4) (+6,+3)'
+BORG 72521 # PAIN:The brown mold (+)
+BORG 72521 # Creating an object '& Iron Shot~' at (51,12)
+BORG 72521 # PAIN:The brown mold (2)
+BORG 72521 # Performing attack type 3 with value 20.
+BORG 72521 # Targeting brown mold who has 36 Hit Points (12,51).
+BORG 72521 # Firing missile 'Iron Shot of Slay Animal (1d4) (+6,+3)'
+BORG 72531 # PAIN:The brown mold (+)
+BORG 72531 # Creating an object '& Iron Shot~' at (51,12)
+BORG 72531 # PAIN:The brown mold (2)
+BORG 72531 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 72531 # Flowing toward dark-3 at cost 3
+BORG 72541 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 72855 # PAIN:The zombified human (+)
+BORG 72855 # HIT_BY:The creeping copper coins (+)
+BORG 72855 # HIT_BY:The creeping copper coins (+)
+BORG 72855 # Tracking a monster 'zombified human' at (5,42) from (5,43)
+BORG 72855 # Creating a monster 'creeping copper coins' at (6,43), HP: 39, Index: 75
+BORG 72855 # PAIN:The zombified human (2)
+BORG 72855 # HIT_BY:The creeping copper coins (4)
+BORG 72855 # HIT_BY:The creeping copper coins (4)
+BORG 72855 # Loc:7,43 Dep:14 Lev:8 HP:90/100 SP:0/0 Danger:p=41
+BORG 72855 # Retreating to 8,43 (distance 1) via 8,43 (41 > 17)
+BORG 72865 # Tracking a monster 'zombified human' at (5,43) from (5,42)
+BORG 72865 # Loc:8,43 Dep:14 Lev:8 HP:89/100 SP:0/0 Danger:p=18
+BORG 72865 # Quaffing Potions of Neutralize Poison.
+BORG 72875 # Tracking a monster 'creeping copper coins' at (7,43) from (6,43)
+BORG 72875 # Tracking a monster 'zombified human' at (6,43) from (5,43)
+BORG 72875 # Loc:8,43 Dep:14 Lev:8 HP:89/100 SP:0/0 Danger:p=51
+BORG 72875 # Retreating to 9,43 (distance 1) via 9,43 (51 > 18)
+BORG 72885 # Tracking a monster 'zombified human' at (7,42) from (6,43)
+BORG 72885 # Loc:9,43 Dep:14 Lev:8 HP:89/100 SP:0/0 Danger:p=28
+BORG 72885 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 72885 # heading up, not prep for current level: restock phase door)
+BORG 72885 # Climbing (too deep: restock phase door)
+BORG 72885 # Looking for up stairs.  Going up.
+BORG 72885 # Bored but unable to flow to up stairs.
+BORG 72885 # no up stairs found, going down
+BORG 72885 # heading up, not prep for current level: restock phase door)
+BORG 72885 # heading up (bored and unable to dive: restock phase door)
+BORG 72885 # Climbing (too deep: restock phase door)
+BORG 72885 # Looking for up stairs.  Going up.
+BORG 72885 # Bored but unable to flow to up stairs.
+BORG 72885 # no up stairs found, going down
+BORG 72885 # Boosting bravery (1) from 89 to 178!
+BORG 72885 # Fleeing and leaving the level. Brave Thinking.
+BORG 72885 # heading up, not prep for current level: restock phase door)
+BORG 72885 # heading up (bored and unable to dive: restock phase door)
+BORG 72885 # Climbing (too deep: restock phase door)
+BORG 72885 # Looking for up stairs.  Going up.
+BORG 72885 # Bored but unable to flow to up stairs.
+BORG 72885 # no up stairs found, going down
+BORG 72885 # Flowing toward spastic at cost 0
+BORG 72885 # Considering Phase (twitchy)
+BORG 72885 # Boosting bravery (2) from 89 to 400!
+BORG 72885 # Fleeing and leaving the level. Brave Thinking.
+BORG 72885 # Flowing toward dark-3 at cost 5
+BORG 72895 # HIT_BY:The creeping copper coins (+)
+BORG 72895 # HIT_BY:The creeping copper coins (+)
+BORG 72895 # MISS_BY:The zombified human (+)
+BORG 72895 # MISS_BY:The zombified human (+)
+BORG 72895 # HIT_BY:The creeping copper coins (3)
+BORG 72895 # HIT_BY:The creeping copper coins (3)
+BORG 72895 # MISS_BY:The zombified human (3)
+BORG 72895 # MISS_BY:The zombified human (3)
+BORG 72895 # Possibility of being surrounded (monsters/safegrids)(2/1)
+BORG 72895 # Loc:8,43 Dep:14 Lev:8 HP:81/100 SP:0/0 Danger:p=103
+BORG 72895 # Fleeing (failed to teleport)
+BORG 72895 # Performing attack type 1 with value 33.
+BORG 72895 # Facing zombified human at (7,42) who has 45 Hit Points.
+BORG 72895 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 72902 # HIT:the zombified human (+)
+BORG 72902 # HIT:the zombified human (+)
+BORG 72902 # HIT_BY:The zombified human (+)
+BORG 72902 # MISS_BY:The zombified human (+)
+BORG 72902 # Creating a monster 'orc shaman' at (6,43), HP: 47, Index: 130
+BORG 72902 # Removing Regional Fear (6,43) because of a LOS orc shaman
+BORG 72902 # HIT:the zombified human (2)
+BORG 72902 # HIT:the zombified human (2)
+BORG 72902 # HIT_BY:The zombified human (3)
+BORG 72902 # MISS_BY:The zombified human (3)
+BORG 72902 # Possibility of being surrounded (monsters/safegrids)(3/1)
+BORG 72902 # Loc:8,43 Dep:14 Lev:8 HP:76/100 SP:0/0 Danger:p=121
+BORG 72902 # Retreating to 9,43 (distance 1) via 9,43 (121 > 43)
+BORG 72912 # Tracking a monster 'creeping copper coins' at (8,43) from (7,43)
+BORG 72912 # Tracking a monster 'zombified human' at (7,43) from (7,42)
+BORG 72912 # Tracking a monster 'orc shaman' at (7,42) from (6,43)
+BORG 72912 # Loc:9,43 Dep:14 Lev:8 HP:75/100 SP:0/0 Danger:p=55
+BORG 72912 # Performing attack type 1 with value 31.
+BORG 72912 # Facing creeping copper coins at (8,43) who has 39 Hit Points.
+BORG 72912 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 72919 # MISS:the creeping copper coins (+)
+BORG 72919 # HIT:the creeping copper coins (+)
+BORG 72919 # Creating a monster 'killer brown beetle' at (6,43), HP: 53, Index: 178
+BORG 72919 # Removing Regional Fear (6,43) because of a LOS killer brown beetle
+BORG 72919 # MISS:the creeping copper coins (2)
+BORG 72919 # HIT:the creeping copper coins (2)
+BORG 72919 # Loc:9,43 Dep:14 Lev:8 HP:75/100 SP:0/0 Danger:p=60
+BORG 72919 # Performing attack type 1 with value 31.
+BORG 72919 # Facing creeping copper coins at (8,43) who has 32 Hit Points.
+BORG 72919 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 72927 # HIT:the creeping copper coins (+)
+BORG 72927 # HIT:the creeping copper coins (+)
+BORG 72927 # HIT:the creeping copper coins (2)
+BORG 72927 # HIT:the creeping copper coins (2)
+BORG 72927 # Loc:9,43 Dep:14 Lev:8 HP:76/100 SP:0/0 Danger:p=60
+BORG 72927 # Performing attack type 1 with value 31.
+BORG 72927 # Facing creeping copper coins at (8,43) who has 22 Hit Points.
+BORG 72927 # Attacking with weapon 'Dagger (1d4) (+0,+0)'

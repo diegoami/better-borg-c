@@ -1,0 +1,27 @@
+Original recording: frame 88904, engine turn 73060, phase tick; HP 32, SP 0, depth 14
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You miss the killer brown beetle. You hit the killer brown beetle.              
+Human                                                                           
+Soldier                                                                         
+Warrior                                                                         
+LEVEL      9                                                                    
+NXT       35                                           ###   #####              
+AU       638                                           .C.   #...#              
+|}= "~(()]]]                                         ###C# ###.###              
+STR:   18/20                                         #.CC# #.....#              
+INT:       8                                         #.#K# #.#.#.#              
+WIS:       8                                           #@# #.#.#.#              
+DEX:      18                                           #'#####.###              
+CON:      18                                           #.#.......#              
+                                                     ###.#.#.#.#{#              
+Cur AC    26                                         #.....#.#.# #              
+HP   32/ 106                                         ###.#.#.#.#                
+                                                       #.#.#.#.#                
+                                                       #########                
+[********--]                                                                    
+                                                                                
+                                                                                
+                                                                                
+700' (L14)                                                                      
+             LF:3-5 Light 3  Fed 34 % Open floor                                

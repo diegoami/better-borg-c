@@ -50,7 +50,8 @@
         "D0002",
         "D0003",
         "D0004",
-        "D0005"
+        "D0005",
+        "D0006"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
       "key": "heal-eligibility",
@@ -128,26 +129,65 @@
         "D0002",
         "D0003",
         "D0004",
-        "D0005"
+        "D0005",
+        "D0006"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/159",
       "key": "attempted-room-retreat",
       "status": "proposed analysis; sleep timing, route knowledge and outcomes unproved",
       "summary": "Evaluate attempted door/upstairs retreat before repeated phases and after scroll exhaustion"
+    },
+    {
+      "cases": [
+        "D0006"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/180",
+      "key": "identification-priority",
+      "status": "proposed enhancement; priority/knowledge value and costs need evidence",
+      "summary": "Evaluate identification-driven inventory and town trading, auditing existing sell-ID behavior"
+    },
+    {
+      "cases": [
+        "D0006"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/181",
+      "key": "ammunition-readiness",
+      "status": "proposed analysis; no incorrect equipment choice or benefit proved",
+      "summary": "Evaluate ammunition reserves/spending, melee alternatives and combat preparedness"
+    },
+    {
+      "cases": [
+        "D0006"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/183",
+      "key": "recall-deep-descent",
+      "status": "investigating; Recall at Home and two five-level drops observed; rescue untested",
+      "summary": "Evaluate early Recall retention and destination-aware delayed Deep Descent escape"
+    },
+    {
+      "cases": [
+        "D0006"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/178",
+      "key": "sidebar-redraw-clarity",
+      "status": "confirmed presentation defect; viewer correction and native-frame/PTY controls pass",
+      "summary": "Label native sidebar HP/SP redraw lag without modifying original game cells"
     }
   ],
-  "cases": 5,
+  "cases": 6,
   "causes_by_distinct_start": {
     "a gallant": 1,
+    "a killer brown beetle": 1,
     "a stegocentipede": 1
   },
-  "death_process_attempts": 13,
-  "distinct_starting_conditions": 2,
+  "death_process_attempts": 14,
+  "distinct_starting_conditions": 3,
   "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
   "schema": "better-borg-c/death-index@1",
   "versions": {
     "127483bc4724c0f75ff7bbc4edddde9293e37c2c": 1,
     "1b95154f65b2ac1ed5fc9a080df6cff971643b5d": 4,
+    "2cebef1b0f39aa068cde45b422df681a0e80d188": 1,
     "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3": 2,
     "3638b690525cd8a381cb106b4c5ee40652babde2": 2,
     "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc": 2,

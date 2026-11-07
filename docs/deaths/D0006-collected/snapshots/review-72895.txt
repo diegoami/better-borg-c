@@ -1,0 +1,27 @@
+Original C40/source2cebef1b0f39, frame88653, engine turn72895, phasecommand, actual HP81/100, depth14, level8
+Logical cells; not pixel video. Hidden diagnostics are not Borg knowledge.
+
+                                                                                
+Human                                                                           
+Soldier                                                                         
+Warrior                                                                         
+LEVEL      8                                                                    
+NXT       18                                           ###   #####              
+AU       638                                           ...   #...#              
+|}= "~(()]]]                                         ###.# ###.###              
+STR:   18/20                                         #.z$# #.....#              
+INT:       8                                         #.#@# #.#.#.#              
+WIS:       8                                           #.# #.#.#.#              
+DEX:      18                                           #'#####.###              
+CON:      18                                           #.#.......#              
+                                                     ###.#.#.#.#{#              
+Cur AC    26                                         #.....#.#.# #              
+HP   81/ 100                                         ###.#.#.#.#                
+                                                       #.#.#.#.#                
+                                                       #########                
+[----------]                                                                    
+                                                                                
+                                                                                
+                                                                                
+700' (L14)                                                                      
+             LF:3-5 Light 3  Poisoned Fed 34 % Open floor                       

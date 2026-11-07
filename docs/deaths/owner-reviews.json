@@ -6,6 +6,12 @@
       "case": "D0004",
       "reason": "Owner reviewed the gallant recording and supplied turn-specific feedback; technical investigations remain open.",
       "evidence": "https://github.com/diegoami/better-borg-c/issues/34#issuecomment-6710312944"
+    },
+    "start-3d21766b4d7846dc1d9bb7fd31649534bfbee0927ba6e987188306e79b0c92b8": {
+      "reviewed": true,
+      "case": "D0006",
+      "reason": "Owner provided detailed replay review at71191/71511/72885, inventory/equipment and escape feedback; technical investigations remain open.",
+      "evidence": "https://github.com/diegoami/better-borg-c/issues/177"
     }
   }
 }

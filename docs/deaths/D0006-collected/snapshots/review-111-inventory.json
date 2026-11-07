@@ -1,0 +1,128 @@
+{
+  "scope": "qualified historical native player-known view; original raw record unchanged",
+  "qualification": "/home/diego/projects/angband/better-borg-c/artifacts/death-workflow/inventory/f1bbd722aa6d5485d0bb85309cff3293ca46e908f83a03ec21ee08b67b4bc477/qualified.json",
+  "frame_index": 141,
+  "turn": 111,
+  "phase": "command",
+  "inventory": {
+    "pack": [
+      {
+        "label": "a",
+        "description": "3 Rations of Food",
+        "slot": "",
+        "attr": 15,
+        "weight": 24
+      },
+      {
+        "label": "b",
+        "description": "a Potion of Berserk Strength",
+        "slot": "",
+        "attr": 14,
+        "weight": 4
+      },
+      {
+        "label": "c",
+        "description": "a Scroll of Word of Recall",
+        "slot": "",
+        "attr": 1,
+        "weight": 5
+      },
+      {
+        "label": "d",
+        "description": "a Wooden Torch (5000 turns)",
+        "slot": "",
+        "attr": 7,
+        "weight": 22
+      }
+    ],
+    "equipment": [
+      {
+        "label": "a",
+        "description": "a Dagger (1d4) (+0,+0)",
+        "slot": "weapon",
+        "attr": 9,
+        "weight": 12
+      },
+      {
+        "label": "b",
+        "description": "(nothing)",
+        "slot": "shooting",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "c",
+        "description": "(nothing)",
+        "slot": "right hand",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "d",
+        "description": "(nothing)",
+        "slot": "left hand",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "e",
+        "description": "(nothing)",
+        "slot": "neck",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "f",
+        "description": "a Wooden Torch (5000 turns)",
+        "slot": "light",
+        "attr": 7,
+        "weight": 22
+      },
+      {
+        "label": "g",
+        "description": "Soft Leather Armour [8,+0]",
+        "slot": "body",
+        "attr": 15,
+        "weight": 80
+      },
+      {
+        "label": "i",
+        "description": "(nothing)",
+        "slot": "back",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "m",
+        "description": "(nothing)",
+        "slot": "arm",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "n",
+        "description": "(nothing)",
+        "slot": "head",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "o",
+        "description": "(nothing)",
+        "slot": "hands",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "p",
+        "description": "(nothing)",
+        "slot": "feet",
+        "attr": 2,
+        "weight": 0
+      }
+    ],
+    "quiver": [],
+    "total_weight": 169,
+    "remaining_weight": 1270
+  }
+}

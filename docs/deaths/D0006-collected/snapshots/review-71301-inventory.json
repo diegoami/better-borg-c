@@ -1,0 +1,227 @@
+{
+  "scope": "qualified historical native player-known view; original raw record unchanged",
+  "qualification": "/home/diego/projects/angband/better-borg-c/artifacts/death-workflow/inventory/f1bbd722aa6d5485d0bb85309cff3293ca46e908f83a03ec21ee08b67b4bc477/qualified.json",
+  "frame_index": 86809,
+  "turn": 71301,
+  "phase": "command",
+  "inventory": {
+    "pack": [
+      {
+        "label": "a",
+        "description": "an Apple",
+        "slot": "",
+        "attr": 12,
+        "weight": 4
+      },
+      {
+        "label": "b",
+        "description": "2 Handfuls of Dried Fruits",
+        "slot": "",
+        "attr": 7,
+        "weight": 6
+      },
+      {
+        "label": "c",
+        "description": "9 Rations of Food",
+        "slot": "",
+        "attr": 15,
+        "weight": 72
+      },
+      {
+        "label": "d",
+        "description": "8 Potions of Cure Light Wounds",
+        "slot": "",
+        "attr": 12,
+        "weight": 32
+      },
+      {
+        "label": "e",
+        "description": "2 Potions of Neutralize Poison",
+        "slot": "",
+        "attr": 16,
+        "weight": 8
+      },
+      {
+        "label": "f",
+        "description": "4 Coagulated Crimson Potions",
+        "slot": "",
+        "attr": 4,
+        "weight": 16
+      },
+      {
+        "label": "g",
+        "description": "a Blue Potion",
+        "slot": "",
+        "attr": 6,
+        "weight": 4
+      },
+      {
+        "label": "i",
+        "description": "3 Black Potions",
+        "slot": "",
+        "attr": 8,
+        "weight": 12
+      },
+      {
+        "label": "m",
+        "description": "a Clear Potion",
+        "slot": "",
+        "attr": 1,
+        "weight": 4
+      },
+      {
+        "label": "n",
+        "description": "a Scroll of Treasure Detection",
+        "slot": "",
+        "attr": 1,
+        "weight": 5
+      },
+      {
+        "label": "o",
+        "description": "a Scroll of Deep Descent",
+        "slot": "",
+        "attr": 1,
+        "weight": 5
+      },
+      {
+        "label": "p",
+        "description": "an Amethyst Ring {??}",
+        "slot": "",
+        "attr": 17,
+        "weight": 2
+      },
+      {
+        "label": "q",
+        "description": "13 Wooden Torches (5000 turns)",
+        "slot": "",
+        "attr": 7,
+        "weight": 286
+      },
+      {
+        "label": "r",
+        "description": "a Pair of Leather Sandals [1,+0]",
+        "slot": "",
+        "attr": 15,
+        "weight": 15
+      },
+      {
+        "label": "s",
+        "description": "a Dagger (1d4) (+0,+0)",
+        "slot": "",
+        "attr": 9,
+        "weight": 12
+      },
+      {
+        "label": "t",
+        "description": "a Whip (1d3) (+0,+0)",
+        "slot": "",
+        "attr": 8,
+        "weight": 30
+      },
+      {
+        "label": "u",
+        "description": "a Short Bow (x2) (+4,+4)",
+        "slot": "",
+        "attr": 15,
+        "weight": 30
+      }
+    ],
+    "equipment": [
+      {
+        "label": "a",
+        "description": "a Dagger (1d4) (+0,+0)",
+        "slot": "weapon",
+        "attr": 9,
+        "weight": 12
+      },
+      {
+        "label": "b",
+        "description": "a Sling of Accuracy (x2) (+20,+5)",
+        "slot": "shooting",
+        "attr": 7,
+        "weight": 5
+      },
+      {
+        "label": "c",
+        "description": "a Ring of Feather Falling",
+        "slot": "right hand",
+        "attr": 1,
+        "weight": 2
+      },
+      {
+        "label": "d",
+        "description": "(nothing)",
+        "slot": "left hand",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "e",
+        "description": "an Amulet of Resist Acid",
+        "slot": "neck",
+        "attr": 4,
+        "weight": 3
+      },
+      {
+        "label": "f",
+        "description": "a Wooden Torch (3831 turns)",
+        "slot": "light",
+        "attr": 7,
+        "weight": 22
+      },
+      {
+        "label": "g",
+        "description": "Soft Leather Armour [8,+0]",
+        "slot": "body",
+        "attr": 15,
+        "weight": 80
+      },
+      {
+        "label": "i",
+        "description": "a Cloak [1,+0]",
+        "slot": "back",
+        "attr": 5,
+        "weight": 10
+      },
+      {
+        "label": "m",
+        "description": "a Small Metal Shield [5,+0]",
+        "slot": "arm",
+        "attr": 2,
+        "weight": 60
+      },
+      {
+        "label": "n",
+        "description": "a Hard Leather Cap [2,+4]",
+        "slot": "head",
+        "attr": 7,
+        "weight": 20
+      },
+      {
+        "label": "o",
+        "description": "a Set of Gauntlets [3,+0]",
+        "slot": "hands",
+        "attr": 2,
+        "weight": 25
+      },
+      {
+        "label": "p",
+        "description": "a Pair of Leather Sandals [1,+0]",
+        "slot": "feet",
+        "attr": 15,
+        "weight": 15
+      }
+    ],
+    "quiver": [
+      {
+        "label": "0",
+        "description": "2 Iron Shots of Slay Animal (1d4) (+6,+3)",
+        "slot": "",
+        "attr": 2,
+        "weight": 10
+      }
+    ],
+    "total_weight": 807,
+    "remaining_weight": 632
+  }
+}
