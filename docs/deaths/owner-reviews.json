@@ -1,0 +1,11 @@
+{
+  "schema": "borg-owner-reviews@1",
+  "reviews": {
+    "start-ba8e7ba91ecaf63812f343b311e27952e5c9ee04f9a4853ed8963915298d8be2": {
+      "reviewed": true,
+      "case": "D0004",
+      "reason": "Owner reviewed the gallant recording and supplied turn-specific feedback; technical investigations remain open.",
+      "evidence": "https://github.com/diegoami/better-borg-c/issues/34#issuecomment-6710312944"
+    }
+  }
+}

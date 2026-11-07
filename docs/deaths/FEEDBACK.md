@@ -112,3 +112,12 @@ Explicitly assess attempted walking retreat, especially with no Phase Door;
 a guaranteed-safe route is not required to consider the attempt.
 The [gallant family assessment](D0004-named-headless/overall-assessment.md) links
 the theft-weight158 and room-retreat159 analysis candidates under investigation34.
+
+## Owner replay queue
+
+Use `./replay_next_death.py` for the next available encounter not marked reviewed
+by the owner; `--list` includes legacy/missing movies and `--mark-reviewed Dnnnn`
+records explicit completion. Quitting the viewer does not mark it done or close
+investigations. `./produce_death.py` collects fresh disposable recorded games
+within declared bounds; it cannot guarantee a natural death. See
+[queue/collector usage](../measurement/DEATH-QUEUE.md).
