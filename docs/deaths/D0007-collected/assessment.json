@@ -36,13 +36,22 @@
         "caster-escape-eligibility",
         "heal-eligibility"
       ]
+    },
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/163#issuecomment-6713938482",
+      "summary": "Prefer leaving the crowded room early rather than continuing to fight with whatever resources remain; too many enemies.",
+      "status": "recorded and linked to early-retreat comparison; owner review remains complete, alternative survival untested",
+      "actions": [
+        "attempted-room-retreat"
+      ]
     }
   ],
   "actions": [
     {
       "key": "attempted-room-retreat",
       "issue": "https://github.com/diegoami/better-borg-c/issues/159",
-      "summary": "Evaluate stair-scum loot priority/leash and legal walking/upstairs attempts before and after scroll exhaustion",
+      "summary": "Prioritize evaluating early disengagement from the crowded room (178325), abandoning loot and committing to known upstairs; also test legal later bypass attempts and why stair-return is interrupted",
       "status": "investigating; no guaranteed-safe path or survival improvement proved"
     },
     {

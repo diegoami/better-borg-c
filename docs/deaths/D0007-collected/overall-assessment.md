@@ -63,6 +63,16 @@ last recorded frame at each requested turn. Engine ticks are not all decisions.
 
 ## Priorities and next evidence
 
+The owner clarified after completing this replay review: **leave the crowded
+room early rather than continue fighting with whatever resources remain; there
+are too many enemies.** [Recorded feedback](https://github.com/diegoami/better-borg-c/issues/163#issuecomment-6713938482).
+This makes early disengagement at178325 and commitment to the known upstairs
+route the central policy question under159. Unused Phase/healing under193/34
+are supporting investigations, not substitutes for avoiding the crowded fight.
+The recording shows stair-return attempts; why they are interrupted remains
+unresolved. An earlier retreat has not been demonstrated to survive, and the
+owner’s completed review remains complete.
+
 First inspect193’s native/Borg mismatch and shared34 recovery call order at
 179002/179022 using the pinned historical start and a diagnostic-only observer.
 Retain prefix agreement, actual eligible/rejected reasons and unsuccessful
