@@ -216,6 +216,24 @@ with evidence-durability/metadata findings on issues38/128. Follow-up
 issue130 preserves the 25 worktree-held carry archives in primary artifacts,
 corrects matrix/ledger metadata and records the final formula-memory ASan
 receipt; no worktree is removed until that evidence copy is verified.
+Consumer141/source252 (acidarc-252) merged as d619eec5f (PR142, import
+2a4125e44, patch 0037): the blast loops in borg_launch_bolt_at_location()
+and borg_launch_arc_at_location() excluded the south and east radius
+edges (`<` instead of `<=`), so a giant exactly max_range south
+contributed nothing and Acid Spray was never cast; the four inclusive
+bounds count it. The unchanged source evidence fixture verifies edge
+acted=0/keys=0 fail-before / acted=1/keys=17 pass-after (the recorded
+Acid Spray sequence) with the near (eight grids) and empty controls
+byte-identical and no sanitizer report; borg-fight-attack.c already
+carries ten patches and the applied diff body is byte-identical to the
+source diff. Gate 965/965 + 5/5, tooling 41/41, and all 119 prior
+matrix cases match the recorded thirty-six-carry tally. Post-merge
+frozen v1 measurement: seeds 11/29/47 all turn_cap alive and well with
+whole-trace hashes identical to the recorded run. Two verifier-constant
+mistakes were retained and corrected without touching any product
+assertion. The tapunlife-249 carry attempt remains BLOCKED (red
+retained, not carried; see TAP-UNLIFE.md). Next: recheck source207 for
+newer demonstrations.
 Consumer137/source232 (stairtrack-232, priority low) merged as 4fc3c481f
 (PR138, import 8310e9cc, patch 0036): borg_think_stair_scum()'s
 up-staircase "already known" scan used continue where the down-stair

@@ -75,10 +75,10 @@
   "impact_milestone_v3": "https://github.com/diegoami/better-borg-c/milestone/3",
   "external_review_package_v3": "https://github.com/diegoami/better-borg-c/issues/128",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/137",
-    "branch": "task/carry-stairtrack",
-    "worktree": ".worktrees/stairtrack",
-    "state": "merged-4fc3c481f-measured-issue137-carried-open",
-    "instructions": "docs/measurement/STAIRTRACK.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/141",
+    "branch": "task/carry-acidarc",
+    "worktree": ".worktrees/acidarc",
+    "state": "merged-d619eec5f-measured-issue141-carried-open-tapunlife-blocked",
+    "instructions": "docs/measurement/ACID-ARC-BOUNDS.md"
   }
 }
