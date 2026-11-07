@@ -73,10 +73,10 @@
   "impact_milestone_v2": "https://github.com/diegoami/better-borg-c/milestone/2",
   "external_review_package_v2": "https://github.com/diegoami/better-borg-c/issues/38",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/117",
-    "branch": "task/carry-lunal-state",
-    "worktree": ".worktrees/lunal-state",
-    "state": "merged-4bfb44d73-carried-open-patch-active",
-    "instructions": "docs/measurement/LUNAL-STATE.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/121",
+    "branch": "task/carry-opblock-leak",
+    "worktree": ".worktrees/opblock-leak",
+    "state": "merged-6a00d4408-carried-open-patch-active",
+    "instructions": "docs/measurement/OPBLOCK-LEAK.md"
   }
 }
