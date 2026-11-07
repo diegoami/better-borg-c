@@ -2,8 +2,8 @@
 
 The owner requested full local death inspection for visible and headless games,
 then selected **verified rerun plus a turn-by-turn viewer**. Future pipelines
-are deferred. The consumer bug-carry queue remains paused; this task does not
-resume source adoption or introduce tactics.
+are deferred. The separate integration lane owns the consumer bug-carry queue; this task does
+not resume or override it, and introduces no tactics.
 
 ## Contract
 
