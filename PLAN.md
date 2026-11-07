@@ -307,6 +307,26 @@ with evidence-durability/metadata findings on issues38/128. Follow-up
 issue130 preserves the 25 worktree-held carry archives in primary artifacts,
 corrects matrix/ledger metadata and records the final formula-memory ASan
 receipt; no worktree is removed until that evidence copy is verified.
+Consumer176/source247 (blowname-247) merged as 70993393a (PR179,
+import 541e03b1e, patch 0042): borg_mon_blow_effect()'s name-table loop
+bounded itself with the full array length, so an unknown blow name
+walked into the table's NULL sentinel entry and strcmp'd against NULL -
+a segfault reachable from real monster blow names the Borg has not
+mapped. The one-line sentinel-safe bound resolves in-table names and
+returns MONBLOW_NONE for unknown ones. The unchanged source evidence
+fixture segfaults (exit -11) before with the sanitizer naming the NULL
+dereference in borg_mon_blow_effect directly (borg-fight-attack.c:93)
+and passes 1/1 after on the plain and sanitizer builds, where the
+pre-existing init-time borg_sort_comp_hook overflow (separately filed
+source #399) still reports as expected; borg-fight-attack.c already
+carries eleven patches and the applied diff body is byte-identical to
+the source diff. Gate 965/965 + 5/5, tooling 71/71, and all 138 prior
+matrix cases match the recorded forty-one-carry tally. Post-merge
+frozen v1 measurement: seeds 11/29/47 all turn_cap alive and well with
+whole-trace hashes identical to the forty-one-carry (stairreturn) run —
+behavior-neutral on the cohort. Next: recheck source207 for newer
+demonstrations; source #399 (init-time borg_sort_comp_hook overflow)
+remains a separately owned source finding.
 Consumer167/source230 (stairreturn-230) merged as bc8cf805f (PR171,
 import db0d342ec, patch 0041): borg_think_dungeon_light()'s
 out-of-light "Testing for stairs" branch queued borg_keypress('<') but

@@ -803,7 +803,8 @@
    "evidence_ref": "eea8f6e1cc24ef72fb0dc07ff6df888e100bf3f9",
    "verification": "docs/measurement/BLOW-NAME-SENTINEL.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-blowname; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured (behavior-neutral on the v1 cohort); carried/open+patch-active",
+   "merge_commit": "70993393a1c946ce8cd38ee558bf1ce6464350e7"
   }
  ]
 }
