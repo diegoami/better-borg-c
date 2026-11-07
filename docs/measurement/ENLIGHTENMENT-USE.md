@@ -27,7 +27,7 @@ Before build: thirty-nine-carry `641234dbd3e5d661e911e810e55df991a3a3a9b3`
 commit, source-identical to merged main `d2db13a13` over
 src/lib/CMakeLists.txt/cmake — the recording-feature and death-phase-docs
 merges changed nothing under the build inputs). `borg-item-use.c` already
-carries 0006, so the verifier proves that the source diff applied to the
+carries 0005/0006, so the verifier proves that the source diff applied to the
 before module equals the product module; the applied commit's diff body is
 byte-identical to the source commit's diff. The source evidence fixture at
 `8eb4b995` (evidence PR276) is used unchanged.

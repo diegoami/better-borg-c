@@ -1,6 +1,24 @@
 # Native C carry ledger
 
 `series.json` records applied runtime correction units, not reported defects.
+
+## Carry ordinals (patches 0035-0042, milestone 4)
+
+| Patch | Consumer | Source | Merged as |
+| --- | --- | --- | --- |
+| 0035 | #133 | source240 (brand-240) | `638513e91` |
+| 0036 | #137 | source232 (stairtrack-232) | `4fc3c481f` |
+| 0037 | #141 | source252 (acidarc-252) | `d619eec5f` |
+| 0038 | #144 | source229 (outoflight-229) | `04ab89381` |
+| 0039 | #148 | source212 (mapwall-212) | `f0288cca5` |
+| 0040 | #157 | source81 (CBUG-0065) | `503e7a07b` |
+| 0041 | #167 | source230 (stairreturn-230) | `bc8cf805f` |
+| 0042 | #176 | source247 (blowname-247) | `70993393a` |
+
+Earlier carry ordinals (0001-0034) are recorded in
+`docs/measurement/IMPACT-MILESTONE2.md`, `IMPACT-MILESTONE3.md` and
+`series.json`.
+
 The first correction is the safer available emergency swap (consumer #4 /
 source #82). Its three C-only source commits include two comment cleanups;
 the cumulative code has one guarded lower-danger comparison. The second carry

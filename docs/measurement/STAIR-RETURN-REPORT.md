@@ -11,9 +11,10 @@ source [230](https://github.com/diegoami/neo-angband-tracker/issues/230)
 
 In `borg_think_dungeon_light()` the out-of-light "Testing for stairs"
 branch queued `borg_keypress('<')` but fell through without reporting that
-it acted, so the think loop treated the stair key as disowned and kept
-queueing commands behind it. The correction adds the missing
-`return true;`. No memory error; no death or survival claim.
+it acted, so the think loop stopped queueing further commands behind the
+already-queued stair key (the key itself stays queued; nothing is
+discarded). The correction adds the missing `return true;`. No memory
+error; no death or survival claim.
 
 ## Pins and layered provenance
 
@@ -50,6 +51,17 @@ identical (including the mapwall-212 and enlightenment cases), the
 dispel-248 undead case passing with its asserted losdispel log change,
 and the two dispel-259 cases asserted-red at the pinned post-losdispel
 values.
+
+## Frozen v1 measurement: behavior-neutral on the cohort
+
+Post-merge frozen v1 measurement on a prepared observer build of merged
+main (seeds 11/29/47, cap 20000, wall 120, stall 30): all three seeds
+finish **turn_cap "(alive and well)"** with **whole-trace SHA256
+identical to the forty-carry (enlightenment) run** — behavior-neutral on
+the cohort (no v1 Warrior burned a torch to zero while standing on
+stairs). The seeds' traces diverge from the older 34-carry recording
+because mapwall-212 (patch 0039) is behavior-active; that divergence
+predates this carry and is recorded in `MAP-WALL-CAPTURE.md`.
 
 ## Scope and limits
 

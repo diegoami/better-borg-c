@@ -25,7 +25,7 @@ death or survival claim.
 Before build: thirty-four-carry `dc1ea0c3a3554b69b9a70920cd8981351b685389`
 (retained tree `../calfree-tokens`, normal and ASan cores, gate recorded at
 that commit, source-identical to runtime snapshot `702f091f6` over
-src/lib/CMakeLists.txt/cmake). `borg-trait.c` already carries 0017/0029; the
+src/lib/CMakeLists.txt/cmake). `borg-trait.c` already carries 0017/0029/0031; the
 verifier proves that the source diff applied to the before module equals the
 product module, and the applied commit's diff is byte-identical to the
 source commit's diff. The source evidence fixture at `d9a848a8e` (evidence
