@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through twenty-ninth carries merged (2026-11-07)
+## Tenth through thirtieth carries merged (2026-11-07)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -204,9 +204,16 @@ fixture cases whole-log identical, merged v1 seeds unchanged.
 
 All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
-issues' verification comments. Queue: opblock-324 and calfree-323 (demonstrated low-priority leaks),
-then brand-240 and any newer demonstrations before low-priority 81 or
+issues' verification comments. Queue: homeblows-313 (priority medium), then opblock-324/calfree-323
+and brand-240 plus any newer demonstrations before low-priority 81 or
 discretionary death work.
+Consumer109/source312 (surrounded-312, priority medium) merged as
+75e92924f (PR110, import dbdb5f7f, patch 0030): trapped walls matched
+both wall and trap branches and could produce a surrounded verdict with
+zero monsters nearby; the trap test now belongs to the exclusive chain.
+The unchanged production fixture verifies surrounded=1->0 with the
+plain-wall control byte-identical, 105 prior cases passing and merged v1
+seeds unchanged. All twenty-one issues are carried/open+patch-active.
 Consumer105/source238 (light-238, priority medium) merged as 958f9744b
 (PR107, import 497d9266, patch 0029): the equipment notice added an
 item's light modifier twice, making the Phial's LIGHT[4] bi_light=8; the
