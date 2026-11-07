@@ -75,10 +75,10 @@
   "impact_milestone_v3": "https://github.com/diegoami/better-borg-c/milestone/3",
   "external_review_package_v3": "https://github.com/diegoami/better-borg-c/issues/128",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/130",
-    "branch": "docs/milestone3-review-followup",
-    "worktree": ".worktrees/milestone3-followup",
-    "state": "completed-8a8d66fea-issue130-closed-paused-for-new-carries",
-    "instructions": "docs/measurement/IMPACT-MILESTONE3.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/144",
+    "branch": "task/carry-outoflight",
+    "worktree": ".worktrees/outoflight",
+    "state": "merged-04ab89381-measured-issue144-carried-open-tapunlife-blocked",
+    "instructions": "docs/measurement/OUT-OF-LIGHT-GATE.md"
   }
 }

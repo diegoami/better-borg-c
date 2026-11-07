@@ -1,0 +1,35 @@
+From faa86f83b12f7f43cdde21f48faf045f9e385c60 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 01:36:32 +0100
+Subject: [PATCH] Borg: stop re-adding the known up staircase
+
+borg_think_stair_scum()'s "do I already know this up staircase" loop
+used continue where the matching down-stair loop uses break, so a
+match no longer stopped the scan and the staircase under the Borg -
+already tracked, for example from being seen on the map earlier - was
+appended to track_less again, once per visit, until the array filled
+and later staircases could not be tracked at all.  Break on a match,
+like the down-stair loop.
+---
+ src/borg/borg-think-dungeon-util.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-think-dungeon-util.c b/src/borg/borg-think-dungeon-util.c
+index 53d1c144b..59560f0a0 100644
+--- a/src/borg/borg-think-dungeon-util.c
++++ b/src/borg/borg-think-dungeon-util.c
+@@ -403,8 +403,10 @@ bool borg_think_stair_scum(void)
+         /* Check for an existing "up stairs" */
+         for (i = 0; i < track_less.num; i++) {
+             /* We already knew about this one */
++            /* (break, like the down-stair loop above: continuing past a
++             * match re-adds the known staircase as a duplicate) */
+             if ((track_less.x[i] == borg.c.x) && (track_less.y[i] == borg.c.y))
+-                continue;
++                break;
+         }
+ 
+         /* Track the newly discovered "up stairs" */
+-- 
+2.53.0
+

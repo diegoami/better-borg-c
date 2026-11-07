@@ -161,3 +161,22 @@ stay byte-identical; the two operator-array leaks are gone.
 The thirty-fourth carry frees token-list backing arrays with calculations
 (consumer #124/source #323). Functional free/control logs are unchanged;
 with opblock-324 already carried, the token-only 80-byte leak is gone.
+
+The thirty-fifth carry counts the brand-ammo need once per stack
+(consumer #133/source #240). The duplicated brand-the-ammo test in
+borg_notice_ammo() is deleted; the two-arrow control below the five-stack
+threshold stays byte-identical at zero.
+
+The thirty-sixth carry stops re-adding the known up staircase in stair
+scum (consumer #137/source #232). The up-stair scan breaks on a match
+like the down-stair scan; the fresh-discovery control stays byte-identical.
+
+The thirty-seventh carry counts the south and east edges of ball and arc
+blasts (consumer #141/source #252). The four blast-loop bounds are
+inclusive; the near and empty controls stay byte-identical.
+
+The thirty-eighth carry starts the out-of-light maneuvers when the light
+is about to burn out (consumer #144/source #229). The entry test no
+longer swallows its own about-to-burn-out clause; everburning lights
+keep their NO_FUEL guard and the lit/everburn/dead controls stay
+byte-identical.

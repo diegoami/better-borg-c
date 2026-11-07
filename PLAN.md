@@ -216,6 +216,76 @@ with evidence-durability/metadata findings on issues38/128. Follow-up
 issue130 preserves the 25 worktree-held carry archives in primary artifacts,
 corrects matrix/ledger metadata and records the final formula-memory ASan
 receipt; no worktree is removed until that evidence copy is verified.
+Consumer144/source229 (outoflight-229) merged as 04ab89381 (PR145,
+import 54a26b3b3, patch 0038): borg_think_dungeon_light()'s entry test
+`!BI_LIGHT && (BI_LIGHT <= 0 || timeout <= 3)` swallows its own
+about-to-burn-out clause, leaving a lantern three turns from dark to die
+with a spare torch in the pack; the corrected test
+`(!BI_LIGHT || (timeout <= 3 && !NO_FUEL))` starts the maneuvers while
+keeping everburning lights guarded. The unchanged source evidence
+fixture verifies dying acted=0 fail-before / acted=1 keys `w e`
+pass-after with lit, everburn and dead controls byte-identical and no
+sanitizer report; borg-think-dungeon-util.c already carries 0032/0036
+and the applied diff body is byte-identical to the source diff. Gate
+965/965 + 5/5, tooling 41/41, and all 122 prior matrix cases match the
+recorded thirty-seven-carry tally. Post-merge frozen v1 measurement:
+seeds 11/29/47 all turn_cap alive and well with whole-trace hashes
+identical to the recorded run. Next: recheck source207 for newer
+demonstrations.
+Consumer141/source252 (acidarc-252) merged as d619eec5f (PR142, import
+2a4125e44, patch 0037): the blast loops in borg_launch_bolt_at_location()
+and borg_launch_arc_at_location() excluded the south and east radius
+edges (`<` instead of `<=`), so a giant exactly max_range south
+contributed nothing and Acid Spray was never cast; the four inclusive
+bounds count it. The unchanged source evidence fixture verifies edge
+acted=0/keys=0 fail-before / acted=1/keys=17 pass-after (the recorded
+Acid Spray sequence) with the near (eight grids) and empty controls
+byte-identical and no sanitizer report; borg-fight-attack.c already
+carries ten patches and the applied diff body is byte-identical to the
+source diff. Gate 965/965 + 5/5, tooling 41/41, and all 119 prior
+matrix cases match the recorded thirty-six-carry tally. Post-merge
+frozen v1 measurement: seeds 11/29/47 all turn_cap alive and well with
+whole-trace hashes identical to the recorded run. Two verifier-constant
+mistakes were retained and corrected without touching any product
+assertion. The tapunlife-249 carry attempt remains BLOCKED (red
+retained, not carried; see TAP-UNLIFE.md). Next: recheck source207 for
+newer demonstrations.
+Consumer137/source232 (stairtrack-232, priority low) merged as 4fc3c481f
+(PR138, import 8310e9cc, patch 0036): borg_think_stair_scum()'s
+up-staircase "already known" scan used continue where the down-stair
+scan uses break, so the staircase under the Borg was re-appended to
+track_less on every visit (1 grows to 2 per visit until the array
+fills); the one-keyword correction breaks on the match. The unchanged
+source evidence fixture verifies known 1-to-2 fail-before / stays-1
+pass-after with the fresh-discovery control byte-identical at 0-to-1
+and no sanitizer report; borg-think-dungeon-util.c already carries 0032
+in this same function and the applied diff is byte-identical to the
+source diff. Gate 965/965 + 5/5, tooling 41/41, and all 117 prior
+matrix cases match the recorded thirty-five-carry tally. Post-merge
+frozen v1 measurement on the prepared merged-main build: seeds
+11/29/47 all turn_cap alive and well with whole-trace hashes identical
+to the recorded run. Next: recheck source207; the source348
+panel-vs-DUNGEON_WID overread lead remains source-owned and not
+consumer-ready; carry a newer demonstration when one is ready.
+Consumer133/source240 (brand-240, priority low) merged as 638513e91
+(PR135, import b30afa1a, patch 0035): the brand-the-ammo test in
+borg_notice_ammo() was pasted twice with identical conditions (inside the
+good-shooter block and in a tail block guarded by a `< 3` return that
+only ever ran in the same state), so every qualifying stack added twenty
+to the need-brand trait instead of ten; the fifteen-line tail deletion
+counts it once. The unchanged source evidence fixture verifies
+need_brand=20 fail-before / 10 pass-after with the two-arrow control
+byte-identical at 0 and no sanitizer report; borg-trait.c already
+carries 0017/0029 and the applied diff is byte-identical to the source
+diff. Gate 965/965 + 5/5, tooling 41/41, and all 115 prior matrix cases
+match the recorded thirty-four-carry tally. Post-merge frozen v1
+measurement on the prepared merged-main build: seeds 11/29/47 all
+turn_cap alive and well with whole-trace hashes identical to the
+recorded thirty-four-carry run. Queue resumed by owner
+direction 2026-11-07: source207 recheck found tapunlife-249 (no priority
+label) and quick-scan leads #364-#367 (triage:needed) that do not
+pre-empt the recorded low-priority order. Next: stairtrack-232 unless a
+newer demonstration becomes ready.
 Consumer124/source323 (calfree-323) merged as 5fb5d1f74 (PR125, import
 dc1ea0c3, patch 0034): calculations_free() released calculation structs
 without token-list backing arrays; the correction releases them. The
