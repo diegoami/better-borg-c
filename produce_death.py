@@ -41,22 +41,112 @@ def seeds_for(args):
     return seeds
 
 
-def prepare_build(args, commit):
+# Include the carry ledger because death export derives provenance from the
+# actual build's source commit. Documentation/launcher-only commits can reuse it.
+BUILD_INPUTS = ('src', 'lib', 'cmake', 'scripts', 'm4', 'CMakeLists.txt',
+                'configure.ac', 'patches/series.json')
+
+
+def build_identity(commit):
     hashes = {name: workflow.sha(ROOT / 'tools' / name) for name in BUILD_TOOLS}
     fingerprint = hashlib.sha256(json.dumps(hashes, sort_keys=True).encode()).hexdigest()[:12]
-    build = args.build.resolve() if args.build else workflow.artifacts() / 'builds' / (commit[:12] + '-' + fingerprint)
-    if not build.exists():
-        if args.build:
-            raise ValueError('Explicit --build does not exist; omit it to prepare a recording build')
-        measurement.prepare(SimpleNamespace(output=build, ref=commit, observe=True, recording=True, retry=False))
+    return workflow.artifacts() / 'builds' / (commit[:12] + '-' + fingerprint), hashes
+
+
+def source_matches(source, requested):
+    if source == requested:
+        return True
+    if not isinstance(source, str) or len(source) != 40 or any(c not in '0123456789abcdef' for c in source):
+        return False
+    return subprocess.run(['git', 'diff', '--quiet', source, requested, '--', *BUILD_INPUTS],
+                          cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode == 0
+
+
+def validate_build(build, requested, hashes):
     manifest = workflow.read(build / 'build.json')
+    if not isinstance(manifest, dict):
+        raise ValueError('Build manifest must be an object')
+    tools = manifest.get('tools_sha256')
+    data = manifest.get('data_sha256')
     if (not manifest.get('complete') or not manifest.get('instrumented')
             or manifest.get('recording_schema') != 'borg-recording@1'
-            or manifest.get('source_commit') != commit
-            or any(manifest.get('tools_sha256', {}).get(k) != v for k, v in hashes.items())
+            or not source_matches(manifest.get('source_commit'), requested)
+            or not isinstance(tools, dict) or not isinstance(data, dict) or not data
+            or any(tools.get(k) != v for k, v in hashes.items())
             or workflow.sha(build / 'build/game/angband') != manifest.get('binary_sha256')):
-        raise ValueError('Build must be complete, unchanged, fully recorded and match --ref and current observation tools')
-    return build
+        raise ValueError('Build must be complete, unchanged, fully recorded and match requested game/Borg source, carry ledger and observation tools')
+    for name, digest in data.items():
+        if workflow.sha(build / 'source' / name) != digest:
+            raise ValueError(f'Cached build data changed: {name}')
+    return manifest
+
+
+def choose_build(args, commit):
+    target, hashes = build_identity(commit)
+    if args.build:
+        build = args.build.resolve()
+        if not build.exists():
+            raise ValueError('Explicit --build does not exist; omit it to offer a recording build')
+        return SimpleNamespace(path=build, manifest=validate_build(build, commit, hashes), reuse=True)
+    if target.exists():
+        # A changed/incomplete exact cache is preserved for investigation, never
+        # overwritten or silently selected as valid historical evidence.
+        return SimpleNamespace(path=target, manifest=validate_build(target, commit, hashes), reuse=True)
+    candidates = []
+    for folder in (workflow.artifacts() / 'builds', workflow.primary_root() / 'artifacts/headless/builds'):
+        candidates.extend(folder.glob('*/build.json'))
+    for path in sorted(candidates, key=lambda p: p.stat().st_mtime, reverse=True):
+        try:
+            manifest = validate_build(path.parent, commit, hashes)
+            return SimpleNamespace(path=path.parent, manifest=manifest, reuse=True)
+        except (OSError, ValueError, KeyError):
+            continue
+    return SimpleNamespace(path=target, manifest=None, reuse=False)
+
+
+def announce_build(choice, commit):
+    description = measurement.git('show', '-s', '--format=%s', commit)
+    print(f'Requested source: {commit[:12]} — {description}', flush=True)
+    if choice.reuse:
+        source = choice.manifest['source_commit']
+        print(f'Current matching build: {source[:12]} — reusing {choice.path}', flush=True)
+        if source != commit:
+            print('Game/Borg sources and carry ledger match the requested revision; build provenance retains its original commit.', flush=True)
+    else:
+        print(f'No matching recording build. Will build/update to {commit[:12]} at {choice.path}', flush=True)
+
+
+def approve_build(args, choice):
+    if choice.reuse:
+        return bool(getattr(args, 'yes', False))
+    if getattr(args, 'no_build', False):
+        raise ValueError('No matching build available (--no-build); no games started')
+    if getattr(args, 'yes', False):
+        return True
+    if not sys.stdin.isatty():
+        raise ValueError('A build is required. Run interactively to choose, or pass --yes to build/update; no games started')
+    while True:
+        answer = input('Build/update this version before starting games? [Y/n] ').strip().lower()
+        if answer in ('', 'y', 'yes'):
+            return True
+        if answer in ('n', 'no'):
+            return False
+
+
+def prepare_build(args, commit):
+    # Recheck inside the shared lock after the offer. Never wait for user input
+    # while holding the lock, and never run an older mismatching build.
+    choice = choose_build(args, commit)
+    if not choice.reuse:
+        if not getattr(args, '_build_approved', False):
+            raise ValueError('Matching build is missing after preflight; rerun for the build offer')
+        measurement.prepare(SimpleNamespace(output=choice.path, ref=commit, observe=True, recording=True, retry=False))
+        _, hashes = build_identity(commit)
+        manifest = validate_build(choice.path, commit, hashes)
+    else:
+        manifest = choice.manifest
+    print(f"Running native build source: {manifest['source_commit'][:12]} ({choice.path})", flush=True)
+    return choice.path
 
 
 def export_death(run, issue):
@@ -79,7 +169,7 @@ def collect(args, output, seeds, commit):
     # Freeze all potential starts and limits BEFORE build/run results; stopping at
     # the first death is declared sampling, never a survival-rate experiment.
     plan = {'schema': 'borg-death-collection@1', 'created_at': workflow.now(),
-            'source_commit': commit, 'seeds': seeds, 'turn_cap': args.turns,
+            'requested_source_commit': commit, 'source_commit': None, 'seeds': seeds, 'turn_cap': args.turns,
             'wall_limit_per_game_seconds': args.timeout, 'stall_timeout_seconds': args.stall_timeout,
             'stop_rule': 'first natural death, operational failure, or listed seeds exhausted',
             'birth_policy': getattr(args, 'birth', 'random'),
@@ -92,7 +182,8 @@ def collect(args, output, seeds, commit):
         print('Waiting for the shared native validation lock...', flush=True)
         with workflow.locked(Path('/tmp/angband-validation.lock')):
             build = prepare_build(args, commit)
-            plan.update(build=str(build), build_manifest_sha256=workflow.sha(build / 'build.json'), status='running')
+            actual_source = workflow.read(build / 'build.json').get('source_commit', commit)
+            plan.update(source_commit=actual_source, build=str(build), build_manifest_sha256=workflow.sha(build / 'build.json'), status='running')
             workflow.write(output / 'collection.json', plan)
             for index, seed in enumerate(seeds, 1):
                 run = output / f'game-{index:03d}-seed-{seed}'
@@ -144,6 +235,10 @@ def main():
     p.add_argument('--stall-timeout', type=int, default=30)
     p.add_argument('--ref', default='HEAD', help='committed native source; pinned before collection')
     p.add_argument('--build', type=Path, help='existing compatible recording build matching --ref; otherwise cached build prepared')
+    approval = p.add_mutually_exclusive_group()
+    approval.add_argument('--yes', action='store_true', help='accept a required build/update without prompting')
+    approval.add_argument('--no-build', action='store_true', help='use an existing matching build only; fail if one is missing')
+    p.add_argument('--check-build', action='store_true', help='show requested/actual version and cache status, then exit without builds or games')
     p.add_argument('--output', type=Path, help='new directory below primary-checkout artifacts; default unique timestamp')
     p.add_argument('--death-issue', default=DEFAULT_ISSUE, help='discussion/work issue for any exported death')
     args = p.parse_args()
@@ -154,6 +249,14 @@ def main():
         if len(seeds) > 1000:
             raise ValueError('Maximum1000 prospective seeds per invocation')
         commit = measurement.git('rev-parse', '--verify', '--end-of-options', args.ref + '^{commit}')
+        choice = choose_build(args, commit)
+        announce_build(choice, commit)
+        if args.check_build:
+            return 0 if choice.reuse else 1
+        args._build_approved = approve_build(args, choice)
+        if not choice.reuse and not args._build_approved:
+            print('Cancelled; no build or games started.', flush=True)
+            return 0
         stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
         output = (args.output or workflow.artifacts() / 'collections' / stamp).resolve()
         if not output.is_relative_to(workflow.primary_root() / 'artifacts'):
