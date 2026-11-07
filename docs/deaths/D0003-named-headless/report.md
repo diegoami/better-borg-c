@@ -17,3 +17,11 @@ The new runner successfully exported the native cause, recent messages, decision
 This build's default5/12/25/40/60/82/105 pre-death windows have not been qualified. Older D0002 captures are historical evidence on their original build, not relabeled as this version. Loading a living save resets Borg memory; faithful mid-run continuation is not claimed. Continue issue34's existing-rule investigation before proposing strategy changes, and route a verified reusable C defect through the canonical source tracker first.
 
 Reproduction uses the committed runner: `./run-borg-headless.py HeadlessDeathProtocol --turns 30000 --seed 29 --timeout 120` from a new disposable save on this exact C source/observer/tool/calendar identity. A later checkout automatically builds its own source version; that is a different reference, not this historical run.
+
+## Owner Phase Door feedback and improvement candidates
+
+[20293/20294/20303/20430 original C34 anchors and analysis](../D0004-named-headless/owner-phase-feedback.md)
+record the disputed first jump, room retreat proposal and danger188→451. These
+are qualified family-reference observations; this dossier keeps its actual build.
+Fight/door rescue and wake order remain unproved. Enhancement154 links source370
+separately from bug carries; assessment actions remain open.

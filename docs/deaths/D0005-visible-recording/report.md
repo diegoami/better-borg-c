@@ -23,3 +23,11 @@ The seven requested pre-death offsets5/12/25/40/60/82/105 are retained under sna
 ## Evaluation and actions
 
 Existing issue34's healing/fleeing/early-exposure questions remain open. This validates recording and replay, not an eligible missed heal or a counterfactual rescue. See [assessment.json](assessment.json), [events.log](events.log) and the native [terminal map](terminal.map.txt). No gameplay strategy changed. Loading a saved character remains a NEW cold-Borg session; verified replay re-executes its original start and does not assert savefiles serialize complete Borg memory.
+
+## Owner Phase Door feedback and improvement candidates
+
+[20293/20294/20303/20430 original C34 anchors and analysis](../D0004-named-headless/owner-phase-feedback.md)
+record the disputed first jump, room retreat proposal and danger188→451. These
+are qualified family-reference observations; this dossier keeps its actual build.
+Fight/door rescue and wake order remain unproved. Enhancement154 links source370
+separately from bug carries; assessment actions remain open.

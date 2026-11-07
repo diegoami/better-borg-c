@@ -86,6 +86,30 @@
       "key": "exposure-before-crowd",
       "status": "recorded owner observation; needs native causal investigation",
       "summary": "Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3"
+    },
+    {
+      "cases": [
+        "D0002",
+        "D0003",
+        "D0004",
+        "D0005"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "key": "phase-door-first-choice",
+      "status": "investigating; no rescue or implementation defect established",
+      "summary": "Evaluate first Phase Door20293 versus legal fight/walk alternatives and crowd retreat at next decision20303"
+    },
+    {
+      "cases": [
+        "D0002",
+        "D0003",
+        "D0004",
+        "D0005"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/154",
+      "key": "early-escape-cure-restock",
+      "status": "proposed enhancement; no implementation or survival benefit established",
+      "summary": "Evaluate early Phase Door/cure restock requirement linked to source370"
     }
   ],
   "cases": 5,

@@ -95,3 +95,10 @@ D0002: exposure to too many enemies too early for level3/resources.
 reconstructs first known danger and walk/flow/descent/teleport entry. A recorded
 Phase Door precedes the critical crowd; intentional walking into it is not
 assumed. No new crowd threshold or claimed rescue is implemented from one case.
+
+## Evaluation and implementation are separate
+
+Follow [the improvement workflow](../measurement/DEATH-IMPROVEMENT-WORKFLOW.md)
+for death-derived investigations/enhancements and the separate prospective
+implementation, survival and progress evidence gate. Local enhancement154 links
+source370; neither filing nor a rescued replay proves a benefit.

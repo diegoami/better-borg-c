@@ -453,3 +453,12 @@ layers onto borg-fight-attack.c (the acid id's duplicate occurrence
 targeted by case context) and verifies on the unchanged fixture (miswired
 bolt3 0->52 fail-before/pass-after, lesser-bolt control byte-identical),
 83 prior cases whole-log identical, merged v1 seeds unchanged.
+
+## Death-driven enhancement evaluation (owner request2026-11-07)
+
+Follow docs/measurement/DEATH-IMPROVEMENT-WORKFLOW.md and issue155: diagnose
+deaths into evaluations/investigations/enhancement candidates, then use a distinct
+scoped implementation experiment with prospective survival AND long-term progress
+acceptance. Local154 links source370; it is an enhancement, not a bug carry.
+This request establishes the process; it starts no gameplay implementation or
+automatic batches. Bugs retain priority and existing source ownership.

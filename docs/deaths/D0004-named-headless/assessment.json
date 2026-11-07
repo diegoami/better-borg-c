@@ -23,9 +23,25 @@
     {
       "status": "causal analysis pending",
       "summary": "No new bug, rescue or survival improvement inferred. Follow existing heal/flee/entry investigation34."
+    },
+    {
+      "status": "observed on qualified C34 family reference; causal alternatives pending",
+      "summary": "D0004 original frames20293/20294/20303/20430 retained. Danger rises188 to451 at next command; critical phase overrides failed safety sampling. Four Phase Door and twelve CLW before first jump; no tested fight or walking rescue. Preserve this dossier own source identity."
     }
   ],
-  "feedback": [],
+  "feedback": [
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/34#issuecomment-6709969033",
+      "summary": "Disputes first Phase Door20293 and crowded landing20294; proposes fighting single creature or immediate door retreat toward upstairs; repeated phases and late swarm20430.",
+      "status": "recorded; native anchors and danger escalation checked, alternatives and wake order unproved",
+      "actions": [
+        "phase-door-first-choice",
+        "exposure-before-crowd"
+      ],
+      "evidence": "../D0004-named-headless/owner-phase-feedback.md"
+    }
+  ],
   "actions": [
     {
       "key": "heal-eligibility",
@@ -38,6 +54,18 @@
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
       "summary": "Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3",
       "status": "investigating recorded original-rule behavior; no defect established"
+    },
+    {
+      "key": "phase-door-first-choice",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "summary": "Evaluate first Phase Door20293 versus legal fight/walk alternatives and crowd retreat at next decision20303",
+      "status": "investigating; no rescue or implementation defect established"
+    },
+    {
+      "key": "early-escape-cure-restock",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/154",
+      "summary": "Evaluate early Phase Door/cure restock requirement linked to source370",
+      "status": "proposed enhancement; no implementation or survival benefit established"
     }
   ]
 }
