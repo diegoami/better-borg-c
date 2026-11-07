@@ -153,3 +153,7 @@ at two blows for the ten-rapier stack; the single-rapier control is unchanged.
 The thirty-second carry clears both lunal flags when the town stair-scum
 bail exits (consumer #117/source #314). The full-pack control leaves both
 flags set and stays byte-identical.
+
+The thirty-third carry frees temporary operator-block backing arrays
+(consumer #121/source #324). Formula value 7 and the bare-constant control
+stay byte-identical; the two operator-array leaks are gone.

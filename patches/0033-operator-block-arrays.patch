@@ -1,0 +1,25 @@
+From 02be7739db306897f2441562ee8d27dddc15d36c Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 6 Nov 2026 23:11:38 +0100
+Subject: [PATCH] Borg: free the operator block's backing pointer array
+
+adjust_order_ops_depth_block() freed the temporary operator tokens and
+the operators struct, but not the separately allocated items backing
+array, so every populated operator block of every parsed formula lost
+that allocation - including the full formula parse at startup.  Free
+the backing array along with the struct.
+
+diff --git a/src/borg/borg-formulas-calc.c b/src/borg/borg-formulas-calc.c
+index ca7a0c261..f03aad371 100644
+--- a/src/borg/borg-formulas-calc.c
++++ b/src/borg/borg-formulas-calc.c
+@@ -431,6 +431,9 @@ static bool adjust_order_ops_depth_block(
+         mem_free(operators->items[i]);
+         operators->items[i] = NULL;
+     }
++    /* Release the backing pointer array too: it is allocated separately
++     * by borg_array_add() once the block has an operator. */
++    mem_free(operators->items);
+     mem_free(operators);
+     operators = NULL;
+ 
