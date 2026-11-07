@@ -1,0 +1,46 @@
+From 641234dbd3e5d661e911e810e55df991a3a3a9b3 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 16:56:37 +0100
+Subject: [PATCH] Borg: take old_wall before the map pass overwrites the grid
+ feature
+
+borg_update_map() read the grid's old wall state
+(old_wall = !borg_cave_floor_grid(ag)) after the scan had already
+overwritten ag->feat with the game's feature, so old_wall and new_wall
+matched in nearly every case and the wall-change block -- flow
+invalidation, know/icky clearing, view/lite updates and the
+wizard-light and detect-walls stamp resets -- was dead. Newly seen
+walls, opened or closed doors and dug tunnels kept their stale flow
+entries. Capture old_wall before the overwrite.
+---
+ src/borg/borg-update.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/src/borg/borg-update.c b/src/borg/borg-update.c
+index 7343b1c4d..9c415ef12 100644
+--- a/src/borg/borg-update.c
++++ b/src/borg/borg-update.c
+@@ -286,6 +286,10 @@ static void borg_update_map(void)
+             /* Notice "on-screen" */
+             ag->info |= BORG_OKAY;
+ 
++            /* Save the old "wall" or "door", before the feature below is
++             * overwritten with what the game shows now */
++            old_wall = !borg_cave_floor_grid(ag);
++
+             /* Notice "knowledge" */
+             /* if this square is not in view and the borg previously */
+             /* cast stone to mud here, ignore the map info so repeated */
+@@ -309,9 +313,6 @@ static void borg_update_map(void)
+                 borg.c.y = y;
+             }
+ 
+-            /* Save the old "wall" or "door" */
+-            old_wall = !borg_cave_floor_grid(ag);
+-
+             /* Analyze know information about grid */
+             /* Shop Doors */
+             if (feat_is_shop(g.f_idx)) {
+-- 
+2.53.0
+

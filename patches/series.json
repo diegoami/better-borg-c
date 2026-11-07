@@ -729,6 +729,24 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured; carried/open+patch-active",
    "merge_commit": "04ab89381820df5856ec742b501b97b29c50bc19"
+  },
+  {
+   "id": "CBUG-0212",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/148",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/212",
+   "source_head": "5bd789ee0ff0a471162d7e3ebefb1ac4d501803c",
+   "source_commits": [
+    "5bd789ee0ff0a471162d7e3ebefb1ac4d501803c"
+   ],
+   "applied_commits": [
+    "641234dbd3e5d661e911e810e55df991a3a3a9b3"
+   ],
+   "patch": "patches/0039-map-wall-change-capture.patch",
+   "patch_active": true,
+   "evidence_ref": "9fe10e42709c480e7b09c8472f9205b9281d6a1c",
+   "verification": "docs/measurement/MAP-WALL-CAPTURE.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-mapwall; awaiting normal PR merge"
   }
  ]
 }
