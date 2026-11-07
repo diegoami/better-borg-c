@@ -57,6 +57,18 @@ whole-log identical (including the mapwall-212 cases), the dispel-248
 undead case passing with its asserted losdispel log change, and the two
 dispel-259 cases asserted-red at the pinned post-losdispel values.
 
+## Frozen v1 measurement: behavior-neutral on the cohort
+
+Post-merge frozen v1 measurement on a prepared observer build of merged
+main (seeds 11/29/47, cap 20000, wall 120, stall 30): all three seeds
+finish **turn_cap "(alive and well)"** with **whole-trace SHA256
+identical to the thirty-nine-carry (mapwall) run** — this carry is
+behavior-neutral on the cohort (no v1 Warrior carried a recognized
+Enlightenment potion at depth >= 1 during these runs). The seeds' traces
+diverge from the older 34-carry recording because mapwall-212 (patch
+0039) is behavior-active; that divergence predates this carry and is
+recorded in `MAP-WALL-CAPTURE.md`.
+
 ## Scope and limits
 
 Bounded native useful-item scenario in a quiet constructed arena accepted
@@ -72,10 +84,9 @@ of scope.
    hosted checks, then normal merge.
 2. On merged main: prepare the measurement build
    (`tools/measure-native.py prepare --observe`), run frozen v1 seeds
-   11/29/47, cap 20000, wall 120, stall 30, and record outcomes (the
-   mapwall-212 carry already made the traces diverge from the 34-carry
-   run; this carry changes behavior only if a v1 Warrior carries a
-   recognized Enlightenment potion at depth >= 1).
+   11/29/47, cap 20000, wall 120, stall 30, and compare against the
+   thirty-nine-carry (mapwall) run — this carry changes behavior only if
+   a v1 Warrior carries a recognized Enlightenment potion at depth >= 1.
 3. Mark 157 carried/open+patch-active; receipts on issue 157, source 81
    and checkpoint 1; evidence archive under `artifacts/e065-carry/`.
 4. Recheck source207 for newer demonstrations; tapunlife-249 remains

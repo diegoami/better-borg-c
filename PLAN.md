@@ -216,6 +216,27 @@ with evidence-durability/metadata findings on issues38/128. Follow-up
 issue130 preserves the 25 worktree-held carry archives in primary artifacts,
 corrects matrix/ledger metadata and records the final formula-memory ASan
 receipt; no worktree is removed until that evidence copy is verified.
+Consumer157/source81 (CBUG-0065, priority low) merged as 503e7a07b
+(PR160, import 526906c0f, patch 0040; owner-directed after the recorded
+backstop "low-priority 81" had been dropped from the handover's queue
+summary): borg_use_things()'s force-item potion branch recognized
+Enlightenment and guarded town use but never called the potion helper,
+leaving a known potion unused in the dungeon while stairs beyond walls
+stayed unknown; the correction adds the missing quaff after the town
+guard. The unchanged source evidence fixture verifies the dungeon case
+drinking nothing fail-before / one potion drunk with the native map
+revealing the down stair pass-after, with five byte-identical controls
+(town, unknown flavor, unrelated True Seeing, Augmentation
+dungeon/town); borg-item-use.c already carries 0006 and the applied
+diff body is byte-identical to the source diff. Gate 965/965 + 5/5,
+tooling 56/56, and all 129 prior matrix cases match the recorded
+thirty-nine-carry tally. Post-merge frozen v1 measurement: seeds
+11/29/47 all turn_cap alive and well with whole-trace hashes identical
+to the thirty-nine-carry (mapwall) run — behavior-neutral on the
+cohort. Queue note: this was the last recorded backstop item; the
+consumer queue now holds only the blocked tapunlife-249 attempt (#140)
+pending owner direction, plus the open tapunlife masking diagnosis.
+Next: recheck source207 for newer demonstrations.
 Consumer148/source212 (mapwall-212) merged as f0288cca5 (PR149, import
 5bd789ee0, patch 0039): borg_update_map()'s old_wall capture ran after
 the grid feature was overwritten with what the game shows, so the
