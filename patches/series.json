@@ -784,7 +784,8 @@
    "evidence_ref": "484c534d59c47a4a84273b7651b0c483cf8b5b67",
    "verification": "docs/measurement/STAIR-RETURN-REPORT.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-stairreturn; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured (behavior-neutral on the v1 cohort); carried/open+patch-active",
+   "merge_commit": "bc8cf805f2ec07b1224ba636a2aea4a058ad38be"
   }
  ]
 }
