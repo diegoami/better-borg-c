@@ -11,6 +11,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import sys
+import sys
 import time
 
 ROOT = Path(__file__).resolve().parent
@@ -49,7 +50,7 @@ def resolve_recording(path):
     return path
 
 
-def first_difference(original, rerun):
+def first_difference(original, rerun, inventory_extension=False):
     for name in ('events.txt', 'actions.txt', 'clock.txt', 'file-inputs.txt', 'trace.txt'):
         if name == 'trace.txt' and not (original / name).exists():
             continue
@@ -65,6 +66,10 @@ def first_difference(original, rerun):
         for index, (left, right) in enumerate(itertools.zip_longest(a, b), 1):
             if left != right:
                 expected, actual = json.loads(left) if left else {}, json.loads(right) if right else {}
+                if inventory_extension and left is not None and right is not None and 'inventory' not in expected:
+                    actual.pop('inventory', None)
+                    if expected == actual:
+                        continue
                 keys = sorted(k for k in expected.keys() | actual.keys() if expected.get(k) != actual.get(k))
                 return {'stream': 'frames', 'row': index, 'turn': expected.get('turn'), 'fields': keys}
     for name in ('start.save', 'recent.save', 'final.save', 'world-fingerprint.save'):
@@ -74,7 +79,7 @@ def first_difference(original, rerun):
     return None
 
 
-def verify(original, output, timeout):
+def verify(original, output, timeout, engine=None, inventory_extension=False):
     record = recordings.validate(original)
     if output.exists():
         raise ValueError('Replay output must be a new directory; original evidence is never overwritten')
@@ -106,7 +111,7 @@ def verify(original, output, timeout):
     if record['origin']:
         shutil.copy2(original / record['origin'], output / 'origin.save')
         env['BORG_MEASURE_LOAD'] = str(output / 'origin.save')
-    command = [str(original / 'engine'), '-mtest']
+    command = [str(engine or original / 'engine'), '-mtest']
     command += [f'-d{key}={output / key}' for key in ('user', 'save', 'scores', 'panic', 'archive')]
     command += [f'-d{key}={original / "data" / name}' for key, name in (
         ('gamedata', 'gamedata'), ('pref', 'customize'), ('screens', 'screens'), ('help', 'help'))]
@@ -134,7 +139,7 @@ def verify(original, output, timeout):
                     process.wait()
     missing = [name for name in ('events.txt', 'clock.txt', 'actions.txt', 'file-inputs.txt', 'frames.jsonl')
                if not (output / name).exists()]
-    difference = {'stream': 'missing replay output', 'files': missing} if missing else first_difference(original, output)
+    difference = {'stream': 'missing replay output', 'files': missing} if missing else first_difference(original, output, inventory_extension)
     complete = (output / 'record-complete.json').exists()
     result = {'schema': 'borg-replay-verification@1', 'original': str(original),
               'recording_sha256': recordings.sha(original / 'recording.json'),
@@ -142,6 +147,9 @@ def verify(original, output, timeout):
               'complete': complete, 'first_difference': difference,
               'verified': process is not None and process.returncode == 0 and not interrupted and complete and difference is None,
               'scope': 'All recorded input, Borg actions, clock/file inputs, native-save fingerprints, RNG/player state and logical terminal frames; no checkpoint restore or new independent life'}
+    if engine is not None:
+        result.update(engine_mode='historical rebuild with inventory-only observation extension',
+                      engine_sha256=recordings.sha(engine), original_engine_sha256=recordings.sha(original / 'engine'))
     recordings.write(output / 'verification.json', result)
     original_result = json.loads((original / 'result.json').read_text()) if (original / 'result.json').exists() else {}
     rerun = dict(original_result)
@@ -190,10 +198,18 @@ def main():
                 return 1
             verified = True
         if not args.verify_only:
-            viewer.show(original, args.dump_turn if args.dump_turn is not None else args.from_turn,
+            display = original
+            with viewer.frame_lines(original) as rows:
+                native_inventory = 'inventory' in json.loads(next(rows))
+            if not native_inventory and args.dump_turn is None:
+                inventory = tool('replay_inventory_extension', 'replay-inventory.py')
+                display = inventory.cached(original, sys.modules[__name__]) or original
+                if display == original and not args.view_only:
+                    display = inventory.prepare(original, sys.modules[__name__], args.timeout)
+            viewer.show(display, args.dump_turn if args.dump_turn is not None else args.from_turn,
                         verified=verified, dump=args.dump_turn is not None)
         return 0
-    except (OSError, ValueError, KeyError, json.JSONDecodeError) as exc:
+    except (OSError, ValueError, KeyError, json.JSONDecodeError, subprocess.CalledProcessError) as exc:
         print(str(exc), file=sys.stderr)
         return 1
 

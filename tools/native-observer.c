@@ -129,7 +129,7 @@ void measure_boundary(void)
     if (!started) {
         started = true;
 #ifdef BORG_RECORDING
-        if (getenv("BORG_RECORD_VISIBLE"))
+        if (getenv("BORG_RECORD_VISIBLE") || getenv("BORG_MEASURE_LOAD"))
             strnfmt(savefile, sizeof(savefile), "%s/autosave.save", directory);
 #endif
         if (play_turns) {

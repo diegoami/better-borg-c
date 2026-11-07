@@ -57,7 +57,7 @@ class Frames:
     def get(self, index):
         first = self.index[index][1]
         self.file.seek(self.index[first][0])
-        chars, attrs, palette, details = [], [], None, None
+        chars, attrs, palette, details, inventory = [], [], None, None, None
         for _ in range(first, index + 1):
             frame = json.loads(self.file.readline())
             size = frame['width'] * frame['height']
@@ -73,7 +73,10 @@ class Frames:
                 palette = frame['palette']
             if frame.get('details') is not None:
                 details = frame['details']
+            if frame.get('inventory') is not None:
+                inventory = frame['inventory']
         frame['diagnostics'] = details
+        frame['inventory'] = inventory
         return frame, chars, attrs, palette
 
 
@@ -86,6 +89,39 @@ def glyph(code):
     if code < 32:
         return ' '
     return chr(code) if code <= 0x10ffff else '�'
+
+
+def inventory_rows(frame, equipment=False):
+    """Only native player-known descriptions; never infer them from actual gear."""
+    inventory = frame.get('inventory')
+    if inventory is None:
+        return [('Inventory was not captured in this older movie.', 1),
+                ('Reopen without --view-only to recover the native inventory.', 1)]
+    rows = [('Equipment' if equipment else 'Inventory', 1)]
+    total, remaining = inventory['total_weight'], inventory['remaining_weight']
+    rows += [(f"Burden {total / 10:.1f} lb ({abs(remaining) / 10:.1f} lb " +
+              ('overweight)' if remaining < 0 else 'remaining)'), 1), ('', 1)]
+    sections = ('equipment', 'quiver') if equipment else ('pack',)
+    for section in sections:
+        if section == 'quiver':
+            rows += [('', 1), ('Quiver', 1)]
+        for item in inventory[section]:
+            description = (item['slot'] + ': ' if item.get('slot') else '') + item['description']
+            weight = f"{item['weight'] / 10:5.1f} lb" if item['weight'] else ''
+            rows.append((f"{item['label']}) {description:<55} {weight}", item.get('attr', 1)))
+        if not inventory[section]:
+            rows.append(('(empty)', 1))
+    return rows
+
+
+def color_attribute(color, palette):
+    color %= 32
+    if palette and color < len(palette) and curses.COLORS >= 256:
+        red, green, blue = palette[color]
+        ansi = 16 + 36 * round(red / 255 * 5) + 6 * round(green / 255 * 5) + round(blue / 255 * 5)
+        curses.init_pair(color + 1, ansi, curses.COLOR_BLACK)
+        return curses.color_pair(color + 1)
+    return 0
 
 
 def read_key(screen, playing=False):
@@ -150,13 +186,7 @@ def show(directory, turn=None, verified=False, dump=False):
                 for row in range(max(0, min(frame['height'] - scroll, height - 3)) if panel == 'screen' else 0):
                     for col in range(max(0, min(frame['width'] - horizontal, width - 1))):
                         at = (row + scroll) * frame['width'] + col + horizontal
-                        color = attrs[at] % 32
-                        attribute = 0
-                        if palette and color < len(palette) and curses.COLORS >= 256:
-                            red, green, blue = palette[color]
-                            ansi = 16 + 36 * round(red / 255 * 5) + 6 * round(green / 255 * 5) + round(blue / 255 * 5)
-                            curses.init_pair(color + 1, ansi, curses.COLOR_BLACK)
-                            attribute = curses.color_pair(color + 1)
+                        attribute = color_attribute(attrs[at], palette)
                         try:
                             screen.addstr(row + 1, col, glyph(chars[at]), attribute)
                         except curses.error:
@@ -165,7 +195,9 @@ def show(directory, turn=None, verified=False, dump=False):
                     detail = frame.get('diagnostics') or {}
                     rows = ['DIAGNOSTIC ACTUAL STATE (includes unknown/unseen information)',
                             'This data was never supplied to the Borg as additional input.', '']
-                    if panel == 'gear':
+                    if panel in ('inventory', 'equipment'):
+                        rows = inventory_rows(frame, panel == 'equipment')
+                    elif panel == 'gear':
                         for item in detail.get('gear', []):
                             rows.append(f"{item['quantity']} x {item['actual_kind']} [aware={item['aware']}; known={item['known_kind']}]")
                             rows.append(f"  pval={item['pval']} timeout={item['timeout']} hit/damage/AC={item['to_h']}/{item['to_d']}/{item['to_a']} {item['inscription']}")
@@ -174,10 +206,11 @@ def show(directory, turn=None, verified=False, dump=False):
                     else:
                         monsters = sorted(detail.get('monsters', []), key=lambda m: abs(m['x'] - frame['x']) + abs(m['y'] - frame['y']))
                         rows += [f"{'visible' if m['visible'] else 'UNSEEN ':7} {m['name']} HP {m['hp']}/{m['max_hp']} at({m['x']},{m['y']}) speed {m['speed']}" for m in monsters]
-                    for row, text in enumerate(rows[scroll:scroll + height - 3], 1):
-                        screen.addnstr(row, 0, text, max(0, width - 1))
-                screen.addnstr(height - 2, 0, '←/→ step  g turn  Space play  i gear  m monsters  Esc/v back  j/k [] scroll  q quit', max(0, width - 1))
-                screen.addnstr(height - 1, 0, f'Frame {index + 1}/{len(frames.index)}. Original observations; controls never change the game.', max(0, width - 1))
+                    for row, line in enumerate(rows[scroll:scroll + height - 3], 1):
+                        text, color = line if isinstance(line, tuple) else (line, 1)
+                        screen.addnstr(row, 0, text[horizontal:], max(0, width - 1), color_attribute(color, palette))
+                screen.addnstr(height - 2, 0, '←/→ step  g turn  Space play  i inventory  e equipment  Esc/v back  q quit', max(0, width - 1))
+                screen.addnstr(height - 1, 0, f'Frame {index + 1}/{len(frames.index)} | j/k scroll  [] pan | m monsters  d debug', max(0, width - 1))
                 screen.refresh()
                 screen.timeout(100 if playing else -1)
                 key = read_key(screen, playing)
@@ -186,9 +219,11 @@ def show(directory, turn=None, verified=False, dump=False):
                 if key == 27:
                     panel = 'screen'
                     scroll = horizontal = 0
-                elif key in (ord('i'), ord('m'), ord('v')):
-                    panel = {ord('i'): 'gear', ord('m'): 'monsters', ord('v'): 'screen'}[key]
-                    scroll = 0
+                elif key in (ord('i'), ord('e'), ord('d'), ord('m'), ord('v')):
+                    panel = {ord('i'): 'inventory', ord('e'): 'equipment', ord('d'): 'gear', ord('m'): 'monsters', ord('v'): 'screen'}[key]
+                    if panel != 'screen':
+                        playing = False
+                    scroll = horizontal = 0
                 elif key == ord('j'):
                     scroll += 1
                 elif key == ord('k'):

@@ -126,6 +126,7 @@ class Collection(unittest.TestCase):
                 # Contract is frozen before ANY outcomes and before build starts.
                 plan = producer.workflow.read(output / 'collection.json')
                 self.assertEqual(plan['seeds'], [3, 4, 5])
+                self.assertTrue(options.random_birth)
                 calls.append(options.seed)
                 outcome = outcomes[len(calls)-1]
                 options.output.mkdir()

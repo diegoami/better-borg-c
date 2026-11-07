@@ -68,6 +68,8 @@ def begin(build, out, command, env, profile):
         'z-rand.c', 'randname.c', 'mon-make.c', 'ui-input.c', 'ui-prefs.c',
         'player-util.c', 'ui-death.c', 'borg/borg.c', 'borg/borg-io.c',
         'borg/borg-commands.c', 'borg/borg-init.c', 'borg/borg-log.c')]
+    if (build / 'source/src/native-inventory.h').is_file():
+        source_files.append('src/native-inventory.h')
     for name in source_files:
         source = build / 'source' / name
         target = out / 'instrumentation' / name

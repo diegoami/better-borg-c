@@ -13,7 +13,7 @@ From the repository root:
 ```
 
 Plain replay verifies the original rerun before opening the existing viewer.
-Arrow keys step; Space plays; g jumps to a turn; i/m show gear/monsters; Escape
+Arrow keys step; Space plays; g jumps to a turn; i/e show inventory/equipment, m monsters; Escape
 returns from panels and q quits. Focus the terminal/game region to receive keys.
 Closing the viewer leaves review status unchanged. Mark reviewed explicitly when
 finished; `--mark-unreviewed D0006` reverses that local receipt. `--case D0004`
@@ -45,7 +45,7 @@ recordings are one qualified family, not four new choices.
 ./produce_death.py --seeds 1001 1002 1003 --turns 300000 --timeout 120
 ```
 
-Default: at most3 new Human Warrior/default point-buy games, each at most200000
+Default: at most3 new random-race/class, default point-buy games, each at most200000
 absolute engine turns and120 native wall seconds,30 seconds without progress.
 The initial uint32 seed is randomly selected once and the prospective consecutive
 seed list is printed/frozen before results. Explicit seeds make the request
@@ -108,3 +108,21 @@ Queue handoff: D0004 historical original C34 recording rerun VERIFIED via
 Owner review ledger and historical dossiers were unchanged; no desktop window,
 new natural death or personal character publication. Default queue honestly
 reported no unseen available movie.
+
+## Random characters for new exploration games
+
+Owner request: fresh `produce_death.py` games now default to native random race
+AND class. `--birth fixed` selects the old Human Warrior profile explicitly.
+The native birth menus receive `*`, so the recorded game seed determines both
+choices through ordinary game RNG; point buy remains the game's class-specific
+default. The prospective seed list, effective input and actual native CHARACTER
+are retained. A game is not described as Human Warrior merely because it used
+the exploration runner.
+
+Fresh `run-borg-headless.py NAME --turns N` characters use the same random-birth
+policy and a randomly chosen seed when --seed is omitted. Explicit --seed is
+reproducible, and --birth fixed remains available. Loaded saves retain their
+character; visible manual birth still follows the player's choices. Frozen
+ordinary measurement cohorts retain their original fixed birth unless explicitly
+run with the new --random-birth option. Historical cases and baselines are not
+rewritten by this new exploration default.
