@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Replay the next recorded encounter not marked reviewed by the owner."""
 import argparse
+from datetime import datetime, timezone
 import importlib.util
 import json
 from pathlib import Path
@@ -45,6 +46,8 @@ def run(args):
     print(f"When finished reviewing: ./replay_next_death.py --mark-reviewed {selected['case']}", flush=True)
     print('Closing the viewer does not mark a review complete.', flush=True)
     command = [sys.executable, str(ROOT / 'replay-borg.py'), selected['directory'], '--timeout', str(args.timeout)]
+    stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
+    command += ['--output', str(workflow.artifacts() / 'replays' / stamp)]
     for name in ('from_turn', 'view_only', 'verify_only'):
         value = getattr(args, name)
         if value is not None and value is not False:

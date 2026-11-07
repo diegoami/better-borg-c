@@ -101,6 +101,17 @@ class Collection(unittest.TestCase):
             with self.assertRaises(ValueError):
                 producer.seeds_for(args)
 
+    def test_nonrecording_build_is_rejected_before_native_execution(self):
+        with tempfile.TemporaryDirectory() as d:
+            build = Path(d)
+            (build / 'build.json').write_text(json.dumps({'complete': True, 'instrumented': True}))
+            args = self.options()
+            args.build = build
+            with mock.patch.object(producer.measurement, 'run') as native:
+                with self.assertRaises(ValueError):
+                    producer.prepare_build(args, 'pin')
+            native.assert_not_called()
+
     def simulate(self, outcomes, export_error=False):
         with tempfile.TemporaryDirectory() as d:
             output = Path(d) / 'collection'

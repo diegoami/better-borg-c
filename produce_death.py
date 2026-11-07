@@ -4,6 +4,7 @@ import argparse
 from collections import Counter
 from datetime import datetime, timezone
 import importlib.util
+import hashlib
 import json
 from pathlib import Path
 import secrets
@@ -42,7 +43,7 @@ def seeds_for(args):
 
 def prepare_build(args, commit):
     hashes = {name: workflow.sha(ROOT / 'tools' / name) for name in BUILD_TOOLS}
-    fingerprint = __import__('hashlib').sha256(json.dumps(hashes, sort_keys=True).encode()).hexdigest()[:12]
+    fingerprint = hashlib.sha256(json.dumps(hashes, sort_keys=True).encode()).hexdigest()[:12]
     build = args.build.resolve() if args.build else workflow.artifacts() / 'builds' / (commit[:12] + '-' + fingerprint)
     if not build.exists():
         if args.build:
@@ -123,7 +124,7 @@ def collect(args, output, seeds, commit):
         workflow.write(output / 'collection.json', plan)
         print('No natural death within the declared games/limits. No cohort enlargement performed.')
         return 0
-    except Exception as exc:
+    except (Exception, KeyboardInterrupt) as exc:
         plan.update(status='failed', error=str(exc))
         plan['counts'] = dict(Counter(e['outcome'] for e in plan['runs']))
         workflow.write(output / 'collection.json', plan)
