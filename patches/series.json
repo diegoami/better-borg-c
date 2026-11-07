@@ -727,7 +727,8 @@
    "evidence_ref": "e1638569ea292812dd6633e3968b99f78c18c2f4",
    "verification": "docs/measurement/OUT-OF-LIGHT-GATE.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-outoflight; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "04ab89381820df5856ec742b501b97b29c50bc19"
   }
  ]
 }
