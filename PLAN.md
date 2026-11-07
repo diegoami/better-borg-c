@@ -206,7 +206,12 @@ All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
 issues' verification comments. Queue: paused after consumer124 as owner requested. Resume with a source207
 recheck, then brand-240/stairtrack-232 and any newer demonstrations before
-low-priority 81 or discretionary death work.
+low-priority 81 or discretionary death work. The owner separately requested
+an accumulated bug-fix review: milestone3/issue128 collects the 27 verified
+carries after milestone2 snapshot 2675d198e through runtime snapshot
+702f091f6 (patches 0008-0034), with process/tooling context and review
+questions in docs/measurement/IMPACT-MILESTONE3.md. External findings belong
+on issue128; no external verdict is claimed.
 Consumer124/source323 (calfree-323) merged as 5fb5d1f74 (PR125, import
 dc1ea0c3, patch 0034): calculations_free() released calculation structs
 without token-list backing arrays; the correction releases them. The

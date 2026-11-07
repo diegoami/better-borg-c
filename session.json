@@ -72,11 +72,13 @@
   },
   "impact_milestone_v2": "https://github.com/diegoami/better-borg-c/milestone/2",
   "external_review_package_v2": "https://github.com/diegoami/better-borg-c/issues/38",
+  "impact_milestone_v3": "https://github.com/diegoami/better-borg-c/milestone/3",
+  "external_review_package_v3": "https://github.com/diegoami/better-borg-c/issues/128",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/124",
-    "branch": "task/carry-calfree-tokens",
-    "worktree": ".worktrees/calfree-tokens",
-    "state": "merged-5fb5d1f74-carried-open-patch-active-paused",
-    "instructions": "docs/measurement/CALFREE-TOKENS.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/128",
+    "branch": "docs/impact-milestone3",
+    "worktree": ".worktrees/milestone3-review",
+    "state": "review-package-open-paused-for-new-carries",
+    "instructions": "docs/measurement/IMPACT-MILESTONE3.md"
   }
 }
