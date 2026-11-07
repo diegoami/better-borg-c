@@ -75,11 +75,11 @@
   "impact_milestone_v3": "https://github.com/diegoami/better-borg-c/milestone/3",
   "external_review_package_v3": "https://github.com/diegoami/better-borg-c/issues/128",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/157",
-    "branch": "task/carry-enlightenment",
-    "worktree": ".worktrees/enlightenment",
-    "state": "merged-503e7a07b-measured-issue157-carried-open-tapunlife-blocked",
-    "instructions": "docs/measurement/ENLIGHTENMENT-USE.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/167",
+    "branch": "task/carry-stairreturn",
+    "worktree": ".worktrees/stairreturn",
+    "state": "merged-bc8cf805f-measured-issue167-carried-open-tapunlife-blocked",
+    "instructions": "docs/measurement/STAIR-RETURN-REPORT.md"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references"
 }

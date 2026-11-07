@@ -307,6 +307,24 @@ with evidence-durability/metadata findings on issues38/128. Follow-up
 issue130 preserves the 25 worktree-held carry archives in primary artifacts,
 corrects matrix/ledger metadata and records the final formula-memory ASan
 receipt; no worktree is removed until that evidence copy is verified.
+Consumer167/source230 (stairreturn-230) merged as bc8cf805f (PR171,
+import db0d342ec, patch 0041): borg_think_dungeon_light()'s
+out-of-light "Testing for stairs" branch queued borg_keypress('<') but
+fell through without reporting that it acted, so the think loop treated
+the stair key as disowned and kept queueing commands behind it; the
+correction adds the missing return true. The unchanged source evidence
+fixture verifies the burned-torch-on-stairs case acted=0 fail-before /
+acted=1 with the same '<' pass-after, with the lit (timeout 2000) and
+dead-no-stairs controls byte-identical and no sanitizer report;
+borg-think-dungeon-util.c already carries 0032/0036/0038 and the
+applied diff body is byte-identical to the source diff. Gate 965/965 +
+5/5, tooling 66/66 (the suite now takes the shared validation lock
+itself and must run outside a lock wrapper), and all 135 prior matrix
+cases match the recorded forty-carry tally. Post-merge frozen v1
+measurement: seeds 11/29/47 all turn_cap alive and well with whole-trace
+hashes identical to the forty-carry (enlightenment) run —
+behavior-neutral on the cohort. Next: recheck source207 for newer
+demonstrations.
 Consumer157/source81 (CBUG-0065, priority low) merged as 503e7a07b
 (PR160, import 526906c0f, patch 0040; owner-directed after the recorded
 backstop "low-priority 81" had been dropped from the handover's queue
