@@ -58,6 +58,23 @@ are exhausted. No forced death, automatic cap/seed enlargement, unattended job o
 retry-until-favorable loop. Cap survivors are retained as cap survivors. The
 stop-at-first-death sample is collection, not an unbiased survival-rate cohort.
 
+At startup the command prints the requested source commit/subject and the actual
+build it will run. A complete matching cache is reused automatically, including
+across documentation/launcher-only commits when game/Borg sources, build inputs,
+carry ledger, observer tools, binary and data still match. Provenance retains
+the actual build commit; collection.json records requested and actual commits
+separately. It does not pull Git changes or switch the checkout.
+
+When a new build/update is required, the interactive offer is:
+`Build/update this version before starting games? [Y/n]`. This happens before
+acquiring the shared native lock or creating a collection. Declining cancels
+without games. Noninteractive callers must pass `--yes` to accept a required
+build; `--no-build` requires an existing matching cache. `--check-build` prints
+version/cache status and exits without building, locking or running games
+(exit0 matching, exit1 missing). A corrupt/incomplete exact cache is preserved
+and rejected rather than overwritten. Selection is rechecked under the lock
+before the build/run; no prompt holds the lock.
+
 `--ref COMMIT` pins committed runtime source (defaultHEAD). Dirty runtime edits
 are not exported. A matching full-recording observer build is cached under the
 primary `artifacts/death-workflow/builds`; incomplete/changed cache entries fail
