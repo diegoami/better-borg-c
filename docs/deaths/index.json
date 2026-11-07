@@ -75,20 +75,12 @@
     },
     {
       "cases": [
-        "D0002"
+        "D0002",
+        "D0003"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
       "key": "exposure-before-crowd",
       "status": "recorded owner observation; needs native causal investigation",
-      "summary": "Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3"
-    },
-    {
-      "cases": [
-        "D0003"
-      ],
-      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
-      "key": "entry-exposure",
-      "status": "investigating recorded original-rule behavior; no defect established",
       "summary": "Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3"
     }
   ],
