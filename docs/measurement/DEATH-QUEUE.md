@@ -86,3 +86,25 @@ candidate investigations. A queue script never claims that analysis is complete.
 Bugs remain first; collection is a direct bounded request, not an automatic queue
 that pre-empts active defect work. Survival/progress experiments use the separate
 DEATH-IMPROVEMENT-WORKFLOW.md process, not this first-death collector.
+
+## Verification for this delivery
+
+Ten focused controls cover verified-family grouping, legacy/missing/changed
+recordings, viewer exit leaving owner status unchanged, reversible local review
+overrides, seed-mode validation, refusal of a nonrecording build, first-death
+stop/export, bounded all-cap completion, stall failure and failed-export evidence.
+Existing tooling controls remain required alongside the hosted native gate.
+
+Native smoke: actual source682143f79eeb, seed1001, one game/cap200/timeout30,
+result turn_cap at200/20HP, no death or extra seed attempted. Full standalone
+recording and collection manifest retained under primary
+`artifacts/death-workflow/smoke-cap-1001`. This is a bounded-run check, not mortality
+or death-export integration evidence; that export path uses existing tested
+record-death.py plus the focused collector controls.
+
+Queue handoff: D0004 historical original C34 recording rerun VERIFIED via
+`--case D0004 --verify-only`; receipt in primary
+`artifacts/death-workflow/replays/20261107T171050.115944Z/verification.json`.
+Owner review ledger and historical dossiers were unchanged; no desktop window,
+new natural death or personal character publication. Default queue honestly
+reported no unseen available movie.
