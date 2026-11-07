@@ -23,10 +23,21 @@ def module(name, filename):
 workflow = module('inventory_workflow', 'death-workflow.py')
 
 
+def legacy_observer(original, replay):
+    catalog = workflow.artifacts() / 'legacy-observers.json'
+    if not catalog.exists():
+        return None
+    return workflow.read(catalog).get(replay.recordings.sha(original / 'recording.json'))
+
+
 def cache_base(original, replay):
     helper = ROOT / 'tools/native-inventory.h'
     identity = hashlib.sha256((replay.recordings.sha(original / 'recording.json') +
         replay.recordings.sha(helper) + 'inventory-observer@1').encode()).hexdigest()
+    if not (original / 'instrumentation').is_dir():
+        legacy = legacy_observer(original, replay)
+        if legacy:
+            identity = hashlib.sha256((identity + json.dumps(legacy, sort_keys=True)).encode()).hexdigest()
     return workflow.artifacts() / 'inventory' / identity
 
 
@@ -47,6 +58,18 @@ def cached(original, replay):
 def prepare(original, replay, timeout):
     record = replay.recordings.validate(original)
     helper = ROOT / 'tools/native-inventory.h'
+    overlay = original / 'instrumentation'
+    if not overlay.is_dir():
+        legacy = legacy_observer(original, replay)
+        if not legacy or legacy['source_commit'] != record['build']['source_commit']:
+            raise ValueError('This early movie needs its archived historical observer sources restored before inventory recovery; --view-only still opens the original movie')
+        overlay = Path(legacy['directory'])
+        for name, digest in legacy['files_sha256'].items():
+            if Path(name).is_absolute() or '..' in Path(name).parts or replay.recordings.sha(overlay / name) != digest:
+                raise ValueError('Recovered historical observer source changed')
+        for name in ('native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h'):
+            if replay.recordings.sha(overlay / 'src' / name) != record['build']['tools_sha256'][name]:
+                raise ValueError('Recovered observer differs from the original build tools')
     base = cache_base(original, replay)
     with workflow.locked(base.with_suffix('.lock')):
         existing = cached(original, replay)
@@ -68,7 +91,7 @@ def prepare(original, replay, timeout):
                                cwd=ROOT, check=True)
                 with tarfile.open(archive) as stream:
                     stream.extractall(source, filter='data')
-                shutil.copytree(original / 'instrumentation', source, dirs_exist_ok=True)
+                shutil.copytree(overlay, source, dirs_exist_ok=True)
                 target = source / 'src/native-replay.c'
                 text = target.read_text()
                 start = 'void record_frame(const char *phase, long decisions)'

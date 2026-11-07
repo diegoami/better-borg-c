@@ -209,8 +209,8 @@ def show(directory, turn=None, verified=False, dump=False):
                     for row, line in enumerate(rows[scroll:scroll + height - 3], 1):
                         text, color = line if isinstance(line, tuple) else (line, 1)
                         screen.addnstr(row, 0, text[horizontal:], max(0, width - 1), color_attribute(color, palette))
-                screen.addnstr(height - 2, 0, '←/→ step  g turn  Space play  i inventory  e equip  m foes  d debug  Esc back  q quit', max(0, width - 1))
-                screen.addnstr(height - 1, 0, f'Frame {index + 1}/{len(frames.index)}. Original observations; controls never change the game.', max(0, width - 1))
+                screen.addnstr(height - 2, 0, '←/→ step  g turn  Space play  i inventory  e equipment  Esc/v back  q quit', max(0, width - 1))
+                screen.addnstr(height - 1, 0, f'Frame {index + 1}/{len(frames.index)} | j/k scroll  [] pan | m monsters  d debug', max(0, width - 1))
                 screen.refresh()
                 screen.timeout(100 if playing else -1)
                 key = read_key(screen, playing)
