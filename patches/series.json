@@ -746,7 +746,8 @@
    "evidence_ref": "9fe10e42709c480e7b09c8472f9205b9281d6a1c",
    "verification": "docs/measurement/MAP-WALL-CAPTURE.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-mapwall; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured (behavior-active: v1 traces legitimately diverge, outcomes unchanged); carried/open+patch-active",
+   "merge_commit": "f0288cca5471cf5cbaa3a041f93fe64fb913eb6f"
   }
  ]
 }

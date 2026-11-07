@@ -216,6 +216,27 @@ with evidence-durability/metadata findings on issues38/128. Follow-up
 issue130 preserves the 25 worktree-held carry archives in primary artifacts,
 corrects matrix/ledger metadata and records the final formula-memory ASan
 receipt; no worktree is removed until that evidence copy is verified.
+Consumer148/source212 (mapwall-212) merged as f0288cca5 (PR149, import
+5bd789ee0, patch 0039): borg_update_map()'s old_wall capture ran after
+the grid feature was overwritten with what the game shows, so the
+wall-change comparison compared the new feature against itself and
+never fired; stale flow, stone-to-mud knowledge, icky flags and stamps
+survived a grid changing under the Borg. The correction moves the
+capture before the overwrite. The unchanged source evidence fixture
+verifies door-close and door-open keeping everything stale fail-before
+/ invalidating correctly pass-after (door-close resets the flow to the
+new-wall 255, door-open keeps it) with the no-change control
+byte-identical and no sanitizer report; borg-update.c already carries
+0018 and the applied diff body is byte-identical to the source diff.
+Gate 965/965 + 5/5, tooling 54/54 (the recording-feature tooling set),
+and all 126 prior matrix cases match the recorded thirty-eight-carry
+tally. **Behavior-active carry:** the post-merge frozen v1 measurement
+legitimately diverges from the recorded traces for the first time —
+seed11 and seed47 substantially (flow re-evaluations after ordinary
+feature changes), seed29 barely; all three seeds still finish turn_cap
+alive and well, so the measured impact is the intended re-flow after
+corrected invalidation, recorded rather than asserted away. Next:
+recheck source207 for newer demonstrations.
 Consumer144/source229 (outoflight-229) merged as 04ab89381 (PR145,
 import 54a26b3b3, patch 0038): borg_think_dungeon_light()'s entry test
 `!BI_LIGHT && (BI_LIGHT <= 0 || timeout <= 3)` swallows its own
