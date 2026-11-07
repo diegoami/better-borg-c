@@ -233,3 +233,8 @@ The forty-fifth carry considers gloves as armour-swap candidates
 (consumer #201/source #205). Free-action gauntlets in the pack are now
 chosen when the Borg has no free action; the plain-glove and
 free-action-already-worn controls stay byte-identical.
+
+The forty-sixth carry clears object-detection panel flags on a new level
+(consumer #205, adopting source219). The depth change now clears
+borg_detect_obj alongside trap/door/evil; the same-level control stays
+byte-identical.
