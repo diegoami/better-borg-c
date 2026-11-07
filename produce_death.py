@@ -171,7 +171,7 @@ def collect(args, output, seeds, commit):
     plan = {'schema': 'borg-death-collection@1', 'created_at': workflow.now(),
             'requested_source_commit': commit, 'source_commit': None, 'seeds': seeds, 'turn_cap': args.turns,
             'wall_limit_per_game_seconds': args.timeout, 'stall_timeout_seconds': args.stall_timeout,
-            'stop_rule': 'first natural death, operational failure, or listed seeds exhausted',
+            'stop_rule': 'first natural death, operational failure other than wall timeout, or listed seeds exhausted; time/turn limits start the next seed',
             'birth_policy': getattr(args, 'birth', 'random'),
             'character': ('Random race and class' if getattr(args, 'birth', 'random') == 'random' else 'Human Warrior') + '; default point buy; native Borg defaults; death evidence on; cheat death and winner respawn off',
             'runner_sha256': workflow.sha(Path(__file__)), 'issue': args.death_issue,
@@ -211,7 +211,12 @@ def collect(args, output, seeds, commit):
                     print(f"Natural death: {entry['dossier']}")
                     print('Next: ./replay_next_death.py; full death analysis remains pending.')
                     return 1 if code else 0
-                if code or result['outcome'] not in ('turn_cap', 'completion'):
+                if result['outcome'] == 'wall_timeout' and code in (0, 1) and not result.get('error'):
+                    print(f'No early death within {args.timeout}s; evidence retained: {run}', flush=True)
+                    if index < len(seeds):
+                        print('Trying the next seed with the same time and turn limits.', flush=True)
+                    continue
+                if code or result.get('error') or result['outcome'] not in ('turn_cap', 'completion'):
                     raise ValueError(f'Operational failure; retained evidence: {run}')
         plan['status'] = 'limits_reached_without_death'
         workflow.write(output / 'collection.json', plan)
@@ -227,7 +232,7 @@ def collect(args, output, seeds, commit):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--birth', choices=('random', 'fixed'), default='random', help='new characters: random race/class (default), or fixed Human Warrior')
-    p.add_argument('--games', type=int, help='maximum games (default3); stops after first death/failure')
+    p.add_argument('--games', type=int, help='maximum fresh characters (default3); time/turn limits try next seed, first death/error stops')
     p.add_argument('--seed', type=int, help='first uint32 seed (default random); subsequent seeds are consecutive')
     p.add_argument('--seeds', nargs='+', type=int, help='explicit prospective seed list instead of --games/--seed')
     p.add_argument('--turns', type=int, default=200000, help='absolute engine-turn cap per new game (default200000)')
