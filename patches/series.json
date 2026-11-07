@@ -708,7 +708,8 @@
    "evidence_ref": "e40c642a0a7906d8d9caadb803ed6a5adb70bbc5",
    "verification": "docs/measurement/ACID-ARC-BOUNDS.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-acidarc; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "d619eec5fc54e6680571c9316a74ceff270f327d"
   }
  ]
 }
