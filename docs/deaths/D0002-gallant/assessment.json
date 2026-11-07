@@ -68,6 +68,18 @@
       "issue": "https://github.com/diegoami/better-borg-c/issues/154",
       "summary": "Evaluate early Phase Door/cure restock requirement linked to source370",
       "status": "proposed enhancement; no implementation or survival benefit established"
+    },
+    {
+      "key": "theft-danger-weight",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/158",
+      "summary": "Evaluate theft danger contribution and sensitivity of first escape choice",
+      "status": "proposed analysis; runtime decomposition and survival/progress benefit unproved"
+    },
+    {
+      "key": "attempted-room-retreat",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/159",
+      "summary": "Evaluate attempted door/upstairs retreat before repeated phases and after scroll exhaustion",
+      "status": "proposed analysis; sleep timing, route knowledge and outcomes unproved"
     }
   ],
   "feedback": [
@@ -90,6 +102,16 @@
         "exposure-before-crowd"
       ],
       "evidence": "../D0004-named-headless/owner-phase-feedback.md"
+    },
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/34#issuecomment-6710312944",
+      "summary": "Require brainstorming and complete overall picture per processed death; evaluate lower theft danger and room retreat, including attempted escape after no Phase Door remains.",
+      "status": "recorded; candidates filed and overall assessment written; native mechanisms and alternative outcomes pending",
+      "actions": [
+        "theft-danger-weight",
+        "attempted-room-retreat"
+      ]
     }
   ],
   "inspection_profile": {
@@ -114,5 +136,6 @@
         "reason": "Before PhaseDoor20293 and critical crowd20303"
       }
     ]
-  }
+  },
+  "overall_assessment": "../D0004-named-headless/overall-assessment.md"
 }
