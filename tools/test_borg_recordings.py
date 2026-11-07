@@ -104,6 +104,37 @@ class FrameInspection(unittest.TestCase):
                 target.write('{"inventory": {}}\n')
             self.assertIsNotNone(replay.first_difference(a, b, inventory_extension=True))
 
+    def test_native_spells_retain_mana_availability_and_no_future_spell_names(self):
+        spells = {'class': 'Mage', 'mana': 0, 'max_mana': 3, 'caster': True,
+                  'learned': [{'label': 'a', 'name': 'Magic Missile', 'level': 1, 'mana': 1, 'fail': 29,
+                               'castable': True, 'status': 'Low mana', 'book': 'a Book of Magic Spells [First Spells]', 'book_label': 'a'}]}
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            streams(root, [frame(1, 1, 1, [], spells=spells), frame(2, 2, 0, [], spells=None)])
+            frames = viewer.Frames(root)
+            try:
+                state = frames.get(1)[0]
+                lines = str(viewer.spell_rows(state))
+                self.assertIn('Magic Missile', lines)
+                self.assertIn('29%', lines)
+                self.assertIn('Low mana', lines)
+                self.assertNotIn('Fire Ball', lines)
+            finally:frames.close()
+        self.assertIn('no spells', str(viewer.spell_rows({'caster': False})))
+        self.assertIn('not captured', str(viewer.spell_rows({})))
+
+    def test_spell_extension_keeps_existing_inventory_and_spell_fields_strict(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            a, b = Path(tmp) / 'original', Path(tmp) / 'rerun'
+            base = frame(1, 1, 1, [], inventory={'pack': []})
+            streams(a, [base]); streams(b, [dict(base, spells={'learned': []})])
+            self.assertIsNone(replay.first_difference(a, b, inventory_extension=True, spells_extension=True))
+            streams(b, [dict(base, inventory={'pack': ['changed']}, spells={'learned': []})])
+            self.assertIsNotNone(replay.first_difference(a, b, inventory_extension=True, spells_extension=True))
+            base['spells'] = {'learned': ['original']}; streams(a, [base])
+            streams(b, [dict(base, spells={'learned': ['changed']})])
+            self.assertIsNotNone(replay.first_difference(a, b, inventory_extension=True, spells_extension=True))
+
     def test_missing_first_full_frame_is_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

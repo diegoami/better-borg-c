@@ -286,6 +286,7 @@ static void diagnostics(void)
 }
 
 #include "native-inventory.h"
+#include "native-spells.h"
 
 void record_frame(const char *phase, long decisions)
 {
@@ -341,6 +342,7 @@ void record_frame(const char *phase, long decisions)
     else fprintf(frames, "null");
     previous_details = detail_hash;
     replay_inventory(full);
+    replay_spells(full);
     fprintf(frames, "}\n");
     fflush(frames);
 }
