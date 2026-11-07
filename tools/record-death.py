@@ -22,6 +22,10 @@ def write(path, value):
     path.write_text(json.dumps(value, indent=2, sort_keys=True) + '\n')
 
 
+def native_map(directory, run):
+    return directory / run.get('native_map', 'archive/Measure.map')
+
+
 def source_ledger(commit):
     exists = subprocess.run(['git', 'cat-file', '-e', commit + ':patches/series.json'],
                             cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
@@ -106,10 +110,10 @@ def capture(args):
             raise ValueError('Pre-window trajectory observations differ')
         windows.append({'offset_engine_turns': terminal['turn'] - turn, 'turn': turn,
                         'terminal': r['states'][-1], 'matching_prior_observations': True,
-                        'phase': 'Immediately after world-turn increment, before remaining processing at that tick',
+                        'phase': r.get('stop_boundary', 'Immediately after world-turn increment, before remaining processing at that tick'),
                         'snapshot': f"snapshots/T-minus-{terminal['turn'] - turn}.txt",
                         'raw_directory': str(p), 'result_sha256': sha(p / 'result.json'),
-                        'native_map_sha256': sha(p / 'archive/Measure.map')})
+                        'native_map_sha256': sha(native_map(p, r))})
     if (out / 'record.json').exists():
         previous = read(out / 'record.json')
         if {a['result_sha256'] for a in previous['attempts']} - {a['result_sha256'] for a in attempts}:
@@ -126,9 +130,10 @@ def capture(args):
         write(out / name, data)
     ledger = source_ledger(key['source'])
     for w in windows:
-        native = Path(w['raw_directory']) / 'archive/Measure.map'
+        window_directory = Path(w['raw_directory'])
+        native = native_map(window_directory, read(window_directory / 'result.json'))
         (out / w['snapshot']).write_text(native.read_text().split('[Last Messages]')[0])
-    shutil.copy2(original / 'archive/Measure.map', out / 'terminal.map.txt')
+    shutil.copy2(native_map(original, run), out / 'terminal.map.txt')
     if (original / 'input.txt').exists():
         shutil.copy2(original / 'input.txt', out / 'input.txt')
     tail = [s for s in lines if s.startswith('BORG ') and int(s.split()[1]) >= terminal['turn'] - 200]
@@ -150,6 +155,9 @@ def capture(args):
               'issue': args.issue, 'investigation': args.investigation,
               'recording_scope': 'Exact selected Borg observations, terminal recent messages and native map snapshots; not video or a complete every-turn engine event stream',
               'curation': 'Native maps include diagnostic/internal state and legacy death labels even at live window caps; outcomes come from result.json. Full runs, saves and builds stay outside Git.'}
+    if 'run_kind' in run:
+        record.update(run_kind=run['run_kind'], restored_backup_slot=run.get('restored_backup_slot'),
+                      continuation=run.get('continuation'))
     write(out / 'record.json', record)
     if not (out / 'assessment.json').exists():
         write(out / 'assessment.json', {'classification': 'unassessed', 'confidence': 'unassessed',

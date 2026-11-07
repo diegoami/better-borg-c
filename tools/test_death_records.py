@@ -49,6 +49,18 @@ class Records(unittest.TestCase):
             with self.assertRaises(ValueError):
                 record.capture(self.args(self.fixture(root, 'cap', outcome='turn_cap'), root / 'dossier'))
 
+    def test_named_native_map_is_exported_without_assuming_measure(self):
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(record, 'source_ledger', side_effect=self.ledger):
+            root = Path(tmp)
+            run = self.fixture(root, 'named')
+            (run / 'archive/Measure.map').rename(run / 'archive/Hero.map')
+            data = json.loads((run / 'result.json').read_text())
+            data['native_map'] = 'archive/Hero.map'
+            (run / 'result.json').write_text(json.dumps(data))
+            out = root / 'dossier'
+            record.capture(self.args(run, out))
+            self.assertEqual((out / 'terminal.map.txt').read_bytes(), (run / 'archive/Hero.map').read_bytes())
+
     def test_actual_old_build_is_pinned_and_cannot_be_replaced(self):
         with tempfile.TemporaryDirectory() as tmp, mock.patch.object(record, 'source_ledger', side_effect=self.ledger):
             root = Path(tmp)
@@ -131,6 +143,24 @@ class Records(unittest.TestCase):
             self.assertEqual(summary['actions'][0]['issue'], 'issue22')
             self.assertIn('(issue22)', text)
             self.assertEqual(len(summary['versions']), 2)
+
+    def test_only_verified_reference_family_can_group_different_save_bytes(self):
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(record, 'source_ledger', side_effect=self.ledger):
+            root = Path(tmp)
+            original = self.fixture(root, 'first')
+            reference = self.fixture(root, 'second', source='new')
+            (reference / 'start.save').write_bytes(b'different name/build metadata')
+            folder = root / 'records'
+            first = record.capture(self.args(original, folder / 'first'))
+            record.capture(self.args(reference, folder / 'second'))
+            assessment_path = folder / 'second/assessment.json'
+            assessment = json.loads(assessment_path.read_text())
+            assessment['encounter_family'] = first['encounter_family']
+            assessment_path.write_text(json.dumps(assessment))
+            self.assertEqual(index.aggregate(folder)[0]['distinct_starting_conditions'], 2)
+            assessment['encounter_family_qualification'] = {'status': 'verified', 'evidence': 'curated native trace comparison'}
+            assessment_path.write_text(json.dumps(assessment))
+            self.assertEqual(index.aggregate(folder)[0]['distinct_starting_conditions'], 1)
 
 
 if __name__ == '__main__':

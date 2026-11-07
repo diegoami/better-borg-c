@@ -40,6 +40,14 @@ def replace(path, old, new):
     path.write_text(text.replace(old, new))
 
 
+def named_play_bridge(source):
+    """Also support refreshing observer builds exported before named play."""
+    path = source / 'src/borg/borg-commands.c'
+    if 'void measure_activate_borg(void)' not in path.read_text():
+        with path.open('a') as saved:
+            saved.write('\n#ifdef ALLOW_BORG\nvoid measure_activate_borg(void) { borg_cmd_start(); }\n#endif\n')
+
+
 def prepare(args):
     out = args.output.resolve()
     out.mkdir(parents=True, exist_ok=args.retry)
@@ -75,6 +83,9 @@ def prepare(args):
         replace(source / 'src/ui-game.c', '\t\tclose_game(true);', '\t\tmeasure_end();\n\t\tclose_game(true);')
         replace(source / 'src/borg/borg.c', 'while (!borg_think())', 'while (!(measure_decision(), borg_think()))')
         replace(source / 'src/borg/borg-io.c', '    /* Log the message */', '    measure_note(what);\n\n    /* Log the message */')
+        # Named play invokes the same native activation routine without UI
+        # confirmation keys; ordinary measurement still uses its original input.
+        named_play_bridge(source)
         with (source / 'CMakeLists.txt').open('a') as f:
             f.write('\ntarget_sources(OurExecutable PRIVATE src/native-observer.c)\n')
     with (source / 'CMakeLists.txt').open('a') as f:
@@ -115,6 +126,7 @@ def refresh_observer(args):
         data = (ROOT / 'tools' / name).read_bytes()
         if source.read_bytes() != data:
             source.write_bytes(data)
+    named_play_bridge(out / 'source')
     manifest.update(complete=False, harness_commit=git('rev-parse', 'HEAD'),
                     tools_sha256={p.name: sha(p) for p in (ROOT / 'tools').glob('*') if p.is_file()})
     command = ['cmake', '--build', str(out / 'build'), '--target', 'OurExecutable', '--parallel', '2']
@@ -202,11 +214,15 @@ def run(args):
     out.mkdir(parents=True, exist_ok=False)
     for d in ('user', 'archive', 'save', 'scores', 'panic'):
         (out / d).mkdir()
-    config = 'borg_cheat_death = FALSE\nborg_respawn_winners = FALSE\n'
+    play_turns = getattr(args, 'play_turns', None)
+    config = getattr(args, 'configuration', None)
+    config = (config + '\n' if config is not None else '') + 'borg_cheat_death = FALSE\nborg_respawn_winners = FALSE\n'
     (out / 'user/borg.txt').write_text(config)
     run_input = ('key space\nkey C-z\nkey space\nkey space\nkey y\nkey z\n' if args.load else INPUT)
+    if play_turns:
+        run_input = 'key space\n' if args.load else INPUT.split('key C-z')[0]
     (out / 'input.txt').write_text(run_input)
-    command = [str(build / 'build/game/angband'), '-mtest', '-uMeasure']
+    command = [str(build / 'build/game/angband'), '-mtest', '-u' + getattr(args, 'save_name', 'Measure')]
     command += [f'-d{d}={out / d}' for d in ('user', 'archive', 'save', 'scores', 'panic')]
     command += [f'-d{key}={build / "source/lib" / directory}' for key, directory in (('gamedata', 'gamedata'), ('pref', 'customize'))]
     env = os.environ.copy()
@@ -214,6 +230,11 @@ def run(args):
                BORG_MEASURE_DIR=str(out), LC_ALL='C.UTF-8', LANG='C.UTF-8')
     for key in ('BORG_MEASURE_NO_SAVES', 'BORG_MEASURE_LOAD'):
         env.pop(key, None)
+    for key in ('BORG_MEASURE_PLAY_TURNS', 'BORG_MEASURE_FINAL_SAVE'):
+        env.pop(key, None)
+    if play_turns:
+        env.update(BORG_MEASURE_PLAY_TURNS=str(play_turns),
+                   BORG_MEASURE_FINAL_SAVE=str(out / 'final.save'))
     if args.load:
         env['BORG_MEASURE_LOAD'] = str(args.load.resolve())
     if args.no_saves:
@@ -230,12 +251,18 @@ def run(args):
               'environment': {k: env[k] for k in ('BORG_MEASURE_SEED', 'BORG_MEASURE_CAP', 'BORG_MEASURE_DIR', 'LC_ALL', 'LANG', 'BORG_MEASURE_NO_SAVES', 'BORG_MEASURE_LOAD') if k in env},
               'build': manifest, 'character': 'Human Warrior; default point buy; normal UI birth',
               'configuration_sha256': sha(out / 'user/borg.txt'), 'outcome': 'harness_failure'}
+    if play_turns:
+        result.update(turn_cap=None, requested_additional_turns=play_turns,
+                      stop_boundary='first command boundary at or after the additional-turn target',
+                      activation='native borg_cmd_start via observer bridge; no UI key automation',
+                      continuation='Native save restored; complete Borg memory is not serialized')
     write(out / 'result.json', result)
     start = time.monotonic()
     p = None
     try:
         with (out / 'input.txt').open() as inp, (out / 'terminal.log').open('w') as log:
-            p = subprocess.Popen(command, cwd=build / 'source', env=env, stdin=inp, stdout=log, stderr=subprocess.STDOUT)
+            p = subprocess.Popen(command, cwd=build / 'source', env=env, stdin=inp,
+                                 stdout=log, stderr=subprocess.STDOUT)
             interrupted = monitor(p, out / 'trace.txt', args.timeout, args.stall_timeout)
             result['exit_code'] = p.returncode
         trace = (out / 'trace.txt').read_text() if (out / 'trace.txt').exists() else ''
@@ -243,6 +270,16 @@ def run(args):
         result['states'] = states
         result['outcome'] = classify(p.returncode, states, interrupted)
         result['cause'] = next((line[6:] for line in trace.splitlines() if line.startswith('CAUSE ')), None)
+        if play_turns:
+            result['requested_additional_turns'] = play_turns
+            result['character'] = next((s[10:] for s in trace.splitlines() if s.startswith('CHARACTER ')), 'unknown')
+            result['input_sha256'] = sha(out / 'input.txt')
+            if states:
+                result['actual_additional_turns'] = states[-1]['turn'] - states[0]['turn']
+                result['turn_cap'] = states[0]['turn'] + play_turns
+            maps = list((out / 'archive').glob('*.map'))
+            if len(maps) == 1:
+                result['native_map'] = str(maps[0].relative_to(out))
     except (OSError, ValueError) as exc:
         result['error'] = str(exc)
     finally:

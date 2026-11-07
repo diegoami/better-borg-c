@@ -7,7 +7,7 @@ game_dir="$repo_dir/build/native/game"
 
 usage() {
     cat <<'EOF'
-Usage: ./start-borg.sh [CHARACTER]
+Usage: ./start-borg.sh [CHARACTER] [--from-backup[=SLOT]]
 
 Open Angband using CHARACTER's save, or create it if it does not exist.
 Without a name, ask which character to use (default: BorgPlay).
@@ -19,19 +19,33 @@ build/native/game/lib/save/backups/CHARACTER/ (save.1 is newest).
 Set BORG_PLAY_FONT to override the default 28-pixel Courier font.
 Offers to rebuild missing/stale local sources; does not fetch remote updates.
 Different character names can run together; each save is locked while playing.
+--from-backup restores slot 1; --from-backup=2 selects another slot (1..5).
+The current save is preserved in a timestamped before-restore file first.
 EOF
 }
 
-if [[ ${1:-} == --help || ${1:-} == -h ]]; then
-    usage
-    exit 0
-fi
-if (( $# > 1 )); then
-    usage >&2
+character=''
+restore_slot=''
+while (( $# )); do
+    case "$1" in
+        --help|-h) usage; exit 0 ;;
+        --from-backup) restore_slot=1 ;;
+        --from-backup=*)
+            restore_slot="${1#*=}"
+            if [[ -z "$restore_slot" ]]; then echo 'Backup slot is required after =.' >&2; exit 2; fi
+            ;;
+        -*) usage >&2; exit 2 ;;
+        *)
+            if [[ -n "$character" ]]; then usage >&2; exit 2; fi
+            character="$1"
+            ;;
+    esac
+    shift
+done
+if [[ -n "$restore_slot" && ! "$restore_slot" =~ ^[1-5]$ ]]; then
+    echo 'Backup slot must be 1 through 5.' >&2
     exit 2
 fi
-
-character="${1:-}"
 if [[ -z "$character" ]]; then
     read -r -p 'Character/save name [BorgPlay]: ' character || true
     character="${character:-BorgPlay}"
@@ -94,6 +108,9 @@ if ! flock -n 9; then
 fi
 
 save_file="$game_dir/lib/save/$character"
+if [[ -n "$restore_slot" ]]; then
+    python3 "$repo_dir/tools/borg-saves.py" restore "$save_file" "$restore_slot"
+fi
 if [[ -f "$save_file" ]]; then
     backup_dir="$game_dir/lib/save/backups/$character"
     mkdir -p -- "$backup_dir"

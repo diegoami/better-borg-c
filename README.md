@@ -66,6 +66,53 @@ Declining keeps the existing executable, if available. It does not pull remote
 changes. Different character names may run concurrently; a per-character lock
 prevents two launches through this script from opening the same save.
 
+To return to a pre-death backup, run `./start-borg.sh BorgPlay --from-backup`.
+Slot 1 is the newest; use `--from-backup=2` for slot 2 (through 5). This explicitly
+restores the selected snapshot, whether or not the current character is dead.
+The current save is preserved as a timestamped `before-restore-*.save` beside
+the rolling copies before replacement. A missing backup stops the launch.
+
+For bounded play without a window:
+
+```sh
+./run-borg-headless.py BorgPlay --turns 10000
+./run-borg-headless.py BorgPlay --turns 10000 --from-backup
+```
+
+This loads the named save, activates the native Borg and plays **additional
+engine turns** from its starting turn. A missing save creates a Human Warrior
+with ordinary point buy (`--seed` sets a new character's RNG, default 1).
+It saves at the first command boundary at or after the target, so long actions
+can overshoot; the actual count is reported. Saves go to the same
+`build/native/game/lib/save/NAME` directory as the visible launcher, with the
+same five backups and character lock. Headless `--from-backup=2` also selects
+slot 2. Different names can coexist; heavy headless builds/runs serialize on
+the shared validation lock.
+
+The first headless launch prepares a cached observer build from the checkout's
+committed source; later launches reuse it while source/observer identity matches.
+Tracked runtime edits must be committed first. Full traces, input/final/living
+saves, native maps and hashed build/results remain under `artifacts/headless/`.
+The normal GUI binary is unchanged. Loaded saves restore the character/dungeon
+and game RNG, but not complete Borg memory, so continuation is not guaranteed
+to reproduce uninterrupted decisions. A backup restart is a replay branch,
+not another independent life for survival statistics.
+
+Headless play disables continuous resurrection and stops on natural death,
+victory or the turn target. A normal finish atomically publishes its final save;
+a timeout, stall, crash or failed save leaves the previous named save untouched
+(an explicitly requested backup restore still takes effect). `--timeout` and
+`--stall-timeout` bound wall time/no-progress, separately from engine turns.
+A dead final save remains dead. On natural death, the runner puts the most
+recent living checkpoint in rolling backup slot 1, so
+`--from-backup` can resume from before death. New characters also retain their
+starting save as a backup. These checkpoint restores reset Borg memory.
+Natural deaths export an unassessed dossier
+under `docs/deaths/`, link the discussion in issue111 (`--death-issue` overrides
+it), and regenerate the registry. Replay qualification, assessment and causal
+investigation remain pending agent work under the death protocol; automatic
+export does not establish a bug or a completed investigation.
+
 This is an independent GitHub repository with preserved C ancestry, not a
 second fork-network member: the owner's existing Angband fork hosts the source
 tracker. Fetch `angband` for pristine C and `source-tracker` for named proposals;
