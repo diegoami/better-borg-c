@@ -170,3 +170,7 @@ threshold stays byte-identical at zero.
 The thirty-sixth carry stops re-adding the known up staircase in stair
 scum (consumer #137/source #232). The up-stair scan breaks on a match
 like the down-stair scan; the fresh-discovery control stays byte-identical.
+
+The thirty-seventh carry counts the south and east edges of ball and arc
+blasts (consumer #141/source #252). The four blast-loop bounds are
+inclusive; the near and empty controls stay byte-identical.
