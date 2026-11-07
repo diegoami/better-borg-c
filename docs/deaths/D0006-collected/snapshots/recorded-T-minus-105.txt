@@ -1,0 +1,27 @@
+Original recording: frame 88803, engine turn 72995, phase tick; HP 63, SP 0, depth 14
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You hit the orc shaman. You hit the orc shaman.                                 
+Human                                                                           
+Soldier                                                                         
+Warrior                                                                         
+LEVEL      8                                                                    
+NXT       14                                           ###   #####              
+AU       638                                           ...   #...#              
+|}= "~(()]]]                                         ###.# ###.###              
+STR:   18/20                                         #.Kz# #.....#              
+INT:       8                                         #.#o# #.#.#.#              
+WIS:       8                                           #@# #.#.#.#              
+DEX:      18                                           #'#####.###              
+CON:      18                                           #.#.......#              
+                                                     ###.#.#.#.#{#              
+Cur AC    26                                         #.....#.#.# #              
+HP   63/ 100                                         ###.#.#.#.#                
+                                                       #.#.#.#.#                
+                                                       #########                
+[***-------]                                                                    
+                                                                                
+                                                                                
+                                                                                
+700' (L14)                                                                      
+             LF:3-5 Light 3  Fed 34 % Open floor                                

@@ -1,0 +1,27 @@
+Original recording: frame 88838, engine turn 73018, phase tick; HP 52, SP 0, depth 14
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You miss the zombified human. You hit the zombified human.                      
+Human                                                                           
+Soldier                                                                         
+Warrior                                                                         
+LEVEL      9                                                                    
+NXT       80                                           ###   #####              
+AU       638                                           ...   #...#              
+|}= "~(()]]]                                         ###.# ###.###              
+STR:   18/20                                         #..K# #.....#              
+INT:       8                                         #.#z# #.#.#.#              
+WIS:       8                                           #@# #.#.#.#              
+DEX:      18                                           #'#####.###              
+CON:      18                                           #.#.......#              
+                                                     ###.#.#.#.#{#              
+Cur AC    26                                         #.....#.#.# #              
+HP   52/ 106                                         ###.#.#.#.#                
+                                                       #.#.#.#.#                
+                                                       #########                
+[*******---]                                                                    
+                                                                                
+                                                                                
+                                                                                
+700' (L14)                                                                      
+             LF:3-5 Light 3  Fed 34 % Open floor                                

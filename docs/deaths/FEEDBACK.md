@@ -121,3 +121,10 @@ records explicit completion. Quitting the viewer does not mark it done or close
 investigations. `./produce_death.py` collects fresh disposable recorded games
 within declared bounds; it cannot guarantee a natural death. See
 [queue/collector usage](../measurement/DEATH-QUEUE.md).
+
+D0006 owner review is on [177](https://github.com/diegoami/better-borg-c/issues/177):
+identification180, ammunition/melee readiness181, Recall/Home and two delayed
+DeepDescent jumps183, shared walking-retreat159 and heal-eligibility34.
+[Overall picture](D0006-collected/overall-assessment.md) distinguishes verified
+trajectory from untested rescues. HP mismatch178 is stale sidebar rendering
+during successful rest regeneration; original recording/state stays intact.

@@ -4,6 +4,7 @@ from contextlib import contextmanager
 import curses
 import gzip
 import json
+import re
 import tempfile
 
 
@@ -149,6 +150,33 @@ def color_attribute(color, palette):
     return 0
 
 
+def sidebar_vitals(frame, chars):
+    """Read the recorded sidebar; terminal redraw can lag actual state at rest."""
+    vitals = {}
+    for row in range(frame['height']):
+        start = row * frame['width']
+        text = ''.join(glyph(c) for c in chars[start:start + min(22, frame['width'])])
+        match = re.match(r'^\s*(HP|SP)\s+(-?\d+)\s*/\s*(\d+)\b', text)
+        if match:
+            vitals[match[1]] = (int(match[2]), int(match[3]))
+    return vitals
+
+
+def playback_status(frame, chars, total, sidebar_visible=True):
+    mismatches = []
+    vitals = sidebar_vitals(frame, chars) if sidebar_visible else {}
+    for label, (shown, shown_max) in vitals.items():
+        field = label.lower()
+        current, maximum = frame[field], frame.get('max_' + field)
+        if shown != current or (maximum is not None and shown_max != maximum):
+            actual = f"{current}/{maximum}" if maximum is not None else str(current)
+            mismatches.append(f"{label} {shown}/{shown_max}; recorded {label} {actual}")
+    prefix = f"Frame {frame['index']}/{total}"
+    if mismatches:
+        return prefix + ' | Sidebar awaiting redraw: ' + ', '.join(mismatches), True
+    return prefix + ' | j/k scroll  [] pan | m monsters  d debug', False
+
+
 def read_key(screen, playing=False):
     """Accept both normal CSI and application-cursor sequences used by terminals."""
     key = screen.getch()
@@ -207,7 +235,9 @@ def show(directory, turn=None, verified=False, dump=False, caster=None):
                 height, width = screen.getmaxyx()
                 screen.erase()
                 badge = 'VERIFIED' if verified else 'RECORDING ONLY / UNVERIFIED'
-                header = f"{badge} | turn {frame['turn']} ({frame['phase']}) | HP {frame['hp']} SP {frame['sp']} level {frame['level']} depth {frame['depth']}"
+                hp = f"{frame['hp']}/{frame['max_hp']}" if 'max_hp' in frame else str(frame['hp'])
+                sp = f"{frame['sp']}/{frame['max_sp']}" if 'max_sp' in frame else str(frame['sp'])
+                header = f"{badge} | turn {frame['turn']} ({frame['phase']}) | HP {hp} SP {sp} level {frame['level']} depth {frame['depth']}"
                 screen.addnstr(0, 0, header, max(0, width - 1))
                 for row in range(max(0, min(frame['height'] - scroll, height - 3)) if panel == 'screen' else 0):
                     for col in range(max(0, min(frame['width'] - horizontal, width - 1))):
@@ -238,7 +268,8 @@ def show(directory, turn=None, verified=False, dump=False, caster=None):
                         text, color = line if isinstance(line, tuple) else (line, 1)
                         screen.addnstr(row, 0, text[horizontal:], max(0, width - 1), color_attribute(color, palette))
                 screen.addnstr(height - 2, 0, '←/→ step g turn Space play | i pack e equipment s magic | Esc back q quit', max(0, width - 1))
-                screen.addnstr(height - 1, 0, f'Frame {index + 1}/{len(frames.index)} | j/k scroll  [] pan | m monsters  d debug', max(0, width - 1))
+                status, pending = playback_status(frame, chars, len(frames.index), panel == 'screen')
+                screen.addnstr(height - 1, 0, status, max(0, width - 1), color_attribute(11, palette) if pending else 0)
 
                 screen.refresh()
                 screen.timeout(100 if playing else -1)

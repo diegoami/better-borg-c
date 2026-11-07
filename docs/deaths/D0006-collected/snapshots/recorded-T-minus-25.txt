@@ -1,0 +1,27 @@
+Original recording: frame 88927, engine turn 73075, phase tick; HP 17, SP 0, depth 14
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+Your eyes begin to tingle! You have no more Potions of Infravision (m).         
+Human                                                                           
+Soldier                                                                         
+Warrior                                                                         
+LEVEL      9                                                                    
+NXT       35                                           ###   #####              
+AU       638                                           ...   #...#              
+|}= "~(()]]]                                         ###C# ###.###              
+STR:   18/20                                         #.CC# #.....#              
+INT:       8                                         #.#K# #.#.#.#              
+WIS:       8                                           #@# #.#.#.#              
+DEX:      18                                           #'#####.###              
+CON:      18                                           #.#.......#              
+                                                     ###.#.#.#.#{#              
+Cur AC    26                                         #.....#.#.# #              
+HP   17/ 106                                         ###.#.#.#.#                
+                                                       #.#.#.#.#                
+                                                       #########                
+[*******---]                                                                    
+                                                                                
+                                                                                
+                                                                                
+700' (L14)                                                                      
+             LF:3-5 Light 3  Fed 34 % Infra Open floor                          

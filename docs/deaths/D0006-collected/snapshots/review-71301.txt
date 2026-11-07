@@ -1,0 +1,27 @@
+Original C40/source2cebef1b0f39, frame86809, engine turn71301, phasecommand, actual HP82/89, depth9, level7
+Logical cells; not pixel video. Hidden diagnostics are not Borg knowledge.
+
+                                                                                
+Human                                                                           
+Soldier                                                                         
+Warrior                                                                         
+LEVEL      7                                                                    
+NXT        2                                                                    
+AU       638                                                                    
+|}= "~(()]]]                                                                    
+STR:   18/20                                                                    
+INT:       8                                                                    
+WIS:       8                                                                    
+DEX:      18                                 ###                                
+CON:      18                                 o@#                                
+                                             ###                                
+Cur AC    26                                                                    
+HP   82/  89                                                                    
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+450' (L9)                                                                       
+             LF:3-? Light 2  Fed 36 % Open floor                                

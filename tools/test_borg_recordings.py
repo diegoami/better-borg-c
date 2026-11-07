@@ -135,6 +135,30 @@ class FrameInspection(unittest.TestCase):
             streams(b, [dict(base, spells={'learned': ['changed']})])
             self.assertIsNotNone(replay.first_difference(a, b, inventory_extension=True, spells_extension=True))
 
+    def test_sidebar_redraw_lag_is_explicit_without_modifying_original_cells(self):
+        row = 'HP   37/ 100'.ljust(24)
+        chars = list(map(ord, row))
+        original = chars.copy()
+        state = frame(87234, 71600, 1, [], hp=43, max_hp=100)
+        state.update(width=24, height=1)
+        text, pending = viewer.playback_status(state, chars, 88959)
+        self.assertTrue(pending)
+        self.assertIn('HP 37/100', text)
+        self.assertIn('recorded HP 43/100', text)
+        self.assertIn('awaiting redraw', text)
+        self.assertEqual(chars, original)
+        self.assertFalse(viewer.playback_status(state, chars, 88959, sidebar_visible=False)[1])
+        state['hp'] = 37
+        self.assertFalse(viewer.playback_status(state, chars, 88959)[1])
+
+    def test_inventory_text_is_not_mistaken_for_a_sidebar_and_mana_is_supported(self):
+        state = frame(1, 1, 1, [], hp=20, max_hp=20, sp=2, max_sp=3)
+        state.update(width=24, height=1)
+        self.assertFalse(viewer.playback_status(state, list(map(ord, 'a) HP Potion'.ljust(24))), 1)[1])
+        text, pending = viewer.playback_status(state, list(map(ord, 'SP    1/   3'.ljust(24))), 1)
+        self.assertTrue(pending)
+        self.assertIn('recorded SP 2/3', text)
+
     def test_missing_first_full_frame_is_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
