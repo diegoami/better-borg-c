@@ -191,3 +191,8 @@ The fortieth carry drinks recognized Enlightenment potions in the
 dungeon (consumer #157/source #81). The missing quaff call is added
 after the town guard; the town, unknown-flavor, unrelated-potion and
 Augmentation controls stay byte-identical.
+
+The forty-first carry reports acting after queueing the out-of-light
+stair key (consumer #167/source #230). The think loop no longer treats
+the queued '<' as disowned; the lit and dead-no-stairs controls stay
+byte-identical.
