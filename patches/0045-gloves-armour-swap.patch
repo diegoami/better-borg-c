@@ -1,0 +1,31 @@
+From 175ef6feb555bbf67bcdfff7f628d686decf63a8 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 13:31:25 +0100
+Subject: [PATCH] Borg: consider gloves as armour-swap candidates
+
+borg_notice_armour_swap()'s wearable switch covered rings, amulets,
+boots, helms, crowns, shields, cloaks and the three body-armour tvals
+but not TV_GLOVES, so gloves of Free Action or combat egos were never
+candidates for the armour swap. Add case TV_GLOVES:. Class-sensitive
+glove concerns (caster mana penalties) are already handled by the
+main-gear glove logic; the swap is only worn situationally. Owner
+intent recorded on the issue 2026-11-07.
+---
+ src/borg/borg-trait-swap.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/borg/borg-trait-swap.c b/src/borg/borg-trait-swap.c
+index 084248062..81e8c909a 100644
+--- a/src/borg/borg-trait-swap.c
++++ b/src/borg/borg-trait-swap.c
+@@ -850,6 +850,7 @@ void borg_notice_armour_swap(void)
+         case TV_HELM:
+         case TV_CROWN:
+         case TV_SHIELD:
++        case TV_GLOVES:
+         case TV_CLOAK:
+         case TV_SOFT_ARMOR:
+         case TV_HARD_ARMOR:
+-- 
+2.53.0
+

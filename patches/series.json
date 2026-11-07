@@ -843,6 +843,24 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured (behavior-neutral on the v1 cohort); carried/open+patch-active",
    "merge_commit": "85b6ba8e3748e061db1ff1206163c27272d2de31"
+  },
+  {
+   "id": "CBUG-0205",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/201",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/205",
+   "source_head": "c52527eed3cf272cb62a16a773f25ed09f6cac36",
+   "source_commits": [
+    "c52527eed3cf272cb62a16a773f25ed09f6cac36"
+   ],
+   "applied_commits": [
+    "175ef6feb555bbf67bcdfff7f628d686decf63a8"
+   ],
+   "patch": "patches/0045-gloves-armour-swap.patch",
+   "patch_active": true,
+   "evidence_ref": "7ff787acc6250893e4391e0998c46eeecfb67665",
+   "verification": "docs/measurement/GLOVES-ARMOUR-SWAP.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-gloves; awaiting normal PR merge"
   }
  ]
 }
