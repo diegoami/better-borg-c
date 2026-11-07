@@ -1,0 +1,32 @@
+From fb16560054b44899c50b8aec5ce1a2b0e35c0533 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 18:36:23 +0100
+Subject: [PATCH] Borg: report done after queueing the out-of-light stair
+ command
+
+borg_think_dungeon_light()'s staircase branch queued '<' but fell
+through without returning, so the routine reported "nothing done"
+while a stair command was already queued -- and the caller's think loop
+kept queueing more commands behind it, all of which would land on the
+new level after the stairs were taken. Return true.
+---
+ src/borg/borg-think-dungeon-util.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/borg/borg-think-dungeon-util.c b/src/borg/borg-think-dungeon-util.c
+index a0255e4be..559d06053 100644
+--- a/src/borg/borg-think-dungeon-util.c
++++ b/src/borg/borg-think-dungeon-util.c
+@@ -192,6 +192,9 @@ bool borg_think_dungeon_light(void)
+                 borg_note("# Testing for stairs .");
+ 
+                 borg_keypress('<');
++
++                /* Done */
++                return true;
+             }
+         }
+ 
+-- 
+2.53.0
+
