@@ -135,7 +135,7 @@ event anchors when entry/stock/retreat precedes105; qualify original-start
 prefixes on each death's actual historical build. See docs/deaths/window-profile-v2.json.
 No additional independent lives or selectively enlarged performance cohort.
 
-## Tenth through thirty-second carries merged (2026-11-07)
+## Tenth through thirty-third carries merged (2026-11-07)
 
 Consumer48/source118 (CBUG-0102) merged as b72ad8eae (PR49, import 40b002da,
 patch 0010). The unchanged evidence fixture legitimately stopped passing
@@ -204,8 +204,17 @@ fixture cases whole-log identical, merged v1 seeds unchanged.
 
 All nine issues (48/51/54/57/60/63/66/69/72) are carried/open+patch-active
 until upstream incorporation. Full stories in docs/measurement/ and the
-issues' verification comments. Queue: opblock-324/calfree-323 and brand-240 plus any newer
-demonstrations before low-priority 81 or discretionary death work.
+issues' verification comments. Queue: calfree-323 and brand-240 plus any newer demonstrations before
+low-priority 81 or discretionary death work.
+Consumer121/source324 (opblock-324) merged as 6a00d4408 (PR122, import
+ced816c3, patch 0033): precedence adjustment freed operator-block structs
+without their backing arrays; the correction releases them. The unchanged
+fixture keeps value 7 and constant 42 byte-identical while LeakSanitizer
+moves from 160 bytes/2 allocations in one operator-stack report block to
+no leaks. The initial verifier's two-block grouping error is retained and
+was corrected without changing the fixture. 111 prior cases pass, tooling
+is 41/41 after PR116's named-headless tests, and merged v1 seeds are
+unchanged. All twenty-four issues are carried/open+patch-active.
 Consumer117/source314 (lunal-314, priority medium) merged as 4bfb44d73
 (PR118, import 2e0593f6, patch 0032): the town stair-scum bail cleared
 only lunal_mode and left fleeing_lunal set, producing the split state the
