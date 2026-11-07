@@ -1,0 +1,47 @@
+From 894965c78bce5c53a3bbdc498ace40a825fb0679 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 14:24:00 +0100
+Subject: [PATCH] Borg: count the south and east edges of ball and arc blasts
+
+The blast loops in borg_launch_bolt_at_location() and
+borg_launch_arc_at_location() ran 'y2 - rad <= ry < y2 + rad' (and
+likewise rx, and y1/max for arcs), so grids exactly rad grids south or
+east of the center never entered the scan. Any monster standing on
+that edge contributed nothing to the blast's value: Acid Spray aimed at
+a giant ten grids away rated zero and the Borg cast nothing, while the
+same giant one grid closer was scored and sprayed. Make the loops
+inclusive; the existing 'r > rad' distance check already keeps
+out-of-radius grids out.
+---
+ src/borg/borg-fight-attack.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 4e1630e6f..f0c07577f 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -1630,8 +1630,8 @@ static int borg_launch_bolt_at_location(
+         return 0;
+ 
+     /* Check monsters and objects in blast radius */
+-    for (ry = y2 - rad; ry < y2 + rad; ry++) {
+-        for (rx = x2 - rad; rx < x2 + rad; rx++) {
++    for (ry = y2 - rad; ry <= y2 + rad; ry++) {
++        for (rx = x2 - rad; rx <= x2 + rad; rx++) {
+ 
+             /* Bounds check */
+             if (!square_in_bounds(cave, loc(rx, ry)))
+@@ -1947,8 +1947,8 @@ static int borg_launch_arc_at_location(
+ 
+     /* Check monsters and objects in blast radius and on the arc */
+     /* for an arc, blast radius starts at player */
+-    for (ry = y1 - max; ry < y1 + max; ry++) {
+-        for (rx = x1 - max; rx < x1 + max; rx++) {
++    for (ry = y1 - max; ry <= y1 + max; ry++) {
++        for (rx = x1 - max; rx <= x1 + max; rx++) {
+ 
+             /* Bounds check */
+             if (!square_in_bounds(cave, loc(rx, ry)))
+-- 
+2.53.0
+
