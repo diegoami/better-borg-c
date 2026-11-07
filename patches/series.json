@@ -670,7 +670,8 @@
    "evidence_ref": "d9a848a8e89e0a0e7843c44e699631fb0ee392fc",
    "verification": "docs/measurement/BRAND-NEED.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on task/carry-brand-need; awaiting normal PR merge"
+   "verification_status": "merged; verified and measured; carried/open+patch-active",
+   "merge_commit": "638513e9193d2d69daf7c10108a9328fc526a139"
   }
  ]
 }

@@ -216,6 +216,25 @@ with evidence-durability/metadata findings on issues38/128. Follow-up
 issue130 preserves the 25 worktree-held carry archives in primary artifacts,
 corrects matrix/ledger metadata and records the final formula-memory ASan
 receipt; no worktree is removed until that evidence copy is verified.
+Consumer133/source240 (brand-240, priority low) merged as 638513e91
+(PR135, import b30afa1a, patch 0035): the brand-the-ammo test in
+borg_notice_ammo() was pasted twice with identical conditions (inside the
+good-shooter block and in a tail block guarded by a `< 3` return that
+only ever ran in the same state), so every qualifying stack added twenty
+to the need-brand trait instead of ten; the fifteen-line tail deletion
+counts it once. The unchanged source evidence fixture verifies
+need_brand=20 fail-before / 10 pass-after with the two-arrow control
+byte-identical at 0 and no sanitizer report; borg-trait.c already
+carries 0017/0029 and the applied diff is byte-identical to the source
+diff. Gate 965/965 + 5/5, tooling 41/41, and all 115 prior matrix cases
+match the recorded thirty-four-carry tally. Post-merge frozen v1
+measurement on the prepared merged-main build: seeds 11/29/47 all
+turn_cap alive and well with whole-trace hashes identical to the
+recorded thirty-four-carry run. Queue resumed by owner
+direction 2026-11-07: source207 recheck found tapunlife-249 (no priority
+label) and quick-scan leads #364-#367 (triage:needed) that do not
+pre-empt the recorded low-priority order. Next: stairtrack-232 unless a
+newer demonstration becomes ready.
 Consumer124/source323 (calfree-323) merged as 5fb5d1f74 (PR125, import
 dc1ea0c3, patch 0034): calculations_free() released calculation structs
 without token-list backing arrays; the correction releases them. The
