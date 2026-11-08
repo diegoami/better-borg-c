@@ -339,6 +339,29 @@ concurrent-session process/tooling context (recording/replay feature and
 death documentation outside the build inputs; tooling 41→71). No external
 verdict is claimed; the owner launches the review.
 
+Consumer216/source310 (recalldepth endgame answer) merged as b9e64aa85
+(PR218, import 9609e2c86, patch 0048): borg_recall()'s endgame branch
+said "Do reset Depth" in its comment and then answered the recall-depth
+reset prompt with 'n'; the correction answers 'y' like the generic
+branch. The unchanged source evidence fixture verifies the endgame keys
+fail-before ('n', require !keep_n fails) / pass-after ('y') with the
+generic and mismatch controls byte-identical and all six normal-phase
+logs matching the source evidence kit's recorded log SHA256s byte for
+byte; borg-escape.c carried no earlier corrections and the applied diff
+body is byte-identical to the source diff. Gate 965/965 + 5/5, tooling
+95/95, and all 151 prior matrix cases match the recorded
+forty-seven-carry tally. Post-merge frozen v1 measurement: seeds
+11/29/47 all turn_cap alive and well with whole-trace hashes identical
+to the forty-seven-carry (maimfoe) run — behavior-neutral on the cohort
+(no v1 warrior reaches the maxdepth-99 endgame branch).
+Incidents disclosed and resolved pre-merge: a dropped pull_request
+event (no run created; dispatch run used, then the re-fired event went
+green on the exact merge head), a clean-merge failure from the maimfoe
+recording landing mid-PR (origin/main merged in), and a bad
+series.json conflict resolution pushed before validation (rebuilt
+programmatically in 6e1938f89; full chain in artifacts/rd310-carry/
+RECOVERY.txt).
+Next: recheck source207 for newer demonstrations.
 Consumer214/source256 (maimfoe real-pass return) merged as 8a30a39d9 (PR215,
 import 91822d82a, patch 0047): borg_attack_aux_maim_foe()'s real pass
 saved the best target and aimed at it but returned the loop variable
