@@ -1306,6 +1306,24 @@
    "verification": "docs/measurement/TEXT-BUFSIZE.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the revised source fixture; native gate on the tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "GLOWISGLOW-213",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/224",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/213",
+   "source_head": "c316a65b248c4372ff3b686eafaa0477c3117eeb",
+   "source_commits": [
+    "c316a65b248c4372ff3b686eafaa0477c3117eeb"
+   ],
+   "applied_commits": [
+    "b5e07827a5e04e36669323138b8ffeb95adb7e40"
+   ],
+   "patch": "patches/0069-glow-floor-permanent-glow-flag.patch",
+   "patch_active": true,
+   "evidence_ref": "f2b402c92ce57cc85d9fda777de901c2f157c720",
+   "verification": "docs/measurement/GLOW-ISGLOW.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the revised source fixture; native gate on the tip; carried/open+patch-active after merge"
   }
  ]
 }
