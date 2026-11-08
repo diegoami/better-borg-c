@@ -210,23 +210,79 @@
       "key": "excessive-danger-guard",
       "status": "needs evidence; contributing candidate, not isolated fix proof",
       "summary": "Audit ready_morgoth0 guard at lowHP separately from source152 flags and source404 cache reuse"
+    },
+    {
+      "cases": [
+        "D0009"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/235",
+      "key": "quiver-full-pickup",
+      "status": "investigating; recorded native failure verified, fix not carried",
+      "summary": "Minimal quiver-capacity native fixture/correction with actual-room/stack/gold/ammo controls, then separate consumer carry"
+    },
+    {
+      "cases": [
+        "D0009"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/41",
+      "key": "food-return-reserve",
+      "status": "needs evidence; no policy change",
+      "summary": "Earlier food budget/town-return and loot leash, accounting for REGEN and actual pack/quiver capacity"
+    },
+    {
+      "cases": [
+        "D0009"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/180",
+      "key": "identification",
+      "status": "proposed; shared investigation",
+      "summary": "Identify useful carried stock and compare identification/shop priority without hidden item knowledge"
+    },
+    {
+      "cases": [
+        "D0009"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/183",
+      "key": "recall-retention",
+      "status": "needs evidence; no rescue claimed",
+      "summary": "Recall storage/retention/reacquisition and available walking return before hunger becomes critical"
+    },
+    {
+      "cases": [
+        "D0009"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/235",
+      "key": "starvation-emergency",
+      "status": "needs evidence; no forced use implemented",
+      "summary": "Unknown-edible eligibility for caster starvation at localdanger0, retaining harmful outcomes and resource costs"
+    },
+    {
+      "cases": [
+        "D0009"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/159",
+      "key": "walking-return",
+      "status": "investigating; no guaranteed route asserted",
+      "summary": "Early town/upstairs commitment versus repeated normal desperate downstairs response after weakness"
     }
   ],
-  "cases": 8,
+  "cases": 9,
   "causes_by_distinct_start": {
     "a gallant": 1,
     "a grey mold": 1,
     "a killer brown beetle": 1,
     "a soldier": 1,
-    "a stegocentipede": 1
+    "a stegocentipede": 1,
+    "starvation": 1
   },
-  "death_process_attempts": 16,
-  "distinct_starting_conditions": 5,
+  "death_process_attempts": 17,
+  "distinct_starting_conditions": 6,
   "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
   "schema": "better-borg-c/death-index@1",
   "versions": {
     "127483bc4724c0f75ff7bbc4edddde9293e37c2c": 1,
     "1b95154f65b2ac1ed5fc9a080df6cff971643b5d": 4,
+    "1cd426af4848f36d8f027bfae5114c7efcd572f6": 1,
     "22f817c96843cc45da41dcefb0856ca507d8c66a": 1,
     "2cebef1b0f39aa068cde45b422df681a0e80d188": 1,
     "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3": 2,

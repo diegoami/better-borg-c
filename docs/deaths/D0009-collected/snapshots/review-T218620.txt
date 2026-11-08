@@ -1,0 +1,27 @@
+Original frame272493,turn218620,phasedeath; HP-5 SP13,depth5.
+Native diagnostics are not extra Borg knowledge.
+
+                                                                                
+Half-Troll                                                                      
+Curser                                                                          
+Necromancer                                                                     
+LEVEL     10                                                                    
+NXT       69                                 ###                                
+AU      2645                                 #@#                                
+/}    ( )] ]                                 #.#                                
+STR:      18                                 #'#                                
+INT:      15                                 #..                                
+WIS:       8                                                                    
+DEX:       6                                                                    
+CON:      17                                                                    
+                                                                                
+Cur AC    22                                                                    
+HP   -5/  73                                                                    
+SP   13/  13                                                                    
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+250' (L5)                                                                       
+             LF:2-? Light 0  Study (2) Starving 0 % Down staircase              
