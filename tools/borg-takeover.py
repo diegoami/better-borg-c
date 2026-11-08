@@ -36,18 +36,58 @@ def clean_environment():
             if not k.startswith(('BORG_MEASURE_', 'BORG_RECORD_', 'BORG_REPLAY_', 'BORG_TAKEOVER_'))}
 
 
+def validate_recording(original):
+    # A finalized timeout may contain a reproducible prefix even though the
+    # original run did not finish normally. Keep all file-integrity checks.
+    record = records.validate(original, require_complete=False)
+    if record.get('status') == 'complete':
+        return record
+    if record.get('status') != 'incomplete' or record.get('outcome') != 'wall_timeout':
+        raise ValueError('Takeover needs a complete recording or a finalized wall-timeout recording')
+    result = workflow.read(original / 'result.json')
+    if result.get('outcome') != 'wall_timeout' or result.get('error'):
+        raise ValueError('Timed-out recording has a conflicting outcome or recording error')
+    required = {'engine', 'geometry.json', 'events.txt', 'actions.txt', 'clock.txt',
+                'file-inputs.txt', 'trace.txt'}
+    files = record['files_sha256']
+    if not required.issubset(files) or not any(n in files for n in ('frames.jsonl', 'frames.jsonl.gz')):
+        raise ValueError('Timed-out recording is missing finalized replay inputs')
+    return record
+
+
+def parse_turn(value):
+    if value == 'latest':
+        return value
+    try:
+        turn = int(value)
+    except ValueError:
+        raise argparse.ArgumentTypeError('Use a positive engine turn or latest')
+    if turn < 1:
+        raise argparse.ArgumentTypeError('Use a positive engine turn or latest')
+    return turn
+
+
 def boundary(original, turn):
     first = None
+    latest = None
     with replay.viewer.frame_lines(original) as frames:
         for line in frames:
             frame = json.loads(line)
             if frame['phase'] == 'command' and not frame['dead']:
                 if first is None:
                     first = frame['turn']
+                if turn == 'latest':
+                    # Existing historical hook stops at the first command in a
+                    # turn. Preserve that exact same-turn boundary semantics.
+                    if latest is None or frame['turn'] > latest['turn']:
+                        latest = frame
+                    continue
                 if frame['turn'] >= turn:
                     if turn < first:
                         raise ValueError(f'Recording starts at turn {first}; choose that turn or later')
                     return frame
+    if latest is not None:
+        return latest
     raise ValueError('No living player-command boundary at or after this turn in the recording')
 
 
@@ -215,7 +255,9 @@ def capture(original, record, base, output, expected, requested, timeout):
                     process.wait()
     receipt = {'schema': 'borg-takeover-prefix@1', 'original': str(original),
                'original_manifest_sha256': records.sha(original / 'recording.json'),
-               'requested_turn': requested, 'boundary': expected, 'engine_sha256': records.sha(base / 'build/game/angband'),
+               'requested_turn': requested, 'boundary': expected,
+               'original_status': record.get('status'), 'original_outcome': record.get('outcome'),
+               'scope': 'Selected original prefix only; not full-run verification of a timed-out source', 'engine_sha256': records.sha(base / 'build/game/angband'),
                'exit_code': process.returncode, 'interrupted': interrupted, 'verified': False}
     try:
         if process.returncode or interrupted:
@@ -299,7 +341,7 @@ def manual(original, record, base, branch, origin):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('recording', type=Path, nargs='?', help='original recording or death dossier')
-    parser.add_argument('--from-turn', type=int, help='absolute engine turn; first living command boundary at/after it')
+    parser.add_argument('--from-turn', type=parse_turn, help='positive engine turn, or latest for the first command at the last living command turn')
     parser.add_argument('--resume', type=Path, help='resume an existing isolated manual branch')
     parser.add_argument('--prepare-only', action='store_true', help='build/qualify the boundary save without opening X11')
     parser.add_argument('--yes', action='store_true', help='accept first-use separate historical helper build')
@@ -316,14 +358,16 @@ def main():
             receipt = workflow.read(branch / 'branch.json')
             original = Path(receipt['original'])
         else:
-            if not args.recording or args.from_turn is None or args.from_turn < 1:
-                raise ValueError('Use RECORDING_OR_DOSSIER --from-turn N (positive absolute engine turn)')
+            if not args.recording or args.from_turn is None:
+                raise ValueError('Use RECORDING_OR_DOSSIER --from-turn N or --from-turn latest')
             original = replay.resolve_recording(args.recording)
-        record = records.validate(original)
+        record = validate_recording(original)
         base = Path(receipt['build']) if args.resume else cache(original)
         print(f'Frozen source: {record["build"]["source_commit"][:12]}\nOriginal engine: {record["build"]["binary_sha256"]}', flush=True)
         if args.resume and receipt['original_manifest_sha256'] != records.sha(original / 'recording.json'):
             raise ValueError('Manual branch original recording changed')
+        if record.get('status') != 'complete':
+            print('Original run timed out; only the selected prefix will be verified. Original evidence stays incomplete.', flush=True)
         if not args.resume:
             expected = boundary(original, args.from_turn)
         existing = existing_build(base, original)
@@ -345,12 +389,14 @@ def main():
         else:
             branch = workflow.artifacts() / 'takeover/branches' / stamp()
             branch.mkdir(parents=True)
-            verified = capture(original, record, base, branch / 'prefix', expected, args.from_turn, args.timeout)
+            requested = expected['turn'] if args.from_turn == 'latest' else args.from_turn
+            verified = capture(original, record, base, branch / 'prefix', expected, requested, args.timeout)
             shutil.copy2(branch / 'prefix/world-fingerprint.save', branch / 'origin.save')
             receipt = {'schema': 'borg-manual-branch@1', 'original': str(original),
                        'original_manifest_sha256': records.sha(original / 'recording.json'),
                        'build': str(base), 'source_commit': record['build']['source_commit'],
                        'requested_turn': args.from_turn, 'actual_turn': expected['turn'],
+                       'original_status': record.get('status'), 'original_outcome': record.get('outcome'),
                        'origin_sha256': records.sha(branch / 'origin.save'),
                        'scope': 'Verified original prefix then native save/load for manual play; Borg memory is not restored; not an independent Borg life'}
             workflow.write(branch / 'branch.json', receipt)

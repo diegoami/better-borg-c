@@ -8,6 +8,7 @@ import hashlib
 import json
 from pathlib import Path
 import secrets
+import shlex
 import subprocess
 import sys
 from types import SimpleNamespace
@@ -165,6 +166,46 @@ def export_death(run, issue):
         return dossier
 
 
+def recording_commands(run, result):
+    manifest = run / 'recording.json'
+    if not manifest.is_file():
+        return {}
+    record = workflow.read(manifest)
+    if record.get('status') not in ('complete', 'incomplete') or 'files_sha256' not in record:
+        return {}
+    run = run.resolve()
+    replay = ['./replay-borg.py', str(run)]
+    if record['status'] != 'complete':
+        replay.append('--view-only')
+    commands = {'replay_command': shlex.join(replay)}
+    if (record['status'] == 'complete' or
+            (record.get('outcome') == result.get('outcome') == 'wall_timeout' and not result.get('error'))):
+        commands['manual_play_command'] = shlex.join(['./play-from-replay.py', str(run), '--from-turn', 'latest'])
+    return commands
+
+
+def print_recording_commands(commands):
+    if commands:
+        print('Watch: ' + commands['replay_command'], flush=True)
+        if commands.get('manual_play_command'):
+            print('Play yourself (verifies prefix first): ' + commands['manual_play_command'], flush=True)
+
+
+def show_collection_commands(directory):
+    plan = workflow.read(directory.resolve() / 'collection.json')
+    for entry in plan['runs']:
+        run = Path(entry['directory'])
+        if not (run / 'result.json').is_file():
+            print(f"Seed {entry['seed']}: no finalized recording available yet.")
+            continue
+        result = workflow.read(run / 'result.json')
+        print(f"Seed {entry['seed']}: {result['outcome']}")
+        commands = recording_commands(run, result)
+        print_recording_commands(commands)
+        if not commands:
+            print('No finalized recording available yet.', flush=True)
+
+
 def collect(args, output, seeds, commit):
     # Freeze all potential starts and limits BEFORE build/run results; stopping at
     # the first death is declared sampling, never a survival-rate experiment.
@@ -199,6 +240,9 @@ def collect(args, output, seeds, commit):
                 entry.update(outcome=result['outcome'], cause=result.get('cause'), character=result.get('character'),
                              result_sha256=workflow.sha(run / 'result.json'), wall_seconds=result.get('wall_seconds'),
                              final=result.get('states', [None])[-1] if result.get('states') else None)
+                commands = recording_commands(run, result)
+                entry.update(commands)
+                print_recording_commands(commands)
                 plan['counts'] = dict(Counter(e['outcome'] for e in plan['runs']))
                 workflow.write(output / 'collection.json', plan)
                 if result['outcome'] == 'death':
@@ -236,20 +280,25 @@ def main():
     p.add_argument('--seed', type=int, help='first uint32 seed (default random); subsequent seeds are consecutive')
     p.add_argument('--seeds', nargs='+', type=int, help='explicit prospective seed list instead of --games/--seed')
     p.add_argument('--turns', type=int, default=200000, help='absolute engine-turn cap per new game (default200000)')
-    p.add_argument('--timeout', type=int, default=120, help='native game wall limit per attempt; build/lock wait separate')
+    p.add_argument('--timeout', type=int, default=120, help='wall-time limit in seconds per character (default120); build/lock wait separate')
     p.add_argument('--stall-timeout', type=int, default=30)
     p.add_argument('--ref', default='HEAD', help='committed native source; pinned before collection')
     p.add_argument('--build', type=Path, help='existing compatible recording build matching --ref; otherwise cached build prepared')
     approval = p.add_mutually_exclusive_group()
     approval.add_argument('--yes', action='store_true', help='accept a required build/update without prompting')
     approval.add_argument('--no-build', action='store_true', help='use an existing matching build only; fail if one is missing')
-    p.add_argument('--check-build', action='store_true', help='show requested/actual version and cache status, then exit without builds or games')
+    action = p.add_mutually_exclusive_group()
+    action.add_argument('--check-build', action='store_true', help='show requested/actual version and cache status, then exit without builds or games')
+    action.add_argument('--commands', type=Path, metavar='COLLECTION', help='print watch/play commands for an existing collection; no builds or games')
     p.add_argument('--output', type=Path, help='new directory below primary-checkout artifacts; default unique timestamp')
     p.add_argument('--death-issue', default=DEFAULT_ISSUE, help='discussion/work issue for any exported death')
     args = p.parse_args()
     if (args.games is not None and not 1 <= args.games <= 1000) or not 1 <= args.turns <= 2147483647 or min(args.timeout, args.stall_timeout) < 1 or (args.seed is not None and not 0 <= args.seed <= 0xffffffff):
         p.error('Use1..1000 games, uint32 seed, positive timeouts and1..2147483647 turns')
     try:
+        if args.commands:
+            show_collection_commands(args.commands)
+            return 0
         seeds = seeds_for(args)
         if len(seeds) > 1000:
             raise ValueError('Maximum1000 prospective seeds per invocation')

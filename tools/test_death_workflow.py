@@ -2,6 +2,9 @@
 import importlib.util
 from contextlib import nullcontext
 import json
+import io
+import shlex
+from contextlib import redirect_stdout
 from pathlib import Path
 import tempfile
 from types import SimpleNamespace
@@ -131,6 +134,7 @@ class Collection(unittest.TestCase):
                 outcome = outcomes[len(calls)-1]
                 options.output.mkdir()
                 producer.workflow.write(options.output / 'result.json', {'outcome': outcome, 'states': [], 'cause': 'a foe', 'error': result_error})
+                producer.workflow.write(options.output / 'recording.json', {'status':'incomplete' if outcome=='wall_timeout' else 'complete', 'outcome':outcome,'files_sha256':{}})
                 return int(outcome in ('stall', 'stalled', 'wall_timeout', 'crash', 'harness_failure'))
             def prepared(*_):
                 self.assertEqual(producer.workflow.read(output / 'collection.json')['status'], 'preparing')
@@ -163,6 +167,9 @@ class Collection(unittest.TestCase):
         code, calls, plan, exports = self.simulate(['wall_timeout', 'turn_cap', 'death'])
         self.assertEqual((code, calls, exports), (0, [3,4,5], 1))
         self.assertEqual(plan['counts'], {'wall_timeout': 1, 'turn_cap': 1, 'death': 1})
+        self.assertIn('--view-only', plan['runs'][0]['replay_command'])
+        self.assertIn('--from-turn latest', plan['runs'][0]['manual_play_command'])
+        self.assertNotIn('--view-only', plan['runs'][1]['replay_command'])
         self.assertEqual(plan['status'], 'natural_death_recorded')
 
     def test_all_wall_timeouts_exhaust_declared_seeds_without_escalating(self):
@@ -195,6 +202,51 @@ class Collection(unittest.TestCase):
         self.assertEqual(plan['counts'], {'death': 1})
         self.assertEqual(plan['status'], 'failed')
         self.assertIn('export failed', plan['error'])
+
+
+class CollectionCommands(unittest.TestCase):
+    def fixture(self, root, status, outcome):
+        run = root / 'game with spaces'
+        run.mkdir()
+        (run / 'recording.json').write_text(json.dumps({'status':status,'outcome':outcome,'files_sha256':{}}))
+        result = {'outcome':outcome,'error':None}
+        (run / 'result.json').write_text(json.dumps(result))
+        return run, result
+
+    def test_timeout_prints_view_only_and_safe_manual_prefix_commands(self):
+        with tempfile.TemporaryDirectory() as temp:
+            run, result = self.fixture(Path(temp),'incomplete','wall_timeout')
+            commands = producer.recording_commands(run,result)
+            self.assertEqual(shlex.split(commands['replay_command']),['./replay-borg.py',str(run),'--view-only'])
+            self.assertEqual(shlex.split(commands['manual_play_command']),['./play-from-replay.py',str(run),'--from-turn','latest'])
+
+    def test_completed_survivor_and_death_have_replay_and_manual_commands(self):
+        for outcome in ('turn_cap','death'):
+            with self.subTest(outcome=outcome), tempfile.TemporaryDirectory() as temp:
+                run, result = self.fixture(Path(temp),'complete',outcome)
+                commands = producer.recording_commands(run,result)
+                self.assertNotIn('--view-only',commands['replay_command'])
+                self.assertIn('manual_play_command',commands)
+
+    def test_crash_has_view_only_but_no_manual_takeover(self):
+        with tempfile.TemporaryDirectory() as temp:
+            run, result = self.fixture(Path(temp),'incomplete','crash')
+            commands = producer.recording_commands(run,result)
+            self.assertIn('--view-only',commands['replay_command'])
+            self.assertNotIn('manual_play_command',commands)
+
+    def test_commands_mode_does_not_build_lock_or_start_games(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);run,result=self.fixture(root,'incomplete','wall_timeout')
+            (root/'collection.json').write_text(json.dumps({'runs':[{'seed':4,'directory':str(run)}]}))
+            output=io.StringIO()
+            with mock.patch.object(producer.sys,'argv',['produce_death.py','--commands',str(root)]), \
+                 mock.patch.object(producer,'choose_build') as build, \
+                 mock.patch.object(producer,'collect') as collect, redirect_stdout(output):
+                self.assertEqual(producer.main(),0)
+                build.assert_not_called();collect.assert_not_called()
+            self.assertIn('Watch:',output.getvalue())
+            self.assertIn('Play yourself (verifies prefix first):',output.getvalue())
 
 
 if __name__ == '__main__':
