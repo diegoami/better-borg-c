@@ -434,3 +434,13 @@ With the updated launcher a loadable default is selected automatically. Use
 `BORG_PLAY_FONT=INSTALLED_FONT` to choose a different available size. No fonts
 are installed, no X server settings change and no original recording/build is
 modified by this selection.
+
+If only tiny built-in fonts load, visible takeover now tries the installed
+Type1 font directories before accepting the small fallback. WSLg can access the
+client distro's fonts via `/mnt/wslg/distro/usr/share/fonts/X11/Type1`, even when
+its own `/usr/share/fonts/X11/Type1` is absent. The launcher preserves all existing
+X font paths, appends a directory only if it supplies the requested/readable font,
+and restores the old paths after unsuccessful attempts. No font package or
+engine rebuild is required. Courier/Nimbus28 is preferred to6x13; actual tested
+Courier metrics are17pixels wide and30high. Explicit font overrides still win.
+This setup is repeated on demand after an X server restart; no background job.
