@@ -274,3 +274,11 @@ cherry-pick of the source commit is empty on main. It is recorded as
 `also_adopts` on the 0012 entry and verified on source250's own fixture in
 `docs/measurement/TP-OTHER-READER.md` (stale-hit 0 to 179, controls
 byte-identical). No ordinal is consumed and no runtime source changed.
+
+The fifty-first carry only raises the munchkin stair range when it increases
+(consumer #242, adopting source245, owner decision on the source issue). The
+adjustment `(clevel - 10) + (10 - depth)` is negative below character level
+10, so a level-5 Borg at depth 10 had its range cut from 8 to 3 and stopped
+power-climbing toward visible stairs; it is now gated on `clevel > 10`. The
+unchanged fixture flips the climb decision (0 to 1). Behaviour-active in
+munchkin mode below level 10; no survival claim.
