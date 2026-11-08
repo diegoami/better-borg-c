@@ -1,0 +1,67 @@
+{
+  "classification": "escape-order, scary-list flight and stock investigation; source-checked mechanisms with native position evidence; no reusable original-C defect established",
+  "confidence": "High for native positions, notes, messages and inventory; branch order is source-derived; no rescue claimed",
+  "cause_category": "monster melee",
+  "overall_assessment": "overall-assessment.md",
+  "original_autoexport_record_sha256": "4b4c19cb5b8b17122716cef82eebe240377bac9a4251c09c21e70ad98fc9c503",
+  "metadata_curation": "Discussion moved from default collection issue163 to focused332; native identity/source/attempts and original evidence unchanged.",
+  "feedback": [
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/332",
+      "summary": "Chat 2026-11-09: CL1 druid walks into a trap at 3497 aggravating everybody; floating eye in front; Phase Door seems overkill, could have gone back; no real threat; kobold at 3651 then an ant corner and kill him. Owner will try from 3651.",
+      "status": "processed; recorded verbatim on 332; findings replied; manual attempt pending",
+      "actions": [
+        "attempted-room-retreat",
+        "worm-scary-rule",
+        "survival-stock-priority"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "status": "observed",
+      "summary": "Normal-mode Dunadan Druid CL1/DL1, seed1907608238, source867c777845fd; small kobold death3716, HP-1/13."
+    },
+    {
+      "status": "observed",
+      "summary": "Town purchases: Ring of Protection [+10] (266 gold) and an unidentified ring (Feather Falling, 50 gold), one Phase Door, no Cure Light Wounds."
+    },
+    {
+      "status": "observed",
+      "summary": "~3497-3502 siren trap ('A horn blast sounds!'). 3521 floating eye seen at (55,39); next step 3522 enters the doorway (56,40) diagonally adjacent; paralysed ~3540; later gazes resisted."
+    },
+    {
+      "status": "observed; order source-derived",
+      "summary": "3571 danger400 -> 'Fleeing (excessive danger)' -> only Phase Door read; a single step back to (56,41) leaves the stationary eye's reach. Caution evaluates escape before retreat/back-away."
+    },
+    {
+      "status": "observed; rule source-checked",
+      "summary": "3621 small kobold (8HP, 1d5, danger5) sets 'Scary guy on level' via the CL<=5 hard-coded Grip/Fang/small-kobold list; back-away and long stair flows until kobold plus giant white ant box it in at (53,35)."
+    },
+    {
+      "status": "observed",
+      "summary": "3695-3716 HP 13->9->5->3->-1; both attacks go to the ant (miss, hit) with a Whip (1d3); only spell Detect Life; no potions or escapes left."
+    }
+  ],
+  "actions": [
+    {
+      "key": "attempted-room-retreat",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/159",
+      "summary": "Evaluate attempted door/upstairs retreat before repeated phases and after scroll exhaustion",
+      "status": "proposed analysis; sleep timing, route knowledge and outcomes unproved"
+    },
+    {
+      "key": "worm-scary-rule",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/327",
+      "summary": "Measure low-level worm-mass scary triggers and compare with the breeder caution threshold",
+      "status": "needs evidence; owner manual branch verified; no gameplay change"
+    },
+    {
+      "key": "survival-stock-priority",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/41",
+      "summary": "Evaluate survival-resource reserves/restocking priority over spare equipment",
+      "status": "recorded owner priority; proposal, not implemented"
+    }
+  ]
+}
