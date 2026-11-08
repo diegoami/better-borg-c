@@ -1324,6 +1324,24 @@
    "verification": "docs/measurement/GLOW-ISGLOW.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the revised source fixture; native gate on the tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "ISWARDED-198",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/286",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/198",
+   "source_head": "62242ac26bab4f128793d767f0f502bf4ca4d820",
+   "source_commits": [
+    "62242ac26bab4f128793d767f0f502bf4ca4d820"
+   ],
+   "applied_commits": [
+    "ecfea5064546b52695680150d9f7828f3ef2e2d2"
+   ],
+   "patch": "patches/0070-rune-check-current-level.patch",
+   "patch_active": true,
+   "evidence_ref": "5454144a624ef51ec68cbd37e8291b45d10d865d",
+   "verification": "docs/measurement/ISWARDED-198.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge"
   }
  ]
 }

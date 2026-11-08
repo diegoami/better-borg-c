@@ -1,0 +1,64 @@
+From ecfea5064546b52695680150d9f7828f3ef2e2d2 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 12:59:40 +0000
+Subject: [PATCH] Borg: check the rune under the borg only on the current level
+
+When a monster hits the borg while it is tracking runes, or a Rune of
+Protection is broken, the message handler forgets the tracked runes and
+then checks whether a rune is still under the borg's own position
+(borg.c).
+
+Messages are parsed at the borg's next keypress, before borg_update()
+moves borg.c onto the current level.  A message shown with -more- just
+before a level change (Word of Recall firing in the same game turn as
+the monster's action, for example) is therefore parsed on the new level
+with the previous level's position.  When that position lies outside a
+smaller new level, such as the 66x22 town, square_iswarded() fails the
+bounds assertion in square_istrap(), or with assertions off reads
+outside the level's row array.
+
+Skip the rune check when the position is not on the current level.  The
+tracked runes are still cleared.
+
+Tracked as diegoami/neo-angband-tracker#198.
+
+(cherry picked from commit 62242ac26bab4f128793d767f0f502bf4ca4d820)
+---
+ src/borg/borg-messages.c | 14 ++++++++++----
+ 1 file changed, 10 insertions(+), 4 deletions(-)
+
+diff --git a/src/borg/borg-messages.c b/src/borg/borg-messages.c
+index 18de5c620..8132cd56a 100644
+--- a/src/borg/borg-messages.c
++++ b/src/borg/borg-messages.c
+@@ -625,8 +625,11 @@ static void borg_parse_aux(char *msg, int len)
+                         }
+                         track_glyph.num = 0;
+ 
+-                        /* Check for glyphs under player -- Cheat*/
+-                        if (square_iswarded(cave, borg.c)) {
++                        /* Check for glyphs under player -- Cheat.  The
++                         * position may still be on the previous level when
++                         * this is parsed just after a level change. */
++                        if (square_in_bounds(cave, borg.c)
++                            && square_iswarded(cave, borg.c)) {
+                             track_glyph.x[track_glyph.num] = borg.c.x;
+                             track_glyph.y[track_glyph.num] = borg.c.y;
+                             track_glyph.num++;
+@@ -1188,8 +1191,11 @@ static void borg_parse_aux(char *msg, int len)
+         /* no known glyphs */
+         track_glyph.num = 0;
+ 
+-        /* Check for glyphs under player -- Cheat*/
+-        if (square_iswarded(cave, borg.c)) {
++        /* Check for glyphs under player -- Cheat.  The position may still
++         * be on the previous level when this is parsed just after a level
++         * change. */
++        if (square_in_bounds(cave, borg.c)
++            && square_iswarded(cave, borg.c)) {
+             track_glyph.x[track_glyph.num] = borg.c.x;
+             track_glyph.y[track_glyph.num] = borg.c.y;
+             track_glyph.num++;
+-- 
+2.53.0
+
