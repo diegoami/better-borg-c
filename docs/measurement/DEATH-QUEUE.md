@@ -41,6 +41,7 @@ recordings are one qualified family, not four new choices.
 
 ```sh
 ./produce_death.py
+./produce_death.py --games 10 --timeout 250
 ./produce_death.py --games 3 --seed 1001 --turns 200000
 ./produce_death.py --seeds 1001 1002 1003 --turns 300000 --timeout 120
 ```
@@ -53,13 +54,21 @@ copyable. No arbitrary class/Borg-parameter options are supported here; effectiv
 native configuration is recorded. Never silently simulate another configuration.
 Cheat death and winner respawn are off; ordinary rules/AI unchanged.
 
-To look for an early death, a wall timeout or turn cap moves on to the next
-fresh seeded character with the same limits. Stops after the first natural death,
-a crash/stall/recording error, or exhaustion of the listed seeds. Timed-out runs
-and their evidence remain recorded as wall_timeout, not deaths. No forced death,
-automatic cap/seed enlargement or unattended job. Cap survivors are retained as
-cap survivors. Use --games to choose a larger bounded attempt budget. The
-stop-at-first-death sample is collection, not an unbiased survival-rate cohort.
+The collector runs **every requested fresh character**, continuing after natural
+deaths, wall timeouts and turn caps. `--games 10 --timeout 250` attempts ten
+fresh seeded characters, each with up to250wall seconds; it can register several
+deaths in one batch. Race/class are randomly chosen for each start and may
+repeat. Every natural death is exported under its own Dnnnn dossier and added
+to the replay queue. Each run prints its report/watch/play commands; the final
+summary lists all registered deaths and the collection's reports.md comparison.
+
+A crash, stall, native/recording error or failed death export still stops the
+batch and retains prior deaths and raw evidence. A real death with a recording
+error is exported before stopping. Timeouts remain wall_timeout, never deaths;
+cap survivors remain cap survivors. No forced death or automatic budget growth:
+ten attempts can yield fewer than ten deaths. Default budget stays3 games,
+normal mode; `--games` selects a larger bounded batch. This collection is not a
+prospectively designed survival/progress experiment.
 
 At startup the command prints the requested source commit/subject and the actual
 build it will run. A complete matching cache is reused automatically, including
@@ -105,14 +114,14 @@ REVIEW-TEMPLATE.md brainstorming/overall assessment and files evidence-backed
 candidate investigations. A queue script never claims that analysis is complete.
 Bugs remain first; collection is a direct bounded request, not an automatic queue
 that pre-empts active defect work. Survival/progress experiments use the separate
-DEATH-IMPROVEMENT-WORKFLOW.md process, not this first-death collector.
+DEATH-IMPROVEMENT-WORKFLOW.md process, not this exploration collector.
 
 ## Verification for this delivery
 
 Ten focused controls cover verified-family grouping, legacy/missing/changed
 recordings, viewer exit leaving owner status unchanged, reversible local review
-overrides, seed-mode validation, refusal of a nonrecording build, first-death
-stop/export, bounded all-cap completion, stall failure and failed-export evidence.
+overrides, seed-mode validation, refusal of a nonrecording build, multi-death
+continuation/export, bounded all-cap completion, stall failure and failed-export evidence.
 Existing tooling controls remain required alongside the hosted native gate.
 
 Native smoke: actual source682143f79eeb, seed1001, one game/cap200/timeout30,
@@ -245,3 +254,13 @@ Owner preference2026-11-08: subsequent death collection uses **normal Borg**.
 Do not start new munchkin game runs unless the owner explicitly requests it
 again. Historical movies keep their actual parameters; the CLI flag remains
 available for explicit reproduction, not an instruction to run that mode.
+
+## Multi-death batch verification (2026-11-08)
+
+Deterministic collector controls exercise ten distinct fresh run directories and
+seeds with ten separately exported deaths, mixed death/turn-cap batches, timeout
+continuation, death export failure, native errors on death, and a crash after an
+earlier successful death. These are simulated control outcomes, not ten newly
+played native games or a population measurement. Existing native death export,
+reports and queue validation remain required. No native collection was started
+just to test the new loop.

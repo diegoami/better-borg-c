@@ -116,19 +116,20 @@ class Collection(unittest.TestCase):
                     producer.prepare_build(args, 'pin')
             native.assert_not_called()
 
-    def simulate(self, outcomes, export_error=False, result_error=None, munchkin=False):
+    def simulate(self, outcomes, export_error=False, result_error=None, munchkin=False, native_code=None):
         with tempfile.TemporaryDirectory() as d:
             output = Path(d) / 'collection'
             output.mkdir()
             build = Path(d) / 'build'
             build.mkdir()
             (build / 'build.json').write_text('{}')
-            args = self.options(seeds=[3, 4, 5], munchkin=munchkin)
+            seeds = list(range(3, 3 + max(3, len(outcomes))))
+            args = self.options(seeds=seeds, munchkin=munchkin)
             calls = []
             def native(options):
                 # Contract is frozen before ANY outcomes and before build starts.
                 plan = producer.workflow.read(output / 'collection.json')
-                self.assertEqual(plan['seeds'], [3, 4, 5])
+                self.assertEqual(plan['seeds'], seeds)
                 self.assertTrue(options.random_birth)
                 self.assertEqual(plan['borg_parameters']['borg_munchkin_start'],munchkin)
                 if munchkin:
@@ -140,19 +141,25 @@ class Collection(unittest.TestCase):
                 options.output.mkdir()
                 producer.workflow.write(options.output / 'result.json', {'outcome': outcome, 'states': [], 'cause': 'a foe', 'error': result_error})
                 producer.workflow.write(options.output / 'recording.json', {'status':'incomplete' if outcome=='wall_timeout' else 'complete', 'outcome':outcome,'files_sha256':{}})
-                return int(outcome in ('stall', 'stalled', 'wall_timeout', 'crash', 'harness_failure'))
+                return native_code if native_code is not None else int(outcome in ('stall', 'stalled', 'wall_timeout', 'crash', 'harness_failure'))
             def prepared(*_):
                 self.assertEqual(producer.workflow.read(output / 'collection.json')['status'], 'preparing')
                 return build
+            dossiers = []
+            def exported(run, issue):
+                if export_error:
+                    raise ValueError('export failed')
+                dossier = Path(d) / f'D{len(dossiers)+1:04d}-collected'
+                dossiers.append(dossier)
+                return dossier
             # These are simulated games. The outer native gate may already own
             # the real validation lock; unit controls must not reacquire it.
             with mock.patch.object(producer.workflow, 'locked', return_value=nullcontext()), \
                  mock.patch.object(producer, 'prepare_build', side_effect=prepared), \
                  mock.patch.object(producer.measurement, 'run', side_effect=native), \
-                 mock.patch.object(producer, 'export_death', side_effect=ValueError('export failed') if export_error else None,
-                                   return_value=Path(d) / 'D0006-collected') as export:
+                 mock.patch.object(producer, 'export_death', side_effect=exported) as export:
                 try:
-                    code = producer.collect(args, output, [3,4,5], 'pin')
+                    code = producer.collect(args, output, seeds, 'pin')
                 except ValueError:
                     code = 1
                 return code, calls, producer.workflow.read(output / 'collection.json'), export.call_count
@@ -163,11 +170,55 @@ class Collection(unittest.TestCase):
         self.assertTrue(plan['borg_parameters']['borg_munchkin_start'])
         self.assertEqual((plan['turn_cap'],plan['wall_limit_per_game_seconds']),(100,2))
 
-    def test_first_death_stops_and_exports_without_relabelling_caps(self):
-        code, calls, plan, exports = self.simulate(['turn_cap', 'death'])
-        self.assertEqual((code, calls, exports), (0, [3,4], 1))
-        self.assertEqual(plan['counts'], {'turn_cap': 1, 'death': 1})
-        self.assertEqual(plan['status'], 'natural_death_recorded')
+    def test_death_continues_and_exports_every_death_without_relabelling_caps(self):
+        code, calls, plan, exports = self.simulate(['death', 'turn_cap', 'death'])
+        self.assertEqual((code, calls, exports), (0, [3,4,5], 2))
+        self.assertEqual(plan['counts'], {'turn_cap': 1, 'death': 2})
+        self.assertEqual(plan['status'], 'completed_with_deaths')
+        dossiers = [e['dossier'] for e in plan['runs'] if e.get('dossier')]
+        self.assertEqual(len(set(dossiers)), 2)
+        self.assertNotIn('dossier', plan['runs'][1])
+
+    def test_batch_export_allocates_distinct_ids_after_existing_dossier(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)
+            records=root/'docs/deaths'
+            (records/'D0010-collected').mkdir(parents=True)
+            def command(argv,**kwargs):
+                if '--output' in argv:
+                    directory=Path(argv[argv.index('--output')+1])
+                    directory.mkdir(exist_ok=False)
+                    self.assertEqual(argv[argv.index('--id')+1],directory.name[:5])
+            with mock.patch.object(producer,'ROOT',root), \
+                 mock.patch.object(producer.workflow,'primary_root',return_value=root), \
+                 mock.patch.object(producer.workflow,'locked',return_value=nullcontext()), \
+                 mock.patch.object(producer.subprocess,'run',side_effect=command):
+                exports=[producer.export_death(root/f'run-{n}','issue') for n in range(10)]
+            self.assertEqual([p.name for p in exports],[f'D{n:04d}-collected' for n in range(11,21)])
+
+    def test_ten_fresh_characters_export_all_ten_deaths(self):
+        code, calls, plan, exports = self.simulate(['death'] * 10)
+        self.assertEqual((code, calls, exports), (0, list(range(3,13)), 10))
+        self.assertEqual(plan['counts'], {'death':10})
+        self.assertEqual(len({e['directory'] for e in plan['runs']}),10)
+        self.assertEqual(len({e['dossier'] for e in plan['runs']}),10)
+        self.assertTrue(all(e.get('report') and e.get('replay_command') for e in plan['runs']))
+        self.assertEqual(plan['status'],'completed_with_deaths')
+
+    def test_death_with_native_error_is_exported_then_stops(self):
+        for options in ({'result_error':'recording failed'}, {'native_code':1}):
+            with self.subTest(options=options):
+                code,calls,plan,exports=self.simulate(['death'],**options)
+                self.assertEqual((code,calls,exports),(1,[3],1))
+                self.assertEqual(plan['status'],'failed')
+                self.assertIn('dossier',plan['runs'][0])
+
+    def test_crash_after_death_preserves_earlier_dossier_and_stops(self):
+        code,calls,plan,exports=self.simulate(['death','crash'])
+        self.assertEqual((code,calls,exports),(1,[3,4],1))
+        self.assertEqual(plan['counts'],{'death':1,'crash':1})
+        self.assertIn('dossier',plan['runs'][0])
+        self.assertEqual(plan['status'],'failed')
 
     def test_no_death_is_bounded_no_seed_or_cap_escalation(self):
         code, calls, plan, exports = self.simulate(['turn_cap']*3)
@@ -181,7 +232,7 @@ class Collection(unittest.TestCase):
         self.assertIn('--view-only', plan['runs'][0]['replay_command'])
         self.assertIn('--from-turn latest', plan['runs'][0]['manual_play_command'])
         self.assertNotIn('--view-only', plan['runs'][1]['replay_command'])
-        self.assertEqual(plan['status'], 'natural_death_recorded')
+        self.assertEqual(plan['status'], 'completed_with_deaths')
 
     def test_all_wall_timeouts_exhaust_declared_seeds_without_escalating(self):
         code, calls, plan, exports = self.simulate(['wall_timeout'] * 3)
