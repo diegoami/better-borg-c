@@ -21,8 +21,7 @@ munchkin mode below level 10. No survival or frequency claim.
 ## Pins and provenance
 
 Before: `origin/main` `eea2eee96412280d6406f772ac2f73d8975f7ba4` (build tree
-copied aside before the fix was applied). Product: `30bc61d37` plus the
-documentation commits on `task/carry-stairrange`. `borg-think-dungeon.c`
+copied aside before the fix was applied). Product: `30bc61d37`, merged as `ae64c39cb8cf90ebf5f55b7627414847c155b4d2` (PR 243). `borg-think-dungeon.c`
 carries no earlier patch over these lines; the verifier still proves that the
 source diff applied to the before module equals the product module, and that
 the only `src`/`lib`/build-file difference from the before commit is that file.
@@ -69,14 +68,29 @@ read numerically from `artifacts/native/result.json`. Tooling tests: 121 pass.
   watched for divergence after merge rather than assumed neutral. Not a
   survival or progress claim.
 
+## Impact measurement (behaviour-active in munchkin mode below level 10)
+
+Frozen v1 cohort, seeds 11/29/47, cap 20000, wall 120, stall 30, observer
+builds of before `eea2eee96` and merged `ae64c39cb` prepared with
+`tools/measure-native.py prepare --observe`. All six runs end `turn_cap`
+"(alive and well)". Per seed, `trace.txt`, `input.txt`, `terminal.log` and the
+user files are byte-identical between before and after (trace sha256 prefixes
+`030f9aba` / `cb80b119` / `8dcaffb7`); `result.json` differs only in paths,
+timestamps and binary hashes. The fix is therefore neutral on this cohort:
+the v1 Warriors never reach a sub-level-10 munchkin stair decision within
+20000 turns. That is a narrow regression result, not evidence of benefit and
+not a survival claim. Archive `artifacts/sr245-measurement.tar.gz`
+(sha256 `c5da43b0582f55d42d9bbf5a572361a2b49f9b84a12e2af9c6e6b2df8d6316ba`,
+55272513 bytes, 95 members, build/source trees and saves excluded; ignored by
+Git, retained locally).
+
 ## Exact next work
 
 1. PR from `task/carry-stairrange`, agent evidence review and required hosted
    checks, then normal merge.
-2. On merged main: prepare the observer build and run the frozen v1 seeds
-   11/29/47 (cap 20000, wall 120, stall 30); record divergence or identity.
-3. Mark 242 carried/open+patch-active; receipts on 242, source 245 and
-   checkpoint 1.
+2. Done: PR 243 merged `ae64c39cb`; v1 cohort measured (identical traces).
+3. Done: 242 marked carried/open+patch-active; receipts on 242, source 245
+   and checkpoint 1.
 4. Next carries: clockreset-246, drainedive-235, prepreason-234, swapacid-199,
    spastic-146, glyphflow-345 (apply cleanly to main); staircycle-403 awaits
    the consumer 204 correction boundary; tapunlife-249 stays masked (consumer 140).
