@@ -76,6 +76,33 @@ neither ran:
 Also unidentified: an Orange and a Metallic Red potion, and two scrolls. It had no Phase Door
 (last read at 24506) and 219 gold.
 
+## Why the flight went back and forth
+
+The owner's follow-up question (2026-11-09) was whether this was a pathfinding problem or
+fear of walking next to a monster. It is both: two layers use opposite danger limits.
+
+- **The route planner is bolder while fleeing.** While the scary flag is set at CL ≤ 5, the
+  flee-to-stairs flow (`borg_flow_spread`) accepts any square whose danger is up to
+  **3 × current HP**. Normally the limit is 3/10 × HP.
+- **The step-by-step caution is timid.** `borg_caution` retreats from any square whose danger
+  is above **HP / 3**, and it runs before the next planned step or any attack.
+
+Both use the same danger value, 16 for the squares next to the mold. So the planner steps the
+character in, and caution steps it back out.
+
+Because the planner's limit scales with HP, the target staircase flips:
+
+| Decision | HP | Mold squares | Target |
+| --- | --- | --- | --- |
+| 27536, 27556, 27576 | 17, 14, 9 | allowed | east, cost 4 |
+| 27596 | 5 | forbidden | west, cost 12 |
+| 27636 | 6 (regenerated 1 HP) | allowed again | east, cost 8 |
+| 27696 | 3 | forbidden | west, cost 12, into the worms |
+
+Each retreat also drops the current flow, so the next decision plans again from scratch. This
+explanation is source-derived and matches every logged choice; the runtime values have not
+been observed.
+
 ## Owner's manual alternative (verified)
 
 The owner played the same seed from the requested turn 27525 (actual 27526) with

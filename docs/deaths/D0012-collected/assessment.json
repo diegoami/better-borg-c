@@ -27,6 +27,16 @@
         "worm-scary-rule",
         "mold-retreat-loop"
       ]
+    },
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/325",
+      "summary": "Chat 2026-11-09: flight was inefficient, no dash to the exit, just back and forth; asks whether pathfinding or fear of walking next to a monster.",
+      "status": "processed; answered on 325 with the planner/caution threshold mechanism",
+      "actions": [
+        "mold-retreat-loop",
+        "worm-scary-rule"
+      ]
     }
   ],
   "findings": [
@@ -65,6 +75,10 @@
     {
       "status": "source-checked",
       "summary": "Scary scan sets level-wide flight when tracked white/green worm masses or giant white mice >= CLEVEL (two at CL2), while borg_check_breeders only starts leaving at MIN(CL+2,5)=4. Worm masses here: speed 100, 10HP, 1d2 poison."
+    },
+    {
+      "status": "source-checked; matches all logged flow choices",
+      "summary": "While scared at CL<=5 the flee flow accepts squares with danger up to 3xHP, but caution retreats from any square above HP/3 (same danger 16 next to the mold). Planner steps in, caution steps out; the HP-scaled limit flips the target stair: east at HP17/14/9, west at 5, east at 6, west at 3."
     }
   ],
   "actions": [
