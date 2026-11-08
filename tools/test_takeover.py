@@ -148,12 +148,67 @@ class Takeover(unittest.TestCase):
                  mock.patch.object(takeover, 'boundary', return_value=frame), \
                  mock.patch.object(takeover, 'cache', return_value=Path(temp)/'build'), \
                  mock.patch.object(takeover, 'existing_build', return_value=None), \
+                 mock.patch.object(takeover, 'select_x11_font', return_value='fixed'), \
                  mock.patch.object(takeover, 'capture') as capture, \
                  mock.patch.object(takeover, 'build') as build, \
                  mock.patch.object(takeover.sys.stdin, 'isatty', return_value=False), \
                  mock.patch.object(takeover.sys, 'argv', ['play-from-replay.py', str(original), '--from-turn', '103']):
                 self.assertEqual(takeover.main(), 1)
                 capture.assert_not_called(); build.assert_not_called()
+
+
+class TakeoverFonts(unittest.TestCase):
+    def library(self, accepted):
+        lib=mock.Mock()
+        lib.XOpenDisplay.return_value=11
+        lib.XLoadQueryFont.side_effect=lambda display,name: 22 if name.decode() in accepted else None
+        return lib
+
+    def test_readable_misc_fixed_is_tried_before_smaller_aliases(self):
+        fallback=takeover.FONT_CANDIDATES[1]
+        lib=self.library({fallback})
+        with mock.patch.object(takeover,'x11_library',return_value=lib):
+            self.assertEqual(takeover.select_x11_font({'DISPLAY':':91'}),fallback)
+        self.assertEqual(lib.XLoadQueryFont.call_count,2)
+        lib.XFreeFont.assert_called_once_with(11,22)
+        lib.XCloseDisplay.assert_called_once_with(11)
+
+    def test_minimal_server_with_only_fixed_still_loads(self):
+        lib=self.library({'fixed'})
+        with mock.patch.object(takeover,'x11_library',return_value=lib):
+            self.assertEqual(takeover.select_x11_font({'DISPLAY':':91'}),'fixed')
+        lib.XCloseDisplay.assert_called_once_with(11)
+
+    def test_explicit_font_is_honored_and_not_silently_replaced(self):
+        lib=self.library({'custom'})
+        with mock.patch.object(takeover,'x11_library',return_value=lib):
+            self.assertEqual(takeover.select_x11_font({'DISPLAY':':91','BORG_PLAY_FONT':'custom',
+                'ANGBAND_X11_FONT_0':'other'}),'custom')
+            with self.assertRaisesRegex(ValueError,'unavailable'):
+                takeover.select_x11_font({'DISPLAY':':91','BORG_PLAY_FONT':'missing'})
+        lib.XCloseDisplay.assert_has_calls([mock.call(11),mock.call(11)])
+
+    def test_missing_display_or_unreachable_server_fails_early(self):
+        with self.assertRaisesRegex(ValueError,'DISPLAY required'):
+            takeover.select_x11_font({})
+        lib=self.library(set());lib.XOpenDisplay.return_value=None
+        with mock.patch.object(takeover,'x11_library',return_value=lib), \
+             self.assertRaisesRegex(ValueError,'Cannot open'):
+            takeover.select_x11_font({'DISPLAY':':91'})
+        lib.XLoadQueryFont.assert_not_called()
+
+    def test_bad_font_prevents_build_or_reconstruction(self):
+        record={'status':'complete','build':{'source_commit':'a'*40,'binary_sha256':'b'*64}}
+        with mock.patch.object(takeover.sys,'argv',['play-from-replay.py','original','--from-turn','latest']), \
+             mock.patch.object(takeover.replay,'resolve_recording',return_value=Path('/tmp/original')), \
+             mock.patch.object(takeover,'validate_recording',return_value=record), \
+             mock.patch.object(takeover,'cache',return_value=Path('/tmp/helper')), \
+             mock.patch.object(takeover,'select_x11_font',side_effect=ValueError('font unavailable')), \
+             mock.patch.object(takeover,'build') as build, \
+             mock.patch.object(takeover,'capture') as capture, \
+             mock.patch.object(takeover,'boundary') as boundary:
+            self.assertEqual(takeover.main(),1)
+            build.assert_not_called();capture.assert_not_called();boundary.assert_not_called()
 
 
 if __name__ == '__main__':

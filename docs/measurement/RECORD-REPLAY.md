@@ -409,3 +409,28 @@ recordings remain untouched. `--prepare-only` qualifies without opening X11;
 helper. `--timeout` on this script bounds prefix reconstruction (default600s),
 not your manual session; it is independent of the collector's per-character
 `--timeout`.
+
+### Display/font preflight and retrying a failed launch
+
+Before building a helper or reconstructing a prefix for visible play, takeover
+now opens the requested X display and probes fonts with the same Xlib font-load
+operation the native game uses. It honors `BORG_PLAY_FONT`, then
+`ANGBAND_X11_FONT_0`. Explicit unavailable choices fail immediately; default
+selection tries readable Courier/misc-fixed sizes and installed bitmap aliases,
+then the server's `fixed` fallback. Some minimal WSLg servers advertise scalable
+names but only actually load `fixed`; font listing alone is not sufficient.
+The chosen font is printed. `--prepare-only` remains independent of X11.
+
+If prefix verification succeeded but the visible launch failed, the branch is
+still valid. Use the printed `--resume BRANCH_DIRECTORY` command to retry,
+without another helper build or replay from birth. Failed launch evidence stays
+in its session directory. For an older launcher whose default font is missing:
+
+```sh
+ANGBAND_X11_FONT_0=fixed ./play-from-replay.py --resume BRANCH_DIRECTORY
+```
+
+With the updated launcher a loadable default is selected automatically. Use
+`BORG_PLAY_FONT=INSTALLED_FONT` to choose a different available size. No fonts
+are installed, no X server settings change and no original recording/build is
+modified by this selection.
