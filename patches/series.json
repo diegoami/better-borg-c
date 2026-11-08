@@ -899,6 +899,24 @@
    "verification": "docs/measurement/MAIMFOE-RETURN.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on task/carry-maimfoe; awaiting normal PR merge"
+  },
+  {
+   "id": "CBUG-0310",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/216",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/310",
+   "source_head": "9609e2c8682c7f55fe1ae4bf9701ae74e2718ce0",
+   "source_commits": [
+    "9609e2c8682c7f55fe1ae4bf9701ae74e2718ce0"
+   ],
+   "applied_commits": [
+    "b00f2a1901091b8a3222dc5576638684b36d95ea"
+   ],
+   "patch": "patches/0048-recalldepth-endgame-answer.patch",
+   "patch_active": true,
+   "evidence_ref": "9ccd191c2601d30285d2e9983f5eabdfd1cbf165",
+   "verification": "docs/measurement/RECALLDEPTH-ANSWER.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-recalldepth; awaiting normal PR merge"
   }
  ]
 }

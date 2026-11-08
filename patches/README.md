@@ -244,3 +244,9 @@ tracked score (consumer #214, adopting source256). The chooser's re-run
 of the winning attack reported the last-scanned monster's score; it now
 returns b_d like the simulation pass already did; the single and none
 controls stay byte-identical.
+
+The forty-eighth carry answers the endgame recall-depth prompt with 'y'
+as its comment says (consumer #216, adopting source310). The maxdepth-99
+branch said "Do reset Depth" and then answered 'n'; it now answers 'y'
+like the generic branch; the generic and mismatch controls stay
+byte-identical.
