@@ -1,0 +1,37 @@
+From 72e169b1ed5f12dfa8272e0886ce9753cf4a1b78 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 19:46:54 +0100
+Subject: [PATCH] Borg: keep the multiplier-kill timer when checking whether to
+ rest
+
+borg_check_rest() refuses to rest for a few turns after the Borg killed
+a multiplying monster, so it does not sit down next to unseen breeders.
+It also cleared the timer as soon as the check got past that test, which
+is the case on the turn of the kill itself (the test needs the timer to
+be above zero). The next check, one turn later, found no recent kill and
+allowed resting. Do not clear the timer.
+
+Tracked as diegoami/neo-angband-tracker#149.
+
+(cherry picked from commit e66740cc4563224ca5dddab5d7bd543d8c8f1342)
+---
+ src/borg/borg-flow-misc.c | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/src/borg/borg-flow-misc.c b/src/borg/borg-flow-misc.c
+index 81c526a36..5b0957e69 100644
+--- a/src/borg/borg-flow-misc.c
++++ b/src/borg/borg-flow-misc.c
+@@ -1243,9 +1243,6 @@ bool borg_check_rest(int y, int x)
+         && (borg.trait[BI_CURSP] >= borg.trait[BI_MAXSP] * 7 / 10))
+         return false;
+ 
+-    /* Set this to Zero */
+-    borg.time.last_kill_mult = 0;
+-
+     /* Most of the time, its ok to rest in a vault */
+     if (borg.status.vault) {
+         for (i = -1; i < 1; i++) {
+-- 
+2.53.0
+

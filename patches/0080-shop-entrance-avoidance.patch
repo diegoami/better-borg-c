@@ -1,0 +1,37 @@
+From db2b5b65476e8d83851222a69310dcbf7107285d Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 19:40:10 +0100
+Subject: [PATCH] Borg: avoid every shop entrance that is not the goal shop
+
+When flowing to a shop, the Borg is meant to keep off the entrances of
+the other shops, since stepping onto one enters it. The test skipped such
+an entrance only when it was in neither the Borg's row nor its column
+(y != row && x != column), so an entrance in line with the Borg stayed on
+the path and the Borg walked into the wrong shop. Skip every other shop
+entrance except the grid the Borg stands on.
+
+Tracked as diegoami/neo-angband-tracker#125.
+
+(cherry picked from commit 9d35babe8bd8e38b2d522e00ce159d740919718f)
+---
+ src/borg/borg-flow.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-flow.c b/src/borg/borg-flow.c
+index 56ee66f5d..b0c2151cd 100644
+--- a/src/borg/borg-flow.c
++++ b/src/borg/borg-flow.c
+@@ -412,8 +412,8 @@ void borg_flow_spread(int depth, bool optimize, bool avoid, bool tunneling,
+ 
+             /* Avoid shop entry points if I am not heading to that shop */
+             if (borg.goal.shop >= 0 && feat_is_shop(ag->feat)
+-                && (ag->store != borg.goal.shop) && y != borg.c.y
+-                && x != borg.c.x)
++                && (ag->store != borg.goal.shop)
++                && (y != borg.c.y || x != borg.c.x))
+                 continue;
+ 
+             /* Avoid Traps if low level-- unless brave */
+-- 
+2.53.0
+

@@ -1461,6 +1461,60 @@
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge",
    "merge_commit": "3573d741e6dc3cafa4099fcef8b38fdb32952977"
+  },
+  {
+   "id": "BANISHARTE-37",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/305",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/37",
+   "source_head": "caa6c6acc70c35ced4bfaaf2781036d99b5d32e5",
+   "source_commits": [
+    "caa6c6acc70c35ced4bfaaf2781036d99b5d32e5"
+   ],
+   "applied_commits": [
+    "8f2669a1f16bd850d51c7da19a6e7dea00c40af8"
+   ],
+   "patch": "patches/0078-banish-artifact-hit-points.patch",
+   "patch_active": true,
+   "evidence_ref": "bbc5de859c7b27d02d88c1bb84ec46d796de8716",
+   "verification": "docs/measurement/BANISHARTE-37.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge"
+  },
+  {
+   "id": "RESTMULT-149",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/306",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/149",
+   "source_head": "e66740cc4563224ca5dddab5d7bd543d8c8f1342",
+   "source_commits": [
+    "e66740cc4563224ca5dddab5d7bd543d8c8f1342"
+   ],
+   "applied_commits": [
+    "72e169b1ed5f12dfa8272e0886ce9753cf4a1b78"
+   ],
+   "patch": "patches/0079-rest-mult-kill-timer.patch",
+   "patch_active": true,
+   "evidence_ref": "c6052b4a76ea641b42844ce8e7c984cffbdc5f31",
+   "verification": "docs/measurement/RESTMULT-149.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge"
+  },
+  {
+   "id": "SHOPLINE-125",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/307",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/125",
+   "source_head": "9d35babe8bd8e38b2d522e00ce159d740919718f",
+   "source_commits": [
+    "9d35babe8bd8e38b2d522e00ce159d740919718f"
+   ],
+   "applied_commits": [
+    "db2b5b65476e8d83851222a69310dcbf7107285d"
+   ],
+   "patch": "patches/0080-shop-entrance-avoidance.patch",
+   "patch_active": true,
+   "evidence_ref": "9ce7a0a4752d7564a246ee6508f1e523bc54ffae",
+   "verification": "docs/measurement/SHOPLINE-125.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge"
   }
  ]
 }

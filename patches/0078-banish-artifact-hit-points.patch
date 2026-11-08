@@ -1,0 +1,35 @@
+From 8f2669a1f16bd850d51c7da19a6e7dea00c40af8 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 19:57:25 +0100
+Subject: [PATCH] Borg: test current hit points, not the item count, before
+ banishing with the artifact
+
+The Banishment defence may activate an artifact that banishes evil
+monsters, but only with more than 100 hit points. The test read
+borg.has[BI_CURHP], which counts how many of an unrelated object kind the
+Borg carries (borg.has[] is indexed by object kind), so it was almost
+never true and the artifact was never used. Test borg.trait[BI_CURHP].
+
+Tracked as diegoami/neo-angband-tracker#37.
+
+(cherry picked from commit caa6c6acc70c35ced4bfaaf2781036d99b5d32e5)
+---
+ src/borg/borg-fight-defend.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-fight-defend.c b/src/borg/borg-fight-defend.c
+index 05e6ac00e..6945ec261 100644
+--- a/src/borg/borg-fight-defend.c
++++ b/src/borg/borg-fight-defend.c
+@@ -2495,7 +2495,7 @@ static int borg_defend_aux_banishment(int p1)
+         return 0;
+ 
+     using_artifact
+-        = borg_equips_item(act_loskill, true) && borg.has[BI_CURHP] > 100;
++        = borg_equips_item(act_loskill, true) && borg.trait[BI_CURHP] > 100;
+ 
+     if (!using_artifact && !borg_spell_okay_fail(BANISH_EVIL, fail_allowed))
+         return 0;
+-- 
+2.53.0
+
