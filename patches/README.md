@@ -329,3 +329,7 @@ empty and the Borg dived instead of selling. Three-mode fixture flips the full-u
 The sixty-first carry keeps a drained Borg from diving regardless of its earlier
 direction (consumer #263, adopting source235): the guard sat behind a dead `g` gate and
 now applies unconditionally. Fixture: one power-dive note to none. v1 traces identical.
+
+The sixty-second carry starts the Resist Poison potion reward loop from zero (consumer #266, adopting source184): a stale counter left by the food loop lost the reward with low food (900 to 0). Fixture apples 0 to 900, rations byte-identical.
+
+The sixty-third carry counts a warrior's Resist Poison potions from zero (consumer #267, adopting source185): the loop continued the Resist Cold count (900 instead of 2400). Fixture cold 900 to 2400, plain byte-identical.

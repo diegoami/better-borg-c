@@ -1166,7 +1166,44 @@
    "evidence_ref": "557c85260f8b836ab2c8725fe8baa0910be38261",
    "verification": "docs/measurement/DRAINED-DIVE.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on the unchanged source fixture and native gate; v1 traces identical; carried/open+patch-active after merge"
+   "verification_status": "merged; verified on the unchanged source fixture and native gate; v1 traces identical; carried/open+patch-active",
+   "merge_commit": "31e71f0873c3166b195499bf86b5457ec962b2b5"
+  },
+  {
+   "id": "RESPOIS-184",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/266",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/184",
+   "source_head": "5e8d4c5e6c1006ce4c90e21a973b0f95bb9fa0db",
+   "source_commits": [
+    "5e8d4c5e6c1006ce4c90e21a973b0f95bb9fa0db"
+   ],
+   "applied_commits": [
+    "089acfae4735f1b76d2fa2723cdbc44786647c4f"
+   ],
+   "patch": "patches/0062-resist-poison-reward-from-zero.patch",
+   "patch_active": true,
+   "evidence_ref": "af01d73ccfcbe6ad55e7fddb7f863a4e54999e0e",
+   "verification": "docs/measurement/RESIST-POISON.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "RESPOISWAR-185",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/267",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/185",
+   "source_head": "c056daabf55e6a1713e68381ef4a72ec6fd349b9",
+   "source_commits": [
+    "c056daabf55e6a1713e68381ef4a72ec6fd349b9"
+   ],
+   "applied_commits": [
+    "b81495995bad7e1c17cbf7ce7b51d7f22a9808ea"
+   ],
+   "patch": "patches/0063-warrior-resist-poison-from-zero.patch",
+   "patch_active": true,
+   "evidence_ref": "6f130a4eea68e0c2855bcbb257cf9158752d369b",
+   "verification": "docs/measurement/RESIST-POISON.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active after merge"
   }
  ]
 }
