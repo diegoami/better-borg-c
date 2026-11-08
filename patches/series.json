@@ -959,6 +959,24 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured (behavior-active on the v1 cohort: divergence recorded, flowcache ruled out as cause); carried/open+patch-active",
    "merge_commit": "5384f12ed51e8fef6f31353fd2daaf0e7fb43856"
+  },
+  {
+   "id": "CBUG-0245",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/242",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/245",
+   "source_head": "c16b3e9d14470dd19ef884f37f9eca2f7cc7d37f",
+   "source_commits": [
+    "c16b3e9d14470dd19ef884f37f9eca2f7cc7d37f"
+   ],
+   "applied_commits": [
+    "30bc61d37a72933a30f0c5425ce3993208a2e24f"
+   ],
+   "patch": "patches/0051-munchkin-stair-range-gate.patch",
+   "patch_active": true,
+   "evidence_ref": "3c9a75e2023386863db8a21be16db5b8c12a840a",
+   "verification": "docs/measurement/STAIR-RANGE.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on the unchanged source fixture and native gate; PR pending; carried/open+patch-active after merge"
   }
  ]
 }
