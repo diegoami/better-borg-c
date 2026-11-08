@@ -39,7 +39,11 @@ PRs after agent evidence review), not on a per-fix approval.
    build of the same tree, fail-before/pass-after on the observable, with the source's byte-identical
    controls. **No AddressSanitizer phase was run in this milestone** (milestone 5 ran four phases);
    none of these defects is a memory error the sanitizer could observe; the hang fixed by 0057 and the
-   crash fixed by 0059 show as non-zero exit codes in their fixtures. The source finding #399 overflow was therefore not exercised.
+   crash fixed by 0059 show as non-zero exit codes in their fixtures. The source finding #399 overflow was therefore **not observed** in
+   this milestone. It nevertheless occurs during `borg_init()` in every one of these fixtures (it fires
+   before any scenario code runs; measured by the milestone 6 review on an AddressSanitizer build of the tip,
+   which reported no other sanitizer finding in any mode), so a sanitizer phase would have reported only the
+   already-known, separately owned #399 overflow and nothing about the 13 defects themselves.
 2. **Rows equal the source's recorded rows value for value** for every carry. One exception is
    disclosed below (0054).
 3. **Provenance** is proven per module: before module + source diff == product module, or, for patches
@@ -48,9 +52,20 @@ PRs after agent evidence review), not on a per-fix approval.
    `src`/`lib`/build-file difference from its before commit.
 4. **Native gate 965/965 unit + 5/5 frontend** on every fix commit or stacked tip, read numerically;
    identical hosted numerics on every PR. Tooling tests 121 on every PR (milestone 5 ended at 97).
-5. **Not done:** the accumulated prior-fixture regression matrix was **not rerun** this milestone (it was
-   rerun per carry in milestone 5); the stacked PRs (cfg trio, respois pair) ran the native gate once on
-   the tip, not per patch.
+5. **Not done:** the accumulated 154-case, 48-group prior-fixture regression matrix was **not rerun** at the
+   milestone 6 tip, and its runner is not committed (it lived in a retired flowcache worktree), so it
+   cannot be rerun from this repository. The matrix result on file
+   (`docs/measurement/flowcache-404/regression-summary.json`) is the 0049-era run, i.e. *before* the
+   milestone 6 carries; it was not rerun per carry across milestone 6, and this document previously
+   described milestone 5 inaccurately on that point. The stacked PRs (cfg trio, respois pair) ran the
+   native gate once on the tip, not per patch.
+   **Spot-checks performed by the milestone 6 review (not by the author of this package), run against
+   `b3c825c97`:** mapwall-212, detectcarry-219, calllight-231 and munchkin-244 (both modes; 0051 touches the
+   same munchkin function) pass, and the dispel family reproduces the documented standing states exactly
+   (dispel-248 `main` 0/1 as its asserted change, `undead` 1/1; dispel-259 `reserve` and `clear` 0/1 as the two
+   preserved expected failures; losdispel-326 passes). These cover `borg-think-dungeon.c`, `borg-caution.c`
+   and the map/detection/light paths only; the remaining groups of the 48 were not rerun, no regression was
+   found in those that were, and that the rest is unaffected is a judgement, not a measurement.
 
 ## Layered interaction disclosed (0054 vs 0053)
 
@@ -88,7 +103,9 @@ All three traces diverge from the v5 lineage. **Two of three seeds are alive at 
 three at v5.** The loss of seed 47 is attributed by the per-patch runs to 0056 (seed 47 was alive immediately
 before it and dies immediately after); seed 29's intermediate death under 0053 is repaired by 0056. Three
 fixed seeds are not statistics: no survival, progress or population claim is made in either direction, and
-the cohort lineage restarts at this tip.
+the cohort lineage restarts at this tip. The attribution is to 0056's contribution on the 0053-0055
+trajectory, not to 0056 in isolation: 0055 had already diverged seed 47's trace (outcome unchanged), so an
+interaction between 0055 and 0056 is not excluded by a single frozen seed (milestone 6 review, M6-05).
 
 ## Exclusions and pending items (checked, not counted)
 
@@ -111,13 +128,36 @@ the plain source diff does not apply on top of 0057, and the three-way-merge pro
 test call created a malformed duplicate issue ([#265](https://github.com/diegoami/better-borg-c/issues/265),
 closed as not planned) and the body of [#269](https://github.com/diegoami/better-borg-c/issues/269) first
 quoted a wrong source hash, corrected with a comment; (6) one PR command was rejected by the shell for a
-heredoc and rerun from files, with nothing partially applied. Per-carry evidence archives under `artifacts/`
+heredoc and rerun from files, with nothing partially applied. Two clarifications from the review (M6-04):
+the applied diff of 0058 differs from its source diff by the 0057 hunk it stacks onto, and the merge-file proof
+is the authority for it, so a reviewer diffing 0058 against source 142 should expect that difference; and the
+body of #269 names "patch 0065", a placeholder ordinal for a carry not in this milestone. Per-carry evidence archives under `artifacts/`
 are ignored by Git and kept locally; every consumer issue records pins, commands, output and limits.
+
+## Review and triage (issue #273)
+
+The milestone 6 review (posted 2026-11-08T11:24:54Z) re-executed every carry from its pinned before commit
+and reports: all fixture rows equal the source kits' rows (0 differences), all nine controls byte-identical
+by SHA256, all five merge-file proofs reproduce the product module, all 13 patch files apply to their exact
+pre-carry trees, native gate 965/965 + 5/5, tooling 121, the 0054/0053 interaction and the adapted fixture
+faithful, the attribution of the cohort change sound, and no carry to be reverted. **Verdict: approve, with two
+documentation corrections and one verification condition before the tag.**
+
+| ID | Severity | Disposition |
+| --- | --- | --- |
+| M6-01 | minor | Applied: contract item 1 reworded (not exercised becomes not observed, with the measured fact). |
+| M6-02 | minor-to-major | Applied in option (b) form: contract item 5 corrected and the review's spot-checks recorded with attribution; the full matrix is **not** rerun and its runner is still uncommitted. |
+| M6-03 | minor | **Open, owner decision:** source issue 250 carries an unanswered owner question (posted 2026-11-08T11:04:53Z: keep tpreader-250 as a separate pair, or fold it into #67?). The consumer disposition (overlap, no new patch) matches "fold into #67", and was reached before that question was answered. |
+| M6-04 | observation | Applied: two clarifications added to the disclosure index. |
+| M6-05 | observation | Applied: the 0055/0056 interaction caveat added to the cumulative-run paragraph. |
+
+No external verdict beyond this review exists. The tag `4.2.6-impact-v6` is not created by this document.
 
 ## Exact next work
 
-1. Merge this document; receipt on the package issue and checkpoint 1.
-2. External review of this milestone is deferred to the owner's chosen point (RULES 13); this document does
-   not represent review as done.
-3. Next carries: spastic-146 and glyphflow-345 (reverse-flow pair), swapacid-199; recheck the source board;
+1. Owner answer on source 250 (M6-03).
+2. Commit the regression-matrix runner as a tool before milestone 7 so the matrix can be rerun (follow-up).
+3. Tag `4.2.6-impact-v6` on the runtime snapshot `b3c825c97c8aef18b252a7fb7d9b7dceef83d586` (not the docs
+   commit), following v1-v5, once the owner confirms the conditions above are met.
+4. Next carries: spastic-146 and glyphflow-345 (reverse-flow pair), swapacid-199; recheck the source board;
    diagnose 249 and 255 before any strategy change.
