@@ -64,10 +64,28 @@ artifacts on top).
 Native gate on this core at the fix commit: **965/965 unit + 5/5
 frontend** numerically read; tooling **97/97** (main's tooling set grew
 again with the interleaved lanes' additions). Regression matrix
-(`artifacts/gt213-carry/regression.py`, local-only): **154 prior native
-fixture cases** — 151 from the forty-eighth tally plus the three
-recalldepth-310 cases. Results and any asserted log changes are
-recorded in `regressions/result.json` and below.
+(`artifacts/gt213-carry/regression.py`, local-only): **all 154 prior
+native fixture cases hold** — 151 whole-log identical (including the
+recalldepth-310 cases; no prior fixture changed despite the
+behavior-active fix), the dispel-248 undead case passing with its
+asserted losdispel log change, and the two dispel-259 cases
+asserted-red at the pinned post-losdispel values.
+
+## Impact measurement (behavior-active: divergence recorded as observed)
+
+Post-merge frozen v1 cohort on a prepared observer build of merged main
+`5384f12ed`: seeds 11/29/47 all **turn_cap "(alive and well)"** (no
+deaths; hp 28/53/58), but the whole traces **diverge from the
+pre-glowtrace lineage** (+3.2k/−5.1k lines per seed). Attribution is
+clean: the interleaved flowcache carry (FLOWCACHE-404) was cohort-
+neutral — its own recorded v1 before/after traces are identical
+(`artifacts/fc404-carry/v1-results.json`, all three seeds) — so the
+divergence is this carry's. That is the expected consequence of the
+restored branch: the borg now marks glowing floors and its
+flow-toward-light consumer routes toward them (the fixture measured 484
+targets where the dead branch produced none). No survival claim in
+either direction; the divergence is recorded as observed, and the
+cohort's new lineage starts here.
 
 ## Scope and limits
 
@@ -79,12 +97,11 @@ cohort is watched for divergence rather than assumed neutral.
 ## Exact next work
 
 1. PR from `task/carry-glowtrace`, agent evidence review plus required
-   hosted checks, then normal merge.
-2. On merged main: prepare the measurement build
-   (`tools/measure-native.py prepare --observe`), run frozen v1 seeds
-   11/29/47, cap 20000, wall 120, stall 30, and compare against the
-   forty-eighth lineage run — divergence expected to be possible and
-   recorded as observed.
+   hosted checks, then normal merge. (Done: PR225, merged `5384f12ed`.)
+2. On merged main: prepare the measurement build, run frozen v1 seeds
+   11/29/47, compare against the lineage — done; divergence recorded
+   above (glowtrace-active, flowcache ruled out via its own neutral
+   before/after).
 3. Mark 224 carried/open+patch-active; receipts on issue 224, source
    213 and checkpoint 1; evidence archive under `artifacts/gt213-carry/`.
 4. Pending owner decision elsewhere: dontreact-14 vs carried patch 0002
