@@ -89,11 +89,11 @@
   "impact_milestone_v3": "https://github.com/diegoami/better-borg-c/milestone/3",
   "external_review_package_v3": "https://github.com/diegoami/better-borg-c/issues/128",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/216",
-    "branch": "task/carry-recalldepth",
-    "worktree": ".worktrees/recalldepth",
-    "state": "merged-b9e64aa85-measured-issue216-carried-open-dontreact-queued",
-    "instructions": "docs/measurement/RECALLDEPTH-ANSWER.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/212",
+    "branch": "task/carry-flowcache",
+    "worktree": ".worktrees/flowcache-carry",
+    "state": "merged-1c8fcdccf-verified-measured-carried-open",
+    "instructions": "docs/measurement/FLOW-DANGER-CACHE.md"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
   "impact_milestone_v4": "https://github.com/diegoami/better-borg-c/milestone/4",

@@ -1,0 +1,18 @@
+{
+  "archive": "/home/diego/projects/angband/better-borg-c/artifacts/fc404-carry/evidence.tar.gz",
+  "sha256": "75bea61b756d4a1372ba52d668cb488df97d7abdd6a60e3e7ceb4d43b8d54444",
+  "bytes": 23489885,
+  "members": 597,
+  "readback_verified": true,
+  "scope": "selective raw runs, gates, fixtures, logs and receipts; no disposable whole-worktree or core cache archive",
+  "retained_core_worktrees": [
+    "/home/diego/projects/angband/better-borg-c/.worktrees/flowcache-carry",
+    "/home/diego/projects/angband/better-borg-c/.worktrees/flowcache-before"
+  ],
+  "retained_observer_builds": [
+    "/home/diego/projects/angband/better-borg-c/artifacts/fc404-carry/observer-before",
+    "/home/diego/projects/angband/better-borg-c/artifacts/fc404-carry/observer-after",
+    "/home/diego/projects/angband/better-borg-c/artifacts/fc404-carry/recording-before",
+    "/home/diego/projects/angband/better-borg-c/artifacts/fc404-carry/recording-after"
+  ]
+}

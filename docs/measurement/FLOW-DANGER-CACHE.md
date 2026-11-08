@@ -101,3 +101,15 @@ under the consumer's own verification/merge policy, not represented as source
 approval or official upstream acceptance. No source-repository changes or posts
 were made. Python97/97controls pass in the consumer. Full hosted checks and final
 integration/build receipts are recorded on consumer212 and its carry PR.
+
+## Consumer integration receipt
+
+Merged PR222 at1c8fcdccfafa08fd34aaa12b8e6409e8607030bb after agent evidence
+review and exact-head bfcac09a1 hosted42436024587/job128594915896 numerical
+97tooling/965native/5frontend plus security checks. Consumer212 is carried/open
+and patch-active, not fixed/closed. The source repository was not modified.
+Selective raw archive: `artifacts/fc404-carry/evidence.tar.gz`, SHA256
+`75bea61b756d4a1372ba52d668cb488df97d7abdd6a60e3e7ceb4d43b8d54444`,
+23489885bytes/597members, all readback-hash verified. Runtime cores and frozen
+observer/recording builds remain retained separately. Final delivery build
+identities and timing are recorded in ignored artifacts and consumer212/checkpoint1.
