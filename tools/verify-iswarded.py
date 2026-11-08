@@ -22,9 +22,13 @@ After phases: every mode completes the first town keypress (survived=1) with
 no assertion and no sanitizer report. Control logs are byte-identical across
 the correction in both builds.
 
-Fixture: kit 563a2616 at head 5454144a. Run under the shared native lock
-after this tree's gate build and a fully ASan-instrumented core build, with
-the before snapshots built at the before commit.
+Fixture: kit 563a2616 at head 5454144a. The ASan phases build with
+-DNDEBUG (assertions off) exactly like the source kit, so the town cases
+report the heap-buffer-overflow READ instead of aborting on the bounds
+assertion; the normal phases keep assertions and abort with SIGABRT.
+Run under the shared native lock after this tree's gate build, with
+the before snapshots built at the before commit (its gate result recorded
+under --before-gate; the ASan before twin in the retained before worktree).
 """
 import argparse
 import hashlib
@@ -131,7 +135,9 @@ def main():
         command = ['cc', '-g', '-DALLOW_BORG', '-I' + str(ROOT / 'src'),
                    '-I' + str(ROOT / 'src/tests')]
         if phase.startswith('asan'):
-            command += ['-fsanitize=address', '-fno-omit-frame-pointer']
+            # The ASan cores are NDEBUG (assertions off, like the source
+            # kit); the scenario must match or flag_on_dbg is unresolved.
+            command += ['-fsanitize=address', '-fno-omit-frame-pointer', '-DNDEBUG']
         command += [str(out / 'scenario.c'), *map(str, objects + helpers),
                     '-lm', '-o', str(binary)]
         with (out / (phase + '-link.log')).open('w') as log:
@@ -149,8 +155,9 @@ def main():
             log = out / f'{phase}-{mode}.log'
             log.write_text(text)
             omatch = re.search(r'OUTCOME (.*)', text)
-            site = re.search(r'#0 0x[0-9a-f]+ in (\w+) .*\n.*\n.*\n.*#3 0x[0-9a-f]+ in '
-                             r'borg_parse_aux \S*?(borg-messages\.c:\d+)', text)
+            leaf = re.search(r'#0 0x[0-9a-f]+ in (\w+) ', text)
+            aux = re.search(r'in borg_parse_aux \S*?(borg-messages\.c:\d+)', text)
+            site = leaf and aux
             rows[mode] = {
                 'exit': result.returncode,
                 'passed': 'native-c/iswarded-198 finished: 1/1 passed' in text,
@@ -158,7 +165,7 @@ def main():
                 'asan': re.search(r'AddressSanitizer: [a-z]', text) is not None,
                 'asan_read': re.search(r'ERROR: AddressSanitizer: heap-buffer-overflow'
                                        r'.*\nREAD of size', text) is not None,
-                'asan_site': (site.group(1) + ' <- borg_parse_aux ' + site.group(2)) if site else None,
+                'asan_site': (leaf.group(1) + ' <- borg_parse_aux ' + aux.group(1)) if site else None,
                 'outcome': {k: int(v) for k, v in re.findall(r'(\w+)=(-?\d+)', omatch[1])} if omatch else {},
                 'log_sha256': sha(log),
             }
@@ -169,8 +176,14 @@ def main():
 
     nb, na = report['phases']['normal-before']['cases'], report['phases']['normal-after']['cases']
     ab, aa = report['phases']['asan-before']['cases'], report['phases']['asan-after']['cases']
+    # Before: the town cases abort with SIGABRT from the bounds assertion
+    # (exit -6); every other row exits cleanly.
     for mode in MODES:
-        assert nb[mode]['exit'] == 0 and na[mode]['exit'] == 0, mode
+        if mode in FLIP:
+            assert nb[mode]['exit'] != 0, mode
+        else:
+            assert nb[mode]['exit'] == 0, mode
+        assert na[mode]['exit'] == 0, mode
     # Before: the two town cases abort on the bounds assertion; the controls
     # complete and stay free of assertions.
     for mode in FLIP:
