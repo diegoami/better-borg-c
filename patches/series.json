@@ -1014,7 +1014,26 @@
    "evidence_ref": "809e556b39e47c2dd13c6dd53aa42b7ac8329010",
    "verification": "docs/measurement/DANGER-FLEE.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on the unchanged source fixture and native gate; v1 cohort diverges (seed 29 later dies), recorded as observed; carried/open+patch-active after merge"
+   "verification_status": "merged; verified on the unchanged source fixture and native gate; v1 cohort diverges (seed 29 later dies, issue 249), recorded as observed; carried/open+patch-active",
+   "merge_commit": "9cb711cd2fc7bb5ee45530c61bd25a063253492b"
+  },
+  {
+   "id": "CBUG-0141",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/250",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/157",
+   "source_head": "57d0df0633d12064602993f39fe6a5ee5f62524c",
+   "source_commits": [
+    "57d0df0633d12064602993f39fe6a5ee5f62524c"
+   ],
+   "applied_commits": [
+    "8a604133a62c97ce00a9c0c5faf0d575357cf5d3"
+   ],
+   "patch": "patches/0054-recall-wait-mana-threshold.patch",
+   "patch_active": true,
+   "evidence_ref": "b6bd252e1c9b60845cd3824f42d7dbc5100d2b63",
+   "verification": "docs/measurement/RECALL-MANA.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on the adapted fixture (unchanged source fixture red by interaction with 0053, asserted) and native gate; carried/open+patch-active after merge"
   }
  ]
 }
