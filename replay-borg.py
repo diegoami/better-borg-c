@@ -216,7 +216,7 @@ def main():
         observations = tool('replay_combat_extension', 'replay-observation.py')
         context = SimpleNamespace(recordings=recordings, verify=verify)
         combat_directory = observations.cached(original, context)
-        compatibility = observations.needs_wide_reader(original)
+        compatibility = not args.view_only and observations.needs_wide_reader(original)
         if args.view_only and args.combat_log and combat_directory is None:
             raise ValueError('Combat log not prepared; reopen with --combat-log without --view-only first')
         if not args.view_only:
@@ -225,6 +225,8 @@ def main():
             print('Qualifying the selected historical observer...' if args.combat_log or compatibility else
                   'Rerunning the recorded start with the original engine and inputs...', flush=True)
             if args.combat_log or compatibility:
+                if args.output and output.exists():
+                    raise ValueError('Replay output must be a new directory; original evidence is never overwritten')
                 if compatibility:
                     print('Using a separate historical reader for the recorded wide terminal; original engine stays frozen.', flush=True)
                 combat_directory = observations.prepare(original, context, args.timeout)

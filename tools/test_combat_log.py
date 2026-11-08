@@ -1,6 +1,9 @@
 """Native fighting events are frame-qualified and never inferred from Borg notes."""
 import importlib.util
 import json
+import io
+from unittest import mock
+from contextlib import redirect_stderr
 from pathlib import Path
 import tempfile
 import unittest
@@ -47,6 +50,22 @@ class CombatLog(unittest.TestCase):
             d=Path(tmp);p=d/'events.txt';p.write_text('1 1 0 4 0 0 0 0 0 0 0 0 424 104\n')
             self.assertTrue(observer.wide_geometry(d))
             p.write_text('1 1 0 4 0 0 0 0 0 0 0 0 80 24\n');self.assertFalse(observer.wide_geometry(d))
+
+
+class ReplayModes(unittest.TestCase):
+    def test_view_only_does_not_parse_input_geometry_or_build(self):
+        replay=load('combat_cli_test',ROOT/'replay-borg.py')
+        with tempfile.TemporaryDirectory() as tmp:
+            d=Path(tmp);(d/'frames.jsonl').write_text('{"inventory":{},"spells":{}}\n')
+            observation=mock.Mock();observation.cached.return_value=None
+            with mock.patch.object(replay.sys,'argv',['replay-borg.py',str(d),'--view-only']), \
+                 mock.patch.object(replay,'resolve_recording',return_value=d), \
+                 mock.patch.object(replay.recordings,'validate'), \
+                 mock.patch.object(replay,'tool',return_value=observation), \
+                 mock.patch.object(replay.viewer,'show') as show:
+                self.assertEqual(replay.main(),0)
+                observation.needs_wide_reader.assert_not_called()
+                observation.prepare.assert_not_called();show.assert_called_once()
 
 
 if __name__=='__main__':unittest.main()
