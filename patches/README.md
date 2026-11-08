@@ -373,3 +373,7 @@ The eighty-third carry removes the unreachable second amulet tier from the home 
 The eighty-fourth carry tests the light beam's panel-edge rule against the row on the panel (consumer #316, adopting source88/CBUG-0072): north/south beams were refused below dungeon row 20 on a 22-row panel because the rule compared the absolute dungeon row instead of the row on the panel. The scrolled and scrolled_south modes flip; the top control is byte-identical.
 
 The eighty-fifth carry removes the dead stun test from the HURT blow danger (consumer #329, adopting source62/CBUG-0046; owner decision 2026-11-08): the never-true `z > d_dice * d_side` test and its +200 are dead code — the meaningful kick/KO fudge stays. The kit's four blow-mode controls are byte-identical before/after.
+
+The eighty-sixth carry aims Dimension Door only at a known empty floor grid (consumer #335, adopting source21): the escape cast aimed at the lowest-danger grid in a 100x100 box without checking the borg could land there — usually unseen granite — and the game then landed it elsewhere, possibly back in the escaped room. The granite mode flips; the open control is byte-identical.
+
+The eighty-seventh carry looks for poison and cut cures in the Alchemy shop (consumer #336, adopting source23): a poisoned or bleeding borg flowed to store index 3 — the Bookseller in 4.2, not the Temple — and bought nothing; cures are in the Alchemy shop, index 4. The poisoned and bleeding modes flip; the healthy control is byte-identical.

@@ -1605,6 +1605,42 @@
    "verification": "docs/measurement/HURTSTUN-62.md",
    "credit": "Diego Amicabile (native proposal/evidence); owner decision 2026-11-08 (cleanup, delete the dead block, no behaviour change)",
    "verification_status": "cleanup carry: the kit asserts all four blow-mode controls byte-identical before/after (no behaviour change); native gate at before and tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "DIMDOOR-21",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/335",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/21",
+   "source_head": "4b7a9f414bec7b23aa3453dfb7e54ba2e85c871b",
+   "source_commits": [
+    "4b7a9f414bec7b23aa3453dfb7e54ba2e85c871b"
+   ],
+   "applied_commits": [
+    "bd6c7ebbeda158ab17c2cf50aedfc0fed1832c3e"
+   ],
+   "patch": "patches/0086-dimension-door-known-grid.patch",
+   "patch_active": true,
+   "evidence_ref": "f8b7d662b62a97219095914150d6d577851cb3ac",
+   "verification": "docs/measurement/DIMDOOR-21.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge"
+  },
+  {
+   "id": "URGENTSHOP-23",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/336",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/23",
+   "source_head": "09c28cd59c948fa03fb49349d30e7236b6d067ed",
+   "source_commits": [
+    "09c28cd59c948fa03fb49349d30e7236b6d067ed"
+   ],
+   "applied_commits": [
+    "b0d8940b5522caa86ef3039185178d4a56360ad3"
+   ],
+   "patch": "patches/0087-alchemy-poison-cut-cures.patch",
+   "patch_active": true,
+   "evidence_ref": "e0ecd1ef777447ab02e84255be6717fea303921f",
+   "verification": "docs/measurement/URGENTSHOP-23.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture (two-file provenance); native gate at each stacked step; carried/open+patch-active after merge"
   }
  ]
 }

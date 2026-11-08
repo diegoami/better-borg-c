@@ -1,0 +1,55 @@
+From bd6c7ebbeda158ab17c2cf50aedfc0fed1832c3e Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 23:15:38 +0000
+Subject: [PATCH] borg: aim Dimension Door only at a known empty floor grid
+
+borg_dimension_door() scores every in-bounds grid in a 100x100 box
+around the borg and aims at the one with the lowest danger, without
+checking that the player could land there.  The scan starts in the
+far north-west corner, so on a normal level the winner is usually a
+granite grid the borg has never seen.  The game does not move the
+player onto rock: TELEPORT_TO searches outward from the target for
+the nearest legal grid, which can be back in the room the borg was
+escaping from.
+
+Skip grids the borg does not know to be floor, lava, and grids with a
+known monster, so the chosen grid is one the game will accept and the
+danger the borg scored is the danger where it lands.
+
+Tracked as diegoami/neo-angband-tracker#21.
+
+(cherry picked from commit 4b7a9f414bec7b23aa3453dfb7e54ba2e85c871b)
+---
+ src/borg/borg-escape.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+diff --git a/src/borg/borg-escape.c b/src/borg/borg-escape.c
+index 51efcc302..0c3a5fa5f 100644
+--- a/src/borg/borg-escape.c
++++ b/src/borg/borg-escape.c
+@@ -575,6 +575,7 @@ bool borg_dimension_door(int allow_fail)
+     struct loc best;
+     int        d, best_d = 0;
+     struct loc target;
++    borg_grid *ag;
+ 
+     /* for now keep the range at under 50, for performance */
+     int range = 50;
+@@ -601,6 +602,14 @@ bool borg_dimension_door(int allow_fail)
+             if (!square_in_bounds_fully(cave, target))
+                 continue;
+ 
++            /* Only aim at a known floor grid without a monster, as the
++             * game moves the player elsewhere when the target is not a
++             * legal landing grid */
++            ag = &borg_grids[t_y][t_x];
++            if (ag->feat == FEAT_NONE || ag->feat == FEAT_LAVA
++                || !borg_cave_floor_grid(ag) || ag->kill)
++                continue;
++
+             d = borg_danger(t_y, t_x, 2, true, false);
+             if (d < best_d) {
+                 best_d = d;
+-- 
+2.53.0
+
