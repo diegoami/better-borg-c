@@ -12,8 +12,8 @@ Every carry is merged, labeled carried/open+patch-active, and measured.
 
 | Patch | Source (issue, PR head @ pristine base `e473720ed`) | Applied | Merged | Consumer | Evidence pin | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
-| 0043 excavate | [236](https://github.com/diegoami/neo-angband-tracker/issues/236) `8e0f8448e` | `bdd3c2ea2` | `5053915f5` | #188 | `793f723eb` | `EXCAVATE-DARK.md` |
-| 0044 calllight | [231](https://github.com/diegoami/neo-angband-tracker/issues/231) `cda4fb662` | `6b4349733` | `85b6ba8e3` | #196 | `85de924fa` | `CALL-LIGHT-GRID.md` |
+| 0043 excavate | [236](https://github.com/diegoami/neo-angband-tracker/issues/236) `8e0f8448e` | `bdd3c2ea2` | `5053915f5` | #188 | `793f723eb` | `EXCAVATE-DARK-FLAG.md` |
+| 0044 calllight | [231](https://github.com/diegoami/neo-angband-tracker/issues/231) `cda4fb662` | `6b4349733` | `85b6ba8e3` | #196 | `85de924fa` | `CALL-LIGHT-OWN-GRID.md` |
 | 0045 gloves | [205](https://github.com/diegoami/neo-angband-tracker/issues/205) `c52527eed` | `175ef6feb` | `813feaec7` | #201 | `7ff787acc` | `GLOVES-ARMOUR-SWAP.md` |
 | 0046 detectcarry | [219](https://github.com/diegoami/neo-angband-tracker/issues/219) `3d104a8b8` | `7be651828` | `7a02072cd` | #205 | `55e000236` | `DETECTION-CARRYOVER.md` |
 | 0047 maimfoe | [256](https://github.com/diegoami/neo-angband-tracker/issues/256) `91822d82a` | `c61e90c9c` | `8a30a39d9` | #214 | `ea1443bd6` | `MAIMFOE-RETURN.md` |
@@ -34,18 +34,35 @@ grey-mold flow-cache correction) was carried and measured by the
 recording lane and is included here because it is part of the same
 runtime delta.
 
-## Common verification contract (unchanged across all eight)
+## Verification contract
 
 1. **Unchanged-fixture four-phase verification** on actual product
-   cores: normal-before / normal-after / asan-before / asan-after,
+   cores — normal-before / normal-after / asan-before / asan-after,
    fail-before/pass-after on the correction's observable, byte-identical
    controls, sanitized phases asserting (not suppressing) the pre-
    existing init-time `borg_sort_comp_hook` overflow (source finding
    [#399](https://github.com/diegoami/neo-angband-tracker/issues/399),
    separately owned) via `-fsanitize-recover=address` +
-   `halt_on_error=0`.
-2. **Layered provenance** for every touched module; imported diff body
-   byte-identical to the source diff.
+   `halt_on_error=0` — applies to **0043–0048 and 0050**. Per-carry
+   fixture shapes (failing case + byte-identical controls): 0043 1+1,
+   0044 1+1, 0045 1+2, 0046 1+1, 0047 1+2, 0048 1+2; 0050 runs one
+   scenario whose requirements include the perm-wall control
+   (never flagged glowing). No control changed in any carry.
+2. **0049 (flowcache) uses its own contract**, documented in
+   `FLOW-DANGER-CACHE.md`: a 150-scenario product matrix
+   (5 variants × 30 cases) instead of the four-phase sanitizer
+   comparison — `before` 19/30 with the 11 expected contract failures,
+   `after` 30/30, two single-writer partial-fix negative controls
+   failing exactly the other writer's cases (26/30 and 23/30), the
+   `alt-wipe` alternative 30/30, and all `rng_touched` counters 0.
+   It has **no ASan phase and therefore makes no #399 assertion**; its
+   module was pristine before the carry, so its provenance proof is
+   the simpler before-equals-base / after-equals-correction check.
+3. **Layered provenance** for every touched module — the whole-file
+   proof "before module + source diff == product module" (for
+   `borg-update.c` the before module itself carries 0018/0039 plus,
+   after mid-milestone, 0046); imported diff body byte-identical to
+   the source diff.
 3. **Native gate at the fix commit: 965/965 unit + 5/5 frontend**, read
    from logs; identical numerics on each PR's hosted run and each
    merged-main run. Tooling grew 71 → 97 across the milestone via
@@ -120,6 +137,9 @@ series.json conflict-resolution incident (pushed invalid JSON before
 validation, rebuilt programmatically in `6e1938f89`; full chain in
 `artifacts/rd310-carry/RECOVERY.txt`). The detectcarry branch-base
 correction (stale 44-carry base, reset before any fixture ran) is
-disclosed on #205 with the stale artifacts retained. No assertion was
+disclosed on #205 with the stale artifacts retained. 0049's own
+retained attempts (the first setup failure and the rejected
+wrong-expected-head argument) are disclosed in
+`FLOW-DANGER-CACHE.md` and on #212. No assertion was
 weakened for green anywhere in this milestone; the `#399` overflow is
 asserted as expected in every sanitized phase.
