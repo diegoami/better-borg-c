@@ -1,0 +1,29 @@
+{
+  "schema": "flowcache-consumer-validation@1",
+  "before": "e9eb2915130dac6a83b31df1f24a0cd8c2c47cef",
+  "after_runtime": "257e7b473e56d6e9cf69c8dcdbc13e9039a42b5b",
+  "fixture": "89326f5216148ab47a18585236678c391bb4e559",
+  "v1": {
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "turn_cap": 20000,
+    "wall_seconds": 120,
+    "stall_seconds": 30,
+    "birth": "fixed Human Warrior, native point buy",
+    "repetitions_per_variant": 1,
+    "scope": "existing frozen regression cohort; not powered survival evaluation"
+  },
+  "d0008": {
+    "seed": 1668846659,
+    "turn_cap": 200000,
+    "wall_seconds": 600,
+    "stall_seconds": 30,
+    "birth": "original seeded random Human Priest",
+    "configuration_origin": "original D0008 initial-user/borg.txt",
+    "scope": "separate diagnostic of a previously observed life; not independent prospective evidence"
+  },
+  "stop_rule": "all declared bounded comparisons; keep all outcomes and failures; no seed/cap enlargement"
+}

@@ -250,3 +250,11 @@ as its comment says (consumer #216, adopting source310). The maxdepth-99
 branch said "Do reset Depth" and then answered 'n'; it now answers 'y'
 like the generic branch; the generic and mismatch controls stay
 byte-identical.
+
+The forty-ninth carry records a flow grid as danger-checked only when the danger
+check applies (consumer #212, source #404). Desperate, lunal, munchkin and digging
+flows retain their movement permissions without caching unchecked grids as safe
+for later normal routing. Both writers are corrected; thresholds and escape
+intent are unchanged. Product native before/after and partial-fix controls are
+verified; impact measurements remain separate. `FLOWCACHE-404` identifies the
+native report, not an invented CBUG catalogue number.

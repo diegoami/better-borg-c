@@ -1,0 +1,90 @@
+From 257e7b473e56d6e9cf69c8dcdbc13e9039a42b5b Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 01:32:15 +0100
+Subject: [PATCH] Borg: remember a flow grid as checked only when its danger
+ was checked
+
+borg_flow_spread() marks a grid as known before its danger gate, and
+borg_flow_enqueue_grid() does the same, but the gate is skipped while
+the Borg is retreating (desperate), in lunal or munchkin mode, or
+digging.  A grid flowed through in one of those modes was left known and
+not icky although its danger had never been assessed, and the next flow
+in the normal mode accepted it from that cache without assessing it
+either.  The cache is only emptied when something sets
+borg_danger_wipe, so a stationary monster that is merely remembered
+never triggered a new assessment.
+
+Mark a grid as known only when the danger gate applies.  Grids flowed
+through while the gate is skipped stay unknown, and the next normal flow
+assesses them as it would with an empty cache.  In
+borg_flow_enqueue_grid() the danger evaluation whose verdict was always
+discarded in those modes is no longer made; borg_danger() has no side
+effects, so flows in those modes behave exactly as before.
+
+(cherry picked from commit b71b32c152e272886cb46bb8f253e8c4f5130711)
+---
+ src/borg/borg-flow.c | 26 +++++++++++++++++++-------
+ 1 file changed, 19 insertions(+), 7 deletions(-)
+
+diff --git a/src/borg/borg-flow.c b/src/borg/borg-flow.c
+index 948675159..56ee66f5d 100644
+--- a/src/borg/borg-flow.c
++++ b/src/borg/borg-flow.c
+@@ -160,6 +160,20 @@ bool borg_can_dig(bool check_fail, uint8_t feat)
+     return false;
+ }
+ 
++/*
++ * Do the flows of the current mode skip the danger check?
++ *
++ * Retreating, lunal and munchkin flows, and digging flows, deliberately go
++ * through grids whatever their danger.  A grid they pass has therefore not
++ * been checked, and must not be remembered as checked: a later flow in the
++ * normal mode would otherwise accept it without ever assessing its danger.
++ */
++static bool borg_flow_ignores_danger(void)
++{
++    return borg.status.desperate || borg.lunal_mode || borg.munchkin_mode
++        || borg.status.digging;
++}
++
+ /*
+  * Clear the "flow" information
+  */
+@@ -434,11 +448,10 @@ void borg_flow_spread(int depth, bool optimize, bool avoid, bool tunneling,
+             if (!borg_data_know->data[y][x]) {
+                 int p;
+ 
+-                /* Mark as known */
+-                borg_data_know->data[y][x] = true;
++                if (!borg_flow_ignores_danger()) {
++                    /* Mark as known */
++                    borg_data_know->data[y][x] = true;
+ 
+-                if (!borg.status.desperate && !borg.lunal_mode && !borg.munchkin_mode
+-                    && !borg.status.digging) {
+                     /* Get the danger */
+                     p = borg_danger(y, x, 1, true, false);
+ 
+@@ -514,7 +527,7 @@ void borg_flow_enqueue_grid(int y, int x)
+         return;
+ 
+     /* Unknown */
+-    if (!borg_data_know->data[y][x]) {
++    if (!borg_data_know->data[y][x] && !borg_flow_ignores_danger()) {
+         /* Mark as known */
+         borg_data_know->data[y][x] = true;
+ 
+@@ -546,8 +559,7 @@ void borg_flow_enqueue_grid(int y, int x)
+             fear = borg.avoidance * 3 / 10;
+ 
+         /* Dangerous grid */
+-        if ((p > fear) && !borg.status.desperate && !borg.lunal_mode
+-            && !borg.munchkin_mode && !borg.status.digging) {
++        if (p > fear) {
+             /* Icky */
+             borg_data_icky->data[y][x] = true;
+ 
+-- 
+2.53.0
+

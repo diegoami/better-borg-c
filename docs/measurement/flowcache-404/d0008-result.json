@@ -1,0 +1,31 @@
+{
+  "after_build": "86661b3deaea0fb9344d72a19c39117aba7512d7",
+  "control_build": "e9eb2915130dac6a83b31df1f24a0cd8c2c47cef",
+  "control_verified": true,
+  "final": {
+    "borg_rng": 905343573,
+    "dead": 0,
+    "decisions": 7158,
+    "depth": 2,
+    "energy": 2028320,
+    "hp": 56,
+    "kind": "turn_cap",
+    "level": 5,
+    "max_depth": 2,
+    "max_level": 5,
+    "quick": 0,
+    "quick_rng": 2385513754,
+    "rng": "1346954bb3048a4ffdbd67f82525595bba325ad14b767ae053b39af860d382588f3223fdf611d78565ec0d28978c85e345bf6039dd87cb6abb438d6a11fe623eee4938c80fec39b9a6a02f82272f86dc62d6b89a61c6952c83fb26e66875c20d9d82bb6b5b8c17ae96367f6436621effc37b799b7d65d0f38f09d16e35c53ab4",
+    "rng_index": 29,
+    "turn": 200000,
+    "winner": 0
+  },
+  "first_action_difference": {
+    "corrected": "10837 454 1 57344 0",
+    "original": "10837 454 1 54 0",
+    "row": 746
+  },
+  "outcome": "turn_cap",
+  "scope": "previously observed D0008 life, changed RNG trajectory after correction, not independent prospective survival evidence",
+  "wall_seconds": 64.77751838399854
+}

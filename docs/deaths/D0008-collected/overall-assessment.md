@@ -138,3 +138,15 @@ shared mechanism, rather than merely a generic poor-combat-policy complaint.
 The original build/evidence stays frozen. Source404/156 and consumer212/shared159
 remain unresolved: no correction, successful rescue or mortality benefit is
 claimed. Review completion does not close those technical investigations.
+
+## Later consumer correction (original review/evidence unchanged)
+
+Source404 correction b71b32c152 is now verified for consumer212 on the current
+48-carry core, with unchanged fixture after30/30, partial-fix controls and154prior
+regression expectations. [Consumer verification](../../measurement/FLOW-DANGER-CACHE.md)
+records an exact original replay with the current unmodified engine and a
+separate corrected diagnostic: first difference10837, alive200000/CL5/HP56,
+existing bravery/Phase fallback rather than stairs. This qualifies a narrow
+cache correction; source152/156, escape intent and population benefit remain
+separate. The original C46 build, maps, input, recording and owner review retain
+their historical identity. Integration status is live on212.

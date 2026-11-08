@@ -190,8 +190,8 @@
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/212",
       "key": "emergency-flow-cache",
-      "status": "investigating; historical C mechanism qualified, isolated fix and benefit untested",
-      "summary": "Minimal native exception\u2192normal cache fixture, safe/dangerous/blocked/emergency controls, narrow source correction then separate consumer carry"
+      "status": "consumer carry verified; integration pending; population benefit unmeasured",
+      "summary": "Narrow source404 correction verified on actual product with before/after and negative controls; track upstream acceptance and separate population evaluation"
     },
     {
       "cases": [
