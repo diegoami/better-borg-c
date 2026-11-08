@@ -1,0 +1,2228 @@
+BORG 119407 # HIT:the wolf (+)
+BORG 119407 # HIT:the wolf (+)
+BORG 119407 # HIT:the wolf (+)
+BORG 119407 # PAIN:The wolf (+)
+BORG 119407 # Tracking a monster 'wolf' at (1,32) from (2,31)
+BORG 119407 # HIT:the wolf (2)
+BORG 119407 # HIT:the wolf (2)
+BORG 119407 # HIT:the wolf (2)
+BORG 119407 # PAIN:The wolf (2)
+BORG 119407 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 119407 # Flowing toward dark-3 at cost 2
+BORG 119417 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 119427 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 119427 # heading up, not prep for current level: restock tele + tele staff < 2)
+BORG 119427 # Climbing (too deep: restock tele + tele staff < 2)
+BORG 119427 # Looking for up stairs.  Going up.
+BORG 119427 # Bored but unable to flow to up stairs.
+BORG 119427 # no up stairs found, going down
+BORG 119427 # Flowing toward spastic at cost 0
+BORG 119427 # heading up, not prep for current level: restock tele + tele staff < 2)
+BORG 119427 # heading up (bored and unable to dive: restock tele + tele staff < 2)
+BORG 119427 # Climbing (too deep: restock tele + tele staff < 2)
+BORG 119427 # Looking for up stairs.  Going up.
+BORG 119427 # Bored but unable to flow to up stairs.
+BORG 119427 # no up stairs found, going down
+BORG 119427 # Spastic Searching at (29,3)...value:0
+BORG 119427 # Boosting bravery (1) from 36 to 72!
+BORG 119427 # Fleeing and leaving the level. Brave Thinking.
+BORG 119427 # Flowing toward dark-4 at cost 9
+BORG 119437 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 119447 # Tracking a monster 'wolf' at (1,33) from (1,32)
+BORG 119447 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 119457 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 119467 # Creating a monster 'warrior' at (3,35), HP: 51, Index: 175
+BORG 119467 # Creating a monster 'wolf' at (3,34), HP: 17, Index: 153
+BORG 119467 # Creating a monster 'wolf' at (3,33), HP: 1, Index: 153
+BORG 119467 # Possibility of being surrounded (monsters/safegrids)(3/2)
+BORG 119467 # Loc:3,32 Dep:18 Lev:10 HP:38/102 SP:0/0 Danger:p=64
+BORG 119467 # Safe to Phase. scary squares: 34
+BORG 119467 # Reading Scroll of Phase Door.
+BORG 119467 # Danger Level 1.
+BORG 119477 # There was a monster 'wolf' at (8,41)
+BORG 119477 # Forgetting a monster 'wolf' at (8,41)
+BORG 119477 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 119477 # Flowing toward dark-3 at cost 3
+BORG 119487 # There was a monster 'griffon' at (7,42)
+BORG 119487 # Forgetting a monster 'griffon' at (7,42)
+BORG 119487 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 119497 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 119507 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 119507 # heading up, not prep for current level: restock phase door)
+BORG 119507 # Climbing (too deep: restock phase door)
+BORG 119507 # Looking for up stairs.  Going up.
+BORG 119507 # Bored but unable to flow to up stairs.
+BORG 119507 # no up stairs found, going down
+BORG 119507 # Flowing toward dark-4 at cost 6
+BORG 119517 # HIT_BY:The wolf (+)
+BORG 119517 # Creating a monster 'metallic blue centipede' at (11,36), HP: 10, Index: 56
+BORG 119517 # Creating a monster 'wolf' at (10,39), HP: 5, Index: 153
+BORG 119517 # HIT_BY:The wolf (3)
+BORG 119517 # Loc:11,40 Dep:18 Lev:10 HP:38/102 SP:0/0 Danger:p=16
+BORG 119517 # Performing attack type 1 with value 42.
+BORG 119517 # Facing wolf at (10,39) who has 5 Hit Points.
+BORG 119517 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 119520 # HIT:the wolf (+)
+BORG 119520 # KILL:the wolf (+)
+BORG 119520 # Forgetting a monster 'wolf' at (10,39)
+BORG 119520 # Tracking a monster 'metallic blue centipede' at (11,37) from (11,36)
+BORG 119520 # HIT:the wolf (2)
+BORG 119520 # KILL:the wolf (2)
+BORG 119520 # Flowing toward kill at cost 3
+BORG 119530 # Tracking a monster 'metallic blue centipede' at (11,38) from (11,37)
+BORG 119530 # Creating a monster 'wolf' at (9,40), HP: 25, Index: 153
+BORG 119530 # Loc:11,39 Dep:18 Lev:10 HP:38/102 SP:0/0 Danger:p=6
+BORG 119530 # Performing attack type 1 with value 26.
+BORG 119530 # Facing metallic blue centipede at (11,38) who has 10 Hit Points.
+BORG 119530 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 119537 # HIT:the metallic blue centipede (+)
+BORG 119537 # HIT:the metallic blue centipede (+)
+BORG 119537 # KILL:the metallic blue centipede (+)
+BORG 119537 # HIT_BY:The wolf (+)
+BORG 119537 # Forgetting a monster 'metallic blue centipede' at (11,38)
+BORG 119537 # Tracking a monster 'wolf' at (10,39) from (9,40)
+BORG 119537 # Creating a monster 'wolf' at (9,40), HP: 21, Index: 153
+BORG 119537 # HIT:the metallic blue centipede (2)
+BORG 119537 # HIT:the metallic blue centipede (2)
+BORG 119537 # KILL:the metallic blue centipede (2)
+BORG 119537 # HIT_BY:The wolf (3)
+BORG 119537 # Loc:11,39 Dep:18 Lev:10 HP:37/102 SP:0/0 Danger:p=20
+BORG 119537 # Performing attack type 1 with value 46.
+BORG 119537 # Facing wolf at (10,39) who has 25 Hit Points.
+BORG 119537 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 119547 # HIT:the wolf (+)
+BORG 119547 # HIT:the wolf (+)
+BORG 119547 # MISS:the wolf (+)
+BORG 119547 # MISS_BY:The wolf (+)
+BORG 119547 # Tracking a monster 'wolf' at (11,38) from (10,39)
+BORG 119547 # Tracking a monster 'wolf' at (9,39) from (9,40)
+BORG 119547 # HIT:the wolf (2)
+BORG 119547 # HIT:the wolf (2)
+BORG 119547 # MISS:the wolf (2)
+BORG 119547 # MISS_BY:The wolf (3)
+BORG 119547 # Loc:11,39 Dep:18 Lev:10 HP:38/102 SP:0/0 Danger:p=35
+BORG 119547 # Fleeing (failed to teleport)
+BORG 119547 # Performing attack type 1 with value 46.
+BORG 119547 # Facing wolf at (11,38) who has 14 Hit Points.
+BORG 119547 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 119557 # HIT:the wolf (+)
+BORG 119557 # HIT:the wolf (+)
+BORG 119557 # HIT:the wolf (+)
+BORG 119557 # PAIN:The wolf (+)
+BORG 119557 # HIT_BY:The wolf (+)
+BORG 119557 # Tracking a monster 'wolf' at (10,39) from (9,39)
+BORG 119557 # HIT:the wolf (2)
+BORG 119557 # HIT:the wolf (2)
+BORG 119557 # HIT:the wolf (2)
+BORG 119557 # PAIN:The wolf (2)
+BORG 119557 # HIT_BY:The wolf (3)
+BORG 119557 # Possibility of being surrounded (monsters/safegrids)(2/1)
+BORG 119557 # Loc:11,39 Dep:18 Lev:10 HP:35/102 SP:0/0 Danger:p=55
+BORG 119557 # Retreating to 11,40 (distance 1) via 11,40 (55 > 37)
+BORG 119567 # MISS_BY:The wolf (+)
+BORG 119567 # HIT_BY:The wolf (+)
+BORG 119567 # Tracking a monster 'wolf' at (11,37) from (11,38)
+BORG 119567 # MISS_BY:The wolf (3)
+BORG 119567 # HIT_BY:The wolf (3)
+BORG 119567 # Loc:11,40 Dep:18 Lev:10 HP:31/102 SP:0/0 Danger:p=34
+BORG 119567 # Performing attack type 1 with value 62.
+BORG 119567 # Facing wolf at (10,39) who has 21 Hit Points.
+BORG 119567 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 119577 # MISS:the wolf (+)
+BORG 119577 # HIT:the wolf (+)
+BORG 119577 # HIT:the wolf (+)
+BORG 119577 # HIT_BY:The wolf (+)
+BORG 119577 # HIT_BY:The wolf (+)
+BORG 119577 # MISS:the wolf (2)
+BORG 119577 # HIT:the wolf (2)
+BORG 119577 # HIT:the wolf (2)
+BORG 119577 # HIT_BY:The wolf (3)
+BORG 119577 # HIT_BY:The wolf (3)
+BORG 119577 # Loc:11,40 Dep:18 Lev:10 HP:24/102 SP:0/0 Danger:p=34
+BORG 119577 # Performing attack type 1 with value 62.
+BORG 119577 # Facing wolf at (10,39) who has 8 Hit Points.
+BORG 119577 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 119587 # MISS:the wolf (+)
+BORG 119587 # HIT:the wolf (+)
+BORG 119587 # HIT:the wolf (+)
+BORG 119587 # KILL:the wolf (+)
+BORG 119587 # Forgetting a monster 'wolf' at (10,39)
+BORG 119587 # Creating a monster 'griffon' at (10,39), HP: 104, Index: 201
+BORG 119587 # MISS:the wolf (2)
+BORG 119587 # HIT:the wolf (2)
+BORG 119587 # HIT:the wolf (2)
+BORG 119587 # KILL:the wolf (2)
+BORG 119587 # There was a monster 'wolf' at (11,37)
+BORG 119587 # Forgetting a monster 'wolf' at (11,37)
+BORG 119587 # Loc:11,40 Dep:18 Lev:11 HP:24/111 SP:0/0 Danger:p=25
+BORG 119587 # Performing attack type 1 with value 38.
+BORG 119587 # Facing griffon at (10,39) who has 104 Hit Points.
+BORG 119587 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+BORG 119596 # HIT:the griffon (+)
+BORG 119596 # HIT:the griffon (+)
+BORG 119596 # HIT:the griffon (+)
+BORG 119596 # HIT_BY:The griffon (+)
+BORG 119596 # HIT_BY:The griffon (+)
+BORG 119596 # HIT:the griffon (2)
+BORG 119596 # HIT:the griffon (2)
+BORG 119596 # HIT:the griffon (2)
+BORG 119596 # HIT_BY:The griffon (3)
+BORG 119596 # HIT_BY:The griffon (3)
+BORG 119596 # Loc:11,40 Dep:18 Lev:11 HP:11/111 SP:0/0 Danger:p=25
+BORG 119596 # Performing attack type 1 with value 38.
+BORG 119596 # Facing griffon at (10,39) who has 89 Hit Points.
+BORG 119596 # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+
+[Terminal native state/cause]
+STATE death turn=119600 energy=1228120 decisions=11612 depth=18 max_depth=18 level=11 max_level=11 hp=-2 dead=1 winner=0 borg_rng=314233571 quick=0 quick_rng=3333495293 rng_index=6 rng=61adafbd0df20b90ebf09345798407540accc80863acd07efc02b9a4e21e006ba9d315822818cc32549b97b072368ce4df1821fff51832c693e18327318df7959a00f4d72015478e16f502e308fbd5652208014500aed92793d1f1c326d0cf937edf1565fad5af73b99f5a288e6ec3393ef0f8d7b6a92205001ea0a528aef59d
+CAUSE a griffon
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE You failed to zap the rod properly.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating a monster 'red worm mass' at (12,156), HP: 27, Index: 90
+MESSAGE # Removing Regional Fear (12,156) because of a LOS red worm mass
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Loc:12,155 Dep:5 Lev:9 HP:99/99 SP:0/0 Danger:p=10
+MESSAGE # Performing attack type 1 with value 37.
+MESSAGE # Facing red worm mass at (12,156) who has 27 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the red worm mass.
+MESSAGE # HIT:the red worm mass (+)
+MESSAGE # HIT:the red worm mass (2)
+MESSAGE # Loc:12,155 Dep:5 Lev:9 HP:99/99 SP:0/0 Danger:p=10
+MESSAGE # Performing attack type 58 with value 42.
+MESSAGE # Targeting red worm mass who has 7 Hit Points (12,156).
+MESSAGE # Zapping Rod of Light.
+MESSAGE Target Selected.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE Welcome to level 10.
+MESSAGE The red worm mass shrivels away in the light!
+MESSAGE # DIED:The red worm mass (+)
+MESSAGE # Forgetting a monster 'red worm mass' at (12,156)
+MESSAGE # DIED:The red worm mass (2)
+MESSAGE # Dropping junk Set of Leather Gloves [1,+0] (valued at 30)
+MESSAGE Inscribing a Set of Leather Gloves [1,+0].
+MESSAGE You drop a Set of Leather Gloves [1,+0] {borg ignore} (v).
+MESSAGE You have no more Sets of Leather Gloves [1,+0] {borg ignore} (v).
+MESSAGE # Creating an object '& Set~ of Leather Gloves' at (155,12)
+MESSAGE # Destroying floor item Glove~& Set~ of Leather Gloves
+MESSAGE # Dropping junk Pair of Leather Boots [2,+0] (valued at 30)
+MESSAGE Inscribing a Pair of Leather Boots [2,+0].
+MESSAGE You drop a Pair of Leather Boots [2,+0] {borg ignore} (w).
+MESSAGE You have no more Pairs of Leather Boots [2,+0] {borg ignore} (w).
+MESSAGE # Creating an object '& Pair~ of Leather Boots' at (155,12)
+MESSAGE # Destroying floor item Boot~& Pair~ of Leather Boots
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward down-stairs at cost 28
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems murderous.
+MESSAGE # FEELING_DANGER:2 (+)
+MESSAGE # FEELING_DANGER:2 (1)
+MESSAGE # Close enough to Stair.
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 14
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE The fruit bat misses you.
+MESSAGE # MISS_BY:The fruit bat (+)
+MESSAGE # Creating a monster 'fruit bat' at (27,147), HP: 4, Index: 31
+MESSAGE # Removing Regional Fear (27,147) because of a LOS fruit bat
+MESSAGE # MISS_BY:The fruit bat (4)
+MESSAGE # Loc:27,148 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=1
+MESSAGE # Performing attack type 1 with value 10.
+MESSAGE # Facing fruit bat at (27,147) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the fruit bat.
+MESSAGE You have slain the fruit bat.
+MESSAGE # HIT:the fruit bat (+)
+MESSAGE # KILL:the fruit bat (+)
+MESSAGE # Forgetting a monster 'fruit bat' at (27,147)
+MESSAGE # HIT:the fruit bat (2)
+MESSAGE # KILL:the fruit bat (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Creating a monster 'black naga' at (27,125), HP: 24, Index: 58
+MESSAGE # Removing Regional Fear (27,125) because of a LOS black naga
+MESSAGE # Flowing toward kill at cost 4
+MESSAGE # Loc:27,126 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=23
+MESSAGE # Performing attack type 1 with value 40.
+MESSAGE # Facing black naga at (27,125) who has 24 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You miss the black naga.
+MESSAGE # MISS:the black naga (+)
+MESSAGE # MISS:the black naga (2)
+MESSAGE # Loc:27,126 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=8
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing black naga at (27,125) who has 24 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the black naga.
+MESSAGE # HIT:the black naga (+)
+MESSAGE # Tracking a monster 'black naga' at (27,124) from (27,125)
+MESSAGE # HIT:the black naga (2)
+MESSAGE # Performing attack type 0 with value 1.
+MESSAGE # Waiting for monster 'black naga' to approach.
+MESSAGE # Tracking a monster 'black naga' at (27,125) from (27,124)
+MESSAGE # Loc:27,126 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=8
+MESSAGE # Performing attack type 1 with value 20.
+MESSAGE # Facing black naga at (27,125) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the black naga.
+MESSAGE You have slain the black naga.
+MESSAGE # HIT:the black naga (+)
+MESSAGE # KILL:the black naga (+)
+MESSAGE # Forgetting a monster 'black naga' at (27,125)
+MESSAGE # HIT:the black naga (2)
+MESSAGE # KILL:the black naga (2)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE The giant white rat misses you.
+MESSAGE # MISS_BY:The giant white rat (+)
+MESSAGE # Creating a monster 'giant white rat' at (23,106), HP: 3, Index: 76
+MESSAGE # Removing Regional Fear (23,106) because of a LOS giant white rat
+MESSAGE # MISS_BY:The giant white rat (4)
+MESSAGE # Loc:24,106 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=34
+MESSAGE # Performing attack type 1 with value 41.
+MESSAGE # Facing giant white rat at (23,106) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the giant white rat. It was a superb hit!
+MESSAGE You have slain the giant white rat.
+MESSAGE # HIT:the giant white rat (+)
+MESSAGE # KILL:the giant white rat (+)
+MESSAGE # Forgetting a monster 'giant white rat' at (23,106)
+MESSAGE # HIT:the giant white rat (2)
+MESSAGE # KILL:the giant white rat (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE You feel that there are only scraps of junk here.
+MESSAGE # FEELING_STUFF:9 (+)
+MESSAGE # FEELING_STUFF:9 (1)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object 'Cure Light Wounds' at (113,12)
+MESSAGE # Creating a monster 'soldier ant' at (12,106), HP: 5, Index: 30
+MESSAGE # Removing Regional Fear (12,106) because of a LOS soldier ant
+MESSAGE # Creating a monster 'tamer' at (11,114), HP: 20, Index: 73
+MESSAGE # Removing Regional Fear (11,114) because of a LOS tamer
+MESSAGE # Loc:12,111 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=34
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 102 to 204!
+MESSAGE # Flowing toward kill at cost 3
+MESSAGE # Loc:12,112 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=35
+MESSAGE # Walking onto and deleting a 'Cure Light Wounds' at (12,113)
+MESSAGE You have 8 Potions of Cure Light Wounds (b).
+MESSAGE # Loc:12,113 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=36
+MESSAGE # Performing attack type 1 with value 52.
+MESSAGE # Facing tamer at (11,114) who has 20 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You miss the tamer.
+MESSAGE # MISS:the tamer (+)
+MESSAGE # MISS:the tamer (2)
+MESSAGE # Loc:12,113 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=17
+MESSAGE # Performing attack type 1 with value 35.
+MESSAGE # Facing tamer at (11,114) who has 20 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the tamer.
+MESSAGE The tamer flees in terror!
+MESSAGE The tamer tries to cast a spell, but fails.
+MESSAGE # HIT:the tamer (+)
+MESSAGE # PAIN:The tamer (+)
+MESSAGE # HIT:the tamer (2)
+MESSAGE # PAIN:The tamer (2)
+MESSAGE # Loc:12,113 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=17
+MESSAGE # Performing attack type 1 with value 21.
+MESSAGE # Facing tamer at (11,114) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You miss the tamer.
+MESSAGE # MISS:the tamer (+)
+MESSAGE # Tracking a monster 'tamer' at (11,113) from (11,114)
+MESSAGE # MISS:the tamer (2)
+MESSAGE # Loc:12,113 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=17
+MESSAGE # Performing attack type 1 with value 21.
+MESSAGE # Facing tamer at (11,113) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the tamer.
+MESSAGE You have slain the tamer.
+MESSAGE # HIT:the tamer (+)
+MESSAGE # KILL:the tamer (+)
+MESSAGE # Forgetting a monster 'tamer' at (11,113)
+MESSAGE # HIT:the tamer (2)
+MESSAGE # KILL:the tamer (2)
+MESSAGE # Flowing toward kill at cost 8
+MESSAGE # Loc:11,107 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=2
+MESSAGE # Performing attack type 1 with value 12.
+MESSAGE # Facing soldier ant at (12,106) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the soldier ant.
+MESSAGE You have slain the soldier ant.
+MESSAGE # HIT:the soldier ant (+)
+MESSAGE # KILL:the soldier ant (+)
+MESSAGE # Forgetting a monster 'soldier ant' at (12,106)
+MESSAGE # HIT:the soldier ant (2)
+MESSAGE # KILL:the soldier ant (2)
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward down-stairs at cost 70
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 29
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'metallic blue centipede' at (10,121), HP: 13, Index: 56
+MESSAGE # Removing Regional Fear (10,121) because of a LOS metallic blue centipede
+MESSAGE The metallic blue centipede wakes up.
+MESSAGE The metallic blue centipede misses you.
+MESSAGE # PAIN:The metallic blue centipede (+)
+MESSAGE # MISS_BY:The metallic blue centipede (+)
+MESSAGE # PAIN:The metallic blue centipede (2)
+MESSAGE # MISS_BY:The metallic blue centipede (3)
+MESSAGE # Loc:11,120 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=6
+MESSAGE # Performing attack type 1 with value 30.
+MESSAGE # Facing metallic blue centipede at (10,121) who has 13 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the metallic blue centipede.
+MESSAGE You have slain the metallic blue centipede.
+MESSAGE # HIT:the metallic blue centipede (+)
+MESSAGE # KILL:the metallic blue centipede (+)
+MESSAGE # Forgetting a monster 'metallic blue centipede' at (10,121)
+MESSAGE # HIT:the metallic blue centipede (2)
+MESSAGE # KILL:the metallic blue centipede (2)
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Creating a monster 'grey icky thing' at (13,118), HP: 17, Index: 88
+MESSAGE # Removing Regional Fear (13,118) because of a LOS grey icky thing
+MESSAGE # Loc:12,119 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=5
+MESSAGE # Performing attack type 1 with value 23.
+MESSAGE # Facing grey icky thing at (13,118) who has 17 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the grey icky thing.
+MESSAGE The grey icky thing flees in terror!
+MESSAGE # HIT:the grey icky thing (+)
+MESSAGE # PAIN:The grey icky thing (+)
+MESSAGE # Tracking a monster 'grey icky thing' at (14,119) from (13,118)
+MESSAGE # HIT:the grey icky thing (2)
+MESSAGE # PAIN:The grey icky thing (2)
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Tracking a monster 'grey icky thing' at (13,119) from (14,119)
+MESSAGE # Loc:13,118 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=5
+MESSAGE # Flowing toward kill at cost 1
+MESSAGE # Walking into a 'grey icky thing' at (13,119)
+MESSAGE You hit the grey icky thing.
+MESSAGE You have slain the grey icky thing.
+MESSAGE # HIT:the grey icky thing (+)
+MESSAGE # KILL:the grey icky thing (+)
+MESSAGE # Forgetting a monster 'grey icky thing' at (13,119)
+MESSAGE # HIT:the grey icky thing (2)
+MESSAGE # KILL:the grey icky thing (2)
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object 'Searching' at (110,12)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'Searching' at (12,110)
+MESSAGE You have 2 Rings of Searching <+2> (q).
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Opening a door
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward down-stairs at cost 15
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating a monster 'scout' at (50,156), HP: 27, Index: 71
+MESSAGE # Removing Regional Fear (50,156) because of a LOS scout
+MESSAGE # Loc:51,158 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=26
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # There was a monster 'scout' at (50,156)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward down-stairs at cost 24
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object '& War Hammer~' at (73,50)
+MESSAGE # Creating an object '& Bolt~' at (71,50)
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Creating a monster 'giant yellow centipede' at (53,72), HP: 8, Index: 19
+MESSAGE # Removing Regional Fear (53,72) because of a LOS giant yellow centipede
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '& War Hammer~' at (50,73)
+MESSAGE You have a War Hammer (3d3) (+0,+0) (y).
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '& Bolt~' at (50,71)
+MESSAGE The giant yellow centipede wakes up.
+MESSAGE You have 20 Bolts (1d5) (+2,+3) (0).
+MESSAGE # PAIN:The giant yellow centipede (+)
+MESSAGE # PAIN:The giant yellow centipede (2)
+MESSAGE # Dumping Bolts (1d5) (+2,+3).  Bad ammo in quiver.
+MESSAGE Inscribing 20 Bolts (1d5) (+2,+3).
+MESSAGE You re-arrange your quiver.
+MESSAGE You drop 20 Bolts (1d5) (+2,+3) {borg ignore} (0).
+MESSAGE You have no more Bolts (1d5) (+2,+3) {borg ignore} (0).
+MESSAGE # Tracking a monster 'giant yellow centipede' at (52,72) from (53,72)
+MESSAGE # Creating an object '& Bolt~' at (71,50)
+MESSAGE # Destroying floor item Bolt~& Bolt~
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Tracking a monster 'giant yellow centipede' at (51,71) from (52,72)
+MESSAGE # Loc:50,70 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=6
+MESSAGE # Performing attack type 1 with value 22.
+MESSAGE # Facing giant yellow centipede at (51,71) who has 8 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the giant yellow centipede.
+MESSAGE You have slain the giant yellow centipede.
+MESSAGE # HIT:the giant yellow centipede (+)
+MESSAGE # KILL:the giant yellow centipede (+)
+MESSAGE # Forgetting a monster 'giant yellow centipede' at (51,71)
+MESSAGE # HIT:the giant yellow centipede (2)
+MESSAGE # KILL:the giant yellow centipede (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'disenchanter eye' at (54,52), HP: 31, Index: 89
+MESSAGE # Removing Regional Fear (54,52) because of a LOS disenchanter eye
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 27
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE You failed to pick the lock.
+MESSAGE You have picked the lock.
+MESSAGE # Standing on dn-stairs
+MESSAGE You have found a secret door.
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE You have picked the lock.
+MESSAGE You have found a secret door.
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward down-stairs at cost 3
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE You hit something.
+MESSAGE You have killed it.
+MESSAGE # HIT:something (+)
+MESSAGE # KILL:it (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Creating an object '& Handful~ of Dried Fruits' at (103,19)
+MESSAGE # HIT:something (0)
+MESSAGE # KILL:it (0)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Handful~ of Dried Fruits' at (19,103)
+MESSAGE You have a Handful of Dried Fruits (a).
+MESSAGE # Dropping junk Handful of Dried Fruits (valued at 225)
+MESSAGE Inscribing a Handful of Dried Fruits.
+MESSAGE You drop a Handful of Dried Fruits {borg ignore} (a).
+MESSAGE You have no more Handfuls of Dried Fruits {borg ignore} (a).
+MESSAGE # Creating an object '& Handful~ of Dried Fruits' at (103,19)
+MESSAGE # Destroying floor item Food& Handful~ of Dried Fruits
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE You feel that there are only scraps of junk here.
+MESSAGE # FEELING_STUFF:9 (+)
+MESSAGE # Creating an object 'Blessing' at (95,24)
+MESSAGE # Creating an object 'Soft Leather Armour~' at (93,23)
+MESSAGE # Creating a monster 'green naga' at (21,96), HP: 51, Index: 82
+MESSAGE # FEELING_STUFF:9 (1)
+MESSAGE # Loc:21,102 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=6
+MESSAGE # Flowing toward item at cost 7
+MESSAGE # Loc:21,101 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=6
+MESSAGE # Loc:22,100 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:23,99 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:24,98 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:24,97 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:24,96 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Walking onto and deleting a 'Blessing' at (24,95)
+MESSAGE You have a Scroll of Blessing (m).
+MESSAGE # Loc:24,95 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Performing defense type 0 with value 1
+MESSAGE # Attempting to cast Bless
+MESSAGE # Reading Scroll of Blessing.
+MESSAGE You feel righteous!
+MESSAGE You have no more Scrolls of Blessing (m).
+MESSAGE # Loc:24,95 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Loc:24,94 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Walking onto and deleting a 'Soft Leather Armour~' at (23,93)
+MESSAGE You have Soft Leather Armour [8,+0] (u).
+MESSAGE # Loc:23,93 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Loc:22,93 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:21,92 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:21,91 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=6
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE The prayer has expired.
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Loc:25,95 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:25,96 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:25,97 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:24,98 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:23,99 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:22,99 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:21,99 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:20,100 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=15
+MESSAGE # Loc:19,101 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=6
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Creating a monster 'grey mushroom patch' at (16,60), HP: 2, Index: 18
+MESSAGE # Removing Regional Fear (16,60) because of a LOS grey mushroom patch
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward down-stairs at cost 32
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward down-stairs at cost 21
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating an object 'silver' at (36,55)
+MESSAGE # Creating an object 'copper' at (36,53)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'silver' at (55,36)
+MESSAGE The 155 gold pieces worth of silver was really a monster!
+MESSAGE The creeping silver coins hits you.
+MESSAGE The creeping silver coins misses you.
+MESSAGE # HIT_BY:The creeping silver coins (+)
+MESSAGE # MISS_BY:The creeping silver coins (+)
+MESSAGE # Creating a monster 'creeping silver coins' at (55,36), HP: 55, Index: 98
+MESSAGE # Removing Regional Fear (55,36) because of a LOS creeping silver coins
+MESSAGE # HIT_BY:The creeping silver coins (4)
+MESSAGE # MISS_BY:The creeping silver coins (4)
+MESSAGE # Loc:54,35 Dep:6 Lev:10 HP:99/102 SP:0/0 Danger:p=29
+MESSAGE # Performing attack type 1 with value 46.
+MESSAGE # Facing creeping silver coins at (55,36) who has 55 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the creeping silver coins.
+MESSAGE # HIT:the creeping silver coins (+)
+MESSAGE # HIT:the creeping silver coins (2)
+MESSAGE # Loc:54,35 Dep:6 Lev:10 HP:99/102 SP:0/0 Danger:p=29
+MESSAGE # Performing attack type 1 with value 46.
+MESSAGE # Facing creeping silver coins at (55,36) who has 37 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the creeping silver coins.
+MESSAGE # HIT:the creeping silver coins (+)
+MESSAGE # HIT:the creeping silver coins (2)
+MESSAGE # Loc:54,35 Dep:6 Lev:10 HP:99/102 SP:0/0 Danger:p=29
+MESSAGE # Performing attack type 1 with value 46.
+MESSAGE # Facing creeping silver coins at (55,36) who has 17 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the creeping silver coins. It was a good hit!
+MESSAGE You have slain the creeping silver coins.
+MESSAGE # HIT:the creeping silver coins (+)
+MESSAGE # KILL:the creeping silver coins (+)
+MESSAGE # Forgetting a monster 'creeping silver coins' at (55,36)
+MESSAGE # Creating an object 'silver' at (36,55)
+MESSAGE # HIT:the creeping silver coins (2)
+MESSAGE # KILL:the creeping silver coins (2)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'silver' at (55,36)
+MESSAGE You have found 155 gold pieces worth of silver.
+MESSAGE # Creating a monster 'soldier' at (46,36), HP: 27, Index: 36
+MESSAGE # Removing Regional Fear (46,36) because of a LOS soldier
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a 'copper' at (53,36)
+MESSAGE You have found 90 gold pieces worth of copper.
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Loc:49,36 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=1
+MESSAGE # Creating a monster 'soldier' at (46,35), HP: 23, Index: 36
+MESSAGE # Loc:48,36 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=7
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # There was a monster 'soldier' at (46,35)
+MESSAGE # Loc:49,36 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=3
+MESSAGE # There was a monster 'soldier' at (46,35)
+MESSAGE # Loc:50,36 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=3
+MESSAGE # There was a monster 'soldier' at (46,35)
+MESSAGE # Loc:51,36 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=1
+MESSAGE # There was a monster 'soldier' at (46,35)
+MESSAGE # Loc:52,36 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=1
+MESSAGE The soldier wakes up.
+MESSAGE # PAIN:The soldier (+)
+MESSAGE # PAIN:The soldier (2)
+MESSAGE # There was a monster 'soldier' at (46,35)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'green jelly' at (50,137), HP: 75, Index: 85
+MESSAGE # Removing Regional Fear (50,137) because of a LOS green jelly
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Performing attack type 58 with value 27.
+MESSAGE # Targeting green jelly who has 75 Hit Points (50,137).
+MESSAGE # Zapping Rod of Light.
+MESSAGE Target Selected.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE The green jelly cringes from the light!
+MESSAGE # PAIN:The green jelly (+)
+MESSAGE # PAIN:The green jelly (2)
+MESSAGE # Standing on dn-stairs
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # Boosting bravery (1) from 102 to 204!
+MESSAGE # Fleeing via stairs.
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating an object 'True Seeing' at (167,23)
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Walking onto and deleting a 'True Seeing' at (23,167)
+MESSAGE You have found a secret door.
+MESSAGE You have 4 Coagulated Crimson Potions (f).
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE You have picked the lock.
+MESSAGE # Creating an object 'Detect Invisible' at (165,22)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'Detect Invisible' at (22,165)
+MESSAGE You have a Scroll of Detect Invisible (m).
+MESSAGE # Dropping junk Scroll of Detect Invisible (valued at 225)
+MESSAGE Inscribing a Scroll of Detect Invisible.
+MESSAGE You drop a Scroll of Detect Invisible {borg ignore} (m).
+MESSAGE You have no more Scrolls of Detect Invisible {borg ignore} (m).
+MESSAGE # Creating an object 'Detect Invisible' at (165,22)
+MESSAGE # Destroying floor item Scroll~Detect Invisible
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE You feel your energies sap away.
+MESSAGE The draining fails.
+MESSAGE # MISS_BY:something (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Fearing region (25,165) value 4 because of a non-LOS something
+MESSAGE # MISS_BY:something (5)
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE You feel that there aren't many treasures here.
+MESSAGE # FEELING_STUFF:8 (+)
+MESSAGE # FEELING_STUFF:8 (1)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'salamander' at (26,158), HP: 14, Index: 44
+MESSAGE # Loc:25,157 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=4
+MESSAGE # Performing attack type 1 with value 21.
+MESSAGE # Facing salamander at (26,158) who has 14 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the salamander.
+MESSAGE You have slain the salamander.
+MESSAGE # HIT:the salamander (+)
+MESSAGE # KILL:the salamander (+)
+MESSAGE # Forgetting a monster 'salamander' at (26,158)
+MESSAGE # HIT:the salamander (2)
+MESSAGE # KILL:the salamander (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE The metallic blue centipede wakes up.
+MESSAGE # PAIN:The metallic blue centipede (+)
+MESSAGE # Creating a monster 'metallic blue centipede' at (30,158), HP: 9, Index: 56
+MESSAGE # PAIN:The metallic blue centipede (4)
+MESSAGE # Loc:29,158 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=12
+MESSAGE # Shifted panel to locate offscreen monster.
+MESSAGE # Loc:29,158 Dep:6 Lev:10 HP:102/102 SP:0/0 Danger:p=12
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing metallic blue centipede at (30,158) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the metallic blue centipede.
+MESSAGE You have slain the metallic blue centipede.
+MESSAGE # HIT:the metallic blue centipede (+)
+MESSAGE # KILL:the metallic blue centipede (+)
+MESSAGE # Forgetting a monster 'metallic blue centipede' at (30,158)
+MESSAGE # HIT:the metallic blue centipede (2)
+MESSAGE # KILL:the metallic blue centipede (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 11
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'giant white ant' at (47,105), HP: 9, Index: 63
+MESSAGE # Removing Regional Fear (47,105) because of a LOS giant white ant
+MESSAGE # Flowing toward kill at cost 18
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Creating a monster 'Bullroarer the Hobbit' at (47,95), HP: 60, Index: 81
+MESSAGE # Removing Regional Fear (47,95) because of a LOS Bullroarer the Hobbit
+MESSAGE # Creating a monster 'brown mold' at (47,92), HP: 69, Index: 96
+MESSAGE # Removing Regional Fear (47,92) because of a LOS brown mold
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE You failed to zap the rod properly.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Opening a door
+MESSAGE # Creating a monster 'metallic red centipede' at (60,60), HP: 12, Index: 65
+MESSAGE # Removing Regional Fear (60,60) because of a LOS metallic red centipede
+MESSAGE # Flowing toward kill at cost 12
+MESSAGE # Creating an object 'Neutralize Poison' at (59,62)
+MESSAGE # Flowing toward kill at cost 11
+MESSAGE The metallic red centipede wakes up.
+MESSAGE # PAIN:The metallic red centipede (+)
+MESSAGE # PAIN:The metallic red centipede (2)
+MESSAGE # Tracking a monster 'metallic red centipede' at (60,58) from (60,60)
+MESSAGE # Tracking a monster 'metallic red centipede' at (58,55) from (60,58)
+MESSAGE # Loc:58,54 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=8
+MESSAGE # Performing attack type 1 with value 30.
+MESSAGE # Facing metallic red centipede at (58,55) who has 12 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the metallic red centipede.
+MESSAGE You have slain the metallic red centipede.
+MESSAGE # HIT:the metallic red centipede (+)
+MESSAGE # KILL:the metallic red centipede (+)
+MESSAGE # Forgetting a monster 'metallic red centipede' at (58,55)
+MESSAGE # HIT:the metallic red centipede (2)
+MESSAGE # KILL:the metallic red centipede (2)
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Walking onto and deleting a 'Neutralize Poison' at (62,59)
+MESSAGE You have 4 Potions of Neutralize Poison (c).
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward down-stairs at cost 26
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating an object '& Pair~ of Iron Shod Boots' at (129,56)
+MESSAGE # Flowing toward item at cost 6
+MESSAGE You feel that there are only scraps of junk here.
+MESSAGE # FEELING_STUFF:9 (+)
+MESSAGE # Creating an object 'Deep Descent' at (137,56)
+MESSAGE # Creating a monster 'green jelly' at (52,135), HP: 97, Index: 85
+MESSAGE # Removing Regional Fear (52,135) because of a LOS green jelly
+MESSAGE # Creating a monster 'metallic blue centipede' at (52,125), HP: 12, Index: 56
+MESSAGE # Removing Regional Fear (52,125) because of a LOS metallic blue centipede
+MESSAGE # FEELING_STUFF:9 (1)
+MESSAGE # Flowing toward item at cost 4
+MESSAGE # Performing attack type 58 with value 27.
+MESSAGE # Targeting green jelly who has 97 Hit Points (52,135).
+MESSAGE # Zapping Rod of Light.
+MESSAGE Target Selected.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE The green jelly cringes from the light!
+MESSAGE The metallic blue centipede wakes up.
+MESSAGE # PAIN:The green jelly (+)
+MESSAGE # PAIN:The metallic blue centipede (+)
+MESSAGE # PAIN:The green jelly (2)
+MESSAGE # PAIN:The metallic blue centipede (2)
+MESSAGE # Tracking a monster 'metallic blue centipede' at (54,127) from (52,125)
+MESSAGE # Walking onto and deleting a '& Pair~ of Iron Shod Boots' at (56,129)
+MESSAGE You have a Pair of Iron Shod Boots [4,+5] (x).
+MESSAGE # Junking 222339110 gold (full)
+MESSAGE # Dropping Soft Leather Armour [8,+0].
+MESSAGE Inscribing Soft Leather Armour [8,+0].
+MESSAGE You drop Soft Leather Armour [8,+0] {borg ignore} (u).
+MESSAGE You have no more Soft Leather Armours [8,+0] {borg ignore} (u).
+MESSAGE # Tracking a monster 'metallic blue centipede' at (53,127) from (54,127)
+MESSAGE # Creating an object 'Soft Leather Armour~' at (129,56)
+MESSAGE # Destroying floor item Soft Armor~Soft Leather Armour~
+MESSAGE # Wearing Pair of Iron Shod Boots [4,+5].
+MESSAGE You are wearing a Pair of Iron Shod Boots [4,+5] (p).
+MESSAGE You were wearing a Pair of Iron Shod Boots [4,+0] (w).
+MESSAGE # Tracking a monster 'metallic blue centipede' at (52,127) from (53,127)
+MESSAGE # Flowing toward kill at cost 4
+MESSAGE # Tracking a monster 'metallic blue centipede' at (53,128) from (52,127)
+MESSAGE The metallic blue centipede crawls on you.
+MESSAGE You are struck by electricity!
+MESSAGE The metallic blue centipede stings you.
+MESSAGE # HIT_BY:The metallic blue centipede (+)
+MESSAGE # Tracking a monster 'metallic blue centipede' at (52,129) from (53,128)
+MESSAGE # HIT_BY:The metallic blue centipede (3)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The metallic blue centipede crawls on you.
+MESSAGE You are struck by electricity!
+MESSAGE The metallic blue centipede stings you.
+MESSAGE # HIT_BY:The metallic blue centipede (+)
+MESSAGE # Tracking a monster 'metallic blue centipede' at (53,129) from (52,129)
+MESSAGE # HIT_BY:The metallic blue centipede (3)
+MESSAGE # Loc:54,129 Dep:6 Lev:10 HP:96/102 SP:0/0 Danger:p=4
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing metallic blue centipede at (53,129) who has 12 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the metallic blue centipede.
+MESSAGE You have slain the metallic blue centipede.
+MESSAGE # HIT:the metallic blue centipede (+)
+MESSAGE # KILL:the metallic blue centipede (+)
+MESSAGE # Forgetting a monster 'metallic blue centipede' at (53,129)
+MESSAGE # HIT:the metallic blue centipede (2)
+MESSAGE # KILL:the metallic blue centipede (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Performing attack type 58 with value 27.
+MESSAGE # Targeting green jelly who has 72 Hit Points (52,135).
+MESSAGE # Zapping Rod of Light.
+MESSAGE Target Selected.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE The green jelly cringes from the light!
+MESSAGE # PAIN:The green jelly (+)
+MESSAGE # PAIN:The green jelly (2)
+MESSAGE # Flowing toward item at cost 10
+MESSAGE # Performing attack type 58 with value 27.
+MESSAGE # Targeting green jelly who has 54 Hit Points (52,135).
+MESSAGE # Zapping Rod of Light.
+MESSAGE Target Selected.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE The green jelly cringes from the light!
+MESSAGE # PAIN:The green jelly (+)
+MESSAGE # PAIN:The green jelly (2)
+MESSAGE # Walking onto and deleting a 'Deep Descent' at (56,137)
+MESSAGE You have 2 Scrolls of Deep Descent (m).
+MESSAGE # Dropping junk Pair of Iron Shod Boots [4,+0] (valued at 225)
+MESSAGE Inscribing a Pair of Iron Shod Boots [4,+0].
+MESSAGE You drop a Pair of Iron Shod Boots [4,+0] {borg ignore} (x).
+MESSAGE You have no more Pairs of Iron Shod Boots [4,+0] {borg ignore} (x).
+MESSAGE # Creating an object '& Pair~ of Iron Shod Boots' at (137,56)
+MESSAGE # Destroying floor item Boot~& Pair~ of Iron Shod Boots
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Performing attack type 58 with value 27.
+MESSAGE # Targeting green jelly who has 36 Hit Points (52,135).
+MESSAGE # Zapping Rod of Light.
+MESSAGE Target Selected.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE The green jelly cringes from the light!
+MESSAGE # PAIN:The green jelly (+)
+MESSAGE # PAIN:The green jelly (2)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'giant white dragon fly' at (58,141), HP: 15, Index: 92
+MESSAGE # Removing Regional Fear (58,141) because of a LOS giant white dragon fly
+MESSAGE # Loc:58,142 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=26
+MESSAGE # Performing attack type 1 with value 43.
+MESSAGE # Facing giant white dragon fly at (58,141) who has 15 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the giant white dragon fly.
+MESSAGE You have slain the giant white dragon fly.
+MESSAGE # HIT:the giant white dragon fly (+)
+MESSAGE # KILL:the giant white dragon fly (+)
+MESSAGE # Forgetting a monster 'giant white dragon fly' at (58,141)
+MESSAGE # HIT:the giant white dragon fly (2)
+MESSAGE # KILL:the giant white dragon fly (2)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Creating an object 'copper' at (129,55)
+MESSAGE # Flowing toward item at cost 10
+MESSAGE # Walking onto and deleting a 'copper' at (55,129)
+MESSAGE You have found 185 gold pieces worth of copper.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE You feel that there are only scraps of junk here.
+MESSAGE # FEELING_STUFF:9 (+)
+MESSAGE # FEELING_STUFF:9 (1)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'clear worm mass' at (45,154), HP: 8, Index: 67
+MESSAGE # Removing Regional Fear (45,154) because of a LOS clear worm mass
+MESSAGE # Loc:43,154 Dep:5 Lev:10 HP:102/102 SP:0/0 Danger:p=1
+MESSAGE # heading up, not prep for current level: 1 recall)
+MESSAGE # Climbing (too deep: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Performing attack type 58 with value 48.
+MESSAGE # Targeting clear worm mass who has 8 Hit Points (45,154).
+MESSAGE # Zapping Rod of Light.
+MESSAGE Target Selected.
+MESSAGE A line of shimmering blue light appears.
+MESSAGE You hear a scream of agony!
+MESSAGE # DIED:You hear a (+)
+MESSAGE # Assuming player ghost (You hear a) (a)
+MESSAGE # DIED:You hear a (0)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'spotted mushroom patch' at (23,117), HP: 1, Index: 59
+MESSAGE # Removing Regional Fear (23,117) because of a LOS spotted mushroom patch
+MESSAGE # Flowing toward kill at cost 2
+MESSAGE The spotted mushroom patch releases spores at you.
+MESSAGE You are poisoned!
+MESSAGE # HIT_BY:The spotted mushroom patch (+)
+MESSAGE # HIT_BY:The spotted mushroom patch (3)
+MESSAGE # Loc:22,117 Dep:4 Lev:10 HP:98/102 SP:0/0 Danger:p=8
+MESSAGE # Performing attack type 1 with value 10.
+MESSAGE # Facing spotted mushroom patch at (23,117) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You miss the spotted mushroom patch.
+MESSAGE # MISS:the spotted mushroom patch (+)
+MESSAGE # MISS:the spotted mushroom patch (2)
+MESSAGE # Loc:22,117 Dep:4 Lev:10 HP:97/102 SP:0/0 Danger:p=8
+MESSAGE # Performing attack type 1 with value 10.
+MESSAGE # Facing spotted mushroom patch at (23,117) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the spotted mushroom patch.
+MESSAGE You have destroyed the spotted mushroom patch.
+MESSAGE # HIT:the spotted mushroom patch (+)
+MESSAGE # KILL:the spotted mushroom patch (+)
+MESSAGE # Forgetting a monster 'spotted mushroom patch' at (23,117)
+MESSAGE # HIT:the spotted mushroom patch (2)
+MESSAGE # KILL:the spotted mushroom patch (2)
+MESSAGE # Quaffing Potions of Neutralize Poison.
+MESSAGE You are no longer poisoned.
+MESSAGE You have 3 Potions of Neutralize Poison (c).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'kobold' at (47,95), HP: 11, Index: 32
+MESSAGE # Removing Regional Fear (47,95) because of a LOS kobold
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Loc:46,95 Dep:4 Lev:10 HP:102/102 SP:0/0 Danger:p=14
+MESSAGE # Performing attack type 1 with value 32.
+MESSAGE # Facing kobold at (47,95) who has 11 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You miss the kobold.
+MESSAGE # MISS:the kobold (+)
+MESSAGE # MISS:the kobold (2)
+MESSAGE # Loc:46,95 Dep:4 Lev:10 HP:102/102 SP:0/0 Danger:p=8
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing kobold at (47,95) who has 11 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the kobold.
+MESSAGE You have slain the kobold.
+MESSAGE # HIT:the kobold (+)
+MESSAGE # KILL:the kobold (+)
+MESSAGE # Forgetting a monster 'kobold' at (47,95)
+MESSAGE # HIT:the kobold (2)
+MESSAGE # KILL:the kobold (2)
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE You have picked the lock.
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rod of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE Something mutters.
+MESSAGE # SPELL_075:Something (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Creating a monster 'scout' at (50,110), HP: 23, Index: 71
+MESSAGE # Creating a monster 'scout' at (49,109), HP: 22, Index: 71
+MESSAGE # Invisible monster nearby.
+MESSAGE # Fearing region (48,108) value 208 because of a non-LOS Something
+MESSAGE # SPELL_075:Something (5)
+MESSAGE # Loc:48,108 Dep:4 Lev:10 HP:102/102 SP:0/0 Danger:p=313
+MESSAGE # Fleeing (excessive danger)
+MESSAGE # Reading Scrolls of Deep Descent.
+MESSAGE # Danger Level 1.
+MESSAGE The air around you starts to swirl...
+MESSAGE You have a Scroll of Deep Descent (m).
+MESSAGE The scout misses you.
+MESSAGE The scout hits you.
+MESSAGE # MISS_BY:The scout (+)
+MESSAGE # HIT_BY:The scout (+)
+MESSAGE # MISS_BY:The scout (3)
+MESSAGE # HIT_BY:The scout (3)
+MESSAGE # Loc:48,108 Dep:4 Lev:10 HP:96/102 SP:0/0 Danger:p=313
+MESSAGE # No Phase. scary squares: 100
+MESSAGE # Leaving (failed to teleport)
+MESSAGE # No Phase. scary squares: 100
+MESSAGE # Performing attack type 1 with value 46.
+MESSAGE # Facing scout at (49,109) who has 22 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the scout.
+MESSAGE The scout fires a small arrow.
+MESSAGE # HIT:the scout (+)
+MESSAGE # SPELL_005:The scout (+)
+MESSAGE # HIT:the scout (2)
+MESSAGE # SPELL_005:The scout (3)
+MESSAGE # Loc:48,108 Dep:4 Lev:10 HP:95/102 SP:0/0 Danger:p=313
+MESSAGE # No Phase. scary squares: 100
+MESSAGE # Performing attack type 1 with value 34.
+MESSAGE # Facing scout at (49,109) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Maul (4d4) (+7,+6) <+2> {??}'
+MESSAGE You hit the scout.
+MESSAGE You have slain the scout.
+MESSAGE # HIT:the scout (+)
+MESSAGE # KILL:the scout (+)
+MESSAGE # Forgetting a monster 'scout' at (49,109)
+MESSAGE # Creating an object '& Bolt~' at (109,49)
+MESSAGE # HIT:the scout (2)
+MESSAGE # KILL:the scout (2)
+MESSAGE # Loc:48,108 Dep:4 Lev:10 HP:95/102 SP:0/0 Danger:p=250
+MESSAGE # No Phase. scary squares: 100
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 95 to 190!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE You feel that there is naught but cobwebs here.
+MESSAGE You have 4 Scrolls of Phase Door (i).
+MESSAGE # FEELING_STUFF:10 (+)
+MESSAGE # Creating an object '& Arrow~' at (117,53)
+MESSAGE # Creating an object 'Speed' at (113,55)
+MESSAGE # Creating a monster 'scout' at (54,108), HP: 26, Index: 71
+MESSAGE # Creating a monster 'apprentice' at (53,110), HP: 17, Index: 39
+MESSAGE # Creating a monster 'apprentice' at (52,110), HP: 18, Index: 39
+MESSAGE # Creating a monster 'kobold shaman' at (54,107), HP: 11, Index: 69
+MESSAGE # Creating a monster 'scout' at (55,108), HP: 25, Index: 71
+MESSAGE # FEELING_STUFF:10 (1)
+MESSAGE # Loc:56,112 Dep:4 Lev:10 HP:95/102 SP:0/0 Danger:p=286
+MESSAGE # No Phase. scary squares: 100
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 95 to 190!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE You have 3 Scrolls of Phase Door (i).
+MESSAGE # Tracking a monster 'apprentice' at (53,109) from (52,110)
+MESSAGE # Tracking a monster 'apprentice' at (54,109) from (53,110)
+MESSAGE # Loc:56,102 Dep:4 Lev:10 HP:96/102 SP:0/0 Danger:p=248
+MESSAGE # No Phase. scary squares: 100
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 96 to 192!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (2) from 96 to 408!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (3) from 96 to 30000!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward kill at cost 5
+MESSAGE The apprentice conjures up weird things.
+MESSAGE You retain your presence of mind.
+MESSAGE # SPELL_060:The apprentice (+)
+MESSAGE # Tracking a monster 'apprentice' at (53,107) from (53,109)
+MESSAGE # Creating an object '& Arrow~' at (117,53)
+MESSAGE # Creating an object 'Speed' at (113,55)
+MESSAGE # Creating an object '& Bolt~' at (109,49)
+MESSAGE # SPELL_060:The apprentice (3)
+MESSAGE # Loc:56,103 Dep:4 Lev:10 HP:96/102 SP:0/0 Danger:p=279
+MESSAGE # No Phase. scary squares: 100
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (1) from 96 to 192!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (2) from 96 to 408!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 1 recall)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Boosting bravery (3) from 96 to 30000!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward kill at cost 4
+MESSAGE The floor opens beneath you!
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving (restock) restock tele + tele staff < 2
+MESSAGE # Wearing Dagger (1d4) (+0,+0).
+MESSAGE You are wielding a Dagger (1d4) (+0,+0) (a).
+MESSAGE You re-arrange your pack.
+MESSAGE You were wielding a Maul (4d4) (+7,+6) <+2> {??} (z).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'ochre jelly' at (37,79), HP: 53, Index: 179
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:37,80 Dep:13 Lev:10 HP:98/102 SP:0/0 Danger:p=705
+MESSAGE # Reading Scroll of Deep Descent.
+MESSAGE # Danger Level 1.
+MESSAGE The air around you starts to swirl...
+MESSAGE You have no more Scrolls of Deep Descent (m).
+MESSAGE The ochre jelly misses you.
+MESSAGE You are covered in acid!
+MESSAGE Your Pair of Iron Shod Boots is damaged!
+MESSAGE The ochre jelly touches you.
+MESSAGE You are covered in acid!
+MESSAGE Your Soft Leather Armour of Resist Fire is damaged!
+MESSAGE The ochre jelly touches you.
+MESSAGE The ochre jelly misses you.
+MESSAGE You are covered in acid!
+MESSAGE Your Cloak is damaged!
+MESSAGE The ochre jelly touches you.
+MESSAGE # MISS_BY:The ochre jelly (+)
+MESSAGE # HIT_BY:The ochre jelly (+)
+MESSAGE # MISS_BY:The ochre jelly (+)
+MESSAGE # HIT_BY:The ochre jelly (+)
+MESSAGE # MISS_BY:The ochre jelly (3)
+MESSAGE # HIT_BY:The ochre jelly (3)
+MESSAGE # MISS_BY:The ochre jelly (3)
+MESSAGE # HIT_BY:The ochre jelly (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:37,80 Dep:13 Lev:10 HP:90/102 SP:0/0 Danger:p=705
+MESSAGE # No Phase. scary squares: 100
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.2  Critical Phase
+MESSAGE You have 2 Scrolls of Phase Door (i).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The floor opens beneath you!
+MESSAGE This place does not seem too risky.
+MESSAGE # FEELING_DANGER:6 (+)
+MESSAGE # Creating a monster 'wolf' at (7,39), HP: 20, Index: 153
+MESSAGE # Removing Regional Fear (7,39) because of a LOS wolf
+MESSAGE # Creating a monster 'wolf' at (7,38), HP: 21, Index: 153
+MESSAGE # Removing Regional Fear (7,38) because of a LOS wolf
+MESSAGE # Creating a monster 'wolf' at (7,37), HP: 26, Index: 153
+MESSAGE # Removing Regional Fear (7,37) because of a LOS wolf
+MESSAGE # Creating a monster 'wolf' at (7,36), HP: 25, Index: 153
+MESSAGE # Removing Regional Fear (7,36) because of a LOS wolf
+MESSAGE # Creating a monster 'wolf' at (7,35), HP: 18, Index: 153
+MESSAGE # Removing Regional Fear (7,35) because of a LOS wolf
+MESSAGE # Creating a monster 'wolf' at (7,34), HP: 21, Index: 153
+MESSAGE # Removing Regional Fear (7,34) because of a LOS wolf
+MESSAGE # Creating a monster 'wolf' at (7,33), HP: 17, Index: 153
+MESSAGE # Removing Regional Fear (7,33) because of a LOS wolf
+MESSAGE # FEELING_DANGER:6 (1)
+MESSAGE # Loc:7,43 Dep:18 Lev:10 HP:93/102 SP:0/0 Danger:p=2
+MESSAGE # Leaving (restock) restock tele + tele staff < 2
+MESSAGE # Dropping junk Ring of Searching <+1> (valued at 130)
+MESSAGE Inscribing a Ring of Searching <+1>.
+MESSAGE You drop a Ring of Searching <+1> {borg ignore} (r).
+MESSAGE You have no more Rings of Searching <+1> {borg ignore} (r).
+MESSAGE # Creating an object 'Searching' at (43,7)
+MESSAGE # Destroying floor item Ring~Searching
+MESSAGE # Loc:7,43 Dep:18 Lev:10 HP:93/102 SP:0/0 Danger:p=2
+MESSAGE # Dropping junk Wicker Shield [2,+0] (valued at 130)
+MESSAGE Inscribing a Wicker Shield [2,+0].
+MESSAGE You drop a Wicker Shield [2,+0] {borg ignore} (t).
+MESSAGE You have no more Wicker Shields [2,+0] {borg ignore} (t).
+MESSAGE # Creating an object '& Wicker Shield~' at (43,7)
+MESSAGE # Destroying floor item Shield~& Wicker Shield~
+MESSAGE # Loc:7,43 Dep:18 Lev:10 HP:94/102 SP:0/0 Danger:p=2
+MESSAGE # Dropping junk Whip (1d3) (+0,+0) (valued at 130)
+MESSAGE Inscribing a Whip (1d3) (+0,+0).
+MESSAGE You drop a Whip (1d3) (+0,+0) {borg ignore} (u).
+MESSAGE You have no more Whips (1d3) (+0,+0) {borg ignore} (u).
+MESSAGE # Creating an object '& Whip~' at (43,7)
+MESSAGE # Destroying floor item Hafted weapon~& Whip~
+MESSAGE # Loc:7,43 Dep:18 Lev:10 HP:94/102 SP:0/0 Danger:p=2
+MESSAGE # Dropping junk War Hammer (3d3) (+0,+0) (valued at 130)
+MESSAGE Inscribing a War Hammer (3d3) (+0,+0).
+MESSAGE You drop a War Hammer (3d3) (+0,+0) {borg ignore} (u).
+MESSAGE You have no more War Hammers (3d3) (+0,+0) {borg ignore} (u).
+MESSAGE The wolf wakes up.
+MESSAGE # PAIN:The wolf (+)
+MESSAGE # Creating an object '& War Hammer~' at (43,7)
+MESSAGE # PAIN:The wolf (2)
+MESSAGE # Destroying floor item Hafted weapon~& War Hammer~
+MESSAGE # Loc:7,43 Dep:18 Lev:10 HP:94/102 SP:0/0 Danger:p=2
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The wolf wakes up.
+MESSAGE # PAIN:The wolf (+)
+MESSAGE # PAIN:The wolf (2)
+MESSAGE # Loc:7,42 Dep:18 Lev:10 HP:94/102 SP:0/0 Danger:p=2
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'wolf' at (7,40) from (7,38)
+MESSAGE # Loc:8,41 Dep:18 Lev:10 HP:95/102 SP:0/0 Danger:p=38
+MESSAGE # Retreating to 7,42 (distance 1) via 7,42 (38 > 19)
+MESSAGE The wolf wakes up.
+MESSAGE # PAIN:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (7,40) from (7,39)
+MESSAGE # PAIN:The wolf (2)
+MESSAGE # There was a monster 'wolf' at (7,40)
+MESSAGE # Forgetting a monster 'wolf' at (7,40)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # There was a monster 'wolf' at (7,40)
+MESSAGE # Forgetting a monster 'wolf' at (7,40)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The wolf wakes up.
+MESSAGE # PAIN:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (7,38) from (7,37)
+MESSAGE # Tracking a monster 'wolf' at (7,37) from (7,36)
+MESSAGE # Tracking a monster 'wolf' at (7,36) from (7,35)
+MESSAGE # Tracking a monster 'wolf' at (7,35) from (7,34)
+MESSAGE # Creating a monster 'wolf' at (7,41), HP: 20, Index: 153
+MESSAGE # PAIN:The wolf (2)
+MESSAGE # Loc:7,42 Dep:18 Lev:10 HP:96/102 SP:0/0 Danger:p=16
+MESSAGE # Performing attack type 1 with value 46.
+MESSAGE # Facing wolf at (7,41) who has 20 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the wolf.
+MESSAGE # HIT:the wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (7,39) from (7,38)
+MESSAGE # Tracking a monster 'wolf' at (7,38) from (7,36)
+MESSAGE # Tracking a monster 'wolf' at (7,37) from (7,35)
+MESSAGE # Tracking a monster 'wolf' at (7,35) from (7,33)
+MESSAGE # HIT:the wolf (2)
+MESSAGE # There was a monster 'wolf' at (7,41)
+MESSAGE # Forgetting a monster 'wolf' at (7,41)
+MESSAGE # There was a monster 'wolf' at (7,37)
+MESSAGE # Forgetting a monster 'wolf' at (7,37)
+MESSAGE # Loc:7,42 Dep:18 Lev:10 HP:96/102 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The wolf bites you.
+MESSAGE The wolf misses you.
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # MISS_BY:The wolf (+)
+MESSAGE # Creating a monster 'wolf' at (9,41), HP: 2, Index: 153
+MESSAGE # Creating a monster 'wolf' at (7,40), HP: 25, Index: 153
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # MISS_BY:The wolf (3)
+MESSAGE # Loc:8,41 Dep:18 Lev:10 HP:87/102 SP:0/0 Danger:p=36
+MESSAGE # Retreating to 7,42 (distance 1) via 7,42 (36 > 3)
+MESSAGE # Tracking a monster 'wolf' at (9,40) from (9,41)
+MESSAGE # Tracking a monster 'wolf' at (7,39) from (7,38)
+MESSAGE # Tracking a monster 'wolf' at (7,38) from (7,37)
+MESSAGE # Tracking a monster 'wolf' at (7,36) from (7,35)
+MESSAGE # There was a monster 'wolf' at (7,40)
+MESSAGE # Forgetting a monster 'wolf' at (7,40)
+MESSAGE # There was a monster 'wolf' at (7,39)
+MESSAGE # Forgetting a monster 'wolf' at (7,39)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'wolf' at (7,40), HP: 26, Index: 153
+MESSAGE # There was a monster 'wolf' at (9,40)
+MESSAGE # Forgetting a monster 'wolf' at (9,40)
+MESSAGE # There was a monster 'wolf' at (7,39)
+MESSAGE # Forgetting a monster 'wolf' at (7,39)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'wolf' at (7,39) from (7,38)
+MESSAGE # Tracking a monster 'wolf' at (7,38) from (7,36)
+MESSAGE # Loc:7,42 Dep:18 Lev:10 HP:88/102 SP:0/0 Danger:p=2
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The wolf bites you.
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (6,39) from (7,39)
+MESSAGE # Creating a monster 'wolf' at (9,40), HP: 2, Index: 153
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # Loc:8,41 Dep:18 Lev:10 HP:82/102 SP:0/0 Danger:p=36
+MESSAGE # Retreating to 7,42 (distance 1) via 7,42 (36 > 1)
+MESSAGE # There was a monster 'wolf' at (9,40)
+MESSAGE # Forgetting a monster 'wolf' at (9,40)
+MESSAGE # There was a monster 'wolf' at (7,40)
+MESSAGE # Forgetting a monster 'wolf' at (7,40)
+MESSAGE # There was a monster 'wolf' at (6,39)
+MESSAGE # Forgetting a monster 'wolf' at (6,39)
+MESSAGE # There was a monster 'wolf' at (7,38)
+MESSAGE # Forgetting a monster 'wolf' at (7,38)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'wolf' at (9,40), HP: 26, Index: 153
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # There was a monster 'wolf' at (9,40)
+MESSAGE # Forgetting a monster 'wolf' at (9,40)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'wolf' at (10,39), HP: 26, Index: 153
+MESSAGE # Creating a monster 'giant fruit fly' at (8,41), HP: 3, Index: 154
+MESSAGE # Loc:7,42 Dep:18 Lev:10 HP:87/102 SP:0/0 Danger:p=5
+MESSAGE # Performing attack type 1 with value 19.
+MESSAGE # Facing giant fruit fly at (8,41) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the giant fruit fly.
+MESSAGE You have slain the giant fruit fly.
+MESSAGE # HIT:the giant fruit fly (+)
+MESSAGE # KILL:the giant fruit fly (+)
+MESSAGE # Forgetting a monster 'giant fruit fly' at (8,41)
+MESSAGE # HIT:the giant fruit fly (2)
+MESSAGE # KILL:the giant fruit fly (2)
+MESSAGE # There was a monster 'wolf' at (10,39)
+MESSAGE # Forgetting a monster 'wolf' at (10,39)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The giant fruit fly bites you.
+MESSAGE # HIT_BY:The giant fruit fly (+)
+MESSAGE # Creating a monster 'giant fruit fly' at (9,40), HP: 3, Index: 154
+MESSAGE # HIT_BY:The giant fruit fly (4)
+MESSAGE # Loc:8,41 Dep:18 Lev:10 HP:85/102 SP:0/0 Danger:p=5
+MESSAGE # Performing attack type 1 with value 19.
+MESSAGE # Facing giant fruit fly at (9,40) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the giant fruit fly.
+MESSAGE You have slain the giant fruit fly.
+MESSAGE # HIT:the giant fruit fly (+)
+MESSAGE # KILL:the giant fruit fly (+)
+MESSAGE # Forgetting a monster 'giant fruit fly' at (9,40)
+MESSAGE # Creating a monster 'wolf' at (9,40), HP: 26, Index: 153
+MESSAGE # Creating a monster 'wolf' at (6,39), HP: 18, Index: 153
+MESSAGE # HIT:the giant fruit fly (2)
+MESSAGE # KILL:the giant fruit fly (2)
+MESSAGE # Loc:8,41 Dep:18 Lev:10 HP:85/102 SP:0/0 Danger:p=16
+MESSAGE # Performing attack type 1 with value 46.
+MESSAGE # Facing wolf at (9,40) who has 26 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the wolf.
+MESSAGE You miss the wolf.
+MESSAGE The wolf bites you.
+MESSAGE # HIT:the wolf (+)
+MESSAGE # MISS:the wolf (+)
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (7,40) from (6,39)
+MESSAGE # Creating a monster 'wolf' at (10,39), HP: 3, Index: 153
+MESSAGE # HIT:the wolf (2)
+MESSAGE # MISS:the wolf (2)
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # Loc:8,41 Dep:18 Lev:10 HP:74/102 SP:0/0 Danger:p=35
+MESSAGE # Retreating to 7,42 (distance 1) via 7,42 (35 > 1)
+MESSAGE # Tracking a monster 'wolf' at (10,39) from (9,40)
+MESSAGE # There was a monster 'wolf' at (7,40)
+MESSAGE # Forgetting a monster 'wolf' at (7,40)
+MESSAGE # There was a monster 'wolf' at (10,39)
+MESSAGE # Forgetting a monster 'wolf' at (10,39)
+MESSAGE # Flowing toward kill at cost 3
+MESSAGE # Tracking a monster 'wolf' at (9,40) from (10,39)
+MESSAGE # Creating a monster 'wolf' at (10,39), HP: 3, Index: 153
+MESSAGE # Loc:8,41 Dep:18 Lev:10 HP:75/102 SP:0/0 Danger:p=19
+MESSAGE # Performing attack type 1 with value 46.
+MESSAGE # Facing wolf at (9,40) who has 11 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the wolf.
+MESSAGE You have slain the wolf.
+MESSAGE # HIT:the wolf (+)
+MESSAGE # KILL:the wolf (+)
+MESSAGE # Forgetting a monster 'wolf' at (9,40)
+MESSAGE # Creating a monster 'wolf' at (6,39), HP: 18, Index: 153
+MESSAGE # HIT:the wolf (2)
+MESSAGE # KILL:the wolf (2)
+MESSAGE # There was a monster 'wolf' at (10,39)
+MESSAGE # Forgetting a monster 'wolf' at (10,39)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'wolf' at (9,40), HP: 4, Index: 153
+MESSAGE # Creating a monster 'wolf' at (7,40), HP: 25, Index: 153
+MESSAGE # There was a monster 'wolf' at (6,39)
+MESSAGE # Forgetting a monster 'wolf' at (6,39)
+MESSAGE # Loc:8,41 Dep:18 Lev:10 HP:76/102 SP:0/0 Danger:p=32
+MESSAGE # Retreating to 7,42 (distance 1) via 7,42 (32 > 0)
+MESSAGE # Tracking a monster 'wolf' at (7,41) from (7,40)
+MESSAGE # Creating a monster 'wolf' at (7,40), HP: 21, Index: 153
+MESSAGE # There was a monster 'wolf' at (9,40)
+MESSAGE # Forgetting a monster 'wolf' at (9,40)
+MESSAGE # Loc:7,42 Dep:18 Lev:10 HP:76/102 SP:0/0 Danger:p=37
+MESSAGE # Retreating to 7,43 (distance 1) via 7,43 (37 > 2)
+MESSAGE # There was a monster 'wolf' at (7,40)
+MESSAGE # Forgetting a monster 'wolf' at (7,40)
+MESSAGE # There was a monster 'wolf' at (7,41)
+MESSAGE # Forgetting a monster 'wolf' at (7,41)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'giant fruit fly' at (8,41), HP: 1, Index: 154
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Tracking a monster 'giant fruit fly' at (7,41) from (8,41)
+MESSAGE # Creating a monster 'wolf' at (10,39), HP: 5, Index: 153
+MESSAGE # Loc:7,42 Dep:18 Lev:10 HP:81/102 SP:0/0 Danger:p=5
+MESSAGE # Performing attack type 1 with value 13.
+MESSAGE # Facing giant fruit fly at (7,41) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the giant fruit fly.
+MESSAGE You have slain the giant fruit fly.
+MESSAGE # HIT:the giant fruit fly (+)
+MESSAGE # KILL:the giant fruit fly (+)
+MESSAGE # Forgetting a monster 'giant fruit fly' at (7,41)
+MESSAGE # HIT:the giant fruit fly (2)
+MESSAGE # KILL:the giant fruit fly (2)
+MESSAGE # There was a monster 'wolf' at (10,39)
+MESSAGE # Forgetting a monster 'wolf' at (10,39)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating a monster 'wolf' at (9,40), HP: 5, Index: 153
+MESSAGE # Loc:8,41 Dep:18 Lev:10 HP:82/102 SP:0/0 Danger:p=16
+MESSAGE # Performing attack type 1 with value 42.
+MESSAGE # Facing wolf at (9,40) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the wolf.
+MESSAGE You hit the wolf.
+MESSAGE The wolf flees in terror!
+MESSAGE # MISS:the wolf (+)
+MESSAGE # HIT:the wolf (+)
+MESSAGE # PAIN:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (10,39) from (9,40)
+MESSAGE # Creating a monster 'wolf' at (9,40), HP: 25, Index: 153
+MESSAGE # Creating a monster 'wolf' at (7,40), HP: 21, Index: 153
+MESSAGE # Creating a monster 'wolf' at (6,39), HP: 17, Index: 153
+MESSAGE # MISS:the wolf (2)
+MESSAGE # HIT:the wolf (2)
+MESSAGE # PAIN:The wolf (2)
+MESSAGE # Loc:8,41 Dep:18 Lev:10 HP:82/102 SP:0/0 Danger:p=58
+MESSAGE # Retreating to 7,42 (distance 1) via 7,42 (58 > 19)
+MESSAGE The wolf bites you.
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (8,41) from (7,40)
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # There was a monster 'wolf' at (10,39)
+MESSAGE # Forgetting a monster 'wolf' at (10,39)
+MESSAGE # There was a monster 'wolf' at (9,40)
+MESSAGE # Forgetting a monster 'wolf' at (9,40)
+MESSAGE # There was a monster 'wolf' at (6,39)
+MESSAGE # Forgetting a monster 'wolf' at (6,39)
+MESSAGE # Loc:7,42 Dep:18 Lev:10 HP:78/102 SP:0/0 Danger:p=34
+MESSAGE # Retreating to 7,43 (distance 1) via 7,43 (34 > 16)
+MESSAGE # There was a monster 'wolf' at (8,41)
+MESSAGE # Forgetting a monster 'wolf' at (8,41)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'griffon' at (7,40), HP: 152, Index: 201
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'griffon' at (7,41) from (7,40)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The illusionist blinks.
+MESSAGE # BLINK:The illusionist (+)
+MESSAGE # Tracking a monster 'griffon' at (7,42) from (7,41)
+MESSAGE # BLINK:The illusionist (0)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:7,43 Dep:18 Lev:10 HP:86/102 SP:0/0 Danger:p=25
+MESSAGE # Performing attack type 1 with value 38.
+MESSAGE # Facing griffon at (7,42) who has 152 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the griffon.
+MESSAGE You hit the griffon.
+MESSAGE The griffon hits you.
+MESSAGE The griffon misses you.
+MESSAGE # MISS:the griffon (+)
+MESSAGE # HIT:the griffon (+)
+MESSAGE # HIT_BY:The griffon (+)
+MESSAGE # MISS_BY:The griffon (+)
+MESSAGE # MISS:the griffon (2)
+MESSAGE # HIT:the griffon (2)
+MESSAGE # HIT_BY:The griffon (3)
+MESSAGE # MISS_BY:The griffon (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:7,43 Dep:18 Lev:10 HP:78/102 SP:0/0 Danger:p=25
+MESSAGE # Performing attack type 1 with value 38.
+MESSAGE # Facing griffon at (7,42) who has 141 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the griffon.
+MESSAGE The griffon hits you.
+MESSAGE The griffon misses you.
+MESSAGE # HIT:the griffon (+)
+MESSAGE # HIT_BY:The griffon (+)
+MESSAGE # MISS_BY:The griffon (+)
+MESSAGE # HIT:the griffon (2)
+MESSAGE # HIT_BY:The griffon (3)
+MESSAGE # MISS_BY:The griffon (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:7,43 Dep:18 Lev:10 HP:73/102 SP:0/0 Danger:p=25
+MESSAGE # Performing attack type 1 with value 38.
+MESSAGE # Facing griffon at (7,42) who has 123 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the griffon.
+MESSAGE The griffon hits you.
+MESSAGE The griffon bites you.
+MESSAGE # HIT:the griffon (+)
+MESSAGE # HIT_BY:The griffon (+)
+MESSAGE # HIT:the griffon (2)
+MESSAGE # HIT_BY:The griffon (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:7,43 Dep:18 Lev:10 HP:60/102 SP:0/0 Danger:p=25
+MESSAGE # Performing attack type 1 with value 38.
+MESSAGE # Facing griffon at (7,42) who has 110 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the griffon.
+MESSAGE You miss the griffon.
+MESSAGE The griffon hits you.
+MESSAGE The griffon bites you.
+MESSAGE # HIT:the griffon (+)
+MESSAGE # MISS:the griffon (+)
+MESSAGE # HIT_BY:The griffon (+)
+MESSAGE # Creating a monster 'wolf' at (8,41), HP: 21, Index: 153
+MESSAGE # Creating a monster 'wolf' at (7,40), HP: 17, Index: 153
+MESSAGE # HIT:the griffon (2)
+MESSAGE # MISS:the griffon (2)
+MESSAGE # HIT_BY:The griffon (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(3/0)
+MESSAGE # Loc:7,43 Dep:18 Lev:10 HP:42/102 SP:0/0 Danger:p=29
+MESSAGE # Safe to Phase. scary squares: 6
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You feel that there aren't many treasures here.
+MESSAGE You have a Scroll of Phase Door (i).
+MESSAGE # FEELING_STUFF:8 (+)
+MESSAGE # FEELING_STUFF:8 (1)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'wolf' at (1,36), HP: 21, Index: 153
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE The wolf bites you.
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (2,35) from (1,36)
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # Loc:3,34 Dep:18 Lev:10 HP:40/102 SP:0/0 Danger:p=16
+MESSAGE # Retreating to 3,33 (distance 1) via 3,33 (16 > 0)
+MESSAGE The wolf bites you.
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (3,34) from (2,35)
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # Loc:3,33 Dep:18 Lev:10 HP:35/102 SP:0/0 Danger:p=16
+MESSAGE # Retreating to 3,32 (distance 1) via 3,32 (16 > 0)
+MESSAGE # Tracking a monster 'wolf' at (3,35) from (3,34)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'wolf' at (3,32) from (3,35)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE The wolf bites you.
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (2,31) from (3,32)
+MESSAGE # Creating a monster 'wolf' at (3,32), HP: 18, Index: 153
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # Loc:1,30 Dep:18 Lev:10 HP:35/102 SP:0/0 Danger:p=19
+MESSAGE # Performing attack type 1 with value 46.
+MESSAGE # Facing wolf at (2,31) who has 21 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the wolf.
+MESSAGE # HIT:the wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (2,31) from (3,32)
+MESSAGE # HIT:the wolf (2)
+MESSAGE # There was a monster 'wolf' at (2,31)
+MESSAGE # Forgetting a monster 'wolf' at (2,31)
+MESSAGE # Loc:1,30 Dep:18 Lev:10 HP:35/102 SP:0/0 Danger:p=16
+MESSAGE # Performing attack type 1 with value 46.
+MESSAGE # Facing wolf at (2,31) who has 18 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the wolf.
+MESSAGE The wolf flees in terror!
+MESSAGE # HIT:the wolf (+)
+MESSAGE # PAIN:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (1,32) from (2,31)
+MESSAGE # HIT:the wolf (2)
+MESSAGE # PAIN:The wolf (2)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # heading up (bored and unable to dive: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Spastic Searching at (29,3)...value:0
+MESSAGE # Boosting bravery (1) from 36 to 72!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward dark-4 at cost 9
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'wolf' at (1,33) from (1,32)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Creating a monster 'warrior' at (3,35), HP: 51, Index: 175
+MESSAGE # Creating a monster 'wolf' at (3,34), HP: 17, Index: 153
+MESSAGE # Creating a monster 'wolf' at (3,33), HP: 1, Index: 153
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(3/2)
+MESSAGE # Loc:3,32 Dep:18 Lev:10 HP:38/102 SP:0/0 Danger:p=64
+MESSAGE # Safe to Phase. scary squares: 34
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have no more Scrolls of Phase Door (i).
+MESSAGE # There was a monster 'wolf' at (8,41)
+MESSAGE # Forgetting a monster 'wolf' at (8,41)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # There was a monster 'griffon' at (7,42)
+MESSAGE # Forgetting a monster 'griffon' at (7,42)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward dark-4 at cost 6
+MESSAGE The wolf bites you.
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # Creating a monster 'metallic blue centipede' at (11,36), HP: 10, Index: 56
+MESSAGE # Creating a monster 'wolf' at (10,39), HP: 5, Index: 153
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # Loc:11,40 Dep:18 Lev:10 HP:38/102 SP:0/0 Danger:p=16
+MESSAGE # Performing attack type 1 with value 42.
+MESSAGE # Facing wolf at (10,39) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the wolf.
+MESSAGE You have slain the wolf.
+MESSAGE # HIT:the wolf (+)
+MESSAGE # KILL:the wolf (+)
+MESSAGE # Forgetting a monster 'wolf' at (10,39)
+MESSAGE # Tracking a monster 'metallic blue centipede' at (11,37) from (11,36)
+MESSAGE # HIT:the wolf (2)
+MESSAGE # KILL:the wolf (2)
+MESSAGE # Flowing toward kill at cost 3
+MESSAGE # Tracking a monster 'metallic blue centipede' at (11,38) from (11,37)
+MESSAGE # Creating a monster 'wolf' at (9,40), HP: 25, Index: 153
+MESSAGE # Loc:11,39 Dep:18 Lev:10 HP:38/102 SP:0/0 Danger:p=6
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing metallic blue centipede at (11,38) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the metallic blue centipede.
+MESSAGE You have slain the metallic blue centipede.
+MESSAGE The wolf bites you.
+MESSAGE # HIT:the metallic blue centipede (+)
+MESSAGE # KILL:the metallic blue centipede (+)
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # Forgetting a monster 'metallic blue centipede' at (11,38)
+MESSAGE # Tracking a monster 'wolf' at (10,39) from (9,40)
+MESSAGE # Creating a monster 'wolf' at (9,40), HP: 21, Index: 153
+MESSAGE # HIT:the metallic blue centipede (2)
+MESSAGE # KILL:the metallic blue centipede (2)
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # Loc:11,39 Dep:18 Lev:10 HP:37/102 SP:0/0 Danger:p=20
+MESSAGE # Performing attack type 1 with value 46.
+MESSAGE # Facing wolf at (10,39) who has 25 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the wolf.
+MESSAGE You miss the wolf.
+MESSAGE The wolf misses you.
+MESSAGE # HIT:the wolf (+)
+MESSAGE # MISS:the wolf (+)
+MESSAGE # MISS_BY:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (11,38) from (10,39)
+MESSAGE # Tracking a monster 'wolf' at (9,39) from (9,40)
+MESSAGE # HIT:the wolf (2)
+MESSAGE # MISS:the wolf (2)
+MESSAGE # MISS_BY:The wolf (3)
+MESSAGE # Loc:11,39 Dep:18 Lev:10 HP:38/102 SP:0/0 Danger:p=35
+MESSAGE # Fleeing (failed to teleport)
+MESSAGE # Performing attack type 1 with value 46.
+MESSAGE # Facing wolf at (11,38) who has 14 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the wolf.
+MESSAGE The wolf flees in terror!
+MESSAGE The wolf bites you.
+MESSAGE # HIT:the wolf (+)
+MESSAGE # PAIN:The wolf (+)
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (10,39) from (9,39)
+MESSAGE # HIT:the wolf (2)
+MESSAGE # PAIN:The wolf (2)
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(2/1)
+MESSAGE # Loc:11,39 Dep:18 Lev:10 HP:35/102 SP:0/0 Danger:p=55
+MESSAGE # Retreating to 11,40 (distance 1) via 11,40 (55 > 37)
+MESSAGE The wolf misses you.
+MESSAGE The wolf bites you.
+MESSAGE # MISS_BY:The wolf (+)
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # Tracking a monster 'wolf' at (11,37) from (11,38)
+MESSAGE # MISS_BY:The wolf (3)
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # Loc:11,40 Dep:18 Lev:10 HP:31/102 SP:0/0 Danger:p=34
+MESSAGE # Performing attack type 1 with value 62.
+MESSAGE # Facing wolf at (10,39) who has 21 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the wolf.
+MESSAGE You hit the wolf.
+MESSAGE The wolf bites you.
+MESSAGE # MISS:the wolf (+)
+MESSAGE # HIT:the wolf (+)
+MESSAGE # HIT_BY:The wolf (+)
+MESSAGE # MISS:the wolf (2)
+MESSAGE # HIT:the wolf (2)
+MESSAGE # HIT_BY:The wolf (3)
+MESSAGE # Loc:11,40 Dep:18 Lev:10 HP:24/102 SP:0/0 Danger:p=34
+MESSAGE # Performing attack type 1 with value 62.
+MESSAGE # Facing wolf at (10,39) who has 8 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You miss the wolf.
+MESSAGE You hit the wolf.
+MESSAGE You have slain the wolf.
+MESSAGE Welcome to level 11.
+MESSAGE # MISS:the wolf (+)
+MESSAGE # HIT:the wolf (+)
+MESSAGE # KILL:the wolf (+)
+MESSAGE # Forgetting a monster 'wolf' at (10,39)
+MESSAGE # Creating a monster 'griffon' at (10,39), HP: 104, Index: 201
+MESSAGE # MISS:the wolf (2)
+MESSAGE # HIT:the wolf (2)
+MESSAGE # KILL:the wolf (2)
+MESSAGE # There was a monster 'wolf' at (11,37)
+MESSAGE # Forgetting a monster 'wolf' at (11,37)
+MESSAGE # Loc:11,40 Dep:18 Lev:11 HP:24/111 SP:0/0 Danger:p=25
+MESSAGE # Performing attack type 1 with value 38.
+MESSAGE # Facing griffon at (10,39) who has 104 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the griffon.
+MESSAGE The griffon hits you.
+MESSAGE The griffon bites you.
+MESSAGE # HIT:the griffon (+)
+MESSAGE # HIT_BY:The griffon (+)
+MESSAGE # HIT:the griffon (2)
+MESSAGE # HIT_BY:The griffon (3)
+MESSAGE # Loc:11,40 Dep:18 Lev:11 HP:11/111 SP:0/0 Danger:p=25
+MESSAGE # Performing attack type 1 with value 38.
+MESSAGE # Facing griffon at (10,39) who has 89 Hit Points.
+MESSAGE # Attacking with weapon 'Dagger (1d4) (+0,+0)'
+MESSAGE You hit the griffon.
+MESSAGE The griffon hits you.
+MESSAGE The griffon bites you.
+MESSAGE You die.

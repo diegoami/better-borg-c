@@ -4,7 +4,7 @@ Bugs always take priority. Each natural death gets a curated dossier with its ac
 
 To comment, open **Discuss** beside the case below. The linked GitHub investigation is the durable feedback thread; suggestions are checked against evidence and linked to actions. See [the feedback process](FEEDBACK.md). Chat feedback is copied there before it is considered tracked.
 
-Dossiers: 10; distinct starting conditions: 7; recorded death process attempts: 18 (including repeats/reference variants). This registry is not a survival-rate estimate.
+Dossiers: 11; distinct starting conditions: 8; recorded death process attempts: 19 (including repeats/reference variants). This registry is not a survival-rate estimate.
 
 | Case | Discussion | Actual source | Seed | Raw cause | Death turn | Diagnosis |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -18,6 +18,7 @@ Dossiers: 10; distinct starting conditions: 7; recorded death process attempts: 
 | [D0008](D0008-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `5c23742ced30` | 1668846659 | a grey mold | 10940 | native emergency/normal flow cache and escape-intent investigation; original-C source404 reported |
 | [D0009](D0009-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `1cd426af4848` | 2817460426 | starvation | 218620 | verified starvation/resource-return failure; original-C quiver-capacity pickup defect reported as source419 |
 | [D0010](D0010-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `1cd426af4848` | 2060687716 | a kobold | 6309 | verified retreat/archery opportunity investigation; no reusable gameplay defect established |
+| [D0011](D0011-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/322) | `867c777845fd` | 1907608236 | a griffon | 119600 | escape/equipment/healing-policy investigation; three source-checked mechanisms with native evidence; no reusable original-C defect established |
 
 ## Aggregated actions
 
@@ -32,11 +33,11 @@ Dossiers: 10; distinct starting conditions: 7; recorded death process attempts: 
 - [Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3](https://github.com/diegoami/better-borg-c/issues/34) — recorded owner observation; needs native causal investigation; cases D0002, D0003, D0004, D0005.
 - [Evaluate first Phase Door20293 versus legal fight/walk alternatives and crowd retreat at next decision20303](https://github.com/diegoami/better-borg-c/issues/34) — investigating; no rescue or implementation defect established; cases D0002, D0003, D0004, D0005.
 - [Evaluate early Phase Door/cure restock requirement linked to source370](https://github.com/diegoami/better-borg-c/issues/154) — proposed enhancement; no implementation or survival benefit established; cases D0002, D0003, D0004, D0005.
-- [Evaluate theft danger contribution and sensitivity of first escape choice](https://github.com/diegoami/better-borg-c/issues/158) — proposed analysis; runtime decomposition and survival/progress benefit unproved; cases D0002, D0003, D0004, D0005.
+- [Evaluate theft danger contribution and sensitivity of first escape choice](https://github.com/diegoami/better-borg-c/issues/158) — proposed analysis; runtime decomposition and survival/progress benefit unproved; cases D0002, D0003, D0004, D0005, D0011.
 - [Evaluate attempted door/upstairs retreat before repeated phases and after scroll exhaustion](https://github.com/diegoami/better-borg-c/issues/159) — proposed analysis; sleep timing, route knowledge and outcomes unproved; cases D0002, D0003, D0004, D0005, D0006, D0007.
-- [Evaluate identification-driven inventory and town trading, auditing existing sell-ID behavior](https://github.com/diegoami/better-borg-c/issues/180) — proposed enhancement; priority/knowledge value and costs need evidence; cases D0006.
+- [Evaluate identification-driven inventory and town trading, auditing existing sell-ID behavior](https://github.com/diegoami/better-borg-c/issues/180) — proposed enhancement; priority/knowledge value and costs need evidence; cases D0006, D0011.
 - [Evaluate ammunition reserves/spending, melee alternatives and combat preparedness](https://github.com/diegoami/better-borg-c/issues/181) — proposed analysis; no incorrect equipment choice or benefit proved; cases D0006.
-- [Evaluate early Recall retention and destination-aware delayed Deep Descent escape](https://github.com/diegoami/better-borg-c/issues/183) — investigating; Recall at Home and two five-level drops observed; rescue untested; cases D0006.
+- [Evaluate early Recall retention and destination-aware delayed Deep Descent escape](https://github.com/diegoami/better-borg-c/issues/183) — investigating; Recall at Home and two five-level drops observed; rescue untested; cases D0006, D0011.
 - [Label native sidebar HP/SP redraw lag without modifying original game cells](https://github.com/diegoami/better-borg-c/issues/178) — confirmed presentation defect; viewer correction and native-frame/PTY controls pass; cases D0006.
 - [Observe actual Borg spell/teleport/phase safety gates versus native readiness at179002/179022](https://github.com/diegoami/better-borg-c/issues/193) — needs evidence; original-C defect not established; cases D0007.
 - [Narrow source404 correction verified on actual product with before/after and negative controls; track upstream acceptance and separate population evaluation](https://github.com/diegoami/better-borg-c/issues/212) — carried; product regression/controls verified; upstream acceptance and population benefit remain open; cases D0008.
@@ -51,7 +52,10 @@ Dossiers: 10; distinct starting conditions: 7; recorded death process attempts: 
 - [Inspect legal bow attacks, accepted staircase path and retreat-before-attack priority at6285/6295; account for later carries](https://github.com/diegoami/better-borg-c/issues/239) — investigating; no gameplay change; cases D0010.
 - [Qualified native message/actual HP-loss/speed viewer channel](https://github.com/diegoami/better-borg-c/issues/240) — verified locally and hosted; delivery PR; cases D0010.
 - [Replay valid maximized-window recordings through separately qualified reader; retain malformed-input rejection](https://github.com/diegoami/better-borg-c/issues/238) — verified; delivery PR240; cases D0010.
-- [Known cure/escape preparedness before the dive](https://github.com/diegoami/better-borg-c/issues/41) — proposed; shared investigation; cases D0010.
+- [Known cure/escape preparedness before the dive](https://github.com/diegoami/better-borg-c/issues/41) — proposed; shared investigation; cases D0010, D0011.
+- [Observe borg_heal rungs/chance/fleeing guard at 119268-119596; assess the CL10 CLW tier when CLW is the only known cure](https://github.com/diegoami/better-borg-c/issues/319) — investigating; source-checked; no gameplay change; cases D0011.
+- [Observe borg_power/BI_BLOWS for Dagger vs Maul at 118611; assess depth-tied unidentified-weapon bonus and the CL<=10 blows bonus](https://github.com/diegoami/better-borg-c/issues/320) — needs evidence; source-derived cause; cases D0011.
+- [Classify every level change 55624-118552 and the no-known-up-stair fallback; compare D0009/235 and 159](https://github.com/diegoami/better-borg-c/issues/321) — needs evidence; cases D0011.
 
 Recurring mechanisms are grouped by canonical issue, not by number of replays. Investigations are hypotheses until native causal proof; original-C bugs route to neo-angband-tracker before source fix and consumer carry.
 

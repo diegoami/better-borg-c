@@ -1,0 +1,27 @@
+Original recording: frame 145716, engine turn 119588, phase tick; HP 24, SP 0, depth 18
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You hit the griffon. You hit the griffon. You hit the griffon.                  
+Half-Elf                                 ##########                             
+Swordsman                                #.:...#..                              
+Warrior                                  #.#.###.#                              
+LEVEL     11                             #.#.....#                              
+NXT      159                             #########                              
+AU      1769                                       #                            
+|} = ~(()]]]                                 #######.#####                      
+STR:   18/20                                 #...........#                      
+INT:       9                                 #########.####### # #              
+WIS:       7                                     #...............#              
+DEX:   18/20                                   # ###H#######+### #              
+CON:      15                                   #.....@.#                        
+                                               #########                        
+Cur AC    34                                                                    
+HP   24/ 111                                                                    
+                                                                                
+                                                                                
+[******----]                                                                    
+                                                                                
+                                                                                
+                                                                                
+900' (L18)                                                                      
+             LF:4-3 Light 3  Fed 23 % Open floor                                

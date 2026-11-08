@@ -118,7 +118,8 @@
         "D0002",
         "D0003",
         "D0004",
-        "D0005"
+        "D0005",
+        "D0011"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/158",
       "key": "theft-danger-weight",
@@ -141,7 +142,8 @@
     },
     {
       "cases": [
-        "D0006"
+        "D0006",
+        "D0011"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/180",
       "key": "identification-priority",
@@ -159,7 +161,8 @@
     },
     {
       "cases": [
-        "D0006"
+        "D0006",
+        "D0011"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/183",
       "key": "recall-deep-descent",
@@ -295,26 +298,55 @@
     },
     {
       "cases": [
-        "D0010"
+        "D0010",
+        "D0011"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/41",
       "key": "survival-stock",
       "status": "proposed; shared investigation",
       "summary": "Known cure/escape preparedness before the dive"
+    },
+    {
+      "cases": [
+        "D0011"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/319",
+      "key": "clw-tier",
+      "status": "investigating; source-checked; no gameplay change",
+      "summary": "Observe borg_heal rungs/chance/fleeing guard at 119268-119596; assess the CL10 CLW tier when CLW is the only known cure"
+    },
+    {
+      "cases": [
+        "D0011"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/320",
+      "key": "weapon-swap",
+      "status": "needs evidence; source-derived cause",
+      "summary": "Observe borg_power/BI_BLOWS for Dagger vs Maul at 118611; assess depth-tied unidentified-weapon bonus and the CL<=10 blows bonus"
+    },
+    {
+      "cases": [
+        "D0011"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/321",
+      "key": "climb-restock",
+      "status": "needs evidence",
+      "summary": "Classify every level change 55624-118552 and the no-known-up-stair fallback; compare D0009/235 and 159"
     }
   ],
-  "cases": 10,
+  "cases": 11,
   "causes_by_distinct_start": {
     "a gallant": 1,
     "a grey mold": 1,
+    "a griffon": 1,
     "a killer brown beetle": 1,
     "a kobold": 1,
     "a soldier": 1,
     "a stegocentipede": 1,
     "starvation": 1
   },
-  "death_process_attempts": 18,
-  "distinct_starting_conditions": 7,
+  "death_process_attempts": 19,
+  "distinct_starting_conditions": 8,
   "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
   "schema": "better-borg-c/death-index@1",
   "versions": {
@@ -327,6 +359,7 @@
     "3638b690525cd8a381cb106b4c5ee40652babde2": 2,
     "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc": 2,
     "5c23742ced30ad76ab9778cfa8bf23f04fc0eb1f": 1,
+    "867c777845fd7453f175da4692a8468c734f6380": 1,
     "e473720ed88a0f0c7ca66815cef3000eb4a38bc3": 2
   }
 }

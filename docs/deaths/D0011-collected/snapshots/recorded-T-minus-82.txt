@@ -1,0 +1,27 @@
+Original recording: frame 145616, engine turn 119518, phase tick; HP 38, SP 0, depth 18
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You hit the wolf. You have slain the wolf.                                      
+Half-Elf                                 ##########                             
+Soldier                                  #.:...#..                              
+Warrior                                  #.#.###.#                              
+LEVEL     10                             #.#.....#                              
+NXT       11                             #########                              
+AU      1769                                       #                            
+|} = ~(()]]]                                 #######.#####                      
+STR:   18/20                                 #...........#                      
+INT:       9                                 #########.####### # #              
+WIS:       7                                     #...............#              
+DEX:   18/20                                   # ###.#######+### #              
+CON:      15                                   #.c...@.#                        
+                                               #########                        
+Cur AC    34                                                                    
+HP   38/ 102                                                                    
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+900' (L18)                                                                      
+             LF:4-3 Light 3  Fed 23 % Open floor                                
