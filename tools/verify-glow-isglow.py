@@ -163,11 +163,12 @@ def main():
     assert b['unlit']['log_sha256'] == a['unlit']['log_sha256'], 'unlit log changed'
     assert a['unlit']['outcome'] == {'far_dark': 1}
     # torchlit: the fail-before/pass-after case. Before, the torch-lit floor
-    # is wrongly BORG_GLOW and the flow finds targets; after, it is
-    # BORG_LIGHT and the flow list is empty (the kit's own contract).
+    # is wrongly BORG_GLOW (alongside the pre-existing BORG_LIGHT marking)
+    # and the flow finds 9 targets; after, it is BORG_LIGHT only and the
+    # flow list is empty (the kit's own contract).
     assert not b['torchlit']['passed'] and b['torchlit']['outcome']['torchlit_marked_glow'] == 1
-    assert b['torchlit']['state']['near_glow'] == 1 and b['torchlit']['state']['near_light_flag'] == 0
-    assert b['torchlit']['outcome']['glow_n'] > 0
+    assert b['torchlit']['outcome']['glow_n'] == 9
+    assert b['torchlit']['state']['near_glow'] == 1 and b['torchlit']['state']['near_light_flag'] == 1
     assert a['torchlit']['passed']
     assert a['torchlit']['outcome'] == {'torchlit_marked_glow': 0, 'glow_n': 0}
     assert a['torchlit']['state']['near_glow'] == 0 and a['torchlit']['state']['near_light_flag'] == 1
