@@ -1,0 +1,58 @@
+From b0d8940b5522caa86ef3039185178d4a56360ad3 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 23:12:22 +0000
+Subject: [PATCH] Borg: look for poison and cut cures in the Alchemy shop
+
+When the Borg is poisoned or bleeding in town, borg_choose_shop() sets
+the Temple as its goal and borg_think_shop_buy_useful() only weighs
+the wares of that one store.  Both still use store index 3, which was
+the Temple in older versions.  In 4.2 index 3 is the Bookseller and the
+cure potions are sold in the Alchemy shop, index 4.
+
+So a poisoned or bleeding Borg only looked at books.  A character in
+town with gold and Potions of Cure Light Wounds on sale chose no shop
+at all, although the same character buys them when healthy.
+
+Use index 4, the Alchemy shop, in both places.
+
+Tracked as diegoami/neo-angband-tracker#23.
+
+(cherry picked from commit 09c28cd59c948fa03fb49349d30e7236b6d067ed)
+---
+ src/borg/borg-store-buy.c   | 3 ++-
+ src/borg/borg-think-store.c | 4 ++--
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/src/borg/borg-store-buy.c b/src/borg/borg-store-buy.c
+index e6841a92f..eb1be2b61 100644
+--- a/src/borg/borg-store-buy.c
++++ b/src/borg/borg-store-buy.c
+@@ -251,7 +251,8 @@ bool borg_think_shop_buy_useful(void)
+         if ((borg.trait[BI_LIGHT] == 0 || borg.trait[BI_FOOD] == 0) && k != 0
+             && k != BORG_HOME)
+             continue;
+-        if ((borg.trait[BI_ISCUT] || borg.trait[BI_ISPOISONED]) && k != 3)
++        /* Cures for poison and cuts are sold in the Alchemy shop */
++        if ((borg.trait[BI_ISCUT] || borg.trait[BI_ISPOISONED]) && k != 4)
+             continue;
+ 
+         /* Scan the wares */
+diff --git a/src/borg/borg-think-store.c b/src/borg/borg-think-store.c
+index 08f4c48db..f6796e14d 100644
+--- a/src/borg/borg-think-store.c
++++ b/src/borg/borg-think-store.c
+@@ -102,9 +102,9 @@ bool borg_choose_shop(void)
+     if (borg.goal.shop != -1 && borg.goal.ware != -1)
+         return true;
+ 
+-    /* If poisoned or bleeding -- flow to temple */
++    /* If poisoned or bleeding -- flow to the Alchemy shop */
+     if (borg.trait[BI_ISCUT] || borg.trait[BI_ISPOISONED])
+-        borg.goal.shop = 3;
++        borg.goal.shop = 4;
+ 
+     /* If Starving  -- flow to general store */
+     if (borg.trait[BI_FOOD] == 0
+-- 
+2.53.0
+
