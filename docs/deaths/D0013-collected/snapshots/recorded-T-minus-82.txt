@@ -1,0 +1,27 @@
+Original recording: frame 4534, engine turn 3634, phase tick; HP 12, SP 2, depth 1
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+                                                                                
+Dunadan                         #...............#                               
+Wanderer                        #...............#                               
+Druid                           #...............#  #######                      
+LEVEL      1                    #...............#  #.'.'..                      
+NXT       12                    #...............#  #.#.###                      
+AU        51                    #..e......@...e.#  #.#.#                        
+\ == ~                           #######'######'####.#.#                        
+STR:      16                           +.#    '.^.'....#                        
+INT:      12                           #'########.######                        
+WIS:   18/30                            . #.......#                             
+DEX:      10                            ######.######                           
+CON:   18/10                           .#....'<'....#                           
+                                      #'#############                           
+Cur AC    10                           .                                        
+HP   12/  13                          #                                         
+SP    2/   2                                                                    
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:2-? Light 3  Fed 86 % Open floor                                

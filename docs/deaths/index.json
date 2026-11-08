@@ -29,7 +29,8 @@
     },
     {
       "cases": [
-        "D0001"
+        "D0001",
+        "D0013"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/41",
       "key": "survival-stock-priority",
@@ -134,7 +135,8 @@
         "D0004",
         "D0005",
         "D0006",
-        "D0007"
+        "D0007",
+        "D0013"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/159",
       "key": "attempted-room-retreat",
@@ -347,7 +349,8 @@
     },
     {
       "cases": [
-        "D0012"
+        "D0012",
+        "D0013"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/327",
       "key": "worm-scary-rule",
@@ -355,20 +358,21 @@
       "summary": "Measure low-level worm-mass scary triggers and compare with the breeder caution threshold"
     }
   ],
-  "cases": 12,
+  "cases": 13,
   "causes_by_distinct_start": {
     "a gallant": 1,
     "a grey mold": 1,
     "a griffon": 1,
     "a killer brown beetle": 1,
     "a kobold": 1,
+    "a small kobold": 1,
     "a soldier": 1,
     "a stegocentipede": 1,
     "poison": 1,
     "starvation": 1
   },
-  "death_process_attempts": 20,
-  "distinct_starting_conditions": 9,
+  "death_process_attempts": 21,
+  "distinct_starting_conditions": 10,
   "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
   "schema": "better-borg-c/death-index@1",
   "versions": {
@@ -381,7 +385,7 @@
     "3638b690525cd8a381cb106b4c5ee40652babde2": 2,
     "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc": 2,
     "5c23742ced30ad76ab9778cfa8bf23f04fc0eb1f": 1,
-    "867c777845fd7453f175da4692a8468c734f6380": 2,
+    "867c777845fd7453f175da4692a8468c734f6380": 3,
     "e473720ed88a0f0c7ca66815cef3000eb4a38bc3": 2
   }
 }
