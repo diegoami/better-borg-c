@@ -1185,7 +1185,8 @@
    "evidence_ref": "af01d73ccfcbe6ad55e7fddb7f863a4e54999e0e",
    "verification": "docs/measurement/RESIST-POISON.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active after merge"
+   "verification_status": "merged; verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active",
+   "merge_commit": "b3c825c97c8aef18b252a7fb7d9b7dceef83d586"
   },
   {
    "id": "RESPOISWAR-185",
@@ -1203,7 +1204,8 @@
    "evidence_ref": "6f130a4eea68e0c2855bcbb257cf9158752d369b",
    "verification": "docs/measurement/RESIST-POISON.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active after merge"
+   "verification_status": "merged; verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active",
+   "merge_commit": "b3c825c97c8aef18b252a7fb7d9b7dceef83d586"
   }
  ]
 }
