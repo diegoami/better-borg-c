@@ -1147,6 +1147,25 @@
    "evidence_ref": "68b23b2a1b2eeb94d70a86e98375aaddaadf0951",
    "verification": "docs/measurement/COUNT-SELL.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "merged; verified on the unchanged source fixture and native gate; v1 traces identical; carried/open+patch-active",
+   "merge_commit": "828d5eec26626f0c588b83497b189fbb606e62bb"
+  },
+  {
+   "id": "CBUG-0235",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/263",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/235",
+   "source_head": "6d909bf5216c1e6c5ed199595d9ed3e5baf4b0d8",
+   "source_commits": [
+    "6d909bf5216c1e6c5ed199595d9ed3e5baf4b0d8"
+   ],
+   "applied_commits": [
+    "eb89278d7c312d236703e39b90d865b44397ec10"
+   ],
+   "patch": "patches/0061-drained-no-dive.patch",
+   "patch_active": true,
+   "evidence_ref": "557c85260f8b836ab2c8725fe8baa0910be38261",
+   "verification": "docs/measurement/DRAINED-DIVE.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "verified on the unchanged source fixture and native gate; v1 traces identical; carried/open+patch-active after merge"
   }
  ]
