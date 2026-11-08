@@ -10,8 +10,9 @@ See the [overall assessment](overall-assessment.md). A CL1 Druid sets off a sire
 steps into a doorway next to a floating eye, which paralyses it. It then spends its only Phase
 Door where a single step back would have done. A hard-coded scary rule makes one small kobold
 a reason to flee the level, and the kobold and an ant corner it. It had bought rings instead
-of cures. These are source-checked mechanisms with native position evidence. No reusable
-original-C defect or rescue is established.
+of cures. These are source-checked mechanisms with native position evidence. The owner's verified manual
+branch from 3651 survived by beating the kobold, testing the ant and fleeing to town. No
+reusable original-C defect or policy benefit is established.
 
 ## Action items
 
