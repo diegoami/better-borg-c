@@ -1,0 +1,31 @@
+From c61e90c9cdfb466336d3f564a1a3709f3daecc65 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 7 Nov 2026 17:27:55 +0100
+Subject: [PATCH] Borg: return the best Maim Foe score from the real call
+
+borg_attack_aux_maim_foe()'s real path saved the best target (b_i/b_d),
+aimed at it, and then returned d -- the score of the last monster the
+loop examined -- instead of b_d. With two adjacent monsters where the
+best one is examined first, the function reported the worse monster's
+score; the trailing 'if (borg_simulate) return d;' behind it was dead
+(the simulation path already returned b_d). Return b_d.
+---
+ src/borg/borg-fight-attack.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-fight-attack.c b/src/borg/borg-fight-attack.c
+index 62136e297..cd2ca0c02 100644
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -3498,7 +3498,7 @@ static int borg_attack_aux_maim_foe(void)
+     borg_spell(MAIM_FOE);
+     borg_keypress(I2D(dir));
+ 
+-    return d;
++    return b_d;
+ }
+ 
+ /* trying the Vampire Strike spell */
+-- 
+2.53.0
+

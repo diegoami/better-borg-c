@@ -881,6 +881,24 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured (behavior-neutral on the v1 cohort); carried/open+patch-active",
    "merge_commit": "7a02072cda8bc79cccabe3ad32d578e233a1edd1"
+  },
+  {
+   "id": "CBUG-0256",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/214",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/256",
+   "source_head": "91822d82ab394afc70d2640d1c2cc735af328056",
+   "source_commits": [
+    "91822d82ab394afc70d2640d1c2cc735af328056"
+   ],
+   "applied_commits": [
+    "c61e90c9cdfb466336d3f564a1a3709f3daecc65"
+   ],
+   "patch": "patches/0047-maimfoe-real-pass-score.patch",
+   "patch_active": true,
+   "evidence_ref": "ea1443bd6a98d4dcbb40c7d7224d2ce224f3bbca",
+   "verification": "docs/measurement/MAIMFOE-RETURN.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-maimfoe; awaiting normal PR merge"
   }
  ]
 }
