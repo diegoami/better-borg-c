@@ -1,0 +1,63 @@
+From e8a50ea9f5976afd075bcbb4d54dcf9d564b5df3 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 07:31:11 +0000
+Subject: [PATCH] Borg: keep default settings when borg.txt cannot be read or
+ written
+
+borg_init_txt_file() allocated and defaulted borg_cfg only after it had
+opened borg.txt.  When borg.txt was missing and the default file could
+not be written, it returned before that point, leaving borg_cfg NULL,
+and borg_init() crashed reading it.  If the written default could not be
+reopened, the parse loop read from a NULL file.
+
+Allocate the default settings before opening borg.txt, and return with
+those defaults (and a warning) when the written file cannot be reopened.
+
+Tracked as diegoami/neo-angband-tracker#144.
+
+(cherry picked from commit 8cbee69447cda2526b4810fd6ea74677921ff1d1)
+---
+ src/borg/borg-init.c | 18 +++++++++++-------
+ 1 file changed, 11 insertions(+), 7 deletions(-)
+
+diff --git a/src/borg/borg-init.c b/src/borg/borg-init.c
+index 60828ce33..26bd01b6a 100644
+--- a/src/borg/borg-init.c
++++ b/src/borg/borg-init.c
+@@ -188,6 +188,13 @@ bool borg_init_txt_file(void)
+         borg_init_failure = true;
+     }
+ 
++    /* allocate the config data */
++    borg_cfg = mem_alloc(sizeof(int) * BORG_MAX_SETTINGS);
++
++    /* start the config with the default values */
++    for (i = 0; i < BORG_MAX_SETTINGS; i++)
++        borg_cfg[i] = borg_settings[i].default_value;
++
+     char buf[1024];
+     path_build(buf, 1024, ANGBAND_DIR_USER, "borg.txt");
+ 
+@@ -224,15 +231,12 @@ bool borg_init_txt_file(void)
+         }
+         file_close(fp);
+         fp = file_open(buf, MODE_READ, -1);
++        if (!fp) {
++            borg_warning("*****WARNING***** unable to read default BORG.TXT file!");
++            return true;
++        }
+     }
+ 
+-    /* allocate the config data */
+-    borg_cfg = mem_alloc(sizeof(int) * BORG_MAX_SETTINGS);
+-
+-    /* start the config with the default values */
+-    for (i = 0; i < BORG_MAX_SETTINGS; i++)
+-        borg_cfg[i] = borg_settings[i].default_value;
+-
+     /* Parse the file */
+     while (file_getl(fp, buf, sizeof(buf) - 1)) {
+         /* Skip comments and blank lines */
+-- 
+2.53.0
+

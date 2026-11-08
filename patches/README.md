@@ -314,3 +314,9 @@ source155): the monster-adjacent flag is reset per candidate and a trap skips on
 grid instead of ending the scan. Three-mode fixture flips the monster and trap cases;
 the healthy control is byte-identical. Behaviour-active; v1 cohort mixed (seed 29 saved,
 seed 47 lost), recorded as observed.
+
+The fifty-seventh carry stops reading a borg.txt integer value at the first unexpected character (consumer #257, adopting source141): a malformed value made the parser spin forever. Fixture: hang (exit 2) to clean default; valid control byte-identical.
+
+The fifty-eighth carry negates a setting only when a number follows the minus sign (consumer #258, adopting source142): a bare minus flipped the stored default (127 to -127). Fixture: -127 to 127; valid and negative controls byte-identical.
+
+The fifty-ninth carry keeps default settings when borg.txt cannot be read or written (consumer #259, adopting source144): the configuration was NULL and the Borg crashed. Fixture: crash (exit 3) to clean default; present control byte-identical.
