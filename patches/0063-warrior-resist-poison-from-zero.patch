@@ -1,0 +1,35 @@
+From b81495995bad7e1c17cbf7ce7b51d7f22a9808ea Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 07:02:33 +0000
+Subject: [PATCH] Borg: count warriors' Resist Poison potions from zero
+
+In borg_power_inventory(), 'Reward Resistance Potions for Warriors'
+resets k before the Resist Heat and Resist Cold loops but not before the
+Resist Poison loop, which therefore starts at the Resist Cold count
+(capped at 4).  A warrior carrying four Resist Cold potions put no
+warrior value on its Resist Poison potions.
+
+Reset k before the poison loop, as before the other two.
+
+Tracked as diegoami/neo-angband-tracker#185.
+
+(cherry picked from commit c056daabf55e6a1713e68381ef4a72ec6fd349b9)
+---
+ src/borg/borg-power.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/borg/borg-power.c b/src/borg/borg-power.c
+index 277c3bccc..ab50c7a12 100644
+--- a/src/borg/borg-power.c
++++ b/src/borg/borg-power.c
+@@ -1210,6 +1210,7 @@ static int32_t borg_power_inventory(void)
+                 for (; k < 4 && k < borg.trait[BI_ARESCOLD]; k++)
+                     value += 500L;
+             }
++            k = 0;
+             /* collect pots if not immune */
+             if (!borg.trait[BI_IPOIS]) {
+                 for (; k < 4 && k < borg.trait[BI_ARESPOIS]; k++)
+-- 
+2.53.0
+

@@ -1,0 +1,38 @@
+From 089acfae4735f1b76d2fa2723cdbc44786647c4f Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 07:01:20 +0000
+Subject: [PATCH] Borg: count Resist Poison potions from zero in the inventory
+ power
+
+The 'collect Resistance pots if not immune' reward in
+borg_power_inventory() loops 'for (; k < 4 && k < BI_ARESPOIS; k++)'
+without resetting k, so it starts from wherever the previous loop left
+it: the low-calorie food count (capped at 15), or the Cure Serious
+Wounds count when cut or poisoned.  A borg carrying four or more apples,
+slime molds or similar therefore put no value at all on its Resist
+Poison potions.
+
+Reset k before the loop, as the neighbouring reward loops do.
+
+Tracked as diegoami/neo-angband-tracker#184.
+
+(cherry picked from commit 5e8d4c5e6c1006ce4c90e21a973b0f95bb9fa0db)
+---
+ src/borg/borg-power.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/borg/borg-power.c b/src/borg/borg-power.c
+index 26f80885b..277c3bccc 100644
+--- a/src/borg/borg-power.c
++++ b/src/borg/borg-power.c
+@@ -1185,6 +1185,7 @@ static int32_t borg_power_inventory(void)
+             && borg.trait[BI_MAXCLEVEL] < borg_cfg[BORG_MUNCHKIN_LEVEL]) {
+             /* Do not carry these until later */
+         } else {
++            k = 0;
+             for (; k < 4 && k < borg.trait[BI_ARESPOIS]; k++)
+                 value += 300L;
+         }
+-- 
+2.53.0
+
