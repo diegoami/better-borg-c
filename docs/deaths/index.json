@@ -52,7 +52,8 @@
         "D0004",
         "D0005",
         "D0006",
-        "D0007"
+        "D0007",
+        "D0012"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/34",
       "key": "heal-eligibility",
@@ -143,7 +144,8 @@
     {
       "cases": [
         "D0006",
-        "D0011"
+        "D0011",
+        "D0012"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/180",
       "key": "identification-priority",
@@ -189,7 +191,8 @@
     },
     {
       "cases": [
-        "D0008"
+        "D0008",
+        "D0012"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/212",
       "key": "emergency-flow-cache",
@@ -332,9 +335,18 @@
       "key": "climb-restock",
       "status": "needs evidence",
       "summary": "Classify every level change 55624-118552 and the no-known-up-stair fallback; compare D0009/235 and 159"
+    },
+    {
+      "cases": [
+        "D0012"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/324",
+      "key": "mold-retreat-loop",
+      "status": "needs evidence; recurs with FLOWCACHE-404 carried; no gameplay change",
+      "summary": "Observe caution retreat versus attack at adjacent decisions 27517/27537 and the flee-to-stairs re-approach; compare D0008 order"
     }
   ],
-  "cases": 11,
+  "cases": 12,
   "causes_by_distinct_start": {
     "a gallant": 1,
     "a grey mold": 1,
@@ -343,10 +355,11 @@
     "a kobold": 1,
     "a soldier": 1,
     "a stegocentipede": 1,
+    "poison": 1,
     "starvation": 1
   },
-  "death_process_attempts": 19,
-  "distinct_starting_conditions": 8,
+  "death_process_attempts": 20,
+  "distinct_starting_conditions": 9,
   "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
   "schema": "better-borg-c/death-index@1",
   "versions": {
@@ -359,7 +372,7 @@
     "3638b690525cd8a381cb106b4c5ee40652babde2": 2,
     "45eac63bd9f7cabe3c4ef1607703324ca8dae0fc": 2,
     "5c23742ced30ad76ab9778cfa8bf23f04fc0eb1f": 1,
-    "867c777845fd7453f175da4692a8468c734f6380": 1,
+    "867c777845fd7453f175da4692a8468c734f6380": 2,
     "e473720ed88a0f0c7ca66815cef3000eb4a38bc3": 2
   }
 }
