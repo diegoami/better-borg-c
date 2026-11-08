@@ -1569,6 +1569,24 @@
    "verification": "docs/measurement/NECKDEAD-47.md",
    "credit": "Diego Amicabile (native proposal/evidence); owner decision 2026-11-08 option C (cleanup, no behaviour change)",
    "verification_status": "cleanup carry: the kit asserts all four amulet-count controls byte-identical before/after (no behaviour change); native gate at each stacked step; carried/open+patch-active after merge"
+  },
+  {
+   "id": "LIGHTBEAM-88",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/316",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/88",
+   "source_head": "828318ab58cbedc3f90cfe1a343ebd314257933b",
+   "source_commits": [
+    "828318ab58cbedc3f90cfe1a343ebd314257933b"
+   ],
+   "applied_commits": [
+    "ffa3cd8bd14ab8b6b612d957fce63b435325f2e2"
+   ],
+   "patch": "patches/0084-light-beam-panel-edge-row.patch",
+   "patch_active": true,
+   "evidence_ref": "90e5fc16bfad3e7fd9ea4eff35ec9e95271b382a",
+   "verification": "docs/measurement/LIGHTBEAM-88.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }

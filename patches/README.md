@@ -369,3 +369,5 @@ The eighty-first carry lights the grids beside the west edge of the lantern radi
 The eighty-second carry credits stat and other modifier bonuses in the item value guess (consumer #311, adopting source70): items whose worth is in their modifiers were misvalued and the lesser item was sold. The statring and speed modes flip; the nomods control is byte-identical.
 
 The eighty-third carry removes the unreachable second amulet tier from the home score (consumer #312, adopting source47/CBUG-0031; owner decision 2026-11-08 option C): a cleanup with no behaviour change — the kit's four amulet-count controls are byte-identical before/after.
+
+The eighty-fourth carry tests the light beam's panel-edge rule against the row on the panel (consumer #316, adopting source88/CBUG-0072): north/south beams were refused below dungeon row 20 on a 22-row panel because the rule compared the absolute dungeon row instead of the row on the panel. The scrolled and scrolled_south modes flip; the top control is byte-identical.
