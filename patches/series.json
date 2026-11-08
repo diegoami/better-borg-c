@@ -1052,7 +1052,26 @@
    "evidence_ref": "366fd1b08c4d0c3815bbb90be2457c372e757ff4",
    "verification": "docs/measurement/DESPERATE-STAIRS.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on the unchanged source fixture and native gate; v1 outcomes unchanged; carried/open+patch-active after merge"
+   "verification_status": "merged; verified on the unchanged source fixture and native gate; v1 outcomes unchanged; carried/open+patch-active",
+   "merge_commit": "f0e10ee1236a800f9b538e609b24afca4b864ff5"
+  },
+  {
+   "id": "CBUG-0139",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/254",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/155",
+   "source_head": "df5361ad5cc3977c75a86061ad0d944568885d77",
+   "source_commits": [
+    "df5361ad5cc3977c75a86061ad0d944568885d77"
+   ],
+   "applied_commits": [
+    "86d01e947126e81b2debae4a3d7fe14517e29d9f"
+   ],
+   "patch": "patches/0056-back-away-per-grid.patch",
+   "patch_active": true,
+   "evidence_ref": "fa0293e587d8ab7e8e2e90e5fade853a2cfcd0ef",
+   "verification": "docs/measurement/BACK-AWAY.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on the unchanged source fixture and native gate; v1 cohort mixed (seed 29 saved, seed 47 lost, issue 255), recorded as observed; carried/open+patch-active after merge"
   }
  ]
 }
