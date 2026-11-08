@@ -5,6 +5,15 @@ session/rules/checkpoint, contain inherited publishers, build and run the native
 baseline, then register a verified workspace recovery pin. No gameplay changes
 are part of bootstrap. Live readiness/results belong to checkpoint1.
 
+## Measurement watchdog UTF-8 correction (2026-11-08)
+
+Tooling issue220: a growing trace read could split an encoded character before
+partial-line rejection. The minimal tolerant live read preserves strict final
+validation; deterministic six-split regression and native M2/4333 completion
+are recorded in [verification](docs/measurement/WATCHDOG-UTF8.md). Frozen v1
+before/after traces and outcomes match byte for byte; no gameplay carry or zoo
+mutation. Zoo pin/merge and exact-head gate receipts belong on220/checkpoint1.
+
 ## Owner-directed zoo stall investigation (2026-11-07/08)
 
 Bug-first [consumer204](https://github.com/diegoami/better-borg-c/issues/204)

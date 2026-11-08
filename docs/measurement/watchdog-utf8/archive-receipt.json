@@ -1,0 +1,9 @@
+{
+  "local_archive": "/home/diego/projects/angband-workspace/better-borg-c/artifacts/watchdog-utf8/evidence.tar.gz",
+  "sha256": "74c72bb65efc2efa83df65b84ed56fe08c62c50ce39bb3a3bb8707348a86733a",
+  "bytes": 60069393,
+  "members": 114,
+  "all_member_sha256_readback_verified": true,
+  "manifest_sha256": "3d5a562538540fe5d4563b837d7ecf72d2bb1c053ffe63d6fc7e1cc0d956d154",
+  "hosting": "Persistent local ignored evidence, not claimed hosted"
+}

@@ -9,6 +9,13 @@
     "instructions": "docs/measurement/ZOO-STALL-1045.md",
     "state": "investigation-complete-source403-awaiting-correction-boundary5-6-secondary-not-reproduced"
   },
+  "measurement_watchdog_utf8": {
+    "issue": "https://github.com/diegoami/better-borg-c/issues/220",
+    "branch": "task/watchdog-utf8",
+    "fix_commit": "56ccf741c5663a64da61a94d625003c2e52cd4a6",
+    "instructions": "docs/measurement/WATCHDOG-UTF8.md",
+    "state": "fixed-and-verified-final-harness-pin-on-issue220"
+  },
   "scope": "Native C bug-fix adoption, reproducible execution/measurement, baseline statistics and failure analysis; no new gameplay strategies",
   "checkpoint": "https://github.com/diegoami/better-borg-c/issues/1",
   "source_repository": "diegoami/neo-angband-tracker",
