@@ -1,0 +1,40 @@
+From ffa3cd8bd14ab8b6b612d957fce63b435325f2e2 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 22:14:09 +0100
+Subject: [PATCH] Borg: test the light beam's panel-edge rule against the row
+ on the panel
+
+borg_light_beam() refuses to cast north or south "on the edge of
+shifting the panel", but it compared the Borg's absolute dungeon row
+with the panel height instead of its row on the panel. With a 22-row map
+panel a north or south beam was therefore only ever cast in the top 21
+rows of the dungeon, whatever part of the map was on screen. Subtract
+the panel offset first, as the shift-panel code in borg-fight-defend.c
+does.
+
+Tracked as diegoami/neo-angband-tracker#88.
+
+(cherry picked from commit 828318ab58cbedc3f90cfe1a343ebd314257933b)
+---
+ src/borg/borg-light.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-light.c b/src/borg/borg-light.c
+index 13f50db6d..45059d582 100644
+--- a/src/borg/borg-light.c
++++ b/src/borg/borg-light.c
+@@ -818,9 +818,9 @@ bool borg_light_beam(bool simulation)
+     /* Don't do it if on the edge of shifting the panel. */
+     if (dir == 5 || spell_ok == false || blocked == true
+         || (dir == 2
+-            && (borg.c.y > borg_panel_hgt() - 2))
++            && (borg.c.y - Term->offset_y > borg_panel_hgt() - 2))
+         || (dir == 8
+-            && (borg.c.y > borg_panel_hgt() - 2)))
++            && (borg.c.y - Term->offset_y > borg_panel_hgt() - 2)))
+         return false;
+ 
+     /* simulation */
+-- 
+2.53.0
+
