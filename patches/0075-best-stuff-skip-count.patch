@@ -1,0 +1,48 @@
+From 7b97f0f88dbb734e37c3cc16c43c78a17a50384e Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:04:03 +0000
+Subject: [PATCH] Borg: keep the skip count across the best-equipment search
+
+borg_one_step_wearing_best() carries out, one step at a time, the
+equipment changes planned at home by borg_best_stuff().  When the next
+change cannot be made because the pack or the home is full, it calls
+itself with skip + 1 to try the following change instead.
+
+The skip counter was declared inside the search loop, so it was reset to
+skip on every pass and never reached zero: with skip > 0 every remaining
+planned change was skipped, not just the first skip of them.  The step
+then did nothing, and when the list ended on empty entries the plan was
+discarded.  A change that could still be made (for example wearing a
+cloak into an empty slot, which also frees the pack slot the blocked
+change needs) was never tried.
+
+Declare the counter once, before the loop.
+
+Tracked as diegoami/neo-angband-tracker#85.
+
+(cherry picked from commit 5d73e0c2120b450428f2417db325041c1b6d3da9)
+---
+ src/borg/borg-item-wear.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-item-wear.c b/src/borg/borg-item-wear.c
+index eae1da2b0..dfa4550d7 100644
+--- a/src/borg/borg-item-wear.c
++++ b/src/borg/borg-item-wear.c
+@@ -1084,10 +1084,11 @@ static bool borg_one_step_wearing_best(int skip)
+     if (!borg.goal.best_item)
+         return false;
+ 
++    /* skip some if there are issues with full inventory */
++    int skipping = skip;
++
+     /* find a change */
+     while (true) {
+-        /* skip some if there are issues with full inventory */
+-        int skipping = skip;
+         if (borg.goal.best_item[item_num].tval
+             || borg.goal.best_item[item_num].pval
+             || borg.goal.best_item[item_num].sval) {
+-- 
+2.53.0
+
