@@ -919,6 +919,25 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured (behavior-neutral on the v1 cohort); carried/open+patch-active",
    "merge_commit": "b9e64aa855139001cf63a95b11ce8934c5777b1e"
+  },
+  {
+   "id": "FLOWCACHE-404",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/212",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/404",
+   "source_head": "b71b32c152e272886cb46bb8f253e8c4f5130711",
+   "source_commits": [
+    "b71b32c152e272886cb46bb8f253e8c4f5130711"
+   ],
+   "applied_commits": [
+    "257e7b473e56d6e9cf69c8dcdbc13e9039a42b5b"
+   ],
+   "patch": "patches/0049-flow-danger-cache.patch",
+   "patch_active": true,
+   "evidence_ref": "89326f5216148ab47a18585236678c391bb4e559",
+   "evidence_receipt": "f15794d2f2128714988596bfa036748d63a8f407",
+   "verification": "docs/measurement/FLOW-DANGER-CACHE.md",
+   "credit": "Diego Amicabile (owner death feedback; native C proposal/evidence); related independent borg-rs grey-mold diagnosis",
+   "verification_status": "applied; product gates, native scenario/negative controls and prior regressions verified; impact measurement pending"
   }
  ]
 }
