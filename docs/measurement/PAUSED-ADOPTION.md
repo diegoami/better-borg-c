@@ -29,10 +29,8 @@ no claim either way. Archive `artifacts/rf-measurement.tar.gz` in the `measure-r
 ## Not done (to resume)
 
 1. Series entries, README ledger lines and measurement documents for 0064/0065 (use
-   `docs/measurement/CONFIG-PARSER.md` as the stacked-pair template); fold the merge commit of the
-   milestone 6 package into nothing (already recorded).
-2. Commit patch files `patches/0064-spastic-reverse-flow-unoptimized.patch` and
-   `patches/0065-glyph-reverse-flow-unoptimized.patch` (generated, present in the worktree).
+   `docs/measurement/CONFIG-PARSER.md` as the stacked-pair template).
+2. The patch files `patches/0064-...` and `patches/0065-...` are already committed on the branch.
 3. PR, hosted checks, merge, labels, source receipts, checkpoint.
 4. Also ready and unstarted: swapacid-199. Not carriable: prepreason-234 (fixture pending), staircycle-403
    (awaits 204), tapunlife-249 (masked).
