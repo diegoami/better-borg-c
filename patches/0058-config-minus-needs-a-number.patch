@@ -1,0 +1,47 @@
+From 0ceeaadbb62a0fd2d4d09e38816023de21a4e630 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 07:37:57 +0000
+Subject: [PATCH] Borg: negate a setting only when a number follows the minus
+ sign
+
+borg_proc_setting() remembered a '-' and negated the setting after the
+loop, whether or not any digits were read.  A bare minus sign with no
+number therefore negated the setting's default: 'borg_no_deeper = -'
+gave -127, and borg_prepared() then reported 'No deeper -127.' for every
+depth, so the borg never went deeper than the first level.
+
+Apply the sign only when the number is read.
+
+Tracked as diegoami/neo-angband-tracker#142.
+
+(cherry picked from commit 6bc43e71a4b36189ba7246abe53f114d6259469c)
+---
+ src/borg/borg-init.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+diff --git a/src/borg/borg-init.c b/src/borg/borg-init.c
+index 808263230..60828ce33 100644
+--- a/src/borg/borg-init.c
++++ b/src/borg/borg-init.c
+@@ -138,6 +138,8 @@ static bool borg_proc_setting(
+             }
+             if (isdigit((unsigned char)ch)) {
+                 borg_cfg[setting] = atoi(line);
++                if (negative)
++                    borg_cfg[setting] *= -1;
+                 break;
+             }
+         }
+@@ -146,9 +148,6 @@ static bool borg_proc_setting(
+         break;
+     }
+ 
+-    if (negative)
+-        borg_cfg[setting] *= -1;
+-
+     return true;
+ }
+ 
+-- 
+2.53.0
+
