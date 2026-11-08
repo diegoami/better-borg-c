@@ -1,0 +1,33 @@
+From 6373f9b8aad1276c9cd7e99a1df7f4ff93d2ab95 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 17:45:19 +0100
+Subject: [PATCH] Borg: count Banishment scrolls in the home score
+
+The home score rewards Scrolls of Banishment through num_genocide, but
+nothing ever counted them: the scroll scan only counted Mass Banishment.
+The reward was always zero, so the Borg never kept a Banishment scroll in
+the home. Count them.
+
+Tracked as diegoami/neo-angband-tracker#54.
+
+(cherry picked from commit e49ab94809d6f18d0b1d155ff2b1bc6ba8d3db78)
+---
+ src/borg/borg-home-notice.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/borg/borg-home-notice.c b/src/borg/borg-home-notice.c
+index 4f45ff184..dca4ff18e 100644
+--- a/src/borg/borg-home-notice.c
++++ b/src/borg/borg-home-notice.c
+@@ -737,6 +737,8 @@ static void borg_notice_home_aux(borg_item *in_item, bool no_items)
+                 num_teleport_level += item->iqty;
+             else if (item->sval == sv_scroll_recharging)
+                 num_recharge += item->iqty;
++            else if (item->sval == sv_scroll_banishment)
++                num_genocide += item->iqty;
+             else if (item->sval == sv_scroll_mass_banishment)
+                 num_mass_genocide += item->iqty;
+ 
+-- 
+2.53.0
+
