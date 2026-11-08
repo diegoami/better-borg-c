@@ -25,7 +25,7 @@ and receipted on its source issue.
 | 0061 drainedive | [235](https://github.com/diegoami/neo-angband-tracker/issues/235) `6d909bf52` | `eb89278d7` | `31e71f087` | #263 | `557c85260` | `DRAINED-DIVE.md` |
 | 0062 respois | [184](https://github.com/diegoami/neo-angband-tracker/issues/184) `5e8d4c5e6` | `089acfae4` | `b3c825c97` | #266 | `af01d73cc` | `RESIST-POISON.md` |
 | 0063 respoiswar | [185](https://github.com/diegoami/neo-angband-tracker/issues/185) `c056daabf` | `b81495995` | `b3c825c97` | #267 | `6f130a4ee` | `RESIST-POISON.md` |
-| overlap (no patch) | [250](https://github.com/diegoami/neo-angband-tracker/issues/250) `e890819a6` | already in 0012 | `eea2eee96` | #200 | `6f6710ccc` | `TP-OTHER-READER.md` |
+| overlap (no patch) | [250](https://github.com/diegoami/neo-angband-tracker/issues/250) `e890819a6` | already in 0012 | `eea2eee96` | #200 | `6f6710ccc` | `TP-OTHER-READER.md` (owner: fold into #67, see review M6-03) |
 
 Every carry is a `cherry-pick -x` of one reviewed C-only source commit. Three carry an owner decision
 recorded on the source issue (245, 246 and 156, each "option 1"); for the others no owner decision comment
@@ -147,17 +147,15 @@ documentation corrections and one verification condition before the tag.**
 | --- | --- | --- |
 | M6-01 | minor | Applied: contract item 1 reworded (not exercised becomes not observed, with the measured fact). |
 | M6-02 | minor-to-major | Applied in option (b) form: contract item 5 corrected and the review's spot-checks recorded with attribution; the full matrix is **not** rerun and its runner is still uncommitted. |
-| M6-03 | minor | **Open, owner decision:** source issue 250 carries an unanswered owner question (posted 2026-11-08T11:04:53Z: keep tpreader-250 as a separate pair, or fold it into #67?). The consumer disposition (overlap, no new patch) matches "fold into #67", and was reached before that question was answered. |
+| M6-03 | minor | **Resolved by the owner:** source issue 250 carried an unanswered owner question (posted 2026-11-08T11:04:53Z: keep tpreader-250 as a separate pair, or fold it into #67?). The consumer disposition (overlap, no new patch) was reached before that question was answered; the owner then chose **fold into #67**, relayed on source 250 and #67 on 2026-11-08. Closing source PRs #380/#381 and the writer-side triage are left to the source lane. |
 | M6-04 | observation | Applied: two clarifications added to the disclosure index. |
 | M6-05 | observation | Applied: the 0055/0056 interaction caveat added to the cumulative-run paragraph. |
 
-No external verdict beyond this review exists. The tag `4.2.6-impact-v6` is not created by this document.
+No external verdict beyond this review exists. The tag `4.2.6-impact-v6` (annotated) was created and pushed on the runtime snapshot `b3c825c97c8aef18b252a7fb7d9b7dceef83d586` after the owner's answer on source 250, following v1-v5 (runtime commit, not the docs commit). Its message records that the full regression matrix was not rerun.
 
 ## Exact next work
 
-1. Owner answer on source 250 (M6-03).
+1. Done: owner answer on source 250 (fold into #67); tag `4.2.6-impact-v6` pushed on `b3c825c97`.
 2. Commit the regression-matrix runner as a tool before milestone 7 so the matrix can be rerun (follow-up).
-3. Tag `4.2.6-impact-v6` on the runtime snapshot `b3c825c97c8aef18b252a7fb7d9b7dceef83d586` (not the docs
-   commit), following v1-v5, once the owner confirms the conditions above are met.
-4. Next carries: spastic-146 and glyphflow-345 (reverse-flow pair), swapacid-199; recheck the source board;
+3. Next carries: spastic-146 and glyphflow-345 (reverse-flow pair), swapacid-199; recheck the source board;
    diagnose 249 and 255 before any strategy change.
