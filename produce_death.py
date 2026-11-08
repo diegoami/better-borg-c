@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect a natural recorded death, stopping after a fixed bounded set of games."""
+"""Collect all natural deaths from a bounded batch of fresh recorded games."""
 import argparse
 from collections import Counter
 from datetime import datetime, timezone
@@ -219,12 +219,13 @@ def collect(args, output, seeds, commit):
     configuration = 'borg_save_death = 1\n'
     munchkin = bool(getattr(args, 'munchkin', False))
     if munchkin:
-        configuration += 'borg_munchkin_start = TRUE\n'    # Freeze all potential starts and limits BEFORE build/run results; stopping at
-    # the first death is declared sampling, never a survival-rate experiment.
+        configuration += 'borg_munchkin_start = TRUE\n'
+    # Freeze all starts and limits BEFORE results. Run every listed seed unless
+    # an operational failure prevents safe collection; do not extend the budget.
     plan = {'schema': 'borg-death-collection@1', 'created_at': workflow.now(),
             'requested_source_commit': commit, 'source_commit': None, 'seeds': seeds, 'turn_cap': args.turns,
             'wall_limit_per_game_seconds': args.timeout, 'stall_timeout_seconds': args.stall_timeout,
-            'stop_rule': 'first natural death, operational failure other than wall timeout, or listed seeds exhausted; time/turn limits start the next seed',
+            'stop_rule': 'listed seeds exhausted or operational failure other than wall timeout; deaths and time/turn limits start the next fresh character',
             'birth_policy': getattr(args, 'birth', 'random'),
             'borg_parameters': {'borg_munchkin_start':munchkin, 'borg_save_death':True},
             'requested_configuration_sha256':hashlib.sha256(configuration.encode()).hexdigest(),
@@ -268,11 +269,14 @@ def collect(args, output, seeds, commit):
                     # remains a death, while recording/export qualification may fail.
                     entry['dossier'] = str(export_death(run, args.death_issue))
                     entry['assessment'] = 'unassessed; owner replay and agent brainstorming pending'
-                    plan['status'] = 'natural_death_recorded'
                     workflow.write(output / 'collection.json', plan)
                     print(f"Natural death: {entry['dossier']}")
                     print('Next: ./replay_next_death.py; full death analysis remains pending.')
-                    return 1 if code else 0
+                    if code or result.get('error'):
+                        raise ValueError(f'Operational failure after death export; retained evidence: {run}')
+                    if index < len(seeds):
+                        print('Continuing with the next fresh character.', flush=True)
+                    continue
                 if result['outcome'] == 'wall_timeout' and code in (0, 1) and not result.get('error'):
                     print(f'No early death within {args.timeout}s; evidence retained: {run}', flush=True)
                     if index < len(seeds):
@@ -280,9 +284,14 @@ def collect(args, output, seeds, commit):
                     continue
                 if code or result.get('error') or result['outcome'] not in ('turn_cap', 'completion'):
                     raise ValueError(f'Operational failure; retained evidence: {run}')
-        plan['status'] = 'limits_reached_without_death'
+        deaths = plan['counts'].get('death', 0)
+        plan['status'] = 'completed_with_deaths' if deaths else 'limits_reached_without_death'
         workflow.write(output / 'collection.json', plan)
-        print('No natural death within the declared games/limits. No cohort enlargement performed.')
+        print(f'Batch complete: {len(plan["runs"])} games; {deaths} natural deaths registered.', flush=True)
+        for entry in plan['runs']:
+            if entry.get('dossier'):
+                print(f"Death: seed {entry['seed']} — {entry['dossier']}", flush=True)
+        print('Reports index: ' + str(reports.collection_summary(output, plan)), flush=True)
         return 0
     except (Exception, KeyboardInterrupt) as exc:
         plan.update(status='failed', error=str(exc))
@@ -295,7 +304,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--birth', choices=('random', 'fixed'), default='random', help='new characters: random race/class (default), or fixed Human Warrior')
     p.add_argument('--munchkin', action='store_true', help='start the existing native munchkin mode; recorded in configuration (default off)')
-    p.add_argument('--games', type=int, help='maximum fresh characters (default3); time/turn limits try next seed, first death/error stops')
+    p.add_argument('--games', type=int, help='fresh characters (default3); deaths and time/turn limits continue, operational errors stop')
     p.add_argument('--seed', type=int, help='first uint32 seed (default random); subsequent seeds are consecutive')
     p.add_argument('--seeds', nargs='+', type=int, help='explicit prospective seed list instead of --games/--seed')
     p.add_argument('--turns', type=int, default=200000, help='absolute engine-turn cap per new game (default200000)')
