@@ -1090,7 +1090,8 @@
    "evidence_ref": "a3164a61b830bf1c67e10017f9a2be7dec9a1763",
    "verification": "docs/measurement/CONFIG-PARSER.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active after merge"
+   "verification_status": "merged; verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active",
+   "merge_commit": "d4f9bb5c92179fcc4107d357af3882738d482aff"
   },
   {
    "id": "CBUG-0126",
@@ -1108,7 +1109,8 @@
    "evidence_ref": "18f79a3cc631b76b55524e9253a79f383fd6d9a3",
    "verification": "docs/measurement/CONFIG-PARSER.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active after merge"
+   "verification_status": "merged; verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active",
+   "merge_commit": "d4f9bb5c92179fcc4107d357af3882738d482aff"
   },
   {
    "id": "CBUG-0128",
@@ -1126,7 +1128,26 @@
    "evidence_ref": "1ff9ca1e59d639b6693b9bcb40190c6d836c6fa9",
    "verification": "docs/measurement/CONFIG-PARSER.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active after merge"
+   "verification_status": "merged; verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active",
+   "merge_commit": "d4f9bb5c92179fcc4107d357af3882738d482aff"
+  },
+  {
+   "id": "CBUG-0118",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/261",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/134",
+   "source_head": "026a42d3fcdfcbedaaef12c6f39200e38ecbd2ed",
+   "source_commits": [
+    "026a42d3fcdfcbedaaef12c6f39200e38ecbd2ed"
+   ],
+   "applied_commits": [
+    "93cbfbda08f91693a7c9bbb1ef9eb8df14860333"
+   ],
+   "patch": "patches/0060-count-sell-skips-unidentified-single.patch",
+   "patch_active": true,
+   "evidence_ref": "68b23b2a1b2eeb94d70a86e98375aaddaadf0951",
+   "verification": "docs/measurement/COUNT-SELL.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on the unchanged source fixture and native gate; v1 traces identical; carried/open+patch-active after merge"
   }
  ]
 }

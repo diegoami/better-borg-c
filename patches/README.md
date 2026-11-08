@@ -320,3 +320,8 @@ The fifty-seventh carry stops reading a borg.txt integer value at the first unex
 The fifty-eighth carry negates a setting only when a number follows the minus sign (consumer #258, adopting source142): a bare minus flipped the stored default (127 to -127). Fixture: -127 to 127; valid and negative controls byte-identical.
 
 The fifty-ninth carry keeps default settings when borg.txt cannot be read or written (consumer #259, adopting source144): the configuration was NULL and the Borg crashed. Fixture: crash (exit 3) to clean default; present control byte-identical.
+
+The sixtieth carry skips an unidentified single item in the sell count instead of
+returning zero (consumer #261, adopting source134): a full pack with one such item looked
+empty and the Borg dived instead of selling. Three-mode fixture flips the full-unid case
+(sellable 0 to 15, stays up); the full control is byte-identical; v1 traces identical.
