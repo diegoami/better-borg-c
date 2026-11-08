@@ -216,14 +216,19 @@ def show_collection_commands(directory, make_reports=False):
 
 
 def collect(args, output, seeds, commit):
-    # Freeze all potential starts and limits BEFORE build/run results; stopping at
+    configuration = 'borg_save_death = 1\n'
+    munchkin = bool(getattr(args, 'munchkin', False))
+    if munchkin:
+        configuration += 'borg_munchkin_start = TRUE\n'    # Freeze all potential starts and limits BEFORE build/run results; stopping at
     # the first death is declared sampling, never a survival-rate experiment.
     plan = {'schema': 'borg-death-collection@1', 'created_at': workflow.now(),
             'requested_source_commit': commit, 'source_commit': None, 'seeds': seeds, 'turn_cap': args.turns,
             'wall_limit_per_game_seconds': args.timeout, 'stall_timeout_seconds': args.stall_timeout,
             'stop_rule': 'first natural death, operational failure other than wall timeout, or listed seeds exhausted; time/turn limits start the next seed',
             'birth_policy': getattr(args, 'birth', 'random'),
-            'character': ('Random race and class' if getattr(args, 'birth', 'random') == 'random' else 'Human Warrior') + '; default point buy; native Borg defaults; death evidence on; cheat death and winner respawn off',
+            'borg_parameters': {'borg_munchkin_start':munchkin, 'borg_save_death':True},
+            'requested_configuration_sha256':hashlib.sha256(configuration.encode()).hexdigest(),
+            'character': ('Random race and class' if getattr(args, 'birth', 'random') == 'random' else 'Human Warrior') + '; default point buy; native Borg settings with declared overrides; death evidence on; cheat death and winner respawn off',
             'runner_sha256': workflow.sha(Path(__file__)), 'issue': args.death_issue,
             'runs': [], 'counts': {}, 'status': 'preparing',
             'limit': 'Death collection, not an unbiased survival-rate cohort; all attempted outcomes retained.'}
@@ -243,7 +248,7 @@ def collect(args, output, seeds, commit):
                 print(f'Game {index}/{len(seeds)}; seed {seed}; cap {args.turns}', flush=True)
                 code = measurement.run(SimpleNamespace(build=build, output=run, seed=seed, cap=args.turns,
                     timeout=args.timeout, stall_timeout=args.stall_timeout, no_saves=False, load=None,
-                    recording=True, random_birth=getattr(args, 'birth', 'random') == 'random', configuration='borg_save_death = 1\n'))
+                    recording=True, random_birth=getattr(args, 'birth', 'random') == 'random', configuration=configuration))
                 result = workflow.read(run / 'result.json')
                 print('Character: ' + result.get('character', 'unknown'), flush=True)
                 entry.update(outcome=result['outcome'], cause=result.get('cause'), character=result.get('character'),
@@ -289,6 +294,7 @@ def collect(args, output, seeds, commit):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--birth', choices=('random', 'fixed'), default='random', help='new characters: random race/class (default), or fixed Human Warrior')
+    p.add_argument('--munchkin', action='store_true', help='start the existing native munchkin mode; recorded in configuration (default off)')
     p.add_argument('--games', type=int, help='maximum fresh characters (default3); time/turn limits try next seed, first death/error stops')
     p.add_argument('--seed', type=int, help='first uint32 seed (default random); subsequent seeds are consecutive')
     p.add_argument('--seeds', nargs='+', type=int, help='explicit prospective seed list instead of --games/--seed')

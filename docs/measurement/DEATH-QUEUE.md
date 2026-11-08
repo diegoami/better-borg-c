@@ -218,3 +218,25 @@ not invent a character sheet.
 `--reports` may run a short native save-load/formatting diagnostic under the
 shared validation lock; it does not continue the game or change the cohort.
 Generated summaries/native dumps stay outside Git beside the raw runs.
+
+## Start in the native munchkin mode
+
+```sh
+./produce_death.py --games 3 --timeout 120 --munchkin
+```
+
+`--munchkin` appends `borg_munchkin_start = TRUE` to the isolated run's Borg
+configuration and freezes that requested parameter/configuration hash in the
+collection plan before outcomes. Race/class remain random unless `--birth fixed`
+is supplied. Without the flag the old default configuration bytes are unchanged.
+Native level/depth limits and other settings remain their existing defaults;
+this flag selects existing behavior and adds no new gameplay policy. Cheat death
+and winner respawn stay off. Reports and natural-death export work as usual.
+
+Native smoke: fixed Human Warrior, seed11,200turn cap/30s wall, one game;
+effective native `BORG_OPTIONS` records munchkin_start1,cheat_death0,respawn0;
+turn-cap alive with both short report and native character dump produced.
+This short setup test verifies the option reaches the native Borg, not the
+long-term quality/liveness of the mode. Known source403/consumer204 stair-cycle
+investigation remains separate: the normal stall/time bounds stay active, and
+an operational stall stops collection rather than becoming a death or survivor.

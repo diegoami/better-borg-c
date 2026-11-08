@@ -97,7 +97,7 @@ class OwnerQueue(unittest.TestCase):
 class Collection(unittest.TestCase):
     def options(self, **kw):
         return SimpleNamespace(games=kw.get('games'), seed=kw.get('seed'), seeds=kw.get('seeds'),
-            turns=100, timeout=2, stall_timeout=1, death_issue='issue', build=None)
+            turns=100, timeout=2, stall_timeout=1, death_issue='issue', build=None, munchkin=kw.get('munchkin',False))
 
     def test_prospective_seeds_unique_and_no_mixed_seed_modes(self):
         self.assertEqual(producer.seeds_for(self.options(games=2, seed=0xffffffff)), [0xffffffff, 0])
@@ -116,20 +116,25 @@ class Collection(unittest.TestCase):
                     producer.prepare_build(args, 'pin')
             native.assert_not_called()
 
-    def simulate(self, outcomes, export_error=False, result_error=None):
+    def simulate(self, outcomes, export_error=False, result_error=None, munchkin=False):
         with tempfile.TemporaryDirectory() as d:
             output = Path(d) / 'collection'
             output.mkdir()
             build = Path(d) / 'build'
             build.mkdir()
             (build / 'build.json').write_text('{}')
-            args = self.options(seeds=[3, 4, 5])
+            args = self.options(seeds=[3, 4, 5], munchkin=munchkin)
             calls = []
             def native(options):
                 # Contract is frozen before ANY outcomes and before build starts.
                 plan = producer.workflow.read(output / 'collection.json')
                 self.assertEqual(plan['seeds'], [3, 4, 5])
                 self.assertTrue(options.random_birth)
+                self.assertEqual(plan['borg_parameters']['borg_munchkin_start'],munchkin)
+                if munchkin:
+                    self.assertIn('borg_munchkin_start = TRUE',options.configuration)
+                else:
+                    self.assertEqual(options.configuration,'borg_save_death = 1\n')
                 calls.append(options.seed)
                 outcome = outcomes[len(calls)-1]
                 options.output.mkdir()
@@ -151,6 +156,12 @@ class Collection(unittest.TestCase):
                 except ValueError:
                     code = 1
                 return code, calls, producer.workflow.read(output / 'collection.json'), export.call_count
+
+    def test_munchkin_is_frozen_before_runs_without_changing_bounds(self):
+        code,calls,plan,exports=self.simulate(['turn_cap']*3,munchkin=True)
+        self.assertEqual((code,calls,exports),(0,[3,4,5],0))
+        self.assertTrue(plan['borg_parameters']['borg_munchkin_start'])
+        self.assertEqual((plan['turn_cap'],plan['wall_limit_per_game_seconds']),(100,2))
 
     def test_first_death_stops_and_exports_without_relabelling_caps(self):
         code, calls, plan, exports = self.simulate(['turn_cap', 'death'])
