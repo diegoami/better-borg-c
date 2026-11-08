@@ -138,6 +138,8 @@ static bool borg_proc_setting(
             }
             if (isdigit((unsigned char)ch)) {
                 borg_cfg[setting] = atoi(line);
+                if (negative)
+                    borg_cfg[setting] *= -1;
                 break;
             }
         }
@@ -145,9 +147,6 @@ static bool borg_proc_setting(
         /* anything else is not a value: keep the default */
         break;
     }
-
-    if (negative)
-        borg_cfg[setting] *= -1;
 
     return true;
 }
