@@ -128,7 +128,7 @@ bool record_input_replay(ui_event *event, bool wait, bool take, int *result)
         &w, &t, result, &type, &code, &mods, &x, &y, &button, &head, &tail,
         &disconnect, &width, &height) != 14)
         quit("Replay input exhausted or malformed");
-    if (w != wait || t != take || width < 1 || width > 255 || height < 1 || height > 255
+    if (w != wait || t != take || width < 1 || width > 4096 || height < 1 || height > 4096 || (long)width * height > 1048576
         || head < 0 || head >= Term->key_size || tail < 0 || tail >= Term->key_size)
         quit("Replay terminal call/geometry diverged");
     if (width != Term->wid || height != Term->hgt) Term_resize(width, height);

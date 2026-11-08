@@ -240,3 +240,8 @@ This short setup test verifies the option reaches the native Borg, not the
 long-term quality/liveness of the mode. Known source403/consumer204 stair-cycle
 investigation remains separate: the normal stall/time bounds stay active, and
 an operational stall stops collection rather than becoming a death or survivor.
+
+Owner preference2026-11-08: subsequent death collection uses **normal Borg**.
+Do not start new munchkin game runs unless the owner explicitly requests it
+again. Historical movies keep their actual parameters; the CLI flag remains
+available for explicit reproduction, not an instruction to run that mode.
