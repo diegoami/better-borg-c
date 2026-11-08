@@ -365,3 +365,7 @@ The seventy-ninth carry keeps the multiplier-kill timer when checking whether to
 The eightieth carry avoids every shop entrance that is not the goal shop (consumer #307, adopting source125): the avoidance covered only one layout case and the borg could step onto another shop while passing it. The offrow control is byte-identical.
 
 The eighty-first carry lights the grids beside the west edge of the lantern radius (consumer #309, adopting source40): the west block added grids two rows above and below (already covered by the north/south blocks) instead of one row, so grids one row off and two columns west were never marked lit and a monster standing there counted as never-in-light. The east control is byte-identical.
+
+The eighty-second carry credits stat and other modifier bonuses in the item value guess (consumer #311, adopting source70): items whose worth is in their modifiers were misvalued and the lesser item was sold. The statring and speed modes flip; the nomods control is byte-identical.
+
+The eighty-third carry removes the unreachable second amulet tier from the home score (consumer #312, adopting source47/CBUG-0031; owner decision 2026-11-08 option C): a cleanup with no behaviour change — the kit's four amulet-count controls are byte-identical before/after.

@@ -1533,6 +1533,42 @@
    "verification": "docs/measurement/LIGHTWEST-40.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "MODCREDIT-70",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/311",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/70",
+   "source_head": "46c6188eccb54bd0571e0a527145f7fd7ed756c3",
+   "source_commits": [
+    "46c6188eccb54bd0571e0a527145f7fd7ed756c3"
+   ],
+   "applied_commits": [
+    "ebe5504da451f47cb8c5665f78d5ca9ccbba7c77"
+   ],
+   "patch": "patches/0082-item-value-modifier-credit.patch",
+   "patch_active": true,
+   "evidence_ref": "0af6c5af047a55d80a228c431509c6bab07b1168",
+   "verification": "docs/measurement/MODCREDIT-70.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge"
+  },
+  {
+   "id": "NECKDEAD-47",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/312",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/47",
+   "source_head": "e9080f35f1d2e8c8166116d0025d2e61e499899e",
+   "source_commits": [
+    "e9080f35f1d2e8c8166116d0025d2e61e499899e"
+   ],
+   "applied_commits": [
+    "ffce4c4f40eaa886dd1032c20abc3856ed2bf8bc"
+   ],
+   "patch": "patches/0083-home-amulet-dead-tier.patch",
+   "patch_active": true,
+   "evidence_ref": "3885bfcd07dd13063c361002e8f5048a1df19325",
+   "verification": "docs/measurement/NECKDEAD-47.md",
+   "credit": "Diego Amicabile (native proposal/evidence); owner decision 2026-11-08 option C (cleanup, no behaviour change)",
+   "verification_status": "cleanup carry: the kit asserts all four amulet-count controls byte-identical before/after (no behaviour change); native gate at each stacked step; carried/open+patch-active after merge"
   }
  ]
 }
