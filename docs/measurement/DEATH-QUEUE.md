@@ -264,3 +264,17 @@ earlier successful death. These are simulated control outcomes, not ten newly
 played native games or a population measurement. Existing native death export,
 reports and queue validation remain required. No native collection was started
 just to test the new loop.
+
+## Reading collector output
+
+Build selection, collection plan, each game and the final batch summary have
+separate headings. Game results show the outcome, character, elapsed seconds
+and final recorded turn/level/depth. Watch, manual-play and queue commands
+appear on separate indented lines with blank space for easy copying; report
+paths are labeled separately.
+
+Interactive terminals use colored headings/status and bright cyan commands.
+Redirected/piped output stays plain text, and `NO_COLOR=1` or `TERM=dumb`
+disables color. Existing recording identities and stored commands remain plain
+text. The layout takes effect on the next invocation; an already running batch
+continues with its loaded script.

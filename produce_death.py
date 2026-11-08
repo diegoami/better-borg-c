@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 import importlib.util
 import hashlib
 import json
+import os
 from pathlib import Path
 import secrets
 import shlex
@@ -28,6 +29,47 @@ measurement = load('producer_measurement', 'measure-native.py')
 reports = load('producer_reports', 'run-report.py')
 BUILD_TOOLS = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h', 'native-spells.h')
 DEFAULT_ISSUE = 'https://github.com/diegoami/better-borg-c/issues/163'
+
+
+def styled(text, code, stream=None):
+    stream = stream if stream is not None else sys.stdout
+    if stream.isatty() and 'NO_COLOR' not in os.environ and os.environ.get('TERM') != 'dumb':
+        return f'\033[{code}m{text}\033[0m'
+    return str(text)
+
+
+def section(title):
+    print('\n' + styled('─' * 64, '2'), flush=True)
+    print(styled(title, '1;34') + '\n', flush=True)
+
+
+def detail(label, value):
+    print(f'{label + ":":18} {value}', flush=True)
+
+
+def command_block(label, command):
+    print('\n' + styled(label + ':', '1'), flush=True)
+    print('  ' + styled(command, '1;36') + '\n', flush=True)
+
+
+def print_result(result):
+    outcome = result['outcome']
+    label = {'death': 'DIED', 'turn_cap': 'ALIVE — turn limit reached',
+             'wall_timeout': 'TIME LIMIT — not a recorded death',
+             'completion': 'COMPLETED'}.get(outcome, outcome.upper())
+    code = '1;31' if outcome == 'death' else ('1;32' if outcome in ('turn_cap', 'completion') else '1;33')
+    print('\n' + styled(label, code), flush=True)
+    detail('Character', result.get('character', 'unknown'))
+    seconds = result.get('wall_seconds')
+    if seconds is not None:
+        detail('Elapsed', f'{seconds:.1f} seconds')
+    states = result.get('states') or []
+    if states:
+        state = states[-1]
+        detail('Progress', f"turn {state['turn']:,} | level {state.get('level', '?')} | max depth {state.get('max_depth', '?')}")
+    if outcome == 'death' and result.get('cause'):
+        detail('Cause', result['cause'])
+    print(flush=True)
 
 
 def seeds_for(args):
@@ -108,14 +150,18 @@ def choose_build(args, commit):
 
 def announce_build(choice, commit):
     description = measurement.git('show', '-s', '--format=%s', commit)
-    print(f'Requested source: {commit[:12]} — {description}', flush=True)
+    section('Build selection')
+    detail('Requested source', f'{commit[:12]} — {description}')
     if choice.reuse:
         source = choice.manifest['source_commit']
-        print(f'Current matching build: {source[:12]} — reusing {choice.path}', flush=True)
+        print(styled(f'Current matching build: {source[:12]} — reusing cached build', '32'), flush=True)
+        detail('Build directory', choice.path)
         if source != commit:
             print('Game/Borg sources and carry ledger match the requested revision; build provenance retains its original commit.', flush=True)
     else:
-        print(f'No matching recording build. Will build/update to {commit[:12]} at {choice.path}', flush=True)
+        print(styled(f'No matching recording build. Will build/update to {commit[:12]}.', '33'), flush=True)
+        detail('Build directory', choice.path)
+        print(flush=True)
 
 
 def approve_build(args, choice):
@@ -187,9 +233,9 @@ def recording_commands(run, result):
 
 def print_recording_commands(commands):
     if commands:
-        print('Watch: ' + commands['replay_command'], flush=True)
+        command_block('Watch', commands['replay_command'])
         if commands.get('manual_play_command'):
-            print('Play yourself (verifies prefix first): ' + commands['manual_play_command'], flush=True)
+            command_block('Play yourself (verifies prefix first)', commands['manual_play_command'])
 
 
 def show_collection_commands(directory, make_reports=False):
@@ -197,16 +243,17 @@ def show_collection_commands(directory, make_reports=False):
     for entry in plan['runs']:
         run = Path(entry['directory'])
         if not (run / 'result.json').is_file():
-            print(f"Seed {entry['seed']}: no finalized recording available yet.")
+            section(f"Seed {entry['seed']} — no finalized recording available yet")
             continue
         result = workflow.read(run / 'result.json')
-        print(f"Seed {entry['seed']}: {result['outcome']}")
+        section(f"Seed {entry['seed']}")
+        print_result(result)
         if make_reports:
             path, _ = reports.create(run, result)
-            print('Report: ' + str(path), flush=True)
+            detail('Report', path)
             continue
         elif (run / 'reports/summary.md').is_file():
-            print('Report: ' + str(run / 'reports/summary.md'), flush=True)
+            detail('Report', run / 'reports/summary.md')
         commands = recording_commands(run, result)
         print_recording_commands(commands)
         if not commands:
@@ -246,18 +293,22 @@ def collect(args, output, seeds, commit):
                 entry = {'seed': seed, 'directory': str(run), 'outcome': 'harness_failure'}
                 plan['runs'].append(entry)
                 workflow.write(output / 'collection.json', plan)
-                print(f'Game {index}/{len(seeds)}; seed {seed}; cap {args.turns}', flush=True)
+                section(f'Game {index} / {len(seeds)}')
+                detail('Seed', seed)
+                detail('Turn cap', f'{args.turns:,}')
+                detail('Wall-time limit', f'{args.timeout} seconds')
+                print('\nRunning headless game…', flush=True)
                 code = measurement.run(SimpleNamespace(build=build, output=run, seed=seed, cap=args.turns,
                     timeout=args.timeout, stall_timeout=args.stall_timeout, no_saves=False, load=None,
                     recording=True, random_birth=getattr(args, 'birth', 'random') == 'random', configuration=configuration))
                 result = workflow.read(run / 'result.json')
-                print('Character: ' + result.get('character', 'unknown'), flush=True)
+                print_result(result)
                 entry.update(outcome=result['outcome'], cause=result.get('cause'), character=result.get('character'),
                              result_sha256=workflow.sha(run / 'result.json'), wall_seconds=result.get('wall_seconds'),
                              final=result.get('states', [None])[-1] if result.get('states') else None)
                 report_path, _ = reports.create(run, result)
                 entry['report'] = str(report_path)
-                print('Report: ' + str(report_path), flush=True)
+                detail('Report', report_path)
                 reports.collection_summary(output, plan)
                 commands = recording_commands(run, result)
                 entry.update(commands)
@@ -270,8 +321,9 @@ def collect(args, output, seeds, commit):
                     entry['dossier'] = str(export_death(run, args.death_issue))
                     entry['assessment'] = 'unassessed; owner replay and agent brainstorming pending'
                     workflow.write(output / 'collection.json', plan)
-                    print(f"Natural death: {entry['dossier']}")
-                    print('Next: ./replay_next_death.py; full death analysis remains pending.')
+                    print(styled('Death registered; full analysis remains pending.', '1;31'), flush=True)
+                    detail('Dossier', entry['dossier'])
+                    command_block('Review the next unreviewed death', './replay_next_death.py')
                     if code or result.get('error'):
                         raise ValueError(f'Operational failure after death export; retained evidence: {run}')
                     if index < len(seeds):
@@ -287,11 +339,15 @@ def collect(args, output, seeds, commit):
         deaths = plan['counts'].get('death', 0)
         plan['status'] = 'completed_with_deaths' if deaths else 'limits_reached_without_death'
         workflow.write(output / 'collection.json', plan)
-        print(f'Batch complete: {len(plan["runs"])} games; {deaths} natural deaths registered.', flush=True)
+        section('Batch complete')
+        detail('Games attempted', len(plan['runs']))
+        detail('Deaths registered', deaths)
+        print(flush=True)
         for entry in plan['runs']:
             if entry.get('dossier'):
                 print(f"Death: seed {entry['seed']} — {entry['dossier']}", flush=True)
-        print('Reports index: ' + str(reports.collection_summary(output, plan)), flush=True)
+        detail('Reports index', reports.collection_summary(output, plan))
+        command_block('Show reports and replay commands again', shlex.join(['./produce_death.py', '--commands', str(output)]))
         return 0
     except (Exception, KeyboardInterrupt) as exc:
         plan.update(status='failed', error=str(exc))
@@ -350,10 +406,18 @@ def main():
         if not output.is_relative_to(workflow.primary_root() / 'artifacts'):
             raise ValueError('Full run output must stay under the primary checkout artifacts directory')
         output.mkdir(parents=True, exist_ok=False)
-        print(f'Pinned source: {commit}\nProspective seeds: {seeds}\nEvidence: {output}', flush=True)
+        section('Collection plan')
+        detail('Pinned source', commit)
+        detail('Games', len(seeds))
+        detail('Mode', 'munchkin' if args.munchkin else 'normal Borg')
+        detail('Turn cap / game', f'{args.turns:,}')
+        detail('Timeout / game', f'{args.timeout} seconds')
+        detail('Prospective seeds', ', '.join(map(str, seeds)))
+        detail('Evidence', output)
+        print(flush=True)
         return collect(args, output, seeds, commit)
     except (OSError, ValueError, KeyError, subprocess.CalledProcessError) as exc:
-        print(str(exc), file=sys.stderr)
+        print('\n' + styled('Stopped: ', '1;31', sys.stderr) + str(exc) + '\n', file=sys.stderr, flush=True)
         return 1
 
 
