@@ -1,0 +1,40 @@
+From 93cbfbda08f91693a7c9bbb1ef9eb8df14860333 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 07:35:35 +0000
+Subject: [PATCH] Borg: skip an unidentified item when counting things to sell
+
+borg_count_sell() counts the pack items worth selling; the result decides
+whether a low-level borg should stop diving and go to town to sell
+(count of 13 or more).  On an unidentified item that is not part of a
+stack it returned false -- a count of 0 -- instead of skipping that one
+item, and it left the borg's traits as computed for its last trial
+removal (the final borg_notice() was skipped).
+
+So one unidentified item made a full pack look empty, and the borg kept
+taking down staircases instead of going up to sell.
+
+Skip the item with 'continue', as the surrounding filters do.
+
+Tracked as diegoami/neo-angband-tracker#134.
+
+(cherry picked from commit 026a42d3fcdfcbedaaef12c6f39200e38ecbd2ed)
+---
+ src/borg/borg-store-sell.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-store-sell.c b/src/borg/borg-store-sell.c
+index 9fcfd53b3..906d5826a 100644
+--- a/src/borg/borg-store-sell.c
++++ b/src/borg/borg-store-sell.c
+@@ -1221,7 +1221,7 @@ int borg_count_sell(void)
+         if (borg_item_note_needs_id(item)) {
+             /* note if we have more than one */
+             if (!borg_has_mutiple(item))
+-                return false;
++                continue;
+         }
+ 
+         /* Don't sell my needed potion/wands/staff/scroll collection */
+-- 
+2.53.0
+

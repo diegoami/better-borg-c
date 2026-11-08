@@ -1,0 +1,47 @@
+From 30bc61d37a72933a30f0c5425ce3993208a2e24f Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 03:24:23 +0100
+Subject: [PATCH] Borg: only raise the munchkin stair range when it increases
+
+The munchkin stair-range adjustment adds (clevel - 10) + (10 - depth)
+to the base range of 8 whenever the depth is at most 10. Below
+character level 10 the first term is negative, so the "increase"
+shrinks the range instead: a level-5 Borg at depth 10 gets range 3, a
+level-1 Borg range -1. With the shrunk range no staircase counts as
+close, and the munchkin Borg stops power-climbing toward stairs it can
+see (the formula's design point is clevel >= 10, where the range does
+grow).
+
+Gate the adjustment on clevel > 10, per the comment's own "increase"
+intent: below level 10 the range returns to the base 8; at level 10
+and above the previous growth is unchanged.
+
+Tracked as diegoami/neo-angband-tracker#245.
+
+(cherry picked from commit c16b3e9d14470dd19ef884f37f9eca2f7cc7d37f)
+---
+ src/borg/borg-think-dungeon.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-think-dungeon.c b/src/borg/borg-think-dungeon.c
+index 4efebabb4..33a343aef 100644
+--- a/src/borg/borg-think-dungeon.c
++++ b/src/borg/borg-think-dungeon.c
+@@ -582,8 +582,12 @@ static bool borg_think_dungeon_munchkin(void)
+     borg.goal.fleeing_munchkin = true;
+     borg.goal.fleeing          = true;
+ 
+-    /* Increase the range of the borg a bit */
+-    if (borg.trait[BI_CDEPTH] <= 10)
++    /* Increase the range of the borg a bit.  Only when the character
++     * level term can be positive: below level 10 it is negative and the
++     * "increase" would shrink the range instead (a level-5 borg at depth
++     * 10 would get range 3 against the base 8, and stop climbing toward
++     * stairs it can see). */
++    if (borg.trait[BI_CDEPTH] <= 10 && borg.trait[BI_CLEVEL] > 10)
+         closeness
+             += (borg.trait[BI_CLEVEL] - 10) + (10 - borg.trait[BI_CDEPTH]);
+ 
+-- 
+2.53.0
+

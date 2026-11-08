@@ -1,0 +1,63 @@
+From 4a88e67f96e55ab354e94d65d8dd5b98d5171252 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 06:56:48 +0000
+Subject: [PATCH] Borg: head for the nearest free staircase when desperate
+
+The 'Desperation Head for stairs' check in borg_caution() measures how
+far the nearest free up and down staircases are, then dashes for one
+that is a step or two away.  Both scans kept the farthest staircase
+instead ('skip the closer ones'), so a second, distant staircase of the
+same kind on the level hid a staircase right next to the borg.
+
+A badly hurt borg with a monster beside it and an up staircase two steps
+away therefore skipped the dash whenever it also knew a far staircase,
+and fell through to its other escapes; with no teleport available it
+read Word of Recall and stayed next to the monster.
+
+Keep the nearest free staircase in both scans, matching their comments
+and the closeness tests that follow.
+
+Tracked as diegoami/neo-angband-tracker#153.
+
+(cherry picked from commit 62768100602b693ed5845f0e5749830563d7e3b3)
+---
+ src/borg/borg-caution.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/src/borg/borg-caution.c b/src/borg/borg-caution.c
+index 7cc354e76..19cdf5c0d 100644
+--- a/src/borg/borg-caution.c
++++ b/src/borg/borg-caution.c
+@@ -1306,8 +1306,8 @@ bool borg_caution(void)
+             if (ag->kill)
+                 continue;
+ 
+-            /* skip the closer ones */
+-            if (b_j >= j)
++            /* skip the farther ones */
++            if (b_j <= j && b_j != -1)
+                 continue;
+ 
+             /* track it */
+@@ -1321,15 +1321,15 @@ bool borg_caution(void)
+ 
+             ag = &borg_grids[y][x];
+ 
+-            /* How far is the nearest up stairs */
++            /* How far is the nearest down stairs */
+             m = distance(borg.c, loc(x, y));
+ 
+             /* Skip stairs if a monster is on the stair */
+             if (ag->kill)
+                 continue;
+ 
+-            /* skip the closer ones */
+-            if (b_m >= m)
++            /* skip the farther ones */
++            if (b_m <= m && b_m != -1)
+                 continue;
+ 
+             /* track it */
+-- 
+2.53.0
+

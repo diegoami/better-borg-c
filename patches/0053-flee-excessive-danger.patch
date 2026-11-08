@@ -1,0 +1,40 @@
+From 26811540dd23b382f0a80ab2f3011806f1f81b50 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 07:05:32 +0000
+Subject: [PATCH] Borg: flee excessive danger unless going after Morgoth
+
+The 'Excessive danger' check in borg_caution() starts fleeing when the
+danger at the borg's grid is more than twice its hit points, and its
+comment says 'do not flee level if going after Morgoth or fighting a
+unique'.  The condition required borg.ready_morgoth == 1, which is only
+true once the borg is ready to face Morgoth, so in ordinary play the
+check never fired and only the Morgoth-ready borg fled here.
+
+Test ready_morgoth != 1, as the comment describes.  A badly hurt borg
+in excessive danger now starts fleeing at once, which lets the following
+escapes (such as the dash for a staircase a step or two away) apply to
+it; a borg going after Morgoth no longer flees from this check.
+
+Tracked as diegoami/neo-angband-tracker#156.
+
+(cherry picked from commit 007d45483832b2792ddde1b2c368b67975365496)
+---
+ src/borg/borg-caution.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-caution.c b/src/borg/borg-caution.c
+index 313e3fe31..31aee65cd 100644
+--- a/src/borg/borg-caution.c
++++ b/src/borg/borg-caution.c
+@@ -1089,7 +1089,7 @@ bool borg_caution(void)
+         /* do not flee level if going after Morgoth or fighting a unique */
+         if (!borg.goal.fleeing && !borg.near.unique
+             && (borg.trait[BI_CLEVEL] < 50) && !borg.status.vault
+-            && (borg.trait[BI_CDEPTH] < 100 && borg.ready_morgoth == 1)) {
++            && (borg.trait[BI_CDEPTH] < 100 && borg.ready_morgoth != 1)) {
+             /* Note */
+             borg_note("# Fleeing (excessive danger)");
+ 
+-- 
+2.53.0
+

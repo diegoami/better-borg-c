@@ -1,0 +1,46 @@
+From dafc4bd45c5cc45fa0a435ced1a956512fbdcafc Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 06:51:03 +0000
+Subject: [PATCH] Borg: let the spastic search reverse flow reach other grids
+
+borg_flow_spastic() looks for grids next to walls where a secret door
+could be found, using a reverse flow from the borg to measure how far
+each grid is.  It asked for an optimized spread, but the reverse flow
+starts at the borg's own grid with cost 0, and an optimized spread stops
+as soon as the next cost (1) exceeds the origin's cost.  Every other
+grid kept the unreachable cost and was skipped.
+
+So the search could only ever choose the grid the borg already stood
+on: from the middle of a room it found nothing and never moved, and
+standing next to a wall it searched that grid and then kept choosing it
+again instead of moving on.
+
+Spread the reverse flow without optimization, as the helper's own
+comment ('do NOT optimize') intends.
+
+Tracked as diegoami/neo-angband-tracker#146.
+
+(cherry picked from commit f97311e5d52de4dda8d75058114c52acbdac2674)
+---
+ src/borg/borg-flow-misc.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-flow-misc.c b/src/borg/borg-flow-misc.c
+index 749e3858f..81c526a36 100644
+--- a/src/borg/borg-flow-misc.c
++++ b/src/borg/borg-flow-misc.c
+@@ -548,8 +548,9 @@ bool borg_flow_spastic(bool bored)
+         return false;
+     }
+ 
+-    /* Reverse flow */
+-    borg_flow_reverse(250, true, false, false, -1, false);
++    /* Reverse flow, not optimized: it starts at the borg's own grid (cost 0)
++     * and an optimized spread stops before reaching any other grid. */
++    borg_flow_reverse(250, false, false, false, -1, false);
+ 
+     /* Scan the entire map */
+     for (y = 1; y < AUTO_MAX_Y - 1; y++) {
+-- 
+2.53.0
+

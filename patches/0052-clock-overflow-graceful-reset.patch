@@ -1,0 +1,54 @@
+From 49f9c19df2b7157594498eb81091c8f4c6dbdbf6 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 03:32:17 +0100
+Subject: [PATCH] Borg: reset the clock gracefully instead of aborting at the
+ threshold
+
+borg_think_dungeon() aborted the borg with borg_oops("clock
+overflow") once borg.time.now reached BORG_TIME_MAX - 3000. The
+graceful clock reset in borg_think() only fires at BORG_TIME_MAX -
+100, so the abort always won about 2900 turns earlier and the graceful
+reset was unreachable: an aborted borg never thinks again, the clock
+never advances, and the only handler the borg ever exercised was the
+panic.
+
+Reset the clock in place (the same borg.time.now = 1 assignment the
+borg_think() overflow check performs) and keep playing; borg_think()'s
+check remains as a failsafe in case the reset is somehow missed.
+
+Tracked as diegoami/neo-angband-tracker#246.
+
+(cherry picked from commit 7cc0ebbd2016afeaaf57c5e976251b67f7c0e147)
+---
+ src/borg/borg-think-dungeon.c | 14 ++++++++------
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+
+diff --git a/src/borg/borg-think-dungeon.c b/src/borg/borg-think-dungeon.c
+index 33a343aef..a3dd50f89 100644
+--- a/src/borg/borg-think-dungeon.c
++++ b/src/borg/borg-think-dungeon.c
+@@ -1287,13 +1287,15 @@ bool borg_think_dungeon(void)
+         return true;
+     }
+ 
+-    /* Prevent clock wrapping Step 2 */
++    /* Prevent clock wrapping Step 2: reset the clock gracefully and keep
++     * playing.  This must run before any panic: the borg_think() overflow
++     * check remains as a failsafe in case the reset was somehow missed.
++     * The previous version aborted the borg here, which fired about 2900
++     * turns earlier than the reset threshold and made the graceful reset
++     * unreachable. */
+     if (borg.time.now >= BORG_TIME_MAX - 3000) {
+-        /* Panic */
+-        borg_oops("clock overflow");
+-
+-        /* Oops */
+-        return true;
++        borg.time.now = 1;
++        borg_warning("*****WARNING***** Borg Clock Overflow");
+     }
+ 
+     /* no longer trying an unknown object */
+-- 
+2.53.0
+

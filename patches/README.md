@@ -266,3 +266,74 @@ floors via square_islit() like the original CAVE_GLOW test, and the
 flow-toward-light consumer sees the flagged grids again (0 to 484
 targets on the evidence fixture; the perm-wall control stays
 unflagged).
+
+Source250 (consumer #200) is not a new carry: its reader correction, the
+`ii <= borg_tp_other_n` to `<` bound in `borg_danger_one_kill()`, is the same
+one-token change already applied by patch 0012 (source67, consumer #54). The
+cherry-pick of the source commit is empty on main. It is recorded as
+`also_adopts` on the 0012 entry and verified on source250's own fixture in
+`docs/measurement/TP-OTHER-READER.md` (stale-hit 0 to 179, controls
+byte-identical). No ordinal is consumed and no runtime source changed.
+
+The fifty-first carry only raises the munchkin stair range when it increases
+(consumer #242, adopting source245, owner decision on the source issue). The
+adjustment `(clevel - 10) + (10 - depth)` is negative below character level
+10, so a level-5 Borg at depth 10 had its range cut from 8 to 3 and stopped
+power-climbing toward visible stairs; it is now gated on `clevel > 10`. The
+unchanged fixture flips the climb decision (0 to 1). Behaviour-active in
+munchkin mode below level 10; no survival claim.
+
+The fifty-second carry resets the Borg clock gracefully at the overflow
+threshold instead of aborting (consumer #245, adopting source246, owner
+decision on the source issue). `borg_think_dungeon()` aborted 2900 ticks before
+the reset in `borg_think()` could run; it now performs the same reset and keeps
+playing, with the old check left as a failsafe. The unchanged fixture flips the
+Borg from inactive (clock frozen) to active (clock 1). Not reachable in the
+20000-turn cohort; no survival claim.
+
+The fifty-third carry makes the excessive-danger level flee fire for ordinary
+Borgs instead of only Morgoth-ready ones (consumer #247, adopting source156,
+owner decision on the source issue): the condition was inverted relative to its
+comment. Three-mode fixture flips the ordinary case (no flee to flee) and the
+Morgoth case (flee to no flee); the hurt control is byte-identical. Behaviour-
+active: v1 seed 29 diverges and later dies; recorded as observed, no claim.
+
+The fifty-fourth carry compares current mana with the maximum in the recall-wait
+mana branch (consumer #250, adopting source157): the old test compared current mana
+with itself and never fired. The unchanged source fixture stays red on the layered
+product because patch 0053 flees first; an adapted one-line fixture (Morgoth-ready)
+proves fail-before/pass-after (restore 0 to 1) and the interaction is asserted.
+
+The fifty-fifth carry heads for the nearest free staircase when desperate
+(consumer #252, adopting source153): the search kept the farthest for both up and
+down stairs. Three-mode fixture flips both two-staircase cases and keeps the
+single-staircase control byte-identical. Behaviour-active; v1 outcomes unchanged.
+
+The fifty-sixth carry judges each back-away grid on its own (consumer #254, adopting
+source155): the monster-adjacent flag is reset per candidate and a trap skips only its
+grid instead of ending the scan. Three-mode fixture flips the monster and trap cases;
+the healthy control is byte-identical. Behaviour-active; v1 cohort mixed (seed 29 saved,
+seed 47 lost), recorded as observed.
+
+The fifty-seventh carry stops reading a borg.txt integer value at the first unexpected character (consumer #257, adopting source141): a malformed value made the parser spin forever. Fixture: hang (exit 2) to clean default; valid control byte-identical.
+
+The fifty-eighth carry negates a setting only when a number follows the minus sign (consumer #258, adopting source142): a bare minus flipped the stored default (127 to -127). Fixture: -127 to 127; valid and negative controls byte-identical.
+
+The fifty-ninth carry keeps default settings when borg.txt cannot be read or written (consumer #259, adopting source144): the configuration was NULL and the Borg crashed. Fixture: crash (exit 3) to clean default; present control byte-identical.
+
+The sixtieth carry skips an unidentified single item in the sell count instead of
+returning zero (consumer #261, adopting source134): a full pack with one such item looked
+empty and the Borg dived instead of selling. Three-mode fixture flips the full-unid case
+(sellable 0 to 15, stays up); the full control is byte-identical; v1 traces identical.
+
+The sixty-first carry keeps a drained Borg from diving regardless of its earlier
+direction (consumer #263, adopting source235): the guard sat behind a dead `g` gate and
+now applies unconditionally. Fixture: one power-dive note to none. v1 traces identical.
+
+The sixty-second carry starts the Resist Poison potion reward loop from zero (consumer #266, adopting source184): a stale counter left by the food loop lost the reward with low food (900 to 0). Fixture apples 0 to 900, rations byte-identical.
+
+The sixty-third carry counts a warrior's Resist Poison potions from zero (consumer #267, adopting source185): the loop continued the Resist Cold count (900 instead of 2400). Fixture cold 900 to 2400, plain byte-identical.
+
+The sixty-fourth carry runs the spastic-search reverse flow unoptimized (consumer #268, adopting source146): the optimized spread stopped at the Borg's own grid and never produced a move. Fixture middle and corner: moved 0 to 1; far control byte-identical.
+
+The sixty-fifth carry runs the Sea of Runes reverse flow unoptimized (consumer #269, adopting source345): the optimized spread stopped at an existing centre rune and never selected outlying runes. Fixture center: progress 0 to 1; offcenter control byte-identical. With 0064 the v1 seed-47 death of 0056 does not occur (pair measurement).

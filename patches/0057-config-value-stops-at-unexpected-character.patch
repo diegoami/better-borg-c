@@ -1,0 +1,39 @@
+From 052129ae5b7e072513b80ac2626d82792e6a8463 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 07:28:42 +0000
+Subject: [PATCH] Borg: stop reading a setting value at an unexpected character
+
+borg_proc_setting() skips spaces and '=' after a setting name, then
+reads the value.  For an integer setting it only advanced past '-' or
+stopped at a digit; any other character (a word such as 'off', or a
+setting name with extra letters such as 'borg_stop_dlevelx 5') was
+never consumed, so the loop spun forever and the game hung at start-up
+while reading borg.txt.
+
+Stop at any other character and keep the setting's default value, as a
+boolean setting already does.
+
+Tracked as diegoami/neo-angband-tracker#141.
+
+(cherry picked from commit 45dfc9b1f4930b28841d0c38b73cc4cd3171aab0)
+---
+ src/borg/borg-init.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/borg/borg-init.c b/src/borg/borg-init.c
+index 59be9fac9..808263230 100644
+--- a/src/borg/borg-init.c
++++ b/src/borg/borg-init.c
+@@ -141,6 +141,9 @@ static bool borg_proc_setting(
+                 break;
+             }
+         }
++
++        /* anything else is not a value: keep the default */
++        break;
+     }
+ 
+     if (negative)
+-- 
+2.53.0
+
