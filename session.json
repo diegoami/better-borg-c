@@ -82,11 +82,11 @@
   "impact_milestone_v3": "https://github.com/diegoami/better-borg-c/milestone/3",
   "external_review_package_v3": "https://github.com/diegoami/better-borg-c/issues/128",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/205",
-    "branch": "task/carry-detectcarry",
-    "worktree": ".worktrees/detectcarry",
-    "state": "merged-7a02072cd-measured-issue205-carried-open-tapunlife-blocked",
-    "instructions": "docs/measurement/DETECTION-CARRYOVER.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/214",
+    "branch": "task/carry-maimfoe",
+    "worktree": ".worktrees/maimfoe",
+    "state": "merged-8a30a39d9-measured-issue214-carried-open-recalldepth-216-in-flight",
+    "instructions": "docs/measurement/MAIMFOE-RETURN.md"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
   "impact_milestone_v4": "https://github.com/diegoami/better-borg-c/milestone/4",
