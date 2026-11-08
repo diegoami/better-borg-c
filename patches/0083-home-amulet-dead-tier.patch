@@ -1,0 +1,38 @@
+From ffce4c4f40eaa886dd1032c20abc3856ed2bf8bc Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 20:39:40 +0000
+Subject: [PATCH] Borg: remove the unreachable second amulet tier from the home
+ score
+
+borg_power_home_aux1() takes points off the home score for keeping too
+many items of one type.  For amulets it subtracts 1500 for each amulet
+past the third, and then, in the else of that test, repeats the same
+condition (num_neck > 3) for a gentler 700-point tier.  The else is
+only reached when num_neck > 3 is false, so that tier could never run.
+
+Remove it.  No behaviour change: the 1500-point penalty past three
+amulets is unchanged.
+
+Tracked as diegoami/neo-angband-tracker#47.
+
+(cherry picked from commit e9080f35f1d2e8c8166116d0025d2e61e499899e)
+---
+ src/borg/borg-home-power.c | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/src/borg/borg-home-power.c b/src/borg/borg-home-power.c
+index 7b2421950..667134912 100644
+--- a/src/borg/borg-home-power.c
++++ b/src/borg/borg-home-power.c
+@@ -321,8 +321,6 @@ static int32_t borg_power_home_aux1(void)
+         value -= (num_rings - 4) * 2000L;
+     if (num_neck > 3)
+         value -= (num_neck - 3) * 1500L;
+-    else if (num_neck > 3)
+-        value -= (num_neck - 3) * 700L;
+     if (num_armor > 6)
+         value -= (num_armor - 6) * 1000L;
+     if (num_cloaks > 3)
+-- 
+2.53.0
+
