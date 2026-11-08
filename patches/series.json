@@ -1033,7 +1033,26 @@
    "evidence_ref": "b6bd252e1c9b60845cd3824f42d7dbc5100d2b63",
    "verification": "docs/measurement/RECALL-MANA.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified on the adapted fixture (unchanged source fixture red by interaction with 0053, asserted) and native gate; carried/open+patch-active after merge"
+   "verification_status": "merged; verified on the adapted fixture (unchanged source fixture red by interaction with 0053, asserted) and native gate; carried/open+patch-active",
+   "merge_commit": "b2c9db4798768703134bffe78014ca94a3432261"
+  },
+  {
+   "id": "CBUG-0137",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/252",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/153",
+   "source_head": "62768100602b693ed5845f0e5749830563d7e3b3",
+   "source_commits": [
+    "62768100602b693ed5845f0e5749830563d7e3b3"
+   ],
+   "applied_commits": [
+    "4a88e67f96e55ab354e94d65d8dd5b98d5171252"
+   ],
+   "patch": "patches/0055-desperate-nearest-stairs.patch",
+   "patch_active": true,
+   "evidence_ref": "366fd1b08c4d0c3815bbb90be2457c372e757ff4",
+   "verification": "docs/measurement/DESPERATE-STAIRS.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on the unchanged source fixture and native gate; v1 outcomes unchanged; carried/open+patch-active after merge"
   }
  ]
 }

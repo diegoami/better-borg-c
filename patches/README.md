@@ -303,3 +303,8 @@ mana branch (consumer #250, adopting source157): the old test compared current m
 with itself and never fired. The unchanged source fixture stays red on the layered
 product because patch 0053 flees first; an adapted one-line fixture (Morgoth-ready)
 proves fail-before/pass-after (restore 0 to 1) and the interaction is asserted.
+
+The fifty-fifth carry heads for the nearest free staircase when desperate
+(consumer #252, adopting source153): the search kept the farthest for both up and
+down stairs. Three-mode fixture flips both two-staircase cases and keeps the
+single-staircase control byte-identical. Behaviour-active; v1 outcomes unchanged.
