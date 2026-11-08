@@ -339,6 +339,24 @@ concurrent-session process/tooling context (recording/replay feature and
 death documentation outside the build inputs; tooling 41→71). No external
 verdict is claimed; the owner launches the review.
 
+Consumer214/source256 (maimfoe real-pass return) merged as 8a30a39d9 (PR215,
+import 91822d82a, patch 0047): borg_attack_aux_maim_foe()'s real pass
+saved the best target and aimed at it but returned the loop variable
+holding the last-scanned monster's score; the correction returns b_d,
+the best tracked score, like the simulation pass already did (the
+trailing simulate-check was dead code). The unchanged source evidence
+fixture verifies the two-monster misreport fail-before (30, the
+kobold's score, for a cast aimed at the lich) / pass-after (234) with
+the single and none controls byte-identical; all four normal-phase logs
+match the source evidence kit's recorded log SHA256s byte for byte;
+borg-fight-attack.c already carries earlier corrections and the applied
+diff body is byte-identical to the source diff. Gate 965/965 + 5/5,
+tooling 95/95, and all 148 prior matrix cases match the recorded
+forty-six-carry tally. Post-merge frozen v1 measurement: seeds 11/29/47
+all turn_cap alive and well with whole-trace hashes identical to the
+forty-six-carry (detectcarry) run — behavior-neutral on the cohort (the
+chooser discards the corrected value).
+Next: recheck source207 for newer demonstrations.
 Consumer205/source219 (detection carryover) merged as 7a02072cd (PR207,
 import 3d104a8b8, patch 0046): borg_update()'s depth-change branch
 cleared the per-panel trap/door/evil detection flags but not
