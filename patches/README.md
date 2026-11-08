@@ -258,3 +258,11 @@ for later normal routing. Both writers are corrected; thresholds and escape
 intent are unchanged. Product native before/after and partial-fix controls are
 verified; impact measurements remain separate. `FLOWCACHE-404` identifies the
 native report, not an invented CBUG catalogue number.
+
+The fiftieth consumer carry restores the dead Floors branch in the map
+update (consumer #224, adopting source213). The 2023 reorg transcribed
+FEAT_FLOOR as FEAT_NONE so the branch never ran; it now marks glowing
+floors via square_islit() like the original CAVE_GLOW test, and the
+flow-toward-light consumer sees the flagged grids again (0 to 484
+targets on the evidence fixture; the perm-wall control stays
+unflagged).
