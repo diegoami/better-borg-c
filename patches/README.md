@@ -266,3 +266,11 @@ floors via square_islit() like the original CAVE_GLOW test, and the
 flow-toward-light consumer sees the flagged grids again (0 to 484
 targets on the evidence fixture; the perm-wall control stays
 unflagged).
+
+Source250 (consumer #200) is not a new carry: its reader correction, the
+`ii <= borg_tp_other_n` to `<` bound in `borg_danger_one_kill()`, is the same
+one-token change already applied by patch 0012 (source67, consumer #54). The
+cherry-pick of the source commit is empty on main. It is recorded as
+`also_adopts` on the 0012 entry and verified on source250's own fixture in
+`docs/measurement/TP-OTHER-READER.md` (stale-hit 0 to 179, controls
+byte-identical). No ordinal is consumed and no runtime source changed.
