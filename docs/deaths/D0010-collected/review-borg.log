@@ -1,0 +1,39 @@
+BORG 6255 # Creating a monster 'kobold' at (51,17), HP: 11, Index: 32
+BORG 6255 # Removing Regional Fear (51,17) because of a LOS kobold
+BORG 6255 # Scary guy on level.
+BORG 6255 # Leaving (Scary guy on level)
+BORG 6255 # Fleeing (Scary guy on level)
+BORG 6255 # Loc:50,16 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=16
+BORG 6255 # Fleeing and leaving the level. (scaryguy)
+BORG 6255 # Safe to Phase. scary squares: 0
+BORG 6255 # Reading Scroll of Phase Door.
+BORG 6255 # Danger Level 3.1
+BORG 6265 # Scary guy on level.
+BORG 6265 # Fleeing and leaving the level. (scaryguy)
+BORG 6265 # Flowing toward up-stairs at cost 6
+BORG 6265 # Desperate for Stairs (three)
+BORG 6275 # Scary guy on level.
+BORG 6275 # Fleeing and leaving the level. (scaryguy)
+BORG 6275 # Flowing toward up-stairs at cost 5
+BORG 6275 # Desperate for Stairs (three)
+BORG 6285 # Tracking a monster 'kobold' at (50,20) from (51,17)
+BORG 6285 # Scary guy on level.
+BORG 6285 # Loc:48,22 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=8
+BORG 6285 # Fleeing and leaving the level. (scaryguy)
+BORG 6285 # Flowing toward up-stairs at cost 26
+BORG 6285 # Desperate for Stairs (three)
+BORG 6295 # HIT_BY:The kobold (+)
+BORG 6295 # HIT_BY:The kobold (3)
+BORG 6295 # Scary guy on level.
+BORG 6295 # Loc:49,21 Dep:1 Lev:1 HP:7/15 SP:0/0 Danger:p=16
+BORG 6295 # Fleeing and leaving the level. (scaryguy)
+BORG 6295 # Flowing toward up-stairs at cost 25
+BORG 6295 # Desperate for Stairs (two)
+BORG 6305 # HIT_BY:The kobold (+)
+BORG 6305 # Creating a monster 'blue yeek' at (49,19), HP: 4, Index: 46
+BORG 6305 # Removing Regional Fear (49,19) because of a LOS blue yeek
+BORG 6305 # HIT_BY:The kobold (3)
+BORG 6305 # Scary guy on level.
+BORG 6305 # Loc:50,21 Dep:1 Lev:1 HP:1/15 SP:0/0 Danger:p=17
+BORG 6305 # Fleeing and leaving the level. (scaryguy)
+BORG 6305 # Reading unknown scroll Scroll titled "sompris pras".

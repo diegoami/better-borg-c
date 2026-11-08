@@ -1,0 +1,41 @@
+{"kind": "message", "frame": 1, "turn": 6255, "type": "GENERIC", "text": "This seems a tame, sheltered place."}
+{"kind": "speed", "frame": 1, "turn": 6255, "speed": 110, "gain": 10, "move": 100}
+{"kind": "message", "frame": 15, "turn": 6263, "type": "MON_HIT", "text": "The kobold hits you."}
+{"kind": "damage", "frame": 15, "turn": 6263, "before": 15, "after": 8, "requested": 7, "cause": "a kobold"}
+{"kind": "message", "frame": 24, "turn": 6265, "type": "GENERIC", "text": "You have no more Scrolls of Phase Door (d)."}
+{"kind": "message", "frame": 180, "turn": 6375, "type": "SHOOT_HIT", "text": "Your Arrow (1d4) (+0,+0) hits the kobold."}
+{"kind": "message", "frame": 180, "turn": 6375, "type": "GENERIC", "text": "You have 10 Arrows (1d4) (+0,+0) (0)."}
+{"kind": "message", "frame": 181, "turn": 6375, "type": "GENERIC", "text": "The Arrow breaks."}
+{"kind": "message", "frame": 181, "turn": 6375, "type": "GENERIC", "text": "The kobold screams in pain."}
+{"kind": "message", "frame": 182, "turn": 6375, "type": "FLEE", "text": "The kobold flees in terror!"}
+{"kind": "message", "frame": 393, "turn": 6575, "type": "SHOOT_HIT", "text": "Your Arrow (1d4) (+0,+0) hits the blue yeek."}
+{"kind": "message", "frame": 393, "turn": 6575, "type": "GENERIC", "text": "You have 9 Arrows (1d4) (+0,+0) (0)."}
+{"kind": "message", "frame": 394, "turn": 6575, "type": "GENERIC", "text": "The Arrow breaks."}
+{"kind": "message", "frame": 394, "turn": 6575, "type": "GENERIC", "text": "The blue yeek cries out in pain."}
+{"kind": "message", "frame": 411, "turn": 6586, "type": "MON_HIT", "text": "The blue yeek hits you."}
+{"kind": "damage", "frame": 411, "turn": 6586, "before": 11, "after": 8, "requested": 3, "cause": "a blue yeek"}
+{"kind": "message", "frame": 426, "turn": 6595, "type": "SHOOT_HIT", "text": "Your Arrow (1d4) (+0,+0) hits the blue yeek."}
+{"kind": "message", "frame": 426, "turn": 6595, "type": "GENERIC", "text": "You have 8 Arrows (1d4) (+0,+0) (0)."}
+{"kind": "message", "frame": 427, "turn": 6595, "type": "GENERIC", "text": "The blue yeek cries out feebly."}
+{"kind": "message", "frame": 427, "turn": 6595, "type": "FLEE", "text": "The blue yeek flees in terror!"}
+{"kind": "message", "frame": 901, "turn": 7055, "type": "GENERIC", "text": "You have 9 Arrows (1d4) (+0,+0) (0)."}
+{"kind": "message", "frame": 1110, "turn": 7216, "type": "GENERIC", "text": "You have 4 Indigo Potions (d)."}
+{"kind": "message", "frame": 1153, "turn": 7247, "type": "HITWALL", "text": "There is a wall in the way!"}
+{"kind": "message", "frame": 1172, "turn": 7257, "type": "SHOOT_HIT", "text": "Your Arrow (1d4) (+0,+0) hits the blue yeek."}
+{"kind": "message", "frame": 1172, "turn": 7257, "type": "GENERIC", "text": "You have 8 Arrows (1d4) (+0,+0) (0)."}
+{"kind": "message", "frame": 1173, "turn": 7257, "type": "GENERIC", "text": "The blue yeek cries out in pain."}
+{"kind": "message", "frame": 1190, "turn": 7267, "type": "GENERIC", "text": "You have 7 Arrows (1d4) (+0,+0) (0)."}
+{"kind": "message", "frame": 1199, "turn": 7276, "type": "MON_HIT", "text": "The blue yeek hits you."}
+{"kind": "damage", "frame": 1199, "turn": 7276, "before": 15, "after": 14, "requested": 1, "cause": "a blue yeek"}
+{"kind": "message", "frame": 1206, "turn": 7277, "type": "HIT", "text": "You hit the blue yeek."}
+{"kind": "message", "frame": 1206, "turn": 7277, "type": "KILL", "text": "You have slain the blue yeek."}
+{"kind": "message", "frame": 1206, "turn": 7277, "type": "LEVEL", "text": "Welcome to level 2."}
+{"kind": "message", "frame": 1218, "turn": 7283, "type": "SHOOT_HIT", "text": "Your Arrow (1d4) (+0,+0) hits the kobold."}
+{"kind": "message", "frame": 1218, "turn": 7283, "type": "GENERIC", "text": "You have 6 Arrows (1d4) (+0,+0) (0)."}
+{"kind": "message", "frame": 1219, "turn": 7283, "type": "GENERIC", "text": "The kobold screams in agony."}
+{"kind": "message", "frame": 1227, "turn": 7291, "type": "MON_HIT", "text": "The kobold hits you."}
+{"kind": "damage", "frame": 1228, "turn": 7291, "before": 14, "after": 12, "requested": 2, "cause": "a kobold"}
+{"kind": "message", "frame": 1238, "turn": 7293, "type": "SHOOT_HIT", "text": "Your Arrow (1d4) (+0,+0) hits the kobold."}
+{"kind": "message", "frame": 1238, "turn": 7293, "type": "KILL", "text": "The kobold dies."}
+{"kind": "message", "frame": 1238, "turn": 7293, "type": "GENERIC", "text": "You feel something roll beneath your feet."}
+{"kind": "message", "frame": 1239, "turn": 7293, "type": "GENERIC", "text": "You have 5 Arrows (1d4) (+0,+0) (0)."}

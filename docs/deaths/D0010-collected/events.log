@@ -1,0 +1,1279 @@
+BORG 6125 # Spent too long (58) on level, leaving.
+BORG 6125 # Flowing toward dark-4 at cost 6
+BORG 6185 # Spent too long (64) on level, leaving.
+BORG 6185 # Looking for up stairs.  Going up.
+BORG 6185 # Flowing toward up-stairs at cost 11
+BORG 6185 # Going to stairs up. I'm bored.
+BORG 6255 # Creating a monster 'kobold' at (51,17), HP: 11, Index: 32
+BORG 6255 # Removing Regional Fear (51,17) because of a LOS kobold
+BORG 6255 # Scary guy on level.
+BORG 6255 # Leaving (Scary guy on level)
+BORG 6255 # Fleeing (Scary guy on level)
+BORG 6255 # Loc:50,16 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=16
+BORG 6255 # Fleeing and leaving the level. (scaryguy)
+BORG 6255 # Safe to Phase. scary squares: 0
+BORG 6255 # Reading Scroll of Phase Door.
+BORG 6255 # Danger Level 3.1
+BORG 6265 # Scary guy on level.
+BORG 6265 # Fleeing and leaving the level. (scaryguy)
+BORG 6265 # Flowing toward up-stairs at cost 6
+BORG 6265 # Desperate for Stairs (three)
+BORG 6275 # Scary guy on level.
+BORG 6275 # Fleeing and leaving the level. (scaryguy)
+BORG 6275 # Flowing toward up-stairs at cost 5
+BORG 6275 # Desperate for Stairs (three)
+BORG 6285 # Tracking a monster 'kobold' at (50,20) from (51,17)
+BORG 6285 # Scary guy on level.
+BORG 6285 # Loc:48,22 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=8
+BORG 6285 # Fleeing and leaving the level. (scaryguy)
+BORG 6285 # Flowing toward up-stairs at cost 26
+BORG 6285 # Desperate for Stairs (three)
+BORG 6295 # HIT_BY:The kobold (+)
+BORG 6295 # HIT_BY:The kobold (3)
+BORG 6295 # Scary guy on level.
+BORG 6295 # Loc:49,21 Dep:1 Lev:1 HP:7/15 SP:0/0 Danger:p=16
+BORG 6295 # Fleeing and leaving the level. (scaryguy)
+BORG 6295 # Flowing toward up-stairs at cost 25
+BORG 6295 # Desperate for Stairs (two)
+BORG 6305 # HIT_BY:The kobold (+)
+BORG 6305 # Creating a monster 'blue yeek' at (49,19), HP: 4, Index: 46
+BORG 6305 # Removing Regional Fear (49,19) because of a LOS blue yeek
+BORG 6305 # HIT_BY:The kobold (3)
+BORG 6305 # Scary guy on level.
+BORG 6305 # Loc:50,21 Dep:1 Lev:1 HP:1/15 SP:0/0 Danger:p=17
+BORG 6305 # Fleeing and leaving the level. (scaryguy)
+BORG 6305 # Reading unknown scroll Scroll titled "sompris pras".
+
+[Terminal native state/cause]
+STATE death turn=6309 energy=66840 decisions=711 depth=1 max_depth=1 level=1 max_level=1 hp=-1 dead=1 winner=0 borg_rng=3727008640 quick=0 quick_rng=4030883631 rng_index=5 rng=3522e580b346bb51bfd8f3b50b14e0e1363949ee95a91959d3d91a2cbe097a7c692387e95cda0ef7c0a120b76672c8a9ded2b6b75c903f4d18223da4aed06dbd6b76086a141d65850c661846cfd1bc0097a01784bfc3df123c3927a852f0e5347a5d78ff66b1ce45a58ecd540c24689c05c5f6fe1dbbc9e9f3e11ce59d301223
+CAUSE a kobold
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE  
+MESSAGE   
+MESSAGE ====================
+MESSAGE   
+MESSAGE  
+MESSAGE You are about to use the dangerous, unsupported, borg commands!
+MESSAGE Your machine may crash, and your savefile may become corrupted!
+MESSAGE Initializing the Borg... (memory)
+MESSAGE Initializing the Borg... (borg.txt)
+MESSAGE Initializing the Borg... (options)
+MESSAGE Initializing the Borg... (various)
+MESSAGE Initializing the Borg... done.
+MESSAGE # Ready...
+MESSAGE # Installing keypress hook
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Scroll of Word of Recall' to the home
+MESSAGE # Currently in preferred store '8'.
+MESSAGE # Selling Scroll of Word of Recall
+MESSAGE You drop a Scroll of Word of Recall (c).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Flowing toward General Store at cost 19
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (10,44), HP: 3, Index: 8
+MESSAGE # Flowing toward General Store at cost 18
+MESSAGE # Creating a monster 'boil-covered wretch' at (6,48), HP: 2, Index: 6
+MESSAGE # Flowing toward General Store at cost 15
+MESSAGE # There was a monster 'boil-covered wretch' at (6,48)
+MESSAGE The pitiful-looking beggar wakes up.
+MESSAGE # PAIN:The pitiful-looking beggar (+)
+MESSAGE # PAIN:The pitiful-looking beggar (2)
+MESSAGE # Performing attack type 1 with value 4.
+MESSAGE # Facing pitiful-looking beggar at (10,44) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the pitiful-looking beggar.
+MESSAGE You have slain the pitiful-looking beggar.
+MESSAGE # HIT:the pitiful-looking beggar (+)
+MESSAGE # KILL:the pitiful-looking beggar (+)
+MESSAGE # Forgetting a monster 'pitiful-looking beggar' at (10,44)
+MESSAGE # HIT:the pitiful-looking beggar (2)
+MESSAGE # KILL:the pitiful-looking beggar (2)
+MESSAGE # Entering a '0' shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 3 Wooden Torches (5000 turns) (c).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE "You cannot cast spells or fire missiles at monsters in walls, but they can."
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 4 Wooden Torches (5000 turns) (c).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE Taken!
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 5 Wooden Torches (5000 turns) (c).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE Taken!
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 6 Wooden Torches (5000 turns) (c).
+MESSAGE # Buying 'Rations of Food'(c) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 4 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food'(c) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Accepted!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 5 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food'(c) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 6 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food'(c) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 7 Rations of Food (b).
+MESSAGE # Buying 'Scrolls of Phase Door {unseen}'(n) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Flowing toward Alchemy Shop at cost 5
+MESSAGE # Entering a '4' shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Scrolls of Phase Door {unseen}.
+MESSAGE You bought a Scroll titled "caus dumbras" for 15 gold.
+MESSAGE You have a Scroll of Phase Door (c).
+MESSAGE # Buying 'Leather Shields [8,+0]'(m) at 'Armoury' (for player 'b')
+MESSAGE # Flowing toward Armoury at cost 28
+MESSAGE # There was a monster 'boil-covered wretch' at (6,48)
+MESSAGE # Creating a monster 'singing, happy drunk' at (14,18), HP: 4, Index: 11
+MESSAGE # Removing Regional Fear (14,18) because of a LOS singing, happy drunk
+MESSAGE # Flowing toward Armoury at cost 6
+MESSAGE # Tracking a monster 'singing, happy drunk' at (13,19) from (14,18)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (12,19) from (13,19)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (13,19) from (12,19)
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (14,22), HP: 4, Index: 8
+MESSAGE # Removing Regional Fear (14,22) because of a LOS pitiful-looking beggar
+MESSAGE # Flowing toward Armoury at cost 2
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Leather Shields [8,+0].
+MESSAGE You bought a Leather Shield [8,+0] for 66 gold.
+MESSAGE You have a Leather Shield [8,+0] (e).
+MESSAGE # Wearing Leather Shield [8,+0].
+MESSAGE You are wearing a Leather Shield [8,+0] (m).
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 11
+MESSAGE # Tracking a monster 'singing, happy drunk' at (11,19) from (13,19)
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Tracking a monster 'singing, happy drunk' at (10,18) from (11,19)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (14,22)
+MESSAGE # Performing attack type 1 with value 4.
+MESSAGE # Facing singing, happy drunk at (10,18) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the singing, happy drunk.
+MESSAGE You have slain the singing, happy drunk.
+MESSAGE # HIT:the singing, happy drunk (+)
+MESSAGE # KILL:the singing, happy drunk (+)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (10,18)
+MESSAGE # Creating an object 'copper' at (18,10)
+MESSAGE # HIT:the singing, happy drunk (2)
+MESSAGE # KILL:the singing, happy drunk (2)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (14,22)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'copper' at (10,18)
+MESSAGE You have found 25 gold pieces worth of copper.
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 9
+MESSAGE # There was a monster 'pitiful-looking beggar' at (14,22)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # There was a monster 'pitiful-looking beggar' at (14,22)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # There was a monster 'pitiful-looking beggar' at (14,22)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating an object 'Boldness' at (44,10)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'Boldness' at (10,44)
+MESSAGE You have a Green Potion (c).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Standing on up-stairs
+MESSAGE # Opening a door
+MESSAGE # Creating an object 'Confusion' at (47,10)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a 'Confusion' at (10,47)
+MESSAGE You have a Light Purple Potion (d).
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Green Potion' at 'Alchemy Shop'
+MESSAGE # Currently in store '8' would prefer '5'.
+MESSAGE # Selling 'Green Potion' at 'Alchemy Shop'
+MESSAGE # Flowing toward Alchemy Shop at cost 14
+MESSAGE # Creating a monster 'mean-looking mercenary' at (7,51), HP: 22, Index: 13
+MESSAGE # Removing Regional Fear (7,51) because of a LOS mean-looking mercenary
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 10
+MESSAGE # There was a monster 'mean-looking mercenary' at (7,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'aimless-looking merchant' at (8,25), HP: 7, Index: 12
+MESSAGE # Removing Regional Fear (8,25) because of a LOS aimless-looking merchant
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Green Potion' at 'Alchemy Shop'
+MESSAGE # Currently in store '8' would prefer '5'.
+MESSAGE # Selling 'Green Potion' at 'Alchemy Shop'
+MESSAGE # Flowing toward Alchemy Shop at cost 14
+MESSAGE # There was a monster 'aimless-looking merchant' at (8,25)
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (13,40), HP: 3, Index: 8
+MESSAGE # Removing Regional Fear (13,40) because of a LOS pitiful-looking beggar
+MESSAGE # Selling 'Green Potion' at 'Alchemy Shop'
+MESSAGE # Flowing toward Alchemy Shop at cost 5
+MESSAGE # There was a monster 'aimless-looking merchant' at (8,25)
+MESSAGE # Entering a '4' shop
+MESSAGE # Selling 'Green Potion' at 'Alchemy Shop'
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Selling Green Potion
+MESSAGE You had a Potion of Boldness (c).
+MESSAGE # Selling 'Light Purple Potion' at 'Alchemy Shop'
+MESSAGE # Re-entering a shop
+MESSAGE # Selling 'Light Purple Potion' at 'Alchemy Shop'
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Selling Light Purple Potion
+MESSAGE You had a Potion of Confusion (c).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Flowing toward General Store at cost 5
+MESSAGE # Entering a '0' shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 7 Wooden Torches (5000 turns) (d).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 8 Wooden Torches (5000 turns) (d).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 9 Wooden Torches (5000 turns) (d).
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 22
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Entering a '4' shop
+MESSAGE "You're never invincible. Never forget that."
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Currently in store '5' would prefer '1'.
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 17
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # There was a monster 'aimless-looking merchant' at (8,25)
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object '& Wicker Shield~' at (86,31)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Creating an object 'Slowness' at (94,29)
+MESSAGE # Creating a monster 'clear icky thing' at (32,79), HP: 5, Index: 22
+MESSAGE # Removing Regional Fear (32,79) because of a LOS clear icky thing
+MESSAGE # Performing attack type 3 with value 4.
+MESSAGE # Targeting clear icky thing who has 5 Hit Points (32,79).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the clear icky thing.
+MESSAGE You have 16 Arrows (1d4) (+0,+0) (0).
+MESSAGE The clear icky thing squelches.
+MESSAGE # PAIN:The clear icky thing (+)
+MESSAGE # Tracking a monster 'clear icky thing' at (31,79) from (32,79)
+MESSAGE # Creating an object '& Arrow~' at (79,32)
+MESSAGE # PAIN:The clear icky thing (2)
+MESSAGE # Performing attack type 3 with value 8.
+MESSAGE # Targeting clear icky thing who has 3 Hit Points (31,79).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the clear icky thing.
+MESSAGE The clear icky thing dies.
+MESSAGE You have 15 Arrows (1d4) (+0,+0) (0).
+MESSAGE # DIED:The clear icky thing (+)
+MESSAGE # Forgetting a monster 'clear icky thing' at (31,79)
+MESSAGE # Creating an object '& Arrow~' at (79,31)
+MESSAGE # DIED:The clear icky thing (2)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '& Wicker Shield~' at (31,86)
+MESSAGE You have a Wicker Shield [2,+2] (e).
+MESSAGE # Creating a monster 'white worm mass' at (35,81), HP: 13, Index: 26
+MESSAGE # Removing Regional Fear (35,81) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 6
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 3
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Creating a monster 'blubbering idiot' at (16,16), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (16,16) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'scrawny cat' at (15,37), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (15,37) because of a LOS scrawny cat
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'fruit bat' at (48,32), HP: 3, Index: 31
+MESSAGE # Removing Regional Fear (48,32) because of a LOS fruit bat
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Loc:47,32 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=3
+MESSAGE # Standing on up-stairs
+MESSAGE # Performing attack type 1 with value 9.
+MESSAGE # Facing fruit bat at (48,32) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the fruit bat.
+MESSAGE The fruit bat flees in terror!
+MESSAGE The fruit bat misses you.
+MESSAGE # HIT:the fruit bat (+)
+MESSAGE # PAIN:The fruit bat (+)
+MESSAGE # MISS_BY:The fruit bat (+)
+MESSAGE # HIT:the fruit bat (2)
+MESSAGE # PAIN:The fruit bat (2)
+MESSAGE # MISS_BY:The fruit bat (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:47,32 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=3
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward kill at cost 1
+MESSAGE # Walking into a 'fruit bat' at (48,32)
+MESSAGE You hit the fruit bat.
+MESSAGE You have slain the fruit bat.
+MESSAGE # HIT:the fruit bat (+)
+MESSAGE # KILL:the fruit bat (+)
+MESSAGE # Forgetting a monster 'fruit bat' at (48,32)
+MESSAGE # HIT:the fruit bat (2)
+MESSAGE # KILL:the fruit bat (2)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'soldier ant' at (53,16), HP: 6, Index: 30
+MESSAGE # Removing Regional Fear (53,16) because of a LOS soldier ant
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-4 at cost 12
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'aimless-looking merchant' at (13,26), HP: 6, Index: 12
+MESSAGE # Removing Regional Fear (13,26) because of a LOS aimless-looking merchant
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'singing, happy drunk' at (13,27), HP: 6, Index: 11
+MESSAGE # Removing Regional Fear (13,27) because of a LOS singing, happy drunk
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Tracking a monster 'singing, happy drunk' at (12,27) from (13,27)
+MESSAGE # Creating a monster 'scruffy little dog' at (5,35), HP: 2, Index: 3
+MESSAGE # Removing Regional Fear (5,35) because of a LOS scruffy little dog
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Tracking a monster 'singing, happy drunk' at (11,27) from (12,27)
+MESSAGE # There was a monster 'scruffy little dog' at (5,35)
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'white icky thing' at (34,90), HP: 5, Index: 21
+MESSAGE # Removing Regional Fear (34,90) because of a LOS white icky thing
+MESSAGE # Creating a monster 'floating eye' at (32,89), HP: 7, Index: 27
+MESSAGE # Removing Regional Fear (32,89) because of a LOS floating eye
+MESSAGE # Creating a monster 'soldier ant' at (31,89), HP: 7, Index: 30
+MESSAGE # Removing Regional Fear (31,89) because of a LOS soldier ant
+MESSAGE # Loc:28,88 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=14
+MESSAGE # Retreating to 28,89 (distance 1) via 28,89 (14 > 0)
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object 'Detect Invisible' at (21,21)
+MESSAGE # Flowing toward item at cost 8
+MESSAGE # Walking onto and deleting a 'Detect Invisible' at (21,21)
+MESSAGE You have a Willow Staff (d).
+MESSAGE # Flowing toward dark-4 at cost 11
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating a monster 'white icky thing' at (29,14), HP: 10, Index: 21
+MESSAGE # Removing Regional Fear (29,14) because of a LOS white icky thing
+MESSAGE # Loc:31,16 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=2
+MESSAGE # Performing attack type 3 with value 4.
+MESSAGE # Targeting white icky thing who has 10 Hit Points (29,14).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white icky thing.
+MESSAGE You have 14 Arrows (1d4) (+0,+0) (0).
+MESSAGE The white icky thing writhes in agony.
+MESSAGE The white icky thing flees in terror!
+MESSAGE # PAIN:The white icky thing (+)
+MESSAGE # Creating an object '& Arrow~' at (14,29)
+MESSAGE # PAIN:The white icky thing (2)
+MESSAGE # There was a monster 'white icky thing' at (29,14)
+MESSAGE # Forgetting a monster 'white icky thing' at (29,14)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '& Arrow~' at (29,14)
+MESSAGE You have 15 Arrows (1d4) (+0,+0) (0).
+MESSAGE # Creating a monster 'white icky thing' at (31,12), HP: 2, Index: 21
+MESSAGE # Removing Regional Fear (31,12) because of a LOS white icky thing
+MESSAGE # Loc:29,14 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=2
+MESSAGE # Performing attack type 3 with value 8.
+MESSAGE # Targeting white icky thing who has 2 Hit Points (31,12).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white icky thing.
+MESSAGE You have 14 Arrows (1d4) (+0,+0) (0).
+MESSAGE The white icky thing jerks limply.
+MESSAGE # PAIN:The white icky thing (+)
+MESSAGE # Creating an object '& Arrow~' at (12,31)
+MESSAGE # PAIN:The white icky thing (2)
+MESSAGE # There was a monster 'white icky thing' at (31,12)
+MESSAGE # Forgetting a monster 'white icky thing' at (31,12)
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object 'Light' at (105,8)
+MESSAGE # Creating a monster 'grey mold' at (7,105), HP: 2, Index: 17
+MESSAGE # Removing Regional Fear (7,105) because of a LOS grey mold
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Performing attack type 3 with value 8.
+MESSAGE # Targeting grey mold who has 2 Hit Points (7,105).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the grey mold.
+MESSAGE The grey mold is destroyed.
+MESSAGE You have 13 Arrows (1d4) (+0,+0) (0).
+MESSAGE # DIED:The grey mold (+)
+MESSAGE # Forgetting a monster 'grey mold' at (7,105)
+MESSAGE # Creating an object '& Arrow~' at (105,7)
+MESSAGE # DIED:The grey mold (2)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 5
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-4 at cost 9
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object 'copper' at (89,9)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'copper' at (9,89)
+MESSAGE You have found 100 gold pieces worth of copper.
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE You feel that there is naught but cobwebs here.
+MESSAGE # FEELING_STUFF:10 (+)
+MESSAGE # FEELING_STUFF:10 (1)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Creating a monster 'mean-looking mercenary' at (9,31), HP: 19, Index: 13
+MESSAGE # Removing Regional Fear (9,31) because of a LOS mean-looking mercenary
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'rock lizard' at (34,32), HP: 7, Index: 28
+MESSAGE # Removing Regional Fear (34,32) because of a LOS rock lizard
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Loc:33,30 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=1
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Willow Staff' at 'Magic Shop'
+MESSAGE # Currently in store '8' would prefer '6'.
+MESSAGE # Selling 'Willow Staff' at 'Magic Shop'
+MESSAGE # Flowing toward Magic Shop at cost 7
+MESSAGE # Creating a monster 'mean-looking mercenary' at (10,47), HP: 17, Index: 13
+MESSAGE # Removing Regional Fear (10,47) because of a LOS mean-looking mercenary
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 5
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Willow Staff' at 'Magic Shop'
+MESSAGE # Currently in store '8' would prefer '6'.
+MESSAGE # Selling 'Willow Staff' at 'Magic Shop'
+MESSAGE # Flowing toward Magic Shop at cost 7
+MESSAGE # Creating a monster 'mangy-looking leper' at (17,33), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (17,33) because of a LOS mangy-looking leper
+MESSAGE # Selling 'Willow Staff' at 'Magic Shop'
+MESSAGE # Flowing toward Magic Shop at cost 2
+MESSAGE # Entering a '5' shop
+MESSAGE # Selling 'Willow Staff' at 'Magic Shop'
+MESSAGE # Currently in preferred store '6'.
+MESSAGE # Selling Willow Staff
+MESSAGE You had a Staff of Detect Invisible (21 charges) (d).
+MESSAGE # Selling 'Wicker Shield [2,+2]' at 'Armoury'
+MESSAGE # Flowing toward Armoury at cost 7
+MESSAGE # Creating a monster 'village idiot' at (17,18), HP: 12, Index: 7
+MESSAGE # Removing Regional Fear (17,18) because of a LOS village idiot
+MESSAGE # Selling 'Wicker Shield [2,+2]' at 'Armoury'
+MESSAGE # Flowing toward Armoury at cost 5
+MESSAGE # There was a monster 'village idiot' at (17,18)
+MESSAGE # Entering a '1' shop
+MESSAGE # Selling 'Wicker Shield [2,+2]' at 'Armoury'
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Selling Wicker Shield [2,+2]
+MESSAGE You had a Wicker Shield [2,+2] (e).
+MESSAGE # Buying 'Soft Leather Armours [8,+0]'(h) at 'Armoury' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE "In open rooms Phase Door may well keep you in the line of fire."
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Soft Leather Armours [8,+0].
+MESSAGE Okay.
+MESSAGE You bought Soft Leather Armour [8,+0] for 84 gold.
+MESSAGE You have Soft Leather Armour [8,+0] (e).
+MESSAGE # Wearing Soft Leather Armour [8,+0].
+MESSAGE You are wearing Soft Leather Armour [8,+0] (g).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Flowing toward General Store at cost 33
+MESSAGE # There was a monster 'village idiot' at (17,18)
+MESSAGE # There was a monster 'mangy-looking leper' at (17,33)
+MESSAGE # There was a monster 'village idiot' at (17,18)
+MESSAGE # There was a monster 'mangy-looking leper' at (17,33)
+MESSAGE # There was a monster 'village idiot' at (17,18)
+MESSAGE # Creating a monster 'battle-scarred veteran' at (6,49), HP: 36, Index: 14
+MESSAGE # Removing Regional Fear (6,49) because of a LOS battle-scarred veteran
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 12
+MESSAGE # Creating a monster 'village idiot' at (5,48), HP: 10, Index: 7
+MESSAGE # Removing Regional Fear (5,48) because of a LOS village idiot
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 11
+MESSAGE # There was a monster 'battle-scarred veteran' at (6,49)
+MESSAGE # There was a monster 'village idiot' at (5,48)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # There was a monster 'battle-scarred veteran' at (6,49)
+MESSAGE # There was a monster 'village idiot' at (5,48)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Entering a '7' shop
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Currently in store '8' would prefer '1'.
+MESSAGE # Creating a monster 'battle-scarred veteran' at (14,24), HP: 31, Index: 14
+MESSAGE # Removing Regional Fear (14,24) because of a LOS battle-scarred veteran
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 4
+MESSAGE # There was a monster 'battle-scarred veteran' at (14,24)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # There was a monster 'battle-scarred veteran' at (14,24)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # There was a monster 'battle-scarred veteran' at (14,24)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # There was a monster 'battle-scarred veteran' at (14,24)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (8,24), HP: 3, Index: 8
+MESSAGE # Removing Regional Fear (8,24) because of a LOS pitiful-looking beggar
+MESSAGE # Flowing toward Home at cost 3
+MESSAGE # Entering a '7' shop
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Currently in store '8' would prefer '1'.
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Flowing toward General Store at cost 19
+MESSAGE # Creating a monster 'mean-looking mercenary' at (11,34), HP: 20, Index: 13
+MESSAGE # Removing Regional Fear (11,34) because of a LOS mean-looking mercenary
+MESSAGE # Creating a monster 'village idiot' at (11,35), HP: 10, Index: 7
+MESSAGE # Removing Regional Fear (11,35) because of a LOS village idiot
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 6
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (8,24)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # Creating a monster 'wild dog' at (35,158), HP: 3, Index: 29
+MESSAGE # Removing Regional Fear (35,158) because of a LOS wild dog
+MESSAGE # Creating a monster 'wild dog' at (34,158), HP: 3, Index: 29
+MESSAGE # Removing Regional Fear (34,158) because of a LOS wild dog
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'battle-scarred veteran' at (14,27), HP: 28, Index: 14
+MESSAGE # Removing Regional Fear (14,27) because of a LOS battle-scarred veteran
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Entering a '7' shop
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Currently in store '8' would prefer '1'.
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Flowing toward General Store at cost 19
+MESSAGE # Creating a monster 'singing, happy drunk' at (11,37), HP: 5, Index: 11
+MESSAGE # Removing Regional Fear (11,37) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'village idiot' at (9,11), HP: 10, Index: 7
+MESSAGE # Removing Regional Fear (9,11) because of a LOS village idiot
+MESSAGE # Flowing toward General Store at cost 18
+MESSAGE # Tracking a monster 'singing, happy drunk' at (11,36) from (11,37)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (11,34) from (11,36)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (10,34) from (11,34)
+MESSAGE # Performing attack type 1 with value 4.
+MESSAGE # Facing singing, happy drunk at (10,34) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the singing, happy drunk.
+MESSAGE You have slain the singing, happy drunk.
+MESSAGE # HIT:the singing, happy drunk (+)
+MESSAGE # KILL:the singing, happy drunk (+)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (10,34)
+MESSAGE # HIT:the singing, happy drunk (2)
+MESSAGE # KILL:the singing, happy drunk (2)
+MESSAGE # Entering a '0' shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE Done!
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 10 Wooden Torches (5000 turns) (d).
+MESSAGE # Buying 'Pairs of Leather Boots [2,+0]'(u) at 'Armoury' (for player 'b')
+MESSAGE # Flowing toward Armoury at cost 33
+MESSAGE # Creating a monster 'filthy street urchin' at (13,55), HP: 2, Index: 1
+MESSAGE # Removing Regional Fear (13,55) because of a LOS filthy street urchin
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 19
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'battle-scarred veteran' at (9,24), HP: 32, Index: 14
+MESSAGE # Removing Regional Fear (9,24) because of a LOS battle-scarred veteran
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Entering a '7' shop
+MESSAGE # Buying 'Pairs of Leather Boots [2,+0]'(u) at 'Armoury' (for player 'b')
+MESSAGE # Currently in store '8' would prefer '2'.
+MESSAGE # Buying 'Pairs of Leather Boots [2,+0]'(u) at 'Armoury' (for player 'b')
+MESSAGE # Flowing toward Armoury at cost 14
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Pairs of Leather Boots [2,+0].
+MESSAGE You bought a Pair of Leather Boots [2,+0] for 14 gold.
+MESSAGE You have a Pair of Leather Boots [2,+0] (e).
+MESSAGE # Wearing Pair of Leather Boots [2,+0].
+MESSAGE You are wearing a Pair of Leather Boots [2,+0] (p).
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 11
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Creating a monster 'blubbering idiot' at (17,16), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (17,16) because of a LOS blubbering idiot
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 6
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # There was a monster 'blubbering idiot' at (17,16)
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'mean-looking mercenary' at (9,26), HP: 26, Index: 13
+MESSAGE # Removing Regional Fear (9,26) because of a LOS mean-looking mercenary
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'village idiot' at (16,25), HP: 8, Index: 7
+MESSAGE # Removing Regional Fear (16,25) because of a LOS village idiot
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 4
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object 'Neutralize Poison' at (23,48)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'Neutralize Poison' at (48,23)
+MESSAGE You have a White Potion (c).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-4 at cost 12
+MESSAGE # Flowing toward dark-4 at cost 5
+MESSAGE # Creating a monster 'white icky thing' at (54,25), HP: 7, Index: 21
+MESSAGE # Removing Regional Fear (54,25) because of a LOS white icky thing
+MESSAGE # Performing attack type 3 with value 4.
+MESSAGE # Targeting white icky thing who has 7 Hit Points (54,25).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white icky thing.
+MESSAGE You have 12 Arrows (1d4) (+0,+0) (0).
+MESSAGE The Arrow breaks.
+MESSAGE The white icky thing squelches.
+MESSAGE # PAIN:The white icky thing (+)
+MESSAGE # Tracking a monster 'white icky thing' at (54,24) from (54,25)
+MESSAGE # PAIN:The white icky thing (2)
+MESSAGE # Performing attack type 3 with value 8.
+MESSAGE # Targeting white icky thing who has 4 Hit Points (54,24).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white icky thing.
+MESSAGE You have 11 Arrows (1d4) (+0,+0) (0).
+MESSAGE The Arrow breaks.
+MESSAGE The white icky thing squelches.
+MESSAGE # PAIN:The white icky thing (+)
+MESSAGE # Creating a monster 'blue yeek' at (54,22), HP: 6, Index: 46
+MESSAGE # Removing Regional Fear (54,22) because of a LOS blue yeek
+MESSAGE # PAIN:The white icky thing (2)
+MESSAGE # There was a monster 'white icky thing' at (54,24)
+MESSAGE # Forgetting a monster 'white icky thing' at (54,24)
+MESSAGE # Performing attack type 3 with value 4.
+MESSAGE # Targeting blue yeek who has 6 Hit Points (54,22).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the blue yeek.
+MESSAGE You have 10 Arrows (1d4) (+0,+0) (0).
+MESSAGE The blue yeek cries out feebly.
+MESSAGE The blue yeek flees in terror!
+MESSAGE # PAIN:The blue yeek (+)
+MESSAGE # Creating an object '& Arrow~' at (22,54)
+MESSAGE # PAIN:The blue yeek (2)
+MESSAGE # There was a monster 'blue yeek' at (54,22)
+MESSAGE # Forgetting a monster 'blue yeek' at (54,22)
+MESSAGE # Flowing toward item at cost 6
+MESSAGE # Creating a monster 'white icky thing' at (54,26), HP: 3, Index: 21
+MESSAGE # Removing Regional Fear (54,26) because of a LOS white icky thing
+MESSAGE # Loc:54,27 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=4
+MESSAGE # Performing attack type 1 with value 10.
+MESSAGE # Facing white icky thing at (54,26) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white icky thing.
+MESSAGE You have slain the white icky thing.
+MESSAGE # HIT:the white icky thing (+)
+MESSAGE # KILL:the white icky thing (+)
+MESSAGE # Forgetting a monster 'white icky thing' at (54,26)
+MESSAGE # HIT:the white icky thing (2)
+MESSAGE # KILL:the white icky thing (2)
+MESSAGE # Flowing toward item at cost 5
+MESSAGE You have found a secret door.
+MESSAGE # Walking onto and deleting a '& Arrow~' at (54,22)
+MESSAGE You have 11 Arrows (1d4) (+0,+0) (0).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Opening a door
+MESSAGE # Creating an object 'Blessing' at (26,50)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a 'Blessing' at (50,26)
+MESSAGE You have a Scroll titled "sompris pras" (e).
+MESSAGE # Flowing toward dark-4 at cost 9
+MESSAGE # Spent too long (58) on level, leaving.
+MESSAGE # Flowing toward dark-4 at cost 6
+MESSAGE # Spent too long (64) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 11
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE You have found a secret door.
+MESSAGE You hear a door burst open!
+MESSAGE # Creating a monster 'kobold' at (51,17), HP: 11, Index: 32
+MESSAGE # Removing Regional Fear (51,17) because of a LOS kobold
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:50,16 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=16
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 3.1
+MESSAGE You have no more Scrolls of Phase Door (d).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 6
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'kobold' at (50,20) from (51,17)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:48,22 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=8
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 26
+MESSAGE # Desperate for Stairs (three)
+MESSAGE The kobold hits you.
+MESSAGE # HIT_BY:The kobold (+)
+MESSAGE # HIT_BY:The kobold (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:49,21 Dep:1 Lev:1 HP:7/15 SP:0/0 Danger:p=16
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 25
+MESSAGE # Desperate for Stairs (two)
+MESSAGE The kobold hits you.
+MESSAGE # HIT_BY:The kobold (+)
+MESSAGE # Creating a monster 'blue yeek' at (49,19), HP: 4, Index: 46
+MESSAGE # Removing Regional Fear (49,19) because of a LOS blue yeek
+MESSAGE # HIT_BY:The kobold (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:50,21 Dep:1 Lev:1 HP:1/15 SP:0/0 Danger:p=17
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Reading unknown scroll Scroll titled "sompris pras".
+MESSAGE You feel righteous!
+MESSAGE You have no more Scrolls of Blessing (d).
+MESSAGE The kobold hits you.
+MESSAGE You die.

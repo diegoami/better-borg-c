@@ -258,31 +258,69 @@
     },
     {
       "cases": [
-        "D0009"
+        "D0009",
+        "D0010"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/159",
       "key": "walking-return",
       "status": "investigating; no guaranteed route asserted",
       "summary": "Early town/upstairs commitment versus repeated normal desperate downstairs response after weakness"
+    },
+    {
+      "cases": [
+        "D0010"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/239",
+      "key": "retreat-archery",
+      "status": "investigating; no gameplay change",
+      "summary": "Inspect legal bow attacks, accepted staircase path and retreat-before-attack priority at6285/6295; account for later carries"
+    },
+    {
+      "cases": [
+        "D0010"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/240",
+      "key": "combat-log",
+      "status": "verified locally and hosted; delivery PR",
+      "summary": "Qualified native message/actual HP-loss/speed viewer channel"
+    },
+    {
+      "cases": [
+        "D0010"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/238",
+      "key": "wide-replay",
+      "status": "verified; delivery PR240",
+      "summary": "Replay valid maximized-window recordings through separately qualified reader; retain malformed-input rejection"
+    },
+    {
+      "cases": [
+        "D0010"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/41",
+      "key": "survival-stock",
+      "status": "proposed; shared investigation",
+      "summary": "Known cure/escape preparedness before the dive"
     }
   ],
-  "cases": 9,
+  "cases": 10,
   "causes_by_distinct_start": {
     "a gallant": 1,
     "a grey mold": 1,
     "a killer brown beetle": 1,
+    "a kobold": 1,
     "a soldier": 1,
     "a stegocentipede": 1,
     "starvation": 1
   },
-  "death_process_attempts": 17,
-  "distinct_starting_conditions": 6,
+  "death_process_attempts": 18,
+  "distinct_starting_conditions": 7,
   "limit": "Selected death cases, not a mortality-rate cohort. Repeats/reference variants/windows are not new independent starting conditions.",
   "schema": "better-borg-c/death-index@1",
   "versions": {
     "127483bc4724c0f75ff7bbc4edddde9293e37c2c": 1,
     "1b95154f65b2ac1ed5fc9a080df6cff971643b5d": 4,
-    "1cd426af4848f36d8f027bfae5114c7efcd572f6": 1,
+    "1cd426af4848f36d8f027bfae5114c7efcd572f6": 2,
     "22f817c96843cc45da41dcefb0856ca507d8c66a": 1,
     "2cebef1b0f39aa068cde45b422df681a0e80d188": 1,
     "337e50eb6c732bf6c908ab0d7c22b12b3a82b7d3": 2,

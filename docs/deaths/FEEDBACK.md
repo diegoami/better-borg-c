@@ -155,3 +155,14 @@ tracks quiver-aware capacity; shared41/180/183/159 remain separate food,
 identification,Recall and return investigations. Five unidentified edible
 mushrooms remain at death; no food/Recall spell exists. No correction/rescue
 claimed, and owner-review completion is not inferred from this feedback alone.
+
+D0010 owner feedback is recorded on [163](https://github.com/diegoami/better-borg-c/issues/163#issuecomment-6718075726):
+[overall picture](D0010-collected/overall-assessment.md) qualifies the normal-mode
+ranger's Phase, repeated desperate stair retreat and three kobold hits8/6/2.
+Usable bow/eleven arrows remained; [239](https://github.com/diegoami/better-borg-c/issues/239)
+examines legal archery/route admission without assuming a safe route or a bug.
+The owner's saved manual alternative is fully verified, alive7303/CL2/HP12;
+six confirmed arrow hits and a melee yeek finish killed both enemies. This is a
+save/load diagnostic, not an independent Borg life or a population benefit.
+[240](https://github.com/diegoami/better-borg-c/pull/240) supplies the qualified
+native fighting log and valid wide-window reader. Saving did not mark review done.

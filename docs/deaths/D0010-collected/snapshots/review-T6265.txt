@@ -1,0 +1,27 @@
+Original frame7949;turn6265;phasecommand;HP15,SP0;position(24,48).
+Diagnostics are actual state, not extra Borg knowledge.
+
+                                                                                
+High-Elf                            #.#                                         
+Runner                              #.#                                         
+Ranger                              #.#                                         
+LEVEL      1             ##### ######.######                                    
+NXT        7             #.#.# #<#...@.....#                                    
+AU         4             #.#.#.#.#.#######.#                                    
+|}   ~( )  ]             #.........#.....#.#                                    
+STR:      18             #.###'###.#.....#.#                                    
+INT:      13             #.#   . #.#.....#.#                                    
+WIS:      14             #.#    .#.###'###.#                                    
+DEX:   18/20             #.#     #.........#                                    
+CON:      13             #.#######.#.#.#.#.#                                    
+                         #.........#.#.#.#.#                                    
+Cur AC    20             ###################                                    
+HP   15/  15                                                                    
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:2-? Light 3  Fed 83 % Open floor                                
