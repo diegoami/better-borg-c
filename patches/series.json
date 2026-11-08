@@ -1396,6 +1396,24 @@
    "verification": "docs/measurement/DROPHOLE-136.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge"
+  },
+  {
+   "id": "WEARSKIP-85",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/294",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/85",
+   "source_head": "5d73e0c2120b450428f2417db325041c1b6d3da9",
+   "source_commits": [
+    "5d73e0c2120b450428f2417db325041c1b6d3da9"
+   ],
+   "applied_commits": [
+    "7b97f0f88dbb734e37c3cc16c43c78a17a50384e"
+   ],
+   "patch": "patches/0075-best-stuff-skip-count.patch",
+   "patch_active": true,
+   "evidence_ref": "3735a7e72849aa4fa95ddade1458fb27a95be866",
+   "verification": "docs/measurement/WEARSKIP-85.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge"
   }
  ]
 }
