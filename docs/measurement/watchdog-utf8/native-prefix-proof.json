@@ -1,0 +1,13 @@
+{
+  "before": {
+    "error": "'utf-8' codec can't decode byte 0xc3 in position 1090836: unexpected end of data",
+    "error_type": "UnicodeDecodeError",
+    "terminated": false
+  },
+  "after": {
+    "monitor_return": null,
+    "terminated": false
+  },
+  "prefix_bytes": 1090837,
+  "complete_state_count": 74
+}

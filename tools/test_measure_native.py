@@ -61,6 +61,41 @@ class Results(unittest.TestCase):
                     child.kill()
                     child.wait()
 
+    def test_live_utf8_tail_keeps_complete_states_and_resumes(self):
+        for character in ('é', '€', '🧙'):
+            encoded = character.encode('utf-8')
+            for cut in range(1, len(encoded)):
+                with self.subTest(character=character, cut=cut), tempfile.TemporaryDirectory() as tmp:
+                    trace = Path(tmp) / 'trace'
+                    prefix = 'STATE progress turn=123 decisions=99\nBORG 123 déjà vu\n'.encode('utf-8')
+                    initial = prefix + b'BORG 123 ' + encoded[:cut]
+                    suffix = encoded[cut:] + b'\nSTATE progress turn=124 decisions=100\nSTATE progress tur'
+                    trace.write_bytes(initial)
+                    process = mock.Mock()
+                    process.poll.side_effect = [None, None, 0]
+                    observed = []
+                    parse = measure.parse_states
+
+                    def observe(text):
+                        records = parse(text)
+                        observed.append(records)
+                        return records
+
+                    def finish_tail(_):
+                        if trace.read_bytes() == initial:
+                            with trace.open('ab') as writer:
+                                writer.write(suffix)
+
+                    with mock.patch.object(measure, 'parse_states', side_effect=observe), \
+                         mock.patch.object(measure.time, 'monotonic', side_effect=[0, 0.1, 0.2]), \
+                         mock.patch.object(measure.time, 'sleep', side_effect=finish_tail):
+                        self.assertIsNone(measure.monitor(process, trace, 900, 90))
+                    first = [{'kind': 'progress', 'turn': 123, 'decisions': 99}]
+                    self.assertEqual(observed, [first, first + [
+                        {'kind': 'progress', 'turn': 124, 'decisions': 100}]])
+                    process.terminate.assert_not_called()
+                    self.assertEqual(trace.read_bytes(), initial + suffix)
+
     def test_run_error_reaps_owned_process(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -95,6 +130,27 @@ class Results(unittest.TestCase):
                     if process.poll() is None:
                         process.kill()
                         process.wait()
+
+    def test_run_still_rejects_invalid_utf8_after_process_exit(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            build = root / 'build'
+            binary = build / 'build/game/angband'
+            binary.parent.mkdir(parents=True)
+            (build / 'source').mkdir()
+            binary.write_text('#!' + sys.executable + '\nimport os\nfrom pathlib import Path\n'
+                'Path(os.environ["BORG_MEASURE_DIR"]).joinpath("trace.txt").write_bytes('
+                'b"STATE turn_cap turn=2000 decisions=99\\nMESSAGE Andr\\xc3")\n')
+            binary.chmod(0o700)
+            (build / 'build.json').write_text(json.dumps({'complete': True, 'instrumented': True,
+                'binary_sha256': measure.sha(binary), 'data_sha256': {}}))
+            options = SimpleNamespace(build=build, output=root / 'run', seed=11, cap=2000,
+                                      timeout=2, stall_timeout=1, no_saves=True, load=None)
+            self.assertEqual(measure.run(options), 1)
+            result = json.loads((options.output / 'result.json').read_text())
+            self.assertEqual(result['exit_code'], 0)
+            self.assertEqual(result['outcome'], 'harness_failure')
+            self.assertIn('unexpected end of data', result['error'])
 
     def test_real_watchdog_keeps_missing_progress_distinct(self):
         with tempfile.TemporaryDirectory() as tmp:
