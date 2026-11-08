@@ -1,5 +1,8 @@
 """Frozen historical observer builds and qualified manual replay branches."""
 import argparse
+import ctypes
+import ctypes.util
+import shlex
 from datetime import datetime, timezone
 import importlib.util
 import json
@@ -34,6 +37,53 @@ def stamp():
 def clean_environment():
     return {k: v for k, v in os.environ.items()
             if not k.startswith(('BORG_MEASURE_', 'BORG_RECORD_', 'BORG_REPLAY_', 'BORG_TAKEOVER_'))}
+
+
+# Prefer the owner's readable size. A minimal WSLg font server may provide
+# scalable misc-fixed but no Courier or 10x20 alias.
+FONT_CANDIDATES = (
+    '-adobe-courier-medium-r-normal--28-*-*-*-*-*-iso8859-1',
+    '-misc-fixed-medium-r-semicondensed--28-*-*-*-c-*-iso8859-1',
+    '-misc-fixed-medium-r-normal--24-*-*-*-c-*-iso8859-1',
+    '12x24', '10x20', '9x15', 'fixed',
+)
+
+
+def x11_library():
+    name = ctypes.util.find_library('X11')
+    if not name:
+        raise ValueError('X11 client library is unavailable; no replay started')
+    lib = ctypes.CDLL(name)
+    lib.XOpenDisplay.argtypes = [ctypes.c_char_p]
+    lib.XOpenDisplay.restype = ctypes.c_void_p
+    lib.XLoadQueryFont.argtypes = [ctypes.c_void_p, ctypes.c_char_p]
+    lib.XLoadQueryFont.restype = ctypes.c_void_p
+    lib.XFreeFont.argtypes = [ctypes.c_void_p, ctypes.c_void_p]
+    lib.XCloseDisplay.argtypes = [ctypes.c_void_p]
+    return lib
+
+
+def select_x11_font(env):
+    display = env.get('DISPLAY')
+    if not display:
+        raise ValueError('X11 DISPLAY required; --prepare-only qualifies a save without a window')
+    lib = x11_library()
+    connection = lib.XOpenDisplay(display.encode())
+    if not connection:
+        raise ValueError(f'Cannot open X11 display {display}; no replay started')
+    requested = env.get('BORG_PLAY_FONT') or env.get('ANGBAND_X11_FONT_0')
+    candidates = (requested,) if requested else FONT_CANDIDATES
+    try:
+        for name in candidates:
+            font = lib.XLoadQueryFont(connection, name.encode())
+            if font:
+                lib.XFreeFont(connection, font)
+                return name
+    finally:
+        lib.XCloseDisplay(connection)
+    if requested:
+        raise ValueError(f'X11 font {requested!r} is unavailable on {display}; choose an installed BORG_PLAY_FONT')
+    raise ValueError(f'No usable X11 font on {display}; set BORG_PLAY_FONT to an installed bitmap font')
 
 
 def validate_recording(original):
@@ -278,7 +328,7 @@ def capture(original, record, base, output, expected, requested, timeout):
     return receipt
 
 
-def manual(original, record, base, branch, origin):
+def manual(original, record, base, branch, origin, font=None):
     out = branch / 'sessions' / stamp()
     out.mkdir(parents=True)
     for name in ('user', 'save', 'scores', 'panic', 'archive'):
@@ -290,7 +340,7 @@ def manual(original, record, base, branch, origin):
     env.update(BORG_MEASURE_SEED=str(record['profile']['seed']), BORG_MEASURE_CAP='2147483647',
                BORG_MEASURE_DIR=str(out), BORG_MEASURE_FINAL_SAVE=str(out / 'final.save'),
                BORG_MEASURE_LOAD=str(origin), LC_ALL='C.UTF-8', LANG='C.UTF-8')
-    env.setdefault('ANGBAND_X11_FONT_0', '-adobe-courier-medium-r-normal--28-*-*-*-p-*-iso8859-1')
+    env['ANGBAND_X11_FONT_0'] = font or select_x11_font(env)
     character = record['profile']['character']
     command = [str(base / 'build/game/angband'), '-mx11']
     command += [f'-d{k}={out / k}' for k in ('user', 'save', 'scores', 'panic', 'archive')]
@@ -322,6 +372,7 @@ def manual(original, record, base, branch, origin):
                       outcome=replay.measurement.classify(process.returncode, states))
     except (OSError, ValueError, KeyboardInterrupt) as exc:
         result['error'] = str(exc)
+        print('Resume without replaying: ' + shlex.join(['./play-from-replay.py', '--resume', str(branch)]), flush=True)
         raise
     finally:
         if process is not None and process.poll() is None:
@@ -368,6 +419,10 @@ def main():
             raise ValueError('Manual branch original recording changed')
         if record.get('status') != 'complete':
             print('Original run timed out; only the selected prefix will be verified. Original evidence stays incomplete.', flush=True)
+        font = None
+        if not args.prepare_only:
+            font = select_x11_font(clean_environment())
+            print('X11 font: ' + font, flush=True)
         if not args.resume:
             expected = boundary(original, args.from_turn)
         existing = existing_build(base, original)
@@ -380,8 +435,6 @@ def main():
                     print('Cancelled; original recording/build unchanged.')
                     return 1
             build(original, record, base)
-        if not args.prepare_only and not os.environ.get('DISPLAY'):
-            raise ValueError('X11 DISPLAY required for manual play; --prepare-only only qualifies the branch save')
         if args.resume:
             verified = workflow.read(branch / 'prefix/verification.json')
             if not verified['verified'] or verified['original_manifest_sha256'] != records.sha(original / 'recording.json'):
@@ -414,7 +467,7 @@ def main():
                 origin = next((p for p in candidates if p.is_file()), origin)
             if origin == branch / 'origin.save' and records.sha(origin) != receipt['origin_sha256']:
                 raise ValueError('Manual branch origin save changed')
-            return manual(original, record, base, branch, origin)
+            return manual(original, record, base, branch, origin, font)
     except (OSError, ValueError, KeyError, EOFError, subprocess.CalledProcessError, KeyboardInterrupt) as exc:
         print(f'Takeover stopped: {exc}', file=sys.stderr)
         return 1
