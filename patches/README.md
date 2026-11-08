@@ -238,3 +238,9 @@ The forty-sixth carry clears object-detection panel flags on a new level
 (consumer #205, adopting source219). The depth change now clears
 borg_detect_obj alongside trap/door/evil; the same-level control stays
 byte-identical.
+
+The forty-seventh carry makes the Maim Foe real pass return the best
+tracked score (consumer #214, adopting source256). The chooser's re-run
+of the winning attack reported the last-scanned monster's score; it now
+returns b_d like the simulation pass already did; the single and none
+controls stay byte-identical.
