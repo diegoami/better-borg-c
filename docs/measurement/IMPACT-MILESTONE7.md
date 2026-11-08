@@ -199,10 +199,11 @@ knockout attribution independently. **Verdict: approve, with corrections.**
 **Condition before tagging:** M7-01/02/03/06 corrected in this document and the issue body
 (done), M7-04/05 brought up to date (done) — and the annotated tag placed on the runtime
 snapshot `3573d741e` (not the docs commit) with a message recording that the full matrix was
-rerun. The tag itself is the owner's action.
+rerun. The tag itself was placed under explicit owner authorization (2026-11-08): annotated tag `4.2.6-impact-v7` (object `8425369`) on `3573d741e6dc3cafa4099fcef8b38fdb32952977`, message recording the matrix rerun and the review verdict.
 
 ## Tag
 
-The annotated tag `4.2.6-impact-v7` on the runtime snapshot `3573d741e6dc3cafa4099fcef8b38fdb32952977`
-(runtime commit, not the docs commit), following v1-v6, is an owner step. Unlike v6, its message
-can record that the full regression matrix **was** rerun at this tip.
+The annotated tag `4.2.6-impact-v7` (object `8425369`) was created and pushed on the runtime
+snapshot `3573d741e6dc3cafa4099fcef8b38fdb32952977` (runtime commit, not the docs commit),
+following v1-v6, after the review's corrections were applied. Its message records that the
+full regression matrix **was** rerun at this tip — the first v-tag whose message can say so.
