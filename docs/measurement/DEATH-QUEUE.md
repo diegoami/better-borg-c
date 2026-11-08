@@ -152,3 +152,31 @@ For a manual attempt at an alternative decision, use
 and loads a separate native save with the Borg off. First use offers a separate
 historical helper build; existing replay engines remain frozen. See
 [manual takeover and resume](RECORD-REPLAY.md#play-a-manual-alternative-from-a-recorded-turn).
+
+## Watch or take over a collected survivor
+
+Each completed attempt now prints `Watch:` and `Play yourself:` commands and
+stores them in its `collection.json` entry. The commands apply to deaths and
+living survivors alike. A timed-out movie uses `--view-only` for watching;
+manual play verifies its selected prefix first. Crashed/error recordings may
+have a watch-only command but are not offered for takeover.
+
+Retrieve commands for an existing collection without builds or new games:
+
+```sh
+./produce_death.py --commands artifacts/death-workflow/collections/TIMESTAMP
+```
+
+`--timeout SECONDS` already sets the native **wall-time limit per character**
+(default120seconds), separate from build/lock waiting. `--stall-timeout SECONDS`
+(default30) limits an unchanged engine turn; `--turns` sets the engine-turn cap.
+For example, search up to20fresh characters, allowing each60seconds:
+
+```sh
+./produce_death.py --games 20 --timeout 60
+```
+
+Wall/turn limits continue to the next declared seed. Three living timeouts are
+not three completed200000-turn games or evidence that progress is good; the
+engine clock can advance during unproductive town/stair cycles. All outcomes
+and recordings remain preserved, and no limits or seeds grow automatically.

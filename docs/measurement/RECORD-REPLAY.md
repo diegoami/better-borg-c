@@ -377,3 +377,35 @@ of the same branch serialize on its manual lock. A display is required for play;
 `--prepare-only` works headlessly. Manual branch recordings can be inspected with
 `./replay-borg.py SESSION_DIRECTORY`; they are explicitly labeled counterfactuals
 and are not automatically added to the next-unreviewed Borg-death queue.
+
+### Timed-out survivors and the latest recorded turn
+
+```sh
+./play-from-replay.py RECORDING_DIRECTORY --from-turn latest
+```
+
+`latest` selects the **first living command boundary at the last recorded
+living-command turn**. Multiple command phases can share one turn; selecting
+that first boundary preserves the historical hook's exact semantics. Explicit
+numeric turns still select the first command at/after that turn. The script
+prints the actual turn and frame before qualification.
+
+Manual takeover now accepts a **finalized wall-timeout recording** as well as a
+complete normal recording. It checks all frozen file hashes, the finalized input
+manifest and matching timeout outcome, then requires exactly the same
+frame/input/action/clock/file/trace prefix and native save fingerprint as for a
+complete movie. Only that prefix is qualified; the original remains marked
+incomplete and the receipt records its original status/outcome. No full-run
+verification, normal completion or independent survivor is inferred from it.
+Active/unfinalized recordings, changed files, recording errors and crashes are
+refused. A missing/malformed tail or divergent rerun can still prevent takeover;
+no terminal input/RNG is fabricated to get past it. The original replay command
+remains strict by default; use `--view-only` to watch a timed-out movie.
+
+First use can offer the separate helper build for the **recorded historical
+source**, even if current main has newer fixes. Existing replay engines and
+recordings remain untouched. `--prepare-only` qualifies without opening X11;
+`--resume BRANCH_DIRECTORY` later plays the isolated branch with its pinned
+helper. `--timeout` on this script bounds prefix reconstruction (default600s),
+not your manual session; it is independent of the collector's per-character
+`--timeout`.

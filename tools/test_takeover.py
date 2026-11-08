@@ -70,6 +70,68 @@ class Takeover(unittest.TestCase):
                 (output / name).write_text(content)
                 self.assertIsNotNone(takeover.prefix_difference(original, output, expected)[0])
 
+    def test_latest_selects_first_command_at_last_living_command_turn(self):
+        with tempfile.TemporaryDirectory() as temp:
+            original, _, expected = self.fixture(Path(temp))
+            self.assertEqual(takeover.boundary(original, 'latest'), expected)
+            self.assertEqual(takeover.parse_turn('latest'), 'latest')
+            self.assertEqual(takeover.parse_turn('103'), 103)
+            for value in ('0', '-1', 'bad'):
+                with self.assertRaises(takeover.argparse.ArgumentTypeError):
+                    takeover.parse_turn(value)
+
+    def timeout_manifest(self, original, status='incomplete', outcome='wall_timeout', error=None):
+        (original / 'engine').write_text('frozen engine')
+        (original / 'geometry.json').write_text('{}')
+        files = {p.name:takeover.records.sha(p) for p in original.iterdir()
+                 if p.is_file() and p.name not in ('recording.json', 'result.json')}
+        value = {'schema':takeover.records.SCHEMA, 'status':status,
+                 'outcome':outcome, 'files_sha256':files}
+        (original / 'recording.json').write_text(json.dumps(value))
+        (original / 'result.json').write_text(json.dumps({'outcome':outcome,'error':error}))
+        return value
+
+    def test_finalized_timeout_accepts_prefix_without_relabeling_original(self):
+        with tempfile.TemporaryDirectory() as temp:
+            original, _, _ = self.fixture(Path(temp))
+            self.timeout_manifest(original)
+            initial = (original / 'recording.json').read_bytes()
+            record = takeover.validate_recording(original)
+            self.assertEqual(record['status'], 'incomplete')
+            self.assertEqual((original / 'recording.json').read_bytes(), initial)
+            # Full ordinary replay remains strict.
+            with self.assertRaises(ValueError):
+                takeover.records.validate(original)
+
+    def test_partial_takeover_refuses_active_crashed_errored_or_changed_recordings(self):
+        for status, outcome, error in [('recording','wall_timeout',None),
+                                      ('incomplete','crash',None),
+                                      ('incomplete','wall_timeout','reader failed')]:
+            with self.subTest(status=status,outcome=outcome,error=error), tempfile.TemporaryDirectory() as temp:
+                original, _, _ = self.fixture(Path(temp))
+                self.timeout_manifest(original,status,outcome,error)
+                with self.assertRaises(ValueError):
+                    takeover.validate_recording(original)
+        with tempfile.TemporaryDirectory() as temp:
+            original, _, _ = self.fixture(Path(temp))
+            self.timeout_manifest(original)
+            (original / 'events.txt').write_text('tampered')
+            with self.assertRaisesRegex(ValueError,'Recording file changed'):
+                takeover.validate_recording(original)
+
+    def test_timeout_needs_complete_input_manifest_and_consistent_outcome(self):
+        with tempfile.TemporaryDirectory() as temp:
+            original, _, _ = self.fixture(Path(temp))
+            record = self.timeout_manifest(original)
+            del record['files_sha256']['engine']
+            (original / 'recording.json').write_text(json.dumps(record))
+            with self.assertRaisesRegex(ValueError,'missing finalized replay inputs'):
+                takeover.validate_recording(original)
+            self.timeout_manifest(original)
+            (original / 'result.json').write_text('{"outcome":"crash"}')
+            with self.assertRaisesRegex(ValueError,'conflicting outcome'):
+                takeover.validate_recording(original)
+
     def test_external_takeover_and_replay_settings_do_not_leak(self):
         with mock.patch.dict(takeover.os.environ, {'BORG_TAKEOVER_TURN':'100',
                 'BORG_REPLAY_DIR':'old', 'BORG_MEASURE_PLAY_TURNS':'10', 'DISPLAY':':88'}):
@@ -80,7 +142,7 @@ class Takeover(unittest.TestCase):
     def test_declining_build_never_starts_capture_or_changes_original(self):
         with tempfile.TemporaryDirectory() as temp:
             original, _, frame = self.fixture(Path(temp))
-            record = {'build': {'source_commit':'a'*40, 'binary_sha256':'b'*64}}
+            record = {'status':'complete', 'build': {'source_commit':'a'*40, 'binary_sha256':'b'*64}}
             with mock.patch.object(takeover.replay, 'resolve_recording', return_value=original), \
                  mock.patch.object(takeover.records, 'validate', return_value=record), \
                  mock.patch.object(takeover, 'boundary', return_value=frame), \
