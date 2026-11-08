@@ -106,7 +106,13 @@ def main():
                     '--', 'src', 'lib', 'CMakeLists.txt', 'cmake'], cwd=ROOT, check=True)
     product_gate = json.loads(args.product_gate.resolve().read_text())
     head = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
-    assert product_gate['success'] and product_gate['commit'] == head
+    assert product_gate['success']
+    # The gate must be an ancestor of HEAD with identical game sources; only
+    # docs/tooling commits may sit between the gate and this run.
+    subprocess.run(['git', 'merge-base', '--is-ancestor', product_gate['commit'], 'HEAD'],
+                   cwd=ROOT, check=True)
+    subprocess.run(['git', 'diff', '--exit-code', product_gate['commit'], 'HEAD', '--',
+                    'src', 'lib', 'CMakeLists.txt', 'cmake'], cwd=ROOT, check=True)
 
     for core in (asan, before_asan):
         flags = (core / 'CMakeFiles/OurCoreLib.dir/flags.make').read_text()
@@ -170,7 +176,9 @@ def main():
             row = {
                 'exit': result.returncode,
                 'passed': 'native-c/text-287 finished: 1/1 passed' in text,
-                'asan': 'AddressSanitizer' in text,
+                # Actual sanitizer reports say "AddressSanitizer: <kind>";
+                # the wide case's LAYOUT line only mentions the name in prose.
+                'asan': re.search(r'AddressSanitizer: [a-z]', text) is not None,
                 'log_sha256': sha(log),
             }
             match = re.search(r'OUTCOME (.*)', text)
