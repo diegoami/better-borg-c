@@ -1,0 +1,43 @@
+From 1e00314553594d9bf0f8174ae6e15b28f3bcf7c7 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 14:10:22 +0000
+Subject: [PATCH] Borg: keep the last character of monster messages without [|]
+
+borg_get_parsed_pain() copies a monster message into a buffer that starts
+with an added space, so the buffer needs room for the space, the text and
+the terminator.  It allocated strlen + 1 bytes, which is enough only when
+the text contains "[singular|plural]" markup that is dropped while
+copying.  For a message without that markup the last character was cut
+off, so " can move again.", " falls under your spell!",
+" is no longer under your control." and " shimmers for a moment." were
+stored without their final '.' or '!' and never matched the message the
+game prints.  The borg then ignored those lines instead of noting them
+against the monster, as it does for "is no longer stunned." and the
+other monster status messages.
+
+Allocate strlen + 2 bytes.
+
+Tracked as diegoami/neo-angband-tracker#197.
+
+(cherry picked from commit 8a0c13f7127642da8222c84380b4e6b8f9f96eff)
+---
+ src/borg/borg-messages.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-messages.c b/src/borg/borg-messages.c
+index 8132cd56a..fb44d4de0 100644
+--- a/src/borg/borg-messages.c
++++ b/src/borg/borg-messages.c
+@@ -1628,7 +1628,8 @@ static void borg_init_spell_messages(void)
+ /* load monster in pain messages */
+ static char *borg_get_parsed_pain(const char *pain, bool do_plural)
+ {
+-    size_t buflen = strlen(pain) + 1;
++    /* Room for the leading space, the text and the terminator */
++    size_t buflen = strlen(pain) + 2;
+     char  *buf    = mem_zalloc(buflen);
+ 
+     int    state  = MSG_PARSE_NORMAL;
+-- 
+2.53.0
+
