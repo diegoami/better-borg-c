@@ -1,0 +1,78 @@
+{
+  "classification": "retreat/re-approach loop and fleeing-mode healing investigation; source-checked mechanisms with native position evidence; no reusable original-C defect established",
+  "confidence": "High for native positions, HP, notes and inventory; branch order is source-derived (runtime branch not observed); no rescue claimed",
+  "cause_category": "poison after monster melee",
+  "overall_assessment": "overall-assessment.md",
+  "original_autoexport_record_sha256": "24e8557204b88537f97cb95b2e49d002ca20212d4e4f9ceae0d548db3581a3b8",
+  "metadata_curation": "Discussion moved from default collection issue163 to focused325; native identity/source/attempts and original evidence unchanged.",
+  "feedback": [
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/325",
+      "summary": "Chat 2026-11-08: stairs down/up 27237-27238, eye and ant killed, mold fight from 27525 going back and forth while scared/leaving; one stair in the mold's way, left stair not reached, never fights back; reaches the stairs area 27728 but is swarmed by worms with no potions.",
+      "status": "processed; recorded verbatim on 325; findings replied; owner review completion not inferred",
+      "actions": [
+        "mold-retreat-loop",
+        "emergency-flow-cache",
+        "heal-eligibility",
+        "identification-priority"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "status": "observed",
+      "summary": "Normal-mode Gnome Paladin CL2/DL1/max2, seed1907608237, source867c777845fd with FLOWCACHE-404 carried; poison death27770, HP-1/21."
+    },
+    {
+      "status": "observed",
+      "summary": "27476 a second white worm mass sets 'Scary guy on level' (pristine rule: worm masses >= CLEVEL); whole-level fleeing/leaving from then on."
+    },
+    {
+      "status": "observed",
+      "summary": "Grey mold (2 HP, AC1, never moves) at x105,y11 guards the only access square (106,11) to the east stair. Frames: five adjacent visits 27517-27682, HP 21->17->14->9->5->3; no melee attack in the tail."
+    },
+    {
+      "status": "observed; order source-derived",
+      "summary": "Adjacent decisions end in caution 'Retreating ... (16 > 0)' before attack selection; distance-2 decisions reach borg_attack ('Adjacent to monster on Scaryguy Level') but melee needs distance 1, and stair flow cost4 steps back into reach."
+    },
+    {
+      "status": "observed",
+      "summary": "West stair (91,11) reachable via the open door at (99,12): first westward attempt turns back at 27637 when a new worm mass appears; second reaches (98,13) where worm masses crawl/poison it at 27746; poison kills at (99,11)."
+    },
+    {
+      "status": "observed",
+      "summary": "Pack: 8 Teal Potions are actual Cure Light Wounds per the Borg's own floor-object notes (12358, 27287); Orange and Metallic Red potions and two scrolls also unidentified; no Phase Door since 24506; 219 gold."
+    },
+    {
+      "status": "source-checked",
+      "summary": "Caution calls borg_heal only when not fleeing; the poison-emergency unknown-potion fallback lives inside borg_heal; the final unknown-use fallback requires MAXSP 0 (Paladin had 3)."
+    }
+  ],
+  "actions": [
+    {
+      "key": "mold-retreat-loop",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/324",
+      "summary": "Observe caution retreat versus attack at adjacent decisions 27517/27537 and the flee-to-stairs re-approach; compare D0008 order",
+      "status": "needs evidence; recurs with FLOWCACHE-404 carried; no gameplay change"
+    },
+    {
+      "key": "emergency-flow-cache",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/212",
+      "summary": "Narrow source404 correction verified on actual product with before/after and negative controls; track upstream acceptance and separate population evaluation",
+      "status": "carried; product regression/controls verified; upstream acceptance and population benefit remain open"
+    },
+    {
+      "key": "heal-eligibility",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/34",
+      "summary": "Fleeing guard skips borg_heal and its poison-emergency unknown quaff",
+      "status": "investigating"
+    },
+    {
+      "key": "identification-priority",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/180",
+      "summary": "Eight unidentified Cure Light Wounds at CL2",
+      "status": "proposed"
+    }
+  ]
+}
