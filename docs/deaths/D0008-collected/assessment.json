@@ -36,6 +36,11 @@
     {
       "status": "qualified related report",
       "summary": "Owner-linked Rust issue5 independently records same cache/control pattern, but its Half-Elf Priest, seed, down-stair refuge, stock and death turn differ."
+    },
+    {
+      "status": "verified consumer carry comparison",
+      "summary": "Source404 correction applied on current48-carry product: unchanged fixture after30/30; partial-fix controls and154prior regression expectations verified. Original life exactly reproduced by current unmodified engine. Corrected diagnostic diverges10837 and reaches200000alive CL5/HP56; not population survival proof.",
+      "evidence": "../../measurement/flowcache-404/d0008-result.json"
     }
   ],
   "actions": [
@@ -43,8 +48,8 @@
       "key": "emergency-flow-cache",
       "issue": "https://github.com/diegoami/better-borg-c/issues/212",
       "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/404",
-      "summary": "Minimal native exception\u2192normal cache fixture, safe/dangerous/blocked/emergency controls, narrow source correction then separate consumer carry",
-      "status": "investigating; historical C mechanism qualified, isolated fix and benefit untested"
+      "summary": "Narrow source404 correction verified on actual product with before/after and negative controls; track upstream acceptance and separate population evaluation",
+      "status": "consumer carry verified; integration pending; population benefit unmeasured"
     },
     {
       "key": "stair-escape-intent",

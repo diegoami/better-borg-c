@@ -58,3 +58,46 @@ not another independent prospective sample. Original C46 build/record/save/movie
 identities and owner review remain immutable. Actual measurement results will
 be recorded before delivery; no claim that this carry fixes every component of
 D0008, establishes a designed escape, or improves population survival.
+
+## Measured results on this consumer
+
+[Curated results](flowcache-404/scenario-results.json) retain all150scenario
+outcomes and core-manifest digests. The six ordinary controls and expired-monster
+limit match their before results. The first normal flow after a desperate safe
+flow evaluates19grids versus9before; a fresh normal flow also evaluates19.
+Honest cached entries cost0re-evaluations in the mixed sequence in all four
+modes; desperate enqueue drops its previously discarded call (1→0). These are
+counts, not a whole-game timing benchmark.
+
+[Prior regressions](flowcache-404/regression-summary.json):154expectations matched,
+including the two already documented expected-red dispel259 cases. No assertion
+or prior interaction expectation was changed for this correction.
+
+[Frozen v1 comparison](flowcache-404/v1-results.json): all6runs reach20000alive;
+whole before/after traces match for each of the3starting conditions. Character
+level3 for all; maximum depths1/3/2 for seeds11/29/47. Wall seconds before/after
+are6.740/6.539,8.049/8.047,6.039/6.039. One repetition and shared-machine timing
+are not a performance benchmark or evidence of a speedup. Builds are pinned to
+actual before e9eb29151 and runtime correction257e7b473; the later ledger commit
+adds provenance without another gameplay change. No new deaths occur in v1.
+
+[D0008 control certificate](flowcache-404/d0008-before-verification.json): the
+actual current48-carry recording engine reproduces **every original stream,
+frame, RNG/player state and native-save boundary**, not only the grey-mold
+outcome. The original C46 bundle/engine is read-only. The corrected live run
+uses the identical starting save bytes, original seed/random-birth input and
+configuration, but is explicitly a new diagnostic trajectory.
+[Actual result](flowcache-404/d0008-result.json): first action difference at10837,
+row746 (`6`east becomes Escape/fallback); survives to200000,CL5,D2/maxD2,HP56.
+Retreat10827 is unchanged; on the next upstairs decision the fixed flow refuses
+normal re-entry and the existing bravery/Phase fallback runs. It does **not**
+demonstrate successful stair-taking, resolve source152/156, establish a designed
+escape or estimate population survivability. After decisions change, RNG and
+future events differ. The replay and diagnostic are the already-observed D0008
+start, not two new independent deaths. No original dossier build is relabeled.
+
+The offered source PR remains a draft; its immutable correction is adopted here
+under the consumer's own verification/merge policy, not represented as source
+approval or official upstream acceptance. No source-repository changes or posts
+were made. Python97/97controls pass in the consumer. Full hosted checks and final
+integration/build receipts are recorded on consumer212 and its carry PR.

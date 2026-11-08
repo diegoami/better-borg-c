@@ -1,0 +1,43 @@
+{
+  "before": "e9eb2915130dac6a83b31df1f24a0cd8c2c47cef",
+  "after_runtime": "257e7b473e56d6e9cf69c8dcdbc13e9039a42b5b",
+  "scope": "frozen3startingconditions repeated once per variant; not survival-effect estimate",
+  "pairs": [
+    {
+      "seed": 11,
+      "before_outcome": "turn_cap",
+      "after_outcome": "turn_cap",
+      "trace_equal": true,
+      "trace_sha256": "7e2dd0111cc8497a49a18c9c3ff5c0dc5b5f85e5fb96fd1c4cb73ff7c19407be",
+      "before_wall_seconds": 6.73966638300044,
+      "after_wall_seconds": 6.539241722995939,
+      "level": 3,
+      "max_depth": 1,
+      "turn": 20000
+    },
+    {
+      "seed": 29,
+      "before_outcome": "turn_cap",
+      "after_outcome": "turn_cap",
+      "trace_equal": true,
+      "trace_sha256": "4cb0c1a14e7bfc60fc9768308ac4ac88d0d3670633c0166580d544e723e36135",
+      "before_wall_seconds": 8.049098650000815,
+      "after_wall_seconds": 8.047095148998778,
+      "level": 3,
+      "max_depth": 3,
+      "turn": 20000
+    },
+    {
+      "seed": 47,
+      "before_outcome": "turn_cap",
+      "after_outcome": "turn_cap",
+      "trace_equal": true,
+      "trace_sha256": "730a644468845bdb253187efc3e32a722bbe2a09d3379257cf7ea3d0830d648e",
+      "before_wall_seconds": 6.039335011999356,
+      "after_wall_seconds": 6.038738119001209,
+      "level": 3,
+      "max_depth": 2,
+      "turn": 20000
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "verified": true,
+  "total_cases": 154,
+  "groups": {
+    "swap": {
+      "cases": 9,
+      "all_recorded_expectations_matched": true
+    },
+    "knockout": {
+      "cases": 4,
+      "all_recorded_expectations_matched": true
+    },
+    "preparation": {
+      "cases": 9,
+      "all_recorded_expectations_matched": true
+    },
+    "cold-protection": {
+      "cases": 6,
+      "all_recorded_expectations_matched": true
+    },
+    "rings": {
+      "cases": 7,
+      "all_recorded_expectations_matched": true
+    },
+    "potion-timing": {
+      "cases": 9,
+      "all_recorded_expectations_matched": true
+    },
+    "itangast": {
+      "cases": 5,
+      "all_recorded_expectations_matched": true
+    },
+    "shot-path": {
+      "cases": 6,
+      "all_recorded_expectations_matched": true
+    },
+    "per-spell": {
+      "cases": 5,
+      "all_recorded_expectations_matched": true
+    },
+    "glyph": {
+      "cases": 3,
+      "all_recorded_expectations_matched": true
+    },
+    "missile": {
+      "cases": 3,
+      "all_recorded_expectations_matched": true
+    },
+    "tp-other": {
+      "cases": 3,
+      "all_recorded_expectations_matched": true
+    },
+    "dispel": {
+      "cases": 3,
+      "all_recorded_expectations_matched": true
+    },
+    "arc": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "munchkin": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "vampire": {
+      "cases": 3,
+      "all_recorded_expectations_matched": true
+    },
+    "slay": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "detect": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "activ": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "reserve": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "dispel259": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "losdispel": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "staff": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "blind": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "text": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "calcreload": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "staletarget": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "glowoverflow": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "light": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "surrounded": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "homeblows": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "lunal": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "opblock": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "calfree": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "brand": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "stairtrack": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "acidarc": {
+      "cases": 3,
+      "all_recorded_expectations_matched": true
+    },
+    "outoflight": {
+      "cases": 4,
+      "all_recorded_expectations_matched": true
+    },
+    "mapwall": {
+      "cases": 3,
+      "all_recorded_expectations_matched": true
+    },
+    "enlightenment": {
+      "cases": 6,
+      "all_recorded_expectations_matched": true
+    },
+    "stairreturn": {
+      "cases": 3,
+      "all_recorded_expectations_matched": true
+    },
+    "blowname": {
+      "cases": 1,
+      "all_recorded_expectations_matched": true
+    },
+    "excavate": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "calllight": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "gloves": {
+      "cases": 3,
+      "all_recorded_expectations_matched": true
+    },
+    "detectcarry": {
+      "cases": 2,
+      "all_recorded_expectations_matched": true
+    },
+    "maimfoe": {
+      "cases": 3,
+      "all_recorded_expectations_matched": true
+    },
+    "recalldepth": {
+      "cases": 3,
+      "all_recorded_expectations_matched": true
+    }
+  },
+  "preserved_expected_failures": [
+    "dispel259/reserve",
+    "dispel259/clear"
+  ],
+  "raw_result": "/home/diego/projects/angband/better-borg-c/.worktrees/flowcache-carry/artifacts/fc404-carry/regressions/result.json"
+}
