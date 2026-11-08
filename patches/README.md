@@ -308,3 +308,9 @@ The fifty-fifth carry heads for the nearest free staircase when desperate
 (consumer #252, adopting source153): the search kept the farthest for both up and
 down stairs. Three-mode fixture flips both two-staircase cases and keeps the
 single-staircase control byte-identical. Behaviour-active; v1 outcomes unchanged.
+
+The fifty-sixth carry judges each back-away grid on its own (consumer #254, adopting
+source155): the monster-adjacent flag is reset per candidate and a trap skips only its
+grid instead of ending the scan. Three-mode fixture flips the monster and trap cases;
+the healthy control is byte-identical. Behaviour-active; v1 cohort mixed (seed 29 saved,
+seed 47 lost), recorded as observed.
