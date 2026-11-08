@@ -939,6 +939,24 @@
    "credit": "Diego Amicabile (owner death feedback; native C proposal/evidence); related independent borg-rs grey-mold diagnosis",
    "verification_status": "merged; product before/after/negative controls and154prior expectations verified; frozen v1trace-neutral; D0008 diagnostic alive200000, no population-benefit claim; carried/open+patch-active",
    "merge_commit": "1c8fcdccfafa08fd34aaa12b8e6409e8607030bb"
+  },
+  {
+   "id": "CBUG-0213",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/224",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/213",
+   "source_head": "da9934216eb15d421220050b374c72b65b9cd680",
+   "source_commits": [
+    "da9934216eb15d421220050b374c72b65b9cd680"
+   ],
+   "applied_commits": [
+    "6c00db351c3edaabd708294bd9b702b07f66cb4c"
+   ],
+   "patch": "patches/0050-glowtrace-floors-branch.patch",
+   "patch_active": true,
+   "evidence_ref": "5edc188e4e37c4ccf351dd5657b83bc5f1167244",
+   "verification": "docs/measurement/GLOWTRACE-FLOORS.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on task/carry-glowtrace; awaiting normal PR merge"
   }
  ]
 }

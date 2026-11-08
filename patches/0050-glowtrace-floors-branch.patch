@@ -1,0 +1,84 @@
+From 6c00db351c3edaabd708294bd9b702b07f66cb4c Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 02:29:13 +0100
+Subject: [PATCH] Borg: mark floor lighting from the game in the map update
+
+The map update's Floors branch tested g.f_idx == FEAT_NONE, the same
+condition as the Darkness branch before it in the same else-if chain,
+so it was never taken: floor grids were never marked BORG_GLOW,
+BORG_DARK or BORG_LIGHT from the game's lighting. The condition is a
+transcription slip from the original borg's switch, which cased
+FEAT_FLOOR here.
+
+Restore the FEAT_FLOOR condition, and read the glow state from
+square_islit() -- the grid's permanent-glow flag, matching the
+CAVE_GLOW test the original branch performed. The grid_data lighting
+enum cannot express glow: LIGHTING_LIT is map_info's default value for
+grids whose lighting is not otherwise established, so the transcribed
+g.lighting == LIGHTING_LIT test would have marked remembered dark
+floors as glowing.
+
+Consumers: the borg's flow-toward-light builds its target list purely
+from BORG_GLOW grids and returned empty on every level; unlit-Borg
+defense checks treat !BORG_GLOW grids as dark. With the correction, a
+permanently glowing floor away from the borg's own torch radius is
+flagged glowing, an unlit floor is flagged dark, and walls and doors
+are untouched.
+
+Tracked as diegoami/neo-angband-tracker#213.
+---
+ src/borg/borg-update.c | 21 +++++++++------------
+ 1 file changed, 9 insertions(+), 12 deletions(-)
+
+diff --git a/src/borg/borg-update.c b/src/borg/borg-update.c
+index 6cd7a85e6..83ed702db 100644
+--- a/src/borg/borg-update.c
++++ b/src/borg/borg-update.c
+@@ -362,35 +362,32 @@ static void borg_update_map(void)
+                     ag->info |= BORG_DARK;
+             }
+             /* Floors */
+-            else if (g.f_idx == FEAT_NONE) {
++            else if (g.f_idx == FEAT_FLOOR) {
+                 /* Handle "blind" */
+                 if (borg.trait[BI_ISBLIND]) {
+                     /* Nothing */
+                 }
+ 
+-                /* Handle "dark" floors */
+-                if (g.lighting == LIGHTING_DARK) {
++                /* Handle "dark" floors.  square_islit() is the grid's
++                 * permanent-glow flag, matching the CAVE_GLOW test this
++                 * branch transcribed from the original borg; the lighting
++                 * enum in grid_data cannot express it (LIGHTING_LIT is
++                 * map_info's default for grids whose lighting is not
++                 * otherwise established). */
++                if (!square_islit(cave, l)) {
+                     /* Dark floor grid */
+                     ag->info |= BORG_DARK;
+                     ag->info &= ~BORG_GLOW;
+                 }
+ 
+                 /* Handle Glowing floors */
+-                else if (g.lighting == LIGHTING_LIT) {
++                else {
+                     /* Perma Glowing Grid */
+                     ag->info |= BORG_GLOW;
+ 
+                     /* Assume not dark */
+                     ag->info &= ~BORG_DARK;
+                 }
+-
+-                /* torch-lit or line of sight grids */
+-                else {
+-                    ag->info |= BORG_LIGHT;
+-
+-                    /* Assume not dark */
+-                    ag->info &= ~BORG_DARK;
+-                }
+             }
+             /* Open doors */
+             else if (g.f_idx == FEAT_OPEN || g.f_idx == FEAT_BROKEN) {
+-- 
+2.53.0
+
