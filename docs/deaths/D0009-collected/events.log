@@ -1,0 +1,2336 @@
+BORG 218427 # Leaving munchkin Mode. (Town or Weak)
+BORG 218427 # Loc:49,45 Dep:5 Lev:10 HP:67/73 SP:13/13 Danger:p=0
+BORG 218427 # Standing on dn-stairs
+BORG 218427 # FEELING_DANGER:8 (+)
+BORG 218427 # Creating an object 'copper' at (19,19)
+BORG 218427 # FEELING_DANGER:8 (1)
+BORG 218427 # Leaving munchkin Mode. (Town or Weak)
+BORG 218427 # Loc:19,22 Dep:6 Lev:10 HP:67/73 SP:13/13 Danger:p=0
+BORG 218427 # Standing on up-stairs
+BORG 218427 # Leaving (restock) restock food < 3
+BORG 218427 # Leaving via up stairs.
+BORG 218427 # FEELING_DANGER:8 (+)
+BORG 218427 # FEELING_DANGER:8 (1)
+BORG 218427 # Leaving munchkin Mode. (Town or Weak)
+BORG 218427 # Loc:55,164 Dep:5 Lev:10 HP:67/73 SP:13/13 Danger:p=0
+BORG 218427 # Standing on dn-stairs
+BORG 218427 # Leaving (restock) restock food < 3
+BORG 218427 # Fleeing (need food)
+BORG 218427 # Flowing toward down-stairs at cost 0
+BORG 218427 # Fleeing and leaving the level. (Looking for any stair)
+BORG 218427 # Flowing toward down-stairs at cost 0
+BORG 218427 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 218427 # Flowing toward dark-3 at cost 1
+BORG 218427 # Opening a door
+BORG 218437 # Leaving munchkin Mode. (Town or Weak)
+BORG 218437 # Loc:55,164 Dep:5 Lev:10 HP:65/73 SP:13/13 Danger:p=0
+BORG 218437 # Standing on dn-stairs
+BORG 218437 # FEELING_DANGER:1 (+)
+BORG 218437 # FEELING_DANGER:1 (1)
+BORG 218437 # Leaving munchkin Mode. (Town or Weak)
+BORG 218437 # Loc:45,144 Dep:6 Lev:10 HP:65/73 SP:13/13 Danger:p=0
+BORG 218437 # Standing on up-stairs
+BORG 218437 # Leaving (restock) restock food < 3
+BORG 218437 # Leaving via up stairs.
+BORG 218437 # FEELING_DANGER:8 (+)
+BORG 218437 # Creating a monster 'red worm mass' at (33,68), HP: 20, Index: 90
+BORG 218437 # Removing Regional Fear (33,68) because of a LOS red worm mass
+BORG 218437 # FEELING_DANGER:8 (1)
+BORG 218437 # Leaving munchkin Mode. (Town or Weak)
+BORG 218437 # Loc:33,70 Dep:5 Lev:10 HP:65/73 SP:13/13 Danger:p=1
+BORG 218437 # Standing on dn-stairs
+BORG 218437 # Leaving (restock) restock food < 3
+BORG 218437 # Fleeing (need food)
+BORG 218437 # Flowing toward down-stairs at cost 0
+BORG 218437 # Performing attack type 3 with value 54.
+BORG 218437 # Targeting red worm mass who has 20 Hit Points (33,68).
+BORG 218437 # Firing missile 'Arrows (1d4) (+1,+3)'
+BORG 218447 # Perhaps wall near targetted location (33,68)
+BORG 218447 # Guessing wall (33,69) near target (33,68)
+BORG 218447 # Creating an object '& Arrow~' at (68,33)
+BORG 218447 # Leaving munchkin Mode. (Town or Weak)
+BORG 218447 # Loc:33,70 Dep:5 Lev:10 HP:63/73 SP:13/13 Danger:p=1
+BORG 218447 # Standing on dn-stairs
+BORG 218447 # FEELING_DANGER:8 (+)
+BORG 218447 # FEELING_DANGER:8 (1)
+BORG 218447 # Leaving munchkin Mode. (Town or Weak)
+BORG 218447 # Loc:25,142 Dep:6 Lev:10 HP:63/73 SP:13/13 Danger:p=0
+BORG 218447 # Standing on up-stairs
+BORG 218447 # Leaving (restock) restock food < 3
+BORG 218447 # Leaving via up stairs.
+BORG 218447 # FEELING_DANGER:8 (+)
+BORG 218447 # Creating an object 'Treasure Detection' at (99,25)
+BORG 218447 # FEELING_DANGER:8 (1)
+BORG 218447 # Leaving munchkin Mode. (Town or Weak)
+BORG 218447 # Loc:25,101 Dep:5 Lev:10 HP:63/73 SP:13/13 Danger:p=0
+BORG 218447 # Standing on dn-stairs
+BORG 218447 # Leaving (restock) restock food < 3
+BORG 218447 # Fleeing (need food)
+BORG 218447 # Flowing toward down-stairs at cost 0
+BORG 218447 # Flowing toward item at cost 2
+BORG 218457 # Leaving munchkin Mode. (Town or Weak)
+BORG 218457 # Loc:25,100 Dep:5 Lev:10 HP:61/73 SP:13/13 Danger:p=0
+BORG 218457 # Flowing toward down-stairs at cost 1
+BORG 218457 # Desperate for Stairs (four)
+BORG 218467 # Leaving munchkin Mode. (Town or Weak)
+BORG 218467 # Loc:25,101 Dep:5 Lev:10 HP:59/73 SP:13/13 Danger:p=0
+BORG 218467 # Standing on dn-stairs
+BORG 218467 # FEELING_DANGER:8 (+)
+BORG 218467 # FEELING_DANGER:8 (1)
+BORG 218467 # Leaving munchkin Mode. (Town or Weak)
+BORG 218467 # Loc:29,92 Dep:6 Lev:10 HP:59/73 SP:13/13 Danger:p=0
+BORG 218467 # Standing on up-stairs
+BORG 218467 # Leaving (restock) restock food < 3
+BORG 218467 # Leaving via up stairs.
+BORG 218467 # FEELING_DANGER:8 (+)
+BORG 218467 # FEELING_DANGER:8 (1)
+BORG 218467 # Leaving munchkin Mode. (Town or Weak)
+BORG 218467 # Loc:46,93 Dep:5 Lev:10 HP:59/73 SP:13/13 Danger:p=0
+BORG 218467 # Standing on dn-stairs
+BORG 218467 # Leaving (restock) restock food < 3
+BORG 218467 # Fleeing (need food)
+BORG 218467 # Flowing toward down-stairs at cost 0
+BORG 218467 # Fleeing and leaving the level. (Looking for any stair)
+BORG 218467 # Flowing toward down-stairs at cost 0
+BORG 218467 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 218467 # Flowing toward dark-3 at cost 3
+BORG 218477 # Leaving munchkin Mode. (Town or Weak)
+BORG 218477 # Loc:46,92 Dep:5 Lev:10 HP:57/73 SP:13/13 Danger:p=0
+BORG 218477 # Flowing toward down-stairs at cost 1
+BORG 218477 # Desperate for Stairs (four)
+BORG 218487 # Leaving munchkin Mode. (Town or Weak)
+BORG 218487 # Loc:46,93 Dep:5 Lev:10 HP:55/73 SP:13/13 Danger:p=0
+BORG 218487 # Standing on dn-stairs
+BORG 218487 # FEELING_DANGER:8 (+)
+BORG 218487 # FEELING_DANGER:8 (1)
+BORG 218487 # Leaving munchkin Mode. (Town or Weak)
+BORG 218487 # Loc:18,105 Dep:6 Lev:10 HP:55/73 SP:13/13 Danger:p=0
+BORG 218487 # Standing on up-stairs
+BORG 218487 # Leaving (restock) restock food < 3
+BORG 218487 # Leaving via up stairs.
+BORG 218487 # FEELING_DANGER:2 (+)
+BORG 218487 # FEELING_DANGER:2 (1)
+BORG 218487 # Leaving munchkin Mode. (Town or Weak)
+BORG 218487 # Loc:15,107 Dep:5 Lev:10 HP:55/73 SP:13/13 Danger:p=0
+BORG 218487 # Standing on dn-stairs
+BORG 218487 # Leaving (restock) restock food < 3
+BORG 218487 # Fleeing (need food)
+BORG 218487 # Flowing toward down-stairs at cost 0
+BORG 218487 # Fleeing and leaving the level. (Looking for any stair)
+BORG 218487 # Flowing toward down-stairs at cost 0
+BORG 218487 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 218487 # Flowing toward dark-3 at cost 3
+BORG 218497 # Leaving munchkin Mode. (Town or Weak)
+BORG 218497 # Loc:14,107 Dep:5 Lev:10 HP:53/73 SP:13/13 Danger:p=0
+BORG 218497 # Flowing toward down-stairs at cost 1
+BORG 218497 # Desperate for Stairs (four)
+BORG 218507 # Leaving munchkin Mode. (Town or Weak)
+BORG 218507 # Loc:15,107 Dep:5 Lev:10 HP:49/73 SP:13/13 Danger:p=0
+BORG 218507 # Standing on dn-stairs
+BORG 218507 # FEELING_DANGER:8 (+)
+BORG 218507 # FEELING_DANGER:8 (1)
+BORG 218507 # Leaving munchkin Mode. (Town or Weak)
+BORG 218507 # Loc:2,77 Dep:6 Lev:10 HP:49/73 SP:13/13 Danger:p=0
+BORG 218507 # Standing on up-stairs
+BORG 218507 # Leaving (restock) restock food < 3
+BORG 218507 # Leaving via up stairs.
+BORG 218507 # FEELING_DANGER:8 (+)
+BORG 218507 # FEELING_DANGER:8 (1)
+BORG 218507 # Leaving munchkin Mode. (Town or Weak)
+BORG 218507 # Loc:42,158 Dep:5 Lev:10 HP:49/73 SP:13/13 Danger:p=0
+BORG 218507 # Standing on dn-stairs
+BORG 218507 # Leaving (restock) restock food < 3
+BORG 218507 # Fleeing (need food)
+BORG 218507 # Flowing toward down-stairs at cost 0
+BORG 218507 # Fleeing and leaving the level. (Looking for any stair)
+BORG 218507 # Flowing toward down-stairs at cost 0
+BORG 218507 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 218507 # Flowing toward dark-3 at cost 3
+BORG 218517 # Leaving munchkin Mode. (Town or Weak)
+BORG 218517 # Loc:41,158 Dep:5 Lev:10 HP:45/73 SP:13/13 Danger:p=0
+BORG 218517 # Flowing toward down-stairs at cost 1
+BORG 218517 # Desperate for Stairs (four)
+BORG 218527 # Leaving munchkin Mode. (Town or Weak)
+BORG 218527 # Loc:42,158 Dep:5 Lev:10 HP:41/73 SP:13/13 Danger:p=0
+BORG 218527 # Standing on dn-stairs
+BORG 218527 # FEELING_DANGER:8 (+)
+BORG 218527 # FEELING_DANGER:8 (1)
+BORG 218527 # Leaving munchkin Mode. (Town or Weak)
+BORG 218527 # Loc:35,63 Dep:6 Lev:10 HP:41/73 SP:13/13 Danger:p=0
+BORG 218527 # Standing on up-stairs
+BORG 218527 # Leaving (restock) restock food < 3
+BORG 218527 # Leaving via up stairs.
+BORG 218527 # FEELING_DANGER:8 (+)
+BORG 218527 # FEELING_DANGER:8 (1)
+BORG 218527 # Leaving munchkin Mode. (Town or Weak)
+BORG 218527 # Loc:15,154 Dep:5 Lev:10 HP:41/73 SP:13/13 Danger:p=0
+BORG 218527 # Standing on dn-stairs
+BORG 218527 # Leaving (restock) restock food < 3
+BORG 218527 # Fleeing (need food)
+BORG 218527 # Flowing toward down-stairs at cost 0
+BORG 218527 # Fleeing and leaving the level. (Looking for any stair)
+BORG 218527 # Flowing toward down-stairs at cost 0
+BORG 218527 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 218527 # Flowing toward dark-3 at cost 3
+BORG 218537 # Leaving munchkin Mode. (Town or Weak)
+BORG 218537 # Loc:15,153 Dep:5 Lev:10 HP:37/73 SP:13/13 Danger:p=0
+BORG 218537 # Flowing toward down-stairs at cost 1
+BORG 218537 # Desperate for Stairs (four)
+BORG 218547 # Leaving munchkin Mode. (Town or Weak)
+BORG 218547 # Loc:15,154 Dep:5 Lev:10 HP:33/73 SP:13/13 Danger:p=0
+BORG 218547 # Standing on dn-stairs
+BORG 218547 # FEELING_DANGER:8 (+)
+BORG 218547 # FEELING_DANGER:8 (1)
+BORG 218547 # Leaving munchkin Mode. (Town or Weak)
+BORG 218547 # Loc:16,133 Dep:6 Lev:10 HP:33/73 SP:13/13 Danger:p=0
+BORG 218547 # Standing on up-stairs
+BORG 218547 # Leaving (restock) restock food < 3
+BORG 218547 # Leaving via up stairs.
+BORG 218547 # FEELING_DANGER:8 (+)
+BORG 218547 # FEELING_DANGER:8 (1)
+BORG 218547 # Leaving munchkin Mode. (Town or Weak)
+BORG 218547 # Loc:41,21 Dep:5 Lev:10 HP:33/73 SP:13/13 Danger:p=0
+BORG 218547 # Standing on dn-stairs
+BORG 218547 # Leaving (restock) restock food < 3
+BORG 218547 # Fleeing (need food)
+BORG 218547 # Flowing toward down-stairs at cost 0
+BORG 218547 # Fleeing and leaving the level. (Looking for any stair)
+BORG 218547 # Flowing toward down-stairs at cost 0
+BORG 218547 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 218547 # Flowing toward dark-3 at cost 3
+BORG 218557 # Leaving munchkin Mode. (Town or Weak)
+BORG 218557 # Loc:40,21 Dep:5 Lev:10 HP:29/73 SP:13/13 Danger:p=0
+BORG 218557 # Flowing toward down-stairs at cost 1
+BORG 218557 # Desperate for Stairs (four)
+BORG 218567 # Leaving munchkin Mode. (Town or Weak)
+BORG 218567 # Loc:41,21 Dep:5 Lev:10 HP:25/73 SP:13/13 Danger:p=0
+BORG 218567 # Standing on dn-stairs
+BORG 218567 # FEELING_DANGER:8 (+)
+BORG 218567 # FEELING_DANGER:8 (1)
+BORG 218567 # Leaving munchkin Mode. (Town or Weak)
+BORG 218567 # Loc:18,21 Dep:6 Lev:10 HP:25/73 SP:13/13 Danger:p=0
+BORG 218567 # Standing on up-stairs
+BORG 218567 # Leaving (restock) restock food < 3
+BORG 218567 # Leaving via up stairs.
+BORG 218567 # FEELING_DANGER:5 (+)
+BORG 218567 # FEELING_DANGER:5 (1)
+BORG 218567 # Leaving munchkin Mode. (Town or Weak)
+BORG 218567 # Loc:12,123 Dep:5 Lev:10 HP:25/73 SP:13/13 Danger:p=0
+BORG 218567 # Standing on dn-stairs
+BORG 218567 # Leaving (restock) restock food < 3
+BORG 218567 # Fleeing (need food)
+BORG 218567 # Flowing toward down-stairs at cost 0
+BORG 218567 # Fleeing and leaving the level. (Looking for any stair)
+BORG 218567 # Flowing toward down-stairs at cost 0
+BORG 218567 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 218567 # Flowing toward dark-3 at cost 3
+BORG 218577 # Leaving munchkin Mode. (Town or Weak)
+BORG 218577 # Loc:11,123 Dep:5 Lev:10 HP:21/73 SP:13/13 Danger:p=0
+BORG 218577 # Flowing toward down-stairs at cost 1
+BORG 218577 # Desperate for Stairs (four)
+BORG 218587 # Leaving munchkin Mode. (Town or Weak)
+BORG 218587 # Loc:12,123 Dep:5 Lev:10 HP:17/73 SP:13/13 Danger:p=0
+BORG 218587 # Standing on dn-stairs
+BORG 218587 # FEELING_DANGER:8 (+)
+BORG 218587 # FEELING_DANGER:8 (1)
+BORG 218587 # Leaving munchkin Mode. (Town or Weak)
+BORG 218587 # Loc:30,47 Dep:6 Lev:10 HP:17/73 SP:13/13 Danger:p=0
+BORG 218587 # Standing on up-stairs
+BORG 218587 # Leaving (restock) restock food < 3
+BORG 218587 # Leaving via up stairs.
+BORG 218587 # FEELING_DANGER:8 (+)
+BORG 218587 # FEELING_DANGER:8 (1)
+BORG 218587 # Leaving munchkin Mode. (Town or Weak)
+BORG 218587 # Loc:52,117 Dep:5 Lev:10 HP:17/73 SP:13/13 Danger:p=0
+BORG 218587 # Standing on dn-stairs
+BORG 218587 # Leaving (restock) restock food < 3
+BORG 218587 # Fleeing (need food)
+BORG 218587 # Flowing toward down-stairs at cost 0
+BORG 218587 # Fleeing and leaving the level. (Looking for any stair)
+BORG 218587 # Flowing toward down-stairs at cost 0
+BORG 218587 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 218587 # Flowing toward dark-3 at cost 3
+BORG 218597 # Leaving munchkin Mode. (Town or Weak)
+BORG 218597 # Loc:53,117 Dep:5 Lev:10 HP:13/73 SP:13/13 Danger:p=0
+BORG 218597 # Flowing toward down-stairs at cost 1
+BORG 218597 # Desperate for Stairs (four)
+BORG 218607 # Leaving munchkin Mode. (Town or Weak)
+BORG 218607 # Loc:52,117 Dep:5 Lev:10 HP:7/73 SP:13/13 Danger:p=0
+BORG 218607 # Standing on dn-stairs
+BORG 218607 # FEELING_DANGER:8 (+)
+BORG 218607 # FEELING_DANGER:8 (1)
+BORG 218607 # Leaving munchkin Mode. (Town or Weak)
+BORG 218607 # Loc:17,119 Dep:6 Lev:10 HP:7/73 SP:13/13 Danger:p=0
+BORG 218607 # Standing on up-stairs
+BORG 218607 # Leaving (restock) restock food < 3
+BORG 218607 # Leaving via up stairs.
+BORG 218607 # FEELING_DANGER:8 (+)
+BORG 218607 # FEELING_DANGER:8 (1)
+BORG 218607 # Leaving munchkin Mode. (Town or Weak)
+BORG 218607 # Loc:5,148 Dep:5 Lev:10 HP:7/73 SP:13/13 Danger:p=0
+BORG 218607 # Standing on dn-stairs
+BORG 218607 # Leaving (restock) restock food < 3
+BORG 218607 # Fleeing (need food)
+BORG 218607 # Flowing toward down-stairs at cost 0
+BORG 218607 # Fleeing and leaving the level. (Looking for any stair)
+BORG 218607 # Flowing toward down-stairs at cost 0
+BORG 218607 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 218607 # Flowing toward dark-3 at cost 3
+BORG 218617 # Leaving munchkin Mode. (Town or Weak)
+BORG 218617 # Loc:6,148 Dep:5 Lev:10 HP:1/73 SP:13/13 Danger:p=0
+BORG 218617 # Flowing toward down-stairs at cost 1
+BORG 218617 # Desperate for Stairs (four)
+
+[Terminal native state/cause]
+STATE death turn=218620 energy=2330660 decisions=16156 depth=5 max_depth=9 level=10 max_level=10 hp=-5 dead=1 winner=0 borg_rng=903065638 quick=0 quick_rng=2899025892 rng_index=20 rng=2f17d3f534d8ef8b9b4d25d0e519ebc0ae3e9b3bc1e9609ccbff614905bda7e77b1c0c70bab599afada079842c264a99f6d3cbfb9e2833d67643430024c50eaf014638b49483c42ba0ebab5d953850a37a539b9b017ab3950ce47e615b703aebb7721a63fc56ca7b489403926477ab0acf683a0ac6c4658ec87c991cebab63cb
+CAUSE starvation
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:32,109 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:44,139 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:45,139 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:44,139 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:55,103 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:53,21 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:52,21 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:53,21 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'grey icky thing' at (9,56), HP: 20, Index: 88
+MESSAGE # Removing Regional Fear (9,56) because of a LOS grey icky thing
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:1,56 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:43,51 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:44,51 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:43,51 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'cutpurse' at (14,126), HP: 20, Index: 37
+MESSAGE # Removing Regional Fear (14,126) because of a LOS cutpurse
+MESSAGE # Creating a monster 'cutpurse' at (13,126), HP: 18, Index: 37
+MESSAGE # Removing Regional Fear (13,126) because of a LOS cutpurse
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:15,126 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=88
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving level,  Some danger but I'm on a stair.
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:38,122 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:38,123 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:38,122 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:22,180 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # Creating an object '& Pair~ of Iron Shod Boots' at (174,19)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:19,177 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward item at cost 3
+MESSAGE You have found a secret door.
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:19,176 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:19,177 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:46,100 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:31,68 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:32,68 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:31,68 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:41,160 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place does not seem too risky.
+MESSAGE # FEELING_DANGER:6 (+)
+MESSAGE # FEELING_DANGER:6 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,96 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:11,96 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,96 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:6,90 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:50,145 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:50,146 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:50,145 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:42,90 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:44,142 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:44,141 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:44,142 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:45,102 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:33,24 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:33,25 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE You faint from the lack of food.
+MESSAGE You are paralysed!
+MESSAGE You can move again.
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:33,24 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:41,33 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:39,80 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:39,81 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:39,80 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE Omens of death haunt this place.
+MESSAGE # FEELING_DANGER:1 (+)
+MESSAGE # FEELING_DANGER:1 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:50,118 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,171 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE You faint from the lack of food.
+MESSAGE You are paralysed!
+MESSAGE You can move again.
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:13,171 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,171 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:28,103 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:1,167 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:2,167 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:1,167 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:38,119 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:22,80 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:22,80 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:44,50 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:20,119 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:21,119 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:20,119 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:32,31 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:28,44 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:28,45 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:28,44 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:45,98 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:19,102 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:20,102 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE You hear a door burst open!
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:19,102 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:19,163 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:54,65 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:53,65 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:54,65 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:5,95 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:61,126 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:60,126 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:61,126 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:20,41 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'yellow mushroom patch' at (6,149), HP: 1, Index: 40
+MESSAGE # Removing Regional Fear (6,149) because of a LOS yellow mushroom patch
+MESSAGE # Creating a monster 'green naga' at (6,148), HP: 34, Index: 82
+MESSAGE # Removing Regional Fear (6,148) because of a LOS green naga
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:6,150 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=44
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing yellow mushroom patch at (6,149) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Halberd (3d5) (+5,+3)'
+MESSAGE You fail to harm the yellow mushroom patch.
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:6,150 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=44
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:7,120 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:13,153 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE You faint from the lack of food.
+MESSAGE You are paralysed!
+MESSAGE You hear a door burst open!
+MESSAGE You can move again.
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,153 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:13,153 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,133 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:1,97 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:2,97 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE You faint from the lack of food.
+MESSAGE You are paralysed!
+MESSAGE You can move again.
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:1,97 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:42,39 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:35,90 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Protected by anti-summon corridor.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Creating a monster 'giant white ant' at (35,96), HP: 10, Index: 63
+MESSAGE # Removing Regional Fear (35,96) because of a LOS giant white ant
+MESSAGE # Creating a monster 'yellow mushroom patch' at (35,95), HP: 1, Index: 40
+MESSAGE # Removing Regional Fear (35,95) because of a LOS yellow mushroom patch
+MESSAGE # Creating a monster 'giant white ant' at (34,96), HP: 10, Index: 63
+MESSAGE # Removing Regional Fear (34,96) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant white ant' at (34,95), HP: 11, Index: 63
+MESSAGE # Removing Regional Fear (34,95) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant white ant' at (33,96), HP: 11, Index: 63
+MESSAGE # Removing Regional Fear (33,96) because of a LOS giant white ant
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:35,90 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=3
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:19,75 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:46,64 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:45,64 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:46,64 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:57,151 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:14,152 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:13,152 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE You faint from the lack of food.
+MESSAGE You are paralysed!
+MESSAGE You can move again.
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:14,152 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:33,138 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:9,30 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:10,30 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:9,30 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:16,132 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:11,111 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,111 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:11,111 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'Bullroarer the Hobbit' at (45,159), HP: 60, Index: 81
+MESSAGE # Removing Regional Fear (45,159) because of a LOS Bullroarer the Hobbit
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:46,159 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=129
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving level,  Some danger but I'm on a stair.
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:45,127 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:45,126 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:45,127 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'white worm mass' at (35,166), HP: 8, Index: 26
+MESSAGE # Removing Regional Fear (35,166) because of a LOS white worm mass
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:33,157 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:29,135 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:30,135 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:29,135 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:7,16 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:11,75 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,75 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:11,75 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:21,154 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:55,26 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:54,26 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:55,26 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:20,65 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:24,135 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:25,135 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:24,135 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # Creating an object 'Speed' at (108,11)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:19,108 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'giant green frog' at (37,46), HP: 11, Index: 42
+MESSAGE # Removing Regional Fear (37,46) because of a LOS giant green frog
+MESSAGE # Creating a monster 'giant green frog' at (36,47), HP: 9, Index: 42
+MESSAGE # Removing Regional Fear (36,47) because of a LOS giant green frog
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:37,45 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=4
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Performing attack type 38 with value 24.
+MESSAGE # Targeting giant green frog who has 11 Hit Points (37,46).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The giant green frog writhes in agony.
+MESSAGE The giant green frog flees in terror!
+MESSAGE You faint from the lack of food.
+MESSAGE You are paralysed!
+MESSAGE The giant green frog is frozen to the spot!
+MESSAGE You can move again.
+MESSAGE # PAIN:The giant green frog (+)
+MESSAGE # PAIN:The giant green frog (2)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Loc:37,45 Dep:5 Lev:10 HP:73/73 SP:12/13 Danger:p=3
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:52,84 Dep:6 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:32,61 Dep:5 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:32,62 Dep:5 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:32,61 Dep:5 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # Creating a monster 'giant red frog' at (22,86), HP: 24, Index: 109
+MESSAGE # Removing Regional Fear (22,86) because of a LOS giant red frog
+MESSAGE # Creating a monster 'night lizard' at (20,86), HP: 18, Index: 114
+MESSAGE # Removing Regional Fear (20,86) because of a LOS night lizard
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:16,86 Dep:6 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:22,28 Dep:5 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:23,28 Dep:5 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:22,28 Dep:5 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:57,64 Dep:6 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:26,157 Dep:5 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:26,156 Dep:5 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:26,157 Dep:5 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:24,48 Dep:6 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:38,44 Dep:5 Lev:10 HP:73/73 SP:12/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE You faint from the lack of food.
+MESSAGE You are paralysed!
+MESSAGE You can move again.
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:37,44 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:38,44 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # Creating an object '& Main~ Gauche~' at (79,33)
+MESSAGE # Creating a monster 'silver mouse' at (33,79), HP: 2, Index: 80
+MESSAGE # Removing Regional Fear (33,79) because of a LOS silver mouse
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:33,81 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=6
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:23,39 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:24,39 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:23,39 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:17,101 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:36,91 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:36,90 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE You faint from the lack of food.
+MESSAGE You are paralysed!
+MESSAGE You can move again.
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:36,91 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:33,52 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,48 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object 'Cure Serious Wounds' at (47,15)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:13,48 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE You faint from the lack of food.
+MESSAGE You are paralysed!
+MESSAGE You can move again.
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,48 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # Creating an object '& Wooden Torch~' at (69,22)
+MESSAGE # Creating a monster 'tamer' at (22,87), HP: 21, Index: 73
+MESSAGE # Removing Regional Fear (22,87) because of a LOS tamer
+MESSAGE # Creating a monster 'yellow jelly' at (22,80), HP: 50, Index: 61
+MESSAGE # Removing Regional Fear (22,80) because of a LOS yellow jelly
+MESSAGE # Creating a monster 'radiation eye' at (22,70), HP: 11, Index: 68
+MESSAGE # Removing Regional Fear (22,70) because of a LOS radiation eye
+MESSAGE # Creating a monster 'tamer' at (22,88), HP: 22, Index: 73
+MESSAGE # Removing Regional Fear (22,88) because of a LOS tamer
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:22,81 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=1452
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving level,  Some danger but I'm on a stair.
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:1,36 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:2,36 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:1,36 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place does not seem too risky.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:6 (+)
+MESSAGE # FEELING_DANGER:6 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:53,66 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:35,36 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:35,37 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:35,36 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:32,114 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:19,120 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:20,120 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:19,120 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:37,168 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:1,145 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:1,144 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:1,145 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:25,120 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:52,33 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:51,33 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:52,33 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:16,62 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:25,149 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:25,148 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:25,149 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:16,65 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:11,74 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:10,74 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:11,74 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems terribly dangerous.
+MESSAGE # FEELING_DANGER:3 (+)
+MESSAGE # FEELING_DANGER:3 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:48,100 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:5,83 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE You are starving!!
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:6,83 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:5,83 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:27,58 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'yellow worm mass' at (33,92), HP: 25, Index: 66
+MESSAGE # Removing Regional Fear (33,92) because of a LOS yellow worm mass
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:30,92 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=13
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Performing attack type 3 with value 54.
+MESSAGE # Targeting yellow worm mass who has 25 Hit Points (33,92).
+MESSAGE # Firing missile 'Arrows (1d4) (+1,+3)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+1,+3) hits the yellow worm mass.
+MESSAGE You have 24 Arrows (1d4) (+1,+3) (0).
+MESSAGE The Arrow breaks.
+MESSAGE The yellow worm mass screams in agony.
+MESSAGE # PAIN:The yellow worm mass (+)
+MESSAGE # PAIN:The yellow worm mass (2)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:30,92 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=11
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'soldier' at (16,68), HP: 23, Index: 36
+MESSAGE # Removing Regional Fear (16,68) because of a LOS soldier
+MESSAGE # Creating a monster 'gallant' at (16,66), HP: 30, Index: 72
+MESSAGE # Removing Regional Fear (16,66) because of a LOS gallant
+MESSAGE # Creating a monster 'gallant' at (16,65), HP: 25, Index: 72
+MESSAGE # Removing Regional Fear (16,65) because of a LOS gallant
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:16,70 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=107
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving level,  Some danger but I'm on a stair.
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,92 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,93 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,92 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:21,50 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:46,162 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:46,161 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:46,162 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:10,80 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:3,88 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:4,88 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:3,88 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems murderous.
+MESSAGE # FEELING_DANGER:2 (+)
+MESSAGE # FEELING_DANGER:2 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:34,100 Dep:6 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:31,29 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:32,29 Dep:5 Lev:10 HP:73/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:31,29 Dep:5 Lev:10 HP:71/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'yellow mushroom patch' at (39,172), HP: 1, Index: 40
+MESSAGE # Removing Regional Fear (39,172) because of a LOS yellow mushroom patch
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:36,173 Dep:6 Lev:10 HP:71/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE Omens of death haunt this place.
+MESSAGE # FEELING_DANGER:1 (+)
+MESSAGE # FEELING_DANGER:1 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:49,45 Dep:5 Lev:10 HP:71/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:48,45 Dep:5 Lev:10 HP:69/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:49,45 Dep:5 Lev:10 HP:67/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating an object 'copper' at (19,19)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:19,22 Dep:6 Lev:10 HP:67/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:55,164 Dep:5 Lev:10 HP:67/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:55,164 Dep:5 Lev:10 HP:65/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE Omens of death haunt this place.
+MESSAGE # FEELING_DANGER:1 (+)
+MESSAGE # FEELING_DANGER:1 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:45,144 Dep:6 Lev:10 HP:65/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'red worm mass' at (33,68), HP: 20, Index: 90
+MESSAGE # Removing Regional Fear (33,68) because of a LOS red worm mass
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:33,70 Dep:5 Lev:10 HP:65/73 SP:13/13 Danger:p=1
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Performing attack type 3 with value 54.
+MESSAGE # Targeting red worm mass who has 20 Hit Points (33,68).
+MESSAGE # Firing missile 'Arrows (1d4) (+1,+3)'
+MESSAGE Target Selected.
+MESSAGE You have 23 Arrows (1d4) (+1,+3) (0).
+MESSAGE # Perhaps wall near targetted location (33,68)
+MESSAGE # Guessing wall (33,69) near target (33,68)
+MESSAGE # Creating an object '& Arrow~' at (68,33)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:33,70 Dep:5 Lev:10 HP:63/73 SP:13/13 Danger:p=1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:25,142 Dep:6 Lev:10 HP:63/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating an object 'Treasure Detection' at (99,25)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:25,101 Dep:5 Lev:10 HP:63/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:25,100 Dep:5 Lev:10 HP:61/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:25,101 Dep:5 Lev:10 HP:59/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:29,92 Dep:6 Lev:10 HP:59/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:46,93 Dep:5 Lev:10 HP:59/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:46,92 Dep:5 Lev:10 HP:57/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:46,93 Dep:5 Lev:10 HP:55/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:18,105 Dep:6 Lev:10 HP:55/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems murderous.
+MESSAGE # FEELING_DANGER:2 (+)
+MESSAGE # FEELING_DANGER:2 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:15,107 Dep:5 Lev:10 HP:55/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:14,107 Dep:5 Lev:10 HP:53/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:15,107 Dep:5 Lev:10 HP:49/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:2,77 Dep:6 Lev:10 HP:49/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:42,158 Dep:5 Lev:10 HP:49/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:41,158 Dep:5 Lev:10 HP:45/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:42,158 Dep:5 Lev:10 HP:41/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:35,63 Dep:6 Lev:10 HP:41/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:15,154 Dep:5 Lev:10 HP:41/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:15,153 Dep:5 Lev:10 HP:37/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:15,154 Dep:5 Lev:10 HP:33/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:16,133 Dep:6 Lev:10 HP:33/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:41,21 Dep:5 Lev:10 HP:33/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:40,21 Dep:5 Lev:10 HP:29/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:41,21 Dep:5 Lev:10 HP:25/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:18,21 Dep:6 Lev:10 HP:25/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE You feel nervous about this place.
+MESSAGE # FEELING_DANGER:5 (+)
+MESSAGE # FEELING_DANGER:5 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,123 Dep:5 Lev:10 HP:25/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:11,123 Dep:5 Lev:10 HP:21/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:12,123 Dep:5 Lev:10 HP:17/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:30,47 Dep:6 Lev:10 HP:17/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:52,117 Dep:5 Lev:10 HP:17/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:53,117 Dep:5 Lev:10 HP:13/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:52,117 Dep:5 Lev:10 HP:7/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:17,119 Dep:6 Lev:10 HP:7/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:5,148 Dep:5 Lev:10 HP:7/73 SP:13/13 Danger:p=0
+MESSAGE # Standing on dn-stairs
+MESSAGE # Leaving (restock) restock food < 3
+MESSAGE # Fleeing (need food)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Leaving munchkin Mode. (Town or Weak)
+MESSAGE # Loc:6,148 Dep:5 Lev:10 HP:1/73 SP:13/13 Danger:p=0
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE You die.

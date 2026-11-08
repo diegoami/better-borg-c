@@ -1,0 +1,27 @@
+Original recording: frame 272485, engine turn 218615, phase tick; HP 1, SP 13, depth 5
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+                                                                                
+Half-Troll                                                                      
+Curser                                                                          
+Necromancer                                                                     
+LEVEL     10                                                                    
+NXT       69                                 ###                                
+AU      2645                                 #>#                                
+/}    ( )] ]                                 #@#                                
+STR:      18                                 #'#                                
+INT:      15                                 #..                                
+WIS:       8                                                                    
+DEX:       6                                                                    
+CON:      17                                                                    
+                                                                                
+Cur AC    22                                                                    
+HP    1/  73                                                                    
+SP   13/  13                                                                    
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+250' (L5)                                                                       
+             LF:2-? Light 0  Study (2) Starving 0 % Open floor                  

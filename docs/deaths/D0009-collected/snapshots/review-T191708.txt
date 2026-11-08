@@ -1,0 +1,27 @@
+Original frame237324,turn191708,phasecommand; HP73 SP11,depth6.
+Native diagnostics are not extra Borg knowledge.
+
+                                                                                
+Half-Troll                                                                      
+Curser                                                                          
+Necromancer                                                                     
+LEVEL     10                                                                    
+NXT      108                                                                    
+AU      2345                                                                    
+/}    ( )] ]                 # ##                                               
+STR:      18             ##### ## ##                                            
+INT:      15            ##         #                                            
+WIS:       8            #  ##### # #         %%#                                
+DEX:       6            # ## #               +@#                                
+CON:      17          ### ## #     #   %     %>%                                
+                           ###       #       %#%                   *%#%##       
+Cur AC    22          ####           %  #                                       
+HP   73/  73             #####     ###%%%                          #%#%%#       
+SP   11/  13                                                                    
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Slow (-1)                                                                       
+300' (L6)    ### #                                                              
+             LF:2-? Light 0  Study (2) Hungry 14 % Open floor                   

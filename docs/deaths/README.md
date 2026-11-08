@@ -4,7 +4,7 @@ Bugs always take priority. Each natural death gets a curated dossier with its ac
 
 To comment, open **Discuss** beside the case below. The linked GitHub investigation is the durable feedback thread; suggestions are checked against evidence and linked to actions. See [the feedback process](FEEDBACK.md). Chat feedback is copied there before it is considered tracked.
 
-Dossiers: 8; distinct starting conditions: 5; recorded death process attempts: 16 (including repeats/reference variants). This registry is not a survival-rate estimate.
+Dossiers: 9; distinct starting conditions: 6; recorded death process attempts: 17 (including repeats/reference variants). This registry is not a survival-rate estimate.
 
 | Case | Discussion | Actual source | Seed | Raw cause | Death turn | Diagnosis |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -16,6 +16,7 @@ Dossiers: 8; distinct starting conditions: 5; recorded death process attempts: 1
 | [D0006](D0006-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/177) | `2cebef1b0f39` | 1344203209 | a killer brown beetle | 73100 | policy/resource/escape investigation; native implementation defect not established; sidebar redraw mismatch confirmed |
 | [D0007](D0007-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `22f817c96843` | 2624955988 | a soldier | 179053 | policy/call-order/escape investigation; reusable C defect not established |
 | [D0008](D0008-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `5c23742ced30` | 1668846659 | a grey mold | 10940 | native emergency/normal flow cache and escape-intent investigation; original-C source404 reported |
+| [D0009](D0009-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `1cd426af4848` | 2817460426 | starvation | 218620 | verified starvation/resource-return failure; original-C quiver-capacity pickup defect reported as source419 |
 
 ## Aggregated actions
 
@@ -40,6 +41,12 @@ Dossiers: 8; distinct starting conditions: 5; recorded death process attempts: 1
 - [Narrow source404 correction verified on actual product with before/after and negative controls; track upstream acceptance and separate population evaluation](https://github.com/diegoami/better-borg-c/issues/212) — carried; product regression/controls verified; upstream acceptance and population benefit remain open; cases D0008.
 - [Separate actual temporary desperate retreat from taking the known upstairs, plus melee/Phase admission; compare ordinary legal alternatives](https://github.com/diegoami/better-borg-c/issues/159) — investigating; no successful rescue established; cases D0008.
 - [Audit ready_morgoth0 guard at lowHP separately from source152 flags and source404 cache reuse](https://github.com/diegoami/neo-angband-tracker/issues/156) — needs evidence; contributing candidate, not isolated fix proof; cases D0008.
+- [Minimal quiver-capacity native fixture/correction with actual-room/stack/gold/ammo controls, then separate consumer carry](https://github.com/diegoami/better-borg-c/issues/235) — investigating; recorded native failure verified, fix not carried; cases D0009.
+- [Earlier food budget/town-return and loot leash, accounting for REGEN and actual pack/quiver capacity](https://github.com/diegoami/better-borg-c/issues/41) — needs evidence; no policy change; cases D0009.
+- [Identify useful carried stock and compare identification/shop priority without hidden item knowledge](https://github.com/diegoami/better-borg-c/issues/180) — proposed; shared investigation; cases D0009.
+- [Recall storage/retention/reacquisition and available walking return before hunger becomes critical](https://github.com/diegoami/better-borg-c/issues/183) — needs evidence; no rescue claimed; cases D0009.
+- [Unknown-edible eligibility for caster starvation at localdanger0, retaining harmful outcomes and resource costs](https://github.com/diegoami/better-borg-c/issues/235) — needs evidence; no forced use implemented; cases D0009.
+- [Early town/upstairs commitment versus repeated normal desperate downstairs response after weakness](https://github.com/diegoami/better-borg-c/issues/159) — investigating; no guaranteed route asserted; cases D0009.
 
 Recurring mechanisms are grouped by canonical issue, not by number of replays. Investigations are hypotheses until native causal proof; original-C bugs route to neo-angband-tracker before source fix and consumer carry.
 

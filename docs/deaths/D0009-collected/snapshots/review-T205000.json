@@ -1,0 +1,1900 @@
+{
+  "index": 254296,
+  "turn": 205000,
+  "phase": "tick",
+  "hp": 73,
+  "sp": 13,
+  "max_hp": 73,
+  "max_sp": 13,
+  "depth": 6,
+  "level": 10,
+  "x": 126,
+  "y": 20,
+  "diagnostics": {
+    "scope": "diagnostic actual state; never supplied to Borg inputs",
+    "gear": [
+      {
+        "actual_kind": "[Into the Shadows]",
+        "known_kind": "[Into the Shadows]",
+        "aware": 1,
+        "quantity": 4,
+        "weight": 30,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Main~ Gauche~",
+        "known_kind": "& Main~ Gauche~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 30,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Pair~ of Leather Boots",
+        "known_kind": "& Pair~ of Leather Boots",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 20,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 6,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Studded Leather Armour~",
+        "known_kind": "Studded Leather Armour~",
+        "aware": 1,
+        "quantity": 2,
+        "weight": 100,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": -1,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Wicker Shield~",
+        "known_kind": "& Wicker Shield~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 30,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Cloak~",
+        "known_kind": "& Cloak~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 10,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Summon Monster",
+        "known_kind": "Summon Monster",
+        "aware": 0,
+        "quantity": 3,
+        "weight": 5,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Heroism",
+        "known_kind": "Heroism",
+        "aware": 0,
+        "quantity": 3,
+        "weight": 4,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Light",
+        "known_kind": "Light",
+        "aware": 0,
+        "quantity": 1,
+        "weight": 50,
+        "pval": 12,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Blessing",
+        "known_kind": "Blessing",
+        "aware": 0,
+        "quantity": 1,
+        "weight": 5,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Hard Leather Cap~",
+        "known_kind": "& Hard Leather Cap~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 20,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": -1,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Mace~",
+        "known_kind": "& Mace~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 120,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Clear Mind",
+        "known_kind": "Clear Mind",
+        "aware": 0,
+        "quantity": 4,
+        "weight": 1,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Halberd~",
+        "known_kind": "& Halberd~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 190,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 5,
+        "to_d": 3,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Arrow~",
+        "known_kind": "& Arrow~",
+        "aware": 1,
+        "quantity": 30,
+        "weight": 2,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 1,
+        "to_d": 3,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Slime Mold Juice",
+        "known_kind": "Slime Mold Juice",
+        "aware": 0,
+        "quantity": 4,
+        "weight": 4,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Sleep",
+        "known_kind": "Sleep",
+        "aware": 0,
+        "quantity": 9,
+        "weight": 4,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Remove Hunger",
+        "known_kind": "Remove Hunger",
+        "aware": 0,
+        "quantity": 5,
+        "weight": 5,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Darkness",
+        "known_kind": "Darkness",
+        "aware": 0,
+        "quantity": 2,
+        "weight": 50,
+        "pval": 26,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Cure Light Wounds",
+        "known_kind": "Cure Light Wounds",
+        "aware": 0,
+        "quantity": 1,
+        "weight": 50,
+        "pval": 11,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Lantern~",
+        "known_kind": "& Lantern~",
+        "aware": 1,
+        "quantity": 2,
+        "weight": 50,
+        "pval": 0,
+        "timeout": 7500,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Emergency",
+        "known_kind": "Emergency",
+        "aware": 0,
+        "quantity": 1,
+        "weight": 1,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Short Bow~",
+        "known_kind": "& Short Bow~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 30,
+        "pval": 2,
+        "timeout": 0,
+        "to_h": 4,
+        "to_d": 4,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Iron Shot~",
+        "known_kind": "& Iron Shot~",
+        "aware": 1,
+        "quantity": 25,
+        "weight": 5,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 5,
+        "to_d": 5,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Identify Rune",
+        "known_kind": "Identify Rune",
+        "aware": 0,
+        "quantity": 1,
+        "weight": 5,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Soft Leather Armour~",
+        "known_kind": "Soft Leather Armour~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 80,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 4,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "True Seeing",
+        "known_kind": "True Seeing",
+        "aware": 0,
+        "quantity": 1,
+        "weight": 4,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Treasure Detection",
+        "known_kind": "Treasure Detection",
+        "aware": 0,
+        "quantity": 1,
+        "weight": 5,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Wonder",
+        "known_kind": "Wonder",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 10,
+        "pval": 2,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      }
+    ],
+    "monsters": [
+      {
+        "id": 1,
+        "name": "kobold shaman",
+        "x": 172,
+        "y": 31,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 2,
+        "name": "yellow mold",
+        "x": 174,
+        "y": 31,
+        "hp": 27,
+        "max_hp": 27,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 3,
+        "name": "metallic red centipede",
+        "x": 178,
+        "y": 37,
+        "hp": 19,
+        "max_hp": 19,
+        "speed": 120,
+        "visible": 0
+      },
+      {
+        "id": 4,
+        "name": "kobold archer",
+        "x": 179,
+        "y": 37,
+        "hp": 34,
+        "max_hp": 34,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 5,
+        "name": "cave spider",
+        "x": 112,
+        "y": 44,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 120,
+        "visible": 0
+      },
+      {
+        "id": 6,
+        "name": "cave spider",
+        "x": 112,
+        "y": 43,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 121,
+        "visible": 0
+      },
+      {
+        "id": 7,
+        "name": "cave spider",
+        "x": 113,
+        "y": 44,
+        "hp": 4,
+        "max_hp": 4,
+        "speed": 122,
+        "visible": 0
+      },
+      {
+        "id": 8,
+        "name": "cave spider",
+        "x": 113,
+        "y": 43,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 120,
+        "visible": 0
+      },
+      {
+        "id": 9,
+        "name": "cave spider",
+        "x": 112,
+        "y": 42,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 119,
+        "visible": 0
+      },
+      {
+        "id": 10,
+        "name": "cave spider",
+        "x": 113,
+        "y": 42,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 119,
+        "visible": 0
+      },
+      {
+        "id": 11,
+        "name": "cave spider",
+        "x": 114,
+        "y": 44,
+        "hp": 4,
+        "max_hp": 4,
+        "speed": 119,
+        "visible": 0
+      },
+      {
+        "id": 12,
+        "name": "cave spider",
+        "x": 114,
+        "y": 43,
+        "hp": 5,
+        "max_hp": 5,
+        "speed": 118,
+        "visible": 0
+      },
+      {
+        "id": 13,
+        "name": "cave spider",
+        "x": 114,
+        "y": 42,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 119,
+        "visible": 0
+      },
+      {
+        "id": 14,
+        "name": "tamer",
+        "x": 160,
+        "y": 23,
+        "hp": 14,
+        "max_hp": 14,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 15,
+        "name": "cave spider",
+        "x": 160,
+        "y": 22,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 119,
+        "visible": 0
+      },
+      {
+        "id": 16,
+        "name": "cave spider",
+        "x": 160,
+        "y": 21,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 122,
+        "visible": 0
+      },
+      {
+        "id": 17,
+        "name": "cave spider",
+        "x": 159,
+        "y": 22,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 118,
+        "visible": 0
+      },
+      {
+        "id": 18,
+        "name": "cave spider",
+        "x": 161,
+        "y": 23,
+        "hp": 5,
+        "max_hp": 5,
+        "speed": 121,
+        "visible": 0
+      },
+      {
+        "id": 19,
+        "name": "cave spider",
+        "x": 159,
+        "y": 23,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 122,
+        "visible": 0
+      },
+      {
+        "id": 20,
+        "name": "cave spider",
+        "x": 161,
+        "y": 21,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 118,
+        "visible": 0
+      },
+      {
+        "id": 21,
+        "name": "cave spider",
+        "x": 159,
+        "y": 21,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 120,
+        "visible": 0
+      },
+      {
+        "id": 22,
+        "name": "cave spider",
+        "x": 161,
+        "y": 20,
+        "hp": 5,
+        "max_hp": 5,
+        "speed": 122,
+        "visible": 0
+      },
+      {
+        "id": 23,
+        "name": "giant black ant",
+        "x": 27,
+        "y": 43,
+        "hp": 10,
+        "max_hp": 10,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 24,
+        "name": "giant black ant",
+        "x": 28,
+        "y": 43,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 25,
+        "name": "giant white ant",
+        "x": 29,
+        "y": 43,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 26,
+        "name": "giant white ant",
+        "x": 30,
+        "y": 43,
+        "hp": 10,
+        "max_hp": 10,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 27,
+        "name": "giant black ant",
+        "x": 31,
+        "y": 43,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 28,
+        "name": "soldier ant",
+        "x": 32,
+        "y": 43,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 29,
+        "name": "giant white ant",
+        "x": 33,
+        "y": 43,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 30,
+        "name": "giant black ant",
+        "x": 34,
+        "y": 43,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 31,
+        "name": "giant black ant",
+        "x": 35,
+        "y": 43,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 32,
+        "name": "giant red ant",
+        "x": 36,
+        "y": 43,
+        "hp": 18,
+        "max_hp": 18,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 33,
+        "name": "giant black ant",
+        "x": 37,
+        "y": 43,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 34,
+        "name": "giant black ant",
+        "x": 38,
+        "y": 43,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 35,
+        "name": "giant black ant",
+        "x": 39,
+        "y": 43,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 36,
+        "name": "giant red ant",
+        "x": 27,
+        "y": 44,
+        "hp": 19,
+        "max_hp": 19,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 37,
+        "name": "giant white ant",
+        "x": 28,
+        "y": 44,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 38,
+        "name": "giant white ant",
+        "x": 29,
+        "y": 44,
+        "hp": 10,
+        "max_hp": 10,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 39,
+        "name": "giant red ant",
+        "x": 30,
+        "y": 44,
+        "hp": 18,
+        "max_hp": 18,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 40,
+        "name": "giant black ant",
+        "x": 31,
+        "y": 44,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 41,
+        "name": "giant black ant",
+        "x": 32,
+        "y": 44,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 42,
+        "name": "giant white ant",
+        "x": 33,
+        "y": 44,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 43,
+        "name": "giant red ant",
+        "x": 34,
+        "y": 44,
+        "hp": 19,
+        "max_hp": 19,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 44,
+        "name": "giant white ant",
+        "x": 35,
+        "y": 44,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 45,
+        "name": "giant black ant",
+        "x": 36,
+        "y": 44,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 46,
+        "name": "giant white ant",
+        "x": 37,
+        "y": 44,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 47,
+        "name": "giant black ant",
+        "x": 38,
+        "y": 44,
+        "hp": 10,
+        "max_hp": 10,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 48,
+        "name": "giant white ant",
+        "x": 39,
+        "y": 44,
+        "hp": 10,
+        "max_hp": 10,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 49,
+        "name": "giant white ant",
+        "x": 27,
+        "y": 45,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 50,
+        "name": "soldier ant",
+        "x": 28,
+        "y": 45,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 51,
+        "name": "soldier ant",
+        "x": 29,
+        "y": 45,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 52,
+        "name": "giant black ant",
+        "x": 30,
+        "y": 45,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 53,
+        "name": "giant white ant",
+        "x": 31,
+        "y": 45,
+        "hp": 14,
+        "max_hp": 14,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 54,
+        "name": "giant black ant",
+        "x": 32,
+        "y": 45,
+        "hp": 10,
+        "max_hp": 10,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 55,
+        "name": "giant white ant",
+        "x": 33,
+        "y": 45,
+        "hp": 10,
+        "max_hp": 10,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 56,
+        "name": "giant black ant",
+        "x": 34,
+        "y": 45,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 57,
+        "name": "giant black ant",
+        "x": 35,
+        "y": 45,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 58,
+        "name": "giant white ant",
+        "x": 36,
+        "y": 45,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 59,
+        "name": "giant red ant",
+        "x": 37,
+        "y": 45,
+        "hp": 20,
+        "max_hp": 20,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 60,
+        "name": "giant white ant",
+        "x": 38,
+        "y": 45,
+        "hp": 10,
+        "max_hp": 10,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 61,
+        "name": "giant red ant",
+        "x": 39,
+        "y": 45,
+        "hp": 18,
+        "max_hp": 18,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 62,
+        "name": "soldier ant",
+        "x": 27,
+        "y": 46,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 63,
+        "name": "giant white ant",
+        "x": 28,
+        "y": 46,
+        "hp": 14,
+        "max_hp": 14,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 64,
+        "name": "giant white ant",
+        "x": 29,
+        "y": 46,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 65,
+        "name": "soldier ant",
+        "x": 30,
+        "y": 46,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 66,
+        "name": "giant white ant",
+        "x": 31,
+        "y": 46,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 67,
+        "name": "giant black ant",
+        "x": 32,
+        "y": 46,
+        "hp": 13,
+        "max_hp": 13,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 68,
+        "name": "giant black ant",
+        "x": 33,
+        "y": 46,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 69,
+        "name": "giant white ant",
+        "x": 34,
+        "y": 46,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 70,
+        "name": "giant black ant",
+        "x": 35,
+        "y": 46,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 71,
+        "name": "soldier ant",
+        "x": 36,
+        "y": 46,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 72,
+        "name": "giant white ant",
+        "x": 37,
+        "y": 46,
+        "hp": 10,
+        "max_hp": 10,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 73,
+        "name": "giant white ant",
+        "x": 38,
+        "y": 46,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 74,
+        "name": "giant white ant",
+        "x": 39,
+        "y": 46,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 75,
+        "name": "giant white ant",
+        "x": 27,
+        "y": 47,
+        "hp": 10,
+        "max_hp": 10,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 76,
+        "name": "giant white ant",
+        "x": 28,
+        "y": 47,
+        "hp": 14,
+        "max_hp": 14,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 77,
+        "name": "giant black ant",
+        "x": 29,
+        "y": 47,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 78,
+        "name": "giant black ant",
+        "x": 30,
+        "y": 47,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 79,
+        "name": "giant black ant",
+        "x": 31,
+        "y": 47,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 80,
+        "name": "soldier ant",
+        "x": 32,
+        "y": 47,
+        "hp": 4,
+        "max_hp": 4,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 81,
+        "name": "giant black ant",
+        "x": 33,
+        "y": 47,
+        "hp": 10,
+        "max_hp": 10,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 82,
+        "name": "giant white ant",
+        "x": 34,
+        "y": 47,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 83,
+        "name": "giant black ant",
+        "x": 35,
+        "y": 47,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 84,
+        "name": "giant white ant",
+        "x": 36,
+        "y": 47,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 85,
+        "name": "giant black ant",
+        "x": 37,
+        "y": 47,
+        "hp": 13,
+        "max_hp": 13,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 86,
+        "name": "giant black ant",
+        "x": 38,
+        "y": 47,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 87,
+        "name": "giant black ant",
+        "x": 39,
+        "y": 47,
+        "hp": 14,
+        "max_hp": 14,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 88,
+        "name": "disenchanter eye",
+        "x": 187,
+        "y": 23,
+        "hp": 31,
+        "max_hp": 31,
+        "speed": 100,
+        "visible": 0
+      },
+      {
+        "id": 89,
+        "name": "green naga",
+        "x": 110,
+        "y": 49,
+        "hp": 41,
+        "max_hp": 41,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 90,
+        "name": "giant white louse",
+        "x": 23,
+        "y": 55,
+        "hp": 1,
+        "max_hp": 1,
+        "speed": 122,
+        "visible": 0
+      },
+      {
+        "id": 91,
+        "name": "scout",
+        "x": 100,
+        "y": 55,
+        "hp": 30,
+        "max_hp": 30,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 92,
+        "name": "cutpurse",
+        "x": 100,
+        "y": 54,
+        "hp": 20,
+        "max_hp": 20,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 93,
+        "name": "cutpurse",
+        "x": 99,
+        "y": 55,
+        "hp": 21,
+        "max_hp": 21,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 94,
+        "name": "yellow mushroom patch",
+        "x": 171,
+        "y": 27,
+        "hp": 1,
+        "max_hp": 1,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 95,
+        "name": "spotted mushroom patch",
+        "x": 95,
+        "y": 9,
+        "hp": 1,
+        "max_hp": 1,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 96,
+        "name": "giant white centipede",
+        "x": 158,
+        "y": 41,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 97,
+        "name": "giant yellow centipede",
+        "x": 168,
+        "y": 21,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 98,
+        "name": "giant black ant",
+        "x": 104,
+        "y": 30,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 99,
+        "name": "green jelly",
+        "x": 101,
+        "y": 61,
+        "hp": 105,
+        "max_hp": 105,
+        "speed": 122,
+        "visible": 0
+      },
+      {
+        "id": 100,
+        "name": "brown mold",
+        "x": 160,
+        "y": 33,
+        "hp": 54,
+        "max_hp": 54,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 101,
+        "name": "wild dog",
+        "x": 90,
+        "y": 16,
+        "hp": 1,
+        "max_hp": 1,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 102,
+        "name": "wild dog",
+        "x": 90,
+        "y": 17,
+        "hp": 3,
+        "max_hp": 3,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 103,
+        "name": "wild dog",
+        "x": 90,
+        "y": 15,
+        "hp": 4,
+        "max_hp": 4,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 104,
+        "name": "wild dog",
+        "x": 89,
+        "y": 16,
+        "hp": 3,
+        "max_hp": 3,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 105,
+        "name": "wild dog",
+        "x": 89,
+        "y": 17,
+        "hp": 2,
+        "max_hp": 2,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 106,
+        "name": "wild dog",
+        "x": 89,
+        "y": 15,
+        "hp": 3,
+        "max_hp": 3,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 107,
+        "name": "wild dog",
+        "x": 90,
+        "y": 14,
+        "hp": 4,
+        "max_hp": 4,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 108,
+        "name": "metallic red centipede",
+        "x": 6,
+        "y": 56,
+        "hp": 17,
+        "max_hp": 17,
+        "speed": 119,
+        "visible": 0
+      },
+      {
+        "id": 109,
+        "name": "green worm mass",
+        "x": 87,
+        "y": 48,
+        "hp": 18,
+        "max_hp": 18,
+        "speed": 100,
+        "visible": 0
+      },
+      {
+        "id": 110,
+        "name": "fruit bat",
+        "x": 131,
+        "y": 57,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 121,
+        "visible": 0
+      },
+      {
+        "id": 111,
+        "name": "metallic green centipede",
+        "x": 163,
+        "y": 57,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 120,
+        "visible": 0
+      },
+      {
+        "id": 112,
+        "name": "giant white louse",
+        "x": 116,
+        "y": 46,
+        "hp": 1,
+        "max_hp": 1,
+        "speed": 120,
+        "visible": 0
+      },
+      {
+        "id": 113,
+        "name": "rock lizard",
+        "x": 60,
+        "y": 39,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 114,
+        "name": "giant white louse",
+        "x": 50,
+        "y": 22,
+        "hp": 1,
+        "max_hp": 1,
+        "speed": 121,
+        "visible": 0
+      },
+      {
+        "id": 115,
+        "name": "rattlesnake",
+        "x": 40,
+        "y": 27,
+        "hp": 30,
+        "max_hp": 30,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 116,
+        "name": "giant white louse",
+        "x": 162,
+        "y": 20,
+        "hp": 1,
+        "max_hp": 1,
+        "speed": 118,
+        "visible": 0
+      },
+      {
+        "id": 117,
+        "name": "Grip, Farmer Maggot's Dog",
+        "x": 155,
+        "y": 35,
+        "hp": 25,
+        "max_hp": 25,
+        "speed": 120,
+        "visible": 0
+      }
+    ],
+    "timed": {
+      "FOOD": 2379
+    },
+    "borg": {
+      "initialized": 1,
+      "active": 1,
+      "fleeing": 1,
+      "leaving": 1,
+      "fleeing_to_town": 0,
+      "avoidance": 73
+    }
+  },
+  "inventory": {
+    "pack": [
+      {
+        "label": "a",
+        "description": "4 Necromantic Tomes [Into the Shadows]",
+        "slot": "",
+        "attr": 10,
+        "weight": 120
+      },
+      {
+        "label": "b",
+        "description": "4 Mottled Mushrooms",
+        "slot": "",
+        "attr": 6,
+        "weight": 4
+      },
+      {
+        "label": "c",
+        "description": "a Crumbly Mushroom",
+        "slot": "",
+        "attr": 25,
+        "weight": 1
+      },
+      {
+        "label": "d",
+        "description": "3 Pungent Potions",
+        "slot": "",
+        "attr": 12,
+        "weight": 12
+      },
+      {
+        "label": "e",
+        "description": "4 Purple Potions",
+        "slot": "",
+        "attr": 16,
+        "weight": 16
+      },
+      {
+        "label": "f",
+        "description": "9 Viscous Pink Potions",
+        "slot": "",
+        "attr": 12,
+        "weight": 36
+      },
+      {
+        "label": "g",
+        "description": "a Lavender Potion",
+        "slot": "",
+        "attr": 10,
+        "weight": 4
+      },
+      {
+        "label": "i",
+        "description": "3 Scrolls titled \"clargo sacido\"",
+        "slot": "",
+        "attr": 1,
+        "weight": 15
+      },
+      {
+        "label": "m",
+        "description": "a Scroll titled \"unnas que cra\"",
+        "slot": "",
+        "attr": 1,
+        "weight": 5
+      },
+      {
+        "label": "n",
+        "description": "5 Scrolls titled \"premo vadvero\"",
+        "slot": "",
+        "attr": 1,
+        "weight": 25
+      },
+      {
+        "label": "o",
+        "description": "a Scroll titled \"quor nam cor\"",
+        "slot": "",
+        "attr": 1,
+        "weight": 5
+      },
+      {
+        "label": "p",
+        "description": "a Scroll titled \"ratrudeo me\"",
+        "slot": "",
+        "attr": 1,
+        "weight": 5
+      },
+      {
+        "label": "q",
+        "description": "a Wand of Wonder (2 charges)",
+        "slot": "",
+        "attr": 2,
+        "weight": 10
+      },
+      {
+        "label": "r",
+        "description": "a Teak Staff",
+        "slot": "",
+        "attr": 15,
+        "weight": 50
+      },
+      {
+        "label": "s",
+        "description": "2 Ironwood Staves",
+        "slot": "",
+        "attr": 7,
+        "weight": 100
+      },
+      {
+        "label": "t",
+        "description": "a Mulberry Staff",
+        "slot": "",
+        "attr": 7,
+        "weight": 50
+      },
+      {
+        "label": "u",
+        "description": "2 Lanterns (7500 turns)",
+        "slot": "",
+        "attr": 15,
+        "weight": 100
+      },
+      {
+        "label": "v",
+        "description": "2 Studded Leather Armours (-1) [12,+0]",
+        "slot": "",
+        "attr": 15,
+        "weight": 200
+      },
+      {
+        "label": "w",
+        "description": "a Cloak (-15,-15) [1,+0] {cursed, ??}",
+        "slot": "",
+        "attr": 5,
+        "weight": 10
+      },
+      {
+        "label": "x",
+        "description": "a Main Gauche (1d5) (+0,+0)",
+        "slot": "",
+        "attr": 9,
+        "weight": 30
+      },
+      {
+        "label": "y",
+        "description": "a Mace (2d4) (+0,+0)",
+        "slot": "",
+        "attr": 8,
+        "weight": 120
+      }
+    ],
+    "equipment": [
+      {
+        "label": "a",
+        "description": "a Halberd (3d5) (+5,+3)",
+        "slot": "weapon",
+        "attr": 2,
+        "weight": 190
+      },
+      {
+        "label": "b",
+        "description": "a Short Bow (x2) (+4,+4)",
+        "slot": "shooting",
+        "attr": 15,
+        "weight": 30
+      },
+      {
+        "label": "c",
+        "description": "(nothing)",
+        "slot": "right hand",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "d",
+        "description": "(nothing)",
+        "slot": "left hand",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "e",
+        "description": "(nothing)",
+        "slot": "neck",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "f",
+        "description": "(nothing)",
+        "slot": "light",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "g",
+        "description": "Soft Leather Armour [8,+4] {??}",
+        "slot": "body",
+        "attr": 15,
+        "weight": 80
+      },
+      {
+        "label": "i",
+        "description": "(nothing)",
+        "slot": "back",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "m",
+        "description": "a Wicker Shield [2,+0]",
+        "slot": "arm",
+        "attr": 15,
+        "weight": 30
+      },
+      {
+        "label": "n",
+        "description": "a Hard Leather Cap [2,-1]",
+        "slot": "head",
+        "attr": 7,
+        "weight": 20
+      },
+      {
+        "label": "o",
+        "description": "(nothing)",
+        "slot": "hands",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "p",
+        "description": "a Pair of Leather Boots of Slow Descent [2,+6]",
+        "slot": "feet",
+        "attr": 15,
+        "weight": 20
+      }
+    ],
+    "quiver": [
+      {
+        "label": "0",
+        "description": "30 Arrows (1d4) (+1,+3)",
+        "slot": "",
+        "attr": 15,
+        "weight": 60
+      },
+      {
+        "label": "1",
+        "description": "25 Iron Shots (1d4) (+5,+5)",
+        "slot": "",
+        "attr": 2,
+        "weight": 125
+      }
+    ],
+    "total_weight": 1473,
+    "remaining_weight": -274
+  },
+  "spells": {
+    "class": "Necromancer",
+    "mana": 13,
+    "max_mana": 13,
+    "caster": 1,
+    "learned": [
+      {
+        "name": "Nether Bolt",
+        "label": "a",
+        "book": "4 Necromantic Tomes [Into the Shadows]",
+        "book_label": "a",
+        "level": 1,
+        "mana": 1,
+        "fail": 9,
+        "castable": 1,
+        "status": "Ready"
+      },
+      {
+        "name": "Sense Invisible",
+        "label": "b",
+        "book": "4 Necromantic Tomes [Into the Shadows]",
+        "book_label": "a",
+        "level": 2,
+        "mana": 4,
+        "fail": 9,
+        "castable": 1,
+        "status": "Ready"
+      },
+      {
+        "name": "Create Darkness",
+        "label": "c",
+        "book": "4 Necromantic Tomes [Into the Shadows]",
+        "book_label": "a",
+        "level": 3,
+        "mana": 3,
+        "fail": 9,
+        "castable": 1,
+        "status": "Ready"
+      },
+      {
+        "name": "Bat Form",
+        "label": "d",
+        "book": "4 Necromantic Tomes [Into the Shadows]",
+        "book_label": "a",
+        "level": 3,
+        "mana": 4,
+        "fail": 9,
+        "castable": 1,
+        "status": "Ready"
+      },
+      {
+        "name": "Read Minds",
+        "label": "e",
+        "book": "4 Necromantic Tomes [Into the Shadows]",
+        "book_label": "a",
+        "level": 4,
+        "mana": 4,
+        "fail": 9,
+        "castable": 1,
+        "status": "Ready"
+      }
+    ]
+  },
+  "world": null,
+  "rng": "c9831e2bb7c8f4d5e44027f850a88a84924170760104b92f395f79e7708d2c65e425ccffe41719ca2b5ace0a177c5274cc756f0538a42f6571f7cbef7788cbcfd72b58c7434beda16ee073cb2729b4b7970bcae80604fae15c184ed2a8e33ec2a81ea192cba94204cc0e2d4a7df309927eb0d932706edc2647ea36598ddf6f13",
+  "rng_index": 18,
+  "borg_rng": 1533752766
+}

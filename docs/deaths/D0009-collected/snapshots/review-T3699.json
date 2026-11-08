@@ -1,0 +1,276 @@
+{
+  "index": 4433,
+  "turn": 3699,
+  "phase": "command",
+  "hp": 15,
+  "sp": 2,
+  "max_hp": 15,
+  "max_sp": 2,
+  "depth": 0,
+  "level": 1,
+  "x": 16,
+  "y": 11,
+  "diagnostics": {
+    "scope": "diagnostic actual state; never supplied to Borg inputs",
+    "gear": [
+      {
+        "actual_kind": "[Into the Shadows]",
+        "known_kind": "[Into the Shadows]",
+        "aware": 1,
+        "quantity": 2,
+        "weight": 30,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Main~ Gauche~",
+        "known_kind": "& Main~ Gauche~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 30,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Ration~ of Food",
+        "known_kind": "& Ration~ of Food",
+        "aware": 1,
+        "quantity": 7,
+        "weight": 8,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Phase Door",
+        "known_kind": "Phase Door",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 5,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Pair~ of Leather Boots",
+        "known_kind": "& Pair~ of Leather Boots",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 20,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 6,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Studded Leather Armour~",
+        "known_kind": "Studded Leather Armour~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 100,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": -1,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      }
+    ],
+    "monsters": [
+      {
+        "id": 2,
+        "name": "mangy-looking leper",
+        "x": 5,
+        "y": 7,
+        "hp": 1,
+        "max_hp": 1,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 3,
+        "name": "singing, happy drunk",
+        "x": 8,
+        "y": 14,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 4,
+        "name": "blubbering idiot",
+        "x": 62,
+        "y": 14,
+        "hp": 2,
+        "max_hp": 2,
+        "speed": 110,
+        "visible": 0
+      }
+    ],
+    "timed": {
+      "FOOD": 8279
+    },
+    "borg": {
+      "initialized": 1,
+      "active": 1,
+      "fleeing": 0,
+      "leaving": 0,
+      "fleeing_to_town": 0,
+      "avoidance": 15
+    }
+  },
+  "inventory": {
+    "pack": [
+      {
+        "label": "a",
+        "description": "2 Necromantic Tomes [Into the Shadows]",
+        "slot": "",
+        "attr": 10,
+        "weight": 60
+      },
+      {
+        "label": "b",
+        "description": "7 Rations of Food",
+        "slot": "",
+        "attr": 15,
+        "weight": 56
+      },
+      {
+        "label": "c",
+        "description": "a Scroll of Phase Door",
+        "slot": "",
+        "attr": 1,
+        "weight": 5
+      }
+    ],
+    "equipment": [
+      {
+        "label": "a",
+        "description": "a Main Gauche (1d5) (+0,+0)",
+        "slot": "weapon",
+        "attr": 9,
+        "weight": 30
+      },
+      {
+        "label": "b",
+        "description": "(nothing)",
+        "slot": "shooting",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "c",
+        "description": "(nothing)",
+        "slot": "right hand",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "d",
+        "description": "(nothing)",
+        "slot": "left hand",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "e",
+        "description": "(nothing)",
+        "slot": "neck",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "f",
+        "description": "(nothing)",
+        "slot": "light",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "g",
+        "description": "Studded Leather Armour (-1) [12,+0]",
+        "slot": "body",
+        "attr": 15,
+        "weight": 100
+      },
+      {
+        "label": "i",
+        "description": "(nothing)",
+        "slot": "back",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "m",
+        "description": "(nothing)",
+        "slot": "arm",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "n",
+        "description": "(nothing)",
+        "slot": "head",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "o",
+        "description": "(nothing)",
+        "slot": "hands",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "p",
+        "description": "a Pair of Leather Boots of Slow Descent [2,+6]",
+        "slot": "feet",
+        "attr": 15,
+        "weight": 20
+      }
+    ],
+    "quiver": [],
+    "total_weight": 271,
+    "remaining_weight": 928
+  },
+  "spells": {
+    "class": "Necromancer",
+    "mana": 2,
+    "max_mana": 2,
+    "caster": 1,
+    "learned": [
+      {
+        "name": "Nether Bolt",
+        "label": "a",
+        "book": "2 Necromantic Tomes [Into the Shadows]",
+        "book_label": "a",
+        "level": 1,
+        "mana": 1,
+        "fail": 45,
+        "castable": 1,
+        "status": "Ready"
+      }
+    ]
+  },
+  "world": "416d8122659c0153",
+  "rng": "4eda7b2124acd5cff850ddd9d261345cd900945b9d4b0883301fcb53c3b8a34de74b8d780305e10c59660dd6e2931c43d98429925a218ceecaa3bf849091ddfd4b9629e1d56e013ba860271283ff16b5f01e496b3795188c87d5c8fce2c2a111d8469fbc085380f9484a70894d2a8667825f2ae3b7b545a086cc1d13ccfa1e60",
+  "rng_index": 31,
+  "borg_rng": 2804381922
+}

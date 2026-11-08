@@ -145,3 +145,13 @@ match the owner's linked [Rust report5](https://github.com/diegoami/borg-rs/issu
 while retaining separate actual lives. Canonical [source404](https://github.com/diegoami/neo-angband-tracker/issues/404)
 tracks unchecked emergency-flow cache reuse; source156 and shared159 remain
 separate guard/escape-intent actions. No fix or successful rescue is claimed.
+
+D0009 chat feedback is recorded on [163](https://github.com/diegoami/better-borg-c/issues/163#issuecomment-6717711058),
+with focused [235](https://github.com/diegoami/better-borg-c/issues/235) and
+[overall picture](D0009-collected/overall-assessment.md). Qualified original replay
+and native messages show full-pack pickup retries before food exhaustion, then
+unsuccessful D5/D6 escape cycling. Canonical [source419](https://github.com/diegoami/neo-angband-tracker/issues/419)
+tracks quiver-aware capacity; shared41/180/183/159 remain separate food,
+identification,Recall and return investigations. Five unidentified edible
+mushrooms remain at death; no food/Recall spell exists. No correction/rescue
+claimed, and owner-review completion is not inferred from this feedback alone.
