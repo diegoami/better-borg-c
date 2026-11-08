@@ -1,0 +1,40 @@
+From c55e11c92c5e1639a169983c3b487868e04e91a2 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 22:57:42 +0000
+Subject: [PATCH] Borg: remove the dead stun test from the HURT blow danger
+
+In borg_danger_physical() the HURT blow case sets z to d_dice * d_side
+and on the next line tests z > d_dice * d_side for a +200 "stun"
+penalty.  Neither value changes in between, so the test is never true
+and the +200 is never added.  The case it was meant for, blows with very
+few sides and many dice that tend to knock out (10d2 kicks), is already
+covered by the following d_side < 3 && d_dice > 5 test, which adds 400
+and is kept.
+
+Remove the dead test.  No behaviour change.
+
+Tracked as diegoami/neo-angband-tracker#62.
+
+(cherry picked from commit f1aca2e9a3d4e6ffe7e301c9aa750173dd3883bd)
+---
+ src/borg/borg-danger.c | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/src/borg/borg-danger.c b/src/borg/borg-danger.c
+index f3b02d754..2bdfdba9b 100644
+--- a/src/borg/borg-danger.c
++++ b/src/borg/borg-danger.c
+@@ -110,10 +110,6 @@ static int borg_danger_physical(int i, bool full_damage)
+         switch (borg_mon_blow_effect(effect->name)) {
+         case MONBLOW_HURT:
+             z = (d_dice * d_side);
+-            /* stun */
+-            if ((d_side < 3) && (z > d_dice * d_side)) {
+-                n += 200;
+-            }
+             /* fudge- some baddies kick and they tend to KO.  Avoid close */
+             /* combat like the plague.  10d2 is common but take any very low */
+             /* sides and high dice count as dangerous */
+-- 
+2.53.0
+

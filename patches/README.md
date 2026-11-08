@@ -371,3 +371,5 @@ The eighty-second carry credits stat and other modifier bonuses in the item valu
 The eighty-third carry removes the unreachable second amulet tier from the home score (consumer #312, adopting source47/CBUG-0031; owner decision 2026-11-08 option C): a cleanup with no behaviour change — the kit's four amulet-count controls are byte-identical before/after.
 
 The eighty-fourth carry tests the light beam's panel-edge rule against the row on the panel (consumer #316, adopting source88/CBUG-0072): north/south beams were refused below dungeon row 20 on a 22-row panel because the rule compared the absolute dungeon row instead of the row on the panel. The scrolled and scrolled_south modes flip; the top control is byte-identical.
+
+The eighty-fifth carry removes the dead stun test from the HURT blow danger (consumer #329, adopting source62/CBUG-0046; owner decision 2026-11-08): the never-true `z > d_dice * d_side` test and its +200 are dead code — the meaningful kick/KO fudge stays. The kit's four blow-mode controls are byte-identical before/after.

@@ -1587,6 +1587,24 @@
    "verification": "docs/measurement/LIGHTBEAM-88.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "HURTSTUN-62",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/329",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/62",
+   "source_head": "f1aca2e9a3d4e6ffe7e301c9aa750173dd3883bd",
+   "source_commits": [
+    "f1aca2e9a3d4e6ffe7e301c9aa750173dd3883bd"
+   ],
+   "applied_commits": [
+    "c55e11c92c5e1639a169983c3b487868e04e91a2"
+   ],
+   "patch": "patches/0085-hurt-blow-dead-stun-test.patch",
+   "patch_active": true,
+   "evidence_ref": "80318246564ab617197c01032a0368b2218555a5",
+   "verification": "docs/measurement/HURTSTUN-62.md",
+   "credit": "Diego Amicabile (native proposal/evidence); owner decision 2026-11-08 (cleanup, delete the dead block, no behaviour change)",
+   "verification_status": "cleanup carry: the kit asserts all four blow-mode controls byte-identical before/after (no behaviour change); native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }
