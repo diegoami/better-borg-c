@@ -25,6 +25,7 @@ def load(name, filename):
 
 workflow = load('producer_helpers', 'death-workflow.py')
 measurement = load('producer_measurement', 'measure-native.py')
+reports = load('producer_reports', 'run-report.py')
 BUILD_TOOLS = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h', 'native-spells.h')
 DEFAULT_ISSUE = 'https://github.com/diegoami/better-borg-c/issues/163'
 
@@ -191,7 +192,7 @@ def print_recording_commands(commands):
             print('Play yourself (verifies prefix first): ' + commands['manual_play_command'], flush=True)
 
 
-def show_collection_commands(directory):
+def show_collection_commands(directory, make_reports=False):
     plan = workflow.read(directory.resolve() / 'collection.json')
     for entry in plan['runs']:
         run = Path(entry['directory'])
@@ -200,21 +201,34 @@ def show_collection_commands(directory):
             continue
         result = workflow.read(run / 'result.json')
         print(f"Seed {entry['seed']}: {result['outcome']}")
+        if make_reports:
+            path, _ = reports.create(run, result)
+            print('Report: ' + str(path), flush=True)
+            continue
+        elif (run / 'reports/summary.md').is_file():
+            print('Report: ' + str(run / 'reports/summary.md'), flush=True)
         commands = recording_commands(run, result)
         print_recording_commands(commands)
         if not commands:
             print('No finalized recording available yet.', flush=True)
+    if make_reports:
+        print('Reports index: ' + str(reports.collection_summary(directory, plan)), flush=True)
 
 
 def collect(args, output, seeds, commit):
-    # Freeze all potential starts and limits BEFORE build/run results; stopping at
+    configuration = 'borg_save_death = 1\n'
+    munchkin = bool(getattr(args, 'munchkin', False))
+    if munchkin:
+        configuration += 'borg_munchkin_start = TRUE\n'    # Freeze all potential starts and limits BEFORE build/run results; stopping at
     # the first death is declared sampling, never a survival-rate experiment.
     plan = {'schema': 'borg-death-collection@1', 'created_at': workflow.now(),
             'requested_source_commit': commit, 'source_commit': None, 'seeds': seeds, 'turn_cap': args.turns,
             'wall_limit_per_game_seconds': args.timeout, 'stall_timeout_seconds': args.stall_timeout,
             'stop_rule': 'first natural death, operational failure other than wall timeout, or listed seeds exhausted; time/turn limits start the next seed',
             'birth_policy': getattr(args, 'birth', 'random'),
-            'character': ('Random race and class' if getattr(args, 'birth', 'random') == 'random' else 'Human Warrior') + '; default point buy; native Borg defaults; death evidence on; cheat death and winner respawn off',
+            'borg_parameters': {'borg_munchkin_start':munchkin, 'borg_save_death':True},
+            'requested_configuration_sha256':hashlib.sha256(configuration.encode()).hexdigest(),
+            'character': ('Random race and class' if getattr(args, 'birth', 'random') == 'random' else 'Human Warrior') + '; default point buy; native Borg settings with declared overrides; death evidence on; cheat death and winner respawn off',
             'runner_sha256': workflow.sha(Path(__file__)), 'issue': args.death_issue,
             'runs': [], 'counts': {}, 'status': 'preparing',
             'limit': 'Death collection, not an unbiased survival-rate cohort; all attempted outcomes retained.'}
@@ -234,12 +248,16 @@ def collect(args, output, seeds, commit):
                 print(f'Game {index}/{len(seeds)}; seed {seed}; cap {args.turns}', flush=True)
                 code = measurement.run(SimpleNamespace(build=build, output=run, seed=seed, cap=args.turns,
                     timeout=args.timeout, stall_timeout=args.stall_timeout, no_saves=False, load=None,
-                    recording=True, random_birth=getattr(args, 'birth', 'random') == 'random', configuration='borg_save_death = 1\n'))
+                    recording=True, random_birth=getattr(args, 'birth', 'random') == 'random', configuration=configuration))
                 result = workflow.read(run / 'result.json')
                 print('Character: ' + result.get('character', 'unknown'), flush=True)
                 entry.update(outcome=result['outcome'], cause=result.get('cause'), character=result.get('character'),
                              result_sha256=workflow.sha(run / 'result.json'), wall_seconds=result.get('wall_seconds'),
                              final=result.get('states', [None])[-1] if result.get('states') else None)
+                report_path, _ = reports.create(run, result)
+                entry['report'] = str(report_path)
+                print('Report: ' + str(report_path), flush=True)
+                reports.collection_summary(output, plan)
                 commands = recording_commands(run, result)
                 entry.update(commands)
                 print_recording_commands(commands)
@@ -276,6 +294,7 @@ def collect(args, output, seeds, commit):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--birth', choices=('random', 'fixed'), default='random', help='new characters: random race/class (default), or fixed Human Warrior')
+    p.add_argument('--munchkin', action='store_true', help='start the existing native munchkin mode; recorded in configuration (default off)')
     p.add_argument('--games', type=int, help='maximum fresh characters (default3); time/turn limits try next seed, first death/error stops')
     p.add_argument('--seed', type=int, help='first uint32 seed (default random); subsequent seeds are consecutive')
     p.add_argument('--seeds', nargs='+', type=int, help='explicit prospective seed list instead of --games/--seed')
@@ -289,7 +308,8 @@ def main():
     approval.add_argument('--no-build', action='store_true', help='use an existing matching build only; fail if one is missing')
     action = p.add_mutually_exclusive_group()
     action.add_argument('--check-build', action='store_true', help='show requested/actual version and cache status, then exit without builds or games')
-    action.add_argument('--commands', type=Path, metavar='COLLECTION', help='print watch/play commands for an existing collection; no builds or games')
+    action.add_argument('--commands', type=Path, metavar='COLLECTION', help='print report/watch/play paths for an existing collection; no builds or games')
+    action.add_argument('--reports', type=Path, metavar='COLLECTION', help='create short/native character reports for existing runs; no replay from birth')
     p.add_argument('--output', type=Path, help='new directory below primary-checkout artifacts; default unique timestamp')
     p.add_argument('--death-issue', default=DEFAULT_ISSUE, help='discussion/work issue for any exported death')
     args = p.parse_args()
@@ -298,6 +318,11 @@ def main():
     try:
         if args.commands:
             show_collection_commands(args.commands)
+            return 0
+        if args.reports:
+            print('Preparing reports from saved character states; waiting for validation lock...', flush=True)
+            with workflow.locked(Path('/tmp/angband-validation.lock')):
+                show_collection_commands(args.reports, make_reports=True)
             return 0
         seeds = seeds_for(args)
         if len(seeds) > 1000:
