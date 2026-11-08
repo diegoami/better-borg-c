@@ -242,7 +242,10 @@ def monitor(process, trace_path, wall_limit, stall_limit):
     start = changed = time.monotonic()
     last_turn = None
     while process.poll() is None:
-        states = parse_states(trace_path.read_text()) if trace_path.exists() else []
+        # A live read can end inside a UTF-8 character. parse_states discards
+        # the unfinished line; final reads after process exit remain strict.
+        states = (parse_states(trace_path.read_text(encoding='utf-8', errors='replace'))
+                  if trace_path.exists() else [])
         current_turn = states[-1]['turn'] if states else None
         now = time.monotonic()
         if current_turn != last_turn:
