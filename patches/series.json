@@ -937,7 +937,8 @@
    "evidence_receipt": "f15794d2f2128714988596bfa036748d63a8f407",
    "verification": "docs/measurement/FLOW-DANGER-CACHE.md",
    "credit": "Diego Amicabile (owner death feedback; native C proposal/evidence); related independent borg-rs grey-mold diagnosis",
-   "verification_status": "verified product before/after/negative controls and154prior expectations; v1whole traces unchanged; D0008 diagnostic alive200000; consumer integration pending"
+   "verification_status": "merged; product before/after/negative controls and154prior expectations verified; frozen v1trace-neutral; D0008 diagnostic alive200000, no population-benefit claim; carried/open+patch-active",
+   "merge_commit": "1c8fcdccfafa08fd34aaa12b8e6409e8607030bb"
   }
  ]
 }

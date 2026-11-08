@@ -6,4 +6,4 @@ Actual C46 source5c23742ced30, Human Priest CL1/depth1, seed1668846659, death109
 
 Original and stderr-only C diagnostic replay both VERIFIED. The priest repeatedly retreats onto the known upstairs then explores back into grey-mold melee, consumes three CLW, never attacks and leaves two Phase scrolls unused. Qualified diagnostics reproduce exception-mode cache entries being reused without danger evaluation in normal exploration, independently matching the related Rust report. Canonical source404 and consumer212 track the mechanism; source156 and shared159 remain separate contributing investigations.
 
-No gameplay correction, successful alternative or population survival benefit claimed. Owner replay review complete; technical actions remain open.
+Later consumer carry: source404’s narrow cache correction is merged as patch0049 (PR222). Product controls/regressions pass; a separately labeled corrected diagnostic reaches the turn cap, with divergent RNG. This does not establish a population survival benefit or resolve all escape-intent issues. Original C46 evidence and completed owner review remain unchanged; technical actions stay open.

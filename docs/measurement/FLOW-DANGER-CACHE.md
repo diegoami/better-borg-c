@@ -55,8 +55,8 @@ This is a small regression cohort, not a survival-effect estimate.
 A separate diagnostic uses D0008's original seed1668846659 and random-birth input
 and configuration, cap200000/wall600/stall30. It is an already-observed life,
 not another independent prospective sample. Original C46 build/record/save/movie
-identities and owner review remain immutable. Actual measurement results will
-be recorded before delivery; no claim that this carry fixes every component of
+identities and owner review remain immutable. Actual measurement results are
+recorded below; no claim that this carry fixes every component of
 D0008, establishes a designed escape, or improves population survival.
 
 ## Measured results on this consumer
@@ -101,3 +101,15 @@ under the consumer's own verification/merge policy, not represented as source
 approval or official upstream acceptance. No source-repository changes or posts
 were made. Python97/97controls pass in the consumer. Full hosted checks and final
 integration/build receipts are recorded on consumer212 and its carry PR.
+
+## Consumer integration receipt
+
+Merged PR222 at1c8fcdccfafa08fd34aaa12b8e6409e8607030bb after agent evidence
+review and exact-head bfcac09a1 hosted42436024587/job128594915896 numerical
+97tooling/965native/5frontend plus security checks. Consumer212 is carried/open
+and patch-active, not fixed/closed. The source repository was not modified.
+Selective raw archive: `artifacts/fc404-carry/evidence.tar.gz`, SHA256
+`75bea61b756d4a1372ba52d668cb488df97d7abdd6a60e3e7ceb4d43b8d54444`,
+23489885bytes/597members, all readback-hash verified. Runtime cores and frozen
+observer/recording builds remain retained separately. Final delivery build
+identities and timing are recorded in ignored artifacts and consumer212/checkpoint1.

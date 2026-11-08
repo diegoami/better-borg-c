@@ -190,7 +190,7 @@
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/212",
       "key": "emergency-flow-cache",
-      "status": "consumer carry verified; integration pending; population benefit unmeasured",
+      "status": "carried; product regression/controls verified; upstream acceptance and population benefit remain open",
       "summary": "Narrow source404 correction verified on actual product with before/after and negative controls; track upstream acceptance and separate population evaluation"
     },
     {

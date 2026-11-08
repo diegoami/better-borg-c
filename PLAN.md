@@ -769,3 +769,21 @@ a complete overall assessment using docs/deaths/REVIEW-TEMPLATE.md. Explicitly
 consider attempted walking escape, especially after Phase Door exhaustion.
 Gallant-family candidates158(theft valuation)/159(room retreat) are analysis,
 not implementations; shared overall assessment lives in D0004.
+
+## Source404 flow-cache correction (consumer212,2026-11-08)
+
+Owner-authorised carry merged1c8fcdccf (PR222), applied257e7b473 from source
+b71b32c152 (PR407, draft source proposal), patch0049/FLOWCACHE-404.
+[Verification and actual measurements](docs/measurement/FLOW-DANGER-CACHE.md).
+Actual48-carry before19/30 and49-carry after30/30 source fixture contracts;
+partial-fix negative controls26/23 and wipe30;154prior expectations retained
+(including two documented expected-red dispel259 cases). Local before/after
+965/965+5/5,97tooling; exact-head hosted gate read green. Frozen v1 seeds11/29/47
+whole traces identical, allalive20000. Current unmodified engine replays original
+D0008 exactly; corrected diagnostic diverges10837 and reaches200000aliveCL5/HP56
+via existing bravery/Phase fallback. This is not a population survival estimate.
+Original C46 recording/build stays frozen. Consumer212 remains carried/open and
+patch-active pending upstream acceptance/incorporation; source152/156, reaction
+mechanism replacement and other lanes remain separate. No source-repository
+changes/posts. Delivery refreshes the current playable/recording builds; source
+proposal acceptance and prospective survival/progress evaluation remain open.
