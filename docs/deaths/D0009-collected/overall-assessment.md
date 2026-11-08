@@ -84,6 +84,11 @@ or hidden item identities were supplied to the Borg to obtain this result.
 
 ## Preparedness, inventory and available actions
 
+The recorded birth option is `birth_no_selling=1`. Selling for identification
+and inventory relief is therefore distinct from earning money; the old
+munchkin comment about income from selling must not be assumed to describe
+this run.
+
 At death the pack contains20stacks; it held21during the capacity loop, and the
 quiver then charged two more pack slots. **Pack fullness changes over time**;
 the terminal inventory alone would not prove the earlier loop's capacity.
