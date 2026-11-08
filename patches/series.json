@@ -1515,6 +1515,24 @@
    "verification": "docs/measurement/SHOPLINE-125.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge"
+  },
+  {
+   "id": "LIGHTWEST-40",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/309",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/40",
+   "source_head": "6dd5874b444b00b8185fce58c823002ab6c544ad",
+   "source_commits": [
+    "6dd5874b444b00b8185fce58c823002ab6c544ad"
+   ],
+   "applied_commits": [
+    "69e020d3b5a4be33f9f8f23a417b7466b547fa84"
+   ],
+   "patch": "patches/0081-light-west-radius-edge.patch",
+   "patch_active": true,
+   "evidence_ref": "8e9e1da6a5729a619e908e8aa351e25f8a8aa90d",
+   "verification": "docs/measurement/LIGHTWEST-40.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge"
   }
  ]
 }

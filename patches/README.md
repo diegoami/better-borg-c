@@ -363,3 +363,5 @@ The seventy-eighth carry tests current hit points, not the item count, before ba
 The seventy-ninth carry keeps the multiplier-kill timer when checking whether to rest (consumer #306, adopting source149): on the same turn as a multiplier kill the borg rested one turn it should not have. The recent control is byte-identical.
 
 The eightieth carry avoids every shop entrance that is not the goal shop (consumer #307, adopting source125): the avoidance covered only one layout case and the borg could step onto another shop while passing it. The offrow control is byte-identical.
+
+The eighty-first carry lights the grids beside the west edge of the lantern radius (consumer #309, adopting source40): the west block added grids two rows above and below (already covered by the north/south blocks) instead of one row, so grids one row off and two columns west were never marked lit and a monster standing there counted as never-in-light. The east control is byte-identical.

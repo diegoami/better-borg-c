@@ -1,0 +1,40 @@
+From 69e020d3b5a4be33f9f8f23a417b7466b547fa84 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 21:18:03 +0100
+Subject: [PATCH] Borg: light the grids beside the west edge of the lantern
+ radius
+
+The Borg works out which grids its light reaches. The east block adds
+the three grids two columns east of it (the row of the Borg and the rows
+above and below). The west block added the row of the Borg and then the
+two grids two rows above and below, which the north and south blocks add
+already, instead of the rows above and below. So the grids one row up and
+down and two columns west were never marked as lit, and a monster that
+had stood there was treated as not having been in the light. Add the
+grids one row above and below.
+
+Tracked as diegoami/neo-angband-tracker#40.
+
+(cherry picked from commit 6dd5874b444b00b8185fce58c823002ab6c544ad)
+---
+ src/borg/borg-cave-light.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-cave-light.c b/src/borg/borg-cave-light.c
+index d8b520aa0..03f933430 100644
+--- a/src/borg/borg-cave-light.c
++++ b/src/borg/borg-cave-light.c
+@@ -135,8 +135,8 @@ void borg_update_light(void)
+         /* West of the player */
+         if (borg_cave_floor_bold(borg.c.y, borg.c.x - 2)) {
+             borg_cave_light_hack(borg.c.y, borg.c.x - 2);
+-            borg_cave_light_hack(borg.c.y + 2, borg.c.x - 2);
+-            borg_cave_light_hack(borg.c.y - 2, borg.c.x - 2);
++            borg_cave_light_hack(borg.c.y + 1, borg.c.x - 2);
++            borg_cave_light_hack(borg.c.y - 1, borg.c.x - 2);
+         }
+     }
+ 
+-- 
+2.53.0
+
