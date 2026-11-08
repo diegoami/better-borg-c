@@ -234,7 +234,8 @@
    "verification": "docs/measurement/TP-OTHER-SKIP.md",
    "credit": "borg-rs (discovery); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured; carried/open+patch-active",
-   "merge_commit": "cfaff7be719971e81d91b6c05533aadd29045078"
+   "merge_commit": "cfaff7be719971e81d91b6c05533aadd29045078",
+   "also_adopts": [{"consumer_issue": "https://github.com/diegoami/better-borg-c/issues/200", "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/250", "source_commit": "e890819a6b5ac6e7f7135dcc2b234fcc520b9752", "verification": "docs/measurement/TP-OTHER-READER.md", "note": "identical one-token reader correction already in this patch; no separate unit"}]
   },
   {
    "id": "CBUG-0248",
