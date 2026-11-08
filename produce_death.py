@@ -25,6 +25,7 @@ def load(name, filename):
 
 workflow = load('producer_helpers', 'death-workflow.py')
 measurement = load('producer_measurement', 'measure-native.py')
+reports = load('producer_reports', 'run-report.py')
 BUILD_TOOLS = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h', 'native-spells.h')
 DEFAULT_ISSUE = 'https://github.com/diegoami/better-borg-c/issues/163'
 
@@ -191,7 +192,7 @@ def print_recording_commands(commands):
             print('Play yourself (verifies prefix first): ' + commands['manual_play_command'], flush=True)
 
 
-def show_collection_commands(directory):
+def show_collection_commands(directory, make_reports=False):
     plan = workflow.read(directory.resolve() / 'collection.json')
     for entry in plan['runs']:
         run = Path(entry['directory'])
@@ -200,10 +201,18 @@ def show_collection_commands(directory):
             continue
         result = workflow.read(run / 'result.json')
         print(f"Seed {entry['seed']}: {result['outcome']}")
+        if make_reports:
+            path, _ = reports.create(run, result)
+            print('Report: ' + str(path), flush=True)
+            continue
+        elif (run / 'reports/summary.md').is_file():
+            print('Report: ' + str(run / 'reports/summary.md'), flush=True)
         commands = recording_commands(run, result)
         print_recording_commands(commands)
         if not commands:
             print('No finalized recording available yet.', flush=True)
+    if make_reports:
+        print('Reports index: ' + str(reports.collection_summary(directory, plan)), flush=True)
 
 
 def collect(args, output, seeds, commit):
@@ -240,6 +249,10 @@ def collect(args, output, seeds, commit):
                 entry.update(outcome=result['outcome'], cause=result.get('cause'), character=result.get('character'),
                              result_sha256=workflow.sha(run / 'result.json'), wall_seconds=result.get('wall_seconds'),
                              final=result.get('states', [None])[-1] if result.get('states') else None)
+                report_path, _ = reports.create(run, result)
+                entry['report'] = str(report_path)
+                print('Report: ' + str(report_path), flush=True)
+                reports.collection_summary(output, plan)
                 commands = recording_commands(run, result)
                 entry.update(commands)
                 print_recording_commands(commands)
@@ -289,7 +302,8 @@ def main():
     approval.add_argument('--no-build', action='store_true', help='use an existing matching build only; fail if one is missing')
     action = p.add_mutually_exclusive_group()
     action.add_argument('--check-build', action='store_true', help='show requested/actual version and cache status, then exit without builds or games')
-    action.add_argument('--commands', type=Path, metavar='COLLECTION', help='print watch/play commands for an existing collection; no builds or games')
+    action.add_argument('--commands', type=Path, metavar='COLLECTION', help='print report/watch/play paths for an existing collection; no builds or games')
+    action.add_argument('--reports', type=Path, metavar='COLLECTION', help='create short/native character reports for existing runs; no replay from birth')
     p.add_argument('--output', type=Path, help='new directory below primary-checkout artifacts; default unique timestamp')
     p.add_argument('--death-issue', default=DEFAULT_ISSUE, help='discussion/work issue for any exported death')
     args = p.parse_args()
@@ -298,6 +312,11 @@ def main():
     try:
         if args.commands:
             show_collection_commands(args.commands)
+            return 0
+        if args.reports:
+            print('Preparing reports from saved character states; waiting for validation lock...', flush=True)
+            with workflow.locked(Path('/tmp/angband-validation.lock')):
+                show_collection_commands(args.reports, make_reports=True)
             return 0
         seeds = seeds_for(args)
         if len(seeds) > 1000:
