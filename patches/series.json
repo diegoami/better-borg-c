@@ -1223,7 +1223,8 @@
    "evidence_ref": "da9a39f4da3005dc24feeba4ae6b8e0bfe67475e",
    "verification": "docs/measurement/REVERSE-FLOW.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 cohort measured on the pair; carried/open+patch-active after merge"
+   "verification_status": "merged; verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 cohort measured on the pair; carried/open+patch-active",
+   "merge_commit": "8d0d0cd8b7a48c328c0c33e53d3dd1d35c060e34"
   },
   {
    "id": "GLYPHFLOW-345",
@@ -1241,7 +1242,44 @@
    "evidence_ref": "fbe06401c54c4e701ea20a9e3c7aec48f849c30b",
    "verification": "docs/measurement/REVERSE-FLOW.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 cohort measured on the pair; carried/open+patch-active after merge"
+   "verification_status": "merged; verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 cohort measured on the pair; carried/open+patch-active",
+   "merge_commit": "8d0d0cd8b7a48c328c0c33e53d3dd1d35c060e34"
+  },
+  {
+   "id": "SWAPACID-199",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/270",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/199",
+   "source_head": "eddbf5b82293ea70a76fae960bc9f8debf1579c6",
+   "source_commits": [
+    "eddbf5b82293ea70a76fae960bc9f8debf1579c6"
+   ],
+   "applied_commits": [
+    "91f075bdcc329ec754e10e24da3cce36c5279784"
+   ],
+   "patch": "patches/0066-swap-weapon-acid-element.patch",
+   "patch_active": true,
+   "evidence_ref": "9eca003a5896403b9810806b4fc656446a34cf9a",
+   "verification": "docs/measurement/SWAP-ACID.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 traces identical; carried/open+patch-active after merge"
+  },
+  {
+   "id": "STAIRCYCLE-403",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/280",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/403",
+   "source_head": "d92e06c3f964e4bba19642288ded1b331a327109",
+   "source_commits": [
+    "d92e06c3f964e4bba19642288ded1b331a327109"
+   ],
+   "applied_commits": [
+    "bd9a36def55cde1c478136b31bf3c7c3a717d520"
+   ],
+   "patch": "patches/0067-munchkin-leaves-while-poisoned-or-hallucinating.patch",
+   "patch_active": true,
+   "evidence_ref": "43dee40ed05284848f3df25aa5abf19a7f776c7f",
+   "verification": "docs/measurement/STAIR-CYCLE-POISON.md",
+   "credit": "Diego Amicabile (zoo-reported, native validation/proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 traces identical; carried/open+patch-active after merge"
   }
  ]
 }

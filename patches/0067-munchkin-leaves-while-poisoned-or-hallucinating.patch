@@ -1,0 +1,57 @@
+From bd9a36def55cde1c478136b31bf3c7c3a717d520 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 02:08:07 +0100
+Subject: [PATCH] Borg: hand the munchkin turn to recovery while poisoned or
+ hallucinating
+
+Munchkin start mode keeps exploring by shuttling between known stairs.
+Stair travel does not age the world clock: entering a level grants
+minimum move energy and the world tick is skipped during level
+generation, so a poisoned or hallucinating Borg that stair-cycles can
+never let those timed ailments run out. The munchkin branch also runs
+before the ordinary dungeon think, so its poison and hallucination
+recovery handling is never reached.
+
+Bail out of munchkin mode while BI_ISPOISONED or BI_ISIMAGE is active,
+in the branch's existing early-bail sequence: the ordinary recovery
+path takes the turn, ages the world clock normally, and the ailments
+wear off (walking and resting clear them). The clean control confirms
+munchkin play is unchanged.
+
+Native fixture: Human Warrior, seed 1045, depth 9, known underfoot up
+stair plus a down stair three tiles east; ailments enter through the
+real timed-effect API. Original: the ailed Borg power-climbs
+(stair_directed=1). Corrected: the ailed Borg hands the turn to
+recovery (stair_directed=0); the clean control still climbs in both.
+Tracked as diegoami/neo-angband-tracker#403.
+
+(cherry picked from commit d92e06c3f964e4bba19642288ded1b331a327109)
+---
+ src/borg/borg-think-dungeon.c | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+diff --git a/src/borg/borg-think-dungeon.c b/src/borg/borg-think-dungeon.c
+index a3dd50f89..2ab8469f0 100644
+--- a/src/borg/borg-think-dungeon.c
++++ b/src/borg/borg-think-dungeon.c
+@@ -458,6 +458,17 @@ static bool borg_think_dungeon_munchkin(void)
+         return false;
+     }
+ 
++    /* Not while poisoned or hallucinating. Stair travel does not age the
++     * world clock (level entry grants minimum move energy and the world
++     * tick is skipped during level generation), so these timed ailments
++     * can never wear off while the borg shuttles between stairs. Leave
++     * them to the ordinary recovery path, which ages turns normally. */
++    if (borg.trait[BI_ISPOISONED] || borg.trait[BI_ISIMAGE]) {
++        borg_note("# Leaving munchkin Mode. (Poisoned or Hallucinating)");
++        borg.munchkin_mode = false;
++        return false;
++    }
++
+     /* if borg is just starting on this level, he may not
+      * know that a stair is under him.  Cheat to see if one is
+      * there
+-- 
+2.53.0
+

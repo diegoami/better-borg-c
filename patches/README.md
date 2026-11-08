@@ -337,3 +337,7 @@ The sixty-third carry counts a warrior's Resist Poison potions from zero (consum
 The sixty-fourth carry runs the spastic-search reverse flow unoptimized (consumer #268, adopting source146): the optimized spread stopped at the Borg's own grid and never produced a move. Fixture middle and corner: moved 0 to 1; far control byte-identical.
 
 The sixty-fifth carry runs the Sea of Runes reverse flow unoptimized (consumer #269, adopting source345): the optimized spread stopped at an existing centre rune and never selected outlying runes. Fixture center: progress 0 to 1; offcenter control byte-identical. With 0064 the v1 seed-47 death of 0056 does not occur (pair measurement).
+
+The sixty-sixth carry reads the swap weapon's acid resistance from its acid element instead of its electricity element (consumer #270, adopting source199): a weapon resisting electricity was counted as acid-resistant. Four-mode fixture flips elec and acid; the fire and none controls are byte-identical.
+
+The sixty-seventh carry leaves munchkin mode while poisoned or hallucinating (consumer #280, adopting source403): stair travel does not age the world clock, so the timed ailment could never wear off and the run froze. Decision-level fixture flips the ailing case (stair_directed 1 to 0); the clean control is byte-identical. The end-to-end stalls are not claimed resolved.

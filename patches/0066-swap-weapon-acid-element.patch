@@ -1,0 +1,40 @@
+From 91f075bdcc329ec754e10e24da3cce36c5279784 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 06:43:41 +0000
+Subject: [PATCH] Borg: read the swap weapon's acid resistance from its acid
+ element
+
+When the Borg records the flags of its chosen swap weapon, the acid
+resistance flag was set from the weapon's electricity resistance.  A
+swap weapon that resists only lightning therefore counted as acid
+resistance, and one that resists acid was not counted at all.  The
+preparedness check for depths 26 and deeper uses that flag, so a Borg
+whose only 'acid resistance' was a lightning-resisting swap weapon
+considered itself ready for those depths.
+
+Read the acid flag from the acid element, as the swap scan earlier in
+the same function and the armour swap already do.
+
+Tracked as diegoami/neo-angband-tracker#199.
+
+(cherry picked from commit eddbf5b82293ea70a76fae960bc9f8debf1579c6)
+---
+ src/borg/borg-trait-swap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-trait-swap.c b/src/borg/borg-trait-swap.c
+index 81e8c909a..b629dbebc 100644
+--- a/src/borg/borg-trait-swap.c
++++ b/src/borg/borg-trait-swap.c
+@@ -711,7 +711,7 @@ void borg_notice_weapon_swap(void)
+         weapon_swap_immune_elec = true;
+ 
+     /* Resistance flags */
+-    if (item->el_info[ELEM_ELEC].res_level > 0)
++    if (item->el_info[ELEM_ACID].res_level > 0)
+         weapon_swap_resist_acid = true;
+     if (item->el_info[ELEM_ELEC].res_level > 0)
+         weapon_swap_resist_elec = true;
+-- 
+2.53.0
+
