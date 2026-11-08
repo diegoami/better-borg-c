@@ -235,7 +235,15 @@
    "credit": "borg-rs (discovery); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured; carried/open+patch-active",
    "merge_commit": "cfaff7be719971e81d91b6c05533aadd29045078",
-   "also_adopts": [{"consumer_issue": "https://github.com/diegoami/better-borg-c/issues/200", "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/250", "source_commit": "e890819a6b5ac6e7f7135dcc2b234fcc520b9752", "verification": "docs/measurement/TP-OTHER-READER.md", "note": "identical one-token reader correction already in this patch; no separate unit"}]
+   "also_adopts": [
+    {
+     "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/200",
+     "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/250",
+     "source_commit": "e890819a6b5ac6e7f7135dcc2b234fcc520b9752",
+     "verification": "docs/measurement/TP-OTHER-READER.md",
+     "note": "identical one-token reader correction already in this patch; no separate unit"
+    }
+   ]
   },
   {
    "id": "CBUG-0248",
@@ -1280,6 +1288,24 @@
    "verification": "docs/measurement/STAIR-CYCLE-POISON.md",
    "credit": "Diego Amicabile (zoo-reported, native validation/proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 traces identical; carried/open+patch-active after merge"
+  },
+  {
+   "id": "TEXT-287-BUFSIZE",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/93",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/287",
+   "source_head": "e7f670fa4d4f0672dc346637fc7be20c814a4b62",
+   "source_commits": [
+    "e7f670fa4d4f0672dc346637fc7be20c814a4b62"
+   ],
+   "applied_commits": [
+    "60034c84c47e7ec71c25fbb637841ac018ef29bb"
+   ],
+   "patch": "patches/0068-text-buffer-size-bound.patch",
+   "patch_active": true,
+   "evidence_ref": "e41f4c99eb39f676e47fe5ab5c06a0ed3056c5c5",
+   "verification": "docs/measurement/TEXT-BUFSIZE.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the revised source fixture; native gate on the tip; carried/open+patch-active after merge"
   }
  ]
 }
