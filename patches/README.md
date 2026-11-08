@@ -282,3 +282,11 @@ adjustment `(clevel - 10) + (10 - depth)` is negative below character level
 power-climbing toward visible stairs; it is now gated on `clevel > 10`. The
 unchanged fixture flips the climb decision (0 to 1). Behaviour-active in
 munchkin mode below level 10; no survival claim.
+
+The fifty-second carry resets the Borg clock gracefully at the overflow
+threshold instead of aborting (consumer #245, adopting source246, owner
+decision on the source issue). `borg_think_dungeon()` aborted 2900 ticks before
+the reset in `borg_think()` could run; it now performs the same reset and keeps
+playing, with the old check left as a failsafe. The unchanged fixture flips the
+Borg from inactive (clock frozen) to active (clock 1). Not reachable in the
+20000-turn cohort; no survival claim.

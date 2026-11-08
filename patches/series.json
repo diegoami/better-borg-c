@@ -978,6 +978,24 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified and measured (v1 cohort traces identical); carried/open+patch-active",
    "merge_commit": "ae64c39cb8cf90ebf5f55b7627414847c155b4d2"
+  },
+  {
+   "id": "CBUG-0246",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/245",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/246",
+   "source_head": "7cc0ebbd2016afeaaf57c5e976251b67f7c0e147",
+   "source_commits": [
+    "7cc0ebbd2016afeaaf57c5e976251b67f7c0e147"
+   ],
+   "applied_commits": [
+    "49f9c19df2b7157594498eb81091c8f4c6dbdbf6"
+   ],
+   "patch": "patches/0052-clock-overflow-graceful-reset.patch",
+   "patch_active": true,
+   "evidence_ref": "85ff225404d99acfdf22568b4bc5ec64afd4218b",
+   "verification": "docs/measurement/CLOCK-RESET.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified on the unchanged source fixture and native gate; PR pending; carried/open+patch-active after merge"
   }
  ]
 }
