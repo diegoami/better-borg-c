@@ -58,8 +58,12 @@ from flee-to-stairs flow, not exploration through the cache.
 and it did go west twice: once it turned back when a new worm mass appeared, and once the
 worms caught it.
 
-**Scared.** The pristine scary rule treats white worm masses as scary when
-`breeder_count >= CLEVEL`. At CL2, two worms set whole-level flight.
+**Scared (#327).** The pristine scary rule treats white or green worm masses, or giant
+white mice, as scary when the level-wide count of tracked breeders is at least the character
+level. At CL2, two worms set whole-level *flight*. The Borg's own breeder caution
+(`borg_check_breeders`) would only start *leaving* at `MIN(CL+2, 5)` = 4. White worm masses
+here are slow (speed 100), with 10 HP and a 1d2 poison crawl. The owner's verdict was
+"scared without reason".
 
 **No potions (#34, #180).** It knew no cure. But it carried 8 Teal Potions that were really
 Cure Light Wounds. The Borg's own floor-object notes printed the true kind name; that name is
@@ -71,6 +75,23 @@ neither ran:
 
 Also unidentified: an Orange and a Metallic Red potion, and two scrolls. It had no Phase Door
 (last read at 24506) and 219 gold.
+
+## Owner's manual alternative (verified)
+
+The owner played the same seed from the requested turn 27525 (actual 27526) with
+`play-from-replay.py`. The branch and session identities and hashes are in
+[owner-manual-branch.json](owner-manual-branch.json). A complete rerun of the saved session
+with `replay-borg.py --verify-only` is **VERIFIED**: every input, action, clock/file channel,
+RNG/player state, native save and frame matches. What happened:
+
+1. At 27526, HP 17, standing next to the mold: one blow, "You have destroyed the grey mold."
+2. Rested to 21/21 by 27751.
+3. Walked west and killed two white worm masses, with a brief poisoning.
+4. Saved alive at 28253, CL2, HP 17.
+
+This demonstrates that the cheap alternative #324 assumed existed and worked once. It is a
+save/load manual line with different RNG use and no Borg memory restore. It is not an
+independent Borg life or a population or policy benefit.
 
 ## Competing explanations and limits
 

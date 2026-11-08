@@ -344,6 +344,15 @@
       "key": "mold-retreat-loop",
       "status": "needs evidence; recurs with FLOWCACHE-404 carried; no gameplay change",
       "summary": "Observe caution retreat versus attack at adjacent decisions 27517/27537 and the flee-to-stairs re-approach; compare D0008 order"
+    },
+    {
+      "cases": [
+        "D0012"
+      ],
+      "issue": "https://github.com/diegoami/better-borg-c/issues/327",
+      "key": "worm-scary-rule",
+      "status": "needs evidence; owner manual branch verified; no gameplay change",
+      "summary": "Measure low-level worm-mass scary triggers and compare with the breeder caution threshold"
     }
   ],
   "cases": 12,

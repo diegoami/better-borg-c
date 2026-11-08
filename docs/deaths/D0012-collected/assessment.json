@@ -1,6 +1,6 @@
 {
-  "classification": "retreat/re-approach loop and fleeing-mode healing investigation; source-checked mechanisms with native position evidence; no reusable original-C defect established",
-  "confidence": "High for native positions, HP, notes and inventory; branch order is source-derived (runtime branch not observed); no rescue claimed",
+  "classification": "retreat/re-approach loop under worm-mass flight; owner's verified manual branch kills the mold in one blow and survives; source-checked mechanisms; no reusable original-C defect established",
+  "confidence": "High for native positions, notes, inventory and the verified manual alternative; branch order source-derived; manual line is not a population claim",
   "cause_category": "poison after monster melee",
   "overall_assessment": "overall-assessment.md",
   "original_autoexport_record_sha256": "24e8557204b88537f97cb95b2e49d002ca20212d4e4f9ceae0d548db3581a3b8",
@@ -16,6 +16,16 @@
         "emergency-flow-cache",
         "heal-eligibility",
         "identification-priority"
+      ]
+    },
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/325",
+      "summary": "Chat 2026-11-08: played the same seed from 27525 with play-from-replay, killed the mold with one hit, then the worms; the paladin got scared without reason.",
+      "status": "processed; manual branch VERIFIED and recorded; scary rule tracked in 327",
+      "actions": [
+        "worm-scary-rule",
+        "mold-retreat-loop"
       ]
     }
   ],
@@ -47,6 +57,14 @@
     {
       "status": "source-checked",
       "summary": "Caution calls borg_heal only when not fleeing; the poison-emergency unknown-potion fallback lives inside borg_heal; the final unknown-use fallback requires MAXSP 0 (Paladin had 3)."
+    },
+    {
+      "status": "verified saved manual diagnostic alternative",
+      "summary": "Owner branch 20261108T224344Z from 27526: one blow destroys the mold at HP17, rest to full, two worm masses killed, saved alive 28253 CL2 HP17; complete rerun VERIFIED."
+    },
+    {
+      "status": "source-checked",
+      "summary": "Scary scan sets level-wide flight when tracked white/green worm masses or giant white mice >= CLEVEL (two at CL2), while borg_check_breeders only starts leaving at MIN(CL+2,5)=4. Worm masses here: speed 100, 10HP, 1d2 poison."
     }
   ],
   "actions": [
@@ -55,6 +73,12 @@
       "issue": "https://github.com/diegoami/better-borg-c/issues/324",
       "summary": "Observe caution retreat versus attack at adjacent decisions 27517/27537 and the flee-to-stairs re-approach; compare D0008 order",
       "status": "needs evidence; recurs with FLOWCACHE-404 carried; no gameplay change"
+    },
+    {
+      "key": "worm-scary-rule",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/327",
+      "summary": "Measure low-level worm-mass scary triggers and compare with the breeder caution threshold",
+      "status": "needs evidence; owner manual branch verified; no gameplay change"
     },
     {
       "key": "emergency-flow-cache",
