@@ -1360,6 +1360,42 @@
    "verification": "docs/measurement/PAINMSG-197.md",
    "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate at the applied tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "TROLLSWAP-201",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/289",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/201",
+   "source_head": "4fe83bc81a2208e76481e09fa66a66481052cd44",
+   "source_commits": [
+    "4fe83bc81a2208e76481e09fa66a66481052cd44"
+   ],
+   "applied_commits": [
+    "288556d2bb20add9718b9d4a33c457b68a3d5e91"
+   ],
+   "patch": "patches/0073-troll-slay-real-multiplier.patch",
+   "patch_active": true,
+   "evidence_ref": "2f3a73f374746a9de0677184128520af52f34f0b",
+   "verification": "docs/measurement/TROLLSWAP-201.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge"
+  },
+  {
+   "id": "DROPHOLE-136",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/290",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/136",
+   "source_head": "ca904787777ca8fed7e113f52f1a6ae4fa02daeb",
+   "source_commits": [
+    "ca904787777ca8fed7e113f52f1a6ae4fa02daeb"
+   ],
+   "applied_commits": [
+    "6e1858a7115bcf898f7f172f13498d1060ffe90c"
+   ],
+   "patch": "patches/0074-drop-hold-equal-comparisons.patch",
+   "patch_active": true,
+   "evidence_ref": "ac57d5169f76bcaaf184df9a8c7595681145e94e",
+   "verification": "docs/measurement/DROPHOLE-136.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge"
   }
  ]
 }

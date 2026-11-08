@@ -1,0 +1,119 @@
+From 6e1858a7115bcf898f7f172f13498d1060ffe90c Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 12:49:09 +0000
+Subject: [PATCH] Borg: compare with == in the "don't crush cool stuff" drop
+ checks
+
+When the pack is full, borg_drop_hole() picks the item whose loss
+costs least.  Above character level 35 it gives a few "cool" rods,
+staffs, wands, scrolls and potions a large value so they are kept.
+Those checks were written as "sval != A || sval != B || ...", which is
+true for every item, so every aware rod, wand and potion was valued at
+300000 and every scroll at 30000, and the cheaper branches were never
+used.
+
+So a level-40 borg with a full pack kept a worthless Potion of Salt
+Water and dropped a spare Amulet of ESP (25000 gold) instead.
+
+Test the listed svals with == so only the named items get the
+protective value; the staff test keeps its existing conditions on how
+many such staffs or charges remain.
+
+Tracked as diegoami/neo-angband-tracker#136.
+
+(cherry picked from commit ca904787777ca8fed7e113f52f1a6ae4fa02daeb)
+---
+ src/borg/borg-junk.c | 48 ++++++++++++++++++++++----------------------
+ 1 file changed, 24 insertions(+), 24 deletions(-)
+
+diff --git a/src/borg/borg-junk.c b/src/borg/borg-junk.c
+index 23329f0d5..158df4164 100644
+--- a/src/borg/borg-junk.c
++++ b/src/borg/borg-junk.c
+@@ -727,11 +727,11 @@ bool borg_drop_hole(bool desperate)
+ 
+             case TV_ROD:
+                 /* BIG HACK! don't crush cool stuff. */
+-                if ((item->sval != sv_rod_drain_life)
+-                    || (item->sval != sv_rod_acid_ball)
+-                    || (item->sval != sv_rod_elec_ball)
+-                    || (item->sval != sv_rod_fire_ball)
+-                    || (item->sval != sv_rod_cold_ball))
++                if ((item->sval == sv_rod_drain_life)
++                    || (item->sval == sv_rod_acid_ball)
++                    || (item->sval == sv_rod_elec_ball)
++                    || (item->sval == sv_rod_fire_ball)
++                    || (item->sval == sv_rod_cold_ball))
+                     value = (item->iqty * (300000L)); /* value at 30k */
+                 else
+                     value = (item->iqty * value);
+@@ -739,11 +739,11 @@ bool borg_drop_hole(bool desperate)
+ 
+             case TV_STAFF:
+                 /* BIG HACK! don't crush cool stuff. */
+-                if (item->sval != sv_staff_dispel_evil
+-                    || ((item->sval != sv_staff_power
+-                            || item->sval != sv_staff_holiness)
++                if (item->sval == sv_staff_dispel_evil
++                    || ((item->sval == sv_staff_power
++                            || item->sval == sv_staff_holiness)
+                         && borg.trait[BI_GOOD_S_CHG] < 2)
+-                    || (item->sval != sv_staff_destruction
++                    || (item->sval == sv_staff_destruction
+                         && borg.trait[BI_ASTFDEST] < 2))
+                     value = (item->iqty * (300000L)); /* value at 30k */
+                 else
+@@ -752,15 +752,15 @@ bool borg_drop_hole(bool desperate)
+ 
+             case TV_WAND:
+                 /* BIG HACK! don't crush cool stuff. */
+-                if ((item->sval != sv_wand_drain_life)
+-                    || (item->sval != sv_wand_teleport_away)
+-                    || (item->sval != sv_wand_acid_ball)
+-                    || (item->sval != sv_wand_elec_ball)
+-                    || (item->sval != sv_wand_fire_ball)
+-                    || (item->sval != sv_wand_cold_ball)
+-                    || (item->sval != sv_wand_annihilation)
+-                    || (item->sval != sv_wand_dragon_fire)
+-                    || (item->sval != sv_wand_dragon_cold))
++                if ((item->sval == sv_wand_drain_life)
++                    || (item->sval == sv_wand_teleport_away)
++                    || (item->sval == sv_wand_acid_ball)
++                    || (item->sval == sv_wand_elec_ball)
++                    || (item->sval == sv_wand_fire_ball)
++                    || (item->sval == sv_wand_cold_ball)
++                    || (item->sval == sv_wand_annihilation)
++                    || (item->sval == sv_wand_dragon_fire)
++                    || (item->sval == sv_wand_dragon_cold))
+                     value = (item->iqty * (300000L)); /* value at 30k */
+                 else
+                     value = (item->iqty * (value / 2));
+@@ -768,8 +768,8 @@ bool borg_drop_hole(bool desperate)
+ 
+             /* scrolls and potions crush easy */
+             case TV_SCROLL:
+-                if ((item->sval != sv_scroll_protection_from_evil)
+-                    || (item->sval != sv_scroll_rune_of_protection))
++                if ((item->sval == sv_scroll_protection_from_evil)
++                    || (item->sval == sv_scroll_rune_of_protection))
+                     value = (item->iqty * (30000L));
+                 else
+                     value = (item->iqty * (value / 10));
+@@ -778,10 +778,10 @@ bool borg_drop_hole(bool desperate)
+             case TV_POTION:
+                 /* BIG HACK! don't crush heal/mana potions.  It could be */
+                 /* that we are in town and are collecting them. */
+-                if ((item->sval != sv_potion_healing)
+-                    || (item->sval != sv_potion_star_healing)
+-                    || (item->sval != sv_potion_life)
+-                    || (item->sval != sv_potion_restore_mana))
++                if ((item->sval == sv_potion_healing)
++                    || (item->sval == sv_potion_star_healing)
++                    || (item->sval == sv_potion_life)
++                    || (item->sval == sv_potion_restore_mana))
+                     value = (item->iqty * (300000L)); /* value at 30k */
+                 else
+                     value = (item->iqty * (value / 10));
+-- 
+2.53.0
+

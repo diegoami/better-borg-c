@@ -1,0 +1,41 @@
+From 288556d2bb20add9718b9d4a33c457b68a3d5e91 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 15:00:58 +0100
+Subject: [PATCH] Borg: value a swap weapon's troll slay by its real multiplier
+
+borg_notice_weapon_swap() rewards a swap weapon's slays in two halves.
+For Slay Troll the first half added (dam * 2) / 2, a fixed multiplier of
+2, where every other slay uses the weapon's own multiplier.  The second
+half already used the real multiplier, so a Slay Troll (x3) weapon was
+valued at 2.5 times the base damage while an otherwise identical Slay Orc
+(x3) weapon got 3 times.
+
+That undervaluation can make the borg pick a different spare weapon as
+its swap, which in turn decides which spare weapon it keeps and which it
+offers for sale.
+
+Use weapon_swap_slay_troll in the first half as well.
+
+Tracked as diegoami/neo-angband-tracker#201.
+
+(cherry picked from commit 4fe83bc81a2208e76481e09fa66a66481052cd44)
+---
+ src/borg/borg-trait-swap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-trait-swap.c b/src/borg/borg-trait-swap.c
+index b629dbebc..26ceae17e 100644
+--- a/src/borg/borg-trait-swap.c
++++ b/src/borg/borg-trait-swap.c
+@@ -404,7 +404,7 @@ void borg_notice_weapon_swap(void)
+             if (!borg.trait[BI_WS_ORC] && weapon_swap_slay_orc)
+                 v += (dam * weapon_swap_slay_orc) / 2;
+             if (!borg.trait[BI_WS_TROLL] && weapon_swap_slay_troll)
+-                v += (dam * 2) / 2;
++                v += (dam * weapon_swap_slay_troll) / 2;
+ 
+             if (!borg.trait[BI_WS_UNDEAD] && weapon_swap_slay_undead)
+                 v += (dam * weapon_swap_slay_undead) / 2;
+-- 
+2.53.0
+
