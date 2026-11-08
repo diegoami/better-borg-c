@@ -16,8 +16,9 @@
         "weapon-swap",
         "climb-restock",
         "recall-deep-descent",
-        "identification-policy",
-        "survival-stock"
+        "identification-priority",
+        "survival-stock",
+        "theft-danger-weight"
       ]
     }
   ],
