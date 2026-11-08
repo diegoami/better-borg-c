@@ -1,0 +1,37 @@
+From 8a604133a62c97ce00a9c0c5faf0d575357cf5d3 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 07:07:30 +0000
+Subject: [PATCH] Borg: compare current mana with the maximum while waiting for
+ recall
+
+When the borg is waiting for Word of Recall in danger, borg_caution()
+first restores mana if a caster with more than 60 maximum mana is below
+a quarter of it, so it can cast its escapes.  The test compared the
+current mana with a quarter of itself (BI_CURSP < BI_CURSP / 4), which
+is never true, so this step never ran.
+
+Compare with a quarter of the maximum mana (BI_MAXSP).
+
+Tracked as diegoami/neo-angband-tracker#157.
+
+(cherry picked from commit 57d0df0633d12064602993f39fe6a5ee5f62524c)
+---
+ src/borg/borg-caution.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-caution.c b/src/borg/borg-caution.c
+index 31aee65cd..7cc354e76 100644
+--- a/src/borg/borg-caution.c
++++ b/src/borg/borg-caution.c
+@@ -1983,7 +1983,7 @@ bool borg_caution(void)
+     if (borg.goal.recalling && (pos_danger > borg.avoidance * 2)) {
+         if (!borg.trait[BI_ISCONFUSED] && !borg.trait[BI_ISBLIND]
+             && borg.trait[BI_MAXSP] > 60
+-            && borg.trait[BI_CURSP] < (borg.trait[BI_CURSP] / 4)
++            && borg.trait[BI_CURSP] < (borg.trait[BI_MAXSP] / 4)
+             && (borg_quaff_potion(sv_potion_restore_mana)
+                 || borg_activate_item(act_restore_mana))) {
+             borg_note("# Buying time waiting for Recall.(1)");
+-- 
+2.53.0
+

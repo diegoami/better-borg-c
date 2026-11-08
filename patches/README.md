@@ -297,3 +297,9 @@ owner decision on the source issue): the condition was inverted relative to its
 comment. Three-mode fixture flips the ordinary case (no flee to flee) and the
 Morgoth case (flee to no flee); the hurt control is byte-identical. Behaviour-
 active: v1 seed 29 diverges and later dies; recorded as observed, no claim.
+
+The fifty-fourth carry compares current mana with the maximum in the recall-wait
+mana branch (consumer #250, adopting source157): the old test compared current mana
+with itself and never fired. The unchanged source fixture stays red on the layered
+product because patch 0053 flees first; an adapted one-line fixture (Morgoth-ready)
+proves fail-before/pass-after (restore 0 to 1) and the interaction is asserted.
