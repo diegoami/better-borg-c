@@ -19,7 +19,7 @@ Dossiers: 12; distinct starting conditions: 9; recorded death process attempts: 
 | [D0009](D0009-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `1cd426af4848` | 2817460426 | starvation | 218620 | verified starvation/resource-return failure; original-C quiver-capacity pickup defect reported as source419 |
 | [D0010](D0010-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `1cd426af4848` | 2060687716 | a kobold | 6309 | verified retreat/archery opportunity investigation; no reusable gameplay defect established |
 | [D0011](D0011-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/322) | `867c777845fd` | 1907608236 | a griffon | 119600 | escape/equipment/healing-policy investigation; three source-checked mechanisms with native evidence; no reusable original-C defect established |
-| [D0012](D0012-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/325) | `867c777845fd` | 1907608237 | poison | 27770 | retreat/re-approach loop and fleeing-mode healing investigation; source-checked mechanisms with native position evidence; no reusable original-C defect established |
+| [D0012](D0012-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/325) | `867c777845fd` | 1907608237 | poison | 27770 | retreat/re-approach loop under worm-mass flight; owner's verified manual branch kills the mold in one blow and survives; source-checked mechanisms; no reusable original-C defect established |
 
 ## Aggregated actions
 
@@ -58,6 +58,7 @@ Dossiers: 12; distinct starting conditions: 9; recorded death process attempts: 
 - [Observe borg_power/BI_BLOWS for Dagger vs Maul at 118611; assess depth-tied unidentified-weapon bonus and the CL<=10 blows bonus](https://github.com/diegoami/better-borg-c/issues/320) — needs evidence; source-derived cause; cases D0011.
 - [Classify every level change 55624-118552 and the no-known-up-stair fallback; compare D0009/235 and 159](https://github.com/diegoami/better-borg-c/issues/321) — needs evidence; cases D0011.
 - [Observe caution retreat versus attack at adjacent decisions 27517/27537 and the flee-to-stairs re-approach; compare D0008 order](https://github.com/diegoami/better-borg-c/issues/324) — needs evidence; recurs with FLOWCACHE-404 carried; no gameplay change; cases D0012.
+- [Measure low-level worm-mass scary triggers and compare with the breeder caution threshold](https://github.com/diegoami/better-borg-c/issues/327) — needs evidence; owner manual branch verified; no gameplay change; cases D0012.
 
 Recurring mechanisms are grouped by canonical issue, not by number of replays. Investigations are hypotheses until native causal proof; original-C bugs route to neo-angband-tracker before source fix and consumer carry.
 
