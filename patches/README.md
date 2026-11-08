@@ -357,3 +357,9 @@ The seventy-fifth carry keeps the skip count across the best-equipment search (c
 The seventy-sixth carry starts the spare lantern scan at the first lantern (consumer #296, adopting source90/CBUG-0074): with no flask of oil the refuel scan started at borg_slot, which returns the last lantern; an empty or Everburning last lantern ended the scan, so a fueled spare earlier in the pack was never used and the wielded lantern ran dry. The scan walks the pack from slot 0 now; the single-lantern control is byte-identical.
 
 The seventy-seventh carry counts Banishment scrolls in the home score (consumer #298, adopting source54/CBUG-0038): the scroll scan only counted Mass Banishment, so the num_genocide home reward was always zero and the Borg never kept a Banishment scroll in the home. Banishment is counted now; the Mass Banishment control is byte-identical.
+
+The seventy-eighth carry tests current hit points, not the item count, before banishing with the artifact (consumer #305, adopting source37): the artifact defence could banish while too hurt to afford it or skip when healthy. The hurt control is byte-identical.
+
+The seventy-ninth carry keeps the multiplier-kill timer when checking whether to rest (consumer #306, adopting source149): on the same turn as a multiplier kill the borg rested one turn it should not have. The recent control is byte-identical.
+
+The eightieth carry avoids every shop entrance that is not the goal shop (consumer #307, adopting source125): the avoidance covered only one layout case and the borg could step onto another shop while passing it. The offrow control is byte-identical.
