@@ -333,3 +333,7 @@ now applies unconditionally. Fixture: one power-dive note to none. v1 traces ide
 The sixty-second carry starts the Resist Poison potion reward loop from zero (consumer #266, adopting source184): a stale counter left by the food loop lost the reward with low food (900 to 0). Fixture apples 0 to 900, rations byte-identical.
 
 The sixty-third carry counts a warrior's Resist Poison potions from zero (consumer #267, adopting source185): the loop continued the Resist Cold count (900 instead of 2400). Fixture cold 900 to 2400, plain byte-identical.
+
+The sixty-fourth carry runs the spastic-search reverse flow unoptimized (consumer #268, adopting source146): the optimized spread stopped at the Borg's own grid and never produced a move. Fixture middle and corner: moved 0 to 1; far control byte-identical.
+
+The sixty-fifth carry runs the Sea of Runes reverse flow unoptimized (consumer #269, adopting source345): the optimized spread stopped at an existing centre rune and never selected outlying runes. Fixture center: progress 0 to 1; offcenter control byte-identical. With 0064 the v1 seed-47 death of 0056 does not occur (pair measurement).

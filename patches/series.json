@@ -1206,6 +1206,42 @@
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
    "verification_status": "merged; verified stepwise on the unchanged source fixture; native gate on the stacked tip; carried/open+patch-active",
    "merge_commit": "b3c825c97c8aef18b252a7fb7d9b7dceef83d586"
+  },
+  {
+   "id": "CBUG-0130",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/268",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/146",
+   "source_head": "f97311e5d52de4dda8d75058114c52acbdac2674",
+   "source_commits": [
+    "f97311e5d52de4dda8d75058114c52acbdac2674"
+   ],
+   "applied_commits": [
+    "dafc4bd45c5cc45fa0a435ced1a956512fbdcafc"
+   ],
+   "patch": "patches/0064-spastic-reverse-flow-unoptimized.patch",
+   "patch_active": true,
+   "evidence_ref": "da9a39f4da3005dc24feeba4ae6b8e0bfe67475e",
+   "verification": "docs/measurement/REVERSE-FLOW.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 cohort measured on the pair; carried/open+patch-active after merge"
+  },
+  {
+   "id": "GLYPHFLOW-345",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/269",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/345",
+   "source_head": "f618381294dcf5bff1f0bc95f0fbe259412a53b9",
+   "source_commits": [
+    "f618381294dcf5bff1f0bc95f0fbe259412a53b9"
+   ],
+   "applied_commits": [
+    "e66b1dca298523c84a8a7a0d9ae009ddf6562b10"
+   ],
+   "patch": "patches/0065-glyph-reverse-flow-unoptimized.patch",
+   "patch_active": true,
+   "evidence_ref": "fbe06401c54c4e701ea20a9e3c7aec48f849c30b",
+   "verification": "docs/measurement/REVERSE-FLOW.md",
+   "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 cohort measured on the pair; carried/open+patch-active after merge"
   }
  ]
 }
