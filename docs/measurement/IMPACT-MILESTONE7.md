@@ -17,7 +17,9 @@ prior-fixture regression matrix is committed as a tool (`tools/regression-matrix
 verification contract item 5 and `docs/measurement/impact-v7/regression-summary.json`). On the
 frozen v1 cohort, seed 47 — dead to a
 cave spider at the v6 tip — is **alive at the cap in the v7 lineage** (all three seeds alive:
-hp 28/49/58); the per-patch chain attributes the repair to the 0064/0065 reverse-flow pair, and
+hp 28/49/58); the pair's own cohort run shows seed 47 alive immediately after the
+0064/0065 reverse-flow pair (measured as a unit; no attribution to one patch within the
+pair), and
 0071 (pain messages) is the milestone's one other behavior-active carry (seeds 11/29 diverge,
 alive at cap). Three fixed seeds are not statistics and no survival or progress claim is made
 either way.
@@ -30,7 +32,7 @@ either way.
 | 0065 glyph-revflow | [345](https://github.com/diegoami/neo-angband-tracker/issues/345) `f61838129` | `e66b1dca2` | `8d0d0cd8b` (PR 276) | #269 | `fbe06401c5` | `REVERSE-FLOW.md` |
 | 0066 swap-acid | [199](https://github.com/diegoami/neo-angband-tracker/issues/199) `eddbf5b82` | `91f075bdc` | `0d4bd9e26` (PR 281) | #270 | `9eca003a58` | `SWAP-ACID.md` |
 | 0067 staircycle | [403](https://github.com/diegoami/neo-angband-tracker/issues/403) `d92e06c3f` | `bd9a36def` | `0d4bd9e26` (PR 281) | #280 | `43dee40ed0` | `STAIR-CYCLE-POISON.md` |
-| 0068 text-bufsize (correction to 0118) | [287](https://github.com/diegoami/neo-angband-tracker/issues/287) `e7f670fa4` | `60034c84c` | `72dd1c8a3` (PR 284) | #93 | `e41f4c99eb` | `TEXT-BUFSIZE.md` |
+| 0068 text-bufsize (correction to patch 0025) | [287](https://github.com/diegoami/neo-angband-tracker/issues/287) `e7f670fa4` | `60034c84c` | `72dd1c8a3` (PR 284) | #93 | `e41f4c99eb` | `TEXT-BUFSIZE.md` |
 | 0069 glow-isglow (correction to 0050) | [213](https://github.com/diegoami/neo-angband-tracker/issues/213) `c316a65b2` | `b5e07827a` | `47be91c95` (PR 285) | #224 | `f2b402c92c` | `GLOW-ISGLOW.md` |
 | 0070 iswarded | [198](https://github.com/diegoami/neo-angband-tracker/issues/198) `62242ac26` | `ecfea5064` | `53c17b06c` (PR 291) | #286 | `5454144a62` | `ISWARDED-198.md` |
 | 0071 painmsg | [197](https://github.com/diegoami/neo-angband-tracker/issues/197) `8a0c13f71` | `1e0031455` | `6002bfa4b` (PR 292) | #287 | `ffb74e54ad` | `PAINMSG-197.md` |
@@ -41,7 +43,7 @@ either way.
 | 0077 homebanish | [54](https://github.com/diegoami/neo-angband-tracker/issues/54) `e49ab9480` | `6373f9b8a` | `3573d741e` (PR 299) | #298 | `e24fa8ccab` | `HOMEBANISH-54.md` |
 
 Every carry is a `cherry-pick -x` of one reviewed C-only source commit; the two corrections are
-owner-decided amendments to already-carried patches (0118 and 0050), not new sources. The 0064/0065
+owner-decided amendments to already-carried patches (0025 and 0050), not new sources. The 0064/0065
 pair and the 0066/0067 pair each merged from one stacked branch; 0073/0074 likewise (PR 293, two
 steps with per-step before-build snapshots and step gates). No owner decision comment was found on
 the new source issues, so the carries ran under the standing owner rule (RULES 13: merge verified
@@ -50,13 +52,16 @@ PRs after agent evidence review); 0068/0069 corrected owner-flagged rows.
 ## Verification contract (what is and is not the same as milestone 6)
 
 1. **Unchanged source fixture, fail-before/pass-after on the observable, byte-identical
-   controls.** Runtime fixtures are asserted byte-identical to each kit's run pin. **One
-   AddressSanitizer phase ran in this milestone**, for 0070 (iswarded-198): the defect is a
-   heap-buffer-overflow READ (out-of-level `square_istrap`), observable only with assertions off,
-   so the ASan phases use NDEBUG like the source kit while the normal phases keep assertions and
-   abort with SIGABRT. The ASan sites recorded on the product (`borg-messages.c:1192`/`:629`) are
-   the source kit's sites (`:1188`/`:625`) shifted by the consumer's carried hunks. No other carry
-   in this milestone ran an ASan phase; none of the other defects is a memory error.
+   controls.** Runtime fixtures are asserted byte-identical to each kit's run pin. **Two
+   AddressSanitizer phases ran in this milestone**: for 0068 (text-bufsize — the wide case
+   reports the stack-buffer-overflow WRITE the correction bounds, `TEXT-BUFSIZE.md`) and
+   for 0070 (iswarded-198): the 0070 defect is a heap-buffer-overflow READ (out-of-level
+   `square_istrap`), observable only with assertions off, so both carries' ASan phases use
+   NDEBUG like the source kits while the normal phases keep assertions and abort with
+   SIGABRT (0070) or report the overflow (0068). The 0070 ASan sites recorded on the
+   product (`borg-messages.c:1192`/`:629`) are the source kit's sites (`:1188`/`:625`)
+   shifted by the consumer's carried hunks. No other carry in this milestone ran an ASan
+   phase; none of the other defects is a memory error.
 2. **Rows equal the source's recorded rows value for value** for every carry (including the
    `puff` mode of painmsg-197, which keeps failing in both phases by the kit's own contract, and
    wearskip-85's `nocloak`, which stays 2-action in both phases). No adapted fixture was needed
@@ -80,7 +85,7 @@ PRs after agent evidence review); 0068/0069 corrected owner-flagged rows.
    losdispel correction made reachable moved their absolute values — reproduced exactly, -10627 →
    -10331 and -127 → 169), recallmana-157 `lowmana` stays red with `halfmana` green and
    `restore_mana=0` in both (the 0053 flee interaction, exactly as `verify-recallmana` records
-   it). The 0118-era text-multibyte fixture is retired in the matrix: its scenario targets the
+   it). The 0025-era text-multibyte fixture is retired in the matrix: its scenario targets the
    pre-0068 five-argument `borg_what_text` signature and no longer compiles against the tip; the
    text-bufsize kit (0068) covers the same path and is run in its place. The rerun surfaced one
    absolute-count shift, investigated and declared rather than waved through: knockout/paralysis
@@ -124,10 +129,12 @@ lineage):
 | 47 | **death by a cave spider, turn 11780** | **alive at cap** (hp 58, depth 1) | diverge |
 
 **Three of three seeds are alive at the v7 tip against two of three at v6.** The repair of seed 47
-is attributed by the per-patch chain to the 0064/0065 reverse-flow pair (seed 47 is alive
-immediately after it and stays alive); 0071 changes seeds 11/29's traces (behavior-active, alive
-at the cap). The attribution is to the pair's contribution on the v6 trajectory, not to either
-patch in isolation; three fixed seeds are not statistics, and no survival, progress or population
+is located by the per-patch sequence to the 0064/0065 reverse-flow pair, measured as a unit: the
+pair's cohort run shows seed 47 alive immediately after it and staying alive through the rest of
+the chain; no 0064-only cohort step exists, so no attribution to one patch within the pair is
+made (the pair's receipts say the same). 0071 changes seeds 11/29's traces (behavior-active,
+alive at the cap). The location is on the v6 trajectory, not an isolation claim for either
+patch; three fixed seeds are not statistics, and no survival, progress or population
 claim is made in either direction. The cohort lineage restarts at the v7 tip.
 
 ## Exclusions and pending items (checked, not counted)
@@ -157,13 +164,42 @@ with the fixture source, and the recallmana declaration first written `fail_all`
 to the verifier-recorded state (`lowmana` red, `halfmana` green, `restore_mana=0` in both) after
 the first run reproduced the committed standing state; (3) two earlier matrix launches aborted
 mid-run before any result was recorded — one at the per-spell baseline log naming
-(`both-after-*.log`), one at the retired 0118-era text-multibyte fixture (see contract item 5);
+(`both-after-*.log`), one at the retired 0025-era text-multibyte fixture (see contract item 5);
 the relaunched run is the official one. Per-carry harness corrections are
 disclosed in their own verifier commits and docs (0070: NDEBUG ASan phases, SIGABRT-scoped exit
 check, frame-index-free site extraction; 0071: the `puff` keep-failing contract; 0073/0074:
 stacked-PR scope check and `floor_items` expectation). Per-carry evidence archives under
 `artifacts/` are ignored by Git and kept locally; every consumer issue records pins, commands,
 output and limits.
+
+## Review and triage (issue #301)
+
+The milestone 7 review (posted 2026-11-08T19:10:41Z, comment 6725829353) re-executed the gate at
+the tip in its own build, reran the **full matrix in its own build (75 groups / 225 cases, 0
+failures, 0 differences vs the committed summary including every log SHA256)**, re-ran 9 of 13
+carry verifiers to `verified: true` (0068-0077, including 0070's ASan phases), took 0064-0067
+through the kit path at their evidence pins with fail-before reproduced from a fresh pre-carry
+build (`afdd7921d`), `git apply --check`ed all 13 patch files and reproduced each applied commit's
+tree byte-for-byte, made 50 product-vs-kit log comparisons (0 mismatches), and confirmed the
+knockout attribution independently. **Verdict: approve, with corrections.**
+
+| ID | Severity | Disposition |
+| --- | --- | --- |
+| M7-01 | minor-to-major | **Applied**: two ASan phases ran this milestone (0068 and 0070), not one; contract item 1 corrected. |
+| M7-02 | minor-to-major | **Applied**: the pair was measured as a unit; the per-patch-attribution wording is replaced by the pair-level measurement statement (headline, cohort section, cumulative paragraph). |
+| M7-03 | minor | **Applied**: series.json has **76** entries (13 units this milestone; 0072 never entered); the authoring session's checkpoint receipt on issue 1 said 77 — corrected here and on the processing receipt. |
+| M7-04 | minor | **Applied**: `merge_commit` added to the 11 entries 0066-0077 (ledger field was missing; the doc's table was already right). |
+| M7-05 | minor | **Applied**: `carried` + `patch-active` labels added to the seven carry consumer issues (#286 #287 #289 #290 #294 #296 #298); `not-carried` added to the deferral #288. |
+| M7-06 | minor | **Applied**: the correction target is source #287 / patch **0025** (0118 is an unrelated glyph bug); fixed in the intro, the unit table, the provenance paragraph and both matrix mentions. |
+| M7-07 | observation | None needed: deferral technically sound. |
+| M7-08 | observation | None needed: scope clean. |
+| M7-09 | observation | None needed: matrix arithmetic exact. |
+| M7-10 | observation | None needed: knockout attribution confirmed independently. |
+
+**Condition before tagging:** M7-01/02/03/06 corrected in this document and the issue body
+(done), M7-04/05 brought up to date (done) — and the annotated tag placed on the runtime
+snapshot `3573d741e` (not the docs commit) with a message recording that the full matrix was
+rerun. The tag itself is the owner's action.
 
 ## Tag
 

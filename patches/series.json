@@ -1269,7 +1269,8 @@
    "evidence_ref": "9eca003a5896403b9810806b4fc656446a34cf9a",
    "verification": "docs/measurement/SWAP-ACID.md",
    "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 traces identical; carried/open+patch-active after merge"
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 traces identical; carried/open+patch-active after merge",
+   "merge_commit": "0d4bd9e26c369d4041370c21af16db9ea84706cf"
   },
   {
    "id": "STAIRCYCLE-403",
@@ -1287,7 +1288,8 @@
    "evidence_ref": "43dee40ed05284848f3df25aa5abf19a7f776c7f",
    "verification": "docs/measurement/STAIR-CYCLE-POISON.md",
    "credit": "Diego Amicabile (zoo-reported, native validation/proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 traces identical; carried/open+patch-active after merge"
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the stacked tip; v1 traces identical; carried/open+patch-active after merge",
+   "merge_commit": "0d4bd9e26c369d4041370c21af16db9ea84706cf"
   },
   {
    "id": "TEXT-287-BUFSIZE",
@@ -1305,7 +1307,8 @@
    "evidence_ref": "e41f4c99eb39f676e47fe5ab5c06a0ed3056c5c5",
    "verification": "docs/measurement/TEXT-BUFSIZE.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
-   "verification_status": "verified stepwise on the revised source fixture; native gate on the tip; carried/open+patch-active after merge"
+   "verification_status": "verified stepwise on the revised source fixture; native gate on the tip; carried/open+patch-active after merge",
+   "merge_commit": "72dd1c8a366a924b3f2f90c3a966c8aa6d6d75fa"
   },
   {
    "id": "GLOWISGLOW-213",
@@ -1323,7 +1326,8 @@
    "evidence_ref": "f2b402c92ce57cc85d9fda777de901c2f157c720",
    "verification": "docs/measurement/GLOW-ISGLOW.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
-   "verification_status": "verified stepwise on the revised source fixture; native gate on the tip; carried/open+patch-active after merge"
+   "verification_status": "verified stepwise on the revised source fixture; native gate on the tip; carried/open+patch-active after merge",
+   "merge_commit": "47be91c95b471aae5dc1de8bca9bb2942ae769d7"
   },
   {
    "id": "ISWARDED-198",
@@ -1341,7 +1345,8 @@
    "evidence_ref": "5454144a624ef51ec68cbd37e8291b45d10d865d",
    "verification": "docs/measurement/ISWARDED-198.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge"
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge",
+   "merge_commit": "53c17b06c863a7bb3e81675398f33eb2a346e933"
   },
   {
    "id": "PAINMSG-197",
@@ -1359,7 +1364,8 @@
    "evidence_ref": "ffb74e54ad2ccf6a88e38c174322d04814bb3748",
    "verification": "docs/measurement/PAINMSG-197.md",
    "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate at the applied tip; carried/open+patch-active after merge"
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at the applied tip; carried/open+patch-active after merge",
+   "merge_commit": "6002bfa4b77c1c39cd6a00045d80e8d68205b337"
   },
   {
    "id": "TROLLSWAP-201",
@@ -1377,7 +1383,8 @@
    "evidence_ref": "2f3a73f374746a9de0677184128520af52f34f0b",
    "verification": "docs/measurement/TROLLSWAP-201.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge"
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge",
+   "merge_commit": "3e50961cd9e0327f5b52855ae43d905b23ae2789"
   },
   {
    "id": "DROPHOLE-136",
@@ -1395,7 +1402,8 @@
    "evidence_ref": "ac57d5169f76bcaaf184df9a8c7595681145e94e",
    "verification": "docs/measurement/DROPHOLE-136.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge"
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at each stacked step; carried/open+patch-active after merge",
+   "merge_commit": "3e50961cd9e0327f5b52855ae43d905b23ae2789"
   },
   {
    "id": "WEARSKIP-85",
@@ -1413,7 +1421,8 @@
    "evidence_ref": "3735a7e72849aa4fa95ddade1458fb27a95be866",
    "verification": "docs/measurement/WEARSKIP-85.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge"
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge",
+   "merge_commit": "f7e489157cdd7e886663335a8da7d12fea96de7c"
   },
   {
    "id": "LANTERN-90",
@@ -1431,7 +1440,8 @@
    "evidence_ref": "8ba3564002fe376a5c5142f1e2079e7704efeb6a",
    "verification": "docs/measurement/LANTERN-90.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge"
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge",
+   "merge_commit": "63979b54bce507ffff5f4659869af7cf5529664d"
   },
   {
    "id": "HOMEBANISH-54",
@@ -1449,7 +1459,8 @@
    "evidence_ref": "e24fa8ccabf7e86219898b7d777868887908c426",
    "verification": "docs/measurement/HOMEBANISH-54.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
-   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge"
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge",
+   "merge_commit": "3573d741e6dc3cafa4099fcef8b38fdb32952977"
   }
  ]
 }
