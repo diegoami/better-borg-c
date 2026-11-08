@@ -1,0 +1,46 @@
+From e66b1dca298523c84a8a7a0d9ae009ddf6562b10 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 06:49:13 +0000
+Subject: [PATCH] Borg: let the Sea of Runes reverse flow reach outlying grids
+
+borg_flow_glyph() maps the distance from the borg to every candidate
+rune grid with a reverse flow, then skips grids that are unreachable or
+75 or more steps away.  It asked for an optimized spread, but the
+reverse flow starts at the borg's own grid with cost 0, and an optimized
+spread stops as soon as the next cost (1) exceeds the origin's cost.  No
+other grid was ever given a cost, so the only candidate the scan could
+see was the borg's own grid.
+
+Once the centre rune is laid and the borg stands on it, that grid is
+excluded from the outlying-rune choice, so the borg found nothing to do
+and the Sea of Runes made no further progress while it stood there.
+
+Spread the reverse flow without optimization, as the helper's own
+comment ('do NOT optimize') intends.
+
+Tracked as diegoami/neo-angband-tracker#345.
+
+(cherry picked from commit f618381294dcf5bff1f0bc95f0fbe259412a53b9)
+---
+ src/borg/borg-flow-glyph.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-flow-glyph.c b/src/borg/borg-flow-glyph.c
+index 5af26cf95..24872cc07 100644
+--- a/src/borg/borg-flow-glyph.c
++++ b/src/borg/borg-flow-glyph.c
+@@ -144,8 +144,9 @@ bool borg_flow_glyph(void)
+         return false;
+     }
+ 
+-    /* Reverse flow */
+-    borg_flow_reverse(250, true, false, false, -1, false);
++    /* Reverse flow, not optimized: it starts at the borg's own grid (cost 0)
++     * and an optimized spread stops before reaching any other grid. */
++    borg_flow_reverse(250, false, false, false, -1, false);
+ 
+     /* Scan the entire map */
+     for (y = 15; y < AUTO_MAX_Y - 15; y++) {
+-- 
+2.53.0
+

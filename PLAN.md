@@ -810,3 +810,9 @@ patch-active pending upstream acceptance/incorporation; source152/156, reaction
 mechanism replacement and other lanes remain separate. No source-repository
 changes/posts. Delivery refreshes the current playable/recording builds; source
 proposal acceptance and prospective survival/progress evaluation remain open.
+
+## Adoption paused (owner instruction 2026-11-08)
+
+The carry loop is stopped. Verified but unmerged reverse-flow pair (sources 146/345, consumers
+268/269) is parked on branch `task/carry-revflow`; see docs/measurement/PAUSED-ADOPTION.md for the
+exact resume steps. Milestone 6 package (issue 273) awaits external review; no impact-v6 tag yet.
