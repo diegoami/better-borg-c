@@ -176,6 +176,7 @@ class Collection(unittest.TestCase):
         code, calls, plan, exports = self.simulate(['wall_timeout'] * 3)
         self.assertEqual((code, calls, exports), (0, [3,4,5], 0))
         self.assertEqual(plan['counts'], {'wall_timeout': 3})
+        self.assertTrue(all(e['report'].endswith('/reports/summary.md') for e in plan['runs']))
         self.assertEqual(plan['status'], 'limits_reached_without_death')
 
     def test_wall_timeout_with_recorded_error_stops(self):
@@ -234,6 +235,19 @@ class CollectionCommands(unittest.TestCase):
             commands = producer.recording_commands(run,result)
             self.assertIn('--view-only',commands['replay_command'])
             self.assertNotIn('manual_play_command',commands)
+
+    def test_reports_mode_backfills_summary_and_index_without_new_collection(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);run,result=self.fixture(root,'incomplete','wall_timeout')
+            (root/'collection.json').write_text(json.dumps({'runs':[{'seed':4,'directory':str(run)}]}))
+            with mock.patch.object(producer.sys,'argv',['produce_death.py','--reports',str(root)]), \
+                 mock.patch.object(producer.workflow,'locked',return_value=nullcontext()), \
+                 mock.patch.object(producer,'choose_build') as build, \
+                 mock.patch.object(producer,'collect') as collect, redirect_stdout(io.StringIO()):
+                self.assertEqual(producer.main(),0)
+                build.assert_not_called();collect.assert_not_called()
+            self.assertTrue((run/'reports/summary.md').is_file())
+            self.assertTrue((root/'reports.md').is_file())
 
     def test_commands_mode_does_not_build_lock_or_start_games(self):
         with tempfile.TemporaryDirectory() as temp:
