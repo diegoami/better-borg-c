@@ -43,6 +43,7 @@ def clean_environment():
 # scalable misc-fixed but no Courier or 10x20 alias.
 FONT_CANDIDATES = (
     '-adobe-courier-medium-r-normal--28-*-*-*-*-*-iso8859-1',
+    '-urw-nimbus mono l-regular-r-normal--28-*-*-*-p-*-iso8859-1',
     '-misc-fixed-medium-r-semicondensed--28-*-*-*-c-*-iso8859-1',
     '-misc-fixed-medium-r-normal--24-*-*-*-c-*-iso8859-1',
     '12x24', '10x20', '9x15', 'fixed',
@@ -60,7 +61,62 @@ def x11_library():
     lib.XLoadQueryFont.restype = ctypes.c_void_p
     lib.XFreeFont.argtypes = [ctypes.c_void_p, ctypes.c_void_p]
     lib.XCloseDisplay.argtypes = [ctypes.c_void_p]
+    lib.XGetFontPath.argtypes = [ctypes.c_void_p, ctypes.POINTER(ctypes.c_int)]
+    lib.XGetFontPath.restype = ctypes.POINTER(ctypes.c_char_p)
+    lib.XFreeFontPath.argtypes = [ctypes.POINTER(ctypes.c_char_p)]
+    lib.XSetFontPath.argtypes = [ctypes.c_void_p, ctypes.POINTER(ctypes.c_char_p), ctypes.c_int]
+    lib.XSetErrorHandler.argtypes = [ctypes.c_void_p]
+    lib.XSetErrorHandler.restype = ctypes.c_void_p
+    lib.XSync.argtypes = [ctypes.c_void_p, ctypes.c_int]
     return lib
+
+
+def load_font(lib, connection, name):
+    font = lib.XLoadQueryFont(connection, name.encode())
+    if not font:
+        return False
+    lib.XFreeFont(connection, font)
+    return True
+
+
+def registered_font(lib, connection, candidates):
+    """Append an installed font path only when it supplies a requested font.
+
+    WSLg accesses the client distro through /mnt/wslg/distro. Preserve every
+    existing path and restore it after unsuccessful attempts. No installation.
+    """
+    count = ctypes.c_int()
+    pointer = lib.XGetFontPath(connection, ctypes.byref(count))
+    if not pointer:
+        return None
+    paths = [pointer[i] for i in range(count.value)]
+    lib.XFreeFontPath(pointer)
+    if not paths:
+        return None
+    errors = []
+    @ctypes.CFUNCTYPE(ctypes.c_int, ctypes.c_void_p, ctypes.c_void_p)
+    def handler(display, event):
+        errors.append(True)
+        return 0
+    previous = lib.XSetErrorHandler(ctypes.cast(handler, ctypes.c_void_p))
+    def set_paths(values):
+        array = (ctypes.c_char_p * len(values))(*values)
+        lib.XSetFontPath(connection, array, len(values))
+        lib.XSync(connection, 0)
+    try:
+        for path in (b'/usr/share/fonts/X11/Type1', b'/mnt/wslg/distro/usr/share/fonts/X11/Type1'):
+            if path in paths:
+                continue
+            errors.clear()
+            set_paths(paths + [path])
+            if not errors:
+                for name in candidates:
+                    if load_font(lib, connection, name):
+                        return name
+            set_paths(paths)
+    finally:
+        lib.XSetErrorHandler(previous)
+    return None
 
 
 def select_x11_font(env):
@@ -72,13 +128,18 @@ def select_x11_font(env):
     if not connection:
         raise ValueError(f'Cannot open X11 display {display}; no replay started')
     requested = env.get('BORG_PLAY_FONT') or env.get('ANGBAND_X11_FONT_0')
-    candidates = (requested,) if requested else FONT_CANDIDATES
+    preferred = (requested,) if requested else FONT_CANDIDATES[:-2]
     try:
-        for name in candidates:
-            font = lib.XLoadQueryFont(connection, name.encode())
-            if font:
-                lib.XFreeFont(connection, font)
+        for name in preferred:
+            if load_font(lib, connection, name):
                 return name
+        name = registered_font(lib, connection, preferred)
+        if name:
+            return name
+        if not requested:
+            for name in FONT_CANDIDATES[-2:]:
+                if load_font(lib, connection, name):
+                    return name
     finally:
         lib.XCloseDisplay(connection)
     if requested:

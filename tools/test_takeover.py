@@ -165,22 +165,22 @@ class TakeoverFonts(unittest.TestCase):
         return lib
 
     def test_readable_misc_fixed_is_tried_before_smaller_aliases(self):
-        fallback=takeover.FONT_CANDIDATES[1]
+        fallback=takeover.FONT_CANDIDATES[2]
         lib=self.library({fallback})
         with mock.patch.object(takeover,'x11_library',return_value=lib):
             self.assertEqual(takeover.select_x11_font({'DISPLAY':':91'}),fallback)
-        self.assertEqual(lib.XLoadQueryFont.call_count,2)
+        self.assertEqual(lib.XLoadQueryFont.call_count,3)
         lib.XFreeFont.assert_called_once_with(11,22)
         lib.XCloseDisplay.assert_called_once_with(11)
 
     def test_minimal_server_with_only_fixed_still_loads(self):
-        lib=self.library({'fixed'})
+        lib=self.library({'fixed'});lib.XGetFontPath.return_value=None
         with mock.patch.object(takeover,'x11_library',return_value=lib):
             self.assertEqual(takeover.select_x11_font({'DISPLAY':':91'}),'fixed')
         lib.XCloseDisplay.assert_called_once_with(11)
 
     def test_explicit_font_is_honored_and_not_silently_replaced(self):
-        lib=self.library({'custom'})
+        lib=self.library({'custom'});lib.XGetFontPath.return_value=None
         with mock.patch.object(takeover,'x11_library',return_value=lib):
             self.assertEqual(takeover.select_x11_font({'DISPLAY':':91','BORG_PLAY_FONT':'custom',
                 'ANGBAND_X11_FONT_0':'other'}),'custom')
@@ -196,6 +196,28 @@ class TakeoverFonts(unittest.TestCase):
              self.assertRaisesRegex(ValueError,'Cannot open'):
             takeover.select_x11_font({'DISPLAY':':91'})
         lib.XLoadQueryFont.assert_not_called()
+
+    def test_installed_readable_font_is_registered_before_small_fallback(self):
+        lib=self.library(set());readable=takeover.FONT_CANDIDATES[1]
+        with mock.patch.object(takeover,'x11_library',return_value=lib), \
+             mock.patch.object(takeover,'registered_font',return_value=readable) as register:
+            self.assertEqual(takeover.select_x11_font({'DISPLAY':':91'}),readable)
+            register.assert_called_once()
+        self.assertNotIn(mock.call(11,b'fixed'),lib.XLoadQueryFont.call_args_list)
+
+    def test_failed_registration_restores_every_original_font_path(self):
+        lib=self.library(set())
+        paths=(takeover.ctypes.c_char_p*1)(b'built-ins')
+        def get(display,count):
+            takeover.ctypes.cast(count,takeover.ctypes.POINTER(takeover.ctypes.c_int))[0]=1
+            return paths
+        lib.XGetFontPath.side_effect=get
+        changes=[]
+        lib.XSetFontPath.side_effect=lambda display,values,n: changes.append([values[i] for i in range(n)])
+        self.assertIsNone(takeover.registered_font(lib,11,('missing',)))
+        self.assertEqual(changes[-1],[b'built-ins'])
+        self.assertEqual(changes[1],[b'built-ins'])
+        lib.XSetErrorHandler.assert_called()
 
     def test_bad_font_prevents_build_or_reconstruction(self):
         record={'status':'complete','build':{'source_commit':'a'*40,'binary_sha256':'b'*64}}
