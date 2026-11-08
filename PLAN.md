@@ -348,6 +348,29 @@ concurrent-session process/tooling context (recording/replay feature and
 death documentation outside the build inputs; tooling 41→71). No external
 verdict is claimed; the owner launches the review.
 
+Consumer224/source213 (glowtrace Floors branch) merged as 5384f12ed
+(PR225, import da9934216, patch 0050): borg_update_map()'s Floors
+branch was dead — the 2023 reorg transcribed FEAT_FLOOR as FEAT_NONE —
+so dark/glow marking never ran; the correction restores the branch and
+reads glow via square_islit() (matching the original CAVE_GLOW). The
+unchanged source evidence fixture verifies glowing floors unflagged
+fail-before / flagged pass-after with the perm-wall control and
+flow-toward-light 0 -> 484 targets; the recorded STATE rows including
+grid info bitfields match the source kit value for value;
+borg-update.c already carries 0039/0046 and the applied diff body is
+byte-identical to the source diff. Gate 965/965 + 5/5, tooling 97/97,
+and all 154 prior matrix cases hold (no prior fixture changed).
+Behavior-active on the v1 cohort: seeds 11/29/47 all turn_cap alive
+and well but whole traces diverge from the pre-glowtrace lineage;
+attribution is clean because the interleaved flowcache carry was
+cohort-neutral (its own recorded v1 before==after on all seeds), so
+the divergence is this carry's — recorded as observed, new cohort
+lineage starts here. Disclosures: first fixture attempt failed on
+stale before-gate bookkeeping (in-tree snapshot overwritten by the
+post-fix chain) and was replaced by a retained before-worktree at
+2f4d62e4f (including the interleaved flowcache carry); retained under
+scenarios-attempt1-stale-before-gate.
+Next: recheck source207 for newer demonstrations.
 Consumer216/source310 (recalldepth endgame answer) merged as b9e64aa85
 (PR218, import 9609e2c86, patch 0048): borg_recall()'s endgame branch
 said "Do reset Depth" in its comment and then answered the recall-depth
