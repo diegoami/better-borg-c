@@ -290,3 +290,10 @@ the reset in `borg_think()` could run; it now performs the same reset and keeps
 playing, with the old check left as a failsafe. The unchanged fixture flips the
 Borg from inactive (clock frozen) to active (clock 1). Not reachable in the
 20000-turn cohort; no survival claim.
+
+The fifty-third carry makes the excessive-danger level flee fire for ordinary
+Borgs instead of only Morgoth-ready ones (consumer #247, adopting source156,
+owner decision on the source issue): the condition was inverted relative to its
+comment. Three-mode fixture flips the ordinary case (no flee to flee) and the
+Morgoth case (flee to no flee); the hurt control is byte-identical. Behaviour-
+active: v1 seed 29 diverges and later dies; recorded as observed, no claim.
