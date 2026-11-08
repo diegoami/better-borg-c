@@ -55,8 +55,8 @@ This is a small regression cohort, not a survival-effect estimate.
 A separate diagnostic uses D0008's original seed1668846659 and random-birth input
 and configuration, cap200000/wall600/stall30. It is an already-observed life,
 not another independent prospective sample. Original C46 build/record/save/movie
-identities and owner review remain immutable. Actual measurement results will
-be recorded before delivery; no claim that this carry fixes every component of
+identities and owner review remain immutable. Actual measurement results are
+recorded below; no claim that this carry fixes every component of
 D0008, establishes a designed escape, or improves population survival.
 
 ## Measured results on this consumer
