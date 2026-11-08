@@ -1,5 +1,5 @@
 {
-  "classification": "escape-order, scary-list flight and stock investigation; source-checked mechanisms with native position evidence; no reusable original-C defect established",
+  "classification": "escape-order, scary-list flight and stock investigation; owner's verified manual branch survives by disengaging from the ant; no reusable original-C defect established",
   "confidence": "High for native positions, notes, messages and inventory; branch order is source-derived; no rescue claimed",
   "cause_category": "monster melee",
   "overall_assessment": "overall-assessment.md",
@@ -10,11 +10,20 @@
       "origin": "owner",
       "comment": "https://github.com/diegoami/better-borg-c/issues/332",
       "summary": "Chat 2026-11-09: CL1 druid walks into a trap at 3497 aggravating everybody; floating eye in front; Phase Door seems overkill, could have gone back; no real threat; kobold at 3651 then an ant corner and kill him. Owner will try from 3651.",
-      "status": "processed; recorded verbatim on 332; findings replied; manual attempt pending",
+      "status": "processed; recorded verbatim on 332; findings replied; manual attempt recorded",
       "actions": [
         "attempted-room-retreat",
         "worm-scary-rule",
         "survival-stock-priority"
+      ]
+    },
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/332",
+      "summary": "Chat 2026-11-09: from 3651 the small kobold was easy, the giant ant was not; dashed for the exit and barely fled to town. Knowing which monsters are too tough is central; the Borg kind of has that knowledge, the game does not show it.",
+      "status": "processed; manual branch VERIFIED and recorded; danger-model versus name-list point added to 327",
+      "actions": [
+        "worm-scary-rule"
       ]
     }
   ],
@@ -42,6 +51,14 @@
     {
       "status": "observed",
       "summary": "3695-3716 HP 13->9->5->3->-1; both attacks go to the ant (miss, hit) with a Whip (1d3); only spell Detect Life; no potions or escapes left."
+    },
+    {
+      "status": "verified saved manual diagnostic alternative",
+      "summary": "Owner branch 20261108T232258Z from 3651: kobold flees after one hit; ant takes HP12->6; mushroom-patch confusion; up stairs to town 3909 at 3HP; rest to 13/13; saved 4709 CL1; complete rerun VERIFIED."
+    },
+    {
+      "status": "observed",
+      "summary": "Borg's own race-data danger: kobold alone 5 (3621-3651), ant 18/38/16 (3661-3691), both 36. The flight trigger keyed on the kobold via the name list; both final attacks targeted the ant."
     }
   ],
   "actions": [

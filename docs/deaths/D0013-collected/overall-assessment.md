@@ -47,6 +47,24 @@ Received in chat on 2026-11-09 and recorded verbatim on #332:
   the 8-HP kobold that was doing most of the damage. Attack target scoring is unobserved.
 - **Stock (#41).** It spent 316 gold on rings and bought one escape and no cures.
 
+## Owner's manual alternative (verified)
+
+The owner played from turn 3651 with `play-from-replay.py`. The branch and session identities
+and hashes are in [owner-manual-branch.json](owner-manual-branch.json). A complete rerun with
+`replay-borg.py --verify-only` is **VERIFIED**. What happened:
+
+1. One hit on the small kobold, which fled in terror.
+2. Three exchanges with the giant white ant, HP 12 → 6, and the ant was still alive.
+3. While retreating south, a grey mushroom patch confused it twice (HP 4 → 3).
+4. Up the staircase at (55,45) to town at 3909, with 3 HP.
+5. Rested to 13/13 and saved alive at 4709, still CL1.
+
+The owner's conclusion is that knowing which monsters are too tough at a given level is
+central, and that the Borg has this knowledge but the game does not show it. The Borg's own
+danger estimate comes from full race data, not the player's monster memory, and it agrees with
+the owner. The kobold alone rated 5; the ant rated 18 to 38. Its whole-level flight was keyed
+to the kobold by the name list instead. One manual line, not a population claim.
+
 ## Limits
 
 - Whether the siren trap was known before it was triggered is not shown.

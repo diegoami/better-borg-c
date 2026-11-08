@@ -20,7 +20,7 @@ Dossiers: 13; distinct starting conditions: 10; recorded death process attempts:
 | [D0010](D0010-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `1cd426af4848` | 2060687716 | a kobold | 6309 | verified retreat/archery opportunity investigation; no reusable gameplay defect established |
 | [D0011](D0011-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/322) | `867c777845fd` | 1907608236 | a griffon | 119600 | escape/equipment/healing-policy investigation; three source-checked mechanisms with native evidence; no reusable original-C defect established |
 | [D0012](D0012-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/325) | `867c777845fd` | 1907608237 | poison | 27770 | retreat/re-approach loop under worm-mass flight; owner's verified manual branch kills the mold in one blow and survives; source-checked mechanisms; no reusable original-C defect established |
-| [D0013](D0013-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/332) | `867c777845fd` | 1907608238 | a small kobold | 3716 | escape-order, scary-list flight and stock investigation; source-checked mechanisms with native position evidence; no reusable original-C defect established |
+| [D0013](D0013-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/332) | `867c777845fd` | 1907608238 | a small kobold | 3716 | escape-order, scary-list flight and stock investigation; owner's verified manual branch survives by disengaging from the ant; no reusable original-C defect established |
 
 ## Aggregated actions
 
