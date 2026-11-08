@@ -1,0 +1,66 @@
+From b5e07827a5e04e36669323138b8ffeb95adb7e40 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 12:07:26 +0000
+Subject: [PATCH] Borg: test the permanent-glow flag for floors in the map
+ update
+
+square_islit() is the grid's current light level, which includes the
+Borg's own light source, so every floor inside its light radius was
+marked BORG_GLOW and the flow toward light chose targets the Borg was
+already lighting itself.
+
+Mark a floor glowing only when the game flags it SQUARE_GLOW
+(square_isglow()), dark when it is neither glowing nor lit, and keep
+the torch-lit branch that marks a floor lit by a light source but not
+glowing as BORG_LIGHT.
+
+(cherry picked from commit c316a65b248c4372ff3b686eafaa0477c3117eeb)
+---
+ src/borg/borg-update.c | 19 +++++++++++--------
+ 1 file changed, 11 insertions(+), 8 deletions(-)
+
+diff --git a/src/borg/borg-update.c b/src/borg/borg-update.c
+index 83ed702db..975ed846c 100644
+--- a/src/borg/borg-update.c
++++ b/src/borg/borg-update.c
+@@ -368,26 +368,29 @@ static void borg_update_map(void)
+                     /* Nothing */
+                 }
+ 
+-                /* Handle "dark" floors.  square_islit() is the grid's
+-                 * permanent-glow flag, matching the CAVE_GLOW test this
+-                 * branch transcribed from the original borg; the lighting
+-                 * enum in grid_data cannot express it (LIGHTING_LIT is
+-                 * map_info's default for grids whose lighting is not
+-                 * otherwise established). */
+-                if (!square_islit(cave, l)) {
++                /* Handle "dark" floors */
++                if (!square_isglow(cave, l) && !square_islit(cave, l)) {
+                     /* Dark floor grid */
+                     ag->info |= BORG_DARK;
+                     ag->info &= ~BORG_GLOW;
+                 }
+ 
+                 /* Handle Glowing floors */
+-                else {
++                else if (square_isglow(cave, l)) {
+                     /* Perma Glowing Grid */
+                     ag->info |= BORG_GLOW;
+ 
+                     /* Assume not dark */
+                     ag->info &= ~BORG_DARK;
+                 }
++
++                /* torch-lit or line of sight grids */
++                else {
++                    ag->info |= BORG_LIGHT;
++
++                    /* Assume not dark */
++                    ag->info &= ~BORG_DARK;
++                }
+             }
+             /* Open doors */
+             else if (g.f_idx == FEAT_OPEN || g.f_idx == FEAT_BROKEN) {
+-- 
+2.53.0
+
