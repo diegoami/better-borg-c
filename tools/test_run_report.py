@@ -83,6 +83,19 @@ class RunReports(unittest.TestCase):
                 self.assertEqual(native.call_count,1)
                 self.assertIsNotNone(data['native_character_dump'])
 
+    def test_changed_frozen_data_prevents_native_formatting(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);_,r=self.fixture(root);(root/'engine').write_text('frozen')
+            data=root/'data/gamedata/class.txt';data.parent.mkdir(parents=True);data.write_text('original')
+            m=json.loads((root/'recording.json').read_text());m['files_sha256'].update({
+                'engine':report.sha(root/'engine'),'data/gamedata/class.txt':report.sha(data)})
+            (root/'recording.json').write_text(json.dumps(m));data.write_text('changed')
+            with mock.patch.object(report,'native_dump') as native:
+                _,result=report.create(root,r)
+                native.assert_not_called()
+                self.assertIn('Frozen runtime data changed',result['character_dump_error'])
+                self.assertEqual(result['recorded_kills'],5)
+
     def test_formatting_refuses_a_dump_at_a_different_game_turn(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp);p,_=self.fixture(root);info=report.saved_character(p)

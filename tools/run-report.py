@@ -186,6 +186,11 @@ def create(run, result, format_character=True):
             try:
                 if sha(run / 'engine') != files['engine']:
                     raise ValueError('Frozen engine changed')
+                for name, digest in files.items():
+                    if name.startswith('data/'):
+                        data = (run / name).resolve()
+                        if not data.is_relative_to(run) or sha(data) != digest:
+                            raise ValueError('Frozen runtime data changed')
                 target = report_dir / ('native-' + sha(snapshot)[:12])
                 cache = target / 'character.txt'
                 receipt = target / 'receipt.json'
