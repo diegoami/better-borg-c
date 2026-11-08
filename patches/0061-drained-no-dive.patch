@@ -1,0 +1,48 @@
+From eb89278d7c312d236703e39b90d865b44397ec10 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 05:29:20 +0100
+Subject: [PATCH] Borg: keep a drained Borg from diving regardless of prior
+ direction
+
+"Do not dive when drained" read if (g && BI_ISFIXEXP), but g is only
+non-zero at that point when an earlier branch already decided to head
+up, so the check never applied to a Borg that had not yet chosen a
+direction -- a drained Borg was still free to power-dive. The
+sibling "do not dive when full of items" check was translated from the
+original dive-cancellation to an unconditional try_not_to_descend;
+this one kept the dead g gate.
+
+Apply the drained check unconditionally: a drained Borg no longer
+takes the power-dive branches and instead falls through to the
+remaining leave-level decisions (heading up when unprepared, restock,
+and so on).
+
+Tracked as diegoami/neo-angband-tracker#235.
+
+(cherry picked from commit 6d909bf5216c1e6c5ed199595d9ed3e5baf4b0d8)
+---
+ src/borg/borg-think-dungeon-util.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-think-dungeon-util.c b/src/borg/borg-think-dungeon-util.c
+index e4687edc6..35d082d91 100644
+--- a/src/borg/borg-think-dungeon-util.c
++++ b/src/borg/borg-think-dungeon-util.c
+@@ -730,8 +730,12 @@ bool borg_leave_level(bool bored)
+     if (sellable_item_count >= 12)
+         try_not_to_descend = true;
+ 
+-    /* Do not dive when drained */
+-    if (g && borg.trait[BI_ISFIXEXP])
++    /* Do not dive when drained.  This applies whenever the experience is
++     * drained, not only when an earlier check already chose to head up:
++     * the original borg cancelled a decided dive here (g = 0), and the
++     * sibling "full of items" check was translated to an unconditional
++     * try_not_to_descend while this one kept the dead g gate. */
++    if (borg.trait[BI_ISFIXEXP])
+         try_not_to_descend = true;
+ 
+     /* Rise a level if bored and unable to dive. */
+-- 
+2.53.0
+

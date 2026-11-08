@@ -325,3 +325,7 @@ The sixtieth carry skips an unidentified single item in the sell count instead o
 returning zero (consumer #261, adopting source134): a full pack with one such item looked
 empty and the Borg dived instead of selling. Three-mode fixture flips the full-unid case
 (sellable 0 to 15, stays up); the full control is byte-identical; v1 traces identical.
+
+The sixty-first carry keeps a drained Borg from diving regardless of its earlier
+direction (consumer #263, adopting source235): the guard sat behind a dead `g` gate and
+now applies unconditionally. Fixture: one power-dive note to none. v1 traces identical.
