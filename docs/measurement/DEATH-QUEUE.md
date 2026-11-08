@@ -1,5 +1,8 @@
 # Next owner replay and bounded death collection
 
+See the [complete toolkit guide](REPLAY-TOOLKIT.md) for the connected user workflow
+and [borg-rs reproduction handoff](BORG-RS-TOOLKIT-PROMPT.md).
+
 Owner clarification: `replay_next_death` opens a death the owner has not reviewed.
 It does not automatically diagnose, brainstorm or close technical investigations.
 

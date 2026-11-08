@@ -82,8 +82,9 @@ For bounded play without a window:
 ```
 
 This loads the named save, activates the native Borg and plays **additional
-engine turns** from its starting turn. A missing save creates a Human Warrior
-with ordinary point buy (`--seed` sets a new character's RNG, default 1).
+engine turns** from its starting turn. A missing save creates a random race/class character
+with ordinary point buy (`--birth fixed` selects Human Warrior). `--seed` fixes
+a new character's RNG; otherwise a random seed is retained.
 It saves at the first command boundary at or after the target, so long actions
 can overshoot; the actual count is reported. Saves go to the same
 `build/native/game/lib/save/NAME` directory as the visible launcher, with the
@@ -117,6 +118,11 @@ investigation remain pending agent work under the death protocol; automatic
 export does not establish a bug or a completed investigation.
 
 ## Local recording and verified replay
+
+Start with the [complete replay and death-analysis toolkit guide](docs/measurement/REPLAY-TOOLKIT.md)
+for collection, reports, viewer keys, fighting logs, manual alternatives and
+implementation/storage details. [borg-rs reproduction prompt](docs/measurement/BORG-RS-TOOLKIT-PROMPT.md).
+
 
 Both launchers now print a **Recording/Evidence** directory and a replay command.
 Visible play still uses your own character creation and manual Borg activation;

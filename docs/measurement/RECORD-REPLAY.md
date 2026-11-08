@@ -1,5 +1,8 @@
 # Local recording and verified replay (consumer134)
 
+See the [complete toolkit guide](REPLAY-TOOLKIT.md) for the connected user workflow
+and [borg-rs reproduction handoff](BORG-RS-TOOLKIT-PROMPT.md).
+
 The owner requested full local death inspection for visible and headless games,
 then selected **verified rerun plus a turn-by-turn viewer**. Future pipelines
 are deferred. The separate integration lane owns the consumer bug-carry queue; this task does

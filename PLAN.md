@@ -810,3 +810,13 @@ patch-active pending upstream acceptance/incorporation; source152/156, reaction
 mechanism replacement and other lanes remain separate. No source-repository
 changes/posts. Delivery refreshes the current playable/recording builds; source
 proposal acceptance and prospective survival/progress evaluation remain open.
+
+## Replay and death-analysis tooling reference
+
+The [complete toolkit guide](docs/measurement/REPLAY-TOOLKIT.md) inventories
+recording/verification, queue/collection, reports, native fighting logs and
+manual alternatives, with source/storage maps and explicit limits. The
+[borg-rs handoff prompt](docs/measurement/BORG-RS-TOOLKIT-PROMPT.md) pins the C
+implementation and defines Rust-specific qualification; the target's own rules
+control implementation, source routing and delivery. This documentation starts
+no Rust work, new game collection, strategy implementation or adoption loop.
