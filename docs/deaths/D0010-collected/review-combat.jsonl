@@ -1,0 +1,13 @@
+{"kind": "speed", "frame": 1, "turn": 1, "speed": 110, "gain": 10, "move": 100}
+{"kind": "message", "frame": 7918, "turn": 6245, "type": "GENERIC", "text": "You have found a secret door."}
+{"kind": "message", "frame": 7927, "turn": 6254, "type": "GENERIC", "text": "You hear a door burst open!"}
+{"kind": "message", "frame": 7936, "turn": 6255, "type": "GENERIC", "text": "You have no more Scrolls of Phase Door (d)."}
+{"kind": "message", "frame": 7980, "turn": 6291, "type": "MON_HIT", "text": "The kobold hits you."}
+{"kind": "damage", "frame": 7980, "turn": 6291, "before": 15, "after": 7, "requested": 8, "cause": "a kobold"}
+{"kind": "message", "frame": 7993, "turn": 6300, "type": "MON_HIT", "text": "The kobold hits you."}
+{"kind": "damage", "frame": 7993, "turn": 6300, "before": 7, "after": 1, "requested": 6, "cause": "a kobold"}
+{"kind": "message", "frame": 8002, "turn": 6305, "type": "BLESSED", "text": "You feel righteous!"}
+{"kind": "message", "frame": 8002, "turn": 6305, "type": "GENERIC", "text": "You have no more Scrolls of Blessing (d)."}
+{"kind": "message", "frame": 8006, "turn": 6309, "type": "MON_HIT", "text": "The kobold hits you."}
+{"kind": "message", "frame": 8006, "turn": 6309, "type": "DEATH", "text": "You die."}
+{"kind": "damage", "frame": 8006, "turn": 6309, "before": 1, "after": -1, "requested": 2, "cause": "a kobold"}

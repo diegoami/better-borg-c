@@ -4,7 +4,7 @@ Bugs always take priority. Each natural death gets a curated dossier with its ac
 
 To comment, open **Discuss** beside the case below. The linked GitHub investigation is the durable feedback thread; suggestions are checked against evidence and linked to actions. See [the feedback process](FEEDBACK.md). Chat feedback is copied there before it is considered tracked.
 
-Dossiers: 9; distinct starting conditions: 6; recorded death process attempts: 17 (including repeats/reference variants). This registry is not a survival-rate estimate.
+Dossiers: 10; distinct starting conditions: 7; recorded death process attempts: 18 (including repeats/reference variants). This registry is not a survival-rate estimate.
 
 | Case | Discussion | Actual source | Seed | Raw cause | Death turn | Diagnosis |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -17,6 +17,7 @@ Dossiers: 9; distinct starting conditions: 6; recorded death process attempts: 1
 | [D0007](D0007-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `22f817c96843` | 2624955988 | a soldier | 179053 | policy/call-order/escape investigation; reusable C defect not established |
 | [D0008](D0008-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `5c23742ced30` | 1668846659 | a grey mold | 10940 | native emergency/normal flow cache and escape-intent investigation; original-C source404 reported |
 | [D0009](D0009-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `1cd426af4848` | 2817460426 | starvation | 218620 | verified starvation/resource-return failure; original-C quiver-capacity pickup defect reported as source419 |
+| [D0010](D0010-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/163) | `1cd426af4848` | 2060687716 | a kobold | 6309 | verified retreat/archery opportunity investigation; no reusable gameplay defect established |
 
 ## Aggregated actions
 
@@ -46,7 +47,11 @@ Dossiers: 9; distinct starting conditions: 6; recorded death process attempts: 1
 - [Identify useful carried stock and compare identification/shop priority without hidden item knowledge](https://github.com/diegoami/better-borg-c/issues/180) — proposed; shared investigation; cases D0009.
 - [Recall storage/retention/reacquisition and available walking return before hunger becomes critical](https://github.com/diegoami/better-borg-c/issues/183) — needs evidence; no rescue claimed; cases D0009.
 - [Unknown-edible eligibility for caster starvation at localdanger0, retaining harmful outcomes and resource costs](https://github.com/diegoami/better-borg-c/issues/235) — needs evidence; no forced use implemented; cases D0009.
-- [Early town/upstairs commitment versus repeated normal desperate downstairs response after weakness](https://github.com/diegoami/better-borg-c/issues/159) — investigating; no guaranteed route asserted; cases D0009.
+- [Early town/upstairs commitment versus repeated normal desperate downstairs response after weakness](https://github.com/diegoami/better-borg-c/issues/159) — investigating; no guaranteed route asserted; cases D0009, D0010.
+- [Inspect legal bow attacks, accepted staircase path and retreat-before-attack priority at6285/6295; account for later carries](https://github.com/diegoami/better-borg-c/issues/239) — investigating; no gameplay change; cases D0010.
+- [Qualified native message/actual HP-loss/speed viewer channel](https://github.com/diegoami/better-borg-c/issues/240) — verified locally and hosted; delivery PR; cases D0010.
+- [Replay valid maximized-window recordings through separately qualified reader; retain malformed-input rejection](https://github.com/diegoami/better-borg-c/issues/238) — verified; delivery PR240; cases D0010.
+- [Known cure/escape preparedness before the dive](https://github.com/diegoami/better-borg-c/issues/41) — proposed; shared investigation; cases D0010.
 
 Recurring mechanisms are grouped by canonical issue, not by number of replays. Investigations are hypotheses until native causal proof; original-C bugs route to neo-angband-tracker before source fix and consumer carry.
 

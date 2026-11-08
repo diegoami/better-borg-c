@@ -1,0 +1,743 @@
+{
+  "index": 7441,
+  "turn": 5867,
+  "phase": "command",
+  "hp": 15,
+  "sp": 0,
+  "max_hp": 15,
+  "max_sp": 0,
+  "level": 1,
+  "depth": 1,
+  "x": 28,
+  "y": 54,
+  "diagnostics": {
+    "scope": "diagnostic actual state; never supplied to Borg inputs",
+    "gear": [
+      {
+        "actual_kind": "[Lesser Charms]",
+        "known_kind": "[Lesser Charms]",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 30,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Arrow~",
+        "known_kind": "& Arrow~",
+        "aware": 1,
+        "quantity": 13,
+        "weight": 2,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Short Bow~",
+        "known_kind": "& Short Bow~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 30,
+        "pval": 2,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Main~ Gauche~",
+        "known_kind": "& Main~ Gauche~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 30,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Wooden Torch~",
+        "known_kind": "& Wooden Torch~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 22,
+        "pval": 0,
+        "timeout": 4723,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Ration~ of Food",
+        "known_kind": "& Ration~ of Food",
+        "aware": 1,
+        "quantity": 7,
+        "weight": 8,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Wooden Torch~",
+        "known_kind": "& Wooden Torch~",
+        "aware": 1,
+        "quantity": 10,
+        "weight": 22,
+        "pval": 0,
+        "timeout": 5000,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Phase Door",
+        "known_kind": "Phase Door",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 5,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Leather Shield~",
+        "known_kind": "& Leather Shield~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 90,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Soft Leather Armour~",
+        "known_kind": "Soft Leather Armour~",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 80,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "& Pair~ of Leather Boots",
+        "known_kind": "& Pair~ of Leather Boots",
+        "aware": 1,
+        "quantity": 1,
+        "weight": 20,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      },
+      {
+        "actual_kind": "Neutralize Poison",
+        "known_kind": "Neutralize Poison",
+        "aware": 0,
+        "quantity": 1,
+        "weight": 4,
+        "pval": 0,
+        "timeout": 0,
+        "to_h": 0,
+        "to_d": 0,
+        "to_a": 0,
+        "inscription": ""
+      }
+    ],
+    "monsters": [
+      {
+        "id": 1,
+        "name": "blue yeek",
+        "x": 21,
+        "y": 52,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 2,
+        "name": "white icky thing",
+        "x": 25,
+        "y": 54,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 109,
+        "visible": 1
+      },
+      {
+        "id": 3,
+        "name": "giant yellow centipede",
+        "x": 140,
+        "y": 28,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 4,
+        "name": "small kobold",
+        "x": 148,
+        "y": 33,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 5,
+        "name": "rock lizard",
+        "x": 141,
+        "y": 33,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 6,
+        "name": "grey mold",
+        "x": 140,
+        "y": 33,
+        "hp": 3,
+        "max_hp": 3,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 7,
+        "name": "cave spider",
+        "x": 146,
+        "y": 40,
+        "hp": 4,
+        "max_hp": 4,
+        "speed": 122,
+        "visible": 0
+      },
+      {
+        "id": 8,
+        "name": "cave spider",
+        "x": 146,
+        "y": 41,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 121,
+        "visible": 0
+      },
+      {
+        "id": 9,
+        "name": "cave spider",
+        "x": 147,
+        "y": 40,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 121,
+        "visible": 0
+      },
+      {
+        "id": 10,
+        "name": "fruit bat",
+        "x": 53,
+        "y": 56,
+        "hp": 4,
+        "max_hp": 4,
+        "speed": 119,
+        "visible": 0
+      },
+      {
+        "id": 11,
+        "name": "grey mushroom patch",
+        "x": 53,
+        "y": 55,
+        "hp": 3,
+        "max_hp": 3,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 12,
+        "name": "metallic green centipede",
+        "x": 59,
+        "y": 63,
+        "hp": 13,
+        "max_hp": 13,
+        "speed": 120,
+        "visible": 0
+      },
+      {
+        "id": 13,
+        "name": "shrieker mushroom patch",
+        "x": 58,
+        "y": 63,
+        "hp": 1,
+        "max_hp": 1,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 14,
+        "name": "rock lizard",
+        "x": 44,
+        "y": 56,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 15,
+        "name": "cave spider",
+        "x": 50,
+        "y": 62,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 119,
+        "visible": 0
+      },
+      {
+        "id": 16,
+        "name": "cave spider",
+        "x": 50,
+        "y": 63,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 122,
+        "visible": 0
+      },
+      {
+        "id": 17,
+        "name": "wild dog",
+        "x": 98,
+        "y": 56,
+        "hp": 3,
+        "max_hp": 3,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 18,
+        "name": "wild dog",
+        "x": 98,
+        "y": 57,
+        "hp": 3,
+        "max_hp": 3,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 19,
+        "name": "wild dog",
+        "x": 98,
+        "y": 55,
+        "hp": 3,
+        "max_hp": 3,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 20,
+        "name": "wild dog",
+        "x": 99,
+        "y": 56,
+        "hp": 3,
+        "max_hp": 3,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 21,
+        "name": "fruit bat",
+        "x": 123,
+        "y": 54,
+        "hp": 5,
+        "max_hp": 5,
+        "speed": 118,
+        "visible": 0
+      },
+      {
+        "id": 22,
+        "name": "large white snake",
+        "x": 112,
+        "y": 39,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 100,
+        "visible": 0
+      },
+      {
+        "id": 23,
+        "name": "giant yellow centipede",
+        "x": 71,
+        "y": 59,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 24,
+        "name": "floating eye",
+        "x": 177,
+        "y": 17,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 25,
+        "name": "fruit bat",
+        "x": 123,
+        "y": 41,
+        "hp": 4,
+        "max_hp": 4,
+        "speed": 120,
+        "visible": 0
+      },
+      {
+        "id": 26,
+        "name": "white worm mass",
+        "x": 27,
+        "y": 5,
+        "hp": 12,
+        "max_hp": 12,
+        "speed": 100,
+        "visible": 0
+      },
+      {
+        "id": 27,
+        "name": "rock lizard",
+        "x": 157,
+        "y": 54,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 28,
+        "name": "giant white centipede",
+        "x": 172,
+        "y": 17,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 29,
+        "name": "grey mold",
+        "x": 122,
+        "y": 41,
+        "hp": 2,
+        "max_hp": 2,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 30,
+        "name": "rock lizard",
+        "x": 53,
+        "y": 26,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 31,
+        "name": "rock lizard",
+        "x": 175,
+        "y": 20,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 32,
+        "name": "small kobold",
+        "x": 39,
+        "y": 5,
+        "hp": 8,
+        "max_hp": 8,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 33,
+        "name": "soldier ant",
+        "x": 60,
+        "y": 47,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 34,
+        "name": "grey mold",
+        "x": 80,
+        "y": 58,
+        "hp": 2,
+        "max_hp": 2,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 35,
+        "name": "rock lizard",
+        "x": 133,
+        "y": 54,
+        "hp": 9,
+        "max_hp": 9,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 36,
+        "name": "giant yellow centipede",
+        "x": 128,
+        "y": 34,
+        "hp": 7,
+        "max_hp": 7,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 37,
+        "name": "large white snake",
+        "x": 140,
+        "y": 36,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 100,
+        "visible": 0
+      },
+      {
+        "id": 38,
+        "name": "clear icky thing",
+        "x": 145,
+        "y": 5,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 109,
+        "visible": 0
+      },
+      {
+        "id": 39,
+        "name": "kobold",
+        "x": 16,
+        "y": 52,
+        "hp": 11,
+        "max_hp": 11,
+        "speed": 111,
+        "visible": 0
+      },
+      {
+        "id": 40,
+        "name": "clear icky thing",
+        "x": 155,
+        "y": 10,
+        "hp": 6,
+        "max_hp": 6,
+        "speed": 110,
+        "visible": 0
+      },
+      {
+        "id": 41,
+        "name": "giant white mouse",
+        "x": 139,
+        "y": 26,
+        "hp": 2,
+        "max_hp": 2,
+        "speed": 111,
+        "visible": 0
+      }
+    ],
+    "timed": {
+      "FOOD": 8419
+    },
+    "borg": {
+      "initialized": 1,
+      "active": 1,
+      "fleeing": 0,
+      "leaving": 0,
+      "fleeing_to_town": 0,
+      "avoidance": 15
+    }
+  },
+  "inventory": {
+    "pack": [
+      {
+        "label": "a",
+        "description": "a Book of Nature Magics [Lesser Charms]",
+        "slot": "",
+        "attr": 11,
+        "weight": 30
+      },
+      {
+        "label": "b",
+        "description": "7 Rations of Food",
+        "slot": "",
+        "attr": 15,
+        "weight": 56
+      },
+      {
+        "label": "c",
+        "description": "a White Potion",
+        "slot": "",
+        "attr": 1,
+        "weight": 4
+      },
+      {
+        "label": "d",
+        "description": "a Scroll of Phase Door",
+        "slot": "",
+        "attr": 1,
+        "weight": 5
+      },
+      {
+        "label": "e",
+        "description": "10 Wooden Torches (5000 turns)",
+        "slot": "",
+        "attr": 7,
+        "weight": 220
+      }
+    ],
+    "equipment": [
+      {
+        "label": "a",
+        "description": "a Main Gauche (1d5) (+0,+0)",
+        "slot": "weapon",
+        "attr": 9,
+        "weight": 30
+      },
+      {
+        "label": "b",
+        "description": "a Short Bow (x2) (+0,+0)",
+        "slot": "shooting",
+        "attr": 15,
+        "weight": 30
+      },
+      {
+        "label": "c",
+        "description": "(nothing)",
+        "slot": "right hand",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "d",
+        "description": "(nothing)",
+        "slot": "left hand",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "e",
+        "description": "(nothing)",
+        "slot": "neck",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "f",
+        "description": "a Wooden Torch (4723 turns)",
+        "slot": "light",
+        "attr": 7,
+        "weight": 22
+      },
+      {
+        "label": "g",
+        "description": "Soft Leather Armour [8,+0]",
+        "slot": "body",
+        "attr": 15,
+        "weight": 80
+      },
+      {
+        "label": "i",
+        "description": "(nothing)",
+        "slot": "back",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "m",
+        "description": "a Leather Shield [8,+0]",
+        "slot": "arm",
+        "attr": 15,
+        "weight": 90
+      },
+      {
+        "label": "n",
+        "description": "(nothing)",
+        "slot": "head",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "o",
+        "description": "(nothing)",
+        "slot": "hands",
+        "attr": 2,
+        "weight": 0
+      },
+      {
+        "label": "p",
+        "description": "a Pair of Leather Boots [2,+0]",
+        "slot": "feet",
+        "attr": 15,
+        "weight": 20
+      }
+    ],
+    "quiver": [
+      {
+        "label": "0",
+        "description": "13 Arrows (1d4) (+0,+0)",
+        "slot": "",
+        "attr": 15,
+        "weight": 26
+      }
+    ],
+    "total_weight": 613,
+    "remaining_weight": 586
+  },
+  "spells": {
+    "class": "Ranger",
+    "mana": 0,
+    "max_mana": 0,
+    "caster": 1,
+    "learned": []
+  },
+  "world": "381ff0a49736987f",
+  "rng": "f4e83d393608d250ec52ca47bd7386770babad3a179c9be470a94ceed76fe429036a069e7fe2cf6d0fc0aa11d470781ff00eb8ba67648c9a0e347622f6bfdb01e12e6b9f0ee3a467a35a0d773efb5e4885b754a41b034c53a65555c67fc990bc3e211ec8172110e928244249fc6bee16666bc3de668558d2b8e5818d98273d61",
+  "borg_rng": 4210909144
+}
