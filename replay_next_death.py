@@ -48,8 +48,8 @@ def run(args):
     command = [sys.executable, str(ROOT / 'replay-borg.py'), selected['directory'], '--timeout', str(args.timeout)]
     stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
     command += ['--output', str(workflow.artifacts() / 'replays' / stamp)]
-    for name in ('from_turn', 'view_only', 'verify_only'):
-        value = getattr(args, name)
+    for name in ('from_turn', 'view_only', 'verify_only', 'combat_log'):
+        value = getattr(args, name, None)
         if value is not None and value is not False:
             command.append('--' + name.replace('_', '-'))
             if not isinstance(value, bool):
@@ -70,6 +70,7 @@ def main():
     view.add_argument('--view-only', action='store_true', help='open original movie without rerun verification')
     view.add_argument('--verify-only', action='store_true', help='verify the chosen recording without opening the viewer')
     p.add_argument('--timeout', type=int, default=600)
+    p.add_argument('--combat-log', action='store_true', help='qualify native combat/HP/speed events using a separate historical observer')
     args = p.parse_args()
     if args.timeout < 1 or (args.from_turn is not None and args.from_turn < 0) or (args.json and not args.list):
         p.error('Use positive timeout, nonnegative turn and --json only with --list')

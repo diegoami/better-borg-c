@@ -444,3 +444,60 @@ and restores the old paths after unsuccessful attempts. No font package or
 engine rebuild is required. Courier/Nimbus28 is preferred to6x13; actual tested
 Courier metrics are17pixels wide and30high. Explicit font overrides still win.
 This setup is repeated on demand after an X server restart; no background job.
+
+## Native fighting log and speed
+
+```sh
+./replay-borg.py docs/deaths/D0010-collected --combat-log --from-turn 6255
+```
+
+Press **p**, then **Tab** to select **Fighting log**. Native messages include
+hits, misses, shots, fear, consumables and deaths; `HP` rows separately record
+actual before/after player HP and the native damage source. A hit message and
+its HP row describe the same event, not two hits. Borg diagnostic `#` messages
+are excluded from this source; the existing Borg-note sources remain available.
+
+Old recordings did not capture every message before native message coalescing.
+`--combat-log` prepares a **separate frozen-source observation build**, captures
+native message calls and damage outcomes, and requires every original stream,
+frame/RNG/player-state field and native save to match. No extra danger evaluation,
+RNG draw, gameplay input, heuristic or original-engine/cache change is made.
+It qualifies a complete original movie, not a timed-out partial one. Once
+qualified, the added channel is cached; `--view-only --combat-log` reuses it
+without building/running. Without cached data, the panel explicitly asks for
+recovery rather than inventing hit counts from repeated Borg notes or HP samples.
+`--verify-only --combat-log` prepares/verifies without opening the viewer. The
+owner-review queue also forwards `--combat-log`.
+
+Events carry their actual native tick and the next original frame boundary at
+which they are available. This avoids revealing a later same-tick hit when
+looking at an earlier frame. Speed changes are linked to their actual recorded
+frames. Full original frame equality is checked; original cells aren't repainted
+with newly inferred combat observations. Recovered log/qualification evidence
+stays under `artifacts/death-workflow/combat/`.
+
+An **engine tick is a shared world-clock increment**, not a player action or a
+frame. Player and monsters gain energy according to their own speed. With the
+normal move budget100, speed110 gains10energy/tick (~10ticks per move); speed120
+gains20 (~5ticks), speed100 gains5 (~20ticks). Other action costs, accumulated
+energy, firing/blow rates and turn order can change the exact interval. Inventory
+and viewer inspection don't spend a normal movement turn. Multiple command/input
+frames can share a tick. The fighting header displays the actual recorded player
+speed/gain/move budget, not an assumed fixed "turn" conversion.
+
+D0010 qualified example: ranger speed110/gain10; kobold speed111/gain11. Native
+incoming hits occur6291/6300/6309, dealing8/6/2HP,15→7→1→-1. This is3hits,
+not the duplicated `HIT_BY(+)`/`HIT_BY(3)` diagnostic lines. The owner's separate
+manual branch survives and retains its own input/RNG trajectory and certification.
+
+## Maximized terminal compatibility
+
+Native term dimensions are ints. The old recorded input reader incorrectly
+rejected widths/heights above255, including a real424×104owner session.
+New exports use bounded int geometry (maximum4096each, at most1048576cells),
+retaining positive-size/call/queue checks. For an older immutable engine the CLI
+automatically selects the separate compatibility observer when its frozen reader
+has the old limit. The old executable is preserved. Corrected historical replay
+must still match every original event/frame/native save. Native negative tests
+refuse zero-size,4097-wide and excessive-cell inputs; the actual424×104manual
+recording verifies completely. Normal-size recordings retain their usual path.

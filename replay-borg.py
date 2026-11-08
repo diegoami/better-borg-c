@@ -13,6 +13,7 @@ import subprocess
 import sys
 import sys
 import time
+from types import SimpleNamespace
 
 ROOT = Path(__file__).resolve().parent
 
@@ -204,6 +205,7 @@ def main():
     parser.add_argument('--dump-turn', type=int, help='print one recorded frame instead of an interactive viewer')
     parser.add_argument('--output', type=Path, help='new directory for verification evidence')
     parser.add_argument('--timeout', type=int, default=600)
+    parser.add_argument('--combat-log', action='store_true', help='qualify native messages, HP damage and speed with a separate historical observer')
     args = parser.parse_args()
     if args.timeout < 1 or (args.verify_only and args.view_only):
         parser.error('Use a positive timeout and select only one of verify-only/view-only')
@@ -211,11 +213,31 @@ def main():
         original = resolve_recording(args.recording)
         recordings.validate(original, require_complete=not args.view_only)
         verified = False
+        observations = tool('replay_combat_extension', 'replay-observation.py')
+        context = SimpleNamespace(recordings=recordings, verify=verify)
+        combat_directory = observations.cached(original, context)
+        compatibility = not args.view_only and observations.needs_wide_reader(original)
+        if args.view_only and args.combat_log and combat_directory is None:
+            raise ValueError('Combat log not prepared; reopen with --combat-log without --view-only first')
         if not args.view_only:
             stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
             output = args.output.resolve() if args.output else ROOT / 'artifacts/replays' / stamp
-            print('Rerunning the recorded start with the original engine and inputs...', flush=True)
-            result = verify(original, output, args.timeout)
+            print('Qualifying the selected historical observer...' if args.combat_log or compatibility else
+                  'Rerunning the recorded start with the original engine and inputs...', flush=True)
+            if args.combat_log or compatibility:
+                if args.output and output.exists():
+                    raise ValueError('Replay output must be a new directory; original evidence is never overwritten')
+                if compatibility:
+                    print('Using a separate historical reader for the recorded wide terminal; original engine stays frozen.', flush=True)
+                combat_directory = observations.prepare(original, context, args.timeout)
+                result = json.loads((combat_directory / 'verification.json').read_text())
+                if args.output:
+                    output.mkdir(parents=True, exist_ok=False)
+                    recordings.write(output / 'verification.json', dict(result, qualified_output=str(combat_directory)))
+                else:
+                    output = combat_directory
+            else:
+                result = verify(original, output, args.timeout)
             print('VERIFIED' if result['verified'] else 'DIVERGED', '-', output / 'verification.json')
             if not result['verified']:
                 print(json.dumps(result['first_difference'], indent=2))
@@ -236,7 +258,7 @@ def main():
                 if display == original and not args.view_only:
                     display = inventory.prepare(original, sys.modules[__name__], args.timeout, include_spells=need_spells)
             viewer.show(display, args.dump_turn if args.dump_turn is not None else args.from_turn,
-                        verified=verified, dump=args.dump_turn is not None, caster=caster)
+                        verified=verified, dump=args.dump_turn is not None, caster=caster, combat_directory=combat_directory)
         return 0
     except (OSError, ValueError, KeyError, json.JSONDecodeError, subprocess.CalledProcessError) as exc:
         print(str(exc), file=sys.stderr)

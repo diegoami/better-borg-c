@@ -103,10 +103,10 @@ class Frames:
 
 class ReplayLog:
     """Window recorded messages/notes without inventing within-turn timestamps."""
-    MODES = ('Borg action notes', 'All Borg notes', 'Game messages')
+    MODES = ('Borg action notes', 'All Borg notes', 'Game messages', 'Fighting log')
     ACTION = re.compile(r'\b(attacking|casting|praying|firing|quaffing|reading|activating|zapping|aiming|using|wearing|taking off|buying|selling|retreating|resting|climbing|descending|ascending|walking|performing attack|facing|targeting|fleeing|recalling)\b', re.I)
 
-    def __init__(self, directory, frames):
+    def __init__(self, directory, frames, combat_directory=None):
         self.frames = frames
         self.notes = []
         trace = directory / 'trace.txt'
@@ -121,9 +121,39 @@ class ReplayLog:
         self.action_turns = [row[0] for row in self.actions]
         self.message_positions = [row[0] for row in frames.messages]
         self.complete = (directory / 'record-complete.json').exists()
+        self.combat, self.speeds = [], []
+        combat = (combat_directory or directory) / 'combat.jsonl'
+        if combat.is_file():
+            with combat.open() as stream:
+                for line in stream:
+                    row = json.loads(line)
+                    if row['kind'] == 'speed':
+                        self.speeds.append(row)
+                    elif row['kind'] != 'message' or not row.get('text', '').startswith('#'):
+                        self.combat.append(row)
+        self.combat_positions = [row['frame'] - 1 for row in self.combat]
+        self.speed_positions = [row['frame'] - 1 for row in self.speeds]
+
 
     def window(self, frame, position, height, width, back=0, mode=0):
-        if mode == 2:
+        if mode == 3:
+            events = self.combat
+            end = bisect_right(self.combat_positions, position)
+            caption = f"Fighting log through frame {frame['index']} (tick {frame['turn']})"
+            at = bisect_right(self.speed_positions, position) - 1
+            if at >= 0:
+                speed = self.speeds[at]
+                ticks = speed['move'] / max(1, speed['gain'])
+                precision = (f"Speed {speed['speed'] - 110:+d}: {speed['gain']} energy/tick; "
+                             f"move {speed['move']} (~{ticks:g} ticks). HP rows are damage events.")
+            else:
+                precision = 'Not captured: reopen with --combat-log to qualify a separate historical observer.'
+            def label(row):
+                if row['kind'] == 'damage':
+                    return (f"{row['turn']} F{row['frame']} HP: {row['before']} -> {row['after']} "
+                            f"({row['after'] - row['before']:+d}), {row['cause']}")
+                return f"{row['turn']} F{row['frame']} {row['type']}: {row['text']}"
+        elif mode == 2:
             events = self.frames.messages
             end = bisect_right(self.message_positions, position)
             caption = f"Game messages through frame {frame['index']} (turn {frame['turn']})"
@@ -276,7 +306,7 @@ def read_key(screen, playing=False):
         screen.timeout(100 if playing else -1)
 
 
-def show(directory, turn=None, verified=False, dump=False, caster=None):
+def show(directory, turn=None, verified=False, dump=False, caster=None, combat_directory=None):
     frames = Frames(directory)
     index = frames.at_turn(turn if turn is not None else frames.turns[-1] - 105)
     try:
@@ -326,7 +356,7 @@ def show(directory, turn=None, verified=False, dump=False, caster=None):
                         rows = spell_rows(frame)
                     elif panel == 'log':
                         if logs is None:
-                            logs = ReplayLog(directory, frames)
+                            logs = ReplayLog(directory, frames, combat_directory)
                         rows, scroll = logs.window(frame, index, height - 3, width, scroll, log_mode)
                     elif panel == 'gear':
                         for item in detail.get('gear', []):
