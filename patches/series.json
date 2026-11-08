@@ -1414,6 +1414,24 @@
    "verification": "docs/measurement/WEARSKIP-85.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "LANTERN-90",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/296",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/90",
+   "source_head": "bd4698a850e9fb926d74c9a26be298716a33e5ba",
+   "source_commits": [
+    "bd4698a850e9fb926d74c9a26be298716a33e5ba"
+   ],
+   "applied_commits": [
+    "69a62b869ed4a176d8136223649ce979cb8f9388"
+   ],
+   "patch": "patches/0076-lantern-scan-first.patch",
+   "patch_active": true,
+   "evidence_ref": "8ba3564002fe376a5c5142f1e2079e7704efeb6a",
+   "verification": "docs/measurement/LANTERN-90.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate on the tip; carried/open+patch-active after merge"
   }
  ]
 }

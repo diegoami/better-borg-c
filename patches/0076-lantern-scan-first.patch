@@ -1,0 +1,41 @@
+From 69a62b869ed4a176d8136223649ce979cb8f9388 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 17:21:54 +0100
+Subject: [PATCH] Borg: start the spare lantern scan at the first lantern
+
+With no flask of oil, the Borg looks for a spare lantern to refuel from.
+The scan is meant to walk the lanterns from the first one, skipping
+Everburning and empty ones, but it started at borg_slot(), which returns
+the last lantern in the pack. If that one was empty or Everburning the
+scan ended at once, so an earlier lantern with fuel was never used and
+the wielded lantern ran dry. Start at the first lantern in the pack.
+
+Tracked as diegoami/neo-angband-tracker#90.
+
+(cherry picked from commit bd4698a850e9fb926d74c9a26be298716a33e5ba)
+---
+ src/borg/borg-light.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-light.c b/src/borg/borg-light.c
+index af9fdfc11..13f50db6d 100644
+--- a/src/borg/borg-light.c
++++ b/src/borg/borg-light.c
+@@ -559,7 +559,13 @@ static bool borg_refuel_lantern(void)
+     /* None available check for lantern */
+     if (i < 0) {
+         /* get first lantern */
+-        i = borg_slot(TV_LIGHT, sv_light_lantern);
++        for (i = 0; i < z_info->pack_size; i++) {
++            if (borg_items[i].iqty && borg_items[i].tval == TV_LIGHT
++                && borg_items[i].sval == sv_light_lantern)
++                break;
++        }
++        if (i >= z_info->pack_size)
++            i = -1;
+ 
+         if (i >= 0) {
+             /* loop through lanterns (they should be next to each other) */
+-- 
+2.53.0
+
