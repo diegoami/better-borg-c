@@ -26,7 +26,13 @@ Declared intentional transitions (from the original 0049-era run, kept
 asserted): dispel-248 'undead' must keep the losdispel-326 replaced
 launch values and the undead refusal outcome; dispel-259 'reserve' and
 'clear' must keep failing (the blast scan the losdispel correction made
-reachable moves their absolute values).
+reachable moves their absolute values).  Added at milestone 9: dispel-248
+'living' fails its rating contract and vampire-257 'near-far'/'near-near'
+record the refusal instead of the cast — necrolight-296 (0099) makes the
+Necromancer's failure estimate match the game on lit squares, so the borg
+declines spells it previously cast on the undershot estimate; attributed
+by rerunning both groups at every carry build 0091-0098 and the 0099
+build, with the new rows pinned by rows_must.
 
 Usage (under the shared validation lock):
   python3 tools/regression-matrix.py --build build/native --output artifacts/m7-matrix
@@ -96,14 +102,44 @@ GROUPS = [
      ('living', 'undead', 'bolt'),
      {'scenario': 'tools/dispel-filter-scenario.c',
       'rows_free': ('undead',),
-      'rows_must': {'undead': {'hp_before': 47, 'hp_after': 47, 'hp_lost': 0,
+      'fail': ('living',),
+      'fail_reason': 'necrolight-296 (0099): on a lit square the '
+                     "Necromancer's spell-failure estimate now matches the "
+                     'game (+25 on any lit square, square_islit), crosses '
+                     "the borg's 25% limit and the spell gate closes "
+                     '(GATE spell_okay=0, RATING value=0 where the fixture '
+                     'expects the rated value dam + reward - mana cost); '
+                     "the scenario's own game-level cast still applies the "
+                     'damage, so the OUTCOME rows are unchanged — only the '
+                     'rating contract, written for the pre-fix estimate, '
+                     'fails.  Attributed by rerunning the group at every '
+                     'carry build 0091-0098 (self-check green, old rows) '
+                     'and the 0099 build (this transition).',
+      'rows_must': {'living': {'hp_before': 225, 'hp_after': 159, 'hp_lost': 66,
+                               'undead': 0},
+                    'undead': {'hp_before': 47, 'hp_after': 47, 'hp_lost': 0,
                                'undead': 1}}}),
     ('arc', '.worktrees/arc-angle/artifacts/arc/scenarios', 'A253',
      ('arc-bystander', 'arc-both'), {}),
     ('munchkin', '.worktrees/munchkin-stair/artifacts/m244/scenarios', 'M244',
      ('phantom', 'on-stair'), {}),
     ('vampire', '.worktrees/vampire-strike/artifacts/v257/scenarios', 'V257',
-     ('near-far', 'near-near', 'far'), {}),
+     ('near-far', 'near-near', 'far'),
+     {'fail': ('near-far', 'near-near'),
+      'fail_reason': 'necrolight-296 (0099): the scenario Necromancer '
+                     'stands in a lit square, so the fix makes the Vampire '
+                     'Strike failure estimate match the game (33% vs the '
+                     "old 8%); the borg refuses the spell over its 25% "
+                     'limit and takes no action (acted=0 keys=0 '
+                     'cast_spell=0 — exactly the kit lit-mode after-row) '
+                     'where the pre-fix borg cast on the undershot '
+                     'estimate.  Attributed by rerunning the group at every '
+                     'carry build 0091-0098 (cast rows, self-check green) '
+                     'and the 0099 build (refusal rows); the far control '
+                     'keeps its out-of-range refusal in both.',
+      'rows_free': ('near-far', 'near-near'),
+      'rows_must': {'near-far': {'acted': 0, 'keys': 0, 'cast_spell': 0},
+                    'near-near': {'acted': 0, 'keys': 0, 'cast_spell': 0}}}),
     ('slay', '.worktrees/slay-traits/artifacts/slay/scenarios', 'S239',
      ('animal', 'nonanimal'), {}),
     ('detect', '.worktrees/detect-panel/artifacts/d290/scenarios', 'D290',
