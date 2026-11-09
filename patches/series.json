@@ -1695,6 +1695,24 @@
    "verification": "docs/measurement/STARVEALCH-18.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture (two-file provenance; the 3-way merge preserves the carried urgentshop-23 store filter the source base predates); native gate at before and tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "TORODVALUE-549",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/361",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/549",
+   "source_head": "d4071b06e2d298a17e1a55559daceccf9663f9f3",
+   "source_commits": [
+    "d4071b06e2d298a17e1a55559daceccf9663f9f3"
+   ],
+   "applied_commits": [
+    "187bb3b61e764f1b8250642135472b6005305c79"
+   ],
+   "patch": "patches/0091-tele-other-rod-defence.patch",
+   "patch_active": true,
+   "evidence_ref": "f3323c2f010ef803424e0a3548728e03b576e94b",
+   "verification": "docs/measurement/TORODVALUE-549.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }
