@@ -88,3 +88,16 @@ verdict. Until then the investigation issue may carry clearly-labelled
 observations and working notes, but no disposition, closure, outbound proposal
 or change. This does not reintroduce a per-PR review for carried patches:
 those keep the milestone cadence and merge without waiting.
+
+Bug/task claims (owner, 2026-11-09): before starting work on an issue, claim
+it so nobody else works on it. A claim is: assign the issue to the worker
+account (`gh issue edit N --add-assignee diegoami`), post a claim comment on
+the issue naming the lane, scope and plan, and note the claim in the session's
+checkpoint on issue 1. Before picking any issue, check its assignees and
+comments for an active claim and read the latest checkpoint (existing rule);
+do not race a claimed issue. A claim is released by a comment on the issue
+("claim released" or the completion/stop handoff). A claim whose lane has
+stopped without a handoff, or that shows no checkpoint activity since its
+claim, is stale: another lane may take over after noting the takeover in the
+claim thread and re-assigning. Claims do not change review, gate or merge
+rules; they only prevent duplicate work.
