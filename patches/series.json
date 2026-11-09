@@ -1839,6 +1839,24 @@
    "verification": "docs/measurement/RUNEGLYPH-295.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "NECROLIGHT-296",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/377",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/296",
+   "source_head": "ea838de6782149c83300dccdfc06d15c099fbd86",
+   "source_commits": [
+    "ea838de6782149c83300dccdfc06d15c099fbd86"
+   ],
+   "applied_commits": [
+    "c2c215614066637e27a93ab02dd6048e3a6d020a"
+   ],
+   "patch": "patches/0099-necro-lit-square-penalty.patch",
+   "patch_active": true,
+   "evidence_ref": "742e04ed8358e566933902faf63aaca36b91ff1b",
+   "verification": "docs/measurement/NECROLIGHT-296.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }

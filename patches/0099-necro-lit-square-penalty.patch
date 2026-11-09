@@ -1,0 +1,52 @@
+From c2c215614066637e27a93ab02dd6048e3a6d020a Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 10:36:22 +0000
+Subject: [PATCH] Borg: apply the Necromancer lit-square penalty on any lit
+ square
+
+The game adds 25 to a Necromancer's spell failure chance whenever the
+player's square is lit (square_islit(): torchlight, permanent room light,
+bright terrain or a lit monster nearby). The Borg's estimate added it
+only when the square was lit by the Borg's own light source, so a
+Necromancer without a light standing in a lit room believed its spells
+were far safer than they were. With Vampire Strike at a real 33% chance
+of failure it estimated 8%, passed its own 25% limit and cast it anyway.
+
+Use the same lit-square test the game uses.
+
+Tracked as diegoami/neo-angband-tracker#296.
+
+(cherry picked from commit ea838de6782149c83300dccdfc06d15c099fbd86)
+---
+ src/borg/borg-magic.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/src/borg/borg-magic.c b/src/borg/borg-magic.c
+index 1f476dc38..9598d0a48 100644
+--- a/src/borg/borg-magic.c
++++ b/src/borg/borg-magic.c
+@@ -21,6 +21,7 @@
+ 
+ #ifdef ALLOW_BORG
+ 
++#include "../cave.h"
+ #include "../effects.h"
+ #include "../player-spell.h"
+ #include "../ui-menu.h"
+@@ -528,10 +529,10 @@ int borg_spell_fail_rate(const enum borg_spells spell)
+             minfail = 5;
+     }
+ 
+-    /* Necromancers are punished by being on lit squares */
+-    /* necromancers like the dark */
++    /* Necromancers are punished by being on lit squares, whatever lights
++     * them (their own light, permanent light, a monster's light) */
+     if (borg.trait[BI_CLASS] == CLASS_NECROMANCER &&
+-        borg_grids[borg.c.y][borg.c.x].info & BORG_LIGHT) {
++        square_islit(cave, borg.c)) {
+         chance += 25;
+ 
+     }
+-- 
+2.53.0
+
