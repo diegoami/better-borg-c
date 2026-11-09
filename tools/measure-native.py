@@ -239,19 +239,25 @@ def classify(code, states, interrupted=None):
 
 
 def monitor(process, trace_path, wall_limit, stall_limit):
+    """Watch a native run and stop it at the wall or stall limit.
+
+    Enforcement precedes each iteration's file work and the trace is read
+    incrementally from a byte offset: a run that appends state records
+    continuously, or never reaches another decision boundary, once made a
+    whole-file re-parse the slowest step and delayed the wall check far past
+    its limit (issue 392)."""
     start = changed = time.monotonic()
     last_turn = None
-    while process.poll() is None:
-        # A live read can end inside a UTF-8 character. parse_states discards
-        # the unfinished line; final reads after process exit remain strict.
-        states = (parse_states(trace_path.read_text(encoding='utf-8', errors='replace'))
-                  if trace_path.exists() else [])
-        current_turn = states[-1]['turn'] if states else None
+    offset = 0
+    pending = b''
+    while True:
         now = time.monotonic()
-        if current_turn != last_turn:
-            last_turn, changed = current_turn, now
-        reason = ('stalled' if current_turn is not None and now - changed >= stall_limit
-                  else 'wall_timeout' if now - start >= wall_limit else None)
+        if now - start >= wall_limit:
+            reason = 'wall_timeout'
+        elif last_turn is not None and now - changed >= stall_limit:
+            reason = 'stalled'
+        else:
+            reason = None
         if reason:
             process.terminate()
             try:
@@ -260,8 +266,23 @@ def monitor(process, trace_path, wall_limit, stall_limit):
                 process.kill()
                 process.wait()
             return reason
+        if process.poll() is not None:
+            return None
+        if trace_path.exists():
+            with trace_path.open('rb') as stream:
+                stream.seek(offset)
+                chunk = stream.read(8 * 1024 * 1024)
+            offset += len(chunk)
+            pending += chunk
+            if b'\n' in pending:
+                complete, _, pending = pending.rpartition(b'\n')
+                # A newline never appears inside a UTF-8 sequence, so whole
+                # lines can be split at byte level even mid-character.
+                records = parse_states((complete + b'\n').decode('utf-8', errors='replace'))
+                if records and records[-1]['turn'] != last_turn:
+                    last_turn = records[-1]['turn']
+                    changed = now
         time.sleep(0.1)
-    return None
 
 
 def run(args):

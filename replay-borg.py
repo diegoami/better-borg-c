@@ -83,6 +83,21 @@ def first_difference(original, rerun, inventory_extension=False, spells_extensio
     return None
 
 
+def engine_divergence(output):
+    """The replay engine's own divergence receipt, when it stopped cleanly.
+
+    Newer recording engines compare each generated action against the
+    original transcript and stop at the first divergence (issue 392); older
+    engines only exhaust or malformed-quit, leaving no receipt."""
+    receipt = output / 'replay-divergence.json'
+    if not receipt.exists():
+        return None
+    try:
+        return json.loads(receipt.read_text())
+    except (OSError, ValueError):
+        return {'stream': 'unreadable replay-divergence.json'}
+
+
 def verify(original, output, timeout, engine=None, inventory_extension=False, spells_extension=False):
     record = recordings.validate(original)
     if output.exists():
@@ -148,11 +163,13 @@ def verify(original, output, timeout, engine=None, inventory_extension=False, sp
     result = {'schema': 'borg-replay-verification@1', 'original': str(original),
               'recording_sha256': recordings.sha(original / 'recording.json'),
               'exit_code': process.returncode if process is not None else None, 'interrupted': interrupted, 'error': error,
-              'complete': complete, 'first_difference': difference,
+              'complete': complete, 'first_difference': difference, 'engine_divergence': engine_divergence(output),
               'verified': process is not None and process.returncode == 0 and not interrupted and complete and difference is None,
               'scope': 'All recorded input, Borg actions, clock/file inputs, native-save fingerprints, RNG/player state and logical terminal frames; no checkpoint restore or new independent life'}
     if engine is not None:
-        result.update(engine_mode='historical rebuild with player-known observation extensions',
+        result.update(engine_mode='counterfactual engine override; the first divergent action stops the replay'
+                      if not (inventory_extension or spells_extension)
+                      else 'historical rebuild with player-known observation extensions',
                       extensions=(['inventory'] if inventory_extension else []) + (['spells'] if spells_extension else []),
                       engine_sha256=recordings.sha(engine), original_engine_sha256=recordings.sha(original / 'engine'))
     recordings.write(output / 'verification.json', result)
@@ -204,11 +221,16 @@ def main():
     parser.add_argument('--view-only', action='store_true', help='inspect original frames without claiming a verified rerun')
     parser.add_argument('--dump-turn', type=int, help='print one recorded frame instead of an interactive viewer')
     parser.add_argument('--output', type=Path, help='new directory for verification evidence')
+    parser.add_argument('--engine', type=Path, help='counterfactual engine override; its first divergent action stops the replay and is reported, never verified')
     parser.add_argument('--timeout', type=int, default=600)
     parser.add_argument('--combat-log', action='store_true', help='qualify native messages, HP damage and speed with a separate historical observer')
     args = parser.parse_args()
     if args.timeout < 1 or (args.verify_only and args.view_only):
         parser.error('Use a positive timeout and select only one of verify-only/view-only')
+    if args.engine is not None and (args.combat_log or args.view_only or not args.engine.is_file()):
+        parser.error('An engine override needs an existing binary and plain --verify-only semantics')
+    if args.engine is not None:
+        args.engine = args.engine.resolve()
     try:
         original = resolve_recording(args.recording)
         recordings.validate(original, require_complete=not args.view_only)
@@ -225,6 +247,8 @@ def main():
             print('Qualifying the selected historical observer...' if args.combat_log or compatibility else
                   'Rerunning the recorded start with the original engine and inputs...', flush=True)
             if args.combat_log or compatibility:
+                if args.engine is not None:
+                    raise ValueError('An engine override verifies on the plain original-engine path; the compatibility/combat reader path takes no override')
                 if args.output and output.exists():
                     raise ValueError('Replay output must be a new directory; original evidence is never overwritten')
                 if compatibility:
@@ -237,9 +261,11 @@ def main():
                 else:
                     output = combat_directory
             else:
-                result = verify(original, output, args.timeout)
+                result = verify(original, output, args.timeout, engine=args.engine)
             print('VERIFIED' if result['verified'] else 'DIVERGED', '-', output / 'verification.json')
             if not result['verified']:
+                if result.get('engine_divergence'):
+                    print(json.dumps(result['engine_divergence'], indent=2))
                 print(json.dumps(result['first_difference'], indent=2))
                 print('Original frames remain available with --view-only.')
                 return 1

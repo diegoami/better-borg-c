@@ -216,3 +216,11 @@ void measure_note(const char *text)
 {
     if (trace) fprintf(trace, "BORG %ld %s\n", (long)turn, text);
 }
+
+void measure_divergence(const char *stream, const char *expected, const char *actual)
+{
+    if (!trace) return;
+    fprintf(trace, "DIVERGENCE stream=%s turn=%ld decisions=%ld expected=%s actual=%s\n",
+        stream, (long)turn, decisions, expected ? expected : "end", actual ? actual : "end");
+    fflush(trace);
+}
