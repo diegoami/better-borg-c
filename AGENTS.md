@@ -76,3 +76,15 @@ C fixtures/scenarios a Rust fix could reuse. Proposals do not relax the
 standing limits: this lane still does not poll or fetch the borg-rs repository
 or its issues, does not implement or dispatch Rust work, and does not alter the
 pristine C/Rust parity contract without an explicit target change.
+
+Review required for non-carried bug work (owner, 2026-11-09): an investigation
+that does not produce a carried source fix — diagnostic observers, trace/event
+classifications, evidence write-ups, dispositions, source-tracker issues and
+borg-rs proposals — always requires a review before its findings become
+actions. Prepare the findings as a review package (a review issue in the
+milestone-review pattern, with the evidence and exact claims linked); the owner
+launches any reviewer they choose; the disposition lands only after the review's
+verdict. Until then the investigation issue may carry clearly-labelled
+observations and working notes, but no disposition, closure, outbound proposal
+or change. This does not reintroduce a per-PR review for carried patches:
+those keep the milestone cadence and merge without waiting.
