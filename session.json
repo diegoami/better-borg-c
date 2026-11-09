@@ -98,6 +98,19 @@
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
   "impact_milestone_v4": "https://github.com/diegoami/better-borg-c/milestone/4",
   "external_review_package_v4": "https://github.com/diegoami/better-borg-c/issues/184",
+  "impact_milestone_v9": "https://github.com/diegoami/better-borg-c/milestone/9",
+  "external_review_package_v9": "https://github.com/diegoami/better-borg-c/issues/380",
+  "milestone9_state": {
+    "runtime_snapshot": "33207fbeeb582e67d6b18e9f40613617667905ae",
+    "package_commit": "eb9a78edde6c1909b1430f6c93c3944998b774af",
+    "corrections_commit": "24eb7666e",
+    "review_issue": "https://github.com/diegoami/better-borg-c/issues/380",
+    "review_verdict": "approve with corrections; M9-01..M9-07 applied in PR 381, M9-08 recorded not applied",
+    "matrix": "75 groups / 225 cases, zero unexpected mismatches; three declared transitions attributed to necrolight-296 (0099), independently reproduced at the 0096/0098/0099 builds",
+    "cohort": "frozen v1 cohort-neutral across all ten v9 units (seeds 11/29/47, hp 72/83/109, depths 4/6/5, alive at the cap)",
+    "tag_state": "4.2.6-impact-v9 NOT placed; awaits explicit owner authorization; on approval it goes on the runtime snapshot 33207fbee, not the package commit",
+    "next_action": "On owner authorization, place 4.2.6-impact-v9 on 33207fbee and record the placement in IMPACT-MILESTONE9.md (as milestone 8 did in PR 356); otherwise resume carries when new source-lane pairs appear"
+  },
   "owner_preferences": {
     "death_collection_mode": "normal Borg; no new munchkin game runs unless owner explicitly requests again (2026-11-08)"
   }
