@@ -1,5 +1,5 @@
 {
-  "classification": "deliberate no-dash-from-Grip/Fang rule, scary-rule contradiction and stock investigation; source-checked with native evidence; no reusable original-C defect established",
+  "classification": "preparation failure (330 of 357 starting gold on AC) plus deliberate no-dash rule; owner's verified manual dash from 4118 also dies; no reusable original-C defect established",
   "confidence": "High for native positions, visibility, notes and inventory; rule effects source-checked; dash outcome untested",
   "cause_category": "monster melee",
   "overall_assessment": "overall-assessment.md",
@@ -10,11 +10,21 @@
       "origin": "owner",
       "comment": "https://github.com/diegoami/better-borg-c/issues/348",
       "summary": "Chat 2026-11-09: CL1 necromancer surprised by Fang at 4119; escape route open but goes the opposite way into a dead end; not cornered at 4124; neither runs nor fights, no spells, then melees and dies. Escaping is a no-brainer as the dog is erratic and does not block the way. Owner will retry.",
-      "status": "processed; recorded verbatim on 348; findings replied; manual retry pending",
+      "status": "processed; recorded verbatim on 348; findings replied; first manual retry recorded",
       "actions": [
         "attempted-room-retreat",
         "worm-scary-rule",
         "survival-stock-priority"
+      ]
+    },
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/348",
+      "summary": "Chat 2026-11-09: retried from 4110 and also died; Fang blocked the way, Nether Bolt only tickled, ran for the exit but a graze killed. The Necromancer is utterly unprepared (no CLW, no Phase); asks whether he was broke; will try earlier.",
+      "status": "processed; manual death VERIFIED and recorded; shop ledger shows 330/357 gold on AC",
+      "actions": [
+        "survival-stock-priority",
+        "attempted-room-retreat"
       ]
     }
   ],
@@ -42,6 +52,14 @@
     {
       "status": "observed",
       "summary": "Starting gold spent on Robe, Iron Shod Boots, Cloak and Ring of Protection [+6] (6 gold left); single Phase Door read at 3511; no cures."
+    },
+    {
+      "status": "verified saved manual diagnostic alternative (death)",
+      "summary": "Owner branch 20261109T013648Z from 4118 (requested 4110): two bites before the first step, Fang blocks row 44, detour north, Nether Bolt, graze without potions; dies at (103,44) three squares from the stair at 4190; complete rerun VERIFIED."
+    },
+    {
+      "status": "observed",
+      "summary": "Starting gold 357: food 12, one Phase Door 15, Ring of Protection [+6] 150, Robe 84, Iron Shod Boots 84, Cloak 6; 6 left. Starting Word of Recall deposited at Home 1891. Town revisits 3181 and 4028 with 6 gold."
     }
   ],
   "actions": [
