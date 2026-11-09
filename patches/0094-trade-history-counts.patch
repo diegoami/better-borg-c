@@ -1,0 +1,59 @@
+From 168a43252287113734131a982227e86056df971d Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 02:45:09 +0000
+Subject: [PATCH] borg: count the newest entry in the recent sale and purchase
+ lists
+
+The Borg keeps a short list of what it has just sold (or stored at home)
+and just bought, so that it does not immediately buy back what it sold
+or sell back what it bought.  The writers stored the index of the entry
+they had just written in sold_item_num / bought_item_num, but every
+reader scans p < num, so the most recent sale or purchase was never
+checked.  After storing three rations at home, a low-level Warrior took
+them straight back out on its next store turn.
+
+Keep *_item_num as the number of slots in use: advance the write index
+first and raise the count to it.  When the write index wraps, the count
+stays at the number of slots the ring uses.
+
+Tracked as diegoami/neo-angband-tracker#20.
+
+(cherry picked from commit 9ae5e4585599aa4f3c5dce7c2259fe7e2604cea1)
+---
+ src/borg/borg-store-buy.c  | 3 ++-
+ src/borg/borg-store-sell.c | 3 ++-
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-store-buy.c b/src/borg/borg-store-buy.c
+index f646863e5..81f22c79f 100644
+--- a/src/borg/borg-store-buy.c
++++ b/src/borg/borg-store-buy.c
+@@ -1233,8 +1233,9 @@ bool borg_think_shop_buy(void)
+         bought_item_tval[bought_item_nxt]  = item->tval;
+         bought_item_sval[bought_item_nxt]  = item->sval;
+         bought_item_store[bought_item_nxt] = borg.goal.shop;
+-        bought_item_num                    = bought_item_nxt;
+         bought_item_nxt++;
++        if (bought_item_num < bought_item_nxt)
++            bought_item_num = bought_item_nxt;
+ 
+         /* The purchase is complete */
+         borg.goal.shop = borg.goal.ware = borg.goal.item = -1;
+diff --git a/src/borg/borg-store-sell.c b/src/borg/borg-store-sell.c
+index 906d5826a..bd681e9af 100644
+--- a/src/borg/borg-store-sell.c
++++ b/src/borg/borg-store-sell.c
+@@ -1131,8 +1131,9 @@ bool borg_think_shop_sell(void)
+         sold_item_tval[sold_item_nxt]  = item->tval;
+         sold_item_sval[sold_item_nxt]  = item->sval;
+         sold_item_store[sold_item_nxt] = borg.goal.shop;
+-        sold_item_num                  = sold_item_nxt;
+         sold_item_nxt++;
++        if (sold_item_num < sold_item_nxt)
++            sold_item_num = sold_item_nxt;
+ 
+         /* The purchase is complete */
+         borg.goal.shop = borg.goal.ware = borg.goal.item = -1;
+-- 
+2.53.0
+
