@@ -1,0 +1,705 @@
+BORG 4003 # PAIN:The giant yellow centipede (+)
+BORG 4003 # PAIN:The giant yellow centipede (+)
+BORG 4003 # PAIN:The wild dog (+)
+BORG 4003 # Tracking a monster 'wild dog' at (31,12) from (32,13)
+BORG 4003 # Tracking a monster 'giant yellow centipede' at (31,14) from (32,15)
+BORG 4003 # Tracking a monster 'crow' at (29,12) from (30,10)
+BORG 4003 # PAIN:The giant yellow centipede (2)
+BORG 4003 # PAIN:The giant yellow centipede (2)
+BORG 4003 # PAIN:The wild dog (2)
+BORG 4003 # Performing attack type 38 with value 12.
+BORG 4003 # Targeting wild dog who has 3 Hit Points (31,13).
+BORG 4003 # Casting Nether Bolt (0,0).
+BORG 4013 # DIED:The wild dog (+)
+BORG 4013 # Forgetting a monster 'wild dog' at (31,13)
+BORG 4013 # Tracking a monster 'wild dog' at (30,13) from (31,12)
+BORG 4013 # Tracking a monster 'crow' at (28,14) from (29,12)
+BORG 4013 # Tracking a monster 'giant yellow centipede' at (33,12) from (31,14)
+BORG 4013 # DIED:The wild dog (2)
+BORG 4013 # Loc:28,15 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=21
+BORG 4013 # Fleeing (excessive danger)
+BORG 4013 # Leaving (failed to teleport)
+BORG 4013 # Performing attack type 1 with value 31.
+BORG 4013 # Facing crow at (28,14) who has 8 Hit Points.
+BORG 4013 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 4023 # HIT:the crow (+)
+BORG 4023 # PAIN:The crow (+)
+BORG 4023 # Tracking a monster 'wild dog' at (29,14) from (30,13)
+BORG 4023 # Tracking a monster 'crow' at (31,11) from (28,14)
+BORG 4023 # HIT:the crow (2)
+BORG 4023 # PAIN:The crow (2)
+BORG 4023 # There was a monster 'giant yellow centipede' at (33,12)
+BORG 4023 # Forgetting a monster 'giant yellow centipede' at (33,12)
+BORG 4023 # Loc:28,15 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+BORG 4023 # Performing attack type 1 with value 7.
+BORG 4023 # Facing wild dog at (29,14) who has 3 Hit Points.
+BORG 4023 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 4032 # HIT:the wild dog (+)
+BORG 4032 # PAIN:The wild dog (+)
+BORG 4032 # PAIN:The wild dog (+)
+BORG 4032 # Tracking a monster 'wild dog' at (30,13) from (29,14)
+BORG 4032 # Tracking a monster 'crow' at (32,11) from (31,11)
+BORG 4032 # HIT:the wild dog (2)
+BORG 4032 # PAIN:The wild dog (2)
+BORG 4032 # PAIN:The wild dog (2)
+BORG 4032 # Loc:28,15 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=2
+BORG 4032 # Fleeing and leaving the level. (Looking for any stair)
+BORG 4032 # Flowing toward item at cost 6
+BORG 4042 # Tracking a monster 'wild dog' at (31,13) from (30,13)
+BORG 4042 # Tracking a monster 'wild dog' at (30,14) from (32,14)
+BORG 4042 # There was a monster 'crow' at (32,11)
+BORG 4042 # Forgetting a monster 'crow' at (32,11)
+BORG 4042 # Loc:28,14 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=2
+BORG 4052 # Tracking a monster 'wild dog' at (29,14) from (30,14)
+BORG 4052 # Tracking a monster 'wild dog' at (32,13) from (31,13)
+BORG 4052 # Loc:28,13 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+BORG 4052 # Retreating to 32,7 (distance 6) via 28,12 (4 > 0)
+BORG 4062 # Tracking a monster 'wild dog' at (28,13) from (29,14)
+BORG 4062 # Tracking a monster 'wild dog' at (33,12) from (32,13)
+BORG 4062 # Loc:28,12 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+BORG 4062 # Retreating to 32,7 (distance 5) via 28,11 (4 > 0)
+BORG 4072 # Tracking a monster 'wild dog' at (28,12) from (28,13)
+BORG 4072 # There was a monster 'wild dog' at (33,12)
+BORG 4072 # Forgetting a monster 'wild dog' at (33,12)
+BORG 4072 # Loc:28,11 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+BORG 4072 # Retreating to 32,7 (distance 4) via 29,10 (4 > 0)
+BORG 4082 # Tracking a monster 'wild dog' at (28,11) from (28,12)
+BORG 4082 # Loc:29,10 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+BORG 4082 # Retreating to 32,7 (distance 3) via 30,9 (4 > 0)
+BORG 4092 # Tracking a monster 'wild dog' at (29,10) from (28,11)
+BORG 4092 # Loc:30,9 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+BORG 4092 # Retreating to 32,7 (distance 2) via 31,8 (4 > 0)
+BORG 4102 # Tracking a monster 'wild dog' at (29,9) from (29,10)
+BORG 4102 # Loc:31,8 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=2
+BORG 4102 # Fleeing and leaving the level. (Looking for any stair)
+BORG 4102 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 4102 # heading up (bored and unable to dive: Clevel < depth)
+BORG 4102 # Looking for up stairs.  Going up.
+BORG 4102 # Bored but unable to flow to up stairs.
+BORG 4102 # Boosting bravery (1) from 10 to 20!
+BORG 4102 # Flowing toward up-stairs at cost 61
+BORG 4102 # Looking for stairs. Goal_less, brave.
+BORG 4112 # Tracking a monster 'wild dog' at (30,9) from (29,9)
+BORG 4112 # Loc:31,9 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+BORG 4112 # Performing attack type 1 with value 7.
+BORG 4112 # Facing wild dog at (30,9) who has 3 Hit Points.
+BORG 4112 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 4122 # HIT:the wild dog (+)
+BORG 4122 # PAIN:The wild dog (+)
+BORG 4122 # Tracking a monster 'wild dog' at (31,10) from (30,9)
+BORG 4122 # HIT:the wild dog (2)
+BORG 4122 # PAIN:The wild dog (2)
+BORG 4122 # Loc:31,9 Dep:1 Lev:1 HP:11/12 SP:0/2 Danger:p=4
+BORG 4122 # Walking into a 'wild dog' at (31,10)
+BORG 4131 # HIT:the wild dog (+)
+BORG 4131 # KILL:the wild dog (+)
+BORG 4131 # Forgetting a monster 'wild dog' at (31,10)
+BORG 4131 # HIT:the wild dog (2)
+BORG 4131 # KILL:the wild dog (2)
+BORG 4131 # Flowing toward item at cost 3
+BORG 4151 # Walking onto and deleting a 'Boldness' at (28,9)
+BORG 4162 # Creating a monster 'crow' at (33,12), HP: 4, Index: 52
+BORG 4162 # Removing Regional Fear (33,12) because of a LOS crow
+BORG 4162 # Resting to recover HP/SP...
+BORG 4172 # Tracking a monster 'crow' at (31,10) from (33,12)
+BORG 4172 # Fleeing and leaving the level. (Looking for any stair)
+BORG 4172 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 4172 # heading up (bored and unable to dive: Clevel < depth)
+BORG 4172 # Looking for up stairs.  Going up.
+BORG 4172 # Bored but unable to flow to up stairs.
+BORG 4172 # Boosting bravery (1) from 11 to 22!
+BORG 4172 # Flowing toward up-stairs at cost 63
+BORG 4172 # Looking for stairs. Goal_less, brave.
+BORG 4182 # Tracking a monster 'crow' at (29,10) from (31,10)
+BORG 4182 # Loc:28,10 Dep:1 Lev:1 HP:11/12 SP:0/2 Danger:p=18
+BORG 4182 # Performing attack type 1 with value 31.
+BORG 4182 # Facing crow at (29,10) who has 4 Hit Points.
+BORG 4182 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 4192 # HIT:the crow (+)
+BORG 4192 # HIT_BY:The crow (+)
+BORG 4192 # HIT_BY:The crow (+)
+BORG 4192 # HIT_BY:The crow (+)
+BORG 4192 # HIT_BY:The crow (+)
+BORG 4192 # HIT:the crow (2)
+BORG 4192 # HIT_BY:The crow (3)
+BORG 4192 # HIT_BY:The crow (3)
+BORG 4192 # HIT_BY:The crow (3)
+BORG 4192 # HIT_BY:The crow (3)
+BORG 4192 # Loc:28,10 Dep:1 Lev:1 HP:5/12 SP:0/2 Danger:p=18
+BORG 4192 # Performing attack type 1 with value 31.
+BORG 4192 # Facing crow at (29,10) who has 4 Hit Points.
+BORG 4192 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+
+[Terminal native state/cause]
+STATE death turn=4199 energy=43300 decisions=318 depth=1 max_depth=1 level=1 max_level=1 hp=-1 dead=1 winner=0 borg_rng=2872070873 quick=0 quick_rng=2198406995 rng_index=4 rng=c148fda01ef8ca8c8c76fdb5fb311b46ade8a8984d7ecef27fabc595845b5120f7b31c0d57838bff03a2ac9fd3d0f633cddf6767ff758564ba535c9572802d00239c50ddecec69484d78a2ca900d40c9746ef4c33e76a71f58d619903cd92c26abb53f8165783e6176ac0c8f52dfebbf47f700bbbafcd0ef9caf787aad50519e
+CAUSE a crow
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE  
+MESSAGE   
+MESSAGE ====================
+MESSAGE   
+MESSAGE  
+MESSAGE You can learn 1 more ritual.
+MESSAGE You are about to use the dangerous, unsupported, borg commands!
+MESSAGE Your machine may crash, and your savefile may become corrupted!
+MESSAGE Initializing the Borg... (memory)
+MESSAGE Initializing the Borg... (borg.txt)
+MESSAGE Initializing the Borg... (options)
+MESSAGE Initializing the Borg... (various)
+MESSAGE Initializing the Borg... done.
+MESSAGE # Ready...
+MESSAGE # Installing keypress hook
+MESSAGE # Standing on dn-stairs
+MESSAGE # Studying spell/prayer Nether Bolt.
+MESSAGE You have learned the ritual of Nether Bolt.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Flowing toward General Store at cost 13
+MESSAGE # Creating a monster 'Farmer Maggot' at (13,10), HP: 350, Index: 4
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Flowing toward General Store at cost 13
+MESSAGE # Entering a '0' shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Agreed!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 3 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 4 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 5 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Done!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 6 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE "Never underestimate monsters you haven't fought before."
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 7 Rations of Food (b).
+MESSAGE # Buying 'Scrolls of Phase Door {unseen}' at 'Alchemy Shop' immediately
+MESSAGE # Flowing toward Alchemy Shop at cost 8
+MESSAGE # Entering a '4' shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Scrolls of Phase Door {unseen}.
+MESSAGE You bought a Scroll titled "adficio ci" for 15 gold.
+MESSAGE You have a Scroll of Phase Door (c).
+MESSAGE # Buying 'Soft Leather Armours [8,+0]' at 'Armoury' immediately
+MESSAGE # Flowing toward Armoury at cost 20
+MESSAGE # Creating a monster 'battle-scarred veteran' at (7,48), HP: 33, Index: 14
+MESSAGE # Removing Regional Fear (7,48) because of a LOS battle-scarred veteran
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 8
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Creating a monster 'scrawny cat' at (13,20), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (13,20) because of a LOS scrawny cat
+MESSAGE # Creating a monster 'scrawny cat' at (12,21), HP: 2, Index: 2
+MESSAGE # Removing Regional Fear (12,21) because of a LOS scrawny cat
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 5
+MESSAGE # Tracking a monster 'scrawny cat' at (12,21) from (13,20)
+MESSAGE # Tracking a monster 'scrawny cat' at (11,20) from (12,21)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'scrawny cat' at (11,21) from (12,21)
+MESSAGE # Tracking a monster 'scrawny cat' at (10,21) from (11,20)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'scrawny cat' at (10,21) from (11,21)
+MESSAGE # Tracking a monster 'scrawny cat' at (9,21) from (10,21)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Tracking a monster 'scrawny cat' at (9,21) from (10,21)
+MESSAGE # Tracking a monster 'scrawny cat' at (8,21) from (9,21)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Tracking a monster 'scrawny cat' at (8,21) from (9,21)
+MESSAGE # Tracking a monster 'scrawny cat' at (7,21) from (8,21)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Buying 'Soft Leather Armours [8,+0]' at 'Armoury' immediately
+MESSAGE # Flowing toward Armoury at cost 17
+MESSAGE # Creating a monster 'aimless-looking merchant' at (10,9), HP: 6, Index: 12
+MESSAGE # Removing Regional Fear (10,9) because of a LOS aimless-looking merchant
+MESSAGE # Flowing toward Armoury at cost 13
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Soft Leather Armours [8,+0].
+MESSAGE Done!
+MESSAGE You bought Soft Leather Armour [8,+0] for 84 gold.
+MESSAGE You have Soft Leather Armour [8,+0] (e).
+MESSAGE # Wearing Soft Leather Armour [8,+0].
+MESSAGE You are wearing Soft Leather Armour [8,+0] (g).
+MESSAGE # Buying 'Leather Shields [8,+0]' at 'Armoury' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Leather Shields [8,+0].
+MESSAGE You bought a Leather Shield [8,+0] for 66 gold.
+MESSAGE You have a Leather Shield [8,+0] (e).
+MESSAGE # Wearing Leather Shield [8,+0].
+MESSAGE You are wearing a Leather Shield [8,+0] (m).
+MESSAGE # Buying 'Ring of Searching {unseen}' at 'Magic Shop' immediately
+MESSAGE # Flowing toward Magic Shop at cost 5
+MESSAGE # Creating a monster 'aimless-looking merchant' at (12,49), HP: 5, Index: 12
+MESSAGE # Removing Regional Fear (12,49) because of a LOS aimless-looking merchant
+MESSAGE # Flowing toward Magic Shop at cost 3
+MESSAGE # Entering a '5' shop
+MESSAGE # Currently in preferred store '6'.
+MESSAGE # Buying Ring of Searching {unseen}.
+MESSAGE You bought a Quartzite Ring {??} for 66 gold.
+MESSAGE You have learned the rune of searching skill.
+MESSAGE You have a Ring of Searching <+1> (e).
+MESSAGE # Putting on best tight ring.
+MESSAGE # Wearing Ring of Searching <+1>.
+MESSAGE You are wearing a Ring of Searching <+1> (c).
+MESSAGE # Buying 'Ring of Feather Falling {unseen}' at 'Magic Shop' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '6'.
+MESSAGE # Buying Ring of Feather Falling {unseen}.
+MESSAGE You bought a Rhodonite Ring {??} for 50 gold.
+MESSAGE You have learned the rune of feather falling.
+MESSAGE You have a Ring of Feather Falling (e).
+MESSAGE # Wearing Ring of Feather Falling.
+MESSAGE You are wearing a Ring of Feather Falling (d).
+MESSAGE # Flowing toward Home at cost 11
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Scroll of Word of Recall' to the home
+MESSAGE # Currently in preferred store '8'.
+MESSAGE # Selling Scroll of Word of Recall
+MESSAGE You drop a Scroll of Word of Recall (d).
+MESSAGE # Buying 'Sets of Gauntlets [3,+0]'(n) at 'Armoury' (for player 'b')
+MESSAGE # Flowing toward Armoury at cost 6
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Sets of Gauntlets [3,+0].
+MESSAGE Taken!
+MESSAGE You bought a Set of Gauntlets [3,+0] for 24 gold.
+MESSAGE You have a Set of Gauntlets [3,+0] (d).
+MESSAGE # Wearing Set of Gauntlets [3,+0].
+MESSAGE You are wearing a Set of Gauntlets [3,+0] (o).
+MESSAGE # Buying 'Potions of Cure Light Wounds {unseen}'(a) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Flowing toward Alchemy Shop at cost 20
+MESSAGE # Entering a '7' shop
+MESSAGE # Currently in store '8' would prefer '5'.
+MESSAGE # Buying 'Potions of Cure Light Wounds {unseen}'(a) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Flowing toward Alchemy Shop at cost 14
+MESSAGE # Entering a '4' shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Potions of Cure Light Wounds {unseen}.
+MESSAGE Done!
+MESSAGE You bought a Green Potion for 20 gold.
+MESSAGE You have a Potion of Cure Light Wounds (c).
+MESSAGE # Buying 'Potions of Cure Light Wounds'(a) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Potions of Cure Light Wounds.
+MESSAGE You bought a Potion of Cure Light Wounds for 20 gold.
+MESSAGE You have 2 Potions of Cure Light Wounds (c).
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 9
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 11
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'battle-scarred veteran' at (17,24), HP: 36, Index: 14
+MESSAGE # Removing Regional Fear (17,24) because of a LOS battle-scarred veteran
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'boil-covered wretch' at (8,25), HP: 2, Index: 6
+MESSAGE # Removing Regional Fear (8,25) because of a LOS boil-covered wretch
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 11
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE The grey mold releases spores at you.
+MESSAGE # HIT_BY:The grey mold (+)
+MESSAGE # Creating a monster 'grey mold' at (16,23), HP: 2, Index: 17
+MESSAGE # Removing Regional Fear (16,23) because of a LOS grey mold
+MESSAGE # HIT_BY:The grey mold (4)
+MESSAGE # Loc:17,22 Dep:1 Lev:1 HP:9/12 SP:2/2 Danger:p=16
+MESSAGE # Retreating to 18,22 (distance 1) via 18,22 (16 > 0)
+MESSAGE # Performing attack type 38 with value 8.
+MESSAGE # Targeting grey mold who has 2 Hit Points (16,23).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You hear a scream of agony!
+MESSAGE # DIED:You hear a (+)
+MESSAGE # Assuming player ghost (You hear a) (a)
+MESSAGE # DIED:You hear a (0)
+MESSAGE # Flowing toward spastic at cost 3
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Spastic Searching at (22,21)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Spastic Searching at (22,19)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 11
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating an object 'Detect Invisible' at (118,56)
+MESSAGE # Creating an object '[Into the Shadows]' at (120,55)
+MESSAGE # Creating a monster 'floating eye' at (55,123), HP: 9, Index: 27
+MESSAGE # Removing Regional Fear (55,123) because of a LOS floating eye
+MESSAGE # Flowing toward item at cost 10
+MESSAGE The floating eye wakes up.
+MESSAGE # PAIN:The floating eye (+)
+MESSAGE # PAIN:The floating eye (2)
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting floating eye who has 9 Hit Points (55,123).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The floating eye writhes in agony.
+MESSAGE # PAIN:The floating eye (+)
+MESSAGE # PAIN:The floating eye (2)
+MESSAGE # Walking onto and deleting a 'Detect Invisible' at (56,118)
+MESSAGE You have 3 Scrolls titled "pons aus excus" (e).
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '[Into the Shadows]' at (55,120)
+MESSAGE You have 2 Necromantic Tomes [Into the Shadows] (a).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward spastic at cost 12
+MESSAGE # Performing attack type 38 with value 4.
+MESSAGE # Targeting floating eye who has 1 Hit Points (55,123).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The floating eye dies.
+MESSAGE # DIED:The floating eye (+)
+MESSAGE # Forgetting a monster 'floating eye' at (55,123)
+MESSAGE # DIED:The floating eye (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-4 at cost 7
+MESSAGE You feel that there may be something worthwhile here.
+MESSAGE # FEELING_STUFF:6 (+)
+MESSAGE # FEELING_STUFF:6 (1)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Spent too long (59) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 11
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating an object '& Pair~ of Leather Sandals' at (48,14)
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE You hit a teleport trap!
+MESSAGE The crow bites you.
+MESSAGE The crow misses you.
+MESSAGE # HIT_BY:The crow (+)
+MESSAGE # MISS_BY:The crow (+)
+MESSAGE # Creating an object 'Boldness' at (9,28)
+MESSAGE # Creating a monster 'wild dog' at (32,14), HP: 3, Index: 29
+MESSAGE # Removing Regional Fear (32,14) because of a LOS wild dog
+MESSAGE # Creating a monster 'wild dog' at (32,13), HP: 3, Index: 29
+MESSAGE # Removing Regional Fear (32,13) because of a LOS wild dog
+MESSAGE # Creating a monster 'crow' at (32,8), HP: 8, Index: 52
+MESSAGE # Removing Regional Fear (32,8) because of a LOS crow
+MESSAGE # Creating a monster 'wild dog' at (31,13), HP: 3, Index: 29
+MESSAGE # Removing Regional Fear (31,13) because of a LOS wild dog
+MESSAGE # Creating a monster 'giant yellow centipede' at (32,15), HP: 7, Index: 19
+MESSAGE # Removing Regional Fear (32,15) because of a LOS giant yellow centipede
+MESSAGE # HIT_BY:The crow (4)
+MESSAGE # MISS_BY:The crow (4)
+MESSAGE # Return to Stair (wandered too far.  Leash: 17)
+MESSAGE # Loc:32,7 Dep:1 Lev:1 HP:10/12 SP:2/2 Danger:p=18
+MESSAGE # Safe to Phase. scary squares: 22
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have no more Scrolls of Phase Door (d).
+MESSAGE The wild dog wakes up.
+MESSAGE # PAIN:The wild dog (+)
+MESSAGE # Tracking a monster 'crow' at (30,10) from (32,8)
+MESSAGE # PAIN:The wild dog (2)
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting giant yellow centipede who has 7 Hit Points (32,15).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The giant yellow centipede jerks limply.
+MESSAGE The giant yellow centipede flees in terror!
+MESSAGE The wild dog wakes up.
+MESSAGE # PAIN:The giant yellow centipede (+)
+MESSAGE # PAIN:The wild dog (+)
+MESSAGE # Tracking a monster 'wild dog' at (31,12) from (32,13)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (31,14) from (32,15)
+MESSAGE # Tracking a monster 'crow' at (29,12) from (30,10)
+MESSAGE # PAIN:The giant yellow centipede (2)
+MESSAGE # PAIN:The wild dog (2)
+MESSAGE # Performing attack type 38 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (31,13).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The wild dog dies.
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (31,13)
+MESSAGE # Tracking a monster 'wild dog' at (30,13) from (31,12)
+MESSAGE # Tracking a monster 'crow' at (28,14) from (29,12)
+MESSAGE # Tracking a monster 'giant yellow centipede' at (33,12) from (31,14)
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # Loc:28,15 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=21
+MESSAGE # Fleeing (excessive danger)
+MESSAGE # Leaving (failed to teleport)
+MESSAGE # Performing attack type 1 with value 31.
+MESSAGE # Facing crow at (28,14) who has 8 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the crow.
+MESSAGE The crow flees in terror!
+MESSAGE # HIT:the crow (+)
+MESSAGE # PAIN:The crow (+)
+MESSAGE # Tracking a monster 'wild dog' at (29,14) from (30,13)
+MESSAGE # Tracking a monster 'crow' at (31,11) from (28,14)
+MESSAGE # HIT:the crow (2)
+MESSAGE # PAIN:The crow (2)
+MESSAGE # There was a monster 'giant yellow centipede' at (33,12)
+MESSAGE # Forgetting a monster 'giant yellow centipede' at (33,12)
+MESSAGE # Loc:28,15 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+MESSAGE # Performing attack type 1 with value 7.
+MESSAGE # Facing wild dog at (29,14) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the wild dog.
+MESSAGE The wild dog flees in terror!
+MESSAGE The wild dog wakes up.
+MESSAGE # HIT:the wild dog (+)
+MESSAGE # PAIN:The wild dog (+)
+MESSAGE # Tracking a monster 'wild dog' at (30,13) from (29,14)
+MESSAGE # Tracking a monster 'crow' at (32,11) from (31,11)
+MESSAGE # HIT:the wild dog (2)
+MESSAGE # PAIN:The wild dog (2)
+MESSAGE # Loc:28,15 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=2
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward item at cost 6
+MESSAGE # Tracking a monster 'wild dog' at (31,13) from (30,13)
+MESSAGE # Tracking a monster 'wild dog' at (30,14) from (32,14)
+MESSAGE # There was a monster 'crow' at (32,11)
+MESSAGE # Forgetting a monster 'crow' at (32,11)
+MESSAGE # Loc:28,14 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=2
+MESSAGE # Tracking a monster 'wild dog' at (29,14) from (30,14)
+MESSAGE # Tracking a monster 'wild dog' at (32,13) from (31,13)
+MESSAGE # Loc:28,13 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 32,7 (distance 6) via 28,12 (4 > 0)
+MESSAGE # Tracking a monster 'wild dog' at (28,13) from (29,14)
+MESSAGE # Tracking a monster 'wild dog' at (33,12) from (32,13)
+MESSAGE # Loc:28,12 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 32,7 (distance 5) via 28,11 (4 > 0)
+MESSAGE # Tracking a monster 'wild dog' at (28,12) from (28,13)
+MESSAGE # There was a monster 'wild dog' at (33,12)
+MESSAGE # Forgetting a monster 'wild dog' at (33,12)
+MESSAGE # Loc:28,11 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 32,7 (distance 4) via 29,10 (4 > 0)
+MESSAGE # Tracking a monster 'wild dog' at (28,11) from (28,12)
+MESSAGE # Loc:29,10 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 32,7 (distance 3) via 30,9 (4 > 0)
+MESSAGE # Tracking a monster 'wild dog' at (29,10) from (28,11)
+MESSAGE # Loc:30,9 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 32,7 (distance 2) via 31,8 (4 > 0)
+MESSAGE # Tracking a monster 'wild dog' at (29,9) from (29,10)
+MESSAGE # Loc:31,8 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=2
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 10 to 20!
+MESSAGE # Flowing toward up-stairs at cost 61
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Tracking a monster 'wild dog' at (30,9) from (29,9)
+MESSAGE # Loc:31,9 Dep:1 Lev:1 HP:10/12 SP:0/2 Danger:p=4
+MESSAGE # Performing attack type 1 with value 7.
+MESSAGE # Facing wild dog at (30,9) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the wild dog.
+MESSAGE The wild dog flees in terror!
+MESSAGE # HIT:the wild dog (+)
+MESSAGE # PAIN:The wild dog (+)
+MESSAGE # Tracking a monster 'wild dog' at (31,10) from (30,9)
+MESSAGE # HIT:the wild dog (2)
+MESSAGE # PAIN:The wild dog (2)
+MESSAGE # Loc:31,9 Dep:1 Lev:1 HP:11/12 SP:0/2 Danger:p=4
+MESSAGE # Walking into a 'wild dog' at (31,10)
+MESSAGE You hit the wild dog.
+MESSAGE You have slain the wild dog.
+MESSAGE # HIT:the wild dog (+)
+MESSAGE # KILL:the wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (31,10)
+MESSAGE # HIT:the wild dog (2)
+MESSAGE # KILL:the wild dog (2)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a 'Boldness' at (28,9)
+MESSAGE You have a Mustard Yellow Potion (d).
+MESSAGE # Creating a monster 'crow' at (33,12), HP: 4, Index: 52
+MESSAGE # Removing Regional Fear (33,12) because of a LOS crow
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'crow' at (31,10) from (33,12)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 11 to 22!
+MESSAGE # Flowing toward up-stairs at cost 63
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Tracking a monster 'crow' at (29,10) from (31,10)
+MESSAGE # Loc:28,10 Dep:1 Lev:1 HP:11/12 SP:0/2 Danger:p=18
+MESSAGE # Performing attack type 1 with value 31.
+MESSAGE # Facing crow at (29,10) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the crow.
+MESSAGE The crow bites you.
+MESSAGE # HIT:the crow (+)
+MESSAGE # HIT_BY:The crow (+)
+MESSAGE # HIT:the crow (2)
+MESSAGE # HIT_BY:The crow (3)
+MESSAGE # Loc:28,10 Dep:1 Lev:1 HP:5/12 SP:0/2 Danger:p=18
+MESSAGE # Performing attack type 1 with value 31.
+MESSAGE # Facing crow at (29,10) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You miss the crow.
+MESSAGE The crow misses you.
+MESSAGE The crow bites you.
+MESSAGE You die.

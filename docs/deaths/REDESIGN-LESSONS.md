@@ -5,9 +5,9 @@ designing a new Angband automaton. This document distils the reviewed deaths in 
 repository into design requirements. It does not ask for C patches. Every lesson links back
 to its evidence. Read the linked dossier before relying on a detail.
 
-Snapshot: 2026-11-09. It covers the reviewed cases **D0001–D0015**, which are 12 distinct
+Snapshot: 2026-11-09. It covers the reviewed cases **D0001–D0016**, which are 13 distinct
 starting conditions; D0003–D0005 are reference replays of D0002. It includes four verified
-owner manual takeovers. Later dossiers (D0016+) are not yet reviewed. Update this file when
+owner manual takeovers. Later dossiers (D0017+) are not yet reviewed. Update this file when
 they are.
 
 ## How to read the evidence
@@ -39,6 +39,7 @@ learned lore. A redesign must decide explicitly whether it may use that spoiler 
 | [D0013](D0013-collected/report.md) | Dunadan Druid CL1 | DL1 | small kobold | survived (fled ant) | [#332](https://github.com/diegoami/better-borg-c/issues/332) |
 | [D0014](D0014-collected/report.md) | High-Elf Rogue CL11 | DL20 | blood falcon | survived (Speed, CLW, detection) | [#341](https://github.com/diegoami/better-borg-c/issues/341) |
 | [D0015](D0015-collected/report.md) | Dunadan Necromancer CL1 | DL1 | Fang | died (from 4118); re-shop from turn 1 survived | [#348](https://github.com/diegoami/better-borg-c/issues/348) |
+| [D0016](D0016-collected/report.md) | Human Necromancer CL1 | DL1 | crow (after a teleport trap) | pending | [#353](https://github.com/diegoami/better-borg-c/issues/353) |
 
 What the owner keeps saying, across reviews: the Borg had the tools and the knowledge, but
 its decision layers did not use them, or worked against each other.
@@ -177,6 +178,7 @@ using them are tuned for low danger.
 | D0007 | 5 known CLW (and a ready Phase spell) | HP 2 |
 | D0011 | 8 known CLW, 2 Speed | HP 42 → 11 against a griffon |
 | D0014 | **21 known CLW, 5 Speed** | danger 399–1325 |
+| D0016 | 2 known CLW | HP 5/12 against a speed +20 crow, while fleeing |
 
 **Source-checked mechanisms.**
 - **Speed** (`borg_defend_aux_speed`): a potion is drunk only if the hasted danger falls to
@@ -239,7 +241,8 @@ turns.
   and **563** "no up stairs found, going down" fallbacks.
 - **D0014:** about 21k turns on DL20.
 - **D0009:** D5/D6 cycling while starving.
-- Recall was deposited at Home and never carried in D0006 and D0009.
+- The starting Word of Recall was deposited at Home and never carried in D0006, D0009, D0015 and
+  D0016.
 
 **Source-checked.** With no known up staircase, the climb goal takes a down staircase ("go
 down then back up"). With connected stairs this can cycle without progress
@@ -270,6 +273,9 @@ Issues: [#321](https://github.com/diegoami/better-borg-c/issues/321),
   and returned with 926 gold. Owner: "buying the right gear at the shop at the beginning is
   half the battle." Use this as a reference starting loadout.
 - **D0001:** Phase Door was stored at Home while spare weapons and armour were carried.
+- **D0016:** about 290 of 360 starting gold went on armour and two unidentified rings (they
+  were Searching and Feather Falling), with one Phase Door and two CLW. Owner: "inventory is
+  definitely an area a borg reborn should work on."
 - **D0011:** died carrying 4 Rings of Searching, 9 spare torches and sandals, with no Phase
   Door, Recall or teleport.
 - **D0006, D0014:** slings carried with **no ammunition**.

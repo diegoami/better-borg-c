@@ -4,7 +4,7 @@ Bugs always take priority. Each natural death gets a curated dossier with its ac
 
 To comment, open **Discuss** beside the case below. The linked GitHub investigation is the durable feedback thread; suggestions are checked against evidence and linked to actions. See [the feedback process](FEEDBACK.md). Chat feedback is copied there before it is considered tracked.
 
-Dossiers: 15; distinct starting conditions: 12; recorded death process attempts: 23 (including repeats/reference variants). This registry is not a survival-rate estimate.
+Dossiers: 16; distinct starting conditions: 13; recorded death process attempts: 24 (including repeats/reference variants). This registry is not a survival-rate estimate.
 
 | Case | Discussion | Actual source | Seed | Raw cause | Death turn | Diagnosis |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -23,15 +23,16 @@ Dossiers: 15; distinct starting conditions: 12; recorded death process attempts:
 | [D0013](D0013-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/332) | `867c777845fd` | 1907608238 | a small kobold | 3716 | escape-order, scary-list flight and stock investigation; owner's verified manual branch survives by disengaging from the ant; no reusable original-C defect established |
 | [D0014](D0014-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/341) | `867c777845fd` | 1907608242 | a blood falcon | 306771 | deep-descent depth, escape and emergency-resource investigation; owner's verified manual branch survives with Speed, CLW and detection; no reusable original-C defect established |
 | [D0015](D0015-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/348) | `867c777845fd` | 1907608243 | Fang, Farmer Maggot's Dog | 4158 | preparation failure (330 of 357 starting gold on AC) plus deliberate no-dash rule; owner's verified retry at 4118 dies, owner's verified re-shop from turn 1 survives a DL1 tour with 926 gold; no reusable original-C defect established |
+| [D0016](D0016-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/353) | `5cd2258dd78d` | 2993630921 | a crow | 4199 | teleport-trap exposure, fleeing-mode healing gates and starting-inventory investigation; source-checked with native evidence; no reusable original-C defect established |
 
 ## Aggregated actions
 
 - [Observe actual existing speed-defense eligibility and p1/p2 in the pre-fight state](https://github.com/diegoami/better-borg-c/issues/22) — investigate before changing policy; cases D0001.
 - [Trace last Home/town decisions and escape-stock constraints](https://github.com/diegoami/better-borg-c/issues/22) — investigate before changing policy; cases D0001.
 - [Compare pristine upstream versus carried build](https://github.com/diegoami/better-borg-c/issues/22) — completed: identical death/trace; does not establish a defect; cases D0001.
-- [Evaluate survival-resource reserves/restocking priority over spare equipment](https://github.com/diegoami/better-borg-c/issues/41) — recorded owner priority; proposal, not implemented; cases D0001, D0013, D0015.
+- [Evaluate survival-resource reserves/restocking priority over spare equipment](https://github.com/diegoami/better-borg-c/issues/41) — recorded owner priority; proposal, not implemented; cases D0001, D0013, D0015, D0016.
 - [Audit delayed Deep Descent escape from depth2/max7 and restock/preparedness before depth12](https://github.com/diegoami/better-borg-c/issues/22) — investigating recorded original-rule behavior; no defect established; cases D0001.
-- [Observe existing heal eligibility/call order and fleeing flag before the fatal melee](https://github.com/diegoami/better-borg-c/issues/34) — investigate before changing policy; cases D0002, D0003, D0004, D0005, D0006, D0007, D0012, D0014.
+- [Observe existing heal eligibility/call order and fleeing flag before the fatal melee](https://github.com/diegoami/better-borg-c/issues/34) — investigate before changing policy; cases D0002, D0003, D0004, D0005, D0006, D0007, D0012, D0014, D0016.
 - [Trace why Phase Door was exhausted and whether earlier escape was legally available](https://github.com/diegoami/better-borg-c/issues/34) — investigate before changing policy; cases D0002.
 - [Compare pristine upstream versus carried build](https://github.com/diegoami/better-borg-c/issues/34) — completed: pristine/five-carry identical trace; same death on six-carry; no defect established; cases D0002.
 - [Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3](https://github.com/diegoami/better-borg-c/issues/34) — recorded owner observation; needs native causal investigation; cases D0002, D0003, D0004, D0005.
