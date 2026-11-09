@@ -1,0 +1,2167 @@
+BORG 306683 # Creating an object 'copper' at (72,37)
+BORG 306683 # heading up, not prep for current level: restock tele + tele staff < 2)
+BORG 306683 # Climbing (too deep: restock tele + tele staff < 2)
+BORG 306683 # returning to town to restock(too deep: restock tele + tele staff < 2)
+BORG 306683 # Looking for up stairs.  Going up.
+BORG 306683 # Bored but unable to flow to up stairs.
+BORG 306683 # no up stairs found, going down
+BORG 306683 # Flowing toward item at cost 1
+BORG 306683 # Walking onto and deleting a 'copper' at (37,72)
+BORG 306693 # heading up, not prep for current level: restock tele + tele staff < 2)
+BORG 306693 # Climbing (too deep: restock tele + tele staff < 2)
+BORG 306693 # returning to town to restock(too deep: restock tele + tele staff < 2)
+BORG 306693 # Looking for up stairs.  Going up.
+BORG 306693 # Bored but unable to flow to up stairs.
+BORG 306693 # no up stairs found, going down
+BORG 306693 # Fleeing and leaving the level. (Looking for any stair)
+BORG 306693 # Flowing toward vein at cost 1
+BORG 306693 # Digging through wall/etc
+BORG 306703 # BLINK:The illusionist (+)
+BORG 306703 # Tracking a monster 'blood falcon' at (36,73) from (32,73)
+BORG 306703 # BLINK:The illusionist (0)
+BORG 306703 # Loc:37,72 Dep:20 Lev:10 HP:87/87 SP:9/9 Danger:p=141
+BORG 306703 # Safe to Phase. scary squares: 9
+BORG 306703 # Reading Scroll of Phase Door.
+BORG 306703 # Danger Level 1.
+BORG 306713 # Loc:36,82 Dep:20 Lev:10 HP:87/87 SP:9/9 Danger:p=399
+BORG 306713 # heading up, not prep for current level: restock phase door)
+BORG 306713 # Climbing (too deep: restock phase door)
+BORG 306713 # returning to town to restock(too deep: restock phase door)
+BORG 306713 # Looking for up stairs.  Going up.
+BORG 306713 # Bored but unable to flow to up stairs.
+BORG 306713 # no up stairs found, going down
+BORG 306713 # Performing attack type 1 with value 88.
+BORG 306713 # Facing orc archer at (36,83) who has 71 Hit Points.
+BORG 306713 # Attacking with weapon 'Lance (2d8) (+1,+6) {??}'
+BORG 306721 # PAIN:The orc archer (+)
+BORG 306721 # Tracking a monster 'orc archer' at (37,83) from (36,83)
+BORG 306721 # Tracking a monster 'blood falcon' at (36,79) from (36,73)
+BORG 306721 # PAIN:The orc archer (2)
+BORG 306721 # Loc:36,82 Dep:20 Lev:10 HP:87/87 SP:9/9 Danger:p=1046
+BORG 306721 # heading up, not prep for current level: restock phase door)
+BORG 306721 # Climbing (too deep: restock phase door)
+BORG 306721 # returning to town to restock(too deep: restock phase door)
+BORG 306721 # Looking for up stairs.  Going up.
+BORG 306721 # Bored but unable to flow to up stairs.
+BORG 306721 # no up stairs found, going down
+BORG 306721 # Performing attack type 1 with value 77.
+BORG 306721 # Facing orc archer at (37,83) who has 20 Hit Points.
+BORG 306721 # Attacking with weapon 'Lance of Slay Orc (2d8) (+1,+6)'
+BORG 306728 # MISS:the orc archer (+)
+BORG 306728 # SPELL_005:The orc archer (+)
+BORG 306728 # MISS_BY:The blood falcon (+)
+BORG 306728 # HIT_BY:The blood falcon (+)
+BORG 306728 # HIT_BY:The blood falcon (+)
+BORG 306728 # Tracking a monster 'blood falcon' at (36,81) from (36,79)
+BORG 306728 # MISS:the orc archer (2)
+BORG 306728 # SPELL_005:The orc archer (3)
+BORG 306728 # MISS_BY:The blood falcon (3)
+BORG 306728 # HIT_BY:The blood falcon (3)
+BORG 306728 # HIT_BY:The blood falcon (3)
+BORG 306728 # Loc:36,82 Dep:20 Lev:10 HP:60/87 SP:9/9 Danger:p=1325
+BORG 306728 # heading up, not prep for current level: restock phase door)
+BORG 306728 # Climbing (too deep: restock phase door)
+BORG 306728 # returning to town to restock(too deep: restock phase door)
+BORG 306728 # Looking for up stairs.  Going up.
+BORG 306728 # Bored but unable to flow to up stairs.
+BORG 306728 # no up stairs found, going down
+BORG 306728 # Performing attack type 1 with value 266.
+BORG 306728 # Facing blood falcon at (36,81) who has 5 Hit Points.
+BORG 306728 # Attacking with weapon 'Lance of Slay Orc (2d8) (+1,+6)'
+BORG 306736 # HIT:the blood falcon (+)
+BORG 306736 # KILL:the blood falcon (+)
+BORG 306736 # Forgetting a monster 'blood falcon' at (36,81)
+BORG 306736 # Creating a monster 'illusionist' at (36,75), HP: 50, Index: 183
+BORG 306736 # Removing Regional Fear (36,75) because of a LOS illusionist
+BORG 306736 # HIT:the blood falcon (2)
+BORG 306736 # KILL:the blood falcon (2)
+BORG 306736 # Loc:36,82 Dep:20 Lev:11 HP:60/91 SP:9/10 Danger:p=61
+BORG 306736 # Backing up to 81,36 (61 > 42)
+BORG 306746 # Tracking a monster 'illusionist' at (36,77) from (36,75)
+BORG 306746 # Creating a monster 'blood falcon' at (36,76), HP: 7, Index: 237
+BORG 306746 # Removing Regional Fear (36,76) because of a LOS blood falcon
+BORG 306746 # There was a monster 'orc archer' at (37,83)
+BORG 306746 # Forgetting a monster 'orc archer' at (37,83)
+BORG 306746 # Loc:36,81 Dep:20 Lev:11 HP:60/91 SP:9/10 Danger:p=27
+BORG 306746 # Backing up to 81,35 (27 > 0)
+BORG 306756 # Tracking a monster 'illusionist' at (36,80) from (36,77)
+BORG 306756 # Loc:35,81 Dep:20 Lev:11 HP:61/91 SP:9/10 Danger:p=22
+BORG 306756 # heading up, not prep for current level: restock phase door)
+BORG 306756 # Climbing (too deep: restock phase door)
+BORG 306756 # returning to town to restock(too deep: restock phase door)
+BORG 306756 # Looking for up stairs.  Going up.
+BORG 306756 # Bored but unable to flow to up stairs.
+BORG 306756 # no up stairs found, going down
+BORG 306756 # Performing attack type 1 with value 104.
+BORG 306756 # Facing illusionist at (36,80) who has 50 Hit Points.
+BORG 306756 # Attacking with weapon 'Lance of Slay Orc (2d8) (+1,+6)'
+BORG 306763 # HIT:the illusionist (+)
+BORG 306763 # MISS_BY:The illusionist (+)
+BORG 306763 # HIT_BY:The illusionist (+)
+BORG 306763 # HIT:the illusionist (2)
+BORG 306763 # MISS_BY:The illusionist (3)
+BORG 306763 # HIT_BY:The illusionist (3)
+BORG 306763 # Loc:35,81 Dep:20 Lev:11 HP:59/91 SP:9/10 Danger:p=22
+BORG 306763 # heading up, not prep for current level: restock phase door)
+BORG 306763 # Climbing (too deep: restock phase door)
+BORG 306763 # returning to town to restock(too deep: restock phase door)
+BORG 306763 # Looking for up stairs.  Going up.
+BORG 306763 # Bored but unable to flow to up stairs.
+BORG 306763 # no up stairs found, going down
+BORG 306763 # Performing attack type 1 with value 104.
+BORG 306763 # Facing illusionist at (36,80) who has 33 Hit Points.
+BORG 306763 # Attacking with weapon 'Lance of Slay Orc (2d8) (+1,+6)'
+
+[Terminal native state/cause]
+STATE death turn=306771 energy=3092626 decisions=27225 depth=20 max_depth=20 level=11 max_level=11 hp=-4 dead=1 winner=0 borg_rng=2990966838 quick=0 quick_rng=3621475070 rng_index=15 rng=6b78d74b1b7ac810b4ab1f1f4d0721982701391a9aa92543f25be0c3c2481575c57c1e9aece527351409c0f27f4e25a0259012badb3de9c05199a02e77377c252b57548f4c9190a5749ffcd1308b4b1fd7e3084296ca34ea20bb13eef169ba929a9cc2753abcf577078d79f01b316a6d9b4fb3ffbef836a120255bb5bdce1a2c
+CAUSE a blood falcon
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with treasure with your weapon.
+MESSAGE You have found something digging with your weapon!
+MESSAGE # Creating an object 'silver' at (46,61)
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'silver' at (61,46)
+MESSAGE You have found 355 gold pieces worth of silver.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 2
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with treasure with your weapon.
+MESSAGE You have found something digging with your weapon!
+MESSAGE # Creating an object 'silver' at (41,64)
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'silver' at (64,41)
+MESSAGE You have found 340 gold pieces worth of silver.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 4
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with treasure with your weapon.
+MESSAGE You have found something digging with your weapon!
+MESSAGE # Creating an object 'silver' at (45,62)
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'silver' at (62,45)
+MESSAGE You have found 210 gold pieces worth of silver.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 8
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 2
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object '& Pair~ of Leather Boots' at (40,55)
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Pair~ of Leather Boots' at (55,40)
+MESSAGE You have a Pair of Leather Boots [2,+0] (v).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Dropping junk Pair of Leather Boots [2,+0] (valued at 705)
+MESSAGE Inscribing a Pair of Leather Boots [2,+0].
+MESSAGE You drop a Pair of Leather Boots [2,+0] {borg ignore} (v).
+MESSAGE You have no more Pairs of Leather Boots [2,+0] {borg ignore} (v).
+MESSAGE # Creating an object '& Pair~ of Leather Boots' at (40,55)
+MESSAGE # Destroying floor item Boot~& Pair~ of Leather Boots
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Creating an object '& Broad Axe~' at (37,53)
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Broad Axe~' at (53,37)
+MESSAGE You have a Broad Axe (2d6) (+0,+0) (v).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Dropping junk Broad Axe (2d6) (+0,+0) (valued at 705)
+MESSAGE Inscribing a Broad Axe (2d6) (+0,+0).
+MESSAGE You drop a Broad Axe (2d6) (+0,+0) {borg ignore} (v).
+MESSAGE You have no more Broad Axes (2d6) (+0,+0) {borg ignore} (v).
+MESSAGE # Creating an object '& Broad Axe~' at (37,53)
+MESSAGE # Destroying floor item Polearm~& Broad Axe~
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE You feel that there are only scraps of junk here.
+MESSAGE # FEELING_STUFF:9 (+)
+MESSAGE # Creating a monster 'stonefoot warrior' at (54,32), HP: 57, Index: 144
+MESSAGE # Removing Regional Fear (54,32) because of a LOS stonefoot warrior
+MESSAGE # FEELING_STUFF:9 (1)
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward kill at cost 4
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Loc:54,33 Dep:20 Lev:10 HP:87/87 SP:9/9 Danger:p=24
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Performing attack type 1 with value 39.
+MESSAGE # Facing stonefoot warrior at (54,32) who has 57 Hit Points.
+MESSAGE # Attacking with weapon 'Lance (2d8) (+1,+6) {??}'
+MESSAGE You hit the stonefoot warrior.
+MESSAGE The stonefoot warrior misses you.
+MESSAGE The stonefoot warrior hits you.
+MESSAGE # HIT:the stonefoot warrior (+)
+MESSAGE # MISS_BY:The stonefoot warrior (+)
+MESSAGE # HIT_BY:The stonefoot warrior (+)
+MESSAGE # HIT:the stonefoot warrior (2)
+MESSAGE # MISS_BY:The stonefoot warrior (3)
+MESSAGE # HIT_BY:The stonefoot warrior (3)
+MESSAGE # Loc:54,33 Dep:20 Lev:10 HP:84/87 SP:9/9 Danger:p=16
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Performing attack type 1 with value 32.
+MESSAGE # Facing stonefoot warrior at (54,32) who has 42 Hit Points.
+MESSAGE # Attacking with weapon 'Lance (2d8) (+1,+6) {??}'
+MESSAGE You miss the stonefoot warrior.
+MESSAGE # MISS:the stonefoot warrior (+)
+MESSAGE # MISS:the stonefoot warrior (2)
+MESSAGE # Loc:54,33 Dep:20 Lev:10 HP:84/87 SP:9/9 Danger:p=16
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Performing attack type 1 with value 32.
+MESSAGE # Facing stonefoot warrior at (54,32) who has 42 Hit Points.
+MESSAGE # Attacking with weapon 'Lance (2d8) (+1,+6) {??}'
+MESSAGE You hit the stonefoot warrior.
+MESSAGE The stonefoot warrior hits you.
+MESSAGE # HIT:the stonefoot warrior (+)
+MESSAGE # HIT_BY:The stonefoot warrior (+)
+MESSAGE # HIT:the stonefoot warrior (2)
+MESSAGE # HIT_BY:The stonefoot warrior (3)
+MESSAGE # Loc:54,33 Dep:20 Lev:10 HP:76/87 SP:9/9 Danger:p=16
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Performing attack type 1 with value 32.
+MESSAGE # Facing stonefoot warrior at (54,32) who has 26 Hit Points.
+MESSAGE # Attacking with weapon 'Lance (2d8) (+1,+6) {??}'
+MESSAGE You hit the stonefoot warrior.
+MESSAGE The stonefoot warrior flees in terror!
+MESSAGE # HIT:the stonefoot warrior (+)
+MESSAGE # PAIN:The stonefoot warrior (+)
+MESSAGE # Tracking a monster 'stonefoot warrior' at (53,33) from (54,32)
+MESSAGE # HIT:the stonefoot warrior (2)
+MESSAGE # PAIN:The stonefoot warrior (2)
+MESSAGE # Loc:54,33 Dep:20 Lev:10 HP:76/87 SP:9/9 Danger:p=16
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Performing attack type 1 with value 32.
+MESSAGE # Facing stonefoot warrior at (53,33) who has 8 Hit Points.
+MESSAGE # Attacking with weapon 'Lance (2d8) (+1,+6) {??}'
+MESSAGE You hit the stonefoot warrior.
+MESSAGE You have slain the stonefoot warrior.
+MESSAGE # HIT:the stonefoot warrior (+)
+MESSAGE # KILL:the stonefoot warrior (+)
+MESSAGE # Forgetting a monster 'stonefoot warrior' at (53,33)
+MESSAGE # Creating an object 'silver' at (33,53)
+MESSAGE # HIT:the stonefoot warrior (2)
+MESSAGE # KILL:the stonefoot warrior (2)
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'silver' at (53,33)
+MESSAGE You have found 235 gold pieces worth of silver.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward dark-4 at cost 6
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'white jelly' at (32,36), HP: 46, Index: 41
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward dark-5 at cost 21
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward dark-5 at cost 24
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # heading up (bored and unable to dive: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 3
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Spastic Searching at (47,58)...value:0
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # heading up (bored and unable to dive: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 5
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Spastic Searching at (52,60)...value:0
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # heading up (bored and unable to dive: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 17
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Spastic Searching at (60,44)...value:0
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # heading up (bored and unable to dive: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 5
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Spastic Searching at (65,46)...value:0
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # heading up (bored and unable to dive: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward spastic at cost 7
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 7
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE You have finished the tunnel with your weapon.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with treasure with your weapon.
+MESSAGE You have found something digging with your weapon!
+MESSAGE # Creating an object 'copper' at (72,37)
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'copper' at (37,72)
+MESSAGE You have found 205 gold pieces worth of copper.
+MESSAGE # heading up, not prep for current level: restock tele + tele staff < 2)
+MESSAGE # Climbing (too deep: restock tele + tele staff < 2)
+MESSAGE # returning to town to restock(too deep: restock tele + tele staff < 2)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward vein at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You tunnel into the magma vein with your weapon.
+MESSAGE The illusionist blinks.
+MESSAGE # BLINK:The illusionist (+)
+MESSAGE # Tracking a monster 'blood falcon' at (36,73) from (32,73)
+MESSAGE # BLINK:The illusionist (0)
+MESSAGE # Loc:37,72 Dep:20 Lev:10 HP:87/87 SP:9/9 Danger:p=141
+MESSAGE # Safe to Phase. scary squares: 9
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have no more Scrolls of Phase Door (q).
+MESSAGE # Loc:36,82 Dep:20 Lev:10 HP:87/87 SP:9/9 Danger:p=399
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # returning to town to restock(too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Performing attack type 1 with value 88.
+MESSAGE # Facing orc archer at (36,83) who has 71 Hit Points.
+MESSAGE # Attacking with weapon 'Lance (2d8) (+1,+6) {??}'
+MESSAGE You have learned the rune of slay orcs.
+MESSAGE You have a Lance of Slay Orc (2d8) (+1,+6) (a).
+MESSAGE You smite the orc archer.
+MESSAGE The orc archer flees in terror!
+MESSAGE # PAIN:The orc archer (+)
+MESSAGE # Tracking a monster 'orc archer' at (37,83) from (36,83)
+MESSAGE # Tracking a monster 'blood falcon' at (36,79) from (36,73)
+MESSAGE # PAIN:The orc archer (2)
+MESSAGE # Loc:36,82 Dep:20 Lev:10 HP:87/87 SP:9/9 Danger:p=1046
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # returning to town to restock(too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Performing attack type 1 with value 77.
+MESSAGE # Facing orc archer at (37,83) who has 20 Hit Points.
+MESSAGE # Attacking with weapon 'Lance of Slay Orc (2d8) (+1,+6)'
+MESSAGE You miss the orc archer.
+MESSAGE The orc archer fires an arrow, but misses.
+MESSAGE The blood falcon misses you.
+MESSAGE The blood falcon claws you.
+MESSAGE The blood falcon bites you.
+MESSAGE # MISS:the orc archer (+)
+MESSAGE # SPELL_005:The orc archer (+)
+MESSAGE # MISS_BY:The blood falcon (+)
+MESSAGE # HIT_BY:The blood falcon (+)
+MESSAGE # Tracking a monster 'blood falcon' at (36,81) from (36,79)
+MESSAGE # MISS:the orc archer (2)
+MESSAGE # SPELL_005:The orc archer (3)
+MESSAGE # MISS_BY:The blood falcon (3)
+MESSAGE # HIT_BY:The blood falcon (3)
+MESSAGE # Loc:36,82 Dep:20 Lev:10 HP:60/87 SP:9/9 Danger:p=1325
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # returning to town to restock(too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Performing attack type 1 with value 266.
+MESSAGE # Facing blood falcon at (36,81) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Lance of Slay Orc (2d8) (+1,+6)'
+MESSAGE You hit the blood falcon.
+MESSAGE You have slain the blood falcon.
+MESSAGE Welcome to level 11.
+MESSAGE # HIT:the blood falcon (+)
+MESSAGE # KILL:the blood falcon (+)
+MESSAGE # Forgetting a monster 'blood falcon' at (36,81)
+MESSAGE # Creating a monster 'illusionist' at (36,75), HP: 50, Index: 183
+MESSAGE # Removing Regional Fear (36,75) because of a LOS illusionist
+MESSAGE # HIT:the blood falcon (2)
+MESSAGE # KILL:the blood falcon (2)
+MESSAGE # Loc:36,82 Dep:20 Lev:11 HP:60/91 SP:9/10 Danger:p=61
+MESSAGE # Backing up to 81,36 (61 > 42)
+MESSAGE The illusionist tries to cast a spell, but fails.
+MESSAGE # Tracking a monster 'illusionist' at (36,77) from (36,75)
+MESSAGE # Creating a monster 'blood falcon' at (36,76), HP: 7, Index: 237
+MESSAGE # Removing Regional Fear (36,76) because of a LOS blood falcon
+MESSAGE # There was a monster 'orc archer' at (37,83)
+MESSAGE # Forgetting a monster 'orc archer' at (37,83)
+MESSAGE # Loc:36,81 Dep:20 Lev:11 HP:60/91 SP:9/10 Danger:p=27
+MESSAGE # Backing up to 81,35 (27 > 0)
+MESSAGE You hear a door burst open!
+MESSAGE # Tracking a monster 'illusionist' at (36,80) from (36,77)
+MESSAGE # Loc:35,81 Dep:20 Lev:11 HP:61/91 SP:9/10 Danger:p=22
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # returning to town to restock(too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Performing attack type 1 with value 104.
+MESSAGE # Facing illusionist at (36,80) who has 50 Hit Points.
+MESSAGE # Attacking with weapon 'Lance of Slay Orc (2d8) (+1,+6)'
+MESSAGE You hit the illusionist.
+MESSAGE The illusionist misses you.
+MESSAGE The illusionist hits you.
+MESSAGE # HIT:the illusionist (+)
+MESSAGE # MISS_BY:The illusionist (+)
+MESSAGE # HIT_BY:The illusionist (+)
+MESSAGE # HIT:the illusionist (2)
+MESSAGE # MISS_BY:The illusionist (3)
+MESSAGE # HIT_BY:The illusionist (3)
+MESSAGE # Loc:35,81 Dep:20 Lev:11 HP:59/91 SP:9/10 Danger:p=22
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # returning to town to restock(too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Performing attack type 1 with value 104.
+MESSAGE # Facing illusionist at (36,80) who has 33 Hit Points.
+MESSAGE # Attacking with weapon 'Lance of Slay Orc (2d8) (+1,+6)'
+MESSAGE You miss the illusionist.
+MESSAGE The illusionist blinks.
+MESSAGE The blood falcon claws you.
+MESSAGE The blood falcon bites you.
+MESSAGE The blood falcon claws you.
+MESSAGE The blood falcon bites you.
+MESSAGE You die.

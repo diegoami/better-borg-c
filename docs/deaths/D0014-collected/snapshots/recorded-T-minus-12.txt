@@ -1,0 +1,27 @@
+Original recording: frame 370123, engine turn 306759, phase tick; HP 61, SP 9, depth 20
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You hit the illusionist. The illusionist misses you.                            
+High-Elf                                                                        
+Footpad                                                                         
+Rogue                                                                           
+LEVEL     11                                                                    
+NXT      165                                                                    
+AU      5678                                                              ##%## 
+/}=="~(()]]]                                                              ..... 
+STR:      18                                                              .#### 
+INT:      17                                                            .###... 
+WIS:       6                                                        .!....'.... 
+DEX:   18/40 ##.#                                          ###      #....###... 
+CON:      13 #..#                                    .%#%  #@####   #%#### #### 
+             #.##                                 ##...... p.....               
+Cur AC    41 #.#                                 %#.##### ####.## #%%%.#        
+HP   61/  91 #.#                             #####.#%             #....#        
+SP    9/  10 #.#                             #....##              #.%%##        
+             #.#                            ##..##.#              #.#           
+[*******---] #.#                           ##.....##              #.#           
+             #.#                          ##..#..##               #.#           
+             #.#                      #####..#.###                #.#           
+             #.#                      #.##...#.#                                
+1000' (L20)  #.#                     ###....#.##                                
+             LF:4-2 Light 3  Fed 58 % Open floor                                
