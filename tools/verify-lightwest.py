@@ -7,7 +7,8 @@ afford it or skip when healthy. The correction tests the hit points.
 The main mode fails before (no banish while hurt) and passes after
 (banishes_evil=1); the hurt control passes in both with a
 byte-identical log.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: kit 483a7a12c8470d43f890ac64f62f666691690a42 at head 8e9e1da6a5729a619e908e8aa351e25f8a8aa90d, asserted byte-identical to
+the run pin.
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

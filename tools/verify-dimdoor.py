@@ -10,7 +10,8 @@ know to be floor, lava, and grids with a known monster.
 The granite mode fails before (aims at an unseen grid, lands 59 grids
 away in the feared region) and passes after (lands on the aim); the
 open control passes in both with a byte-identical log.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: kit 3edecf91b284a112f3f3e916e18b6fdaec2aa46c at head f8b7d662b62a97219095914150d6d577851cb3ac, asserted byte-identical to
+the run pin.
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 
