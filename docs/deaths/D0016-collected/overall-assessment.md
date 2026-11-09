@@ -54,6 +54,24 @@ and two copies of its spellbook.
   and two cures bought, and the Recall was left at Home. This repeats D0015, and the
   Recall-at-Home pattern now spans D0006, D0009, D0015 and D0016.
 
+## Owner's manual retry from 3983 (verified, survived)
+
+The owner requested 3974; the actual start was the Borg's decision at 3983, at 10/12 HP with
+the crow adjacent. The identity is in [owner-manual-branch.json](owner-manual-branch.json), and
+a complete rerun is **VERIFIED**. What happened:
+
+1. **First action: a Nether Bolt killed the crow,** the speed +20 threat. The Borg had spent
+   that same action, and its only Phase Door, escaping from it.
+2. A bolt and melee killed the wild dogs.
+3. Out of mana, the owner used the Phase Door and a CLW against the centipede. The low point
+   was 6 HP.
+4. At CL3 the owner learned Create Darkness and Bat Form, and used the last CLW in a small
+   kobold fight.
+5. Back in town at 10653 with 225 gold, the owner bought a Cure Serious Wounds and saved alive
+   at 10743 (CL3, HP 19).
+
+One manual line, not a population claim. Owner: "it was close but I got away."
+
 ## Limits
 
 - Whether drinking at 5 HP survives a speed +20 crow is untested; each CLW heals 20 HP.

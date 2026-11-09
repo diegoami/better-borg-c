@@ -1,5 +1,5 @@
 {
-  "classification": "teleport-trap exposure, fleeing-mode healing gates and starting-inventory investigation; source-checked with native evidence; no reusable original-C defect established",
+  "classification": "teleport-trap exposure, target choice, fleeing-mode healing gates and starting inventory; owner's verified manual branch survives by killing the crow first; no reusable original-C defect established",
   "confidence": "High for native trajectory, shop ledger and inventory; healing gates source-derived; no rescue claimed",
   "cause_category": "monster melee",
   "overall_assessment": "overall-assessment.md",
@@ -10,10 +10,19 @@
       "origin": "owner",
       "comment": "https://github.com/diegoami/better-borg-c/issues/353",
       "summary": "Chat 2026-11-09: CL1 necromancer hits a teleport trap at 3965 into a room without clean exit; takes on wild dogs, a centipede and a crow; the crow kills him; questionable inventory and equipment; inventory is an area borg reborn should work on. Owner may retry from 3974.",
-      "status": "processed; recorded verbatim on 353; findings replied; retry pending",
+      "status": "processed; recorded verbatim on 353; findings replied; manual retry recorded",
       "actions": [
         "heal-eligibility",
         "survival-stock-priority"
+      ]
+    },
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/353",
+      "summary": "Chat 2026-11-09: retried from 3974; it was close but got away.",
+      "status": "processed; manual branch VERIFIED and recorded",
+      "actions": [
+        "heal-eligibility"
       ]
     }
   ],
@@ -37,6 +46,10 @@
     {
       "status": "source-checked",
       "summary": "Two known CLW unused at 5/12: caution skips borg_heal while fleeing; and danger 18 >= HP 5 applies the -75 chance adjustment that makes the 51-65% band skip certain (neo-angband-tracker 364)."
+    },
+    {
+      "status": "verified saved manual diagnostic alternative",
+      "summary": "Owner branch 20261109T022217Z from 3983: first action Nether Bolt kills the crow; bolt and melee kill the dogs; Phase Door and CLW against the centipede at no mana; low point 6 HP; CL3; saved in town 10743 CL3 HP19. Borg instead spent its first action and only Phase Door escaping the crow."
     }
   ],
   "actions": [
