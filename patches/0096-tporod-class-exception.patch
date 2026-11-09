@@ -1,0 +1,39 @@
+From 3206b884b5762bbe0e25083e28740f03bc243aca Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 03:08:52 +0000
+Subject: [PATCH] borg: let every class but Mage and Rogue buy the Black Market
+ Rod of Teleport Other
+
+The Black Market exception for the Rod of Teleport Other is meant for
+classes that cannot cast Teleport Other themselves ("mage and rogue can
+cast teleport away"), but it read != CLASS_MAGE && == CLASS_ROGUE, so
+it applied to Rogues only. Rogues saved gold for a rod they do not need,
+and other classes fell back to the general Black Market rule that
+waits for much more gold.
+
+Use != for both classes, as the Recall and Speed rod exceptions next to
+it do.
+
+Tracked as diegoami/neo-angband-tracker#17.
+
+(cherry picked from commit d752bad27185ee7a709459b0e83186d9b0d16d7f)
+---
+ src/borg/borg-store-buy.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-store-buy.c b/src/borg/borg-store-buy.c
+index 81f22c79f..2ebcb739b 100644
+--- a/src/borg/borg-store-buy.c
++++ b/src/borg/borg-store-buy.c
+@@ -128,7 +128,7 @@ static bool borg_good_buy(borg_item *item, int who, int ware)
+                     /* mage and rogue can cast teleport away */
+                     (item->sval == sv_rod_teleport_other
+                         && borg.trait[BI_CLASS] != CLASS_MAGE
+-                        && borg.trait[BI_CLASS] == CLASS_ROGUE)
++                        && borg.trait[BI_CLASS] != CLASS_ROGUE)
+                     || (item->sval == sv_rod_illumination
+                         && (!borg.trait[BI_ALITE]))))
+             || (obj_kind_can_browse(&k_info[item->kind])
+-- 
+2.53.0
+
