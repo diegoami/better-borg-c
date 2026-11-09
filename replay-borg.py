@@ -229,6 +229,8 @@ def main():
         parser.error('Use a positive timeout and select only one of verify-only/view-only')
     if args.engine is not None and (args.combat_log or args.view_only or not args.engine.is_file()):
         parser.error('An engine override needs an existing binary and plain --verify-only semantics')
+    if args.engine is not None:
+        args.engine = args.engine.resolve()
     try:
         original = resolve_recording(args.recording)
         recordings.validate(original, require_complete=not args.view_only)
