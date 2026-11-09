@@ -1,0 +1,36 @@
+From f13c96b8f58dc21f4e608043539aa8e2ffbaf8fc Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Mon, 9 Nov 2026 00:39:31 +0100
+Subject: [PATCH] Borg: skip dead object entries in the Lunal mode take routine
+
+The Lunal mode take routine tried to skip dead entries of the object
+list with a test on the address of the kind record, which is never
+NULL, so entries that had been forgotten (zeroed, kind 0) were treated
+like live ones. Their location is (0,0), the corner of the level, and
+when that grid was in view it became a flow target alongside the real
+items, so the Borg could step towards the corner instead of the item.
+Test the kind index, as the other take routines do.
+
+Tracked as diegoami/neo-angband-tracker#72.
+
+(cherry picked from commit 9492d74ce57ae63fca41866113bc7f35463c5704)
+---
+ src/borg/borg-flow-take.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-flow-take.c b/src/borg/borg-flow-take.c
+index c5243ddd6..9c2baf06a 100644
+--- a/src/borg/borg-flow-take.c
++++ b/src/borg/borg-flow-take.c
+@@ -739,7 +739,7 @@ bool borg_flow_take_lunal(bool viewable, int nearness)
+         bool item_bad;
+ 
+         /* Skip dead objects */
+-        if (!k_ptr)
++        if (!take->kidx)
+             continue;
+ 
+         /* Access the location */
+-- 
+2.53.0
+

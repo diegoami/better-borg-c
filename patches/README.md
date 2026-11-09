@@ -377,3 +377,5 @@ The eighty-fifth carry removes the dead stun test from the HURT blow danger (con
 The eighty-sixth carry aims Dimension Door only at a known empty floor grid (consumer #335, adopting source21): the escape cast aimed at the lowest-danger grid in a 100x100 box without checking the borg could land there — usually unseen granite — and the game then landed it elsewhere, possibly back in the escaped room. The granite mode flips; the open control is byte-identical.
 
 The eighty-seventh carry looks for poison and cut cures in the Alchemy shop (consumer #336, adopting source23): a poisoned or bleeding borg flowed to store index 3 — the Bookseller in 4.2, not the Temple — and bought nothing; cures are in the Alchemy shop, index 4. The poisoned and bleeding modes flip; the healthy control is byte-identical.
+
+The eighty-eighth carry skips dead object entries in the Lunal mode take routine (consumer #338, adopting source72): the dead-entry test checked the kind record's address (never NULL) instead of the kind index, so forgotten entries at the level corner became flow targets. The dead-entry mode flips; the live-only control is byte-identical.
