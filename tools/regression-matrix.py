@@ -197,6 +197,8 @@ GROUPS = [
      ('empty', 'single'), {}),
     ('homebanish-54', '.worktrees/homebanish/artifacts/hb54/scenarios', 'HB54',
      ('banish', 'mass'), {}),
+    ('necrolight-crash', 'docs/audit/c-reports/necrolight-296-crash', 'NL296',
+     ('stale-town', 'stale-far', 'lit', 'dark', 'mage-lit'), {}),
 ]
 
 # Source-tracker kit groups (retired worktrees; fixtures at the ledger's

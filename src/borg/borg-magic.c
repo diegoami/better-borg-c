@@ -530,8 +530,12 @@ int borg_spell_fail_rate(const enum borg_spells spell)
     }
 
     /* Necromancers are punished by being on lit squares, whatever lights
-     * them (their own light, permanent light, a monster's light) */
+     * them (their own light, permanent light, a monster's light).  The
+     * recorded position can predate the map update of a freshly entered,
+     * smaller level and lie outside its bounds; treat such a square as
+     * unlit instead of reading outside the array. */
     if (borg.trait[BI_CLASS] == CLASS_NECROMANCER &&
+        square_in_bounds(cave, borg.c) &&
         square_islit(cave, borg.c)) {
         chance += 25;
 
