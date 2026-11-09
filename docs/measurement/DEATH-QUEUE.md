@@ -24,6 +24,20 @@ opens a particular case even if reviewed; `--view-only` explicitly skips rerun
 verification and `--verify-only` checks without opening the viewer. `--list --json`
 exports the local queue. These commands make no GitHub posts.
 
+To relist a collection's games with their replay and play commands:
+
+```sh
+./list_games.py                        # latest collection, every outcome
+./list_games.py --pending              # deaths not yet marked reviewed
+./list_games.py --file games_left.txt  # only games named in a saved produce_death transcript
+./list_games.py --collection 20261108T124228.848431Z --deaths --json
+```
+
+Each game shows its seed, character, level, depth, turn and outcome, its dossier and review
+status, and any owner manual branches. It then lists the `replay-borg.py`,
+`play-from-replay.py` and `replay_next_death.py` commands. The listing only prints; it runs
+nothing.
+
 Queue selection uses oldest dossier order, groups only the registry's verified
 encounter-family mappings, and skips reviewed families and unavailable recordings.
 Dossier manifest hashes are checked; replay-borg.py validates the full recording
