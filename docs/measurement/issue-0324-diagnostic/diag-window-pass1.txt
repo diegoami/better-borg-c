@@ -1,0 +1,66 @@
+CAUTION turn=27476 pos=9,99 hp=20 avoidance=20 pos_danger=1 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27476 pos=9,99 hp=20 kills=3
+CAUTION turn=27486 pos=9,100 hp=20 avoidance=20 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27486 pos=9,100 hp=20 kills=2
+CAUTION turn=27496 pos=9,101 hp=20 avoidance=20 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27496 pos=9,101 hp=20 kills=1
+CAUTION turn=27506 pos=9,102 hp=21 avoidance=21 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27506 pos=9,102 hp=21 kills=1
+CAUTION turn=27516 pos=10,103 hp=21 avoidance=21 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27516 pos=10,103 hp=21 kills=1
+SCARY-ADJACENT turn=27516 kill=grey mold hp_est=2 ac=1 speed=111 myhp=21 myblows=1
+CAUTION turn=27526 pos=10,104 hp=17 avoidance=17 pos_danger=16 scary=1 no_retreat=0 nasty=0
+RETREAT-ADJACENT turn=27526 kill=grey mold hp_est=2 speed=111 myhp=17 myblows=1 pos_danger=16 retreat_path_danger=0 avoidance=17
+CAUTION turn=27536 pos=10,103 hp=17 avoidance=17 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27536 pos=10,103 hp=17 kills=1
+SCARY-ADJACENT turn=27536 kill=grey mold hp_est=2 ac=1 speed=111 myhp=17 myblows=1
+CAUTION turn=27546 pos=10,104 hp=14 avoidance=14 pos_danger=16 scary=1 no_retreat=0 nasty=0
+RETREAT-ADJACENT turn=27546 kill=grey mold hp_est=2 speed=111 myhp=14 myblows=1 pos_danger=16 retreat_path_danger=0 avoidance=14
+CAUTION turn=27556 pos=11,103 hp=14 avoidance=14 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27556 pos=11,103 hp=14 kills=1
+SCARY-ADJACENT turn=27556 kill=grey mold hp_est=2 ac=1 speed=111 myhp=14 myblows=1
+CAUTION turn=27566 pos=11,104 hp=9 avoidance=9 pos_danger=16 scary=1 no_retreat=0 nasty=0
+RETREAT-ADJACENT turn=27566 kill=grey mold hp_est=2 speed=111 myhp=9 myblows=1 pos_danger=16 retreat_path_danger=0 avoidance=9
+CAUTION turn=27576 pos=12,103 hp=9 avoidance=9 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27576 pos=12,103 hp=9 kills=1
+SCARY-ADJACENT turn=27576 kill=grey mold hp_est=2 ac=1 speed=111 myhp=9 myblows=1
+CAUTION turn=27586 pos=12,104 hp=5 avoidance=5 pos_danger=16 scary=1 no_retreat=0 nasty=0
+RETREAT-ADJACENT turn=27586 kill=grey mold hp_est=2 speed=111 myhp=5 myblows=1 pos_danger=16 retreat_path_danger=0 avoidance=5
+CAUTION turn=27596 pos=12,103 hp=5 avoidance=5 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27596 pos=12,103 hp=5 kills=1
+SCARY-ADJACENT turn=27596 kill=grey mold hp_est=2 ac=1 speed=111 myhp=5 myblows=1
+CAUTION turn=27606 pos=12,102 hp=5 avoidance=5 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27606 pos=12,102 hp=5 kills=1
+CAUTION turn=27616 pos=12,101 hp=5 avoidance=5 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27616 pos=12,101 hp=5 kills=1
+CAUTION turn=27626 pos=13,100 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27626 pos=13,100 hp=6 kills=1
+CAUTION turn=27636 pos=13,99 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27636 pos=13,99 hp=6 kills=2
+CAUTION turn=27646 pos=13,100 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27646 pos=13,100 hp=6 kills=2
+CAUTION turn=27656 pos=13,101 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27656 pos=13,101 hp=6 kills=2
+CAUTION turn=27666 pos=13,102 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27666 pos=13,102 hp=6 kills=1
+CAUTION turn=27676 pos=12,103 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27676 pos=12,103 hp=6 kills=1
+SCARY-ADJACENT turn=27676 kill=grey mold hp_est=2 ac=1 speed=111 myhp=6 myblows=1
+CAUTION turn=27686 pos=12,104 hp=3 avoidance=3 pos_danger=16 scary=1 no_retreat=0 nasty=0
+RETREAT-ADJACENT turn=27686 kill=grey mold hp_est=2 speed=111 myhp=3 myblows=1 pos_danger=16 retreat_path_danger=0 avoidance=3
+CAUTION turn=27696 pos=12,103 hp=3 avoidance=3 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27696 pos=12,103 hp=3 kills=1
+SCARY-ADJACENT turn=27696 kill=grey mold hp_est=2 ac=1 speed=111 myhp=3 myblows=1
+CAUTION turn=27706 pos=12,102 hp=3 avoidance=3 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27706 pos=12,102 hp=3 kills=1
+CAUTION turn=27716 pos=12,101 hp=3 avoidance=3 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27716 pos=12,101 hp=3 kills=1
+CAUTION turn=27726 pos=13,100 hp=4 avoidance=4 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27726 pos=13,100 hp=4 kills=1
+CAUTION turn=27736 pos=13,99 hp=4 avoidance=4 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27736 pos=13,99 hp=4 kills=2
+CAUTION turn=27746 pos=13,98 hp=2 avoidance=2 pos_danger=32 scary=1 no_retreat=0 nasty=0
+CAUTION turn=27756 pos=12,99 hp=1 avoidance=1 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27756 pos=12,99 hp=1 kills=3
+CAUTION turn=27766 pos=11,99 hp=0 avoidance=0 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27766 pos=11,99 hp=0 kills=3
