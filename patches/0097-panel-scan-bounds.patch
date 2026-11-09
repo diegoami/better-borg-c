@@ -1,0 +1,81 @@
+From ee1c1bf6e064b927c75de130a4be4bf5da4a3f27 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 10:38:34 +0000
+Subject: [PATCH] borg: keep panel scans inside the Borg's map on large
+ terminals
+
+borg_flow_light(), borg_flow_vault() and borg_excavate_vault() scan the
+visible map panel, w_y .. w_y + SCREEN_HGT by w_x .. w_x + SCREEN_WID,
+and index borg_grids[y][x] for each grid.  borg_grids has DUNGEON_HGT
+(66) rows of DUNGEON_WID (198) grids, but the panel grows with the
+terminal: with the default sidebar, a terminal of 69 or more rows or
+213 or more columns shows more rows or columns than a full-size level
+has.  The game then places the panel at the level's edge and the scans
+read past the last row pointer of borg_grids (taller terminal) or past
+the end of a row (wider terminal).  With a 70-row terminal the read of
+the missing row crashes the game; a wider terminal silently reads
+neighbouring memory.
+
+Stop each scan at the edge of the Borg's map.  The grids that are on the
+map are scanned exactly as before.
+
+Tracked as diegoami/neo-angband-tracker#348.
+
+(cherry picked from commit 82702575b2179cb27cb7eac24272515dfea0830e)
+---
+ src/borg/borg-flow-misc.c          | 13 +++++++------
+ src/borg/borg-think-dungeon-util.c |  7 ++++---
+ 2 files changed, 11 insertions(+), 9 deletions(-)
+
+diff --git a/src/borg/borg-flow-misc.c b/src/borg/borg-flow-misc.c
+index 20265da20..c7b7e9e81 100644
+--- a/src/borg/borg-flow-misc.c
++++ b/src/borg/borg-flow-misc.c
+@@ -832,9 +832,9 @@ bool borg_flow_light(int why)
+     i           = 0;
+ 
+     /* build the glow array */
+-    /* Scan map */
+-    for (y = w_y; y < w_y + SCREEN_HGT; y++) {
+-        for (x = w_x; x < w_x + SCREEN_WID; x++) {
++    /* Scan map (a large terminal can show more than the map) */
++    for (y = w_y; y < w_y + SCREEN_HGT && y < AUTO_MAX_Y; y++) {
++        for (x = w_x; x < w_x + SCREEN_WID && x < AUTO_MAX_X; x++) {
+             borg_grid *ag = &borg_grids[y][x];
+ 
+             /* Not a perma-lit, and not our spot. */
+@@ -905,9 +905,10 @@ bool borg_flow_vault(int nearness)
+ 
+     can_dig_hard = borg_can_dig(false, FEAT_GRANITE);
+ 
+-    /* build the array -- Scan screen */
+-    for (y = w_y; y < w_y + SCREEN_HGT; y++) {
+-        for (x = w_x; x < w_x + SCREEN_WID; x++) {
++    /* build the array -- Scan screen (a large terminal can show more than
++     * the map) */
++    for (y = w_y; y < w_y + SCREEN_HGT && y < AUTO_MAX_Y; y++) {
++        for (x = w_x; x < w_x + SCREEN_WID && x < AUTO_MAX_X; x++) {
+ 
+             /* only bother with near ones */
+             if (distance(borg.c, loc(x, y)) > nearness)
+diff --git a/src/borg/borg-think-dungeon-util.c b/src/borg/borg-think-dungeon-util.c
+index 35d082d91..0aac776f5 100644
+--- a/src/borg/borg-think-dungeon-util.c
++++ b/src/borg/borg-think-dungeon-util.c
+@@ -1019,9 +1019,10 @@ bool borg_excavate_vault(int range)
+ 
+     /* Danger/bad idea checks */
+ 
+-    /* build the array -- Scan screen */
+-    for (y = w_y; y < w_y + SCREEN_HGT; y++) {
+-        for (x = w_x; x < w_x + SCREEN_WID; x++) {
++    /* build the array -- Scan screen (a large terminal can show more than
++     * the map) */
++    for (y = w_y; y < w_y + SCREEN_HGT && y < AUTO_MAX_Y; y++) {
++        for (x = w_x; x < w_x + SCREEN_WID && x < AUTO_MAX_X; x++) {
+ 
+             /* only bother with near ones */
+             if (distance(borg.c, loc(x, y)) > range)
+-- 
+2.53.0
+
