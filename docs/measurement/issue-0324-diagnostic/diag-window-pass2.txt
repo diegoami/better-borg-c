@@ -1,0 +1,1969 @@
+D1K turn=27476 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27476 pos=9,99 hp=20 avoidance=20 pos_danger=1 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27476 pos=9,99 hp=20 kills=3
+TEMP turn=27476 temp_n=2
+TEMP-KILL turn=27476 k=0 pos=10,95 dist=4 okay=1 view=1
+TEMP-KILL turn=27476 k=1 pos=10,94 dist=5 okay=1 view=1
+D1K turn=27476 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27476 g=0 n=0
+AUX turn=27476 g=1 n=0
+AUX turn=27476 g=2 n=0
+AUX turn=27476 g=3 n=0
+AUX turn=27476 g=4 n=0
+D1K turn=27476 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27476 g=5 n=0
+AUX turn=27476 g=6 n=0
+AUX turn=27476 g=7 n=0
+AUX turn=27476 g=8 n=0
+AUX turn=27476 g=9 n=0
+AUX turn=27476 g=10 n=0
+AUX turn=27476 g=11 n=0
+AUX turn=27476 g=12 n=0
+AUX turn=27476 g=13 n=0
+AUX turn=27476 g=14 n=0
+AUX turn=27476 g=15 n=0
+AUX turn=27476 g=16 n=0
+AUX turn=27476 g=17 n=0
+AUX turn=27476 g=18 n=0
+AUX turn=27476 g=19 n=0
+AUX turn=27476 g=20 n=0
+AUX turn=27476 g=21 n=0
+AUX turn=27476 g=22 n=0
+AUX turn=27476 g=23 n=0
+AUX turn=27476 g=24 n=0
+AUX turn=27476 g=25 n=0
+AUX turn=27476 g=26 n=0
+AUX turn=27476 g=27 n=0
+AUX turn=27476 g=28 n=0
+AUX turn=27476 g=29 n=0
+AUX turn=27476 g=30 n=0
+AUX turn=27476 g=31 n=0
+AUX turn=27476 g=32 n=0
+AUX turn=27476 g=33 n=0
+AUX turn=27476 g=34 n=0
+AUX turn=27476 g=35 n=0
+AUX turn=27476 g=36 n=0
+AUX turn=27476 g=37 n=0
+AUX turn=27476 g=38 n=0
+AUX turn=27476 g=39 n=0
+AUX turn=27476 g=40 n=0
+AUX turn=27476 g=41 n=0
+AUX turn=27476 g=42 n=0
+AUX turn=27476 g=43 n=0
+AUX turn=27476 g=44 n=0
+AUX turn=27476 g=45 n=0
+AUX turn=27476 g=46 n=0
+AUX turn=27476 g=47 n=0
+AUX turn=27476 g=48 n=0
+AUX turn=27476 g=49 n=0
+AUX turn=27476 g=50 n=0
+AUX turn=27476 g=51 n=0
+AUX turn=27476 g=52 n=0
+AUX turn=27476 g=53 n=0
+AUX turn=27476 g=54 n=0
+AUX turn=27476 g=55 n=0
+AUX turn=27476 g=56 n=0
+AUX turn=27476 g=57 n=0
+AUX turn=27476 g=58 n=0
+AUX turn=27476 g=59 n=0
+AUX turn=27476 g=60 n=0
+AUX turn=27476 g=61 n=0
+AUX turn=27476 g=62 n=0
+AUX turn=27476 g=63 n=0
+AUX turn=27476 g=64 n=0
+AUX turn=27476 g=65 n=0
+AUX turn=27476 g=66 n=0
+AUX turn=27476 g=67 n=0
+AUX turn=27476 g=68 n=0
+AUX turn=27476 g=69 n=0
+AUX turn=27476 g=70 n=0
+AUX turn=27476 g=71 n=0
+AUX turn=27476 g=72 n=0
+AUX turn=27476 g=73 n=0
+AUX turn=27476 g=74 n=0
+AUX turn=27476 g=75 n=0
+AUX turn=27476 g=76 n=0
+AUX turn=27476 g=77 n=0
+AUX turn=27476 g=78 n=0
+AUX turn=27476 g=79 n=0
+AUX turn=27476 g=80 n=0
+AUX turn=27476 g=81 n=0
+AUX turn=27476 g=82 n=0
+AUX turn=27476 g=83 n=0
+AUX turn=27476 g=84 n=0
+AUX turn=27476 g=85 n=0
+AUX turn=27476 g=86 n=0
+AUX turn=27476 g=87 n=0
+AUX turn=27476 g=88 n=0
+AUX turn=27476 g=89 n=0
+AUX turn=27476 g=90 n=0
+AUX turn=27476 g=91 n=0
+AUX turn=27476 g=92 n=0
+AUX turn=27476 g=93 n=0
+AUX turn=27476 g=94 n=0
+AUX turn=27476 g=95 n=0
+AUX turn=27476 g=96 n=0
+AUX turn=27476 g=97 n=0
+AUX turn=27476 g=98 n=0
+AUX turn=27476 g=99 n=0
+AUX turn=27476 g=100 n=0
+AUX turn=27476 g=101 n=0
+AUX turn=27476 g=102 n=0
+AUX turn=27476 g=103 n=0
+AUX turn=27476 g=104 n=0
+AUX turn=27476 g=105 n=0
+AUX turn=27476 g=106 n=0
+AUX turn=27476 g=107 n=0
+AUX turn=27476 g=108 n=0
+AUX turn=27476 g=109 n=0
+AUX turn=27476 g=110 n=0
+AUX turn=27476 g=111 n=0
+AUX turn=27476 g=112 n=0
+AUX turn=27476 g=113 n=0
+AUX turn=27476 g=114 n=0
+AUX turn=27476 g=115 n=0
+AUX turn=27476 g=116 n=0
+AUX turn=27476 g=117 n=0
+AUX turn=27476 g=118 n=0
+AUX turn=27476 g=119 n=0
+AUX turn=27476 g=120 n=0
+AUX turn=27476 g=121 n=0
+AUX turn=27476 g=122 n=0
+AUX turn=27476 g=123 n=0
+AUX turn=27476 g=124 n=0
+AUX turn=27476 g=125 n=0
+AUX turn=27476 g=126 n=0
+AUX turn=27476 g=127 n=0
+AUX turn=27476 g=128 n=0
+EXIT-NO-ATTACK turn=27476 b_n=0
+D1K turn=27476 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27476 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27476 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27476 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27476 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27476 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27486 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27486 pos=9,100 hp=20 avoidance=20 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27486 pos=9,100 hp=20 kills=2
+TEMP turn=27486 temp_n=1
+TEMP-KILL turn=27486 k=0 pos=10,95 dist=5 okay=1 view=1
+D1K turn=27486 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27486 g=0 n=0
+AUX turn=27486 g=1 n=0
+AUX turn=27486 g=2 n=0
+AUX turn=27486 g=3 n=0
+AUX turn=27486 g=4 n=0
+D1K turn=27486 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27486 g=5 n=0
+AUX turn=27486 g=6 n=0
+AUX turn=27486 g=7 n=0
+AUX turn=27486 g=8 n=0
+AUX turn=27486 g=9 n=0
+AUX turn=27486 g=10 n=0
+AUX turn=27486 g=11 n=0
+AUX turn=27486 g=12 n=0
+AUX turn=27486 g=13 n=0
+AUX turn=27486 g=14 n=0
+AUX turn=27486 g=15 n=0
+AUX turn=27486 g=16 n=0
+AUX turn=27486 g=17 n=0
+AUX turn=27486 g=18 n=0
+AUX turn=27486 g=19 n=0
+AUX turn=27486 g=20 n=0
+AUX turn=27486 g=21 n=0
+AUX turn=27486 g=22 n=0
+AUX turn=27486 g=23 n=0
+AUX turn=27486 g=24 n=0
+AUX turn=27486 g=25 n=0
+AUX turn=27486 g=26 n=0
+AUX turn=27486 g=27 n=0
+AUX turn=27486 g=28 n=0
+AUX turn=27486 g=29 n=0
+AUX turn=27486 g=30 n=0
+AUX turn=27486 g=31 n=0
+AUX turn=27486 g=32 n=0
+AUX turn=27486 g=33 n=0
+AUX turn=27486 g=34 n=0
+AUX turn=27486 g=35 n=0
+AUX turn=27486 g=36 n=0
+AUX turn=27486 g=37 n=0
+AUX turn=27486 g=38 n=0
+AUX turn=27486 g=39 n=0
+AUX turn=27486 g=40 n=0
+AUX turn=27486 g=41 n=0
+AUX turn=27486 g=42 n=0
+AUX turn=27486 g=43 n=0
+AUX turn=27486 g=44 n=0
+AUX turn=27486 g=45 n=0
+AUX turn=27486 g=46 n=0
+AUX turn=27486 g=47 n=0
+AUX turn=27486 g=48 n=0
+AUX turn=27486 g=49 n=0
+AUX turn=27486 g=50 n=0
+AUX turn=27486 g=51 n=0
+AUX turn=27486 g=52 n=0
+AUX turn=27486 g=53 n=0
+AUX turn=27486 g=54 n=0
+AUX turn=27486 g=55 n=0
+AUX turn=27486 g=56 n=0
+AUX turn=27486 g=57 n=0
+AUX turn=27486 g=58 n=0
+AUX turn=27486 g=59 n=0
+AUX turn=27486 g=60 n=0
+AUX turn=27486 g=61 n=0
+AUX turn=27486 g=62 n=0
+AUX turn=27486 g=63 n=0
+AUX turn=27486 g=64 n=0
+AUX turn=27486 g=65 n=0
+AUX turn=27486 g=66 n=0
+AUX turn=27486 g=67 n=0
+AUX turn=27486 g=68 n=0
+AUX turn=27486 g=69 n=0
+AUX turn=27486 g=70 n=0
+AUX turn=27486 g=71 n=0
+AUX turn=27486 g=72 n=0
+AUX turn=27486 g=73 n=0
+AUX turn=27486 g=74 n=0
+AUX turn=27486 g=75 n=0
+AUX turn=27486 g=76 n=0
+AUX turn=27486 g=77 n=0
+AUX turn=27486 g=78 n=0
+AUX turn=27486 g=79 n=0
+AUX turn=27486 g=80 n=0
+AUX turn=27486 g=81 n=0
+AUX turn=27486 g=82 n=0
+AUX turn=27486 g=83 n=0
+AUX turn=27486 g=84 n=0
+AUX turn=27486 g=85 n=0
+AUX turn=27486 g=86 n=0
+AUX turn=27486 g=87 n=0
+AUX turn=27486 g=88 n=0
+AUX turn=27486 g=89 n=0
+AUX turn=27486 g=90 n=0
+AUX turn=27486 g=91 n=0
+AUX turn=27486 g=92 n=0
+AUX turn=27486 g=93 n=0
+AUX turn=27486 g=94 n=0
+AUX turn=27486 g=95 n=0
+AUX turn=27486 g=96 n=0
+AUX turn=27486 g=97 n=0
+AUX turn=27486 g=98 n=0
+AUX turn=27486 g=99 n=0
+AUX turn=27486 g=100 n=0
+AUX turn=27486 g=101 n=0
+AUX turn=27486 g=102 n=0
+AUX turn=27486 g=103 n=0
+AUX turn=27486 g=104 n=0
+AUX turn=27486 g=105 n=0
+AUX turn=27486 g=106 n=0
+AUX turn=27486 g=107 n=0
+AUX turn=27486 g=108 n=0
+AUX turn=27486 g=109 n=0
+AUX turn=27486 g=110 n=0
+AUX turn=27486 g=111 n=0
+AUX turn=27486 g=112 n=0
+AUX turn=27486 g=113 n=0
+AUX turn=27486 g=114 n=0
+AUX turn=27486 g=115 n=0
+AUX turn=27486 g=116 n=0
+AUX turn=27486 g=117 n=0
+AUX turn=27486 g=118 n=0
+AUX turn=27486 g=119 n=0
+AUX turn=27486 g=120 n=0
+AUX turn=27486 g=121 n=0
+AUX turn=27486 g=122 n=0
+AUX turn=27486 g=123 n=0
+AUX turn=27486 g=124 n=0
+AUX turn=27486 g=125 n=0
+AUX turn=27486 g=126 n=0
+AUX turn=27486 g=127 n=0
+AUX turn=27486 g=128 n=0
+EXIT-NO-ATTACK turn=27486 b_n=0
+D1K turn=27486 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27486 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27486 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27496 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27496 pos=9,101 hp=20 avoidance=20 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27496 pos=9,101 hp=20 kills=1
+TEMP turn=27496 temp_n=0
+EXIT-NO-DEST turn=27496 kills=1
+D1K turn=27496 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27496 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27496 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27506 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27506 pos=9,102 hp=21 avoidance=21 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27506 pos=9,102 hp=21 kills=1
+TEMP turn=27506 temp_n=0
+EXIT-NO-DEST turn=27506 kills=1
+D1K turn=27506 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27506 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27506 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27516 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27516 pos=10,103 hp=21 avoidance=21 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27516 pos=10,103 hp=21 kills=1
+SCARY-ADJACENT turn=27516 kill=grey mold hp_est=2 ac=1 speed=111 myhp=21 myblows=1 kpos=11,105 kdist=2
+TEMP turn=27516 temp_n=1
+TEMP-KILL turn=27516 k=0 pos=11,105 dist=2 okay=1 view=1
+D1K turn=27516 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27516 g=0 n=0
+AUX turn=27516 g=1 n=0
+AUX turn=27516 g=2 n=0
+AUX turn=27516 g=3 n=0
+AUX turn=27516 g=4 n=0
+D1K turn=27516 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27516 g=5 n=0
+AUX turn=27516 g=6 n=0
+AUX turn=27516 g=7 n=0
+AUX turn=27516 g=8 n=0
+AUX turn=27516 g=9 n=0
+AUX turn=27516 g=10 n=0
+AUX turn=27516 g=11 n=0
+AUX turn=27516 g=12 n=0
+AUX turn=27516 g=13 n=0
+AUX turn=27516 g=14 n=0
+AUX turn=27516 g=15 n=0
+AUX turn=27516 g=16 n=0
+AUX turn=27516 g=17 n=0
+AUX turn=27516 g=18 n=0
+AUX turn=27516 g=19 n=0
+AUX turn=27516 g=20 n=0
+AUX turn=27516 g=21 n=0
+AUX turn=27516 g=22 n=0
+AUX turn=27516 g=23 n=0
+AUX turn=27516 g=24 n=0
+AUX turn=27516 g=25 n=0
+AUX turn=27516 g=26 n=0
+AUX turn=27516 g=27 n=0
+AUX turn=27516 g=28 n=0
+AUX turn=27516 g=29 n=0
+AUX turn=27516 g=30 n=0
+AUX turn=27516 g=31 n=0
+AUX turn=27516 g=32 n=0
+AUX turn=27516 g=33 n=0
+AUX turn=27516 g=34 n=0
+AUX turn=27516 g=35 n=0
+AUX turn=27516 g=36 n=0
+AUX turn=27516 g=37 n=0
+AUX turn=27516 g=38 n=0
+AUX turn=27516 g=39 n=0
+AUX turn=27516 g=40 n=0
+AUX turn=27516 g=41 n=0
+AUX turn=27516 g=42 n=0
+AUX turn=27516 g=43 n=0
+AUX turn=27516 g=44 n=0
+AUX turn=27516 g=45 n=0
+AUX turn=27516 g=46 n=0
+AUX turn=27516 g=47 n=0
+AUX turn=27516 g=48 n=0
+AUX turn=27516 g=49 n=0
+AUX turn=27516 g=50 n=0
+AUX turn=27516 g=51 n=0
+AUX turn=27516 g=52 n=0
+AUX turn=27516 g=53 n=0
+AUX turn=27516 g=54 n=0
+AUX turn=27516 g=55 n=0
+AUX turn=27516 g=56 n=0
+AUX turn=27516 g=57 n=0
+AUX turn=27516 g=58 n=0
+AUX turn=27516 g=59 n=0
+AUX turn=27516 g=60 n=0
+AUX turn=27516 g=61 n=0
+AUX turn=27516 g=62 n=0
+AUX turn=27516 g=63 n=0
+AUX turn=27516 g=64 n=0
+AUX turn=27516 g=65 n=0
+AUX turn=27516 g=66 n=0
+AUX turn=27516 g=67 n=0
+AUX turn=27516 g=68 n=0
+AUX turn=27516 g=69 n=0
+AUX turn=27516 g=70 n=0
+AUX turn=27516 g=71 n=0
+AUX turn=27516 g=72 n=0
+AUX turn=27516 g=73 n=0
+AUX turn=27516 g=74 n=0
+AUX turn=27516 g=75 n=0
+AUX turn=27516 g=76 n=0
+AUX turn=27516 g=77 n=0
+AUX turn=27516 g=78 n=0
+AUX turn=27516 g=79 n=0
+AUX turn=27516 g=80 n=0
+AUX turn=27516 g=81 n=0
+AUX turn=27516 g=82 n=0
+AUX turn=27516 g=83 n=0
+AUX turn=27516 g=84 n=0
+AUX turn=27516 g=85 n=0
+AUX turn=27516 g=86 n=0
+AUX turn=27516 g=87 n=0
+AUX turn=27516 g=88 n=0
+AUX turn=27516 g=89 n=0
+AUX turn=27516 g=90 n=0
+AUX turn=27516 g=91 n=0
+AUX turn=27516 g=92 n=0
+AUX turn=27516 g=93 n=0
+AUX turn=27516 g=94 n=0
+AUX turn=27516 g=95 n=0
+AUX turn=27516 g=96 n=0
+AUX turn=27516 g=97 n=0
+AUX turn=27516 g=98 n=0
+AUX turn=27516 g=99 n=0
+AUX turn=27516 g=100 n=0
+AUX turn=27516 g=101 n=0
+AUX turn=27516 g=102 n=0
+AUX turn=27516 g=103 n=0
+AUX turn=27516 g=104 n=0
+AUX turn=27516 g=105 n=0
+AUX turn=27516 g=106 n=0
+AUX turn=27516 g=107 n=0
+AUX turn=27516 g=108 n=0
+AUX turn=27516 g=109 n=0
+AUX turn=27516 g=110 n=0
+AUX turn=27516 g=111 n=0
+AUX turn=27516 g=112 n=0
+AUX turn=27516 g=113 n=0
+AUX turn=27516 g=114 n=0
+AUX turn=27516 g=115 n=0
+AUX turn=27516 g=116 n=0
+AUX turn=27516 g=117 n=0
+AUX turn=27516 g=118 n=0
+AUX turn=27516 g=119 n=0
+AUX turn=27516 g=120 n=0
+AUX turn=27516 g=121 n=0
+AUX turn=27516 g=122 n=0
+AUX turn=27516 g=123 n=0
+AUX turn=27516 g=124 n=0
+AUX turn=27516 g=125 n=0
+AUX turn=27516 g=126 n=0
+AUX turn=27516 g=127 n=0
+AUX turn=27516 g=128 n=0
+EXIT-NO-ATTACK turn=27516 b_n=0
+D1K turn=27516 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27516 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27516 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27526 i=4 name=grey mold kpos=11,105 kdist=1 val=16 v1=16 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27526 pos=10,104 hp=17 avoidance=17 pos_danger=16 scary=1 no_retreat=0 nasty=0
+RETREAT-ADJACENT turn=27526 kill=grey mold hp_est=2 speed=111 myhp=17 myblows=1 pos_danger=16 retreat_path_danger=0 avoidance=17
+D1K turn=27536 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27536 pos=10,103 hp=17 avoidance=17 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27536 pos=10,103 hp=17 kills=1
+SCARY-ADJACENT turn=27536 kill=grey mold hp_est=2 ac=1 speed=111 myhp=17 myblows=1 kpos=11,105 kdist=2
+TEMP turn=27536 temp_n=1
+TEMP-KILL turn=27536 k=0 pos=11,105 dist=2 okay=1 view=1
+D1K turn=27536 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27536 g=0 n=0
+AUX turn=27536 g=1 n=0
+AUX turn=27536 g=2 n=0
+AUX turn=27536 g=3 n=0
+AUX turn=27536 g=4 n=0
+D1K turn=27536 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27536 g=5 n=0
+AUX turn=27536 g=6 n=0
+AUX turn=27536 g=7 n=0
+AUX turn=27536 g=8 n=0
+AUX turn=27536 g=9 n=0
+AUX turn=27536 g=10 n=0
+AUX turn=27536 g=11 n=0
+AUX turn=27536 g=12 n=0
+AUX turn=27536 g=13 n=0
+AUX turn=27536 g=14 n=0
+AUX turn=27536 g=15 n=0
+AUX turn=27536 g=16 n=0
+AUX turn=27536 g=17 n=0
+AUX turn=27536 g=18 n=0
+AUX turn=27536 g=19 n=0
+AUX turn=27536 g=20 n=0
+AUX turn=27536 g=21 n=0
+AUX turn=27536 g=22 n=0
+AUX turn=27536 g=23 n=0
+AUX turn=27536 g=24 n=0
+AUX turn=27536 g=25 n=0
+AUX turn=27536 g=26 n=0
+AUX turn=27536 g=27 n=0
+AUX turn=27536 g=28 n=0
+AUX turn=27536 g=29 n=0
+AUX turn=27536 g=30 n=0
+AUX turn=27536 g=31 n=0
+AUX turn=27536 g=32 n=0
+AUX turn=27536 g=33 n=0
+AUX turn=27536 g=34 n=0
+AUX turn=27536 g=35 n=0
+AUX turn=27536 g=36 n=0
+AUX turn=27536 g=37 n=0
+AUX turn=27536 g=38 n=0
+AUX turn=27536 g=39 n=0
+AUX turn=27536 g=40 n=0
+AUX turn=27536 g=41 n=0
+AUX turn=27536 g=42 n=0
+AUX turn=27536 g=43 n=0
+AUX turn=27536 g=44 n=0
+AUX turn=27536 g=45 n=0
+AUX turn=27536 g=46 n=0
+AUX turn=27536 g=47 n=0
+AUX turn=27536 g=48 n=0
+AUX turn=27536 g=49 n=0
+AUX turn=27536 g=50 n=0
+AUX turn=27536 g=51 n=0
+AUX turn=27536 g=52 n=0
+AUX turn=27536 g=53 n=0
+AUX turn=27536 g=54 n=0
+AUX turn=27536 g=55 n=0
+AUX turn=27536 g=56 n=0
+AUX turn=27536 g=57 n=0
+AUX turn=27536 g=58 n=0
+AUX turn=27536 g=59 n=0
+AUX turn=27536 g=60 n=0
+AUX turn=27536 g=61 n=0
+AUX turn=27536 g=62 n=0
+AUX turn=27536 g=63 n=0
+AUX turn=27536 g=64 n=0
+AUX turn=27536 g=65 n=0
+AUX turn=27536 g=66 n=0
+AUX turn=27536 g=67 n=0
+AUX turn=27536 g=68 n=0
+AUX turn=27536 g=69 n=0
+AUX turn=27536 g=70 n=0
+AUX turn=27536 g=71 n=0
+AUX turn=27536 g=72 n=0
+AUX turn=27536 g=73 n=0
+AUX turn=27536 g=74 n=0
+AUX turn=27536 g=75 n=0
+AUX turn=27536 g=76 n=0
+AUX turn=27536 g=77 n=0
+AUX turn=27536 g=78 n=0
+AUX turn=27536 g=79 n=0
+AUX turn=27536 g=80 n=0
+AUX turn=27536 g=81 n=0
+AUX turn=27536 g=82 n=0
+AUX turn=27536 g=83 n=0
+AUX turn=27536 g=84 n=0
+AUX turn=27536 g=85 n=0
+AUX turn=27536 g=86 n=0
+AUX turn=27536 g=87 n=0
+AUX turn=27536 g=88 n=0
+AUX turn=27536 g=89 n=0
+AUX turn=27536 g=90 n=0
+AUX turn=27536 g=91 n=0
+AUX turn=27536 g=92 n=0
+AUX turn=27536 g=93 n=0
+AUX turn=27536 g=94 n=0
+AUX turn=27536 g=95 n=0
+AUX turn=27536 g=96 n=0
+AUX turn=27536 g=97 n=0
+AUX turn=27536 g=98 n=0
+AUX turn=27536 g=99 n=0
+AUX turn=27536 g=100 n=0
+AUX turn=27536 g=101 n=0
+AUX turn=27536 g=102 n=0
+AUX turn=27536 g=103 n=0
+AUX turn=27536 g=104 n=0
+AUX turn=27536 g=105 n=0
+AUX turn=27536 g=106 n=0
+AUX turn=27536 g=107 n=0
+AUX turn=27536 g=108 n=0
+AUX turn=27536 g=109 n=0
+AUX turn=27536 g=110 n=0
+AUX turn=27536 g=111 n=0
+AUX turn=27536 g=112 n=0
+AUX turn=27536 g=113 n=0
+AUX turn=27536 g=114 n=0
+AUX turn=27536 g=115 n=0
+AUX turn=27536 g=116 n=0
+AUX turn=27536 g=117 n=0
+AUX turn=27536 g=118 n=0
+AUX turn=27536 g=119 n=0
+AUX turn=27536 g=120 n=0
+AUX turn=27536 g=121 n=0
+AUX turn=27536 g=122 n=0
+AUX turn=27536 g=123 n=0
+AUX turn=27536 g=124 n=0
+AUX turn=27536 g=125 n=0
+AUX turn=27536 g=126 n=0
+AUX turn=27536 g=127 n=0
+AUX turn=27536 g=128 n=0
+EXIT-NO-ATTACK turn=27536 b_n=0
+D1K turn=27536 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27536 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27536 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27536 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27536 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27536 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27546 i=4 name=grey mold kpos=11,105 kdist=1 val=16 v1=16 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27546 pos=10,104 hp=14 avoidance=14 pos_danger=16 scary=1 no_retreat=0 nasty=0
+RETREAT-ADJACENT turn=27546 kill=grey mold hp_est=2 speed=111 myhp=14 myblows=1 pos_danger=16 retreat_path_danger=0 avoidance=14
+D1K turn=27556 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27556 pos=11,103 hp=14 avoidance=14 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27556 pos=11,103 hp=14 kills=1
+SCARY-ADJACENT turn=27556 kill=grey mold hp_est=2 ac=1 speed=111 myhp=14 myblows=1 kpos=11,105 kdist=2
+TEMP turn=27556 temp_n=1
+TEMP-KILL turn=27556 k=0 pos=11,105 dist=2 okay=1 view=1
+D1K turn=27556 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27556 g=0 n=0
+AUX turn=27556 g=1 n=0
+AUX turn=27556 g=2 n=0
+AUX turn=27556 g=3 n=0
+AUX turn=27556 g=4 n=0
+D1K turn=27556 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27556 g=5 n=0
+AUX turn=27556 g=6 n=0
+AUX turn=27556 g=7 n=0
+AUX turn=27556 g=8 n=0
+AUX turn=27556 g=9 n=0
+AUX turn=27556 g=10 n=0
+AUX turn=27556 g=11 n=0
+AUX turn=27556 g=12 n=0
+AUX turn=27556 g=13 n=0
+AUX turn=27556 g=14 n=0
+AUX turn=27556 g=15 n=0
+AUX turn=27556 g=16 n=0
+AUX turn=27556 g=17 n=0
+AUX turn=27556 g=18 n=0
+AUX turn=27556 g=19 n=0
+AUX turn=27556 g=20 n=0
+AUX turn=27556 g=21 n=0
+AUX turn=27556 g=22 n=0
+AUX turn=27556 g=23 n=0
+AUX turn=27556 g=24 n=0
+AUX turn=27556 g=25 n=0
+AUX turn=27556 g=26 n=0
+AUX turn=27556 g=27 n=0
+AUX turn=27556 g=28 n=0
+AUX turn=27556 g=29 n=0
+AUX turn=27556 g=30 n=0
+AUX turn=27556 g=31 n=0
+AUX turn=27556 g=32 n=0
+AUX turn=27556 g=33 n=0
+AUX turn=27556 g=34 n=0
+AUX turn=27556 g=35 n=0
+AUX turn=27556 g=36 n=0
+AUX turn=27556 g=37 n=0
+AUX turn=27556 g=38 n=0
+AUX turn=27556 g=39 n=0
+AUX turn=27556 g=40 n=0
+AUX turn=27556 g=41 n=0
+AUX turn=27556 g=42 n=0
+AUX turn=27556 g=43 n=0
+AUX turn=27556 g=44 n=0
+AUX turn=27556 g=45 n=0
+AUX turn=27556 g=46 n=0
+AUX turn=27556 g=47 n=0
+AUX turn=27556 g=48 n=0
+AUX turn=27556 g=49 n=0
+AUX turn=27556 g=50 n=0
+AUX turn=27556 g=51 n=0
+AUX turn=27556 g=52 n=0
+AUX turn=27556 g=53 n=0
+AUX turn=27556 g=54 n=0
+AUX turn=27556 g=55 n=0
+AUX turn=27556 g=56 n=0
+AUX turn=27556 g=57 n=0
+AUX turn=27556 g=58 n=0
+AUX turn=27556 g=59 n=0
+AUX turn=27556 g=60 n=0
+AUX turn=27556 g=61 n=0
+AUX turn=27556 g=62 n=0
+AUX turn=27556 g=63 n=0
+AUX turn=27556 g=64 n=0
+AUX turn=27556 g=65 n=0
+AUX turn=27556 g=66 n=0
+AUX turn=27556 g=67 n=0
+AUX turn=27556 g=68 n=0
+AUX turn=27556 g=69 n=0
+AUX turn=27556 g=70 n=0
+AUX turn=27556 g=71 n=0
+AUX turn=27556 g=72 n=0
+AUX turn=27556 g=73 n=0
+AUX turn=27556 g=74 n=0
+AUX turn=27556 g=75 n=0
+AUX turn=27556 g=76 n=0
+AUX turn=27556 g=77 n=0
+AUX turn=27556 g=78 n=0
+AUX turn=27556 g=79 n=0
+AUX turn=27556 g=80 n=0
+AUX turn=27556 g=81 n=0
+AUX turn=27556 g=82 n=0
+AUX turn=27556 g=83 n=0
+AUX turn=27556 g=84 n=0
+AUX turn=27556 g=85 n=0
+AUX turn=27556 g=86 n=0
+AUX turn=27556 g=87 n=0
+AUX turn=27556 g=88 n=0
+AUX turn=27556 g=89 n=0
+AUX turn=27556 g=90 n=0
+AUX turn=27556 g=91 n=0
+AUX turn=27556 g=92 n=0
+AUX turn=27556 g=93 n=0
+AUX turn=27556 g=94 n=0
+AUX turn=27556 g=95 n=0
+AUX turn=27556 g=96 n=0
+AUX turn=27556 g=97 n=0
+AUX turn=27556 g=98 n=0
+AUX turn=27556 g=99 n=0
+AUX turn=27556 g=100 n=0
+AUX turn=27556 g=101 n=0
+AUX turn=27556 g=102 n=0
+AUX turn=27556 g=103 n=0
+AUX turn=27556 g=104 n=0
+AUX turn=27556 g=105 n=0
+AUX turn=27556 g=106 n=0
+AUX turn=27556 g=107 n=0
+AUX turn=27556 g=108 n=0
+AUX turn=27556 g=109 n=0
+AUX turn=27556 g=110 n=0
+AUX turn=27556 g=111 n=0
+AUX turn=27556 g=112 n=0
+AUX turn=27556 g=113 n=0
+AUX turn=27556 g=114 n=0
+AUX turn=27556 g=115 n=0
+AUX turn=27556 g=116 n=0
+AUX turn=27556 g=117 n=0
+AUX turn=27556 g=118 n=0
+AUX turn=27556 g=119 n=0
+AUX turn=27556 g=120 n=0
+AUX turn=27556 g=121 n=0
+AUX turn=27556 g=122 n=0
+AUX turn=27556 g=123 n=0
+AUX turn=27556 g=124 n=0
+AUX turn=27556 g=125 n=0
+AUX turn=27556 g=126 n=0
+AUX turn=27556 g=127 n=0
+AUX turn=27556 g=128 n=0
+EXIT-NO-ATTACK turn=27556 b_n=0
+D1K turn=27556 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27556 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27556 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27556 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27556 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27556 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27566 i=4 name=grey mold kpos=11,105 kdist=1 val=16 v1=16 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27566 pos=11,104 hp=9 avoidance=9 pos_danger=16 scary=1 no_retreat=0 nasty=0
+RETREAT-ADJACENT turn=27566 kill=grey mold hp_est=2 speed=111 myhp=9 myblows=1 pos_danger=16 retreat_path_danger=0 avoidance=9
+D1K turn=27576 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27576 pos=12,103 hp=9 avoidance=9 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27576 pos=12,103 hp=9 kills=1
+SCARY-ADJACENT turn=27576 kill=grey mold hp_est=2 ac=1 speed=111 myhp=9 myblows=1 kpos=11,105 kdist=2
+TEMP turn=27576 temp_n=1
+TEMP-KILL turn=27576 k=0 pos=11,105 dist=2 okay=1 view=1
+D1K turn=27576 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27576 g=0 n=0
+AUX turn=27576 g=1 n=0
+AUX turn=27576 g=2 n=0
+AUX turn=27576 g=3 n=0
+AUX turn=27576 g=4 n=0
+D1K turn=27576 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27576 g=5 n=0
+AUX turn=27576 g=6 n=0
+AUX turn=27576 g=7 n=0
+AUX turn=27576 g=8 n=0
+AUX turn=27576 g=9 n=0
+AUX turn=27576 g=10 n=0
+AUX turn=27576 g=11 n=0
+AUX turn=27576 g=12 n=0
+AUX turn=27576 g=13 n=0
+AUX turn=27576 g=14 n=0
+AUX turn=27576 g=15 n=0
+AUX turn=27576 g=16 n=0
+AUX turn=27576 g=17 n=0
+AUX turn=27576 g=18 n=0
+AUX turn=27576 g=19 n=0
+AUX turn=27576 g=20 n=0
+AUX turn=27576 g=21 n=0
+AUX turn=27576 g=22 n=0
+AUX turn=27576 g=23 n=0
+AUX turn=27576 g=24 n=0
+AUX turn=27576 g=25 n=0
+AUX turn=27576 g=26 n=0
+AUX turn=27576 g=27 n=0
+AUX turn=27576 g=28 n=0
+AUX turn=27576 g=29 n=0
+AUX turn=27576 g=30 n=0
+AUX turn=27576 g=31 n=0
+AUX turn=27576 g=32 n=0
+AUX turn=27576 g=33 n=0
+AUX turn=27576 g=34 n=0
+AUX turn=27576 g=35 n=0
+AUX turn=27576 g=36 n=0
+AUX turn=27576 g=37 n=0
+AUX turn=27576 g=38 n=0
+AUX turn=27576 g=39 n=0
+AUX turn=27576 g=40 n=0
+AUX turn=27576 g=41 n=0
+AUX turn=27576 g=42 n=0
+AUX turn=27576 g=43 n=0
+AUX turn=27576 g=44 n=0
+AUX turn=27576 g=45 n=0
+AUX turn=27576 g=46 n=0
+AUX turn=27576 g=47 n=0
+AUX turn=27576 g=48 n=0
+AUX turn=27576 g=49 n=0
+AUX turn=27576 g=50 n=0
+AUX turn=27576 g=51 n=0
+AUX turn=27576 g=52 n=0
+AUX turn=27576 g=53 n=0
+AUX turn=27576 g=54 n=0
+AUX turn=27576 g=55 n=0
+AUX turn=27576 g=56 n=0
+AUX turn=27576 g=57 n=0
+AUX turn=27576 g=58 n=0
+AUX turn=27576 g=59 n=0
+AUX turn=27576 g=60 n=0
+AUX turn=27576 g=61 n=0
+AUX turn=27576 g=62 n=0
+AUX turn=27576 g=63 n=0
+AUX turn=27576 g=64 n=0
+AUX turn=27576 g=65 n=0
+AUX turn=27576 g=66 n=0
+AUX turn=27576 g=67 n=0
+AUX turn=27576 g=68 n=0
+AUX turn=27576 g=69 n=0
+AUX turn=27576 g=70 n=0
+AUX turn=27576 g=71 n=0
+AUX turn=27576 g=72 n=0
+AUX turn=27576 g=73 n=0
+AUX turn=27576 g=74 n=0
+AUX turn=27576 g=75 n=0
+AUX turn=27576 g=76 n=0
+AUX turn=27576 g=77 n=0
+AUX turn=27576 g=78 n=0
+AUX turn=27576 g=79 n=0
+AUX turn=27576 g=80 n=0
+AUX turn=27576 g=81 n=0
+AUX turn=27576 g=82 n=0
+AUX turn=27576 g=83 n=0
+AUX turn=27576 g=84 n=0
+AUX turn=27576 g=85 n=0
+AUX turn=27576 g=86 n=0
+AUX turn=27576 g=87 n=0
+AUX turn=27576 g=88 n=0
+AUX turn=27576 g=89 n=0
+AUX turn=27576 g=90 n=0
+AUX turn=27576 g=91 n=0
+AUX turn=27576 g=92 n=0
+AUX turn=27576 g=93 n=0
+AUX turn=27576 g=94 n=0
+AUX turn=27576 g=95 n=0
+AUX turn=27576 g=96 n=0
+AUX turn=27576 g=97 n=0
+AUX turn=27576 g=98 n=0
+AUX turn=27576 g=99 n=0
+AUX turn=27576 g=100 n=0
+AUX turn=27576 g=101 n=0
+AUX turn=27576 g=102 n=0
+AUX turn=27576 g=103 n=0
+AUX turn=27576 g=104 n=0
+AUX turn=27576 g=105 n=0
+AUX turn=27576 g=106 n=0
+AUX turn=27576 g=107 n=0
+AUX turn=27576 g=108 n=0
+AUX turn=27576 g=109 n=0
+AUX turn=27576 g=110 n=0
+AUX turn=27576 g=111 n=0
+AUX turn=27576 g=112 n=0
+AUX turn=27576 g=113 n=0
+AUX turn=27576 g=114 n=0
+AUX turn=27576 g=115 n=0
+AUX turn=27576 g=116 n=0
+AUX turn=27576 g=117 n=0
+AUX turn=27576 g=118 n=0
+AUX turn=27576 g=119 n=0
+AUX turn=27576 g=120 n=0
+AUX turn=27576 g=121 n=0
+AUX turn=27576 g=122 n=0
+AUX turn=27576 g=123 n=0
+AUX turn=27576 g=124 n=0
+AUX turn=27576 g=125 n=0
+AUX turn=27576 g=126 n=0
+AUX turn=27576 g=127 n=0
+AUX turn=27576 g=128 n=0
+EXIT-NO-ATTACK turn=27576 b_n=0
+D1K turn=27576 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27576 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27576 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27576 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27576 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27586 i=4 name=grey mold kpos=11,105 kdist=1 val=16 v1=16 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27586 pos=12,104 hp=5 avoidance=5 pos_danger=16 scary=1 no_retreat=0 nasty=0
+RETREAT-ADJACENT turn=27586 kill=grey mold hp_est=2 speed=111 myhp=5 myblows=1 pos_danger=16 retreat_path_danger=0 avoidance=5
+D1K turn=27596 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27596 pos=12,103 hp=5 avoidance=5 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27596 pos=12,103 hp=5 kills=1
+SCARY-ADJACENT turn=27596 kill=grey mold hp_est=2 ac=1 speed=111 myhp=5 myblows=1 kpos=11,105 kdist=2
+TEMP turn=27596 temp_n=1
+TEMP-KILL turn=27596 k=0 pos=11,105 dist=2 okay=1 view=1
+D1K turn=27596 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27596 g=0 n=0
+AUX turn=27596 g=1 n=0
+AUX turn=27596 g=2 n=0
+AUX turn=27596 g=3 n=0
+AUX turn=27596 g=4 n=0
+D1K turn=27596 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27596 g=5 n=0
+AUX turn=27596 g=6 n=0
+AUX turn=27596 g=7 n=0
+AUX turn=27596 g=8 n=0
+AUX turn=27596 g=9 n=0
+AUX turn=27596 g=10 n=0
+AUX turn=27596 g=11 n=0
+AUX turn=27596 g=12 n=0
+AUX turn=27596 g=13 n=0
+AUX turn=27596 g=14 n=0
+AUX turn=27596 g=15 n=0
+AUX turn=27596 g=16 n=0
+AUX turn=27596 g=17 n=0
+AUX turn=27596 g=18 n=0
+AUX turn=27596 g=19 n=0
+AUX turn=27596 g=20 n=0
+AUX turn=27596 g=21 n=0
+AUX turn=27596 g=22 n=0
+AUX turn=27596 g=23 n=0
+AUX turn=27596 g=24 n=0
+AUX turn=27596 g=25 n=0
+AUX turn=27596 g=26 n=0
+AUX turn=27596 g=27 n=0
+AUX turn=27596 g=28 n=0
+AUX turn=27596 g=29 n=0
+AUX turn=27596 g=30 n=0
+AUX turn=27596 g=31 n=0
+AUX turn=27596 g=32 n=0
+AUX turn=27596 g=33 n=0
+AUX turn=27596 g=34 n=0
+AUX turn=27596 g=35 n=0
+AUX turn=27596 g=36 n=0
+AUX turn=27596 g=37 n=0
+AUX turn=27596 g=38 n=0
+AUX turn=27596 g=39 n=0
+AUX turn=27596 g=40 n=0
+AUX turn=27596 g=41 n=0
+AUX turn=27596 g=42 n=0
+AUX turn=27596 g=43 n=0
+AUX turn=27596 g=44 n=0
+AUX turn=27596 g=45 n=0
+AUX turn=27596 g=46 n=0
+AUX turn=27596 g=47 n=0
+AUX turn=27596 g=48 n=0
+AUX turn=27596 g=49 n=0
+AUX turn=27596 g=50 n=0
+AUX turn=27596 g=51 n=0
+AUX turn=27596 g=52 n=0
+AUX turn=27596 g=53 n=0
+AUX turn=27596 g=54 n=0
+AUX turn=27596 g=55 n=0
+AUX turn=27596 g=56 n=0
+AUX turn=27596 g=57 n=0
+AUX turn=27596 g=58 n=0
+AUX turn=27596 g=59 n=0
+AUX turn=27596 g=60 n=0
+AUX turn=27596 g=61 n=0
+AUX turn=27596 g=62 n=0
+AUX turn=27596 g=63 n=0
+AUX turn=27596 g=64 n=0
+AUX turn=27596 g=65 n=0
+AUX turn=27596 g=66 n=0
+AUX turn=27596 g=67 n=0
+AUX turn=27596 g=68 n=0
+AUX turn=27596 g=69 n=0
+AUX turn=27596 g=70 n=0
+AUX turn=27596 g=71 n=0
+AUX turn=27596 g=72 n=0
+AUX turn=27596 g=73 n=0
+AUX turn=27596 g=74 n=0
+AUX turn=27596 g=75 n=0
+AUX turn=27596 g=76 n=0
+AUX turn=27596 g=77 n=0
+AUX turn=27596 g=78 n=0
+AUX turn=27596 g=79 n=0
+AUX turn=27596 g=80 n=0
+AUX turn=27596 g=81 n=0
+AUX turn=27596 g=82 n=0
+AUX turn=27596 g=83 n=0
+AUX turn=27596 g=84 n=0
+AUX turn=27596 g=85 n=0
+AUX turn=27596 g=86 n=0
+AUX turn=27596 g=87 n=0
+AUX turn=27596 g=88 n=0
+AUX turn=27596 g=89 n=0
+AUX turn=27596 g=90 n=0
+AUX turn=27596 g=91 n=0
+AUX turn=27596 g=92 n=0
+AUX turn=27596 g=93 n=0
+AUX turn=27596 g=94 n=0
+AUX turn=27596 g=95 n=0
+AUX turn=27596 g=96 n=0
+AUX turn=27596 g=97 n=0
+AUX turn=27596 g=98 n=0
+AUX turn=27596 g=99 n=0
+AUX turn=27596 g=100 n=0
+AUX turn=27596 g=101 n=0
+AUX turn=27596 g=102 n=0
+AUX turn=27596 g=103 n=0
+AUX turn=27596 g=104 n=0
+AUX turn=27596 g=105 n=0
+AUX turn=27596 g=106 n=0
+AUX turn=27596 g=107 n=0
+AUX turn=27596 g=108 n=0
+AUX turn=27596 g=109 n=0
+AUX turn=27596 g=110 n=0
+AUX turn=27596 g=111 n=0
+AUX turn=27596 g=112 n=0
+AUX turn=27596 g=113 n=0
+AUX turn=27596 g=114 n=0
+AUX turn=27596 g=115 n=0
+AUX turn=27596 g=116 n=0
+AUX turn=27596 g=117 n=0
+AUX turn=27596 g=118 n=0
+AUX turn=27596 g=119 n=0
+AUX turn=27596 g=120 n=0
+AUX turn=27596 g=121 n=0
+AUX turn=27596 g=122 n=0
+AUX turn=27596 g=123 n=0
+AUX turn=27596 g=124 n=0
+AUX turn=27596 g=125 n=0
+AUX turn=27596 g=126 n=0
+AUX turn=27596 g=127 n=0
+AUX turn=27596 g=128 n=0
+EXIT-NO-ATTACK turn=27596 b_n=0
+D1K turn=27596 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27596 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27596 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27596 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27596 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27606 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27606 pos=12,102 hp=5 avoidance=5 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27606 pos=12,102 hp=5 kills=1
+TEMP turn=27606 temp_n=0
+EXIT-NO-DEST turn=27606 kills=1
+D1K turn=27606 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27606 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27606 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27606 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27616 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27616 pos=12,101 hp=5 avoidance=5 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27616 pos=12,101 hp=5 kills=1
+TEMP turn=27616 temp_n=0
+EXIT-NO-DEST turn=27616 kills=1
+D1K turn=27616 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27616 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27616 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27616 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27626 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27626 pos=13,100 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27626 pos=13,100 hp=6 kills=1
+TEMP turn=27626 temp_n=0
+EXIT-NO-DEST turn=27626 kills=1
+D1K turn=27626 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27626 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27626 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27626 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27636 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27636 pos=13,99 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27636 pos=13,99 hp=6 kills=2
+TEMP turn=27636 temp_n=1
+TEMP-KILL turn=27636 k=0 pos=12,96 dist=3 okay=1 view=1
+D1K turn=27636 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27636 g=0 n=0
+AUX turn=27636 g=1 n=0
+AUX turn=27636 g=2 n=0
+AUX turn=27636 g=3 n=0
+AUX turn=27636 g=4 n=0
+D1K turn=27636 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27636 g=5 n=0
+AUX turn=27636 g=6 n=0
+AUX turn=27636 g=7 n=0
+AUX turn=27636 g=8 n=0
+AUX turn=27636 g=9 n=0
+AUX turn=27636 g=10 n=0
+AUX turn=27636 g=11 n=0
+AUX turn=27636 g=12 n=0
+AUX turn=27636 g=13 n=0
+AUX turn=27636 g=14 n=0
+AUX turn=27636 g=15 n=0
+AUX turn=27636 g=16 n=0
+AUX turn=27636 g=17 n=0
+AUX turn=27636 g=18 n=0
+AUX turn=27636 g=19 n=0
+AUX turn=27636 g=20 n=0
+AUX turn=27636 g=21 n=0
+AUX turn=27636 g=22 n=0
+AUX turn=27636 g=23 n=0
+AUX turn=27636 g=24 n=0
+AUX turn=27636 g=25 n=0
+AUX turn=27636 g=26 n=0
+AUX turn=27636 g=27 n=0
+AUX turn=27636 g=28 n=0
+AUX turn=27636 g=29 n=0
+AUX turn=27636 g=30 n=0
+AUX turn=27636 g=31 n=0
+AUX turn=27636 g=32 n=0
+AUX turn=27636 g=33 n=0
+AUX turn=27636 g=34 n=0
+AUX turn=27636 g=35 n=0
+AUX turn=27636 g=36 n=0
+AUX turn=27636 g=37 n=0
+AUX turn=27636 g=38 n=0
+AUX turn=27636 g=39 n=0
+AUX turn=27636 g=40 n=0
+AUX turn=27636 g=41 n=0
+AUX turn=27636 g=42 n=0
+AUX turn=27636 g=43 n=0
+AUX turn=27636 g=44 n=0
+AUX turn=27636 g=45 n=0
+AUX turn=27636 g=46 n=0
+AUX turn=27636 g=47 n=0
+AUX turn=27636 g=48 n=0
+AUX turn=27636 g=49 n=0
+AUX turn=27636 g=50 n=0
+AUX turn=27636 g=51 n=0
+AUX turn=27636 g=52 n=0
+AUX turn=27636 g=53 n=0
+AUX turn=27636 g=54 n=0
+AUX turn=27636 g=55 n=0
+AUX turn=27636 g=56 n=0
+AUX turn=27636 g=57 n=0
+AUX turn=27636 g=58 n=0
+AUX turn=27636 g=59 n=0
+AUX turn=27636 g=60 n=0
+AUX turn=27636 g=61 n=0
+AUX turn=27636 g=62 n=0
+AUX turn=27636 g=63 n=0
+AUX turn=27636 g=64 n=0
+AUX turn=27636 g=65 n=0
+AUX turn=27636 g=66 n=0
+AUX turn=27636 g=67 n=0
+AUX turn=27636 g=68 n=0
+AUX turn=27636 g=69 n=0
+AUX turn=27636 g=70 n=0
+AUX turn=27636 g=71 n=0
+AUX turn=27636 g=72 n=0
+AUX turn=27636 g=73 n=0
+AUX turn=27636 g=74 n=0
+AUX turn=27636 g=75 n=0
+AUX turn=27636 g=76 n=0
+AUX turn=27636 g=77 n=0
+AUX turn=27636 g=78 n=0
+AUX turn=27636 g=79 n=0
+AUX turn=27636 g=80 n=0
+AUX turn=27636 g=81 n=0
+AUX turn=27636 g=82 n=0
+AUX turn=27636 g=83 n=0
+AUX turn=27636 g=84 n=0
+AUX turn=27636 g=85 n=0
+AUX turn=27636 g=86 n=0
+AUX turn=27636 g=87 n=0
+AUX turn=27636 g=88 n=0
+AUX turn=27636 g=89 n=0
+AUX turn=27636 g=90 n=0
+AUX turn=27636 g=91 n=0
+AUX turn=27636 g=92 n=0
+AUX turn=27636 g=93 n=0
+AUX turn=27636 g=94 n=0
+AUX turn=27636 g=95 n=0
+AUX turn=27636 g=96 n=0
+AUX turn=27636 g=97 n=0
+AUX turn=27636 g=98 n=0
+AUX turn=27636 g=99 n=0
+AUX turn=27636 g=100 n=0
+AUX turn=27636 g=101 n=0
+AUX turn=27636 g=102 n=0
+AUX turn=27636 g=103 n=0
+AUX turn=27636 g=104 n=0
+AUX turn=27636 g=105 n=0
+AUX turn=27636 g=106 n=0
+AUX turn=27636 g=107 n=0
+AUX turn=27636 g=108 n=0
+AUX turn=27636 g=109 n=0
+AUX turn=27636 g=110 n=0
+AUX turn=27636 g=111 n=0
+AUX turn=27636 g=112 n=0
+AUX turn=27636 g=113 n=0
+AUX turn=27636 g=114 n=0
+AUX turn=27636 g=115 n=0
+AUX turn=27636 g=116 n=0
+AUX turn=27636 g=117 n=0
+AUX turn=27636 g=118 n=0
+AUX turn=27636 g=119 n=0
+AUX turn=27636 g=120 n=0
+AUX turn=27636 g=121 n=0
+AUX turn=27636 g=122 n=0
+AUX turn=27636 g=123 n=0
+AUX turn=27636 g=124 n=0
+AUX turn=27636 g=125 n=0
+AUX turn=27636 g=126 n=0
+AUX turn=27636 g=127 n=0
+AUX turn=27636 g=128 n=0
+EXIT-NO-ATTACK turn=27636 b_n=0
+D1K turn=27636 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27636 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27636 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27636 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27636 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27646 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27646 pos=13,100 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27646 pos=13,100 hp=6 kills=2
+TEMP turn=27646 temp_n=1
+TEMP-KILL turn=27646 k=0 pos=13,96 dist=4 okay=1 view=1
+D1K turn=27646 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27646 g=0 n=0
+AUX turn=27646 g=1 n=0
+AUX turn=27646 g=2 n=0
+AUX turn=27646 g=3 n=0
+AUX turn=27646 g=4 n=0
+D1K turn=27646 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27646 g=5 n=0
+AUX turn=27646 g=6 n=0
+AUX turn=27646 g=7 n=0
+AUX turn=27646 g=8 n=0
+AUX turn=27646 g=9 n=0
+AUX turn=27646 g=10 n=0
+AUX turn=27646 g=11 n=0
+AUX turn=27646 g=12 n=0
+AUX turn=27646 g=13 n=0
+AUX turn=27646 g=14 n=0
+AUX turn=27646 g=15 n=0
+AUX turn=27646 g=16 n=0
+AUX turn=27646 g=17 n=0
+AUX turn=27646 g=18 n=0
+AUX turn=27646 g=19 n=0
+AUX turn=27646 g=20 n=0
+AUX turn=27646 g=21 n=0
+AUX turn=27646 g=22 n=0
+AUX turn=27646 g=23 n=0
+AUX turn=27646 g=24 n=0
+AUX turn=27646 g=25 n=0
+AUX turn=27646 g=26 n=0
+AUX turn=27646 g=27 n=0
+AUX turn=27646 g=28 n=0
+AUX turn=27646 g=29 n=0
+AUX turn=27646 g=30 n=0
+AUX turn=27646 g=31 n=0
+AUX turn=27646 g=32 n=0
+AUX turn=27646 g=33 n=0
+AUX turn=27646 g=34 n=0
+AUX turn=27646 g=35 n=0
+AUX turn=27646 g=36 n=0
+AUX turn=27646 g=37 n=0
+AUX turn=27646 g=38 n=0
+AUX turn=27646 g=39 n=0
+AUX turn=27646 g=40 n=0
+AUX turn=27646 g=41 n=0
+AUX turn=27646 g=42 n=0
+AUX turn=27646 g=43 n=0
+AUX turn=27646 g=44 n=0
+AUX turn=27646 g=45 n=0
+AUX turn=27646 g=46 n=0
+AUX turn=27646 g=47 n=0
+AUX turn=27646 g=48 n=0
+AUX turn=27646 g=49 n=0
+AUX turn=27646 g=50 n=0
+AUX turn=27646 g=51 n=0
+AUX turn=27646 g=52 n=0
+AUX turn=27646 g=53 n=0
+AUX turn=27646 g=54 n=0
+AUX turn=27646 g=55 n=0
+AUX turn=27646 g=56 n=0
+AUX turn=27646 g=57 n=0
+AUX turn=27646 g=58 n=0
+AUX turn=27646 g=59 n=0
+AUX turn=27646 g=60 n=0
+AUX turn=27646 g=61 n=0
+AUX turn=27646 g=62 n=0
+AUX turn=27646 g=63 n=0
+AUX turn=27646 g=64 n=0
+AUX turn=27646 g=65 n=0
+AUX turn=27646 g=66 n=0
+AUX turn=27646 g=67 n=0
+AUX turn=27646 g=68 n=0
+AUX turn=27646 g=69 n=0
+AUX turn=27646 g=70 n=0
+AUX turn=27646 g=71 n=0
+AUX turn=27646 g=72 n=0
+AUX turn=27646 g=73 n=0
+AUX turn=27646 g=74 n=0
+AUX turn=27646 g=75 n=0
+AUX turn=27646 g=76 n=0
+AUX turn=27646 g=77 n=0
+AUX turn=27646 g=78 n=0
+AUX turn=27646 g=79 n=0
+AUX turn=27646 g=80 n=0
+AUX turn=27646 g=81 n=0
+AUX turn=27646 g=82 n=0
+AUX turn=27646 g=83 n=0
+AUX turn=27646 g=84 n=0
+AUX turn=27646 g=85 n=0
+AUX turn=27646 g=86 n=0
+AUX turn=27646 g=87 n=0
+AUX turn=27646 g=88 n=0
+AUX turn=27646 g=89 n=0
+AUX turn=27646 g=90 n=0
+AUX turn=27646 g=91 n=0
+AUX turn=27646 g=92 n=0
+AUX turn=27646 g=93 n=0
+AUX turn=27646 g=94 n=0
+AUX turn=27646 g=95 n=0
+AUX turn=27646 g=96 n=0
+AUX turn=27646 g=97 n=0
+AUX turn=27646 g=98 n=0
+AUX turn=27646 g=99 n=0
+AUX turn=27646 g=100 n=0
+AUX turn=27646 g=101 n=0
+AUX turn=27646 g=102 n=0
+AUX turn=27646 g=103 n=0
+AUX turn=27646 g=104 n=0
+AUX turn=27646 g=105 n=0
+AUX turn=27646 g=106 n=0
+AUX turn=27646 g=107 n=0
+AUX turn=27646 g=108 n=0
+AUX turn=27646 g=109 n=0
+AUX turn=27646 g=110 n=0
+AUX turn=27646 g=111 n=0
+AUX turn=27646 g=112 n=0
+AUX turn=27646 g=113 n=0
+AUX turn=27646 g=114 n=0
+AUX turn=27646 g=115 n=0
+AUX turn=27646 g=116 n=0
+AUX turn=27646 g=117 n=0
+AUX turn=27646 g=118 n=0
+AUX turn=27646 g=119 n=0
+AUX turn=27646 g=120 n=0
+AUX turn=27646 g=121 n=0
+AUX turn=27646 g=122 n=0
+AUX turn=27646 g=123 n=0
+AUX turn=27646 g=124 n=0
+AUX turn=27646 g=125 n=0
+AUX turn=27646 g=126 n=0
+AUX turn=27646 g=127 n=0
+AUX turn=27646 g=128 n=0
+EXIT-NO-ATTACK turn=27646 b_n=0
+D1K turn=27646 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27646 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27646 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27646 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27656 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27656 pos=13,101 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27656 pos=13,101 hp=6 kills=2
+TEMP turn=27656 temp_n=1
+TEMP-KILL turn=27656 k=0 pos=13,96 dist=5 okay=1 view=1
+D1K turn=27656 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27656 g=0 n=0
+AUX turn=27656 g=1 n=0
+AUX turn=27656 g=2 n=0
+AUX turn=27656 g=3 n=0
+AUX turn=27656 g=4 n=0
+D1K turn=27656 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27656 g=5 n=0
+AUX turn=27656 g=6 n=0
+AUX turn=27656 g=7 n=0
+AUX turn=27656 g=8 n=0
+AUX turn=27656 g=9 n=0
+AUX turn=27656 g=10 n=0
+AUX turn=27656 g=11 n=0
+AUX turn=27656 g=12 n=0
+AUX turn=27656 g=13 n=0
+AUX turn=27656 g=14 n=0
+AUX turn=27656 g=15 n=0
+AUX turn=27656 g=16 n=0
+AUX turn=27656 g=17 n=0
+AUX turn=27656 g=18 n=0
+AUX turn=27656 g=19 n=0
+AUX turn=27656 g=20 n=0
+AUX turn=27656 g=21 n=0
+AUX turn=27656 g=22 n=0
+AUX turn=27656 g=23 n=0
+AUX turn=27656 g=24 n=0
+AUX turn=27656 g=25 n=0
+AUX turn=27656 g=26 n=0
+AUX turn=27656 g=27 n=0
+AUX turn=27656 g=28 n=0
+AUX turn=27656 g=29 n=0
+AUX turn=27656 g=30 n=0
+AUX turn=27656 g=31 n=0
+AUX turn=27656 g=32 n=0
+AUX turn=27656 g=33 n=0
+AUX turn=27656 g=34 n=0
+AUX turn=27656 g=35 n=0
+AUX turn=27656 g=36 n=0
+AUX turn=27656 g=37 n=0
+AUX turn=27656 g=38 n=0
+AUX turn=27656 g=39 n=0
+AUX turn=27656 g=40 n=0
+AUX turn=27656 g=41 n=0
+AUX turn=27656 g=42 n=0
+AUX turn=27656 g=43 n=0
+AUX turn=27656 g=44 n=0
+AUX turn=27656 g=45 n=0
+AUX turn=27656 g=46 n=0
+AUX turn=27656 g=47 n=0
+AUX turn=27656 g=48 n=0
+AUX turn=27656 g=49 n=0
+AUX turn=27656 g=50 n=0
+AUX turn=27656 g=51 n=0
+AUX turn=27656 g=52 n=0
+AUX turn=27656 g=53 n=0
+AUX turn=27656 g=54 n=0
+AUX turn=27656 g=55 n=0
+AUX turn=27656 g=56 n=0
+AUX turn=27656 g=57 n=0
+AUX turn=27656 g=58 n=0
+AUX turn=27656 g=59 n=0
+AUX turn=27656 g=60 n=0
+AUX turn=27656 g=61 n=0
+AUX turn=27656 g=62 n=0
+AUX turn=27656 g=63 n=0
+AUX turn=27656 g=64 n=0
+AUX turn=27656 g=65 n=0
+AUX turn=27656 g=66 n=0
+AUX turn=27656 g=67 n=0
+AUX turn=27656 g=68 n=0
+AUX turn=27656 g=69 n=0
+AUX turn=27656 g=70 n=0
+AUX turn=27656 g=71 n=0
+AUX turn=27656 g=72 n=0
+AUX turn=27656 g=73 n=0
+AUX turn=27656 g=74 n=0
+AUX turn=27656 g=75 n=0
+AUX turn=27656 g=76 n=0
+AUX turn=27656 g=77 n=0
+AUX turn=27656 g=78 n=0
+AUX turn=27656 g=79 n=0
+AUX turn=27656 g=80 n=0
+AUX turn=27656 g=81 n=0
+AUX turn=27656 g=82 n=0
+AUX turn=27656 g=83 n=0
+AUX turn=27656 g=84 n=0
+AUX turn=27656 g=85 n=0
+AUX turn=27656 g=86 n=0
+AUX turn=27656 g=87 n=0
+AUX turn=27656 g=88 n=0
+AUX turn=27656 g=89 n=0
+AUX turn=27656 g=90 n=0
+AUX turn=27656 g=91 n=0
+AUX turn=27656 g=92 n=0
+AUX turn=27656 g=93 n=0
+AUX turn=27656 g=94 n=0
+AUX turn=27656 g=95 n=0
+AUX turn=27656 g=96 n=0
+AUX turn=27656 g=97 n=0
+AUX turn=27656 g=98 n=0
+AUX turn=27656 g=99 n=0
+AUX turn=27656 g=100 n=0
+AUX turn=27656 g=101 n=0
+AUX turn=27656 g=102 n=0
+AUX turn=27656 g=103 n=0
+AUX turn=27656 g=104 n=0
+AUX turn=27656 g=105 n=0
+AUX turn=27656 g=106 n=0
+AUX turn=27656 g=107 n=0
+AUX turn=27656 g=108 n=0
+AUX turn=27656 g=109 n=0
+AUX turn=27656 g=110 n=0
+AUX turn=27656 g=111 n=0
+AUX turn=27656 g=112 n=0
+AUX turn=27656 g=113 n=0
+AUX turn=27656 g=114 n=0
+AUX turn=27656 g=115 n=0
+AUX turn=27656 g=116 n=0
+AUX turn=27656 g=117 n=0
+AUX turn=27656 g=118 n=0
+AUX turn=27656 g=119 n=0
+AUX turn=27656 g=120 n=0
+AUX turn=27656 g=121 n=0
+AUX turn=27656 g=122 n=0
+AUX turn=27656 g=123 n=0
+AUX turn=27656 g=124 n=0
+AUX turn=27656 g=125 n=0
+AUX turn=27656 g=126 n=0
+AUX turn=27656 g=127 n=0
+AUX turn=27656 g=128 n=0
+EXIT-NO-ATTACK turn=27656 b_n=0
+D1K turn=27656 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27656 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27656 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27656 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27666 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27666 pos=13,102 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27666 pos=13,102 hp=6 kills=1
+TEMP turn=27666 temp_n=0
+EXIT-NO-DEST turn=27666 kills=1
+D1K turn=27666 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27666 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27666 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27676 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27676 pos=12,103 hp=6 avoidance=6 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27676 pos=12,103 hp=6 kills=1
+SCARY-ADJACENT turn=27676 kill=grey mold hp_est=2 ac=1 speed=111 myhp=6 myblows=1 kpos=11,105 kdist=2
+TEMP turn=27676 temp_n=1
+TEMP-KILL turn=27676 k=0 pos=11,105 dist=2 okay=1 view=1
+D1K turn=27676 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27676 g=0 n=0
+AUX turn=27676 g=1 n=0
+AUX turn=27676 g=2 n=0
+AUX turn=27676 g=3 n=0
+AUX turn=27676 g=4 n=0
+D1K turn=27676 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27676 g=5 n=0
+AUX turn=27676 g=6 n=0
+AUX turn=27676 g=7 n=0
+AUX turn=27676 g=8 n=0
+AUX turn=27676 g=9 n=0
+AUX turn=27676 g=10 n=0
+AUX turn=27676 g=11 n=0
+AUX turn=27676 g=12 n=0
+AUX turn=27676 g=13 n=0
+AUX turn=27676 g=14 n=0
+AUX turn=27676 g=15 n=0
+AUX turn=27676 g=16 n=0
+AUX turn=27676 g=17 n=0
+AUX turn=27676 g=18 n=0
+AUX turn=27676 g=19 n=0
+AUX turn=27676 g=20 n=0
+AUX turn=27676 g=21 n=0
+AUX turn=27676 g=22 n=0
+AUX turn=27676 g=23 n=0
+AUX turn=27676 g=24 n=0
+AUX turn=27676 g=25 n=0
+AUX turn=27676 g=26 n=0
+AUX turn=27676 g=27 n=0
+AUX turn=27676 g=28 n=0
+AUX turn=27676 g=29 n=0
+AUX turn=27676 g=30 n=0
+AUX turn=27676 g=31 n=0
+AUX turn=27676 g=32 n=0
+AUX turn=27676 g=33 n=0
+AUX turn=27676 g=34 n=0
+AUX turn=27676 g=35 n=0
+AUX turn=27676 g=36 n=0
+AUX turn=27676 g=37 n=0
+AUX turn=27676 g=38 n=0
+AUX turn=27676 g=39 n=0
+AUX turn=27676 g=40 n=0
+AUX turn=27676 g=41 n=0
+AUX turn=27676 g=42 n=0
+AUX turn=27676 g=43 n=0
+AUX turn=27676 g=44 n=0
+AUX turn=27676 g=45 n=0
+AUX turn=27676 g=46 n=0
+AUX turn=27676 g=47 n=0
+AUX turn=27676 g=48 n=0
+AUX turn=27676 g=49 n=0
+AUX turn=27676 g=50 n=0
+AUX turn=27676 g=51 n=0
+AUX turn=27676 g=52 n=0
+AUX turn=27676 g=53 n=0
+AUX turn=27676 g=54 n=0
+AUX turn=27676 g=55 n=0
+AUX turn=27676 g=56 n=0
+AUX turn=27676 g=57 n=0
+AUX turn=27676 g=58 n=0
+AUX turn=27676 g=59 n=0
+AUX turn=27676 g=60 n=0
+AUX turn=27676 g=61 n=0
+AUX turn=27676 g=62 n=0
+AUX turn=27676 g=63 n=0
+AUX turn=27676 g=64 n=0
+AUX turn=27676 g=65 n=0
+AUX turn=27676 g=66 n=0
+AUX turn=27676 g=67 n=0
+AUX turn=27676 g=68 n=0
+AUX turn=27676 g=69 n=0
+AUX turn=27676 g=70 n=0
+AUX turn=27676 g=71 n=0
+AUX turn=27676 g=72 n=0
+AUX turn=27676 g=73 n=0
+AUX turn=27676 g=74 n=0
+AUX turn=27676 g=75 n=0
+AUX turn=27676 g=76 n=0
+AUX turn=27676 g=77 n=0
+AUX turn=27676 g=78 n=0
+AUX turn=27676 g=79 n=0
+AUX turn=27676 g=80 n=0
+AUX turn=27676 g=81 n=0
+AUX turn=27676 g=82 n=0
+AUX turn=27676 g=83 n=0
+AUX turn=27676 g=84 n=0
+AUX turn=27676 g=85 n=0
+AUX turn=27676 g=86 n=0
+AUX turn=27676 g=87 n=0
+AUX turn=27676 g=88 n=0
+AUX turn=27676 g=89 n=0
+AUX turn=27676 g=90 n=0
+AUX turn=27676 g=91 n=0
+AUX turn=27676 g=92 n=0
+AUX turn=27676 g=93 n=0
+AUX turn=27676 g=94 n=0
+AUX turn=27676 g=95 n=0
+AUX turn=27676 g=96 n=0
+AUX turn=27676 g=97 n=0
+AUX turn=27676 g=98 n=0
+AUX turn=27676 g=99 n=0
+AUX turn=27676 g=100 n=0
+AUX turn=27676 g=101 n=0
+AUX turn=27676 g=102 n=0
+AUX turn=27676 g=103 n=0
+AUX turn=27676 g=104 n=0
+AUX turn=27676 g=105 n=0
+AUX turn=27676 g=106 n=0
+AUX turn=27676 g=107 n=0
+AUX turn=27676 g=108 n=0
+AUX turn=27676 g=109 n=0
+AUX turn=27676 g=110 n=0
+AUX turn=27676 g=111 n=0
+AUX turn=27676 g=112 n=0
+AUX turn=27676 g=113 n=0
+AUX turn=27676 g=114 n=0
+AUX turn=27676 g=115 n=0
+AUX turn=27676 g=116 n=0
+AUX turn=27676 g=117 n=0
+AUX turn=27676 g=118 n=0
+AUX turn=27676 g=119 n=0
+AUX turn=27676 g=120 n=0
+AUX turn=27676 g=121 n=0
+AUX turn=27676 g=122 n=0
+AUX turn=27676 g=123 n=0
+AUX turn=27676 g=124 n=0
+AUX turn=27676 g=125 n=0
+AUX turn=27676 g=126 n=0
+AUX turn=27676 g=127 n=0
+AUX turn=27676 g=128 n=0
+EXIT-NO-ATTACK turn=27676 b_n=0
+D1K turn=27676 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27676 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27676 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27686 i=4 name=grey mold kpos=11,105 kdist=1 val=16 v1=16 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27686 pos=12,104 hp=3 avoidance=3 pos_danger=16 scary=1 no_retreat=0 nasty=0
+RETREAT-ADJACENT turn=27686 kill=grey mold hp_est=2 speed=111 myhp=3 myblows=1 pos_danger=16 retreat_path_danger=0 avoidance=3
+D1K turn=27696 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27696 pos=12,103 hp=3 avoidance=3 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27696 pos=12,103 hp=3 kills=1
+SCARY-ADJACENT turn=27696 kill=grey mold hp_est=2 ac=1 speed=111 myhp=3 myblows=1 kpos=11,105 kdist=2
+TEMP turn=27696 temp_n=1
+TEMP-KILL turn=27696 k=0 pos=11,105 dist=2 okay=1 view=1
+D1K turn=27696 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27696 g=0 n=0
+AUX turn=27696 g=1 n=0
+AUX turn=27696 g=2 n=0
+AUX turn=27696 g=3 n=0
+AUX turn=27696 g=4 n=0
+D1K turn=27696 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27696 g=5 n=0
+AUX turn=27696 g=6 n=0
+AUX turn=27696 g=7 n=0
+AUX turn=27696 g=8 n=0
+AUX turn=27696 g=9 n=0
+AUX turn=27696 g=10 n=0
+AUX turn=27696 g=11 n=0
+AUX turn=27696 g=12 n=0
+AUX turn=27696 g=13 n=0
+AUX turn=27696 g=14 n=0
+AUX turn=27696 g=15 n=0
+AUX turn=27696 g=16 n=0
+AUX turn=27696 g=17 n=0
+AUX turn=27696 g=18 n=0
+AUX turn=27696 g=19 n=0
+AUX turn=27696 g=20 n=0
+AUX turn=27696 g=21 n=0
+AUX turn=27696 g=22 n=0
+AUX turn=27696 g=23 n=0
+AUX turn=27696 g=24 n=0
+AUX turn=27696 g=25 n=0
+AUX turn=27696 g=26 n=0
+AUX turn=27696 g=27 n=0
+AUX turn=27696 g=28 n=0
+AUX turn=27696 g=29 n=0
+AUX turn=27696 g=30 n=0
+AUX turn=27696 g=31 n=0
+AUX turn=27696 g=32 n=0
+AUX turn=27696 g=33 n=0
+AUX turn=27696 g=34 n=0
+AUX turn=27696 g=35 n=0
+AUX turn=27696 g=36 n=0
+AUX turn=27696 g=37 n=0
+AUX turn=27696 g=38 n=0
+AUX turn=27696 g=39 n=0
+AUX turn=27696 g=40 n=0
+AUX turn=27696 g=41 n=0
+AUX turn=27696 g=42 n=0
+AUX turn=27696 g=43 n=0
+AUX turn=27696 g=44 n=0
+AUX turn=27696 g=45 n=0
+AUX turn=27696 g=46 n=0
+AUX turn=27696 g=47 n=0
+AUX turn=27696 g=48 n=0
+AUX turn=27696 g=49 n=0
+AUX turn=27696 g=50 n=0
+AUX turn=27696 g=51 n=0
+AUX turn=27696 g=52 n=0
+AUX turn=27696 g=53 n=0
+AUX turn=27696 g=54 n=0
+AUX turn=27696 g=55 n=0
+AUX turn=27696 g=56 n=0
+AUX turn=27696 g=57 n=0
+AUX turn=27696 g=58 n=0
+AUX turn=27696 g=59 n=0
+AUX turn=27696 g=60 n=0
+AUX turn=27696 g=61 n=0
+AUX turn=27696 g=62 n=0
+AUX turn=27696 g=63 n=0
+AUX turn=27696 g=64 n=0
+AUX turn=27696 g=65 n=0
+AUX turn=27696 g=66 n=0
+AUX turn=27696 g=67 n=0
+AUX turn=27696 g=68 n=0
+AUX turn=27696 g=69 n=0
+AUX turn=27696 g=70 n=0
+AUX turn=27696 g=71 n=0
+AUX turn=27696 g=72 n=0
+AUX turn=27696 g=73 n=0
+AUX turn=27696 g=74 n=0
+AUX turn=27696 g=75 n=0
+AUX turn=27696 g=76 n=0
+AUX turn=27696 g=77 n=0
+AUX turn=27696 g=78 n=0
+AUX turn=27696 g=79 n=0
+AUX turn=27696 g=80 n=0
+AUX turn=27696 g=81 n=0
+AUX turn=27696 g=82 n=0
+AUX turn=27696 g=83 n=0
+AUX turn=27696 g=84 n=0
+AUX turn=27696 g=85 n=0
+AUX turn=27696 g=86 n=0
+AUX turn=27696 g=87 n=0
+AUX turn=27696 g=88 n=0
+AUX turn=27696 g=89 n=0
+AUX turn=27696 g=90 n=0
+AUX turn=27696 g=91 n=0
+AUX turn=27696 g=92 n=0
+AUX turn=27696 g=93 n=0
+AUX turn=27696 g=94 n=0
+AUX turn=27696 g=95 n=0
+AUX turn=27696 g=96 n=0
+AUX turn=27696 g=97 n=0
+AUX turn=27696 g=98 n=0
+AUX turn=27696 g=99 n=0
+AUX turn=27696 g=100 n=0
+AUX turn=27696 g=101 n=0
+AUX turn=27696 g=102 n=0
+AUX turn=27696 g=103 n=0
+AUX turn=27696 g=104 n=0
+AUX turn=27696 g=105 n=0
+AUX turn=27696 g=106 n=0
+AUX turn=27696 g=107 n=0
+AUX turn=27696 g=108 n=0
+AUX turn=27696 g=109 n=0
+AUX turn=27696 g=110 n=0
+AUX turn=27696 g=111 n=0
+AUX turn=27696 g=112 n=0
+AUX turn=27696 g=113 n=0
+AUX turn=27696 g=114 n=0
+AUX turn=27696 g=115 n=0
+AUX turn=27696 g=116 n=0
+AUX turn=27696 g=117 n=0
+AUX turn=27696 g=118 n=0
+AUX turn=27696 g=119 n=0
+AUX turn=27696 g=120 n=0
+AUX turn=27696 g=121 n=0
+AUX turn=27696 g=122 n=0
+AUX turn=27696 g=123 n=0
+AUX turn=27696 g=124 n=0
+AUX turn=27696 g=125 n=0
+AUX turn=27696 g=126 n=0
+AUX turn=27696 g=127 n=0
+AUX turn=27696 g=128 n=0
+EXIT-NO-ATTACK turn=27696 b_n=0
+D1K turn=27696 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27696 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27696 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27696 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27696 i=4 name=grey mold kpos=11,105 kdist=2 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27706 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27706 pos=12,102 hp=3 avoidance=3 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27706 pos=12,102 hp=3 kills=1
+TEMP turn=27706 temp_n=0
+EXIT-NO-DEST turn=27706 kills=1
+D1K turn=27706 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27706 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27706 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27706 i=4 name=grey mold kpos=11,105 kdist=3 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27716 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27716 pos=12,101 hp=3 avoidance=3 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27716 pos=12,101 hp=3 kills=1
+TEMP turn=27716 temp_n=0
+EXIT-NO-DEST turn=27716 kills=1
+D1K turn=27716 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27716 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27716 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27716 i=4 name=grey mold kpos=11,105 kdist=4 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27726 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27726 pos=13,100 hp=4 avoidance=4 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27726 pos=13,100 hp=4 kills=1
+TEMP turn=27726 temp_n=0
+EXIT-NO-DEST turn=27726 kills=1
+D1K turn=27726 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27726 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27726 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27726 i=4 name=grey mold kpos=11,105 kdist=5 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27736 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27736 pos=13,99 hp=4 avoidance=4 pos_danger=0 scary=1 no_retreat=0 nasty=0
+ATTACK-ENTERED turn=27736 pos=13,99 hp=4 kills=2
+TEMP turn=27736 temp_n=1
+TEMP-KILL turn=27736 k=0 pos=12,97 dist=2 okay=1 view=1
+D1K turn=27736 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27736 g=0 n=0
+AUX turn=27736 g=1 n=0
+AUX turn=27736 g=2 n=0
+AUX turn=27736 g=3 n=0
+AUX turn=27736 g=4 n=0
+D1K turn=27736 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+AUX turn=27736 g=5 n=0
+AUX turn=27736 g=6 n=0
+AUX turn=27736 g=7 n=0
+AUX turn=27736 g=8 n=0
+AUX turn=27736 g=9 n=0
+AUX turn=27736 g=10 n=0
+AUX turn=27736 g=11 n=0
+AUX turn=27736 g=12 n=0
+AUX turn=27736 g=13 n=0
+AUX turn=27736 g=14 n=0
+AUX turn=27736 g=15 n=0
+AUX turn=27736 g=16 n=0
+AUX turn=27736 g=17 n=0
+AUX turn=27736 g=18 n=0
+AUX turn=27736 g=19 n=0
+AUX turn=27736 g=20 n=0
+AUX turn=27736 g=21 n=0
+AUX turn=27736 g=22 n=0
+AUX turn=27736 g=23 n=0
+AUX turn=27736 g=24 n=0
+AUX turn=27736 g=25 n=0
+AUX turn=27736 g=26 n=0
+AUX turn=27736 g=27 n=0
+AUX turn=27736 g=28 n=0
+AUX turn=27736 g=29 n=0
+AUX turn=27736 g=30 n=0
+AUX turn=27736 g=31 n=0
+AUX turn=27736 g=32 n=0
+AUX turn=27736 g=33 n=0
+AUX turn=27736 g=34 n=0
+AUX turn=27736 g=35 n=0
+AUX turn=27736 g=36 n=0
+AUX turn=27736 g=37 n=0
+AUX turn=27736 g=38 n=0
+AUX turn=27736 g=39 n=0
+AUX turn=27736 g=40 n=0
+AUX turn=27736 g=41 n=0
+AUX turn=27736 g=42 n=0
+AUX turn=27736 g=43 n=0
+AUX turn=27736 g=44 n=0
+AUX turn=27736 g=45 n=0
+AUX turn=27736 g=46 n=0
+AUX turn=27736 g=47 n=0
+AUX turn=27736 g=48 n=0
+AUX turn=27736 g=49 n=0
+AUX turn=27736 g=50 n=0
+AUX turn=27736 g=51 n=0
+AUX turn=27736 g=52 n=0
+AUX turn=27736 g=53 n=0
+AUX turn=27736 g=54 n=0
+AUX turn=27736 g=55 n=0
+AUX turn=27736 g=56 n=0
+AUX turn=27736 g=57 n=0
+AUX turn=27736 g=58 n=0
+AUX turn=27736 g=59 n=0
+AUX turn=27736 g=60 n=0
+AUX turn=27736 g=61 n=0
+AUX turn=27736 g=62 n=0
+AUX turn=27736 g=63 n=0
+AUX turn=27736 g=64 n=0
+AUX turn=27736 g=65 n=0
+AUX turn=27736 g=66 n=0
+AUX turn=27736 g=67 n=0
+AUX turn=27736 g=68 n=0
+AUX turn=27736 g=69 n=0
+AUX turn=27736 g=70 n=0
+AUX turn=27736 g=71 n=0
+AUX turn=27736 g=72 n=0
+AUX turn=27736 g=73 n=0
+AUX turn=27736 g=74 n=0
+AUX turn=27736 g=75 n=0
+AUX turn=27736 g=76 n=0
+AUX turn=27736 g=77 n=0
+AUX turn=27736 g=78 n=0
+AUX turn=27736 g=79 n=0
+AUX turn=27736 g=80 n=0
+AUX turn=27736 g=81 n=0
+AUX turn=27736 g=82 n=0
+AUX turn=27736 g=83 n=0
+AUX turn=27736 g=84 n=0
+AUX turn=27736 g=85 n=0
+AUX turn=27736 g=86 n=0
+AUX turn=27736 g=87 n=0
+AUX turn=27736 g=88 n=0
+AUX turn=27736 g=89 n=0
+AUX turn=27736 g=90 n=0
+AUX turn=27736 g=91 n=0
+AUX turn=27736 g=92 n=0
+AUX turn=27736 g=93 n=0
+AUX turn=27736 g=94 n=0
+AUX turn=27736 g=95 n=0
+AUX turn=27736 g=96 n=0
+AUX turn=27736 g=97 n=0
+AUX turn=27736 g=98 n=0
+AUX turn=27736 g=99 n=0
+AUX turn=27736 g=100 n=0
+AUX turn=27736 g=101 n=0
+AUX turn=27736 g=102 n=0
+AUX turn=27736 g=103 n=0
+AUX turn=27736 g=104 n=0
+AUX turn=27736 g=105 n=0
+AUX turn=27736 g=106 n=0
+AUX turn=27736 g=107 n=0
+AUX turn=27736 g=108 n=0
+AUX turn=27736 g=109 n=0
+AUX turn=27736 g=110 n=0
+AUX turn=27736 g=111 n=0
+AUX turn=27736 g=112 n=0
+AUX turn=27736 g=113 n=0
+AUX turn=27736 g=114 n=0
+AUX turn=27736 g=115 n=0
+AUX turn=27736 g=116 n=0
+AUX turn=27736 g=117 n=0
+AUX turn=27736 g=118 n=0
+AUX turn=27736 g=119 n=0
+AUX turn=27736 g=120 n=0
+AUX turn=27736 g=121 n=0
+AUX turn=27736 g=122 n=0
+AUX turn=27736 g=123 n=0
+AUX turn=27736 g=124 n=0
+AUX turn=27736 g=125 n=0
+AUX turn=27736 g=126 n=0
+AUX turn=27736 g=127 n=0
+AUX turn=27736 g=128 n=0
+EXIT-NO-ATTACK turn=27736 b_n=0
+D1K turn=27736 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27736 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27736 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27736 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27746 i=4 name=grey mold kpos=11,105 kdist=7 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27746 pos=13,98 hp=2 avoidance=2 pos_danger=32 scary=1 no_retreat=0 nasty=0
+D1K turn=27756 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27756 pos=12,99 hp=1 avoidance=1 pos_danger=0 scary=1 no_retreat=0 nasty=0
+D1K turn=27756 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+ATTACK-ENTERED turn=27756 pos=12,99 hp=1 kills=3
+TEMP turn=27756 temp_n=0
+EXIT-NO-DEST turn=27756 kills=3
+D1K turn=27756 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27756 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27756 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27756 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27756 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27756 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27756 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27766 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+CAUTION turn=27766 pos=11,99 hp=0 avoidance=0 pos_danger=0 scary=1 no_retreat=0 nasty=0
+D1K turn=27766 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+ATTACK-ENTERED turn=27766 pos=11,99 hp=0 kills=3
+TEMP turn=27766 temp_n=0
+EXIT-NO-DEST turn=27766 kills=3
+D1K turn=27766 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27766 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27766 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27766 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27766 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27766 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2
+D1K turn=27766 i=4 name=grey mold kpos=11,105 kdist=6 val=0 v1=0 v2=0 mspeed=111 myspeed=110 hp_est=2

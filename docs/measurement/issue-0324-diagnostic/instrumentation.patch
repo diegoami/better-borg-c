@@ -1,0 +1,285 @@
+--- a/src/borg/borg-caution.c
++++ b/src/borg/borg-caution.c
+@@ -796,6 +796,29 @@
+  *     if borg is correctly positioned in a good room.
+  * 5.  Stay put and rest until Morgoth returns.
+  */
++/* Disposable diagnostic for the D0012 retreat/re-approach analysis
++ * (better-borg-c #324).  Strictly observational: writes only to the file
++ * named by BORG_DIAG324 (silent when unset).  Never touches decisions,
++ * RNG or the recorded streams. */
++#include <stdarg.h>
++#include <game-world.h>
++static FILE *diag324_file = NULL;
++void diag324(const char *fmt, ...)
++{
++    va_list ap;
++    if (!diag324_file) {
++        const char *path = getenv("BORG_DIAG324");
++        if (!path) return;
++        diag324_file = fopen(path, "a");
++        if (!diag324_file) return;
++    }
++    va_start(ap, fmt);
++    vfprintf(diag324_file, fmt, ap);
++    va_end(ap);
++    fputc('\n', diag324_file);
++    fflush(diag324_file);
++}
++
+ bool borg_caution(void)
+ {
+     int  j, pos_danger;
+@@ -924,6 +947,12 @@
+     /* Look around */
+     pos_danger = borg_danger(borg.c.y, borg.c.x, 1, true, false);
+ 
++    /* diag324: per-tick caution context (observational only) */
++    diag324("CAUTION turn=%ld pos=%d,%d hp=%d avoidance=%d pos_danger=%d scary=%d no_retreat=%d nasty=%d",
++        (long)turn, borg.c.y, borg.c.x, borg.trait[BI_CURHP],
++        borg.avoidance, pos_danger, borg.mon.scary, borg.no_retreat,
++        nasty ? 1 : 0);
++
+     /* Describe (briefly) the current situation */
+     /* Danger (ignore stupid "fear" danger) */
+     if ((((pos_danger > borg.avoidance / 10)
+@@ -1637,6 +1666,23 @@
+                 "# Retreating to %d,%d (distance %d) via %d,%d (%d > %d)", b_y,
+                 b_x, b_r, borg.goal.g.y, borg.goal.g.x, pos_danger, b_p));
+ 
++            /* diag324: facts needed to reason about a one-blow kill
++             * (observational only; the decision above is unchanged) */
++            {
++                int di;
++                for (di = 1; di < borg_kills_nxt; di++) {
++                    borg_kill *dk = &borg_kills[di];
++                    if (!dk->r_idx) continue;
++                    if (borg_timer(dk->when) > 2) continue;
++                    if (distance(dk->pos, borg.c) > 1) continue;
++                    diag324("RETREAT-ADJACENT turn=%ld kill=%s hp_est=%d speed=%d myhp=%d myblows=%d pos_danger=%d retreat_path_danger=%d avoidance=%d",
++                        (long)turn, borg_race_name(dk->r_idx), dk->power,
++                        dk->speed, borg.trait[BI_CURHP],
++                        borg.trait[BI_BLOWS], pos_danger, b_p,
++                        borg.avoidance);
++                }
++            }
++
+             /* Strategic retreat */
+             borg_keypress(I2D(b_d));
+ 
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -5150,6 +5150,10 @@
+  *
+  * See above for the "semantics" of each "type" of attack.
+  */
++/* diag324 facility lives in borg-caution.c (observational only) */
++#include <game-world.h>
++void diag324(const char *fmt, ...);
++
+ bool borg_attack(bool boosted_bravery)
+ {
+     int i;
+@@ -5161,6 +5165,11 @@
+     borg_grid           *ag;
+     struct monster_race *r_ptr;
+ 
++    /* diag324: did attack selection run at all this tick? */
++    diag324("ATTACK-ENTERED turn=%ld pos=%d,%d hp=%d kills=%d",
++        (long)turn, borg.c.y, borg.c.x, borg.trait[BI_CURHP],
++        borg_kills_cnt);
++
+     /* Nobody around */
+     if (!borg_kills_cnt)
+         return false;
+@@ -5238,6 +5247,12 @@
+             } else if (adjacent_monster) {
+                 /* Try to fight if there is a monster next to me */
+                 borg_note("# Adjacent to monster on Scaryguy Level.");
++                /* diag324: the adjacent scary kill facts */
++                diag324("SCARY-ADJACENT turn=%ld kill=%s hp_est=%d ac=%d speed=%d myhp=%d myblows=%d kpos=%d,%d kdist=%d",
++                    (long)turn, borg_race_name(kill->r_idx), kill->power,
++                    r_ptr->ac, kill->speed, borg.trait[BI_CURHP],
++                    borg.trait[BI_BLOWS], kill->pos.y, kill->pos.x,
++                    distance(borg.c, kill->pos));
+             } else {
+                 /* Flee from other scary guys */
+                 continue;
+@@ -5271,8 +5286,22 @@
+         borg_temp_n++;
+     }
+ 
++    /* diag324: attack destinations kept after the kill scan (observational only) */
++    diag324("TEMP turn=%ld temp_n=%d", (long)turn, borg_temp_n);
++    {
++        int k2;
++        for (k2 = 0; k2 < borg_temp_n; k2++) {
++            int ty = borg_temp_y[k2], tx = borg_temp_x[k2];
++            diag324("TEMP-KILL turn=%ld k=%d pos=%d,%d dist=%d okay=%d view=%d",
++                (long)turn, k2, ty, tx, distance(borg.c, loc(tx, ty)),
++                (borg_grids[ty][tx].info & BORG_OKAY) ? 1 : 0,
++                (borg_grids[ty][tx].info & BORG_VIEW) ? 1 : 0);
++        }
++    }
++
+     /* No destinations */
+     if (!borg_temp_n) {
++        diag324("EXIT-NO-DEST turn=%ld kills=%d", (long)turn, borg_kills_cnt);
+         borg_attacking = false;
+         return false;
+     }
+@@ -5293,6 +5322,9 @@
+         /* Simulate */
+         n = borg_calculate_attack_effectiveness(g);
+ 
++        /* diag324: per-type attack values (observational only) */
++        diag324("AUX turn=%ld g=%d n=%d", (long)turn, g, n);
++
+         /* Track "best" attack  <= */
+         if (n <= b_n)
+             continue;
+@@ -5304,6 +5336,7 @@
+ 
+     /* Nothing good */
+     if (b_n <= 0) {
++        diag324("EXIT-NO-ATTACK turn=%ld b_n=%d", (long)turn, b_n);
+         borg_attacking = false;
+         return false;
+     }
+--- a/src/borg/borg-danger.c
++++ b/src/borg/borg-danger.c
+@@ -28,6 +28,9 @@
+ #include "borg-cave-view.h"
+ #include "borg-cave.h"
+ #include "borg-fight-attack.h"
++
++/* diag324 facility lives in borg-caution.c (observational only) */
++void diag324(const char *fmt, ...);
+ #include "borg-flow-glyph.h"
+ #include "borg-flow-kill.h"
+ #include "borg-magic.h"
+@@ -2796,6 +2799,16 @@
+     if (p > 2000)
+         p = 2000;
+ 
++    /* diag324: per-kill danger decomposition at the borg's own grid,
++     * grey mold only (observational only) */
++    if (y == borg.c.y && x == borg.c.x
++        && strstr(borg_race_name(kill->r_idx), "grey mold")) {
++        diag324("D1K turn=%ld i=%d name=%s kpos=%d,%d kdist=%d val=%d v1=%d v2=%d mspeed=%d myspeed=%d hp_est=%d",
++            (long)turn, i, borg_race_name(kill->r_idx), kill->pos.y,
++            kill->pos.x, d, p, v1, v2, monster_speed, fake_speed,
++            kill->power);
++    }
++
+     /* Result */
+     return (p);
+ }
+--- a/src/borg/borg-fight-attack.c
++++ b/src/borg/borg-fight-attack.c
+@@ -5150,6 +5150,10 @@
+  *
+  * See above for the "semantics" of each "type" of attack.
+  */
++/* diag324 facility lives in borg-caution.c (observational only) */
++#include <game-world.h>
++void diag324(const char *fmt, ...);
++
+ bool borg_attack(bool boosted_bravery)
+ {
+     int i;
+@@ -5161,6 +5165,11 @@
+     borg_grid           *ag;
+     struct monster_race *r_ptr;
+ 
++    /* diag324: did attack selection run at all this tick? */
++    diag324("ATTACK-ENTERED turn=%ld pos=%d,%d hp=%d kills=%d",
++        (long)turn, borg.c.y, borg.c.x, borg.trait[BI_CURHP],
++        borg_kills_cnt);
++
+     /* Nobody around */
+     if (!borg_kills_cnt)
+         return false;
+@@ -5238,6 +5247,12 @@
+             } else if (adjacent_monster) {
+                 /* Try to fight if there is a monster next to me */
+                 borg_note("# Adjacent to monster on Scaryguy Level.");
++                /* diag324: the adjacent scary kill facts */
++                diag324("SCARY-ADJACENT turn=%ld kill=%s hp_est=%d ac=%d speed=%d myhp=%d myblows=%d kpos=%d,%d kdist=%d",
++                    (long)turn, borg_race_name(kill->r_idx), kill->power,
++                    r_ptr->ac, kill->speed, borg.trait[BI_CURHP],
++                    borg.trait[BI_BLOWS], kill->pos.y, kill->pos.x,
++                    distance(borg.c, kill->pos));
+             } else {
+                 /* Flee from other scary guys */
+                 continue;
+@@ -5271,8 +5286,22 @@
+         borg_temp_n++;
+     }
+ 
++    /* diag324: attack destinations kept after the kill scan (observational only) */
++    diag324("TEMP turn=%ld temp_n=%d", (long)turn, borg_temp_n);
++    {
++        int k2;
++        for (k2 = 0; k2 < borg_temp_n; k2++) {
++            int ty = borg_temp_y[k2], tx = borg_temp_x[k2];
++            diag324("TEMP-KILL turn=%ld k=%d pos=%d,%d dist=%d okay=%d view=%d",
++                (long)turn, k2, ty, tx, distance(borg.c, loc(tx, ty)),
++                (borg_grids[ty][tx].info & BORG_OKAY) ? 1 : 0,
++                (borg_grids[ty][tx].info & BORG_VIEW) ? 1 : 0);
++        }
++    }
++
+     /* No destinations */
+     if (!borg_temp_n) {
++        diag324("EXIT-NO-DEST turn=%ld kills=%d", (long)turn, borg_kills_cnt);
+         borg_attacking = false;
+         return false;
+     }
+@@ -5293,6 +5322,9 @@
+         /* Simulate */
+         n = borg_calculate_attack_effectiveness(g);
+ 
++        /* diag324: per-type attack values (observational only) */
++        diag324("AUX turn=%ld g=%d n=%d", (long)turn, g, n);
++
+         /* Track "best" attack  <= */
+         if (n <= b_n)
+             continue;
+@@ -5304,6 +5336,7 @@
+ 
+     /* Nothing good */
+     if (b_n <= 0) {
++        diag324("EXIT-NO-ATTACK turn=%ld b_n=%d", (long)turn, b_n);
+         borg_attacking = false;
+         return false;
+     }
+--- a/src/borg/borg-danger.c
++++ b/src/borg/borg-danger.c
+@@ -28,6 +28,9 @@
+ #include "borg-cave-view.h"
+ #include "borg-cave.h"
+ #include "borg-fight-attack.h"
++
++/* diag324 facility lives in borg-caution.c (observational only) */
++void diag324(const char *fmt, ...);
+ #include "borg-flow-glyph.h"
+ #include "borg-flow-kill.h"
+ #include "borg-magic.h"
+@@ -2796,6 +2799,16 @@
+     if (p > 2000)
+         p = 2000;
+ 
++    /* diag324: per-kill danger decomposition at the borg's own grid,
++     * grey mold only (observational only) */
++    if (y == borg.c.y && x == borg.c.x
++        && strstr(borg_race_name(kill->r_idx), "grey mold")) {
++        diag324("D1K turn=%ld i=%d name=%s kpos=%d,%d kdist=%d val=%d v1=%d v2=%d mspeed=%d myspeed=%d hp_est=%d",
++            (long)turn, i, borg_race_name(kill->r_idx), kill->pos.y,
++            kill->pos.x, d, p, v1, v2, monster_speed, fake_speed,
++            kill->power);
++    }
++
+     /* Result */
+     return (p);
+ }
