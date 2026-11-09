@@ -887,6 +887,7 @@ bool borg_think_home_grab_useless(void)
             continue;
 
         /* skip stuff if we sold bought it */
+        skip_it = false;
         for (p = 0; p < sold_item_num; p++) {
             if (sold_item_tval[p] == item->tval
                 && sold_item_sval[p] == item->sval
