@@ -48,6 +48,15 @@ parity baseline separately; known C bugs must not disappear from that contract
 without an explicit target change. C-only patches are not automatically present
 in a Rust implementation when those C Borg files are excluded from linking.
 
+Escape hatch (owner decision, 2026-11-09): a bug that does not seem fixable in
+C can be proposed to borg-rs even without a C fix, because it may be more
+feasible in Rust. Record the proposal on the canonical source-tracker issue
+with the C infeasibility evidence and the verified C fixtures/scenarios a Rust
+fix could reuse, cross-linked from the consumer investigation. Proposals are
+outbound write-ups only; the C lane still does not poll or fetch borg-rs,
+dispatch Rust work, or alter the parity contract without an explicit target
+change.
+
 The existing borg-rs project already builds a Rust static library and its engine
 integration selects BORG_IMPL=c or rust using the native input seam/FFI. A future
 adoption here would bring that integration into the same official-tracking C
