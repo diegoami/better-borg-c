@@ -1,0 +1,63 @@
+From 73322d06cdba957b4eac3b67039e93fb02a26790 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 02:43:41 +0000
+Subject: [PATCH] Borg: give the healing-chance adjustments the direction their
+ comments state
+
+borg_heal() draws chance = randint0(100) and returns without healing
+when chance is below the threshold for how badly hurt the borg is, so a
+lower chance means a skip is more likely.  Three adjustments before
+that test had the opposite sign to what their comments say:
+
+- "if we are fighting a unique increase the odds of healing" subtracted
+  10, making healing less likely next to a unique;
+- "if danger is close to the hp and healing will help, do it" subtracted
+  75, so a borg whose danger was at or above its current hit points (but
+  below its maximum) skipped every healing step whenever it had lost
+  less than 75% of its hit points, and three times in four above that;
+- "Risky Borgs are less likely to heal in the fight" added 5, making a
+  risky borg heal more often.
+
+Flip the three signs.  The class adjustment (-25 for classes other than
+priest and paladin, which makes those classes heal less readily) and the
+thresholds are unchanged.  A borg that is in real danger and is carrying
+something that heals enough now uses it instead of falling through to
+escapes such as reading Word of Recall.
+
+Tracked as diegoami/neo-angband-tracker#364.
+
+(cherry picked from commit b366550f776d4d7a6ac52031529f3254a5914d38)
+---
+ src/borg/borg-caution.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/src/borg/borg-caution.c b/src/borg/borg-caution.c
+index 43a99dd0b..038a211e8 100644
+--- a/src/borg/borg-caution.c
++++ b/src/borg/borg-caution.c
+@@ -325,11 +325,11 @@ static bool borg_heal(int danger)
+ 
+     /* if we are fighting a unique increase the odds of healing */
+     if (borg.near.unique)
+-        chance -= 10;
++        chance += 10;
+ 
+     /* if danger is close to the hp and healing will help, do it */
+     if (danger >= borg.trait[BI_CURHP] && danger < borg.trait[BI_MAXHP])
+-        chance -= 75;
++        chance += 75;
+     else {
+         if (borg.trait[BI_CLASS] != CLASS_PRIEST
+             && borg.trait[BI_CLASS] != CLASS_PALADIN)
+@@ -338,7 +338,7 @@ static bool borg_heal(int danger)
+ 
+     /* Risky Borgs are less likely to heal in the fight */
+     if (borg_cfg[BORG_PLAYS_RISKY])
+-        chance += 5;
++        chance -= 5;
+ 
+     if (((pct_down <= 15 && chance < 98)
+             || (pct_down >= 16 && pct_down <= 25 && chance < 95)
+-- 
+2.53.0
+
