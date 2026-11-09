@@ -39,7 +39,7 @@ learned lore. A redesign must decide explicitly whether it may use that spoiler 
 | [D0013](D0013-collected/report.md) | Dunadan Druid CL1 | DL1 | small kobold | survived (fled ant) | [#332](https://github.com/diegoami/better-borg-c/issues/332) |
 | [D0014](D0014-collected/report.md) | High-Elf Rogue CL11 | DL20 | blood falcon | survived (Speed, CLW, detection) | [#341](https://github.com/diegoami/better-borg-c/issues/341) |
 | [D0015](D0015-collected/report.md) | Dunadan Necromancer CL1 | DL1 | Fang | died (from 4118); re-shop from turn 1 survived | [#348](https://github.com/diegoami/better-borg-c/issues/348) |
-| [D0016](D0016-collected/report.md) | Human Necromancer CL1 | DL1 | crow (after a teleport trap) | pending | [#353](https://github.com/diegoami/better-borg-c/issues/353) |
+| [D0016](D0016-collected/report.md) | Human Necromancer CL1 | DL1 | crow (after a teleport trap) | survived (bolted the crow first) | [#353](https://github.com/diegoami/better-borg-c/issues/353) |
 
 What the owner keeps saying, across reviews: the Borg had the tools and the knowledge, but
 its decision layers did not use them, or worked against each other.
@@ -82,6 +82,10 @@ then overrides it.
 - Disengage from the monster that rates dangerous, not from the whole level by default.
 - Target selection should prefer finishing weak, damaging enemies when that reduces incoming
   damage.
+- **D0016 manual counterfactual:** after a teleport trap the owner's first action was a Nether
+  Bolt that killed the speed +20 crow. The Borg had spent that action and its only Phase Door
+  escaping from it, was out of escapes and mana two turns later, and the crow killed it.
+  Removing the fastest killable threat is often worth more than an escape.
 
 Issues: [#327](https://github.com/diegoami/better-borg-c/issues/327),
 [#158](https://github.com/diegoami/better-borg-c/issues/158).
@@ -374,7 +378,7 @@ See `patches/series.json` and the per-carry measurement notes in `docs/measureme
 ## L13. How to evaluate a redesign against this evidence
 
 - **Fixtures.** Each dossier records the source, build, seed and options. Owner manual branches
-  (`owner-manual-branch.json` in D0010, D0012, D0013, D0014, D0015) give a verified prefix and a
+  (`owner-manual-branch.json` in D0010, D0012, D0013, D0014, D0015, D0016) give a verified prefix and a
   known-feasible alternative. Use them as scenario tests: start from the same state, check
   that the decision is at least as good.
 - **Do not count replays.** Repeated runs of the same start, reference variants and manual
