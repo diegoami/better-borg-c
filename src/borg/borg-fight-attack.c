@@ -98,7 +98,7 @@ int borg_mon_blow_effect(const char *name)
 /*
  * Guess how much damage a physical attack will do to a monster
  */
-static int borg_thrust_damage_one(int i)
+int borg_thrust_damage_one(int i)
 {
     int dam;
     int mult;

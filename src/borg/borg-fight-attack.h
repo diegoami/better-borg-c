@@ -361,3 +361,6 @@ extern bool borg_attack(bool boosted_bravery);
 
 #endif
 #endif
+
+/* Average per-blow melee damage against the given tracked kill. */
+extern int borg_thrust_damage_one(int i);
