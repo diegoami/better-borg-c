@@ -161,8 +161,10 @@ private-data migration is started by this plan.
    product build and normal native gate. Compare identical frozen starting
    conditions, acknowledging later RNG divergence from changed decisions.
    Scenario benefit does not imply a detectable small-cohort survival benefit.
-5. Continue only independent measurable bug carries, routing reusable source
-   discoveries to neo-angband-tracker/checkpoint207. No new gameplay strategies.
+5. Continue independent measurable bug carries, routing reusable source defect
+   discoveries to neo-angband-tracker/checkpoint207. Owner-directed improvements
+   are in scope as labelled local improvement units (2026-11-09) and are never
+   proposed upstream.
 
 Measurement ownership: consumer issue3; coordinator workspace7. New permission
 changes the bootstrap-only scope; other standing exclusions and lifecycle remain.

@@ -2,7 +2,9 @@
 
 Owner direction,2026-11-06: carry verified fixes and investigate bugs first,
 whether already carried or not. Death analysis supplies evidence and issues
-when no higher-priority bug/carry work is ready. It is not a new-strategy queue.
+when no higher-priority bug/carry work is ready. It is not an automatic
+new-strategy queue; owner-directed improvements are allowed (2026-11-09) and
+bugs keep priority.
 Plan ownership: consumer13; live next work stays on checkpoint1/source207.
 
 ## Work order
@@ -132,9 +134,11 @@ Read the opening without implementation detail; it should explain the problem.
   to their canonical mechanism with additional evidence, rather than creating
   one issue per victim. Keep cause frequency distinct from proved bug impact.
 - Improvement suggestions go first to issues with supporting death window,
-  alternative explanation, confidence and a proposed experiment. Design/new
-  strategy suggestions remain proposals; the current scope does not implement
-  them as if they were bug corrections. No automatic tuning or live learning.
+  alternative explanation, confidence and a proposed experiment. Owner decision
+  2026-11-09: approved improvements are then implemented here as labelled
+  improvement units with evidence, gates and before/after measurement; they
+  never go upstream and never masquerade as bug corrections. No automatic
+  tuning or live learning.
 
 Non-carried findings always receive a review (owner, 2026-11-09): an
 investigation that does not produce a carried source fix — a diagnostic

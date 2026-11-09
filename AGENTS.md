@@ -13,8 +13,12 @@ reports or Neo/TS translations. Workspace coordination is parent checkpoint7.
 Read CONTRIBUTING.md and original technical/legal docs before editing C.
 Preserve credit/licences/history; keep source comments suitable for upstream
 review (no internal FORK markers/catalogue IDs/AI trailers). Scope includes verified bug carries, reproducible native execution/measurement,
-frozen baseline statistics and failure analysis (owner authorised 2026-11-06).
-New gameplay strategies remain outside scope. No official Angband posts, Rust polling, lab/data/OAuth access,
+frozen baseline statistics and failure analysis (owner authorised 2026-11-06),
+and owner-directed improvements (owner decision 2026-11-09): this fork is the
+improvements lane. Improvements are labelled local improvement units with
+evidence, gates and before/after measurement; they are never sent upstream - no
+source-tracker improvement proposals. Reusable pristine-C defects still route to
+the source tracker first, unchanged. No official Angband posts, Rust polling, lab/data/OAuth access,
 release/tag/publisher, cleanup, amend or force-push.
 
 Use `flock /tmp/angband-validation.lock python3 tools/verify-native.py` for the

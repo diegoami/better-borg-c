@@ -1,9 +1,11 @@
 # Death evidence to verified Borg improvements
 
 Owner direction, 2026-11-07; workflow [155](https://github.com/diegoami/better-borg-c/issues/155).
-Two processes share evidence but have separate decisions. This document authorises
-analysis and experiment planning, not automatic strategy implementation, tuning,
-batches or promotion. Bugs retain priority. An implementation task must name the
+Two processes share evidence but have separate decisions. Owner decision
+2026-11-09: implementing approved improvements in this repo is allowed, as
+labelled local improvement units with evidence, gates and before/after
+measurement, never proposed upstream. Still not automatic: a named candidate
+with its contract precedes implementation. Bugs retain priority. An implementation task must name the
 candidate, change, budget and acceptance plan before work starts.
 
 For the canonical architecture specification, revision3 tuning plan/reviews,
@@ -38,7 +40,8 @@ These references inform scoped candidates and do not start their implementation.
    Consumer investigations and improvement candidates live here. Link a reusable
    source enhancement both ways; the local issue owns product evaluation and the
    adoption decision. Do not label an enhancement carried or put a policy in the
-   bug patch ledger. Shared mechanisms use one action, not an issue per replay.
+   bug patch ledger; improvement units are tracked separately from bug carries
+   and are never proposed upstream. Shared mechanisms use one action, not an issue per replay.
 5. For each candidate specify the intended benefit, affected cases/classes,
    costs, adverse effects and a falsifiable experiment. Link it from assessment
    feedback/actions; reply with findings and regenerate tools/aggregate-deaths.py.
