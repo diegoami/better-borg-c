@@ -395,3 +395,5 @@ The ninety-third carry restores the home ware when a home-buy trial is skipped (
 The ninety-fourth carry counts the newest entry in the recent sale and purchase lists (consumer #367, adopting source20): the writers stored the write index as the count, so readers never checked the most recent sale or purchase — rations stored at home were taken straight back out. The rations-only mode flips; the with-recall control is byte-identical.
 
 The ninety-fourth carry counts the newest entry in the recent sale and purchase lists (consumer #367, adopting source20): the writers stored the write index as the count, so readers never checked the most recent sale or purchase — rations stored at home were taken straight back out. The rations-only mode flips; the with-recall control is byte-identical.
+
+The ninety-fifth carry counts a Rod of Teleport Other in BI_ATPORTOTHER (consumer #369, adopting source560): the availability trait only counted wand charges and the spell, so the rod never raised borg_power and shops never bought one. The rod mode flips; the wand and mage controls are byte-identical.
