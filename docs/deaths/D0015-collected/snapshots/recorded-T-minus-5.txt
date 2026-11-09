@@ -1,0 +1,27 @@
+Original recording: frame 4885, engine turn 4153, phase tick; HP 2, SP 1, depth 1
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You hit Fang, Farmer Maggot's Dog. Fang, Farmer Maggot's Dog, bites you.        
+Dunadan                                                                         
+Acolyte                                                                         
+Necromancer                                                                     
+LEVEL      1                                                                    
+NXT        5                                                                    
+AU         6                                                                    
+| =   ((   ]                                                                    
+STR:      15                                                                    
+INT:   18/30                                         #                          
+WIS:      12                                        .                           
+DEX:      12                                 ####.#C###                         
+CON:      17                                 #<.....@.#                         
+                                             ##########                         
+Cur AC    16                                                                    
+HP    2/  13                                                                    
+SP    1/   2                                                                    
+                                                                                
+[*********-]                                                                    
+                                                                                
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:2-? Light 0  Fed 85 % Open floor                                

@@ -1,0 +1,641 @@
+BORG 3958 # Scary guy on level.
+BORG 3958 # Fleeing and leaving the level. (scaryguy)
+BORG 3958 # Flowing toward stairs at cost 39
+BORG 3968 # Scary guy on level.
+BORG 3968 # Fleeing and leaving the level. (scaryguy)
+BORG 3968 # Flowing toward stairs at cost 39
+BORG 3978 # Scary guy on level.
+BORG 3978 # Fleeing and leaving the level. (scaryguy)
+BORG 3978 # Flowing toward stairs at cost 39
+BORG 3988 # Scary guy on level.
+BORG 3988 # Fleeing and leaving the level. (scaryguy)
+BORG 3988 # Flowing toward stairs at cost 39
+BORG 3998 # Scary guy on level.
+BORG 3998 # Fleeing and leaving the level. (scaryguy)
+BORG 3998 # Flowing toward stairs at cost 39
+BORG 4008 # Scary guy on level.
+BORG 4008 # Fleeing and leaving the level. (scaryguy)
+BORG 4008 # Flowing toward stairs at cost 39
+BORG 4018 # Close enough to Stair.
+BORG 4018 # Scary guy on level.
+BORG 4018 # Fleeing and leaving the level. (scaryguy)
+BORG 4018 # Flowing toward up-stairs at cost 1
+BORG 4018 # Desperate for Stairs (one)
+BORG 4028 # Scary guy on level.
+BORG 4028 # Standing on up-stairs
+BORG 4028 # Fleeing and leaving the level. (scaryguy)
+BORG 4028 # Leaving via up stairs.
+BORG 4028 # Standing on dn-stairs
+BORG 4028 # Nothing to sell in town (leaving).
+BORG 4028 # Flowing toward down-stairs at cost 0
+BORG 4028 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 4028 # Flowing toward down-stairs at cost 0
+BORG 4028 # Flowing toward Home at cost 11
+BORG 4038 # Nothing to sell in town (leaving).
+BORG 4038 # Flowing toward down-stairs at cost 1
+BORG 4048 # Standing on dn-stairs
+BORG 4048 # FEELING_DANGER:8 (+)
+BORG 4048 # FEELING_DANGER:8 (1)
+BORG 4048 # Standing on up-stairs
+BORG 4048 # Flowing toward dark-2 at cost 2
+BORG 4068 # Flowing toward dark-2 at cost 2
+BORG 4088 # Flowing toward dark-2 at cost 2
+BORG 4108 # Flowing toward dark-2 at cost 2
+BORG 4118 # Flowing toward dark-3 at cost 3
+BORG 4128 # HIT_BY:Fang, Farmer Maggot's Dog (+)
+BORG 4128 # HIT_BY:Fang, Farmer Maggot's Dog (+)
+BORG 4128 # Creating a monster 'Fang, Farmer Maggot's Dog' at (43,106), HP: 25, Index: 48
+BORG 4128 # Removing Regional Fear (43,106) because of a LOS Fang, Farmer Maggot's Dog
+BORG 4128 # HIT_BY:Fang, Farmer Maggot's Dog (4)
+BORG 4128 # HIT_BY:Fang, Farmer Maggot's Dog (4)
+BORG 4128 # Scary guy on level.
+BORG 4128 # Leaving (Scary guy on level)
+BORG 4128 # Fleeing (Scary guy on level)
+BORG 4128 # Loc:44,107 Dep:1 Lev:1 HP:8/13 SP:1/2 Danger:p=12
+BORG 4128 # Fleeing and leaving the level. (scaryguy)
+BORG 4128 # Performing attack type 1 with value 26.
+BORG 4128 # Facing Fang, Farmer Maggot's Dog at (43,106) who has 25 Hit Points.
+BORG 4128 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 4138 # HIT:Fang, Farmer Maggot's Dog (+)
+BORG 4138 # MISS_BY:Fang, Farmer Maggot's Dog (+)
+BORG 4138 # HIT:Fang, Farmer Maggot's Dog (2)
+BORG 4138 # MISS_BY:Fang, Farmer Maggot's Dog (3)
+BORG 4138 # Scary guy on level.
+BORG 4138 # Loc:44,107 Dep:1 Lev:1 HP:8/13 SP:1/2 Danger:p=12
+BORG 4138 # Fleeing and leaving the level. (scaryguy)
+BORG 4138 # Performing attack type 1 with value 26.
+BORG 4138 # Facing Fang, Farmer Maggot's Dog at (43,106) who has 25 Hit Points.
+BORG 4138 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 4148 # Forgetting a monster 'Fang, Farmer Maggot's Dog' at (43,106)
+BORG 4148 # HIT_BY:Fang, Farmer Maggot's Dog (+)
+BORG 4148 # Creating a monster 'Fang, Farmer Maggot's Dog' at (43,106), HP: 24, Index: 48
+BORG 4148 # Removing Regional Fear (43,106) because of a LOS Fang, Farmer Maggot's Dog
+BORG 4148 # HIT_BY:Fang, Farmer Maggot's Dog (4)
+BORG 4148 # Scary guy on level.
+BORG 4148 # Loc:44,107 Dep:1 Lev:1 HP:5/13 SP:1/2 Danger:p=12
+BORG 4148 # Fleeing and leaving the level. (scaryguy)
+BORG 4148 # Performing attack type 1 with value 26.
+BORG 4148 # Facing Fang, Farmer Maggot's Dog at (43,106) who has 24 Hit Points.
+BORG 4148 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 4157 # HIT:Fang, Farmer Maggot's Dog (+)
+BORG 4157 # HIT_BY:Fang, Farmer Maggot's Dog (+)
+BORG 4157 # Tracking a monster 'Fang, Farmer Maggot's Dog' at (44,106) from (43,106)
+BORG 4157 # HIT:Fang, Farmer Maggot's Dog (2)
+BORG 4157 # HIT_BY:Fang, Farmer Maggot's Dog (3)
+BORG 4157 # Scary guy on level.
+BORG 4157 # Loc:44,107 Dep:1 Lev:1 HP:2/13 SP:1/2 Danger:p=12
+BORG 4157 # Fleeing and leaving the level. (scaryguy)
+BORG 4157 # Performing attack type 38 with value 42.
+BORG 4157 # Targeting Fang, Farmer Maggot's Dog who has 20 Hit Points (44,106).
+BORG 4157 # Casting Nether Bolt (0,0).
+BORG 4158 # Normal failure.
+
+[Terminal native state/cause]
+STATE death turn=4158 energy=42155 decisions=313 depth=1 max_depth=1 level=1 max_level=1 hp=-1 dead=1 winner=0 borg_rng=2369788151 quick=0 quick_rng=1118800069 rng_index=13 rng=eb41b19bd260f989f210c1b5a881f7e432427126c14d6f867854ed685b22a54c4078883bb172f01062ffb57c97baadc0bb8bfb854cf3900cfab791d0aa4edfcd5c1ccda7167b56352526ae34061e3580c0666f1a2bfbfe8854fab94c7fb9d76c6e41ef89e9024bee848050f126e43658a53ce64bb9833cb93b738d693c1f6b27
+CAUSE Fang, Farmer Maggot's Dog
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE  
+MESSAGE   
+MESSAGE ====================
+MESSAGE   
+MESSAGE  
+MESSAGE You can learn 1 more ritual.
+MESSAGE You are about to use the dangerous, unsupported, borg commands!
+MESSAGE Your machine may crash, and your savefile may become corrupted!
+MESSAGE Initializing the Borg... (memory)
+MESSAGE Initializing the Borg... (borg.txt)
+MESSAGE Initializing the Borg... (options)
+MESSAGE Initializing the Borg... (various)
+MESSAGE Initializing the Borg... done.
+MESSAGE # Ready...
+MESSAGE # Installing keypress hook
+MESSAGE # Creating a monster 'village idiot' at (16,37), HP: 10, Index: 7
+MESSAGE # Standing on dn-stairs
+MESSAGE # Studying spell/prayer Nether Bolt.
+MESSAGE You have learned the ritual of Nether Bolt.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Flowing toward General Store at cost 8
+MESSAGE # Creating a monster 'singing, happy drunk' at (12,28), HP: 4, Index: 11
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting singing, happy drunk who has 4 Hit Points (12,28).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The singing, happy drunk dies.
+MESSAGE # DIED:The singing, happy drunk (+)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (12,28)
+MESSAGE # DIED:The singing, happy drunk (2)
+MESSAGE # Flowing toward General Store at cost 1
+MESSAGE # Entering a '0' shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 4 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 5 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 6 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 7 Rations of Food (b).
+MESSAGE # Buying 'Scrolls of Phase Door {unseen}' at 'Alchemy Shop' immediately
+MESSAGE # Flowing toward Alchemy Shop at cost 20
+MESSAGE # Creating a monster 'village idiot' at (20,11), HP: 8, Index: 7
+MESSAGE # Entering a '4' shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Scrolls of Phase Door {unseen}.
+MESSAGE You bought a Scroll titled "commisto ca" for 15 gold.
+MESSAGE You have a Scroll of Phase Door (c).
+MESSAGE # Buying 'Ring of Protection [+6]' at 'Magic Shop' immediately
+MESSAGE # Flowing toward Magic Shop at cost 27
+MESSAGE # There was a monster 'village idiot' at (16,37)
+MESSAGE # Entering a '5' shop
+MESSAGE # Currently in preferred store '6'.
+MESSAGE # Buying Ring of Protection [+6].
+MESSAGE You bought a Ring of Protection [+6] for 150 gold.
+MESSAGE You have a Ring of Protection [+6] (e).
+MESSAGE # Wearing Ring of Protection [+6].
+MESSAGE You are wearing a Ring of Protection [+6] (c).
+MESSAGE # Buying 'Robes [2,+3]' at 'Armoury' immediately
+MESSAGE # Flowing toward Armoury at cost 6
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Robes [2,+3].
+MESSAGE Done!
+MESSAGE You bought a Robe [2,+3] for 84 gold.
+MESSAGE You have a Robe [2,+3] (e).
+MESSAGE # Wearing Robe [2,+3].
+MESSAGE You are wearing a Robe [2,+3] (g).
+MESSAGE # Flowing toward Home at cost 20
+MESSAGE # There was a monster 'village idiot' at (16,37)
+MESSAGE The village idiot wakes up.
+MESSAGE # PAIN:The village idiot (+)
+MESSAGE # PAIN:The village idiot (2)
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting village idiot who has 10 Hit Points (16,37).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The village idiot shrieks in agony.
+MESSAGE The village idiot flees in terror!
+MESSAGE # PAIN:The village idiot (+)
+MESSAGE # PAIN:The village idiot (2)
+MESSAGE # There was a monster 'village idiot' at (16,37)
+MESSAGE # Forgetting a monster 'village idiot' at (16,37)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'village idiot' at (18,38), HP: 4, Index: 7
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting village idiot who has 4 Hit Points (18,38).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The village idiot dies.
+MESSAGE # DIED:The village idiot (+)
+MESSAGE # Forgetting a monster 'village idiot' at (18,38)
+MESSAGE # DIED:The village idiot (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward Home at cost 12
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Scroll of Word of Recall' to the home
+MESSAGE # Currently in preferred store '8'.
+MESSAGE # Selling Scroll of Word of Recall
+MESSAGE You drop a Scroll of Word of Recall (d).
+MESSAGE # Buying 'Pairs of Iron Shod Boots [4,+0]'(v) at 'Armoury' (for player 'b')
+MESSAGE # Flowing toward Armoury at cost 20
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Pairs of Iron Shod Boots [4,+0].
+MESSAGE Agreed!
+MESSAGE You bought a Pair of Iron Shod Boots [4,+0] for 84 gold.
+MESSAGE You have a Pair of Iron Shod Boots [4,+0] (d).
+MESSAGE # Wearing Pair of Iron Shod Boots [4,+0].
+MESSAGE You are wearing a Pair of Iron Shod Boots [4,+0] (p).
+MESSAGE # Buying 'Cloaks [1,+0]'(m) at 'General Store' (for player 'b')
+MESSAGE # Flowing toward General Store at cost 13
+MESSAGE # Entering a '0' shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Cloaks [1,+0].
+MESSAGE Taken!
+MESSAGE You bought a Cloak [1,+0] for 6 gold.
+MESSAGE You have a Cloak [1,+0] (d).
+MESSAGE # Wearing Cloak [1,+0].
+MESSAGE You are wearing a Cloak [1,+0] (i).
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 8
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 7
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating a monster 'white icky thing' at (41,97), HP: 9, Index: 21
+MESSAGE # Removing Regional Fear (41,97) because of a LOS white icky thing
+MESSAGE # Tracking a monster 'white icky thing' at (41,98) from (41,97)
+MESSAGE # Flowing toward targetable position at cost 2
+MESSAGE # Tracking a monster 'white icky thing' at (41,99) from (41,98)
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting white icky thing who has 9 Hit Points (41,99).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The white icky thing jerks limply.
+MESSAGE The white icky thing flees in terror!
+MESSAGE # PAIN:The white icky thing (+)
+MESSAGE # PAIN:The white icky thing (2)
+MESSAGE # Tracking a monster 'white icky thing' at (41,100) from (41,99)
+MESSAGE # Flowing toward dark-4 at cost 9
+MESSAGE # Tracking a monster 'white icky thing' at (42,101) from (41,100)
+MESSAGE # There was a monster 'white icky thing' at (42,101)
+MESSAGE # Forgetting a monster 'white icky thing' at (42,101)
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 1
+MESSAGE # Opening a door
+MESSAGE You failed to pick the lock.
+MESSAGE You have picked the lock.
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE You feel that there may be something worthwhile here.
+MESSAGE # FEELING_STUFF:6 (+)
+MESSAGE # Creating an object 'Speed' at (99,31)
+MESSAGE # FEELING_STUFF:6 (1)
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Spent too long (67) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 18
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 11
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating a monster 'large white snake' at (55,95), HP: 15, Index: 24
+MESSAGE # Removing Regional Fear (55,95) because of a LOS large white snake
+MESSAGE # Loc:55,96 Dep:1 Lev:1 HP:13/13 SP:1/2 Danger:p=4
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting large white snake who has 15 Hit Points (55,95).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The large white snake hisses furiously.
+MESSAGE The large white snake flees in terror!
+MESSAGE # PAIN:The large white snake (+)
+MESSAGE # PAIN:The large white snake (2)
+MESSAGE # Loc:55,96 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (55,95) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the large white snake.
+MESSAGE # HIT:the large white snake (+)
+MESSAGE # HIT:the large white snake (2)
+MESSAGE # Loc:55,96 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=2
+MESSAGE # Performing attack type 1 with value 3.
+MESSAGE # Facing large white snake at (55,95) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You spin around.
+MESSAGE # Forgetting a monster 'large white snake' at (55,95)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'large white snake' at (55,95), HP: 4, Index: 24
+MESSAGE # Loc:55,96 Dep:1 Lev:1 HP:13/13 SP:1/2 Danger:p=2
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting large white snake who has 4 Hit Points (55,95).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The large white snake dies.
+MESSAGE # DIED:The large white snake (+)
+MESSAGE # Forgetting a monster 'large white snake' at (55,95)
+MESSAGE # DIED:The large white snake (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'giant white mouse' at (55,95), HP: 2, Index: 23
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:55,96 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 6
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Creating a monster 'giant white mouse' at (55,96), HP: 1, Index: 23
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,97 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=11
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # No Phase. scary squares: 70
+MESSAGE # No Phase. scary squares: 66
+MESSAGE # Safe to Phase. scary squares: 57
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 5.3
+MESSAGE You have no more Scrolls of Phase Door (c).
+MESSAGE # Creating a monster 'floating eye' at (55,87), HP: 10, Index: 27
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,86 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=400
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 601.
+MESSAGE # Facing floating eye at (55,87) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the floating eye.
+MESSAGE # HIT:the floating eye (+)
+MESSAGE # HIT:the floating eye (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,86 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=400
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 601.
+MESSAGE # Facing floating eye at (55,87) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the floating eye.
+MESSAGE # HIT:the floating eye (+)
+MESSAGE # HIT:the floating eye (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,86 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=400
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 601.
+MESSAGE # Facing floating eye at (55,87) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the floating eye.
+MESSAGE # HIT:the floating eye (+)
+MESSAGE # HIT:the floating eye (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,86 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=400
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 601.
+MESSAGE # Facing floating eye at (55,87) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the floating eye.
+MESSAGE You have slain the floating eye.
+MESSAGE # HIT:the floating eye (+)
+MESSAGE # KILL:the floating eye (+)
+MESSAGE # Forgetting a monster 'floating eye' at (55,87)
+MESSAGE # Creating a monster 'giant white mouse' at (55,87), HP: 2, Index: 23
+MESSAGE # HIT:the floating eye (2)
+MESSAGE # KILL:the floating eye (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,86 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 16.
+MESSAGE # Facing giant white mouse at (55,87) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the giant white mouse.
+MESSAGE You have slain the giant white mouse.
+MESSAGE # HIT:the giant white mouse (+)
+MESSAGE # KILL:the giant white mouse (+)
+MESSAGE # Forgetting a monster 'giant white mouse' at (55,87)
+MESSAGE # HIT:the giant white mouse (2)
+MESSAGE # KILL:the giant white mouse (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 20
+MESSAGE # Creating a monster 'giant white mouse' at (55,88), HP: 1, Index: 23
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,87 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 86,55 (10 > 5)
+MESSAGE # Tracking a monster 'giant white mouse' at (55,87) from (55,88)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,86 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 85,55 (10 > 5)
+MESSAGE # Tracking a monster 'giant white mouse' at (55,86) from (55,87)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,85 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 84,55 (10 > 5)
+MESSAGE # Tracking a monster 'giant white mouse' at (55,85) from (55,86)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,84 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 83,55 (10 > 5)
+MESSAGE # Tracking a monster 'giant white mouse' at (55,84) from (55,85)
+MESSAGE # Return to Stair (wandered too far.  Leash: 17)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,83 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 82,55 (10 > 5)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,82 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=5
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 28
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 29
+MESSAGE # Creating a monster 'giant white mouse' at (55,81), HP: 1, Index: 23
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,80 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 16.
+MESSAGE # Facing giant white mouse at (55,81) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the giant white mouse.
+MESSAGE You have slain the giant white mouse.
+MESSAGE # HIT:the giant white mouse (+)
+MESSAGE # KILL:the giant white mouse (+)
+MESSAGE # Forgetting a monster 'giant white mouse' at (55,81)
+MESSAGE # HIT:the giant white mouse (2)
+MESSAGE # KILL:the giant white mouse (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 30
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 31
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 32
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 33
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 34
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Creating a monster 'giant white mouse' at (55,75), HP: 1, Index: 23
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:54,74 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 74,53 (10 > 5)
+MESSAGE # Tracking a monster 'giant white mouse' at (54,74) from (55,75)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:53,74 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 74,52 (10 > 5)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:52,74 Dep:1 Lev:1 HP:13/13 SP:0/2 Danger:p=5
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 33
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 33
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 33
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 33
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 36
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 37
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 38
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 39
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 40
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 41
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 39
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 39
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 39
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 39
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 39
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 39
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 39
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 39
+MESSAGE # Close enough to Stair.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 11
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE Fang, Farmer Maggot's Dog, bites you.
+MESSAGE # HIT_BY:Fang, Farmer Maggot's Dog (+)
+MESSAGE # Creating a monster 'Fang, Farmer Maggot's Dog' at (43,106), HP: 25, Index: 48
+MESSAGE # Removing Regional Fear (43,106) because of a LOS Fang, Farmer Maggot's Dog
+MESSAGE # HIT_BY:Fang, Farmer Maggot's Dog (4)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:44,107 Dep:1 Lev:1 HP:8/13 SP:1/2 Danger:p=12
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing Fang, Farmer Maggot's Dog at (43,106) who has 25 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit Fang, Farmer Maggot's Dog.
+MESSAGE Fang, Farmer Maggot's Dog, misses you.
+MESSAGE # HIT:Fang, Farmer Maggot's Dog (+)
+MESSAGE # MISS_BY:Fang, Farmer Maggot's Dog (+)
+MESSAGE # HIT:Fang, Farmer Maggot's Dog (2)
+MESSAGE # MISS_BY:Fang, Farmer Maggot's Dog (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:44,107 Dep:1 Lev:1 HP:8/13 SP:1/2 Danger:p=12
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing Fang, Farmer Maggot's Dog at (43,106) who has 25 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You spin around.
+MESSAGE Fang, Farmer Maggot's Dog, bites you.
+MESSAGE # Forgetting a monster 'Fang, Farmer Maggot's Dog' at (43,106)
+MESSAGE # HIT_BY:Fang, Farmer Maggot's Dog (+)
+MESSAGE # Creating a monster 'Fang, Farmer Maggot's Dog' at (43,106), HP: 24, Index: 48
+MESSAGE # Removing Regional Fear (43,106) because of a LOS Fang, Farmer Maggot's Dog
+MESSAGE # HIT_BY:Fang, Farmer Maggot's Dog (4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:44,107 Dep:1 Lev:1 HP:5/13 SP:1/2 Danger:p=12
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing Fang, Farmer Maggot's Dog at (43,106) who has 24 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit Fang, Farmer Maggot's Dog.
+MESSAGE Fang, Farmer Maggot's Dog, bites you.
+MESSAGE # HIT:Fang, Farmer Maggot's Dog (+)
+MESSAGE # HIT_BY:Fang, Farmer Maggot's Dog (+)
+MESSAGE # Tracking a monster 'Fang, Farmer Maggot's Dog' at (44,106) from (43,106)
+MESSAGE # HIT:Fang, Farmer Maggot's Dog (2)
+MESSAGE # HIT_BY:Fang, Farmer Maggot's Dog (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:44,107 Dep:1 Lev:1 HP:2/13 SP:1/2 Danger:p=12
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 38 with value 42.
+MESSAGE # Targeting Fang, Farmer Maggot's Dog who has 20 Hit Points (44,106).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE Fang, Farmer Maggot's Dog, bites you.
+MESSAGE You die.
+MESSAGE # Normal failure.
