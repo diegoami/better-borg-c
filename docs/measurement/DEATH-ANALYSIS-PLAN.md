@@ -136,6 +136,15 @@ Read the opening without implementation detail; it should explain the problem.
   strategy suggestions remain proposals; the current scope does not implement
   them as if they were bug corrections. No automatic tuning or live learning.
 
+Non-carried findings always receive a review (owner, 2026-11-09): an
+investigation that does not produce a carried source fix — a diagnostic
+observer, classification, dossier write-up, disposition, source-tracker issue
+or borg-rs proposal — is reviewed before its conclusions become actions. Post a
+review package issue (milestone-review pattern) with the evidence and exact
+claims; the owner launches any reviewer they choose; the disposition lands only
+after the verdict. Carried patches are unchanged: work-order item 4 still
+merges them without waiting for a per-PR reviewer.
+
 ## Bounded execution and acceptance
 
 The existing three-seed/20000-turn cohort remains immutable as regression v1;
