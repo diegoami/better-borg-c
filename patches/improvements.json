@@ -13,15 +13,16 @@
         "src/borg/borg-fight-attack.h"
       ],
       "acceptance": [
-        "hosted native gate green",
-        "D0012 targeted replay: kill replaces the retreat (documented first divergence)",
-        "regression matrix: all changes declared as intentional improvement transitions",
-        "bounded paired cohort (new frozen starting conditions) reported"
+        "gate green (PR #394 CI)",
+        "targeted branch run: start.save hash equals dossier start f76185e5; first divergence turn 6017; outcome turn_cap alive at 320000 vs recorded death 27770",
+        "regression matrix: 225/225 pass, zero changes, no declarations needed",
+        "paired cohort v1 (seeds 11/29/47, 20k turns): 6/6 alive at cap on both binaries; seed 11 deeper progress (5/max6 vs 4/max5) at identical hp/CL; no regressions"
       ],
-      "status": "evidence-complete, PR pending",
-      "evidence": {
-        "targeted_replay": "/tmp/opencode/imp001-branch2 (start.save hash equals the dossier start f76185e5; first divergence turn 6017; outcome turn_cap alive at 320000 vs recorded death 27770)",
-        "contract": "issue 324 comment 2026-11-09"
+      "status": "merged 8a0c1ba09 (PR #394); measurement complete",
+      "merge": {
+        "pr": 394,
+        "commit": "8a0c1ba09f5a1927080f56458b35be4ab45126e0",
+        "gate": "965/965 + 5/5, tooling 136/136"
       }
     }
   ]
