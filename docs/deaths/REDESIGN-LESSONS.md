@@ -263,11 +263,12 @@ Issues: [#321](https://github.com/diegoami/better-borg-c/issues/321),
   cloak 6) and only 15 on a single Phase Door. The starting Word of Recall was deposited at
   Home. The owner's verified manual takeover at the first bite also died, three squares from
   the stair, unable to cure a graze. Preparation, not tactics, decided it.
-  From the **same 357 gold**, the owner's verified re-shop from turn 1 bought a second Recall
-  (keeping the first), 4 Phase Door, 3 CLW, Monster Confusion, Detect Invisible, Remove Hunger
-  and a flask of oil, plus only 20 gold of armour. He then toured DL1 and returned with 926
-  gold. Owner: "buying the right gear at the shop at the beginning is half the battle." Use
-  this as a reference starting loadout.
+  From the **same 357 gold**, the owner's verified re-shop from turn 1 kept the starting
+  Recall and bought 4 Phase Door, 3 CLW, single copies of Monster Confusion, Detect Invisible
+  and Remove Hunger, a flask of oil, and only 20 gold of armour. He also bought a second
+  Recall, which he says was an accident and is not part of the reference. He then toured DL1
+  and returned with 926 gold. Owner: "buying the right gear at the shop at the beginning is
+  half the battle." Use this as a reference starting loadout.
 - **D0001:** Phase Door was stored at Home while spare weapons and armour were carried.
 - **D0011:** died carrying 4 Rings of Searching, 9 spare torches and sandals, with no Phase
   Door, Recall or teleport.
@@ -299,7 +300,12 @@ Issues: [#41](https://github.com/diegoami/better-borg-c/issues/41),
 In the C Borg, unknown potions are tried essentially only in emergencies, and selling (which
 identifies) needs town visits.
 
-**Requirement.** Identify by use, scroll or sale when safe and cheap. Treat "unknown
+**Owner strategy (D0015).** Buy one cheap copy of a consumable in town just to learn its
+flavour, so later floor finds are already identified. The pristine Borg's buying code has no
+awareness or flavour logic; purchases are chosen by power and value alone.
+
+**Requirement.** Identify by use, scroll, sale or a cheap learning purchase when safe and
+cheap. Treat "unknown
 consumable" as an information-gathering task with value, not as inert inventory.
 
 Issue: [#180](https://github.com/diegoami/better-borg-c/issues/180).

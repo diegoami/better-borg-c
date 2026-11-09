@@ -99,6 +99,11 @@ with 926 gold, still CL1. Fang was never met, because the RNG and path diverge f
 this does not test the Fang fight. The owner's conclusion: buying the right gear at the start
 is half the battle.
 
+The owner later clarified two points. The second Recall was bought by accident, so it is not
+part of the intended loadout. The single Monster Confusion, Detect Invisible and Remove Hunger
+scrolls were bought to learn their flavours, so that dungeon finds would already be identified.
+The pristine Borg's buying code has no awareness or flavour logic at all (#180).
+
 ## Limits
 
 - Whether a dash of seven squares to the stair survives at 8–10 HP is untested; this is what
