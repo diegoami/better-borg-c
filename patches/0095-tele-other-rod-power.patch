@@ -1,0 +1,38 @@
+From ce6af424b46ed2852a58f535f3a12d2648d1fee3 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 03:04:59 +0000
+Subject: [PATCH] borg: count a Rod of Teleport Other in BI_ATPORTOTHER
+
+The Teleport Other availability trait was filled only from a carried
+Wand of Teleport Other (its charges) and from the Teleport Other spell.
+A Rod of Teleport Other added nothing, so borg_power() did not rise for
+it and the shop step never bought one: a Warrior with enough gold left
+the rod in the Black Market.
+
+Count each carried rod as one, like one wand charge. A Borg that already
+has the spell or a full stack of wand charges values it as before.
+
+Tracked as diegoami/neo-angband-tracker#560.
+
+(cherry picked from commit fc444ab17e8dee8ccdbb908f4e3bb760114089b8)
+---
+ src/borg/borg-trait.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/borg/borg-trait.c b/src/borg/borg-trait.c
+index 48ffab3a2..a4939edeb 100644
+--- a/src/borg/borg-trait.c
++++ b/src/borg/borg-trait.c
+@@ -2420,6 +2420,9 @@ static void borg_notice_inventory(void)
+                 } else {
+                     borg.trait[BI_ASPEED] += item->iqty;
+                 }
++            } else if (item->sval == sv_rod_teleport_other) {
++                /* Counted like a wand of teleport other */
++                borg.trait[BI_ATPORTOTHER] += item->iqty;
+             } else if (item->sval == sv_rod_mapping)
+                 borg.trait[BI_AMAGICMAP] += item->iqty * 100;
+             else if (item->sval == sv_rod_healing) {
+-- 
+2.53.0
+

@@ -1767,6 +1767,24 @@
    "verification": "docs/measurement/TRADEHIST-20.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture (two-file provenance); native gate at before and tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "TORODPOWER-560",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/369",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/560",
+   "source_head": "fc444ab17e8dee8ccdbb908f4e3bb760114089b8",
+   "source_commits": [
+    "fc444ab17e8dee8ccdbb908f4e3bb760114089b8"
+   ],
+   "applied_commits": [
+    "ce6af424b46ed2852a58f535f3a12d2648d1fee3"
+   ],
+   "patch": "patches/0095-tele-other-rod-power.patch",
+   "patch_active": true,
+   "evidence_ref": "12a59c5c4d20ec9b66e2d151f9646a8c7937b7b6",
+   "verification": "docs/measurement/TORODPOWER-560.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }
