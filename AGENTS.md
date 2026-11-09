@@ -64,3 +64,15 @@ reply with findings; do not treat acknowledgement as resolution or reprocess
 the agent's own receipts. Record the check once on checkpoint1 if nothing is
 new. This is active-session processing, not an unattended comment-monitoring
 agent; the scheduled donor workflow only inventories public fork metadata.
+
+borg-rs awareness and C-infeasibility proposals (owner, 2026-11-09): during
+native-C bug investigation and death analysis, keep the later borg-rs adoption
+path (UPSTREAM.md) in mind. If a bug does not seem fixable in C, it can be
+proposed to the borg-rs repository, because it might be more feasible in Rust.
+A proposal is an outbound, clearly-marked write-up on the canonical
+source-tracker issue (where the borg-rs worker reads), cross-linked from the
+consumer investigation; it states the C infeasibility evidence and the verified
+C fixtures/scenarios a Rust fix could reuse. Proposals do not relax the
+standing limits: this lane still does not poll or fetch the borg-rs repository
+or its issues, does not implement or dispatch Rust work, and does not alter the
+pristine C/Rust parity contract without an explicit target change.
