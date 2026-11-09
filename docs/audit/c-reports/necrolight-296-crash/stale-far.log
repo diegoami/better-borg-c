@@ -1,0 +1,6 @@
+native-c/necrolight-296-crash: starting...
+SETUP seed=296 mode=stale-far class=Necromancer spell_num_sfails=22 level=1 lit_own=1 lit_dark=0
+  necrolight_stale_position_bounds_guard  MODE stale-far
+OUTCOME lit=47 dark=22 delta=25 stale=22
+Passed
+native-c/necrolight-296-crash finished: 1/1 passed
