@@ -1,0 +1,40 @@
+From 169ae7d6aafc3a555d5af19e0d7b49b85895aa68 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 14:08:27 +0000
+Subject: [PATCH] Borg: score a spastic search candidate by its own search
+ count
+
+borg_flow_spastic() scores each candidate grid with a penalty for how
+often it has already been searched.  The penalty read ag->xtra, but by
+then ag had been reused by the loops over the eight neighbouring grids
+and pointed at the last of them, the north-west neighbour.  A grid that
+had never been searched was refused when that neighbour had been, and a
+grid that had been searched repeatedly was searched again when that
+neighbour had not.
+
+Read the candidate grid's own count.
+
+Tracked as diegoami/neo-angband-tracker#147.
+
+(cherry picked from commit 6e54def846e04ee7a6a203bfcb1623128fc7d696)
+---
+ src/borg/borg-flow-misc.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-flow-misc.c b/src/borg/borg-flow-misc.c
+index 5b0957e69..20265da20 100644
+--- a/src/borg/borg-flow-misc.c
++++ b/src/borg/borg-flow-misc.c
+@@ -708,7 +708,8 @@ bool borg_flow_spastic(bool bored)
+ 
+             /* Tweak -- Reward walls, punish visitation, distance, time on level
+              */
+-            v = (supp * 500) + (diag * 100) - (ag->xtra * 40) - (cost * 2)
++            v = (supp * 500) + (diag * 100) - (borg_grids[y][x].xtra * 40)
++                - (cost * 2)
+                 - borg_timer(borg.time.level);
+ 
+             /* Punish low level and searching too much */
+-- 
+2.53.0
+

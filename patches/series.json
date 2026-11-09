@@ -1659,6 +1659,24 @@
    "verification": "docs/measurement/DEADTAKE-72.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture (kit generators; the lane's recorded-row cross-check pending its later artifacts commit); native gate at before and tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "SPASTICSCORE-147",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/288",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/147",
+   "source_head": "6e54def846e04ee7a6a203bfcb1623128fc7d696",
+   "source_commits": [
+    "6e54def846e04ee7a6a203bfcb1623128fc7d696"
+   ],
+   "applied_commits": [
+    "169ae7d6aafc3a555d5af19e0d7b49b85895aa68"
+   ],
+   "patch": "patches/0089-spastic-own-search-count.patch",
+   "patch_active": true,
+   "evidence_ref": "product-side fixture committed with this carry (docs/audit/c-reports/spasticscore-147-product/), adapted from source kit 5b38022e",
+   "verification": "docs/measurement/SPASTICSCORE-147.md",
+   "credit": "Diego Amicabile (native proposal/evidence); consumer-side fixture for the 0064-corrected flow",
+   "verification_status": "verified on a consumer-designed fixture accounting for the carried 0064 reverse-flow correction; native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }
