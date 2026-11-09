@@ -1,5 +1,5 @@
 {
-  "classification": "preparation failure (330 of 357 starting gold on AC) plus deliberate no-dash rule; owner's verified manual dash from 4118 also dies; no reusable original-C defect established",
+  "classification": "preparation failure (330 of 357 starting gold on AC) plus deliberate no-dash rule; owner's verified retry at 4118 dies, owner's verified re-shop from turn 1 survives a DL1 tour with 926 gold; no reusable original-C defect established",
   "confidence": "High for native positions, visibility, notes and inventory; rule effects source-checked; dash outcome untested",
   "cause_category": "monster melee",
   "overall_assessment": "overall-assessment.md",
@@ -25,6 +25,15 @@
       "actions": [
         "survival-stock-priority",
         "attempted-room-retreat"
+      ]
+    },
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/348",
+      "summary": "Chat 2026-11-09: replayed from the start, bought the right stuff, toured DL1 at CL1 and came back with 900 gold; did not meet Fang; buying the right gear at the start is half the battle.",
+      "status": "processed; manual branch VERIFIED and recorded as a reference loadout on 41",
+      "actions": [
+        "survival-stock-priority"
       ]
     }
   ],
@@ -60,6 +69,10 @@
     {
       "status": "observed",
       "summary": "Starting gold 357: food 12, one Phase Door 15, Ring of Protection [+6] 150, Robe 84, Iron Shod Boots 84, Cloak 6; 6 left. Starting Word of Recall deposited at Home 1891. Town revisits 3181 and 4028 with 6 gold."
+    },
+    {
+      "status": "verified saved manual diagnostic alternative",
+      "summary": "Owner branch 20261109T014719Z from turn 1: same 357 gold buys a second Recall, 4 Phase Door, 3 CLW, Monster Confusion, Detect Invisible, Remove Hunger, oil, 20 gold of armour; DL1 tour 2689-6779 finds 910 gold; saved in town 6889 with 926 gold; Fang not met (different path)."
     }
   ],
   "actions": [

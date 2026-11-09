@@ -82,6 +82,23 @@ That left 6 gold, and it deposited its starting Word of Recall at Home (1891). T
 would have bought ten Phase Doors. Its brief town visits at 3181 and 4028 came with 6 gold.
 This is the strongest survival-stock case so far (#41).
 
+## Owner's re-shop from turn 1 (verified, survived)
+
+The owner replayed from turn 1, the second entry in
+[owner-manual-branch.json](owner-manual-branch.json); a complete rerun is **VERIFIED**. With
+the same 357 gold he bought:
+- **ways home:** a second Word of Recall (125), keeping the starting one;
+- **escapes:** 4 Phase Door (60);
+- **cures:** 3 Cure Light Wounds (60);
+- **other scrolls:** Monster Confusion (30), Detect Invisible (15), Remove Hunger (10);
+- **other:** a flask of oil (3);
+- **armour:** only 20 gold (Robe [2,+0], Sandals).
+
+He toured DL1 from 2689 to 6779, found 910 gold and a Hazy Potion, and saved in town at 6889
+with 926 gold, still CL1. Fang was never met, because the RNG and path diverge from turn 1, so
+this does not test the Fang fight. The owner's conclusion: buying the right gear at the start
+is half the battle.
+
 ## Limits
 
 - Whether a dash of seven squares to the stair survives at 8–10 HP is untested; this is what
