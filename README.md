@@ -1,5 +1,7 @@
 # better-borg-c
 
+## Purpose
+
 A native C Angband/Borg consumer for verified bug fixes. This repository starts
 from Angband master `e473720ed88a0f0c7ca66815cef3000eb4a38bc3`, preserving its
 history, credit, licence, game and Borg sources. Bootstrap adds no gameplay fix.
@@ -29,22 +31,39 @@ Read [AGENTS.md](AGENTS.md), [RULES.md](RULES.md), [PLAN.md](PLAN.md),
 [UPSTREAM.md](UPSTREAM.md) records the baseline; [patches/README.md](patches/README.md)
 explains the ledger. Issues are authoritative for live status.
 
-## Build and check
+## Installation
+
+Angband and the Borg are built together from this one checkout: there is no
+separate Borg package or install step, since `ALLOW_BORG` is compiled into
+the same `angband` binary described below.
+
+### Dependencies
 
 On Debian/Ubuntu install `git python3 cmake build-essential libx11-dev perl
 util-linux`. Use Python3.9+ and CMake3.7+ (a current CMake3.x is the tested setup).
+
+### Build and verify
+
 From this repository:
 
 ```sh
 flock /tmp/angband-validation.lock python3 tools/verify-native.py
 ```
 
-This configures Borg and the test frontend, builds with two jobs and runs
-Angband's `alltests` target (including `allunittests`). It checks the numerical
-unit/frontend summaries as well as exit codes: the original unit runner can
-return zero after a failed assertion. Logs and hashed results go to ignored
-`artifacts/native/`. These baseline checks do not establish Borg survival;
-each adoption also needs the source bug's legal scenario and controls.
+This configures Angband with Borg support and the test frontend, builds with
+two jobs and runs Angband's `alltests` target (including `allunittests`). It
+checks the numerical unit/frontend summaries as well as exit codes: the
+original unit runner can return zero after a failed assertion. Logs and
+hashed results go to ignored `artifacts/native/`. These baseline checks do
+not establish Borg survival; each adoption also needs the source bug's legal
+scenario and controls.
+
+For a manual CMake build without the verification gate, or for other
+platforms/front ends, see [original build documentation](docs/hacking/compiling.rst);
+pass the CMake options it documents and the resulting `build/game/angband`
+binary already includes the Borg.
+
+### Run Angband with the Borg
 
 For an interactive recorded X11 game, run `./start-borg.sh BorgPlay` from the repository
 root. Omit the name to be prompted, or give another name to use
