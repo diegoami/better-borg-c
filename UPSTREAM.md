@@ -48,6 +48,11 @@ parity baseline separately; known C bugs must not disappear from that contract
 without an explicit target change. C-only patches are not automatically present
 in a Rust implementation when those C Borg files are excluded from linking.
 
+Improvements (owner decision, 2026-11-09): behavior/strategy improvements are
+local to this fork, implemented as labelled improvement units; they are never
+proposed to the source tracker or official Angband, and never represented as
+carries. Only verified bug fixes take the upstream/carry routing.
+
 Escape hatch (owner decision, 2026-11-09): a bug that does not seem fixable in
 C can be proposed to borg-rs even without a C fix, because it may be more
 feasible in Rust. Record the proposal on the canonical source-tracker issue

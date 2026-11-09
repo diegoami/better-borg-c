@@ -47,9 +47,10 @@
     scenarios. No deployment, OAuth/private backup, publisher/release/tag,
     directory retirement or unattended job is authorised by bootstrap.
 12. Current scope includes bug fixes/adoption, reproducible native measurement,
-    frozen baseline statistics and failure analysis; no new gameplay strategies. New
-    product-specific defects belong here; reusable C discoveries route to the
-    source tracker first. Record checkpoint at each merge or stop.
+    frozen baseline statistics, failure analysis, and owner-directed improvements
+    (2026-11-09) as labelled local improvement units, never proposed upstream. New
+    product-specific defects belong here; reusable C defect discoveries route to
+    the source tracker first. Record checkpoint at each merge or stop.
 
 13. Owner-directed integration (2026-11-06): the consumer agent merges verified
     PRs after its evidence review and required green checks, measures impact and
