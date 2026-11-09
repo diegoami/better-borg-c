@@ -89,11 +89,11 @@
   "impact_milestone_v3": "https://github.com/diegoami/better-borg-c/milestone/3",
   "external_review_package_v3": "https://github.com/diegoami/better-borg-c/issues/128",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/229",
-    "branch": "task/impact-milestone5",
-    "worktree": ".worktrees/glowtrace",
-    "state": "milestone5-assembled-merged-PR228-review-owner-launched-carry-queue-empty",
-    "instructions": "docs/measurement/IMPACT-MILESTONE5.md"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/392",
+    "branch": "task/verify-diverge-392",
+    "worktree": ".worktrees/verify-diverge",
+    "state": "replay-divergence-stop-and-watchdog-hardening-implemented-native-evidence-complete-PR-pending",
+    "instructions": "docs/measurement/RECORD-REPLAY.md (counterfactual replays stop at the first divergent action)"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
   "impact_milestone_v4": "https://github.com/diegoami/better-borg-c/milestone/4",
