@@ -1,0 +1,4738 @@
+{
+  "build": "/home/diego/projects/angband/better-borg-c/.worktrees/necrolight/build/native",
+  "groups": {
+    "swap": {
+      "kind": "local",
+      "baseline": "artifacts/per-spell-carry/regressions/swap",
+      "cases": {
+        "armour-better": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "hp_before": 263,
+            "hp_after": 237,
+            "hp_lost": 26
+          },
+          "log_sha256": "9ca1eb61aa0548373e7c0103e1eb89b5b37c32ed522315e2cf7baea1333af392",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "hp_before": 263,
+            "hp_after": 237,
+            "hp_lost": 26
+          },
+          "baseline_log_sha256": "9ca1eb61aa0548373e7c0103e1eb89b5b37c32ed522315e2cf7baea1333af392",
+          "byte_identical": true
+        },
+        "weapon-better": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "hp_before": 263,
+            "hp_after": 237,
+            "hp_lost": 26
+          },
+          "log_sha256": "fcf41083828d5410997febfd76eb2d4930d12811aadbfd624d3c201df4dbf1d3",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "hp_before": 263,
+            "hp_after": 237,
+            "hp_lost": 26
+          },
+          "baseline_log_sha256": "fcf41083828d5410997febfd76eb2d4930d12811aadbfd624d3c201df4dbf1d3",
+          "byte_identical": true
+        },
+        "armour-only": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "hp_before": 251,
+            "hp_after": 223,
+            "hp_lost": 28
+          },
+          "log_sha256": "6052705f6c0759a0ed5755fd42b387f32ccb5d2c4f309159dd42f76fee45626f",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "hp_before": 251,
+            "hp_after": 223,
+            "hp_lost": 28
+          },
+          "baseline_log_sha256": "6052705f6c0759a0ed5755fd42b387f32ccb5d2c4f309159dd42f76fee45626f",
+          "byte_identical": true
+        },
+        "weapon-only": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "hp_before": 251,
+            "hp_after": 223,
+            "hp_lost": 28
+          },
+          "log_sha256": "7f8467c051efc7bfbafad2c98e42230d7ffbba908f5effa05df7f6bde98e7438",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "hp_before": 251,
+            "hp_after": 223,
+            "hp_lost": 28
+          },
+          "baseline_log_sha256": "7f8467c051efc7bfbafad2c98e42230d7ffbba908f5effa05df7f6bde98e7438",
+          "byte_identical": true
+        },
+        "tie": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "hp_before": 263,
+            "hp_after": 237,
+            "hp_lost": 26
+          },
+          "log_sha256": "628b15a33235cba998c66acaece07f32c42fb2817c4e0920dbe9835a99be2c07",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "hp_before": 263,
+            "hp_after": 237,
+            "hp_lost": 26
+          },
+          "baseline_log_sha256": "628b15a33235cba998c66acaece07f32c42fb2817c4e0920dbe9835a99be2c07",
+          "byte_identical": true
+        },
+        "no-benefit": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "hp_before": 263,
+            "hp_after": 184,
+            "hp_lost": 79
+          },
+          "log_sha256": "859db6ef881b08dd34109cd9f48a6c2d55455fc30b5aebce2f26eda56145f00a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "hp_before": 263,
+            "hp_after": 184,
+            "hp_lost": 79
+          },
+          "baseline_log_sha256": "859db6ef881b08dd34109cd9f48a6c2d55455fc30b5aebce2f26eda56145f00a",
+          "byte_identical": true
+        },
+        "both-helpful": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "hp_before": 450,
+            "hp_after": 391,
+            "hp_lost": 59
+          },
+          "log_sha256": "3f052cfa3ff8bce8866562f1031f882f694476d774b0469b590041a6cc3a549d",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "hp_before": 450,
+            "hp_after": 391,
+            "hp_lost": 59
+          },
+          "baseline_log_sha256": "3f052cfa3ff8bce8866562f1031f882f694476d774b0469b590041a6cc3a549d",
+          "byte_identical": true
+        },
+        "electric-weapon": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "hp_before": 263,
+            "hp_after": 237,
+            "hp_lost": 26
+          },
+          "log_sha256": "c564d9332b27f0997e1859988c77cf13ad048f3462f2caceef474aab686905e9",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "hp_before": 263,
+            "hp_after": 237,
+            "hp_lost": 26
+          },
+          "baseline_log_sha256": "c564d9332b27f0997e1859988c77cf13ad048f3462f2caceef474aab686905e9",
+          "byte_identical": true
+        },
+        "fire-armour": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "hp_before": 245,
+            "hp_after": 216,
+            "hp_lost": 29
+          },
+          "log_sha256": "5ca34e22287f156cb783ff2fc44cf22b0d00e71a7c4ae1a93a176318f6269ae0",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "hp_before": 245,
+            "hp_after": 216,
+            "hp_lost": 29
+          },
+          "baseline_log_sha256": "5ca34e22287f156cb783ff2fc44cf22b0d00e71a7c4ae1a93a176318f6269ae0",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "knockout": {
+      "kind": "local",
+      "baseline": "artifacts/per-spell-carry/regressions/knockout",
+      "cases": {
+        "knockout": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "deaths": 1,
+            "reactions_before": 1,
+            "reactions_after": 7,
+            "delta": 6
+          },
+          "log_sha256": "9e18641b4eebf0dacfa3715eb54ecac8466ae94ef1eb32e771a65990688597b2",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "deaths": 1,
+            "reactions_before": 1,
+            "reactions_after": 7,
+            "delta": 6
+          },
+          "baseline_log_sha256": "9e18641b4eebf0dacfa3715eb54ecac8466ae94ef1eb32e771a65990688597b2",
+          "byte_identical": true
+        },
+        "heavy-stun": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "deaths": 1,
+            "reactions_before": 1,
+            "reactions_after": 3,
+            "delta": 2
+          },
+          "log_sha256": "3510f5c658d7846e3db67d5bd002876a0b0dd9007207a12d6dbbc39bda752589",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "deaths": 1,
+            "reactions_before": 1,
+            "reactions_after": 3,
+            "delta": 2
+          },
+          "baseline_log_sha256": "3510f5c658d7846e3db67d5bd002876a0b0dd9007207a12d6dbbc39bda752589",
+          "byte_identical": true
+        },
+        "paralysis": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "deaths": 1,
+            "reactions_before": 1,
+            "reactions_after": 4,
+            "delta": 3
+          },
+          "log_sha256": "a4db29c57e3492ad23b69fef86175da451463979ee48171fd6411509f97093ae",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "deaths": 1,
+            "reactions_before": 0,
+            "reactions_after": 3,
+            "delta": 3
+          },
+          "baseline_log_sha256": "105970e5147aef9b5718fc8c6416612e317edccc3629ad2636ceeb96c9f22699",
+          "byte_identical": false
+        },
+        "none": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "deaths": 1,
+            "reactions_before": 0,
+            "reactions_after": 6,
+            "delta": 6
+          },
+          "log_sha256": "4c2d5382b4ddb9040afd99d4b455b53d8f574f076f33c6c1175b30764cc09ed6",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "deaths": 1,
+            "reactions_before": 0,
+            "reactions_after": 6,
+            "delta": 6
+          },
+          "baseline_log_sha256": "4c2d5382b4ddb9040afd99d4b455b53d8f574f076f33c6c1175b30764cc09ed6",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "preparation": {
+      "kind": "local",
+      "baseline": "artifacts/per-spell-carry/regressions/preparation",
+      "cases": {
+        "regen-only": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "commands": 1,
+            "regen": 1,
+            "haste": 0,
+            "mana_spent": 20,
+            "action_energy": 100,
+            "heal": 8,
+            "fast": 0
+          },
+          "log_sha256": "d2285cdcfcf0f1df88e1f88b92a90369a1f83bd0f0a3e1dc0aa34219ed2bfb38",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "commands": 1,
+            "regen": 1,
+            "haste": 0,
+            "mana_spent": 20,
+            "action_energy": 100,
+            "heal": 8,
+            "fast": 0
+          },
+          "baseline_log_sha256": "d2285cdcfcf0f1df88e1f88b92a90369a1f83bd0f0a3e1dc0aa34219ed2bfb38",
+          "byte_identical": true
+        },
+        "speed-wins": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "commands": 1,
+            "regen": 0,
+            "haste": 1,
+            "mana_spent": 12,
+            "action_energy": 100,
+            "heal": 0,
+            "fast": 68
+          },
+          "log_sha256": "abd3f550973e97f08f9df9748bc34c0e1aa926e9a64a56e77f4e4b47d37e52ba",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "commands": 1,
+            "regen": 0,
+            "haste": 1,
+            "mana_spent": 12,
+            "action_energy": 100,
+            "heal": 0,
+            "fast": 68
+          },
+          "baseline_log_sha256": "abd3f550973e97f08f9df9748bc34c0e1aa926e9a64a56e77f4e4b47d37e52ba",
+          "byte_identical": true
+        },
+        "speed-only": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "commands": 1,
+            "regen": 0,
+            "haste": 1,
+            "mana_spent": 12,
+            "action_energy": 100,
+            "heal": 0,
+            "fast": 68
+          },
+          "log_sha256": "41d63d8906618ee7c7c05ac6a78d60fcec846d76e4d8e484123c42b2707b4167",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "commands": 1,
+            "regen": 0,
+            "haste": 1,
+            "mana_spent": 12,
+            "action_energy": 100,
+            "heal": 0,
+            "fast": 68
+          },
+          "baseline_log_sha256": "41d63d8906618ee7c7c05ac6a78d60fcec846d76e4d8e484123c42b2707b4167",
+          "byte_identical": true
+        },
+        "already-active": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 7,
+            "fast": 0
+          },
+          "log_sha256": "400c97a61132405c0010666de6ff0471077dcdbea784462bcecdd2d542c2946f",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 7,
+            "fast": 0
+          },
+          "baseline_log_sha256": "400c97a61132405c0010666de6ff0471077dcdbea784462bcecdd2d542c2946f",
+          "byte_identical": true
+        },
+        "unlearned": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 0,
+            "fast": 0
+          },
+          "log_sha256": "3800ac3a57287f04905cada021e7dd0cf5b232c93a6d9e37b09c1bee039ee798",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 0,
+            "fast": 0
+          },
+          "baseline_log_sha256": "3800ac3a57287f04905cada021e7dd0cf5b232c93a6d9e37b09c1bee039ee798",
+          "byte_identical": true
+        },
+        "low-mana": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 0,
+            "fast": 0
+          },
+          "log_sha256": "e0ba5c7e1b2feab8ba11c4779da7f94e0400e96f7a35ddcc6817ebfb12b68621",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 0,
+            "fast": 0
+          },
+          "baseline_log_sha256": "e0ba5c7e1b2feab8ba11c4779da7f94e0400e96f7a35ddcc6817ebfb12b68621",
+          "byte_identical": true
+        },
+        "town": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 0,
+            "fast": 0
+          },
+          "log_sha256": "414418a4b173a624d865f163bb183bd06b77bde534fbdc4ffae94ea310ac7076",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 0,
+            "fast": 0
+          },
+          "baseline_log_sha256": "414418a4b173a624d865f163bb183bd06b77bde534fbdc4ffae94ea310ac7076",
+          "byte_identical": true
+        },
+        "blind": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 0,
+            "fast": 0
+          },
+          "log_sha256": "d5f34c0397a8a8b3990bec33b6247e81faf551be1ff4bd0228bc11626aaaa0de",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 0,
+            "fast": 0
+          },
+          "baseline_log_sha256": "d5f34c0397a8a8b3990bec33b6247e81faf551be1ff4bd0228bc11626aaaa0de",
+          "byte_identical": true
+        },
+        "confused": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 0,
+            "fast": 0
+          },
+          "log_sha256": "baa14bdc82d49372ee814f46c38d7df6388ab5d192bcddab8981862a187d6211",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "commands": 0,
+            "regen": 0,
+            "haste": 0,
+            "mana_spent": 0,
+            "action_energy": 0,
+            "heal": 0,
+            "fast": 0
+          },
+          "baseline_log_sha256": "baa14bdc82d49372ee814f46c38d7df6388ab5d192bcddab8981862a187d6211",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "cold-protection": {
+      "kind": "local",
+      "baseline": "artifacts/per-spell-carry/regressions/cold-protection",
+      "cases": {
+        "acid-only": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 10,
+            "melee": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "log_sha256": "6075818994acaa3da198af9a7f8d38247302fba420dc8244e76eda292f93d67e",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 10,
+            "melee": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "baseline_log_sha256": "6075818994acaa3da198af9a7f8d38247302fba420dc8244e76eda292f93d67e",
+          "byte_identical": true
+        },
+        "cold-only": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 0,
+            "moved": 0,
+            "distance": 1,
+            "melee": 1,
+            "hp_before": 130,
+            "hp_after": 110,
+            "hp_lost": 20,
+            "mana_spent": 0,
+            "scrolls_spent": 0
+          },
+          "log_sha256": "e38c2b650917c19fe587a5664dd011c784e3d86ccef87f4e0c45226855315319",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 0,
+            "moved": 0,
+            "distance": 1,
+            "melee": 1,
+            "hp_before": 130,
+            "hp_after": 110,
+            "hp_lost": 20,
+            "mana_spent": 0,
+            "scrolls_spent": 0
+          },
+          "baseline_log_sha256": "e38c2b650917c19fe587a5664dd011c784e3d86ccef87f4e0c45226855315319",
+          "byte_identical": true
+        },
+        "neither": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 10,
+            "melee": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "log_sha256": "ae42f19fef596eb471c9263ae29d7bfa65ee67121a7bbc735f17827150cde044",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 10,
+            "melee": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "baseline_log_sha256": "ae42f19fef596eb471c9263ae29d7bfa65ee67121a7bbc735f17827150cde044",
+          "byte_identical": true
+        },
+        "both": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 0,
+            "moved": 0,
+            "distance": 1,
+            "melee": 1,
+            "hp_before": 130,
+            "hp_after": 110,
+            "hp_lost": 20,
+            "mana_spent": 0,
+            "scrolls_spent": 0
+          },
+          "log_sha256": "42a6b7deac10e47f69d8019a11b2f1376dd036b006ccd4f3003098b49e454a81",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 0,
+            "moved": 0,
+            "distance": 1,
+            "melee": 1,
+            "hp_before": 130,
+            "hp_after": 110,
+            "hp_lost": 20,
+            "mana_spent": 0,
+            "scrolls_spent": 0
+          },
+          "baseline_log_sha256": "42a6b7deac10e47f69d8019a11b2f1376dd036b006ccd4f3003098b49e454a81",
+          "byte_identical": true
+        },
+        "physical-acid-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 10,
+            "melee": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "log_sha256": "55b96bdd1fbcab1de0eca6d78d415da45429f9176b52275a96f51ada91550487",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 10,
+            "melee": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "baseline_log_sha256": "55b96bdd1fbcab1de0eca6d78d415da45429f9176b52275a96f51ada91550487",
+          "byte_identical": true
+        },
+        "physical-cold-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 10,
+            "melee": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "log_sha256": "e8793329e2880a3fdb2c8001b394a7b8d4ea7337ea20855381ef31e6f40f822a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 10,
+            "melee": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "baseline_log_sha256": "e8793329e2880a3fdb2c8001b394a7b8d4ea7337ea20855381ef31e6f40f822a",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "rings": {
+      "kind": "local",
+      "baseline": "artifacts/per-spell-carry/regressions/rings",
+      "cases": {
+        "left-ready": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "activated": 1,
+            "selected_slot": 3,
+            "enemy_before": 70,
+            "enemy_after": 0,
+            "damage": 70,
+            "killed": 1,
+            "right_timeout": 0,
+            "left_timeout": 98,
+            "fire_protection": 37
+          },
+          "log_sha256": "a51d35d2ebbbb9979f08fea97db22d18e910b759913df6d52ec1ac8a3d1d8bf0",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "activated": 1,
+            "selected_slot": 3,
+            "enemy_before": 70,
+            "enemy_after": 0,
+            "damage": 70,
+            "killed": 1,
+            "right_timeout": 0,
+            "left_timeout": 98,
+            "fire_protection": 37
+          },
+          "baseline_log_sha256": "a51d35d2ebbbb9979f08fea97db22d18e910b759913df6d52ec1ac8a3d1d8bf0",
+          "byte_identical": true
+        },
+        "right-charging-left-ready": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "activated": 1,
+            "selected_slot": 3,
+            "enemy_before": 70,
+            "enemy_after": 0,
+            "damage": 70,
+            "killed": 1,
+            "right_timeout": 10,
+            "left_timeout": 98,
+            "fire_protection": 37
+          },
+          "log_sha256": "da5397d11e19fb7efd0f8474484d9db08c3bdaa7776f25d44ee4a5846fc186c2",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "activated": 1,
+            "selected_slot": 3,
+            "enemy_before": 70,
+            "enemy_after": 0,
+            "damage": 70,
+            "killed": 1,
+            "right_timeout": 10,
+            "left_timeout": 98,
+            "fire_protection": 37
+          },
+          "baseline_log_sha256": "da5397d11e19fb7efd0f8474484d9db08c3bdaa7776f25d44ee4a5846fc186c2",
+          "byte_identical": true
+        },
+        "right-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "activated": 1,
+            "selected_slot": 2,
+            "enemy_before": 70,
+            "enemy_after": 0,
+            "damage": 70,
+            "killed": 1,
+            "right_timeout": 98,
+            "left_timeout": 0,
+            "fire_protection": 37
+          },
+          "log_sha256": "1611cfc46721e8b9bad4518f793974c348262e849f38601baeb00b8d5cb66b67",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "activated": 1,
+            "selected_slot": 2,
+            "enemy_before": 70,
+            "enemy_after": 0,
+            "damage": 70,
+            "killed": 1,
+            "right_timeout": 98,
+            "left_timeout": 0,
+            "fire_protection": 37
+          },
+          "baseline_log_sha256": "1611cfc46721e8b9bad4518f793974c348262e849f38601baeb00b8d5cb66b67",
+          "byte_identical": true
+        },
+        "both-ready": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "activated": 1,
+            "selected_slot": 2,
+            "enemy_before": 70,
+            "enemy_after": 0,
+            "damage": 70,
+            "killed": 1,
+            "right_timeout": 98,
+            "left_timeout": 0,
+            "fire_protection": 37
+          },
+          "log_sha256": "5b1c2528b2f0223d742d4d8cac388546f9d60d220e11013c3f1866651362a0a8",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "activated": 1,
+            "selected_slot": 2,
+            "enemy_before": 70,
+            "enemy_after": 0,
+            "damage": 70,
+            "killed": 1,
+            "right_timeout": 98,
+            "left_timeout": 0,
+            "fire_protection": 37
+          },
+          "baseline_log_sha256": "5b1c2528b2f0223d742d4d8cac388546f9d60d220e11013c3f1866651362a0a8",
+          "byte_identical": true
+        },
+        "no-ring": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "activated": 0,
+            "selected_slot": -1,
+            "enemy_before": 70,
+            "enemy_after": 70,
+            "damage": 0,
+            "killed": 0,
+            "right_timeout": 0,
+            "left_timeout": 0,
+            "fire_protection": 0
+          },
+          "log_sha256": "a2e33d1b69d5fd8604fb535b7133ae6a8094ed5004601c44e8db8c49c8557229",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "activated": 0,
+            "selected_slot": -1,
+            "enemy_before": 70,
+            "enemy_after": 70,
+            "damage": 0,
+            "killed": 0,
+            "right_timeout": 0,
+            "left_timeout": 0,
+            "fire_protection": 0
+          },
+          "baseline_log_sha256": "a2e33d1b69d5fd8604fb535b7133ae6a8094ed5004601c44e8db8c49c8557229",
+          "byte_identical": true
+        },
+        "left-charging": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "activated": 0,
+            "selected_slot": -1,
+            "enemy_before": 70,
+            "enemy_after": 70,
+            "damage": 0,
+            "killed": 0,
+            "right_timeout": 0,
+            "left_timeout": 10,
+            "fire_protection": 0
+          },
+          "log_sha256": "82a41498351209320129fd9dec2e900d49f64b3dd8342abb0ba40dff7e20413b",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "activated": 0,
+            "selected_slot": -1,
+            "enemy_before": 70,
+            "enemy_after": 70,
+            "damage": 0,
+            "killed": 0,
+            "right_timeout": 0,
+            "left_timeout": 10,
+            "fire_protection": 0
+          },
+          "baseline_log_sha256": "82a41498351209320129fd9dec2e900d49f64b3dd8342abb0ba40dff7e20413b",
+          "byte_identical": true
+        },
+        "blind-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "activated": 0,
+            "selected_slot": -1,
+            "enemy_before": 70,
+            "enemy_after": 70,
+            "damage": 0,
+            "killed": 0,
+            "right_timeout": 0,
+            "left_timeout": 0,
+            "fire_protection": 0
+          },
+          "log_sha256": "133b528cd0b0d9c4c598458a10924e1ecc864f9537efd9023f4eb5749866a3a3",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "activated": 0,
+            "selected_slot": -1,
+            "enemy_before": 70,
+            "enemy_after": 70,
+            "damage": 0,
+            "killed": 0,
+            "right_timeout": 0,
+            "left_timeout": 0,
+            "fire_protection": 0
+          },
+          "baseline_log_sha256": "133b528cd0b0d9c4c598458a10924e1ecc864f9537efd9023f4eb5749866a3a3",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "potion-timing": {
+      "kind": "local",
+      "baseline": "artifacts/per-spell-carry/regressions/potion-timing",
+      "cases": {
+        "long-gap": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 1,
+            "hp_before": 321,
+            "hp_after": 381,
+            "healed": 60,
+            "potions_spent": 1,
+            "confused": 0
+          },
+          "log_sha256": "59bc50a2350765b885082cb175d64e8c3e86bf7319ebb7bcbba6cf9899975d59",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 1,
+            "hp_before": 321,
+            "hp_after": 381,
+            "healed": 60,
+            "potions_spent": 1,
+            "confused": 0
+          },
+          "baseline_log_sha256": "59bc50a2350765b885082cb175d64e8c3e86bf7319ebb7bcbba6cf9899975d59",
+          "byte_identical": true
+        },
+        "recent": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 0,
+            "hp_before": 321,
+            "hp_after": 321,
+            "healed": 0,
+            "potions_spent": 0,
+            "confused": 10
+          },
+          "log_sha256": "7827ebb14b02190779fbb372dfdbaaeb08913b7e5ecfac6208068fe8b4ec39bc",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 0,
+            "hp_before": 321,
+            "hp_after": 321,
+            "healed": 0,
+            "potions_spent": 0,
+            "confused": 10
+          },
+          "baseline_log_sha256": "7827ebb14b02190779fbb372dfdbaaeb08913b7e5ecfac6208068fe8b4ec39bc",
+          "byte_identical": true
+        },
+        "boundary-four": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 0,
+            "hp_before": 321,
+            "hp_after": 321,
+            "healed": 0,
+            "potions_spent": 0,
+            "confused": 10
+          },
+          "log_sha256": "414dc01ea056a37508112582ae893472f4bfafd42da1de23bcba9775588810dd",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 0,
+            "hp_before": 321,
+            "hp_after": 321,
+            "healed": 0,
+            "potions_spent": 0,
+            "confused": 10
+          },
+          "baseline_log_sha256": "414dc01ea056a37508112582ae893472f4bfafd42da1de23bcba9775588810dd",
+          "byte_identical": true
+        },
+        "same-turn": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 1,
+            "hp_before": 321,
+            "hp_after": 381,
+            "healed": 60,
+            "potions_spent": 1,
+            "confused": 0
+          },
+          "log_sha256": "3618026988c5a3611ca51ff85a60575e2d9fc61b31a92ececfe615b2c845189d",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 1,
+            "hp_before": 321,
+            "hp_after": 381,
+            "healed": 60,
+            "potions_spent": 1,
+            "confused": 0
+          },
+          "baseline_log_sha256": "3618026988c5a3611ca51ff85a60575e2d9fc61b31a92ececfe615b2c845189d",
+          "byte_identical": true
+        },
+        "bypass-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 1,
+            "hp_before": 321,
+            "hp_after": 381,
+            "healed": 60,
+            "potions_spent": 1,
+            "confused": 0
+          },
+          "log_sha256": "62b9a0467c3fbeb4d6c7edda63110d6972cfef488d6e9d2dbf1795e718f525f9",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 1,
+            "hp_before": 321,
+            "hp_after": 381,
+            "healed": 60,
+            "potions_spent": 1,
+            "confused": 0
+          },
+          "baseline_log_sha256": "62b9a0467c3fbeb4d6c7edda63110d6972cfef488d6e9d2dbf1795e718f525f9",
+          "byte_identical": true
+        },
+        "first-use": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 1,
+            "hp_before": 301,
+            "hp_after": 361,
+            "healed": 60,
+            "potions_spent": 1,
+            "confused": 0
+          },
+          "log_sha256": "4e89bf61f958e7b49dc6bb24eb3ca6a58ae2ec7b9e1a7d5de7d06b3aff995e6c",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 1,
+            "hp_before": 301,
+            "hp_after": 361,
+            "healed": 60,
+            "potions_spent": 1,
+            "confused": 0
+          },
+          "baseline_log_sha256": "4e89bf61f958e7b49dc6bb24eb3ca6a58ae2ec7b9e1a7d5de7d06b3aff995e6c",
+          "byte_identical": true
+        },
+        "first-turn": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 1,
+            "hp_before": 301,
+            "hp_after": 361,
+            "healed": 60,
+            "potions_spent": 1,
+            "confused": 0
+          },
+          "log_sha256": "19f02573b9cd637ed356c7d2547b0ff082cd915d066902c086b8735506ee88bc",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 1,
+            "hp_before": 301,
+            "hp_after": 361,
+            "healed": 60,
+            "potions_spent": 1,
+            "confused": 0
+          },
+          "baseline_log_sha256": "19f02573b9cd637ed356c7d2547b0ff082cd915d066902c086b8735506ee88bc",
+          "byte_identical": true
+        },
+        "empty-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 0,
+            "hp_before": 321,
+            "hp_after": 321,
+            "healed": 0,
+            "potions_spent": 0,
+            "confused": 10
+          },
+          "log_sha256": "841323e128f3042d08c589e95927776ece529823cb5d1e2e4f75b40bae8a2431",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 0,
+            "hp_before": 321,
+            "hp_after": 321,
+            "healed": 0,
+            "potions_spent": 0,
+            "confused": 10
+          },
+          "baseline_log_sha256": "841323e128f3042d08c589e95927776ece529823cb5d1e2e4f75b40bae8a2431",
+          "byte_identical": true
+        },
+        "reserve-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 0,
+            "hp_before": 321,
+            "hp_after": 321,
+            "healed": 0,
+            "potions_spent": 0,
+            "confused": 10
+          },
+          "log_sha256": "dace7f5c05a8f80410986c7a940b4681c3bd9b9333cdb06e51b66debe6a924e5",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 0,
+            "hp_before": 321,
+            "hp_after": 321,
+            "healed": 0,
+            "potions_spent": 0,
+            "confused": 10
+          },
+          "baseline_log_sha256": "dace7f5c05a8f80410986c7a940b4681c3bd9b9333cdb06e51b66debe6a924e5",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "itangast": {
+      "kind": "local",
+      "baseline": "artifacts/per-spell-carry/regressions/itangast",
+      "cases": {
+        "named-dragon": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "located": 1,
+            "defend": 0,
+            "potions_spent": 0,
+            "see_invisible": 0,
+            "stamp": 0,
+            "hp": 421
+          },
+          "log_sha256": "35ecb56f7993ea3bfa30a07eb277fe26c2bbe16d0699f93dd2d85e20db37cb2d",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "located": 1,
+            "defend": 0,
+            "potions_spent": 0,
+            "see_invisible": 0,
+            "stamp": 0,
+            "hp": 421
+          },
+          "baseline_log_sha256": "35ecb56f7993ea3bfa30a07eb277fe26c2bbe16d0699f93dd2d85e20db37cb2d",
+          "byte_identical": true
+        },
+        "ogre-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "located": 1,
+            "defend": 0,
+            "potions_spent": 0,
+            "see_invisible": 0,
+            "stamp": 0,
+            "hp": 421
+          },
+          "log_sha256": "5e0488b630fc01fbbb6e51899253a58e324e2ad82f774c82707a3a8ae0c63612",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "located": 1,
+            "defend": 0,
+            "potions_spent": 0,
+            "see_invisible": 0,
+            "stamp": 0,
+            "hp": 421
+          },
+          "baseline_log_sha256": "5e0488b630fc01fbbb6e51899253a58e324e2ad82f774c82707a3a8ae0c63612",
+          "byte_identical": true
+        },
+        "unseen-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "located": 0,
+            "defend": 1,
+            "potions_spent": 1,
+            "see_invisible": 61,
+            "stamp": 100,
+            "hp": 421
+          },
+          "log_sha256": "15909f595de514b77a34426f24ed4e66543330169a751c994480cb25607453cb",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "located": 0,
+            "defend": 1,
+            "potions_spent": 1,
+            "see_invisible": 61,
+            "stamp": 100,
+            "hp": 421
+          },
+          "baseline_log_sha256": "15909f595de514b77a34426f24ed4e66543330169a751c994480cb25607453cb",
+          "byte_identical": true
+        },
+        "it-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "located": 0,
+            "defend": 1,
+            "potions_spent": 1,
+            "see_invisible": 61,
+            "stamp": 100,
+            "hp": 421
+          },
+          "log_sha256": "e3b3961260a8305f5dbdc8f8601e276cdc30fa062029c06c064dacb9c3f08feb",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "located": 0,
+            "defend": 1,
+            "potions_spent": 1,
+            "see_invisible": 61,
+            "stamp": 100,
+            "hp": 421
+          },
+          "baseline_log_sha256": "e3b3961260a8305f5dbdc8f8601e276cdc30fa062029c06c064dacb9c3f08feb",
+          "byte_identical": true
+        },
+        "lower-it-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "located": 0,
+            "defend": 1,
+            "potions_spent": 1,
+            "see_invisible": 61,
+            "stamp": 100,
+            "hp": 421
+          },
+          "log_sha256": "1640eac422f1c4fed1091df8d9cf67aef4a8175eb3592160151e6c040af83553",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "located": 0,
+            "defend": 1,
+            "potions_spent": 1,
+            "see_invisible": 61,
+            "stamp": 100,
+            "hp": 421
+          },
+          "baseline_log_sha256": "1640eac422f1c4fed1091df8d9cf67aef4a8175eb3592160151e6c040af83553",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "shot-path": {
+      "kind": "local",
+      "baseline": "artifacts/per-spell-carry/shot-path-interaction",
+      "cases": {
+        "clear-path": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 13,
+            "cast": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "log_sha256": "b8508b71e46291bd4aafea0f6dfdc81bd2acde673c3d94a335fc234026f9a09a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 13,
+            "cast": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "baseline_log_sha256": "b8508b71e46291bd4aafea0f6dfdc81bd2acde673c3d94a335fc234026f9a09a",
+          "byte_identical": true
+        },
+        "blocked": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 7,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 76,
+            "hp_lost": 54,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "log_sha256": "c7c2f1be27ea4e289cfa8905cf0f0b9486fe1ef8bf48a435040edaf39d1bb909",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 7,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 76,
+            "hp_lost": 54,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "baseline_log_sha256": "c7c2f1be27ea4e289cfa8905cf0f0b9486fe1ef8bf48a435040edaf39d1bb909",
+          "byte_identical": true
+        },
+        "ball-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 15,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 83,
+            "hp_lost": 47,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "log_sha256": "bbed477234fbc5d7681b41e9003efdb281d193bdd9ce6af2fd476e10721b631f",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 15,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 83,
+            "hp_lost": 47,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "baseline_log_sha256": "bbed477234fbc5d7681b41e9003efdb281d193bdd9ce6af2fd476e10721b631f",
+          "byte_identical": true
+        },
+        "direct-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 7,
+            "cast": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "log_sha256": "44d62594fdda4d1b951b5655cb6a8a996b759b9170401dedaef2fa7311b7aec6",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 7,
+            "cast": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "baseline_log_sha256": "44d62594fdda4d1b951b5655cb6a8a996b759b9170401dedaef2fa7311b7aec6",
+          "byte_identical": true
+        },
+        "boulder-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 11,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 101,
+            "hp_lost": 29,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "log_sha256": "0d98dd47d05f4962d8c777f4233107d9b9094c4a023424c5abecbec37ef9576c",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 11,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 101,
+            "hp_lost": 29,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "baseline_log_sha256": "0d98dd47d05f4962d8c777f4233107d9b9094c4a023424c5abecbec37ef9576c",
+          "byte_identical": true
+        },
+        "boulder-blocked": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 0,
+            "moved": 0,
+            "distance": 6,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 0,
+            "scrolls_spent": 0
+          },
+          "log_sha256": "a28af5ac19ce152aee0ae243741905aa02dccd4c8f2fc908122e6601f6a65b88",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 0,
+            "moved": 0,
+            "distance": 6,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 0,
+            "scrolls_spent": 0
+          },
+          "baseline_log_sha256": "a28af5ac19ce152aee0ae243741905aa02dccd4c8f2fc908122e6601f6a65b88",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "per-spell": {
+      "kind": "local",
+      "baseline": ".worktrees/per-spell/artifacts/per-spell/scenarios",
+      "cases": {
+        "clear-path": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 13,
+            "cast": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "log_sha256": "7416b2e5d6d19b2c67bd9e6ba343bddd5fbe585feef23385d5326dbc8b45ac94",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 13,
+            "cast": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "baseline_log_sha256": "7416b2e5d6d19b2c67bd9e6ba343bddd5fbe585feef23385d5326dbc8b45ac94",
+          "byte_identical": true
+        },
+        "blocked": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 7,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 76,
+            "hp_lost": 54,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "log_sha256": "8cd228836ad80672844d6c8b2970417218dadd14c7b600882c00ba18f4b142b2",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 7,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 76,
+            "hp_lost": 54,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "baseline_log_sha256": "8cd228836ad80672844d6c8b2970417218dadd14c7b600882c00ba18f4b142b2",
+          "byte_identical": true
+        },
+        "ball-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 15,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 83,
+            "hp_lost": 47,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "log_sha256": "0d8b9a144fcac30c69cd4e8fe58b5c74a72c2c3f11a4869c7a0dfc7f0f41b63c",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 15,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 83,
+            "hp_lost": 47,
+            "mana_spent": 0,
+            "scrolls_spent": 1
+          },
+          "baseline_log_sha256": "0d8b9a144fcac30c69cd4e8fe58b5c74a72c2c3f11a4869c7a0dfc7f0f41b63c",
+          "byte_identical": true
+        },
+        "direct-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 7,
+            "cast": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "log_sha256": "bfd2030f90d3f2e71edee0ec26bd5379ee5ba54265bade73829fdd1f10210d7e",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 7,
+            "cast": 0,
+            "hp_before": 130,
+            "hp_after": 130,
+            "hp_lost": 0,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "baseline_log_sha256": "bfd2030f90d3f2e71edee0ec26bd5379ee5ba54265bade73829fdd1f10210d7e",
+          "byte_identical": true
+        },
+        "boulder-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 11,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 101,
+            "hp_lost": 29,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "log_sha256": "382250472f28f80b4e39740d9889aa2d9ca9b23652f47cbd048923a5267b9c2b",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "escape": 1,
+            "moved": 1,
+            "distance": 11,
+            "cast": 1,
+            "hp_before": 130,
+            "hp_after": 101,
+            "hp_lost": 29,
+            "mana_spent": 2,
+            "scrolls_spent": 0
+          },
+          "baseline_log_sha256": "382250472f28f80b4e39740d9889aa2d9ca9b23652f47cbd048923a5267b9c2b",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "glyph": {
+      "kind": "local",
+      "baseline": ".worktrees/glyph-tracker/artifacts/glyph/adapted",
+      "cases": {
+        "stairs": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "glyph_created": 1,
+            "hp": 8,
+            "num_final": 1
+          },
+          "log_sha256": "3c44aaeb4e5a3a568bf52129e0225b1ac09c7383b3f6a9e8dd594a13da817f1b",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "glyph_created": 1,
+            "hp": 8,
+            "num_final": 1
+          },
+          "baseline_log_sha256": "3c44aaeb4e5a3a568bf52129e0225b1ac09c7383b3f6a9e8dd594a13da817f1b",
+          "byte_identical": true
+        },
+        "clear-floor": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "glyph_created": 1,
+            "hp": 8,
+            "num_final": 1
+          },
+          "log_sha256": "02aaa2234dcb6566503b3f5610f78d45ceead24c2b5ab69b2d660cb2e9e3c6ec",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "glyph_created": 1,
+            "hp": 8,
+            "num_final": 1
+          },
+          "baseline_log_sha256": "02aaa2234dcb6566503b3f5610f78d45ceead24c2b5ab69b2d660cb2e9e3c6ec",
+          "byte_identical": true
+        },
+        "pairing": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "glyph_created": 1,
+            "hp": 8,
+            "num_final": 1
+          },
+          "log_sha256": "bfc0bd52bb6775118fc867194f9d269d197766c405e75a72a3508f1c60bff73d",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "glyph_created": 1,
+            "hp": 8,
+            "num_final": 1
+          },
+          "baseline_log_sha256": "bfc0bd52bb6775118fc867194f9d269d197766c405e75a72a3508f1c60bff73d",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "missile": {
+      "kind": "local",
+      "baseline": ".worktrees/missile-no-target/artifacts/missile/scenarios",
+      "cases": {
+        "no-target": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "return": 0,
+            "keys": 0
+          },
+          "log_sha256": "543f19d33a48a3ffe7a20312638fcc27084a1d2b584143dd0e408933fe0eb1d0",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "return": 0,
+            "keys": 0
+          },
+          "baseline_log_sha256": "543f19d33a48a3ffe7a20312638fcc27084a1d2b584143dd0e408933fe0eb1d0",
+          "byte_identical": true
+        },
+        "live-shot": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "return": 4,
+            "keys": 11
+          },
+          "log_sha256": "1a0bb575da7e826189716802884292d2644ffaf23a86e2f6e90352cc682cb649",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "return": 4,
+            "keys": 11
+          },
+          "baseline_log_sha256": "1a0bb575da7e826189716802884292d2644ffaf23a86e2f6e90352cc682cb649",
+          "byte_identical": true
+        },
+        "simulated": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "return": 4,
+            "keys": 0
+          },
+          "log_sha256": "e8d9fa7820fc15e6aa21589ebdbe068bd0a4b7d687b8bed6922adfa3f9b8e7b8",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "return": 4,
+            "keys": 0
+          },
+          "baseline_log_sha256": "e8d9fa7820fc15e6aa21589ebdbe068bd0a4b7d687b8bed6922adfa3f9b8e7b8",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "tp-other": {
+      "kind": "local",
+      "baseline": ".worktrees/tp-other-skip/artifacts/tp/scenarios",
+      "cases": {
+        "two-phase": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "p2": 192,
+            "expected_best": 192,
+            "strong": 192,
+            "weak": 16,
+            "tp_other_n": 0
+          },
+          "log_sha256": "8d6dc3d5f28c73d4bc38e62166f6442e38db0770acec8712196dfe00ac9ae6da",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "p2": 192,
+            "expected_best": 192,
+            "strong": 192,
+            "weak": 16,
+            "tp_other_n": 0
+          },
+          "baseline_log_sha256": "8d6dc3d5f28c73d4bc38e62166f6442e38db0770acec8712196dfe00ac9ae6da",
+          "byte_identical": true
+        },
+        "no-morgoth-phase": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "p2": 192,
+            "expected_best": 192,
+            "strong": 192,
+            "weak": 16,
+            "tp_other_n": 0
+          },
+          "log_sha256": "6a40513b6de6cae4dcaf1f7b638a75a540b814801447520f9a59811468f56b2e",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "p2": 192,
+            "expected_best": 192,
+            "strong": 192,
+            "weak": 16,
+            "tp_other_n": 0
+          },
+          "baseline_log_sha256": "6a40513b6de6cae4dcaf1f7b638a75a540b814801447520f9a59811468f56b2e",
+          "byte_identical": true
+        },
+        "single": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "p2": 16,
+            "expected_best": 16,
+            "strong": 0,
+            "weak": 16,
+            "tp_other_n": 0
+          },
+          "log_sha256": "43c5dd25405e4f773fc9b5fcc938c1946ca9a97d2b31c3a787dd6ba4dd248791",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "p2": 16,
+            "expected_best": 16,
+            "strong": 0,
+            "weak": 16,
+            "tp_other_n": 0
+          },
+          "baseline_log_sha256": "43c5dd25405e4f773fc9b5fcc938c1946ca9a97d2b31c3a787dd6ba4dd248791",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "dispel": {
+      "kind": "local",
+      "baseline": ".worktrees/dispel-filter/artifacts/dispel/adapted",
+      "cases": {
+        "living": {
+          "exit": 0,
+          "passed": false,
+          "outcome": {
+            "hp_before": 225,
+            "hp_after": 159,
+            "hp_lost": 66,
+            "undead": 0
+          },
+          "log_sha256": "a0d8da20b643a69a980de93c8bf4904ea5a13ebe577f7e59441b7f4d72f41b1f",
+          "expectation": "fail: necrolight-296 (0099): on a lit square the Necromancer's spell-failure estimate now matches the game (+25 on any lit square, square_islit), crosses the borg's 25% limit and the spell gate closes (GATE spell_okay=0, RATING value=0 where the fixture expects the rated value dam + reward - mana cost); the scenario's own game-level cast still applies the damage, so the OUTCOME rows are unchanged \u2014 only the rating contract, written for the pre-fix estimate, fails.  Attributed by rerunning the group at every carry build 0091-0098 (self-check green, old rows) and the 0099 build (this transition).",
+          "ok": true,
+          "baseline_rows": {
+            "hp_before": 225,
+            "hp_after": 159,
+            "hp_lost": 66,
+            "undead": 0
+          },
+          "baseline_log_sha256": "29548d5194fc72239d590df649a61ac5e0f8cdfe74e7f341e6bfdff9dd495a8c",
+          "byte_identical": false
+        },
+        "undead": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "hp_before": 47,
+            "hp_after": 47,
+            "hp_lost": 0,
+            "undead": 1
+          },
+          "log_sha256": "054ccbf0f9d99f798f6d0de010057a0dbce66af588d612128587997b2439e39e",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "hp_before": 47,
+            "hp_after": 47,
+            "hp_lost": 0,
+            "undead": 1
+          },
+          "baseline_log_sha256": "f95e12749f4725a7e0c9a999ac011cc74d8940269c2df46eee2bea81c6f5fd1d",
+          "byte_identical": false
+        },
+        "bolt": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {},
+          "log_sha256": "b1614cf58a6e9f4095482b94942375e428ab6f0e02c0cffab9ca97c2b8a927ab",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": null,
+          "baseline_log_sha256": "b1614cf58a6e9f4095482b94942375e428ab6f0e02c0cffab9ca97c2b8a927ab",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "arc": {
+      "kind": "local",
+      "baseline": ".worktrees/arc-angle/artifacts/arc/scenarios",
+      "cases": {
+        "arc-bystander": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "reference": 6,
+            "value": 6
+          },
+          "log_sha256": "f44dbec9ac88c01bb1acc74eddcd8d294dc52f7f6d378bd9d529091f9378937f",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "reference": 6,
+            "value": 6
+          },
+          "baseline_log_sha256": "f44dbec9ac88c01bb1acc74eddcd8d294dc52f7f6d378bd9d529091f9378937f",
+          "byte_identical": true
+        },
+        "arc-both": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "reference": 6,
+            "value": 44
+          },
+          "log_sha256": "77482b1923422b07f1e0a89c9b5f7db4e32285b6d34af2ba059f22262240df39",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "reference": 6,
+            "value": 44
+          },
+          "baseline_log_sha256": "77482b1923422b07f1e0a89c9b5f7db4e32285b6d34af2ba059f22262240df39",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "munchkin": {
+      "kind": "local",
+      "baseline": ".worktrees/munchkin-stair/artifacts/m244/scenarios",
+      "cases": {
+        "phantom": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "stair_key": 0,
+            "own_is_stair": 0
+          },
+          "log_sha256": "ca286c72c3dbfdb424840fe353ed9fea5b803b3a03c47b3609b7519f1d989ffc",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "stair_key": 0,
+            "own_is_stair": 0
+          },
+          "baseline_log_sha256": "ca286c72c3dbfdb424840fe353ed9fea5b803b3a03c47b3609b7519f1d989ffc",
+          "byte_identical": true
+        },
+        "on-stair": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "stair_key": 62,
+            "own_is_stair": 1
+          },
+          "log_sha256": "0aaba3137597f80d32edde22af9e831bdaad144d23584adb9765ba60e1447bc8",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "stair_key": 62,
+            "own_is_stair": 1
+          },
+          "baseline_log_sha256": "0aaba3137597f80d32edde22af9e831bdaad144d23584adb9765ba60e1447bc8",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "vampire": {
+      "kind": "local",
+      "baseline": ".worktrees/vampire-strike/artifacts/v257/scenarios",
+      "cases": {
+        "near-far": {
+          "exit": 0,
+          "passed": false,
+          "outcome": {
+            "acted": 0,
+            "keys": 0,
+            "cast_spell": 0
+          },
+          "log_sha256": "0ff874e8085433d1cb7a88aa1dbf9efe04e909e425f04298f1e6d361d6a4977e",
+          "expectation": "fail: necrolight-296 (0099): the scenario Necromancer stands in a lit square, so the fix makes the Vampire Strike failure estimate match the game (33% vs the old 8%); the borg refuses the spell over its 25% limit and takes no action (acted=0 keys=0 cast_spell=0 \u2014 exactly the kit lit-mode after-row) where the pre-fix borg cast on the undershot estimate.  Attributed by rerunning the group at every carry build 0091-0098 (cast rows, self-check green) and the 0099 build (refusal rows); the far control keeps its out-of-range refusal in both.",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "keys": 3,
+            "cast_spell": 1
+          },
+          "baseline_log_sha256": "bb7775a1112c616adfa53abbf88d583f18812ca0eae9de73247ae2879ac5e6b6",
+          "byte_identical": false
+        },
+        "near-near": {
+          "exit": 0,
+          "passed": false,
+          "outcome": {
+            "acted": 0,
+            "keys": 0,
+            "cast_spell": 0
+          },
+          "log_sha256": "a933577e658064ccec3890ae7cd8e8e4c429254981b741edfcdf9088eabc8891",
+          "expectation": "fail: necrolight-296 (0099): the scenario Necromancer stands in a lit square, so the fix makes the Vampire Strike failure estimate match the game (33% vs the old 8%); the borg refuses the spell over its 25% limit and takes no action (acted=0 keys=0 cast_spell=0 \u2014 exactly the kit lit-mode after-row) where the pre-fix borg cast on the undershot estimate.  Attributed by rerunning the group at every carry build 0091-0098 (cast rows, self-check green) and the 0099 build (refusal rows); the far control keeps its out-of-range refusal in both.",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "keys": 3,
+            "cast_spell": 1
+          },
+          "baseline_log_sha256": "edf44dee519a8335a01d6b2c126e82854095e16760aa7264c93cc07f10ef45e3",
+          "byte_identical": false
+        },
+        "far": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 0,
+            "keys": 0,
+            "cast_spell": 0
+          },
+          "log_sha256": "2faeb8a95d61cbcfc43d3edbfdd4fb0aa3860e3e72b4b0b5d1f5b1b710aeb8c0",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 0,
+            "keys": 0,
+            "cast_spell": 0
+          },
+          "baseline_log_sha256": "2faeb8a95d61cbcfc43d3edbfdd4fb0aa3860e3e72b4b0b5d1f5b1b710aeb8c0",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "slay": {
+      "kind": "local",
+      "baseline": ".worktrees/slay-traits/artifacts/slay/scenarios",
+      "cases": {
+        "animal": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "auto": 20,
+            "without": 17,
+            "with": 20
+          },
+          "log_sha256": "1f3119a22c7905694bae7159861cd646a676366dcb28273255beffeabfcd2019",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "auto": 20,
+            "without": 17,
+            "with": 20
+          },
+          "baseline_log_sha256": "1f3119a22c7905694bae7159861cd646a676366dcb28273255beffeabfcd2019",
+          "byte_identical": true
+        },
+        "nonanimal": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "auto": 19,
+            "without": 19,
+            "with": 19
+          },
+          "log_sha256": "3d336fd890527a42c795f8f39ad82b24a4a9126900e45f854f7887fc634a4c8a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "auto": 19,
+            "without": 19,
+            "with": 19
+          },
+          "baseline_log_sha256": "3d336fd890527a42c795f8f39ad82b24a4a9126900e45f854f7887fc634a4c8a",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "detect": {
+      "kind": "local",
+      "baseline": ".worktrees/detect-panel/artifacts/d290/scenarios",
+      "cases": {
+        "stale": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "last_row_mark": 0
+          },
+          "log_sha256": "b6bddf10ee93122a538d6aba333e7bd2f3e758e22fa34a9bb1f35372fb6db990",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "last_row_mark": 0
+          },
+          "baseline_log_sha256": "b6bddf10ee93122a538d6aba333e7bd2f3e758e22fa34a9bb1f35372fb6db990",
+          "byte_identical": true
+        },
+        "fresh": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "last_row_mark": 1
+          },
+          "log_sha256": "85e82dee675dbc61918d33893b15d28e0218e741f25c2c855812a9e83ce2dcc1",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "last_row_mark": 1
+          },
+          "baseline_log_sha256": "85e82dee675dbc61918d33893b15d28e0218e741f25c2c855812a9e83ce2dcc1",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "activ": {
+      "kind": "local",
+      "baseline": ".worktrees/activ-lookup/artifacts/a260/scenarios",
+      "cases": {
+        "miswired": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "bolt3": 52,
+            "bolt2": 0
+          },
+          "log_sha256": "8f4b2a4a94837efaed8324bb62cd0af42e00360e3696ab4fef6e8a46b695f49e",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "bolt3": 52,
+            "bolt2": 0
+          },
+          "baseline_log_sha256": "8f4b2a4a94837efaed8324bb62cd0af42e00360e3696ab4fef6e8a46b695f49e",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "bolt2": 52
+          },
+          "log_sha256": "4d4f219e105b31a483116653159a38ab6c5455c6424b1ee79d76ab6653046b08",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "bolt2": 52
+          },
+          "baseline_log_sha256": "4d4f219e105b31a483116653159a38ab6c5455c6424b1ee79d76ab6653046b08",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "reserve": {
+      "kind": "local",
+      "baseline": ".worktrees/reserve-bolt/artifacts/r258/scenarios",
+      "cases": {
+        "veto": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "value": 40
+          },
+          "log_sha256": "2d1c393d684cfe53092578f969837b30696eced8b3f236b951b88f9243dd5cdf",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "value": 40
+          },
+          "baseline_log_sha256": "2d1c393d684cfe53092578f969837b30696eced8b3f236b951b88f9243dd5cdf",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "value": 50
+          },
+          "log_sha256": "f79510db70398ace43fa845015b05d57654e247f2a69acf7660145fa1035d9a2",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "value": 50
+          },
+          "baseline_log_sha256": "f79510db70398ace43fa845015b05d57654e247f2a69acf7660145fa1035d9a2",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "dispel259": {
+      "kind": "local",
+      "baseline": ".worktrees/dispel-reserve/artifacts/d259/scenarios",
+      "cases": {
+        "reserve": {
+          "exit": 0,
+          "passed": false,
+          "outcome": {
+            "value": -10331
+          },
+          "log_sha256": "47a2167daff163fc1976fce0840b83590d17e7b6e65a51a3b462794e6f189e09",
+          "expectation": "fail: losdispel-326 makes the radius-10 blast scan reachable; the absolute eq moves (recorded +296 at the 0049 tip)",
+          "ok": true,
+          "baseline_rows": {
+            "value": -10627
+          },
+          "baseline_log_sha256": "3b6082e9d792e3a8b07ba295896dfcf51308c543f3f9e6aba2638afd38b0caa8",
+          "byte_identical": false
+        },
+        "clear": {
+          "exit": 0,
+          "passed": false,
+          "outcome": {
+            "value": 169
+          },
+          "log_sha256": "4d4922834f2068a08533979c431b3a2d21dbc30915a6cc89c8a4a4f4cdcb2023",
+          "expectation": "fail: losdispel-326 makes the radius-10 blast scan reachable; the absolute eq moves (recorded +296 at the 0049 tip)",
+          "ok": true,
+          "baseline_rows": {
+            "value": -127
+          },
+          "baseline_log_sha256": "d45c00862f79ef016cdc62d037a006d199703e63cc70e5657aa23b3662515a45",
+          "byte_identical": false
+        }
+      },
+      "ok": true
+    },
+    "losdispel": {
+      "kind": "local",
+      "baseline": ".worktrees/losdispel/artifacts/l326/scenarios",
+      "cases": {
+        "storm": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "dispel": 534
+          },
+          "log_sha256": "4c21f5f44a88c097dc5b660684d042b20fa1192b9a291afe64bdd38ebf81cfbc",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "dispel": 534
+          },
+          "baseline_log_sha256": "4c21f5f44a88c097dc5b660684d042b20fa1192b9a291afe64bdd38ebf81cfbc",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "orb": 540
+          },
+          "log_sha256": "2fc891e8594eb1d74ed7f31075b141564592ff2c2115ac7aad5b3a9900dde311",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "orb": 540
+          },
+          "baseline_log_sha256": "2fc891e8594eb1d74ed7f31075b141564592ff2c2115ac7aad5b3a9900dde311",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "staff": {
+      "kind": "local",
+      "baseline": ".worktrees/staff-holy/artifacts/s262/scenarios",
+      "cases": {
+        "holy": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "holy": 60
+          },
+          "log_sha256": "f31cafb7a8b911911f5b63aef3821d048530eeda2119eb8cfbbf1f90fbbfca3f",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "holy": 60
+          },
+          "baseline_log_sha256": "f31cafb7a8b911911f5b63aef3821d048530eeda2119eb8cfbbf1f90fbbfca3f",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "bolt2": 28
+          },
+          "log_sha256": "2cc161ffd8caf27ac93432b39ef5f603afb1838b230075a1e2463ae4925971f4",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "bolt2": 28
+          },
+          "baseline_log_sha256": "2cc161ffd8caf27ac93432b39ef5f603afb1838b230075a1e2463ae4925971f4",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "blind": {
+      "kind": "local",
+      "baseline": ".worktrees/blind-frighten/artifacts/b261/adapted",
+      "cases": {
+        "blind": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "blind": -4,
+            "frighten": -4
+          },
+          "log_sha256": "ad9c28993fdf4c5aec71f281ba722fda0f3224982a8e14c25d52cc26054744b6",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "blind": -4,
+            "frighten": -4
+          },
+          "baseline_log_sha256": "ad9c28993fdf4c5aec71f281ba722fda0f3224982a8e14c25d52cc26054744b6",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "frighten": -4
+          },
+          "log_sha256": "00a25c8f81b5779e389ac2ac7dcf704f29b9eac762d2ebcfa143cb56331cf049",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "frighten": -4
+          },
+          "baseline_log_sha256": "00a25c8f81b5779e389ac2ac7dcf704f29b9eac762d2ebcfa143cb56331cf049",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "text": {
+      "kind": "local",
+      "baseline": ".worktrees/text-multibyte/artifacts/t287/scenarios",
+      "skipped": true,
+      "reason": "retired: targets the pre-0068 five-argument borg_what_text signature and no longer compiles against the tip; superseded by the text-bufsize kit (0068) in this matrix",
+      "cases": {},
+      "ok": true
+    },
+    "calcreload": {
+      "kind": "local",
+      "baseline": ".worktrees/calc-reload/artifacts/c325/scenarios",
+      "cases": {
+        "reload": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "retained": 0,
+            "reload_value": 7,
+            "reload_count": 1
+          },
+          "log_sha256": "9f62699ed2945596e526f26520710a623523e22c7fb1251cdb24ddb4dc1eeef9",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "retained": 0,
+            "reload_value": 7,
+            "reload_count": 1
+          },
+          "baseline_log_sha256": "9f62699ed2945596e526f26520710a623523e22c7fb1251cdb24ddb4dc1eeef9",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "control_value": 3,
+            "control_count": 1
+          },
+          "log_sha256": "6d80fb5d22c779b285086c091c18ccd7232244f2f4c3793c04fb103ca881a1d0",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "control_value": 3,
+            "control_count": 1
+          },
+          "baseline_log_sha256": "6d80fb5d22c779b285086c091c18ccd7232244f2f4c3793c04fb103ca881a1d0",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "staletarget": {
+      "kind": "local",
+      "baseline": ".worktrees/stale-target/artifacts/s322/scenarios",
+      "cases": {
+        "stale": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 0,
+            "center_attack": 0
+          },
+          "log_sha256": "ca958f679d3a0133d5e0a2d4e4c1e2695ba67a58447014fa1fcba0827569b572",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 0,
+            "center_attack": 0
+          },
+          "baseline_log_sha256": "ca958f679d3a0133d5e0a2d4e4c1e2695ba67a58447014fa1fcba0827569b572",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "center_attack": 0
+          },
+          "log_sha256": "e6bdc61647f9b204d574a2d03939334b3edd44af85f36e9aeb3d88378a4467cb",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "center_attack": 0
+          },
+          "baseline_log_sha256": "e6bdc61647f9b204d574a2d03939334b3edd44af85f36e9aeb3d88378a4467cb",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "glowoverflow": {
+      "kind": "local",
+      "baseline": ".worktrees/glow-overflow/artifacts/g311/scenarios",
+      "cases": {
+        "glow": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "glow_n": 1536,
+            "overflow": 0
+          },
+          "log_sha256": "ba8269a34abf6de0ec164cca8a20339fb74d808dfc85524003920f0987df36af",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "glow_n": 1536,
+            "overflow": 0
+          },
+          "baseline_log_sha256": "ba8269a34abf6de0ec164cca8a20339fb74d808dfc85524003920f0987df36af",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "glow_n": 1000,
+            "overflow": 0
+          },
+          "log_sha256": "3e85b3c85389a41db02c129a9ca1e8abd3a766173d1885db2b95547377bfcee0",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "glow_n": 1000,
+            "overflow": 0
+          },
+          "baseline_log_sha256": "3e85b3c85389a41db02c129a9ca1e8abd3a766173d1885db2b95547377bfcee0",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "light": {
+      "kind": "local",
+      "baseline": ".worktrees/light-modifier/artifacts/l238/scenarios",
+      "cases": {
+        "phial": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "bi_light": 4
+          },
+          "log_sha256": "ea7b2c06ce02ea7a60e2cff81e93bc904af678a000b385e54b73b67557801992",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "bi_light": 4
+          },
+          "baseline_log_sha256": "ea7b2c06ce02ea7a60e2cff81e93bc904af678a000b385e54b73b67557801992",
+          "byte_identical": true
+        },
+        "torch": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "bi_light": 2
+          },
+          "log_sha256": "071da3cac43555e6f1751bb01b639ea5b5f6c2aa16b528ee89362fdb530e6cf8",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "bi_light": 2
+          },
+          "baseline_log_sha256": "071da3cac43555e6f1751bb01b639ea5b5f6c2aa16b528ee89362fdb530e6cf8",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "surrounded": {
+      "kind": "local",
+      "baseline": ".worktrees/surrounded-traps/artifacts/s312/scenarios",
+      "cases": {
+        "traps": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "surrounded": 0
+          },
+          "log_sha256": "7d50637d19fe3ce2210a92d7059d9afc7b32c2da6604d1498b4944fbd7f20803",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "surrounded": 0
+          },
+          "baseline_log_sha256": "7d50637d19fe3ce2210a92d7059d9afc7b32c2da6604d1498b4944fbd7f20803",
+          "byte_identical": true
+        },
+        "walls": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "surrounded": 0
+          },
+          "log_sha256": "cf28bba24dae390a571210f2711f34c44c3087e9db69c0c14a63933398251e72",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "surrounded": 0
+          },
+          "baseline_log_sha256": "cf28bba24dae390a571210f2711f34c44c3087e9db69c0c14a63933398251e72",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "homeblows": {
+      "kind": "local",
+      "baseline": ".worktrees/home-blows/artifacts/h313/scenarios",
+      "cases": {
+        "stack": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "borg_blows": 2,
+            "engine_blows": 2
+          },
+          "log_sha256": "9ad422697fdf74e6251b8fda22a72119544a83791be87ce006c0fa52a9ee35b7",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "borg_blows": 2,
+            "engine_blows": 2
+          },
+          "baseline_log_sha256": "9ad422697fdf74e6251b8fda22a72119544a83791be87ce006c0fa52a9ee35b7",
+          "byte_identical": true
+        },
+        "single": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "borg_blows": 2,
+            "engine_blows": 2
+          },
+          "log_sha256": "8ce8fdcfceceea798589679aef85ac1ae15dd7500c0c5319a63879d2abb71e71",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "borg_blows": 2,
+            "engine_blows": 2
+          },
+          "baseline_log_sha256": "8ce8fdcfceceea798589679aef85ac1ae15dd7500c0c5319a63879d2abb71e71",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "lunal": {
+      "kind": "local",
+      "baseline": ".worktrees/lunal-state/artifacts/l314/scenarios",
+      "cases": {
+        "town": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "lunal_mode": 0,
+            "fleeing_lunal": 0
+          },
+          "log_sha256": "de63881ea2ffea6f803892f1979c555503a173e0abb3eb2a4b75e1e6d8393b55",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "lunal_mode": 0,
+            "fleeing_lunal": 0
+          },
+          "baseline_log_sha256": "de63881ea2ffea6f803892f1979c555503a173e0abb3eb2a4b75e1e6d8393b55",
+          "byte_identical": true
+        },
+        "pack": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "lunal_mode": 1,
+            "fleeing_lunal": 1
+          },
+          "log_sha256": "e283487ff5e27644d74d5738170a3f52f8ffceb67fb3686925c49dfa5dc4036e",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "lunal_mode": 1,
+            "fleeing_lunal": 1
+          },
+          "baseline_log_sha256": "e283487ff5e27644d74d5738170a3f52f8ffceb67fb3686925c49dfa5dc4036e",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "opblock": {
+      "kind": "local",
+      "baseline": ".worktrees/opblock-leak/artifacts/o324/scenarios",
+      "cases": {
+        "operators": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "formula_value": 7,
+            "calc_count": 1
+          },
+          "log_sha256": "e409328a7f603cb51d6e69de2ea139dde3e3861f7de9444fa728028fe66482ad",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "formula_value": 7,
+            "calc_count": 1
+          },
+          "baseline_log_sha256": "e409328a7f603cb51d6e69de2ea139dde3e3861f7de9444fa728028fe66482ad",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "control_value": 42,
+            "control_count": 1
+          },
+          "log_sha256": "d45d78cebae749560f01c2d65012eb8310062d4ff8f7e622159029f18b1e455d",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "control_value": 42,
+            "control_count": 1
+          },
+          "baseline_log_sha256": "d45d78cebae749560f01c2d65012eb8310062d4ff8f7e622159029f18b1e455d",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "calfree": {
+      "kind": "local",
+      "baseline": ".worktrees/calfree-tokens/artifacts/c323/scenarios",
+      "cases": {
+        "free": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "freed_value": 3,
+            "freed_count": 0
+          },
+          "log_sha256": "f1e8224ee74570d2098edc55b85e8a70e5b5607bb6fa9182a84a8b4d363d7cd4",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "freed_value": 3,
+            "freed_count": 0
+          },
+          "baseline_log_sha256": "f1e8224ee74570d2098edc55b85e8a70e5b5607bb6fa9182a84a8b4d363d7cd4",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "control_value": 42,
+            "control_count": 1
+          },
+          "log_sha256": "04e4a0747bd65c0c06d1c26f0347e6265bcfb2a6bd66a759eb00b5fef514db54",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "control_value": 42,
+            "control_count": 1
+          },
+          "baseline_log_sha256": "04e4a0747bd65c0c06d1c26f0347e6265bcfb2a6bd66a759eb00b5fef514db54",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "brand": {
+      "kind": "local",
+      "baseline": "artifacts/b240/scenarios",
+      "cases": {
+        "brand": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "need_brand": 10
+          },
+          "log_sha256": "05a06b4327fbd6aa0a7ff8fc4fe5be2fb6cdf914a72fbb574378df78bfbd57d1",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "need_brand": 10
+          },
+          "baseline_log_sha256": "05a06b4327fbd6aa0a7ff8fc4fe5be2fb6cdf914a72fbb574378df78bfbd57d1",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "need_brand": 0
+          },
+          "log_sha256": "93cc5e4bc79f91067da901bd8fc5a5d15ab1284be2879f39d3a3cb91c3bd4bba",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "need_brand": 0
+          },
+          "baseline_log_sha256": "93cc5e4bc79f91067da901bd8fc5a5d15ab1284be2879f39d3a3cb91c3bd4bba",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "stairtrack": {
+      "kind": "local",
+      "baseline": "artifacts/s232/scenarios",
+      "cases": {
+        "known": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "before": 1,
+            "after": 1
+          },
+          "log_sha256": "cec0c5f56ef75d665113b369bc2d439f4d3dd27f03e17e2c17b4b501597b5784",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "before": 1,
+            "after": 1
+          },
+          "baseline_log_sha256": "cec0c5f56ef75d665113b369bc2d439f4d3dd27f03e17e2c17b4b501597b5784",
+          "byte_identical": true
+        },
+        "fresh": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "before": 0,
+            "after": 1
+          },
+          "log_sha256": "f5c4269d0a0e12be2f7edadb776d51ed0931e00887f4dff573467b413d7fd0fe",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "before": 0,
+            "after": 1
+          },
+          "baseline_log_sha256": "f5c4269d0a0e12be2f7edadb776d51ed0931e00887f4dff573467b413d7fd0fe",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "acidarc": {
+      "kind": "local",
+      "baseline": "artifacts/a252/scenarios",
+      "cases": {
+        "edge": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "keys": 17,
+            "cast": 1
+          },
+          "log_sha256": "d4a00b98dba31e73221527c4e52f2ffefcd134729b7913cd573a16ce5460d079",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "keys": 17,
+            "cast": 1
+          },
+          "baseline_log_sha256": "d4a00b98dba31e73221527c4e52f2ffefcd134729b7913cd573a16ce5460d079",
+          "byte_identical": true
+        },
+        "near": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "keys": 15,
+            "cast": 1
+          },
+          "log_sha256": "317a0a2c1733ed2f859d76db2f4b6133db4ed8cc25eb078a6cd88ca2239f1999",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "keys": 15,
+            "cast": 1
+          },
+          "baseline_log_sha256": "317a0a2c1733ed2f859d76db2f4b6133db4ed8cc25eb078a6cd88ca2239f1999",
+          "byte_identical": true
+        },
+        "empty": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 0,
+            "keys": 0,
+            "cast": 0
+          },
+          "log_sha256": "25656ae8a753346fcab686808e401738ad62903542f283e1709a0fcc184dfa1c",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 0,
+            "keys": 0,
+            "cast": 0
+          },
+          "baseline_log_sha256": "25656ae8a753346fcab686808e401738ad62903542f283e1709a0fcc184dfa1c",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "outoflight": {
+      "kind": "local",
+      "baseline": "artifacts/o229/scenarios",
+      "cases": {
+        "dying": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "keys": 2
+          },
+          "log_sha256": "8edbc2e833ec04d1b4c54f67ee2de72fe2bd4b142e5cf37268e34c754b11526c",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "keys": 2
+          },
+          "baseline_log_sha256": "8edbc2e833ec04d1b4c54f67ee2de72fe2bd4b142e5cf37268e34c754b11526c",
+          "byte_identical": true
+        },
+        "lit": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 0,
+            "keys": 0
+          },
+          "log_sha256": "a7be42397c6a0ecfdcb79ecd357ba671c11f328fec1c27e8fcb4b3404081c7f3",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 0,
+            "keys": 0
+          },
+          "baseline_log_sha256": "a7be42397c6a0ecfdcb79ecd357ba671c11f328fec1c27e8fcb4b3404081c7f3",
+          "byte_identical": true
+        },
+        "everburn": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 0,
+            "keys": 0
+          },
+          "log_sha256": "d1cddb75cb98b838d4ea83a7690ca19f1ae348ff7b4a8c04ec3d02ba95ecb43e",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 0,
+            "keys": 0
+          },
+          "baseline_log_sha256": "d1cddb75cb98b838d4ea83a7690ca19f1ae348ff7b4a8c04ec3d02ba95ecb43e",
+          "byte_identical": true
+        },
+        "dead": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "keys": 2
+          },
+          "log_sha256": "fd481a0ecc9c1aad374e3afeada1f9df5b023ecf056aa10e497497a4d715b5fb",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "keys": 2
+          },
+          "baseline_log_sha256": "fd481a0ecc9c1aad374e3afeada1f9df5b023ecf056aa10e497497a4d715b5fb",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "mapwall": {
+      "kind": "local",
+      "baseline": "artifacts/m212/scenarios",
+      "cases": {
+        "door-close": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "invalidated": 1,
+            "flow255": 1
+          },
+          "log_sha256": "c953f683d03a0831a94b3cb5bd6935597dd972bbd79df638bc6b95058059adbb",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "invalidated": 1,
+            "flow255": 1
+          },
+          "baseline_log_sha256": "c953f683d03a0831a94b3cb5bd6935597dd972bbd79df638bc6b95058059adbb",
+          "byte_identical": true
+        },
+        "door-open": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "invalidated": 1,
+            "flow255": 0
+          },
+          "log_sha256": "45d0e7dbba74720a68990e4c61fe10a9cb24453ecfa0e63078ce3637d4c77efb",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "invalidated": 1,
+            "flow255": 0
+          },
+          "baseline_log_sha256": "45d0e7dbba74720a68990e4c61fe10a9cb24453ecfa0e63078ce3637d4c77efb",
+          "byte_identical": true
+        },
+        "no-change": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "invalidated": 0,
+            "flow255": 0
+          },
+          "log_sha256": "5be488375ec26d1d51d3b30be5387fd3d3b3087ce5f8c6b521d53c72f6112756",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "invalidated": 0,
+            "flow255": 0
+          },
+          "baseline_log_sha256": "5be488375ec26d1d51d3b30be5387fd3d3b3087ce5f8c6b521d53c72f6112756",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "enlightenment": {
+      "kind": "local",
+      "baseline": "artifacts/e065/scenarios",
+      "cases": {
+        "dungeon": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 1,
+            "potions_spent": 1,
+            "stairs_known": 1,
+            "stairs_feat": 6,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "log_sha256": "48282685ab4617d8163faca964b9991353d8fdc72015ce9ed82c3d44a80dab15",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 1,
+            "potions_spent": 1,
+            "stairs_known": 1,
+            "stairs_feat": 6,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "baseline_log_sha256": "48282685ab4617d8163faca964b9991353d8fdc72015ce9ed82c3d44a80dab15",
+          "byte_identical": true
+        },
+        "town-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 0,
+            "potions_spent": 0,
+            "stairs_known": 0,
+            "stairs_feat": 0,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "log_sha256": "f03d46768a546ec7e6349f7dbda2960b3bd97a5251b155751704121842e19a3a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 0,
+            "potions_spent": 0,
+            "stairs_known": 0,
+            "stairs_feat": 0,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "baseline_log_sha256": "f03d46768a546ec7e6349f7dbda2960b3bd97a5251b155751704121842e19a3a",
+          "byte_identical": true
+        },
+        "unknown-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 0,
+            "potions_spent": 0,
+            "stairs_known": 0,
+            "stairs_feat": 0,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "log_sha256": "9ee34411bed65df6859a722ad6ac870f4b9900cd63a3bd645f7d6adcf0ddda65",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 0,
+            "potions_spent": 0,
+            "stairs_known": 0,
+            "stairs_feat": 0,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "baseline_log_sha256": "9ee34411bed65df6859a722ad6ac870f4b9900cd63a3bd645f7d6adcf0ddda65",
+          "byte_identical": true
+        },
+        "unrelated-control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 0,
+            "potions_spent": 0,
+            "stairs_known": 0,
+            "stairs_feat": 0,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "log_sha256": "5150925a4306c1285d4641f78809b1094920b00a2c5b145a432d3942d6ebb3f0",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 0,
+            "potions_spent": 0,
+            "stairs_known": 0,
+            "stairs_feat": 0,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "baseline_log_sha256": "5150925a4306c1285d4641f78809b1094920b00a2c5b145a432d3942d6ebb3f0",
+          "byte_identical": true
+        },
+        "augmentation-dungeon": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 1,
+            "potions_spent": 1,
+            "stairs_known": 0,
+            "stairs_feat": 0,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "log_sha256": "9ade238057cdd2f8392fea9bc28cddf603e275c243754613d12d605d3991a445",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 1,
+            "potions_spent": 1,
+            "stairs_known": 0,
+            "stairs_feat": 0,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "baseline_log_sha256": "9ade238057cdd2f8392fea9bc28cddf603e275c243754613d12d605d3991a445",
+          "byte_identical": true
+        },
+        "augmentation-town": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "used": 1,
+            "potions_spent": 1,
+            "stairs_known": 0,
+            "stairs_feat": 0,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "log_sha256": "b58689625f5d0714073efdbdb14ecdee7d6aa261873528547be5e10573bf9953",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "used": 1,
+            "potions_spent": 1,
+            "stairs_known": 0,
+            "stairs_feat": 0,
+            "native_stairs": 6,
+            "hp": 421
+          },
+          "baseline_log_sha256": "b58689625f5d0714073efdbdb14ecdee7d6aa261873528547be5e10573bf9953",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "stairreturn": {
+      "kind": "local",
+      "baseline": "artifacts/s230/scenarios",
+      "cases": {
+        "stairs-dead-torch": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "keys": 1,
+            "stairkey": 1
+          },
+          "log_sha256": "e95cd777e31821b9662361eb1d879c1699135c27064be8d73aa51ace0e5e9263",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "keys": 1,
+            "stairkey": 1
+          },
+          "baseline_log_sha256": "e95cd777e31821b9662361eb1d879c1699135c27064be8d73aa51ace0e5e9263",
+          "byte_identical": true
+        },
+        "lit": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 0,
+            "keys": 0,
+            "stairkey": 0
+          },
+          "log_sha256": "bee0cf489d2150f7dab5ec4712ea7ecbba9198bbd81a6971789dfa91c8e34c56",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 0,
+            "keys": 0,
+            "stairkey": 0
+          },
+          "baseline_log_sha256": "bee0cf489d2150f7dab5ec4712ea7ecbba9198bbd81a6971789dfa91c8e34c56",
+          "byte_identical": true
+        },
+        "dead-no-stairs": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 0,
+            "keys": 0,
+            "stairkey": 0
+          },
+          "log_sha256": "5bf2d437cc558573d85f3d0f7a8e958013c3e636eb7f0daf892e825c1ca413fc",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 0,
+            "keys": 0,
+            "stairkey": 0
+          },
+          "baseline_log_sha256": "5bf2d437cc558573d85f3d0f7a8e958013c3e636eb7f0daf892e825c1ca413fc",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "blowname": {
+      "kind": "local",
+      "baseline": "artifacts/b247/scenarios",
+      "cases": {
+        "plain": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {},
+          "log_sha256": "eeb1bdd713bb0fe99989a6e0b9be3d07a21ac1b6334caf6112d313a263db0bfe",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": null,
+          "baseline_log_sha256": "eeb1bdd713bb0fe99989a6e0b9be3d07a21ac1b6334caf6112d313a263db0bfe",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "excavate": {
+      "kind": "local",
+      "baseline": "artifacts/e236/scenarios",
+      "cases": {
+        "excavate": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "dark_marked": 1
+          },
+          "log_sha256": "ca5eb43c1f56bc85dac34ba757064769b9bdecc45dfbd82965577b74942af71e",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "dark_marked": 1
+          },
+          "baseline_log_sha256": "ca5eb43c1f56bc85dac34ba757064769b9bdecc45dfbd82965577b74942af71e",
+          "byte_identical": true
+        },
+        "no-target": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 0,
+            "dark_marked": 0
+          },
+          "log_sha256": "1955f21b2417c596113ca23dbb628dacee772852299b8fed3a42afca992725fd",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 0,
+            "dark_marked": 0
+          },
+          "baseline_log_sha256": "1955f21b2417c596113ca23dbb628dacee772852299b8fed3a42afca992725fd",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "calllight": {
+      "kind": "local",
+      "baseline": "artifacts/cl231/scenarios",
+      "cases": {
+        "own-open-door": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "ownglow": 1
+          },
+          "log_sha256": "c0f583ec7ae41ec72d6d083530ec85c014752396d9abd4ac3b7b2d83f4f769bc",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "ownglow": 1
+          },
+          "baseline_log_sha256": "c0f583ec7ae41ec72d6d083530ec85c014752396d9abd4ac3b7b2d83f4f769bc",
+          "byte_identical": true
+        },
+        "floor": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "ownglow": 1
+          },
+          "log_sha256": "959f03341e6259b2d8a3ccaccd7911e45bf5eae219b59e79a6a4a766bad06e5a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "ownglow": 1
+          },
+          "baseline_log_sha256": "959f03341e6259b2d8a3ccaccd7911e45bf5eae219b59e79a6a4a766bad06e5a",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "gloves": {
+      "kind": "local",
+      "baseline": "artifacts/gl205/scenarios",
+      "cases": {
+        "glove-fa": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "armour_swap": 1,
+            "free_act": 1
+          },
+          "log_sha256": "ec2e5e01d753a4968ae8ff03fb24b80799d074e485d5d9d9ecad471d3a2e6bca",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "armour_swap": 1,
+            "free_act": 1
+          },
+          "baseline_log_sha256": "ec2e5e01d753a4968ae8ff03fb24b80799d074e485d5d9d9ecad471d3a2e6bca",
+          "byte_identical": true
+        },
+        "plain": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "armour_swap": 0,
+            "free_act": 0
+          },
+          "log_sha256": "3db131aab697ce22e51c41e2b146b508ec3335571d808f993eee1399d9231f8e",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "armour_swap": 0,
+            "free_act": 0
+          },
+          "baseline_log_sha256": "3db131aab697ce22e51c41e2b146b508ec3335571d808f993eee1399d9231f8e",
+          "byte_identical": true
+        },
+        "have-fa": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "armour_swap": 0,
+            "free_act": 0
+          },
+          "log_sha256": "ac8a25bb4e467fc1507903ceca9b3809e7c84c5f832713fb2eb62775ceaaac5f",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "armour_swap": 0,
+            "free_act": 0
+          },
+          "baseline_log_sha256": "ac8a25bb4e467fc1507903ceca9b3809e7c84c5f832713fb2eb62775ceaaac5f",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "detectcarry": {
+      "kind": "local",
+      "baseline": "artifacts/dc219/scenarios",
+      "cases": {
+        "new-level": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "obj_cleared": 1,
+            "wall_cleared": 1
+          },
+          "log_sha256": "ae7af8e417197b6509ea146d98e1d636ac056591919c2ec2773d5e8b8a926359",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "obj_cleared": 1,
+            "wall_cleared": 1
+          },
+          "baseline_log_sha256": "ae7af8e417197b6509ea146d98e1d636ac056591919c2ec2773d5e8b8a926359",
+          "byte_identical": true
+        },
+        "same-level": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "obj_cleared": 0,
+            "wall_cleared": 0
+          },
+          "log_sha256": "ddef0ee464561cc298e7e5cb1b8e261fb946c65f9763e65bee65a8356bc7d3a1",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "obj_cleared": 0,
+            "wall_cleared": 0
+          },
+          "baseline_log_sha256": "ddef0ee464561cc298e7e5cb1b8e261fb946c65f9763e65bee65a8356bc7d3a1",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "maimfoe": {
+      "kind": "local",
+      "baseline": "artifacts/mf256/scenarios",
+      "cases": {
+        "wrong-return": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "value": 234
+          },
+          "log_sha256": "bb89a6ac40ff77dd5917c073fb4c08d34d1d64c3d5df0330824c4e617810d76a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "value": 234
+          },
+          "baseline_log_sha256": "bb89a6ac40ff77dd5917c073fb4c08d34d1d64c3d5df0330824c4e617810d76a",
+          "byte_identical": true
+        },
+        "single": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "value": 234
+          },
+          "log_sha256": "26b4487c2af74b35329562a393d89bc8569876dbd8f91553ef92ee6074795761",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "value": 234
+          },
+          "baseline_log_sha256": "26b4487c2af74b35329562a393d89bc8569876dbd8f91553ef92ee6074795761",
+          "byte_identical": true
+        },
+        "none": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "value": 0
+          },
+          "log_sha256": "f1318ad36b021b3bc54a852ce51728b529343d534817f79318b6afea50614fb9",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "value": 0
+          },
+          "baseline_log_sha256": "f1318ad36b021b3bc54a852ce51728b529343d534817f79318b6afea50614fb9",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "recalldepth": {
+      "kind": "local",
+      "baseline": "artifacts/rd310/scenarios",
+      "cases": {
+        "endgame": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "keys": 6,
+            "reset_y": 1,
+            "keep_n": 0
+          },
+          "log_sha256": "339c02e5d0053891d08fea28d2d7020de284c5fe0ce711208415677113efb03a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "keys": 6,
+            "reset_y": 1,
+            "keep_n": 0
+          },
+          "baseline_log_sha256": "339c02e5d0053891d08fea28d2d7020de284c5fe0ce711208415677113efb03a",
+          "byte_identical": true
+        },
+        "generic": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "keys": 6,
+            "reset_y": 1,
+            "keep_n": 0
+          },
+          "log_sha256": "5c188cd1a653cb6596a17b82a5875a598f78aad90085d43a118bb1fe61901f1a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "keys": 6,
+            "reset_y": 1,
+            "keep_n": 0
+          },
+          "baseline_log_sha256": "5c188cd1a653cb6596a17b82a5875a598f78aad90085d43a118bb1fe61901f1a",
+          "byte_identical": true
+        },
+        "mismatch": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "acted": 1,
+            "keys": 6,
+            "reset_y": 0,
+            "keep_n": 1
+          },
+          "log_sha256": "855bcdbccfd859466d8e24b9e333a6b98d2d7a6f43f3a3f168b7d19ba57c331f",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "acted": 1,
+            "keys": 6,
+            "reset_y": 0,
+            "keep_n": 1
+          },
+          "baseline_log_sha256": "855bcdbccfd859466d8e24b9e333a6b98d2d7a6f43f3a3f168b7d19ba57c331f",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "glowtrace-213": {
+      "kind": "local",
+      "baseline": ".worktrees/glowtrace/artifacts/gt213/scenarios",
+      "cases": {
+        "main": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "glow_n": 484
+          },
+          "log_sha256": "a54c7d7402f84ae8a3d3793deb437ee4850f0dd3260f3a305c8af5eb0c8b9a3d",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "glow_n": 484
+          },
+          "baseline_log_sha256": "a54c7d7402f84ae8a3d3793deb437ee4850f0dd3260f3a305c8af5eb0c8b9a3d",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "glow-isglow": {
+      "kind": "local",
+      "baseline": ".worktrees/glow-isglow/artifacts/gtisg/scenarios",
+      "cases": {
+        "main": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "glow_n": 484
+          },
+          "log_sha256": "699d45d7078bbdaeb71346784116adc606de0e510c9248027e9284f9c9e668c2",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "glow_n": 484
+          },
+          "baseline_log_sha256": "699d45d7078bbdaeb71346784116adc606de0e510c9248027e9284f9c9e668c2",
+          "byte_identical": true
+        },
+        "door": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "door_is_open": 1,
+            "wall_glow": 0
+          },
+          "log_sha256": "2620cdb7fc0550e035f9da958834003bac762def8a2a5dac45dc74d9fcf57ac4",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "door_is_open": 1,
+            "wall_glow": 0
+          },
+          "baseline_log_sha256": "2620cdb7fc0550e035f9da958834003bac762def8a2a5dac45dc74d9fcf57ac4",
+          "byte_identical": true
+        },
+        "torchlit": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "torchlit_marked_glow": 0,
+            "glow_n": 0
+          },
+          "log_sha256": "7081108308e524185b6f3ce5ab579f2a34a15e672a0ebc0654e54215c3037672",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "torchlit_marked_glow": 0,
+            "glow_n": 0
+          },
+          "baseline_log_sha256": "7081108308e524185b6f3ce5ab579f2a34a15e672a0ebc0654e54215c3037672",
+          "byte_identical": true
+        },
+        "unlit": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "far_dark": 1
+          },
+          "log_sha256": "91acbecece22b7eefb5f5c21ec72572471e2bac297febc1f95c9a73b4bcfec93",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "far_dark": 1
+          },
+          "baseline_log_sha256": "91acbecece22b7eefb5f5c21ec72572471e2bac297febc1f95c9a73b4bcfec93",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "text-bufsize": {
+      "kind": "local",
+      "baseline": ".worktrees/text-bufsize/artifacts/t287buf/scenarios",
+      "cases": {
+        "multibyte": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "terminated": 1,
+            "strnlen": 81
+          },
+          "log_sha256": "8474005f32294bb9b91df5a3b38fc2789a1cbb179f8d1463886d41b171f0128b",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "terminated": 1,
+            "strnlen": 81
+          },
+          "baseline_log_sha256": "8474005f32294bb9b91df5a3b38fc2789a1cbb179f8d1463886d41b171f0128b",
+          "byte_identical": true
+        },
+        "control": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "terminated": 1,
+            "strnlen": 80
+          },
+          "log_sha256": "e5bf1ca09204936e06a678040d7465177126870b0d20b8cac2bc787477af54e7",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "terminated": 1,
+            "strnlen": 80
+          },
+          "baseline_log_sha256": "e5bf1ca09204936e06a678040d7465177126870b0d20b8cac2bc787477af54e7",
+          "byte_identical": true
+        },
+        "wide": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "terminated": 1,
+            "strnlen": 1020,
+            "guard_overwritten": 0
+          },
+          "log_sha256": "ed0c0c4c288922a0b29784fbdc63fa0a9ce3354ba5ca7ba15130eecaa171ae64",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "terminated": 1,
+            "strnlen": 1020,
+            "guard_overwritten": 0
+          },
+          "baseline_log_sha256": "ed0c0c4c288922a0b29784fbdc63fa0a9ce3354ba5ca7ba15130eecaa171ae64",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "iswarded-198": {
+      "kind": "local",
+      "baseline": ".worktrees/iswarded/artifacts/isw198/scenarios",
+      "cases": {
+        "rune-town": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "survived": 1
+          },
+          "log_sha256": "f2faa68c74c98775c05b97d21057e94df31b0e7d6adb6f13ace2538d73054333",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "survived": 1
+          },
+          "baseline_log_sha256": "f2faa68c74c98775c05b97d21057e94df31b0e7d6adb6f13ace2538d73054333",
+          "byte_identical": true
+        },
+        "hit-town": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "survived": 1
+          },
+          "log_sha256": "8393577cbdf5bbbc80150a9e8a51d6acbea4734462b67c22937f6cab7d8306ac",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "survived": 1
+          },
+          "baseline_log_sha256": "8393577cbdf5bbbc80150a9e8a51d6acbea4734462b67c22937f6cab7d8306ac",
+          "byte_identical": true
+        },
+        "rune-inside": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "survived": 1
+          },
+          "log_sha256": "2925cac634265c81904d4af215cf8d38db748b734af0f3dc2ad8b5d2824a1fa1",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "survived": 1
+          },
+          "baseline_log_sha256": "2925cac634265c81904d4af215cf8d38db748b734af0f3dc2ad8b5d2824a1fa1",
+          "byte_identical": true
+        },
+        "hit-inside": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "survived": 1
+          },
+          "log_sha256": "8e7326052d30f235b949ee1133d350c3cdc608dc9f456f8970bfdee22f462e5a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "survived": 1
+          },
+          "baseline_log_sha256": "8e7326052d30f235b949ee1133d350c3cdc608dc9f456f8970bfdee22f462e5a",
+          "byte_identical": true
+        },
+        "hit-noglyph": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "survived": 1
+          },
+          "log_sha256": "2407dc8deb482d6dc9b9fb35460b51186f01579ae54ade2b06d75d1435e5ea7e",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "survived": 1
+          },
+          "baseline_log_sha256": "2407dc8deb482d6dc9b9fb35460b51186f01579ae54ade2b06d75d1435e5ea7e",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "painmsg-197": {
+      "kind": "local",
+      "baseline": ".worktrees/pain-spastic/artifacts/pm197/scenarios",
+      "cases": {
+        "held": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "log_sha256": "4e644a1ce50721ad21dce46f4b2b658ce9a3347d442dc592042ac4d320c400a6",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "baseline_log_sha256": "4e644a1ce50721ad21dce46f4b2b658ce9a3347d442dc592042ac4d320c400a6",
+          "byte_identical": true
+        },
+        "command": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "log_sha256": "eef5a5da88221a4e162c4ae80daa59b1054dba3e98ef143d39dfeef06735ffaf",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "baseline_log_sha256": "eef5a5da88221a4e162c4ae80daa59b1054dba3e98ef143d39dfeef06735ffaf",
+          "byte_identical": true
+        },
+        "uncommand": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "log_sha256": "358c7f129bec67ab226c2d71a51bf4f215f6ecc1daa09b1bc3399fdbd27c23eb",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "baseline_log_sha256": "358c7f129bec67ab226c2d71a51bf4f215f6ecc1daa09b1bc3399fdbd27c23eb",
+          "byte_identical": true
+        },
+        "shapefail": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "log_sha256": "59a2af77c093ce3717cdacf265afe9a986b3ccb13ac8078983193666a4439915",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "baseline_log_sha256": "59a2af77c093ce3717cdacf265afe9a986b3ccb13ac8078983193666a4439915",
+          "byte_identical": true
+        },
+        "stun": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "log_sha256": "f621a97db11ee81b700eed12e395b8ca1ad3d25fe615b4696af84d47da4b725f",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "baseline_log_sha256": "f621a97db11ee81b700eed12e395b8ca1ad3d25fe615b4696af84d47da4b725f",
+          "byte_identical": true
+        },
+        "hurt": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "log_sha256": "70ec0bdf3f337d37cc78be34a4cbbc4fd3b296010a3f801d52cf9a813c4e667a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "recognised": 1,
+            "matched_to_kobold": 1
+          },
+          "baseline_log_sha256": "70ec0bdf3f337d37cc78be34a4cbbc4fd3b296010a3f801d52cf9a813c4e667a",
+          "byte_identical": true
+        },
+        "puff": {
+          "exit": 0,
+          "passed": false,
+          "outcome": {
+            "recognised": 0,
+            "matched_to_kobold": 0
+          },
+          "log_sha256": "35457c9fb15fa5d5584757c21e0c57d4e251cfaa9615d3d04af6180f819251ec",
+          "expectation": "fail: outside the fix: the puff line has no monster name and stays unrecognised in both phases (kit contract)",
+          "ok": true,
+          "baseline_rows": {
+            "recognised": 0,
+            "matched_to_kobold": 0
+          },
+          "baseline_log_sha256": "35457c9fb15fa5d5584757c21e0c57d4e251cfaa9615d3d04af6180f819251ec",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "trollswap-201": {
+      "kind": "local",
+      "baseline": ".worktrees/swap-drop/artifacts/ts201/scenarios",
+      "cases": {
+        "troll-orc": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "sells_other": 1,
+            "sells_troll": 0
+          },
+          "log_sha256": "0badbc9bbd513c786b1e690085e63d537e9b4017ecc1a0f267d6f7150d04d597",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "sells_other": 1,
+            "sells_troll": 0
+          },
+          "baseline_log_sha256": "0badbc9bbd513c786b1e690085e63d537e9b4017ecc1a0f267d6f7150d04d597",
+          "byte_identical": true
+        },
+        "troll-plain": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "sells_other": 1,
+            "sells_troll": 0
+          },
+          "log_sha256": "4c13aff2b9d3095f605fd2450618f45100ddbd83071080eb884642d19e9f06ae",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "sells_other": 1,
+            "sells_troll": 0
+          },
+          "baseline_log_sha256": "4c13aff2b9d3095f605fd2450618f45100ddbd83071080eb884642d19e9f06ae",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "drophole-136": {
+      "kind": "local",
+      "baseline": ".worktrees/swap-drop/artifacts/dh136/scenarios",
+      "cases": {
+        "salt-water": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "dropped_amulet": 0,
+            "dropped_potion": 1,
+            "floor_items": 1
+          },
+          "log_sha256": "779ba969a745e2b9c1c6d0e9328d07204726e5eadd690f19025497ebdce69fa7",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "dropped_amulet": 0,
+            "dropped_potion": 1,
+            "floor_items": 1
+          },
+          "baseline_log_sha256": "779ba969a745e2b9c1c6d0e9328d07204726e5eadd690f19025497ebdce69fa7",
+          "byte_identical": true
+        },
+        "spare-esp": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "dropped_amulet": 0,
+            "dropped_potion": 1,
+            "floor_items": 1
+          },
+          "log_sha256": "119b17c2a8e1f696b547168b2138ff9773e2425731e2b4b2b32bf5258f8f058d",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "dropped_amulet": 0,
+            "dropped_potion": 1,
+            "floor_items": 1
+          },
+          "baseline_log_sha256": "119b17c2a8e1f696b547168b2138ff9773e2425731e2b4b2b32bf5258f8f058d",
+          "byte_identical": true
+        },
+        "restore-mana": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "dropped_amulet": 1,
+            "dropped_potion": 0,
+            "floor_items": 1
+          },
+          "log_sha256": "7d6c24e1b5adf4185c63674f60449fc0eb0ee72480712a9bd69a5a827c381b35",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "dropped_amulet": 1,
+            "dropped_potion": 0,
+            "floor_items": 1
+          },
+          "baseline_log_sha256": "7d6c24e1b5adf4185c63674f60449fc0eb0ee72480712a9bd69a5a827c381b35",
+          "byte_identical": true
+        },
+        "level30": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "dropped_amulet": 0,
+            "dropped_potion": 1,
+            "floor_items": 1
+          },
+          "log_sha256": "653845206b6437524acea4b9b3fa4856dfcfd9435cc59e2c2d564b5847e5aaae",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "dropped_amulet": 0,
+            "dropped_potion": 1,
+            "floor_items": 1
+          },
+          "baseline_log_sha256": "653845206b6437524acea4b9b3fa4856dfcfd9435cc59e2c2d564b5847e5aaae",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "wearskip-85": {
+      "kind": "local",
+      "baseline": ".worktrees/wearskip/artifacts/ws85/scenarios",
+      "cases": {
+        "tight": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "actions": 5,
+            "wears_scale_mail": 1,
+            "wears_cloak": 1
+          },
+          "log_sha256": "dbabe4a723f7bd772803686d5a162ec72f6ad1fffcc21aa1e0af888ee5230eba",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "actions": 5,
+            "wears_scale_mail": 1,
+            "wears_cloak": 1
+          },
+          "baseline_log_sha256": "dbabe4a723f7bd772803686d5a162ec72f6ad1fffcc21aa1e0af888ee5230eba",
+          "byte_identical": true
+        },
+        "roomy": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "actions": 5,
+            "wears_scale_mail": 1,
+            "wears_cloak": 1
+          },
+          "log_sha256": "36bed66898fb39022f0ce8852c341c51d0d51576bc19aa1767f2aa5da5a6b0e1",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "actions": 5,
+            "wears_scale_mail": 1,
+            "wears_cloak": 1
+          },
+          "baseline_log_sha256": "36bed66898fb39022f0ce8852c341c51d0d51576bc19aa1767f2aa5da5a6b0e1",
+          "byte_identical": true
+        },
+        "nocloak": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "actions": 2,
+            "wears_scale_mail": 0,
+            "wears_cloak": 0
+          },
+          "log_sha256": "ea86f8b1579e97b8ac648c29e3d195cd948927c60942999a5637b0f5a886208a",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "actions": 2,
+            "wears_scale_mail": 0,
+            "wears_cloak": 0
+          },
+          "baseline_log_sha256": "ea86f8b1579e97b8ac648c29e3d195cd948927c60942999a5637b0f5a886208a",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "lantern-90": {
+      "kind": "local",
+      "baseline": ".worktrees/lantern/artifacts/ln90/scenarios",
+      "cases": {
+        "empty": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "refuels": 1
+          },
+          "log_sha256": "88e5ac68723d6292c1b0a84ef84bbe8327114709e35628ccb9c0bd29aa142904",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "refuels": 1
+          },
+          "baseline_log_sha256": "88e5ac68723d6292c1b0a84ef84bbe8327114709e35628ccb9c0bd29aa142904",
+          "byte_identical": true
+        },
+        "single": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "refuels": 1
+          },
+          "log_sha256": "a215c69662550b0e7d931271189cbc1125b059a15baa506c829a2de0315151a9",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "refuels": 1
+          },
+          "baseline_log_sha256": "a215c69662550b0e7d931271189cbc1125b059a15baa506c829a2de0315151a9",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "homebanish-54": {
+      "kind": "local",
+      "baseline": ".worktrees/homebanish/artifacts/hb54/scenarios",
+      "cases": {
+        "banish": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "stores_banishment_scroll": 1
+          },
+          "log_sha256": "4f017aa829d72a44906a0f600f24ac4633a30a3718931fcdaac4ff703cfaf0c2",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "stores_banishment_scroll": 1
+          },
+          "baseline_log_sha256": "4f017aa829d72a44906a0f600f24ac4633a30a3718931fcdaac4ff703cfaf0c2",
+          "byte_identical": true
+        },
+        "mass": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "stores_banishment_scroll": 1
+          },
+          "log_sha256": "b802c59937d700f95276c9691df1360edebe50078090e5cdf5c17ba11b12796e",
+          "expectation": "pass",
+          "ok": true,
+          "baseline_rows": {
+            "stores_banishment_scroll": 1
+          },
+          "baseline_log_sha256": "b802c59937d700f95276c9691df1360edebe50078090e5cdf5c17ba11b12796e",
+          "byte_identical": true
+        }
+      },
+      "ok": true
+    },
+    "stairrange-245": {
+      "kind": "kit",
+      "evidence_ref": "3c9a75e20233",
+      "prefix": "docs/audit/c-reports/stairrange-245",
+      "cases": {
+        "main": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "climb_decision": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "dc8fb7afccf3a288803c0b555c6abafcc0ee03c921347aea7ac43fc48cd9a2cf"
+        }
+      },
+      "ok": true
+    },
+    "clockreset-246": {
+      "kind": "kit",
+      "evidence_ref": "85ff225404d9",
+      "prefix": "docs/audit/c-reports/clockreset-246",
+      "cases": {
+        "main": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "kept_playing": 1,
+            "time_reset": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "73d73bab8892d1634d543c84246a4467a1506122d767eba71a03f42f0586fa40"
+        }
+      },
+      "ok": true
+    },
+    "dangerflee-156": {
+      "kind": "kit",
+      "evidence_ref": "809e556b39e4",
+      "prefix": "docs/audit/c-reports/dangerflee-156",
+      "cases": {
+        "excessive": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "excessive_flee": 1,
+            "desperate_stairs": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "eae3d0d632f4dbf559c437e5a5d75810b450eb01ea4d2df1ed11de9ecf584913"
+        },
+        "hurt": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "excessive_flee": 0,
+            "desperate_stairs": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "7c0bbe5d250225af21c002234987d8fb1da13e9c3c361fea0e7cc28bc66ef04f"
+        },
+        "morgoth": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "excessive_flee": 0,
+            "desperate_stairs": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "394b6a5dea1b76c6fb57b9d98d8c14d23b52bc63f3bfe5954d3dd5b1784a1d44"
+        }
+      },
+      "ok": true
+    },
+    "recallmana-157": {
+      "kind": "kit",
+      "evidence_ref": "b6bd252e1c9b",
+      "prefix": "docs/audit/c-reports/recallmana-157",
+      "cases": {
+        "halfmana": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "restore_mana": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "e9d75b75234dfcecfc06e3bce907aee1763077994e7a1058e074c840d794b926"
+        },
+        "lowmana": {
+          "exit": 0,
+          "passed": false,
+          "outcome": {
+            "restore_mana": 0
+          },
+          "expectation": "fail: standing 0053 interaction: an ordinary Borg in excessive danger flees via desperate stairs before the recall-wait line, so the unchanged lowmana fixture stays red (verify-recallmana asserts exactly this: lowmana red, halfmana green, restore_mana=0 in both)",
+          "ok": true,
+          "log_sha256": "e814cf022561ffcd828870bf85a5295ca7f99ebaf0acc178aeb1a8767e476f73"
+        }
+      },
+      "ok": true
+    },
+    "deskstair-153": {
+      "kind": "kit",
+      "evidence_ref": "366fd1b08c4d",
+      "prefix": "docs/audit/c-reports/deskstair-153",
+      "cases": {
+        "onestair": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "desperate_stairs": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "67e9eef6e2c2e2da8bb656a629c8a95c0feb25b938212ff577e875db5751e4aa"
+        },
+        "twodown": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "desperate_stairs": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "a1bea6ad35fb6e78b54cc80e7ade07f8c3a8ce92312cbe90416660f78ea6f2aa"
+        },
+        "twostairs": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "desperate_stairs": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "4c368100fdcc4f924bf2c95d2cc7a4608cef9e9b8c10c31b6980b85fe0489e97"
+        }
+      },
+      "ok": true
+    },
+    "backaway-155": {
+      "kind": "kit",
+      "evidence_ref": "fa0293e587d8",
+      "prefix": "docs/audit/c-reports/backaway-155",
+      "cases": {
+        "healthy": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "backed_away": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "b3d3d9854b9d6c9675db3dcb763b590ab0995fb0a45c6b7acfdc74ad54a68cd8"
+        },
+        "monster": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "backed_away": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "0549304bb1d78e51d7c44727ebc87e19ab9955dd98a19b0a82447c094ed69ed5"
+        },
+        "trap": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "backed_away": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "37372f6714ce0d2c8b5bcb0d17fa4c3820305952cbc6a283f523bc71e6d40139"
+        }
+      },
+      "ok": true
+    },
+    "cfghang-141": {
+      "kind": "kit",
+      "evidence_ref": "a3164a61b830",
+      "prefix": "docs/audit/c-reports/cfghang-141",
+      "cases": {
+        "suffix": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "init_completed": 1,
+            "hung": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "c568758d93d4d3a7f5c0480fd1e60c842b871ab851a76d1b00e8493f4c55c7aa"
+        },
+        "valid": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "init_completed": 1,
+            "hung": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "72892bd55b038dea92f743a3859a131421af56349659f1a9b14a164d4d0d24c1"
+        },
+        "word": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "init_completed": 1,
+            "hung": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "4af0ada5f4276f1c06f53a2623db4ede3e46fc2e0183497256d97aa026ee89ee"
+        }
+      },
+      "ok": true
+    },
+    "cfgminus-142": {
+      "kind": "kit",
+      "evidence_ref": "18f79a3cc631",
+      "prefix": "docs/audit/c-reports/cfgminus-142",
+      "cases": {
+        "minus": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "prepared20": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "001d6cc8c23cfe4490171b93683974cb9a8579934b40df979fb9d2441d15c306"
+        },
+        "negative": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "prepared20": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "1b2e48657aca33f5b99288a21b5cc379d98ad3138a6fcfbba7af26bf0ebe5f08"
+        },
+        "valid": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "prepared20": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "3c7e47beaea8c2f396f06bf47b2826cb8ac05a5c765947fa42f6d6a9548a02bf"
+        }
+      },
+      "ok": true
+    },
+    "cfgmissing-144": {
+      "kind": "kit",
+      "evidence_ref": "1ff9ca1e59d6",
+      "prefix": "docs/audit/c-reports/cfgmissing-144",
+      "cases": {
+        "missing": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "init_completed": 1,
+            "crashed": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "a41bba9d8e78e9f52d514d0c1eeb98c9fd8c8d52ca289339225fbaa625669d05"
+        },
+        "present": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "init_completed": 1,
+            "crashed": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "01651119b84238b3d9839087660984ca54a7bc8d47da605b2527081ba8f976f9"
+        }
+      },
+      "ok": true
+    },
+    "countsell-134": {
+      "kind": "kit",
+      "evidence_ref": "68b23b2a1b2e",
+      "prefix": "docs/audit/c-reports/countsell-134",
+      "cases": {
+        "full": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "went_down": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "1e59a8be157c88b2f3a6d26d41f667e8dac556c62ca88f400f86fc6bf045b1fc"
+        },
+        "full-unid": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "went_down": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "0349cd1bcc57c78dd862d82734dc7898f3bd2ada7fb95459c725eb53afccab5e"
+        },
+        "light": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "went_down": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "99c981fba49fbf6717d7b1133a11a71b115a0a3914437ef1ecc75a5debf3c698"
+        }
+      },
+      "ok": true
+    },
+    "drainedive-235": {
+      "kind": "kit",
+      "evidence_ref": "557c85260f8b",
+      "prefix": "docs/audit/c-reports/drainedive-235",
+      "cases": {
+        "main": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "dive_notes": 0,
+            "drained": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "0e3618fb7472c14f7446bebda4da0a9a1dc227bc70f07d364f2c18c5c8bd8c92"
+        }
+      },
+      "ok": true
+    },
+    "respois-184": {
+      "kind": "kit",
+      "evidence_ref": "af01d73ccfcb",
+      "prefix": "docs/audit/c-reports/respois-184",
+      "cases": {
+        "apples": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "potions_kept": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "13c8b4462723133025b12b1c2528c1c8c4093a02da44ffda40c770bc48ad860b"
+        },
+        "rations": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "potions_kept": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "6b2cf86f7477465d4fcc6e66cb43e6da42189a7a6b959264e41153a3a107ccfc"
+        }
+      },
+      "ok": true
+    },
+    "respoiswar-185": {
+      "kind": "kit",
+      "evidence_ref": "6f130a4eea68",
+      "prefix": "docs/audit/c-reports/respoiswar-185",
+      "cases": {
+        "cold": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "potions_kept": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "9ddac6590ca9a9d2e52adb7ce4ba3b3fdfbd9684c015b875edaba9cfabc8ddd6"
+        },
+        "plain": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "potions_kept": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "c3e7e696a18e852010f90f512e6b1eb2923707e8881ae461d58541677b50a3d6"
+        }
+      },
+      "ok": true
+    },
+    "spastic-146": {
+      "kind": "kit",
+      "evidence_ref": "da9a39f4da30",
+      "prefix": "docs/audit/c-reports/spastic-146",
+      "cases": {
+        "corner": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "moved": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "ef657497c5b3f371eb9c6fcfce0c15dd809ed99b0eb48e6302e3b54df55d601e"
+        },
+        "far": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "moved": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "ef00f38d72433f93de35cad00019d2dbf9a836fecdc0ef2b7c1d10de2ef3520d"
+        },
+        "middle": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "moved": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "fe320e4a62b46977574c3d49277d3becc0628c8f0471f93bcc0c9ed64fb0e4c1"
+        }
+      },
+      "ok": true
+    },
+    "glyphflow-345": {
+      "kind": "kit",
+      "evidence_ref": "fbe06401c54c",
+      "prefix": "docs/audit/c-reports/glyphflow-345",
+      "cases": {
+        "center": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "progress": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "7847612d29e48fbdbc0e2b89d488936dc72155cae594aa2677714411ca243ace"
+        },
+        "offcenter": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "progress": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "fa21d50d2eda8b4a424681267e0b12b765337c376eef8048507c8c4f90493e14"
+        }
+      },
+      "ok": true
+    },
+    "swapacid-199": {
+      "kind": "kit",
+      "evidence_ref": "9eca003a5896",
+      "prefix": "docs/audit/c-reports/swapacid-199",
+      "cases": {
+        "acid": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "prepared30": 1,
+            "acid_counted": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "150e5560e3ee1112cd24f7a404f49f538248d1bb96de6a6cb89338b20f2e347b"
+        },
+        "elec": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "prepared30": 0,
+            "acid_counted": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "723898517dfe18758de395b2fdc92299cd23c147616568a1c6ce3c2df9c57aed"
+        },
+        "fire": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "prepared30": 0,
+            "acid_counted": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "f78e34dafff376de0c5ab1b04ad7b6e33995ebc90854b26367e398f873b59f3b"
+        },
+        "none": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "prepared30": 0,
+            "acid_counted": 0
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "01d59e8bb8bf25787f841e0839a1ba93214e0ceab3fd19db28f3a27cc0b82d8a"
+        }
+      },
+      "ok": true
+    },
+    "staircycle-403": {
+      "kind": "kit",
+      "evidence_ref": "43dee40ed052",
+      "prefix": "docs/audit/c-reports/staircycle-403",
+      "cases": {
+        "clean": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "munchkin_handled": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "24cbbdc242dd9461ded2e7fc8f8e199075d417e30166fe2bd85eab046d235c9d"
+        },
+        "main": {
+          "exit": 0,
+          "passed": true,
+          "outcome": {
+            "stair_directed": 0,
+            "munchkin_handled": 1
+          },
+          "expectation": "pass",
+          "ok": true,
+          "log_sha256": "5fe8fb70927ad36066cd548b09d2f0fd65982bff6ad28ac2530d8c96645b39b1"
+        }
+      },
+      "ok": true
+    }
+  },
+  "total_cases": 225,
+  "ok": true,
+  "at_commit": "33207fbeeb582e67d6b18e9f40613617667905ae",
+  "baseline": "docs/measurement/impact-v8/regression-summary.json"
+}
