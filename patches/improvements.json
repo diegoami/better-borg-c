@@ -1,0 +1,28 @@
+{
+  "note": "Improvement units are local to better-borg-c (owner decision 2026-11-09): never proposed upstream, never represented as carries. Tracked separately from the bug-carry ledger in series.json.",
+  "units": [
+    {
+      "id": "I-001",
+      "issue": 324,
+      "title": "Do not retreat from a lone adjacent monster that one blow would kill",
+      "date": "2026-11-09",
+      "contract": "https://github.com/diegoami/better-borg-c/issues/324#issuecomment-6749373608",
+      "files": [
+        "src/borg/borg-caution.c",
+        "src/borg/borg-fight-attack.c",
+        "src/borg/borg-fight-attack.h"
+      ],
+      "acceptance": [
+        "hosted native gate green",
+        "D0012 targeted replay: kill replaces the retreat (documented first divergence)",
+        "regression matrix: all changes declared as intentional improvement transitions",
+        "bounded paired cohort (new frozen starting conditions) reported"
+      ],
+      "status": "evidence-complete, PR pending",
+      "evidence": {
+        "targeted_replay": "/tmp/opencode/imp001-branch2 (start.save hash equals the dossier start f76185e5; first divergence turn 6017; outcome turn_cap alive at 320000 vs recorded death 27770)",
+        "contract": "issue 324 comment 2026-11-09"
+      }
+    }
+  ]
+}
