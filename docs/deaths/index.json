@@ -151,7 +151,8 @@
       "cases": [
         "D0006",
         "D0011",
-        "D0012"
+        "D0012",
+        "D0015"
       ],
       "issue": "https://github.com/diegoami/better-borg-c/issues/180",
       "key": "identification-priority",

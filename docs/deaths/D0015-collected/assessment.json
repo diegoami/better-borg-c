@@ -35,6 +35,16 @@
       "actions": [
         "survival-stock-priority"
       ]
+    },
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/348",
+      "summary": "Chat 2026-11-09: the second Word of Recall was an accident; some consumables are bought only to learn their flavour so dungeon finds are identified.",
+      "status": "processed; reference loadout corrected; flavour-learning strategy added to 180",
+      "actions": [
+        "survival-stock-priority",
+        "identification-priority"
+      ]
     }
   ],
   "findings": [
@@ -73,6 +83,10 @@
     {
       "status": "verified saved manual diagnostic alternative",
       "summary": "Owner branch 20261109T014719Z from turn 1: same 357 gold buys a second Recall, 4 Phase Door, 3 CLW, Monster Confusion, Detect Invisible, Remove Hunger, oil, 20 gold of armour; DL1 tour 2689-6779 finds 910 gold; saved in town 6889 with 926 gold; Fang not met (different path)."
+    },
+    {
+      "status": "source-checked",
+      "summary": "Pristine borg-store-buy.c and borg-think-store.c contain no awareness/flavour logic; purchases are driven by power/value only, so the Borg never buys a cheap copy to learn a flavour."
     }
   ],
   "actions": [
@@ -93,6 +107,12 @@
       "issue": "https://github.com/diegoami/better-borg-c/issues/41",
       "summary": "Evaluate survival-resource reserves/restocking priority over spare equipment",
       "status": "recorded owner priority; proposal, not implemented"
+    },
+    {
+      "key": "identification-priority",
+      "issue": "https://github.com/diegoami/better-borg-c/issues/180",
+      "summary": "Evaluate identification-driven inventory and town trading, auditing existing sell-ID behavior",
+      "status": "proposed enhancement; priority/knowledge value and costs need evidence"
     }
   ]
 }
