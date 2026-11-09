@@ -5,9 +5,9 @@ designing a new Angband automaton. This document distils the reviewed deaths in 
 repository into design requirements. It does not ask for C patches. Every lesson links back
 to its evidence. Read the linked dossier before relying on a detail.
 
-Snapshot: 2026-11-09. It covers the reviewed cases **D0001–D0014**, which are 11 distinct
+Snapshot: 2026-11-09. It covers the reviewed cases **D0001–D0015**, which are 12 distinct
 starting conditions; D0003–D0005 are reference replays of D0002. It includes four verified
-owner manual takeovers. Later dossiers (D0015+) are not yet reviewed. Update this file when
+owner manual takeovers. Later dossiers (D0016+) are not yet reviewed. Update this file when
 they are.
 
 ## How to read the evidence
@@ -38,6 +38,7 @@ learned lore. A redesign must decide explicitly whether it may use that spoiler 
 | [D0012](D0012-collected/report.md) | Gnome Paladin CL2 | DL1 | poison (worm mass) | survived (1-hit mold) | [#325](https://github.com/diegoami/better-borg-c/issues/325) |
 | [D0013](D0013-collected/report.md) | Dunadan Druid CL1 | DL1 | small kobold | survived (fled ant) | [#332](https://github.com/diegoami/better-borg-c/issues/332) |
 | [D0014](D0014-collected/report.md) | High-Elf Rogue CL11 | DL20 | blood falcon | survived (Speed, CLW, detection) | [#341](https://github.com/diegoami/better-borg-c/issues/341) |
+| [D0015](D0015-collected/report.md) | Dunadan Necromancer CL1 | DL1 | Fang | pending | [#348](https://github.com/diegoami/better-borg-c/issues/348) |
 
 What the owner keeps saying, across reviews: the Borg had the tools and the knowledge, but
 its decision layers did not use them, or worked against each other.
@@ -53,6 +54,8 @@ which contradict the Borg's own danger estimate.
 - **D0013:** a single small kobold at CL1 triggered flight. Its logged danger was **5**.
   Meanwhile the giant white ant that actually killed the druid rated **18–38**, and the Borg
   aimed both of its final attacks at the ant instead of finishing the kobold.
+- **D0015:** Fang is on the flee-the-level list, yet `borg_attack` explicitly allows fighting
+  Grip and Fang, and caution refuses to run from them. Three layers, two opposite answers.
 - **D0002–D0005:** a gallant/cutpurse threat rose to danger 188–451, inflated by the theft
   weighting (#158).
 
@@ -150,6 +153,11 @@ back-away. Phase landing safety is sampled, but a critical fallback spends the p
 - Order escape options by cost and sufficiency: step, walk, Phase, teleport, level exit.
 - Estimate landing risk from known monsters, including unseen but remembered ones.
 - Treat the last escape item as a reserve with a higher bar.
+- Don't hard-code "never run from fast monsters". In **D0015** pristine caution turns off the
+  stair dash for any faster adjacent monster or a unique on DL1–5 ("you cant outrun them"). A
+  CL1 Necromancer then meleed Fang (25 HP, +20 speed, *erratic*, 1d4 bite) to death 7 open
+  squares from an up staircase. Weigh the expected damage of the dash, including erratic
+  movement and a weak bite, against fighting.
 - After the last escape is gone, still consider attempting a walking retreat. Don't fall back
   to "fight to the death" (#159).
 
@@ -251,6 +259,8 @@ Issues: [#321](https://github.com/diegoami/better-borg-c/issues/321),
 **Failure.**
 - **D0013:** starting gold went on a Ring of Protection [+10] (266) and an unknown ring (50).
   It bought **one** Phase Door and **no** CLW.
+- **D0015:** all starting gold went on armour pieces and a ring, with no cures, and its one
+  Phase Door was already used.
 - **D0001:** Phase Door was stored at Home while spare weapons and armour were carried.
 - **D0011:** died carrying 4 Rings of Searching, 9 spare torches and sandals, with no Phase
   Door, Recall or teleport.
@@ -312,8 +322,12 @@ Issue: [#320](https://github.com/diegoami/better-borg-c/issues/320).
 - **D0014:** the logged danger was **22** while a known speed +30 blood falcon (2d10/2d10/3d8)
   was 3–4 squares away out of view. It then did 63 damage before the rogue's next action.
 
+- **D0015:** a lightless Necromancer explored into a dead end while Fang approached unseen. It
+  had no warning until the first bite.
+
 **Requirement.**
-- Use detection before committing to a route or a fight.
+- Use detection before committing to a route or a fight, and account for the class's own
+  sight limits (e.g. Necromancer unlight).
 - Keep remembered-but-unseen monsters, especially fast ones, in the threat estimate, with
   decaying confidence rather than dropping them.
 - Model speed differences as the number of enemy actions per player action.
