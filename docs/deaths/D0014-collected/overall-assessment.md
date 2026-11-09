@@ -67,6 +67,25 @@ found, going down" notes (#321).
   view, and it then did 63 damage before the rogue's next action. Whether out-of-view fast
   monsters are underweighted remains open on #341.
 
+## Owner's manual alternative before the Phase (verified)
+
+The owner took over at the Phase decision (requested 306700, actual 306703) with
+`play-from-replay.py`. The identity and hashes are in
+[owner-manual-branch.json](owner-manual-branch.json). A complete rerun with
+`replay-borg.py --verify-only` is **VERIFIED**. What happened:
+
+1. No Phase Door was read. A Potion of Speed was drunk on first sight of the falcon.
+2. The first falcon clawed for 87 → 60 and was killed in one hit.
+3. The illusionist's blindness and confusion were each cured with Cure Light Wounds.
+4. The second falcon was killed in one hit. The illusionist fled, then teleported away.
+5. Detect Monsters was cast, then an earth hound fight (shards and bleeding, cured with CLW),
+   after which the owner retreated from the pack.
+6. Saved alive at 306980 with 88/91 HP on DL20. Used 1 Speed and 5 CLW.
+
+By contrast, the original Borg cast Detect Monsters 234 times as routine detection upkeep. Its
+last cast was at 300483, and it did not use detection tactically in this encounter. This is one
+manual line, not a population claim. The owner's after-Phase try (306713) is still open.
+
 ## Limits and next evidence
 
 - Whether Speed plus CLW would have survived is untested. The owner's takeovers at 306700

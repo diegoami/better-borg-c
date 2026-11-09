@@ -21,7 +21,7 @@ Dossiers: 14; distinct starting conditions: 11; recorded death process attempts:
 | [D0011](D0011-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/322) | `867c777845fd` | 1907608236 | a griffon | 119600 | escape/equipment/healing-policy investigation; three source-checked mechanisms with native evidence; no reusable original-C defect established |
 | [D0012](D0012-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/325) | `867c777845fd` | 1907608237 | poison | 27770 | retreat/re-approach loop under worm-mass flight; owner's verified manual branch kills the mold in one blow and survives; source-checked mechanisms; no reusable original-C defect established |
 | [D0013](D0013-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/332) | `867c777845fd` | 1907608238 | a small kobold | 3716 | escape-order, scary-list flight and stock investigation; owner's verified manual branch survives by disengaging from the ant; no reusable original-C defect established |
-| [D0014](D0014-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/341) | `867c777845fd` | 1907608242 | a blood falcon | 306771 | deep-descent depth, escape and emergency-resource investigation; source-checked mechanisms with native evidence; no reusable original-C defect established |
+| [D0014](D0014-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/341) | `867c777845fd` | 1907608242 | a blood falcon | 306771 | deep-descent depth, escape and emergency-resource investigation; owner's verified manual branch survives with Speed, CLW and detection; no reusable original-C defect established |
 
 ## Aggregated actions
 

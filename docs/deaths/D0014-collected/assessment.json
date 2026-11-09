@@ -1,5 +1,5 @@
 {
-  "classification": "deep-descent depth, escape and emergency-resource investigation; source-checked mechanisms with native evidence; no reusable original-C defect established",
+  "classification": "deep-descent depth, escape and emergency-resource investigation; owner's verified manual branch survives with Speed, CLW and detection; no reusable original-C defect established",
   "confidence": "High for native trajectory, positions, monsters (diagnostic) and inventory; escape/speed/heal branch outcomes source-derived; no rescue claimed",
   "cause_category": "monster melee",
   "overall_assessment": "overall-assessment.md",
@@ -10,13 +10,23 @@
       "origin": "owner",
       "comment": "https://github.com/diegoami/better-borg-c/issues/341",
       "summary": "Chat 2026-11-09: digging rogue meets a falcon and phases at 306703; lands by an orc archer and an elemental; smashes the archer with a lance of slay orc; surrounded with no Phase but a gap at 306726; kills a falcon; illusionist; backs up and gets stuck 306747; second falcon kills him. Speed and CLW could have helped; wants to try before and after the Phase.",
-      "status": "processed; recorded verbatim on 341; findings replied; takeover commands supplied; manual tries pending",
+      "status": "processed; recorded verbatim on 341; findings replied; before-Phase manual try recorded; after-Phase try open",
       "actions": [
         "recall-deep-descent",
         "climb-restock",
         "speed-emergency",
         "heal-eligibility",
         "attempted-room-retreat"
+      ]
+    },
+    {
+      "origin": "owner",
+      "comment": "https://github.com/diegoami/better-borg-c/issues/341",
+      "summary": "Chat 2026-11-09: played from 306700 before the Phase; drank Speed on seeing the falcon; handled the illusionist and another falcon; Detect Monsters let him retreat to recover; earth hounds too many so retreated; alive.",
+      "status": "processed; manual branch VERIFIED and recorded",
+      "actions": [
+        "speed-emergency",
+        "heal-eligibility"
       ]
     }
   ],
@@ -40,6 +50,14 @@
     {
       "status": "observed; rules source-checked",
       "summary": "Died carrying 21 known CLW, 5 known Speed, Phase Door spell at 42% fail with 9 SP, two slings without ammunition. Speed requires hasted danger <= HP/3; CLW needs danger < HP+heal; last-resort unknown use excludes MAXSP>0."
+    },
+    {
+      "status": "verified saved manual diagnostic alternative",
+      "summary": "Owner branch 20261109T005413Z from 306703: no Phase; Speed on first sight; both falcons killed in one hit each; CLW cures blind/confusion/bleeding; Detect Monsters before retreating from earth hounds; 1 Speed, 5 CLW used; saved 306980 HP88/91; complete rerun VERIFIED."
+    },
+    {
+      "status": "observed",
+      "summary": "Original Borg cast Detect Monsters 234 times as routine detection upkeep (borg-light.c evil timer); last cast 300483, about 6300 turns before death; not used tactically during the fatal encounter."
     }
   ],
   "actions": [
