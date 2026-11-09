@@ -135,5 +135,10 @@ input. The review prompt is provided for the owner to launch any reviewer they c
 
 ## Tag
 
-Not yet placed. As with `4.2.6-impact-v7` (owner-authorized on `3573d741e`), placing
-`4.2.6-impact-v8` on the runtime snapshot `017e038e8` waits for explicit owner authorization.
+Placed. `4.2.6-impact-v8` is an annotated tag on the runtime snapshot
+`017e038e8726a7a423887a366b5d40e89c0550a1`, created 2026-11-09 under
+explicit owner authorization (as with `4.2.6-impact-v7` on `3573d741e`),
+after the independent review's approve-with-corrections verdict and the
+application of its corrections (PR 355, `7915031898`). The tag message
+records the snapshot, the review outcome, the matrix result and the
+authorization.
