@@ -1713,6 +1713,24 @@
    "verification": "docs/measurement/TORODVALUE-549.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "HEALCHANCE-364",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/363",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/364",
+   "source_head": "b366550f776d4d7a6ac52031529f3254a5914d38",
+   "source_commits": [
+    "b366550f776d4d7a6ac52031529f3254a5914d38"
+   ],
+   "applied_commits": [
+    "73322d06cdba957b4eac3b67039e93fb02a26790"
+   ],
+   "patch": "patches/0092-heal-chance-signs.patch",
+   "patch_active": true,
+   "evidence_ref": "3adc1b8128edfe31ca9a395d64f860b995396ec6",
+   "verification": "docs/measurement/HEALCHANCE-364.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }

@@ -385,3 +385,7 @@ The eighty-ninth carry scores a spastic search candidate by its own search count
 The ninetieth carry lets a foodless Borg buy Remove Hunger at the Alchemist (consumer #359, adopting source18): the no-food store filter skipped store 4, the starving check let any scroll through, and the scrolls were never counted as food — so a starving Borg with gold chose no shop at all. The starving mode flips; the general_food and fed controls are byte-identical.
 
 The ninety-first carry zaps a Rod of Teleport Other in the tele-away defence (consumer #361, adopting source549): the defence accepted the spell, an activation and a charged wand but not the rod, so a rod-only Borg kept meleeing a dangerous monster. The rod mode flips; the wand and weak controls are byte-identical.
+
+The ninety-second carry gives the healing-chance adjustments the direction their comments state (consumer #363, adopting source364): fighting a unique, danger-at-current-hp, and the risky adjustment all had flipped signs, so a borg in real danger skipped healing and a risky borg healed more. Three modes flip as recorded; the control is byte-identical.
+
+The ninety-second carry gives the healing-chance adjustments the direction their comments state (consumer #363, adopting source364): fighting a unique, the danger-at-current-hp case, and the risky adjustment all had flipped signs, so a borg in real danger skipped healing and a risky borg healed more. Three modes flip as recorded; the control is byte-identical.
