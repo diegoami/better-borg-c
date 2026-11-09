@@ -31,7 +31,9 @@ Per the verification contract (0068/0070 precedent), this carry adds
 AddressSanitizer phases: four cores — normal and ASan (`-fsanitize=address
 -g -DNDEBUG`, Release, exactly like the source kit) at the before commit
 and at the tip. Expected: before, each tall-terminal mode crashes with a
-heap-buffer-overflow READ from its own scan function; after, every mode
+global-buffer-overflow READ of size 8 (the `borg_grids` row pointer) from
+its own scan function, and each wide-terminal mode reports a
+heap-buffer-overflow READ of size 2 (the grid byte); after, every mode
 passes report-free in both builds, and the seven wide/normal/fit
 controls are byte-identical across the correction in both builds.
 

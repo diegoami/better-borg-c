@@ -10,10 +10,23 @@ view, the Borg still saw the full summoning danger and read another
 Rune of Protection onto the same grid.  The correction also enters the
 branch when the remembered trap on the grid is a glyph and marks the
 grid as a trap only for a real disarmable player trap.
-The rune mode fails before (a second rune is read onto the visible
-rune) and passes after (none is read; the glyph is recorded); the
-floor and trap controls pass in both phases with byte-identical logs.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+The rune mode carries the defect's direct signal: before, the visible
+rune is not recorded (borg_glyph_here=0, game_runes_here=1) and the
+scenario self-check fails; after, the rune is recorded
+(borg_glyph_here=1) and the self-check passes.  No second rune is read
+in either phase on this product (read_rune=0 before and after): on the
+kit's pristine base the before-phase row was read_rune=1 -- the wasted
+duplicate read this fix removes -- but here the defence chain had
+already chosen differently, so the duplicate read does not arise.
+The floor and trap controls diverge from the kit's recorded rows on
+this product, disclosed: the defence chain chooses no action there
+(DECISION defend=0) before AND after, so the scenario self-check fails
+in both phases; their logs are byte-identical across the correction,
+which proves the fix is a provable no-op for them.  The divergence
+predates this carry and stems from carried defence-chain patches
+(candidates: healchance-364's borg_heal flow, the tele-away rod family
+0091/0095/0096); attribution to one patch is not claimed.
+Fixture: kit 3ce928e869641bd2d789dfca1566c890121922f9 at head dae7a1bd6da9a78b92229534fa2b03630e01da1d. Normal phases only. Before phases
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 
