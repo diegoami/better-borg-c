@@ -1,0 +1,51 @@
+From 187bb3b61e764f1b8250642135472b6005305c79 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 01:22:17 +0000
+Subject: [PATCH] borg: zap a Rod of Teleport Other in the Teleport Other
+ defence
+
+The defence that teleports a dangerous monster away accepted the
+Teleport Other spell, an item activation or a charged Wand of Teleport
+Other, but not a Rod of Teleport Other. A Borg without the spell that
+carried only the rod never considered teleporting the monster away: a
+wounded Warrior next to a hill giant kept meleeing it instead.
+
+Accept a charged rod the Borg can zap (borg_equips_rod applies the same
+device-skill check used for other rods), and zap it when the defence is
+chosen, after the spell, activation and wand. The target key that
+follows is the same.
+
+Tracked as diegoami/neo-angband-tracker#549.
+
+(cherry picked from commit d4071b06e2d298a17e1a55559daceccf9663f9f3)
+---
+ src/borg/borg-fight-defend.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-fight-defend.c b/src/borg/borg-fight-defend.c
+index 6945ec261..191549288 100644
+--- a/src/borg/borg-fight-defend.c
++++ b/src/borg/borg-fight-defend.c
+@@ -1156,7 +1156,8 @@ static int borg_defend_aux_tele_away(int p1)
+     if (borg_spell_okay_fail(TELEPORT_OTHER, fail_allowed)
+         || borg_equips_item(act_tele_other, true)
+         || (-1 != borg_slot(TV_WAND, sv_wand_teleport_away)
+-            && borg_items[borg_slot(TV_WAND, sv_wand_teleport_away)].pval))
++            && borg_items[borg_slot(TV_WAND, sv_wand_teleport_away)].pval)
++        || borg_equips_rod(sv_rod_teleport_other))
+         spell_ok = true;
+ 
+     if (!spell_ok)
+@@ -1270,7 +1271,8 @@ static int borg_defend_aux_tele_away(int p1)
+ 
+     /* Cast the spell */
+     if (borg_spell(TELEPORT_OTHER) || borg_activate_item(act_tele_other)
+-        || borg_aim_wand(sv_wand_teleport_away)) {
++        || borg_aim_wand(sv_wand_teleport_away)
++        || borg_zap_rod(sv_rod_teleport_other)) {
+         /* Use target */
+         borg_keypress('5');
+ 
+-- 
+2.53.0
+
