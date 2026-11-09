@@ -57,6 +57,31 @@ leaving 6 gold. The single Phase Door was read at 3511, and it had no cures.
   final cast failed.
 - **Stock (#41).** All gold went on armour; no cures or extra escapes.
 
+## Owner's manual retry from 4118 (verified, died)
+
+The owner requested 4110; the actual start was the Borg's decision at 4118, at 13/13 HP in the
+dead end. The identity and hashes are in [owner-manual-branch.json](owner-manual-branch.json),
+and a complete rerun is **VERIFIED**. What happened:
+
+1. Two bites before the first step (13 → 10 → 8).
+2. Fang blocked the corridor, forcing a detour north.
+3. A Nether Bolt only made Fang yelp in pain.
+4. A graze left the character bleeding, with no potion to quaff.
+5. Death at (103,44), three squares from the up staircase, at 4190.
+
+By 4118 neither fighting nor the dash survived. Preparation decided this death.
+
+## Was it broke? No: it bought armour
+
+Native shop messages show starting gold of **357**:
+- **AC:** Ring of Protection [+6] 150, Robe 84, Iron Shod Boots 84, Cloak 6 (330 in all);
+- **survival:** one Phase Door 15;
+- **food:** 12.
+
+That left 6 gold, and it deposited its starting Word of Recall at Home (1891). The ring alone
+would have bought ten Phase Doors. Its brief town visits at 3181 and 4028 came with 6 gold.
+This is the strongest survival-stock case so far (#41).
+
 ## Limits
 
 - Whether a dash of seven squares to the stair survives at 8–10 HP is untested; this is what

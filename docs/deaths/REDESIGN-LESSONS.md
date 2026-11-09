@@ -38,7 +38,7 @@ learned lore. A redesign must decide explicitly whether it may use that spoiler 
 | [D0012](D0012-collected/report.md) | Gnome Paladin CL2 | DL1 | poison (worm mass) | survived (1-hit mold) | [#325](https://github.com/diegoami/better-borg-c/issues/325) |
 | [D0013](D0013-collected/report.md) | Dunadan Druid CL1 | DL1 | small kobold | survived (fled ant) | [#332](https://github.com/diegoami/better-borg-c/issues/332) |
 | [D0014](D0014-collected/report.md) | High-Elf Rogue CL11 | DL20 | blood falcon | survived (Speed, CLW, detection) | [#341](https://github.com/diegoami/better-borg-c/issues/341) |
-| [D0015](D0015-collected/report.md) | Dunadan Necromancer CL1 | DL1 | Fang | pending | [#348](https://github.com/diegoami/better-borg-c/issues/348) |
+| [D0015](D0015-collected/report.md) | Dunadan Necromancer CL1 | DL1 | Fang | died too (from 4118) | [#348](https://github.com/diegoami/better-borg-c/issues/348) |
 
 What the owner keeps saying, across reviews: the Borg had the tools and the knowledge, but
 its decision layers did not use them, or worked against each other.
@@ -259,8 +259,10 @@ Issues: [#321](https://github.com/diegoami/better-borg-c/issues/321),
 **Failure.**
 - **D0013:** starting gold went on a Ring of Protection [+10] (266) and an unknown ring (50).
   It bought **one** Phase Door and **no** CLW.
-- **D0015:** all starting gold went on armour pieces and a ring, with no cures, and its one
-  Phase Door was already used.
+- **D0015:** of **357** starting gold, **330** went on AC (ring 150, robe 84, boots 84,
+  cloak 6) and only 15 on a single Phase Door. The starting Word of Recall was deposited at
+  Home. The owner's verified manual takeover at the first bite also died, three squares from
+  the stair, unable to cure a graze. Preparation, not tactics, decided it.
 - **D0001:** Phase Door was stored at Home while spare weapons and armour were carried.
 - **D0011:** died carrying 4 Rings of Searching, 9 spare torches and sandals, with no Phase
   Door, Recall or teleport.
@@ -355,7 +357,7 @@ See `patches/series.json` and the per-carry measurement notes in `docs/measureme
 ## L13. How to evaluate a redesign against this evidence
 
 - **Fixtures.** Each dossier records the source, build, seed and options. Owner manual branches
-  (`owner-manual-branch.json` in D0010, D0012, D0013, D0014) give a verified prefix and a
+  (`owner-manual-branch.json` in D0010, D0012, D0013, D0014, D0015) give a verified prefix and a
   known-feasible alternative. Use them as scenario tests: start from the same state, check
   that the decision is at least as good.
 - **Do not count replays.** Repeated runs of the same start, reference variants and manual
