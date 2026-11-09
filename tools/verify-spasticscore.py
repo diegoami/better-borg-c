@@ -16,7 +16,8 @@ and the fresh grid (13,2) wins (rc=1, goal=(13,2)).
 consistent: the north-west wall grids carry the same counts, both
 penalties agree, and both phases pick (13,2) with a byte-identical
 log.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: the consumer-designed product-side fixture pinned at
+its own commit 3d6a0953cb9127fcc0aa000beddfd1ebd5b3ab44, asserted byte-identical to the run pin.
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

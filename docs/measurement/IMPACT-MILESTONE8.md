@@ -10,7 +10,9 @@ owner-decided cleanup, the dimdoor-21/urgentshop-23 stacked pair, deadtake-72), 
 a consumer-designed product-side fixture. One board pair, regensim-516, was resolved as **already
 carried** (overlap of patch 0003) with no patch. Runtime snapshot after the last carry's merge:
 `017e038e8726a7a423887a366b5d40e89c0550a1` (PR 343). Every carry is merged, labelled
-carried/open+patch-active, and receipted on its source issue.
+carried/open+patch-active, and receipted on its source issue. This package was added after the
+snapshot in PR 345 (head `5963d559c`) — a reader checking out the snapshot will not find it
+there.
 
 **Headline for reviewers:** the accumulated prior-fixture regression matrix was **rerun in full at
 the v8 tip: 75 groups, 225 cases, zero unexpected mismatches** against the committed v7 baselines
@@ -113,11 +115,13 @@ current diff baseline is `artifacts/sp/cohort-after` at `017e038e8` (retained un
   verifier's own gate-commit check.
 * **deadtake verifier (PR 339):** run pin corrected from the evidence branch's base commit to the
   generator commit itself (the evidence branch holds a single commit).
-* **spasticscore fixture (PR 343):** first fixture draft used a granite pillar whose cardinal
-  leakage created an unintended support-2 super-candidate; redesigned to direct history writes
-  with the corner-exclusion choreography. An intermediate fixture commit (`d92d7c53ff`) was
-  dropped in a worktree reset during pin repair and re-committed as `3d6a0953cb`; no product
-  change was involved and the before-build snapshot was unaffected.
+* **spasticscore fixture (PR 343):** the first fixture draft — a granite pillar whose cardinal
+  leakage created an unintended support-2 super-candidate — was redesigned in the working tree to
+  direct history writes with the corner-exclusion choreography **before any commit**; the pillar
+  draft was never committed and is not recoverable from the repository. A later commit
+  (`d92d7c53ff`) was dropped in a worktree reset during pin repair and re-committed as
+  `3d6a0953cb`; the two differ only in the added `borg.txt` profile — the `scenario.c` is
+  byte-identical. No product change was involved and the before-build snapshot was unaffected.
 * **matrix invocation (this package):** the runner resolves baselines relative to the checkout
   holding `tools/`; the first attempt ran inside the tip worktree and failed on the swap group's
   baseline paths. Rerun from the main checkout with `--build .worktrees/m8-tip/build/native`

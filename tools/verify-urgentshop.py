@@ -10,7 +10,8 @@ and borg_choose_shop().
 The poisoned and bleeding modes fail before (no cure bought) and pass
 after (cure bought); the healthy control passes in both with a
 byte-identical log.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: kit dbd9ddf1bddabb4c2b3d35099f9d0efd065ae2a3 at head e0ecd1ef777447ab02e84255be6717fea303921f, asserted byte-identical to
+the run pin.
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

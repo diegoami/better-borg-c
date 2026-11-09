@@ -18,7 +18,9 @@ The dead-entry mode fails before (the borg does not walk towards the
 gold; the phantom corner entry competes) and passes after (walks toward
 the gold); the live-only control passes in both with a byte-identical
 log.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: the kit generators at 6332987b90c9eeb55a4f90014a1e4e22cef18e0e, asserted byte-identical
+to the run pin (the evidence branch holds the generators; its
+captured rows are cross-checked separately).
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

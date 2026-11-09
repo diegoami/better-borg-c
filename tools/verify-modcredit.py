@@ -7,7 +7,8 @@ the modifiers.
 The statring and speed modes fail before (the lesser item is sold) and
 pass after (the better item is kept); the nomods control passes in both
 with a byte-identical log.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: kit 42669672433cd274307be9716bec8926f7900394 at head 0af6c5af047a55d80a228c431509c6bab07b1168, asserted byte-identical to
+the run pin.
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

@@ -8,9 +8,8 @@ The else is only reached when num_neck > 3 is false, so that tier could
 never run. The correction removes it.
 All four amulet-count modes (2/3/4/5 amulets) must pass in both phases
 with byte-identical logs — the removal changes nothing observable.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
-(the pre-fix build) fail the flip mode; after phases pass every mode;
-control logs are byte-identical across the correction.
+Fixture: kit 530689cc736c52295417c5ba853fd2ee1df26b22 at head 3885bfcd07dd13063c361002e8f5048a1df19325, asserted byte-identical to
+the run pin.
 
 Run under the shared native lock after this tree's gate build, with the
 before snapshot built at the before commit (its gate result recorded

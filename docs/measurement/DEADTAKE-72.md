@@ -36,9 +36,16 @@ profile) were complete, but the lane's captured before/after rows had
 not been pushed yet ("follow in a later commit" on the evidence head).
 This verifier therefore asserts the rows measured on consumer cores;
 the flip and control follow from the scenario's own self-check
-(`native-c/deadtake-72 finished: 1/1 passed`). The lane's recorded rows
-are cross-checked against these when they are published, and the
-receipts will be amended if they differ.
+(`native-c/deadtake-72 finished: 1/1 passed`).
+
+**Cross-check complete (2026-11-09, milestone-8 review):** the lane
+pushed its captured rows at `35987d71` and all four (phase, mode)
+combinations agree with the consumer-measured rows — before/`dead-entry`
+fails with `walks_toward_gold=0`; after/`dead-entry` passes with
+`walks_toward_gold=1`; both phases' `live-only` pass with
+`walks_toward_gold=1`. The pending obligation recorded here, on
+consumer #338, on source 72 and in the checkpoint is discharged; the
+receipts stand unamended.
 
 ## Verified results (`artifacts/dt72/scenarios`, 2026-11-09)
 

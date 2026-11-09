@@ -11,9 +11,8 @@ d_side < 3 && d_dice > 5 test, which adds 400 and is kept. The
 correction removes the dead block.
 All four blow modes (mystic/ant/orc/giant) must pass in both phases
 with byte-identical logs - the removal changes nothing observable.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
-(the pre-fix build) fail the flip mode; after phases pass every mode;
-control logs are byte-identical across the correction.
+Fixture: kit 2cb17f80146015dc9fc162f45b50cf5ba88ae11f at head 80318246564ab617197c01032a0368b2218555a5, asserted byte-identical to
+the run pin.
 
 Run under the shared native lock after this tree's gate build, with the
 before snapshot built at the before commit (its gate result recorded

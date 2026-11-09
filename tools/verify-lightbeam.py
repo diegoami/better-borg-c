@@ -11,7 +11,8 @@ borg-fight-defend.c does.
 The scrolled and scrolled_south modes fail before (beam_cast=0) and pass
 after (beam_cast=1); the top control passes in both with a
 byte-identical log.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: kit 05e527351d607583b9c30316369f8d00934a7fe0 at head 90e5fc16bfad3e7fd9ea4eff35ec9e95271b382a, asserted byte-identical to
+the run pin.
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 
