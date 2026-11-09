@@ -9,4 +9,5 @@ void measure_decision(void);
 void measure_end(void);
 void measure_note(const char *text);
 void measure_frame(void);
+void measure_divergence(const char *stream, const char *expected, const char *actual);
 #endif

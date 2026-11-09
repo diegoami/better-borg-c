@@ -61,6 +61,24 @@ previous sessions are linked only when a saved-state hash matches.
 the first mismatching stream/row/turn/field. Original bundles and named saves
 are untouched. No new independent death is registered by replay.
 
+### Counterfactual replays stop at the first divergent action
+
+A replayed life that legitimately diverges — a counterfactual engine with a
+behaviour change, exactly what improvement units compare — used to keep running
+a transcript that no longer described its world: the run could spin far past
+the wall limit without writing a decision boundary, and the comparison failed
+late with no divergence point (issue392). The replay engine now reads the
+original action transcript alongside its own generated actions and stops at
+the first mismatch or shortfall: it writes a `DIVERGENCE` row to `trace.txt`
+and a `replay-divergence.json` receipt with the divergence turn, decision
+count and expected-versus-actual keypress, leaves the already-flushed
+per-record streams in place, declines `record-complete.json`, and exits
+non-zero via the ordinary quit path. `verification.json` carries the receipt
+as `engine_divergence`; identical-life replays compare equal and verify
+unchanged. The verifier's watchdog enforces the wall and stall limits before
+each iteration's file work and reads the trace incrementally, so enforcement
+no longer waits behind a whole-file re-parse of a fast-growing trace.
+
 ## Qualification
 
 Native tests use C source1b95154f65b2 (34 carries) and retain each actual

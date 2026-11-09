@@ -6,6 +6,7 @@ import signal
 import subprocess
 import sys
 import tempfile
+import threading
 import unittest
 from unittest import mock
 from types import SimpleNamespace
@@ -74,9 +75,11 @@ class Results(unittest.TestCase):
                     process = mock.Mock()
                     process.poll.side_effect = [None, None, 0]
                     observed = []
+                    texts = []
                     parse = measure.parse_states
 
                     def observe(text):
+                        texts.append(text)
                         records = parse(text)
                         observed.append(records)
                         return records
@@ -87,14 +90,68 @@ class Results(unittest.TestCase):
                                 writer.write(suffix)
 
                     with mock.patch.object(measure, 'parse_states', side_effect=observe), \
-                         mock.patch.object(measure.time, 'monotonic', side_effect=[0, 0.1, 0.2]), \
+                         mock.patch.object(measure.time, 'monotonic', side_effect=[0, 0.1, 0.2, 0.3]), \
                          mock.patch.object(measure.time, 'sleep', side_effect=finish_tail):
                         self.assertIsNone(measure.monitor(process, trace, 900, 90))
                     first = [{'kind': 'progress', 'turn': 123, 'decisions': 99}]
-                    self.assertEqual(observed, [first, first + [
-                        {'kind': 'progress', 'turn': 124, 'decisions': 100}]])
+                    second = [{'kind': 'progress', 'turn': 124, 'decisions': 100}]
+                    # Only complete lines are parsed; the partial UTF-8 tail is
+                    # held back at byte level and resumes intact after append.
+                    self.assertEqual(observed, [first, second])
+                    self.assertEqual(texts, ['STATE progress turn=123 decisions=99\nBORG 123 déjà vu\n',
+                                             'BORG 123 ' + character + '\nSTATE progress turn=124 decisions=100\n'])
                     process.terminate.assert_not_called()
                     self.assertEqual(trace.read_bytes(), initial + suffix)
+
+    def test_wall_limit_fires_before_another_trace_parse(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            trace = Path(tmp) / 'trace'
+            trace.write_text('STATE progress turn=123 decisions=99\n')
+            process = mock.Mock()
+            process.poll.return_value = None
+            parses = []
+            parse = measure.parse_states
+
+            def observe(text):
+                parses.append(text)
+                return parse(text)
+
+            with mock.patch.object(measure, 'parse_states', side_effect=observe), \
+                 mock.patch.object(measure.time, 'monotonic', side_effect=[0.0, 0.05, 500.0]), \
+                 mock.patch.object(measure.time, 'sleep'):
+                self.assertEqual(measure.monitor(process, trace, 10, 900), 'wall_timeout')
+            # The deadline is checked from the time captured before any file
+            # work: once it passed, no further read/parse delays enforcement.
+            self.assertEqual(len(parses), 1)
+            process.terminate.assert_called_once()
+
+    def test_stall_survives_continuous_trace_growth(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            trace = Path(tmp) / 'trace'
+            trace.write_text('STATE progress turn=123 decisions=99\n')
+            with trace.open('ab') as writer:
+                row = b'BORG 123 noise that keeps the file growing without new turns\n' * 1000
+                for _ in range(180):
+                    writer.write(row)
+            stop = threading.Event()
+
+            def grow():
+                with trace.open('ab') as writer:
+                    while not stop.wait(0.01):
+                        writer.write(row)
+
+            grower = threading.Thread(target=grow)
+            grower.start()
+            child = subprocess.Popen([sys.executable, '-c', 'import time; time.sleep(10)'])
+            try:
+                self.assertEqual(measure.monitor(child, trace, 60, 0.3), 'stalled')
+                self.assertIsNotNone(child.poll())
+            finally:
+                stop.set()
+                grower.join()
+                if child.poll() is None:
+                    child.kill()
+                    child.wait()
 
     def test_run_error_reaps_owned_process(self):
         with tempfile.TemporaryDirectory() as tmp:

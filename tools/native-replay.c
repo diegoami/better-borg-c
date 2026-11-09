@@ -14,7 +14,7 @@
 #include "borg/borg-init.h"
 
 static FILE *inputs, *clocks, *actions, *frames, *file_inputs;
-static FILE *replay_inputs, *replay_clocks, *replay_files;
+static FILE *replay_inputs, *replay_clocks, *replay_files, *replay_actions;
 static const char *directory;
 static unsigned long long input_count, frame_count;
 static unsigned int *previous_chars;
@@ -57,9 +57,11 @@ void record_init(void)
         replay_inputs = open_record(original, "events.txt", "r");
         replay_clocks = open_record(original, "clock.txt", "r");
         replay_files = open_record(original, "file-inputs.txt", "r");
+        replay_actions = open_record(original, "actions.txt", "r");
         setvbuf(replay_inputs, NULL, _IONBF, 0);
         setvbuf(replay_clocks, NULL, _IONBF, 0);
         setvbuf(replay_files, NULL, _IONBF, 0);
+        setvbuf(replay_actions, NULL, _IONBF, 0);
     }
 }
 
@@ -162,12 +164,49 @@ void record_input_result(const ui_event *event, bool wait, bool take, int result
         record_frame("input", measure_decision_count());
 }
 
+/* A replayed life that genuinely diverges must stop at the divergent action.
+ * Continuing would run a transcript that no longer describes this world and
+ * can spin without ever reaching another boundary. Report the divergence,
+ * keep the per-record streams already written, decline record-complete.json
+ * and exit non-zero; the Python verifier reports the receipt. */
+static void replay_diverged(const char *expected, const char *actual)
+{
+    char path[2048];
+    FILE *receipt;
+    measure_divergence("actions", expected, actual);
+    strnfmt(path, sizeof(path), "%s/replay-divergence.json", directory);
+    receipt = fopen(path, "w");
+    if (!receipt) quit("Cannot write replay divergence receipt");
+    fprintf(receipt, "{\"stream\":\"actions\",\"turn\":%ld,\"decisions\":%ld,"
+        "\"expected\":\"%s\",\"actual\":\"%s\"}\n",
+        (long)turn, measure_decision_count(), expected, actual);
+    fclose(receipt);
+    fflush(NULL);
+    quit("Replay diverged from the recorded actions; see replay-divergence.json");
+}
+
 struct keypress record_borg_key(struct keypress key)
 {
     if (actions) {
         fprintf(actions, "%ld %ld %d %u %u\n", (long)turn,
             measure_decision_count(), key.type, (unsigned int)key.code, key.mods);
         fflush(actions);
+    }
+    if (replay_actions) {
+        long long want_turn, want_decisions;
+        unsigned want_type, want_code, want_mods;
+        char expected[128], actual[128];
+        strnfmt(actual, sizeof(actual), "%ld %ld %d %u %u", (long)turn,
+            measure_decision_count(), key.type, (unsigned int)key.code, key.mods);
+        if (fscanf(replay_actions, "%lld %lld %u %u %u", &want_turn, &want_decisions,
+                &want_type, &want_code, &want_mods) != 5)
+            replay_diverged("end", actual);
+        strnfmt(expected, sizeof(expected), "%lld %lld %u %u %u", want_turn,
+            want_decisions, want_type, want_code, want_mods);
+        if (want_turn != (long long)turn || want_decisions != (long long)measure_decision_count()
+            || want_type != (unsigned int)key.type || want_code != (unsigned int)key.code
+            || want_mods != (unsigned int)key.mods)
+            replay_diverged(expected, actual);
     }
     return key;
 }
@@ -351,6 +390,19 @@ void record_finish(void)
 {
     FILE *done;
     if (!directory) return;
+    /* Fewer actions than the recording is also a divergence: the original
+     * life pressed keys this life never produced. */
+    if (replay_actions) {
+        long long want_turn, want_decisions;
+        unsigned want_type, want_code, want_mods;
+        char expected[128];
+        if (fscanf(replay_actions, "%lld %lld %u %u %u", &want_turn, &want_decisions,
+                &want_type, &want_code, &want_mods) == 5) {
+            strnfmt(expected, sizeof(expected), "%lld %lld %u %u %u", want_turn,
+                want_decisions, want_type, want_code, want_mods);
+            replay_diverged(expected, "end");
+        }
+    }
     /* Python compares COMPLETE streams after process cleanup, including any
      * final external inputs used by shutdown hooks. */
     done = open_record(directory, "record-complete.json", "w");

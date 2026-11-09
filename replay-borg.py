@@ -83,6 +83,21 @@ def first_difference(original, rerun, inventory_extension=False, spells_extensio
     return None
 
 
+def engine_divergence(output):
+    """The replay engine's own divergence receipt, when it stopped cleanly.
+
+    Newer recording engines compare each generated action against the
+    original transcript and stop at the first divergence (issue 392); older
+    engines only exhaust or malformed-quit, leaving no receipt."""
+    receipt = output / 'replay-divergence.json'
+    if not receipt.exists():
+        return None
+    try:
+        return json.loads(receipt.read_text())
+    except (OSError, ValueError):
+        return {'stream': 'unreadable replay-divergence.json'}
+
+
 def verify(original, output, timeout, engine=None, inventory_extension=False, spells_extension=False):
     record = recordings.validate(original)
     if output.exists():
@@ -148,7 +163,7 @@ def verify(original, output, timeout, engine=None, inventory_extension=False, sp
     result = {'schema': 'borg-replay-verification@1', 'original': str(original),
               'recording_sha256': recordings.sha(original / 'recording.json'),
               'exit_code': process.returncode if process is not None else None, 'interrupted': interrupted, 'error': error,
-              'complete': complete, 'first_difference': difference,
+              'complete': complete, 'first_difference': difference, 'engine_divergence': engine_divergence(output),
               'verified': process is not None and process.returncode == 0 and not interrupted and complete and difference is None,
               'scope': 'All recorded input, Borg actions, clock/file inputs, native-save fingerprints, RNG/player state and logical terminal frames; no checkpoint restore or new independent life'}
     if engine is not None:
@@ -240,6 +255,8 @@ def main():
                 result = verify(original, output, args.timeout)
             print('VERIFIED' if result['verified'] else 'DIVERGED', '-', output / 'verification.json')
             if not result['verified']:
+                if result.get('engine_divergence'):
+                    print(json.dumps(result['engine_divergence'], indent=2))
                 print(json.dumps(result['first_difference'], indent=2))
                 print('Original frames remain available with --view-only.')
                 return 1
