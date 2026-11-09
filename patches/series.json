@@ -1785,6 +1785,24 @@
    "verification": "docs/measurement/TORODPOWER-560.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "TPOROD-17",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/371",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/17",
+   "source_head": "d752bad27185ee7a709459b0e83186d9b0d16d7f",
+   "source_commits": [
+    "d752bad27185ee7a709459b0e83186d9b0d16d7f"
+   ],
+   "applied_commits": [
+    "3206b884b5762bbe0e25083e28740f03bc243aca"
+   ],
+   "patch": "patches/0096-tporod-class-exception.patch",
+   "patch_active": true,
+   "evidence_ref": "92ca00fdc37014073ef3e65ef5f193e6124f39f9",
+   "verification": "docs/measurement/TPOROD-17.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture (the kit keeps its warrior-buy informational mode failing by design, asserted as recorded); native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }
