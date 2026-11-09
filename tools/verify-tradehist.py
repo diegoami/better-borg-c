@@ -12,7 +12,7 @@ wrap the count stays at the ring size.
 The rations-only mode fails before (two of three stashed rations are
 retrieved) and passes after (none are); the with-recall control passes
 in both phases with a byte-identical log.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: kit 942c80a50ecd986daa5629c7903139bdfa1866f7 at head ddb06e523f711bf0780320926e66aca42d48f475. Normal phases only. Before phases
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

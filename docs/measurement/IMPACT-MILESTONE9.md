@@ -31,7 +31,7 @@ not statistics and no survival or progress claim is made either way.
 | 0096 tporod-17 | [17](https://github.com/diegoami/neo-angband-tracker/issues/17) `d752bad27` | `3206b884b` | `9a428ea38` (PR 372) | #371 | `92ca00fdc` | `TPOROD-17.md` |
 | 0097 panelrows-348 | [348](https://github.com/diegoami/neo-angband-tracker/issues/348) `82702575b` | `ee1c1bf6e` | `521c880a5` (PR 374) | #373 | `a9303c7ca` | `PANELROWS-348.md` |
 | 0098 runeglyph-295 | [295](https://github.com/diegoami/neo-angband-tracker/issues/295) `50e64a37a` | `8b96bd479` | `1f0d50768` (PR 376) | #375 | `3ce928e86` | `RUNEGLYPH-295.md` |
-| 0099 necrolight-296 | [296](https://github.com/diegoami/neo-angband-tracker/issues/296) `ea838de67` | `c2c215614` | `33207fbeb` (PR 378) | #377 | `742e04ed8` | `NECROLIGHT-296.md` |
+| 0099 necrolight-296 | [296](https://github.com/diegoami/neo-angband-tracker/issues/296) `ea838de67` | `c2c215614` | `33207fbee` (PR 378) | #377 | `742e04ed8` | `NECROLIGHT-296.md` |
 
 Every carry is a `cherry-pick -x` of one reviewed C-only source commit, one patch unit per PR,
 sequential on merged main. The source base predates earlier carried fixes in `borg-store-buy.c`
@@ -114,11 +114,11 @@ attribution, and the committed summary is the declared-green rerun at the snapsh
 | 0096 tporod `9a428ea38` | all byte-identical | alive |
 | 0097 panelrows `521c880a5` | all byte-identical | alive |
 | 0098 runeglyph `1f0d50768` | all byte-identical | alive |
-| 0099 necrolight `33207fbeb` | all byte-identical | hp 72/83/109, depths 4/6/5, alive at cap |
+| 0099 necrolight `33207fbee` | all byte-identical | hp 72/83/109, depths 4/6/5, alive at cap |
 
 First fully cohort-neutral cycle: unlike milestone 8 (where spasticscore-147 diverged all three
 seeds), no v9 carry changes any decision on the frozen v1 runs; the fixtures show where each
-decision changes. The current diff baseline is `artifacts/nl/cohort-after` at `33207fbeb`
+decision changes. The current diff baseline is `artifacts/nl/cohort-after` at `33207fbee`
 (retained under `.worktrees/necrolight`). Harness note: the retained 0091-0098 carry builds plus
 the 0099 build are what made the matrix attribution bisection above possible without any
 rebuild.
@@ -148,8 +148,53 @@ rebuild.
 * **runeglyph verifier (PR 376):** assertions rewritten to the observed product contract for the
   `floor`/`trap` controls with the divergence analysis above (no weakening of the defect
   requirement: the `rune` mode asserts the direct signal strictly).
-* **matrix tool (this PR):** three new declared transitions with attribution; the tool itself is
-  otherwise unchanged since v8 (verified: empty diff `017e038e8..33207fbeb`).
+* **matrix tool (this PR):** three new declared transitions with attribution. The tool is unchanged
+  between the v8 runtime snapshot and the v9 runtime snapshot (verified: empty diff
+  `017e038e8..33207fbee`); the only v9 change to it is the three declarations added by this PR
+  (verified: `017e038e8..8a9b5307f`, 42 lines — the two `fail`/`fail_reason`/`rows_must` blocks and
+  the matching docstring).
+
+### Milestone 9 review corrections (M9-01..M9-07, applied in the corrections PR)
+
+The milestone 9 review (issue #380) returned **approve with corrections**. All corrections are
+documentation and ledger bookkeeping; none weakens a test assertion, changes a fixture, changes a
+matrix declaration or alters runtime behaviour. Applied:
+
+* **M9-01:** the 0099 merge commit was abbreviated wrongly as `33207fbeb` in four places (this
+  table, the cohort table, the diff-baseline sentence and the matrix-tool sentence); the real
+  commit is `33207fbee` (`33207fbeb` does not resolve). Corrected. The full SHA in the prose and
+  in `docs/measurement/impact-v9/regression-summary.json` were already correct.
+* **M9-02:** nine of the ten v9 verifier docstrings carried a copy-pasted fixture line naming the
+  **banisharte-37** kit (`97bcf2a98074`/`bbc5de859c`) instead of their own. Their `PIN`/`EVIDENCE`
+  constants were correct, so the runs are unaffected; the docstrings now name their own pins.
+  This is the same defect class as M8-01 (milestone 8), applied there in PR #355.
+* **M9-03:** three v9 verifier docstrings stated the opposite of their own assertions — `runeglyph`
+  (the before-phase row is `read_rune=0`, not a duplicate read; the `floor`/`trap` controls fail in
+  both phases), `homebuy` (`pair` fails before, it does not "pass") and `tporod` (`warrior-buy`
+  passes after on this product, it does not "stay failing"). Rewritten to match the assertions and
+  the corresponding carry documents; the assertions themselves were the strict and correct ones and
+  are unchanged.
+* **M9-04:** the ten v9 adoption issues (#359, #361, #363, #365, #367, #369, #371, #373, #375,
+  #377) carried no labels, while this document claimed "labelled carried/open+patch-active". The
+  `carried` and `patch-active` labels are now applied (the carries are merged, built and verified,
+  which is what RULES 5 means by `carried`); the issues stay open until upstream resolves them.
+* **M9-05:** the matrix-tool disclosure cited a diff range that excluded the three declarations it
+  was describing; the range is corrected and the wording split so that "unchanged" is stated
+  against the range that carries the change.
+* **M9-06:** `patches/README.md` carried the ninety-second, ninety-fourth and ninety-sixth carry
+  paragraphs twice. The ninety-sixth pair contradicted itself — the stale variant said the
+  `warrior-buy` mode "stays failing by design" while the other said it "diverges on this product
+  (disclosed)"; the stale variant is removed and the corrected one kept, as the ninety-fifth
+  duplicate was removed in PR 370. No duplicated paragraph remains in the ledger README.
+* **M9-07:** `PANELROWS-348.md` named the sanitizer error class wrongly for the tall-terminal
+  modes ("heap-buffer-overflow"); the logs and the results section both say
+  **global-buffer-overflow READ of size 8** (the `borg_grids` row pointer) for the tall modes and
+  heap-buffer-overflow READ of size 2 (the grid byte) for the wide ones. Corrected in the
+  document and in the ledger README entry.
+
+M9-08 (milestone 9 has no issues attached, so it cannot act as a tracker) is recorded but not
+applied: milestone 8 has the same empty state, so the milestone is a marker and this package is
+the index, by the established convention.
 
 ## Exact next work
 
