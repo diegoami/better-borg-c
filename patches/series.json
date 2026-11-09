@@ -1821,6 +1821,24 @@
    "verification": "docs/measurement/PANELROWS-348.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "memory-safety defect: verified with ASan phases per the contract (0068/0070 precedent) on the unchanged source fixture; two-file provenance; native gate at before and tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "RUNEGLYPH-295",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/375",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/295",
+   "source_head": "50e64a37a837c3ce4563e9ade452ce28db5cee82",
+   "source_commits": [
+    "50e64a37a837c3ce4563e9ade452ce28db5cee82"
+   ],
+   "applied_commits": [
+    "8b96bd47984b22aac9a74498ba0114f4175f6e6a"
+   ],
+   "patch": "patches/0098-visible-rune-recording.patch",
+   "patch_active": true,
+   "evidence_ref": "3ce928e869641bd2d789dfca1566c890121922f9",
+   "verification": "docs/measurement/RUNEGLYPH-295.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }

@@ -1,0 +1,55 @@
+From 8b96bd47984b22aac9a74498ba0114f4175f6e6a Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 10:37:34 +0000
+Subject: [PATCH] borg: record a visible Rune of Protection on the Borg's map
+
+The Borg's map update set a grid's glyph flag only inside the branch for
+visible, disarmable player traps.  A Rune of Protection (and a decoy) is
+a glyph, not a player trap: its kind carries GLYPH | VISIBLE | FLOOR and
+no TRAP flag, so that branch never ran for it and the Borg's map said
+there was no rune on a grid that visibly had one.
+
+Standing on such a rune with a summoner in view, the Borg's defence
+choice therefore still saw the full summoning danger and read another
+Rune of Protection onto the same grid, spending a scroll and a turn for
+nothing.
+
+Also enter the branch when the trap the player remembers on the grid
+(map_info) is a glyph, and mark the grid as a trap only for a real
+disarmable player trap.  The rune is then recorded and tracked as the
+Borg's own runes are, and the Borg no longer reads a second rune on top
+of it.
+
+Tracked as diegoami/neo-angband-tracker#295.
+
+(cherry picked from commit 50e64a37a837c3ce4563e9ade452ce28db5cee82)
+---
+ src/borg/borg-update.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-update.c b/src/borg/borg-update.c
+index 975ed846c..b88176a8b 100644
+--- a/src/borg/borg-update.c
++++ b/src/borg/borg-update.c
+@@ -328,12 +328,16 @@ static void borg_update_map(void)
+ 
+             /* this checks that the trap is visible so it isn't really */
+             /* a cheat of any information the borg couldn't get another way*/
+-            } else if (square_isdisarmabletrap(cave, l)) {
++            /* A glyph (rune of protection) is not a player trap, so it is */
++            /* taken from the trap the player remembers on this grid. */
++            } else if (square_isdisarmabletrap(cave, l)
++                       || (g.trap && trf_has(g.trap->flags, TRF_GLYPH))) {
+                 /* Minor cheat for the borg.  If the borg is running
+                  * in the graphics mode (not the AdamBolt Tiles) he will
+                  * mis-id the glyph of warding as a trap
+                  */
+-                ag->trap      = true;
++                if (square_isdisarmabletrap(cave, l))
++                    ag->trap = true;
+                 uint8_t t_idx = square(cave, l)->trap->t_idx;
+                 if (trf_has(trap_info[t_idx].flags, TRF_GLYPH)) {
+                     ag->glyph = true;
+-- 
+2.53.0
+
