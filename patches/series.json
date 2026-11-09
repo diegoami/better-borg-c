@@ -1749,6 +1749,24 @@
    "verification": "docs/measurement/HOMEBUYQTY-19.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "TRADEHIST-20",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/367",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/20",
+   "source_head": "9ae5e4585599aa4f3c5dce7c2259fe7e2604cea1",
+   "source_commits": [
+    "9ae5e4585599aa4f3c5dce7c2259fe7e2604cea1"
+   ],
+   "applied_commits": [
+    "168a43252287113734131a982227e86056df971d"
+   ],
+   "patch": "patches/0094-trade-history-counts.patch",
+   "patch_active": true,
+   "evidence_ref": "942c80a50ecd986daa5629c7903139bdfa1866f7",
+   "verification": "docs/measurement/TRADEHIST-20.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture (two-file provenance); native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }
