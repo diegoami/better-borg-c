@@ -10,9 +10,15 @@ single weapon in the home, the weapon was left at quantity zero and the
 backup-weapon step skipped it.  The correction restores the ware before
 each of those continues.
 The single mode fails before (the backup-weapon step skips the zeroed
-ware) and passes after (it buys); the pair, roomy and stack modes pass
-in both phases.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+ware) and passes after (it buys).  The pair mode is a second flip on
+this product, disclosed: its outcome row (buys_home_ware0=1) matches
+the kit's recorded row in both phases, but the scenario's own
+self-check fails before the fix here, because the carried
+urgentshop-23/starvealch-18 changes in this module alter that
+secondary self-check (the kit's before-row passed on the pristine
+base); after the fix it passes.  The roomy and stack controls pass in
+both phases with byte-identical logs.
+Fixture: kit 40495b33a5136be40b09b317f731f60841686c00 at head fbd96fa79610d00a148372efd55a63ee5da13c66. Normal phases only. Before phases
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

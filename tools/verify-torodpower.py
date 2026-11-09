@@ -10,7 +10,7 @@ The rod mode fails before (the rod is left in the shop) and passes
 after (it is bought); the wand and mage controls pass in both phases
 with byte-identical logs (a Borg that already has the spell or wand
 charges values the rod as before).
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: kit 12a59c5c4d20ec9b66e2d151f9646a8c7937b7b6 at head 4141bfa68bf29936f2a97dbad637d7f8a7555738. Normal phases only. Before phases
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

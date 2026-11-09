@@ -8,12 +8,19 @@ it applied to Rogues only: Rogues saved gold for a rod they do not need
 and other classes fell back to the general Black Market rule that waits
 for much more gold.  The correction uses != for both classes, as the
 Recall and Speed rod exceptions next to it do.
-As recorded by the kit: the warrior and rogue modes flip (the warrior
-now saves for the rod, the rogue stops), the mage mode passes in both
-phases with a byte-identical log, and the warrior-buy informational
-mode stays failing in both phases (the scenario cannot afford the rod
-even while saving; the kit keeps it failing by design).
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+The warrior and rogue modes flip as recorded by the kit (the warrior
+now saves for the rod, the rogue stops); the mage mode passes in both
+phases with a byte-identical log.  The warrior-buy informational mode
+diverges from the kit's recorded rows on this product, disclosed: on
+the kit's pristine base the scenario cannot afford the rod even while
+saving (row saves=1/buys=0, failing).  Here the carried sibling rod
+fixes (patch 0091 tele-away defence, patch 0095 BI_ATPORTOTHER power)
+change the scenario: before this fix the warrior neither saves nor buys
+(row saves=0/buys=0, failing); after this fix it saves and completes
+the purchase (row saves=1/buys=1, passing) -- the class exception
+working together with the sibling carries.  Attribution to the sibling
+patches follows from their recorded tree scopes.
+Fixture: kit 92ca00fdc37014073ef3e65ef5f193e6124f39f9 at head a85a78156f53265c85ae09d3281c0d8fd401070b. Normal phases only. Before phases
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

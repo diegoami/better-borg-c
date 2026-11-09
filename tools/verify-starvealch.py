@@ -15,7 +15,7 @@ cherry-pick's first hunk is resolved by hand preserving both.
 The starving mode fails before (nothing bought) and passes after (the
 Remove Hunger scroll is bought); the general_food and fed controls pass
 in both phases with byte-identical logs.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: kit 98aa8ad02781766425e8ff1b28550f860f034417 at head 99db3c5ca26afceb280b0f49fb48f2756176488e. Normal phases only. Before phases
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

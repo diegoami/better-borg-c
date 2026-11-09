@@ -10,7 +10,7 @@ zap (borg_equips_rod) and zaps it when the defence is chosen.
 The rod mode fails before (no teleport away used) and passes after
 (the rod is zapped and the monster moves); the wand and weak controls
 pass in both phases with byte-identical logs.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: kit f3323c2f010ef803424e0a3548728e03b576e94b at head 8b30cf629baf9ee0b2cc4ee381c402bcc293598a. Normal phases only. Before phases
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

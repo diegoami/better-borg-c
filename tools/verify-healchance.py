@@ -10,7 +10,7 @@ adjustment added 5.  The correction flips the three signs; the class
 adjustment and thresholds are unchanged.
 The danger, unique and risky modes flip as recorded; the control passes
 in both phases with a byte-identical log.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: kit 3adc1b8128edfe31ca9a395d64f860b995396ec6 at head f88fee1e3ace2b5f34f6fc8a1b4fbc30d3f94da1. Normal phases only. Before phases
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 

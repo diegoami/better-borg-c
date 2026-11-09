@@ -14,7 +14,7 @@ The lit mode fails before (the estimate undershoots the game's chance
 and the spell is cast anyway) and passes after (the estimate matches
 the game's 33% and the borg refuses); the dark and mage controls pass
 in both phases with byte-identical logs.
-Fixture: kit 97bcf2a980749472b5ce1dba44ac7cb054ca274d at head bbc5de859c7b27d02d88c1bb84ec46d796de8716. Normal phases only. Before phases
+Fixture: kit 742e04ed8358e566933902faf63aaca36b91ff1b at head ee195556f3f0eb811f5b09638a433280223a0dcc. Normal phases only. Before phases
 (the pre-fix build) fail the flip mode; after phases pass every mode;
 control logs are byte-identical across the correction.
 
