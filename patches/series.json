@@ -1641,6 +1641,24 @@
    "verification": "docs/measurement/URGENTSHOP-23.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture (two-file provenance); native gate at each stacked step; carried/open+patch-active after merge"
+  },
+  {
+   "id": "DEADTAKE-72",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/338",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/72",
+   "source_head": "9492d74ce57ae63fca41866113bc7f35463c5704",
+   "source_commits": [
+    "9492d74ce57ae63fca41866113bc7f35463c5704"
+   ],
+   "applied_commits": [
+    "f13c96b8f58dc21f4e608043539aa8e2ffbaf8fc"
+   ],
+   "patch": "patches/0088-lunal-take-dead-entries.patch",
+   "patch_active": true,
+   "evidence_ref": "6332987b90c9eeb55a4f90014a1e4e22cef18e0e",
+   "verification": "docs/measurement/DEADTAKE-72.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture (kit generators; the lane's recorded-row cross-check pending its later artifacts commit); native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }
