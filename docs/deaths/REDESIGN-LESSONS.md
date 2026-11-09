@@ -38,7 +38,7 @@ learned lore. A redesign must decide explicitly whether it may use that spoiler 
 | [D0012](D0012-collected/report.md) | Gnome Paladin CL2 | DL1 | poison (worm mass) | survived (1-hit mold) | [#325](https://github.com/diegoami/better-borg-c/issues/325) |
 | [D0013](D0013-collected/report.md) | Dunadan Druid CL1 | DL1 | small kobold | survived (fled ant) | [#332](https://github.com/diegoami/better-borg-c/issues/332) |
 | [D0014](D0014-collected/report.md) | High-Elf Rogue CL11 | DL20 | blood falcon | survived (Speed, CLW, detection) | [#341](https://github.com/diegoami/better-borg-c/issues/341) |
-| [D0015](D0015-collected/report.md) | Dunadan Necromancer CL1 | DL1 | Fang | died too (from 4118) | [#348](https://github.com/diegoami/better-borg-c/issues/348) |
+| [D0015](D0015-collected/report.md) | Dunadan Necromancer CL1 | DL1 | Fang | died (from 4118); re-shop from turn 1 survived | [#348](https://github.com/diegoami/better-borg-c/issues/348) |
 
 What the owner keeps saying, across reviews: the Borg had the tools and the knowledge, but
 its decision layers did not use them, or worked against each other.
@@ -263,6 +263,11 @@ Issues: [#321](https://github.com/diegoami/better-borg-c/issues/321),
   cloak 6) and only 15 on a single Phase Door. The starting Word of Recall was deposited at
   Home. The owner's verified manual takeover at the first bite also died, three squares from
   the stair, unable to cure a graze. Preparation, not tactics, decided it.
+  From the **same 357 gold**, the owner's verified re-shop from turn 1 bought a second Recall
+  (keeping the first), 4 Phase Door, 3 CLW, Monster Confusion, Detect Invisible, Remove Hunger
+  and a flask of oil, plus only 20 gold of armour. He then toured DL1 and returned with 926
+  gold. Owner: "buying the right gear at the shop at the beginning is half the battle." Use
+  this as a reference starting loadout.
 - **D0001:** Phase Door was stored at Home while spare weapons and armour were carried.
 - **D0011:** died carrying 4 Rings of Searching, 9 spare torches and sandals, with no Phase
   Door, Recall or teleport.
