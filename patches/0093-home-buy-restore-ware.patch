@@ -1,0 +1,64 @@
+From d649a36fbf0e924bbb252c7d14356b415b3fff26 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 02:44:35 +0000
+Subject: [PATCH] borg: restore the home ware when a home-buy trial is skipped
+
+borg_think_home_buy_useful() takes the trial quantity (and, for staffs
+and wands, its charges) off its copy of the home ware before it checks
+that the pack has room.  The two "require two empty slots" checks then
+skip the ware with a bare continue, so the copy is left reduced instead
+of being restored from borg_safe_shops at the end of the loop body.
+
+The later store steps read that copy.  With exactly one free pack slot
+and a single weapon in the home, the weapon is left with quantity zero,
+and the backup-weapon step (borg_think_home_buy_swap_weapon) skips it as
+an empty slot even though it would buy it otherwise.
+
+Restore the ware before each of those continues.
+
+Tracked as diegoami/neo-angband-tracker#19.
+
+(cherry picked from commit e075f0ac7c618fdd32eb5bd4b49d1936e8738da4)
+---
+ src/borg/borg-store-buy.c | 16 ++++++++++------
+ 1 file changed, 10 insertions(+), 6 deletions(-)
+
+diff --git a/src/borg/borg-store-buy.c b/src/borg/borg-store-buy.c
+index bd0c7a2be..f646863e5 100644
+--- a/src/borg/borg-store-buy.c
++++ b/src/borg/borg-store-buy.c
+@@ -514,10 +514,12 @@ bool borg_think_home_buy_useful(void)
+         p = 0;
+         if (slot >= 0) {
+             /* Require two empty slots */
+-            if (hole == -1)
+-                continue;
+-            if ((hole + 1) >= PACK_SLOTS)
++            if (hole == -1 || (hole + 1) >= PACK_SLOTS) {
++                /* Restore shop item */
++                memcpy(&borg_shops[BORG_HOME].ware[n],
++                    &borg_safe_shops[BORG_HOME].ware[n], sizeof(borg_item));
+                 continue;
++            }
+ 
+             /* Check Rings */
+             if (slot == INVEN_LEFT) {
+@@ -636,10 +638,12 @@ bool borg_think_home_buy_useful(void)
+                 hole = stack;
+ 
+             /* Require two empty slots */
+-            if (stack == -1 && hole == -1)
+-                continue;
+-            if (stack == -1 && (hole + 1) >= PACK_SLOTS)
++            if (stack == -1 && (hole == -1 || (hole + 1) >= PACK_SLOTS)) {
++                /* Restore shop item */
++                memcpy(&borg_shops[BORG_HOME].ware[n],
++                    &borg_safe_shops[BORG_HOME].ware[n], sizeof(borg_item));
+                 continue;
++            }
+ 
+             /* Move new item into inventory */
+             memcpy(&borg_items[hole], &borg_safe_shops[BORG_HOME].ware[n],
+-- 
+2.53.0
+

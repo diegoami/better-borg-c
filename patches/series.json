@@ -1731,6 +1731,24 @@
    "verification": "docs/measurement/HEALCHANCE-364.md",
    "credit": "Diego Amicabile (native proposal/evidence)",
    "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
+  },
+  {
+   "id": "HOMEBUYQTY-19",
+   "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/365",
+   "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/19",
+   "source_head": "e075f0ac7c618fdd32eb5bd4b49d1936e8738da4",
+   "source_commits": [
+    "e075f0ac7c618fdd32eb5bd4b49d1936e8738da4"
+   ],
+   "applied_commits": [
+    "d649a36fbf0e924bbb252c7d14356b415b3fff26"
+   ],
+   "patch": "patches/0093-home-buy-restore-ware.patch",
+   "patch_active": true,
+   "evidence_ref": "40495b33a5136be40b09b317f731f60841686c00",
+   "verification": "docs/measurement/HOMEBUYQTY-19.md",
+   "credit": "Diego Amicabile (native proposal/evidence)",
+   "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
   }
  ]
 }
