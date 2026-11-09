@@ -198,6 +198,13 @@ the index, by the established convention.
 
 ## Exact next work
 
-1. PR from `task/milestone-9`, agent evidence review plus required hosted checks, then normal
-   merge.
-2. Tag placement (`4.2.6-impact-v9`) requires explicit owner authorization, same as v8.
+1. ~~PR from `task/milestone-9`~~ done: PR 379, merged `eb9a78edd`.
+## Tag
+
+Placed. `4.2.6-impact-v9` is an annotated tag on the runtime snapshot
+`33207fbeeb582e67d6b18e9f40613617667905ae`, created 2026-11-09 under
+explicit owner authorization, after the independent review's
+approve-with-corrections verdict (#380) and the application of its
+corrections (PR 381, `24eb7666e`; state recorded in PR 382). The tag
+message records the snapshot, the review outcome, the matrix result and
+the authorization.
