@@ -1,0 +1,1472 @@
+BORG 7863 # Tracking a monster 'cutpurse' at (47,67) from (48,68)
+BORG 7863 # Scary guy on level.
+BORG 7863 # Loc:46,67 Dep:2 Lev:2 HP:24/30 SP:2/3 Danger:p=172
+BORG 7863 # Fleeing and leaving the level. (scaryguy)
+BORG 7863 # Backing up to 68,45 (172 > 9)
+BORG 7873 # FEELING_STUFF:9 (+)
+BORG 7873 # Tracking a monster 'cutpurse' at (46,68) from (47,67)
+BORG 7873 # Creating a monster 'white harpy' at (44,71), HP: 6, Index: 45
+BORG 7873 # Removing Regional Fear (44,71) because of a LOS white harpy
+BORG 7873 # FEELING_STUFF:9 (1)
+BORG 7873 # Scary guy on level.
+BORG 7873 # Loc:45,68 Dep:2 Lev:2 HP:24/30 SP:2/3 Danger:p=173
+BORG 7873 # Fleeing and leaving the level. (scaryguy)
+BORG 7873 # Adjacent to monster on Scaryguy Level.
+BORG 7873 # Adjacent to monster on Scaryguy Level.
+BORG 7873 # Performing attack type 1 with value 314.
+BORG 7873 # Facing cutpurse at (46,68) who has 26 Hit Points.
+BORG 7873 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7883 # HIT:the cutpurse (+)
+BORG 7883 # HIT_BY:The cutpurse (+)
+BORG 7883 # MISS_BY:The cutpurse (+)
+BORG 7883 # Tracking a monster 'white harpy' at (44,69) from (44,71)
+BORG 7883 # Creating a monster 'giant white mouse' at (47,66), HP: 2, Index: 23
+BORG 7883 # Removing Regional Fear (47,66) because of a LOS giant white mouse
+BORG 7883 # HIT:the cutpurse (2)
+BORG 7883 # HIT_BY:The cutpurse (3)
+BORG 7883 # MISS_BY:The cutpurse (3)
+BORG 7883 # Scary guy on level.
+BORG 7883 # Loc:45,68 Dep:2 Lev:2 HP:18/30 SP:2/3 Danger:p=188
+BORG 7883 # Fleeing and leaving the level. (scaryguy)
+BORG 7883 # Adjacent to monster on Scaryguy Level.
+BORG 7883 # Adjacent to monster on Scaryguy Level.
+BORG 7883 # Performing attack type 1 with value 314.
+BORG 7883 # Facing cutpurse at (46,68) who has 19 Hit Points.
+BORG 7883 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7893 # MISS:the cutpurse (+)
+BORG 7893 # HIT_BY:The white harpy (+)
+BORG 7893 # HIT_BY:The white harpy (+)
+BORG 7893 # HIT_BY:The white harpy (+)
+BORG 7893 # HIT_BY:The cutpurse (+)
+BORG 7893 # MISS_BY:The cutpurse (+)
+BORG 7893 # Tracking a monster 'giant white mouse' at (47,67) from (47,66)
+BORG 7893 # Tracking a monster 'cutpurse' at (48,67) from (48,72)
+BORG 7893 # MISS:the cutpurse (2)
+BORG 7893 # HIT_BY:The white harpy (3)
+BORG 7893 # HIT_BY:The white harpy (3)
+BORG 7893 # HIT_BY:The white harpy (3)
+BORG 7893 # HIT_BY:The cutpurse (3)
+BORG 7893 # MISS_BY:The cutpurse (3)
+BORG 7893 # Scary guy on level.
+BORG 7893 # Loc:45,68 Dep:2 Lev:2 HP:13/30 SP:2/3 Danger:p=215
+BORG 7893 # Fleeing and leaving the level. (scaryguy)
+BORG 7893 # Adjacent to monster on Scaryguy Level.
+BORG 7893 # Adjacent to monster on Scaryguy Level.
+BORG 7893 # Performing attack type 1 with value 314.
+BORG 7893 # Facing cutpurse at (46,68) who has 19 Hit Points.
+BORG 7893 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7903 # HIT:the cutpurse (+)
+BORG 7903 # Tracking a monster 'cutpurse' at (47,67) from (48,67)
+BORG 7903 # Tracking a monster 'giant white mouse' at (46,67) from (47,67)
+BORG 7903 # Tracking a monster 'white harpy' at (44,70) from (44,69)
+BORG 7903 # Creating a monster 'apprentice' at (48,67), HP: 17, Index: 39
+BORG 7903 # Removing Regional Fear (48,67) because of a LOS apprentice
+BORG 7903 # HIT:the cutpurse (2)
+BORG 7903 # Possibility of being surrounded (monsters/safegrids)(5/4)
+BORG 7903 # Scary guy on level.
+BORG 7903 # Loc:45,68 Dep:2 Lev:2 HP:14/30 SP:2/3 Danger:p=352
+BORG 7903 # Fleeing and leaving the level. (scaryguy)
+BORG 7903 # Adjacent to monster on Scaryguy Level.
+BORG 7903 # Adjacent to monster on Scaryguy Level.
+BORG 7903 # Adjacent to monster on Scaryguy Level.
+BORG 7903 # Performing attack type 1 with value 314.
+BORG 7903 # Facing cutpurse at (46,68) who has 13 Hit Points.
+BORG 7903 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7913 # HIT:the cutpurse (+)
+BORG 7913 # MISS_BY:The cutpurse (+)
+BORG 7913 # MISS_BY:The cutpurse (+)
+BORG 7913 # HIT_BY:The giant white mouse (+)
+BORG 7913 # Tracking a monster 'apprentice' at (47,66) from (48,67)
+BORG 7913 # Tracking a monster 'white harpy' at (45,69) from (44,70)
+BORG 7913 # HIT:the cutpurse (2)
+BORG 7913 # MISS_BY:The cutpurse (3)
+BORG 7913 # MISS_BY:The cutpurse (3)
+BORG 7913 # HIT_BY:The giant white mouse (3)
+BORG 7913 # Possibility of being surrounded (monsters/safegrids)(5/3)
+BORG 7913 # Scary guy on level.
+BORG 7913 # Loc:45,68 Dep:2 Lev:2 HP:12/30 SP:2/3 Danger:p=390
+BORG 7913 # Fleeing and leaving the level. (scaryguy)
+BORG 7913 # Adjacent to monster on Scaryguy Level.
+BORG 7913 # Adjacent to monster on Scaryguy Level.
+BORG 7913 # Adjacent to monster on Scaryguy Level.
+BORG 7913 # Performing attack type 1 with value 314.
+BORG 7913 # Facing cutpurse at (46,68) who has 7 Hit Points.
+BORG 7913 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7923 # HIT:the cutpurse (+)
+BORG 7923 # PAIN:The cutpurse (+)
+BORG 7923 # PAIN:The cutpurse (+)
+BORG 7923 # Tracking a monster 'apprentice' at (48,67) from (47,66)
+BORG 7923 # Tracking a monster 'white harpy' at (44,68) from (45,69)
+BORG 7923 # HIT:the cutpurse (2)
+BORG 7923 # PAIN:The cutpurse (2)
+BORG 7923 # PAIN:The cutpurse (2)
+BORG 7923 # There was a monster 'cutpurse' at (47,67)
+BORG 7923 # Forgetting a monster 'cutpurse' at (47,67)
+BORG 7923 # Possibility of being surrounded (monsters/safegrids)(4/3)
+BORG 7923 # Scary guy on level.
+BORG 7923 # Loc:45,68 Dep:2 Lev:2 HP:12/30 SP:2/3 Danger:p=315
+BORG 7923 # Fleeing and leaving the level. (scaryguy)
+BORG 7923 # Adjacent to monster on Scaryguy Level.
+BORG 7923 # Adjacent to monster on Scaryguy Level.
+BORG 7923 # Adjacent to monster on Scaryguy Level.
+BORG 7923 # Performing attack type 1 with value 314.
+BORG 7923 # Facing cutpurse at (46,68) who has 3 Hit Points.
+BORG 7923 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7933 # HIT:the cutpurse (+)
+BORG 7933 # KILL:the cutpurse (+)
+BORG 7933 # HIT_BY:The white harpy (+)
+BORG 7933 # HIT_BY:The white harpy (+)
+BORG 7933 # MISS_BY:The white harpy (+)
+BORG 7933 # Forgetting a monster 'cutpurse' at (46,68)
+BORG 7933 # Tracking a monster 'giant white mouse' at (47,66) from (46,67)
+BORG 7933 # Tracking a monster 'apprentice' at (47,67) from (48,67)
+BORG 7933 # Creating an object 'Phase Door' at (68,46)
+BORG 7933 # HIT:the cutpurse (2)
+BORG 7933 # KILL:the cutpurse (2)
+BORG 7933 # HIT_BY:The white harpy (3)
+BORG 7933 # HIT_BY:The white harpy (3)
+BORG 7933 # MISS_BY:The white harpy (3)
+BORG 7933 # Scary guy on level.
+BORG 7933 # Loc:45,68 Dep:2 Lev:2 HP:10/30 SP:2/3 Danger:p=132
+BORG 7933 # Fleeing and leaving the level. (scaryguy)
+BORG 7933 # Adjacent to monster on Scaryguy Level.
+BORG 7933 # Adjacent to monster on Scaryguy Level.
+BORG 7933 # Performing attack type 38 with value 18.
+BORG 7933 # Targeting apprentice who has 17 Hit Points (47,67).
+BORG 7933 # Casting Nether Bolt (0,0).
+BORG 7943 # PAIN:The apprentice (+)
+BORG 7943 # MISS_BY:The white harpy (+)
+BORG 7943 # HIT_BY:The white harpy (+)
+BORG 7943 # MISS_BY:The white harpy (+)
+BORG 7943 # Tracking a monster 'apprentice' at (46,68) from (47,67)
+BORG 7943 # Tracking a monster 'giant white mouse' at (46,67) from (47,66)
+BORG 7943 # Creating an object 'Phase Door' at (68,46)
+BORG 7943 # Creating a monster 'cutpurse' at (48,67), HP: 24, Index: 37
+BORG 7943 # Removing Regional Fear (48,67) because of a LOS cutpurse
+BORG 7943 # PAIN:The apprentice (2)
+BORG 7943 # MISS_BY:The white harpy (3)
+BORG 7943 # HIT_BY:The white harpy (3)
+BORG 7943 # MISS_BY:The white harpy (3)
+BORG 7943 # Possibility of being surrounded (monsters/safegrids)(4/3)
+BORG 7943 # Scary guy on level.
+BORG 7943 # Loc:45,68 Dep:2 Lev:2 HP:10/30 SP:1/3 Danger:p=156
+BORG 7943 # Fleeing and leaving the level. (scaryguy)
+BORG 7943 # Adjacent to monster on Scaryguy Level.
+BORG 7943 # Adjacent to monster on Scaryguy Level.
+BORG 7943 # Performing attack type 1 with value 161.
+BORG 7943 # Facing apprentice at (46,68) who has 11 Hit Points.
+BORG 7943 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7953 # HIT:the apprentice (+)
+BORG 7953 # HIT_BY:The giant white mouse (+)
+BORG 7953 # MISS_BY:The apprentice (+)
+BORG 7953 # Tracking a monster 'cutpurse' at (47,67) from (48,67)
+BORG 7953 # Tracking a monster 'white harpy' at (43,69) from (44,68)
+BORG 7953 # Creating an object 'Phase Door' at (68,46)
+BORG 7953 # Creating a monster 'apprentice' at (48,67), HP: 15, Index: 39
+BORG 7953 # Removing Regional Fear (48,67) because of a LOS apprentice
+BORG 7953 # HIT:the apprentice (2)
+BORG 7953 # HIT_BY:The giant white mouse (3)
+BORG 7953 # MISS_BY:The apprentice (3)
+BORG 7953 # Possibility of being surrounded (monsters/safegrids)(5/4)
+BORG 7953 # Scary guy on level.
+BORG 7953 # Loc:45,68 Dep:2 Lev:2 HP:9/30 SP:1/3 Danger:p=228
+BORG 7953 # Fleeing and leaving the level. (scaryguy)
+BORG 7953 # Adjacent to monster on Scaryguy Level.
+BORG 7953 # Adjacent to monster on Scaryguy Level.
+BORG 7953 # Performing attack type 1 with value 161.
+BORG 7953 # Facing apprentice at (46,68) who has 6 Hit Points.
+BORG 7953 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7963 # HIT:the apprentice (+)
+BORG 7963 # PAIN:The apprentice (+)
+BORG 7963 # PAIN:The apprentice (+)
+BORG 7963 # Tracking a monster 'apprentice' at (47,67) from (48,67)
+BORG 7963 # Tracking a monster 'white harpy' at (42,68) from (43,69)
+BORG 7963 # Tracking a monster 'giant white mouse' at (47,66) from (47,64)
+BORG 7963 # Creating an object 'Phase Door' at (68,46)
+BORG 7963 # HIT:the apprentice (2)
+BORG 7963 # PAIN:The apprentice (2)
+BORG 7963 # PAIN:The apprentice (2)
+BORG 7963 # There was a monster 'cutpurse' at (47,67)
+BORG 7963 # Forgetting a monster 'cutpurse' at (47,67)
+BORG 7963 # Possibility of being surrounded (monsters/safegrids)(5/4)
+BORG 7963 # Scary guy on level.
+BORG 7963 # Loc:45,68 Dep:2 Lev:2 HP:9/30 SP:1/3 Danger:p=159
+BORG 7963 # Fleeing and leaving the level. (scaryguy)
+BORG 7963 # Adjacent to monster on Scaryguy Level.
+BORG 7963 # Performing attack type 1 with value 14.
+BORG 7963 # Facing giant white mouse at (46,67) who has 2 Hit Points.
+BORG 7963 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7973 # HIT:the giant white mouse (+)
+BORG 7973 # KILL:the giant white mouse (+)
+BORG 7973 # Forgetting a monster 'giant white mouse' at (46,67)
+BORG 7973 # Tracking a monster 'apprentice' at (46,67) from (47,67)
+BORG 7973 # Creating an object 'Phase Door' at (68,46)
+BORG 7973 # Creating a monster 'cutpurse' at (48,67), HP: 24, Index: 37
+BORG 7973 # Removing Regional Fear (48,67) because of a LOS cutpurse
+BORG 7973 # HIT:the giant white mouse (2)
+BORG 7973 # KILL:the giant white mouse (2)
+BORG 7973 # There was a monster 'white harpy' at (42,68)
+BORG 7973 # Forgetting a monster 'white harpy' at (42,68)
+BORG 7973 # Scary guy on level.
+BORG 7973 # Loc:45,68 Dep:2 Lev:2 HP:9/30 SP:1/3 Danger:p=180
+BORG 7973 # Fleeing and leaving the level. (scaryguy)
+BORG 7973 # Adjacent to monster on Scaryguy Level.
+BORG 7973 # Adjacent to monster on Scaryguy Level.
+BORG 7973 # Performing attack type 1 with value 107.
+BORG 7973 # Facing apprentice at (46,67) who has 15 Hit Points.
+BORG 7973 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7983 # HIT:the apprentice (+)
+BORG 7983 # Tracking a monster 'cutpurse' at (47,67) from (48,67)
+BORG 7983 # Creating an object 'Phase Door' at (68,46)
+BORG 7983 # HIT:the apprentice (2)
+BORG 7983 # Scary guy on level.
+BORG 7983 # Loc:45,68 Dep:2 Lev:2 HP:10/30 SP:1/3 Danger:p=232
+BORG 7983 # Fleeing and leaving the level. (scaryguy)
+BORG 7983 # Adjacent to monster on Scaryguy Level.
+BORG 7983 # Adjacent to monster on Scaryguy Level.
+BORG 7983 # Performing attack type 1 with value 107.
+BORG 7983 # Facing apprentice at (46,67) who has 10 Hit Points.
+BORG 7983 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7993 # HIT:the apprentice (+)
+BORG 7993 # HIT_BY:The apprentice (+)
+BORG 7993 # Tracking a monster 'giant white mouse' at (47,67) from (47,66)
+BORG 7993 # Creating an object 'Phase Door' at (68,46)
+BORG 7993 # HIT:the apprentice (2)
+BORG 7993 # HIT_BY:The apprentice (3)
+BORG 7993 # There was a monster 'cutpurse' at (47,67)
+BORG 7993 # Forgetting a monster 'cutpurse' at (47,67)
+BORG 7993 # Scary guy on level.
+BORG 7993 # Loc:45,68 Dep:2 Lev:2 HP:6/30 SP:1/3 Danger:p=150
+BORG 7993 # Fleeing and leaving the level. (scaryguy)
+BORG 7993 # Adjacent to monster on Scaryguy Level.
+BORG 7993 # Adjacent to monster on Scaryguy Level.
+BORG 7993 # Performing attack type 1 with value 107.
+BORG 7993 # Facing apprentice at (46,67) who has 6 Hit Points.
+BORG 7993 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 8003 # HIT:the apprentice (+)
+BORG 8003 # PAIN:The apprentice (+)
+BORG 8003 # Creating an object 'Phase Door' at (68,46)
+BORG 8003 # Creating a monster 'cutpurse' at (48,67), HP: 24, Index: 37
+BORG 8003 # Removing Regional Fear (48,67) because of a LOS cutpurse
+BORG 8003 # HIT:the apprentice (2)
+BORG 8003 # PAIN:The apprentice (2)
+BORG 8003 # There was a monster 'giant white mouse' at (47,67)
+BORG 8003 # Forgetting a monster 'giant white mouse' at (47,67)
+BORG 8003 # Scary guy on level.
+BORG 8003 # Loc:45,68 Dep:2 Lev:2 HP:6/30 SP:1/3 Danger:p=159
+BORG 8003 # Fleeing and leaving the level. (scaryguy)
+BORG 8003 # Adjacent to monster on Scaryguy Level.
+BORG 8003 # Adjacent to monster on Scaryguy Level.
+BORG 8003 # Performing attack type 1 with value 160.
+BORG 8003 # Facing apprentice at (46,68) who has 1 Hit Points.
+BORG 8003 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 8013 # HIT:the apprentice (+)
+BORG 8013 # KILL:the apprentice (+)
+BORG 8013 # Forgetting a monster 'apprentice' at (46,68)
+BORG 8013 # Tracking a monster 'apprentice' at (47,67) from (46,67)
+BORG 8013 # Creating an object 'copper' at (67,46)
+BORG 8013 # Creating a monster 'giant white mouse' at (47,66), HP: 2, Index: 23
+BORG 8013 # Removing Regional Fear (47,66) because of a LOS giant white mouse
+BORG 8013 # Creating a monster 'white harpy' at (43,68), HP: 6, Index: 45
+BORG 8013 # Removing Regional Fear (43,68) because of a LOS white harpy
+BORG 8013 # HIT:the apprentice (2)
+BORG 8013 # KILL:the apprentice (2)
+BORG 8013 # There was an object 'Phase Door' at (68,46)
+BORG 8013 # There was an object 'Phase Door' at (68,46)
+BORG 8013 # There was an object 'Phase Door' at (68,46)
+BORG 8013 # There was an object 'Phase Door' at (68,46)
+BORG 8013 # There was an object 'Phase Door' at (68,46)
+BORG 8013 # Scary guy on level.
+BORG 8013 # Loc:45,68 Dep:2 Lev:2 HP:6/30 SP:1/3 Danger:p=68
+BORG 8013 # Fleeing and leaving the level. (scaryguy)
+BORG 8013 # Adjacent to monster on Scaryguy Level.
+BORG 8013 # Performing attack type 38 with value 12.
+BORG 8013 # Targeting giant white mouse who has 2 Hit Points (47,66).
+BORG 8013 # Casting Nether Bolt (0,0).
+BORG 8023 # Normal failure.
+BORG 8023 # Tracking a monster 'cutpurse' at (47,67) from (48,67)
+BORG 8023 # Tracking a monster 'apprentice' at (46,68) from (47,67)
+BORG 8023 # Tracking a monster 'giant white mouse' at (46,67) from (47,66)
+BORG 8023 # Tracking a monster 'white harpy' at (44,68) from (43,68)
+BORG 8023 # Creating an object 'copper' at (67,46)
+BORG 8023 # Creating an object 'Phase Door' at (68,46)
+BORG 8023 # Possibility of being surrounded (monsters/safegrids)(4/3)
+BORG 8023 # Scary guy on level.
+BORG 8023 # Loc:45,68 Dep:2 Lev:2 HP:7/30 SP:0/3 Danger:p=94
+BORG 8023 # Fleeing and leaving the level. (scaryguy)
+BORG 8023 # Adjacent to monster on Scaryguy Level.
+BORG 8023 # Adjacent to monster on Scaryguy Level.
+BORG 8023 # Performing attack type 1 with value 107.
+BORG 8023 # Facing apprentice at (46,68) who has 3 Hit Points.
+BORG 8023 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 8033 # HIT:the apprentice (+)
+BORG 8033 # KILL:the apprentice (+)
+BORG 8033 # HIT_BY:The white harpy (+)
+BORG 8033 # HIT_BY:The white harpy (+)
+BORG 8033 # MISS_BY:The white harpy (+)
+BORG 8033 # Forgetting a monster 'apprentice' at (46,68)
+BORG 8033 # Tracking a monster 'giant white mouse' at (46,68) from (46,67)
+BORG 8033 # Creating an object 'Blindness' at (68,45)
+BORG 8033 # Creating an object 'Phase Door' at (68,46)
+BORG 8033 # HIT:the apprentice (2)
+BORG 8033 # KILL:the apprentice (2)
+BORG 8033 # HIT_BY:The white harpy (3)
+BORG 8033 # HIT_BY:The white harpy (3)
+BORG 8033 # MISS_BY:The white harpy (3)
+BORG 8033 # Scary guy on level.
+BORG 8033 # Loc:45,68 Dep:2 Lev:3 HP:5/32 SP:1/4 Danger:p=42
+BORG 8033 # Fleeing and leaving the level. (scaryguy)
+BORG 8033 # Adjacent to monster on Scaryguy Level.
+BORG 8033 # Performing attack type 1 with value 19.
+BORG 8033 # Facing giant white mouse at (46,68) who has 2 Hit Points.
+BORG 8033 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 8043 # HIT:the giant white mouse (+)
+BORG 8043 # KILL:the giant white mouse (+)
+BORG 8043 # Forgetting a monster 'giant white mouse' at (46,68)
+BORG 8043 # Tracking a monster 'cutpurse' at (46,68) from (47,67)
+BORG 8043 # Tracking a monster 'white harpy' at (44,69) from (44,68)
+BORG 8043 # Creating an object 'copper' at (67,46)
+BORG 8043 # Creating an object 'Blindness' at (68,45)
+BORG 8043 # Creating a monster 'giant white mouse' at (46,67), HP: 1, Index: 23
+BORG 8043 # Removing Regional Fear (46,67) because of a LOS giant white mouse
+BORG 8043 # Creating a monster 'giant white mouse' at (47,67), HP: 3, Index: 23
+BORG 8043 # Removing Regional Fear (47,67) because of a LOS giant white mouse
+BORG 8043 # HIT:the giant white mouse (2)
+BORG 8043 # KILL:the giant white mouse (2)
+BORG 8043 # There was an object 'Phase Door' at (68,46)
+BORG 8043 # There was an object 'Phase Door' at (68,46)
+BORG 8043 # There was an object 'Phase Door' at (68,46)
+BORG 8043 # Possibility of being surrounded (monsters/safegrids)(4/3)
+BORG 8043 # Scary guy on level.
+BORG 8043 # Loc:45,68 Dep:2 Lev:3 HP:5/32 SP:1/4 Danger:p=232
+BORG 8043 # Fleeing and leaving the level. (scaryguy)
+BORG 8043 # Adjacent to monster on Scaryguy Level.
+BORG 8043 # Adjacent to monster on Scaryguy Level.
+BORG 8043 # Performing attack type 1 with value 315.
+BORG 8043 # Facing cutpurse at (46,68) who has 24 Hit Points.
+BORG 8043 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 8053 # HIT:the cutpurse (+)
+BORG 8053 # HIT_BY:The cutpurse (+)
+BORG 8053 # MISS_BY:The cutpurse (+)
+BORG 8053 # HIT_BY:The white harpy (+)
+BORG 8053 # MISS_BY:The white harpy (+)
+BORG 8053 # HIT_BY:The white harpy (+)
+BORG 8053 # MISS_BY:The giant white mouse (+)
+BORG 8053 # Creating an object 'copper' at (67,46)
+BORG 8053 # Creating an object 'Blindness' at (68,45)
+BORG 8053 # Creating a monster 'giant white mouse' at (47,66), HP: 2, Index: 23
+BORG 8053 # Removing Regional Fear (47,66) because of a LOS giant white mouse
+BORG 8053 # HIT:the cutpurse (2)
+BORG 8053 # HIT_BY:The cutpurse (3)
+BORG 8053 # MISS_BY:The cutpurse (3)
+BORG 8053 # HIT_BY:The white harpy (3)
+BORG 8053 # MISS_BY:The white harpy (3)
+BORG 8053 # HIT_BY:The white harpy (3)
+BORG 8053 # MISS_BY:The giant white mouse (3)
+BORG 8053 # There was a monster 'giant white mouse' at (47,67)
+BORG 8053 # Forgetting a monster 'giant white mouse' at (47,67)
+BORG 8053 # There was an object 'Phase Door' at (68,46)
+BORG 8053 # Possibility of being surrounded (monsters/safegrids)(4/3)
+BORG 8053 # Scary guy on level.
+BORG 8053 # Loc:45,68 Dep:2 Lev:3 HP:1/32 SP:1/4 Danger:p=220
+BORG 8053 # Fleeing and leaving the level. (scaryguy)
+BORG 8053 # Adjacent to monster on Scaryguy Level.
+BORG 8053 # Adjacent to monster on Scaryguy Level.
+BORG 8053 # Performing attack type 1 with value 315.
+BORG 8053 # Facing cutpurse at (46,68) who has 20 Hit Points.
+BORG 8053 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+
+[Terminal native state/cause]
+STATE death turn=8056 energy=81020 decisions=483 depth=2 max_depth=2 level=3 max_level=3 hp=-4 dead=1 winner=0 borg_rng=2638342807 quick=0 quick_rng=2398134823 rng_index=29 rng=65cba1063a8929e5edca29984372de61612b2bc31181064709e2fdfaaecdcbd7ce38b36c1586974adc3caff33e1a25a91210779232afad128897bbd1c6d5325e607467696ddf40072d9d464edb89751d74a2ac41cc2f408f93bb000eede731a42960552b8cb847f4382ee71fb81592d79558e4a258113843e559dc50f2490d5a
+CAUSE a cutpurse
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE  
+MESSAGE   
+MESSAGE ====================
+MESSAGE   
+MESSAGE  
+MESSAGE You can learn 1 more ritual.
+MESSAGE You are about to use the dangerous, unsupported, borg commands!
+MESSAGE Your machine may crash, and your savefile may become corrupted!
+MESSAGE Initializing the Borg... (memory)
+MESSAGE Initializing the Borg... (borg.txt)
+MESSAGE Initializing the Borg... (options)
+MESSAGE Initializing the Borg... (various)
+MESSAGE Initializing the Borg... done.
+MESSAGE # Ready...
+MESSAGE # Installing keypress hook
+MESSAGE # Standing on dn-stairs
+MESSAGE # Studying spell/prayer Nether Bolt.
+MESSAGE You have learned the ritual of Nether Bolt.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Flowing toward General Store at cost 11
+MESSAGE # Entering a '0' shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Done!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 3 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 4 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE "If you teleport away a tough monster, beware of teleporting afterwards!"
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Done!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 5 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Taken!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 6 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 7 Rations of Food (b).
+MESSAGE # Buying 'Scrolls of Phase Door {unseen}' at 'Alchemy Shop' immediately
+MESSAGE # Flowing toward Alchemy Shop at cost 12
+MESSAGE # Creating a monster 'scruffy little dog' at (6,39), HP: 2, Index: 3
+MESSAGE # Performing attack type 38 with value 8.
+MESSAGE # Targeting scruffy little dog who has 2 Hit Points (6,39).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The scruffy little dog dies.
+MESSAGE # DIED:The scruffy little dog (+)
+MESSAGE # Forgetting a monster 'scruffy little dog' at (6,39)
+MESSAGE # DIED:The scruffy little dog (2)
+MESSAGE # Flowing toward Alchemy Shop at cost 11
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (15,29), HP: 3, Index: 8
+MESSAGE # Flowing toward Alchemy Shop at cost 10
+MESSAGE # Tracking a monster 'pitiful-looking beggar' at (12,30) from (15,29)
+MESSAGE # Performing attack type 38 with value 12.
+MESSAGE # Targeting pitiful-looking beggar who has 3 Hit Points (12,30).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The pitiful-looking beggar dies.
+MESSAGE # DIED:The pitiful-looking beggar (+)
+MESSAGE # Forgetting a monster 'pitiful-looking beggar' at (12,30)
+MESSAGE # DIED:The pitiful-looking beggar (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Entering a '4' shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Scrolls of Phase Door {unseen}.
+MESSAGE Accepted!
+MESSAGE You bought a Scroll titled "tra ter" for 15 gold.
+MESSAGE You have a Scroll of Phase Door (c).
+MESSAGE # Buying 'Soft Leather Armour [8,+5]' at 'Armoury' immediately
+MESSAGE # Flowing toward Armoury at cost 19
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Soft Leather Armour [8,+5].
+MESSAGE Accepted!
+MESSAGE You bought Soft Leather Armour [8,+5] for 300 gold.
+MESSAGE You have Soft Leather Armour [8,+5] (e).
+MESSAGE # Wearing Soft Leather Armour [8,+5].
+MESSAGE You are wearing Soft Leather Armour [8,+5] (g).
+MESSAGE # Flowing toward Home at cost 15
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Scroll of Word of Recall' to the home
+MESSAGE # Currently in preferred store '8'.
+MESSAGE # Selling Scroll of Word of Recall
+MESSAGE You drop a Scroll of Word of Recall (d).
+MESSAGE # Buying 'Metal Caps [3,+0]'(r) at 'Armoury' (for player 'b')
+MESSAGE # Flowing toward Armoury at cost 15
+MESSAGE # Creating a monster 'boil-covered wretch' at (15,51), HP: 2, Index: 6
+MESSAGE # Removing Regional Fear (15,51) because of a LOS boil-covered wretch
+MESSAGE # Flowing toward Armoury at cost 3
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Metal Caps [3,+0].
+MESSAGE You bought a Metal Cap [3,+0] for 24 gold.
+MESSAGE You have a Metal Cap [3,+0] (d).
+MESSAGE # Wearing Metal Cap [3,+0].
+MESSAGE You are wearing a Metal Cap [3,+0] (n).
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 10
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE You hit a teleport trap!
+MESSAGE # Creating a monster 'grey mushroom patch' at (46,128), HP: 3, Index: 18
+MESSAGE # Removing Regional Fear (46,128) because of a LOS grey mushroom patch
+MESSAGE # Return to Stair (wandered too far.  Leash: 17)
+MESSAGE # Performing attack type 38 with value 12.
+MESSAGE # Targeting grey mushroom patch who has 3 Hit Points (46,128).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The grey mushroom patch is destroyed.
+MESSAGE # DIED:The grey mushroom patch (+)
+MESSAGE # Forgetting a monster 'grey mushroom patch' at (46,128)
+MESSAGE # DIED:The grey mushroom patch (2)
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 86
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 83
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 83
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 80
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 80
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 80
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Flowing toward dark-4 at cost 6
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 79
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 75
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 63
+MESSAGE # Opening a door
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Creating a monster 'soldier ant' at (45,94), HP: 10, Index: 30
+MESSAGE # Removing Regional Fear (45,94) because of a LOS soldier ant
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting soldier ant who has 10 Hit Points (45,94).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The soldier ant jerks in pain.
+MESSAGE The soldier ant flees in terror!
+MESSAGE # PAIN:The soldier ant (+)
+MESSAGE # Tracking a monster 'soldier ant' at (44,94) from (45,94)
+MESSAGE # PAIN:The soldier ant (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier ant' at (43,94) from (44,94)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'clear icky thing' at (46,101), HP: 3, Index: 22
+MESSAGE # There was a monster 'soldier ant' at (43,94)
+MESSAGE # Forgetting a monster 'soldier ant' at (43,94)
+MESSAGE # Loc:45,103 Dep:1 Lev:1 HP:15/15 SP:0/2 Danger:p=2
+MESSAGE # Flowing toward dark-4 at cost 10
+MESSAGE # Tracking a monster 'clear icky thing' at (45,100) from (46,101)
+MESSAGE # Creating a monster 'soldier ant' at (42,96), HP: 4, Index: 30
+MESSAGE # Loc:45,102 Dep:1 Lev:1 HP:15/15 SP:0/2 Danger:p=2
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE The clear icky thing misses you.
+MESSAGE # MISS_BY:The clear icky thing (+)
+MESSAGE # Tracking a monster 'soldier ant' at (41,97) from (42,96)
+MESSAGE # MISS_BY:The clear icky thing (3)
+MESSAGE # Loc:46,101 Dep:1 Lev:1 HP:15/15 SP:0/2 Danger:p=4
+MESSAGE # Performing attack type 1 with value 8.
+MESSAGE # Facing clear icky thing at (45,100) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the clear icky thing.
+MESSAGE You have slain the clear icky thing.
+MESSAGE # HIT:the clear icky thing (+)
+MESSAGE # KILL:the clear icky thing (+)
+MESSAGE # Forgetting a monster 'clear icky thing' at (45,100)
+MESSAGE # HIT:the clear icky thing (2)
+MESSAGE # KILL:the clear icky thing (2)
+MESSAGE # There was a monster 'soldier ant' at (41,97)
+MESSAGE # Forgetting a monster 'soldier ant' at (41,97)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Spent too long (54) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 64
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Spent too long (61) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 58
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Spent too long (62) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 58
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Spent too long (63) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 58
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Spent too long (64) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 58
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Spent too long (76) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 58
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Creating a monster 'soldier ant' at (36,90), HP: 10, Index: 30
+MESSAGE # Loc:36,88 Dep:1 Lev:1 HP:15/15 SP:2/2 Danger:p=2
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting soldier ant who has 10 Hit Points (36,90).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The soldier ant jerks in pain.
+MESSAGE The soldier ant flees in terror!
+MESSAGE # PAIN:The soldier ant (+)
+MESSAGE # Tracking a monster 'soldier ant' at (36,91) from (36,90)
+MESSAGE # PAIN:The soldier ant (2)
+MESSAGE # Performing attack type 38 with value 12.
+MESSAGE # Targeting soldier ant who has 3 Hit Points (36,91).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # There was a monster 'soldier ant' at (36,91)
+MESSAGE # Forgetting a monster 'soldier ant' at (36,91)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Spent too long (81) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 56
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Creating a monster 'soldier ant' at (32,92), HP: 10, Index: 30
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting soldier ant who has 10 Hit Points (32,92).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'soldier ant' at (33,92) from (32,92)
+MESSAGE # Loc:35,92 Dep:1 Lev:1 HP:15/15 SP:1/2 Danger:p=2
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting soldier ant who has 10 Hit Points (33,92).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The soldier ant dies.
+MESSAGE # DIED:The soldier ant (+)
+MESSAGE # Forgetting a monster 'soldier ant' at (33,92)
+MESSAGE # DIED:The soldier ant (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Spent too long (88) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 53
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Spent too long (89) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 53
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Spent too long (90) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 53
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Spent too long (91) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 53
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Spent too long (92) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 53
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Spent too long (93) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 53
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Spent too long (99) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 47
+MESSAGE # Opening a door
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE You failed to pick the lock.
+MESSAGE You have picked the lock.
+MESSAGE # Creating an object '& Handful~ of Dried Fruits' at (85,29)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Handful~ of Dried Fruits' at (29,85)
+MESSAGE You feel that there is naught but cobwebs here.
+MESSAGE You have a Handful of Dried Fruits (b).
+MESSAGE # FEELING_STUFF:10 (+)
+MESSAGE # FEELING_STUFF:10 (1)
+MESSAGE # Spent too long (102) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 45
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Creating a monster 'large white snake' at (28,81), HP: 11, Index: 24
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting large white snake who has 11 Hit Points (28,81).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The large white snake writhes about.
+MESSAGE The large white snake flees in terror!
+MESSAGE # PAIN:The large white snake (+)
+MESSAGE # PAIN:The large white snake (2)
+MESSAGE # Performing attack type 38 with value 8.
+MESSAGE # Targeting large white snake who has 2 Hit Points (28,81).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The large white snake dies.
+MESSAGE # DIED:The large white snake (+)
+MESSAGE # Forgetting a monster 'large white snake' at (28,81)
+MESSAGE # DIED:The large white snake (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Spent too long (107) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 43
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Creating an object 'Neutralize Poison' at (49,31)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a 'Neutralize Poison' at (31,49)
+MESSAGE You have a Blue Potion (d).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Spent too long (159) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward dark-4 at cost 6
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Looking for stairs. Goal_less, Fleeing.
+MESSAGE # Close enough to Stair.
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Spent too long (201) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 11
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 12
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 11
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 5
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating an object 'Cure Light Wounds' at (107,42)
+MESSAGE # Creating a monster 'soldier ant' at (43,100), HP: 6, Index: 30
+MESSAGE # Removing Regional Fear (43,100) because of a LOS soldier ant
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting soldier ant who has 6 Hit Points (43,100).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The soldier ant jerks feebly.
+MESSAGE The soldier ant flees in terror!
+MESSAGE # PAIN:The soldier ant (+)
+MESSAGE # Tracking a monster 'soldier ant' at (44,101) from (43,100)
+MESSAGE # PAIN:The soldier ant (2)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating a monster 'clear icky thing' at (41,95), HP: 4, Index: 22
+MESSAGE # Removing Regional Fear (41,95) because of a LOS clear icky thing
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting clear icky thing who has 4 Hit Points (41,95).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE Welcome to level 2.
+MESSAGE You can learn 1 more ritual.
+MESSAGE The clear icky thing dies.
+MESSAGE # DIED:The clear icky thing (+)
+MESSAGE # Forgetting a monster 'clear icky thing' at (41,95)
+MESSAGE # Tracking a monster 'soldier ant' at (44,102) from (44,101)
+MESSAGE # DIED:The clear icky thing (2)
+MESSAGE # Studying spell/prayer Sense Invisible.
+MESSAGE You have learned the ritual of Sense Invisible.
+MESSAGE # There was a monster 'soldier ant' at (44,102)
+MESSAGE # Forgetting a monster 'soldier ant' at (44,102)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward spastic at cost 7
+MESSAGE # Spastic Searching at (92,46)...value:0
+MESSAGE # Flowing toward spastic at cost 7
+MESSAGE # Spastic Searching at (92,53)...value:0
+MESSAGE # Flowing toward spastic at cost 6
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-4 at cost 14
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward spastic at cost 14
+MESSAGE # Standing on up-stairs
+MESSAGE # Spent too long (103) on level, leaving.
+MESSAGE # Flowing toward down-stairs at cost 6
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating a monster 'white harpy' at (45,85), HP: 6, Index: 45
+MESSAGE # Removing Regional Fear (45,85) because of a LOS white harpy
+MESSAGE # Performing attack type 38 with value 3.
+MESSAGE # Targeting white harpy who has 6 Hit Points (45,85).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'white harpy' at (45,84) from (45,85)
+MESSAGE # Loc:45,83 Dep:2 Lev:2 HP:30/30 SP:2/3 Danger:p=4
+MESSAGE # Performing attack type 1 with value 10.
+MESSAGE # Facing white harpy at (45,84) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white harpy.
+MESSAGE The white harpy flees in terror!
+MESSAGE # HIT:the white harpy (+)
+MESSAGE # PAIN:The white harpy (+)
+MESSAGE # Tracking a monster 'white harpy' at (45,85) from (45,84)
+MESSAGE # HIT:the white harpy (2)
+MESSAGE # PAIN:The white harpy (2)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Tracking a monster 'white harpy' at (44,86) from (45,85)
+MESSAGE # Flowing toward dark-4 at cost 8
+MESSAGE # There was a monster 'white harpy' at (44,86)
+MESSAGE # Forgetting a monster 'white harpy' at (44,86)
+MESSAGE # Creating a monster 'apprentice' at (44,79), HP: 15, Index: 39
+MESSAGE # Removing Regional Fear (44,79) because of a LOS apprentice
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:45,81 Dep:2 Lev:2 HP:30/30 SP:2/3 Danger:p=26
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # No Phase. scary squares: 86
+MESSAGE # No Phase. scary squares: 87
+MESSAGE # No Phase. scary squares: 89
+MESSAGE # No Phase. scary squares: 81
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 25
+MESSAGE # Tracking a monster 'apprentice' at (44,80) from (44,79)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,82 Dep:2 Lev:2 HP:30/30 SP:2/3 Danger:p=22
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Desperate for Stairs (three)
+MESSAGE The apprentice conjures up weird things.
+MESSAGE You retain your presence of mind.
+MESSAGE # SPELL_060:The apprentice (+)
+MESSAGE # SPELL_060:The apprentice (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,81 Dep:2 Lev:2 HP:30/30 SP:2/3 Danger:p=26
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 11
+MESSAGE # Desperate for Stairs (three)
+MESSAGE The apprentice hits you.
+MESSAGE # HIT_BY:The apprentice (+)
+MESSAGE # HIT_BY:The apprentice (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,80 Dep:2 Lev:2 HP:27/30 SP:2/3 Danger:p=26
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Desperate for Stairs (three)
+MESSAGE The apprentice hits you.
+MESSAGE # HIT_BY:The apprentice (+)
+MESSAGE # Creating a monster 'cutpurse' at (44,78), HP: 24, Index: 37
+MESSAGE # Removing Regional Fear (44,78) because of a LOS cutpurse
+MESSAGE # HIT_BY:The apprentice (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:44,79 Dep:2 Lev:2 HP:26/30 SP:2/3 Danger:p=200
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Desperate for Stairs (three)
+MESSAGE The cutpurse hits you.
+MESSAGE You have been stunned.
+MESSAGE The cutpurse misses you.
+MESSAGE You are no longer stunned.
+MESSAGE # HIT_BY:The cutpurse (+)
+MESSAGE # MISS_BY:The cutpurse (+)
+MESSAGE # PAIN:You (+)
+MESSAGE # Assuming player ghost (You) (a)
+MESSAGE # Creating a monster 'apprentice' at (45,76), HP: 17, Index: 39
+MESSAGE # Removing Regional Fear (45,76) because of a LOS apprentice
+MESSAGE # Assuming player ghost (You) (a)
+MESSAGE # HIT_BY:The cutpurse (3)
+MESSAGE # MISS_BY:The cutpurse (3)
+MESSAGE # PAIN:You (0)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,78 Dep:2 Lev:2 HP:21/30 SP:2/3 Danger:p=321
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'cutpurse' at (45,78) from (44,78)
+MESSAGE # Tracking a monster 'apprentice' at (45,77) from (45,76)
+MESSAGE # Tracking a monster 'apprentice' at (44,79) from (44,80)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(3/1)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:46,78 Dep:2 Lev:2 HP:21/30 SP:2/3 Danger:p=341
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # No Phase. scary squares: 86
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 1.2  Critical Phase
+MESSAGE You have no more Scrolls of Phase Door (e).
+MESSAGE # Creating a monster 'giant white mouse' at (47,64), HP: 3, Index: 23
+MESSAGE # Removing Regional Fear (47,64) because of a LOS giant white mouse
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Creating a monster 'cutpurse' at (47,73), HP: 26, Index: 37
+MESSAGE # Removing Regional Fear (47,73) because of a LOS cutpurse
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:48,72 Dep:2 Lev:2 HP:22/30 SP:2/3 Danger:p=172
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 48,71 (distance 1) via 48,71 (172 > 0)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Tracking a monster 'cutpurse' at (48,72) from (47,73)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:48,70 Dep:2 Lev:2 HP:22/30 SP:2/3 Danger:p=9
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 48,69 (distance 1) via 48,69 (9 > 4)
+MESSAGE # Tracking a monster 'cutpurse' at (48,71) from (48,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:48,69 Dep:2 Lev:2 HP:23/30 SP:2/3 Danger:p=9
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 48,68 (distance 1) via 48,68 (9 > 4)
+MESSAGE # Tracking a monster 'cutpurse' at (48,70) from (48,71)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:48,68 Dep:2 Lev:2 HP:23/30 SP:2/3 Danger:p=9
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 47,66 (distance 2) via 48,67 (9 > 0)
+MESSAGE # Tracking a monster 'cutpurse' at (48,69) from (48,70)
+MESSAGE # Tracking a monster 'cutpurse' at (48,72) from (45,78)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:48,67 Dep:2 Lev:2 HP:23/30 SP:2/3 Danger:p=11
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 47,66 (distance 1) via 47,66 (11 > 5)
+MESSAGE The giant white mouse wakes up.
+MESSAGE # PAIN:The giant white mouse (+)
+MESSAGE # Tracking a monster 'cutpurse' at (48,68) from (48,69)
+MESSAGE # PAIN:The giant white mouse (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:47,66 Dep:2 Lev:2 HP:23/30 SP:2/3 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 67,46 (10 > 0)
+MESSAGE # Tracking a monster 'cutpurse' at (47,67) from (48,68)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:46,67 Dep:2 Lev:2 HP:24/30 SP:2/3 Danger:p=172
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 68,45 (172 > 9)
+MESSAGE You feel that there are only scraps of junk here.
+MESSAGE # FEELING_STUFF:9 (+)
+MESSAGE # Tracking a monster 'cutpurse' at (46,68) from (47,67)
+MESSAGE # Creating a monster 'white harpy' at (44,71), HP: 6, Index: 45
+MESSAGE # Removing Regional Fear (44,71) because of a LOS white harpy
+MESSAGE # FEELING_STUFF:9 (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:24/30 SP:2/3 Danger:p=173
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 314.
+MESSAGE # Facing cutpurse at (46,68) who has 26 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the cutpurse.
+MESSAGE The cutpurse hits you.
+MESSAGE The cutpurse misses you.
+MESSAGE # HIT:the cutpurse (+)
+MESSAGE # HIT_BY:The cutpurse (+)
+MESSAGE # MISS_BY:The cutpurse (+)
+MESSAGE # Tracking a monster 'white harpy' at (44,69) from (44,71)
+MESSAGE # Creating a monster 'giant white mouse' at (47,66), HP: 2, Index: 23
+MESSAGE # Removing Regional Fear (47,66) because of a LOS giant white mouse
+MESSAGE # HIT:the cutpurse (2)
+MESSAGE # HIT_BY:The cutpurse (3)
+MESSAGE # MISS_BY:The cutpurse (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:18/30 SP:2/3 Danger:p=188
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 314.
+MESSAGE # Facing cutpurse at (46,68) who has 19 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You miss the cutpurse.
+MESSAGE The white harpy claws you.
+MESSAGE The white harpy bites you.
+MESSAGE The cutpurse hits you.
+MESSAGE The cutpurse misses you.
+MESSAGE # MISS:the cutpurse (+)
+MESSAGE # HIT_BY:The white harpy (+)
+MESSAGE # HIT_BY:The cutpurse (+)
+MESSAGE # MISS_BY:The cutpurse (+)
+MESSAGE # Tracking a monster 'giant white mouse' at (47,67) from (47,66)
+MESSAGE # Tracking a monster 'cutpurse' at (48,67) from (48,72)
+MESSAGE # MISS:the cutpurse (2)
+MESSAGE # HIT_BY:The white harpy (3)
+MESSAGE # HIT_BY:The cutpurse (3)
+MESSAGE # MISS_BY:The cutpurse (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:13/30 SP:2/3 Danger:p=215
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 314.
+MESSAGE # Facing cutpurse at (46,68) who has 19 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the cutpurse.
+MESSAGE # HIT:the cutpurse (+)
+MESSAGE # Tracking a monster 'cutpurse' at (47,67) from (48,67)
+MESSAGE # Tracking a monster 'giant white mouse' at (46,67) from (47,67)
+MESSAGE # Tracking a monster 'white harpy' at (44,70) from (44,69)
+MESSAGE # Creating a monster 'apprentice' at (48,67), HP: 17, Index: 39
+MESSAGE # Removing Regional Fear (48,67) because of a LOS apprentice
+MESSAGE # HIT:the cutpurse (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(5/4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:14/30 SP:2/3 Danger:p=352
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 314.
+MESSAGE # Facing cutpurse at (46,68) who has 13 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the cutpurse.
+MESSAGE The cutpurse misses you.
+MESSAGE The giant white mouse bites you.
+MESSAGE # HIT:the cutpurse (+)
+MESSAGE # MISS_BY:The cutpurse (+)
+MESSAGE # HIT_BY:The giant white mouse (+)
+MESSAGE # Tracking a monster 'apprentice' at (47,66) from (48,67)
+MESSAGE # Tracking a monster 'white harpy' at (45,69) from (44,70)
+MESSAGE # HIT:the cutpurse (2)
+MESSAGE # MISS_BY:The cutpurse (3)
+MESSAGE # HIT_BY:The giant white mouse (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(5/3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:12/30 SP:2/3 Danger:p=390
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 314.
+MESSAGE # Facing cutpurse at (46,68) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the cutpurse.
+MESSAGE The cutpurse flees in terror!
+MESSAGE The cutpurse is frozen to the spot!
+MESSAGE # HIT:the cutpurse (+)
+MESSAGE # PAIN:The cutpurse (+)
+MESSAGE # Tracking a monster 'apprentice' at (48,67) from (47,66)
+MESSAGE # Tracking a monster 'white harpy' at (44,68) from (45,69)
+MESSAGE # HIT:the cutpurse (2)
+MESSAGE # PAIN:The cutpurse (2)
+MESSAGE # There was a monster 'cutpurse' at (47,67)
+MESSAGE # Forgetting a monster 'cutpurse' at (47,67)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(4/3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:12/30 SP:2/3 Danger:p=315
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 314.
+MESSAGE # Facing cutpurse at (46,68) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the cutpurse.
+MESSAGE The cutpurse can move again.
+MESSAGE You have slain the cutpurse.
+MESSAGE The white harpy claws you.
+MESSAGE The white harpy misses you.
+MESSAGE # HIT:the cutpurse (+)
+MESSAGE # KILL:the cutpurse (+)
+MESSAGE # HIT_BY:The white harpy (+)
+MESSAGE # MISS_BY:The white harpy (+)
+MESSAGE # Forgetting a monster 'cutpurse' at (46,68)
+MESSAGE # Tracking a monster 'giant white mouse' at (47,66) from (46,67)
+MESSAGE # Tracking a monster 'apprentice' at (47,67) from (48,67)
+MESSAGE # Creating an object 'Phase Door' at (68,46)
+MESSAGE # HIT:the cutpurse (2)
+MESSAGE # KILL:the cutpurse (2)
+MESSAGE # HIT_BY:The white harpy (3)
+MESSAGE # MISS_BY:The white harpy (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:10/30 SP:2/3 Danger:p=132
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 38 with value 18.
+MESSAGE # Targeting apprentice who has 17 Hit Points (47,67).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The apprentice cries out in pain.
+MESSAGE The white harpy misses you.
+MESSAGE The white harpy claws you.
+MESSAGE The white harpy misses you.
+MESSAGE # PAIN:The apprentice (+)
+MESSAGE # MISS_BY:The white harpy (+)
+MESSAGE # HIT_BY:The white harpy (+)
+MESSAGE # MISS_BY:The white harpy (+)
+MESSAGE # Tracking a monster 'apprentice' at (46,68) from (47,67)
+MESSAGE # Tracking a monster 'giant white mouse' at (46,67) from (47,66)
+MESSAGE # Creating an object 'Phase Door' at (68,46)
+MESSAGE # Creating a monster 'cutpurse' at (48,67), HP: 24, Index: 37
+MESSAGE # Removing Regional Fear (48,67) because of a LOS cutpurse
+MESSAGE # PAIN:The apprentice (2)
+MESSAGE # MISS_BY:The white harpy (3)
+MESSAGE # HIT_BY:The white harpy (3)
+MESSAGE # MISS_BY:The white harpy (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(4/3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:10/30 SP:1/3 Danger:p=156
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 161.
+MESSAGE # Facing apprentice at (46,68) who has 11 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the apprentice.
+MESSAGE The giant white mouse bites you.
+MESSAGE The apprentice misses you.
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # HIT_BY:The giant white mouse (+)
+MESSAGE # MISS_BY:The apprentice (+)
+MESSAGE # Tracking a monster 'cutpurse' at (47,67) from (48,67)
+MESSAGE # Tracking a monster 'white harpy' at (43,69) from (44,68)
+MESSAGE # Creating an object 'Phase Door' at (68,46)
+MESSAGE # Creating a monster 'apprentice' at (48,67), HP: 15, Index: 39
+MESSAGE # Removing Regional Fear (48,67) because of a LOS apprentice
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # HIT_BY:The giant white mouse (3)
+MESSAGE # MISS_BY:The apprentice (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(5/4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:9/30 SP:1/3 Danger:p=228
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 161.
+MESSAGE # Facing apprentice at (46,68) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the apprentice.
+MESSAGE The apprentice flees in terror!
+MESSAGE The apprentice is frozen to the spot!
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # PAIN:The apprentice (+)
+MESSAGE # Tracking a monster 'apprentice' at (47,67) from (48,67)
+MESSAGE # Tracking a monster 'white harpy' at (42,68) from (43,69)
+MESSAGE # Tracking a monster 'giant white mouse' at (47,66) from (47,64)
+MESSAGE # Creating an object 'Phase Door' at (68,46)
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # PAIN:The apprentice (2)
+MESSAGE # There was a monster 'cutpurse' at (47,67)
+MESSAGE # Forgetting a monster 'cutpurse' at (47,67)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(5/4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:9/30 SP:1/3 Danger:p=159
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 14.
+MESSAGE # Facing giant white mouse at (46,67) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the giant white mouse.
+MESSAGE You have slain the giant white mouse.
+MESSAGE # HIT:the giant white mouse (+)
+MESSAGE # KILL:the giant white mouse (+)
+MESSAGE # Forgetting a monster 'giant white mouse' at (46,67)
+MESSAGE # Tracking a monster 'apprentice' at (46,67) from (47,67)
+MESSAGE # Creating an object 'Phase Door' at (68,46)
+MESSAGE # Creating a monster 'cutpurse' at (48,67), HP: 24, Index: 37
+MESSAGE # Removing Regional Fear (48,67) because of a LOS cutpurse
+MESSAGE # HIT:the giant white mouse (2)
+MESSAGE # KILL:the giant white mouse (2)
+MESSAGE # There was a monster 'white harpy' at (42,68)
+MESSAGE # Forgetting a monster 'white harpy' at (42,68)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:9/30 SP:1/3 Danger:p=180
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 107.
+MESSAGE # Facing apprentice at (46,67) who has 15 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the apprentice.
+MESSAGE The apprentice tries to cast a spell, but fails.
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # Tracking a monster 'cutpurse' at (47,67) from (48,67)
+MESSAGE # Creating an object 'Phase Door' at (68,46)
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:10/30 SP:1/3 Danger:p=232
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 107.
+MESSAGE # Facing apprentice at (46,67) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the apprentice.
+MESSAGE The apprentice hits you.
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # HIT_BY:The apprentice (+)
+MESSAGE # Tracking a monster 'giant white mouse' at (47,67) from (47,66)
+MESSAGE # Creating an object 'Phase Door' at (68,46)
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # HIT_BY:The apprentice (3)
+MESSAGE # There was a monster 'cutpurse' at (47,67)
+MESSAGE # Forgetting a monster 'cutpurse' at (47,67)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:6/30 SP:1/3 Danger:p=150
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 107.
+MESSAGE # Facing apprentice at (46,67) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the apprentice.
+MESSAGE The apprentice flees in terror!
+MESSAGE The apprentice tries to cast a spell, but fails.
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # PAIN:The apprentice (+)
+MESSAGE # Creating an object 'Phase Door' at (68,46)
+MESSAGE # Creating a monster 'cutpurse' at (48,67), HP: 24, Index: 37
+MESSAGE # Removing Regional Fear (48,67) because of a LOS cutpurse
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # PAIN:The apprentice (2)
+MESSAGE # There was a monster 'giant white mouse' at (47,67)
+MESSAGE # Forgetting a monster 'giant white mouse' at (47,67)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:6/30 SP:1/3 Danger:p=159
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 160.
+MESSAGE # Facing apprentice at (46,68) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the apprentice.
+MESSAGE The apprentice can move again.
+MESSAGE You have slain the apprentice.
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # KILL:the apprentice (+)
+MESSAGE # Forgetting a monster 'apprentice' at (46,68)
+MESSAGE # Tracking a monster 'apprentice' at (47,67) from (46,67)
+MESSAGE # Creating an object 'copper' at (67,46)
+MESSAGE # Creating a monster 'giant white mouse' at (47,66), HP: 2, Index: 23
+MESSAGE # Removing Regional Fear (47,66) because of a LOS giant white mouse
+MESSAGE # Creating a monster 'white harpy' at (43,68), HP: 6, Index: 45
+MESSAGE # Removing Regional Fear (43,68) because of a LOS white harpy
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # KILL:the apprentice (2)
+MESSAGE # There was an object 'Phase Door' at (68,46)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:6/30 SP:1/3 Danger:p=68
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 38 with value 12.
+MESSAGE # Targeting giant white mouse who has 2 Hit Points (47,66).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'cutpurse' at (47,67) from (48,67)
+MESSAGE # Tracking a monster 'apprentice' at (46,68) from (47,67)
+MESSAGE # Tracking a monster 'giant white mouse' at (46,67) from (47,66)
+MESSAGE # Tracking a monster 'white harpy' at (44,68) from (43,68)
+MESSAGE # Creating an object 'copper' at (67,46)
+MESSAGE # Creating an object 'Phase Door' at (68,46)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(4/3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:2 HP:7/30 SP:0/3 Danger:p=94
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 107.
+MESSAGE # Facing apprentice at (46,68) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the apprentice.
+MESSAGE You have slain the apprentice.
+MESSAGE Welcome to level 3.
+MESSAGE You can learn 1 more ritual.
+MESSAGE You feel something roll beneath your feet.
+MESSAGE The white harpy claws you.
+MESSAGE The white harpy misses you.
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # KILL:the apprentice (+)
+MESSAGE # HIT_BY:The white harpy (+)
+MESSAGE # MISS_BY:The white harpy (+)
+MESSAGE # Forgetting a monster 'apprentice' at (46,68)
+MESSAGE # Tracking a monster 'giant white mouse' at (46,68) from (46,67)
+MESSAGE # Creating an object 'Blindness' at (68,45)
+MESSAGE # Creating an object 'Phase Door' at (68,46)
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # KILL:the apprentice (2)
+MESSAGE # HIT_BY:The white harpy (3)
+MESSAGE # MISS_BY:The white harpy (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:3 HP:5/32 SP:1/4 Danger:p=42
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 19.
+MESSAGE # Facing giant white mouse at (46,68) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the giant white mouse.
+MESSAGE You have slain the giant white mouse.
+MESSAGE The cutpurse picks up 2 Scrolls of Phase Door.
+MESSAGE # HIT:the giant white mouse (+)
+MESSAGE # KILL:the giant white mouse (+)
+MESSAGE # Forgetting a monster 'giant white mouse' at (46,68)
+MESSAGE # Tracking a monster 'cutpurse' at (46,68) from (47,67)
+MESSAGE # Tracking a monster 'white harpy' at (44,69) from (44,68)
+MESSAGE # Creating an object 'copper' at (67,46)
+MESSAGE # Creating an object 'Blindness' at (68,45)
+MESSAGE # Creating a monster 'giant white mouse' at (46,67), HP: 1, Index: 23
+MESSAGE # Removing Regional Fear (46,67) because of a LOS giant white mouse
+MESSAGE # Creating a monster 'giant white mouse' at (47,67), HP: 3, Index: 23
+MESSAGE # Removing Regional Fear (47,67) because of a LOS giant white mouse
+MESSAGE # HIT:the giant white mouse (2)
+MESSAGE # KILL:the giant white mouse (2)
+MESSAGE # There was an object 'Phase Door' at (68,46)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(4/3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:3 HP:5/32 SP:1/4 Danger:p=232
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 315.
+MESSAGE # Facing cutpurse at (46,68) who has 24 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the cutpurse.
+MESSAGE The cutpurse hits you.
+MESSAGE The cutpurse misses you.
+MESSAGE The white harpy claws you.
+MESSAGE The white harpy misses you.
+MESSAGE The white harpy bites you.
+MESSAGE The giant white mouse misses you.
+MESSAGE # HIT:the cutpurse (+)
+MESSAGE # HIT_BY:The cutpurse (+)
+MESSAGE # MISS_BY:The cutpurse (+)
+MESSAGE # HIT_BY:The white harpy (+)
+MESSAGE # MISS_BY:The white harpy (+)
+MESSAGE # HIT_BY:The white harpy (+)
+MESSAGE # MISS_BY:The giant white mouse (+)
+MESSAGE # Creating an object 'copper' at (67,46)
+MESSAGE # Creating an object 'Blindness' at (68,45)
+MESSAGE # Creating a monster 'giant white mouse' at (47,66), HP: 2, Index: 23
+MESSAGE # Removing Regional Fear (47,66) because of a LOS giant white mouse
+MESSAGE # HIT:the cutpurse (2)
+MESSAGE # HIT_BY:The cutpurse (3)
+MESSAGE # MISS_BY:The cutpurse (3)
+MESSAGE # HIT_BY:The white harpy (3)
+MESSAGE # MISS_BY:The white harpy (3)
+MESSAGE # HIT_BY:The white harpy (3)
+MESSAGE # MISS_BY:The giant white mouse (3)
+MESSAGE # There was a monster 'giant white mouse' at (47,67)
+MESSAGE # Forgetting a monster 'giant white mouse' at (47,67)
+MESSAGE # There was an object 'Phase Door' at (68,46)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(4/3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:45,68 Dep:2 Lev:3 HP:1/32 SP:1/4 Danger:p=220
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 315.
+MESSAGE # Facing cutpurse at (46,68) who has 20 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the cutpurse.
+MESSAGE The cutpurse hits you.
+MESSAGE You die.

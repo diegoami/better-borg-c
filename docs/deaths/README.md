@@ -4,7 +4,7 @@ Bugs always take priority. Each natural death gets a curated dossier with its ac
 
 To comment, open **Discuss** beside the case below. The linked GitHub investigation is the durable feedback thread; suggestions are checked against evidence and linked to actions. See [the feedback process](FEEDBACK.md). Chat feedback is copied there before it is considered tracked.
 
-Dossiers: 18; distinct starting conditions: 15; recorded death process attempts: 26 (including repeats/reference variants). This registry is not a survival-rate estimate.
+Dossiers: 19; distinct starting conditions: 16; recorded death process attempts: 27 (including repeats/reference variants). This registry is not a survival-rate estimate.
 
 | Case | Discussion | Actual source | Seed | Raw cause | Death turn | Diagnosis |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -26,22 +26,23 @@ Dossiers: 18; distinct starting conditions: 15; recorded death process attempts:
 | [D0016](D0016-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/353) | `5cd2258dd78d` | 2993630921 | a crow | 4199 | teleport-trap exposure, target choice, fleeing-mode healing gates and starting inventory; owner's verified manual branch survives by killing the crow first; no reusable original-C defect established |
 | [D0017](D0017-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/403) | `5cd2258dd78d` | 2993630922 | poison | 1094860 | escaped Mirkwood spiders by Teleportation staff at 7 HP, then rested for Recall while poisoned with 9 CCW and Herbal Curing unused; fleeing-gated healing, retreat-before-escape order, CCW tier window and Speed gate; no reusable original-C defect established |
 | [D0018](D0018-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/401) | `5cd2258dd78d` | 2993630923 | a wild cat | 33471 | twitchy-fallback Phase spend, scary-level walking retreat from a faster monster, unidentified cures and starting/restock inventory; owner's verified manual branch from 33363 also dies; no reusable original-C defect established |
+| [D0019](D0019-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/406) | `5cd2258dd78d` | 2993630924 | a cutpurse | 8056 | scary-list flight, last Phase spent in a clear stair corridor, attack-before-pickup ignoring an adjacent dropped Phase Door, and starting inventory; owner's verified manual branch from 7703 survives by a lucky Phase to the stair corridor; no reusable original-C defect established |
 
 ## Aggregated actions
 
 - [Observe actual existing speed-defense eligibility and p1/p2 in the pre-fight state](https://github.com/diegoami/better-borg-c/issues/22) — investigate before changing policy; cases D0001.
 - [Trace last Home/town decisions and escape-stock constraints](https://github.com/diegoami/better-borg-c/issues/22) — investigate before changing policy; cases D0001.
 - [Compare pristine upstream versus carried build](https://github.com/diegoami/better-borg-c/issues/22) — completed: identical death/trace; does not establish a defect; cases D0001.
-- [Evaluate survival-resource reserves/restocking priority over spare equipment](https://github.com/diegoami/better-borg-c/issues/41) — recorded owner priority; proposal, not implemented; cases D0001, D0013, D0015, D0016, D0018.
+- [Evaluate survival-resource reserves/restocking priority over spare equipment](https://github.com/diegoami/better-borg-c/issues/41) — recorded owner priority; proposal, not implemented; cases D0001, D0013, D0015, D0016, D0018, D0019.
 - [Audit delayed Deep Descent escape from depth2/max7 and restock/preparedness before depth12](https://github.com/diegoami/better-borg-c/issues/22) — investigating recorded original-rule behavior; no defect established; cases D0001.
 - [Observe existing heal eligibility/call order and fleeing flag before the fatal melee](https://github.com/diegoami/better-borg-c/issues/34) — investigate before changing policy; cases D0002, D0003, D0004, D0005, D0006, D0007, D0012, D0014, D0016, D0017.
 - [Trace why Phase Door was exhausted and whether earlier escape was legally available](https://github.com/diegoami/better-borg-c/issues/34) — investigate before changing policy; cases D0002.
 - [Compare pristine upstream versus carried build](https://github.com/diegoami/better-borg-c/issues/34) — completed: pristine/five-carry identical trace; same death on six-carry; no defect established; cases D0002.
 - [Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3](https://github.com/diegoami/better-borg-c/issues/34) — recorded owner observation; needs native causal investigation; cases D0002, D0003, D0004, D0005.
 - [Evaluate first Phase Door20293 versus legal fight/walk alternatives and crowd retreat at next decision20303](https://github.com/diegoami/better-borg-c/issues/34) — investigating; no rescue or implementation defect established; cases D0002, D0003, D0004, D0005.
-- [Evaluate early Phase Door/cure restock requirement linked to source370](https://github.com/diegoami/better-borg-c/issues/154) — proposed enhancement; no implementation or survival benefit established; cases D0002, D0003, D0004, D0005, D0018.
+- [Evaluate early Phase Door/cure restock requirement linked to source370](https://github.com/diegoami/better-borg-c/issues/154) — proposed enhancement; no implementation or survival benefit established; cases D0002, D0003, D0004, D0005, D0018, D0019.
 - [Evaluate theft danger contribution and sensitivity of first escape choice](https://github.com/diegoami/better-borg-c/issues/158) — proposed analysis; runtime decomposition and survival/progress benefit unproved; cases D0002, D0003, D0004, D0005, D0011.
-- [Evaluate attempted door/upstairs retreat before repeated phases and after scroll exhaustion](https://github.com/diegoami/better-borg-c/issues/159) — proposed analysis; sleep timing, route knowledge and outcomes unproved; cases D0002, D0003, D0004, D0005, D0006, D0007, D0013, D0014, D0015.
+- [Evaluate attempted door/upstairs retreat before repeated phases and after scroll exhaustion](https://github.com/diegoami/better-borg-c/issues/159) — proposed analysis; sleep timing, route knowledge and outcomes unproved; cases D0002, D0003, D0004, D0005, D0006, D0007, D0013, D0014, D0015, D0019.
 - [Evaluate identification-driven inventory and town trading, auditing existing sell-ID behavior](https://github.com/diegoami/better-borg-c/issues/180) — proposed enhancement; priority/knowledge value and costs need evidence; cases D0006, D0011, D0012, D0015, D0018.
 - [Evaluate ammunition reserves/spending, melee alternatives and combat preparedness](https://github.com/diegoami/better-borg-c/issues/181) — proposed analysis; no incorrect equipment choice or benefit proved; cases D0006.
 - [Evaluate early Recall retention and destination-aware delayed Deep Descent escape](https://github.com/diegoami/better-borg-c/issues/183) — investigating; Recall at Home and two five-level drops observed; rescue untested; cases D0006, D0011, D0014.
@@ -53,7 +54,7 @@ Dossiers: 18; distinct starting conditions: 15; recorded death process attempts:
 - [Minimal quiver-capacity native fixture/correction with actual-room/stack/gold/ammo controls, then separate consumer carry](https://github.com/diegoami/better-borg-c/issues/235) — investigating; recorded native failure verified, fix not carried; cases D0009.
 - [Earlier food budget/town-return and loot leash, accounting for REGEN and actual pack/quiver capacity](https://github.com/diegoami/better-borg-c/issues/41) — needs evidence; no policy change; cases D0009.
 - [Identify useful carried stock and compare identification/shop priority without hidden item knowledge](https://github.com/diegoami/better-borg-c/issues/180) — proposed; shared investigation; cases D0009.
-- [Recall storage/retention/reacquisition and available walking return before hunger becomes critical](https://github.com/diegoami/better-borg-c/issues/183) — needs evidence; no rescue claimed; cases D0009, D0018.
+- [Recall storage/retention/reacquisition and available walking return before hunger becomes critical](https://github.com/diegoami/better-borg-c/issues/183) — needs evidence; no rescue claimed; cases D0009, D0018, D0019.
 - [Unknown-edible eligibility for caster starvation at localdanger0, retaining harmful outcomes and resource costs](https://github.com/diegoami/better-borg-c/issues/235) — needs evidence; no forced use implemented; cases D0009.
 - [Early town/upstairs commitment versus repeated normal desperate downstairs response after weakness](https://github.com/diegoami/better-borg-c/issues/159) — investigating; no guaranteed route asserted; cases D0009, D0010.
 - [Inspect legal bow attacks, accepted staircase path and retreat-before-attack priority at6285/6295; account for later carries](https://github.com/diegoami/better-borg-c/issues/239) — investigating; no gameplay change; cases D0010.
@@ -64,12 +65,13 @@ Dossiers: 18; distinct starting conditions: 15; recorded death process attempts:
 - [Observe borg_power/BI_BLOWS for Dagger vs Maul at 118611; assess depth-tied unidentified-weapon bonus and the CL<=10 blows bonus](https://github.com/diegoami/better-borg-c/issues/320) — needs evidence; source-derived cause; cases D0011.
 - [Classify every level change 55624-118552 and the no-known-up-stair fallback; compare D0009/235 and 159](https://github.com/diegoami/better-borg-c/issues/321) — needs evidence; cases D0011, D0014.
 - [Observe caution retreat versus attack at adjacent decisions 27517/27537 and the flee-to-stairs re-approach; compare D0008 order](https://github.com/diegoami/better-borg-c/issues/324) — needs evidence; recurs with FLOWCACHE-404 carried; no gameplay change; cases D0012.
-- [Measure low-level worm-mass scary triggers and compare with the breeder caution threshold](https://github.com/diegoami/better-borg-c/issues/327) — needs evidence; owner manual branch verified; no gameplay change; cases D0012, D0013, D0015.
+- [Measure low-level worm-mass scary triggers and compare with the breeder caution threshold](https://github.com/diegoami/better-borg-c/issues/327) — needs evidence; owner manual branch verified; no gameplay change; cases D0012, D0013, D0015, D0019.
 - [Observe borg_defend_aux_speed p1/p2/avoidance at lethal danger; count unused Speed at death](https://github.com/diegoami/better-borg-c/issues/340) — needs evidence; source-checked; no gameplay change; cases D0014, D0017, D0018.
 - [Observe strategic retreat steps pre-empting borg_escape (Phase/Teleportation) under multiple faster adjacent monsters](https://github.com/diegoami/better-borg-c/issues/159) — investigate before changing policy; cases D0017.
 - [Observe strategic retreat on foot from a faster adjacent monster versus continuing melee](https://github.com/diegoami/better-borg-c/issues/159) — investigate before changing policy; cases D0017, D0018.
 - [Observe the bored/twitchy fallback spending the last Phase Door at low danger](https://github.com/diegoami/better-borg-c/issues/41) — investigate before changing policy; cases D0018.
 - [Observe unknown-potion emergency eligibility for casters with mana but no escape spell](https://github.com/diegoami/better-borg-c/issues/180) — investigate before changing policy; cases D0018.
+- [Observe attack-before-pickup order ignoring an adjacent dropped escape item while out of escapes](https://github.com/diegoami/better-borg-c/issues/41) — investigate before changing policy; cases D0019.
 
 Recurring mechanisms are grouped by canonical issue, not by number of replays. Investigations are hypotheses until native causal proof; original-C bugs route to neo-angband-tracker before source fix and consumer carry.
 

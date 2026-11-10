@@ -1,0 +1,27 @@
+Original recording: frame 9152, engine turn 8016, phase tick; HP 6, SP 0, depth 2
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You failed to concentrate hard enough!                                          
+Half-Troll                                                                      
+Acolyte                                                                         
+Necromancer                                                                     
+LEVEL      2                                                                    
+NXT        6                                                                    
+AU         6                                                                    
+|     (  ]                        #                                             
+STR:      18                       .                                            
+INT:      15                        ##                                          
+WIS:       8                        .##                                         
+DEX:       6                      ##H.###    #####                              
+CON:      17                       .....  #..#...#####                          
+                                  ##@.# #......#.....'                          
+Cur AC    15                  #..##$?## # # ##.#######                          
+HP    6/  30                   #..rp#####.#  #.#                                
+SP    0/   3                 ....##p......#  #.#                                
+                            ####  #########  #.#                                
+[**********]                                 #.#                                
+                                             #.#                                
+                                             #.#                                
+                                             #<#                                
+100' (L2)                                    ###                                
+             LF:2-2 Light 1  Fed 73 % Open floor                                
