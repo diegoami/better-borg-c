@@ -1,0 +1,41 @@
+From 9757b161717b68d6c2d9911c46632a817856af51 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:20:43 +0000
+Subject: [PATCH] Borg: clear the ranged danger when Crush would kill the
+ monster
+
+borg_danger_one_kill() has two Crush adjustments: one in the melee part
+and one in the ranged part.  Both test the same condition (the monster
+has fewer hit points than four times the caster's level, is in view and
+on a floor grid), but the ranged one cleared v1 -- the melee value the
+first block had already cleared -- instead of v2.
+
+So a monster that Crush would kill kept all of its ranged danger, and
+borg_attack_aux_crush(), which values the spell as the drop in danger,
+saw no benefit against any crushable monster that attacks from range.
+A Necromancer with Crush did nothing against a weak mage or archer
+shooting at it from a few steps away.
+
+Clear v2 in the ranged block.
+
+Tracked as diegoami/neo-angband-tracker#66.
+---
+ src/borg/borg-danger.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-danger.c b/src/borg/borg-danger.c
+index 11efe9f1a..c969c8f8f 100644
+--- a/src/borg/borg-danger.c
++++ b/src/borg/borg-danger.c
+@@ -2742,7 +2742,7 @@ int borg_danger_one_kill(
+         if ((kill->power * (100 - kill->injury)) / 100 < borg.trait[BI_CLEVEL] * 4) {
+             borg_grid* ag = &borg_grids[y9][x9];
+             if (ag->info & BORG_VIEW && borg_cave_floor_grid(ag))
+-                v1 = 0;
++                v2 = 0;
+         }
+     }
+ 
+-- 
+2.53.0
+
