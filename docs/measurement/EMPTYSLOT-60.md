@@ -51,7 +51,9 @@ event, not a per-turn one. The fixture shows the empty-pack branch executing and
 control unchanged. Per-configuration cohort frequency is recorded as **not measured**, not
 neutral, and belongs to the batch with the zoo's explicit arms (borg-zoo issue 54).
 
-Matrix group `emptyslot-60` (2 cases) uses the `after-*.log` rows as its baseline.
+Matrix group `emptyslot-60` (2 cases) uses the `after-*.log` rows as its baseline. Full matrix
+at this tree: 89 groups / 273 cases, `ok: true`, no failed group, 220/233 byte-identical; the
+13 byte differences are in the same six groups as before this carry, so no new difference.
 
 ## Ledger and credit
 
