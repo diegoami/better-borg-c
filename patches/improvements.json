@@ -24,6 +24,27 @@
         "commit": "8a0c1ba09f5a1927080f56458b35be4ab45126e0",
         "gate": "965/965 + 5/5, tooling 136/136"
       }
+    },
+    {
+      "id": "I-002",
+      "issue": 408,
+      "title": "Let borg_caution heal while fleeing at survivable danger",
+      "date": "2026-11-10",
+      "contract": "https://github.com/diegoami/better-borg-c/issues/408#issuecomment-6756334861",
+      "files": [
+        "src/borg/borg-caution.c",
+        "tools/fleeing-heal-scenario.c",
+        "tools/regression-matrix.py",
+        "docs/measurement/IMPACT-IMPROVEMENT2.md"
+      ],
+      "acceptance": [
+        "gate green (local 965/965 + 5/5; hosted CI on the PR)",
+        "scenario fixture fleeheal-408: fail-before (recorded recall rest R500, heal=0 rest=1) / pass-after (Herbal Curing cure mac, heal=1 rest=0) at the recorded D0017 fatal state; flee-highdanger, noflee-wounded, flee-full controls byte-identical across builds",
+        "regression matrix: 234/234 pass including the new fleeheal-408 group; no unexpected changes",
+        "paired cohort v1 (seeds 11/29/47, 20k turns): 6/6 alive on both binaries; seeds 29/47 identical finals; seed 11 diverged at turn 4481 from the branch's borg-RNG draw (zero heal notes, no consumable spent), final depth 4/CL6/HP54 vs 5/CL7/HP72 - progress inconclusive at n=3, no survival regression",
+        "paired targeted runs seed 2993630922: identical start.save 59ae121c; recorded normal-mode life not replayable on current main (181 commits lineage drift + fd683cedb by-class munchkin default); under product defaults both lives alive at the 1.2M cap with zero heal actions from the branch"
+      ],
+      "status": "PR pending; directional evidence recorded (docs/measurement/IMPACT-IMPROVEMENT2.md)"
     }
   ]
 }
