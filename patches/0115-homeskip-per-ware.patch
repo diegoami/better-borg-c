@@ -1,0 +1,40 @@
+From 3f35efd71787a00293d5f14e65c94abbdb760942 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 16:15:24 +0000
+Subject: [PATCH] borg: reset the home-grab skip flag for each home ware
+
+borg_think_home_grab_useless() skips a home ware that the Borg's sale
+history says it has just stored at home, so that it does not take it
+straight back out.  The skip_it flag it uses is cleared once, when it
+is declared, and never again inside the ware loop.  Once one ware
+matches the history, every later ware in the home is skipped as well,
+whether or not it matches.
+
+With a recently stored Potion of Cure Critical Wounds in the first home
+slot and a Scroll of Light, which adds nothing to the home, after it,
+the Borg therefore leaves the scroll at home instead of taking it out to
+sell.
+
+Clear the flag at the start of each ware's history check, as the
+home-buy step (borg_think_home_buy_useful) already does.
+
+Tracked as diegoami/neo-angband-tracker#29.
+---
+ src/borg/borg-store-buy.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/borg/borg-store-buy.c b/src/borg/borg-store-buy.c
+index e6841a92f..a1c3e674b 100644
+--- a/src/borg/borg-store-buy.c
++++ b/src/borg/borg-store-buy.c
+@@ -883,6 +883,7 @@ bool borg_think_home_grab_useless(void)
+             continue;
+ 
+         /* skip stuff if we sold bought it */
++        skip_it = false;
+         for (p = 0; p < sold_item_num; p++) {
+             if (sold_item_tval[p] == item->tval
+                 && sold_item_sval[p] == item->sval
+-- 
+2.53.0
+
