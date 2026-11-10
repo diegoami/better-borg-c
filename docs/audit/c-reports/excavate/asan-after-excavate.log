@@ -1,0 +1,148 @@
+native-c/excavate-236: starting...
+=================================================================
+==1411278==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x6e8f75eaf87f at pc 0x726f76ce9e38 bp 0x7ffe7b2e22e0 sp 0x7ffe7b2e1a88
+READ of size 16 at 0x6e8f75eaf87f thread T0
+    #0 0x726f76ce9e37 in strcmp ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:505
+    #1 0x61e286fb47bd in borg_sort_comp_hook /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:106
+    #2 0x61e286fb4675 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:57
+    #3 0x61e286fb46c0 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:72
+    #4 0x61e286fb46dd in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:75
+    #5 0x61e286fb46c0 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:72
+    #6 0x61e286fb46c0 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:72
+    #7 0x61e286fb46c0 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:72
+    #8 0x61e286fb46c0 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:72
+    #9 0x61e286fb4716 in borg_sort /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:89
+    #10 0x61e286ea780d in borg_init_monster_names /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-flow-kill.c:3254
+    #11 0x61e286ea7ea3 in borg_init_flow_kill /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-flow-kill.c:3338
+    #12 0x61e286ed86b5 in borg_init /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-init.c:577
+    #13 0x61e286e09f85 in setup_tests /home/diego/projects/angband/better-borg-c/.worktrees/excavate/artifacts/e236/scenarios/scenario.c:102
+    #14 0x61e28734782b in main /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/tests/unit-test.c:45
+    #15 0x726f7682a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #16 0x726f7682a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #17 0x61e286e08fa4 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/excavate/artifacts/e236/scenarios/asan-after-scenario+0x14afa4) (BuildId: 7a76f416258c7bab2036c14e6f08f5b6f939f674)
+
+0x6e8f75eaf87f is located 0 bytes after 15-byte region [0x6e8f75eaf870,0x6e8f75eaf87f)
+allocated by thread T0 here:
+    #0 0x726f76d2b60f in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:67
+    #1 0x61e287346b1f in mem_alloc /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/z-virt.c:38
+    #2 0x61e287346b5b in mem_zalloc /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/z-virt.c:46
+    #3 0x61e286edc6fb in borg_massage_special_chars /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-io.c:464
+    #4 0x61e286ea75c1 in borg_init_monster_names /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-flow-kill.c:3240
+    #5 0x61e286ea7ea3 in borg_init_flow_kill /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-flow-kill.c:3338
+    #6 0x61e286ed86b5 in borg_init /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-init.c:577
+    #7 0x61e286e09f85 in setup_tests /home/diego/projects/angband/better-borg-c/.worktrees/excavate/artifacts/e236/scenarios/scenario.c:102
+    #8 0x61e28734782b in main /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/tests/unit-test.c:45
+    #9 0x726f7682a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #10 0x726f7682a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #11 0x61e286e08fa4 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/excavate/artifacts/e236/scenarios/asan-after-scenario+0x14afa4) (BuildId: 7a76f416258c7bab2036c14e6f08f5b6f939f674)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:106 in borg_sort_comp_hook
+Shadow bytes around the buggy address:
+  0x6e8f75eaf580: fa fa 06 fa fa fa 00 03 fa fa 00 00 fa fa 00 02
+  0x6e8f75eaf600: fa fa 00 fa fa fa 00 01 fa fa 00 04 fa fa 00 05
+  0x6e8f75eaf680: fa fa 00 01 fa fa 00 03 fa fa 00 07 fa fa 00 06
+  0x6e8f75eaf700: fa fa 07 fa fa fa 00 04 fa fa 00 06 fa fa 00 05
+  0x6e8f75eaf780: fa fa 00 04 fa fa 00 00 fa fa 00 06 fa fa 07 fa
+=>0x6e8f75eaf800: fa fa 00 05 fa fa 00 03 fa fa 00 05 fa fa 00[07]
+  0x6e8f75eaf880: fa fa 00 00 fa fa 00 02 fa fa 07 fa fa fa 00 05
+  0x6e8f75eaf900: fa fa 00 07 fa fa 07 fa fa fa 00 01 fa fa 00 03
+  0x6e8f75eaf980: fa fa 00 04 fa fa 00 06 fa fa 00 02 fa fa 00 04
+  0x6e8f75eafa00: fa fa 00 02 fa fa 00 fa fa fa 00 fa fa fa 00 05
+  0x6e8f75eafa80: fa fa 00 02 fa fa 00 07 fa fa 00 06 fa fa 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+=================================================================
+==1411278==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x6e8f75eaf87f at pc 0x726f76ce9c35 bp 0x7ffe7b2e22e0 sp 0x7ffe7b2e1a88
+READ of size 16 at 0x6e8f75eaf87f thread T0
+    #0 0x726f76ce9c34 in strcmp ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:506
+    #1 0x61e286fb47bd in borg_sort_comp_hook /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:106
+    #2 0x61e286fb4675 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:57
+    #3 0x61e286fb46c0 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:72
+    #4 0x61e286fb46dd in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:75
+    #5 0x61e286fb46c0 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:72
+    #6 0x61e286fb46c0 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:72
+    #7 0x61e286fb46c0 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:72
+    #8 0x61e286fb46c0 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:72
+    #9 0x61e286fb4716 in borg_sort /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:89
+    #10 0x61e286ea780d in borg_init_monster_names /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-flow-kill.c:3254
+    #11 0x61e286ea7ea3 in borg_init_flow_kill /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-flow-kill.c:3338
+    #12 0x61e286ed86b5 in borg_init /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-init.c:577
+    #13 0x61e286e09f85 in setup_tests /home/diego/projects/angband/better-borg-c/.worktrees/excavate/artifacts/e236/scenarios/scenario.c:102
+    #14 0x61e28734782b in main /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/tests/unit-test.c:45
+    #15 0x726f7682a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #16 0x726f7682a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #17 0x61e286e08fa4 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/excavate/artifacts/e236/scenarios/asan-after-scenario+0x14afa4) (BuildId: 7a76f416258c7bab2036c14e6f08f5b6f939f674)
+
+0x6e8f75eaf87f is located 0 bytes after 15-byte region [0x6e8f75eaf870,0x6e8f75eaf87f)
+allocated by thread T0 here:
+    #0 0x726f76d2b60f in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:67
+    #1 0x61e287346b1f in mem_alloc /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/z-virt.c:38
+    #2 0x61e287346b5b in mem_zalloc /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/z-virt.c:46
+    #3 0x61e286edc6fb in borg_massage_special_chars /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-io.c:464
+    #4 0x61e286ea75c1 in borg_init_monster_names /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-flow-kill.c:3240
+    #5 0x61e286ea7ea3 in borg_init_flow_kill /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-flow-kill.c:3338
+    #6 0x61e286ed86b5 in borg_init /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-init.c:577
+    #7 0x61e286e09f85 in setup_tests /home/diego/projects/angband/better-borg-c/.worktrees/excavate/artifacts/e236/scenarios/scenario.c:102
+    #8 0x61e28734782b in main /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/tests/unit-test.c:45
+    #9 0x726f7682a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #10 0x726f7682a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #11 0x61e286e08fa4 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/excavate/artifacts/e236/scenarios/asan-after-scenario+0x14afa4) (BuildId: 7a76f416258c7bab2036c14e6f08f5b6f939f674)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow /home/diego/projects/angband/better-borg-c/.worktrees/excavate/src/borg/borg-util.c:106 in borg_sort_comp_hook
+Shadow bytes around the buggy address:
+  0x6e8f75eaf580: fa fa 06 fa fa fa 00 03 fa fa 00 00 fa fa 00 02
+  0x6e8f75eaf600: fa fa 00 fa fa fa 00 01 fa fa 00 04 fa fa 00 05
+  0x6e8f75eaf680: fa fa 00 01 fa fa 00 03 fa fa 00 07 fa fa 00 06
+  0x6e8f75eaf700: fa fa 07 fa fa fa 00 04 fa fa 00 06 fa fa 00 05
+  0x6e8f75eaf780: fa fa 00 04 fa fa 00 00 fa fa 00 06 fa fa 07 fa
+=>0x6e8f75eaf800: fa fa 00 05 fa fa 00 03 fa fa 00 05 fa fa 00[07]
+  0x6e8f75eaf880: fa fa 00 00 fa fa 00 02 fa fa 07 fa fa fa 00 05
+  0x6e8f75eaf900: fa fa 00 07 fa fa 07 fa fa fa 00 01 fa fa 00 03
+  0x6e8f75eaf980: fa fa 00 04 fa fa 00 06 fa fa 00 02 fa fa 00 04
+  0x6e8f75eafa00: fa fa 00 02 fa fa 00 fa fa fa 00 fa fa fa 00 05
+  0x6e8f75eafa80: fa fa 00 02 fa fa 00 07 fa fa 00 06 fa fa 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+SETUPSTEP profile
+SETUP vault=1 spelllegal=1 wallfeat=18 perma_adjacent=1
+SETUP seed=1000 class=Druid level=13 depth=30 mana=72/72
+  excavated_grid_marked_dark  MODE excavate
+DECISION acted=1 keys=9 sequence=* p 3 6 5 m b c 5
+STATE glow=0 dark=1
+OUTCOME acted=1 dark_marked=1
+Passed
+native-c/excavate-236 finished: 1/1 passed

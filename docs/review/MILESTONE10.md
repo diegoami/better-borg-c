@@ -119,8 +119,9 @@ Each is checkable from the clone unless marked otherwise. C8's byte-identity hal
 * **C9 I-003 rejection.** The negative result is recorded with its declared margins and the
   cohort that failed them; nothing from it was merged.
 * **C10 disclosures.** The package discloses: I-001's targeted-life divergence, I-002's
-  non-reproducing paired rerun, the residual `artifacts/` dependency (22 local groups, all of the
-  0049 era), and that the matrix evidence quoted per unit is that unit's own merge-time run.
+  non-reproducing paired rerun, and that the matrix evidence quoted per unit is that unit's own
+  merge-time run. Its one former gap, the 22 0049-era groups reading a gitignored tree, is closed
+  post-tag (section 8).
 * **C11 process claims.** No upstream or source-tracker posting, no Rust/borg-rs work, no v10
   tag (the only other tag in play is `4.2.6-impact-v9.1` on its release branch, outside the
   window), and each governance PR (384, 385, 388, 389, 391, 393) matches what the owner
@@ -132,9 +133,9 @@ Each is checkable from the clone unless marked otherwise. C8's byte-identity hal
 
 * The internal reviews (PR 416, PR 417) are non-independent; their findings were applied but not
   independently confirmed.
-* The full 234-case matrix needs the gitignored `artifacts/` tree for 22 groups. Without it a
-  reviewer can reproduce 37 groups (95 cases) and the `KIT_GROUPS` (which need a full clone for
-  their evidence pins); say which you ran.
+* The full 234-case matrix needs no tree outside the clone. It does need a full clone: the 17
+  `KIT_GROUPS` fetch their fixtures at the ledger's evidence commits (a shallow clone is not
+  enough). Say which groups you ran.
 * Multi-hour `run-cases.py` kit groups and the cohort measurements are not cheap to rerun; if you
   do not rerun them, say so instead of restating their numbers.
 * The package document is the implementer's account. Where it and the code disagree, the code wins.
@@ -198,12 +199,13 @@ Verify, in this order:
    attached to the existing ledger entry rather than a new ordinal, and are the controls unchanged?
 5. The matrix: 225 -> 230 -> 234 cases; the restored-kit 91/91 claim and the 4 fleeheal-408 cases;
    the v10 summary (docs/measurement/impact-v10/regression-summary.json). Rerun what you can
-   afford and say what you skipped. The 234-case run needs the gitignored artifacts/ tree for 22
-   groups; without it rerun the 37 committed kits only (commands in
+   afford and say what you skipped. The whole 234-case run needs no tree outside the clone, but the
+   KIT_GROUPS need a full clone for their evidence pins (commands in
    docs/review/MILESTONE10.md section 5).
 6. The kit restoration: in commit 0263951f8, 36 dirs, 523 files, sources and logs only, 36 GROUPS
    path substitutions with unchanged tags/modes/transitions at that commit, no .worktrees/
-   reference, and a fresh clone rerunning the committed kits without artifacts/.
+   reference; the later fleeheal-408 kit and the 22 0049-era kits (section 8) complete the set, and
+   a fresh clone reruns all 60 local groups without artifacts/.
 7. The claims you cannot check from the repo: the 523-file byte-identity to untracked originals,
    and the cohort runs. Say so explicitly rather than accepting them.
 8. The disclosures: is anything material missing - a behaviour change without a unit, a test whose
@@ -250,3 +252,21 @@ touches runtime behaviour; the only `src/` change is the comment in M10-R-06.
 Reverified at the corrections head: `allunittests` 965/965; full matrix 77 groups / 234 cases,
 `ok: true`, zero unexpected row differences against the v9 baselines, 183/234 byte-identical; a
 fresh clone runs all 37 committed kits (95 cases).
+
+## 9. Post-tag evidence: the last 22 kits
+
+After `4.2.6-impact-v10` was placed, the 22 remaining 0049-era groups (swap, knockout,
+preparation, cold-protection, rings, potion-timing, itangast, shot-path, brand, stairtrack,
+acidarc, outoflight, mapwall, enlightenment, stairreturn, blowname, excavate, calllight, gloves,
+detectcarry, maimfoe, recalldepth) had their `scenario.c`, `profile/borg.txt` and recorded baseline
+logs committed under `docs/audit/c-reports/`, with `GROUPS` repointed. 22 groups, 319 files, about
+2.2 MB.
+
+Effect: **all 60 local fixtures are now in the repository**, and the full 234-case matrix runs from
+a clean curl-clone with no gitignored `artifacts/` tree. The only clone requirement left is
+history, for the 17 `KIT_GROUPS` evidence pins.
+
+This is evidence-only: no code change, no baseline row regenerated, and the pinned v10 tag is
+unaffected (it was placed on the reviewed runtime snapshot before this batch). Re-verified after
+the batch: full matrix 77 groups / 234 cases, `ok: true`, zero unexpected row differences against
+the v9 baselines, 183/234 byte-identical - the same numbers as the reviewed head.

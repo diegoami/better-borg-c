@@ -1,0 +1,148 @@
+native-c/maimfoe-256: starting...
+=================================================================
+==1751978==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x73b1a3caf8bf at pc 0x7791a4ae9e38 bp 0x7ffe6f39c470 sp 0x7ffe6f39bc18
+READ of size 16 at 0x73b1a3caf8bf thread T0
+    #0 0x7791a4ae9e37 in strcmp ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:505
+    #1 0x579a0c7c79a5 in borg_sort_comp_hook /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:106
+    #2 0x579a0c7c785d in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:57
+    #3 0x579a0c7c78a8 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:72
+    #4 0x579a0c7c78c5 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:75
+    #5 0x579a0c7c78a8 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:72
+    #6 0x579a0c7c78a8 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:72
+    #7 0x579a0c7c78a8 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:72
+    #8 0x579a0c7c78a8 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:72
+    #9 0x579a0c7c78fe in borg_sort /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:89
+    #10 0x579a0c6ba985 in borg_init_monster_names /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-flow-kill.c:3254
+    #11 0x579a0c6bb01b in borg_init_flow_kill /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-flow-kill.c:3338
+    #12 0x579a0c6eb82d in borg_init /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-init.c:577
+    #13 0x579a0c61d319 in setup_tests /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/artifacts/mf256/scenarios/scenario.c:109
+    #14 0x579a0cb5aa13 in main /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/tests/unit-test.c:45
+    #15 0x7791a462a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #16 0x7791a462a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #17 0x579a0c61bf84 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/artifacts/mf256/scenarios/asan-after-scenario+0x14af84) (BuildId: ab493e4398cce99301fb13ac4bd349b7ffe8a659)
+
+0x73b1a3caf8bf is located 0 bytes after 15-byte region [0x73b1a3caf8b0,0x73b1a3caf8bf)
+allocated by thread T0 here:
+    #0 0x7791a4b2b60f in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:67
+    #1 0x579a0cb59d07 in mem_alloc /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/z-virt.c:38
+    #2 0x579a0cb59d43 in mem_zalloc /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/z-virt.c:46
+    #3 0x579a0c6ef873 in borg_massage_special_chars /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-io.c:464
+    #4 0x579a0c6ba739 in borg_init_monster_names /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-flow-kill.c:3240
+    #5 0x579a0c6bb01b in borg_init_flow_kill /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-flow-kill.c:3338
+    #6 0x579a0c6eb82d in borg_init /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-init.c:577
+    #7 0x579a0c61d319 in setup_tests /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/artifacts/mf256/scenarios/scenario.c:109
+    #8 0x579a0cb5aa13 in main /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/tests/unit-test.c:45
+    #9 0x7791a462a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #10 0x7791a462a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #11 0x579a0c61bf84 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/artifacts/mf256/scenarios/asan-after-scenario+0x14af84) (BuildId: ab493e4398cce99301fb13ac4bd349b7ffe8a659)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:106 in borg_sort_comp_hook
+Shadow bytes around the buggy address:
+  0x73b1a3caf600: fa fa 00 00 fa fa 00 02 fa fa 00 fa fa fa 00 01
+  0x73b1a3caf680: fa fa 00 04 fa fa 00 05 fa fa 00 01 fa fa 00 03
+  0x73b1a3caf700: fa fa 00 07 fa fa 00 06 fa fa 07 fa fa fa 00 04
+  0x73b1a3caf780: fa fa 00 06 fa fa 00 05 fa fa 00 04 fa fa 00 00
+  0x73b1a3caf800: fa fa 00 06 fa fa 07 fa fa fa 00 05 fa fa 00 03
+=>0x73b1a3caf880: fa fa 00 05 fa fa 00[07]fa fa 00 00 fa fa 00 02
+  0x73b1a3caf900: fa fa 07 fa fa fa 00 05 fa fa 00 07 fa fa 07 fa
+  0x73b1a3caf980: fa fa 00 01 fa fa 00 03 fa fa 00 04 fa fa 00 06
+  0x73b1a3cafa00: fa fa 00 02 fa fa 00 04 fa fa 00 02 fa fa 00 fa
+  0x73b1a3cafa80: fa fa 00 fa fa fa 00 05 fa fa 00 02 fa fa 00 07
+  0x73b1a3cafb00: fa fa 00 06 fa fa 00 00 fa fa 00 06 fa fa 00 07
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+=================================================================
+==1751978==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x73b1a3caf8bf at pc 0x7791a4ae9c35 bp 0x7ffe6f39c470 sp 0x7ffe6f39bc18
+READ of size 16 at 0x73b1a3caf8bf thread T0
+    #0 0x7791a4ae9c34 in strcmp ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:506
+    #1 0x579a0c7c79a5 in borg_sort_comp_hook /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:106
+    #2 0x579a0c7c785d in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:57
+    #3 0x579a0c7c78a8 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:72
+    #4 0x579a0c7c78c5 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:75
+    #5 0x579a0c7c78a8 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:72
+    #6 0x579a0c7c78a8 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:72
+    #7 0x579a0c7c78a8 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:72
+    #8 0x579a0c7c78a8 in borg_sort_aux /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:72
+    #9 0x579a0c7c78fe in borg_sort /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:89
+    #10 0x579a0c6ba985 in borg_init_monster_names /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-flow-kill.c:3254
+    #11 0x579a0c6bb01b in borg_init_flow_kill /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-flow-kill.c:3338
+    #12 0x579a0c6eb82d in borg_init /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-init.c:577
+    #13 0x579a0c61d319 in setup_tests /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/artifacts/mf256/scenarios/scenario.c:109
+    #14 0x579a0cb5aa13 in main /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/tests/unit-test.c:45
+    #15 0x7791a462a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #16 0x7791a462a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #17 0x579a0c61bf84 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/artifacts/mf256/scenarios/asan-after-scenario+0x14af84) (BuildId: ab493e4398cce99301fb13ac4bd349b7ffe8a659)
+
+0x73b1a3caf8bf is located 0 bytes after 15-byte region [0x73b1a3caf8b0,0x73b1a3caf8bf)
+allocated by thread T0 here:
+    #0 0x7791a4b2b60f in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:67
+    #1 0x579a0cb59d07 in mem_alloc /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/z-virt.c:38
+    #2 0x579a0cb59d43 in mem_zalloc /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/z-virt.c:46
+    #3 0x579a0c6ef873 in borg_massage_special_chars /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-io.c:464
+    #4 0x579a0c6ba739 in borg_init_monster_names /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-flow-kill.c:3240
+    #5 0x579a0c6bb01b in borg_init_flow_kill /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-flow-kill.c:3338
+    #6 0x579a0c6eb82d in borg_init /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-init.c:577
+    #7 0x579a0c61d319 in setup_tests /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/artifacts/mf256/scenarios/scenario.c:109
+    #8 0x579a0cb5aa13 in main /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/tests/unit-test.c:45
+    #9 0x7791a462a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #10 0x7791a462a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #11 0x579a0c61bf84 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/artifacts/mf256/scenarios/asan-after-scenario+0x14af84) (BuildId: ab493e4398cce99301fb13ac4bd349b7ffe8a659)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow /home/diego/projects/angband/better-borg-c/.worktrees/maimfoe/src/borg/borg-util.c:106 in borg_sort_comp_hook
+Shadow bytes around the buggy address:
+  0x73b1a3caf600: fa fa 00 00 fa fa 00 02 fa fa 00 fa fa fa 00 01
+  0x73b1a3caf680: fa fa 00 04 fa fa 00 05 fa fa 00 01 fa fa 00 03
+  0x73b1a3caf700: fa fa 00 07 fa fa 00 06 fa fa 07 fa fa fa 00 04
+  0x73b1a3caf780: fa fa 00 06 fa fa 00 05 fa fa 00 04 fa fa 00 00
+  0x73b1a3caf800: fa fa 00 06 fa fa 07 fa fa fa 00 05 fa fa 00 03
+=>0x73b1a3caf880: fa fa 00 05 fa fa 00[07]fa fa 00 00 fa fa 00 02
+  0x73b1a3caf900: fa fa 07 fa fa fa 00 05 fa fa 00 07 fa fa 07 fa
+  0x73b1a3caf980: fa fa 00 01 fa fa 00 03 fa fa 00 04 fa fa 00 06
+  0x73b1a3cafa00: fa fa 00 02 fa fa 00 04 fa fa 00 02 fa fa 00 fa
+  0x73b1a3cafa80: fa fa 00 fa fa fa 00 05 fa fa 00 02 fa fa 00 07
+  0x73b1a3cafb00: fa fa 00 06 fa fa 00 00 fa fa 00 06 fa fa 00 07
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+SETUPSTEP profile
+SETUP lich kill=1 power=1699
+SETUP blows=2 power_maim=6
+SETUP seed=1000 class=Blackguard level=31 depth=30 hp=273/273 sp=125/125
+  maim_foe_returns_best_score  MODE single
+REALCALL value=234
+OUTCOME value=234
+Passed
+native-c/maimfoe-256 finished: 1/1 passed
