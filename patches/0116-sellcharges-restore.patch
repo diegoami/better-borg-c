@@ -1,0 +1,41 @@
+From 58a2638c7acc7c684fc7e6fca6df3921e93b0d9a Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 14:17:32 +0000
+Subject: [PATCH] Borg: put staff charges back after each home-sell trial
+
+borg_think_home_sell_best() tries each pack item in each home slot.
+For a staff or wand it moves one item's share of the charges into the
+home slot and takes them off the pack stack, but after the trial it
+only put the item count back.  The pack stack therefore lost a share of
+its charges on every trial, so later trials in the same scan valued the
+staff with too few charges.
+
+With a stack of two Staffs of Teleportation and one scroll in the home,
+replacing the scroll was valued with the full charges but adding the
+staff beside it with a drained share, so the Borg chose to take the
+scroll out of the home instead of storing the staff.  Restore the
+charges together with the count.
+
+Tracked as diegoami/neo-angband-tracker#132.
+---
+ src/borg/borg-store-sell.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/borg/borg-store-sell.c b/src/borg/borg-store-sell.c
+index 9fcfd53b3..8c1a8f4a6 100644
+--- a/src/borg/borg-store-sell.c
++++ b/src/borg/borg-store-sell.c
+@@ -517,6 +517,10 @@ static void borg_think_home_sell_best(int32_t * best_home_power)
+             /* put item back into pack */
+             item->iqty++;
+ 
++            /* for wands and staffs put the charges back too */
++            if (item->tval == TV_STAFF || item->tval == TV_WAND)
++                item->pval += charge_each;
++
+             /* put the item back in the test array */
+             test_item[n] = n;
+         }
+-- 
+2.53.0
+
