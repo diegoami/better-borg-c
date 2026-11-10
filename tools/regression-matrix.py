@@ -311,6 +311,12 @@ GROUPS = [
     ('eathurt-80', 'docs/audit/c-reports/eathurt-80', 'EH80',
      ('fullhp', 'hurt'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+
+    # Source86 (issue 86, CBUG-0070): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-ringslot86.py.
+    ('ringslot-86', 'docs/audit/c-reports/ringslot-86', 'RS86',
+     ('swap', 'mirror', 'empty'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
     # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,

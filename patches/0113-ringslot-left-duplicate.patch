@@ -1,0 +1,58 @@
+From aa3bf51c9dec12cf55ca2e7e8f3e38e07a55baf7 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:32:48 +0000
+Subject: [PATCH] Borg: let the left ring slot try every ring in the best-gear
+ search
+
+borg_best_stuff_aux() picks the best combination of equipment at home
+by trying each candidate item in each slot, the left ring slot before
+the right one (see borg_best_stuff_order()).  To avoid putting the same
+ring on both hands, the right-slot loop skips the item already chosen
+for the left slot, which is correct.
+
+The left-slot loop also had such a check, against test[n + 1], the
+right-slot entry.  The right slot has not been chosen yet at that
+point: the entry still holds the last ring tried for the right slot in
+the previous subtree.  So a ring was skipped for the left slot whenever
+it was the last ring tried on the right.  With one ring in the pack,
+the search never tried it on the left hand.  A Borg wearing a weak
+left ring and a good right ring then planned to take off the good ring
+to make room for the new one, keeping the weak ring.
+
+The right-slot check already prevents duplicates, so drop the left-slot
+one.
+
+Tracked as diegoami/neo-angband-tracker#86.
+---
+ src/borg/borg-item-wear.c | 9 ++-------
+ 1 file changed, 2 insertions(+), 7 deletions(-)
+
+diff --git a/src/borg/borg-item-wear.c b/src/borg/borg-item-wear.c
+index 9464197d1..9d697346a 100644
+--- a/src/borg/borg-item-wear.c
++++ b/src/borg/borg-item-wear.c
+@@ -1283,19 +1283,14 @@ static void borg_best_stuff_aux(
+                     && borg_wield_slot(item) == INVEN_LEFT)))
+             continue;
+ 
+-        /* don't test the same item in both ring slots */
++        /* don't test the same item in both ring slots; the left ring is
++         * chosen first, so only the right ring needs the check */
+         if (slot == INVEN_RIGHT) {
+             if (i < z_info->pack_size) {
+                 if (test[n - 1] == i)
+                     continue;
+             } else if (test[n - 1] == ((i - z_info->pack_size) + 100))
+                 continue;
+-        } else if (slot == INVEN_LEFT) {
+-            if (i < z_info->pack_size) {
+-                if (test[n + 1] == i)
+-                    continue;
+-            } else if (test[n + 1] == ((i - z_info->pack_size) + 100))
+-                continue;
+         }
+ 
+         /* Make sure that slot does not have an item that can't be removed */
+-- 
+2.53.0
+
