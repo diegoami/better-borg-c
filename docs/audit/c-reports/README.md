@@ -29,6 +29,9 @@ worktrees are **not** committed; the kits build from source.
   rerun. Owner decision 2026-11-10 deferred restoring them to milestone 10;
   the files here are the same sources and baseline logs, copied unchanged, and
   `GROUPS` now points at these paths.
+* `fleeheal-408`: the I-002 fixture baselines, committed in the milestone 10
+  review corrections (M10-R-02) from the same kind of working tree; the
+  scenario source itself is `tools/fleeing-heal-scenario.c`.
 
 ## Baselines and expectations
 
@@ -40,8 +43,10 @@ the declared intentional transitions in `GROUPS` (`rows_must`, `fail`,
 
 ## Verification at restoration (2026-11-10)
 
-The 36 restored groups were rerun against the product build on top of
-`25d1ce6a7`: 91 cases (the `text` group is declared skipped), **all 91 OK,
+The 36 restored groups were rerun against the product build rebased onto
+`c1a80e92c` (source identical to `25d1ce6a7`, the package head; the kit files
+were working-tree files at run time and were committed unchanged as
+`0263951f8`): 91 cases (the `text` group is declared skipped), **all 91 OK,
 zero unexpected row differences against
 `docs/measurement/impact-v9/regression-summary.json`**. The four rows that do
 differ from the v9 baseline rows are the milestone 9 declared transitions
@@ -51,9 +56,9 @@ values).
 
 ## Residual dependency
 
-23 local groups still read their baseline trees from the gitignored `artifacts/` directory: the 22
+22 local groups still read their baseline trees from the gitignored `artifacts/` directory: the
 0049-era groups (swap, knockout, preparation, cold-protection, rings, potion-timing, itangast,
 shot-path, brand, stairtrack, acidarc, outoflight, mapwall, enlightenment, stairreturn, blowname,
-excavate, calllight, gloves, detectcarry, maimfoe, recalldepth) and `fleeheal-408`. A fresh clone
-can run the kits here and the `KIT_GROUPS` (fetched at their evidence pins), but not those groups
-until their baselines are committed the same way.
+excavate, calllight, gloves, detectcarry, maimfoe, recalldepth). A fresh clone can run every kit
+here and the `KIT_GROUPS` (fetched at their evidence pins), but not those groups until their
+baselines are committed the same way.

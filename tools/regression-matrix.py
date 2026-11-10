@@ -246,7 +246,7 @@ GROUPS = [
     # buy-time quaff at real danger, the existing not-fleeing heal path,
     # and the healthy recall rest) were byte-identical across the
     # before/after builds and must stay that way.
-    ('fleeheal-408', 'artifacts/fleeheal-408', 'IM2',
+    ('fleeheal-408', 'docs/audit/c-reports/fleeheal-408', 'IM2',
      ('flee-low', 'flee-highdanger', 'noflee-wounded', 'flee-full'),
      {'scenario': 'tools/fleeing-heal-scenario.c',
       'rows_free': ('flee-low',),

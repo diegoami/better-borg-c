@@ -1,0 +1,8 @@
+native-c/fleeheal-408: starting...
+SETUPSTEP profile
+SETUP seed=1000 mode=flee-low class=Ranger level=26 depth=21 hp=7/230 sp=19/39 poisoned=1 fleeing=1 recalling=1
+  fleeing_borg_tends_poison_at_safe_grids  MODE flee-low
+DECISION acted=1 keys=3 sequence=mac
+OUTCOME acted=1 heal=1 rest=0 keys=3
+[01;32mPassed[00m
+native-c/fleeheal-408 finished: 1/1 passed

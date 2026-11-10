@@ -94,13 +94,18 @@ Each is checkable from the clone unless marked otherwise. C8's byte-identity hal
   and the `lit`/`dark`/`mage-lit` controls are unchanged in both. It is attached to the existing
   ledger entry, not a new ordinal.
 * **C5 matrix.** v9 tip 225 cases; `necrolight-crash` +5 = 230; `fleeheal-408` +4 = 234; the
-  restored 36 groups rerun 91/91 OK with zero undeclared row differences; 77 = 60 local + 17
-  `KIT_GROUPS`. The only row differences are the declared transitions (`vampire`
-  `near-far`/`near-near`, `dispel259` `reserve`/`clear`, `knockout` `paralysis`).
-* **C6 kit restoration.** 36 kit dirs, 523 files, committed sources and logs only (no binaries,
-  `.o`, `result.json`, tarballs), exactly 36 `GROUPS` path substitutions with unchanged tags,
-  modes and declared transitions, no `.worktrees/` reference left, and a fresh clone reruns the
-  36 groups without `artifacts/`.
+  restored 36 groups rerun 91/91 OK with zero undeclared row differences; `fleeheal-408` 4/4 on its
+  committed kit; 77 = 60 local + 17 `KIT_GROUPS`. The only row differences are the declared
+  transitions (`vampire` `near-far`/`near-near`, `dispel259` `reserve`/`clear`, `knockout`
+  `paralysis`).
+* **C6 kit restoration.** In the restoration commit `0263951f8` itself: 36 kit dirs, 523 files,
+  committed sources and logs only (no binaries, `.o`, `result.json`, tarballs), exactly 36
+  `GROUPS` path substitutions with unchanged tags, modes and declared transitions *at that
+  commit*, and no `.worktrees/` reference left. The window's other `GROUPS` changes are not part
+  of the restoration: the milestone 9 declarations (`dispel`, `vampire`) landed in `8a9b5307f`,
+  and `fleeheal-408`'s baseline repoint in the review corrections. A fresh clone reruns the 37
+  committed kits without `artifacts/` (91 cases for the 36 restored groups plus the 4
+  `fleeheal-408` cases).
 * **C7 cohort claim.** Both units were measured on the frozen v1 cohort (Human Warrior, seeds
   11/29/47, 20k turns) against each branch's own start; 6/6 alive at cap before and after, so the
   claim is cohort-neutral, not "improves survival". Check the recorded lives, not the prose.
@@ -110,11 +115,12 @@ Each is checkable from the clone unless marked otherwise. C8's byte-identity hal
 * **C9 I-003 rejection.** The negative result is recorded with its declared margins and the
   cohort that failed them; nothing from it was merged.
 * **C10 disclosures.** The package discloses: I-001's targeted-life divergence, I-002's
-  non-reproducing paired rerun, the residual `artifacts/` dependency (23 local groups: 22 of the
-  0049 era plus `fleeheal-408`), and that the matrix evidence quoted per unit is that unit's
-  own merge-time run.
+  non-reproducing paired rerun, the residual `artifacts/` dependency (22 local groups, all of the
+  0049 era), and that the matrix evidence quoted per unit is that unit's own merge-time run.
 * **C11 process claims.** No upstream or source-tracker posting, no Rust/borg-rs work, no v10
-  tag, and each governance PR (384, 385, 388, 389, 391, 393) matches what the owner authorised.
+  tag (the only other tag in play is `4.2.6-impact-v9.1` on its release branch, outside the
+  window), and each governance PR (384, 385, 388, 389, 391, 393) matches what the owner
+  authorised.
 * **C12 death records.** D0017-D0019 contain dossiers with real logs, owner feedback processed
   into actions, and no gameplay change.
 
@@ -122,8 +128,8 @@ Each is checkable from the clone unless marked otherwise. C8's byte-identity hal
 
 * The internal reviews (PR 416, PR 417) are non-independent; their findings were applied but not
   independently confirmed.
-* The full 234-case matrix needs the gitignored `artifacts/` tree for 23 groups. Without it a
-  reviewer can reproduce 36 groups (91 cases) and the `KIT_GROUPS` (which need a full clone for
+* The full 234-case matrix needs the gitignored `artifacts/` tree for 22 groups. Without it a
+  reviewer can reproduce 37 groups (95 cases) and the `KIT_GROUPS` (which need a full clone for
   their evidence pins); say which you ran.
 * Multi-hour `run-cases.py` kit groups and the cohort measurements are not cheap to rerun; if you
   do not rerun them, say so instead of restating their numbers.
@@ -186,13 +192,14 @@ Verify, in this order:
    records the two improvement units as local-only. Nothing was proposed upstream.
 4. The 0099 correction: does the fixture fail before and pass after for the recorded reason, is it
    attached to the existing ledger entry rather than a new ordinal, and are the controls unchanged?
-5. The matrix: 225 -> 230 -> 234 cases; the restored-kit 91/91 claim; the v10 summary
-   (docs/measurement/impact-v10/regression-summary.json). Rerun what you can afford and say what
-   you skipped. The 234-case run needs the gitignored artifacts/ tree for 23 groups; without it
-   rerun the 36 committed kits only (commands in docs/review/MILESTONE10.md section 5).
-6. The kit restoration: 36 dirs, 523 files, sources and logs only, 36 GROUPS path substitutions
-   with unchanged tags/modes/transitions, no .worktrees/ reference, and a fresh clone rerunning
-   them without artifacts/.
+5. The matrix: 225 -> 230 -> 234 cases; the restored-kit 91/91 claim and the 4 fleeheal-408 cases;
+   the v10 summary (docs/measurement/impact-v10/regression-summary.json). Rerun what you can
+   afford and say what you skipped. The 234-case run needs the gitignored artifacts/ tree for 22
+   groups; without it rerun the 37 committed kits only (commands in
+   docs/review/MILESTONE10.md section 5).
+6. The kit restoration: in commit 0263951f8, 36 dirs, 523 files, sources and logs only, 36 GROUPS
+   path substitutions with unchanged tags/modes/transitions at that commit, no .worktrees/
+   reference, and a fresh clone rerunning the committed kits without artifacts/.
 7. The claims you cannot check from the repo: the 523-file byte-identity to untracked originals,
    and the cohort runs. Say so explicitly rather than accepting them.
 8. The disclosures: is anything material missing - a behaviour change without a unit, a test whose

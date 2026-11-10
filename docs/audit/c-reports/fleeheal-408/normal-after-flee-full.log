@@ -1,0 +1,8 @@
+native-c/fleeheal-408: starting...
+SETUPSTEP profile
+SETUP seed=1000 mode=flee-full class=Ranger level=26 depth=21 hp=230/230 sp=19/39 poisoned=0 fleeing=1 recalling=1
+  fleeing_borg_tends_poison_at_safe_grids  MODE flee-full
+DECISION acted=1 keys=5 sequence=R500œ
+OUTCOME acted=1 heal=0 rest=1 keys=5
+[01;32mPassed[00m
+native-c/fleeheal-408 finished: 1/1 passed

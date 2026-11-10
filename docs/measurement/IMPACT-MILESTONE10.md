@@ -118,11 +118,15 @@ decision 2026-11-10 (checkpoint 1): restore them in this milestone by committing
 That restoration is delivered. Each kit's `scenario.c`, companion headers, `profile/borg.txt` and
 recorded baseline logs were copied unchanged (linked binaries, object files, `result.json` and
 tarballs are not committed; the kits build from source), and `docs/audit/c-reports/README.md`
-records the contents, provenance and residual dependency. Verification against the product build
-on `c1a80e92c`:
+records the contents, provenance and residual dependency. I-002's own fixture baselines were
+committed the same way in the milestone 10 review corrections (`docs/audit/c-reports/fleeheal-408`),
+so all three units now carry repo-resident fixture evidence: 0099 and I-002 by committed kits, and
+I-001 by a declared absence (its guard never fires in any fixture). Verification against the
+product build on `c1a80e92c`:
 
 * restored groups alone: 36 groups, 91 cases (`text` is declared skipped), **all OK**, zero
   unexpected `OUTCOME` row differences against the v9 baselines;
+* `fleeheal-408` on its committed kit: 4/4 OK;
 * full matrix: 77 groups, **234 cases, `ok: true`, no failed group**, 183/234 cases byte-identical
   to their recorded baseline logs. The machine-readable run is committed as
   `docs/measurement/impact-v10/regression-summary.json` (`at_commit: c1a80e92c`).
@@ -132,14 +136,13 @@ The rows that differ from the v9 baseline rows are exactly the declared transiti
 failing, `knockout` `paralysis`); byte differences are information, not failures, because later
 carries legitimately touch shared paths.
 
-**Residual dependency (disclosed):** 23 local groups still read their baselines from the gitignored
-`artifacts/` tree: the 22 0049-era groups (swap, knockout, preparation, cold-protection, rings,
+**Residual dependency (disclosed):** 22 local groups still read their baselines from the gitignored
+`artifacts/` tree: the 0049-era groups (swap, knockout, preparation, cold-protection, rings,
 potion-timing, itangast, shot-path, brand, stairtrack, acidarc, outoflight, mapwall,
 enlightenment, stairreturn, blowname, excavate, calllight, gloves, detectcarry, maimfoe,
-recalldepth) plus `fleeheal-408`, the I-002 group added this cycle. They need that tree present. A
-fresh clone can run the 36 restored groups and the 17 `KIT_GROUPS` (fetched at their evidence
-pins), but not those 23 until their baselines are committed the same way. That is the remaining
-matrix item.
+recalldepth) and nothing else. They need that tree present. A fresh clone can run the 37 committed
+kits and the 17 `KIT_GROUPS` (fetched at their evidence pins), but not those 22 until their
+baselines are committed the same way. That is the remaining matrix item.
 
 ## Frozen v1 cohort: both units cohort-neutral on survival
 
@@ -156,7 +159,9 @@ unchanged this cycle.
   negative result, not a unit. Policy v1 deadlocked buy/sell in town (median max-depth 5 -> 3);
   v2 fixed the loop but failed cohort 2's margins (4/20 alive->dead losses and 7/20 max-depth
   losses above the declared bounds; three new CL1 deaths with the starting dagger, the predicted
-  early-AC cost). Branch `task/imp-003-startbuy` is pushed; nothing merged.
+  early-AC cost). Branch `task/imp-003-startbuy` is pushed; its docs-only negative-result record
+  (`docs/measurement/STARTBUY-410-REJECTED.md`) is merged to main in the review corrections;
+  nothing else from it is merged.
 * **Death reviews D0017, D0018, D0019** (PR 404, 402, 407): dossier, evaluation and redesign
   lessons only; no runtime change.
 * **Governance/tooling/docs:** 381 (m9 corrections), 382 (m9 state), 383 (v9 tag record), 384
@@ -167,6 +172,10 @@ unchanged this cycle.
   and the follow-up kit-restoration PR (36 kits committed under `docs/audit/c-reports/`, `GROUPS`
   repointed, `docs/measurement/impact-v10/` full-run summary). None changes borg or game
   behaviour.
+* **Release tag outside the window:** `4.2.6-impact-v9.1` is an annotated tag on branch
+  `release/4.2.6-impact-v9.1` (placed 2026-11-10 at owner direction), outside the reviewed range;
+  PR 413 cherry-picks its packaging into this window. Only the v10 tag is unplaced, and the
+  milestone 9 tag accounting is unaffected.
 * **Not attempted / not claimed:** any new bug carry (none was ready in this window); a Rust or
   borg-rs change; an official Angband interaction; a survival or progress claim for either
   improvement.
