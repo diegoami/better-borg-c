@@ -5,10 +5,9 @@ designing a new Angband automaton. This document distils the reviewed deaths in 
 repository into design requirements. It does not ask for C patches. Every lesson links back
 to its evidence. Read the linked dossier before relying on a detail.
 
-Snapshot: 2026-11-10. It covers the reviewed cases **D0001–D0016 and D0018**, which are 14
-distinct starting conditions; D0003–D0005 are reference replays of D0002. It includes the
-verified owner manual takeovers listed in the case index. D0017 and D0019+ are not yet
-reviewed. Update this file when they are.
+Snapshot: 2026-11-10. It covers the reviewed cases **D0001–D0018**, which are 15 distinct
+starting conditions; D0003–D0005 are reference replays of D0002. It includes the verified
+owner manual takeovers listed in the case index. D0019+ are not yet reviewed. Update this file when they are.
 
 ## How to read the evidence
 
@@ -40,6 +39,7 @@ learned lore. A redesign must decide explicitly whether it may use that spoiler 
 | [D0014](D0014-collected/report.md) | High-Elf Rogue CL11 | DL20 | blood falcon | survived (Speed, CLW, detection) | [#341](https://github.com/diegoami/better-borg-c/issues/341) |
 | [D0015](D0015-collected/report.md) | Dunadan Necromancer CL1 | DL1 | Fang | died (from 4118); re-shop from turn 1 survived | [#348](https://github.com/diegoami/better-borg-c/issues/348) |
 | [D0016](D0016-collected/report.md) | Human Necromancer CL1 | DL1 | crow (after a teleport trap) | survived (bolted the crow first) | [#353](https://github.com/diegoami/better-borg-c/issues/353) |
+| [D0017](D0017-collected/report.md) | Dwarf Ranger CL25 | DL21 (max 22) | poison, after escaping Mirkwood spiders | — | [#403](https://github.com/diegoami/better-borg-c/issues/403) |
 | [D0018](D0018-collected/report.md) | Dunadan Druid CL2 | DL1 | wild cat | died (from 33363, cat adjacent) | [#401](https://github.com/diegoami/better-borg-c/issues/401) |
 
 What the owner keeps saying, across reviews: the Borg had the tools and the knowledge, but
@@ -105,6 +105,11 @@ The result is back-and-forth movement that bleeds HP.
   "known" without evaluating its danger, and normal exploration reused it. This was fixed as
   source404 / FLOWCACHE-404. D0012 then showed the loop can still happen through the flee flow.
 - **D0010** (verified). Repeated desperate stair flow pre-empted a usable bow attack.
+- **D0017** (observed and source-checked). A Ranger escaped a spider pack by staff at 7 HP and
+  read Recall. The "fleeing" flag set during the fight stayed on, and while it is set caution
+  never calls `borg_heal`, which also holds the poison cures. So the safe, poisoned character
+  "rested for Recall" and died at 1 HP per turn with 9 Cure Critical Wounds and 20 SP for
+  Herbal Curing. A mode chosen for the fight overrode the first need of the next situation.
 
 **Requirement.**
 - Use one shared danger evaluation and one consistent risk tolerance per decision, across
@@ -113,6 +118,8 @@ The result is back-and-forth movement that bleeds HP.
   (hysteresis). Don't re-plan from scratch after every retreat step.
 - Make cached map or danger knowledge carry its validity, and invalidate it on new
   observations. Source404 is the cautionary example.
+- Re-evaluate modes such as "fleeing" when the situation changes (an escape succeeded, no
+  monster in view). Never let a mode block recovery from an ongoing status like poison.
 
 Issues: [#324](https://github.com/diegoami/better-borg-c/issues/324),
 [#212](https://github.com/diegoami/better-borg-c/issues/212),
@@ -131,6 +138,9 @@ considered.
   The strategic retreat fires once danger exceeds HP/3 and judges each step by the cat's
   current square; nothing models a faster pursuer that keeps attacking. The owner's verified
   takeover from the same turn also died, after Fox Form did no damage.
+- **D0017** (observed and source-checked). A CL25 Ranger walked away from four speed +10
+  Mirkwood spiders for ten turns, with 3–4 adjacent most turns, from 201 to 9 HP. Each step
+  was a strategic retreat; no attack, potion or escape was weighed against it.
 
 **Requirement.** Every turn in contact, score all of these options together, with the same
 threat model and expected outcomes:
@@ -160,9 +170,14 @@ an option, and so is killing them when they are fragile.
   (`borg-think-dungeon.c:2149`, up to 3 Phases per level to get unstuck) read the **only**
   Phase Door at danger 5 against a dying yeek. The fatal cat fight 1,600 turns later had no
   escape.
+- **D0017** (observed and source-checked). It held 13 Phase Door scrolls and a Staff of
+  Teleportation, yet used nothing while spiders took it from 201 to 7 HP. Only when no retreat
+  step was left did escape run, and the staff then got it out at once.
 
-**Source-checked.** `borg_caution` evaluates escape (`borg_escape`) before retreat and
-back-away. Phase landing safety is sampled, but a critical fallback spends the phase anyway.
+**Source-checked.** `borg_caution` tries the stair dash and the strategic retreat first, then
+escape (`borg_escape`, `borg-caution.c:1654`), then back-away. Whenever a retreat step exists,
+escape is not evaluated at all (D0017). Phase landing safety is sampled, but a critical
+fallback spends the phase anyway.
 
 **Requirement.**
 - Order escape options by cost and sufficiency: step, walk, Phase, teleport, level exit.
@@ -193,6 +208,7 @@ using them are tuned for low danger.
 | D0011 | 8 known CLW, 2 Speed | HP 42 → 11 against a griffon |
 | D0014 | **21 known CLW, 5 Speed** | danger 399–1325 |
 | D0016 | 2 known CLW | HP 5/12 against a speed +20 crow, while fleeing |
+| D0017 | **9 known CCW, 20 Speed**, Herbal Curing | escaped at HP 7, then died of poison resting for Recall |
 | D0018 | 2 **unidentified** CLW | HP 1/19 against a speed +8 wild cat |
 
 **Source-checked mechanisms.**
@@ -200,8 +216,12 @@ using them are tuned for low danger.
   about HP/3, so never in a real emergency (#340).
 - **CLW tiers** (`borg_heal`): CLW is allowed only at 30–40% down once CL ≥ 10 (D0011, #319).
   All rungs need `danger < HP + heal`, so CLW never fires at high danger (D0002, D0014).
+- **CCW tiers** (`borg_heal`): CCW is offered only at 50–55% down, or below 50 HP with danger
+  under the heal amount. In D0017 the one eligible turn (55% down) failed the "no
+  rope-a-doping" test `ccw_heal > danger/3` on an integer tie, 38 against 38 (#319).
 - **Fleeing guard:** `borg_caution` calls `borg_heal` only when not fleeing, and the
-  poison-emergency "quaff unknown" fallback lives inside it (D0012, D0007, #34).
+  poison-emergency "quaff unknown" fallback lives inside it (D0012, D0007, #34). In D0017 it
+  also blocked curing poison after a successful escape; `borg_check_rest` has no poison test.
 - **Last-resort unknown use** requires `MAXSP == 0`, which excludes every caster (D0012
   Paladin, D0014 Rogue, D0018 Druid with 4 SP and no escape spell).
 - The healing-chance adjustments run against their own comments ([neo-angband-tracker#364](https://github.com/diegoami/neo-angband-tracker/issues/364)).
