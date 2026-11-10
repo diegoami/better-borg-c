@@ -121,11 +121,12 @@
     "matrix": "v9 tip 225 cases; 230 after necrolight-crash (+5); 234 after fleeheal-408 (+4); 37 committed kits (36 restored + fleeheal-408); full run committed as docs/measurement/impact-v10/regression-summary.json (77 groups, 234 cases, ok, at_commit 6944d88e8)",
     "restored_kits": "2026-11-10: the 36 prior-fixture kits copied unchanged into docs/audit/c-reports/<group>/ and GROUPS repointed (PR 417); 523 files verified byte-identical to the originals; 91 restored cases rerun, zero unexpected row differences against the v9 baselines; a fresh clone reran them 91/91. I-002 baselines committed as docs/audit/c-reports/fleeheal-408 (M10-R-02), 4/4",
     "remaining_dependency": "22 local groups (all 0049-era) still read their baselines from the gitignored artifacts/ tree",
-    "tag_state": "no v10 tag; the review verdict is in, the tag waits for explicit owner authorization and would go on the runtime snapshot",
-    "next_action": "Owner decides on placing 4.2.6-impact-v10 on the runtime snapshot 33207fbee; optionally commit the 22 0049-era artifacts baselines the same way",
+    "tag_state": "4.2.6-impact-v10 placed 2026-11-10 on snapshot 6944d88e8 (annotated tag object fa0f663987dc59662e554a14f5fa9a30872699ee), under explicit owner authorization",
+    "next_action": "Optional: commit the 22 remaining 0049-era artifacts/ baselines the same way, so the full matrix needs no gitignored tree",
     "review_package": "docs/review/MILESTONE10.md (PR 419, merged 2ebe5dafc): whole-window review map, v9 tag 33207fbee -> 4f837667a, claims C1-C12, model-agnostic prompt",
     "review_issue": "https://github.com/diegoami/better-borg-c/issues/420",
-    "review_verdict": "approve (issue 420, 2026-11-10): first review approve with corrections, M10-R-01..07 applied in 6944d88e8 and verified by a same-issue re-review at 46057bc4a; no finding outstanding"
+    "review_verdict": "approve (issue 420, 2026-11-10): first review approve with corrections, M10-R-01..07 applied in 6944d88e8 and verified by a same-issue re-review at 46057bc4a; no finding outstanding",
+    "snapshot_commit": "6944d88e8"
   },
   "owner_preferences": {
     "death_collection_mode": "normal Borg; no new munchkin game runs unless owner explicitly requests again (2026-11-08)"
