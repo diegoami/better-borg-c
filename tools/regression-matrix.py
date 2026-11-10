@@ -253,6 +253,25 @@ GROUPS = [
                     'flee-highdanger': {'acted': 1, 'heal': 1, 'rest': 0, 'keys': 2},
                     'noflee-wounded': {'acted': 1, 'heal': 1, 'rest': 0, 'keys': 3},
                     'flee-full': {'acted': 1, 'heal': 0, 'rest': 1, 'keys': 5}}}),
+    # Improvement I-003 (issue410, starting purchases): baseline logs are the
+    # before-build (861ecb2da) runs.  There pd-second and clw-deficit fail
+    # the fixture contract - the valuation's winner is the stocked rations
+    # (tval 28), because later phase doors (+500, munchkin-suppressed for
+    # some classes) and low-level cure potions (no reward) can never win -
+    # reproducing the recorded D0013-D0019 first-visit pattern.  The merged
+    # product buys the reserve deficit first (phase door sval=1, cure light
+    # sval=8), so those two rows legitimately change; rows_must pins the
+    # after-contract.  reserve-complete (gate inert, valuation resumed) and
+    # urgent-poisoned (existing poisoned path, alchemy shop 4) are the
+    # byte-identical controls.
+    ('startbuy-410', 'artifacts/startbuy-410', 'SB410',
+     ('pd-second', 'clw-deficit', 'reserve-complete', 'urgent-poisoned'),
+     {'scenario': 'tools/startbuy-scenario.c',
+      'rows_free': ('pd-second', 'clw-deficit'),
+      'rows_must': {'pd-second': {'acted': 1, 'shop': 0, 'tval': 25, 'sval': 1},
+                    'clw-deficit': {'acted': 1, 'shop': 3, 'tval': 26, 'sval': 8},
+                    'reserve-complete': {'acted': 1},
+                    'urgent-poisoned': {'acted': 1, 'shop': 4, 'tval': 26}}}),
 ]
 
 # Source-tracker kit groups (retired worktrees; fixtures at the ledger's
