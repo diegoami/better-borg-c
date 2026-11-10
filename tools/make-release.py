@@ -146,6 +146,8 @@ def main():
         user.mkdir(parents=True, exist_ok=True)
         shutil.copy(src_dir / 'src' / 'borg' / 'borg.txt', user / 'borg.txt')
         shutil.copy(src_dir / 'docs' / 'copying.rst', prefix / 'COPYING.rst')
+        (prefix / 'play.sh').write_text(PLAY)
+        (prefix / 'play.sh').chmod(0o755)
         (prefix / 'INSTALL.md').write_text(install)
         (prefix / 'RELEASE.txt').write_text(notes + 'Source: the -src asset of this release.\n')
         assets.append(args.out / f'{prefix.name}.tar.gz')
@@ -171,6 +173,14 @@ fi
 git apply --check "$here/better-borg-c-{version}.diff"
 git apply "$here/better-borg-c-{version}.diff"
 echo "applied better-borg-c {version}; build as described in INSTALL.md"
+"""
+
+PLAY = """#!/bin/sh
+# Keep Angband's user files (borg.txt, preferences, lore) inside this directory
+# instead of ~/.angband/Angband. Extra arguments go to angband, e.g. -n.
+here=$(cd "$(dirname "$0")" && pwd)
+cd "$here"
+exec ./angband -duser="$here/lib/user" -mx11 "$@"
 """
 
 PROVENANCE = """# Carried units

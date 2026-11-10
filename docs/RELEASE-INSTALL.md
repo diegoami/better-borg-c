@@ -35,19 +35,21 @@ sha256sum -c SHA256SUMS --ignore-missing
 
 ## 1. Linux binary
 
-Requirements: x86_64 Linux with X11 (`libX11`), and a C library at least as
-new as the version stated in the release notes. The binary was built and tested
-on Ubuntu 26.04. If it does not start on your system, build from the source
+Requirements: x86_64 Linux with X11 (`libX11`) and glibc 2.38 or newer, for
+example Ubuntu 24.04+, Debian 13+ or Fedora 39+. It was built and tested on
+Ubuntu 26.04. If it does not start on your system, build from the source
 package instead (section 2).
 
 ```sh
 tar xzf better-borg-c-<version>-linux-x86_64.tar.gz
 cd better-borg-c-<version>-linux-x86_64
-./angband -mx11
+./play.sh            # add -n to start a new character
 ```
 
-The directory is self-contained: saves, scores and `lib/user/borg.txt` stay
-inside it, so you can move it anywhere.
+`play.sh` runs `./angband -duser=<this directory>/lib/user -mx11`. It keeps
+`borg.txt`, saves, preferences and lore inside the directory, so you can move
+the directory anywhere. If you run `./angband` directly instead, Angband uses
+`~/.angband/Angband/` as its user directory, as any Angband on Linux does.
 
 ## 2. Build from the source package
 
@@ -63,7 +65,7 @@ cmake -B build -DCMAKE_BUILD_TYPE=Release -DSUPPORT_BORG=ON \
       -DCMAKE_INSTALL_PREFIX="$HOME/games/better-borg-c"
 cmake --build build --parallel
 cmake --install build
-"$HOME/games/better-borg-c/angband" -mx11
+"$HOME/games/better-borg-c/angband" -mx11     # user files go to ~/.angband/Angband/
 ```
 
 - For a terminal game, add `-DSUPPORT_GCU_FRONTEND=ON` and run with `-mgcu`.
@@ -97,13 +99,18 @@ Then build as in section 2, from the checkout's root.
 1. Start or load a character as usual. Use disposable characters: Borg games
    are not meant for your real saves, and they do not enter the high-score
    list.
-2. Press **Ctrl-Z** and confirm. The Borg's prompt appears.
+2. Press **Ctrl-Z**. Dismiss the two warnings with **Space** and answer
+   **y** to "Are you sure you want to use the borg commands?".
 3. Press **z** to let it play. Press any key to stop it.
 4. **Ctrl-X** saves and quits.
 
-The Borg reads `borg.txt` from Angband's user directory (`lib/user/` in a
-self-contained install). If the file is missing, the Borg writes one with
-default values the first time it starts. This release defaults
+The Borg reads `borg.txt` from Angband's user directory:
+- `lib/user/` when you start the binary package with `play.sh`;
+- `~/.angband/Angband/` on Linux otherwise, unless you pass `-duser=<path>`.
+
+If the file is missing, the Borg warns once and writes one with default
+values. The full commented file is `src/borg/borg.txt` in the source package,
+and `lib/user/borg.txt` in the binary package. This release defaults
 `borg_munchkin_by_class = TRUE`: Warriors, Druids and Rangers stair-scum to
 DL6 before playing normally. Set it to `FALSE` to give every class the plain
 start. The in-game Borg command reference is `docs/hacking/borg.rst`.
