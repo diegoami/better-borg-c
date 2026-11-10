@@ -235,6 +235,24 @@ GROUPS = [
      ('banish', 'mass'), {}),
     ('necrolight-crash', 'docs/audit/c-reports/necrolight-296-crash', 'NL296',
      ('stale-town', 'stale-far', 'lit', 'dark', 'mage-lit'), {}),
+    # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
+    # before-build (ac0cc65c5) runs.  There the flee-low case replays the
+    # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,
+    # cures in pack - and rests for recall over the poison (heal=0 rest=1,
+    # the fixture fails its after-contract 0/1).  The merged product queues
+    # the Herbal Curing cure instead, so flee-low rows legitimately change
+    # and rows_must pins the after-contract.  The three controls (recall
+    # buy-time quaff at real danger, the existing not-fleeing heal path,
+    # and the healthy recall rest) were byte-identical across the
+    # before/after builds and must stay that way.
+    ('fleeheal-408', 'artifacts/fleeheal-408', 'IM2',
+     ('flee-low', 'flee-highdanger', 'noflee-wounded', 'flee-full'),
+     {'scenario': 'tools/fleeing-heal-scenario.c',
+      'rows_free': ('flee-low',),
+      'rows_must': {'flee-low': {'acted': 1, 'heal': 1, 'rest': 0, 'keys': 3},
+                    'flee-highdanger': {'acted': 1, 'heal': 1, 'rest': 0, 'keys': 2},
+                    'noflee-wounded': {'acted': 1, 'heal': 1, 'rest': 0, 'keys': 3},
+                    'flee-full': {'acted': 1, 'heal': 0, 'rest': 1, 'keys': 5}}}),
 ]
 
 # Source-tracker kit groups (retired worktrees; fixtures at the ledger's

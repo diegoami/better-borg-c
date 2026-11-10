@@ -1055,6 +1055,13 @@ bool borg_caution(void)
             if (borg_defend(pos_danger))
                 return true;
         }
+    } else if (pos_danger < borg.trait[BI_CURHP]) {
+        /* Fleeing, but this grid is survivable this round: still tend to
+         * wounds, poison and cuts instead of staying untreated for the
+         * rest of the level. The flee goal itself is untouched, and
+         * borg_heal()'s own danger gates still apply. */
+        if (borg_heal(pos_danger))
+            return true;
     }
 
     if (borg_uses_swaps()) {
