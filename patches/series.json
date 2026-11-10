@@ -2005,6 +2005,24 @@
       "verification": "docs/measurement/PREPREASON-234.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the nodeeper100 mode flips from walking to a staircase to returning to town to collect and reading Recall, and the default127 and prepared97 controls are byte-identical. Unconditional change in the leave-level code shared by every mode: per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "LOSECON-61",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/448",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/61",
+      "source_head": "0ea55f39b583c1e3d113c7834e8e9f237f5cbf7d",
+      "source_commits": [
+        "0ea55f39b583c1e3d113c7834e8e9f237f5cbf7d"
+      ],
+      "applied_commits": [
+        "2abb17c35"
+      ],
+      "patch": "patches/0107-losecon-con-fear.patch",
+      "patch_active": true,
+      "evidence_ref": "3a886f40c0863957ae951c1620d45a771423c36b",
+      "verification": "docs/measurement/LOSECON-61.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; lowcon and lowstr flip as the constitution term is added or removed, and the neither/bothlow controls are byte-identical. Unconditional change in the danger model shared by every mode: per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ]
 }
