@@ -1,0 +1,2474 @@
+BORG 1094662 # PAIN:The Mirkwood spider (+)
+BORG 1094662 # MISS_BY:The Mirkwood spider (+)
+BORG 1094662 # HIT_BY:The Mirkwood spider (+)
+BORG 1094662 # HIT_BY:The Mirkwood spider (+)
+BORG 1094662 # SPELL_027:The Mirkwood spider (+)
+BORG 1094662 # Tracking a monster 'Mirkwood spider' at (56,74) from (56,73)
+BORG 1094662 # Creating an object '& Arrow~' at (75,56)
+BORG 1094662 # Creating a monster 'Mirkwood spider' at (56,72), HP: 35, Index: 238
+BORG 1094662 # PAIN:The Mirkwood spider (2)
+BORG 1094662 # MISS_BY:The Mirkwood spider (3)
+BORG 1094662 # HIT_BY:The Mirkwood spider (3)
+BORG 1094662 # HIT_BY:The Mirkwood spider (3)
+BORG 1094662 # SPELL_027:The Mirkwood spider (3)
+BORG 1094662 # Loc:56,77 Dep:21 Lev:25 HP:266/279 SP:30/42 Danger:p=26
+BORG 1094662 # Casting Herbal Curing (0,2).
+BORG 1094662 # Cure poison - danger 26
+BORG 1094672 # MISS_BY:The Mirkwood spider (+)
+BORG 1094672 # HIT_BY:The Mirkwood spider (+)
+BORG 1094672 # HIT_BY:The Mirkwood spider (+)
+BORG 1094672 # MISS_BY:The Mirkwood spider (+)
+BORG 1094672 # MISS_BY:The Mirkwood spider (+)
+BORG 1094672 # HIT_BY:The Mirkwood spider (+)
+BORG 1094672 # SPELL_027:The Mirkwood spider (+)
+BORG 1094672 # Tracking a monster 'Mirkwood spider' at (56,76) from (56,75)
+BORG 1094672 # Tracking a monster 'Mirkwood spider' at (56,75) from (56,74)
+BORG 1094672 # Tracking a monster 'Mirkwood spider' at (56,74) from (56,72)
+BORG 1094672 # Creating an object '& Arrow~' at (75,56)
+BORG 1094672 # Creating a monster 'Mirkwood spider' at (56,72), HP: 48, Index: 238
+BORG 1094672 # MISS_BY:The Mirkwood spider (3)
+BORG 1094672 # HIT_BY:The Mirkwood spider (3)
+BORG 1094672 # HIT_BY:The Mirkwood spider (3)
+BORG 1094672 # MISS_BY:The Mirkwood spider (3)
+BORG 1094672 # MISS_BY:The Mirkwood spider (3)
+BORG 1094672 # HIT_BY:The Mirkwood spider (3)
+BORG 1094672 # SPELL_027:The Mirkwood spider (3)
+BORG 1094672 # Loc:56,77 Dep:21 Lev:25 HP:253/279 SP:24/42 Danger:p=57
+BORG 1094672 # Casting Herbal Curing (0,2).
+BORG 1094672 # Cure poison - danger 57
+BORG 1094682 # HIT_BY:The Mirkwood spider (+)
+BORG 1094682 # MISS_BY:The Mirkwood spider (+)
+BORG 1094682 # HIT_BY:The Mirkwood spider (+)
+BORG 1094682 # MISS_BY:The Mirkwood spider (+)
+BORG 1094682 # HIT_BY:The Mirkwood spider (+)
+BORG 1094682 # MISS_BY:The Mirkwood spider (+)
+BORG 1094682 # HIT_BY:The Mirkwood spider (+)
+BORG 1094682 # MISS_BY:The Mirkwood spider (+)
+BORG 1094682 # MISS_BY:The Mirkwood spider (+)
+BORG 1094682 # MISS_BY:The Mirkwood spider (+)
+BORG 1094682 # HIT_BY:The Mirkwood spider (+)
+BORG 1094682 # HIT_BY:The Mirkwood spider (+)
+BORG 1094682 # MISS_BY:The Mirkwood spider (+)
+BORG 1094682 # MISS_BY:The Mirkwood spider (+)
+BORG 1094682 # HIT_BY:The Mirkwood spider (+)
+BORG 1094682 # Tracking a monster 'Mirkwood spider' at (57,76) from (56,75)
+BORG 1094682 # Tracking a monster 'Mirkwood spider' at (56,74) from (56,72)
+BORG 1094682 # Tracking a monster 'Mirkwood spider' at (54,76) from (56,74)
+BORG 1094682 # HIT_BY:The Mirkwood spider (3)
+BORG 1094682 # MISS_BY:The Mirkwood spider (3)
+BORG 1094682 # HIT_BY:The Mirkwood spider (3)
+BORG 1094682 # MISS_BY:The Mirkwood spider (3)
+BORG 1094682 # HIT_BY:The Mirkwood spider (3)
+BORG 1094682 # MISS_BY:The Mirkwood spider (3)
+BORG 1094682 # HIT_BY:The Mirkwood spider (3)
+BORG 1094682 # MISS_BY:The Mirkwood spider (3)
+BORG 1094682 # MISS_BY:The Mirkwood spider (3)
+BORG 1094682 # MISS_BY:The Mirkwood spider (3)
+BORG 1094682 # HIT_BY:The Mirkwood spider (3)
+BORG 1094682 # HIT_BY:The Mirkwood spider (3)
+BORG 1094682 # MISS_BY:The Mirkwood spider (3)
+BORG 1094682 # MISS_BY:The Mirkwood spider (3)
+BORG 1094682 # HIT_BY:The Mirkwood spider (3)
+BORG 1094682 # There was an object '& Arrow~' at (75,56)
+BORG 1094682 # There was an object '& Arrow~' at (75,56)
+BORG 1094682 # There was an object '& Arrow~' at (75,56)
+BORG 1094682 # Loc:56,77 Dep:21 Lev:25 HP:232/279 SP:18/42 Danger:p=76
+BORG 1094682 # Performing attack type 3 with value 72.
+BORG 1094682 # Targeting Mirkwood spider who has 35 Hit Points (54,76).
+BORG 1094682 # Targeting Mirkwood spider who has 35 Hit Points (54,76).
+BORG 1094682 # Targeting Mirkwood spider who has 35 Hit Points (54,76).
+BORG 1094682 # Firing missile 'Arrows (1d4) (+0,+0)'
+BORG 1094688 # PAIN:The Mirkwood spider (+)
+BORG 1094688 # PAIN:The Mirkwood spider (+)
+BORG 1094688 # HIT_BY:The Mirkwood spider (+)
+BORG 1094688 # HIT_BY:The Mirkwood spider (+)
+BORG 1094688 # HIT_BY:The Mirkwood spider (+)
+BORG 1094688 # HIT_BY:The Mirkwood spider (+)
+BORG 1094688 # MISS_BY:The Mirkwood spider (+)
+BORG 1094688 # HIT_BY:The Mirkwood spider (+)
+BORG 1094688 # HIT_BY:The Mirkwood spider (+)
+BORG 1094688 # HIT_BY:The Mirkwood spider (+)
+BORG 1094688 # MISS_BY:The Mirkwood spider (+)
+BORG 1094688 # Tracking a monster 'Mirkwood spider' at (53,75) from (54,76)
+BORG 1094688 # Tracking a monster 'Mirkwood spider' at (56,75) from (56,74)
+BORG 1094688 # Creating an object '& Arrow~' at (75,56)
+BORG 1094688 # Creating an object '& Arrow~' at (76,54)
+BORG 1094688 # Creating a monster 'Mirkwood spider' at (56,72), HP: 40, Index: 238
+BORG 1094688 # PAIN:The Mirkwood spider (2)
+BORG 1094688 # PAIN:The Mirkwood spider (2)
+BORG 1094688 # HIT_BY:The Mirkwood spider (3)
+BORG 1094688 # HIT_BY:The Mirkwood spider (3)
+BORG 1094688 # HIT_BY:The Mirkwood spider (3)
+BORG 1094688 # HIT_BY:The Mirkwood spider (3)
+BORG 1094688 # MISS_BY:The Mirkwood spider (3)
+BORG 1094688 # HIT_BY:The Mirkwood spider (3)
+BORG 1094688 # HIT_BY:The Mirkwood spider (3)
+BORG 1094688 # HIT_BY:The Mirkwood spider (3)
+BORG 1094688 # MISS_BY:The Mirkwood spider (3)
+BORG 1094688 # Loc:56,77 Dep:21 Lev:25 HP:201/279 SP:18/42 Danger:p=87
+BORG 1094688 # Retreating to 53,83 (distance 6) via 56,78 (87 > 0)
+BORG 1094698 # SPELL_027:The Mirkwood spider (+)
+BORG 1094698 # HIT_BY:The Mirkwood spider (+)
+BORG 1094698 # MISS_BY:The Mirkwood spider (+)
+BORG 1094698 # HIT_BY:The Mirkwood spider (+)
+BORG 1094698 # HIT_BY:The Mirkwood spider (+)
+BORG 1094698 # MISS_BY:The Mirkwood spider (+)
+BORG 1094698 # MISS_BY:The Mirkwood spider (+)
+BORG 1094698 # HIT_BY:The Mirkwood spider (+)
+BORG 1094698 # HIT_BY:The Mirkwood spider (+)
+BORG 1094698 # HIT_BY:The Mirkwood spider (+)
+BORG 1094698 # Tracking a monster 'Mirkwood spider' at (55,77) from (56,76)
+BORG 1094698 # Tracking a monster 'Mirkwood spider' at (56,77) from (55,76)
+BORG 1094698 # Tracking a monster 'Mirkwood spider' at (56,76) from (56,75)
+BORG 1094698 # Tracking a monster 'Mirkwood spider' at (57,77) from (57,76)
+BORG 1094698 # Tracking a monster 'Mirkwood spider' at (55,75) from (53,75)
+BORG 1094698 # Tracking a monster 'Mirkwood spider' at (56,74) from (56,72)
+BORG 1094698 # Creating an object '& Arrow~' at (77,57)
+BORG 1094698 # SPELL_027:The Mirkwood spider (3)
+BORG 1094698 # HIT_BY:The Mirkwood spider (3)
+BORG 1094698 # MISS_BY:The Mirkwood spider (3)
+BORG 1094698 # HIT_BY:The Mirkwood spider (3)
+BORG 1094698 # HIT_BY:The Mirkwood spider (3)
+BORG 1094698 # MISS_BY:The Mirkwood spider (3)
+BORG 1094698 # MISS_BY:The Mirkwood spider (3)
+BORG 1094698 # HIT_BY:The Mirkwood spider (3)
+BORG 1094698 # HIT_BY:The Mirkwood spider (3)
+BORG 1094698 # HIT_BY:The Mirkwood spider (3)
+BORG 1094698 # There was an object '& Arrow~' at (75,56)
+BORG 1094698 # There was an object '& Arrow~' at (75,56)
+BORG 1094698 # Loc:56,78 Dep:21 Lev:25 HP:171/279 SP:18/42 Danger:p=89
+BORG 1094698 # Retreating to 53,83 (distance 5) via 56,79 (89 > 1)
+BORG 1094708 # HIT_BY:The Mirkwood spider (+)
+BORG 1094708 # HIT_BY:The Mirkwood spider (+)
+BORG 1094708 # HIT_BY:The Mirkwood spider (+)
+BORG 1094708 # HIT_BY:The Mirkwood spider (+)
+BORG 1094708 # HIT_BY:The Mirkwood spider (+)
+BORG 1094708 # MISS_BY:The Mirkwood spider (+)
+BORG 1094708 # MISS_BY:The Mirkwood spider (+)
+BORG 1094708 # MISS_BY:The Mirkwood spider (+)
+BORG 1094708 # HIT_BY:The Mirkwood spider (+)
+BORG 1094708 # Tracking a monster 'Mirkwood spider' at (55,78) from (55,77)
+BORG 1094708 # Tracking a monster 'Mirkwood spider' at (55,77) from (56,76)
+BORG 1094708 # Tracking a monster 'Mirkwood spider' at (56,78) from (56,77)
+BORG 1094708 # Tracking a monster 'Mirkwood spider' at (57,78) from (57,77)
+BORG 1094708 # Tracking a monster 'Mirkwood spider' at (56,74) from (55,75)
+BORG 1094708 # Tracking a monster 'Mirkwood spider' at (56,76) from (56,74)
+BORG 1094708 # HIT_BY:The Mirkwood spider (3)
+BORG 1094708 # HIT_BY:The Mirkwood spider (3)
+BORG 1094708 # HIT_BY:The Mirkwood spider (3)
+BORG 1094708 # HIT_BY:The Mirkwood spider (3)
+BORG 1094708 # HIT_BY:The Mirkwood spider (3)
+BORG 1094708 # MISS_BY:The Mirkwood spider (3)
+BORG 1094708 # MISS_BY:The Mirkwood spider (3)
+BORG 1094708 # MISS_BY:The Mirkwood spider (3)
+BORG 1094708 # HIT_BY:The Mirkwood spider (3)
+BORG 1094708 # Loc:56,79 Dep:21 Lev:25 HP:149/279 SP:18/42 Danger:p=83
+BORG 1094708 # Retreating to 53,83 (distance 4) via 56,80 (83 > 2)
+BORG 1094718 # SPELL_027:The Mirkwood spider (+)
+BORG 1094718 # HIT_BY:The Mirkwood spider (+)
+BORG 1094718 # MISS_BY:The Mirkwood spider (+)
+BORG 1094718 # HIT_BY:The Mirkwood spider (+)
+BORG 1094718 # SPELL_027:The Mirkwood spider (+)
+BORG 1094718 # SPELL_027:The Mirkwood spider (+)
+BORG 1094718 # Tracking a monster 'Mirkwood spider' at (56,79) from (56,78)
+BORG 1094718 # Tracking a monster 'Mirkwood spider' at (56,77) from (56,76)
+BORG 1094718 # Tracking a monster 'Mirkwood spider' at (57,79) from (57,78)
+BORG 1094718 # Tracking a monster 'Mirkwood spider' at (55,79) from (55,78)
+BORG 1094718 # Tracking a monster 'Mirkwood spider' at (54,79) from (55,77)
+BORG 1094718 # SPELL_027:The Mirkwood spider (3)
+BORG 1094718 # HIT_BY:The Mirkwood spider (3)
+BORG 1094718 # MISS_BY:The Mirkwood spider (3)
+BORG 1094718 # HIT_BY:The Mirkwood spider (3)
+BORG 1094718 # SPELL_027:The Mirkwood spider (3)
+BORG 1094718 # SPELL_027:The Mirkwood spider (3)
+BORG 1094718 # There was a monster 'Mirkwood spider' at (56,74)
+BORG 1094718 # Forgetting a monster 'Mirkwood spider' at (56,74)
+BORG 1094718 # There was an object '& Arrow~' at (75,56)
+BORG 1094718 # Loc:56,80 Dep:21 Lev:25 HP:143/279 SP:18/42 Danger:p=76
+BORG 1094718 # Retreating to 53,83 (distance 3) via 55,81 (76 > 2)
+BORG 1094728 # HIT_BY:The Mirkwood spider (+)
+BORG 1094728 # HIT_BY:The Mirkwood spider (+)
+BORG 1094728 # HIT_BY:The Mirkwood spider (+)
+BORG 1094728 # MISS_BY:The Mirkwood spider (+)
+BORG 1094728 # HIT_BY:The Mirkwood spider (+)
+BORG 1094728 # MISS_BY:The Mirkwood spider (+)
+BORG 1094728 # SPELL_027:The Mirkwood spider (+)
+BORG 1094728 # MISS_BY:The Mirkwood spider (+)
+BORG 1094728 # MISS_BY:The Mirkwood spider (+)
+BORG 1094728 # MISS_BY:The Mirkwood spider (+)
+BORG 1094728 # SPELL_027:The Mirkwood spider (+)
+BORG 1094728 # Tracking a monster 'Mirkwood spider' at (55,80) from (54,79)
+BORG 1094728 # Tracking a monster 'Mirkwood spider' at (55,78) from (56,77)
+BORG 1094728 # HIT_BY:The Mirkwood spider (3)
+BORG 1094728 # HIT_BY:The Mirkwood spider (3)
+BORG 1094728 # HIT_BY:The Mirkwood spider (3)
+BORG 1094728 # MISS_BY:The Mirkwood spider (3)
+BORG 1094728 # HIT_BY:The Mirkwood spider (3)
+BORG 1094728 # MISS_BY:The Mirkwood spider (3)
+BORG 1094728 # SPELL_027:The Mirkwood spider (3)
+BORG 1094728 # MISS_BY:The Mirkwood spider (3)
+BORG 1094728 # MISS_BY:The Mirkwood spider (3)
+BORG 1094728 # MISS_BY:The Mirkwood spider (3)
+BORG 1094728 # SPELL_027:The Mirkwood spider (3)
+BORG 1094728 # There was an object '& Arrow~' at (77,57)
+BORG 1094728 # Possibility of being surrounded (monsters/safegrids)(5/4)
+BORG 1094728 # Loc:56,80 Dep:21 Lev:25 HP:124/279 SP:19/42 Danger:p=116
+BORG 1094728 # Retreating to 53,83 (distance 3) via 55,81 (116 > 9)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # HIT_BY:The Mirkwood spider (+)
+BORG 1094738 # MISS_BY:The Mirkwood spider (+)
+BORG 1094738 # Tracking a monster 'Mirkwood spider' at (54,80) from (55,78)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # HIT_BY:The Mirkwood spider (3)
+BORG 1094738 # MISS_BY:The Mirkwood spider (3)
+BORG 1094738 # Possibility of being surrounded (monsters/safegrids)(5/4)
+BORG 1094738 # Loc:56,80 Dep:21 Lev:25 HP:75/279 SP:19/42 Danger:p=112
+BORG 1094738 # Retreating to 53,83 (distance 3) via 55,81 (112 > 8)
+BORG 1094748 # HIT_BY:The Mirkwood spider (+)
+BORG 1094748 # MISS_BY:The Mirkwood spider (+)
+BORG 1094748 # MISS_BY:The Mirkwood spider (+)
+BORG 1094748 # HIT_BY:The Mirkwood spider (+)
+BORG 1094748 # MISS_BY:The Mirkwood spider (+)
+BORG 1094748 # HIT_BY:The Mirkwood spider (+)
+BORG 1094748 # HIT_BY:The Mirkwood spider (+)
+BORG 1094748 # HIT_BY:The Mirkwood spider (+)
+BORG 1094748 # HIT_BY:The Mirkwood spider (+)
+BORG 1094748 # SPELL_027:The Mirkwood spider (+)
+BORG 1094748 # SPELL_027:The Mirkwood spider (+)
+BORG 1094748 # SPELL_027:The Mirkwood spider (+)
+BORG 1094748 # Tracking a monster 'Mirkwood spider' at (56,80) from (56,79)
+BORG 1094748 # Tracking a monster 'Mirkwood spider' at (56,79) from (57,79)
+BORG 1094748 # Tracking a monster 'Mirkwood spider' at (53,80) from (55,79)
+BORG 1094748 # HIT_BY:The Mirkwood spider (3)
+BORG 1094748 # MISS_BY:The Mirkwood spider (3)
+BORG 1094748 # MISS_BY:The Mirkwood spider (3)
+BORG 1094748 # HIT_BY:The Mirkwood spider (3)
+BORG 1094748 # MISS_BY:The Mirkwood spider (3)
+BORG 1094748 # HIT_BY:The Mirkwood spider (3)
+BORG 1094748 # HIT_BY:The Mirkwood spider (3)
+BORG 1094748 # HIT_BY:The Mirkwood spider (3)
+BORG 1094748 # HIT_BY:The Mirkwood spider (3)
+BORG 1094748 # SPELL_027:The Mirkwood spider (3)
+BORG 1094748 # SPELL_027:The Mirkwood spider (3)
+BORG 1094748 # SPELL_027:The Mirkwood spider (3)
+BORG 1094748 # Loc:55,81 Dep:21 Lev:25 HP:47/279 SP:19/42 Danger:p=85
+BORG 1094748 # Retreating to 53,83 (distance 2) via 54,82 (85 > 5)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # HIT_BY:The Mirkwood spider (+)
+BORG 1094758 # HIT_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # HIT_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # HIT_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # MISS_BY:The Mirkwood spider (+)
+BORG 1094758 # Tracking a monster 'Mirkwood spider' at (54,81) from (53,80)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # HIT_BY:The Mirkwood spider (3)
+BORG 1094758 # HIT_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # HIT_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # HIT_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # MISS_BY:The Mirkwood spider (3)
+BORG 1094758 # Possibility of being surrounded (monsters/safegrids)(5/4)
+BORG 1094758 # Loc:55,81 Dep:21 Lev:25 HP:32/279 SP:19/42 Danger:p=114
+BORG 1094758 # Fleeing (excessive danger)
+BORG 1094758 # Retreating to 53,83 (distance 2) via 54,82 (114 > 10)
+BORG 1094768 # MISS_BY:The Mirkwood spider (+)
+BORG 1094768 # MISS_BY:The Mirkwood spider (+)
+BORG 1094768 # MISS_BY:The Mirkwood spider (+)
+BORG 1094768 # MISS_BY:The Mirkwood spider (+)
+BORG 1094768 # HIT_BY:The Mirkwood spider (+)
+BORG 1094768 # MISS_BY:The Mirkwood spider (+)
+BORG 1094768 # SPELL_027:The Mirkwood spider (+)
+BORG 1094768 # MISS_BY:The Mirkwood spider (+)
+BORG 1094768 # MISS_BY:The Mirkwood spider (+)
+BORG 1094768 # MISS_BY:The Mirkwood spider (+)
+BORG 1094768 # Tracking a monster 'Mirkwood spider' at (56,81) from (56,80)
+BORG 1094768 # Tracking a monster 'Mirkwood spider' at (55,81) from (54,80)
+BORG 1094768 # Tracking a monster 'Mirkwood spider' at (54,80) from (56,79)
+BORG 1094768 # Tracking a monster 'Mirkwood spider' at (53,81) from (55,80)
+BORG 1094768 # MISS_BY:The Mirkwood spider (3)
+BORG 1094768 # MISS_BY:The Mirkwood spider (3)
+BORG 1094768 # MISS_BY:The Mirkwood spider (3)
+BORG 1094768 # MISS_BY:The Mirkwood spider (3)
+BORG 1094768 # HIT_BY:The Mirkwood spider (3)
+BORG 1094768 # MISS_BY:The Mirkwood spider (3)
+BORG 1094768 # SPELL_027:The Mirkwood spider (3)
+BORG 1094768 # MISS_BY:The Mirkwood spider (3)
+BORG 1094768 # MISS_BY:The Mirkwood spider (3)
+BORG 1094768 # MISS_BY:The Mirkwood spider (3)
+BORG 1094768 # Possibility of being surrounded (monsters/safegrids)(5/3)
+BORG 1094768 # Loc:54,82 Dep:21 Lev:25 HP:26/279 SP:19/42 Danger:p=90
+BORG 1094768 # Retreating to 53,83 (distance 1) via 53,83 (90 > 15)
+BORG 1094778 # HIT_BY:The Mirkwood spider (+)
+BORG 1094778 # MISS_BY:The Mirkwood spider (+)
+BORG 1094778 # HIT_BY:The Mirkwood spider (+)
+BORG 1094778 # HIT_BY:The Mirkwood spider (+)
+BORG 1094778 # HIT_BY:The Mirkwood spider (+)
+BORG 1094778 # MISS_BY:The Mirkwood spider (+)
+BORG 1094778 # Tracking a monster 'Mirkwood spider' at (52,82) from (53,81)
+BORG 1094778 # Tracking a monster 'Mirkwood spider' at (54,81) from (54,80)
+BORG 1094778 # Tracking a monster 'Mirkwood spider' at (54,82) from (55,81)
+BORG 1094778 # Tracking a monster 'Mirkwood spider' at (53,82) from (54,81)
+BORG 1094778 # HIT_BY:The Mirkwood spider (3)
+BORG 1094778 # MISS_BY:The Mirkwood spider (3)
+BORG 1094778 # HIT_BY:The Mirkwood spider (3)
+BORG 1094778 # HIT_BY:The Mirkwood spider (3)
+BORG 1094778 # HIT_BY:The Mirkwood spider (3)
+BORG 1094778 # MISS_BY:The Mirkwood spider (3)
+BORG 1094778 # Possibility of being surrounded (monsters/safegrids)(4/1)
+BORG 1094778 # Loc:53,83 Dep:21 Lev:25 HP:9/279 SP:19/42 Danger:p=77
+BORG 1094778 # Retreating to 53,84 (distance 1) via 53,84 (77 > 4)
+BORG 1094788 # HIT_BY:The Mirkwood spider (+)
+BORG 1094788 # MISS_BY:The Mirkwood spider (+)
+BORG 1094788 # MISS_BY:The Mirkwood spider (+)
+BORG 1094788 # Tracking a monster 'Mirkwood spider' at (52,81) from (52,82)
+BORG 1094788 # Tracking a monster 'Mirkwood spider' at (54,82) from (54,81)
+BORG 1094788 # Tracking a monster 'Mirkwood spider' at (53,83) from (53,82)
+BORG 1094788 # Tracking a monster 'Mirkwood spider' at (52,82) from (54,82)
+BORG 1094788 # Tracking a monster 'Mirkwood spider' at (53,82) from (56,81)
+BORG 1094788 # HIT_BY:The Mirkwood spider (3)
+BORG 1094788 # MISS_BY:The Mirkwood spider (3)
+BORG 1094788 # MISS_BY:The Mirkwood spider (3)
+BORG 1094788 # Loc:53,84 Dep:21 Lev:25 HP:7/279 SP:19/42 Danger:p=36
+BORG 1094788 # Using Staff of Teleportation (3 charges).
+BORG 1094788 # Danger Level 1.
+BORG 1094798 # Leaving (restock) restock 4 > teleport + teleport staff 
+BORG 1094798 # Reading Scrolls of Word of Recall.
+BORG 1094798 # Resetting recall depth.
+BORG 1094798 # Fleeing the level (recall)
+BORG 1094808 # Resting for Recall.
+BORG 1094818 # Resting for Recall.
+BORG 1094828 # Resting for Recall.
+BORG 1094838 # Resting for Recall.
+BORG 1094848 # Resting for Recall.
+BORG 1094858 # Resting for Recall.
+
+[Terminal native state/cause]
+STATE death turn=1094860 energy=10996421 decisions=90701 depth=21 max_depth=21 level=25 max_level=25 hp=-1 dead=1 winner=0 borg_rng=4091342719 quick=0 quick_rng=2649280166 rng_index=23 rng=17fa2ed5c6815e1b6ed1b1552c3970f7fa52a02ecf345e88a937bb0d1dfa32ff2450353d767c045ad3ba6e1ffdcf3ac85fe5f6153b3e0724c30d263d77c3b4de0effa0165ed3c6db68a53f5b798602dcdcddcb5de26c84761124589b5eafc2f1edd5a749509a9c4b5d91a12a6bd3b684b1f1b555d4a14cef11217cd7aad75ddf
+CAUSE poison
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE # Creating a monster 'earth hound' at (18,96), HP: 73, Index: 241
+MESSAGE # Loc:13,96 Dep:20 Lev:24 HP:208/272 SP:35/40 Danger:p=35
+MESSAGE # Performing attack type 3 with value 39.
+MESSAGE # Targeting earth hound who has 73 Hit Points (18,96).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 117 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The earth hound snarls with pain.
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:13,96 Dep:20 Lev:24 HP:208/272 SP:35/40 Danger:p=33
+MESSAGE # Performing attack type 3 with value 38.
+MESSAGE # Targeting earth hound who has 57 Hit Points (18,96).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 116 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE The earth hound yelps in pain.
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # Tracking a monster 'earth hound' at (17,96) from (18,96)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:13,96 Dep:20 Lev:24 HP:209/272 SP:35/40 Danger:p=31
+MESSAGE # Performing attack type 3 with value 73.
+MESSAGE # Targeting earth hound who has 33 Hit Points (17,96).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 115 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The earth hound yelps in pain.
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # Creating a monster 'earth hound' at (18,96), HP: 88, Index: 241
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:13,96 Dep:20 Lev:24 HP:209/272 SP:35/40 Danger:p=40
+MESSAGE # Performing attack type 3 with value 72.
+MESSAGE # Targeting earth hound who has 18 Hit Points (17,96).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE The earth hound dies.
+MESSAGE You have 114 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # DIED:The earth hound (+)
+MESSAGE # Forgetting a monster 'earth hound' at (17,96)
+MESSAGE # DIED:The earth hound (2)
+MESSAGE # Loc:13,96 Dep:20 Lev:24 HP:210/272 SP:35/40 Danger:p=35
+MESSAGE # Performing attack type 3 with value 39.
+MESSAGE # Targeting earth hound who has 88 Hit Points (18,96).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 113 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The earth hound snarls with pain.
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # Tracking a monster 'earth hound' at (17,96) from (18,96)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:13,96 Dep:20 Lev:24 HP:210/272 SP:35/40 Danger:p=35
+MESSAGE # Performing attack type 3 with value 39.
+MESSAGE # Targeting earth hound who has 72 Hit Points (17,96).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 112 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE The earth hound snarls with pain.
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:13,96 Dep:20 Lev:24 HP:211/272 SP:36/40 Danger:p=33
+MESSAGE # Performing attack type 3 with value 38.
+MESSAGE # Targeting earth hound who has 57 Hit Points (17,96).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 111 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The earth hound yelps in pain.
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # Tracking a monster 'earth hound' at (16,96) from (17,96)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:13,96 Dep:20 Lev:24 HP:211/272 SP:36/40 Danger:p=31
+MESSAGE # Performing attack type 3 with value 73.
+MESSAGE # Targeting earth hound who has 36 Hit Points (16,96).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 110 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The earth hound yelps in pain.
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # Creating an object '& Arrow~' at (96,16)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:13,96 Dep:20 Lev:24 HP:212/272 SP:36/40 Danger:p=29
+MESSAGE # Performing attack type 3 with value 72.
+MESSAGE # Targeting earth hound who has 18 Hit Points (16,96).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 109 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The earth hound yelps feebly.
+MESSAGE The earth hound flees in terror!
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # Tracking a monster 'earth hound' at (15,96) from (16,96)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:13,96 Dep:20 Lev:24 HP:213/272 SP:36/40 Danger:p=29
+MESSAGE # Performing attack type 3 with value 4.
+MESSAGE # Targeting earth hound who has 1 Hit Points (15,96).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE The earth hound dies.
+MESSAGE You have 108 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # DIED:The earth hound (+)
+MESSAGE # Forgetting a monster 'earth hound' at (15,96)
+MESSAGE # Creating an object '& Arrow~' at (96,15)
+MESSAGE # DIED:The earth hound (2)
+MESSAGE # Loc:13,96 Dep:20 Lev:24 HP:213/272 SP:36/40 Danger:p=26
+MESSAGE # Flowing toward dark-4 at cost 17
+MESSAGE # Creating an object '& Arrow~' at (96,17)
+MESSAGE # Loc:14,96 Dep:20 Lev:24 HP:214/272 SP:36/40 Danger:p=26
+MESSAGE # Flowing toward dark-4 at cost 16
+MESSAGE # Walking onto and deleting a '& Arrow~' at (15,96)
+MESSAGE You have 109 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # Creating an object '& Arrow~' at (96,18)
+MESSAGE # Loc:15,96 Dep:20 Lev:24 HP:215/272 SP:36/40 Danger:p=26
+MESSAGE # Flowing toward dark-4 at cost 15
+MESSAGE # Walking onto and deleting a '& Arrow~' at (16,96)
+MESSAGE You have 111 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # Loc:16,96 Dep:20 Lev:24 HP:216/272 SP:36/40 Danger:p=25
+MESSAGE # Walking onto and deleting a '& Arrow~' at (17,96)
+MESSAGE You have 114 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # Loc:17,96 Dep:20 Lev:24 HP:217/272 SP:36/40 Danger:p=25
+MESSAGE # Walking onto and deleting a '& Arrow~' at (18,96)
+MESSAGE You have 116 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # Loc:18,96 Dep:20 Lev:24 HP:218/272 SP:37/40 Danger:p=25
+MESSAGE # Loc:19,96 Dep:20 Lev:24 HP:219/272 SP:37/40 Danger:p=25
+MESSAGE # Loc:20,96 Dep:20 Lev:24 HP:220/272 SP:37/40 Danger:p=25
+MESSAGE # Loc:21,96 Dep:20 Lev:24 HP:221/272 SP:37/40 Danger:p=25
+MESSAGE # Loc:22,95 Dep:20 Lev:24 HP:221/272 SP:37/40 Danger:p=55
+MESSAGE # Shifted panel to locate offscreen monster.
+MESSAGE # Loc:22,95 Dep:20 Lev:24 HP:221/272 SP:37/40 Danger:p=55
+MESSAGE # Loc:23,94 Dep:20 Lev:24 HP:222/272 SP:37/40 Danger:p=55
+MESSAGE You have 117 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # Loc:24,95 Dep:20 Lev:24 HP:224/272 SP:37/40 Danger:p=55
+MESSAGE # Flowing toward vein at cost 13
+MESSAGE # Loc:24,96 Dep:20 Lev:24 HP:225/272 SP:38/40 Danger:p=54
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rods of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Loc:24,96 Dep:20 Lev:24 HP:226/272 SP:38/40 Danger:p=54
+MESSAGE # Flowing toward vein at cost 12
+MESSAGE # Loc:24,97 Dep:20 Lev:24 HP:227/272 SP:38/40 Danger:p=54
+MESSAGE # Loc:24,98 Dep:20 Lev:24 HP:228/272 SP:38/40 Danger:p=54
+MESSAGE # Loc:24,99 Dep:20 Lev:24 HP:229/272 SP:38/40 Danger:p=54
+MESSAGE # Loc:24,100 Dep:20 Lev:24 HP:230/272 SP:38/40 Danger:p=54
+MESSAGE # Loc:24,101 Dep:20 Lev:24 HP:231/272 SP:38/40 Danger:p=54
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rods of Light (1 charging).
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Loc:24,101 Dep:20 Lev:24 HP:232/272 SP:38/40 Danger:p=54
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rods of Light (2 charging).
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Loc:24,101 Dep:20 Lev:24 HP:233/272 SP:39/40 Danger:p=54
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rods of Light (2 charging).
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Loc:24,101 Dep:20 Lev:24 HP:234/272 SP:39/40 Danger:p=54
+MESSAGE # Loc:24,102 Dep:20 Lev:24 HP:235/272 SP:39/40 Danger:p=53
+MESSAGE # Loc:24,103 Dep:20 Lev:24 HP:236/272 SP:39/40 Danger:p=53
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rods of Light (2 charging).
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Loc:24,103 Dep:20 Lev:24 HP:237/272 SP:39/40 Danger:p=53
+MESSAGE # Loc:24,104 Dep:20 Lev:24 HP:238/272 SP:39/40 Danger:p=53
+MESSAGE # Loc:24,105 Dep:20 Lev:24 HP:238/272 SP:39/40 Danger:p=53
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rods of Light (2 charging).
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Loc:24,105 Dep:20 Lev:24 HP:239/272 SP:39/40 Danger:p=53
+MESSAGE # Loc:24,106 Dep:20 Lev:24 HP:240/272 SP:40/40 Danger:p=53
+MESSAGE # Loc:24,107 Dep:20 Lev:24 HP:241/272 SP:40/40 Danger:p=53
+MESSAGE # Casting Turn Stone to Mud (0,4).
+MESSAGE # Melting a wall/etc
+MESSAGE The vein turns into mud!
+MESSAGE You have found something!
+MESSAGE # Creating an object 'copper' at (108,25)
+MESSAGE # Loc:24,107 Dep:20 Lev:24 HP:242/272 SP:35/40 Danger:p=53
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'copper' at (25,108)
+MESSAGE You have found 185 gold pieces worth of copper.
+MESSAGE # Loc:25,108 Dep:20 Lev:24 HP:243/272 SP:35/40 Danger:p=53
+MESSAGE # Flowing toward dark-4 at cost 5
+MESSAGE # Loc:24,109 Dep:20 Lev:24 HP:244/272 SP:35/40 Danger:p=52
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Detected traps, doors & evil (0,1 to 1,2)
+MESSAGE # SELF:TDE (1)
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for walls.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # SELF:wall (+)
+MESSAGE # Something failed
+MESSAGE # SELF:wall (1)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-4 at cost 8
+MESSAGE The black mamba spits venom at you.
+MESSAGE You are poisoned!
+MESSAGE The black mamba misses you.
+MESSAGE # SPELL_003:The black mamba (+)
+MESSAGE # MISS_BY:The black mamba (+)
+MESSAGE # Creating a monster 'black mamba' at (23,121), HP: 45, Index: 162
+MESSAGE # SPELL_003:The black mamba (4)
+MESSAGE # MISS_BY:The black mamba (4)
+MESSAGE # Loc:24,120 Dep:20 Lev:24 HP:253/272 SP:40/40 Danger:p=111
+MESSAGE # Performing attack type 3 with value 67.
+MESSAGE # Targeting black mamba who has 45 Hit Points (23,121).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE You have 116 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The black mamba misses you.
+MESSAGE # MISS_BY:The black mamba (+)
+MESSAGE # Perhaps wall near targetted location (23,121)
+MESSAGE # Guessing wall (24,120) near target (23,121)
+MESSAGE # Creating an object '& Arrow~' at (121,23)
+MESSAGE # Creating a monster 'energy hound' at (23,123), HP: 36, Index: 227
+MESSAGE # MISS_BY:The black mamba (3)
+MESSAGE # Loc:24,120 Dep:20 Lev:24 HP:253/272 SP:40/40 Danger:p=140
+MESSAGE # Performing attack type 3 with value 81.
+MESSAGE # Targeting energy hound who has 36 Hit Points (23,123).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the energy hound.
+MESSAGE You have 115 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The energy hound yelps in pain.
+MESSAGE The black mamba spits venom at you.
+MESSAGE You are more poisoned!
+MESSAGE # PAIN:The energy hound (+)
+MESSAGE # SPELL_003:The black mamba (+)
+MESSAGE # Tracking a monster 'energy hound' at (23,122) from (23,123)
+MESSAGE # Creating an object '& Arrow~' at (123,23)
+MESSAGE # Creating an object '& Arrow~' at (121,23)
+MESSAGE # PAIN:The energy hound (2)
+MESSAGE # SPELL_003:The black mamba (3)
+MESSAGE # Loc:24,120 Dep:20 Lev:24 HP:241/272 SP:40/40 Danger:p=142
+MESSAGE # Performing attack type 3 with value 80.
+MESSAGE # Targeting energy hound who has 20 Hit Points (23,122).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE You have 114 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The black mamba spits venom at you.
+MESSAGE You are more poisoned!
+MESSAGE The black mamba bites you.
+MESSAGE You are more poisoned!
+MESSAGE # SPELL_003:The black mamba (+)
+MESSAGE # HIT_BY:The black mamba (+)
+MESSAGE # Perhaps wall near targetted location (23,122)
+MESSAGE # Guessing wall (23,121) near target (23,122)
+MESSAGE # Creating an object '& Arrow~' at (122,23)
+MESSAGE # Creating an object '& Arrow~' at (121,23)
+MESSAGE # Creating a monster 'energy hound' at (22,122), HP: 31, Index: 227
+MESSAGE # SPELL_003:The black mamba (3)
+MESSAGE # HIT_BY:The black mamba (3)
+MESSAGE # Loc:24,120 Dep:20 Lev:24 HP:217/272 SP:40/40 Danger:p=183
+MESSAGE # Safe to Phase. scary squares: 5
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You feel that there aren't many treasures here.
+MESSAGE You have 14 Scrolls of Phase Door (e).
+MESSAGE # FEELING_STUFF:8 (+)
+MESSAGE # Creating a monster 'energy hound' at (20,123), HP: 32, Index: 227
+MESSAGE # FEELING_STUFF:8 (1)
+MESSAGE # Loc:19,129 Dep:20 Lev:24 HP:216/272 SP:40/40 Danger:p=24
+MESSAGE # Performing attack type 3 with value 81.
+MESSAGE # Targeting energy hound who has 32 Hit Points (20,123).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the energy hound.
+MESSAGE You have 113 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The energy hound yelps in pain.
+MESSAGE # PAIN:The energy hound (+)
+MESSAGE # Tracking a monster 'energy hound' at (20,124) from (20,123)
+MESSAGE # Tracking a monster 'energy hound' at (22,124) from (23,122)
+MESSAGE # Creating an object '& Arrow~' at (123,20)
+MESSAGE # Creating a monster 'energy hound' at (18,124), HP: 34, Index: 227
+MESSAGE # PAIN:The energy hound (2)
+MESSAGE # Loc:19,129 Dep:20 Lev:24 HP:215/272 SP:40/40 Danger:p=69
+MESSAGE # Performing attack type 3 with value 81.
+MESSAGE # Targeting energy hound who has 34 Hit Points (18,124).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE You have 112 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # Perhaps wall near targetted location (18,124)
+MESSAGE # Guessing wall (18,125) near target (18,124)
+MESSAGE # Creating an object '& Arrow~' at (124,18)
+MESSAGE # Loc:19,129 Dep:20 Lev:24 HP:215/272 SP:40/40 Danger:p=45
+MESSAGE # Casting Herbal Curing (0,2).
+MESSAGE # Cure poison - danger 45
+MESSAGE You are no longer poisoned.
+MESSAGE The energy hound breathes lightning.
+MESSAGE It ignores the attack.
+MESSAGE # SPELL_008:The energy hound (+)
+MESSAGE # PAIN:It (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Tracking a monster 'energy hound' at (20,125) from (20,124)
+MESSAGE # Tracking a monster 'energy hound' at (18,125) from (18,124)
+MESSAGE # Tracking a monster 'energy hound' at (21,125) from (22,124)
+MESSAGE # Tracking a monster 'energy hound' at (20,123) from (22,122)
+MESSAGE # Creating an object '& Arrow~' at (123,20)
+MESSAGE # Invisible monster nearby.
+MESSAGE # SPELL_008:The energy hound (3)
+MESSAGE # PAIN:It (0)
+MESSAGE # Loc:19,129 Dep:20 Lev:24 HP:213/272 SP:34/40 Danger:p=99
+MESSAGE # Performing attack type 3 with value 81.
+MESSAGE # Targeting energy hound who has 34 Hit Points (18,125).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the energy hound.
+MESSAGE You have 111 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The energy hound howls in pain.
+MESSAGE The energy hound flees in terror!
+MESSAGE # PAIN:The energy hound (+)
+MESSAGE # Tracking a monster 'energy hound' at (20,124) from (20,123)
+MESSAGE # Tracking a monster 'energy hound' at (21,126) from (21,125)
+MESSAGE # Tracking a monster 'energy hound' at (20,126) from (20,125)
+MESSAGE # Creating an object '& Arrow~' at (125,18)
+MESSAGE # PAIN:The energy hound (2)
+MESSAGE # Loc:19,129 Dep:20 Lev:24 HP:213/272 SP:34/40 Danger:p=100
+MESSAGE # Performing attack type 3 with value 81.
+MESSAGE # Targeting energy hound who has 21 Hit Points (21,126).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the energy hound.
+MESSAGE The energy hound dies.
+MESSAGE Welcome to level 25.
+MESSAGE You can learn 3 more verses.
+MESSAGE You have 110 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # DIED:The energy hound (+)
+MESSAGE # Forgetting a monster 'energy hound' at (21,126)
+MESSAGE # Tracking a monster 'energy hound' at (20,127) from (20,126)
+MESSAGE # Tracking a monster 'black mamba' at (21,125) from (23,121)
+MESSAGE # Creating an object '& Arrow~' at (126,21)
+MESSAGE # Creating a monster '3-headed hydra' at (18,134), HP: 287, Index: 240
+MESSAGE # DIED:The energy hound (2)
+MESSAGE # There was a monster 'energy hound' at (18,125)
+MESSAGE # Forgetting a monster 'energy hound' at (18,125)
+MESSAGE # There was an object '& Arrow~' at (121,23)
+MESSAGE # Loc:19,129 Dep:20 Lev:25 HP:213/279 SP:34/42 Danger:p=72
+MESSAGE # Performing attack type 3 with value 81.
+MESSAGE # Targeting energy hound who has 31 Hit Points (20,124).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the energy hound.
+MESSAGE You have 109 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE The energy hound howls in pain.
+MESSAGE # PAIN:The energy hound (+)
+MESSAGE # Tracking a monster '3-headed hydra' at (18,133) from (18,134)
+MESSAGE # Tracking a monster 'energy hound' at (19,125) from (20,124)
+MESSAGE # Tracking a monster 'black mamba' at (19,127) from (21,125)
+MESSAGE # PAIN:The energy hound (2)
+MESSAGE # There was an object '& Arrow~' at (123,20)
+MESSAGE # Loc:19,129 Dep:20 Lev:25 HP:214/279 SP:34/42 Danger:p=181
+MESSAGE # No Phase. scary squares: 28
+MESSAGE # Using Staff of Teleportation (5 charges).
+MESSAGE # Danger Level 4.2
+MESSAGE You have 4 charges remaining.
+MESSAGE The giant black dragon fly wakes up.
+MESSAGE # PAIN:The giant black dragon fly (+)
+MESSAGE # Creating a monster 'giant black dragon fly' at (34,52), HP: 15, Index: 101
+MESSAGE # PAIN:The giant black dragon fly (4)
+MESSAGE # Loc:32,52 Dep:20 Lev:25 HP:215/279 SP:34/42 Danger:p=178
+MESSAGE # No Phase. scary squares: 66
+MESSAGE # Using Staff of Teleportation (4 charges).
+MESSAGE # Danger Level 4.2
+MESSAGE You have 3 charges remaining.
+MESSAGE # Flowing toward down-stairs at cost 42
+MESSAGE # Powerdiving.
+MESSAGE # Loc:22,95 Dep:20 Lev:25 HP:222/279 SP:35/42 Danger:p=49
+MESSAGE # Loc:22,94 Dep:20 Lev:25 HP:223/279 SP:35/42 Danger:p=49
+MESSAGE # Loc:23,93 Dep:20 Lev:25 HP:224/279 SP:35/42 Danger:p=49
+MESSAGE # Loc:23,92 Dep:20 Lev:25 HP:225/279 SP:35/42 Danger:p=49
+MESSAGE # Loc:23,91 Dep:20 Lev:25 HP:226/279 SP:36/42 Danger:p=49
+MESSAGE # Loc:24,90 Dep:20 Lev:25 HP:227/279 SP:36/42 Danger:p=49
+MESSAGE # Loc:24,89 Dep:20 Lev:25 HP:228/279 SP:36/42 Danger:p=49
+MESSAGE # Loc:24,88 Dep:20 Lev:25 HP:229/279 SP:36/42 Danger:p=49
+MESSAGE # Loc:24,87 Dep:20 Lev:25 HP:230/279 SP:36/42 Danger:p=48
+MESSAGE # Loc:24,86 Dep:20 Lev:25 HP:231/279 SP:36/42 Danger:p=48
+MESSAGE # Loc:24,85 Dep:20 Lev:25 HP:232/279 SP:36/42 Danger:p=48
+MESSAGE # Loc:24,84 Dep:20 Lev:25 HP:233/279 SP:36/42 Danger:p=48
+MESSAGE # Loc:24,83 Dep:20 Lev:25 HP:234/279 SP:37/42 Danger:p=48
+MESSAGE # Loc:24,82 Dep:20 Lev:25 HP:235/279 SP:37/42 Danger:p=48
+MESSAGE # Loc:24,81 Dep:20 Lev:25 HP:236/279 SP:37/42 Danger:p=48
+MESSAGE # Loc:24,80 Dep:20 Lev:25 HP:236/279 SP:37/42 Danger:p=48
+MESSAGE # Loc:24,79 Dep:20 Lev:25 HP:237/279 SP:37/42 Danger:p=48
+MESSAGE # Loc:24,78 Dep:20 Lev:25 HP:238/279 SP:37/42 Danger:p=48
+MESSAGE # Loc:24,77 Dep:20 Lev:25 HP:239/279 SP:37/42 Danger:p=47
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Opening a door
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This place seems reasonably safe.
+MESSAGE # FEELING_DANGER:7 (+)
+MESSAGE # FEELING_DANGER:7 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Detected traps, doors & evil (0,1 to 1,2)
+MESSAGE # SELF:TDE (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for walls.
+MESSAGE # SELF:wall (+)
+MESSAGE # Detected walls (0,1 to 1,2)
+MESSAGE # SELF:wall (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rods of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE You are covered with frost!
+MESSAGE The cold vortex engulfs you.
+MESSAGE # HIT_BY:The cold vortex (+)
+MESSAGE # Creating a monster 'cold vortex' at (28,151), HP: 45, Index: 257
+MESSAGE # Removing Regional Fear (28,151) because of a LOS cold vortex
+MESSAGE # HIT_BY:The cold vortex (4)
+MESSAGE # Loc:27,150 Dep:21 Lev:25 HP:277/279 SP:42/42 Danger:p=26
+MESSAGE # Performing attack type 1 with value 23.
+MESSAGE # Facing cold vortex at (28,151) who has 45 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the cold vortex.
+MESSAGE The cold vortex breathes frost.
+MESSAGE # HIT:the cold vortex (+)
+MESSAGE # SPELL_010:The cold vortex (+)
+MESSAGE # HIT:the cold vortex (2)
+MESSAGE # SPELL_010:The cold vortex (3)
+MESSAGE # Loc:27,150 Dep:21 Lev:25 HP:274/279 SP:42/42 Danger:p=24
+MESSAGE # Performing attack type 1 with value 23.
+MESSAGE # Facing cold vortex at (28,151) who has 28 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You miss the cold vortex.
+MESSAGE The cold vortex breathes frost.
+MESSAGE # MISS:the cold vortex (+)
+MESSAGE # SPELL_010:The cold vortex (+)
+MESSAGE # MISS:the cold vortex (2)
+MESSAGE # SPELL_010:The cold vortex (3)
+MESSAGE # Loc:27,150 Dep:21 Lev:25 HP:272/279 SP:42/42 Danger:p=24
+MESSAGE # Performing attack type 1 with value 23.
+MESSAGE # Facing cold vortex at (28,151) who has 28 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the cold vortex.
+MESSAGE You are covered with frost!
+MESSAGE The cold vortex engulfs you.
+MESSAGE # HIT:the cold vortex (+)
+MESSAGE # HIT_BY:The cold vortex (+)
+MESSAGE # HIT:the cold vortex (2)
+MESSAGE # HIT_BY:The cold vortex (3)
+MESSAGE # Loc:27,150 Dep:21 Lev:25 HP:272/279 SP:42/42 Danger:p=22
+MESSAGE # Performing attack type 1 with value 39.
+MESSAGE # Facing cold vortex at (28,151) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the cold vortex.
+MESSAGE You have destroyed the cold vortex.
+MESSAGE # HIT:the cold vortex (+)
+MESSAGE # KILL:the cold vortex (+)
+MESSAGE # Forgetting a monster 'cold vortex' at (28,151)
+MESSAGE # HIT:the cold vortex (2)
+MESSAGE # KILL:the cold vortex (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating an object 'copper' at (151,30)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a 'copper' at (30,151)
+MESSAGE You have found 175 gold pieces worth of copper.
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Detected traps, doors & evil (1,1 to 2,2)
+MESSAGE # SELF:TDE (1)
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for walls.
+MESSAGE # SELF:wall (+)
+MESSAGE # Detected walls (1,1 to 2,2)
+MESSAGE # SELF:wall (1)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Creating an object '& Dagger~' at (163,45)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Walking onto and deleting a '& Dagger~' at (45,163)
+MESSAGE You have a Dagger (1d4) (+1,+3) (r).
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Zapping Rod of Illumination.
+MESSAGE # Illuminating the dungeon
+MESSAGE You are surrounded by a white light.
+MESSAGE # SELF:lite (+)
+MESSAGE # Called lite at (55,169)
+MESSAGE # SELF:lite (1)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 5
+MESSAGE # Creating a monster 'werewolf' at (54,176), HP: 248, Index: 248
+MESSAGE # Removing Regional Fear (54,176) because of a LOS werewolf
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting werewolf who has 248 Hit Points (54,176).
+MESSAGE # Aiming Wands of Magic Missile (44 charges).
+MESSAGE Target Selected.
+MESSAGE You have 43 charges remaining.
+MESSAGE The werewolf shrugs off the attack.
+MESSAGE # PAIN:The werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (55,175) from (54,176)
+MESSAGE # PAIN:The werewolf (2)
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting werewolf who has 238 Hit Points (55,175).
+MESSAGE # Aiming Wands of Magic Missile (43 charges).
+MESSAGE Target Selected.
+MESSAGE You have 42 charges remaining.
+MESSAGE The werewolf snarls with pain.
+MESSAGE # PAIN:The werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (56,174) from (55,175)
+MESSAGE # PAIN:The werewolf (2)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:279/279 SP:42/42 Danger:p=1
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting werewolf who has 225 Hit Points (56,174).
+MESSAGE # Aiming Wands of Magic Missile (42 charges).
+MESSAGE Target Selected.
+MESSAGE You have 41 charges remaining.
+MESSAGE The werewolf shrugs off the attack.
+MESSAGE # PAIN:The werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (57,173) from (56,174)
+MESSAGE # PAIN:The werewolf (2)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:279/279 SP:42/42 Danger:p=47
+MESSAGE # Performing attack type 1 with value 25.
+MESSAGE # Facing werewolf at (57,173) who has 218 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You miss the werewolf.
+MESSAGE # MISS:the werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (56,172) from (57,173)
+MESSAGE # MISS:the werewolf (2)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:279/279 SP:42/42 Danger:p=47
+MESSAGE # Performing attack type 1 with value 25.
+MESSAGE # Facing werewolf at (56,172) who has 220 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the werewolf.
+MESSAGE The werewolf claws you.
+MESSAGE The werewolf misses you.
+MESSAGE The werewolf bites you.
+MESSAGE # HIT:the werewolf (+)
+MESSAGE # HIT_BY:The werewolf (+)
+MESSAGE # MISS_BY:The werewolf (+)
+MESSAGE # HIT_BY:The werewolf (+)
+MESSAGE # HIT:the werewolf (2)
+MESSAGE # HIT_BY:The werewolf (3)
+MESSAGE # MISS_BY:The werewolf (3)
+MESSAGE # HIT_BY:The werewolf (3)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:262/279 SP:42/42 Danger:p=47
+MESSAGE # Performing attack type 1 with value 25.
+MESSAGE # Facing werewolf at (56,172) who has 203 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the werewolf. It was a great hit!
+MESSAGE # HIT:the werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (56,173) from (56,172)
+MESSAGE # HIT:the werewolf (2)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:263/279 SP:42/42 Danger:p=47
+MESSAGE # Performing attack type 1 with value 25.
+MESSAGE # Facing werewolf at (56,173) who has 148 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the werewolf.
+MESSAGE The werewolf claws you.
+MESSAGE The werewolf misses you.
+MESSAGE # HIT:the werewolf (+)
+MESSAGE # HIT_BY:The werewolf (+)
+MESSAGE # MISS_BY:The werewolf (+)
+MESSAGE # HIT:the werewolf (2)
+MESSAGE # HIT_BY:The werewolf (3)
+MESSAGE # MISS_BY:The werewolf (3)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:259/279 SP:42/42 Danger:p=47
+MESSAGE # Performing attack type 1 with value 25.
+MESSAGE # Facing werewolf at (56,173) who has 124 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You miss the werewolf.
+MESSAGE The werewolf misses you.
+MESSAGE The werewolf claws you.
+MESSAGE The werewolf misses you.
+MESSAGE # MISS:the werewolf (+)
+MESSAGE # MISS_BY:The werewolf (+)
+MESSAGE # HIT_BY:The werewolf (+)
+MESSAGE # MISS_BY:The werewolf (+)
+MESSAGE # MISS:the werewolf (2)
+MESSAGE # MISS_BY:The werewolf (3)
+MESSAGE # HIT_BY:The werewolf (3)
+MESSAGE # MISS_BY:The werewolf (3)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:254/279 SP:42/42 Danger:p=47
+MESSAGE # Performing attack type 1 with value 25.
+MESSAGE # Facing werewolf at (56,173) who has 124 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the werewolf.
+MESSAGE # HIT:the werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (55,172) from (56,173)
+MESSAGE # HIT:the werewolf (2)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:255/279 SP:42/42 Danger:p=1
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting werewolf who has 106 Hit Points (55,172).
+MESSAGE # Aiming Wands of Magic Missile (41 charges).
+MESSAGE Target Selected.
+MESSAGE You have 40 charges remaining.
+MESSAGE The werewolf snarls with pain.
+MESSAGE The werewolf claws you.
+MESSAGE The werewolf misses you.
+MESSAGE The werewolf bites you.
+MESSAGE # PAIN:The werewolf (+)
+MESSAGE # HIT_BY:The werewolf (+)
+MESSAGE # MISS_BY:The werewolf (+)
+MESSAGE # HIT_BY:The werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (56,172) from (55,172)
+MESSAGE # PAIN:The werewolf (2)
+MESSAGE # HIT_BY:The werewolf (3)
+MESSAGE # MISS_BY:The werewolf (3)
+MESSAGE # HIT_BY:The werewolf (3)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:244/279 SP:42/42 Danger:p=47
+MESSAGE # Performing attack type 1 with value 25.
+MESSAGE # Facing werewolf at (56,172) who has 96 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the werewolf. It was a great hit!
+MESSAGE The werewolf flees in terror!
+MESSAGE # HIT:the werewolf (+)
+MESSAGE # PAIN:The werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (55,171) from (56,172)
+MESSAGE # HIT:the werewolf (2)
+MESSAGE # PAIN:The werewolf (2)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:245/279 SP:42/42 Danger:p=1
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting werewolf who has 42 Hit Points (55,171).
+MESSAGE # Aiming Wands of Magic Missile (40 charges).
+MESSAGE Target Selected.
+MESSAGE You have 39 charges remaining.
+MESSAGE The werewolf snarls with pain.
+MESSAGE # PAIN:The werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (54,170) from (55,171)
+MESSAGE # PAIN:The werewolf (2)
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting werewolf who has 37 Hit Points (54,170).
+MESSAGE # Aiming Wands of Magic Missile (39 charges).
+MESSAGE Target Selected.
+MESSAGE You have 38 charges remaining.
+MESSAGE The werewolf yelps in pain.
+MESSAGE # PAIN:The werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (55,170) from (54,170)
+MESSAGE # PAIN:The werewolf (2)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:247/279 SP:42/42 Danger:p=1
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting werewolf who has 27 Hit Points (55,170).
+MESSAGE # Aiming Wands of Magic Missile (38 charges).
+MESSAGE Target Selected.
+MESSAGE You have 37 charges remaining.
+MESSAGE The werewolf yelps in pain.
+MESSAGE The werewolf is no longer afraid.
+MESSAGE # PAIN:The werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (56,171) from (55,170)
+MESSAGE # PAIN:The werewolf (2)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:248/279 SP:42/42 Danger:p=47
+MESSAGE # Performing attack type 1 with value 65.
+MESSAGE # Facing werewolf at (56,171) who has 19 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You miss the werewolf.
+MESSAGE The werewolf misses you.
+MESSAGE The werewolf bites you.
+MESSAGE # MISS:the werewolf (+)
+MESSAGE # MISS_BY:The werewolf (+)
+MESSAGE # HIT_BY:The werewolf (+)
+MESSAGE # MISS:the werewolf (2)
+MESSAGE # MISS_BY:The werewolf (3)
+MESSAGE # HIT_BY:The werewolf (3)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:240/279 SP:42/42 Danger:p=47
+MESSAGE # Performing attack type 1 with value 65.
+MESSAGE # Facing werewolf at (56,171) who has 19 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You miss the werewolf.
+MESSAGE The werewolf claws you.
+MESSAGE The werewolf misses you.
+MESSAGE # MISS:the werewolf (+)
+MESSAGE # HIT_BY:The werewolf (+)
+MESSAGE # MISS_BY:The werewolf (+)
+MESSAGE # MISS:the werewolf (2)
+MESSAGE # HIT_BY:The werewolf (3)
+MESSAGE # MISS_BY:The werewolf (3)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:234/279 SP:42/42 Danger:p=47
+MESSAGE # Performing attack type 1 with value 65.
+MESSAGE # Facing werewolf at (56,171) who has 19 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the werewolf.
+MESSAGE The werewolf flees in terror!
+MESSAGE # HIT:the werewolf (+)
+MESSAGE # PAIN:The werewolf (+)
+MESSAGE # Tracking a monster 'werewolf' at (56,170) from (56,171)
+MESSAGE # HIT:the werewolf (2)
+MESSAGE # PAIN:The werewolf (2)
+MESSAGE # Loc:57,172 Dep:21 Lev:25 HP:235/279 SP:42/42 Danger:p=1
+MESSAGE # Performing attack type 73 with value 3.
+MESSAGE # Targeting werewolf who has 2 Hit Points (56,170).
+MESSAGE # Aiming Wands of Magic Missile (37 charges).
+MESSAGE Target Selected.
+MESSAGE You have 36 charges remaining.
+MESSAGE The werewolf dies.
+MESSAGE # DIED:The werewolf (+)
+MESSAGE # Forgetting a monster 'werewolf' at (56,170)
+MESSAGE # DIED:The werewolf (2)
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Detected traps, doors & evil (1,2 to 2,3)
+MESSAGE # SELF:TDE (1)
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for walls.
+MESSAGE # SELF:wall (+)
+MESSAGE # Detected walls (1,2 to 2,3)
+MESSAGE # SELF:wall (1)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-5 at cost 62
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Something failed
+MESSAGE # SELF:TDE (1)
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for walls.
+MESSAGE # SELF:wall (+)
+MESSAGE # Detected walls (0,2 to 1,3)
+MESSAGE # SELF:wall (1)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Detected traps, doors & evil (0,2 to 1,3)
+MESSAGE # SELF:TDE (1)
+MESSAGE # Opening a door
+MESSAGE You have picked the lock.
+MESSAGE You feel that there may not be much interesting here.
+MESSAGE # FEELING_STUFF:7 (+)
+MESSAGE # FEELING_STUFF:7 (1)
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Performing defense type 26 with value 10
+MESSAGE # Zapping Rods of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE A line of shimmering blue light appears.
+MESSAGE # Creating a monster 'blue dragon bat' at (51,121), HP: 9, Index: 253
+MESSAGE # Removing Regional Fear (51,121) because of a LOS blue dragon bat
+MESSAGE # Loc:51,127 Dep:21 Lev:25 HP:279/279 SP:40/42 Danger:p=85
+MESSAGE # Performing attack type 3 with value 51.
+MESSAGE # Targeting blue dragon bat who has 9 Hit Points (51,121).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the blue dragon bat.
+MESSAGE The blue dragon bat dies.
+MESSAGE You have 108 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # DIED:The blue dragon bat (+)
+MESSAGE # Forgetting a monster 'blue dragon bat' at (51,121)
+MESSAGE # Creating an object '& Arrow~' at (121,51)
+MESSAGE # DIED:The blue dragon bat (2)
+MESSAGE # Spent too long (196) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 43
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE This place seems terribly dangerous.
+MESSAGE # FEELING_DANGER:3 (+)
+MESSAGE # FEELING_DANGER:3 (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Detected traps, doors & evil (1,0 to 2,1)
+MESSAGE # SELF:TDE (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for walls.
+MESSAGE # SELF:wall (+)
+MESSAGE # Detected walls (1,0 to 2,1)
+MESSAGE # SELF:wall (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Powerdiving.
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE You feel anxious about this place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:4 (+)
+MESSAGE # FEELING_DANGER:4 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Detected traps, doors & evil (2,1 to 3,2)
+MESSAGE # SELF:TDE (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for walls.
+MESSAGE # SELF:wall (+)
+MESSAGE # Detected walls (2,1 to 3,2)
+MESSAGE # SELF:wall (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating a monster 'quylthulg' at (53,141), HP: 31, Index: 246
+MESSAGE # Removing Regional Fear (53,141) because of a LOS quylthulg
+MESSAGE # Loc:53,140 Dep:21 Lev:25 HP:279/279 SP:42/42 Danger:p=14
+MESSAGE # Performing attack type 1 with value 66.
+MESSAGE # Facing quylthulg at (53,141) who has 31 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the quylthulg.
+MESSAGE The quylthulg summons a companion.
+MESSAGE # HIT:the quylthulg (+)
+MESSAGE # SPELL_078:The quylthulg (+)
+MESSAGE # Creating a monster 'poltergeist' at (54,141), HP: 7, Index: 55
+MESSAGE # Removing Regional Fear (54,141) because of a LOS poltergeist
+MESSAGE # HIT:the quylthulg (2)
+MESSAGE # SPELL_078:The quylthulg (3)
+MESSAGE # Loc:53,140 Dep:21 Lev:25 HP:279/279 SP:42/42 Danger:p=14
+MESSAGE # Performing attack type 1 with value 59.
+MESSAGE # Facing quylthulg at (53,141) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the quylthulg. It was a good hit!
+MESSAGE You have slain the quylthulg.
+MESSAGE The poltergeist misses you.
+MESSAGE # HIT:the quylthulg (+)
+MESSAGE # KILL:the quylthulg (+)
+MESSAGE # MISS_BY:The poltergeist (+)
+MESSAGE # Forgetting a monster 'quylthulg' at (53,141)
+MESSAGE # Tracking a monster 'poltergeist' at (54,143) from (54,141)
+MESSAGE # HIT:the quylthulg (2)
+MESSAGE # KILL:the quylthulg (2)
+MESSAGE # MISS_BY:The poltergeist (3)
+MESSAGE # Flowing toward kill at cost 3
+MESSAGE # Tracking a monster 'poltergeist' at (52,143) from (54,143)
+MESSAGE The poltergeist misses you.
+MESSAGE The poltergeist blinks.
+MESSAGE # MISS_BY:The poltergeist (+)
+MESSAGE # BLINK:The poltergeist (+)
+MESSAGE # Forgetting a monster 'poltergeist' at (52,143)
+MESSAGE # Fearing region (53,142) value 10 because of a non-LOS The poltergeist
+MESSAGE # MISS_BY:The poltergeist (5)
+MESSAGE # BLINK:The poltergeist (2)
+MESSAGE # Casting Turn Stone to Mud (0,4).
+MESSAGE # Melting a wall/etc
+MESSAGE The wall turns into mud!
+MESSAGE You have found a trap.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Disarming a trap
+MESSAGE You have disarmed the gas trap.
+MESSAGE # Creating an object '& Arrow~' at (141,55)
+MESSAGE # Boosting bravery (1) from 279 to 558!
+MESSAGE # heading down (bored and spastic).
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE You have found a secret door.
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE You feel nervous about this place.
+MESSAGE # FEELING_DANGER:5 (+)
+MESSAGE # FEELING_DANGER:5 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Detected traps, doors & evil (0,0 to 1,1)
+MESSAGE # SELF:TDE (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for walls.
+MESSAGE # SELF:wall (+)
+MESSAGE # Detected walls (0,0 to 1,1)
+MESSAGE # SELF:wall (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE You hear a door burst open!
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE Something slams against the door.
+MESSAGE You hear a door burst open!
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE You hear a door burst open!
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE You hear an acrid roar.
+MESSAGE You are hit by acid!
+MESSAGE Your Set of Leather Gloves of Agility is damaged!
+MESSAGE # SPELL_007:Something (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Fearing region (2,84) value 88 because of a non-LOS Something
+MESSAGE # SPELL_007:Something (5)
+MESSAGE # Loc:2,84 Dep:22 Lev:25 HP:277/279 SP:29/42 Danger:p=132
+MESSAGE # Standing on up-stairs
+MESSAGE # Boosting bravery (1) from 277 to 554!
+MESSAGE # Zapping Rods of Light.
+MESSAGE # Illuminating this hallway
+MESSAGE You failed to zap the rod properly.
+MESSAGE You hear an acrid roar.
+MESSAGE You are hit by acid!
+MESSAGE Your Cloak of Aman is unaffected!
+MESSAGE # Normal failure.
+MESSAGE # SPELL_007:Something (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Fearing region (2,84) value 88 because of a non-LOS Something
+MESSAGE # SPELL_007:Something (5)
+MESSAGE # Loc:2,84 Dep:22 Lev:25 HP:275/279 SP:29/42 Danger:p=264
+MESSAGE # Standing on up-stairs
+MESSAGE # Escaping level via stairs.
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 4.1
+MESSAGE You enter a maze of up staircases.
+MESSAGE You feel anxious about this place.
+MESSAGE You have 13 Scrolls of Phase Door (e).
+MESSAGE # FEELING_DANGER:4 (+)
+MESSAGE # FEELING_DANGER:4 (1)
+MESSAGE # Shifted panel to locate offscreen monster.
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE You hear a door burst open!
+MESSAGE # Normal failure.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Something failed
+MESSAGE # SELF:TDE (1)
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for walls.
+MESSAGE # SELF:wall (+)
+MESSAGE # Detected walls (0,1 to 1,2)
+MESSAGE # SELF:wall (1)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE You hear a door burst open!
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE You hear a door burst open!
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE You hear a door burst open!
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Detected traps, doors & evil (0,1 to 1,2)
+MESSAGE # SELF:TDE (1)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE You hear a door burst open!
+MESSAGE # Resting to recover HP/SP...
+MESSAGE You hear a door burst open!
+MESSAGE # Resting to recover HP/SP...
+MESSAGE You hear a door burst open!
+MESSAGE # Resting to recover HP/SP...
+MESSAGE You hear a door burst open!
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Zapping Rod of Illumination.
+MESSAGE # Illuminating the dungeon
+MESSAGE You are surrounded by a white light.
+MESSAGE # SELF:lite (+)
+MESSAGE # Called lite at (28,114)
+MESSAGE # SELF:lite (1)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE You hear a door burst open!
+MESSAGE # SELF:TDE (+)
+MESSAGE # Detected traps, doors & evil (1,1 to 2,2)
+MESSAGE # SELF:TDE (1)
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for walls.
+MESSAGE # SELF:wall (+)
+MESSAGE # Detected walls (1,1 to 2,2)
+MESSAGE # SELF:wall (1)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE You hear a door burst open!
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Creating a monster 'red mold' at (42,98), HP: 74, Index: 235
+MESSAGE # Performing attack type 3 with value 36.
+MESSAGE # Targeting red mold who has 74 Hit Points (42,98).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the red mold.
+MESSAGE You have 107 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE The red mold squelches.
+MESSAGE # PAIN:The red mold (+)
+MESSAGE # PAIN:The red mold (2)
+MESSAGE # Performing attack type 3 with value 36.
+MESSAGE # Targeting red mold who has 55 Hit Points (42,98).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the red mold.
+MESSAGE You have 106 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE The red mold squelches.
+MESSAGE # PAIN:The red mold (+)
+MESSAGE # PAIN:The red mold (2)
+MESSAGE # Performing attack type 3 with value 36.
+MESSAGE # Targeting red mold who has 40 Hit Points (42,98).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the red mold.
+MESSAGE You have 105 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The red mold squelches.
+MESSAGE # PAIN:The red mold (+)
+MESSAGE # Creating an object '& Arrow~' at (98,42)
+MESSAGE # PAIN:The red mold (2)
+MESSAGE # Performing attack type 3 with value 72.
+MESSAGE # Targeting red mold who has 25 Hit Points (42,98).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the red mold.
+MESSAGE You have 104 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The red mold writhes in agony.
+MESSAGE # PAIN:The red mold (+)
+MESSAGE # Creating an object '& Arrow~' at (98,42)
+MESSAGE # PAIN:The red mold (2)
+MESSAGE # Performing attack type 3 with value 16.
+MESSAGE # Targeting red mold who has 4 Hit Points (42,98).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the red mold.
+MESSAGE The red mold is destroyed.
+MESSAGE You have 103 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # DIED:The red mold (+)
+MESSAGE # Forgetting a monster 'red mold' at (42,98)
+MESSAGE # DIED:The red mold (2)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward vein at cost 5
+MESSAGE # There was an object '& Arrow~' at (98,42)
+MESSAGE # Flowing toward vein at cost 4
+MESSAGE # Casting Turn Stone to Mud (0,4).
+MESSAGE # Melting a wall/etc
+MESSAGE The vein turns into mud!
+MESSAGE You have found something!
+MESSAGE # Creating an object 'silver' at (104,43)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'silver' at (43,104)
+MESSAGE You have found 330 gold pieces worth of silver.
+MESSAGE # Flowing toward dark-5 at cost 12
+MESSAGE You have 106 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE You hear a door burst open!
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Creating a monster 'fire vortex' at (39,89), HP: 36, Index: 255
+MESSAGE # Removing Regional Fear (39,89) because of a LOS fire vortex
+MESSAGE # Loc:40,91 Dep:21 Lev:25 HP:279/279 SP:38/42 Danger:p=44
+MESSAGE # Performing attack type 3 with value 98.
+MESSAGE # Targeting fire vortex who has 36 Hit Points (39,89).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the fire vortex.
+MESSAGE You have 105 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The fire vortex swirls about.
+MESSAGE # PAIN:The fire vortex (+)
+MESSAGE # Creating an object '& Arrow~' at (89,39)
+MESSAGE # PAIN:The fire vortex (2)
+MESSAGE # Loc:40,91 Dep:21 Lev:25 HP:279/279 SP:38/42 Danger:p=42
+MESSAGE # Performing attack type 3 with value 97.
+MESSAGE # Targeting fire vortex who has 20 Hit Points (39,89).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the fire vortex.
+MESSAGE You have 104 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The fire vortex spins slowly.
+MESSAGE # PAIN:The fire vortex (+)
+MESSAGE # Tracking a monster 'fire vortex' at (40,90) from (39,89)
+MESSAGE # PAIN:The fire vortex (2)
+MESSAGE # Loc:40,91 Dep:21 Lev:25 HP:279/279 SP:38/42 Danger:p=44
+MESSAGE # Performing attack type 1 with value 51.
+MESSAGE # Facing fire vortex at (40,90) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the fire vortex.
+MESSAGE You have destroyed the fire vortex.
+MESSAGE # HIT:the fire vortex (+)
+MESSAGE # KILL:the fire vortex (+)
+MESSAGE # Forgetting a monster 'fire vortex' at (40,90)
+MESSAGE # HIT:the fire vortex (2)
+MESSAGE # KILL:the fire vortex (2)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 4
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-4 at cost 5
+MESSAGE # Creating a monster 'salamander' at (57,82), HP: 14, Index: 44
+MESSAGE # Removing Regional Fear (57,82) because of a LOS salamander
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting salamander who has 14 Hit Points (57,82).
+MESSAGE # Aiming Wands of Magic Missile (36 charges).
+MESSAGE Target Selected.
+MESSAGE You have 35 charges remaining.
+MESSAGE The salamander writhes about.
+MESSAGE The salamander flees in terror!
+MESSAGE # PAIN:The salamander (+)
+MESSAGE # Tracking a monster 'salamander' at (57,81) from (57,82)
+MESSAGE # PAIN:The salamander (2)
+MESSAGE # Performing attack type 73 with value 9.
+MESSAGE # Targeting salamander who has 4 Hit Points (57,81).
+MESSAGE # Aiming Wands of Magic Missile (35 charges).
+MESSAGE Target Selected.
+MESSAGE You have 34 charges remaining.
+MESSAGE The salamander dies.
+MESSAGE # DIED:The salamander (+)
+MESSAGE # Forgetting a monster 'salamander' at (57,81)
+MESSAGE # DIED:The salamander (2)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The apprentice tries to cast a spell, but fails.
+MESSAGE # Creating a monster 'apprentice' at (51,80), HP: 20, Index: 39
+MESSAGE # Removing Regional Fear (51,80) because of a LOS apprentice
+MESSAGE # Loc:50,81 Dep:21 Lev:25 HP:279/279 SP:41/42 Danger:p=12
+MESSAGE # Performing attack type 1 with value 33.
+MESSAGE # Facing apprentice at (51,80) who has 20 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the apprentice.
+MESSAGE You have slain the apprentice.
+MESSAGE # HIT:the apprentice (+)
+MESSAGE # KILL:the apprentice (+)
+MESSAGE # Forgetting a monster 'apprentice' at (51,80)
+MESSAGE # HIT:the apprentice (2)
+MESSAGE # KILL:the apprentice (2)
+MESSAGE # Flowing toward dark-1 at cost 3
+MESSAGE # Creating a monster 'earth hound' at (51,78), HP: 55, Index: 241
+MESSAGE # Removing Regional Fear (51,78) because of a LOS earth hound
+MESSAGE # Creating a monster 'air spirit' at (54,79), HP: 42, Index: 170
+MESSAGE # Removing Regional Fear (54,79) because of a LOS air spirit
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:279/279 SP:41/42 Danger:p=6
+MESSAGE # Performing attack type 3 with value 38.
+MESSAGE # Targeting earth hound who has 55 Hit Points (51,78).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 103 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE The earth hound yelps in pain.
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # There was a monster 'air spirit' at (54,79)
+MESSAGE # Forgetting a monster 'air spirit' at (54,79)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:279/279 SP:41/42 Danger:p=3
+MESSAGE # Performing attack type 3 with value 73.
+MESSAGE # Targeting earth hound who has 30 Hit Points (51,78).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 102 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE The earth hound yelps in pain.
+MESSAGE The apprentice (offscreen) wakes up.
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # PAIN:The apprentice (offscreen) (+)
+MESSAGE # Offscreen monster nearby
+MESSAGE # Tracking a monster 'earth hound' at (51,79) from (51,78)
+MESSAGE # Offscreen monster nearby
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # PAIN:The apprentice (offscreen) (0)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:279/279 SP:41/42 Danger:p=1
+MESSAGE # Shifted panel to locate offscreen monster.
+MESSAGE # Creating a monster 'soldier' at (55,76), HP: 25, Index: 36
+MESSAGE # Removing Regional Fear (55,76) because of a LOS soldier
+MESSAGE # Creating a monster 'air spirit' at (54,76), HP: 42, Index: 170
+MESSAGE # Removing Regional Fear (54,76) because of a LOS air spirit
+MESSAGE # Creating a monster 'apprentice' at (56,76), HP: 13, Index: 39
+MESSAGE # Removing Regional Fear (56,76) because of a LOS apprentice
+MESSAGE # Creating a monster 'earth hound' at (51,76), HP: 68, Index: 241
+MESSAGE # Removing Regional Fear (51,76) because of a LOS earth hound
+MESSAGE # Creating a monster 'soldier' at (55,77), HP: 22, Index: 36
+MESSAGE # Removing Regional Fear (55,77) because of a LOS soldier
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:279/279 SP:41/42 Danger:p=20
+MESSAGE # Performing attack type 3 with value 60.
+MESSAGE # Targeting earth hound who has 15 Hit Points (51,79).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 101 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE The earth hound yelps feebly.
+MESSAGE The earth hound flees in terror!
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # Tracking a monster 'earth hound' at (51,80) from (51,79)
+MESSAGE # Tracking a monster 'earth hound' at (51,77) from (51,76)
+MESSAGE # Tracking a monster 'air spirit' at (55,75) from (54,76)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:279/279 SP:41/42 Danger:p=20
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting soldier who has 22 Hit Points (55,77).
+MESSAGE # Aiming Wands of Magic Missile (34 charges).
+MESSAGE Target Selected.
+MESSAGE You have 33 charges remaining.
+MESSAGE The soldier cries out in pain.
+MESSAGE # PAIN:The soldier (+)
+MESSAGE # Tracking a monster 'soldier' at (54,78) from (55,77)
+MESSAGE # Tracking a monster 'earth hound' at (51,78) from (51,77)
+MESSAGE # Tracking a monster 'earth hound' at (50,81) from (51,80)
+MESSAGE # Tracking a monster 'apprentice' at (56,77) from (56,76)
+MESSAGE # PAIN:The soldier (2)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:279/279 SP:41/42 Danger:p=55
+MESSAGE # Performing attack type 3 with value 56.
+MESSAGE # Targeting apprentice who has 13 Hit Points (56,77).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the apprentice.
+MESSAGE The apprentice dies.
+MESSAGE You have 100 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The earth hound breathes shards.
+MESSAGE You have been given a graze.
+MESSAGE # DIED:The apprentice (+)
+MESSAGE # SPELL_022:The earth hound (+)
+MESSAGE # Forgetting a monster 'apprentice' at (56,77)
+MESSAGE # Tracking a monster 'air spirit' at (57,75) from (55,75)
+MESSAGE # Creating an object '& Arrow~' at (77,57)
+MESSAGE # Creating an object '& Spear~' at (77,56)
+MESSAGE # DIED:The apprentice (2)
+MESSAGE # SPELL_022:The earth hound (3)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:268/279 SP:41/42 Danger:p=43
+MESSAGE # Casting Herbal Curing (0,2).
+MESSAGE # Cure Cuts - danger 43
+MESSAGE You are no longer bleeding.
+MESSAGE # Tracking a monster 'earth hound' at (51,79) from (51,78)
+MESSAGE # Tracking a monster 'air spirit' at (55,77) from (57,75)
+MESSAGE # Tracking a monster 'soldier' at (52,80) from (54,78)
+MESSAGE # There was a monster 'earth hound' at (50,81)
+MESSAGE # Forgetting a monster 'earth hound' at (50,81)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:268/279 SP:36/42 Danger:p=9
+MESSAGE # Performing attack type 3 with value 38.
+MESSAGE # Targeting earth hound who has 68 Hit Points (51,79).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 99 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE The earth hound yelps in pain.
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # Tracking a monster 'air spirit' at (54,76) from (55,77)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:268/279 SP:36/42 Danger:p=6
+MESSAGE # Performing attack type 3 with value 37.
+MESSAGE # Targeting earth hound who has 43 Hit Points (51,79).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE You have 98 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The earth hound yelps in pain.
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # Tracking a monster 'soldier' at (51,81) from (52,80)
+MESSAGE # Tracking a monster 'earth hound' at (51,80) from (51,79)
+MESSAGE # Tracking a monster 'air spirit' at (53,76) from (54,76)
+MESSAGE # Creating an object '& Arrow~' at (79,51)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:269/279 SP:36/42 Danger:p=21
+MESSAGE # Performing attack type 1 with value 35.
+MESSAGE # Facing soldier at (51,81) who has 15 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the soldier.
+MESSAGE You have slain the soldier.
+MESSAGE # HIT:the soldier (+)
+MESSAGE # KILL:the soldier (+)
+MESSAGE # Forgetting a monster 'soldier' at (51,81)
+MESSAGE # Tracking a monster 'earth hound' at (52,81) from (51,80)
+MESSAGE # Tracking a monster 'air spirit' at (52,75) from (53,76)
+MESSAGE # Creating an object 'copper' at (81,51)
+MESSAGE # HIT:the soldier (2)
+MESSAGE # KILL:the soldier (2)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:270/279 SP:36/42 Danger:p=36
+MESSAGE # Performing attack type 1 with value 24.
+MESSAGE # Facing earth hound at (52,81) who has 26 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You miss the earth hound.
+MESSAGE The earth hound breathes shards.
+MESSAGE You have been given a graze.
+MESSAGE # MISS:the earth hound (+)
+MESSAGE # SPELL_022:The earth hound (+)
+MESSAGE # Tracking a monster 'air spirit' at (52,78) from (52,75)
+MESSAGE # MISS:the earth hound (2)
+MESSAGE # SPELL_022:The earth hound (3)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:267/279 SP:36/42 Danger:p=36
+MESSAGE # Casting Herbal Curing (0,2).
+MESSAGE # Cure Cuts - danger 36
+MESSAGE You are no longer bleeding.
+MESSAGE The earth hound breathes shards.
+MESSAGE You have been given a graze.
+MESSAGE # SPELL_022:The earth hound (+)
+MESSAGE # Tracking a monster 'air spirit' at (53,76) from (52,78)
+MESSAGE # SPELL_022:The earth hound (3)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:264/279 SP:30/42 Danger:p=36
+MESSAGE # Quaffing Potions of Cure Critical Wounds.
+MESSAGE You feel very good.
+MESSAGE You are no longer bleeding.
+MESSAGE You have 9 Potions of Cure Critical Wounds (c).
+MESSAGE The earth hound misses you.
+MESSAGE # MISS_BY:The earth hound (+)
+MESSAGE # Tracking a monster 'air spirit' at (51,79) from (53,76)
+MESSAGE # Creating an object '& Arrow~' at (79,51)
+MESSAGE # MISS_BY:The earth hound (3)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:279/279 SP:30/42 Danger:p=36
+MESSAGE # Performing attack type 1 with value 24.
+MESSAGE # Facing earth hound at (52,81) who has 26 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You miss the earth hound.
+MESSAGE The earth hound bites you.
+MESSAGE The earth hound misses you.
+MESSAGE # MISS:the earth hound (+)
+MESSAGE # HIT_BY:The earth hound (+)
+MESSAGE # MISS_BY:The earth hound (+)
+MESSAGE # Tracking a monster 'air spirit' at (51,80) from (51,79)
+MESSAGE # MISS:the earth hound (2)
+MESSAGE # HIT_BY:The earth hound (3)
+MESSAGE # MISS_BY:The earth hound (3)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:273/279 SP:30/42 Danger:p=41
+MESSAGE # Performing attack type 1 with value 24.
+MESSAGE # Facing earth hound at (52,81) who has 26 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the earth hound.
+MESSAGE The earth hound flees in terror!
+MESSAGE # HIT:the earth hound (+)
+MESSAGE # PAIN:The earth hound (+)
+MESSAGE # Tracking a monster 'air spirit' at (53,80) from (51,80)
+MESSAGE # HIT:the earth hound (2)
+MESSAGE # PAIN:The earth hound (2)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:273/279 SP:31/42 Danger:p=38
+MESSAGE # Performing attack type 1 with value 48.
+MESSAGE # Facing earth hound at (52,81) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You hit the earth hound. It was a good hit!
+MESSAGE You have slain the earth hound.
+MESSAGE The air spirit misses you.
+MESSAGE # HIT:the earth hound (+)
+MESSAGE # KILL:the earth hound (+)
+MESSAGE # MISS_BY:The air spirit (+)
+MESSAGE # Forgetting a monster 'earth hound' at (52,81)
+MESSAGE # Tracking a monster 'air spirit' at (52,81) from (53,80)
+MESSAGE # HIT:the earth hound (2)
+MESSAGE # KILL:the earth hound (2)
+MESSAGE # MISS_BY:The air spirit (3)
+MESSAGE # There was an object '& Arrow~' at (79,51)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:274/279 SP:31/42 Danger:p=6
+MESSAGE # Performing attack type 1 with value 21.
+MESSAGE # Facing air spirit at (52,81) who has 42 Hit Points.
+MESSAGE # Attacking with weapon 'Cutlass (1d8) (+13,+14) <+1> {??}'
+MESSAGE You miss the air spirit.
+MESSAGE The air spirit misses you.
+MESSAGE # MISS:the air spirit (+)
+MESSAGE # MISS_BY:The air spirit (+)
+MESSAGE # Tracking a monster 'air spirit' at (52,80) from (52,81)
+MESSAGE # MISS:the air spirit (2)
+MESSAGE # MISS_BY:The air spirit (3)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:275/279 SP:31/42 Danger:p=3
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting air spirit who has 42 Hit Points (52,80).
+MESSAGE # Aiming Wands of Magic Missile (33 charges).
+MESSAGE Target Selected.
+MESSAGE You have 32 charges remaining.
+MESSAGE The air spirit cries out in pain.
+MESSAGE # PAIN:The air spirit (+)
+MESSAGE # Tracking a monster 'air spirit' at (53,81) from (52,80)
+MESSAGE # PAIN:The air spirit (2)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:276/279 SP:31/42 Danger:p=3
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting air spirit who has 27 Hit Points (53,81).
+MESSAGE # Aiming Wands of Magic Missile (32 charges).
+MESSAGE Target Selected.
+MESSAGE You have 31 charges remaining.
+MESSAGE The air spirit cries out in pain.
+MESSAGE The air spirit misses you.
+MESSAGE # PAIN:The air spirit (+)
+MESSAGE # MISS_BY:The air spirit (+)
+MESSAGE # PAIN:The air spirit (2)
+MESSAGE # MISS_BY:The air spirit (3)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:277/279 SP:31/42 Danger:p=3
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting air spirit who has 15 Hit Points (53,81).
+MESSAGE # Aiming Wands of Magic Missile (31 charges).
+MESSAGE Target Selected.
+MESSAGE You have 30 charges remaining.
+MESSAGE The air spirit grunts with pain.
+MESSAGE # PAIN:The air spirit (+)
+MESSAGE # Tracking a monster 'air spirit' at (52,79) from (53,81)
+MESSAGE # PAIN:The air spirit (2)
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting air spirit who has 13 Hit Points (52,79).
+MESSAGE # Aiming Wands of Magic Missile (30 charges).
+MESSAGE Target Selected.
+MESSAGE You have 29 charges remaining.
+MESSAGE The air spirit screams in pain.
+MESSAGE # PAIN:The air spirit (+)
+MESSAGE # Tracking a monster 'air spirit' at (51,80) from (52,79)
+MESSAGE # PAIN:The air spirit (2)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:279/279 SP:31/42 Danger:p=3
+MESSAGE # Performing attack type 73 with value 9.
+MESSAGE # Targeting air spirit who has 6 Hit Points (51,80).
+MESSAGE # Aiming Wands of Magic Missile (29 charges).
+MESSAGE Target Selected.
+MESSAGE You have 28 charges remaining.
+MESSAGE The air spirit writhes in agony.
+MESSAGE # PAIN:The air spirit (+)
+MESSAGE # Tracking a monster 'air spirit' at (54,82) from (51,80)
+MESSAGE # PAIN:The air spirit (2)
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting soldier who has 25 Hit Points (55,76).
+MESSAGE # Aiming Wands of Magic Missile (28 charges).
+MESSAGE Target Selected.
+MESSAGE You have 27 charges remaining.
+MESSAGE The soldier screams in pain.
+MESSAGE The soldier flees in terror!
+MESSAGE The air spirit hits you.
+MESSAGE # PAIN:The soldier (+)
+MESSAGE # HIT_BY:The air spirit (+)
+MESSAGE # Tracking a monster 'soldier' at (55,75) from (55,76)
+MESSAGE # Tracking a monster 'air spirit' at (52,82) from (54,82)
+MESSAGE # PAIN:The soldier (2)
+MESSAGE # HIT_BY:The air spirit (3)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:276/279 SP:32/42 Danger:p=6
+MESSAGE # Performing attack type 73 with value 2.
+MESSAGE # Targeting soldier who has 11 Hit Points (55,75).
+MESSAGE # Aiming Wands of Magic Missile (27 charges).
+MESSAGE Target Selected.
+MESSAGE You have 26 charges remaining.
+MESSAGE The soldier writhes in agony.
+MESSAGE The air spirit hits you.
+MESSAGE # PAIN:The soldier (+)
+MESSAGE # HIT_BY:The air spirit (+)
+MESSAGE # Tracking a monster 'air spirit' at (53,81) from (52,82)
+MESSAGE # Tracking a monster 'soldier' at (56,74) from (55,75)
+MESSAGE # PAIN:The soldier (2)
+MESSAGE # HIT_BY:The air spirit (3)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:271/279 SP:32/42 Danger:p=3
+MESSAGE # Performing attack type 73 with value 3.
+MESSAGE # Targeting soldier who has 2 Hit Points (56,74).
+MESSAGE # Aiming Wands of Magic Missile (26 charges).
+MESSAGE Target Selected.
+MESSAGE You have 25 charges remaining.
+MESSAGE The soldier dies.
+MESSAGE # DIED:The soldier (+)
+MESSAGE # Forgetting a monster 'soldier' at (56,74)
+MESSAGE # Tracking a monster 'air spirit' at (52,82) from (53,81)
+MESSAGE # DIED:The soldier (2)
+MESSAGE # Loc:51,82 Dep:21 Lev:25 HP:272/279 SP:32/42 Danger:p=6
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'copper' at (51,81)
+MESSAGE The air spirit misses you.
+MESSAGE You have found 170 gold pieces worth of copper.
+MESSAGE # MISS_BY:The air spirit (+)
+MESSAGE # Tracking a monster 'air spirit' at (52,81) from (52,82)
+MESSAGE # MISS_BY:The air spirit (3)
+MESSAGE # Loc:51,81 Dep:21 Lev:25 HP:273/279 SP:32/42 Danger:p=6
+MESSAGE # Flowing toward item at cost 5
+MESSAGE # Walking into a 'air spirit' at (52,81)
+MESSAGE You miss the air spirit.
+MESSAGE # MISS:the air spirit (+)
+MESSAGE # Tracking a monster 'air spirit' at (52,80) from (52,81)
+MESSAGE # MISS:the air spirit (2)
+MESSAGE # Loc:51,81 Dep:21 Lev:25 HP:274/279 SP:32/42 Danger:p=6
+MESSAGE # Tracking a monster 'air spirit' at (54,79) from (52,80)
+MESSAGE # Loc:52,81 Dep:21 Lev:25 HP:275/279 SP:32/42 Danger:p=3
+MESSAGE The air spirit misses you.
+MESSAGE # MISS_BY:The air spirit (+)
+MESSAGE # MISS_BY:The air spirit (3)
+MESSAGE # Loc:53,80 Dep:21 Lev:25 HP:276/279 SP:32/42 Danger:p=6
+MESSAGE # Walking into a 'air spirit' at (54,79)
+MESSAGE You hit the air spirit.
+MESSAGE You have destroyed the air spirit.
+MESSAGE # HIT:the air spirit (+)
+MESSAGE # KILL:the air spirit (+)
+MESSAGE # Forgetting a monster 'air spirit' at (54,79)
+MESSAGE # HIT:the air spirit (2)
+MESSAGE # KILL:the air spirit (2)
+MESSAGE # Walking onto and deleting a '& Spear~' at (56,77)
+MESSAGE You have a Spear (1d6) (+0,+0) (s).
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for traps, doors, and evil.
+MESSAGE # SELF:TDE (+)
+MESSAGE # Detected traps, doors & evil (1,0 to 2,1)
+MESSAGE # SELF:TDE (1)
+MESSAGE # Casting Sense Surroundings (0,5).
+MESSAGE # Checking for walls.
+MESSAGE # SELF:wall (+)
+MESSAGE # Detected walls (1,0 to 2,1)
+MESSAGE # SELF:wall (1)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'earth hound' at (50,81), HP: 3, Index: 241
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting earth hound who has 3 Hit Points (50,81).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the earth hound.
+MESSAGE The earth hound dies.
+MESSAGE You have 97 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # DIED:The earth hound (+)
+MESSAGE # Forgetting a monster 'earth hound' at (50,81)
+MESSAGE # Creating an object '& Arrow~' at (81,50)
+MESSAGE # DIED:The earth hound (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'Mirkwood spider' at (56,72), HP: 40, Index: 238
+MESSAGE # Creating a monster 'Mirkwood spider' at (56,73), HP: 45, Index: 238
+MESSAGE # Performing attack type 3 with value 36.
+MESSAGE # Targeting Mirkwood spider who has 45 Hit Points (56,73).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE You have 96 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Mirkwood spider weaves a web.
+MESSAGE # SPELL_027:The Mirkwood spider (+)
+MESSAGE # Perhaps wall near targetted location (56,73)
+MESSAGE # Guessing wall (56,74) near target (56,73)
+MESSAGE # SPELL_027:The Mirkwood spider (3)
+MESSAGE # Performing attack type 3 with value 36.
+MESSAGE # Targeting Mirkwood spider who has 45 Hit Points (56,73).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE You have 95 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE # Perhaps wall near targetted location (56,73)
+MESSAGE # Guessing wall (56,74) near target (56,73)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,74) from (56,73)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,73) from (56,72)
+MESSAGE # Creating an object '& Arrow~' at (75,56)
+MESSAGE # Performing attack type 3 with value 36.
+MESSAGE # Targeting Mirkwood spider who has 45 Hit Points (56,74).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the Mirkwood spider.
+MESSAGE You have 94 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE The Mirkwood spider twitches in pain.
+MESSAGE The Mirkwood spider flees in terror!
+MESSAGE The Mirkwood spider is frozen to the spot!
+MESSAGE # PAIN:The Mirkwood spider (+)
+MESSAGE # Creating a monster 'Mirkwood spider' at (56,72), HP: 52, Index: 238
+MESSAGE # PAIN:The Mirkwood spider (2)
+MESSAGE # Loc:56,77 Dep:21 Lev:25 HP:279/279 SP:29/42 Danger:p=1
+MESSAGE # Performing attack type 3 with value 72.
+MESSAGE # Targeting Mirkwood spider who has 20 Hit Points (56,74).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the Mirkwood spider.
+MESSAGE You have 93 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE The Mirkwood spider jerks in pain.
+MESSAGE The Mirkwood spider can move again.
+MESSAGE # PAIN:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,75) from (56,74)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,74) from (56,73)
+MESSAGE # Creating an object '& Arrow~' at (75,56)
+MESSAGE # PAIN:The Mirkwood spider (2)
+MESSAGE # Loc:56,77 Dep:21 Lev:25 HP:279/279 SP:29/42 Danger:p=1
+MESSAGE # Performing attack type 3 with value 20.
+MESSAGE # Targeting Mirkwood spider who has 5 Hit Points (56,75).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the Mirkwood spider.
+MESSAGE The Mirkwood spider dies.
+MESSAGE You have 92 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Arrow breaks.
+MESSAGE # DIED:The Mirkwood spider (+)
+MESSAGE # Forgetting a monster 'Mirkwood spider' at (56,75)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,73) from (56,72)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,75) from (56,74)
+MESSAGE # Creating an object '& Arrow~' at (75,56)
+MESSAGE # DIED:The Mirkwood spider (2)
+MESSAGE # Performing attack type 3 with value 36.
+MESSAGE # Targeting Mirkwood spider who has 40 Hit Points (56,75).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the Mirkwood spider.
+MESSAGE You have 91 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Mirkwood spider scuttles about.
+MESSAGE # PAIN:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,74) from (56,73)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (55,76) from (56,75)
+MESSAGE # Creating a monster 'Mirkwood spider' at (56,72), HP: 38, Index: 238
+MESSAGE # PAIN:The Mirkwood spider (2)
+MESSAGE # Loc:56,77 Dep:21 Lev:25 HP:279/279 SP:30/42 Danger:p=21
+MESSAGE # Performing attack type 3 with value 36.
+MESSAGE # Targeting Mirkwood spider who has 52 Hit Points (56,74).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the Mirkwood spider.
+MESSAGE You have 90 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Mirkwood spider scuttles about.
+MESSAGE The Mirkwood spider weaves a web.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE # PAIN:The Mirkwood spider (+)
+MESSAGE # SPELL_027:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,75) from (56,74)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,73) from (56,72)
+MESSAGE # Creating an object '& Arrow~' at (75,56)
+MESSAGE # PAIN:The Mirkwood spider (2)
+MESSAGE # SPELL_027:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # Loc:56,77 Dep:21 Lev:25 HP:272/279 SP:30/42 Danger:p=24
+MESSAGE # Performing attack type 3 with value 72.
+MESSAGE # Targeting Mirkwood spider who has 33 Hit Points (56,75).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the Mirkwood spider.
+MESSAGE You have 89 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Mirkwood spider jerks in pain.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider weaves a web.
+MESSAGE # PAIN:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # SPELL_027:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,74) from (56,73)
+MESSAGE # Creating an object '& Arrow~' at (75,56)
+MESSAGE # Creating a monster 'Mirkwood spider' at (56,72), HP: 35, Index: 238
+MESSAGE # PAIN:The Mirkwood spider (2)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # SPELL_027:The Mirkwood spider (3)
+MESSAGE # Loc:56,77 Dep:21 Lev:25 HP:266/279 SP:30/42 Danger:p=26
+MESSAGE # Casting Herbal Curing (0,2).
+MESSAGE # Cure poison - danger 26
+MESSAGE You are no longer poisoned.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider weaves a web.
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # SPELL_027:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,76) from (56,75)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,75) from (56,74)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,74) from (56,72)
+MESSAGE # Creating an object '& Arrow~' at (75,56)
+MESSAGE # Creating a monster 'Mirkwood spider' at (56,72), HP: 48, Index: 238
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # SPELL_027:The Mirkwood spider (3)
+MESSAGE # Loc:56,77 Dep:21 Lev:25 HP:253/279 SP:24/42 Danger:p=57
+MESSAGE # Casting Herbal Curing (0,2).
+MESSAGE # Cure poison - danger 57
+MESSAGE You are no longer poisoned.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (57,76) from (56,75)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,74) from (56,72)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (54,76) from (56,74)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # There was an object '& Arrow~' at (75,56)
+MESSAGE # Loc:56,77 Dep:21 Lev:25 HP:232/279 SP:18/42 Danger:p=76
+MESSAGE # Performing attack type 3 with value 72.
+MESSAGE # Targeting Mirkwood spider who has 35 Hit Points (54,76).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the Mirkwood spider.
+MESSAGE You have 88 Arrows (1d4) (+0,+0) (1st 0).
+MESSAGE The Mirkwood spider twitches in pain.
+MESSAGE The Mirkwood spider flees in terror!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE # PAIN:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (53,75) from (54,76)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,75) from (56,74)
+MESSAGE # Creating an object '& Arrow~' at (75,56)
+MESSAGE # Creating an object '& Arrow~' at (76,54)
+MESSAGE # Creating a monster 'Mirkwood spider' at (56,72), HP: 40, Index: 238
+MESSAGE # PAIN:The Mirkwood spider (2)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # Loc:56,77 Dep:21 Lev:25 HP:201/279 SP:18/42 Danger:p=87
+MESSAGE # Retreating to 53,83 (distance 6) via 56,78 (87 > 0)
+MESSAGE The Mirkwood spider weaves a web.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE # SPELL_027:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (55,77) from (56,76)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,77) from (55,76)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,76) from (56,75)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (57,77) from (57,76)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (55,75) from (53,75)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,74) from (56,72)
+MESSAGE # Creating an object '& Arrow~' at (77,57)
+MESSAGE # SPELL_027:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # There was an object '& Arrow~' at (75,56)
+MESSAGE # Loc:56,78 Dep:21 Lev:25 HP:171/279 SP:18/42 Danger:p=89
+MESSAGE # Retreating to 53,83 (distance 5) via 56,79 (89 > 1)
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (55,78) from (55,77)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (55,77) from (56,76)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,78) from (56,77)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (57,78) from (57,77)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,74) from (55,75)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,76) from (56,74)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # Loc:56,79 Dep:21 Lev:25 HP:149/279 SP:18/42 Danger:p=83
+MESSAGE # Retreating to 53,83 (distance 4) via 56,80 (83 > 2)
+MESSAGE The Mirkwood spider weaves a web.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider weaves a web.
+MESSAGE # SPELL_027:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # SPELL_027:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,79) from (56,78)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,77) from (56,76)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (57,79) from (57,78)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (55,79) from (55,78)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (54,79) from (55,77)
+MESSAGE # SPELL_027:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # SPELL_027:The Mirkwood spider (3)
+MESSAGE # There was a monster 'Mirkwood spider' at (56,74)
+MESSAGE # Forgetting a monster 'Mirkwood spider' at (56,74)
+MESSAGE # There was an object '& Arrow~' at (75,56)
+MESSAGE # Loc:56,80 Dep:21 Lev:25 HP:143/279 SP:18/42 Danger:p=76
+MESSAGE # Retreating to 53,83 (distance 3) via 55,81 (76 > 2)
+MESSAGE You clear the web.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider weaves a web.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider weaves a web.
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # SPELL_027:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # SPELL_027:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (55,80) from (54,79)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (55,78) from (56,77)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # SPELL_027:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # SPELL_027:The Mirkwood spider (3)
+MESSAGE # There was an object '& Arrow~' at (77,57)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(5/4)
+MESSAGE # Loc:56,80 Dep:21 Lev:25 HP:124/279 SP:19/42 Danger:p=116
+MESSAGE # Retreating to 53,83 (distance 3) via 55,81 (116 > 9)
+MESSAGE You clear the web.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (54,80) from (55,78)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(5/4)
+MESSAGE # Loc:56,80 Dep:21 Lev:25 HP:75/279 SP:19/42 Danger:p=112
+MESSAGE # Retreating to 53,83 (distance 3) via 55,81 (112 > 8)
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider weaves a web.
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # SPELL_027:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,80) from (56,79)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,79) from (57,79)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (53,80) from (55,79)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # SPELL_027:The Mirkwood spider (3)
+MESSAGE # Loc:55,81 Dep:21 Lev:25 HP:47/279 SP:19/42 Danger:p=85
+MESSAGE # Retreating to 53,83 (distance 2) via 54,82 (85 > 5)
+MESSAGE You clear the web.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (54,81) from (53,80)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(5/4)
+MESSAGE # Loc:55,81 Dep:21 Lev:25 HP:32/279 SP:19/42 Danger:p=114
+MESSAGE # Fleeing (excessive danger)
+MESSAGE # Retreating to 53,83 (distance 2) via 54,82 (114 > 10)
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider weaves a web.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # SPELL_027:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (56,81) from (56,80)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (55,81) from (54,80)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (54,80) from (56,79)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (53,81) from (55,80)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # SPELL_027:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(5/3)
+MESSAGE # Loc:54,82 Dep:21 Lev:25 HP:26/279 SP:19/42 Danger:p=90
+MESSAGE # Retreating to 53,83 (distance 1) via 53,83 (90 > 15)
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider bites you.
+MESSAGE You are more poisoned!
+MESSAGE The Mirkwood spider misses you.
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (52,82) from (53,81)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (54,81) from (54,80)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (54,82) from (55,81)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (53,82) from (54,81)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(4/1)
+MESSAGE # Loc:53,83 Dep:21 Lev:25 HP:9/279 SP:19/42 Danger:p=77
+MESSAGE # Retreating to 53,84 (distance 1) via 53,84 (77 > 4)
+MESSAGE The Mirkwood spider bites you.
+MESSAGE The Mirkwood spider misses you.
+MESSAGE # HIT_BY:The Mirkwood spider (+)
+MESSAGE # MISS_BY:The Mirkwood spider (+)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (52,81) from (52,82)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (54,82) from (54,81)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (53,83) from (53,82)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (52,82) from (54,82)
+MESSAGE # Tracking a monster 'Mirkwood spider' at (53,82) from (56,81)
+MESSAGE # HIT_BY:The Mirkwood spider (3)
+MESSAGE # MISS_BY:The Mirkwood spider (3)
+MESSAGE # Loc:53,84 Dep:21 Lev:25 HP:7/279 SP:19/42 Danger:p=36
+MESSAGE # Using Staff of Teleportation (3 charges).
+MESSAGE # Danger Level 1.
+MESSAGE You have 2 charges remaining.
+MESSAGE # Leaving (restock) restock 4 > teleport + teleport staff 
+MESSAGE # Reading Scrolls of Word of Recall.
+MESSAGE # Resetting recall depth.
+MESSAGE # Fleeing the level (recall)
+MESSAGE The air about you becomes charged...
+MESSAGE You have 6 Scrolls of Word of Recall (f).
+MESSAGE # Resting for Recall.
+MESSAGE You die.

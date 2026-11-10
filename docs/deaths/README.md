@@ -4,7 +4,7 @@ Bugs always take priority. Each natural death gets a curated dossier with its ac
 
 To comment, open **Discuss** beside the case below. The linked GitHub investigation is the durable feedback thread; suggestions are checked against evidence and linked to actions. See [the feedback process](FEEDBACK.md). Chat feedback is copied there before it is considered tracked.
 
-Dossiers: 17; distinct starting conditions: 14; recorded death process attempts: 25 (including repeats/reference variants). This registry is not a survival-rate estimate.
+Dossiers: 18; distinct starting conditions: 15; recorded death process attempts: 26 (including repeats/reference variants). This registry is not a survival-rate estimate.
 
 | Case | Discussion | Actual source | Seed | Raw cause | Death turn | Diagnosis |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -24,6 +24,7 @@ Dossiers: 17; distinct starting conditions: 14; recorded death process attempts:
 | [D0014](D0014-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/341) | `867c777845fd` | 1907608242 | a blood falcon | 306771 | deep-descent depth, escape and emergency-resource investigation; owner's verified manual branch survives with Speed, CLW and detection; no reusable original-C defect established |
 | [D0015](D0015-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/348) | `867c777845fd` | 1907608243 | Fang, Farmer Maggot's Dog | 4158 | preparation failure (330 of 357 starting gold on AC) plus deliberate no-dash rule; owner's verified retry at 4118 dies, owner's verified re-shop from turn 1 survives a DL1 tour with 926 gold; no reusable original-C defect established |
 | [D0016](D0016-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/353) | `5cd2258dd78d` | 2993630921 | a crow | 4199 | teleport-trap exposure, target choice, fleeing-mode healing gates and starting inventory; owner's verified manual branch survives by killing the crow first; no reusable original-C defect established |
+| [D0017](D0017-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/403) | `5cd2258dd78d` | 2993630922 | poison | 1094860 | escaped Mirkwood spiders by Teleportation staff at 7 HP, then rested for Recall while poisoned with 9 CCW and Herbal Curing unused; fleeing-gated healing, retreat-before-escape order, CCW tier window and Speed gate; no reusable original-C defect established |
 | [D0018](D0018-collected/report.md) | [Discuss](https://github.com/diegoami/better-borg-c/issues/401) | `5cd2258dd78d` | 2993630923 | a wild cat | 33471 | twitchy-fallback Phase spend, scary-level walking retreat from a faster monster, unidentified cures and starting/restock inventory; owner's verified manual branch from 33363 also dies; no reusable original-C defect established |
 
 ## Aggregated actions
@@ -33,7 +34,7 @@ Dossiers: 17; distinct starting conditions: 14; recorded death process attempts:
 - [Compare pristine upstream versus carried build](https://github.com/diegoami/better-borg-c/issues/22) — completed: identical death/trace; does not establish a defect; cases D0001.
 - [Evaluate survival-resource reserves/restocking priority over spare equipment](https://github.com/diegoami/better-borg-c/issues/41) — recorded owner priority; proposal, not implemented; cases D0001, D0013, D0015, D0016, D0018.
 - [Audit delayed Deep Descent escape from depth2/max7 and restock/preparedness before depth12](https://github.com/diegoami/better-borg-c/issues/22) — investigating recorded original-rule behavior; no defect established; cases D0001.
-- [Observe existing heal eligibility/call order and fleeing flag before the fatal melee](https://github.com/diegoami/better-borg-c/issues/34) — investigate before changing policy; cases D0002, D0003, D0004, D0005, D0006, D0007, D0012, D0014, D0016.
+- [Observe existing heal eligibility/call order and fleeing flag before the fatal melee](https://github.com/diegoami/better-borg-c/issues/34) — investigate before changing policy; cases D0002, D0003, D0004, D0005, D0006, D0007, D0012, D0014, D0016, D0017.
 - [Trace why Phase Door was exhausted and whether earlier escape was legally available](https://github.com/diegoami/better-borg-c/issues/34) — investigate before changing policy; cases D0002.
 - [Compare pristine upstream versus carried build](https://github.com/diegoami/better-borg-c/issues/34) — completed: pristine/five-carry identical trace; same death on six-carry; no defect established; cases D0002.
 - [Reconstruct earliest known crowd danger, entry and retreat/preparedness at level3](https://github.com/diegoami/better-borg-c/issues/34) — recorded owner observation; needs native causal investigation; cases D0002, D0003, D0004, D0005.
@@ -59,15 +60,16 @@ Dossiers: 17; distinct starting conditions: 14; recorded death process attempts:
 - [Qualified native message/actual HP-loss/speed viewer channel](https://github.com/diegoami/better-borg-c/issues/240) — verified locally and hosted; delivery PR; cases D0010.
 - [Replay valid maximized-window recordings through separately qualified reader; retain malformed-input rejection](https://github.com/diegoami/better-borg-c/issues/238) — verified; delivery PR240; cases D0010.
 - [Known cure/escape preparedness before the dive](https://github.com/diegoami/better-borg-c/issues/41) — proposed; shared investigation; cases D0010, D0011.
-- [Observe borg_heal rungs/chance/fleeing guard at 119268-119596; assess the CL10 CLW tier when CLW is the only known cure](https://github.com/diegoami/better-borg-c/issues/319) — investigating; source-checked; no gameplay change; cases D0011.
+- [Observe borg_heal rungs/chance/fleeing guard at 119268-119596; assess the CL10 CLW tier when CLW is the only known cure](https://github.com/diegoami/better-borg-c/issues/319) — investigating; source-checked; no gameplay change; cases D0011, D0017.
 - [Observe borg_power/BI_BLOWS for Dagger vs Maul at 118611; assess depth-tied unidentified-weapon bonus and the CL<=10 blows bonus](https://github.com/diegoami/better-borg-c/issues/320) — needs evidence; source-derived cause; cases D0011.
 - [Classify every level change 55624-118552 and the no-known-up-stair fallback; compare D0009/235 and 159](https://github.com/diegoami/better-borg-c/issues/321) — needs evidence; cases D0011, D0014.
 - [Observe caution retreat versus attack at adjacent decisions 27517/27537 and the flee-to-stairs re-approach; compare D0008 order](https://github.com/diegoami/better-borg-c/issues/324) — needs evidence; recurs with FLOWCACHE-404 carried; no gameplay change; cases D0012.
 - [Measure low-level worm-mass scary triggers and compare with the breeder caution threshold](https://github.com/diegoami/better-borg-c/issues/327) — needs evidence; owner manual branch verified; no gameplay change; cases D0012, D0013, D0015.
-- [Observe borg_defend_aux_speed p1/p2/avoidance at lethal danger; count unused Speed at death](https://github.com/diegoami/better-borg-c/issues/340) — needs evidence; source-checked; no gameplay change; cases D0014, D0018.
+- [Observe borg_defend_aux_speed p1/p2/avoidance at lethal danger; count unused Speed at death](https://github.com/diegoami/better-borg-c/issues/340) — needs evidence; source-checked; no gameplay change; cases D0014, D0017, D0018.
+- [Observe strategic retreat steps pre-empting borg_escape (Phase/Teleportation) under multiple faster adjacent monsters](https://github.com/diegoami/better-borg-c/issues/159) — investigate before changing policy; cases D0017.
+- [Observe strategic retreat on foot from a faster adjacent monster versus continuing melee](https://github.com/diegoami/better-borg-c/issues/159) — investigate before changing policy; cases D0017, D0018.
 - [Observe the bored/twitchy fallback spending the last Phase Door at low danger](https://github.com/diegoami/better-borg-c/issues/41) — investigate before changing policy; cases D0018.
 - [Observe unknown-potion emergency eligibility for casters with mana but no escape spell](https://github.com/diegoami/better-borg-c/issues/180) — investigate before changing policy; cases D0018.
-- [Observe strategic retreat on foot from a faster adjacent monster versus continuing melee](https://github.com/diegoami/better-borg-c/issues/159) — investigate before changing policy; cases D0018.
 
 Recurring mechanisms are grouped by canonical issue, not by number of replays. Investigations are hypotheses until native causal proof; original-C bugs route to neo-angband-tracker before source fix and consumer carry.
 

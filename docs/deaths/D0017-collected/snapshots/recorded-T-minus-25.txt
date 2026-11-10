@@ -1,0 +1,27 @@
+Original recording: frame 1353213, engine turn 1094835, phase tick; HP 2, SP 20, depth 21
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+                                                                                
+Dwarf                  ########    ####### ######                               
+Tracker      ##   ######           #       #    #                               
+Ranger        #   #                # ## ## # ## ###                             
+LEVEL     25  ## ################### ##    #                                    
+NXT     5017 ### ##:                 ## ## # ## ##                              
+AU      5740   +  +                   +    #    #                               
+|}=="~(()]]] ### ###################### ## # ## #                               
+STR:   18/10         #                #    #    #                               
+INT:       7 ##### ###                ###########                               
+WIS:   18/30     # #                  #    #    #                               
+DEX:      16     # #                  # ## # ## #                               
+CON:      16     # #                  #    #    #                               
+                 # #                  # ## # ## #                               
+Cur AC    75     # #                  #    #                                    
+HP    2/ 279     # #                  # ## #                                    
+SP   20/  42     # #                  #    #                                    
+                 # #                  ############                              
+[----------]     #                         ...@...                              
+                                           #######                              
+                                                                                
+                                                                                
+1050' (L21)                                                                     
+             LF:6-? Light 4 Recall  Study (3) Poisoned Fed 29 % Open floor      
