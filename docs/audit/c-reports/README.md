@@ -54,11 +54,17 @@ differ from the v9 baseline rows are the milestone 9 declared transitions
 dispel-259 `reserve`/`clear`, declared failing with the losdispel-326 absolute
 values).
 
+## Second batch: the 22 0049-era groups (2026-11-10, after the v10 tag)
+
+The last 22 groups whose baselines still lived in the gitignored `artifacts/` tree (swap, knockout,
+preparation, cold-protection, rings, potion-timing, itangast, shot-path, brand, stairtrack,
+acidarc, outoflight, mapwall, enlightenment, stairreturn, blowname, excavate, calllight, gloves,
+detectcarry, maimfoe, recalldepth) are committed here in the same shape: `scenario.c`,
+`profile/borg.txt` and the recorded `*.log` baselines, with `GROUPS` repointed. That closes the
+dependency: all 60 local fixtures are now in the repository.
+
 ## Residual dependency
 
-22 local groups still read their baseline trees from the gitignored `artifacts/` directory: the
-0049-era groups (swap, knockout, preparation, cold-protection, rings, potion-timing, itangast,
-shot-path, brand, stairtrack, acidarc, outoflight, mapwall, enlightenment, stairreturn, blowname,
-excavate, calllight, gloves, detectcarry, maimfoe, recalldepth). A fresh clone can run every kit
-here and the `KIT_GROUPS` (fetched at their evidence pins), but not those groups until their
-baselines are committed the same way.
+None for the local groups. The matrix needs nothing outside the clone except history: the 17
+`KIT_GROUPS` fetch their fixtures at the ledger's evidence commits, so they need a full clone, not
+a shallow one.

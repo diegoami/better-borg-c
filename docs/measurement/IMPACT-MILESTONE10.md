@@ -139,13 +139,14 @@ The rows that differ from the v9 baseline rows are exactly the declared transiti
 failing, `knockout` `paralysis`); byte differences are information, not failures, because later
 carries legitimately touch shared paths.
 
-**Residual dependency (disclosed):** 22 local groups still read their baselines from the gitignored
-`artifacts/` tree: the 0049-era groups (swap, knockout, preparation, cold-protection, rings,
-potion-timing, itangast, shot-path, brand, stairtrack, acidarc, outoflight, mapwall,
-enlightenment, stairreturn, blowname, excavate, calllight, gloves, detectcarry, maimfoe,
-recalldepth) and nothing else. They need that tree present. A fresh clone can run the 37 committed
-kits and the 17 `KIT_GROUPS` (fetched at their evidence pins), but not those 22 until their
-baselines are committed the same way. That is the remaining matrix item.
+**No residual fixture dependency.** The 22 0049-era groups (swap, knockout, preparation,
+cold-protection, rings, potion-timing, itangast, shot-path, brand, stairtrack, acidarc, outoflight,
+mapwall, enlightenment, stairreturn, blowname, excavate, calllight, gloves, detectcarry, maimfoe,
+recalldepth) had their baselines committed the same way after the tag, so all 60 local fixtures now
+live under `docs/audit/c-reports/` and the full 234-case matrix runs from a clean clone with no
+gitignored `artifacts/` tree. The only clone requirement is history: the 17 `KIT_GROUPS` fetch
+their fixtures at the ledger's evidence commits, so a shallow clone is not enough. This is an
+evidence-only change after `4.2.6-impact-v10`; it changes no code and no baseline row.
 
 ## Frozen v1 cohort: both units cohort-neutral on survival
 
@@ -281,6 +282,6 @@ committed kits all run from a clean clone.
 explicit owner authorization after the review's disposition (approve with corrections, then
 approve on re-review). The annotation records the units, the review, the matrix result, the
 cohort result and the residual `artifacts/` dependency; the tag object is
-`fa0f663987dc59662e554a14f5fa9a30872699ee`. The later docs-only corrections (`afab41036`,
-`46057bc4a`, `4adb4cd7a`) are on main but not inside the tag, exactly as the milestone 9 package
-followed its snapshot.
+`fa0f663987dc59662e554a14f5fa9a30872699ee`. The later corrections (`afab41036`, `46057bc4a`, `4adb4cd7a`) and the final 22-kit evidence
+batch are on main but not inside the tag, exactly as the milestone 9 package followed its
+snapshot; none of them changes code or a baseline row.
