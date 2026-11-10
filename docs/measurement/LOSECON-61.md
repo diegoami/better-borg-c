@@ -54,7 +54,9 @@ the zoo's explicit arms (borg-zoo issue 54). This is the first of the three `bor
 fixes and the batch notes they compound, so measuring them one at a time on the same arm is the
 only way to attribute an effect.
 
-Matrix group `losecon-61` (4 cases) uses the `after-*.log` rows as its baseline.
+Matrix group `losecon-61` (4 cases) uses the `after-*.log` rows as its baseline. Full matrix
+at this tree: 85 groups / 261 cases, `ok: true`, no failed group, 208/221 byte-identical; the
+13 byte differences are in the same six groups as before this carry, so no new difference.
 
 ## Ledger and credit
 
