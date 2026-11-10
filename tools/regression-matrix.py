@@ -293,6 +293,12 @@ GROUPS = [
     ('granitesim-68', 'docs/audit/c-reports/granitesim-68', 'G68',
      ('rubble', 'floor', 'granite'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+
+    # Source100 (issue 100, CBUG-0084): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-scootidx100.py.
+    ('scootidx-100', 'docs/audit/c-reports/scootidx-100', 'SC100',
+     ('north', 'south', 'pack'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
     # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,
