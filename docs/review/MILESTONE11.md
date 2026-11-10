@@ -7,6 +7,10 @@ is written for any model the owner chooses.
 **This is not a self-review.** Everything here, and everything in the unit docs, the adoption
 issues and the PR bodies, is the implementer's account. Treat it as a set of claims to verify.
 
+**Revised after the review.** The independent review on issue 471 returned approve with
+corrections (F1-F5). This map and the package were corrected accordingly; section 7 records the
+dispositions. The runtime snapshot under review is unchanged (`39268ca8a`).
+
 ## 1. The diff under review
 
 | | |
@@ -84,10 +88,11 @@ Each is checkable from the clone unless marked otherwise.
 
 * **C1 base and head identity.** `git rev-list -n1 4.2.6-impact-v10` is `6944d88e8`; the head is
   `39268ca8a`; 28 first-parent merges; 610 files / +77973/-171.
-* **C2 runtime surface.** Only the 18 units touch `src/`, 11 files, +102/-75; `git log
-  4.2.6-impact-v10..HEAD -- src/` shows only the carry commits plus the superseded 0101 attempt
-  (`fea1e39c2`), which is cumulative-reverted by `1ae61726a`; no governance merge hides a src
-  change.
+* **C2 runtime surface.** The behavioural runtime surface is the 18 units, 11 files, +102/-75.
+  One governance merge also edits `src/`: PR 422 (`46057bc4a`) changes a comment in
+  `borg-fight-attack.h` (+2/-1, no behaviour). `git log 4.2.6-impact-v10..HEAD -- src/` otherwise
+  shows only the carry commits plus the superseded 0101 attempt (`fea1e39c2`), which is
+  cumulative-reverted by `1ae61726a`.
 * **C3 ledger integrity.** `patches/series.json` gains exactly 18 entries in unit order, each with
   `consumer_issue`, `source_issue`, `source_head`, `source_commits`, `applied_commits`, `patch`,
   `patch_active: true`, `evidence_ref`, `verification` and a status line; 116 entries and 117
@@ -97,15 +102,21 @@ Each is checkable from the clone unless marked otherwise.
   commit is in `HEAD`, and the native gate at the before and at the tip is the same build. Read
   `tools/verify-<unit>.py`; the mechanism is identical for all 18.
 * **C5 kit provenance.** Each kit `scenario.c` and `profile/borg.txt` is byte-identical to the
-  source evidence branch; the verifier re-derives them from the committed consumer pin. The
-  source receipt is carried unchanged and is the source lane's, not the consumer's, run.
+  source evidence branch, with one disclosed exception: `lunaltake-73/scenario.c` adds the
+  `dagger-munchkin` mode (sets `borg.munchkin_mode` and a third expectation), documented in
+  `docs/measurement/LUNALTAKE-73.md` and PR 434. The verifier re-derives the kit from the
+  committed consumer pin. The source receipt is carried unchanged and is the source lane's, not
+  the consumer's, run.
 * **C6 matrix.** 95 groups / 290 cases, `ok: true`, no failed group; 237/250 compared cases
   byte-identical; the 13 differences are in `dispel`, `dispel259`, `fleeheal-408`, `knockout`,
   `vampire` (pre-existing declared transitions) plus `preparation`, whose two logs print
   `no_rest_prep=50000` instead of `-15536` (0105) with identical decisions.
-* **C7 mode attribution.** No cohort or per-mode measurement was run. Each unit records **not
-  measured**, not neutral; 0101a is the only gated unit and its two-mode fixture proves the
-  runtime gate. Confirm no unit claims a per-mode or survival effect it did not measure.
+* **C7 mode attribution.** No per-mode arm was run. Each unit records its per-mode effect as
+  **not measured**, not neutral; 0101a is the only gated unit and its two-mode fixture proves the
+  runtime gate. Two single-configuration (unrestricted, all modes) frozen-v1 cohort runs exist and
+  are disclosed: 0100 is byte-identical before/after (neutral in that configuration, issue #427),
+  0101 diverged 2-3 levels shallower and motivated 0101a (issue #429). Confirm no unit claims a
+  per-mode or survival effect it did not measure.
 * **C8 the 0101 correction.** The first gate used `borg_cfg[BORG_MUNCHKIN_START]` (forced true for
   Warrior/Druid/Ranger) and was inert for those classes everywhere; `1ae61726a` gates on
   `borg.munchkin_mode` and the fixture runs the same marked-bad Dagger with the mode off (skipped)
@@ -113,11 +124,15 @@ Each is checkable from the clone unless marked otherwise.
 * **C9 process claims.** No upstream or source-tracker posting, no Rust/borg-rs work, no v11 tag;
   the tag is reserved for the runtime snapshot after the verdict and the owner's authorization.
 * **C10 unit gate.** Every merge ran the native gate 965/965 unit and 5/5 frontend (CI), and each
-  verifier's before/tip gates are recorded in its `result.json`.
+  verifier's before/tip gates are recorded in its `result.json` where one is committed. The four
+  earliest kits (0100-0103) commit their before/after logs instead, which are the matrix baselines;
+  the asymmetry is historical and nothing is missing from them.
 
 ## 4. Known limitations of this package
 
-* No cohort or per-mode arm was run in this cycle; the batch is owed to borg-zoo issue 54.
+* No per-mode arm was run in this cycle; one unrestricted/default cohort was run for 0100
+  (neutral, byte-identical) and one for the ungated 0101 (divergent, which motivated 0101a). The
+  explicit-arm batch is owed to borg-zoo issue 54.
 * Several source PRs are still open on the source tracker (`status: in-review`); carrying the
   released commit is adoption, not upstream acceptance.
 * Multi-hour kit runs were not rerun for this package beyond the matrix; if you do not rerun them,
@@ -182,3 +197,24 @@ Verify, in this order:
 Report: verdict (approve / approve with corrections / reject), numbered findings with file:line or
 command evidence, anything the package overstates, and the checks you could not run.
 ```
+
+## 7. Post-review corrections
+
+The review on issue 471 (verdict: approve with corrections) was produced at `39268ca8a` and its
+findings are dispositioned here. None of them changes runtime code; the reviewed snapshot stays
+`39268ca8a`.
+
+| Finding | Disposition | Where |
+| --- | --- | --- |
+| F1 `0101a` patch does not apply (context from the superseded `fea1e39c2`) | **fixed**: patch regenerated against the post-0101 state; replaying 0100-0117 from `4.2.6-impact-v10` applies every patch and reproduces the head `src/` byte for byte | `patches/0101a-lunaltake-mode-gate.patch`, `patches/series.json` |
+| F2 "no cohort measurement" is false | **fixed**: the two single-configuration runs are disclosed (0100 neutral, 0101 divergent) | package "What is not measured", C7 |
+| F3 "only the 18 units touch `src/`" is false | **fixed**: PR 422's comment-only `borg-fight-attack.h` edit is named | package "Window", C2 |
+| F4 0100 has no mode-attribution record | **fixed**: attribution section and ledger note added | `docs/measurement/STAIRPHASE-34.md`, ledger `STAIRPHASE-34` |
+| F5 C5's kit-provenance rule has an unstated exception | **fixed**: the `lunaltake-73/scenario.c` `dagger-munchkin` adaptation is named | C5 |
+| Minor: runtime surface says +101/-73 | **fixed**: +102/-75 | package "Window" |
+| Minor: four kits (not five) lack `result.json`: 0100-0103 | **recorded**: C10 now explains that those kits commit their before/after logs, which the matrix compares; the other 14 commit `result.json` | C10 |
+
+The review's out-of-window observations are recorded in `session.json`: official
+`angband/angband` master is `42cd156ac9f9`, tracking is overdue for a deliberate
+upstream-integration pass, and the trial-merge conflict in `borg-item-wear.c` reproduces at the
+v10 baseline, so it is pre-existing debt rather than a v11 regression.

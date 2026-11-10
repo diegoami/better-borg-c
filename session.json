@@ -49,9 +49,10 @@
     "branch": "master",
     "remote": "angband (push disabled)",
     "cadence": "Each active integration cycle and before importing/delivering game changes",
-    "last_checked_date": "2026-11-06",
-    "last_checked_head": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3",
-    "historical_records": "Immutable original source/build/binary/data identities"
+    "last_checked_date": "2026-11-10",
+    "last_checked_head": "42cd156ac9f95ddf4311e88dd7ad462292d6d1d6",
+    "historical_records": "Immutable original source/build/binary/data identities",
+    "last_checked_note": "12 commits ahead of the e473720 baseline, four of them Borg commits (borg-caution.c, borg-item-wear.c, borg-messages*.c, borg.c). A trial merge conflicts in src/borg/borg-item-wear.c in borg_backup_swap(), and the same conflict exists at the v10 baseline (6944d88e8), so it is pre-existing integration debt for a deliberate upstream-integration pass, not a v11 regression (milestone-11 review observation; head re-checked here with git ls-remote)."
   },
   "rust_stage2": "Canonical tracker -> verified C consumer -> separately owned borg-rs parity target or individual Rust fix carries; pristine parity baseline retained; not integrated here yet",
   "death_records": {
@@ -170,8 +171,9 @@
     "units": "18 carries, 0100-0117 (19 patch files; 0101a is a correction of 0101)",
     "ledger": "116 entries / 117 patch files",
     "matrix": "95 groups / 290 cases, ok, 237/250 byte-identical, no new difference; summary at docs/measurement/impact-v11/regression-summary.json",
-    "cohort": "no cohort or per-mode measurement in this cycle; every unit records its per-mode effect as not measured; the explicit-arm batch is owed to borg-zoo issue 54",
-    "tag_state": "4.2.6-impact-v11 NOT placed; awaits the review verdict and explicit owner authorization; on approval it goes on the runtime snapshot 39268ca8a, not on a package commit",
-    "next_action": "Owner launches an independent reviewer on issue 471 with the prompt in docs/review/MILESTONE11.md section 6; after the verdict the M11-xx findings are applied or recorded, then the tag decision"
+    "cohort": "no per-mode arm; one unrestricted/default frozen-v1 cohort for 0100 (byte-identical, neutral in that configuration, issue 427) and one for the ungated 0101 (2-3 levels shallower, which motivated 0101a, issue 429); every other unit records its per-mode effect as not measured; the explicit-arm batch is owed to borg-zoo issue 54",
+    "tag_state": "4.2.6-impact-v11 NOT placed; the review verdict is in and the corrections are applied, so only the owner's explicit authorization is outstanding; it goes on the runtime snapshot 39268ca8a, not on a package commit",
+    "next_action": "Owner authorizes the v11 tag; then resume tier B at source95, 116, 193, 94, 101, 52. The upstream-integration pass is a separate deliberate task (official head 42cd156ac9f9).",
+    "review_verdict": "approve with corrections (issue 471, 2026-11-10): F1-F5 applied and F1's patch artifact regenerated; the package and the review map corrected; no runtime change; nothing outstanding"
   }
 }
