@@ -91,7 +91,7 @@
   "current_task": {
     "issue": "https://github.com/diegoami/better-borg-c/issues/426",
     "branch": "task/carry-<name>, one branch and PR per source unit",
-    "state": "v11 carry cycle: tier A of the issue-426 triage complete (0103-0110); next is tier B at source95",
+    "state": "v11 carry cycle: tier A and the first seven tier B units merged (0100-0117); milestone 11 package and review issue 471 created; next is the reviewer verdict",
     "instructions": "issues/426 (queue, impact triage and order); RULES 19 and AGENTS (mode-attribution rule); docs/measurement/LUNALTAKE-73.md (the mode-gate lesson); docs/measurement/FLOWKILLHALL-98.md and HITCHANCE-63.md (the no-gate carry pattern)"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
@@ -159,5 +159,19 @@
       "Issue 283 (square_in_bounds(NULL) abort): stale claim since 2026-11-08; no symbolized stack yet (no gdb; the 1000 s ASan replay and the assertion preload did not reproduce). Available for takeover after noting it in the claim thread."
     ],
     "tier_a": "Complete: 0103-0110 cover the triage order 63, 71, 108, 234, 61, 66, 68, 100. The three borg-danger.c units (0107-0109) were carried one at a time as the triage requires."
+  },
+  "impact_milestone_v11": "https://github.com/diegoami/better-borg-c/milestone/11",
+  "external_review_package_v11": "https://github.com/diegoami/better-borg-c/issues/471",
+  "milestone11_state": {
+    "runtime_snapshot": "39268ca8a",
+    "package": "docs/measurement/IMPACT-MILESTONE11.md",
+    "review_map": "docs/review/MILESTONE11.md",
+    "review_issue": "https://github.com/diegoami/better-borg-c/issues/471",
+    "units": "18 carries, 0100-0117 (19 patch files; 0101a is a correction of 0101)",
+    "ledger": "116 entries / 117 patch files",
+    "matrix": "95 groups / 290 cases, ok, 237/250 byte-identical, no new difference; summary at docs/measurement/impact-v11/regression-summary.json",
+    "cohort": "no cohort or per-mode measurement in this cycle; every unit records its per-mode effect as not measured; the explicit-arm batch is owed to borg-zoo issue 54",
+    "tag_state": "4.2.6-impact-v11 NOT placed; awaits the review verdict and explicit owner authorization; on approval it goes on the runtime snapshot 39268ca8a, not on a package commit",
+    "next_action": "Owner launches an independent reviewer on issue 471 with the prompt in docs/review/MILESTONE11.md section 6; after the verdict the M11-xx findings are applied or recorded, then the tag decision"
   }
 }
