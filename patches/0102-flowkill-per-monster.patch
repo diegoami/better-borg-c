@@ -1,0 +1,80 @@
+From 2c96f8d3a4de74649857c4a36758ad62fc309f7e Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:11:11 +0000
+Subject: [PATCH] Borg: judge each monster on its own in borg_flow_kill()
+
+borg_flow_kill() walks the monster list to choose monsters to hunt.
+Two pieces of per-monster state were set up once, before the loop:
+
+- skip_monster was never cleared, so once one monster was skipped (for
+  example a melee-only monster two grids away), every later monster in
+  the list was skipped too.  With such a monster noted first, the borg
+  hunted nothing at all, even with another monster in plain view.
+
+- hall_walls, which should count the walls around a pack (GROUP_AI)
+  monster, kept counting on from the borg's own surroundings, and the
+  "fewer than four walls" test ran inside the counting loop.  The count
+  starts at five or more whenever the test is reached, so the test never
+  fired and the borg left its corridor to chase pack monsters standing
+  in open rooms, which the comment says it should avoid.
+
+Clear skip_monster for each monster, start the wall count at zero for
+each monster checked, and test the count once all nine grids are
+counted.
+
+Tracked as diegoami/neo-angband-tracker#98.
+
+(cherry picked from commit 69862d0f5e2a860d63281df9157d77951875adf3)
+---
+ src/borg/borg-flow-kill.c | 19 ++++++++++++-------
+ 1 file changed, 12 insertions(+), 7 deletions(-)
+
+diff --git a/src/borg/borg-flow-kill.c b/src/borg/borg-flow-kill.c
+index 53e26ab0d..3d4439da6 100644
+--- a/src/borg/borg-flow-kill.c
++++ b/src/borg/borg-flow-kill.c
+@@ -1733,6 +1733,9 @@ bool borg_flow_kill(bool viewable, int nearness)
+         int        y9   = kill->pos.y;
+         int        ax, ay, d;
+ 
++        /* Each monster starts with a clean slate */
++        skip_monster = false;
++
+         /* Skip dead monsters */
+         if (!kill->r_idx)
+             continue;
+@@ -1812,6 +1815,7 @@ bool borg_flow_kill(bool viewable, int nearness)
+         /* Avoid getting surrounded */
+         if (borg_in_hall && (rf_has(r_info[kill->r_idx].flags, RF_GROUP_AI))) {
+             /* check to see if monster is in a hall, */
++            hall_walls = 0;
+             for (hall_x = -1; hall_x <= 1; hall_x++) {
+                 for (hall_y = -1; hall_y <= 1; hall_y++) {
+                     if (!square_in_bounds_fully(
+@@ -1847,15 +1851,16 @@ bool borg_flow_kill(bool viewable, int nearness)
+                      * of the room.  This would be dangerous for
+                      * him as well.
+                      */
+-                    /* add 'em up */
+-                    if (hall_walls < 4) {
+-                        /* This monster is not in a hallway.
+-                         * It may not be safe to fight.
+-                         */
+-                        skip_monster = true;
+-                    }
+                 }
+             }
++
++            /* add 'em up */
++            if (hall_walls < 4) {
++                /* This monster is not in a hallway.
++                 * It may not be safe to fight.
++                 */
++                skip_monster = true;
++            }
+         }
+ 
+         /* Skip this one if it is just 2 grids from me and it can attack me as
+-- 
+2.53.0
+
