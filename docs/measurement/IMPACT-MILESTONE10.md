@@ -1,10 +1,12 @@
-# Impact milestone 10: two improvement units, the 0099 crash correction and the deferred kit restoration since impact v9
+# Impact milestone 10: two improvement units, the 0099 crash correction and the kit restoration since impact v9
 
 Review package for [milestone 10](https://github.com/diegoami/better-borg-c/milestone/10).
 
 Base: impact v9, tag `4.2.6-impact-v9` on runtime snapshot `33207fbee` (placed 2026-11-09 after
 the milestone 9 review and its corrections). Head when this package was written: `25d1ce6a7`
-(PR 415), 54 commits and 22 merges after the snapshot.
+(PR 415), 54 commits and 22 merges after the snapshot. The kit restoration and the
+`impact-v10/regression-summary.json` full run land on top of that head in a follow-up PR; they add
+fixtures, tooling paths and evidence only, no `src/` change.
 
 This cycle contains **no new bug carry**. Its merged units are two owner-directed **local
 improvement units** (I-001, I-002; never proposed upstream, charter in PR 389) and one **crash
@@ -12,9 +14,10 @@ correction to an already-carried unit** (0099). Everything else merged in the sa
 governance, tooling, release/docs and death review. Those are listed as exclusions below so a
 reviewer can account for every merge without reading any of them as a unit.
 
-One item is **deferred, not delivered**: restoring the 36 regression-matrix kits that were never
-tracked and are no longer present in `.worktrees/`. The owner deferred it to this milestone on
-2026-11-10; it is not done in this package (see "Matrix status" and "Exact next work").
+The 36 regression-matrix kits that were never tracked are **restored** in this milestone: committed
+unchanged under `docs/audit/c-reports/<group>/` with `GROUPS` repointed at them, after the owner's
+2026-11-10 deferral (see "Matrix status"). The 0049-era groups still read their baselines from the
+gitignored `artifacts/` tree; that residual dependency is disclosed, not hidden.
 
 ## The 3 units
 
@@ -93,7 +96,7 @@ assertion in `square_islit` (cave-square.c:722) pre-fix, which is the recorded s
 NDEBUG product; pass-after: stale modes read as unlit, controls unchanged. This is a correction to
 an existing unit, not a new ledger ordinal.
 
-## Matrix status at the v10 head, and the deferred kit restoration
+## Matrix status at the v10 head, and the kit restoration
 
 The committed matrix records are the v9 tip run (`docs/measurement/impact-v9/regression-summary.json`,
 75 groups / 225 cases, `ok: true`, `at_commit: 33207fbee`) and the per-PR runs above:
@@ -102,18 +105,37 @@ The committed matrix records are the v9 tip run (`docs/measurement/impact-v9/reg
 * after the 0099 crash correction (PR 398): +5 (`necrolight-crash`) = 230.
 * after I-002 (PR 414): +4 (`fleeheal-408`) = 234, the run recorded in `IMPACT-IMPROVEMENT2.md`.
 
-**The full matrix cannot be rerun from a clean checkout.** 36 of the 60 `GROUPS` entries point at
+**The matrix now runs from a clean checkout.** 36 of the 60 `GROUPS` entries used to point at
 fixtures under `.worktrees/<carry>/artifacts/...`, which is gitignored; those kits were untracked,
 are not on the `task/carry-*` branches, and were removed after the 2026-11-09 v9 review with no
-recorded cleanup. Their expected rows and log hashes survive in the v9 summary. The remaining
-baseline directories under `artifacts/` are generated logs and are also absent from a clean
-checkout by design.
+recorded cleanup. Their expected rows and log hashes survived only in the v9 summary. Owner
+decision 2026-11-10 (checkpoint 1): restore them in this milestone by committing each kit under
+`docs/audit/c-reports/<group>/`, verifying it reproduces the v9 rows, and pointing
+`tools/regression-matrix.py` at the committed paths.
 
-Owner decision 2026-11-10 (checkpoint 1): do not rebuild the 36 kits now; restore them in this
-milestone by committing each kit under `docs/audit/c-reports/<group>/`, verifying it reproduces the
-v9 rows, and pointing `tools/regression-matrix.py` at the committed paths. Two kits are already
-committed in that pattern (`necrolight-296-crash`, `spasticscore-147-product`). **This is not done
-in this package** and is the first item of the exact next work.
+That restoration is delivered. Each kit's `scenario.c`, companion headers, `profile/borg.txt` and
+recorded baseline logs were copied unchanged (linked binaries, object files, `result.json` and
+tarballs are not committed; the kits build from source), and `docs/audit/c-reports/README.md`
+records the contents, provenance and residual dependency. Verification against the product build
+on `c1a80e92c`:
+
+* restored groups alone: 36 groups, 91 cases (`text` is declared skipped), **all OK**, zero
+  unexpected `OUTCOME` row differences against the v9 baselines;
+* full matrix: 77 groups, **234 cases, `ok: true`, no failed group**, 183/234 cases byte-identical
+  to their recorded baseline logs. The machine-readable run is committed as
+  `docs/measurement/impact-v10/regression-summary.json` (`at_commit: c1a80e92c`).
+
+The rows that differ from the v9 baseline rows are exactly the declared transitions in `GROUPS`
+(`vampire` `near-far`/`near-near` under `rows_must`, `dispel259` `reserve`/`clear` declared
+failing, `knockout` `paralysis`); byte differences are information, not failures, because later
+carries legitimately touch shared paths.
+
+**Residual dependency (disclosed):** the 0049-era groups (swap, knockout, preparation,
+cold-protection, rings, potion-timing, itangast, shot-path, brand, stairtrack, acidarc,
+outoflight, mapwall, enlightenment, stairreturn, blowname, excavate, calllight, gloves,
+detectcarry, maimfoe, recalldepth, banish, ...) still read their baselines from the gitignored
+`artifacts/` tree, so those groups need it present. Committing them the same way is the remaining
+matrix item.
 
 ## Frozen v1 cohort: both units cohort-neutral on survival
 
@@ -137,8 +159,10 @@ unchanged this cycle.
   (borg-rs proposal path), 385 (non-carried review rule), 388 (#324 diagnostic evidence and design
   lesson 1), 389 (improvement charter), 391 (issue claim convention), 393 (remove the accidentally
   committed `.worktrees` symlink), 395 (I-001 measurement record), 396 (replay divergence stop and
-  watchdog limits), 397 (README), 405 (replay/branch directory naming), 413 (release packaging).
-  None changes borg or game behaviour.
+  watchdog limits), 397 (README), 405 (replay/branch directory naming), 413 (release packaging),
+  and the follow-up kit-restoration PR (36 kits committed under `docs/audit/c-reports/`, `GROUPS`
+  repointed, `docs/measurement/impact-v10/` full-run summary). None changes borg or game
+  behaviour.
 * **Not attempted / not claimed:** any new bug carry (none was ready in this window); a Rust or
   borg-rs change; an official Angband interaction; a survival or progress claim for either
   improvement.
@@ -150,10 +174,10 @@ unchanged this cycle.
 * I-002's paired targeted rerun could not reproduce the recorded normal-mode life on current main
   (contract deviation above). Its live benefit rests on the fixture and on the cohort result, which
   is directional at n=3.
-* The matrix evidence quoted per unit is the run recorded at that unit's own merge time; only the
-  v9-tip summary is a committed machine-readable full run for this base, and it predates the two
-  post-v9 groups. The gap is the deferred kit restoration below, not a hidden failure: each group
-  added after v9 was run in full on its PR and recorded there.
+* The matrix evidence quoted per unit is the run recorded at that unit's own merge time. The
+  committed full-run summaries are the v9 tip (`docs/measurement/impact-v9/`) and this cycle's
+  head (`docs/measurement/impact-v10/`, which includes both post-v9 groups and the restored
+  kits). Each group added after v9 was run in full on its PR and recorded there.
 * 0099 is counted once in the ledger; the crash correction is attached to that entry
   (`patches/series.json`). No entry or patch file is added: `patches/series.json` still holds its
   98 patch entries and `patches/` its 98 patch files, while the prose ordinals in
@@ -183,15 +207,17 @@ commit exists in the window. It raised three precision findings, all applied bef
 The verdict is recorded on PR 416. This is not the independent/external review: the owner still
 launches that reviewer, and it must not be represented as done.
 
-**Open owner decision:** the 36-kit restoration is the first item of the next work and was not done
-in this package, so the owner can either open the milestone for review with that gap disclosed (as
-this package does) or hold the external review until the kits are restored.
+**Resolved:** the 36-kit restoration was delivered in the follow-up restoration PR, so the owner
+can open the milestone for the external reviewer with the remaining `artifacts/` dependency
+disclosed rather than with an un-restored kit gap.
 
 ## Exact next work
 
-1. Restore the 36 `.worktrees` kits under `docs/audit/c-reports/<group>/`, verify each reproduces
-   its v9 rows, and point `tools/regression-matrix.py` at the committed paths (owner deferral to
-   milestone 10).
+1. ~~Restore the 36 `.worktrees` kits~~ done in the restoration PR: committed unchanged under
+   `docs/audit/c-reports/<group>/`, `GROUPS` repointed, and the restored groups verified against
+   the v9 baseline rows.
 2. Create the milestone 10 review issue and let the owner launch the reviewer.
-3. Do not place a v10 tag until that review returns a verdict and the owner authorizes it; as with
+3. Commit the 0049-era `artifacts/` baseline trees the same way, so the full matrix runs from a
+   clean checkout without any gitignored dependency.
+4. Do not place a v10 tag until the review returns a verdict and the owner authorizes it; as with
    v8 and v9, the tag would go on the runtime snapshot, not on this package commit.
