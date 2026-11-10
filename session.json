@@ -125,7 +125,7 @@
     "next_action": "Owner decides on placing 4.2.6-impact-v10 on the runtime snapshot 33207fbee; optionally commit the 22 0049-era artifacts baselines the same way",
     "review_package": "docs/review/MILESTONE10.md (PR 419, merged 2ebe5dafc): whole-window review map, v9 tag 33207fbee -> 4f837667a, claims C1-C12, model-agnostic prompt",
     "review_issue": "https://github.com/diegoami/better-borg-c/issues/420",
-    "review_verdict": "approve with corrections (issue 420, 2026-11-10): M10-R-01..07, none blocking or major, all applied in 6944d88e8; the reviewer reproduced the 0099 fail-before/pass-after and reran the committed kits"
+    "review_verdict": "approve (issue 420, 2026-11-10): first review approve with corrections, M10-R-01..07 applied in 6944d88e8 and verified by a same-issue re-review at 46057bc4a; no finding outstanding"
   },
   "owner_preferences": {
     "death_collection_mode": "normal Borg; no new munchkin game runs unless owner explicitly requests again (2026-11-08)"

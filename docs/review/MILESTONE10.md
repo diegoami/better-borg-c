@@ -240,7 +240,7 @@ touches runtime behaviour; the only `src/` change is the comment in M10-R-06.
 | M10-R-01 | `IMPACT-IMPROVEMENT2.md`: the prevalence count is scoped to the working record, says only D0006-D0019 are committed, and records the turn-span recount (18/25 at the 5% boundary against the survey's 20/25). |
 | M10-R-02 | `docs/audit/c-reports/fleeheal-408/` (8 baseline logs + profile) is committed and `GROUPS` repointed; `fleeheal-408` reruns 4/4. The residual `artifacts/` dependency drops to the 22 0049-era groups. |
 | M10-R-03 | This map's C6 is scoped to the restoration commit; the later `GROUPS` changes are named. |
-| M10-R-04 | The full run is rerun at `6944d88e8` and re-committed, so `impact-v10/regression-summary.json` and the kits share one commit; the README states the working-tree relation and uses one build reference. |
+| M10-R-04 | The full run is rerun at `6944d88e8` and re-committed with `at_commit` naming the commit that holds the exact kit bytes it read (the summary file lands in the recording commit after it); the README states the working-tree relation and uses one build reference. |
 | M10-R-05 | `4.2.6-impact-v9.1` (branch `release/4.2.6-impact-v9.1`) is named in the package exclusions. |
 | M10-R-06 | The `borg_thrust_damage_one` comment now says per-round damage; comment only. |
 | M10-R-07 | `docs/measurement/STARTBUY-410-REJECTED.md` is cherry-picked to main; no policy code merged. |
