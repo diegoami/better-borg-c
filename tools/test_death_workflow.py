@@ -327,3 +327,56 @@ class CollectionCommands(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class CaseNames(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        self.raw = self.root / 'raw/game-001'
+        self.raw.mkdir(parents=True)
+        case = self.root / 'docs/deaths/D0017-collected'
+        case.mkdir(parents=True)
+        (case / 'record.json').write_text(json.dumps(
+            {'id': 'D0017', 'recording': {'raw_directory': str(self.raw)}}))
+        other = self.root / 'docs/deaths/D0001-legacy'
+        other.mkdir(parents=True)
+        (other / 'record.json').write_text(json.dumps({'id': 'D0001'}))
+        for patch in (mock.patch.object(helper, 'ROOT', self.root),
+                      mock.patch.object(helper, 'artifacts', return_value=self.root / 'artifacts')):
+            patch.start()
+            self.addCleanup(patch.stop)
+
+    def test_case_lookup_and_label(self):
+        self.assertEqual(helper.case_for(self.raw), 'D0017')
+        self.assertIsNone(helper.case_for(self.root / 'raw/other'))
+        self.assertEqual(helper.label('D0017', 'S'), 'D0017-S')
+        self.assertEqual(helper.label('D0017', 'S', 't99'), 'D0017-t99-S')
+        self.assertEqual(helper.label(None, 'S', None), 'S')
+
+    def test_link_is_idempotent_and_ignores_unknown_case(self):
+        target = self.root / 'artifacts/replays/D0017-S'
+        target.mkdir(parents=True)
+        link = helper.link_case('D0017', 'replays', target)
+        self.assertEqual(link, self.root / 'artifacts/by-case/D0017/replays/D0017-S')
+        self.assertEqual(link.resolve(), target.resolve())
+        self.assertEqual(helper.link_case('D0017', 'replays', target), link)
+        self.assertIsNone(helper.link_case(None, 'replays', target))
+
+    def test_index_backfills_old_directories_without_renaming(self):
+        index = load('test_index_by_case', ROOT / 'tools/index-by-case.py')
+        index.workflow = helper
+        art = self.root / 'artifacts'
+        old = art / 'takeover/branches/20261109T022217.862222Z'
+        old.mkdir(parents=True)
+        (old / 'branch.json').write_text(json.dumps({'original': str(self.raw), 'actual_turn': 3983}))
+        stray = art / 'replays/20261107T000000.000000Z'
+        stray.mkdir(parents=True)
+        (stray / 'verification.json').write_text(json.dumps({'original': str(self.root / 'raw/unknown')}))
+        with redirect_stdout(io.StringIO()) as out:
+            self.assertEqual(index.main(), 0)
+        link = art / 'by-case/D0017/branches/t3983-20261109T022217.862222Z'
+        self.assertEqual(link.resolve(), old.resolve())
+        self.assertTrue(old.is_dir())
+        self.assertIn('not matched', out.getvalue())
