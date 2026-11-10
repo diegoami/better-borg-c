@@ -285,6 +285,17 @@ def monitor(process, trace_path, wall_limit, stall_limit):
         time.sleep(0.1)
 
 
+def configuration_text(raw):
+    """Compose user/borg.txt from an explicit experiment arm plus the fixed controls."""
+    if isinstance(raw, str) and os.path.exists(raw):
+        raw = Path(raw).read_text()
+    lines = list(raw) if isinstance(raw, (list, tuple)) else (
+        raw.splitlines() if isinstance(raw, str) else [])
+    lines = [line.strip() for line in lines if line and line.strip()]
+    lines += ['borg_cheat_death = FALSE', 'borg_respawn_winners = FALSE']
+    return '\n'.join(lines) + '\n'
+
+
 def run(args):
     build = args.build.resolve()
     manifest = json.loads((build / 'build.json').read_text())
@@ -300,8 +311,7 @@ def run(args):
     for d in ('user', 'archive', 'save', 'scores', 'panic'):
         (out / d).mkdir()
     play_turns = getattr(args, 'play_turns', None)
-    config = getattr(args, 'configuration', None)
-    config = (config + '\n' if config is not None else '') + 'borg_cheat_death = FALSE\nborg_respawn_winners = FALSE\n'
+    config = configuration_text(getattr(args, 'configuration', None))
     (out / 'user/borg.txt').write_text(config)
     birth_input = birth_keys(getattr(args, 'random_birth', False))
     run_input = ('key space\nkey C-z\nkey space\nkey space\nkey y\nkey z\n' if args.load else birth_input)
@@ -348,7 +358,8 @@ def run(args):
               'command': command, 'cwd': str(build / 'source'),
               'environment': {k: env[k] for k in ('BORG_MEASURE_SEED', 'BORG_MEASURE_CAP', 'BORG_MEASURE_DIR', 'LC_ALL', 'LANG', 'BORG_MEASURE_NO_SAVES', 'BORG_MEASURE_LOAD') if k in env},
               'build': manifest, 'character': 'Human Warrior; default point buy; normal UI birth',
-              'configuration_sha256': sha(out / 'user/borg.txt'), 'outcome': 'harness_failure'}
+              'configuration_sha256': sha(out / 'user/borg.txt'),
+              'configuration': config, 'outcome': 'harness_failure'}
     if play_turns:
         result.update(turn_cap=None, requested_additional_turns=play_turns,
                       stop_boundary='first command boundary at or after the additional-turn target',

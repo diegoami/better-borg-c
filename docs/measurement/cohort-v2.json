@@ -1,0 +1,26 @@
+{
+ "schema": "better-borg-c/cohort@2",
+ "name": "native-human-warrior-v2-normal",
+ "baseline_source": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3",
+ "seeds": [
+  11,
+  29,
+  47
+ ],
+ "character": "Human Warrior; default point buy; ordinary birth options",
+ "engine_turn_cap": 20000,
+ "wall_limit_seconds": 120,
+ "no_turn_progress_seconds": 30,
+ "independent_sample_size": 3,
+ "baseline_repetitions_per_seed": 2,
+ "fixed_repetitions_per_seed": 1,
+ "checkpoint_interval_game_turns": 1000,
+ "selection": "Explicit configuration (cohort v2). The v1 cohort inherited borg defaults; PR 302 changed the munchkin-by-class default, so v1 runs are not comparable across that change. Arm: ordinary play, no scumming modes.",
+ "claim_limit": "Small harness baseline; not powered for survival difference or rare depth50 emergency swaps. Repeats are reproducibility controls, not extra independent samples.",
+ "configuration": [
+  "borg_munchkin_start = FALSE",
+  "borg_munchkin_by_class = FALSE",
+  "borg_self_lunal = FALSE",
+  "borg_lunal_mode = FALSE"
+ ]
+}

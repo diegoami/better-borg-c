@@ -35,7 +35,8 @@ def main():
             out = args.output / f'seed-{seed}-repeat-{repeat}'
             options = SimpleNamespace(build=args.build, output=out, seed=seed,
                                       cap=config['engine_turn_cap'], timeout=config['wall_limit_seconds'],
-                                      stall_timeout=config['no_turn_progress_seconds'], no_saves=False, load=None)
+                                      stall_timeout=config['no_turn_progress_seconds'], no_saves=False, load=None,
+                                      configuration=config.get('configuration'))
             try:
                 measurement.run(options)
             except Exception as exc:

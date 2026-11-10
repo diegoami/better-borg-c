@@ -222,3 +222,20 @@ class Results(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class Configuration(unittest.TestCase):
+    """The experiment arm is explicit and recorded; the fixed controls are always added."""
+
+    def test_arm_lines_are_kept_in_order_and_controls_appended(self):
+        text = measure.configuration_text(['borg_munchkin_by_class = FALSE', 'borg_self_lunal = FALSE'])
+        self.assertEqual(text, 'borg_munchkin_by_class = FALSE\nborg_self_lunal = FALSE\n'
+                              'borg_cheat_death = FALSE\nborg_respawn_winners = FALSE\n')
+
+    def test_absent_arm_still_writes_the_controls(self):
+        self.assertEqual(measure.configuration_text(None),
+                         'borg_cheat_death = FALSE\nborg_respawn_winners = FALSE\n')
+
+    def test_blank_lines_and_string_inputs_are_normalised(self):
+        text = measure.configuration_text('  borg_munchkin_start = TRUE \n\n')
+        self.assertTrue(text.startswith('borg_munchkin_start = TRUE\n'))
