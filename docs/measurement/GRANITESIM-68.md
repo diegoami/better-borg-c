@@ -53,7 +53,9 @@ recorded as **not measured**, not neutral, and belongs to the batch with the zoo
 the batch notes they compound, so attributing an effect requires measuring them one at a time on
 the same arm.
 
-Matrix group `granitesim-68` (3 cases) uses the `after-*.log` rows as its baseline.
+Matrix group `granitesim-68` (3 cases) uses the `after-*.log` rows as its baseline. Full matrix
+at this tree: 87 groups / 268 cases, `ok: true`, no failed group, 215/228 byte-identical; the
+13 byte differences are in the same six groups as before this carry, so no new difference.
 
 ## Ledger and credit
 
