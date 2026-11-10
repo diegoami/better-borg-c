@@ -108,8 +108,20 @@
     "review_verdict": "approve with corrections; M9-01..M9-07 applied in PR 381, M9-08 recorded not applied",
     "matrix": "75 groups / 225 cases, zero unexpected mismatches; three declared transitions attributed to necrolight-296 (0099), independently reproduced at the 0096/0098/0099 builds",
     "cohort": "frozen v1 cohort-neutral across all ten v9 units (seeds 11/29/47, hp 72/83/109, depths 4/6/5, alive at the cap)",
-    "tag_state": "4.2.6-impact-v9 NOT placed; awaits explicit owner authorization; on approval it goes on the runtime snapshot 33207fbee, not the package commit",
-    "next_action": "On owner authorization, place 4.2.6-impact-v9 on 33207fbee and record the placement in IMPACT-MILESTONE9.md (as milestone 8 did in PR 356); otherwise resume carries when new source-lane pairs appear"
+    "tag_state": "4.2.6-impact-v9 placed 2026-11-09 on the runtime snapshot 33207fbee under explicit owner authorization, after the review verdict and the corrections (PR 381); placement recorded in PR 383",
+    "next_action": "Closed; follow milestone 10 (no new bug carry was ready after v9; two improvement units and one crash correction were merged instead)"
+  },
+  "impact_milestone_v10": "https://github.com/diegoami/better-borg-c/milestone/10",
+  "milestone10_state": {
+    "base_tag": "4.2.6-impact-v9",
+    "runtime_snapshot": "33207fbeeb582e67d6b18e9f40613617667905ae",
+    "head": "25d1ce6a7",
+    "package": "docs/measurement/IMPACT-MILESTONE10.md",
+    "units": "no new bug carry; improvement I-001 (PR 394, 8a0c1ba09), improvement I-002 (PR 414, 861ecb2da, receipt PR 415), 0099 crash correction (PR 398, fix dbc2bed77, attached to the 0099 ledger entry)",
+    "matrix": "v9 tip 225 cases (committed summary); 230 after necrolight-crash (+5); 234 after fleeheal-408 (+4); the full matrix cannot be rerun from a clean checkout until the 36 .worktrees kits are restored",
+    "deferred": "owner decision 2026-11-10: restore the 36 missing regression-matrix kits under docs/audit/c-reports/<group>/, verify they reproduce the v9 rows, point tools/regression-matrix.py at the committed paths",
+    "tag_state": "no v10 tag; waits for the milestone 10 review verdict and explicit owner authorization",
+    "next_action": "Restore the 36 kits in this milestone, then create the milestone 10 review issue for the owner-launched reviewer"
   },
   "owner_preferences": {
     "death_collection_mode": "normal Borg; no new munchkin game runs unless owner explicitly requests again (2026-11-08)"
