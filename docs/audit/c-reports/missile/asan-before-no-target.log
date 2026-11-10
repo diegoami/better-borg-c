@@ -1,0 +1,65 @@
+native-c/missile-254: starting...
+SETUPSTEP profile
+QUIVER slot=35 letter_index=0 tval=3 sval=1 n=20
+SETUP seed=1000 class=Warrior level=11 depth=10 hp=91/91 ammo_tval=3 bow_iqty=1
+  launch_without_target_does_not_fire  =================================================================
+==648934==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x7eba0b7f8078 at pc 0x7fda0c889cf8 bp 0x7ffeb0250640 sp 0x7ffeb024fdf8
+READ of size 1 at 0x7eba0b7f8078 thread T0
+    #0 0x7fda0c889cf7 in strlen ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:425
+    #1 0x57a1a82a370f in my_strcpy /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/src/z-util.c:482
+    #2 0x57a1a8298747 in vstrnfmt /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/src/z-form.c:496
+    #3 0x57a1a8298dfe in vformat /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/src/z-form.c:589
+    #4 0x57a1a82991e6 in format /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/src/z-form.c:648
+    #5 0x57a1a7db9c6d in borg_attack_aux_launch /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/artifacts/missile/scenarios/before-attack.c:2148
+    #6 0x57a1a7d6f50b in scenario /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/artifacts/missile/scenarios/scenario.c:179
+    #7 0x57a1a82ac245 in main /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/src/tests/unit-test.c:53
+    #8 0x7fda0c42a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #9 0x7fda0c42a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #10 0x57a1a7d6ce64 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/artifacts/missile/scenarios/asan-before-scenario+0x14ae64) (BuildId: 1b8744efc8c3d665cf154877a16bfc74f2d0a4fe)
+
+0x7eba0b7f8078 is located 904 bytes before 40680-byte region [0x7eba0b7f8400,0x7eba0b8022e8)
+allocated by thread T0 here:
+    #0 0x7fda0c92b60f in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:67
+    #1 0x57a1a82ab3b6 in mem_alloc /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/src/z-virt.c:38
+    #2 0x57a1a82ab3f2 in mem_zalloc /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/src/z-virt.c:46
+    #3 0x57a1a7e5fe27 in borg_init_item /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/src/borg/borg-item.c:141
+    #4 0x57a1a7e3d30c in borg_init /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/src/borg/borg-init.c:579
+    #5 0x57a1a7d6dc78 in setup_tests /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/artifacts/missile/scenarios/scenario.c:100
+    #6 0x57a1a82ac0c2 in main /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/src/tests/unit-test.c:45
+    #7 0x7fda0c42a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #8 0x7fda0c42a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #9 0x57a1a7d6ce64 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/artifacts/missile/scenarios/asan-before-scenario+0x14ae64) (BuildId: 1b8744efc8c3d665cf154877a16bfc74f2d0a4fe)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow /home/diego/projects/angband/better-borg-c/.worktrees/missile-no-target/src/z-util.c:482 in my_strcpy
+Shadow bytes around the buggy address:
+  0x7eba0b7f7d80: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7eba0b7f7e00: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7eba0b7f7e80: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7eba0b7f7f00: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7eba0b7f7f80: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+=>0x7eba0b7f8000: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa[fa]
+  0x7eba0b7f8080: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7eba0b7f8100: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7eba0b7f8180: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7eba0b7f8200: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x7eba0b7f8280: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==648934==ABORTING

@@ -1,0 +1,47 @@
+native-c/glowoverflow-311: starting...
+SETUPSTEP profile
+SETUP seed=1000 glowing=1600 limit=1536 panel=41x40
+  glow_arrays_are_bounded  =================================================================
+==1092572==ERROR: AddressSanitizer: global-buffer-overflow on address 0x5b6b7c404c80 at pc 0x5b6b7bd0ab44 bp 0x7ffc0de08540 sp 0x7ffc0de08530
+WRITE of size 1 at 0x5b6b7c404c80 thread T0
+    #0 0x5b6b7bd0ab43 in borg_flow_light /home/diego/projects/angband/better-borg-c/.worktrees/stale-target/src/borg/borg-flow-misc.c:843
+    #1 0x5b6b7bc69206 in scenario /home/diego/projects/angband/better-borg-c/.worktrees/glow-overflow/artifacts/g311/scenarios/scenario.c:122
+    #2 0x5b6b7c1a5f92 in main /home/diego/projects/angband/better-borg-c/.worktrees/stale-target/src/tests/unit-test.c:53
+    #3 0x729783c2a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #4 0x729783c2a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #5 0x5b6b7bc67e64 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/glow-overflow/artifacts/g311/scenarios/asan-before-scenario+0x149e64) (BuildId: 954269e86fae64ef52e0bd18647deb3ae477768c)
+
+0x5b6b7c404c80 is located 0 bytes after global variable 'borg_glow_y' defined in '/home/diego/projects/angband/better-borg-c/.worktrees/stale-target/src/borg/borg-cave-light.c:45:9' (0x5b6b7c404680) of size 1536
+SUMMARY: AddressSanitizer: global-buffer-overflow /home/diego/projects/angband/better-borg-c/.worktrees/stale-target/src/borg/borg-flow-misc.c:843 in borg_flow_light
+Shadow bytes around the buggy address:
+  0x5b6b7c404a00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x5b6b7c404a80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x5b6b7c404b00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x5b6b7c404b80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x5b6b7c404c00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x5b6b7c404c80:[f9]f9 f9 f9 00 00 00 00 02 f9 f9 f9 f9 f9 f9 f9
+  0x5b6b7c404d00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x5b6b7c404d80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x5b6b7c404e00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x5b6b7c404e80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x5b6b7c404f00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==1092572==ABORTING

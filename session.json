@@ -118,10 +118,11 @@
     "head": "25d1ce6a7",
     "package": "docs/measurement/IMPACT-MILESTONE10.md",
     "units": "no new bug carry; improvement I-001 (PR 394, 8a0c1ba09), improvement I-002 (PR 414, 861ecb2da, receipt PR 415), 0099 crash correction (PR 398, fix dbc2bed77, attached to the 0099 ledger entry)",
-    "matrix": "v9 tip 225 cases (committed summary); 230 after necrolight-crash (+5); 234 after fleeheal-408 (+4); the full matrix cannot be rerun from a clean checkout until the 36 .worktrees kits are restored",
-    "deferred": "owner decision 2026-11-10: restore the 36 missing regression-matrix kits under docs/audit/c-reports/<group>/, verify they reproduce the v9 rows, point tools/regression-matrix.py at the committed paths",
+    "matrix": "v9 tip 225 cases (committed summary); 230 after necrolight-crash (+5); 234 after fleeheal-408 (+4); the 36 kits are now committed and GROUPS points there",
+    "restored_kits": "2026-11-10: the 36 prior-fixture kits copied unchanged into docs/audit/c-reports/<group>/ (scenario source, headers, profile, baseline logs) and GROUPS repointed; 91 restored cases rerun, zero unexpected row differences against the v9 baselines (four declared transitions unchanged); see docs/audit/c-reports/README.md",
+    "remaining_dependency": "the 0049-era groups still read their baselines from the gitignored artifacts/ tree, so a clean checkout cannot run those groups yet",
     "tag_state": "no v10 tag; waits for the milestone 10 review verdict and explicit owner authorization",
-    "next_action": "Restore the 36 kits in this milestone, then create the milestone 10 review issue for the owner-launched reviewer"
+    "next_action": "Create the milestone 10 review issue for the owner-launched reviewer"
   },
   "owner_preferences": {
     "death_collection_mode": "normal Borg; no new munchkin game runs unless owner explicitly requests again (2026-11-08)"
