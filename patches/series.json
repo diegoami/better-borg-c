@@ -1893,21 +1893,25 @@
       ],
       "applied_commits": [
         "e14eb464a18e8ea11e98fa2ea54bbc00bca92bbd",
-        "fea1e39c2"
+        "1ae61726a"
       ],
       "patch": "patches/0101-lunaltake-skip-bad.patch",
       "patch_active": true,
       "evidence_ref": "0b39bdd149967fd9e866525a4e3b988fa7673584",
       "verification": "docs/measurement/LUNALTAKE-73.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
-      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; dagger flips to skipping the bad item, gold control byte-identical. Mode-attribution (owner rule 2026-11-10): the unrestricted skip shifted the frozen v1 cohort (all three seeds 2-3 levels shallower); restricted to the Lunal (non-munchkin) path it reproduces the pre-carry traces byte-for-byte. Consumer profile supplemented with borg_munchkin_by_class=FALSE and the source kit's broken profile blob replaced; carried/open+patch-active after merge",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; dagger skip verified in Lunal mode and the skip suppressed in the runtime munchkin mode by a dedicated fixture mode. Mode attribution: config-flag gate was inert for Warrior/Druid/Ranger (class flag) and is superseded; the runtime-mode gate keeps the Lua path for every class and is inactive only in munchkin mode. Consumer profile supplemented with borg_munchkin_by_class=FALSE and the source kit's broken profile blob replaced; carried/open+patch-active after merge",
       "correction": {
         "patch": "patches/0101a-lunaltake-mode-gate.patch",
-        "commit": "fea1e39c2",
+        "commit": "1ae61726a",
+        "superseded": [
+          "fea1e39c2"
+        ],
         "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/73",
         "reason": "the unrestricted skip made every marked-bad item a non-target in munchkin mode too, where the borg deliberately collects what it can sell; the take flow then returned false and the borg oscillated climb/dive at shallow depth",
-        "change": "skip only when not in munchkin mode (borg_cfg[BORG_MUNCHKIN_START] false)",
-        "cohort": "all modes: seeds 11/29/47 end depth 1/4/2 (before 4/6/5); Lunal-only: identical to the pre-carry traces; munchkin-only: measured separately"
+        "change": "skip only outside the runtime munchkin mode (borg.munchkin_mode false); an earlier attempt gated on borg_cfg[BORG_MUNCHKIN_START], which is a class/config flag forced true for Warrior/Druid/Ranger and therefore disabled the fix for those classes everywhere, including the Lunal path",
+        "evidence": "the kit now runs the same marked-bad Dagger with munchkin mode off (skipped) and on (taken): the config-flag gate fails the munchkin mode, the runtime gate passes it",
+        "cohort": "the Warrior cohort is in munchkin mode by class and never enters Lunal mode (BORG_SELF_LUNAL plus preparation 15 deeper), so it cannot measure the Lunal path; it is recorded as not exercised, not as neutral"
       }
     }
   ]

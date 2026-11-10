@@ -130,6 +130,10 @@ static int scenario_take(void *state)
 {
     setvbuf(stdout, NULL, _IONBF, 0);
     const char *mode = getenv("LT73_MODE");
+    /* The product gates the bad-item skip on the runtime mode: the fixture
+     * runs the same visible Dagger with munchkin mode off (skip) and on
+     * (munchkin collects what it can sell, so it is taken). */
+    borg.munchkin_mode = streq(mode, "dagger-munchkin");
     uint16_t before = messages_num();
     borg_flush();
     memset(&borg.goal, 0, sizeof(borg.goal));
@@ -160,7 +164,7 @@ static int scenario_take(void *state)
     for (int i = (int)(after - before) - 1; i >= 0; --i)
         printf("TRACK %s\n", message_str((uint16_t)i));
     printf("OUTCOME walks_to_item=%d\n", rc ? 1 : 0);
-    if (streq(mode, "gold"))
+    if (streq(mode, "gold") || streq(mode, "dagger-munchkin"))
         require(rc);
     else
         require(!rc); /* fails before: every visible item is a target */

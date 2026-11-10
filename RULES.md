@@ -104,4 +104,7 @@
     configuration (patch 0101 is the worked example: the unrestricted skip
     made all three cohort seeds finish 2-3 levels shallower, while the same
     skip restricted to the Lunal scumming path is neutral for a munchkin-mode
-    Warrior).
+    Warrior). A configuration only counts as neutral when the changed branch
+    is shown to execute there (a fixture mode or instrumentation); a comparison
+    where the gate disables the change is the same build twice and must be
+    recorded as not exercised.

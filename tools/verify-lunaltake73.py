@@ -1,21 +1,23 @@
 #!/usr/bin/env python3
-"""Verify source73: Lunal-mode take skips the items it marked bad (fix 45423c1c).
+"""Verify that the Lunal take skip is gated on the runtime mode (correction to 0101).
 
-borg_flow_take_lunal() works out whether a visible item is worth taking
-(item_bad, with its "Lunal Item" notes) but never read the result, so every
-entry that reached the take step became a target: the borg walked to junk it
-had just decided was not worth taking.  The correction skips an item_bad
-entry before it is chosen.
+The source fix skips every item borg_flow_take_lunal() marks bad.  That
+routine serves two modes: Lunal scumming and munchkin collection.  Gating on
+borg_cfg[BORG_MUNCHKIN_START] was wrong - it is a class/config flag that is
+true for Warrior, Druid and Ranger for the whole game - so the skip was
+disabled everywhere for those classes and the Lunal path the defect was
+reported for never got the fix.  The product gates on borg.munchkin_mode
+instead.
 
-The kit is the source lane's unchanged native-c/lunaltake-73 fixture (fixture
-commit below).  The dagger mode places one visible Dagger four grids away in
-Lunal mode: before the fix the borg walks to it (rc=1, the fixture fails its
-"skip the bad item" contract); after the fix it does not (rc=0, passes).  The
-gold mode is the control: a pile of gold is still taken in both phases and its
-log is byte-identical.
+The kit runs the same visible Dagger in both runtime modes: with munchkin
+mode off the borg skips the marked-bad item (rc=0); with it on, munchkin mode
+collects what it can sell and the item is taken (rc=1).  The gold control is
+taken in both.  Before the correction (commit ebedce47d) the munchkin-mode
+mode fails: the config gate skips the item even though the runtime mode is
+munchkin.  After the correction all three pass.
 
-Run under the shared native lock after this tree's gate build, with the
-before snapshot built at the before commit (its gate result recorded under
+Run under the shared native lock after this tree's gate build, with the before
+snapshot built at the before commit (its gate result recorded under
 --before-gate).
 """
 import argparse
@@ -25,17 +27,21 @@ import os
 from pathlib import Path
 import re
 import subprocess
-import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFORE = 'c16c5640515a9da868e6907b0d28ca079c4350c9'
+BEFORE = 'ebedce47da29e730907c7e99217e28801ae5896e'
 FIX = '45423c1c8d99bc7846dc8503fa0a2be0e5c7e149'
-EVIDENCE = '0b39bdd149967fd9e866525a4e3b988fa7673584'
+EVIDENCE = '7084c916e'
 PREFIX = 'docs/audit/c-reports/lunaltake-73/'
 SOURCE = 'src/borg/borg-flow-take.c'
-MODES = ('dagger', 'gold')
+MODES = ('dagger', 'dagger-munchkin', 'gold')
 SUITE = 'native-c/lunaltake-73'
-EXPECT = {'dagger': (False, True), 'gold': (True, True)}
+# Passes before, passes after.  The munchkin mode is the one the config gate
+# got wrong.
+EXPECT = {'dagger': (True, True), 'dagger-munchkin': (False, True), 'gold': (True, True)}
+ROWS = {'dagger': {'walks_to_item': 0},
+        'dagger-munchkin': {'walks_to_item': 1},
+        'gold': {'walks_to_item': 1}}
 
 
 def sha(path):
@@ -69,20 +75,14 @@ def main():
 
     before, build = args.before_build.resolve(), args.product_build.resolve()
 
-    # Correction provenance: the before module already carries the source fix
-    # (merged as patch 0101); the product module must equal it with exactly the
-    # mode gate added.
-    gate_old = b'        if (item_bad)\n            continue;'
-    gate_new = (b'        if (item_bad && !borg_cfg[BORG_MUNCHKIN_START])\n'
-                b'            continue;')
+    # Provenance: the before module carries the config gate; the product must be
+    # that module with exactly the runtime-mode gate substituted.
+    cfg_gate = b'        if (item_bad && !borg_cfg[BORG_MUNCHKIN_START])\n            continue;'
+    mode_gate = b'        if (item_bad && !borg.munchkin_mode)\n            continue;'
     before_module = read(BEFORE, SOURCE)
-    assert before_module.count(gate_old) == 1, 'merged source hunk not found in before'
-    assert (ROOT / SOURCE).read_bytes() == before_module.replace(gate_old, gate_new), \
-        'product module != before + mode gate'
-    fix_scope = subprocess.check_output(
-        ['git', 'diff', '--name-only', FIX + '^', FIX, '--', 'src', 'lib',
-         'CMakeLists.txt', 'cmake'], cwd=ROOT, text=True).split()
-    assert fix_scope == [SOURCE], fix_scope
+    assert before_module.count(cfg_gate) == 1, 'config gate not found in the before module'
+    assert (ROOT / SOURCE).read_bytes() == before_module.replace(cfg_gate, mode_gate), \
+        'product module != before + runtime-mode gate'
     changed = subprocess.check_output(
         ['git', 'diff', '--name-only', BEFORE, 'HEAD', '--', 'src', 'lib',
          'CMakeLists.txt', 'cmake'], cwd=ROOT, text=True).split()
@@ -103,7 +103,7 @@ def main():
         'fixture_commit': evidence,
         'fixture_sha256': sha(out / 'scenario.c'),
         'source_fix': FIX, 'fix': args.fix,
-        'provenance': 'before module (source fix merged) + mode gate == product module',
+        'provenance': 'before module (config gate) + runtime-mode gate == product module',
         'before_commit': BEFORE,
         'before_native_gate': before_gate,
         'before_binary_sha256': sha(before / 'game/angband'),
@@ -145,16 +145,14 @@ def main():
         (out / 'result.json').write_text(json.dumps(report, indent=2) + '\n')
 
     b, a = report['phases']['before']['cases'], report['phases']['after']['cases']
-    # This correction keeps the Lunal behaviour the kit verifies: with munchkin
-    # off both phases skip the marked-bad Dagger and still take the gold.
     for mode in MODES:
         assert b[mode]['exit'] == 0 and a[mode]['exit'] == 0, mode
-        assert b[mode]['passed'] and a[mode]['passed'], ('pass', mode)
-    assert b['dagger']['outcome'] == a['dagger']['outcome'] == {'walks_to_item': 0}
-    assert b['gold']['outcome'] == a['gold']['outcome'] == {'walks_to_item': 1}
-    assert b['gold']['log_sha256'] == a['gold']['log_sha256'], 'gold control changed'
-    # The gate itself is proven by the provenance check above (module == before
-    # + gate) and by the frozen cohort, which returns to the pre-0101 trace.
+        assert b[mode]['passed'] is EXPECT[mode][0], ('before pass', mode)
+        assert a[mode]['passed'] is EXPECT[mode][1], ('after pass', mode)
+        assert a[mode]['outcome'] == ROWS[mode], ('after rows', mode, a[mode]['outcome'])
+    # The Lunal behaviour is unchanged by the correction.
+    assert b['dagger']['outcome'] == a['dagger']['outcome'] == ROWS['dagger']
+    assert b['dagger-munchkin']['outcome'] == {'walks_to_item': 0}  # config gate skipped it too
     report['verified'] = True
     (out / 'result.json').write_text(json.dumps(report, indent=2) + '\n')
 
