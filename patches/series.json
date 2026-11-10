@@ -2185,6 +2185,24 @@
       "verification": "docs/measurement/SELLCHARGES-132.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the stack mode now stores the charged device instead of taking the Recall out, and the stack-emptyhome/single/none controls are byte-identical. Town/home economy in shared code: per-mode attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "EGOSELL-133",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/468",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/133",
+      "source_head": "8b5ab27a81e46d95a87f4aca100cf2beca213171",
+      "source_commits": [
+        "8b5ab27a81e46d95a87f4aca100cf2beca213171"
+      ],
+      "applied_commits": [
+        "927b51ff4"
+      ],
+      "patch": "patches/0117-egosell-item-ego.patch",
+      "patch_active": true,
+      "evidence_ref": "3a95377ad9a3d57a7f258fa543e3e9a80a45d44b",
+      "verification": "docs/measurement/EGOSELL-133.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the plain-worn mode keeps the unidentified Cloak of Aman instead of selling it, and the aman-worn control is byte-identical. Town/sell logic in shared code: per-mode attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ]
 }
