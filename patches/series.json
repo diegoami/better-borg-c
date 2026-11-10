@@ -2041,6 +2041,24 @@
       "verification": "docs/measurement/CRUSHV2-66.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the caster and archer modes flip from doing nothing to killing the monster with Crush, and the melee/tough controls are byte-identical. Unconditional change in the danger model shared by every mode: per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "GRANITESIM-68",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/452",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/68",
+      "source_head": "f1b39e2050e2e9061da1f46dd546e80597d5ac45",
+      "source_commits": [
+        "f1b39e2050e2e9061da1f46dd546e80597d5ac45"
+      ],
+      "applied_commits": [
+        "77ec2c55e"
+      ],
+      "patch": "patches/0109-granitesim-ranged-wall.patch",
+      "patch_active": true,
+      "evidence_ref": "9954be16d6949bb331bfe9f03f2c6408c9769f01",
+      "verification": "docs/measurement/GRANITESIM-68.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the rubble mode flips from danger 0 and no action to danger 208 and Recall, and the floor/granite controls are byte-identical. Unconditional change in the danger model shared by every mode: per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ]
 }
