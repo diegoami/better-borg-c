@@ -269,6 +269,12 @@ GROUPS = [
     ('restprep-108', 'docs/audit/c-reports/restprep-108', 'RP108',
      ('pfe', 'clevel30'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+
+    # Source234 (issue 234): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-prepreason234.py.
+    ('prepreason-234', 'docs/audit/c-reports/prepreason-234', 'PR234',
+     ('nodeeper100', 'default127', 'prepared97'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
     # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,
