@@ -47,7 +47,10 @@ the before/after flip in that configuration and two controls. Which runtime conf
 reaches that combination in a measured cohort is recorded as **not measured** rather than
 neutral and is owed to the batch with the zoo's explicit arms (borg-zoo issue 54).
 
-Matrix group `prepreason-234` (3 cases) uses the `after-*.log` rows as its baseline.
+Matrix group `prepreason-234` (3 cases) uses the `after-*.log` rows as its baseline. Full matrix
+at this tree: 84 groups / 257 cases, `ok: true`, no failed group, 204/217 byte-identical; the 13
+byte differences are in the same six groups as before this carry (`dispel`, `dispel259`,
+`fleeheal-408`, `knockout`, `preparation`, `vampire`), so no new difference.
 
 ## Ledger and credit
 
