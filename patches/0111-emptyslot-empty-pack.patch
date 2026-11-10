@@ -1,0 +1,48 @@
+From adcb53459ca9fabaa0c457231cd56dbd8b789698 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:39:42 +0000
+Subject: [PATCH] Borg: find the first empty pack slot when the pack is empty
+
+borg_first_empty_inventory_slot() scans down from the last pack slot for
+the last used one and returns the slot after it.  With an empty pack the
+loop finds no used slot and the function returned -1, which every caller
+reads as "no room in the pack".
+
+So a Borg with nothing in its pack refused every purchase and every
+take from the home.  A starving character in town with gold and food on
+sale in the General Store did not set out to buy the food.
+
+Let the loop leave i at -1 for an empty pack and return the slot after
+the last used one, which is slot 0 in that case.
+
+Tracked as diegoami/neo-angband-tracker#60.
+---
+ src/borg/borg-inventory.c | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+diff --git a/src/borg/borg-inventory.c b/src/borg/borg-inventory.c
+index 7f39ec3a0..72a1c5275 100644
+--- a/src/borg/borg-inventory.c
++++ b/src/borg/borg-inventory.c
+@@ -256,12 +256,14 @@ int borg_first_empty_inventory_slot(void)
+ {
+     int i;
+ 
++    /* Find the last used slot (-1 when the pack is empty) */
+     for (i = PACK_SLOTS - 1; i >= 0; i--)
+-        if (borg_items[i].iqty) {
+-            if ((i + 1) < PACK_SLOTS)
+-                return i + 1;
++        if (borg_items[i].iqty)
+             break;
+-        }
++
++    /* The slot after it is the first empty one, if the pack has room */
++    if ((i + 1) < PACK_SLOTS)
++        return i + 1;
+ 
+     return -1;
+ }
+-- 
+2.53.0
+
