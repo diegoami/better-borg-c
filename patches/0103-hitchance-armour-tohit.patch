@@ -1,0 +1,648 @@
+From 99420fc52db54c2976f8c57b4ad960fcb72e0d96 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 16:58:56 +0100
+Subject: [PATCH 1/3] Borg: divide armour by the monster's to-hit when
+ estimating melee damage
+
+The partial-damage estimate of a monster's melee danger subtracted the
+whole armour term (armour * 75) from 150 instead of dividing it by the
+monster's to-hit (3 * (level + power)). Any armour class of 2 or more
+therefore gave the 5% floor, and a higher monster level lowered the hit
+chance. A sleeping troll with strong blows counted as almost harmless
+when deciding whether a ranged attack would wake it.
+
+Divide by the to-hit instead. The "unique nearby" clause is dropped from
+the guard: it would divide by zero for a blow with no level or power, and
+it added nothing when level + power is positive.
+
+Tracked as diegoami/neo-angband-tracker#63.
+
+(cherry picked from commit 5c7950a25e7fb62eec1987f0fe8a4f43f4bf3984)
+---
+ src/borg/borg-danger.c | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+diff --git a/src/borg/borg-danger.c b/src/borg/borg-danger.c
+index 2bdfdba9b..fbbcb26dc 100644
+--- a/src/borg/borg-danger.c
++++ b/src/borg/borg-danger.c
+@@ -517,10 +517,9 @@ static int borg_danger_physical(int i, bool full_damage)
+         if (!full_damage) {
+             /* figure out chance that monster will hit you. */
+             /* add a 50% bonus in to account for bad luck. */
+-            if (borg.near.unique || (r_ptr->level + power) > 0)
+-                chance
+-                    = 150
+-                      - (((ac * 300) / 4) / 1 + ((r_ptr->level + power) * 3));
++            if ((r_ptr->level + power) > 0)
++                chance = 150
++                         - (((ac * 300) / 4) / ((r_ptr->level + power) * 3));
+             else
+                 chance = -1;
+ 
+-- 
+2.53.0
+
+
+From fa18e1c633103dab918fe458f5d8ea913aed628c Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 17:56:26 +0000
+Subject: [PATCH 2/3] Borg: cap the partial melee hit chance at 100%
+
+The partial melee estimate adds a 50% allowance for bad luck to the
+monster's hit chance, so once armour is divided by the monster's to-hit
+the chance can exceed 100% and the partial estimate of a blow can come
+out above its full damage.  Cap the chance at 100% so the partial
+estimate never exceeds the full-damage figure for the same blow.
+
+(cherry picked from commit fa5b7e15a8995c969a0f9e103b65644c83de356b)
+---
+ src/borg/borg-danger.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/borg/borg-danger.c b/src/borg/borg-danger.c
+index fbbcb26dc..7d178d6dc 100644
+--- a/src/borg/borg-danger.c
++++ b/src/borg/borg-danger.c
+@@ -527,6 +527,10 @@ static int borg_danger_physical(int i, bool full_damage)
+             if (chance < 5)
+                 chance = 5;
+ 
++            /* never estimate more than the full damage of the blow. */
++            if (chance > 100)
++                chance = 100;
++
+             /* Modify the damage by the chance of getting hit */
+             z = (z * chance) / 100;
+         }
+-- 
+2.53.0
+
+
+From 70678427758cfdedc47249a4395f56144dfe288d Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Tue, 10 Nov 2026 15:30:52 +0100
+Subject: [PATCH 3/3] Record the hitchance-63 source kit on the product tree
+
+The kit from neo-angband-tracker's task/hitchance-63-evidence: the unchanged
+scenario, its borg profile, the kit's own run-cases.py/make_replay.py, the
+recorded before/after logs and the receipt. Before rows: the partial estimate
+is 0, so the sleeping brute is shot and woken (brute fails); the wretch
+control is shot in both phases.
+---
+ .../c-reports/hitchance-63/after-brute.log    |  10 +
+ .../c-reports/hitchance-63/after-wretch.log   |  10 +
+ .../c-reports/hitchance-63/before-brute.log   |  11 +
+ .../c-reports/hitchance-63/before-wretch.log  |  10 +
+ .../c-reports/hitchance-63/make_replay.py     |  65 ++++++
+ .../c-reports/hitchance-63/profile/borg.txt   |   1 +
+ .../audit/c-reports/hitchance-63/receipt.json | 166 +++++++++++++++
+ .../audit/c-reports/hitchance-63/run-cases.py |  17 ++
+ docs/audit/c-reports/hitchance-63/scenario.c  | 189 ++++++++++++++++++
+ 9 files changed, 479 insertions(+)
+ create mode 100644 docs/audit/c-reports/hitchance-63/after-brute.log
+ create mode 100644 docs/audit/c-reports/hitchance-63/after-wretch.log
+ create mode 100644 docs/audit/c-reports/hitchance-63/before-brute.log
+ create mode 100644 docs/audit/c-reports/hitchance-63/before-wretch.log
+ create mode 100644 docs/audit/c-reports/hitchance-63/make_replay.py
+ create mode 100644 docs/audit/c-reports/hitchance-63/profile/borg.txt
+ create mode 100644 docs/audit/c-reports/hitchance-63/receipt.json
+ create mode 100644 docs/audit/c-reports/hitchance-63/run-cases.py
+ create mode 100644 docs/audit/c-reports/hitchance-63/scenario.c
+
+diff --git a/docs/audit/c-reports/hitchance-63/after-brute.log b/docs/audit/c-reports/hitchance-63/after-brute.log
+new file mode 100644
+index 000000000..ec9306753
+--- /dev/null
++++ b/docs/audit/c-reports/hitchance-63/after-brute.log
+@@ -0,0 +1,10 @@
++native-c/hitchance-63: starting...
++SETUP seed=63 mode=brute class=Warrior clevel=15 hp=177 depth=5 
++  ranged_attack_on_a_sleeping_monster  KILL k=1 r=361 name=cave troll pos=(16,12) awake=0 power=180
++STATE avoidance=177 half_avoidance=88 hp=177 ac=10
++TRACK partial_danger=162 full_danger=162
++DECISION bolt_score=-1
++OUTCOME shoots=0
++OUTCOME partial_danger=162 full_danger=162 partial_le_full=1
++Passed
++native-c/hitchance-63 finished: 1/1 passed
+diff --git a/docs/audit/c-reports/hitchance-63/after-wretch.log b/docs/audit/c-reports/hitchance-63/after-wretch.log
+new file mode 100644
+index 000000000..0757cfbab
+--- /dev/null
++++ b/docs/audit/c-reports/hitchance-63/after-wretch.log
+@@ -0,0 +1,10 @@
++native-c/hitchance-63: starting...
++SETUP seed=63 mode=wretch class=Warrior clevel=15 hp=177 depth=5 
++  ranged_attack_on_a_sleeping_monster  KILL k=1 r=6 name=boil-covered wretch pos=(16,12) awake=0 power=3
++STATE avoidance=177 half_avoidance=88 hp=177 ac=10
++TRACK partial_danger=0 full_danger=0
++DECISION bolt_score=12
++OUTCOME shoots=1
++OUTCOME partial_danger=0 full_danger=0 partial_le_full=1
++Passed
++native-c/hitchance-63 finished: 1/1 passed
+diff --git a/docs/audit/c-reports/hitchance-63/before-brute.log b/docs/audit/c-reports/hitchance-63/before-brute.log
+new file mode 100644
+index 000000000..c15f6ec06
+--- /dev/null
++++ b/docs/audit/c-reports/hitchance-63/before-brute.log
+@@ -0,0 +1,11 @@
++native-c/hitchance-63: starting...
++SETUP seed=63 mode=brute class=Warrior clevel=15 hp=177 depth=5 
++  ranged_attack_on_a_sleeping_monster  KILL k=1 r=361 name=cave troll pos=(16,12) awake=0 power=180
++STATE avoidance=177 half_avoidance=88 hp=177 ac=10
++TRACK partial_danger=0 full_danger=162
++DECISION bolt_score=12
++OUTCOME shoots=1
++OUTCOME partial_danger=0 full_danger=162 partial_le_full=1
++Failed
++    native-c/hitchance-63:182: requirement 'score <= 0' failed
++native-c/hitchance-63 finished: 0/1 passed
+diff --git a/docs/audit/c-reports/hitchance-63/before-wretch.log b/docs/audit/c-reports/hitchance-63/before-wretch.log
+new file mode 100644
+index 000000000..0757cfbab
+--- /dev/null
++++ b/docs/audit/c-reports/hitchance-63/before-wretch.log
+@@ -0,0 +1,10 @@
++native-c/hitchance-63: starting...
++SETUP seed=63 mode=wretch class=Warrior clevel=15 hp=177 depth=5 
++  ranged_attack_on_a_sleeping_monster  KILL k=1 r=6 name=boil-covered wretch pos=(16,12) awake=0 power=3
++STATE avoidance=177 half_avoidance=88 hp=177 ac=10
++TRACK partial_danger=0 full_danger=0
++DECISION bolt_score=12
++OUTCOME shoots=1
++OUTCOME partial_danger=0 full_danger=0 partial_le_full=1
++Passed
++native-c/hitchance-63 finished: 1/1 passed
+diff --git a/docs/audit/c-reports/hitchance-63/make_replay.py b/docs/audit/c-reports/hitchance-63/make_replay.py
+new file mode 100644
+index 000000000..536d7c509
+--- /dev/null
++++ b/docs/audit/c-reports/hitchance-63/make_replay.py
+@@ -0,0 +1,65 @@
++import html,json,re,sys
++from pathlib import Path
++root=Path(sys.argv[1]);data={}
++SUITE='native-c/hitchance-63'
++TITLE='The Borg shot at a sleeping troll because its melee danger came out at 5%'
++INTRO="Before it attacks a sleeping monster from a distance, the Borg asks how dangerous that monster would be if it woke, and leaves hard sleeping monsters alone. That estimate scales a monster's melee damage by the chance that its blows hit. The chance was computed as 150 minus the armour term armour*75 minus 3*(level+power) where it should divide the armour term by the monster's to-hit. Any armour class of 2 or more therefore gave the 5% floor, and a higher monster level lowered the chance. A sleeping cave troll counted as harmless and the Borg shot at it. The correction divides armour by the to-hit, so the chance falls as armour rises and rises with the monster's level, and caps the chance at 100% so the partial estimate never exceeds the full damage of a blow; the check works."
++CONDITIONS="Native Human Warrior, seed 63, character level 15, 177 hit points, 10 armour, depth 5, a lit open arena, a lit torch. The production borg_launch_bolt() scores a bolt of damage 12 (about a Magic Missile) at the monster; the fixture builds the target list for the one monster in view and sets the attacking flag exactly as borg_attack() does, and the monster is marked asleep in the game and in the Borg's monster list. Nothing is fired or played. All partial-damage callers share the corrected estimate; only this one decision is measured."
++ISSUE=63
++CARD_KEY='shoots'
++CARD_LABEL='the Borg shoots at the sleeping monster (1 = yes)'
++CASES=[('brute', 'Sleeping cave troll six grids away', "A level-15 Warrior at full hit points (177) with 10 armour sees a sleeping cave troll six grids east. The production ranged-attack scorer rates a bolt at it. Original: the partial melee danger of the troll is 0 (a 5% hit chance), so the check that avoids waking a hard sleeping monster does not trigger and the bolt scores 12. Corrected: every blow's hit chance reaches the 100% cap, so the partial melee danger is 162, equal to the full-damage danger and well above half the Borg's avoidance (88), and the scorer refuses the attack. In both runs the partial estimate does not exceed the full-damage figure.", False), ('wretch', 'Control: sleeping boil-covered wretch', 'The same Warrior and a sleeping boil-covered wretch, a level-0 monster whose only blow does no damage. It goes through the same hit-chance lines, the partial and full danger are 0 before and after, and the bolt scores 12 in both.', True)]
++for mode,label,explanation,control in CASES:
++ item={'label':label,'explanation':explanation,'control':control}
++ for phase in ('before','after'):
++  raw=(root/f'{phase}-{mode}.log').read_text()
++  entry={'raw':raw,'passed':SUITE+' finished: 1/1 passed' in raw}
++  for tag,key in (('STATE ','state'),('OUTCOME ','outcome')):
++   for match in re.findall(re.escape(tag)+r'(.*)',raw):
++    entry.setdefault(key,{}).update({k:int(v) for k,v in re.findall(r'(\w+)=(-?\d+)',match)})
++  notes=[l for l in raw.splitlines() if l.startswith(('PREPARED ','SWAP ','DECISION ','TRACK ','KEYS '))]
++  entry['notes']=notes
++  entry['value']=entry.get('outcome',{}).get(CARD_KEY,entry.get('state',{}).get(CARD_KEY,'n/a'))
++  item[phase]=entry
++ data[mode]=item
++CSS=("body{margin:0;background:#f4f1ea;color:#253a3c;font:18px/1.6 system-ui}"
++ "main{max-width:1100px;margin:auto;padding:32px 24px}"
++ "h1{font-size:38px;line-height:1.2}h2{font-size:24px}"
++ ".cards{display:grid;grid-template-columns:1fr 1fr;gap:20px}"
++ ".card{background:white;border:1px solid #cbd6d0;border-radius:12px;padding:24px;margin:18px 0}"
++ ".cards .card{border-top:6px solid #648e80}.num{font-size:34px;font-weight:750}"
++ ".summary{background:#e6eee6;padding:20px;border-left:5px solid #377367}"
++ ".hidden{display:none}button,select{font:inherit;padding:6px 14px;margin:4px 8px 4px 0}"
++ "pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.5 monospace;max-height:330px;overflow:auto}"
++ "details{background:white;padding:20px;margin:20px 0}summary{font-weight:700;cursor:pointer}"
++ "@media(max-width:650px){.cards{grid-template-columns:1fr}h1{font-size:28px}}")
++def esc(s):return html.escape(str(s))
++opts=''.join('<option value="%s">%s</option>'%(esc(m),esc(d['label'])) for m,d in data.items())
++panels=''
++for m,d in data.items():
++ b,a=d['before'],d['after']
++ panels+=('<section class="scenario%s" data-mode="%s">'%('' if m==CASES[0][0] else ' hidden',esc(m))+
++  '<p class="summary">'+esc(d['explanation'])+('<br><strong>Unchanged control:</strong> both logs are byte-identical.' if d['control'] else '')+'</p>'
++  '<button class="show-decision">Show decision</button><button class="show-log">Show raw logs</button>'
++  '<div class="cards decision hidden">'
++  '<section class="card original"><h2>Original</h2><div class="num">'+esc(b['value'])+'</div><p>'+esc(CARD_LABEL)+'</p><p>Scenario check: <strong>'+('passed' if b['passed'] else 'failed')+'</strong></p><pre>'+esc('\n'.join(b['notes']))+'</pre></section>'
++  '<section class="card corrected"><h2>Corrected</h2><div class="num">'+esc(a['value'])+'</div><p>'+esc(CARD_LABEL)+'</p><p>Scenario check: <strong>'+('passed' if a['passed'] else 'failed')+'</strong></p><pre>'+esc('\n'.join(a['notes']))+'</pre></section>'
++  '</div><div class="logs hidden"><h3>Original</h3><pre>'+esc(b['raw'])+'</pre><h3>Corrected</h3><pre>'+esc(a['raw'])+'</pre></div></section>')
++page=('<!doctype html><html lang="en"><meta charset="utf-8">'
++ '<meta name="viewport" content="width=device-width,initial-scale=1">'
++ '<title>'+esc(TITLE)+'</title><style>'+CSS+'</style><main>'
++ '<p>Recorded native C runs, original and corrected source</p>'
++ '<h1>'+esc(TITLE)+'</h1><p>'+esc(INTRO)+'</p>'
++ '<p><label>Scenario: <select id="scenario">'+opts+'</select></label></p>'+panels+
++ '<details><summary>Experiment conditions and limits</summary><p>'+esc(CONDITIONS)+'</p></details>'
++ '<p>Canonical report: <a href="https://github.com/diegoami/neo-angband-tracker/issues/%d">issue %d</a>.</p>'%(ISSUE,ISSUE)+
++ '</main><script>'
++ 'var sel=document.getElementById("scenario");'
++ 'function show(){var m=sel.value;document.querySelectorAll(".scenario").forEach(function(s){s.classList.toggle("hidden",s.getAttribute("data-mode")!==m);});}'
++ 'sel.addEventListener("change",show);'
++ 'document.querySelectorAll(".show-decision").forEach(function(b){b.addEventListener("click",function(){b.parentNode.querySelector(".decision").classList.remove("hidden");});});'
++ 'document.querySelectorAll(".show-log").forEach(function(b){b.addEventListener("click",function(){b.parentNode.querySelector(".logs").classList.remove("hidden");});});'
++ 'show();</script></html>')
++(root/'replay.html').write_text(page)
++(root/'replay-data.json').write_text(json.dumps(data,indent=2)+'\n')
++print('Open in your browser:',root/'replay.html')
+diff --git a/docs/audit/c-reports/hitchance-63/profile/borg.txt b/docs/audit/c-reports/hitchance-63/profile/borg.txt
+new file mode 100644
+index 000000000..85664c500
+--- /dev/null
++++ b/docs/audit/c-reports/hitchance-63/profile/borg.txt
+@@ -0,0 +1 @@
++fatal: invalid object name 'origin/task/cfghang-141-evidence'.
+diff --git a/docs/audit/c-reports/hitchance-63/receipt.json b/docs/audit/c-reports/hitchance-63/receipt.json
+new file mode 100644
+index 000000000..510222779
+--- /dev/null
++++ b/docs/audit/c-reports/hitchance-63/receipt.json
+@@ -0,0 +1,166 @@
++{
++  "issue": "diegoami/neo-angband-tracker#63",
++  "report": "hitchance-63",
++  "base": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3",
++  "fix": "fa5b7e15a8995c969a0f9e103b65644c83de356b",
++  "fix_branch": "task/hitchance-63",
++  "fixtures_ref": "c8714f404db5aef367377b77cdec1efa1c3b9b76",
++  "cases": {
++    "brute": {
++      "before": {
++        "passed": false,
++        "state": {
++          "avoidance": 177,
++          "half_avoidance": 88,
++          "hp": 177,
++          "ac": 10
++        },
++        "outcome": {
++          "shoots": 1,
++          "partial_danger": 0,
++          "full_danger": 162,
++          "partial_le_full": 1
++        }
++      },
++      "after": {
++        "passed": true,
++        "state": {
++          "avoidance": 177,
++          "half_avoidance": 88,
++          "hp": 177,
++          "ac": 10
++        },
++        "outcome": {
++          "shoots": 0,
++          "partial_danger": 162,
++          "full_danger": 162,
++          "partial_le_full": 1
++        }
++      }
++    },
++    "wretch": {
++      "before": {
++        "passed": true,
++        "state": {
++          "avoidance": 177,
++          "half_avoidance": 88,
++          "hp": 177,
++          "ac": 10
++        },
++        "outcome": {
++          "shoots": 1,
++          "partial_danger": 0,
++          "full_danger": 0,
++          "partial_le_full": 1
++        }
++      },
++      "after": {
++        "passed": true,
++        "state": {
++          "avoidance": 177,
++          "half_avoidance": 88,
++          "hp": 177,
++          "ac": 10
++        },
++        "outcome": {
++          "shoots": 1,
++          "partial_danger": 0,
++          "full_danger": 0,
++          "partial_le_full": 1
++        }
++      }
++    }
++  },
++  "identical_controls": [
++    "wretch"
++  ],
++  "claim": "The original partial melee estimate gave the sleeping cave troll a danger of 0, so a level-15 Warrior's ranged-attack scorer rated a bolt at it at 12 and the troll would be woken. With armour divided by the monster's to-hit and the hit chance capped at 100%, the estimate is 162, equal to the full-damage figure and above half the Borg's avoidance, and the scorer refuses the attack. In every case the partial estimate does not exceed the full-damage figure. A control with a harmless sleeping monster is byte-identical.",
++  "full_tests": {
++    "before": {
++      "unit_checks": "965/965",
++      "frontend_tests": "5/5"
++    },
++    "after": {
++      "unit_checks": "965/965",
++      "frontend_tests": "5/5"
++    }
++  },
++  "fixed_sources": [
++    "src/borg/borg-danger.c"
++  ],
++  "fixed_source_sha256": {
++    "src/borg/borg-danger.c": "22b429c1687125c5847e44a1a9681adb87bf6058cbaffa06beeeffa23fb311ce"
++  },
++  "runner_asserts": "Each corrected file must equal the base file with exactly the expected hunk; the source scope must be exactly those files; every case must match its expected before/after pass state and every control log must be byte-identical. Every case in both phases must report a partial danger estimate not above the full-damage figure.",
++  "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
++  "cmake": "cmake version 3.28.3",
++  "browser_verification": {
++    "tool": "Playwright Chromium headless on the committed replay.html",
++    "checks": 12,
++    "console_errors": 0,
++    "node_check": "generated replay script passes node --check"
++  },
++  "run_log": "matrix exit 0; VERIFIED line in reproduce output",
++  "sha256": {
++    "README.md": "8660a9c4fd3db31f3fe8121e2cd4c69bf82c5a0528bc870cca7a024c8d1cffb7",
++    "after-brute.log": "0cf817281bfa1ef93c963664975ab100f134e7d6245db71207f79f5d1ebe6388",
++    "after-results.json": "bc137e189261ee5f11e1a36ee691cdfbd09131541834ee3b47111608353d75c0",
++    "after-wretch.log": "3b1762a85744c9039b3f9e52cfb9561198428c0cc717b28194eef454aa2f1047",
++    "before-brute.log": "c09cff0be26f0c7ff1c9fb751a0128d889c7d26d3f297acceaa12ac583128663",
++    "before-results.json": "231c28c5671675030eb0ff1aa49d36afadc57e115f330d2df60361e173f7d119",
++    "before-wretch.log": "3b1762a85744c9039b3f9e52cfb9561198428c0cc717b28194eef454aa2f1047",
++    "borg.txt": "6d591c5b04a742833cdff704bc10827f8859906424df70c591701bf4de521c94",
++    "make_replay.py": "663c01f5cc95ccf68f319df9a6739e9a4372b6e5f9aa5a140efb1c916bcf9ccb",
++    "profile/borg.txt": "6d591c5b04a742833cdff704bc10827f8859906424df70c591701bf4de521c94",
++    "replay-data.json": "63c5a45072bb1c2df775b1cf8950e39e4bd1048bf20fc985dee5ed5b8295bcb1",
++    "replay.html": "0cabe3ba44e9340876aa1183c0b83a7638175af97668f96fba83e3f57f4c6a5f",
++    "reproduce.py": "be2b6f3b03d58e3966be2dccc40129780a762289c30dee416f97cee57565abf2",
++    "result.json": "3ad3dd6c7b6632576b801ae667fdca891d5e1d1510cf4d7f7a3faedce5a54d3f",
++    "run-after-alltests.log": "458327e628ea52a59ebfbadd39df24d99cffa670043b37a36b4aecfdb76ac0e1",
++    "run-after-build.log": "7f7d35b8f832e11da1aef37243ba385d53b3eba486784e1066f2ccbe2cf4ef96",
++    "run-after-scenarios.log": "241a36138db2a074357420ec7bf3a0fb51516aa10ed44d3d0f31ef0ad5ba0228",
++    "run-before-alltests.log": "7a430bb7492fea7b1e22b4cb71616fe22df211a88a031115182c923aa292bd4d",
++    "run-before-build.log": "ad761aacf4449731889f3c4a00251112f522c7c3102ab90e1cca1b2bbe8d0704",
++    "run-before-scenarios.log": "da1140da6d2550f8facc23dfc62a2d61161d627fca0ba3aa6cea818d6179e94a",
++    "run-cases.py": "1aa922403737a2988f7bac01331500b9d54f5e58690793639ec508f26ab15da8",
++    "run-configure.log": "7d388146bf18d487641a81aec058f79ca1517873b41009144c3da93bdba46c52",
++    "scenario.c": "6084370e3d7065192c1e3cfe04518d66125cbb9727abc28e07ba6773215330eb"
++  },
++  "render_check": {
++    "tool": "render-smoke.js (Playwright Chromium headless) on the committed replay.html",
++    "actions": 6,
++    "errors": 0,
++    "result": "OK"
++  },
++  "revision": {
++    "date": "2026-11-08",
++    "reason": "Owner decision on #63: the partial melee estimate must never exceed the full-damage figure for the same blow; the source adds a 100% cap on the hit chance.",
++    "supersedes": {
++      "fixtures_ref": "d1ac3dce6c21906d049d8589e16ab43b1afe8390",
++      "fix": "5c7950a25e7fb62eec1987f0fe8a4f43f4bf3984",
++      "receipt_commit": "48e448e48da86242fe188ca90363609345830f5b"
++    },
++    "partial_le_full": {
++      "brute": {
++        "before": [
++          0,
++          162
++        ],
++        "after": [
++          162,
++          162
++        ]
++      },
++      "wretch": {
++        "before": [
++          0,
++          0
++        ],
++        "after": [
++          0,
++          0
++        ]
++      }
++    }
++  }
++}
+diff --git a/docs/audit/c-reports/hitchance-63/run-cases.py b/docs/audit/c-reports/hitchance-63/run-cases.py
+new file mode 100644
+index 000000000..fd2a22db3
+--- /dev/null
++++ b/docs/audit/c-reports/hitchance-63/run-cases.py
+@@ -0,0 +1,17 @@
++import json,os,re,subprocess,sys
++from pathlib import Path
++phase,binary,directory=sys.argv[1:];root=Path(directory)
++SUITE='native-c/hitchance-63'
++MODES=['brute', 'wretch']
++rows={}
++for mode in MODES:
++ env=os.environ|{'HC63'+'_PROFILE':str(root/'profile'),'HC63'+'_MODE':mode}
++ result=subprocess.run([str(Path(binary).resolve()),"-v"],env=env,cwd=Path(binary).resolve().parent,timeout=300,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True)
++ raw=re.sub(r'\x1b\[[0-9;]*m','',result.stdout);(root/f'{phase}-{mode}.log').write_text(raw)
++ row={'exit':result.returncode,'passed':SUITE+' finished: 1/1 passed' in raw}
++ for tag,key in (('STATE ','state'),('OUTCOME ','outcome')):
++  for match in re.findall(re.escape(tag)+r'(.*)',raw):
++   row.setdefault(key,{}).update({k:int(v) for k,v in re.findall(r'(\w+)=(-?\d+)',match)})
++ rows[mode]=row
++ print(mode,row)
++(root/f'{phase}-results.json').write_text(json.dumps(rows,indent=2)+'\n')
+diff --git a/docs/audit/c-reports/hitchance-63/scenario.c b/docs/audit/c-reports/hitchance-63/scenario.c
+new file mode 100644
+index 000000000..4309ac5fd
+--- /dev/null
++++ b/docs/audit/c-reports/hitchance-63/scenario.c
+@@ -0,0 +1,189 @@
++/* Synthetic native C sleeping-monster ranged-attack fixture, excluded from the source
++ * fix.  Issue: diegoami/neo-angband-tracker#63 (hitchance-63). */
++#include "unit-test.h"
++#include "test-utils.h"
++#include "cave.h"
++#include "game-world.h"
++#include "init.h"
++#include "message.h"
++#include "mon-make.h"
++#include "mon-util.h"
++#include "monster.h"
++#include "object.h"
++#include "obj-gear.h"
++#include "obj-knowledge.h"
++#include "obj-make.h"
++#include "obj-pile.h"
++#include "obj-util.h"
++#include "player.h"
++#include "player-birth.h"
++#include "player-calcs.h"
++#include "player-util.h"
++#include "trap.h"
++#include "ui-term.h"
++#include "ui-prefs.h"
++#include "borg/borg-caution.h"
++#include "borg/borg-cave.h"
++#include "borg/borg-cave-view.h"
++#include "borg/borg-danger.h"
++#include "borg/borg-fight-attack.h"
++#include "borg/borg-flow.h"
++#include "borg/borg-flow-kill.h"
++#include "borg/borg-flow-stairs.h"
++#include "borg/borg-init.h"
++#include "borg/borg-inventory.h"
++#include "borg/borg-io.h"
++#include "borg/borg-item.h"
++#include "borg/borg-trait.h"
++#include "borg/borg-update.h"
++#include "borg/borg.h"
++#include <stdio.h>
++#include <stdlib.h>
++#include <string.h>
++
++static term screen;
++#define H 24
++#define W 40
++
++static struct object *known_item(int tval, const char *name, int number)
++{
++    struct object *obj       = object_new();
++    struct object_kind *kind = lookup_kind(tval, lookup_sval(tval, name));
++    if (!kind) { fprintf(stderr, "MISSING KIND %s\n", name); quit("fixture item kind missing"); }
++    object_prep(obj, kind, 50, MAXIMISE);
++    obj->number = number;
++    obj->known = object_new();
++    object_set_base_known(player, obj);
++    object_flavor_aware(player, obj);
++    inven_carry(player, obj, false, false);
++    object_touch(player, obj);
++    player_know_object(player, obj);
++    return obj;
++}
++
++static int observe(struct monster *mon, const char *tag)
++{
++    mflag_on(mon->mflag, MFLAG_AWARE); update_mon(mon, cave, true);
++    if (!mflag_has(mon->mflag, MFLAG_VISIBLE)) { printf("SETUPFAIL %s visible\n", tag); return 1; }
++    if (!observe_kill_diff(mon->grid.y, mon->grid.x, 0, 0)) { printf("SETUPFAIL %s observe\n", tag); return 1; }
++    int k = borg_grids[mon->grid.y][mon->grid.x].kill;
++    if (k <= 0) { printf("SETUPFAIL %s kill_index\n", tag); return 1; }
++    borg_kills[k].awake = 0;
++    mon_clear_timed(mon, MON_TMD_SLEEP, MON_TMD_FLG_NOMESSAGE);
++    mon_inc_timed(mon, MON_TMD_SLEEP, 100, MON_TMD_FLG_NOMESSAGE);
++    return 0;
++}
++
++int setup_tests(void **state)
++{
++    const char *profile = getenv("HC63_PROFILE");
++    const char *mode    = getenv("HC63_MODE");
++    if (!profile || !mode) return 1;
++    set_file_paths();
++    string_free(ANGBAND_DIR_USER); ANGBAND_DIR_USER = string_make(profile);
++    string_free(ANGBAND_DIR_SAVE); ANGBAND_DIR_SAVE = string_make(format("%s/save", profile));
++    string_free(ANGBAND_DIR_PANIC); ANGBAND_DIR_PANIC = string_make(format("%s/panic", profile));
++    string_free(ANGBAND_DIR_SCORES); ANGBAND_DIR_SCORES = string_make(format("%s/scores", profile));
++    string_free(ANGBAND_DIR_ARCHIVE); ANGBAND_DIR_ARCHIVE = string_make(format("%s/archive", profile));
++    if (!init_angband()) { printf("SETUPFAIL init\n"); return 1; }
++    create_needed_dirs();
++    Rand_quick = false; Rand_state_init(63);
++    if (!player_make_simple("Human", "Warrior", "HitChance63")) { printf("SETUPFAIL birth\n"); return 1; }
++    term_init(&screen, 198, 66, 256); Term_activate(&screen); angband_term[0] = &screen;
++    textui_prefs_init();
++    cave = t_build_arena(H, W);
++    player->cave = cave_new(H, W);
++    player_place(cave, player, loc(10, 12));
++    player->depth = player->max_depth = cave->depth = player->cave->depth = 5;
++    player_exp_gain(player, player_exp[13] * player->expfact / 100);
++    character_dungeon = true;
++    for (int y = 1; y < H - 1; ++y) for (int x = 1; x < W - 1; ++x)
++        sqinfo_on(square(cave, loc(x, y))->info, SQUARE_GLOW);
++    /* A staircase two steps west and, except in the control, a second one
++     * of the same kind 25 steps east.  Up staircases, or down staircases in
++     * the "twodown" case. */
++    struct object *torch = known_item(TV_LIGHT, "Wooden Torch", 1);
++    torch->timeout = 2000;
++    inven_wield(torch, wield_slot(torch));
++    known_item(TV_FOOD, "Ration of Food", 5);
++    player->upkeep->update |= PU_BONUS | PU_HP | PU_TORCH | PU_INVEN;
++    update_stuff(player);
++    player->chp = player->mhp;
++    borg_rand_local = 1000; borg_init();
++    if (borg_init_failure || borg_cfg[BORG_CHEAT_DEATH] || OPT(player, cheat_live)) { printf("SETUPFAIL borg\n"); return 1; }
++    borg_equipment(); borg_inventory(); borg_notice(true);
++    borg_alloc_detection();
++    for (int y = 0; y < H; ++y) for (int x = 0; x < W; ++x) {
++        borg_grids[y][x].feat = square(cave, loc(x, y))->feat;
++        borg_grids[y][x].info |= BORG_OKAY | BORG_VIEW;
++    }
++    update_view(cave, player);
++    /* The Borg has seen both staircases. */
++    track_less.num = track_more.num = 0;
++    borg.c = player->grid; borg.avoidance = player->chp; borg.ready_morgoth = 0;
++    /* Some time into the level; no anti-summon corridor in use. */
++    borg.time.now = 1000;
++    borg.time.level = borg.time.now;
++    borg.time.antisummon = 0;
++    borg.time.town = borg.time.now;
++    /* Full hit points. */
++    player->chp = player->mhp;
++    borg_notice(true);
++    borg.avoidance = player->chp;
++    /* A monster asleep six grids east, in view. */
++    struct monster *foe = t_add_monster(cave, loc(16, 12), streq(mode, "wretch") ? "boil-covered wretch" : "Cave troll");
++    if (!foe) { printf("SETUPFAIL foe\n"); return 1; }
++    if (observe(foe, "foe")) return 1;
++    borg.status.active = true;
++    borg_update_entrypoint(true);
++    printf("SETUP seed=63 mode=%s class=%s clevel=%d hp=%d depth=%d \n",
++           mode, player->class->name, player->lev, player->chp, player->depth);
++    return 0;
++}
++
++int teardown_tests(void *state)
++{
++    borg_update_entrypoint(false);
++    textui_prefs_free();
++    cleanup_angband(); term_nuke(&screen); angband_term[0] = NULL; return 0;
++}
++
++static int scenario_wake(void *state)
++{
++    const char *mode = getenv("HC63_MODE");
++    borg_flush();
++    borg_notice(true);
++    int k = 1;
++    int partial = borg_danger_one_kill(borg_kills[k].pos.y, borg_kills[k].pos.x, 1, k, true, false);
++    int full    = borg_danger_one_kill(borg_kills[k].pos.y, borg_kills[k].pos.x, 1, k, true, true);
++    printf("KILL k=%d r=%d name=%s pos=(%d,%d) awake=%d power=%d\n", k, borg_kills[k].r_idx,
++           r_info[borg_kills[k].r_idx].name, borg_kills[k].pos.x, borg_kills[k].pos.y,
++           borg_kills[k].awake, borg_kills[k].power);
++    printf("STATE avoidance=%d half_avoidance=%d hp=%d ac=%d\n", borg.avoidance,
++           borg.avoidance / 2, borg.trait[BI_CURHP], borg.trait[BI_ARMOR]);
++    printf("TRACK partial_danger=%d full_danger=%d\n", partial, full);
++    /* The target list borg_attack() builds for the one monster in view,
++     * and the attacking flag it sets before scoring. */
++    borg_attacking = true;
++    borg_temp_n    = 1;
++    borg_temp_x[0] = borg_kills[k].pos.x;
++    borg_temp_y[0] = borg_kills[k].pos.y;
++    int score = borg_launch_bolt(0, 12, BORG_ATTACK_MISSILE, 10, 0);
++    printf("DECISION bolt_score=%d\n", score);
++    printf("OUTCOME shoots=%d\n", score > 0 ? 1 : 0);
++    /* The partial estimate scales each blow by a hit chance; it must never
++     * exceed the full-damage figure for the same monster and grid. */
++    printf("OUTCOME partial_danger=%d full_danger=%d partial_le_full=%d\n",
++           partial, full, partial <= full ? 1 : 0);
++    require(partial <= full);
++    if (streq(mode, "wretch"))
++        require(score > 0);
++    else
++        require(score <= 0); /* fails before: the sleeping troll is shot at and woken */
++    ok;
++}
++
++const char *suite_name = "native-c/hitchance-63";
++struct test tests[] = {
++    {"ranged_attack_on_a_sleeping_monster", scenario_wake},
++    {NULL, NULL}};
+-- 
+2.53.0
+
