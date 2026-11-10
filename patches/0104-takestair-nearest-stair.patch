@@ -1,0 +1,63 @@
+From 97c42489220d39e029568717686acf488c5ad56a Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:41:45 +0000
+Subject: [PATCH] Borg: measure item pickups from the nearest up staircase
+
+borg_flow_take(), borg_flow_take_scum() and borg_flow_take_lunal() keep
+a low-level borg's item hunts within a leash of its escape staircase.
+Each looks up the nearest known up staircase for that test, but the scan
+kept the farthest one instead ('skip the closer ones').
+
+When the borg knew a second up staircase far away, an item a few steps
+from the borg and from the staircase it was standing by was measured
+against the distant staircase, judged too far from the stairs, and
+ignored by all three pickup flows.
+
+Keep the nearest up staircase in the three scans, matching their
+comments and the 'closest stair' origin that borg_flow_spread() expects.
+
+Tracked as diegoami/neo-angband-tracker#71.
+---
+ src/borg/borg-flow-take.c | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/src/borg/borg-flow-take.c b/src/borg/borg-flow-take.c
+index c5243ddd6..c00e5f6f3 100644
+--- a/src/borg/borg-flow-take.c
++++ b/src/borg/borg-flow-take.c
+@@ -471,8 +471,8 @@ bool borg_flow_take(bool viewable, int nearness)
+         /* How far is the nearest up stairs */
+         j = distance(borg.c, loc(x, y));
+ 
+-        /* skip the closer ones */
+-        if (b_j >= j)
++        /* skip the farther ones */
++        if (b_j <= j && b_j != -1)
+             continue;
+ 
+         /* track it */
+@@ -620,8 +620,8 @@ bool borg_flow_take_scum(bool viewable, int nearness)
+         /* How far is the nearest up stairs */
+         j = distance(borg.c, loc(x, y));
+ 
+-        /* skip the closer ones */
+-        if (b_j >= j)
++        /* skip the farther ones */
++        if (b_j <= j && b_j != -1)
+             continue;
+ 
+         /* track it */
+@@ -719,8 +719,8 @@ bool borg_flow_take_lunal(bool viewable, int nearness)
+         /* How far is the nearest up stairs */
+         j = distance(borg.c, loc(x, y));
+ 
+-        /* skip the closer ones */
+-        if (b_j >= j)
++        /* skip the farther ones */
++        if (b_j <= j && b_j != -1)
+             continue;
+ 
+         /* track it */
+-- 
+2.53.0
+

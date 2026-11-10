@@ -1951,6 +1951,24 @@
       "verification": "docs/measurement/HITCHANCE-63.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; partial danger rises from 0 to the full figure and the sleeping brute is no longer shot; the wretch control is byte-identical. Unconditional danger-model change: per-mode cohort attribution belongs to the batch (borg-zoo issue 54); carried/open+patch-active after merge"
+    },
+    {
+      "id": "TAKESTAIR-71",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/440",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/71",
+      "source_head": "97c42489220d39e029568717686acf488c5ad56a",
+      "source_commits": [
+        "97c42489220d39e029568717686acf488c5ad56a"
+      ],
+      "applied_commits": [
+        "595a7b9bd"
+      ],
+      "patch": "patches/0104-takestair-nearest-stair.patch",
+      "patch_active": true,
+      "evidence_ref": "13339abffef36a7838160607f7a44f2fdd83149d",
+      "verification": "docs/measurement/TAKESTAIR-71.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the take, scum and lunal flows flip from ignoring the flask to stepping toward it and the single-staircase control is byte-identical. Flow reach: borg_flow_take is in the normal thinker, borg_flow_take_scum in the depth-1 finish-shopping path, borg_flow_take_lunal only in the Lunal/munchkin thinkers, so a normal-only arm cannot reach the lunal branch; the per-mode cohort effect is recorded as not measured and belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ]
 }
