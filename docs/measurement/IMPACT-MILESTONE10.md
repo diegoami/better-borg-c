@@ -105,7 +105,9 @@ The committed matrix records are the v9 tip run (`docs/measurement/impact-v9/reg
 * after the 0099 crash correction (PR 398): +5 (`necrolight-crash`) = 230.
 * after I-002 (PR 414): +4 (`fleeheal-408`) = 234, the run recorded in `IMPACT-IMPROVEMENT2.md`.
 
-**The matrix now runs from a clean checkout.** 36 of the 60 `GROUPS` entries used to point at
+**The 36 restored groups now run from a clean checkout**, and the 17 `KIT_GROUPS` fetch their
+fixtures from the ledger's evidence commits, so they need those commits in the clone (a full clone,
+not a shallow one) but no `artifacts/` tree. 36 of the 60 local `GROUPS` entries used to point at
 fixtures under `.worktrees/<carry>/artifacts/...`, which is gitignored; those kits were untracked,
 are not on the `task/carry-*` branches, and were removed after the 2026-11-09 v9 review with no
 recorded cleanup. Their expected rows and log hashes survived only in the v9 summary. Owner
