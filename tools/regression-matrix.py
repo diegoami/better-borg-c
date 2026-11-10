@@ -237,6 +237,11 @@ GROUPS = [
      ('banish', 'mass'), {}),
     ('necrolight-crash', 'docs/audit/c-reports/necrolight-296-crash', 'NL296',
      ('stale-town', 'stale-far', 'lit', 'dark', 'mage-lit'), {}),
+    # Source63 (issue 63, CBUG-0047): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-hitchance63.py.
+    ('hitchance-63', 'docs/audit/c-reports/hitchance-63', 'HC63',
+     ('brute', 'wretch'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Source98 (issue 98, CBUG-0082): after-baselines from the product run; the
     # before phase is the documented flip in tools/verify-flowkillhall98.py.
     ('flowkillhall-98', 'docs/audit/c-reports/flowkillhall-98', 'FK98',

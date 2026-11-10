@@ -1931,6 +1931,26 @@
       "verification": "docs/measurement/FLOWKILLHALL-98.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; hall and leak flip, hallctl and reverse byte-identical. Unconditional change in shared flow-kill code: no mode gate to prove; per-mode cohort attribution belongs to the batch/zoo arms (issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "HITCHANCE-63",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/437",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/63",
+      "source_head": "fa5b7e15a8995c969a0f9e103b65644c83de356b",
+      "source_commits": [
+        "5c7950a25e7fb62eec1987f0fe8a4f43f4bf3984",
+        "fa5b7e15a8995c969a0f9e103b65644c83de356b"
+      ],
+      "applied_commits": [
+        "99420fc52",
+        "fa18e1c63"
+      ],
+      "patch": "patches/0103-hitchance-armour-tohit.patch",
+      "patch_active": true,
+      "evidence_ref": "70678427758cfdedc47249a4395f56144dfe288d",
+      "verification": "docs/measurement/HITCHANCE-63.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; partial danger rises from 0 to the full figure and the sleeping brute is no longer shot; the wretch control is byte-identical. Unconditional danger-model change: per-mode cohort attribution belongs to the batch (borg-zoo issue 54); carried/open+patch-active after merge"
     }
   ]
 }
