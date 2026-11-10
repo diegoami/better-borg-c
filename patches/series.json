@@ -2131,6 +2131,24 @@
       "verification": "docs/measurement/RINGSLOT-86.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the swap mode now wears both the new and the kept ring, and the mirror/empty controls are byte-identical. Gear-selection change in shared code (no mode gate): per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "SWAPTRIAL-31",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/462",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/31",
+      "source_head": "571380b3d4724a37a639dc96f2a9a16782f33d94",
+      "source_commits": [
+        "571380b3d4724a37a639dc96f2a9a16782f33d94"
+      ],
+      "applied_commits": [
+        "5e248e8a4"
+      ],
+      "patch": "patches/0114-swaptrial-restore-hole.patch",
+      "patch_active": true,
+      "evidence_ref": "e1a3a7d440f1016d569af306c7fc7518f834e264",
+      "verification": "docs/measurement/SWAPTRIAL-31.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the swap-held mode now keeps the model matching the game (no spurious Evenstar retrieval/store), and the no-weapon-swap/no-candidate controls are byte-identical. Town/home economy change in shared code: per-mode attribution may be inert in a normal arm and active in a munchkin arm, so the batch (borg-zoo issue 54) owns it. carried/open+patch-active after merge"
     }
   ]
 }
