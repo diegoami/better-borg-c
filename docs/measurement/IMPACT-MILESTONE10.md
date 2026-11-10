@@ -67,8 +67,9 @@ Local-only, merged after the owner's 2026-11-10 direction ("Fix 408") and its ow
   directional and reported as inconclusive.
 
 **Disclosed contract deviation (I-002):** the recorded D0017 life is not replayable on current
-main. 181 behaviour-active commits separate `ac0cc65c5` from the recorded build `5cd2258dd`, and
-the by-class munchkin default changes the mode for Warriors/Druids/Rangers; the measured driver
+main. 181 commits separate the recorded build `5cd2258dd` from `ac0cc65c5` (the evidence document
+counted them as behaviour-active; this package does not re-verify that classification), and the
+by-class munchkin default changes the mode for Warriors/Druids/Rangers; the measured driver
 hardcodes its `borg.txt`, so a normal-mode rerun of the recorded trajectory was not possible. Both
 paired runs finished `turn_cap` alive at 1.2M turns with zero heal/cure actions; the fatal state
 itself is covered by the scenario fixture instead.
@@ -101,11 +102,12 @@ The committed matrix records are the v9 tip run (`docs/measurement/impact-v9/reg
 * after the 0099 crash correction (PR 398): +5 (`necrolight-crash`) = 230.
 * after I-002 (PR 414): +4 (`fleeheal-408`) = 234, the run recorded in `IMPACT-IMPROVEMENT2.md`.
 
-**The full matrix cannot be rerun from a clean checkout.** 36 of the `GROUPS` fixtures live under
-`.worktrees/<carry>/artifacts/...`, which is gitignored; those kits were untracked, are not on the
-`task/carry-*` branches, and were removed after the 2026-11-09 v9 review with no recorded cleanup.
-Their expected rows and log hashes survive in the v9 summary. The remaining baseline directories
-under `artifacts/` are generated logs and are also absent from a clean checkout by design.
+**The full matrix cannot be rerun from a clean checkout.** 36 of the 60 `GROUPS` entries point at
+fixtures under `.worktrees/<carry>/artifacts/...`, which is gitignored; those kits were untracked,
+are not on the `task/carry-*` branches, and were removed after the 2026-11-09 v9 review with no
+recorded cleanup. Their expected rows and log hashes survive in the v9 summary. The remaining
+baseline directories under `artifacts/` are generated logs and are also absent from a clean
+checkout by design.
 
 Owner decision 2026-11-10 (checkpoint 1): do not rebuild the 36 kits now; restore them in this
 milestone by committing each kit under `docs/audit/c-reports/<group>/`, verifying it reproduces the
@@ -153,7 +155,10 @@ unchanged this cycle.
   post-v9 groups. The gap is the deferred kit restoration below, not a hidden failure: each group
   added after v9 was run in full on its PR and recorded there.
 * 0099 is counted once in the ledger; the crash correction is attached to that entry
-  (`patches/series.json`), so the carry ordinal count is unchanged at 99.
+  (`patches/series.json`). No entry or patch file is added: `patches/series.json` still holds its
+  98 patch entries and `patches/` its 98 patch files, while the prose ordinals in
+  `patches/README.md` reach "ninetieth ... ninety-ninth" for the same units. This correction
+  changes neither count.
 
 ## Review
 
