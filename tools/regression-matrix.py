@@ -237,6 +237,11 @@ GROUPS = [
      ('banish', 'mass'), {}),
     ('necrolight-crash', 'docs/audit/c-reports/necrolight-296-crash', 'NL296',
      ('stale-town', 'stale-far', 'lit', 'dark', 'mage-lit'), {}),
+    # Source34 (issue 34, CBUG-0016): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-stairphase34.py.
+    ('stairphase-34', 'docs/audit/c-reports/stairphase-34', 'SP34',
+     ('upstair', 'antisummon', 'downstair', 'floor', 'climb'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
     # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,

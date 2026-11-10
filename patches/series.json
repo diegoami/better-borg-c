@@ -1864,6 +1864,24 @@
         "fix": "square_in_bounds(cave, borg.c) guard; stale position treated unlit",
         "fixture": "docs/audit/c-reports/necrolight-296-crash (matrix group necrolight-crash; fail-before: square_in_bounds assert abort pre-fix, NDEBUG product segfault per borg-rs)"
       }
+    },
+    {
+      "id": "STAIRPHASE-34",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/427",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/34",
+      "source_head": "2176cf71cebb4b2922e67a3516e3c82c283ed426",
+      "source_commits": [
+        "2176cf71cebb4b2922e67a3516e3c82c283ed426"
+      ],
+      "applied_commits": [
+        "293c0d71d3f89935c65c9703bf2f0f811b2b31e7"
+      ],
+      "patch": "patches/0100-stairphase-escape.patch",
+      "patch_active": true,
+      "evidence_ref": "1cb472f2e6fa72069346298a0e2baf27dfe863f2",
+      "verification": "docs/measurement/STAIRPHASE-34.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; upstair/antisummon flip with controls byte-identical; carried/open+patch-active after merge"
     }
   ]
 }
