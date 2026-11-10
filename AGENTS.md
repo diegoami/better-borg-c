@@ -113,4 +113,8 @@ neutral or helpful in one and loop or regress in another (0101: the
 unrestricted item_bad skip shifted the frozen cohort 2-3 levels shallower;
 restricted to the Lunal path it is neutral for a munchkin-mode Warrior).
 Record the per-configuration result and say which configurations are
-unreachable by construction; do not test one and generalise.
+unreachable by construction; do not test one and generalise. A configuration
+counts as neutral only when the changed branch is shown to execute there; a
+gate that disables the change makes two builds identical, which is not a
+measurement (0101a's first attempt gated on a class flag and was inert for
+Warrior/Druid/Ranger everywhere).

@@ -1,32 +1,31 @@
-From fea1e39c2000af5aac91a212d899e1560085870a Mon Sep 17 00:00:00 2001
+From 1ae61726ad70bc8d17d881d6a4906d040f4a2ae0 Mon Sep 17 00:00:00 2001
 From: Diego Amicabile <diego.amicabile@soprasteria.com>
-Date: Tue, 10 Nov 2026 14:29:43 +0100
-Subject: [PATCH] Restrict the Lunal take skip to non-munchkin mode
+Date: Tue, 10 Nov 2026 14:50:09 +0100
+Subject: [PATCH] Gate the Lunal take skip on the runtime mode
 
-The source fix skips every item borg_flow_take_lunal() marks bad.  In
-munchkin mode the borg deliberately collects what it can sell (the value
-test clears item_bad for those), and with the skip active the take flow
-returns false more often, so the borg falls into the climb branch and
-oscillates dive/climb at shallow depth (frozen cohort: seeds 11/29/47 end
-2-3 levels shallower).
+The previous correction used borg_cfg[BORG_MUNCHKIN_START], which is a
+class/config flag: for Warrior, Druid and Ranger it is true for the whole
+game, so the skip was disabled everywhere for those classes - including the
+Lunal path the defect was reported for - and the Warrior cohort could never
+exercise it.
 
-Keep the skip on the Lunal scumming path the defect was reported for, and
-leave munchkin mode's collection alone.  Size the effect per mode: all
-modes (merged 0101) shifts the cohort, non-munchkin does not.
+Use borg.munchkin_mode instead: the skip is active outside munchkin mode for
+every class, and inactive only while the borg is actually collecting to
+sell.
 ---
  src/borg/borg-flow-take.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/src/borg/borg-flow-take.c b/src/borg/borg-flow-take.c
-index a2523f6e2..135a27da3 100644
+index 135a27da3..40ec8b830 100644
 --- a/src/borg/borg-flow-take.c
 +++ b/src/borg/borg-flow-take.c
 @@ -839,7 +839,7 @@ bool borg_flow_take_lunal(bool viewable, int nearness)
          }
  
          /* Skip items the Borg does not want */
--        if (item_bad)
-+        if (item_bad && !borg_cfg[BORG_MUNCHKIN_START])
+-        if (item_bad && !borg_cfg[BORG_MUNCHKIN_START])
++        if (item_bad && !borg.munchkin_mode)
              continue;
  
          /* Get the grid */

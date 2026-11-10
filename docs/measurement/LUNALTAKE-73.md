@@ -85,3 +85,44 @@ munchkin-mode collection alone: `if (item_bad && !borg_cfg[BORG_MUNCHKIN_START])
 The two configurations partition the effect exactly: Lunal-only reproduces the pre-carry traces, munchkin-only reproduces the all-modes traces. All three seeds reach max depth 6 in every run; survival is 3/3 alive at cap in all configurations.
 The kit still passes in both phases with munchkin off (the Lunal behaviour it was written for),
 and its gold control is byte-identical.
+
+
+## Correction 2: the gate belongs on the runtime mode, not the config flag (2026-11-10)
+
+The first correction gated on `borg_cfg[BORG_MUNCHKIN_START]`. That is **not** the mode: it is a
+class/config flag, and `borg_munchkin_class_settings()` forces it true for Warrior, Druid and
+Ranger for the whole game (owner change, PR 302). Consequences:
+
+- for those three classes the gate was **always** false, so the skip was disabled everywhere,
+  including the Lunal path the defect was reported for;
+- the frozen cohort is a Human Warrior, so the "Lunal-only" run I compared was **identical code**
+  to the merged carry: the equal traces were a tautology, not a measurement;
+- the cohort cannot enter Lunal mode in any case: that needs `BORG_SELF_LUNAL`, preparation 15
+  levels deeper and `maxdepth >= depth + 15` (`borg-think-dungeon.c`), which a 20k-turn run to
+  depth 6 never satisfies.
+
+The gate is now the runtime mode, `borg.munchkin_mode` (commit `1ae61726a`):
+
+```c
+if (item_bad && !borg.munchkin_mode)
+    continue;
+```
+
+### Evidence that is not a tautology
+
+The kit gained a second mode. The same visible Dagger is run twice:
+
+| Mode | `borg.munchkin_mode` | Before (`ebedce47d`, config flag) | After (`1ae61726a`, runtime mode) |
+| --- | --- | --- | --- |
+| `dagger` | off | skipped (`walks_to_item=0`), pass | skipped, pass |
+| `dagger-munchkin` | **on** | **skipped, fails** - the config flag disabled the skip even in munchkin mode | **taken** (`walks_to_item=1`), pass |
+| `gold` | off | taken, pass | taken, **byte-identical** |
+
+So the before build fails the mode that the old gate got wrong, and the after build passes both:
+the gate is tested in both directions by a fixture, not inferred from a cohort.
+
+### What remains not exercised
+
+The Lunal path is exercised by the kit, not by the cohort. A cohort that reaches Lunal mode needs
+an explicit `borg_self_lunal` arm with a deeper cap; until the zoo defines one, the cohort result
+for this change is "munchkin mode, skip inactive" - **not exercised**, not "neutral".
