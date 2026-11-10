@@ -11,7 +11,6 @@ from pathlib import Path
 import shutil
 import subprocess
 import tarfile
-import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 GAME_PATHS = ['src', 'lib', 'CMakeLists.txt', 'configure.ac', 'Makefile.src']
@@ -103,7 +102,10 @@ def main():
     args.out.mkdir(parents=True, exist_ok=True)
     log = args.out / 'build.log'
     log.write_text('')
-    work = Path(tempfile.mkdtemp(prefix='bbc-release-'))
+    work = args.out / 'work'
+    if work.exists():
+        shutil.rmtree(work)
+    work.mkdir()
     assets = []
 
     diff = subprocess.run(['git', 'diff', '--binary', '--full-index', '--no-renames', base, ref, '--',
