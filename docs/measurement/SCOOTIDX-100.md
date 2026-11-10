@@ -50,7 +50,9 @@ per-configuration cohort effect (how often an adjacent monster and a scoot oppor
 in unrestricted, munchkin/Lunal and normal play) is recorded as **not measured**, not neutral,
 and belongs to the batch with the zoo's explicit arms (borg-zoo issue 54).
 
-Matrix group `scootidx-100` (3 cases) uses the `after-*.log` rows as its baseline.
+Matrix group `scootidx-100` (3 cases) uses the `after-*.log` rows as its baseline. Full matrix
+at this tree: 88 groups / 271 cases, `ok: true`, no failed group, 218/231 byte-identical; the
+13 byte differences are in the same six groups as before this carry, so no new difference.
 
 ## Ledger and credit
 
