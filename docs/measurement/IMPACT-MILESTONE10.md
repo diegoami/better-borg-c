@@ -129,10 +129,10 @@ product build on `c1a80e92c`:
 * `fleeheal-408` on its committed kit: 4/4 OK;
 * full matrix: 77 groups, **234 cases, `ok: true`, no failed group**, 183/234 cases byte-identical
   to their recorded baseline logs. The machine-readable run is committed as
-  `docs/measurement/impact-v10/regression-summary.json` (`at_commit: 6944d88e8`, the review
-  corrections; the earlier run at `c1a80e92c` had the kit files as working-tree files, and the
-  run was rerun at the corrections head so that the pin names the commit holding the exact kit
-  bytes the run read - the summary file itself lands in the recording commit after it).
+  `docs/measurement/impact-v10/regression-summary.json` (current run `at_commit: f3e3b4e71`,
+  the post-tag kit batch, with no `artifacts/` tree present at all; the reviewed head run was
+  `at_commit: 6944d88e8`, and the original run at `c1a80e92c` had the kits as working-tree
+  files - the pins name the commit holding the exact kit bytes each run read).
 
 The rows that differ from the v9 baseline rows are exactly the declared transitions in `GROUPS`
 (`vampire` `near-far`/`near-near` under `rows_must`, `dispel259` `reserve`/`clear` declared

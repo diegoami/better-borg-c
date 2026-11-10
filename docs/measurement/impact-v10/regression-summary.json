@@ -3,7 +3,7 @@
  "groups": {
   "swap": {
    "kind": "local",
-   "baseline": "artifacts/per-spell-carry/regressions/swap",
+   "baseline": "docs/audit/c-reports/swap",
    "cases": {
     "armour-better": {
      "exit": 0,
@@ -181,7 +181,7 @@
   },
   "knockout": {
    "kind": "local",
-   "baseline": "artifacts/per-spell-carry/regressions/knockout",
+   "baseline": "docs/audit/c-reports/knockout",
    "cases": {
     "knockout": {
      "exit": 0,
@@ -272,7 +272,7 @@
   },
   "preparation": {
    "kind": "local",
-   "baseline": "artifacts/per-spell-carry/regressions/preparation",
+   "baseline": "docs/audit/c-reports/preparation",
    "cases": {
     "regen-only": {
      "exit": 0,
@@ -522,7 +522,7 @@
   },
   "cold-protection": {
    "kind": "local",
-   "baseline": "artifacts/per-spell-carry/regressions/cold-protection",
+   "baseline": "docs/audit/c-reports/cold-protection",
    "cases": {
     "acid-only": {
      "exit": 0,
@@ -715,7 +715,7 @@
   },
   "rings": {
    "kind": "local",
-   "baseline": "artifacts/per-spell-carry/regressions/rings",
+   "baseline": "docs/audit/c-reports/rings",
    "cases": {
     "left-ready": {
      "exit": 0,
@@ -939,7 +939,7 @@
   },
   "potion-timing": {
    "kind": "local",
-   "baseline": "artifacts/per-spell-carry/regressions/potion-timing",
+   "baseline": "docs/audit/c-reports/potion-timing",
    "cases": {
     "long-gap": {
      "exit": 0,
@@ -1171,7 +1171,7 @@
   },
   "itangast": {
    "kind": "local",
-   "baseline": "artifacts/per-spell-carry/regressions/itangast",
+   "baseline": "docs/audit/c-reports/itangast",
    "cases": {
     "named-dragon": {
      "exit": 0,
@@ -1303,7 +1303,7 @@
   },
   "shot-path": {
    "kind": "local",
-   "baseline": "artifacts/per-spell-carry/shot-path-interaction",
+   "baseline": "docs/audit/c-reports/shot-path",
    "cases": {
     "clear-path": {
      "exit": 0,
@@ -2745,7 +2745,7 @@
   },
   "brand": {
    "kind": "local",
-   "baseline": "artifacts/b240/scenarios",
+   "baseline": "docs/audit/c-reports/brand",
    "cases": {
     "brand": {
      "exit": 0,
@@ -2782,7 +2782,7 @@
   },
   "stairtrack": {
    "kind": "local",
-   "baseline": "artifacts/s232/scenarios",
+   "baseline": "docs/audit/c-reports/stairtrack",
    "cases": {
     "known": {
      "exit": 0,
@@ -2823,7 +2823,7 @@
   },
   "acidarc": {
    "kind": "local",
-   "baseline": "artifacts/a252/scenarios",
+   "baseline": "docs/audit/c-reports/acidarc",
    "cases": {
     "edge": {
      "exit": 0,
@@ -2887,7 +2887,7 @@
   },
   "outoflight": {
    "kind": "local",
-   "baseline": "artifacts/o229/scenarios",
+   "baseline": "docs/audit/c-reports/outoflight",
    "cases": {
     "dying": {
      "exit": 0,
@@ -2962,7 +2962,7 @@
   },
   "mapwall": {
    "kind": "local",
-   "baseline": "artifacts/m212/scenarios",
+   "baseline": "docs/audit/c-reports/mapwall",
    "cases": {
     "door-close": {
      "exit": 0,
@@ -3020,7 +3020,7 @@
   },
   "enlightenment": {
    "kind": "local",
-   "baseline": "artifacts/e065/scenarios",
+   "baseline": "docs/audit/c-reports/enlightenment",
    "cases": {
     "dungeon": {
      "exit": 0,
@@ -3177,7 +3177,7 @@
   },
   "stairreturn": {
    "kind": "local",
-   "baseline": "artifacts/s230/scenarios",
+   "baseline": "docs/audit/c-reports/stairreturn",
    "cases": {
     "stairs-dead-torch": {
      "exit": 0,
@@ -3241,7 +3241,7 @@
   },
   "blowname": {
    "kind": "local",
-   "baseline": "artifacts/b247/scenarios",
+   "baseline": "docs/audit/c-reports/blowname",
    "cases": {
     "plain": {
      "exit": 0,
@@ -3259,7 +3259,7 @@
   },
   "excavate": {
    "kind": "local",
-   "baseline": "artifacts/e236/scenarios",
+   "baseline": "docs/audit/c-reports/excavate",
    "cases": {
     "excavate": {
      "exit": 0,
@@ -3300,7 +3300,7 @@
   },
   "calllight": {
    "kind": "local",
-   "baseline": "artifacts/cl231/scenarios",
+   "baseline": "docs/audit/c-reports/calllight",
    "cases": {
     "own-open-door": {
      "exit": 0,
@@ -3337,7 +3337,7 @@
   },
   "gloves": {
    "kind": "local",
-   "baseline": "artifacts/gl205/scenarios",
+   "baseline": "docs/audit/c-reports/gloves",
    "cases": {
     "glove-fa": {
      "exit": 0,
@@ -3395,7 +3395,7 @@
   },
   "detectcarry": {
    "kind": "local",
-   "baseline": "artifacts/dc219/scenarios",
+   "baseline": "docs/audit/c-reports/detectcarry",
    "cases": {
     "new-level": {
      "exit": 0,
@@ -3436,7 +3436,7 @@
   },
   "maimfoe": {
    "kind": "local",
-   "baseline": "artifacts/mf256/scenarios",
+   "baseline": "docs/audit/c-reports/maimfoe",
    "cases": {
     "wrong-return": {
      "exit": 0,
@@ -3488,7 +3488,7 @@
   },
   "recalldepth": {
    "kind": "local",
-   "baseline": "artifacts/rd310/scenarios",
+   "baseline": "docs/audit/c-reports/recalldepth",
    "cases": {
     "endgame": {
      "exit": 0,
@@ -4926,6 +4926,6 @@
  },
  "total_cases": 234,
  "ok": true,
- "at_commit": "6944d88e8",
- "note": "full matrix at the milestone 10 review-corrections commit (the earlier c1a80e92c run in this PR history had the kits as working-tree files); all 37 committed kits are in the tree, only the 22 0049-era groups still read the gitignored artifacts/ tree"
+ "at_commit": "f3e3b4e71",
+ "note": "full matrix with no artifacts/ tree present: all 60 local fixtures are committed under docs/audit/c-reports/, and the 17 KIT_GROUPS are fetched at their ledger evidence commits (full clone). The earlier runs at 6944d88e8 (reviewed head) and c1a80e92c (kits as working-tree files) are the same src state."
 }
