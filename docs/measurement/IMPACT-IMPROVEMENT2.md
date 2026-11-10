@@ -39,10 +39,16 @@ poisoned borg must not cure.
 
 ## Prevalence on recorded lives (issue question 2)
 
-The death-anchored event windows of all 25 collected dossiers D0006-D0030
-contain at least one `# Fleeing` note; in 20/25 the last fleeing note sits
-in the final 5% of the window - a consistency check only, since the windows
-are death-anchored by design, not a frequency estimate. Case-level: D0017
+The death-anchored event windows of the 25 collected dossiers in the working
+record (D0006-D0030) each contain at least one `# Fleeing` note when matched
+case-insensitively. Only 14 of those dossiers (D0006-D0019) are committed in
+this repository; D0020-D0030 are local death records, so this is a
+working-record consistency check, not a measurement reproducible from the
+repository. A turn-span recount on 2026-11-10 finds the last fleeing note in
+the final 5% of the window in 18/25; the original survey recorded 20/25 and
+the difference sits at the 5% boundary. The windows are death-anchored by
+design, so neither figure is a frequency estimate and no decision here
+depends on the fraction. Case-level: D0017
 (poison death while safe and alone, 9 CCW + Herbal Curing in pack), D0016
 (crow kill at 5/12 HP with 2 known CLW), D0012 (healing call skipped in the
 grey-mold loop). A per-turn frequency estimate would need new observer
