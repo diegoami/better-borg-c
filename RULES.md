@@ -94,3 +94,14 @@
     prospective survival AND long-term progress evidence before claiming benefit.
     This process request authorises documentation/evaluation, not automatic
     strategy implementation; bugs retain priority and original-C source routing.
+
+19. Mode-attribution for behaviour changes (owner, 2026-11-10): every
+    behaviour change is measured in each mode configuration it can reach -
+    unrestricted (all modes), munchkin/Lunal only, and normal only - because
+    those modes are not interchangeable: a change that is neutral in one can
+    loop or regress in another. Record which configurations were measured,
+    which were unreachable by construction, and the frozen-cohort result per
+    configuration (patch 0101 is the worked example: the unrestricted skip
+    made all three cohort seeds finish 2-3 levels shallower, while the same
+    skip restricted to the Lunal scumming path is neutral for a munchkin-mode
+    Warrior).
