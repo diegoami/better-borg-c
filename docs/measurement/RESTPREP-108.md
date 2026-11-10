@@ -37,6 +37,12 @@ objects would mix two layouts.
 The committed `before-*.log` / `after-*.log` and `result.json` are the product runs; the
 source kit's own rows and file hashes are in `receipt.json`, carried unchanged.
 
+The wrap is also visible in an independent prior fixture: the `preparation` group's
+`speed-wins` and `speed-only` cases now print `no_rest_prep=50000` where their committed
+baselines hold `-15536`, with identical decisions (`result=1 keys=3 sequence=mbb`). That is
+the negative wrapped timer that this carry removes; the full matrix reports it as a byte
+difference with matching rows, not a failure.
+
 ## Mode attribution
 
 This is a field-width change in a structure every mode uses: the level × 1000 assignments run
@@ -47,7 +53,10 @@ level 35 with the level-30 control unchanged. Which runtime configuration reache
 a measured cohort is a cohort question, recorded as **not measured** rather than neutral and
 owed to the batch with the zoo's explicit arms (borg-zoo issue 54).
 
-Matrix group `restprep-108` (2 cases) uses the `after-*.log` rows as its baseline.
+Matrix group `restprep-108` (2 cases) uses the `after-*.log` rows as its baseline. Full matrix
+at this tree: 83 groups / 254 cases, `ok: true`, no failed group, 201/214 byte-identical; the
+13 byte differences are in `dispel`, `dispel259`, `fleeheal-408`, `knockout`, `vampire` (the
+same groups as v10) plus `preparation`, explained above.
 
 ## Ledger and credit
 
