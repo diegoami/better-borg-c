@@ -1,0 +1,33 @@
+From 9d1a7f1d2a9b14a60261ce01381e79d940ef7532 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 17:07:21 +0100
+Subject: [PATCH] Borg: widen the no-rest-after-prep timer so it does not wrap
+
+The timer that keeps the Borg from resting right after a preparatory
+spell is set to character level * 1000 after Protection from Evil, Speed
+and similar spells. It was a 16-bit integer, so from character level 33
+the value wrapped negative (level 35 gave -30536) and the "do not rest
+just after a prep spell" checks treated it as already expired. The Borg
+then rested straight after casting the spell. Make it an int.
+
+Tracked as diegoami/neo-angband-tracker#108.
+---
+ src/borg/borg.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg.h b/src/borg/borg.h
+index 52c360cb4..6b94f7d06 100644
+--- a/src/borg/borg.h
++++ b/src/borg/borg.h
+@@ -222,7 +222,7 @@ struct borg_struct {
+     int16_t no_retreat; /* amount of time to not retreat */
+     int16_t resistance; /* borg is Resistant to all elements */
+ 
+-    int16_t no_rest_prep; /* borg won't rest for a few turns */
++    int     no_rest_prep; /* borg won't rest for a few turns */
+ 
+     int16_t times_twitch; /* how often twitchy on this level */
+     int16_t escapes; /* how often teleported on this level */
+-- 
+2.53.0
+
