@@ -115,12 +115,12 @@
   "milestone10_state": {
     "base_tag": "4.2.6-impact-v9",
     "runtime_snapshot": "33207fbeeb582e67d6b18e9f40613617667905ae",
-    "head": "25d1ce6a7",
+    "head": "3ae026e71 (PR 417, kit restoration)",
     "package": "docs/measurement/IMPACT-MILESTONE10.md",
     "units": "no new bug carry; improvement I-001 (PR 394, 8a0c1ba09), improvement I-002 (PR 414, 861ecb2da, receipt PR 415), 0099 crash correction (PR 398, fix dbc2bed77, attached to the 0099 ledger entry)",
-    "matrix": "v9 tip 225 cases (committed summary); 230 after necrolight-crash (+5); 234 after fleeheal-408 (+4); the 36 kits are now committed and GROUPS points there",
-    "restored_kits": "2026-11-10: the 36 prior-fixture kits copied unchanged into docs/audit/c-reports/<group>/ (scenario source, headers, profile, baseline logs) and GROUPS repointed; 91 restored cases rerun, zero unexpected row differences against the v9 baselines (four declared transitions unchanged); see docs/audit/c-reports/README.md",
-    "remaining_dependency": "the 0049-era groups still read their baselines from the gitignored artifacts/ tree, so a clean checkout cannot run those groups yet",
+    "matrix": "v9 tip 225 cases (committed summary); 230 after necrolight-crash (+5); 234 after fleeheal-408 (+4); the 36 kits are committed and GROUPS points there; full run committed as docs/measurement/impact-v10/regression-summary.json (77 groups, 234 cases, ok, at_commit c1a80e92c)",
+    "restored_kits": "2026-11-10 (PR 417, merged 3ae026e71): the 36 prior-fixture kits copied unchanged into docs/audit/c-reports/<group>/ (scenario source, headers, profile, baseline logs) and GROUPS repointed; 523 files verified byte-identical to the originals; 91 restored cases rerun, zero unexpected row differences against the v9 baselines (declared transitions unchanged); a fresh clone reran them 91/91; see docs/audit/c-reports/README.md",
+    "remaining_dependency": "23 local groups (22 0049-era plus fleeheal-408) still read their baselines from the gitignored artifacts/ tree",
     "tag_state": "no v10 tag; waits for the milestone 10 review verdict and explicit owner authorization",
     "next_action": "Create the milestone 10 review issue for the owner-launched reviewer"
   },
