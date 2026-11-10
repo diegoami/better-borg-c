@@ -269,5 +269,18 @@ committed kits all run from a clean clone.
    verdict approve with corrections, corrections applied.
 3. Commit the remaining 22 0049-era `artifacts/` baselines the same way, so the full matrix runs
    from a clean checkout without any gitignored dependency.
-4. Do not place a v10 tag until the owner authorizes it; as with v8 and v9, the tag would go on
-   the runtime snapshot, not on this package commit.
+4. ~~Do not place a v10 tag until the owner authorizes it~~ placed 2026-11-10 on explicit owner
+   authorization. As with v8 and v9 the tag is on the runtime snapshot, not on a package commit:
+   annotated `4.2.6-impact-v10` -> `6944d88e8`, the review-corrections commit whose `src/` and kit
+   bytes the committed v10 matrix run read; the package, the review record and the corrected
+   summary follow it on main.
+
+## Tag placement
+
+`4.2.6-impact-v10` is an annotated tag on runtime snapshot `6944d88e8`, placed 2026-11-10 under
+explicit owner authorization after the review's disposition (approve with corrections, then
+approve on re-review). The annotation records the units, the review, the matrix result, the
+cohort result and the residual `artifacts/` dependency; the tag object is
+`fa0f663987dc59662e554a14f5fa9a30872699ee`. The later docs-only corrections (`afab41036`,
+`46057bc4a`, `4adb4cd7a`) are on main but not inside the tag, exactly as the milestone 9 package
+followed its snapshot.

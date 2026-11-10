@@ -228,7 +228,9 @@ the runtime snapshot, not on a package commit.
 
 The milestone 10 review was posted on [issue 420](https://github.com/diegoami/better-borg-c/issues/420)
 on 2026-11-10: **approve with corrections**, findings `M10-R-01..07`, no blocking or major ones.
-All seven are applied in `6944d88e8`; see section 8.
+All seven are applied in `6944d88e8`, and a same-issue re-review at `46057bc4a` returned
+**approve**; see section 8. With that disposition in, the owner authorized the tag, and
+`4.2.6-impact-v10` is placed on `6944d88e8` (annotated, 2026-11-10).
 
 ## 8. Post-review corrections
 
