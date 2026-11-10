@@ -263,6 +263,12 @@ GROUPS = [
     ('takestair-71', 'docs/audit/c-reports/takestair-71', 'TS71',
      ('take', 'scum', 'lunal', 'control'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+
+    # Source108 (issue 108, CBUG-0092): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-restprep108.py.
+    ('restprep-108', 'docs/audit/c-reports/restprep-108', 'RP108',
+     ('pfe', 'clevel30'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
     # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,
