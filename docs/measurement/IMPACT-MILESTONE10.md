@@ -129,7 +129,10 @@ product build on `c1a80e92c`:
 * `fleeheal-408` on its committed kit: 4/4 OK;
 * full matrix: 77 groups, **234 cases, `ok: true`, no failed group**, 183/234 cases byte-identical
   to their recorded baseline logs. The machine-readable run is committed as
-  `docs/measurement/impact-v10/regression-summary.json` (`at_commit: c1a80e92c`).
+  `docs/measurement/impact-v10/regression-summary.json` (`at_commit: 6944d88e8`, the review
+  corrections; the earlier run at `c1a80e92c` had the kit files as working-tree files, and the
+  run was rerun and re-committed at the corrections head so the summary and the kits share one
+  commit).
 
 The rows that differ from the v9 baseline rows are exactly the declared transitions in `GROUPS`
 (`vampire` `near-far`/`near-near` under `rows_must`, `dispel259` `reserve`/`clear` declared
@@ -224,13 +227,43 @@ launches that reviewer, and it must not be represented as done.
 can open the milestone for the external reviewer with the remaining `artifacts/` dependency
 disclosed rather than with an un-restored kit gap.
 
+**External review, 2026-11-10:** the owner launched an independent reviewer on
+[issue 420](https://github.com/diegoami/better-borg-c/issues/420) with the prompt in this
+milestone's review map. The verdict was **approve with corrections**; the reviewer read the 53
+`src/` lines, reproduced the 0099 fail-before/pass-after on the v9 build, reran the 36 restored
+groups (91/91) and `necrolight-crash` (5/5), reproduced the summary and ledger comparisons at
+AST/JSON level, and reported seven documentation/evidence findings, no blocking or major ones.
+All seven are applied in commit `6944d88e8` (see the next section); nothing was recorded as not
+applied. The reviewer also confirmed the internal reviews' three applied findings against the
+tree. The v10 tag remains unplaced pending explicit owner authorization.
+
+## Review corrections (M10-R-01..07)
+
+All seven findings are applied in `6944d88e8`; none was recorded as not applied. No finding
+touched runtime behaviour, and the only `src/` change is a comment.
+
+| Finding | Severity | Disposition |
+| --- | --- | --- |
+| M10-R-01: the prevalence check counted 25 dossiers that are not all in the repository | minor | Applied: `IMPACT-IMPROVEMENT2.md` scopes the count to the working record, states that only D0006-D0019 are committed, and records the recount (18/25 at the 5% boundary; the survey's 20/25 differs only there). No conclusion depended on the fraction. |
+| M10-R-02: I-002's fixture baselines were uncommitted, so the unit could not be rerun from the repo | minor | Applied: the baselines are committed under `docs/audit/c-reports/fleeheal-408/` and `GROUPS` points there; the group reruns 4/4 and the residual `artifacts/` dependency is now the 22 0049-era groups only. |
+| M10-R-03: the map's C6 claimed window-wide unchanged transitions | nit | Applied: scoped to the restoration commit `0263951f8`, with the later m9 declarations and the fleeheal repoint named separately. |
+| M10-R-04: the committed run's `at_commit` did not express its relation to the kit commit | nit | Applied: the full run was rerun at the corrections head and re-committed with `at_commit: 6944d88e8`; the README states the working-tree-to-commit relation and uses one build reference. |
+| M10-R-05: the v9.1 release tag was not in the tag accounting | nit | Applied: `4.2.6-impact-v9.1` and branch `release/4.2.6-impact-v9.1` are named in the exclusions, with PR 413's cherry-pick. |
+| M10-R-06: `borg_thrust_damage_one` was documented as per-blow damage | nit | Applied: the comment now says per-round damage (per-blow times the blow count). Comment only; the guard's behaviour is unchanged. |
+| M10-R-07: the I-003 negative-result record lived only on the pushed branch | nit | Applied: `docs/measurement/STARTBUY-410-REJECTED.md` is cherry-picked to main; no policy code is merged. |
+
+After the corrections: full matrix 77 groups / **234 cases, `ok: true`**, zero unexpected row
+differences against the v9 baselines, 183/234 byte-identical; `allunittests` 965/965; the 37
+committed kits all run from a clean clone.
+
 ## Exact next work
 
 1. ~~Restore the 36 `.worktrees` kits~~ done in the restoration PR: committed unchanged under
    `docs/audit/c-reports/<group>/`, `GROUPS` repointed, and the restored groups verified against
    the v9 baseline rows.
-2. Create the milestone 10 review issue and let the owner launch the reviewer.
-3. Commit the 0049-era `artifacts/` baseline trees the same way, so the full matrix runs from a
-   clean checkout without any gitignored dependency.
-4. Do not place a v10 tag until the review returns a verdict and the owner authorizes it; as with
-   v8 and v9, the tag would go on the runtime snapshot, not on this package commit.
+2. ~~Create the milestone 10 review issue and let the owner launch the reviewer~~ done: issue 420,
+   verdict approve with corrections, corrections applied.
+3. Commit the remaining 22 0049-era `artifacts/` baselines the same way, so the full matrix runs
+   from a clean checkout without any gitignored dependency.
+4. Do not place a v10 tag until the owner authorizes it; as with v8 and v9, the tag would go on
+   the runtime snapshot, not on this package commit.

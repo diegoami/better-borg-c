@@ -115,16 +115,17 @@
   "milestone10_state": {
     "base_tag": "4.2.6-impact-v9",
     "runtime_snapshot": "33207fbeeb582e67d6b18e9f40613617667905ae",
-    "head": "3ae026e71 (PR 417, kit restoration)",
+    "head": "6944d88e8 (review corrections)",
     "package": "docs/measurement/IMPACT-MILESTONE10.md",
     "units": "no new bug carry; improvement I-001 (PR 394, 8a0c1ba09), improvement I-002 (PR 414, 861ecb2da, receipt PR 415), 0099 crash correction (PR 398, fix dbc2bed77, attached to the 0099 ledger entry)",
-    "matrix": "v9 tip 225 cases (committed summary); 230 after necrolight-crash (+5); 234 after fleeheal-408 (+4); the 36 kits are committed and GROUPS points there; full run committed as docs/measurement/impact-v10/regression-summary.json (77 groups, 234 cases, ok, at_commit c1a80e92c)",
-    "restored_kits": "2026-11-10 (PR 417, merged 3ae026e71): the 36 prior-fixture kits copied unchanged into docs/audit/c-reports/<group>/ (scenario source, headers, profile, baseline logs) and GROUPS repointed; 523 files verified byte-identical to the originals; 91 restored cases rerun, zero unexpected row differences against the v9 baselines (declared transitions unchanged); a fresh clone reran them 91/91; see docs/audit/c-reports/README.md",
-    "remaining_dependency": "23 local groups (22 0049-era plus fleeheal-408) still read their baselines from the gitignored artifacts/ tree",
-    "tag_state": "no v10 tag; waits for the milestone 10 review verdict and explicit owner authorization",
-    "next_action": "Owner launches an independent reviewer on issue 420 with the prompt from docs/review/MILESTONE10.md section 6; then apply or record the M10-xx findings and place no tag until the verdict and owner authorization",
+    "matrix": "v9 tip 225 cases; 230 after necrolight-crash (+5); 234 after fleeheal-408 (+4); 37 committed kits (36 restored + fleeheal-408); full run committed as docs/measurement/impact-v10/regression-summary.json (77 groups, 234 cases, ok, at_commit 6944d88e8)",
+    "restored_kits": "2026-11-10: the 36 prior-fixture kits copied unchanged into docs/audit/c-reports/<group>/ and GROUPS repointed (PR 417); 523 files verified byte-identical to the originals; 91 restored cases rerun, zero unexpected row differences against the v9 baselines; a fresh clone reran them 91/91. I-002 baselines committed as docs/audit/c-reports/fleeheal-408 (M10-R-02), 4/4",
+    "remaining_dependency": "22 local groups (all 0049-era) still read their baselines from the gitignored artifacts/ tree",
+    "tag_state": "no v10 tag; the review verdict is in, the tag waits for explicit owner authorization and would go on the runtime snapshot",
+    "next_action": "Owner decides on placing 4.2.6-impact-v10 on the runtime snapshot 33207fbee; optionally commit the 22 0049-era artifacts baselines the same way",
     "review_package": "docs/review/MILESTONE10.md (PR 419, merged 2ebe5dafc): whole-window review map, v9 tag 33207fbee -> 4f837667a, claims C1-C12, model-agnostic prompt",
-    "review_issue": "https://github.com/diegoami/better-borg-c/issues/420"
+    "review_issue": "https://github.com/diegoami/better-borg-c/issues/420",
+    "review_verdict": "approve with corrections (issue 420, 2026-11-10): M10-R-01..07, none blocking or major, all applied in 6944d88e8; the reviewer reproduced the 0099 fail-before/pass-after and reran the committed kits"
   },
   "owner_preferences": {
     "death_collection_mode": "normal Borg; no new munchkin game runs unless owner explicitly requests again (2026-11-08)"

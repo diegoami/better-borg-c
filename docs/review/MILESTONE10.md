@@ -17,10 +17,14 @@ and everything this document says, as a claim to verify.
 | Head | `4f837667a` (PR 418, current `origin/main` when this package was written) |
 | Size | 65 commits, 25 merged PRs (first-parent), 662 files changed |
 | Compare view | https://github.com/diegoami/better-borg-c/compare/4.2.6-impact-v9...4f837667a |
-| Runtime surface | 3 commits, 4 files, +53/-3 lines - this is the whole gameplay change |
+| Runtime surface | 3 commits, 4 files, +53/-3 lines at the reviewed head (+54/-3 after the M10-R-06 comment fix, section 8) - the whole gameplay change |
 
 If the head has moved since, review the commit you actually inspected and name it; the
 behaviour claims are anchored to the three `src/` commits, not to the head.
+
+**Post-review head:** `6944d88e8` (the M10-R corrections, section 8). Against the reviewed
+`4f837667a` it adds the I-002 kit (9 files), the I-003 record (1 file), the corrections themselves
+and one comment line in `src/`; no behaviour changes.
 
 A git tag cannot be a pull-request base, so the range is reviewed through the compare link
 above rather than as a PR's own "Files changed" tab. Everything else (evidence, commands,
@@ -221,3 +225,26 @@ pattern) or attaches it to this package; the findings are then numbered `M10-01.
 recorded as not applied, exactly as milestone 9 did in PR 381. The tag `4.2.6-impact-v10` stays
 unplaced until that verdict exists and the owner authorises it; as with v8 and v9 it would go on
 the runtime snapshot, not on a package commit.
+
+The milestone 10 review was posted on [issue 420](https://github.com/diegoami/better-borg-c/issues/420)
+on 2026-11-10: **approve with corrections**, findings `M10-R-01..07`, no blocking or major ones.
+All seven are applied in `6944d88e8`; see section 8.
+
+## 8. Post-review corrections
+
+The corrections change the head from the `4f837667a` reviewed above to `6944d88e8`. None of them
+touches runtime behaviour; the only `src/` change is the comment in M10-R-06.
+
+| Finding | What changed |
+| --- | --- |
+| M10-R-01 | `IMPACT-IMPROVEMENT2.md`: the prevalence count is scoped to the working record, says only D0006-D0019 are committed, and records the turn-span recount (18/25 at the 5% boundary against the survey's 20/25). |
+| M10-R-02 | `docs/audit/c-reports/fleeheal-408/` (8 baseline logs + profile) is committed and `GROUPS` repointed; `fleeheal-408` reruns 4/4. The residual `artifacts/` dependency drops to the 22 0049-era groups. |
+| M10-R-03 | This map's C6 is scoped to the restoration commit; the later `GROUPS` changes are named. |
+| M10-R-04 | The full run is rerun at `6944d88e8` and re-committed, so `impact-v10/regression-summary.json` and the kits share one commit; the README states the working-tree relation and uses one build reference. |
+| M10-R-05 | `4.2.6-impact-v9.1` (branch `release/4.2.6-impact-v9.1`) is named in the package exclusions. |
+| M10-R-06 | The `borg_thrust_damage_one` comment now says per-round damage; comment only. |
+| M10-R-07 | `docs/measurement/STARTBUY-410-REJECTED.md` is cherry-picked to main; no policy code merged. |
+
+Reverified at the corrections head: `allunittests` 965/965; full matrix 77 groups / 234 cases,
+`ok: true`, zero unexpected row differences against the v9 baselines, 183/234 byte-identical; a
+fresh clone runs all 37 committed kits (95 cases).

@@ -4283,7 +4283,7 @@
   },
   "fleeheal-408": {
    "kind": "local",
-   "baseline": "artifacts/fleeheal-408",
+   "baseline": "docs/audit/c-reports/fleeheal-408",
    "cases": {
     "flee-low": {
      "exit": 0,
@@ -4926,6 +4926,6 @@
  },
  "total_cases": 234,
  "ok": true,
- "at_commit": "c1a80e92c",
- "note": "full matrix at the v10 package head with the 36 prior-fixture kits committed under docs/audit/c-reports/; needs the gitignored artifacts/ tree only for the 0049-era groups"
+ "at_commit": "6944d88e8",
+ "note": "full matrix at the milestone 10 review-corrections commit (the earlier c1a80e92c run in this PR history had the kits as working-tree files); all 37 committed kits are in the tree, only the 22 0049-era groups still read the gitignored artifacts/ tree"
 }
