@@ -118,3 +118,13 @@ counts as neutral only when the changed branch is shown to execute there; a
 gate that disables the change makes two builds identical, which is not a
 measurement (0101a's first attempt gated on a class flag and was inert for
 Warrior/Druid/Ranger everywhere).
+
+Experiment zoo (owner, 2026-11-10): the seed-suite zoo is the separate
+repository diegoami/borg-zoo and runs in its own session; this repository
+provides the runner it pins. Zoo work is filed there, not here (a PR opened
+here for it was closed as mis-filed). The zoo is restarting its experiments on
+explicit mode profiles (its issue 54) because its default profile inherited
+borg defaults, which the class rule changed (PR 302), and it had no Lunal arm.
+The carries merged here since the v10 tag (0100-0103) record their per-mode
+effect as not measured; that measurement is owed to the batch and belongs to
+the zoo arms.

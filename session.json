@@ -89,11 +89,10 @@
   "impact_milestone_v3": "https://github.com/diegoami/better-borg-c/milestone/3",
   "external_review_package_v3": "https://github.com/diegoami/better-borg-c/issues/128",
   "current_task": {
-    "issue": "https://github.com/diegoami/better-borg-c/issues/392",
-    "branch": "task/verify-diverge-392",
-    "worktree": ".worktrees/verify-diverge",
-    "state": "replay-divergence-stop-and-watchdog-hardening-implemented-native-evidence-complete-PR-pending",
-    "instructions": "docs/measurement/RECORD-REPLAY.md (counterfactual replays stop at the first divergent action)"
+    "issue": "https://github.com/diegoami/better-borg-c/issues/426",
+    "branch": "task/carry-<name>, one branch and PR per source unit",
+    "state": "v11 carry cycle in progress: patches 0100-0103 merged; 0102 and 0103 carried under the impact triage; next in the order is source71",
+    "instructions": "issues/426 (queue, impact triage and order); RULES 19 and AGENTS (mode-attribution rule); docs/measurement/LUNALTAKE-73.md (the mode-gate lesson); docs/measurement/FLOWKILLHALL-98.md and HITCHANCE-63.md (the no-gate carry pattern)"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
   "impact_milestone_v4": "https://github.com/diegoami/better-borg-c/milestone/4",
@@ -131,5 +130,22 @@
   "owner_preferences": {
     "death_collection_mode": "normal Borg; no new munchkin game runs unless owner explicitly requests again (2026-11-08)"
   },
-  "external_review_package_v10": "https://github.com/diegoami/better-borg-c/issues/420"
+  "external_review_package_v10": "https://github.com/diegoami/better-borg-c/issues/420",
+  "carry_cycle_v11": {
+    "queue": "https://github.com/diegoami/better-borg-c/issues/426 (32 released source pairs; impact triage posted 2026-11-10)",
+    "merged": [
+      "0100 STAIRPHASE-34 (source34, PR 428, c54393aa6) - stair escape queues only <",
+      "0101 LUNALTAKE-73 (source73, PR 430, c16c56405) - skip marked-bad items in the Lunal take",
+      "0101a LUNALTAKE-73 correction (PR 433 then PR 434, 9ca986616) - gate on borg.munchkin_mode; the first attempt gated on borg_cfg[BORG_MUNCHKIN_START] and was inert for Warrior/Druid/Ranger everywhere (superseded fea1e39c2)",
+      "0102 FLOWKILLHALL-98 (source98, PR 436, 281e3dd8d) - per-monster skip/hall state in borg_flow_kill",
+      "0103 HITCHANCE-63 (source63, PR 438, d624c29d) - armour divided by the monster's to-hit in the melee danger estimate"
+    ],
+    "ledger": "102 entries; last is HITCHANCE-63, patch 0103",
+    "matrix": "83 groups / 248 cases, ok, at d624c29d; every local fixture is committed, no artifacts/ dependency",
+    "next": "source71 (take flow from the nearest up staircase), then 108, 234, then the danger fixes 61, 66, 68, 100; the full order is in issue 426",
+    "mode_attribution_debt": "0100-0103 are unconditional shared-code changes, so each records its per-mode effect as NOT MEASURED (not neutral). The batch measurement with explicit arms is owed; the arms live in borg-zoo (issue 54).",
+    "zoo": "diegoami/borg-zoo is a separate repository and session. better-borg-c #435 was closed as mis-filed. Zoo issue 54 covers explicit mode profiles, the experiment restart and the pin bump: specimen 4.2.6-bbc-m10 is 6944d88e8, which predates 0100-0103; harness pin fc9d97cb.",
+    "known_flake": "The unit gate returned 964/965 once at 281e3dd8d and 965/965 on the immediate rerun (CI green on the same tree). Not diagnosed; if it recurs, bisect rather than dismiss.",
+    "next_action": "Claim source71, carry it with the established process (before gate, cherry-pick -x, after gate, kit unchanged, verifier, matrix, ledger, receipt), then continue down the issue-426 order."
+  }
 }
