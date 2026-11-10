@@ -1,0 +1,40 @@
+From 8b5ab27a81e46d95a87f4aca100cf2beca213171 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:47:09 +0000
+Subject: [PATCH] Borg: check the sold item's own ego for unknown random powers
+
+borg_good_sell() refuses to sell a single unidentified ego item whose
+ego type carries a random power, sustain or resist, so that the item is
+not given away before that power is known.  The check looked up the ego
+of the worn cloak (borg_items[INVEN_OUTER]) instead of the item being
+considered.
+
+So a borg wearing a plain cloak and carrying an unidentified Cloak of
+Aman next to it treated the Cloak of Aman as safe to sell, and a borg
+wearing a random-power ego cloak applied the rule to every other ego
+item.
+
+Look up the ego of the item being sold.
+
+Tracked as diegoami/neo-angband-tracker#133.
+---
+ src/borg/borg-store-sell.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-store-sell.c b/src/borg/borg-store-sell.c
+index 9fcfd53b3..ceba1f89e 100644
+--- a/src/borg/borg-store-sell.c
++++ b/src/borg/borg-store-sell.c
+@@ -918,8 +918,7 @@ static bool borg_good_sell(borg_item *item, int who)
+ 
+     /* Do not sell stuff that is not fully id'd and should be  */
+     if (!item->ident && item->ego_idx && item->iqty < 2) {
+-        if (borg_ego_has_random_power(
+-                &e_info[borg_items[INVEN_OUTER].ego_idx])) {
++        if (borg_ego_has_random_power(&e_info[item->ego_idx])) {
+             return false;
+         }
+     }
+-- 
+2.53.0
+
