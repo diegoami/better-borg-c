@@ -105,3 +105,12 @@ stopped without a handoff, or that shows no checkpoint activity since its
 claim, is stale: another lane may take over after noting the takeover in the
 claim thread and re-assigning. Claims do not change review, gate or merge
 rules; they only prevent duplicate work.
+
+Owner rule (2026-11-10): a behaviour change is tested in each mode
+configuration it can reach - unrestricted (all modes), munchkin/Lunal only,
+and normal only. These modes are completely different: a change can be
+neutral or helpful in one and loop or regress in another (0101: the
+unrestricted item_bad skip shifted the frozen cohort 2-3 levels shallower;
+restricted to the Lunal path it is neutral for a munchkin-mode Warrior).
+Record the per-configuration result and say which configurations are
+unreachable by construction; do not test one and generalise.

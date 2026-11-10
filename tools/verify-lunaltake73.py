@@ -28,7 +28,7 @@ import subprocess
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFORE = 'c54393aa6af5983e312bcfee367f46bf4939ffcb'
+BEFORE = 'c16c5640515a9da868e6907b0d28ca079c4350c9'
 FIX = '45423c1c8d99bc7846dc8503fa0a2be0e5c7e149'
 EVIDENCE = '0b39bdd149967fd9e866525a4e3b988fa7673584'
 PREFIX = 'docs/audit/c-reports/lunaltake-73/'
@@ -69,15 +69,16 @@ def main():
 
     before, build = args.before_build.resolve(), args.product_build.resolve()
 
-    source_diff = subprocess.check_output(
-        ['git', 'diff', FIX + '^', FIX, '--', SOURCE], cwd=ROOT)
-    with tempfile.TemporaryDirectory(dir='/tmp/opencode') as tmp:
-        d = Path(tmp)
-        (d / SOURCE).parent.mkdir(parents=True)
-        (d / SOURCE).write_bytes(read(BEFORE, SOURCE))
-        subprocess.run(['patch', '-p1', '-s'], input=source_diff, cwd=d, check=True)
-        layered = (d / SOURCE).read_bytes()
-    assert (ROOT / SOURCE).read_bytes() == layered, 'product module != before + source diff'
+    # Correction provenance: the before module already carries the source fix
+    # (merged as patch 0101); the product module must equal it with exactly the
+    # mode gate added.
+    gate_old = b'        if (item_bad)\n            continue;'
+    gate_new = (b'        if (item_bad && !borg_cfg[BORG_MUNCHKIN_START])\n'
+                b'            continue;')
+    before_module = read(BEFORE, SOURCE)
+    assert before_module.count(gate_old) == 1, 'merged source hunk not found in before'
+    assert (ROOT / SOURCE).read_bytes() == before_module.replace(gate_old, gate_new), \
+        'product module != before + mode gate'
     fix_scope = subprocess.check_output(
         ['git', 'diff', '--name-only', FIX + '^', FIX, '--', 'src', 'lib',
          'CMakeLists.txt', 'cmake'], cwd=ROOT, text=True).split()
@@ -102,7 +103,7 @@ def main():
         'fixture_commit': evidence,
         'fixture_sha256': sha(out / 'scenario.c'),
         'source_fix': FIX, 'fix': args.fix,
-        'provenance': 'source diff applied to the before module == product module',
+        'provenance': 'before module (source fix merged) + mode gate == product module',
         'before_commit': BEFORE,
         'before_native_gate': before_gate,
         'before_binary_sha256': sha(before / 'game/angband'),
@@ -144,14 +145,16 @@ def main():
         (out / 'result.json').write_text(json.dumps(report, indent=2) + '\n')
 
     b, a = report['phases']['before']['cases'], report['phases']['after']['cases']
+    # This correction keeps the Lunal behaviour the kit verifies: with munchkin
+    # off both phases skip the marked-bad Dagger and still take the gold.
     for mode in MODES:
         assert b[mode]['exit'] == 0 and a[mode]['exit'] == 0, mode
-        assert b[mode]['passed'] is EXPECT[mode][0], ('before pass', mode)
-        assert a[mode]['passed'] is EXPECT[mode][1], ('after pass', mode)
-    assert b['dagger']['outcome'] == {'walks_to_item': 1}, b['dagger']['outcome']
-    assert a['dagger']['outcome'] == {'walks_to_item': 0}, a['dagger']['outcome']
+        assert b[mode]['passed'] and a[mode]['passed'], ('pass', mode)
+    assert b['dagger']['outcome'] == a['dagger']['outcome'] == {'walks_to_item': 0}
     assert b['gold']['outcome'] == a['gold']['outcome'] == {'walks_to_item': 1}
     assert b['gold']['log_sha256'] == a['gold']['log_sha256'], 'gold control changed'
+    # The gate itself is proven by the provenance check above (module == before
+    # + gate) and by the frozen cohort, which returns to the pre-0101 trace.
     report['verified'] = True
     (out / 'result.json').write_text(json.dumps(report, indent=2) + '\n')
 

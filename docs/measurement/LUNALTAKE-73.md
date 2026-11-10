@@ -55,3 +55,33 @@ passes 2/2. Tooling: 144 tests.
 `patches/series.json` `LUNALTAKE-73`, patch-active; consumer issue #429. Source defect, fix and
 native fixture by Diego Amicabile (native proposal/evidence); carried unchanged apart from the two
 disclosed profile adaptations.
+
+
+## Correction: the skip applies to Lunal mode only (2026-11-10)
+
+The carried source fix skipped **every** item marked bad, in both modes that call
+`borg_flow_take_lunal()`. The frozen v1 cohort then moved: seeds 11/29/47 all finished
+**2-3 levels shallower** and two of them spent much of the last third of the run oscillating
+dive/climb at shallow depth (`# Munchkin Mode.  Power Climb (needing to sell).`,
+`# Fleeing level. Munchkin Mode.`). In munchkin mode the borg deliberately collects what it can
+sell - the value test already clears `item_bad` for saleable items - so the skip mostly removed
+the items that kept the take flow busy; with nothing to take, control fell into the climb branch
+and the loop followed. Selling is disabled in the cohort (`birth_no_selling`), so the climb could
+never pay off.
+
+The correction keeps the skip on the Lunal scumming path the defect was reported for and leaves
+munchkin-mode collection alone: `if (item_bad && !borg_cfg[BORG_MUNCHKIN_START]) continue;`
+(patch `0101a`, commit `fea1e39c2`).
+
+### Mode-attribution (owner rule 2026-11-10)
+
+| Configuration | Frozen v1 cohort (seeds 11/29/47, 20k turns) |
+| --- | --- |
+| **All modes** (merged 0101, ungated) | end depth **1 / 4 / 2** (pre-carry 4 / 6 / 5); traces diverge |
+| **Lunal only** (non-munchkin, `0101a`) | end depth **4 / 6 / 5**; traces **byte-identical** to the pre-carry run |
+| **Munchkin only** (complement, measured) | end depth **1 / 4 / 2**; traces **byte-identical to the all-modes run**, so the whole shift is attributable to munchkin mode |
+| **Normal only** | unreachable by construction: the function is called only from the Lunal and Munchkin thinkers (`borg-think-dungeon.c` lines 224 and 584); normal exploration uses `borg_flow_take()` |
+
+The two configurations partition the effect exactly: Lunal-only reproduces the pre-carry traces, munchkin-only reproduces the all-modes traces. All three seeds reach max depth 6 in every run; survival is 3/3 alive at cap in all configurations.
+The kit still passes in both phases with munchkin off (the Lunal behaviour it was written for),
+and its gold control is byte-identical.
