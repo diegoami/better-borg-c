@@ -142,8 +142,12 @@ The review's two observations outside the window are recorded in `session.json`:
 merge conflicts in `borg-item-wear.c` exactly as it already does at the v10 baseline, so it is
 pre-existing integration debt for a separate upstream-integration PR, not a v11 regression.
 
-## Tag
+## Tag placement
 
-`4.2.6-impact-v11` is **not placed**. As with v8/v9/v10 it goes on the runtime snapshot (the
-`src/` state under review), not on a package commit. The review verdict is in (approve with
-corrections, applied above); placement still awaits the owner's explicit authorization.
+`4.2.6-impact-v11` is an annotated tag on runtime snapshot `39268ca8a`, placed 2026-11-10 under
+explicit owner authorization after the review's verdict (approve with corrections; F1-F5 applied
+in `981be4a1d`, docs and the `0101a` patch only). The annotation records the 18 units, the review,
+the matrix result and the cohort statement; the tag object is
+`443ba5c485bd1fa5267a677e44370d8ddb753c15`. The corrections commit and this tag record follow on
+main but are not inside the tag, exactly as the milestone 9 and 10 packages followed their
+snapshots; neither changes code or a baseline row.

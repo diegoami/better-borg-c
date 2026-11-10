@@ -121,8 +121,9 @@ Each is checkable from the clone unless marked otherwise.
   Warrior/Druid/Ranger) and was inert for those classes everywhere; `1ae61726a` gates on
   `borg.munchkin_mode` and the fixture runs the same marked-bad Dagger with the mode off (skipped)
   and on (taken). The unrestricted cohort regression is disclosed in the unit doc.
-* **C9 process claims.** No upstream or source-tracker posting, no Rust/borg-rs work, no v11 tag;
-  the tag is reserved for the runtime snapshot after the verdict and the owner's authorization.
+* **C9 process claims.** No upstream or source-tracker posting and no Rust/borg-rs work. The v11
+  tag was not placed when this map was written; it was placed afterwards on the runtime snapshot
+  `39268ca8a` under explicit owner authorization (tag object `443ba5c4`), as section 7 records.
 * **C10 unit gate.** Every merge ran the native gate 965/965 unit and 5/5 frontend (CI), and each
   verifier's before/tip gates are recorded in its `result.json` where one is committed. The four
   earliest kits (0100-0103) commit their before/after logs instead, which are the matrix baselines;
