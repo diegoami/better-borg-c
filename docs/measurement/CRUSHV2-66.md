@@ -49,7 +49,9 @@ not neutral, and belongs to the batch with the zoo's explicit arms (borg-zoo iss
 the second of the three `borg-danger.c` fixes; the batch notes they compound, so attributing an
 effect requires measuring them one at a time on the same arm.
 
-Matrix group `crushv2-66` (4 cases) uses the `after-*.log` rows as its baseline.
+Matrix group `crushv2-66` (4 cases) uses the `after-*.log` rows as its baseline. Full matrix
+at this tree: 86 groups / 265 cases, `ok: true`, no failed group, 212/225 byte-identical; the
+13 byte differences are in the same six groups as before this carry, so no new difference.
 
 ## Ledger and credit
 
