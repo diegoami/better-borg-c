@@ -1,0 +1,56 @@
+From 571380b3d4724a37a639dc96f2a9a16782f33d94 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 17:59:54 +0000
+Subject: [PATCH] borg: restore the pack slot after each home swap trial
+
+borg_think_home_buy_swap_weapon() and borg_think_home_buy_swap_armour()
+try each home item in the pack slot of the swap the Borg already carries
+(or in the first empty slot when it carries none). After each trial they
+only set that slot's quantity to zero. When the slot held the current
+swap, the Borg's inventory record then lost that swap for the rest of the
+store turn: step 7B evaluated armour backups as if the backup weapon were
+gone, and the last notice of each step saw no swap in the pack.
+
+With a backup weapon that resists nether in the pack and the amulet
+'Evenstar' (also resists nether) in the home, the Borg therefore credited
+the amulet with the high-resist bonus its backup weapon already covers,
+took it from the home, stored it again on the next turn and took it back
+on the turn after, leaving with a redundant amulet in its pack.
+
+Restore the slot from safe_items after each trial, as the other home
+trial loops do. An empty slot is restored to empty, as before.
+
+Tracked as diegoami/neo-angband-tracker#31.
+---
+ src/borg/borg-store-buy.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/src/borg/borg-store-buy.c b/src/borg/borg-store-buy.c
+index e6841a92f..453efe209 100644
+--- a/src/borg/borg-store-buy.c
++++ b/src/borg/borg-store-buy.c
+@@ -1017,8 +1017,8 @@ bool borg_think_home_buy_swap_weapon(void)
+             p = weapon_swap_value;
+         }
+ 
+-        /* Restore hole */
+-        borg_items[hole].iqty = 0;
++        /* Restore hole (the current swap, if the trial used its slot) */
++        memcpy(&borg_items[hole], &safe_items[hole], sizeof(borg_item));
+ 
+         /* Restore shop item */
+         memcpy(&borg_shops[BORG_HOME].ware[n], &borg_safe_shops[BORG_HOME].ware[n],
+@@ -1126,8 +1126,8 @@ bool borg_think_home_buy_swap_armour(void)
+         /* Evaluate the new equipment */
+         p = armour_swap_value;
+ 
+-        /* Restore hole */
+-        borg_items[hole].iqty = 0;
++        /* Restore hole (the current swap, if the trial used its slot) */
++        memcpy(&borg_items[hole], &safe_items[hole], sizeof(borg_item));
+ 
+         /* Restore shop item */
+         memcpy(&borg_shops[BORG_HOME].ware[n],
+-- 
+2.53.0
+
