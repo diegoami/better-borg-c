@@ -317,6 +317,12 @@ GROUPS = [
     ('ringslot-86', 'docs/audit/c-reports/ringslot-86', 'RS86',
      ('swap', 'mirror', 'empty'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+
+    # Source31 (issue 31, CBUG-0012): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-swaptrial31.py.
+    ('swaptrial-31', 'docs/audit/c-reports/swaptrial-31', 'ST31',
+     ('swap-held', 'no-weapon-swap', 'no-candidate'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
     # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,
