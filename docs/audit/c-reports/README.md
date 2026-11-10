@@ -51,10 +51,9 @@ values).
 
 ## Residual dependency
 
-The 0049-era groups (swap, knockout, preparation, cold-protection, rings,
-potion-timing, itangast, shot-path, brand, stairtrack, acidarc, outoflight,
-mapwall, enlightenment, stairreturn, blowname, excavate, calllight, gloves,
-detectcarry, maimfoe, recalldepth, banish, ...) still read their baseline
-trees from the gitignored `artifacts/` directory. A clean checkout can run the
-kits here but not those groups until those baselines are committed the same
-way.
+23 local groups still read their baseline trees from the gitignored `artifacts/` directory: the 22
+0049-era groups (swap, knockout, preparation, cold-protection, rings, potion-timing, itangast,
+shot-path, brand, stairtrack, acidarc, outoflight, mapwall, enlightenment, stairreturn, blowname,
+excavate, calllight, gloves, detectcarry, maimfoe, recalldepth) and `fleeheal-408`. A fresh clone
+can run the kits here and the `KIT_GROUPS` (fetched at their evidence pins), but not those groups
+until their baselines are committed the same way.

@@ -130,11 +130,13 @@ The rows that differ from the v9 baseline rows are exactly the declared transiti
 failing, `knockout` `paralysis`); byte differences are information, not failures, because later
 carries legitimately touch shared paths.
 
-**Residual dependency (disclosed):** the 0049-era groups (swap, knockout, preparation,
-cold-protection, rings, potion-timing, itangast, shot-path, brand, stairtrack, acidarc,
-outoflight, mapwall, enlightenment, stairreturn, blowname, excavate, calllight, gloves,
-detectcarry, maimfoe, recalldepth, banish, ...) still read their baselines from the gitignored
-`artifacts/` tree, so those groups need it present. Committing them the same way is the remaining
+**Residual dependency (disclosed):** 23 local groups still read their baselines from the gitignored
+`artifacts/` tree: the 22 0049-era groups (swap, knockout, preparation, cold-protection, rings,
+potion-timing, itangast, shot-path, brand, stairtrack, acidarc, outoflight, mapwall,
+enlightenment, stairreturn, blowname, excavate, calllight, gloves, detectcarry, maimfoe,
+recalldepth) plus `fleeheal-408`, the I-002 group added this cycle. They need that tree present. A
+fresh clone can run the 36 restored groups and the 17 `KIT_GROUPS` (fetched at their evidence
+pins), but not those 23 until their baselines are committed the same way. That is the remaining
 matrix item.
 
 ## Frozen v1 cohort: both units cohort-neutral on survival
