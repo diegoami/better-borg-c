@@ -5,10 +5,10 @@ designing a new Angband automaton. This document distils the reviewed deaths in 
 repository into design requirements. It does not ask for C patches. Every lesson links back
 to its evidence. Read the linked dossier before relying on a detail.
 
-Snapshot: 2026-11-09. It covers the reviewed cases **D0001–D0016**, which are 13 distinct
-starting conditions; D0003–D0005 are reference replays of D0002. It includes four verified
-owner manual takeovers. Later dossiers (D0017+) are not yet reviewed. Update this file when
-they are.
+Snapshot: 2026-11-10. It covers the reviewed cases **D0001–D0016 and D0018**, which are 14
+distinct starting conditions; D0003–D0005 are reference replays of D0002. It includes the
+verified owner manual takeovers listed in the case index. D0017 and D0019+ are not yet
+reviewed. Update this file when they are.
 
 ## How to read the evidence
 
@@ -40,6 +40,7 @@ learned lore. A redesign must decide explicitly whether it may use that spoiler 
 | [D0014](D0014-collected/report.md) | High-Elf Rogue CL11 | DL20 | blood falcon | survived (Speed, CLW, detection) | [#341](https://github.com/diegoami/better-borg-c/issues/341) |
 | [D0015](D0015-collected/report.md) | Dunadan Necromancer CL1 | DL1 | Fang | died (from 4118); re-shop from turn 1 survived | [#348](https://github.com/diegoami/better-borg-c/issues/348) |
 | [D0016](D0016-collected/report.md) | Human Necromancer CL1 | DL1 | crow (after a teleport trap) | survived (bolted the crow first) | [#353](https://github.com/diegoami/better-borg-c/issues/353) |
+| [D0018](D0018-collected/report.md) | Dunadan Druid CL2 | DL1 | wild cat | died (from 33363, cat adjacent) | [#401](https://github.com/diegoami/better-borg-c/issues/401) |
 
 What the owner keeps saying, across reviews: the Borg had the tools and the knowledge, but
 its decision layers did not use them, or worked against each other.
@@ -125,6 +126,11 @@ considered.
   being attacked once. In the D0012 manual counterfactual, one blow destroyed it.
 - **D0010**: an available archery kill lost out to stair flow. In the manual counterfactual,
   six arrow hits and the character survived.
+- **D0018** (observed and source-checked). On a "scary" level a Druid hit a speed +8 wild cat
+  once (8 → 5 HP), then walked away for eight steps while the cat clawed it from 16 HP to 1.
+  The strategic retreat fires once danger exceeds HP/3 and judges each step by the cat's
+  current square; nothing models a faster pursuer that keeps attacking. The owner's verified
+  takeover from the same turn also died, after Fox Form did no damage.
 
 **Requirement.** Every turn in contact, score all of these options together, with the same
 threat model and expected outcomes:
@@ -150,6 +156,10 @@ an option, and so is killing them when they are fragile.
   and repeated "critical" phases followed.
 - **D0007** (verified). Five Phase Door scrolls were consumed, with the Phase spell still ready
   at the end.
+- **D0018** (observed, source-checked). The bored/twitchy fallback
+  (`borg-think-dungeon.c:2149`, up to 3 Phases per level to get unstuck) read the **only**
+  Phase Door at danger 5 against a dying yeek. The fatal cat fight 1,600 turns later had no
+  escape.
 
 **Source-checked.** `borg_caution` evaluates escape (`borg_escape`) before retreat and
 back-away. Phase landing safety is sampled, but a critical fallback spends the phase anyway.
@@ -183,6 +193,7 @@ using them are tuned for low danger.
 | D0011 | 8 known CLW, 2 Speed | HP 42 → 11 against a griffon |
 | D0014 | **21 known CLW, 5 Speed** | danger 399–1325 |
 | D0016 | 2 known CLW | HP 5/12 against a speed +20 crow, while fleeing |
+| D0018 | 2 **unidentified** CLW | HP 1/19 against a speed +8 wild cat |
 
 **Source-checked mechanisms.**
 - **Speed** (`borg_defend_aux_speed`): a potion is drunk only if the hasted danger falls to
@@ -192,7 +203,7 @@ using them are tuned for low danger.
 - **Fleeing guard:** `borg_caution` calls `borg_heal` only when not fleeing, and the
   poison-emergency "quaff unknown" fallback lives inside it (D0012, D0007, #34).
 - **Last-resort unknown use** requires `MAXSP == 0`, which excludes every caster (D0012
-  Paladin, D0014 Rogue).
+  Paladin, D0014 Rogue, D0018 Druid with 4 SP and no escape spell).
 - The healing-chance adjustments run against their own comments ([neo-angband-tracker#364](https://github.com/diegoami/neo-angband-tracker/issues/364)).
 
 **Manual counterfactual.** In D0014 the owner drank Speed on first sight of a speed +30 blood
@@ -245,8 +256,8 @@ turns.
   and **563** "no up stairs found, going down" fallbacks.
 - **D0014:** about 21k turns on DL20.
 - **D0009:** D5/D6 cycling while starving.
-- The starting Word of Recall was deposited at Home and never carried in D0006, D0009, D0015 and
-  D0016.
+- The starting Word of Recall was deposited at Home and never carried in D0006, D0009, D0015,
+  D0016 and D0018.
 
 **Source-checked.** With no known up staircase, the climb goal takes a down staircase ("go
 down then back up"). With connected stairs this can cycle without progress
@@ -280,6 +291,10 @@ Issues: [#321](https://github.com/diegoami/better-borg-c/issues/321),
 - **D0016:** about 290 of 360 starting gold went on armour and two unidentified rings (they
   were Searching and Feather Falling), with one Phase Door and two CLW. Owner: "inventory is
   definitely an area a borg reborn should work on."
+- **D0018:** of 373 starting gold, 266 went on Studded Leather Armour, with one Phase Door and
+  no CLW. A second visit spent another 373 on sandals [1,+5] 126, a Speed potion 75 (drunk at
+  full HP against a 2-HP mouse) and two unknown jewellery items 116, again with one Phase Door
+  and no CLW. It died carrying 10 spare torches, a spare shield and sandals.
 - **D0011:** died carrying 4 Rings of Searching, 9 spare torches and sandals, with no Phase
   Door, Recall or teleport.
 - **D0006, D0014:** slings carried with **no ammunition**.
@@ -306,6 +321,8 @@ Issues: [#41](https://github.com/diegoami/better-borg-c/issues/41),
 - **D0012:** 8 Teal Potions were really **Cure Light Wounds**.
 - **D0006:** unknown potions were tried only at 17 and 10 HP (Infravision, Slowness).
 - **D0001:** 4 unknown Smoky Potions.
+- **D0018:** 2 Ultramarine Potions were really **Cure Light Wounds**, carried for about 7,000
+  turns, beside two unknown scrolls (Blessing, Treasure Detection).
 
 In the C Borg, unknown potions are tried essentially only in emergencies, and selling (which
 identifies) needs town visits.
@@ -378,7 +395,7 @@ See `patches/series.json` and the per-carry measurement notes in `docs/measureme
 ## L13. How to evaluate a redesign against this evidence
 
 - **Fixtures.** Each dossier records the source, build, seed and options. Owner manual branches
-  (`owner-manual-branch.json` in D0010, D0012, D0013, D0014, D0015, D0016) give a verified prefix and a
+  (`owner-manual-branch.json` in D0010, D0012, D0013, D0014, D0015, D0016, D0018) give a verified prefix and a
   known-feasible alternative. Use them as scenario tests: start from the same state, check
   that the decision is at least as good.
 - **Do not count replays.** Repeated runs of the same start, reference variants and manual
