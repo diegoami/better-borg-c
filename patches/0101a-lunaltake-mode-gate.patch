@@ -17,18 +17,15 @@ sell.
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/src/borg/borg-flow-take.c b/src/borg/borg-flow-take.c
-index 135a27da3..40ec8b830 100644
+index a2523f6e2..40ec8b830 100644
 --- a/src/borg/borg-flow-take.c
 +++ b/src/borg/borg-flow-take.c
 @@ -839,7 +839,7 @@ bool borg_flow_take_lunal(bool viewable, int nearness)
          }
  
          /* Skip items the Borg does not want */
--        if (item_bad && !borg_cfg[BORG_MUNCHKIN_START])
+-        if (item_bad)
 +        if (item_bad && !borg.munchkin_mode)
              continue;
  
          /* Get the grid */
--- 
-2.53.0
-

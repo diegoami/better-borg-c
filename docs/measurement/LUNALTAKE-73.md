@@ -75,16 +75,20 @@ munchkin-mode collection alone: `if (item_bad && !borg_cfg[BORG_MUNCHKIN_START])
 
 ### Mode-attribution (owner rule 2026-11-10)
 
+Only one cohort configuration was measured: the unrestricted default (all modes).
+
 | Configuration | Frozen v1 cohort (seeds 11/29/47, 20k turns) |
 | --- | --- |
-| **All modes** (merged 0101, ungated) | end depth **1 / 4 / 2** (pre-carry 4 / 6 / 5); traces diverge |
-| **Lunal only** (non-munchkin, `0101a`) | end depth **4 / 6 / 5**; traces **byte-identical** to the pre-carry run |
-| **Munchkin only** (complement, measured) | end depth **1 / 4 / 2**; traces **byte-identical to the all-modes run**, so the whole shift is attributable to munchkin mode |
+| **Unrestricted (all modes)**, merged 0101, ungated | end depth **1 / 4 / 2** (pre-carry 4 / 6 / 5); all traces diverge; survival 3/3 alive at cap, max depth unchanged |
+| **Munchkin/Lunal only** | **not measured** |
 | **Normal only** | unreachable by construction: the function is called only from the Lunal and Munchkin thinkers (`borg-think-dungeon.c` lines 224 and 584); normal exploration uses `borg_flow_take()` |
 
-The two configurations partition the effect exactly: Lunal-only reproduces the pre-carry traces, munchkin-only reproduces the all-modes traces. All three seeds reach max depth 6 in every run; survival is 3/3 alive at cap in all configurations.
-The kit still passes in both phases with munchkin off (the Lunal behaviour it was written for),
-and its gold control is byte-identical.
+An earlier version of this table attributed the shift to munchkin mode by comparing a
+"Lunal-only" run. That comparison was a tautology: the first gate was
+`borg_cfg[BORG_MUNCHKIN_START]`, which is forced true for a Warrior, so the "Lunal-only" build was
+identical code to the merged carry (see correction 2). The munchkin/Lunal arm remains owed to
+`diegoami/borg-zoo` issue 54; the kit, not the cohort, proves the runtime gate in both
+configurations.
 
 
 ## Correction 2: the gate belongs on the runtime mode, not the config flag (2026-11-10)
@@ -126,3 +130,7 @@ the gate is tested in both directions by a fixture, not inferred from a cohort.
 The Lunal path is exercised by the kit, not by the cohort. A cohort that reaches Lunal mode needs
 an explicit `borg_self_lunal` arm with a deeper cap; until the zoo defines one, the cohort result
 for this change is "munchkin mode, skip inactive" - **not exercised**, not "neutral".
+
+`patches/0101a-lunaltake-mode-gate.patch` was regenerated against the post-0101 state so it
+applies after `patches/0101-lunaltake-skip-bad.patch`; the first version carried the superseded
+config-flag context and could not be replayed (milestone-11 review F1).

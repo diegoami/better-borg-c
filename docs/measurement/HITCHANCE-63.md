@@ -43,6 +43,12 @@ is used in all the thinkers; the per-mode cohort effect is recorded as **not mea
 neutral, and belongs to the batch with the zoo's explicit arms (borg-zoo issue 54). This is the
 first carry under the impact triage on consumer issue 426.
 
+One structural note: the changed partial-damage branch is reached through
+`borg_danger_one_kill(..., false)`. `borg_danger()` hardcodes `full_damage = true`
+(`src/borg/borg-danger.c:2848`, pre-existing), so the direct call sites in
+`src/borg/borg-fight-attack.c` (lines 1310 and 1332) are the ones that exercise it; other
+`borg_danger(..., false)` callers do not, because the flag is overwritten before it is used.
+
 Matrix group `hitchance-63` (2 cases) uses the `after-*.log` rows as its baseline.
 
 ## Ledger and credit

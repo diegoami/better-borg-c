@@ -53,6 +53,20 @@ byte-identical logs, which is what the verifier pins.
 Matrix group `stairphase-34` (5 cases) uses the `after-*.log` rows as its baseline and passes
 5/5. Tooling: 144 tests (`python3 -m unittest discover -s tools -p "test_*.py"`).
 
+## Mode attribution
+
+The escape routine runs in every configuration, and the fix is unconditional (no mode gate).
+
+| Configuration | Result |
+| --- | --- |
+| **Unrestricted (all modes)**, frozen v1 (seeds 11/29/47, 20k turns) | **neutral**: alive at cap, same hp and depth, traces **byte-identical** before and after (issue #427) |
+| **Munchkin/Lunal only** | **not measured** |
+| **Normal only** | **not measured** |
+
+The unrestricted run is one configuration and does not separate the modes; the munchkin/Lunal and
+normal arms are owed to the batch in `diegoami/borg-zoo` issue 54. What the fixture proves is that
+the changed branch executes (upstair/antisummon) and that the controls are unchanged.
+
 ## Ledger and credit
 
 `patches/series.json` entry `STAIRPHASE-34`, patch-active; consumer issue #427. Source defect,
