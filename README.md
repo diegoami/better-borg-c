@@ -13,7 +13,19 @@ this repository owns adoption, integration and testing of those fixes. See
 sibling projects, and [UPSTREAM.md](UPSTREAM.md) for the Angband baseline
 and source remotes this is built from.
 
-## Installing
+## Download a release
+
+If you only want to play or build the game, take the
+[latest release](https://github.com/diegoami/better-borg-c/releases/latest)
+instead of cloning this repository. Each release has a Linux binary, a plain
+patched Angband source package and a patch for your own angband/angband
+checkout, without the tooling and evidence kept here. See
+[docs/RELEASE-INSTALL.md](docs/RELEASE-INSTALL.md). The current release,
+`4.2.6-impact-v9.1`, is milestone 9 plus its Necromancer crash fix.
+`tools/make-release.py --ref TAG --version TAG --out DIR` rebuilds a
+release's assets.
+
+## Installing from this repository
 
 **Prerequisites** (Debian/Ubuntu): `git python3 cmake build-essential
 libx11-dev perl util-linux`. Python 3.9+ and CMake 3.7+ (a current CMake 3.x
