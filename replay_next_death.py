@@ -47,14 +47,19 @@ def run(args):
     print('Closing the viewer does not mark a review complete.', flush=True)
     command = [sys.executable, str(ROOT / 'replay-borg.py'), selected['directory'], '--timeout', str(args.timeout)]
     stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
-    command += ['--output', str(workflow.artifacts() / 'replays' / stamp)]
+    output = workflow.artifacts() / 'replays' / workflow.label(selected['case'], stamp)
+    command += ['--output', str(output)]
     for name in ('from_turn', 'view_only', 'verify_only', 'combat_log'):
         value = getattr(args, name, None)
         if value is not None and value is not False:
             command.append('--' + name.replace('_', '-'))
             if not isinstance(value, bool):
                 command.append(str(value))
-    return subprocess.run(command, cwd=ROOT).returncode
+    print(f'Replay output: {output}', flush=True)
+    code = subprocess.run(command, cwd=ROOT).returncode
+    if output.exists():
+        workflow.link_case(selected['case'], 'replays', output)
+    return code
 
 
 def main():

@@ -501,8 +501,11 @@ def main():
             if not verified['verified'] or verified['original_manifest_sha256'] != records.sha(original / 'recording.json'):
                 raise ValueError('Manual branch has no matching verified prefix')
         else:
-            branch = workflow.artifacts() / 'takeover/branches' / stamp()
+            case = workflow.case_for(original)
+            branch = workflow.artifacts() / 'takeover/branches' / workflow.label(
+                case, stamp(), f't{expected["turn"]}' if case else None)
             branch.mkdir(parents=True)
+            workflow.link_case(case, 'branches', branch)
             requested = expected['turn'] if args.from_turn == 'latest' else args.from_turn
             verified = capture(original, record, base, branch / 'prefix', expected, requested, args.timeout)
             shutil.copy2(branch / 'prefix/world-fingerprint.save', branch / 'origin.save')

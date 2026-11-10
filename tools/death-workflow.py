@@ -35,6 +35,39 @@ def artifacts():
     return primary_root() / 'artifacts/death-workflow'
 
 
+def recorded_cases():
+    """Map each recording bundle directory to its death case id."""
+    found = {}
+    for path in sorted((ROOT / 'docs/deaths').glob('D[0-9][0-9][0-9][0-9]-*/record.json')):
+        record = read(path)
+        recording = record.get('recording')
+        if recording:
+            found[Path(recording['raw_directory']).resolve()] = record['id']
+    return found
+
+
+def case_for(original):
+    """Death case id (e.g. D0017) of a recording bundle, or None if it is not a known death."""
+    return recorded_cases().get(Path(original).resolve())
+
+
+def label(case, stamp, detail=None):
+    """Directory name that starts with the death: D0017-t3983-STAMP, or STAMP alone for unknown cases."""
+    return '-'.join(part for part in (case, detail, stamp) if part)
+
+
+def link_case(case, kind, target, name=None):
+    """Make artifacts/death-workflow/by-case/CASE/KIND/NAME point at target; no-op without a case."""
+    if not case:
+        return None
+    target = Path(target)
+    link = artifacts() / 'by-case' / case / kind / (name or target.name)
+    link.parent.mkdir(parents=True, exist_ok=True)
+    if not (link.is_symlink() or link.exists()):
+        link.symlink_to(target.resolve())
+    return link
+
+
 @contextmanager
 def locked(path):
     path.parent.mkdir(parents=True, exist_ok=True)

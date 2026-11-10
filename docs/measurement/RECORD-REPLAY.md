@@ -370,7 +370,7 @@ verified save without opening a window, append `--prepare-only`. To continue you
 own saved branch later:
 
 ```sh
-./play-from-replay.py --resume /absolute/path/to/takeover/branches/TIMESTAMP
+./play-from-replay.py --resume /absolute/path/to/takeover/branches/D0017-t3983-TIMESTAMP
 ```
 
 Resume retains the branch's exact helper build even after newer game fixes or
