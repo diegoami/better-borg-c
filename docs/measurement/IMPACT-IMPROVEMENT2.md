@@ -2,10 +2,14 @@
 
 Unit: let `borg_caution()` heal while fleeing at survivable danger
 ([#408](https://github.com/diegoami/better-borg-c/issues/408), contract and
-evidence there; ledger `patches/improvements.json`; branch
-`task/imp-002-flee-heal`, commits `dfecabb59` + `306347a4e`). Local-only
-improvement, never proposed upstream (charter, PR #389). Owner direction
-2026-11-10: "Fix 408".
+evidence there; ledger `patches/improvements.json`; merged `861ecb2da`,
+PR #414). Local-only improvement, never proposed upstream (charter,
+PR #389). Owner direction 2026-11-10: "Fix 408".
+
+Post-merge confirmation (merged head `861ecb2da`, the tooling-only PR #413
+also on it): frozen cohort-v1 rerun - 6/6 runs alive at cap, every per-seed
+final and whole-trace sha256 identical to the tested branch build (seeds
+11/29/47), so the merge carried exactly the tested behavior.
 
 ## Change
 

@@ -44,7 +44,12 @@
         "paired cohort v1 (seeds 11/29/47, 20k turns): 6/6 alive on both binaries; seeds 29/47 identical finals; seed 11 diverged at turn 4481 from the branch's borg-RNG draw (zero heal notes, no consumable spent), final depth 4/CL6/HP54 vs 5/CL7/HP72 - progress inconclusive at n=3, no survival regression",
         "paired targeted runs seed 2993630922: identical start.save 59ae121c; recorded normal-mode life not replayable on current main (181 commits lineage drift + fd683cedb by-class munchkin default); under product defaults both lives alive at the 1.2M cap with zero heal actions from the branch"
       ],
-      "status": "PR pending; directional evidence recorded (docs/measurement/IMPACT-IMPROVEMENT2.md)"
+      "status": "merged 861ecb2da (PR #414); measurement complete, directional (live benefit inconclusive at n=3)",
+      "merge": {
+        "pr": 414,
+        "commit": "861ecb2da",
+        "gate": "965/965 + 5/5 hosted; tooling suite green"
+      }
     }
   ]
 }
