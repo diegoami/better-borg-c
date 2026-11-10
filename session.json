@@ -172,8 +172,10 @@
     "ledger": "116 entries / 117 patch files",
     "matrix": "95 groups / 290 cases, ok, 237/250 byte-identical, no new difference; summary at docs/measurement/impact-v11/regression-summary.json",
     "cohort": "no per-mode arm; one unrestricted/default frozen-v1 cohort for 0100 (byte-identical, neutral in that configuration, issue 427) and one for the ungated 0101 (2-3 levels shallower, which motivated 0101a, issue 429); every other unit records its per-mode effect as not measured; the explicit-arm batch is owed to borg-zoo issue 54",
-    "tag_state": "4.2.6-impact-v11 NOT placed; the review verdict is in and the corrections are applied, so only the owner's explicit authorization is outstanding; it goes on the runtime snapshot 39268ca8a, not on a package commit",
-    "next_action": "Owner authorizes the v11 tag; then resume tier B at source95, 116, 193, 94, 101, 52. The upstream-integration pass is a separate deliberate task (official head 42cd156ac9f9).",
-    "review_verdict": "approve with corrections (issue 471, 2026-11-10): F1-F5 applied and F1's patch artifact regenerated; the package and the review map corrected; no runtime change; nothing outstanding"
+    "tag_state": "4.2.6-impact-v11 placed 2026-11-10 on the runtime snapshot 39268ca8a (annotated tag object 443ba5c485bd1fa5267a677e44370d8ddb753c15), under explicit owner authorization after the review verdict (approve with corrections, F1-F5 applied in 981be4a1d)",
+    "next_action": "Milestone 11 is closed with the tag placed; resume tier B at source95, then 116, 193, 94, 101, 52. The upstream-integration pass remains a separate deliberate task (official head 42cd156ac9f9).",
+    "review_verdict": "approve with corrections (issue 471, 2026-11-10): F1-F5 applied and F1's patch artifact regenerated; the package and the review map corrected; no runtime change; nothing outstanding",
+    "corrections_commit": "981be4a1d (PR 473, M11-F1..F5, docs and the regenerated 0101a patch; no runtime change)",
+    "tag_object": "443ba5c485bd1fa5267a677e44370d8ddb753c15"
   }
 }
