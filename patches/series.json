@@ -2149,6 +2149,24 @@
       "verification": "docs/measurement/SWAPTRIAL-31.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the swap-held mode now keeps the model matching the game (no spurious Evenstar retrieval/store), and the no-weapon-swap/no-candidate controls are byte-identical. Town/home economy change in shared code: per-mode attribution may be inert in a normal arm and active in a munchkin arm, so the batch (borg-zoo issue 54) owns it. carried/open+patch-active after merge"
+    },
+    {
+      "id": "HOMESKIP-29",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/464",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/29",
+      "source_head": "3f35efd71787a00293d5f14e65c94abbdb760942",
+      "source_commits": [
+        "3f35efd71787a00293d5f14e65c94abbdb760942"
+      ],
+      "applied_commits": [
+        "ed7b2d953"
+      ],
+      "patch": "patches/0115-homeskip-per-ware.patch",
+      "patch_active": true,
+      "evidence_ref": "83f648f70cf34a583d95f3e0d386fb0124aaf27c",
+      "verification": "docs/measurement/HOMESKIP-29.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the stored-first mode now grabs the useful ware after a sold one, and the stored-last/no-history controls are byte-identical. Town/home change in shared code: per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ]
 }
