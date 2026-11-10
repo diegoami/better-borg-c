@@ -1969,6 +1969,24 @@
       "verification": "docs/measurement/TAKESTAIR-71.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the take, scum and lunal flows flip from ignoring the flask to stepping toward it and the single-staircase control is byte-identical. Flow reach: borg_flow_take is in the normal thinker, borg_flow_take_scum in the depth-1 finish-shopping path, borg_flow_take_lunal only in the Lunal/munchkin thinkers, so a normal-only arm cannot reach the lunal branch; the per-mode cohort effect is recorded as not measured and belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "RESTPREP-108",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/443",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/108",
+      "source_head": "9d1a7f1d2a9b14a60261ce01381e79d940ef7532",
+      "source_commits": [
+        "9d1a7f1d2a9b14a60261ce01381e79d940ef7532"
+      ],
+      "applied_commits": [
+        "8dfb1cba8"
+      ],
+      "patch": "patches/0105-restprep-timer-width.patch",
+      "patch_active": true,
+      "evidence_ref": "175792dd8ac2e22aa3184504fc889be6b518ba76",
+      "verification": "docs/measurement/RESTPREP-108.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the level-35 pfe mode flips from resting after the prep spell to refusing, and the level-30 control is byte-identical. Field-width change in a structure shared by every mode: the assignment runs in the prep, fight and escape paths and the wrap only exists at clevel >= 33, so per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ]
 }
