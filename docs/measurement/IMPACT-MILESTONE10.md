@@ -131,8 +131,8 @@ product build on `c1a80e92c`:
   to their recorded baseline logs. The machine-readable run is committed as
   `docs/measurement/impact-v10/regression-summary.json` (`at_commit: 6944d88e8`, the review
   corrections; the earlier run at `c1a80e92c` had the kit files as working-tree files, and the
-  run was rerun and re-committed at the corrections head so the summary and the kits share one
-  commit).
+  run was rerun at the corrections head so that the pin names the commit holding the exact kit
+  bytes the run read - the summary file itself lands in the recording commit after it).
 
 The rows that differ from the v9 baseline rows are exactly the declared transitions in `GROUPS`
 (`vampire` `near-far`/`near-near` under `rows_must`, `dispel259` `reserve`/`clear` declared
@@ -235,7 +235,11 @@ groups (91/91) and `necrolight-crash` (5/5), reproduced the summary and ledger c
 AST/JSON level, and reported seven documentation/evidence findings, no blocking or major ones.
 All seven are applied in commit `6944d88e8` (see the next section); nothing was recorded as not
 applied. The reviewer also confirmed the internal reviews' three applied findings against the
-tree. The v10 tag remains unplaced pending explicit owner authorization.
+tree. A same-issue re-review at `46057bc4a` then verified all seven in the tree and returned
+**approve**: the `src/` diff after the reviewed head is the comment only, the tool change is the
+single kit repoint, and the 37 committed kits run 95/95 in a fresh clone. Its one wording nuance
+(which commit holds the summary file) is corrected in the follow-up. The v10 tag remains unplaced
+pending explicit owner authorization.
 
 ## Review corrections (M10-R-01..07)
 
