@@ -71,7 +71,6 @@
 #include "borg/borg-inventory.h"
 #include "borg/borg-io.h"
 #include "borg/borg-item-val.h"
-#include "borg/borg-store.h"
 #include "borg/borg-store-buy.h"
 #include "borg/borg-think-dungeon-util.h"
 #include "borg/borg-think.h"
@@ -158,7 +157,8 @@ int setup_tests(void **state)
     known_item(TV_FOOD, "Ration of Food", 2);
 
     /* Carried stock per mode (counts that feed BI_APHASE/BI_ACLW). */
-    if (streq(mode, "pd-second") || streq(mode, "urgent-poisoned")) {
+    if (streq(mode, "pd-second") || streq(mode, "urgent-poisoned")
+        || streq(mode, "homesell-guard")) {
         known_item(TV_SCROLL, "Phase Door", 1);
     } else if (streq(mode, "clw-deficit") || streq(mode, "reserve-complete")) {
         known_item(TV_SCROLL, "Phase Door", 4);

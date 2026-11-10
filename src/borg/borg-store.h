@@ -30,6 +30,15 @@
  */
 #define BORG_HOME 7
 
+/*
+ * Early-game escape and cure reserve (improvement I-003, issue410):
+ * while BI_MAXCLEVEL is at most this level, buy the deficit toward this
+ * many phase doors and cure potions before other purchases.
+ */
+#define BORG_RESERVE_MAXCLEVEL 7
+#define BORG_RESERVE_PHASE     4
+#define BORG_RESERVE_CURE      3
+
 extern const char *SHOP_MENU_ITEMS;
 
 /*

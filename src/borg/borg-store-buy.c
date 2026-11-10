@@ -219,6 +219,30 @@ static bool borg_good_buy(borg_item *item, int who, int ware)
 /*
  * Step 3 -- buy "useful" things from a shop (to be used)
  */
+bool borg_startbuy_reserve_unmet(void)
+{
+    /* Early-game escape and cure reserve (local improvement I-003,
+     * issue410).  While the borg has not yet reached the restock levels
+     * and is not in an urgent state, hold 4 phase doors and 3 cure
+     * potions before other purchases: the power valuation rewards the
+     * first phase door and armour, gives later phase doors +500
+     * (suppressed entirely for munchkin-start classes below the munchkin
+     * level) and no cure potion or carried recall at all, so starting
+     * gold went to gear with one phase door and no cures (the recorded
+     * D0013-D0019 first visits). */
+    if (borg.trait[BI_MAXCLEVEL] > BORG_RESERVE_MAXCLEVEL)
+        return false;
+    if (borg.trait[BI_FOOD] == 0 || borg.trait[BI_LIGHT] == 0
+        || borg.trait[BI_ISCUT] || borg.trait[BI_ISPOISONED])
+        return false;
+    if (borg.trait[BI_APHASE] < BORG_RESERVE_PHASE)
+        return true;
+    if (borg.trait[BI_ACLW] + borg.trait[BI_ACSW] + borg.trait[BI_ACCW]
+        < BORG_RESERVE_CURE)
+        return true;
+    return false;
+}
+
 bool borg_think_shop_buy_useful(void)
 {
     int hole = borg_first_empty_inventory_slot();
@@ -241,83 +265,68 @@ bool borg_think_shop_buy_useful(void)
     if (borg.goal.ware != -1)
         return false;
 
-    /* Early-game escape and cure reserve (local improvement I-003, issue410).
-     *
-     * The power valuation rewards the first phase door (+50000), gives later
-     * phase doors +500 (suppressed entirely for munchkin-start classes below
-     * the munchkin level), rewards no cure potion at all below CL10 and no
-     * carried recall below CL8, so nearly all starting gold goes to armour
-     * and fuel with one phase door, no cure potions, and the recall stored -
-     * the recorded D0013-D0019 first-visit pattern.  While the borg has not
-     * yet reached the restock levels, reserve gold for a few escapes and
-     * cures first: buy the cheapest affordable deficit item, and buy nothing
-     * else here until the reserve is met.  Urgent states (no food, no light,
-     * cut, poisoned) keep their existing immediate paths; outside the window
-     * or with the reserve met this is byte-for-byte the old valuation. */
-    if (borg.trait[BI_MAXCLEVEL] <= 7 && borg.trait[BI_FOOD] > 0
-        && borg.trait[BI_LIGHT] > 0 && !borg.trait[BI_ISCUT]
-        && !borg.trait[BI_ISPOISONED]) {
-        int want_phase   = 4;
-        int want_cure    = 3;
-        int need_phase   = want_phase - borg.trait[BI_APHASE];
+    /* Early-game escape and cure reserve (local improvement I-003,
+     * issue410): buy the cheapest affordable deficit item, and buy nothing
+     * else here until the reserve is met.  Urgent states keep the existing
+     * immediate paths; outside the window or with the reserve met this is
+     * byte-for-byte the old valuation. */
+    if (borg_startbuy_reserve_unmet()) {
+        int need_phase   = BORG_RESERVE_PHASE - borg.trait[BI_APHASE];
         int held_cure    = borg.trait[BI_ACLW] + borg.trait[BI_ACSW]
                          + borg.trait[BI_ACCW];
-        int need_cure    = want_cure - held_cure;
+        int need_cure    = BORG_RESERVE_CURE - held_cure;
         int b_kr         = -1;
         int b_nr         = -1;
         int b_cr         = 0;
 
-        if (need_phase > 0 || need_cure > 0) {
-            /* Scan the shops for the cheapest affordable deficit item. */
-            for (k = 0; k < (z_info->store_max - 1); k++) {
-                for (n = 0; n < z_info->store_inven_max; n++) {
-                    borg_item *item = &borg_shops[k].ware[n];
-                    bool phase_ware;
-                    bool cure_ware;
+        /* Scan the shops for the cheapest affordable deficit item. */
+        for (k = 0; k < (z_info->store_max - 1); k++) {
+            for (n = 0; n < z_info->store_inven_max; n++) {
+                borg_item *item = &borg_shops[k].ware[n];
+                bool phase_ware;
+                bool cure_ware;
 
-                    /* Skip empty items */
-                    if (!item->iqty)
-                        continue;
+                /* Skip empty items */
+                if (!item->iqty)
+                    continue;
 
-                    /* Skip "bad" buys */
-                    if (!borg_good_buy(item, k, n))
-                        continue;
+                /* Skip "bad" buys */
+                if (!borg_good_buy(item, k, n))
+                    continue;
 
-                    phase_ware = (need_phase > 0 && item->tval == TV_SCROLL
-                                  && item->sval == sv_scroll_phase_door);
-                    cure_ware  = (need_cure > 0 && item->tval == TV_POTION
-                                  && (item->sval == sv_potion_cure_light
-                                      || item->sval == sv_potion_cure_serious
-                                      || item->sval
-                                          == sv_potion_cure_critical));
-                    if (!phase_ware && !cure_ware)
-                        continue;
+                phase_ware = (need_phase > 0 && item->tval == TV_SCROLL
+                              && item->sval == sv_scroll_phase_door);
+                cure_ware  = (need_cure > 0 && item->tval == TV_POTION
+                              && (item->sval == sv_potion_cure_light
+                                  || item->sval == sv_potion_cure_serious
+                                  || item->sval == sv_potion_cure_critical));
+                if (!phase_ware && !cure_ware)
+                    continue;
 
-                    /* Require "sufficient" cash */
-                    if (borg.trait[BI_GOLD] < item->cost)
-                        continue;
+                /* Require "sufficient" cash */
+                if (borg.trait[BI_GOLD] < item->cost)
+                    continue;
 
-                    /* Cheapest first, so gold stocks the most items */
-                    if (b_kr >= 0 && item->cost >= b_cr)
-                        continue;
+                /* Cheapest first, so gold stocks the most items */
+                if (b_kr >= 0 && item->cost >= b_cr)
+                    continue;
 
-                    b_kr = k;
-                    b_nr = n;
-                    b_cr = item->cost;
-                }
+                b_kr = k;
+                b_nr = n;
+                b_cr = item->cost;
             }
-
-            if (b_kr >= 0) {
-                /* Buy that reserve item */
-                borg.goal.shop = b_kr;
-                borg.goal.ware = b_nr;
-                return true;
-            }
-
-            /* Reserve still unmet and unaffordable: keep the gold for it
-             * instead of spending down on gear. */
-            return false;
         }
+
+        if (b_kr >= 0) {
+            /* Buy that reserve item */
+            borg.goal.shop = b_kr;
+            borg.goal.ware = b_nr;
+            return true;
+        }
+
+        /* Reserve still unmet and unaffordable: keep the gold for it
+         * instead of spending down on gear. */
+        return false;
     }
 
     /* Extract the "power" */

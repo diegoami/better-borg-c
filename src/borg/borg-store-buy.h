@@ -36,6 +36,7 @@ extern int bought_item_nxt;
  * Buy "useful" things from a shop (to be used)
  */
 extern bool borg_think_shop_buy_useful(void);
+extern bool borg_startbuy_reserve_unmet(void);
 
 /*
  * Buy "useful" things from the home (to be used)

@@ -540,6 +540,27 @@ bool borg_think_home_sell_useful(int32_t *best_home_power)
         && borg_items[PACK_SLOTS - 1].iqty)
         return false;
 
+    /* Early-game escape and cure reserve (improvement I-003, issue410):
+     * while the reserve is unmet, do not store the reserve items into the
+     * home - the reserve pass would buy them straight back and the borg
+     * loops between the shops and the home in town instead of diving. */
+    if (borg_startbuy_reserve_unmet()) {
+        for (i = 0; i < PACK_SLOTS; i++) {
+            borg_item *item = &borg_items[i];
+
+            if (!item->iqty)
+                continue;
+            if (item->tval == TV_SCROLL
+                && item->sval == sv_scroll_phase_door)
+                return false;
+            if (item->tval == TV_POTION
+                && (item->sval == sv_potion_cure_light
+                    || item->sval == sv_potion_cure_serious
+                    || item->sval == sv_potion_cure_critical))
+                return false;
+        }
+    }
+
     /* clear test arrays (test[i] == i is no change) */
     for (i = 0; i < z_info->store_inven_max; i++) 
         /* clear test arrays (test[i] == i is no change) */
