@@ -329,6 +329,12 @@ GROUPS = [
     ('homeskip-29', 'docs/audit/c-reports/homeskip-29', 'HS29',
      ('stored-first', 'stored-last', 'no-history'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+
+    # Source132 (issue 132, CBUG-0116): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-sellcharges132.py.
+    ('sellcharges-132', 'docs/audit/c-reports/sellcharges-132', 'SC132',
+     ('stack', 'stack-emptyhome', 'single', 'none'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
     # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,

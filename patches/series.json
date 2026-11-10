@@ -2167,6 +2167,24 @@
       "verification": "docs/measurement/HOMESKIP-29.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the stored-first mode now grabs the useful ware after a sold one, and the stored-last/no-history controls are byte-identical. Town/home change in shared code: per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "SELLCHARGES-132",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/466",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/132",
+      "source_head": "58a2638c7acc7c684fc7e6fca6df3921e93b0d9a",
+      "source_commits": [
+        "58a2638c7acc7c684fc7e6fca6df3921e93b0d9a"
+      ],
+      "applied_commits": [
+        "e5e5bf4a1"
+      ],
+      "patch": "patches/0116-sellcharges-restore.patch",
+      "patch_active": true,
+      "evidence_ref": "14012c86e91e42589f6fd58ce010babac10c60d1",
+      "verification": "docs/measurement/SELLCHARGES-132.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the stack mode now stores the charged device instead of taking the Recall out, and the stack-emptyhome/single/none controls are byte-identical. Town/home economy in shared code: per-mode attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ]
 }
