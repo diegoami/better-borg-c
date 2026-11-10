@@ -1,0 +1,66 @@
+native-c/calcreload-325: starting...
+SETUPSTEP minimal
+  calculation_reload_releases_the_array  MODE reload
+GEOMETRY freed retained=1 count=0
+RATING retained=1 reload_value=7 reload_count=1
+OUTCOME retained=1 reload_value=7 reload_count=1
+Failed
+    native-c/calcreload-325:53: requirement '!retained' failed
+native-c/calcreload-325 finished: 0/1 passed
+
+=================================================================
+==1021584==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 80 byte(s) in 1 object(s) allocated from:
+    #0 0x72c775d2b60f in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:67
+    #1 0x61b09db35708 in mem_alloc /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/z-virt.c:38
+    #2 0x61b09d6b1e2e in borg_array_add /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas.c:95
+    #3 0x61b09d6b0128 in adjust_order_ops_depth_block /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:388
+    #4 0x61b09d6b083e in adjust_order_operations /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:466
+    #5 0x61b09d6b0c75 in parse_calculation /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:523
+    #6 0x61b09d6b0f8d in parse_calculation_line /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:566
+    #7 0x61b09d5f904a in scenario /home/diego/projects/angband/better-borg-c/.worktrees/calc-reload/artifacts/c325/scenarios/scenario.c:32
+    #8 0x61b09db36597 in main /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/tests/unit-test.c:53
+    #9 0x72c77582a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #10 0x72c77582a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #11 0x61b09d5f8e84 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/calc-reload/artifacts/c325/scenarios/asan-before-scenario+0x149e84) (BuildId: 46017419315a14a2de848332d8b36e19bb9cefb0)
+
+Direct leak of 80 byte(s) in 1 object(s) allocated from:
+    #0 0x72c775d2b60f in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:67
+    #1 0x61b09db35708 in mem_alloc /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/z-virt.c:38
+    #2 0x61b09d6b1e2e in borg_array_add /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas.c:95
+    #3 0x61b09d6b0fc2 in parse_calculation_line /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:572
+    #4 0x61b09d5f904a in scenario /home/diego/projects/angband/better-borg-c/.worktrees/calc-reload/artifacts/c325/scenarios/scenario.c:32
+    #5 0x61b09db36597 in main /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/tests/unit-test.c:53
+    #6 0x72c77582a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #7 0x72c77582a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #8 0x61b09d5f8e84 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/calc-reload/artifacts/c325/scenarios/asan-before-scenario+0x149e84) (BuildId: 46017419315a14a2de848332d8b36e19bb9cefb0)
+
+Direct leak of 80 byte(s) in 1 object(s) allocated from:
+    #0 0x72c775d2b60f in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:67
+    #1 0x61b09db35708 in mem_alloc /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/z-virt.c:38
+    #2 0x61b09d6b1e2e in borg_array_add /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas.c:95
+    #3 0x61b09d6b0128 in adjust_order_ops_depth_block /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:388
+    #4 0x61b09d6b083e in adjust_order_operations /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:466
+    #5 0x61b09d6b0c75 in parse_calculation /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:523
+    #6 0x61b09d6b0f8d in parse_calculation_line /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:566
+    #7 0x61b09d5f93ca in scenario /home/diego/projects/angband/better-borg-c/.worktrees/calc-reload/artifacts/c325/scenarios/scenario.c:44
+    #8 0x61b09db36597 in main /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/tests/unit-test.c:53
+    #9 0x72c77582a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #10 0x72c77582a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #11 0x61b09d5f8e84 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/calc-reload/artifacts/c325/scenarios/asan-before-scenario+0x149e84) (BuildId: 46017419315a14a2de848332d8b36e19bb9cefb0)
+
+Direct leak of 80 byte(s) in 1 object(s) allocated from:
+    #0 0x72c775d2b60f in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:67
+    #1 0x61b09db35708 in mem_alloc /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/z-virt.c:38
+    #2 0x61b09d6b1e2e in borg_array_add /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas.c:95
+    #3 0x61b09d6af331 in tokenize_math /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:256
+    #4 0x61b09d6b0c5e in parse_calculation /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:519
+    #5 0x61b09d6b0f8d in parse_calculation_line /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/borg/borg-formulas-calc.c:566
+    #6 0x61b09d5f904a in scenario /home/diego/projects/angband/better-borg-c/.worktrees/calc-reload/artifacts/c325/scenarios/scenario.c:32
+    #7 0x61b09db36597 in main /home/diego/projects/angband/better-borg-c/.worktrees/text-multibyte/src/tests/unit-test.c:53
+    #8 0x72c77582a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #9 0x72c77582a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #10 0x61b09d5f8e84 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/calc-reload/artifacts/c325/scenarios/asan-before-scenario+0x149e84) (BuildId: 46017419315a14a2de848332d8b36e19bb9cefb0)
+
+SUMMARY: AddressSanitizer: 320 byte(s) leaked in 4 allocation(s).

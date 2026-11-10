@@ -6,10 +6,10 @@ core objects and executed, and each case is checked against its recorded
 expectation:
 
 * local-baseline groups (the 48 groups of the 0049-era matrix plus the
-  kits retained under .worktrees/ since 0050) are also compared
-  value-for-value against the OUTCOME rows of their recorded baseline
-  logs, and byte-identity to those baselines is reported per case.  A
-  byte difference is information, not a failure: later carries
+  kits committed under docs/audit/c-reports/ since milestone 10) are also
+  compared value-for-value against the OUTCOME rows of their recorded
+  baseline logs, and byte-identity to those baselines is reported per case.
+  A byte difference is information, not a failure: later carries
   legitimately touch shared paths.  A row difference is a failure unless
   the mode declares an intentional transition.
 * source-tracker kit groups (the milestone-6/0064-0067 kits whose
@@ -36,8 +36,9 @@ build, with the new rows pinned by rows_must.
 
 Usage (under the shared validation lock):
   python3 tools/regression-matrix.py --build build/native --output artifacts/m7-matrix
-Requires the repo-root baseline trees (artifacts/, .worktrees/) for the
-local groups and the source-tracker remote for the kit groups.
+Requires the gitignored repo-root artifacts/ trees for the 0049-era local
+groups (the kits under docs/audit/c-reports/ are self-contained) and the
+source-tracker refs for the KIT_GROUPS.
 """
 import argparse
 import hashlib
@@ -88,17 +89,17 @@ GROUPS = [
     ('shot-path', 'artifacts/per-spell-carry/shot-path-interaction', 'SHOTPATH279',
      ('clear-path', 'blocked', 'ball-control', 'direct-control',
       'boulder-control', 'boulder-blocked'), {}),
-    ('per-spell', '.worktrees/per-spell/artifacts/per-spell/scenarios', 'CBUG0048',
+    ('per-spell', 'docs/audit/c-reports/per-spell', 'CBUG0048',
      ('clear-path', 'blocked', 'ball-control', 'direct-control',
       'boulder-control'),
      {'baseline_log': lambda mode: f'both-after-{mode}.log'}),
-    ('glyph', '.worktrees/glyph-tracker/artifacts/glyph/adapted', 'CBUG0102',
+    ('glyph', 'docs/audit/c-reports/glyph', 'CBUG0102',
      ('stairs', 'clear-floor', 'pairing'), {}),
-    ('missile', '.worktrees/missile-no-target/artifacts/missile/scenarios', 'M254',
+    ('missile', 'docs/audit/c-reports/missile', 'M254',
      ('no-target', 'live-shot', 'simulated'), {}),
-    ('tp-other', '.worktrees/tp-other-skip/artifacts/tp/scenarios', 'CBUG0051',
+    ('tp-other', 'docs/audit/c-reports/tp-other', 'CBUG0051',
      ('two-phase', 'no-morgoth-phase', 'single'), {}),
-    ('dispel', '.worktrees/dispel-filter/artifacts/dispel/adapted', 'D248',
+    ('dispel', 'docs/audit/c-reports/dispel', 'D248',
      ('living', 'undead', 'bolt'),
      {'scenario': 'tools/dispel-filter-scenario.c',
       'rows_free': ('undead',),
@@ -119,11 +120,11 @@ GROUPS = [
                                'undead': 0},
                     'undead': {'hp_before': 47, 'hp_after': 47, 'hp_lost': 0,
                                'undead': 1}}}),
-    ('arc', '.worktrees/arc-angle/artifacts/arc/scenarios', 'A253',
+    ('arc', 'docs/audit/c-reports/arc', 'A253',
      ('arc-bystander', 'arc-both'), {}),
-    ('munchkin', '.worktrees/munchkin-stair/artifacts/m244/scenarios', 'M244',
+    ('munchkin', 'docs/audit/c-reports/munchkin', 'M244',
      ('phantom', 'on-stair'), {}),
-    ('vampire', '.worktrees/vampire-strike/artifacts/v257/scenarios', 'V257',
+    ('vampire', 'docs/audit/c-reports/vampire', 'V257',
      ('near-far', 'near-near', 'far'),
      {'fail': ('near-far', 'near-near'),
       'fail_reason': 'necrolight-296 (0099): the scenario Necromancer '
@@ -140,48 +141,48 @@ GROUPS = [
       'rows_free': ('near-far', 'near-near'),
       'rows_must': {'near-far': {'acted': 0, 'keys': 0, 'cast_spell': 0},
                     'near-near': {'acted': 0, 'keys': 0, 'cast_spell': 0}}}),
-    ('slay', '.worktrees/slay-traits/artifacts/slay/scenarios', 'S239',
+    ('slay', 'docs/audit/c-reports/slay', 'S239',
      ('animal', 'nonanimal'), {}),
-    ('detect', '.worktrees/detect-panel/artifacts/d290/scenarios', 'D290',
+    ('detect', 'docs/audit/c-reports/detect', 'D290',
      ('stale', 'fresh'), {}),
-    ('activ', '.worktrees/activ-lookup/artifacts/a260/scenarios', 'A260',
+    ('activ', 'docs/audit/c-reports/activ', 'A260',
      ('miswired', 'control'), {}),
-    ('reserve', '.worktrees/reserve-bolt/artifacts/r258/scenarios', 'R258',
+    ('reserve', 'docs/audit/c-reports/reserve', 'R258',
      ('veto', 'control'), {}),
-    ('dispel259', '.worktrees/dispel-reserve/artifacts/d259/scenarios', 'D259',
+    ('dispel259', 'docs/audit/c-reports/dispel259', 'D259',
      ('reserve', 'clear'),
      {'fail': ('reserve', 'clear'),
       'fail_reason': 'losdispel-326 makes the radius-10 blast scan reachable; '
                      'the absolute eq moves (recorded +296 at the 0049 tip)',
       'rows_free': ('reserve', 'clear')}),
-    ('losdispel', '.worktrees/losdispel/artifacts/l326/scenarios', 'L326',
+    ('losdispel', 'docs/audit/c-reports/losdispel', 'L326',
      ('storm', 'control'), {}),
-    ('staff', '.worktrees/staff-holy/artifacts/s262/scenarios', 'S262',
+    ('staff', 'docs/audit/c-reports/staff', 'S262',
      ('holy', 'control'), {}),
-    ('blind', '.worktrees/blind-frighten/artifacts/b261/adapted', 'B261',
+    ('blind', 'docs/audit/c-reports/blind', 'B261',
      ('blind', 'control'), {}),
-    ('text', '.worktrees/text-multibyte/artifacts/t287/scenarios', 'T287',
+    ('text', 'docs/audit/c-reports/text', 'T287',
      ('multibyte', 'control'),
      {'skip': 'retired: targets the pre-0068 five-argument borg_what_text '
               'signature and no longer compiles against the tip; superseded '
               'by the text-bufsize kit (0068) in this matrix'}),
-    ('calcreload', '.worktrees/calc-reload/artifacts/c325/scenarios', 'T325',
+    ('calcreload', 'docs/audit/c-reports/calcreload', 'T325',
      ('reload', 'control'), {'no_profile': True}),
-    ('staletarget', '.worktrees/stale-target/artifacts/s322/scenarios', 'T322',
+    ('staletarget', 'docs/audit/c-reports/staletarget', 'T322',
      ('stale', 'control'), {}),
-    ('glowoverflow', '.worktrees/glow-overflow/artifacts/g311/scenarios', 'T311',
+    ('glowoverflow', 'docs/audit/c-reports/glowoverflow', 'T311',
      ('glow', 'control'), {}),
-    ('light', '.worktrees/light-modifier/artifacts/l238/scenarios', 'T238',
+    ('light', 'docs/audit/c-reports/light', 'T238',
      ('phial', 'torch'), {}),
-    ('surrounded', '.worktrees/surrounded-traps/artifacts/s312/scenarios', 'T312',
+    ('surrounded', 'docs/audit/c-reports/surrounded', 'T312',
      ('traps', 'walls'), {}),
-    ('homeblows', '.worktrees/home-blows/artifacts/h313/scenarios', 'T313',
+    ('homeblows', 'docs/audit/c-reports/homeblows', 'T313',
      ('stack', 'single'), {}),
-    ('lunal', '.worktrees/lunal-state/artifacts/l314/scenarios', 'T314',
+    ('lunal', 'docs/audit/c-reports/lunal', 'T314',
      ('town', 'pack'), {}),
-    ('opblock', '.worktrees/opblock-leak/artifacts/o324/scenarios', 'T324',
+    ('opblock', 'docs/audit/c-reports/opblock', 'T324',
      ('operators', 'control'), {'no_profile': True}),
-    ('calfree', '.worktrees/calfree-tokens/artifacts/c323/scenarios', 'T323',
+    ('calfree', 'docs/audit/c-reports/calfree', 'T323',
      ('free', 'control'), {'no_profile': True}),
     ('brand', 'artifacts/b240/scenarios', 'N240', ('brand', 'control'), {}),
     ('stairtrack', 'artifacts/s232/scenarios', 'T232', ('known', 'fresh'), {}),
@@ -209,29 +210,29 @@ GROUPS = [
     ('recalldepth', 'artifacts/rd310/scenarios', 'RD310',
      ('endgame', 'generic', 'mismatch'), {}),
     # --- kits retained under .worktrees/ since 0050 ---
-    ('glowtrace-213', '.worktrees/glowtrace/artifacts/gt213/scenarios', 'GLOW213',
+    ('glowtrace-213', 'docs/audit/c-reports/glowtrace-213', 'GLOW213',
      ('main',), {'no_mode_env': True,
                  'baseline_log': lambda mode: 'normal-after-main.log'}),
-    ('glow-isglow', '.worktrees/glow-isglow/artifacts/gtisg/scenarios', 'GLOW213',
+    ('glow-isglow', 'docs/audit/c-reports/glow-isglow', 'GLOW213',
      ('main', 'door', 'torchlit', 'unlit'), {}),
-    ('text-bufsize', '.worktrees/text-bufsize/artifacts/t287buf/scenarios', 'T287',
+    ('text-bufsize', 'docs/audit/c-reports/text-bufsize', 'T287',
      ('multibyte', 'control', 'wide'), {}),
-    ('iswarded-198', '.worktrees/iswarded/artifacts/isw198/scenarios', 'ISW198',
+    ('iswarded-198', 'docs/audit/c-reports/iswarded-198', 'ISW198',
      ('rune-town', 'hit-town', 'rune-inside', 'hit-inside', 'hit-noglyph'), {}),
-    ('painmsg-197', '.worktrees/pain-spastic/artifacts/pm197/scenarios', 'PM197',
+    ('painmsg-197', 'docs/audit/c-reports/painmsg-197', 'PM197',
      ('held', 'command', 'uncommand', 'shapefail', 'stun', 'hurt', 'puff'),
      {'fail': ('puff',),
       'fail_reason': 'outside the fix: the puff line has no monster name and '
                      'stays unrecognised in both phases (kit contract)'}),
-    ('trollswap-201', '.worktrees/swap-drop/artifacts/ts201/scenarios', 'TS201',
+    ('trollswap-201', 'docs/audit/c-reports/trollswap-201', 'TS201',
      ('troll-orc', 'troll-plain'), {}),
-    ('drophole-136', '.worktrees/swap-drop/artifacts/dh136/scenarios', 'DH136',
+    ('drophole-136', 'docs/audit/c-reports/drophole-136', 'DH136',
      ('salt-water', 'spare-esp', 'restore-mana', 'level30'), {}),
-    ('wearskip-85', '.worktrees/wearskip/artifacts/ws85/scenarios', 'WS85',
+    ('wearskip-85', 'docs/audit/c-reports/wearskip-85', 'WS85',
      ('tight', 'roomy', 'nocloak'), {}),
-    ('lantern-90', '.worktrees/lantern/artifacts/ln90/scenarios', 'LN90',
+    ('lantern-90', 'docs/audit/c-reports/lantern-90', 'LN90',
      ('empty', 'single'), {}),
-    ('homebanish-54', '.worktrees/homebanish/artifacts/hb54/scenarios', 'HB54',
+    ('homebanish-54', 'docs/audit/c-reports/homebanish-54', 'HB54',
      ('banish', 'mass'), {}),
     ('necrolight-crash', 'docs/audit/c-reports/necrolight-296-crash', 'NL296',
      ('stale-town', 'stale-far', 'lit', 'dark', 'mage-lit'), {}),

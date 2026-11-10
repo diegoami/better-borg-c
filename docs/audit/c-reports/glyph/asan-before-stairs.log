@@ -1,0 +1,70 @@
+native-c/CBUG-0102: starting...
+SETUPSTEP profile
+SETUPSTEP birth
+SETUPSTEP borg
+SETUPSTEP monster Uldor the Accursed
+SETUP seed=1000 class=Warrior level=1 depth=5 hp=8/20 sp=0/0 mode=stairs
+THREAT name=Uldor the Accursed kill_index=1 awake=1 ranged=1
+SPELLS 76,
+GRID player=(11,11) feat=3 trappable=0 threat=(12,9)
+TRACK start num=0 size=200
+  failed_glyph_keeps_count_in_bounds  =================================================================
+==629230==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x7b234edf487c at pc 0x63f68cd32ac8 bp 0x7ffeefc39af0 sp 0x7ffeefc39ae0
+WRITE of size 4 at 0x7b234edf487c thread T0
+    #0 0x63f68cd32ac7 in borg_defend_aux_glyph /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/borg/borg-fight-defend.c:1607
+    #1 0x63f68cd3f396 in borg_calculate_defense_effectiveness /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/borg/borg-fight-defend.c:3485
+    #2 0x63f68cd3fa31 in borg_defend /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/borg/borg-fight-defend.c:3599
+    #3 0x63f68ccc753c in scenario /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/artifacts/glyph/adapted/scenario.c:328
+    #4 0x63f68d204850 in main /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/tests/unit-test.c:53
+    #5 0x7da34fa2a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #6 0x7da34fa2a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #7 0x63f68ccc2e64 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/artifacts/glyph/adapted/asan-before-scenario+0x14be64) (BuildId: 6880a1b8a3a8f02bf5dbb3ad40179efafa0a1343)
+
+0x7b234edf487c is located 4 bytes before 800-byte region [0x7b234edf4880,0x7b234edf4ba0)
+allocated by thread T0 here:
+    #0 0x7da34ff2b60f in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:67
+    #1 0x63f68d2039c1 in mem_alloc /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/z-virt.c:38
+    #2 0x63f68d2039fd in mem_zalloc /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/z-virt.c:46
+    #3 0x63f68cd7c44d in borg_init_track /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/borg/borg-flow.c:1212
+    #4 0x63f68cd4a387 in borg_init_flow_glyph /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/borg/borg-flow-glyph.c:334
+    #5 0x63f68cd7c778 in borg_init_flow /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/borg/borg-flow.c:1274
+    #6 0x63f68cd95913 in borg_init /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/borg/borg-init.c:573
+    #7 0x63f68ccc43f7 in setup_tests /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/artifacts/glyph/adapted/scenario.c:185
+    #8 0x63f68d2046cd in main /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/tests/unit-test.c:45
+    #9 0x7da34fa2a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #10 0x7da34fa2a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #11 0x63f68ccc2e64 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/artifacts/glyph/adapted/asan-before-scenario+0x14be64) (BuildId: 6880a1b8a3a8f02bf5dbb3ad40179efafa0a1343)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow /home/diego/projects/angband/better-borg-c/.worktrees/glyph-tracker/src/borg/borg-fight-defend.c:1607 in borg_defend_aux_glyph
+Shadow bytes around the buggy address:
+  0x7b234edf4580: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7b234edf4600: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7b234edf4680: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7b234edf4700: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7b234edf4780: 00 00 00 00 00 00 fa fa fa fa fa fa fa fa fa fa
+=>0x7b234edf4800: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa[fa]
+  0x7b234edf4880: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7b234edf4900: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7b234edf4980: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7b234edf4a00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7b234edf4a80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==629230==ABORTING

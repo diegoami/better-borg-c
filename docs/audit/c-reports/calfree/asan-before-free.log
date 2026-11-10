@@ -1,0 +1,26 @@
+native-c/calfree-323: starting...
+SETUPSTEP minimal
+  calculation_free_releases_the_token_array  MODE free
+GEOMETRY freed count=0
+RATING freed_value=3 freed_count=0
+OUTCOME freed_value=3 freed_count=0
+Passed
+native-c/calfree-323 finished: 1/1 passed
+
+=================================================================
+==1185655==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 80 byte(s) in 1 object(s) allocated from:
+    #0 0x7812cf72b60f in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:67
+    #1 0x5d3a569d1315 in mem_alloc /home/diego/projects/angband/better-borg-c/.worktrees/opblock-leak/src/z-virt.c:38
+    #2 0x5d3a5654db40 in borg_array_add /home/diego/projects/angband/better-borg-c/.worktrees/opblock-leak/src/borg/borg-formulas.c:95
+    #3 0x5d3a5654afe4 in tokenize_math /home/diego/projects/angband/better-borg-c/.worktrees/opblock-leak/src/borg/borg-formulas-calc.c:256
+    #4 0x5d3a5654c94c in parse_calculation /home/diego/projects/angband/better-borg-c/.worktrees/opblock-leak/src/borg/borg-formulas-calc.c:522
+    #5 0x5d3a5654cc7b in parse_calculation_line /home/diego/projects/angband/better-borg-c/.worktrees/opblock-leak/src/borg/borg-formulas-calc.c:569
+    #6 0x5d3a5649504a in scenario /home/diego/projects/angband/better-borg-c/.worktrees/calfree-tokens/artifacts/c323/scenarios/scenario.c:33
+    #7 0x5d3a569d21a4 in main /home/diego/projects/angband/better-borg-c/.worktrees/opblock-leak/src/tests/unit-test.c:53
+    #8 0x7812cf22a600  (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a600) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #9 0x7812cf22a717 in __libc_start_main (/usr/lib/x86_64-linux-gnu/libc.so.6+0x2a717) (BuildId: 066527e430a32768d82741e00b81eebb1a872294)
+    #10 0x5d3a56494e84 in _start (/home/diego/projects/angband/better-borg-c/.worktrees/calfree-tokens/artifacts/c323/scenarios/asan-before-scenario+0x149e84) (BuildId: c2dd9d7543310f3d9e1924f463cfff7b35b77ec3)
+
+SUMMARY: AddressSanitizer: 80 byte(s) leaked in 1 allocation(s).

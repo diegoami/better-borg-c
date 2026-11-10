@@ -1,0 +1,19 @@
+native-c/CBUG-0102: starting...
+SETUPSTEP profile
+SETUPSTEP birth
+SETUPSTEP borg
+SETUPSTEP monster Uldor the Accursed
+SETUP seed=1000 class=Warrior level=1 depth=5 hp=8/20 sp=0/0 mode=pairing
+THREAT name=Uldor the Accursed kill_index=1 awake=1 ranged=1
+SPELLS 76,
+GRID player=(10,10) feat=1 trappable=1 threat=(12,9)
+TRACK start num=0 size=200
+  failed_glyph_keeps_count_in_bounds  MODE pairing
+DANGER phaseB p1=147 p2=63 avoidance=180
+DECISION phaseB acted=1 keys=4 sequence=<Escape><Escape>rc
+TRACK phaseB_acted num=1
+ENGINE turn=1 hp=8: You have no more Scrolls of Rune of Protection (c).
+OUTCOME glyph_created=1 warded_grid=(10,10) hp=8 num_final=1
+Passed
+TRACK teardown num=1
+native-c/CBUG-0102 finished: 1/1 passed

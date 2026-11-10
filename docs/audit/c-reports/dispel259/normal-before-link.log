@@ -1,0 +1,4 @@
+/home/diego/projects/angband/better-borg-c/.worktrees/dispel-reserve/artifacts/d259/scenarios/scenario.c: In function ‘setup_tests’:
+/home/diego/projects/angband/better-borg-c/.worktrees/dispel-reserve/artifacts/d259/scenarios/scenario.c:134:16: warning: too many arguments for format [-Wformat-extra-args]
+  134 |         printf("MANA dispel_power=%d cursp=%d maxsp=%d ok=%d\n", pw, pw + 5,
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
