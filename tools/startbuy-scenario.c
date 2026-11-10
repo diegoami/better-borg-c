@@ -71,6 +71,7 @@
 #include "borg/borg-inventory.h"
 #include "borg/borg-io.h"
 #include "borg/borg-item-val.h"
+#include "borg/borg-store.h"
 #include "borg/borg-store-buy.h"
 #include "borg/borg-think-dungeon-util.h"
 #include "borg/borg-think.h"
