@@ -1,0 +1,39 @@
+From 8ae589ac5719e647ecc6c4da887268f64b8bcb46 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:02:26 +0000
+Subject: [PATCH] Borg: only drink cure potions for food when actually hurt
+
+When the borg is weak from hunger and has no food, borg_eat_food_any()
+falls back to cure potions, which nourish a little.  The guard is meant
+to allow this only "when hurting", but it tested CURHP <= MAXHP, which
+is always true, so the borg drank Cure Light/Serious/Critical Wounds or
+Healing potions at full hit points.  The caller tries this before the
+Remove Hunger and Herbal Curing spells, so a Druid or Ranger that could
+cast Remove Hunger drank a Potion of Healing instead, for one percent of
+nourishment.
+
+Test CURHP < MAXHP so the potions are used for food only when they also
+heal.  At full hit points the caller goes on to the hunger spells, or to
+leaving the level for food.
+
+Tracked as diegoami/neo-angband-tracker#80.
+---
+ src/borg/borg-item-use.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-item-use.c b/src/borg/borg-item-use.c
+index 020b03bbb..35dd08db6 100644
+--- a/src/borg/borg-item-use.c
++++ b/src/borg/borg-item-use.c
+@@ -394,7 +394,7 @@ bool borg_eat_food_any(void)
+     }
+     /* Consume in order, when hurting */
+     if ((borg.trait[BI_CURHP] < 4
+-            || (borg.trait[BI_CURHP] <= borg.trait[BI_MAXHP]))
++            || (borg.trait[BI_CURHP] < borg.trait[BI_MAXHP]))
+         && (borg_quaff_potion(sv_potion_cure_light)
+             || borg_quaff_potion(sv_potion_cure_serious)
+             || borg_quaff_potion(sv_potion_cure_critical)
+-- 
+2.53.0
+

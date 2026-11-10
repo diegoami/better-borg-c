@@ -305,6 +305,12 @@ GROUPS = [
     ('emptyslot-60', 'docs/audit/c-reports/emptyslot-60', 'ES60',
      ('empty', 'oil'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+
+    # Source80 (issue 80, CBUG-0064): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-eathurt80.py.
+    ('eathurt-80', 'docs/audit/c-reports/eathurt-80', 'EH80',
+     ('fullhp', 'hurt'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
     # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,
