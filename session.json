@@ -91,7 +91,7 @@
   "current_task": {
     "issue": "https://github.com/diegoami/better-borg-c/issues/426",
     "branch": "task/carry-<name>, one branch and PR per source unit",
-    "state": "v11 carry cycle in progress: patches 0100-0103 merged; 0102 and 0103 carried under the impact triage; next in the order is source71",
+    "state": "v11 carry cycle in progress: patches 0100-0104 merged; 0102-0104 carried under the impact triage; next in the order is source108",
     "instructions": "issues/426 (queue, impact triage and order); RULES 19 and AGENTS (mode-attribution rule); docs/measurement/LUNALTAKE-73.md (the mode-gate lesson); docs/measurement/FLOWKILLHALL-98.md and HITCHANCE-63.md (the no-gate carry pattern)"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
@@ -138,14 +138,19 @@
       "0101 LUNALTAKE-73 (source73, PR 430, c16c56405) - skip marked-bad items in the Lunal take",
       "0101a LUNALTAKE-73 correction (PR 433 then PR 434, 9ca986616) - gate on borg.munchkin_mode; the first attempt gated on borg_cfg[BORG_MUNCHKIN_START] and was inert for Warrior/Druid/Ranger everywhere (superseded fea1e39c2)",
       "0102 FLOWKILLHALL-98 (source98, PR 436, 281e3dd8d) - per-monster skip/hall state in borg_flow_kill",
-      "0103 HITCHANCE-63 (source63, PR 438, d624c29d) - armour divided by the monster's to-hit in the melee danger estimate"
+      "0103 HITCHANCE-63 (source63, PR 438, d624c29d) - armour divided by the monster's to-hit in the melee danger estimate",
+      "0104 TAKESTAIR-71 (source71, PR 441, 4002d0308) - item pickup measured from the nearest up staircase in the three take flows; take/scum/lunal flip, single-staircase control byte-identical"
     ],
-    "ledger": "102 entries; last is HITCHANCE-63, patch 0103",
-    "matrix": "83 groups / 248 cases, ok, at d624c29d; every local fixture is committed, no artifacts/ dependency",
-    "next": "source71 (take flow from the nearest up staircase), then 108, 234, then the danger fixes 61, 66, 68, 100; the full order is in issue 426",
-    "mode_attribution_debt": "0100-0103 are unconditional shared-code changes, so each records its per-mode effect as NOT MEASURED (not neutral). The batch measurement with explicit arms is owed; the arms live in borg-zoo (issue 54).",
+    "ledger": "103 entries; last is TAKESTAIR-71, patch 0104 (104 patch files, 0101a included)",
+    "matrix": "82 groups / 252 cases, ok, at 4002d0308; 201/212 byte-identical, 11 differences in the same five groups as v10 (dispel, dispel259, fleeheal-408, knockout, vampire). Measured baseline before this carry: 81 groups / 248 cases; the earlier '83 groups' note was a miscount.",
+    "next": "source108 (no_rest_prep timer width), then 234, then the danger fixes 61, 66, 68, 100; the full order is in issue 426",
+    "mode_attribution_debt": "0100-0104 are unconditional shared-code changes, so each records its per-mode effect as NOT MEASURED (not neutral). For 0104 the fixture shows the changed branch executing in take, scum and lunal; borg_flow_take_lunal is unreachable in a normal-only configuration by construction. The batch measurement with explicit arms is owed; the arms live in borg-zoo (issue 54).",
     "zoo": "diegoami/borg-zoo is a separate repository and session. better-borg-c #435 was closed as mis-filed. Zoo issue 54 covers explicit mode profiles, the experiment restart and the pin bump: specimen 4.2.6-bbc-m10 is 6944d88e8, which predates 0100-0103; harness pin fc9d97cb.",
     "known_flake": "The unit gate returned 964/965 once at 281e3dd8d and 965/965 on the immediate rerun (CI green on the same tree). Not diagnosed; if it recurs, bisect rather than dismiss.",
-    "next_action": "Claim source71, carry it with the established process (before gate, cherry-pick -x, after gate, kit unchanged, verifier, matrix, ledger, receipt), then continue down the issue-426 order."
+    "next_action": "Claim source108 and carry it with the established process (before gate, cherry-pick -x, after gate, kit unchanged, verifier, matrix, ledger, receipt), then continue down the issue-426 order.",
+    "open_items": [
+      "docs/deaths/D0020-collected .. D0030-collected: 11 raw collector dossiers exist only on disk (unassessed, issue 163); curate+commit or commit the raw records.",
+      "Issue 283 (square_in_bounds(NULL) abort): claim from 2026-11-08 without a handoff is stale; no symbolized stack yet (no gdb; the 1000 s ASan replay and the assertion preload did not reproduce). Available for takeover after noting it in the claim thread."
+    ]
   }
 }
