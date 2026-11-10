@@ -1,0 +1,27 @@
+Original recording: frame 9171, engine turn 8031, phase tick; HP 5, SP 1, depth 2
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+The white harpy claws you. The white harpy misses you.                          
+Half-Troll                                                                      
+Acolyte                                                                         
+Necromancer                                                                     
+LEVEL      3                                                                    
+NXT       24                                                                    
+AU         6                                                                    
+|     (  ]                        #                                             
+STR:      18                       .                                            
+INT:      15                        ##                                          
+WIS:       8                        .##                                         
+DEX:       6                      ##..###    #####                              
+CON:      17                       .H...  #..#...#####                          
+                                  ##@.# #......#.....'                          
+Cur AC    15                  #..##r?## # # ##.#######                          
+HP    5/  32                   #...p#####.#  #.#                                
+SP    1/   4                 ....##.......#  #.#                                
+                            ####  #########  #.#                                
+                                             #.#                                
+                                             #.#                                
+                                             #.#                                
+                                             #<#                                
+100' (L2)                                    ###                                
+             LF:2-2 Light 1  Study (1) Fed 73 % Open floor                      

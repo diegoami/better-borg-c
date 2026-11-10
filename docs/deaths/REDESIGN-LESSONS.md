@@ -5,9 +5,9 @@ designing a new Angband automaton. This document distils the reviewed deaths in 
 repository into design requirements. It does not ask for C patches. Every lesson links back
 to its evidence. Read the linked dossier before relying on a detail.
 
-Snapshot: 2026-11-10. It covers the reviewed cases **D0001–D0018**, which are 15 distinct
+Snapshot: 2026-11-10. It covers the reviewed cases **D0001–D0019**, which are 16 distinct
 starting conditions; D0003–D0005 are reference replays of D0002. It includes the verified
-owner manual takeovers listed in the case index. D0019+ are not yet reviewed. Update this file when they are.
+owner manual takeovers listed in the case index. D0020+ are not yet reviewed. Update this file when they are.
 
 ## How to read the evidence
 
@@ -41,6 +41,7 @@ learned lore. A redesign must decide explicitly whether it may use that spoiler 
 | [D0016](D0016-collected/report.md) | Human Necromancer CL1 | DL1 | crow (after a teleport trap) | survived (bolted the crow first) | [#353](https://github.com/diegoami/better-borg-c/issues/353) |
 | [D0017](D0017-collected/report.md) | Dwarf Ranger CL25 | DL21 (max 22) | poison, after escaping Mirkwood spiders | — | [#403](https://github.com/diegoami/better-borg-c/issues/403) |
 | [D0018](D0018-collected/report.md) | Dunadan Druid CL2 | DL1 | wild cat | died (from 33363, cat adjacent) | [#401](https://github.com/diegoami/better-borg-c/issues/401) |
+| [D0019](D0019-collected/report.md) | Half-Troll Necromancer CL3 | DL2 | cutpurse | survived (lucky Phase to stairs; theft removed a cutpurse) | [#406](https://github.com/diegoami/better-borg-c/issues/406) |
 
 What the owner keeps saying, across reviews: the Borg had the tools and the knowledge, but
 its decision layers did not use them, or worked against each other.
@@ -60,6 +61,8 @@ which contradict the Borg's own danger estimate.
   Grip and Fang, and caution refuses to run from them. Three layers, two opposite answers.
 - **D0002–D0005:** a gallant/cutpurse threat rose to danger 188–451, inflated by the theft
   weighting (#158).
+- **D0019:** one apprentice seen at full HP (CL2, 30/30) set whole-level flight. Apprentices
+  and cutpurses are on the CL ≤ 8 name list.
 
 **Evidence.**
 - Observed: the trace notes and logged danger values in D0012 and D0013.
@@ -141,6 +144,11 @@ considered.
 - **D0017** (observed and source-checked). A CL25 Ranger walked away from four speed +10
   Mirkwood spiders for ten turns, with 3–4 adjacent most turns, from 201 to 9 HP. Each step
   was a strategic retreat; no attack, potion or escape was weighed against it.
+- **D0019** (observed and source-checked). Out of escapes and cornered, a Necromancer killed a
+  cutpurse, which dropped a Phase Door on the adjacent square. That square was empty several
+  times (at 8011 no monster was adjacent at all), but `borg_think_dungeon` runs `borg_attack`
+  before `borg_flow_take`, so it kept swinging, and once cast a failed Nether Bolt at a 2-HP
+  mouse, instead of picking up the escape.
 
 **Requirement.** Every turn in contact, score all of these options together, with the same
 threat model and expected outcomes:
@@ -173,6 +181,11 @@ an option, and so is killing them when they are fragile.
 - **D0017** (observed and source-checked). It held 13 Phase Door scrolls and a Staff of
   Teleportation, yet used nothing while spiders took it from 201 to 7 HP. Only when no retreat
   step was left did escape run, and the staff then got it out at once.
+- **D0019** (observed). Fleeing to the up stairs, it was one step into a clear corridor, seven
+  squares from the stairs, with the attackers behind it. A "Critical Phase" read its **only**
+  Phase Door and landed it on the far side of the group, which then cornered it. In the
+  verified manual counterfactual the owner's Phase landed on that same corridor head; the owner
+  walked down unpursued and escaped, and called it luck.
 
 **Source-checked.** `borg_caution` tries the stair dash and the strategic retreat first, then
 escape (`borg_escape`, `borg-caution.c:1654`), then back-away. Whenever a retreat step exists,
@@ -277,7 +290,7 @@ turns.
 - **D0014:** about 21k turns on DL20.
 - **D0009:** D5/D6 cycling while starving.
 - The starting Word of Recall was deposited at Home and never carried in D0006, D0009, D0015,
-  D0016 and D0018.
+  D0016, D0018 and D0019.
 
 **Source-checked.** With no known up staircase, the climb goal takes a down staircase ("go
 down then back up"). With connected stairs this can cycle without progress
@@ -315,6 +328,9 @@ Issues: [#321](https://github.com/diegoami/better-borg-c/issues/321),
   no CLW. A second visit spent another 373 on sandals [1,+5] 126, a Speed potion 75 (drunk at
   full HP against a 2-HP mouse) and two unknown jewellery items 116, again with one Phase Door
   and no CLW. It died carrying 10 spare torches, a spare shield and sandals.
+- **D0019:** of 360 starting gold, **300** went on one Soft Leather Armour [8,+5], with one
+  Phase Door and no CLW. Owner, after surviving the takeover by luck: "Still, inventory
+  issues."
 - **D0011:** died carrying 4 Rings of Searching, 9 spare torches and sandals, with no Phase
   Door, Recall or teleport.
 - **D0006, D0014:** slings carried with **no ammunition**.
@@ -415,7 +431,7 @@ See `patches/series.json` and the per-carry measurement notes in `docs/measureme
 ## L13. How to evaluate a redesign against this evidence
 
 - **Fixtures.** Each dossier records the source, build, seed and options. Owner manual branches
-  (`owner-manual-branch.json` in D0010, D0012, D0013, D0014, D0015, D0016, D0018) give a verified prefix and a
+  (`owner-manual-branch.json` in D0010, D0012, D0013, D0014, D0015, D0016, D0018, D0019) give a verified prefix and a
   known-feasible alternative. Use them as scenario tests: start from the same state, check
   that the decision is at least as good.
 - **Do not count replays.** Repeated runs of the same start, reference variants and manual
