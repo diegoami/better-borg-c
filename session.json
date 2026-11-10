@@ -122,9 +122,12 @@
     "restored_kits": "2026-11-10 (PR 417, merged 3ae026e71): the 36 prior-fixture kits copied unchanged into docs/audit/c-reports/<group>/ (scenario source, headers, profile, baseline logs) and GROUPS repointed; 523 files verified byte-identical to the originals; 91 restored cases rerun, zero unexpected row differences against the v9 baselines (declared transitions unchanged); a fresh clone reran them 91/91; see docs/audit/c-reports/README.md",
     "remaining_dependency": "23 local groups (22 0049-era plus fleeheal-408) still read their baselines from the gitignored artifacts/ tree",
     "tag_state": "no v10 tag; waits for the milestone 10 review verdict and explicit owner authorization",
-    "next_action": "Create the milestone 10 review issue for the owner-launched reviewer"
+    "next_action": "Owner launches an independent reviewer on issue 420 with the prompt from docs/review/MILESTONE10.md section 6; then apply or record the M10-xx findings and place no tag until the verdict and owner authorization",
+    "review_package": "docs/review/MILESTONE10.md (PR 419, merged 2ebe5dafc): whole-window review map, v9 tag 33207fbee -> 4f837667a, claims C1-C12, model-agnostic prompt",
+    "review_issue": "https://github.com/diegoami/better-borg-c/issues/420"
   },
   "owner_preferences": {
     "death_collection_mode": "normal Borg; no new munchkin game runs unless owner explicitly requests again (2026-11-08)"
-  }
+  },
+  "external_review_package_v10": "https://github.com/diegoami/better-borg-c/issues/420"
 }
