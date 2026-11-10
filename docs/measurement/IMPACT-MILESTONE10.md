@@ -163,10 +163,29 @@ unchanged this cycle.
 ## Review
 
 Per the owner's standing instruction, independent/external review is deferred to milestones and the
-owner launches any reviewer they choose. This package is the review input. The review performed on
-this pull request is an internal agent review of the package's own claims and is not represented as
-the external review; its verdict and any corrections are recorded on the PR and applied here before
-merge.
+owner launches any reviewer they choose; this package is the review input.
+
+An internal agent review of this package was performed on PR 416 at the owner's request. It
+verified the tag/base identity, the three merge commits and their ledger entries, the matrix totals
+chain (225 -> 230 -> 234), the fixture case lists, the absent-kit count, and that no other `src/`
+commit exists in the window. It raised three precision findings, all applied before merge:
+
+* **M10-01:** the ledger sentence claimed an ordinal count of 99. The machine-checkable counts are
+  98 entries in `patches/series.json` and 98 patch files; the prose ordinals in
+  `patches/README.md` reach "ninety-ninth" over the same units. Reworded to state the checkable
+  counts and that the correction changes neither.
+* **M10-02:** the I-002 disclosure repeated the evidence document's "181 behaviour-active
+  commits". 181 is the commit distance between the recorded build and `ac0cc65c5`; the
+  behaviour-active classification is not re-verified here. Reworded.
+* **M10-03:** "36 of the `GROUPS` fixtures" made the denominator implicit; it is 36 of 60
+  entries. Stated precisely.
+
+The verdict is recorded on PR 416. This is not the independent/external review: the owner still
+launches that reviewer, and it must not be represented as done.
+
+**Open owner decision:** the 36-kit restoration is the first item of the next work and was not done
+in this package, so the owner can either open the milestone for review with that gap disclosed (as
+this package does) or hold the external review until the kits are restored.
 
 ## Exact next work
 
