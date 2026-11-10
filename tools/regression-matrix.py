@@ -281,6 +281,12 @@ GROUPS = [
     ('losecon-61', 'docs/audit/c-reports/losecon-61', 'LC61',
      ('lowcon', 'lowstr', 'neither', 'bothlow'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+
+    # Source66 (issue 66, CBUG-0050): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-crushv266.py.
+    ('crushv2-66', 'docs/audit/c-reports/crushv2-66', 'CR66',
+     ('caster', 'archer', 'melee', 'tough'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
     # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,

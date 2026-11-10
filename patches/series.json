@@ -2023,6 +2023,24 @@
       "verification": "docs/measurement/LOSECON-61.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; lowcon and lowstr flip as the constitution term is added or removed, and the neither/bothlow controls are byte-identical. Unconditional change in the danger model shared by every mode: per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "CRUSHV2-66",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/450",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/66",
+      "source_head": "9757b161717b68d6c2d9911c46632a817856af51",
+      "source_commits": [
+        "9757b161717b68d6c2d9911c46632a817856af51"
+      ],
+      "applied_commits": [
+        "acc994185"
+      ],
+      "patch": "patches/0108-crushv2-ranged-danger.patch",
+      "patch_active": true,
+      "evidence_ref": "5ad69b41071a20e15fd6b89e8931923120a671d2",
+      "verification": "docs/measurement/CRUSHV2-66.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the caster and archer modes flip from doing nothing to killing the monster with Crush, and the melee/tough controls are byte-identical. Unconditional change in the danger model shared by every mode: per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ]
 }
