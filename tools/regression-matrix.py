@@ -323,6 +323,12 @@ GROUPS = [
     ('swaptrial-31', 'docs/audit/c-reports/swaptrial-31', 'ST31',
      ('swap-held', 'no-weapon-swap', 'no-candidate'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+
+    # Source29 (issue 29, CBUG-0010): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-homeskip29.py.
+    ('homeskip-29', 'docs/audit/c-reports/homeskip-29', 'HS29',
+     ('stored-first', 'stored-last', 'no-history'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
     # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,
