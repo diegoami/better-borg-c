@@ -1,0 +1,37 @@
+From e14eb464a18e8ea11e98fa2ea54bbc00bca92bbd Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 18:36:57 +0100
+Subject: [PATCH] Borg: skip the items it marked bad when scumming in Lunal
+ mode
+
+The Lunal mode take routine works out for each visible item whether it
+is worth a detour ("item_bad"), noting the ones it wants, but never read
+the result: every item that passed the line-of-sight and stair-distance
+tests became a target, including daggers and other things it meant to
+leave. Skip the items marked bad.
+
+Tracked as diegoami/neo-angband-tracker#73.
+
+(cherry picked from commit 45423c1c8d99bc7846dc8503fa0a2be0e5c7e149)
+---
+ src/borg/borg-flow-take.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/borg/borg-flow-take.c b/src/borg/borg-flow-take.c
+index 9c2baf06a..a2523f6e2 100644
+--- a/src/borg/borg-flow-take.c
++++ b/src/borg/borg-flow-take.c
+@@ -838,6 +838,10 @@ bool borg_flow_take_lunal(bool viewable, int nearness)
+             }
+         }
+ 
++        /* Skip items the Borg does not want */
++        if (item_bad)
++            continue;
++
+         /* Get the grid */
+         ag = &borg_grids[y][x];
+ 
+-- 
+2.53.0
+

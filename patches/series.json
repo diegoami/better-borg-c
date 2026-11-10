@@ -1882,6 +1882,24 @@
       "verification": "docs/measurement/STAIRPHASE-34.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; upstair/antisummon flip with controls byte-identical; carried/open+patch-active after merge"
+    },
+    {
+      "id": "LUNALTAKE-73",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/429",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/73",
+      "source_head": "45423c1c8d99bc7846dc8503fa0a2be0e5c7e149",
+      "source_commits": [
+        "45423c1c8d99bc7846dc8503fa0a2be0e5c7e149"
+      ],
+      "applied_commits": [
+        "e14eb464a18e8ea11e98fa2ea54bbc00bca92bbd"
+      ],
+      "patch": "patches/0101-lunaltake-skip-bad.patch",
+      "patch_active": true,
+      "evidence_ref": "0b39bdd149967fd9e866525a4e3b988fa7673584",
+      "verification": "docs/measurement/LUNALTAKE-73.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; dagger flips to skipping the bad item, gold control byte-identical; consumer profile supplemented with borg_munchkin_by_class=FALSE (product by-class munchkin override) and the source kit's broken profile blob replaced; carried/open+patch-active after merge"
     }
   ]
 }
