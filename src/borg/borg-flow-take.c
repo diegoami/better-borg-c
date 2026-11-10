@@ -839,7 +839,7 @@ bool borg_flow_take_lunal(bool viewable, int nearness)
         }
 
         /* Skip items the Borg does not want */
-        if (item_bad && !borg_cfg[BORG_MUNCHKIN_START])
+        if (item_bad && !borg.munchkin_mode)
             continue;
 
         /* Get the grid */
