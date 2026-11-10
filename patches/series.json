@@ -2077,6 +2077,24 @@
       "verification": "docs/measurement/SCOOTIDX-100.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the north mode flips from shooting and reading Phase to doing neither, and the south/pack controls are byte-identical. Unconditional change in the ranged positioning code shared by every mode: per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "EMPTYSLOT-60",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/457",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/60",
+      "source_head": "adcb53459ca9fabaa0c457231cd56dbd8b789698",
+      "source_commits": [
+        "adcb53459ca9fabaa0c457231cd56dbd8b789698"
+      ],
+      "applied_commits": [
+        "0b3517c9d"
+      ],
+      "patch": "patches/0111-emptyslot-empty-pack.patch",
+      "patch_active": true,
+      "evidence_ref": "f31d1b5be76fa9d94dfd10ba71f91341b279d3d8",
+      "verification": "docs/measurement/EMPTYSLOT-60.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the empty mode flips from not buying food to buying it, and the oil control is byte-identical. Rarity means this is a starvation-path fix rather than a broad behaviour change; per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ]
 }

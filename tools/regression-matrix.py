@@ -299,6 +299,12 @@ GROUPS = [
     ('scootidx-100', 'docs/audit/c-reports/scootidx-100', 'SC100',
      ('north', 'south', 'pack'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+
+    # Source60 (issue 60, CBUG-0044): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-emptyslot60.py.
+    ('emptyslot-60', 'docs/audit/c-reports/emptyslot-60', 'ES60',
+     ('empty', 'oil'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
     # recorded D0017 fatal decision - fleeing, poisoned, 7 HP, safe grid,
