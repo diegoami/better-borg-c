@@ -2204,6 +2204,24 @@
       "verification": "docs/measurement/EGOSELL-133.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the plain-worn mode keeps the unidentified Cloak of Aman instead of selling it, and the aman-worn control is byte-identical. Town/sell logic in shared code: per-mode attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "NEWKILL-95",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/475",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/95",
+      "source_head": "1a220cb2db15c4d142f2ee8a97fa111b42d7d806",
+      "source_commits": [
+        "1a220cb2db15c4d142f2ee8a97fa111b42d7d806"
+      ],
+      "applied_commits": [
+        "2b23139bc"
+      ],
+      "patch": "patches/0118-newkill-keep-wall.patch",
+      "patch_active": true,
+      "evidence_ref": "54723234f33d3c6b8a1c5df33bce786ee6559b6d",
+      "verification": "docs/measurement/NEWKILL-95.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the wall mode now keeps the granite under the newly seen wall-walker and queues no shot, and the floor control is byte-identical. Monster sighting is shared code with no mode gate and runs in every configuration: per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ]
 }
