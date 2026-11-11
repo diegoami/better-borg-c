@@ -1,0 +1,72 @@
+From 1a220cb2db15c4d142f2ee8a97fa111b42d7d806 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:13:05 +0000
+Subject: [PATCH] borg: drop the stale-race floor/wall step from
+ borg_new_kill()
+
+borg_new_kill() took r_ptr from the tracking slot before storing the new
+race in it, so the closing "force the grid to floor / granite" step read
+the slot's previous race: race 0 for a wiped slot (or an older race after
+borg_kills_nxt is reset without wiping the array). With race 0 the step
+always marks the grid as floor, so a pass-wall monster first seen inside
+rock turns that rock into floor in the Borg's map. The ranged-attack
+check "never shoot walls" then lets the Borg fire at the monster, and the
+game stops the missile in front of the wall: the turn and the ammunition
+are lost.
+
+borg_update_kill_old(n), called a few lines earlier with the correct
+race, already performs this step, keeping a seen floor grid as floor and
+otherwise marking the grid as granite for a pass-wall monster. Remove
+the duplicate step and the two locals that only it used.
+
+Tracked as diegoami/neo-angband-tracker#95.
+---
+ src/borg/borg-flow-kill.c | 18 ------------------
+ 1 file changed, 18 deletions(-)
+
+diff --git a/src/borg/borg-flow-kill.c b/src/borg/borg-flow-kill.c
+index 0c347c5ad..cd99a3de9 100644
+--- a/src/borg/borg-flow-kill.c
++++ b/src/borg/borg-flow-kill.c
+@@ -711,8 +711,6 @@ static int borg_new_kill(unsigned int r_idx, int y, int x)
+     int i, n = -1;
+ 
+     borg_kill           *kill;
+-    borg_grid           *ag;
+-    struct monster_race *r_ptr;
+     struct monster      *m_ptr;
+ 
+     /* Look for a "dead" monster */
+@@ -750,8 +748,6 @@ static int borg_new_kill(unsigned int r_idx, int y, int x)
+ 
+     /* Access the monster */
+     kill  = &borg_kills[n];
+-    r_ptr = &r_info[kill->r_idx];
+-    ag    = &borg_grids[y][x];
+ 
+     /* Save the race */
+     kill->r_idx = r_idx;
+@@ -824,20 +820,6 @@ static int borg_new_kill(unsigned int r_idx, int y, int x)
+         && borg_los(kill->pos.y, kill->pos.x, borg.c.y, borg.c.x))
+         borg.goal.type = 0;
+ 
+-    /* Force the monster to be sitting on a floor
+-     * grid unless that monster can pass through walls
+-     */
+-    if (!(rf_has(r_ptr->flags, RF_PASS_WALL))) {
+-        ag->feat = FEAT_FLOOR;
+-    }
+-
+-    /* Force the ghostly monster to be in a wall
+-     * grid until the grid is proven to be something else
+-     */
+-    if (rf_has(r_ptr->flags, RF_PASS_WALL)) {
+-        ag->feat = FEAT_GRANITE;
+-    }
+-
+     /* Count up out list of Nasties */
+     for (i = 0; i < borg_nasties_num; i++) {
+         /* Count them up */
+-- 
+2.39.5
+
