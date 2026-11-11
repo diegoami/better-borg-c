@@ -92,7 +92,7 @@
   "current_task": {
     "issue": "https://github.com/diegoami/better-borg-c/issues/426",
     "branch": "task/carry-<name>, one branch and PR per source unit",
-    "state": "v11 carry cycle: tier A and the first seven tier B units merged (0100-0117); milestone 11 package and review issue 471 created; next is the reviewer verdict",
+    "state": "v11 carry cycle: tier A and the first eight tier B units merged (0100-0118); milestone 11 closed with the 4.2.6-impact-v11 tag placed; next in the issue-426 tier B order is source116",
     "instructions": "issues/426 (queue, impact triage and order); RULES 19 and AGENTS (mode-attribution rule); docs/measurement/LUNALTAKE-73.md (the mode-gate lesson); docs/measurement/FLOWKILLHALL-98.md and HITCHANCE-63.md (the no-gate carry pattern)"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
@@ -146,15 +146,23 @@
       "0107 LOSECON-61 (source61, PR 449, 0b5889caf) - con-drain fear reads BI_CCON; lowcon/lowstr flip symmetrically",
       "0108 CRUSHV2-66 (source66, PR 451, b663b28b0) - Crush clears v2 (ranged danger); caster/archer kill instead of idling",
       "0109 GRANITESIM-68 (source68, PR 453, 5f7597bb7) - ranged move test is == FEAT_GRANITE; rubble danger 0 -> 208",
-      "0110 SCOOTIDX-100 (source100, PR 455, 4ab32de77) - ShootN'Scoot passes ag->kill; north stops the unsafe scoot"
+      "0110 SCOOTIDX-100 (source100, PR 455, 4ab32de77) - ShootN'Scoot passes ag->kill; north stops the unsafe scoot",
+      "0111 EMPTYSLOT-60 (source60, PR 458, 0b3517c9d) - the empty-pack scan finds the first empty slot instead of reporting no room; the empty mode flips to buying food, the oil control is byte-identical",
+      "0112 EATHURT-80 (source80, PR 460, 9791d3361) - the food routine tests < so a Cure potion is only drunk when actually hurt; the fullhp mode flips to Remove Hunger, the hurt control is byte-identical",
+      "0113 RINGSLOT-86 (source86, PR 463, 5c34c5968) - the best-gear search compares the left ring against the chosen right slot; the swap mode wears both rings, the mirror and empty controls are byte-identical",
+      "0114 SWAPTRIAL-31 (source31, PR 462, 5e248e8a4) - the home swap trials restore the carried backup in the pack record; the swap-held mode keeps the model matching the game, the other controls are byte-identical",
+      "0115 HOMESKIP-29 (source29, PR 464, ed7b2d953) - the home-grab skip flag resets for each ware; the stored-first mode grabs the useful ware, the stored-last and no-history controls are byte-identical",
+      "0116 SELLCHARGES-132 (source132, PR 469, e5e5bf4a1) - the home-sell trials restore staff and wand charges; the stack mode stores the charged device, the other controls are byte-identical",
+      "0117 EGOSELL-133 (source133, PR 470, 927b51ff4) - the unidentified-ego sell check asks about the item, not the worn cloak; the plain-worn mode keeps the Cloak of Aman, the aman-worn control is byte-identical",
+      "0118 NEWKILL-95 (source95, PR 476, 2b23139bc) - borg_new_kill() no longer reads the stale tracking-slot race, so a pass-wall monster first seen inside seen rock keeps the granite and no shot is queued; the open-floor control is byte-identical"
     ],
-    "ledger": "109 entries; last is SCOOTIDX-100, patch 0110 (110 patch files, 0101a included)",
-    "matrix": "88 groups / 271 cases, ok, at 4ab32de77; 218/231 byte-identical; the 13 differences are the same six groups throughout (dispel, dispel259, fleeheal-408, knockout, preparation, vampire). preparation differs only in the no_rest_prep value (0105), decisions identical.",
-    "next": "tier B in the issue-426 order: 95, 86, 60, 116, then the store quartet 31/29/132/133, 80, 94, 101, 52, 193; comment-only cleanups last",
-    "mode_attribution_debt": "0100-0110 are unconditional shared-code changes, so each records its per-mode effect as NOT MEASURED (not neutral). Per carry the fixture shows the changed branch executing (0104 in take/scum/lunal; 0105 only from clevel 33; 0106 leave-level; 0107-0109 danger model; 0110 scoot). The batch measurement with explicit arms is still owed; the arms live in borg-zoo (issue 54).",
+    "ledger": "117 entries; last is NEWKILL-95, patch 0118 (118 patch files, 0101a included)",
+    "matrix": "96 groups / 292 cases, ok, at 54723234f; 239/252 byte-identical; the 13 differences are the same six groups throughout (dispel, dispel259, fleeheal-408, knockout, preparation, vampire). The new newkill-95 group is 2/2 and byte-identical in both modes.",
+    "next": "tier B in the issue-426 order: 116, then 193, 94, 101, 52; comment-only cleanups last",
+    "mode_attribution_debt": "0100-0118 are unconditional shared-code changes, so each records its per-mode effect as NOT MEASURED (not neutral). Per carry the fixture shows the changed branch executing (0104 in take/scum/lunal; 0105 only from clevel 33; 0106 leave-level; 0107-0109 danger model; 0110 scoot; 0118 the first sighting of a pass-wall monster in seen rock). The batch measurement with explicit arms is still owed; the arms live in borg-zoo (issue 54).",
     "zoo": "diegoami/borg-zoo is a separate repository and session. better-borg-c #435 was closed as mis-filed. Zoo issue 54 covers explicit mode profiles, the experiment restart and the pin bump: specimen 4.2.6-bbc-m10 is 6944d88e8, which predates 0100-0103; harness pin fc9d97cb.",
     "known_flake": "The unit gate returned 964/965 once at 281e3dd8d and 965/965 on the immediate rerun (CI green on the same tree). Not diagnosed; if it recurs, bisect rather than dismiss.",
-    "next_action": "Claim source95 (tier B) and carry it with the established process, then continue down the issue-426 order; the per-mode batch stays with the zoo arms.",
+    "next_action": "Claim source116 (tier B) and carry it with the established process, then continue down the issue-426 order; the per-mode batch stays with the zoo arms.",
     "open_items": [
       "docs/deaths/D0020-collected .. D0030-collected: 11 raw collector dossiers exist only on disk (unassessed, issue 163); curate+commit or commit the raw records.",
       "Issue 283 (square_in_bounds(NULL) abort): stale claim since 2026-11-08; no symbolized stack yet (no gdb; the 1000 s ASan replay and the assertion preload did not reproduce). Available for takeover after noting it in the claim thread."
