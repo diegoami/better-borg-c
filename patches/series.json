@@ -18,12 +18,13 @@
         "39986cc52f3f70727ada24b6def5de98d0bd36c8"
       ],
       "patch": "patches/0001-safer-emergency-swap.patch",
-      "patch_active": true,
+      "patch_active": false,
       "evidence_ref": "1b67370d0dc56d9b7ef34e5356e63d21a7095545",
       "verification": "docs/measurement/SAFER-SWAP.md",
       "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
       "merge_commit": "e4932f358beffcf9956b4e4b8d9e719c5086f664",
-      "verification_status": "merged; verified and measured; carried/open+patch-active"
+      "verification_status": "merged; verified and measured; carried/open+patch-active; RETIRED: retired by official 9d062a64d/bc67c099e (imported at 42cd156ac); source82 fixture: 5 fail-before/pass-after with upstream hunks reversed, 4 controls identical",
+      "retired_by_upstream": "angband/angband 42cd156ac9f95ddf4311e88dd7ad462292d6d1d6"
     },
     {
       "id": "CBUG-0002",
@@ -39,12 +40,13 @@
         "0009ecddcd02b95ac02d63ff43c4c4f95db67b87"
       ],
       "patch": "patches/0002-knockout-reaction-reset.patch",
-      "patch_active": true,
+      "patch_active": false,
       "evidence_ref": "3de1e3123915587483395dd40c4d2e75704e65f4",
       "verification": "docs/measurement/KNOCKOUT.md",
       "credit": "borg-rs (discovery); Diego Amicabile (native proposal/evidence)",
       "merge_commit": "d4bfdce9d4782cf83994ad52de707a52d1f31018",
-      "verification_status": "merged; verified and measured; carried/open+patch-active"
+      "verification_status": "merged; verified and measured; carried/open+patch-active; RETIRED: retired by official 42cd156ac/8c75bdccb (imported at 42cd156ac); source14 fixture: knockout fail-before/pass-after with upstream hunks reversed, 3 controls identical",
+      "retired_by_upstream": "angband/angband 42cd156ac9f95ddf4311e88dd7ad462292d6d1d6"
     },
     {
       "id": "CBUG-0094",
@@ -2223,5 +2225,9 @@
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the wall mode now keeps the granite under the newly seen wall-walker and queues no shot, and the floor control is byte-identical. Monster sighting is shared code with no mode gate and runs in every configuration: per-mode cohort attribution belongs to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
-  ]
+  ],
+  "upstream_import": {
+    "official_head": "42cd156ac9f95ddf4311e88dd7ad462292d6d1d6",
+    "previous_baseline": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3"
+  }
 }

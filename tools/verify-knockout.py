@@ -51,7 +51,13 @@ def main():
         if len(objects) < 150:
             raise RuntimeError('Incomplete native core')
         binary = out / (phase + '-scenario')
-        command = ['cc', '-g', '-DALLOW_BORG', '-I' + str(ROOT / 'src'), '-I' + str(ROOT / 'src/tests'),
+        # The immutable fixture reads the borg_dont_react global. Official
+        # master replaced it with borg.dont_react, so the after phase maps the
+        # name at compile time (the fixture file itself stays unchanged); the
+        # before phase compiles against its own source tree, which still has it.
+        src = ROOT / 'src' if phase == 'after' else core.parents[0] / 'source/src'
+        compat = ['-Dborg_dont_react=borg.dont_react'] if phase == 'after' else []
+        command = ['cc', '-g', '-DALLOW_BORG', *compat, '-I' + str(src), '-I' + str(src / 'tests'),
                    str(out / 'scenario.c'), *map(str, objects + helpers), '-lm', '-o', str(binary)]
         with (out / (phase + '-link.log')).open('w') as log:
             subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, check=True)

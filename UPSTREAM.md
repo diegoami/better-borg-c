@@ -37,6 +37,25 @@ audit. Retire a local correction only after its upstream replacement is actually
 incorporated/rebuilt/verified. Keep historical measurement/death source/build/data
 identities immutable; a new product version does not rewrite old records.
 
+## Import of official master 42cd156ac (2026-11-12)
+
+Merged angband/angband master `42cd156ac9f95ddf4311e88dd7ad462292d6d1d6`
+(12 commits past `e473720ed`) on `task/import-angband-42cd156`. The one
+conflict, in `borg_backup_swap`, resolves to the upstream form. Upstream moved
+`borg_dont_react` into `borg.dont_react`, so `generate_keypress` in `borg.c`
+now uses the field again.
+
+Patch retirement audit: carries 0001 (safer emergency swap) and 0002 (knockout
+reaction gate) are retired because official master now contains the fixes.
+The unchanged tracker fixtures fail with the upstream hunks reversed and pass
+on the merged build (swap: 5 fail-before/pass-after, 4 controls identical;
+knockout: 1 fail-before/pass-after, 3 controls identical). The knockout fixture
+reads the removed global, so `tools/verify-knockout.py` maps the name at
+compile time for the after phase only; the fixture file is unchanged. Native
+gate on the merge: exit 0. The baseline `e473720ed` stays the pristine
+reference for old measurements and death records. Per-mode (unrestricted,
+Lunal-only, normal-only) effect of the merged hunks is not measured.
+
 ## Later Rust adoption path
 
 The owner confirmed a second-stage path: canonical native C tracker reports and
