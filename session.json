@@ -196,6 +196,9 @@
     "ledger": "117 entries, 115 patch-active",
     "cohort": "no cohort or per-mode measurement in this window; owed to borg-zoo issue 54",
     "tag_state": "4.2.6-impact-v12 NOT placed; awaits review verdict and explicit owner authorization",
-    "next_action": "Owner launches an independent reviewer with the prompt in docs/review/MILESTONE12.md section 4; apply findings, then the tag decision"
-  }
+    "next_action": "Owner launches an independent reviewer with the prompt in docs/review/MILESTONE12.md section 4; apply findings, then the tag decision",
+    "review_issue": "https://github.com/diegoami/better-borg-c/issues/479"
+  },
+  "impact_milestone_v12": "https://github.com/diegoami/better-borg-c/milestone/12",
+  "external_review_package_v12": "https://github.com/diegoami/better-borg-c/issues/479"
 }
