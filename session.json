@@ -187,5 +187,15 @@
     "review_verdict": "approve with corrections (issue 471, 2026-11-10): F1-F5 applied and F1's patch artifact regenerated; the package and the review map corrected; no runtime change; nothing outstanding",
     "corrections_commit": "981be4a1d (PR 473, M11-F1..F5, docs and the regenerated 0101a patch; no runtime change)",
     "tag_object": "443ba5c485bd1fa5267a677e44370d8ddb753c15"
+  },
+  "milestone12_state": {
+    "runtime_snapshot": "4e1b912cb",
+    "package": "docs/measurement/IMPACT-MILESTONE12.md",
+    "review_map": "docs/review/MILESTONE12.md",
+    "units": "carry 0118 (NEWKILL-95) and the official import 42cd156ac (retires 0001 and 0002)",
+    "ledger": "117 entries, 115 patch-active",
+    "cohort": "no cohort or per-mode measurement in this window; owed to borg-zoo issue 54",
+    "tag_state": "4.2.6-impact-v12 NOT placed; awaits review verdict and explicit owner authorization",
+    "next_action": "Owner launches an independent reviewer with the prompt in docs/review/MILESTONE12.md section 4; apply findings, then the tag decision"
   }
 }
