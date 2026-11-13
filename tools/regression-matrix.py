@@ -347,6 +347,11 @@ GROUPS = [
     ('newkill-95', 'docs/audit/c-reports/newkill-95', 'T95',
      ('wall', 'floor'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source116 (issue 116, glyphtrack): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-glyph116.py.
+    ('glyphtrack-116', 'docs/audit/c-reports/glyphtrack-116', 'GT116',
+     ('complete-sea', 'new-sea'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
