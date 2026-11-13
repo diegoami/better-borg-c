@@ -52,7 +52,17 @@ on the merged build (swap: 5 fail-before/pass-after, 4 controls identical;
 knockout: 1 fail-before/pass-after, 3 controls identical). The knockout fixture
 reads the removed global, so `tools/verify-knockout.py` maps the name at
 compile time for the after phase only; the fixture file is unchanged. Native
-gate on the merge: exit 0. The baseline `e473720ed` stays the pristine
+gate on the merge: exit 0. Reproducing the "before" tree: from the import head, run
+`git revert --no-commit 42cd156ac d90bdfcc7 8c75bdccb bc67c099e 9d062a64d`
+(the five upstream Borg commits), commit on a scratch branch, then
+`python3 tools/measure-native.py prepare --ref <scratch> --output <dir>` and
+pass `<dir>/build` as `--baseline-build` / `--before-build` to
+`tools/verify-swap.py` and `tools/verify-knockout.py`. Fixtures are the
+unchanged tracker commits `1b67370d` (swap) and `3de1e312` (knockout);
+`tools/regression-matrix.py` carries the same compile-time mapping for its
+knockout group. Upstream range: 12 commits, 5 Borg and 7 non-Borg (four rest
+handling, TERM_XTRA_CLEAR, object-file ordering, Windows open dialog).
+The baseline `e473720ed` stays the pristine
 reference for old measurements and death records. Per-mode (unrestricted,
 Lunal-only, normal-only) effect of the merged hunks is not measured.
 
