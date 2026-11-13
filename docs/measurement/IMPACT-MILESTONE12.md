@@ -48,7 +48,7 @@ the floor control is byte-identical. The code is shared sighting logic with no m
   Borg commits reverted (recipe in `UPSTREAM.md`). The knockout fixture reads the removed global, so
   `tools/verify-knockout.py` and `tools/regression-matrix.py` map it at compile time; the fixture file
   is unchanged.
-* An independent PR review (issue-board comment on PR 478) returned request-changes on one tooling
+* An independent PR review (a review on PR 478) returned request-changes on one tooling
   blocker (the regression-matrix knockout group did not compile) plus accuracy/ledger gaps M2-M6; all
   were applied in `8de6ed459` before merge. M7 (close consumer issues 4 and 7 as `fixed`) is done.
 * Native gate on the merge and the hosted `native` check on the merge head: green
