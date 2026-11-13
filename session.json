@@ -26,7 +26,9 @@
   },
   "upstreams": {
     "angband": "angband/angband",
-    "source-tracker": "diegoami/neo-angband-tracker"
+    "source-tracker": "diegoami/neo-angband-tracker",
+    "imported_head": "42cd156ac9f95ddf4311e88dd7ad462292d6d1d6",
+    "last_checked_note": "Imported on task/import-angband-42cd156 (merge of angband/master, 12 commits). One conflict in borg_backup_swap resolved to the upstream form; carries 0001 (CBUG-0066) and 0002 (CBUG-0002) retired after unchanged fixtures failed before and passed after against the merged build. Per-mode (unrestricted/Lunal/normal) effect of the merge is not measured."
   },
   "verification": "python3 tools/verify-native.py",
   "automatic_deployment": false,

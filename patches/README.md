@@ -21,8 +21,12 @@ Earlier carry ordinals (0001-0034) are recorded in
 
 The first correction is the safer available emergency swap (consumer #4 /
 source #82). Its three C-only source commits include two comment cleanups;
-the cumulative code has one guarded lower-danger comparison. The second carry
-restores combat-message reactions after knockout (consumer #7/source #14). Its
+the cumulative code had one guarded lower-danger comparison. Carries 0001 and
+0002 are retired (patch_active false in `series.json`): official master
+42cd156ac contains both fixes (swap: `bc67c099e`, sentinel form with
+`b_p1`/`b_p2 = 9999`; knockout gate: `9d062a64d`, `8c75bdccb`, `42cd156ac`),
+imported by PR #478. The patch files are kept for history. The second carry
+restored combat-message reactions after knockout (consumer #7/source #14). Its
 measured benefit is restored information, not a proved survival improvement.
 The third carry prevents a regeneration cast during preparation scoring
 (consumer #15/source #110): selected spells execute once. The authoritative

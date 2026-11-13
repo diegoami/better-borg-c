@@ -65,7 +65,8 @@ GROUPS = [
       'no-benefit', 'both-helpful', 'electric-weapon', 'fire-armour'), {}),
     ('knockout', 'docs/audit/c-reports/knockout', 'CBUG0002',
      ('knockout', 'heavy-stun', 'paralysis', 'none'),
-     {'rows_free': ('paralysis',),
+     {'cflags': ['-Dborg_dont_react=borg.dont_react'],
+      'rows_free': ('paralysis',),
       'rows_must': {'paralysis': {'delta': 3}},
       'rows_note': 'paralysis: painmsg-197 (0071) shifts the absolute reaction '
                    'counts by +1 (reactions_before 0 -> 1, after 3 -> 4) while '
@@ -427,7 +428,10 @@ def baseline_log_name(dirpath, mode, opts):
 
 
 def run_group(name, tag, modes, dest, objects, opts, build):
-    link = ['cc', '-g', '-DALLOW_BORG', '-I' + str(ROOT / 'src'),
+    # cflags: compile-time compat for an unchanged fixture. The knockout
+    # fixture reads the removed borg_dont_react global; official master keeps
+    # the same state in borg.dont_react.
+    link = ['cc', '-g', '-DALLOW_BORG', *opts.get('cflags', []), '-I' + str(ROOT / 'src'),
             '-I' + str(ROOT / 'src/tests'), str(dest / 'scenario.c'),
             *map(str, objects), '-lm', '-o', str(dest / 'scenario')]
     with (dest / 'link.log').open('w') as log:
