@@ -66,6 +66,7 @@ GROUPS = [
     ('knockout', 'docs/audit/c-reports/knockout', 'CBUG0002',
      ('knockout', 'heavy-stun', 'paralysis', 'none'),
      {'cflags': ['-Dborg_dont_react=borg.dont_react'],
+      'baseline_log': lambda mode: f'product-{mode}.log',
       'rows_free': ('paralysis',),
       'rows_must': {'paralysis': {'delta': 3}},
       'rows_note': 'paralysis: painmsg-197 (0071) shifts the absolute reaction '
@@ -376,7 +377,7 @@ GROUPS = [
     # (tools/verify-dangerfull69.py).
     ('dangerfull-69', 'docs/audit/c-reports/dangerfull-69', 'DF69',
      ('bear', 'wolf', 'orc', 'shaman'),
-     {'baseline_log': lambda mode: f'after-{mode}.log'}),
+     {'baseline_log': lambda mode: f'product-after-{mode}.log'}),
     # Source111 (venomcost-111): after-baselines from the product run; both phases pass with identical outcomes
     # (tools/verify-venomcost111.py).
     ('venomcost-111', 'docs/audit/c-reports/venomcost-111', 'VC111',
@@ -401,7 +402,7 @@ GROUPS = [
     # (tools/verify-teleotier176.py).
     ('teleotier-176', 'docs/audit/c-reports/teleotier-176', 'TO176',
      ('over3', 'upper', 'lower', 'under2'),
-     {'baseline_log': lambda mode: f'after-{mode}.log'}),
+     {'baseline_log': lambda mode: f'product-after-{mode}.log'}),
     # Source486 (restcomment-486): after-baselines from the product run; both phases pass with identical outcomes
     # (tools/verify-restcomment486.py).
     ('restcomment-486', 'docs/audit/c-reports/restcomment-486', 'RC486',
@@ -412,7 +413,7 @@ GROUPS = [
     # (tools/verify-wandnames38.py).
     ('wandnames-38', 'docs/audit/c-reports/wandnames-38', 'WN38',
      ('bolts-vs-frost', 'balls-only', 'confuse-only', 'scare-only', 'frost-only'),
-     {'baseline_log': lambda mode: f'after-{mode}.log'}),
+     {'baseline_log': lambda mode: f'product-after-{mode}.log'}),
     # Source202 (swapfear-202): after-baselines from the product run; fear-plain fails before and
     # passes after, fear-brave and plain-plain controls byte-identical (tools/verify-swapfear202.py).
     ('swapfear-202', 'docs/audit/c-reports/swapfear-202', 'SF202',
@@ -422,7 +423,7 @@ GROUPS = [
     # passes after, control byte-identical (tools/verify-healamount592.py).
     ('healamount-592', 'docs/audit/c-reports/healamount-592', 'HA592',
      ('window', 'control'),
-     {'baseline_log': lambda mode: f'after-{mode}.log'}),
+     {'baseline_log': lambda mode: f'product-after-{mode}.log'}),
     # Source596 (curelist-596): after-baselines from the product run; blind fails before and
     # passes after, control byte-identical (tools/verify-curelist596.py).
     ('curelist-596', 'docs/audit/c-reports/curelist-596', 'CL596',
@@ -452,7 +453,7 @@ GROUPS = [
     # passes after, control byte-identical (tools/verify-deepdescent590.py).
     ('deepdescent-590', 'docs/audit/c-reports/deepdescent-590', 'DD590',
      ('dd-phase', 'control'),
-     {'baseline_log': lambda mode: f'after-{mode}.log'}),
+     {'baseline_log': lambda mode: f'product-after-{mode}.log'}),
     # Source591 (mindblast-591): after-baselines from the product run; nar fails before and
     # passes after, control byte-identical (tools/verify-mindblast591.py).
     ('mindblast-591', 'docs/audit/c-reports/mindblast-591', 'MB591',
