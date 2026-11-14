@@ -362,6 +362,11 @@ GROUPS = [
     ('deaduniq-101', 'docs/audit/c-reports/deaduniq-101', 'DU101',
      ('wear', 'junk', 'junk-nokitpotion', 'alive-wear', 'alive-junk', 'wear-noscrolls'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source94 (issue 94, uniquedead): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-uniquedead94.py.
+    ('uniquedead-94', 'docs/audit/c-reports/uniquedead-94', 'U94',
+     ('grip', 'slot5'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the

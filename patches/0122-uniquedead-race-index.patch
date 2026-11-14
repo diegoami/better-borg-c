@@ -1,0 +1,42 @@
+From ea3e7213955bfa1125b84ded987b0adee56c0ee3 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:21:10 +0000
+Subject: [PATCH] borg: mark the seen unique dead, not the race numbered like
+ the record
+
+borg_update_kill_old(i) has a fix-up for a monster whose race is a unique
+the player has already killed: it marks that unique as dead in
+borg_race_death[]. It indexed the table with i, the Borg's monster-record
+index, instead of kill->r_idx, the race index, so it marked whichever race
+happens to have the record's number as dead and left the seen unique
+alone. The mark is never cleared during the session.
+
+This is reached in normal play when a monster takes the shape of a killed
+unique (a Maia of Aule can change into Quaker, Master of Earth). With the
+record numbered 47, Grip, Farmer Maggot's Dog, still alive, was recorded
+dead; the next unique scan dropped it from the living uniques, which
+moved the depth the recall-depth decision in borg_recall() is based on.
+
+Index the table with the race that was seen.
+
+Tracked as diegoami/neo-angband-tracker#94.
+---
+ src/borg/borg-flow-kill.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-flow-kill.c b/src/borg/borg-flow-kill.c
+index 0c347c5ad..b0f483ba4 100644
+--- a/src/borg/borg-flow-kill.c
++++ b/src/borg/borg-flow-kill.c
+@@ -345,7 +345,7 @@ static void borg_update_kill_old(int i)
+      * around
+      */
+     if ((rf_has(r_ptr->flags, RF_UNIQUE)) && r_ptr->max_num == 0)
+-        borg_race_death[i] = 1;
++        borg_race_death[kill->r_idx] = 1;
+ 
+     /* We want to remember Morgy's panel */
+     if (kill->r_idx == borg.id.morgoth) {
+-- 
+2.43.0
+
