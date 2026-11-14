@@ -216,7 +216,10 @@
     "not_carried": "616 duplicate of carried 0004; 13/249 no released fix; 154/590/591/595 classified bug fixes and 615 a policy choice, awaiting owner direction",
     "tag_state": "4.2.6-impact-v13 placed 2026-11-14 on the runtime snapshot 9ccb2aaee under explicit owner authorization, without waiting for the #521 reviewer (owner decision 'tag 9ccb2aaee now'); tag object 5a89b17d6f2d2027e2200c89f58eb1a698ba3302, verified on origin. Carries 0138-0141 postdate the snapshot and belong to the milestone-14 window",
     "next_action": "Closed; the #521 review remains open for the owner to launch or close as waived. Next window: milestone 14 = v13 tag -> head (0138-0141: sources 154, 590, 591, 595) after the batch completes",
-    "review_issue": "https://github.com/diegoami/better-borg-c/issues/521",
-    "review_issue_note": "Owner chose 'tag 9ccb2aaee now' on 2026-11-14; review issue #521 left open"
+    "review_issue": "https://github.com/diegoami/better-borg-c/issues/521 (verdict recorded; corrections merged; owner may close)",
+    "review_issue_note": "Owner chose 'tag 9ccb2aaee now' on 2026-11-14; review issue #521 left open",
+    "review_verdict": "approve with corrections (reviewer: Kimi, posted 2026-11-14 on #521; M13-F1 high: swap/knockout fixture hardcoded profile paths broke fresh-clone reproduction; M13-F2 low + M13-F3 cosmetic: doc wording). Corrections applied in PR 531 (72cdf63bb): fixtures take CBUG0066_PROFILE/CBUG0002_PROFILE with a relative fallback; review-map 2.2 wording fixed; package ledger paragraph fixed. Receipt matrix at the corrections tip after a gate rebuild: 118 groups / 365 cases ok, zero failures, 296/365 byte-identical; swap 9/9 byte-identical via the portable path; knockout passes with a PROFILE-line byte diff (joins the owed baseline re-point). Reviewer reproduced the gate, three verifiers (incl. header-touching and stacked), the full matrix, and the 616 duplicate on a clean clone",
+    "corrections_commit": "72cdf63bb (PR 531)",
+    "baseline_repoint_list": "dangerfull-69, teleotier-176, wandnames-38, healamount-592, deepdescent-590, knockout (PROFILE line), retreatadj-154 none \u2014 the drift groups whose matrix baselines still point at pristine captures or pre-portability logs"
   }
 }
