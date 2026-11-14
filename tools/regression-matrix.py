@@ -397,6 +397,11 @@ GROUPS = [
     ('doorcap-126', 'docs/audit/c-reports/doorcap-126', 'DC126',
      ('onedoor', 'twodoors', 'full', 'nobreeder'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source176 (teleotier-176): after-baselines from the product run; both phases pass with identical outcomes
+    # (tools/verify-teleotier176.py).
+    ('teleotier-176', 'docs/audit/c-reports/teleotier-176', 'TO176',
+     ('over3', 'upper', 'lower', 'under2'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the

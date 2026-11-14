@@ -1,0 +1,39 @@
+From 841cd99eebbe47ef6175b1ed2300548a2bfe0c2b Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 18:03:02 +0000
+Subject: [PATCH] Borg: remove the unreachable fail-rate tier from the Teleport
+ Other defence
+
+borg_defend_aux_tele_away() lowers the spell failure it accepts as the
+danger rises: by 10 above three times the avoidance and by 5 above
+twice the avoidance.  A third tier, reached through the else of the
+"twice" test, raised the allowance by 5 when the danger was above five
+halves of the avoidance.  A danger that is not above twice the
+avoidance is never above five halves of it (the avoidance is never
+negative), so that tier could never run.
+
+Remove it.  No behaviour change.
+
+Tracked as diegoami/neo-angband-tracker#176.
+---
+ src/borg/borg-fight-defend.c | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/src/borg/borg-fight-defend.c b/src/borg/borg-fight-defend.c
+index 05e6ac00e..3a71b1434 100644
+--- a/src/borg/borg-fight-defend.c
++++ b/src/borg/borg-fight-defend.c
+@@ -1147,10 +1147,6 @@ static int borg_defend_aux_tele_away(int p1)
+         /* scary */
+         if (p1 > borg.avoidance * 2)
+             fail_allowed -= 5;
+-        else
+-            /* a little scary */
+-            if (p1 > (borg.avoidance * 5) / 2)
+-                fail_allowed += 5;
+ 
+     /* do I have the ability? */
+     if (borg_spell_okay_fail(TELEPORT_OTHER, fail_allowed)
+-- 
+2.43.0
+
