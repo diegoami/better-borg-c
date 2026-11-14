@@ -2602,6 +2602,24 @@
       "verification": "docs/measurement/DEEPDESCENT-590.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the dd-phase mode fails before (the about-to-die ladder reads the delayed Deep Descent scroll) and passes after (Phase Door read instead), the Teleport Level control byte-identical. Mode attribution (2026-11-10 rule): the escape ladder runs in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 87. carried/open+patch-active after merge"
+    },
+    {
+      "id": "MINDBLAST-591",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/527",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/591",
+      "source_head": "9a9fb3ce8fbfe2b01725e92a9ec04e5facb64af1",
+      "source_commits": [
+        "9a9fb3ce8fbfe2b01725e92a9ec04e5facb64af1"
+      ],
+      "applied_commits": [
+        "28fec8793"
+      ],
+      "patch": "patches/0140-mind-blast-danger.patch",
+      "patch_active": true,
+      "evidence_ref": "623148199e1f1eed3e583275fb6c21dd4141a7f5",
+      "verification": "docs/measurement/MINDBLAST-591.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the nar mode fails before (danger 40, Mind Blast counted as 9) and passes after (danger 74, 8d8 maximum plus the confusion term), the illusionist control byte-identical at 600. Mode attribution (2026-11-10 rule): the monster-spell danger cases sit in borg_danger() in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 87. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
