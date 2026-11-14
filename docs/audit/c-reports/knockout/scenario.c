@@ -65,17 +65,23 @@ static void message(game_event_type type, game_event_data *data, void *user)
 int setup_tests(void **state)
 {
     set_file_paths();
-    /* Override every writable user path before initializing/birthing. */
+    /* Override every writable user path before initializing/birthing.
+     * The profile root comes from the runner (CBUG0002_PROFILE) or the
+     * working directory, so the fixture is portable across machines. */
     string_free(ANGBAND_DIR_USER);
     string_free(ANGBAND_DIR_SAVE);
     string_free(ANGBAND_DIR_PANIC);
     string_free(ANGBAND_DIR_SCORES);
     string_free(ANGBAND_DIR_ARCHIVE);
-    ANGBAND_DIR_USER = string_make("/home/diego/projects/angband/better-borg-c/.worktrees/rings/artifacts/rings/knockout-regression/profile");
-    ANGBAND_DIR_SAVE = string_make("/home/diego/projects/angband/better-borg-c/.worktrees/rings/artifacts/rings/knockout-regression/profile/save");
-    ANGBAND_DIR_PANIC = string_make("/home/diego/projects/angband/better-borg-c/.worktrees/rings/artifacts/rings/knockout-regression/profile/panic");
-    ANGBAND_DIR_SCORES = string_make("/home/diego/projects/angband/better-borg-c/.worktrees/rings/artifacts/rings/knockout-regression/profile/scores");
-    ANGBAND_DIR_ARCHIVE = string_make("/home/diego/projects/angband/better-borg-c/.worktrees/rings/artifacts/rings/knockout-regression/profile/archive");
+    {
+        const char *prof = getenv("CBUG0002_PROFILE");
+        if (!prof) prof = "profile";
+        ANGBAND_DIR_USER = string_make(prof);
+        ANGBAND_DIR_SAVE = string_make(format("%s/save", prof));
+        ANGBAND_DIR_PANIC = string_make(format("%s/panic", prof));
+        ANGBAND_DIR_SCORES = string_make(format("%s/scores", prof));
+        ANGBAND_DIR_ARCHIVE = string_make(format("%s/archive", prof));
+    }
     if (!init_angband()) return 1;
     create_needed_dirs();
     Rand_quick = false;

@@ -70,7 +70,8 @@ mode. The exceptions are recorded, attributed, and listed under Disclosures.
 ## Ledger
 
 `patches/series.json` has 136 entries, 134 `patch-active` (0001 and 0002 remain retired by the
-official import). `patches/README.md` carries 130-136; every entry links its consumer issue,
+official import). `patches/README.md` carries all nineteen window entries (the
+hundred-and-nineteenth through Carry 136); every entry links its consumer issue,
 source issue, source head, applied commits, patch file, evidence ref and verification doc.
 
 ## Matrix

@@ -38,7 +38,9 @@ session-state commit whose `src/` is identical.)
    (0135 and 0137 over three files; 0137's base is the stacked source parent `82fd25a54`, provided
    by the consumer's 0136). Rerun `tools/verify-wandnames38.py`, `tools/verify-stunprot589.py` and
    `tools/verify-vulnmod610.py` with the before builds they record; each must report
-   `verified: true` with all kit logs byte-identical to the source captures.
+   `verified: true` (for wandnames-38 with the byte-identity exceptions disclosed in §2.6: the
+   OUTCOME rows and the frost-only control identity hold; three phase logs differ by the disclosed
+   VALUE line).
 3. **Header-shift hazard.** 0135 and 0137 touch `borg-trait.h`. Check each phase of their
    verifiers compiles against its own build tree (`CMAKE_HOME_DIRECTORY`), not the working tree.
    The retained correction is `37ded9e8c`; the pre-correction failure mode is described in
