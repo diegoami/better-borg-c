@@ -448,6 +448,11 @@ GROUPS = [
     ('retreatadj-154', 'docs/audit/c-reports/retreatadj-154', 'RA154',
      ('spider', 'ant'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source590 (deepdescent-590): after-baselines from the product run; dd-phase fails before and
+    # passes after, control byte-identical (tools/verify-deepdescent590.py).
+    ('deepdescent-590', 'docs/audit/c-reports/deepdescent-590', 'DD590',
+     ('dd-phase', 'control'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
