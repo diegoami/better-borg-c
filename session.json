@@ -94,9 +94,9 @@
   "current_task": {
     "issue": "https://github.com/diegoami/better-borg-c/issues/426",
     "branch": "task/carry-<name>, one branch and PR per source unit",
-    "state": "v13->v14 cycle: owner-approved batch done \u2014 0138 source154 (PR 524), 0139 source590 (PR 526), 0140 source591 (PR 528) merged; 0141 source595 BLOCKED not carried (the source fix requires exactly d==want where the game lands closest-to; our matrix rejected it: 12 failed cases in shot-path/per-spell/cold-protection; diagnosis on tracker #595, red on task/carry-phasemodel-595, reconsider when the source selection is fixed). 4.2.6-impact-v13 placed on 9ccb2aaee under owner authorization (tag object 5a89b17d6f2d); #521 review open, owner assigned Kimi. Milestone-14 window = v13 tag -> head over 0138-0140 (plus 0141 if/when re-carried); per-mode debt handoff filed as borg-zoo#87",
+    "state": "v13->v14 cycle: the newly-released pair set is complete \u2014 0142 source192 (PR 535, d6fc9a68e) and 0143 source174 (PR 537, ae420e82c) merged; 0138-0140 (154/590/591) merged earlier in the window. Milestone-14 window = v13 tag (9ccb2aaee) -> head (ae420e82c) over 0138-0140 + 0142-0143; 0141 source595 blocked on tracker #595's landing-selection fix (red on task/carry-phasemodel-595). Ledger 141 entries, 139 patch-active. Matrix 120 groups / 369 cases ok, 317/369 byte-identical (only declared transitions differ). #521 closed (re-review approve)",
     "instructions": "issues/426 (queue); RULES 19 and AGENTS (mode-attribution rule); docs/measurement/STUNPROT-589.md and VULNMOD-610.md (the per-phase include-roots lesson for header-touching carries)",
-    "next": "await Kimi's milestone-13 verdict on #521; await the source-lane fix for phasemodel-595 (d == want -> closest-to-want) to re-carry 0141; then milestone-14 package when the owner asks"
+    "next": "milestone-14 package on owner request; 0141 re-carry when tracker #595 is fixed; 615 policy decision; D0020-D0030 assessments (issue 163)"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
   "impact_milestone_v4": "https://github.com/diegoami/better-borg-c/milestone/4",
