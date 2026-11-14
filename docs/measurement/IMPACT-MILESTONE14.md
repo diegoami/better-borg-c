@@ -33,8 +33,11 @@ Every unit is one `cherry-pick -x` of a reviewed C-only source commit, the uncha
 committed under `docs/audit/c-reports/`, a per-unit verifier (compiling each kit phase against
 its own build tree), a before/after native gate (965/965 unit checks and 5/5 frontend tests at
 the before commit and the unit tip, local and hosted green), byte-wise provenance, a ledger
-entry, an adoption issue with a receipt, and one PR. In all six kits **every product log is
-byte-identical to the source lane's captures**.
+entry, an adoption issue with a receipt, and one PR. In five of six kits **every product log is
+byte-identical to the source lane's captures**; the exception is deepdescent-590, whose four
+product logs differ from the pristine captures by exactly one added line — the `TRACK # Fleeing
+(excessive danger)` diagnostic of the carried source156 fleeing-guard — disclosed in its unit
+doc, with OUTCOME rows identical and the between-phase control identity holding everywhere.
 
 | Patch | Source | Consumer issue | PR / merge | What it fixes | Kit result |
 | --- | --- | --- | --- | --- | --- |
@@ -72,12 +75,18 @@ Fresh full matrix at the head (gate and matrix at `857307ebc`, `src/` identical 
 head): **121 groups / 371 cases, `ok: true`, zero failed cases, 316/371 byte-identical**
 (`docs/measurement/impact-v14/regression-summary.json`). The byte differences are the declared
 intentional transitions (12: dispel-248, vampire-257, dispel259, fleeheal-408, preparation) plus
-19 information-level lines from this window's own fixes: losecon-61 (2) and deepdescent-590 (1)
-gain `TRACK # No Teleport. scary squares: 100` from the 0144 gate now running in scroll-holding
-scenarios — decisions unchanged, OUTCOME rows identical, both groups pass; the same gate's
-either-kind behaviour is the 0144 fix working as intended beyond its kit. All six drift groups
-from the milestone-13 disclosures are byte-identical after the re-point (PR 532) and no longer
-appear.
+3 information-level lines from this window's own fixes: losecon-61 (2) and deepdescent-590 (1,
+`control`) each gain `TRACK # No Teleport. scary squares: 100` from the 0144 gate now running in
+scroll-holding scenarios — decisions unchanged, OUTCOME rows identical, both groups pass; the
+same gate's either-kind behaviour is the 0144 fix working as intended beyond its kit. 40 cases
+are tracker-pinned kit groups with no committed local baseline and are neither identical nor
+different. All six drift groups from the milestone-13 disclosures are byte-identical after the
+re-point (PR 532) and no longer appear.
+
+**Where the summary lives:** the recorded summary is committed from the package merge onward
+(PR 541); it is *not* present at the runtime snapshot `cdfb6d477`, because the file was added by
+this package after the window closed. Anyone auditing at the runtime snapshot should regenerate
+per the commands in the review map, or read the file at `origin/main`.
 
 ## What is not measured (and is owed)
 

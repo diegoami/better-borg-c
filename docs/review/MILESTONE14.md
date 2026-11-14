@@ -36,7 +36,10 @@ If the head has moved, name the commit you inspected.
    (0139/0144 over the layered `borg-escape.c`, 0138 over `borg-caution.c`, 0140 over
    `borg-danger.c`, 0142 over `borg-messages.c`, 0143 over `borg-fight-defend.c` with no
    offset). Rerun any two verifiers with the before builds recorded in their unit docs; each
-   must report `verified: true` with all kit logs byte-identical to the source captures.
+   must report `verified: true`. For 0142/0144 (the suggested pair) all kit logs are
+   byte-identical to the source captures; deepdescent-590 (0139) is the one kit whose product
+   logs differ from the pristine captures — by the disclosed source156 TRACK line only (see
+   §2.5 and the unit doc).
 3. **Fail-before/pass-after.** All six kits fail before and pass after with the captured
    OUTCOME/STATE rows; each kit's `product-result.json` records the per-case comparison.
 4. **The two rejections are real and isolated.**
@@ -50,9 +53,10 @@ If the head has moved, name the commit you inspected.
 5. **Gate and matrix.** `flock /tmp/angband-validation.lock python3 tools/verify-native.py` ->
    965/965 unit, 5/5 frontend at the head. `python3 tools/regression-matrix.py --build
    build/native --output artifacts/m14-check` over all 121 groups / 371 cases: `ok: true`, zero
-   failed cases; the byte differences are the 12 declared intentional transitions plus the 19
-   disclosed `No Teleport`/flee-reason information lines (losecon-61 2, deepdescent-590 1 — and
-   the six former drift groups byte-identical after the PR 532 re-point).
+   failed cases; the differing cases are the 12 declared intentional transitions plus the 3
+   disclosed `No Teleport` TRACK lines (losecon-61 lowcon/bothlow, deepdescent-590 control —
+   one line each, decisions unchanged), and the six former drift groups are byte-identical
+   after the PR 532 re-point. 40 tracker-pinned kit cases carry no committed local baseline.
 6. **Fixture portability holds.** The swap and knockout fixtures take the profile root from
    `CBUG0066_PROFILE` / `CBUG0002_PROFILE` with a relative fallback (M13-F1 correction, PR 531);
    no `/home/` absolute path remains in any fixture compiled by the matrix. The knockout
