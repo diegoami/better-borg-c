@@ -1,0 +1,27 @@
+Original recording: frame 135860, engine turn 122042, phase tick; HP 13, SP 9, depth 7
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+The giant black ant bites you.                                                  
+Hobbit       #########'####%%%%%#################################               
+Keeper       ..........'........................................#               
+Paladin      ##############%%#%################################.#               
+LEVEL      7                                                ###.#               
+NXT       35                                                #...#               
+AU       148                                                #.###               
+|}  "~(() ]]                                                #.#                 
+Str:      15                                            #####.#############     
+INT:       9                                            #.........{.......#     
+WIS:      15                                            #.###############.#     
+DEX:      18                                            #{#    a        #.#     
+CON:      17                                                aaaaa       #.#     
+                                                             aaaaa      #.#     
+Cur AC    23                                               aaaaaaaa     #.#     
+HP   13/  53                                               aaa@aaaa     #.#     
+SP    9/   9                                               ##############.#     
+                                                           ...............#     
+[******----]                                               ################     
+                                                                                
+                                                                                
+                                                                                
+350' (L7)                                                                       
+             LF:8-4 Light 2  Fed 23 % Open floor                                

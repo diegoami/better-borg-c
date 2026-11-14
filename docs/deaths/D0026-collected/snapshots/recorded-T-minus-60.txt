@@ -1,0 +1,27 @@
+Original recording: frame 85772, engine turn 69950, phase tick; HP 11, SP 3, depth 2
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You hit the cave spider. You have slain the cave spider.                        
+Kobold                                 #............#                           
+Runner                                 #######.######                           
+Ranger                                     ....#                                
+LEVEL      4                               #####                                
+NXT        8                                                                    
+AU       469                                                                    
+|}= "~ ()]]]                                                                    
+STR:      16                                                                    
+INT:       9                                                                    
+WIS:      14                             ######                                 
+DEX:   18/20                             #....#                                 
+CON:      13                  ########## #.##.#                                 
+                              #........# #.##.#                                 
+Cur AC    21                  #.######.# #.##.#                                 
+HP   11/  37                  #.#    #.# #.##.#                                 
+SP    3/   3                  #.#    #.# #.##.#   ###############               
+                              #.#    #.# #.##.#   #.............#               
+                              #.#    #.###.##.#   #.............#               
+                              #.#    #.#...##.#   #........!..S@#               
+                              #.#    #...####.#####.............#               
+                              #.#    #####  #............w......#               
+100' (L2)                     #.#           #.#####.............#               
+             LF:2-1 Light 4  Fed 45 % Open floor                                

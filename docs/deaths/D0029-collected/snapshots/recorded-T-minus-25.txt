@@ -1,0 +1,27 @@
+Original recording: frame 9203, engine turn 8025, phase tick; HP 2, SP 0, depth 1
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+The blubbering icky thing flees in terror!                                      
+Elf                                                                             
+Acolyte                                                                         
+Necromancer                                                                     
+LEVEL      1                                                                    
+NXT        2                                                                    
+AU         9                                                                    
+|     (()]]]                                                                    
+STR:      13                                                                    
+INT:   18/30                                           ###########              
+WIS:       9                                          .#.........#              
+DEX:      11                                          .@.#######.#              
+CON:      13                                          #..#######.###            
+                                                      #.i#........<#            
+Cur AC    21                                          .........#####            
+HP    2/  11                                           #######'#####            
+SP    0/   2                                                 ......#            
+                                                      ##+#####.###.#########    
+[*---------]                                          #....................#    
+                                                      .....................#    
+                                                      #....................#    
+                                                      #....................#    
+50' (L1)                                              #....................#    
+             LF:1-? Light 0  Poisoned Fed 81 % Open floor                       

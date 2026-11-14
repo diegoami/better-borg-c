@@ -1,0 +1,733 @@
+Measure the Kobold Mage, Level 9/9
+Exp: 734  Gold: 2974  Turn: 709990
+Killed on level: 3 (max. 3) by starvation
+
+Borg Compile Date: Nov  8 2026
+######################################################################################################################################################################################################
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                  &                                                                                                                                                                                 #
+#                                                                                                                                            &        &                                              #
+#                                                                        &                                                                &   &&                                                     #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                         &  &                                            &                                                             &  &&          &                                             #
+#                                                                                                                                        &  &                                                        #
+#                                             &                                                                                                                                                      #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                   &&            &                                                                                                                                  #
+#                                                    &                                                                                                                                               #
+#                                                    &&                                                                                                                 #################            #
+#                   &     &                         &&&&                                                                                                                #          .    #            #
+#                                                      &                                        &                                                                       #               #            #
+#                                &                                                                  &&                              &                                   #               #            #
+#                                                                                           &&                                                                          #  .            #            #
+#                &                                                                           &                                                                          #               #            #
+#                                                                                            &                                                                          ######## ########            #
+#                                                                                   &      &&&  &                                                                              # #                   #
+#                                                                                                                                                                              # #                   #
+#                                                                                                                                                                          ##### ##                  #
+#                                                                                                                                                                          #    @ #                  #
+#                                                                 &                                                                                                        #### ###                  #
+#                                                                                                              &        &   &    & &&&&                                       # #                    #
+#                                                                                                                                     &                                       # #                    #
+#                                          &                                                                                          &                                       # #                    #
+#                                                                                                                                     &                                       # #                    #
+#                                                                                                                                     &                                       # #                    #
+#                                                                                                                                                                             # #                    #
+#                                                                                                                                                                         ##### #                    #
+#                                                                                                                                                                         .. .  #                    #
+#                                                                 &                                                                                                       #######                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                         &                                          #
+#                 &                                                                                     &                                                  &                                         #
+#                                                           &                                           &&                                                &&                                         #
+#                                &&&                        &                                            &   &           &&                                                                          #
+#                                                                                                               &              &                                                                     #
+#                 &                                                                                                                          &              &                                        #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+#                                                                                                                                                                                                    #
+######################################################################################################################################################################################################
+
+
+  [Last Messages]
+
+# heading up, not prep for current level: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (1) from 12 to 24!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (2) from 12 to 228!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (3) from 12 to 30000!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Twitchy!
+# No Phase. scary squares: 41
+# Loc:40,175 Dep:3 Lev:9 HP:9/57 SP:14/14 Danger:p=0
+# No Phase. scary squares: 40
+# Need to refuel but cant!
+# heading up, not prep for current level: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Need to refuel but cant!
+# Fleeing and leaving the level. (Looking for any stair)
+# Fleeing and leaving the level (Looking for Up Stair).
+# heading up, not prep for current level: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (1) from 9 to 18!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (2) from 9 to 228!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (3) from 9 to 30000!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Twitchy!
+# No Phase. scary squares: 45
+# Loc:40,176 Dep:3 Lev:9 HP:6/57 SP:14/14 Danger:p=0
+# No Phase. scary squares: 30
+# Need to refuel but cant!
+# heading up, not prep for current level: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Need to refuel but cant!
+# Fleeing and leaving the level. (Looking for any stair)
+# Fleeing and leaving the level (Looking for Up Stair).
+# heading up, not prep for current level: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (1) from 6 to 12!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (2) from 6 to 228!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (3) from 6 to 30000!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Twitchy!
+# No Phase. scary squares: 25
+# Loc:40,175 Dep:3 Lev:9 HP:3/57 SP:14/14 Danger:p=0
+# No Phase. scary squares: 46
+# Need to refuel but cant!
+# heading up, not prep for current level: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Need to refuel but cant!
+# Fleeing and leaving the level. (Looking for any stair)
+# Fleeing and leaving the level (Looking for Up Stair).
+# heading up, not prep for current level: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (1) from 3 to 6!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (2) from 3 to 228!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (3) from 3 to 30000!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Twitchy!
+# No Phase. scary squares: 46
+# Loc:40,176 Dep:3 Lev:9 HP:0/57 SP:14/14 Danger:p=0
+# No Phase. scary squares: 31
+# Need to refuel but cant!
+# heading up, not prep for current level: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Need to refuel but cant!
+# Fleeing and leaving the level. (Looking for any stair)
+# Fleeing and leaving the level (Looking for Up Stair).
+# heading up, not prep for current level: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (2) from 0 to 228!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Boosting bravery (3) from 0 to 30000!
+# Fleeing and leaving the level. Brave Thinking.
+# heading up, not prep for current level: restock light radius < 1)
+# heading up (bored and unable to dive: restock light radius < 1)
+# Climbing (too deep: restock light radius < 1)
+# returning to town to restock(too deep: restock light radius < 1)
+# Looking for up stairs.  Going up.
+# Bored but unable to flow to up stairs.
+# no up stairs found, going down
+# Twitchy!
+# No Phase. scary squares: 31
+You die.
+
+
+  [Character Equipment]
+
+a) Dagger 'Narthanc' (1d4) (+9,+12) [+10]
+b) Sling (x2) (+0,+0)
+c) Ring of Searching <+2>
+d) Ring of Protection [+9]
+e) Amulet of Resist Acid
+f) (nothing)
+g) Studded Leather Armour (-1) [12,+0]
+i) Cloak [1,+8]
+m) Leather Shield [8,+1]
+n) Iron Helm [7,+0]
+o) Set of Leather Gloves of Free Action [1,+3]
+p) Pair of Leather Sandals of Slow Descent [1,+3]
+
+
+  [Character Quiver]
+
+a) 34 Rounded Pebbles (1d2) (+0,+0)
+b) 21 Rounded Pebbles (1d2) (+3,+3)
+c) (nothing)
+d) (nothing)
+e) (nothing)
+f) (nothing)
+g) (nothing)
+i) (nothing)
+m) (nothing)
+n) (nothing)
+
+
+  [Character Inventory]
+
+a) Book of Magic Spells [First Spells]
+b) Book of Magic Spells [Attacks and Knowledge]
+c) 6 Potions of Neutralize Poison
+d) 14 Potions of Speed
+e) 3 Potions of Boldness
+f) 7 Scrolls of Phase Door
+g) 2 Scrolls of Teleportation
+
+
+  [Home Inventory (page 1)]
+
+a) a Book of Magic Spells [First Spells]
+b) 7 Rations of Food
+c) 6 Scrolls of Phase Door
+d) a Scroll of Word of Recall
+e) an Amulet of Slow Digestion
+f) (nothing)
+g) (nothing)
+i) (nothing)
+m) (nothing)
+n) (nothing)
+o) (nothing)
+p) (nothing)
+
+
+  [Home Inventory (page 2)]
+
+a) (nothing)
+b) (nothing)
+c) (nothing)
+d) (nothing)
+e) (nothing)
+f) (nothing)
+g) (nothing)
+i) (nothing)
+m) (nothing)
+n) (nothing)
+o) (nothing)
+p) (nothing)
+
+
+  [Swap info]
+
+Swap Weapon:  NONE
+Swap Armour:  NONE
+
+
+  [Player State at Death] 
+
+Current speed: 110. 
+
+
+Anti-bounce counter: 8547
+Time on this level: 16072
+Time since left town: 27584
+Borg_no_retreat: 10
+borg.near.breeder: 0
+borg.mon.unique: 0
+It is daytime in town.
+
+
+borg_uses_swaps: 1
+borg_worships_damage: 0
+borg_worships_speed: 0
+borg_worships_hp: 0
+borg_worships_mana: 0
+borg_worships_ac: 0
+borg_worships_gold: 0
+borg_plays_risky: 0
+prepping for big fight: 0
+
+
+
+
+
+   [ Spells ] 
+
+Name                           Legal Times cast
+Magic Missile                    Yes   369   fail:6 
+Light Room                       Yes   92   fail:6 
+Find Traps, Doors & Stairs       Yes   147   fail:6 
+Phase Door                       Yes   16   fail:6 
+Electric Arc                     Yes   84   fail:8 
+Detect Monsters                  Yes   427   fail:6 
+Fire Ball                        Yes   40   fail:19 
+Recharging                       Yes   0   fail:11 
+Identify Rune                    Yes   5   fail:17 
+Treasure Detection               No    0   fail:50 
+Frost Bolt                       No    0   fail:47 
+Reveal Monsters                  No    0   fail:50 
+Acid Spray                       No    0   fail:50 
+Disable Traps, Destroy Doors     No    0   fail:13 
+Teleport Self                    No    0   fail:24 
+Teleport Other                   No    0   fail:43 
+Resistance                       No    0   fail:50 
+Tap Magical Energy               No    0   fail:50 
+Mana Channel                     No    0   fail:50 
+Door Creation                    No    0   fail:47 
+Mana Bolt                        No    0   fail:50 
+Teleport Level                   No    0   fail:50 
+Detection                        No    0   fail:50 
+Dimension Door                   No    0   fail:50 
+Thrust Away                      No    0   fail:50 
+Shock Wave                       No    0   fail:50 
+Explosion                        No    0   fail:50 
+Banishment                       No    0   fail:50 
+Mass Banishment                  No    0   fail:50 
+Mana Storm                       No    0   fail:50 
+
+skill 0 (str) value= 13.
+skill 1 (int) value= 18.
+skill 2 (wis) value= 10.
+skill 3 (dex) value= 12.
+skill 4 (con) value= 16.
+skill 5 (str adj) value= 0.
+skill 6 (int adj) value= 0.
+skill 7 (wis adj) value= 0.
+skill 8 (dex adj) value= 0.
+skill 9 (con adj) value= 0.
+skill 10 (cur str) value= 17.
+skill 11 (cur int) value= 16.
+skill 12 (cur wis) value= 10.
+skill 13 (cur dex) value= 10.
+skill 14 (cur con) value= 16.
+skill 15 (str index) value= 10.
+skill 16 (int index) value= 15.
+skill 17 (wis index) value= 7.
+skill 18 (dex index) value= 9.
+skill 19 (con index) value= 13.
+skill 20 (sust str) value= 0.
+skill 21 (sust int) value= 0.
+skill 22 (sust wis) value= 0.
+skill 23 (sust dex) value= 0.
+skill 24 (sust con) value= 0.
+skill 25 (class) value= 1.
+skill 26 (light) value= 0.
+skill 27 (cur hp) value= -3.
+skill 28 (max hp) value= 57.
+skill 29 (hp adj) value= 57.
+skill 30 (cur sp) value= 14.
+skill 31 (max sp) value= 14.
+skill 32 (sp adj) value= 675.
+skill 33 (SFAIL1) value= 5.
+skill 34 (SFAIL2) value= 6.
+skill 35 (clevel) value= 9.
+skill 36 (max clevel) value= 9.
+skill 37 (esp) value= 0.
+skill 38 (recall) value= 0.
+skill 39 (food) value= 0.
+skill 40 (food high) value= 0.
+skill 41 (food low) value= 0.
+skill 42 (food cure conf) value= 0.
+skill 43 (food cure blind) value= 0.
+skill 44 (speed) value= 110.
+skill 45 (gold) value= 2974.
+skill 46 (extra moves) value= 0.
+skill 47 (damage reduction) value= 0.
+skill 48 (slow dig) value= 0.
+skill 49 (feather fall) value= 1.
+skill 50 (regen) value= 0.
+skill 51 (see inv) value= 0.
+skill 52 (infravision) value= 5.
+skill 53 (fast shots) value= 0.
+skill 54 (disarm ph) value= 50.
+skill 55 (disarm mag) value= 58.
+skill 56 (use device) value= 55.
+skill 57 (save) value= 39.
+skill 58 (stealth) value= 6.
+skill 59 (search) value= 40.
+skill 60 (to hit normal) value= 43.
+skill 61 (to hit bow) value= 43.
+skill 62 (to hit throw) value= 43.
+skill 63 (dig) value= 7.
+skill 64 (immune fire) value= 0.
+skill 65 (immune acid) value= 0.
+skill 66 (immune cold) value= 0.
+skill 67 (immune elec) value= 0.
+skill 68 (immune poison) value= 0.
+skill 69 (resist fire) value= 1.
+skill 70 (resist cold) value= 0.
+skill 71 (resist elec) value= 0.
+skill 72 (resist acid) value= 1.
+skill 73 (resist poison) value= 1.
+skill 74 (resist fear) value= 0.
+skill 75 (resist lite) value= 0.
+skill 76 (resist dark) value= 0.
+skill 77 (resist blind) value= 0.
+skill 78 (resist conf) value= 0.
+skill 79 (resist sound) value= 0.
+skill 80 (resist shards) value= 0.
+skill 81 (resist nexus) value= 0.
+skill 82 (resist nether) value= 0.
+skill 83 (resist chaos) value= 0.
+skill 84 (resist dis) value= 0.
+skill 85 (hold life) value= 0.
+skill 86 (free action) value= 1.
+skill 87 (resist fire with swap) value= 1.
+skill 88 (resist cold with swap) value= 0.
+skill 89 (resist elec with swap) value= 0.
+skill 90 (resist acid with swap) value= 1.
+skill 91 (resist poison with swap) value= 1.
+skill 92 (resist fear with swap) value= 0.
+skill 93 (resist lite with swap) value= 0.
+skill 94 (resist dark with swap) value= 0.
+skill 95 (resist blind with swap) value= 0.
+skill 96 (resist conf with swap) value= 0.
+skill 97 (resist sound with swap) value= 0.
+skill 98 (resist shards with swap) value= 0.
+skill 99 (resist nexus with swap) value= 0.
+skill 100 (resist nether with swap) value= 0.
+skill 101 (resist chaos with swap) value= 0.
+skill 102 (resist dis with swap) value= 0.
+skill 103 (hold life with swap) value= 0.
+skill 104 (free action with swap) value= 1.
+skill 105 (depth) value= 3.
+skill 106 (max depth) value= 3.
+skill 107 (king) value= 0.
+skill 108 (is weak) value= 1.
+skill 109 (is hungry) value= 1.
+skill 110 (is full) value= 0.
+skill 111 (is gorged) value= 0.
+skill 112 (is blind) value= 0.
+skill 113 (is afraid) value= 0.
+skill 114 (is confused) value= 0.
+skill 115 (is poisoned) value= 0.
+skill 116 (is cut) value= 0.
+skill 117 (is stun) value= 0.
+skill 118 (is heavystun) value= 0.
+skill 119 (is paralyzed) value= 0.
+skill 120 (is image) value= 0.
+skill 121 (is forget) value= 0.
+skill 122 (is encumb) value= 0.
+skill 123 (is study) value= 1.
+skill 124 (is fixlev) value= 0.
+skill 125 (is fixexp) value= 0.
+skill 126 (has fixexp) value= 1.
+skill 127 (is fixstr) value= 0.
+skill 128 (is fixint) value= 0.
+skill 129 (is fixwis) value= 0.
+skill 130 (is fixdex) value= 0.
+skill 131 (is fixcon) value= 0.
+skill 132 (is fixall) value= 0.
+skill 133 (armor) value= 64.
+skill 134 (to hit) value= -1.
+skill 135 (to damage) value= 0.
+skill 136 (wep to hit) value= 9.
+skill 137 (wep to damage) value= 12.
+skill 138 (wep id) value= 1.
+skill 139 (wep damage dice) value= 1.
+skill 140 (wep damage sides) value= 4.
+skill 141 (bow id) value= 1.
+skill 142 (bow to hit) value= 0.
+skill 143 (bow to damage) value= 0.
+skill 144 (bow is sling) value= 1.
+skill 145 (bow artifact) value= 0.
+skill 146 (blows) value= 1.
+skill 147 (EXTRA_BLOWS) value= 0.
+skill 148 (shots) value= 1.
+skill 149 (heavy weapon) value= 0.
+skill 150 (heavy bow) value= 0.
+skill 151 (ammo count) value= 55.
+skill 152 (ammo tval) value= 2.
+skill 153 (ammo sides) value= 3.
+skill 154 (ammo power) value= 2.
+skill 155 (amt missiles) value= 55.
+skill 156 (amt ego missiles) value= 0.
+skill 157 (amt cursed missiles) value= 0.
+skill 158 (quiver slots) value= 2.
+skill 159 (first cursed) value= 0.
+skill 160 (where cursed) value= 0.
+skill 161 (enveloping) value= 0.
+skill 162 (irritation) value= 0.
+skill 163 (teleport) value= 0.
+skill 164 (curse poison) value= 0.
+skill 165 (siren) value= 0.
+skill 166 (hallucinate) value= 0.
+skill 167 (paralysis) value= 0.
+skill 168 (summon demon) value= 0.
+skill 169 (summon dragon) value= 0.
+skill 170 (summon undead) value= 0.
+skill 171 (curse stone) value= 0.
+skill 172 (no teleport) value= 0.
+skill 173 (treach wep) value= 0.
+skill 174 (aggravate) value= 0.
+skill 175 (vulnerable) value= 0.
+skill 176 (dullness) value= 0.
+skill 177 (sickness) value= 0.
+skill 178 (weakness) value= 0.
+skill 179 (clumsiness) value= 0.
+skill 180 (slowness) value= 0.
+skill 181 (annoyance) value= 0.
+skill 182 (impair hp) value= 0.
+skill 183 (CRSMPIMP) value= 0.
+skill 184 (curse steel) value= 0.
+skill 185 (air swing) value= 0.
+skill 186 (fear) value= 0.
+skill 187 (drain xp) value= 0.
+skill 188 (vuln fire) value= 0.
+skill 189 (vuln elec) value= 0.
+skill 190 (vuln cold) value= 0.
+skill 191 (vuln acid) value= 0.
+skill 192 (unknown curse) value= 0.
+skill 193 (wep slay animal) value= 0.
+skill 194 (wep slay evil) value= 0.
+skill 195 (wep slay undead) value= 0.
+skill 196 (wep slay demon) value= 0.
+skill 197 (wep slay orc) value= 0.
+skill 198 (wep slay troll) value= 0.
+skill 199 (wep slay giant) value= 0.
+skill 200 (wep slay dragon) value= 0.
+skill 201 (wep kill undead) value= 0.
+skill 202 (wep kill demon) value= 0.
+skill 203 (wep kill dragon) value= 0.
+skill 204 (wep impact) value= 0.
+skill 205 (wep brand acid) value= 0.
+skill 206 (wep brand elec) value= 0.
+skill 207 (wep brand fire) value= 0.
+skill 208 (wep brand cold) value= 0.
+skill 209 (wep brand poison) value= 0.
+skill 210 (amt phase) value= 7.
+skill 211 (amt teleport) value= 2.
+skill 212 (amt escape) value= 0.
+skill 213 (fuel) value= 0.
+skill 214 (amt heal) value= 0.
+skill 215 (amt ezheal) value= 0.
+skill 216 (amt life) value= 0.
+skill 217 (amt id) value= 1000.
+skill 218 (amt speed) value= 14.
+skill 219 (amt staff magi) value= 0.
+skill 220 (amt staff destruction) value= 0.
+skill 221 (amt teleport other) value= 0.
+skill 222 (amt cure poison) value= 6.
+skill 223 (amt detect traps) value= 1000.
+skill 224 (amt detect door) value= 1000.
+skill 225 (amt detect evil) value= 1000.
+skill 226 (amt magic map) value= 0.
+skill 227 (amt recharge) value= 1000.
+skill 228 (amt call lite) value= 1000.
+skill 229 (amt prot evil) value= 0.
+skill 230 (amt glyph) value= 0.
+skill 231 (amt potion ccw) value= 0.
+skill 232 (amt potion csw) value= 0.
+skill 233 (amt potion clw) value= 0.
+skill 234 (amt ench to hit) value= 0.
+skill 235 (amt ench to dam) value= 0.
+skill 236 (amt *ench to wep*) value= 0.
+skill 237 (amt ench to armor) value= 0.
+skill 238 (amt *ench to armor*) value= 0.
+skill 239 (amt brand) value= 0.
+skill 240 (need ench to armor) value= 33.
+skill 241 (need ench to hit) value= 0.
+skill 242 (need ench to dam) value= 0.
+skill 243 (need brand) value= 0.
+skill 244 (amt resist heat) value= 0.
+skill 245 (amt resist cold) value= 0.
+skill 246 (amt resist poison) value= 0.
+skill 247 (amt teleport level) value= 0.
+skill 248 (holy word) value= 0.
+skill 249 (mass banishment) value= 0.
+skill 250 (amt cool shroom) value= 0.
+skill 251 (amt attack rods1) value= 0.
+skill 252 (amt attack rods2) value= 0.
+skill 253 (worn need id) value= 0.
+skill 254 (amt need id) value= 0.
+skill 255 (amt diggers) value= 0.
+skill 256 (amt good staff chg) value= 0.
+skill 257 (amt good wand chg) value= 0.
+skill 258 (multi bonus) value= 0.
+skill 259 (detect inv) value= 0.
+skill 260 (weight) value= 716.
+skill 261 (carry) value= 1500.
+skill 262 (empty slots) value= 14.
+skill 263 (sauron dead) value= 0.
+skill 264 (prep big fight) value= 0.

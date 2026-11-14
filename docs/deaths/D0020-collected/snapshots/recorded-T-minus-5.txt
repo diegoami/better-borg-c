@@ -1,0 +1,27 @@
+Original recording: frame 99279, engine turn 92485, phase tick; HP 1, SP 5, depth 1
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+The white worm mass crawls on you. You are more poisoned!                       
+Human                                        ###                                
+Believer                                     #<#                                
+Priest                                       #.#                                
+LEVEL      3                                 ..#                                
+NXT       17                      #### ####.##+##.### # #                       
+AU         9                     #........w.wwww........#                       
+\ =  ~(()]]]                     #..w.....w.www@........#                       
+STR:      16                     #......w.wwwww.w.......+                       
+INT:       7                     #...w....w...w.........#                       
+WIS:   18/10                     ########+#.##.##########                       
+DEX:       9                              #.##.#                                
+CON:      17                              #.##.#                                
+                                          #.##.#                                
+Cur AC    21                              #.##.#                                
+HP    1/  37                              #.##.#                                
+SP    5/   5                              #.##.#                                
+                                          #.##.#                                
+[**--------]                              #....#                                
+                                           ####                                 
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:1-? Light 3  Poisoned Fed 27 % Open floor                       

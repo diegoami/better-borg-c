@@ -1,0 +1,27 @@
+Original recording: frame 12004, engine turn 10876, phase tick; HP 6, SP 0, depth 1
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You hit Grip, Farmer Maggot's Dog.                                              
+Elf                                                                             
+Acolyte                                                                         
+Necromancer                                                                     
+LEVEL      1                                                                    
+NXT        2                                                                    
+AU       108                                                                    
+| =     ) ]]                           #######                                  
+STR:      13                            .......###                              
+INT:   18/30                              .......##                             
+WIS:       9                             ##'##.C@.#                             
+DEX:      11                           ###...###.b.#                            
+CON:      13                           #......<#....                            
+                                       ###...###...#                            
+Cur AC    17                             #####  ..##                            
+HP    6/  11                                   ..##                             
+SP    0/   2                                   #%#                              
+                                                                                
+[******----]                                                                    
+                                                                                
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:2-? Light 1  Fed 79 % Open floor                                

@@ -1,0 +1,27 @@
+Original recording: frame 99176, engine turn 92408, phase tick; HP 10, SP 5, depth 1
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You failed to pick the lock.                                                    
+Human                                        ###                                
+Believer                                     #<#                                
+Priest                                       #.#                                
+LEVEL      3                                 ..#                                
+NXT       17                      #### ####.##+##.### # #                       
+AU         9                     #......ww.ww..@.w......#                       
+\ =  ~(()]]]                     #.....w..wwww..........#                       
+STR:      16                     #.........w....w.......+                       
+INT:       7                     #....w...w.w.ww........#                       
+WIS:   18/10                     ########+#.##.##########                       
+DEX:       9                              #.##.#                                
+CON:      17                              #.##.#                                
+                                          #.##.#                                
+Cur AC    21                              #.##.#                                
+HP   10/  37                              #.##.#                                
+SP    5/   5                              #.##.#                                
+                                          #.##.#                                
+                                          #....#                                
+                                           ####                                 
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:1-? Light 3  Poisoned Fed 27 % Open floor                       

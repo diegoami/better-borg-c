@@ -1,0 +1,27 @@
+Original recording: frame 85854, engine turn 69998, phase tick; HP 4, SP 3, depth 2
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You have 5 Scrolls of Phase Door (n).                                           
+Kobold                                   ######                                 
+Runner                                   #....#                                 
+Ranger                        ########## #.##.#                                 
+LEVEL      4                  #........# #.##.#                                 
+NXT        8                  #.######.# #.##.#                                 
+AU       469                  #.#    #.# #.##.#                                 
+|}= "~ ()]]]                  #.#    #.# #.##.#   ###############               
+STR:      16                  #.#    #.# #.##.#   #.............#               
+INT:       9                  #.#    #.###.##.#   #.............#               
+WIS:      14                  #.#    #.#...##.#   #........!....#               
+DEX:   18/20                  #.#    #...####.#####....w........#               
+CON:      13                  #.#    #####  #...............S...#               
+                              #.#           #.#####..f..........#               
+Cur AC    21                  #.#           ###   #...........@.#               
+HP    4/  37                  #.#                 #.#############               
+SP    3/   3                  #.#                                               
+                              #.#                                               
+                              #.#                                               
+                              #.#                                               
+                              #.#                                               
+                              #.#                                               
+100' (L2)                     #.#                                               
+             LF:2-1 Light 4  Graze Fed 45 % Open floor                          

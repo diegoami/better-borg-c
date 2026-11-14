@@ -1,0 +1,2467 @@
+BORG 121858 # Tracking a monster 'soldier ant' at (51,141) from (51,140)
+BORG 121858 # Tracking a monster 'giant red ant' at (51,140) from (51,139)
+BORG 121858 # Scary guy on level.
+BORG 121858 # Loc:51,142 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=30
+BORG 121858 # Fleeing and leaving the level. (scaryguy)
+BORG 121858 # Retreating to 51,143 (distance 1) via 51,143 (30 > 15)
+BORG 121868 # Tracking a monster 'soldier ant' at (51,142) from (51,141)
+BORG 121868 # Tracking a monster 'giant red ant' at (51,141) from (51,140)
+BORG 121868 # Scary guy on level.
+BORG 121868 # Loc:51,143 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=30
+BORG 121868 # Fleeing and leaving the level. (scaryguy)
+BORG 121868 # Retreating to 51,144 (distance 1) via 51,144 (30 > 15)
+BORG 121878 # Tracking a monster 'soldier ant' at (51,143) from (51,142)
+BORG 121878 # Tracking a monster 'giant red ant' at (51,142) from (51,141)
+BORG 121878 # Scary guy on level.
+BORG 121878 # Loc:51,144 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=30
+BORG 121878 # Fleeing and leaving the level. (scaryguy)
+BORG 121878 # Retreating to 51,145 (distance 1) via 51,145 (30 > 15)
+BORG 121888 # Tracking a monster 'soldier ant' at (51,144) from (51,143)
+BORG 121888 # Scary guy on level.
+BORG 121888 # Loc:51,145 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=6
+BORG 121888 # Fleeing and leaving the level. (scaryguy)
+BORG 121888 # Adjacent to monster on Scaryguy Level.
+BORG 121888 # Performing attack type 3 with value 24.
+BORG 121888 # Targeting soldier ant who has 6 Hit Points (51,144).
+BORG 121888 # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+BORG 121898 # DIED:The soldier ant (+)
+BORG 121898 # Converting a monster 'giant silver ant' at (54,144)
+BORG 121898 # Forgetting a monster 'soldier ant' at (54,144)
+BORG 121898 # Tracking a monster 'giant red ant' at (51,143) from (51,142)
+BORG 121898 # Creating an object '& Rounded Pebble~' at (144,51)
+BORG 121898 # DIED:The soldier ant (2)
+BORG 121898 # There was a monster 'soldier ant' at (51,144)
+BORG 121898 # Forgetting a monster 'soldier ant' at (51,144)
+BORG 121898 # Scary guy on level.
+BORG 121898 # Loc:51,145 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=9
+BORG 121898 # Fleeing and leaving the level. (scaryguy)
+BORG 121898 # Adjacent to monster on Scaryguy Level.
+BORG 121898 # Performing attack type 3 with value 72.
+BORG 121898 # Targeting giant red ant who has 18 Hit Points (51,143).
+BORG 121898 # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+BORG 121908 # HIT_BY:The giant red ant (+)
+BORG 121908 # MISS_BY:The giant red ant (+)
+BORG 121908 # Perhaps wall near targetted location (51,143)
+BORG 121908 # Guessing wall (51,144) near target (51,143)
+BORG 121908 # Tracking a monster 'giant red ant' at (51,144) from (51,143)
+BORG 121908 # Creating an object '& Rounded Pebble~' at (144,51)
+BORG 121908 # Creating a monster 'giant red ant' at (51,141), HP: 16, Index: 136
+BORG 121908 # Removing Regional Fear (51,141) because of a LOS giant red ant
+BORG 121908 # HIT_BY:The giant red ant (3)
+BORG 121908 # MISS_BY:The giant red ant (3)
+BORG 121908 # Scary guy on level.
+BORG 121908 # Loc:51,145 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=179
+BORG 121908 # Fleeing and leaving the level. (scaryguy)
+BORG 121908 # Retreating to 51,146 (distance 1) via 51,146 (179 > 11)
+BORG 121918 # Tracking a monster 'giant red ant' at (51,145) from (51,144)
+BORG 121918 # Tracking a monster 'giant red ant' at (51,142) from (51,141)
+BORG 121918 # Scary guy on level.
+BORG 121918 # Loc:51,146 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=179
+BORG 121918 # Fleeing and leaving the level. (scaryguy)
+BORG 121918 # Retreating to 51,147 (distance 1) via 51,147 (179 > 11)
+BORG 121928 # Tracking a monster 'giant red ant' at (51,146) from (51,145)
+BORG 121928 # Tracking a monster 'giant red ant' at (51,143) from (51,142)
+BORG 121928 # Scary guy on level.
+BORG 121928 # Loc:51,147 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=179
+BORG 121928 # Fleeing and leaving the level. (scaryguy)
+BORG 121928 # Retreating to 51,148 (distance 1) via 51,148 (179 > 11)
+BORG 121938 # Tracking a monster 'giant red ant' at (51,147) from (51,146)
+BORG 121938 # Tracking a monster 'giant red ant' at (51,144) from (51,143)
+BORG 121938 # Creating an object '& Rounded Pebble~' at (144,51)
+BORG 121938 # Scary guy on level.
+BORG 121938 # Loc:51,148 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=179
+BORG 121938 # Fleeing and leaving the level. (scaryguy)
+BORG 121938 # Retreating to 51,149 (distance 1) via 51,149 (179 > 11)
+BORG 121948 # Tracking a monster 'giant red ant' at (51,145) from (51,144)
+BORG 121948 # Tracking a monster 'giant red ant' at (51,148) from (51,147)
+BORG 121948 # There was an object '& Rounded Pebble~' at (144,51)
+BORG 121948 # Scary guy on level.
+BORG 121948 # Loc:51,149 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=179
+BORG 121948 # Fleeing and leaving the level. (scaryguy)
+BORG 121948 # Retreating to 51,150 (distance 1) via 51,150 (179 > 11)
+BORG 121958 # Tracking a monster 'giant red ant' at (51,146) from (51,145)
+BORG 121958 # Tracking a monster 'giant red ant' at (51,149) from (51,148)
+BORG 121958 # Scary guy on level.
+BORG 121958 # Loc:51,150 Dep:7 Lev:7 HP:44/53 SP:9/9 Danger:p=179
+BORG 121958 # Fleeing and leaving the level. (scaryguy)
+BORG 121958 # Retreating to 52,151 (distance 1) via 52,151 (179 > 9)
+BORG 121968 # Tracking a monster 'giant red ant' at (51,150) from (51,149)
+BORG 121968 # There was an object '& Rounded Pebble~' at (144,51)
+BORG 121968 # Scary guy on level.
+BORG 121968 # Loc:52,151 Dep:7 Lev:7 HP:44/53 SP:9/9 Danger:p=174
+BORG 121968 # Fleeing and leaving the level. (scaryguy)
+BORG 121968 # Retreating to 53,151 (distance 1) via 53,151 (174 > 0)
+BORG 121978 # Tracking a monster 'giant red ant' at (52,151) from (51,150)
+BORG 121978 # Scary guy on level.
+BORG 121978 # Loc:53,151 Dep:7 Lev:7 HP:44/53 SP:9/9 Danger:p=174
+BORG 121978 # Fleeing and leaving the level. (scaryguy)
+BORG 121978 # Retreating to 54,151 (distance 1) via 54,151 (174 > 9)
+BORG 121988 # Tracking a monster 'giant red ant' at (53,151) from (52,151)
+BORG 121988 # Scary guy on level.
+BORG 121988 # Loc:54,151 Dep:7 Lev:7 HP:44/53 SP:9/9 Danger:p=174
+BORG 121988 # Fleeing and leaving the level. (scaryguy)
+BORG 121988 # Retreating to 55,151 (distance 1) via 55,151 (174 > 9)
+BORG 121998 # Tracking a monster 'giant red ant' at (54,151) from (53,151)
+BORG 121998 # Tracking a monster 'giant red ant' at (52,151) from (51,146)
+BORG 121998 # Scary guy on level.
+BORG 121998 # Loc:55,151 Dep:7 Lev:7 HP:44/53 SP:9/9 Danger:p=179
+BORG 121998 # Fleeing and leaving the level. (scaryguy)
+BORG 121998 # Retreating to 56,151 (distance 1) via 56,151 (179 > 14)
+BORG 122008 # HIT_BY:The giant red ant (+)
+BORG 122008 # HIT_BY:The giant red ant (+)
+BORG 122008 # Tracking a monster 'giant red ant' at (55,151) from (54,151)
+BORG 122008 # Tracking a monster 'giant red ant' at (53,151) from (52,151)
+BORG 122008 # HIT_BY:The giant red ant (3)
+BORG 122008 # HIT_BY:The giant red ant (3)
+BORG 122008 # Scary guy on level.
+BORG 122008 # Loc:56,151 Dep:7 Lev:7 HP:37/53 SP:9/9 Danger:p=179
+BORG 122008 # Fleeing and leaving the level. (scaryguy)
+BORG 122008 # Safe to Phase. scary squares: 13
+BORG 122008 # Reading Scroll of Phase Door.
+BORG 122008 # Danger Level 1.
+BORG 122018 # HIT_BY:The giant white ant (+)
+BORG 122018 # MISS_BY:The giant black ant (+)
+BORG 122018 # MISS_BY:The giant white ant (+)
+BORG 122018 # Tracking a monster 'giant red ant' at (56,138) from (57,138)
+BORG 122018 # Tracking a monster 'giant white ant' at (57,141) from (56,142)
+BORG 122018 # Tracking a monster 'giant white ant' at (57,139) from (56,138)
+BORG 122018 # Tracking a monster 'giant white ant' at (56,143) from (55,144)
+BORG 122018 # Tracking a monster 'giant white ant' at (55,139) from (54,140)
+BORG 122018 # Tracking a monster 'giant black ant' at (56,142) from (56,141)
+BORG 122018 # Tracking a monster 'giant red ant' at (54,142) from (53,143)
+BORG 122018 # Tracking a monster 'giant white ant' at (56,141) from (57,141)
+BORG 122018 # Tracking a monster 'giant black ant' at (53,140) from (53,141)
+BORG 122018 # Tracking a monster 'giant white ant' at (57,142) from (56,143)
+BORG 122018 # Tracking a monster 'giant white ant' at (56,139) from (55,139)
+BORG 122018 # Tracking a monster 'giant red ant' at (57,138) from (57,140)
+BORG 122018 # Creating a monster 'giant black ant' at (54,140), HP: 13, Index: 43
+BORG 122018 # Removing Regional Fear (54,140) because of a LOS giant black ant
+BORG 122018 # Creating a monster 'giant red ant' at (54,139), HP: 20, Index: 136
+BORG 122018 # Removing Regional Fear (54,139) because of a LOS giant red ant
+BORG 122018 # HIT_BY:The giant white ant (3)
+BORG 122018 # MISS_BY:The giant black ant (3)
+BORG 122018 # MISS_BY:The giant white ant (3)
+BORG 122018 # There was a monster 'giant red ant' at (57,139)
+BORG 122018 # Forgetting a monster 'giant red ant' at (57,139)
+BORG 122018 # There was a monster 'giant white ant' at (56,144)
+BORG 122018 # Forgetting a monster 'giant white ant' at (56,144)
+BORG 122018 # There was a monster 'giant silver ant' at (54,142)
+BORG 122018 # Forgetting a monster 'giant silver ant' at (54,142)
+BORG 122018 # Possibility of being surrounded (monsters/safegrids)(21/2)
+BORG 122018 # Scary guy on level.
+BORG 122018 # Loc:57,140 Dep:7 Lev:7 HP:32/53 SP:9/9 Danger:p=478
+BORG 122018 # Fleeing and leaving the level. (scaryguy)
+BORG 122018 # heading up, not prep for current level: restock phase door)
+BORG 122018 # Climbing (too deep: restock phase door)
+BORG 122018 # returning to town to restock(too deep: restock phase door)
+BORG 122018 # Looking for up stairs.  Going up.
+BORG 122018 # Bored but unable to flow to up stairs.
+BORG 122018 # no up stairs found, going down
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Adjacent to monster on Scaryguy Level.
+BORG 122018 # Performing attack type 3 with value 32.
+BORG 122018 # Targeting giant white ant who has 11 Hit Points (56,139).
+BORG 122018 # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+BORG 122028 # DIED:The giant white ant (+)
+BORG 122028 # HIT_BY:The giant white ant (+)
+BORG 122028 # MISS_BY:The giant white ant (+)
+BORG 122028 # HIT_BY:The giant black ant (+)
+BORG 122028 # HIT_BY:The giant white ant (+)
+BORG 122028 # Forgetting a monster 'giant white ant' at (56,139)
+BORG 122028 # Tracking a monster 'giant red ant' at (55,140) from (54,139)
+BORG 122028 # Tracking a monster 'giant black ant' at (55,139) from (55,140)
+BORG 122028 # Tracking a monster 'giant white ant' at (56,138) from (55,139)
+BORG 122028 # Tracking a monster 'giant red ant' at (54,140) from (55,141)
+BORG 122028 # Tracking a monster 'giant black ant' at (54,139) from (54,140)
+BORG 122028 # Tracking a monster 'giant black ant' at (53,139) from (53,140)
+BORG 122028 # Tracking a monster 'giant red ant' at (56,144) from (55,145)
+BORG 122028 # Tracking a monster 'giant red ant' at (56,139) from (56,138)
+BORG 122028 # Creating an object '& Rounded Pebble~' at (139,56)
+BORG 122028 # Creating a monster 'giant silver ant' at (53,141), HP: 41, Index: 271
+BORG 122028 # Removing Regional Fear (53,141) because of a LOS giant silver ant
+BORG 122028 # Creating a monster 'giant black ant' at (56,137), HP: 11, Index: 43
+BORG 122028 # Removing Regional Fear (56,137) because of a LOS giant black ant
+BORG 122028 # DIED:The giant white ant (2)
+BORG 122028 # HIT_BY:The giant white ant (3)
+BORG 122028 # MISS_BY:The giant white ant (3)
+BORG 122028 # HIT_BY:The giant black ant (3)
+BORG 122028 # HIT_BY:The giant white ant (3)
+BORG 122028 # There was a monster 'soldier ant' at (54,143)
+BORG 122028 # Forgetting a monster 'soldier ant' at (54,143)
+BORG 122028 # Possibility of being surrounded (monsters/safegrids)(20/0)
+BORG 122028 # Scary guy on level.
+BORG 122028 # Loc:57,140 Dep:7 Lev:7 HP:26/53 SP:9/9 Danger:p=930
+BORG 122028 # Fleeing and leaving the level. (scaryguy)
+BORG 122028 # heading up, not prep for current level: restock phase door)
+BORG 122028 # Climbing (too deep: restock phase door)
+BORG 122028 # returning to town to restock(too deep: restock phase door)
+BORG 122028 # Looking for up stairs.  Going up.
+BORG 122028 # Bored but unable to flow to up stairs.
+BORG 122028 # no up stairs found, going down
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Adjacent to monster on Scaryguy Level.
+BORG 122028 # Performing attack type 1 with value 160.
+BORG 122028 # Facing giant red ant at (56,139) who has 24 Hit Points.
+BORG 122028 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 122036 # HIT:the giant red ant (+)
+BORG 122036 # HIT_BY:The giant white ant (+)
+BORG 122036 # HIT_BY:The giant black ant (+)
+BORG 122036 # MISS_BY:The giant white ant (+)
+BORG 122036 # HIT_BY:The giant red ant (+)
+BORG 122036 # MISS_BY:The giant red ant (+)
+BORG 122036 # HIT_BY:The giant white ant (+)
+BORG 122036 # Tracking a monster 'giant red ant' at (55,139) from (55,140)
+BORG 122036 # Tracking a monster 'giant black ant' at (55,138) from (56,137)
+BORG 122036 # Tracking a monster 'giant silver ant' at (54,141) from (53,141)
+BORG 122036 # Tracking a monster 'giant black ant' at (56,138) from (55,139)
+BORG 122036 # Tracking a monster 'giant white ant' at (57,137) from (56,138)
+BORG 122036 # Tracking a monster 'giant black ant' at (54,138) from (53,139)
+BORG 122036 # Tracking a monster 'giant red ant' at (53,141) from (54,142)
+BORG 122036 # Tracking a monster 'giant white ant' at (55,141) from (54,141)
+BORG 122036 # Creating an object '& Rounded Pebble~' at (139,56)
+BORG 122036 # Creating a monster 'giant white ant' at (54,143), HP: 13, Index: 63
+BORG 122036 # Removing Regional Fear (54,143) because of a LOS giant white ant
+BORG 122036 # Creating a monster 'soldier ant' at (54,142), HP: 7, Index: 30
+BORG 122036 # Removing Regional Fear (54,142) because of a LOS soldier ant
+BORG 122036 # HIT:the giant red ant (2)
+BORG 122036 # HIT_BY:The giant white ant (3)
+BORG 122036 # HIT_BY:The giant black ant (3)
+BORG 122036 # MISS_BY:The giant white ant (3)
+BORG 122036 # HIT_BY:The giant red ant (3)
+BORG 122036 # MISS_BY:The giant red ant (3)
+BORG 122036 # HIT_BY:The giant white ant (3)
+BORG 122036 # Possibility of being surrounded (monsters/safegrids)(23/0)
+BORG 122036 # Scary guy on level.
+BORG 122036 # Loc:57,140 Dep:7 Lev:7 HP:16/53 SP:9/9 Danger:p=1268
+BORG 122036 # Fleeing and leaving the level. (scaryguy)
+BORG 122036 # heading up, not prep for current level: restock phase door)
+BORG 122036 # Climbing (too deep: restock phase door)
+BORG 122036 # returning to town to restock(too deep: restock phase door)
+BORG 122036 # Looking for up stairs.  Going up.
+BORG 122036 # Bored but unable to flow to up stairs.
+BORG 122036 # no up stairs found, going down
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Adjacent to monster on Scaryguy Level.
+BORG 122036 # Performing attack type 1 with value 160.
+BORG 122036 # Facing giant red ant at (56,139) who has 22 Hit Points.
+BORG 122036 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 122040 # MISS_BY:The giant white ant (+)
+BORG 122040 # Tracking a monster 'giant black ant' at (55,140) from (54,139)
+BORG 122040 # Tracking a monster 'giant white ant' at (54,140) from (55,141)
+BORG 122040 # Tracking a monster 'giant red ant' at (54,139) from (54,140)
+BORG 122040 # Creating an object '& Rounded Pebble~' at (139,56)
+BORG 122040 # MISS_BY:The giant white ant (3)
+BORG 122040 # Possibility of being surrounded (monsters/safegrids)(23/0)
+BORG 122040 # Scary guy on level.
+BORG 122040 # Loc:57,140 Dep:7 Lev:7 HP:16/53 SP:9/9 Danger:p=1529
+BORG 122040 # Fleeing and leaving the level. (scaryguy)
+BORG 122040 # heading up, not prep for current level: restock phase door)
+BORG 122040 # Climbing (too deep: restock phase door)
+BORG 122040 # returning to town to restock(too deep: restock phase door)
+BORG 122040 # Looking for up stairs.  Going up.
+BORG 122040 # Bored but unable to flow to up stairs.
+BORG 122040 # no up stairs found, going down
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Adjacent to monster on Scaryguy Level.
+BORG 122040 # Performing attack type 1 with value 160.
+BORG 122040 # Facing giant red ant at (56,139) who has 19 Hit Points.
+BORG 122040 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 122048 # HIT:the giant red ant (+)
+BORG 122048 # HIT_BY:The giant black ant (+)
+BORG 122048 # HIT_BY:The giant white ant (+)
+BORG 122048 # MISS_BY:The giant white ant (+)
+BORG 122048 # HIT_BY:The giant red ant (+)
+BORG 122048 # HIT_BY:The giant red ant (+)
+BORG 122048 # Tracking a monster 'giant black ant' at (55,138) from (54,138)
+BORG 122048 # Tracking a monster 'giant black ant' at (55,137) from (56,138)
+BORG 122048 # Tracking a monster 'giant red ant' at (56,138) from (55,139)
+BORG 122048 # Tracking a monster 'giant black ant' at (56,137) from (55,138)
+BORG 122048 # Tracking a monster 'giant white ant' at (55,143) from (54,143)
+BORG 122048 # Tracking a monster 'soldier ant' at (53,141) from (54,142)
+BORG 122048 # Tracking a monster 'giant red ant' at (53,140) from (53,141)
+BORG 122048 # Tracking a monster 'giant black ant' at (56,142) from (55,143)
+BORG 122048 # Tracking a monster 'giant black ant' at (55,141) from (56,142)
+BORG 122048 # Creating an object '& Rounded Pebble~' at (139,56)
+BORG 122048 # Creating a monster 'giant silver ant' at (54,143), HP: 38, Index: 271
+BORG 122048 # Removing Regional Fear (54,143) because of a LOS giant silver ant
+BORG 122048 # HIT:the giant red ant (2)
+BORG 122048 # HIT_BY:The giant black ant (3)
+BORG 122048 # HIT_BY:The giant white ant (3)
+BORG 122048 # MISS_BY:The giant white ant (3)
+BORG 122048 # HIT_BY:The giant red ant (3)
+BORG 122048 # HIT_BY:The giant red ant (3)
+BORG 122048 # Possibility of being surrounded (monsters/safegrids)(23/0)
+BORG 122048 # Scary guy on level.
+BORG 122048 # Loc:57,140 Dep:7 Lev:7 HP:7/53 SP:9/9 Danger:p=1701
+BORG 122048 # Fleeing and leaving the level. (scaryguy)
+BORG 122048 # heading up, not prep for current level: restock phase door)
+BORG 122048 # Climbing (too deep: restock phase door)
+BORG 122048 # returning to town to restock(too deep: restock phase door)
+BORG 122048 # Looking for up stairs.  Going up.
+BORG 122048 # Bored but unable to flow to up stairs.
+BORG 122048 # no up stairs found, going down
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Adjacent to monster on Scaryguy Level.
+BORG 122048 # Performing attack type 1 with value 160.
+BORG 122048 # Facing giant red ant at (56,139) who has 13 Hit Points.
+BORG 122048 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+
+[Terminal native state/cause]
+STATE death turn=122054 energy=1240109 decisions=5834 depth=7 max_depth=7 level=7 max_level=7 hp=-1 dead=1 winner=0 borg_rng=2290803773 quick=0 quick_rng=4014226205 rng_index=20 rng=6ceb91567e47c92dd38921ccfb0ac9a10cd4097f4aaabf8381675bb54716e4f50e1de0a3bd9bb5fc9a248a8950abf16fe449ca5238d3c0541b447e07e3c639d5c094e2f0a5ebb967cc360b0a29c20857b22cbde0d0a259c10f6438107228ea016d0f7d0e951dc4b712bcea46cd0f3c29c625b6f1ab955dc74645aabee0899d38
+CAUSE a giant white ant
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE A horn blast sounds!
+MESSAGE You hear a sudden stirring in the distance!
+MESSAGE A horn blast sounds!
+MESSAGE # Boosting bravery (1) from 33 to 66!
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'rock lizard' at (32,70), HP: 8, Index: 28
+MESSAGE # Performing attack type 3 with value 32.
+MESSAGE # Targeting rock lizard who has 8 Hit Points (32,70).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the rock lizard.
+MESSAGE The rock lizard dies.
+MESSAGE You have 19 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The rock lizard (+)
+MESSAGE # Forgetting a monster 'rock lizard' at (32,70)
+MESSAGE # DIED:The rock lizard (2)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating an object '& Rounded Pebble~' at (70,32)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (32,70)
+MESSAGE You have 20 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object 'Detect Invisible' at (54,26)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward item at cost 13
+MESSAGE # Creating a monster 'clear icky thing' at (27,62), HP: 10, Index: 22
+MESSAGE # Performing attack type 3 with value 40.
+MESSAGE # Targeting clear icky thing who has 10 Hit Points (27,62).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the clear icky thing.
+MESSAGE The clear icky thing dies.
+MESSAGE You have 19 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The clear icky thing (+)
+MESSAGE # Forgetting a monster 'clear icky thing' at (27,62)
+MESSAGE # Creating an object '& Rounded Pebble~' at (62,27)
+MESSAGE # DIED:The clear icky thing (2)
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (27,62)
+MESSAGE You have 20 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Creating an object '& Sling~' at (56,24)
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Flowing toward item at cost 6
+MESSAGE # Walking onto and deleting a '& Sling~' at (24,56)
+MESSAGE You have a Sling (x2) (+0,+0) (q).
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a 'Detect Invisible' at (26,54)
+MESSAGE You have a Scroll titled "imo sus or sim" (p).
+MESSAGE # Flowing toward dark-5 at cost 19
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Digging through wall/etc
+MESSAGE You dig in the rubble with your weapon.
+MESSAGE You have removed the rubble with your weapon.
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE You feel that there is naught but cobwebs here.
+MESSAGE # FEELING_STUFF:10 (+)
+MESSAGE # FEELING_STUFF:10 (1)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,1 to 1,2)
+MESSAGE # SELF:evil (1)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (1,1 to 2,2)
+MESSAGE # SELF:evil (1)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE You have picked the lock.
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE You hit a teleport trap!
+MESSAGE # Creating a monster 'white worm mass' at (59,34), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (59,34) because of a LOS white worm mass
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (2,0 to 3,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE A horn blast sounds!
+MESSAGE You hear a sudden stirring in the distance!
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object '& Apple~' at (50,37)
+MESSAGE # Flowing toward item at cost 9
+MESSAGE # Creating a monster 'wild dog' at (37,49), HP: 3, Index: 29
+MESSAGE # Removing Regional Fear (37,49) because of a LOS wild dog
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (37,49).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE The Rounded Pebble of Frost (1d2) (+4,+13) finds a mark.
+MESSAGE It dies.
+MESSAGE You have 19 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:It (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # DIED:It (0)
+MESSAGE # There was a monster 'wild dog' at (37,49)
+MESSAGE # Forgetting a monster 'wild dog' at (37,49)
+MESSAGE # Creating a monster 'wild dog' at (36,49), HP: 3, Index: 29
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (36,49).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the wild dog.
+MESSAGE The wild dog dies.
+MESSAGE You have 18 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (36,49)
+MESSAGE # Creating an object '& Rounded Pebble~' at (49,36)
+MESSAGE # Creating a monster 'wild dog' at (39,51), HP: 3, Index: 29
+MESSAGE # Creating a monster 'wild dog' at (36,49), HP: 2, Index: 29
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (39,51).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE The Rounded Pebble of Frost (1d2) (+4,+13) finds a mark.
+MESSAGE It dies.
+MESSAGE You have 17 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:It (+)
+MESSAGE # Invisible monster nearby.
+MESSAGE # Tracking a monster 'wild dog' at (36,50) from (36,49)
+MESSAGE # Creating a monster 'wild dog' at (37,49), HP: 3, Index: 29
+MESSAGE # Invisible monster nearby.
+MESSAGE # DIED:It (0)
+MESSAGE # There was a monster 'wild dog' at (39,51)
+MESSAGE # Forgetting a monster 'wild dog' at (39,51)
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (37,49).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the wild dog.
+MESSAGE The wild dog dies.
+MESSAGE You have 16 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (37,49)
+MESSAGE # Tracking a monster 'wild dog' at (36,51) from (36,50)
+MESSAGE # Creating an object '& Rounded Pebble~' at (49,37)
+MESSAGE # Creating an object '& Rounded Pebble~' at (49,36)
+MESSAGE # Creating a monster 'wild dog' at (38,51), HP: 3, Index: 29
+MESSAGE # Creating a monster 'wild dog' at (36,49), HP: 4, Index: 29
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # Performing attack type 3 with value 16.
+MESSAGE # Targeting wild dog who has 4 Hit Points (36,49).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the wild dog.
+MESSAGE The wild dog dies.
+MESSAGE You have 15 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (36,49)
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # There was a monster 'wild dog' at (38,51)
+MESSAGE # Forgetting a monster 'wild dog' at (38,51)
+MESSAGE # There was a monster 'wild dog' at (36,51)
+MESSAGE # Forgetting a monster 'wild dog' at (36,51)
+MESSAGE # Flowing toward item at cost 7
+MESSAGE # Creating an object '& Rounded Pebble~' at (51,40)
+MESSAGE # Creating an object '& Rounded Pebble~' at (49,40)
+MESSAGE # Creating a monster 'wild dog' at (38,51), HP: 2, Index: 29
+MESSAGE # Creating a monster 'wild dog' at (36,52), HP: 3, Index: 29
+MESSAGE # Creating a monster 'wild dog' at (39,51), HP: 3, Index: 29
+MESSAGE # Creating a monster 'wild dog' at (36,48), HP: 2, Index: 29
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (39,51).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the wild dog.
+MESSAGE The wild dog dies.
+MESSAGE You have 14 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (39,51)
+MESSAGE # Tracking a monster 'wild dog' at (37,48) from (36,48)
+MESSAGE # Tracking a monster 'wild dog' at (37,52) from (36,52)
+MESSAGE # Creating an object '& Rounded Pebble~' at (51,39)
+MESSAGE # Creating a monster 'wild dog' at (38,51), HP: 3, Index: 29
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # There was a monster 'wild dog' at (38,51)
+MESSAGE # Forgetting a monster 'wild dog' at (38,51)
+MESSAGE # There was an object '& Rounded Pebble~' at (49,36)
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (38,51).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the wild dog.
+MESSAGE The wild dog dies.
+MESSAGE You have 13 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (38,51)
+MESSAGE # Tracking a monster 'wild dog' at (38,51) from (37,52)
+MESSAGE # Creating an object '& Rounded Pebble~' at (51,38)
+MESSAGE # Creating a monster 'wild dog' at (39,49), HP: 3, Index: 29
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (39,49).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the wild dog.
+MESSAGE The wild dog dies.
+MESSAGE You have 12 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (39,49)
+MESSAGE # Creating an object '& Rounded Pebble~' at (49,39)
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # There was a monster 'wild dog' at (38,51)
+MESSAGE # Forgetting a monster 'wild dog' at (38,51)
+MESSAGE # Flowing toward item at cost 3
+MESSAGE # Tracking a monster 'wild dog' at (39,49) from (37,48)
+MESSAGE # Creating an object '& Rounded Pebble~' at (51,39)
+MESSAGE # Creating an object '& Rounded Pebble~' at (49,39)
+MESSAGE # Creating an object '& Rounded Pebble~' at (51,40)
+MESSAGE # Creating a monster 'wild dog' at (39,51), HP: 3, Index: 29
+MESSAGE # Creating a monster 'wild dog' at (40,51), HP: 2, Index: 29
+MESSAGE # Performing attack type 3 with value 8.
+MESSAGE # Targeting wild dog who has 2 Hit Points (40,51).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the wild dog.
+MESSAGE The wild dog dies.
+MESSAGE You have 11 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (40,51)
+MESSAGE # Tracking a monster 'wild dog' at (40,50) from (39,49)
+MESSAGE # Tracking a monster 'wild dog' at (40,51) from (39,51)
+MESSAGE # Creating an object '& Rounded Pebble~' at (51,40)
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting wild dog who has 3 Hit Points (40,51).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the wild dog.
+MESSAGE The wild dog dies.
+MESSAGE You have 10 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (40,51)
+MESSAGE # Tracking a monster 'wild dog' at (41,51) from (40,50)
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # Loc:42,50 Dep:1 Lev:4 HP:33/33 SP:5/5 Danger:p=2
+MESSAGE # Performing defense type 0 with value 1
+MESSAGE # Attempting to cast Bless
+MESSAGE # Casting Bless (0,0).
+MESSAGE You feel righteous!
+MESSAGE The wild dog misses you.
+MESSAGE # MISS_BY:The wild dog (+)
+MESSAGE # MISS_BY:The wild dog (3)
+MESSAGE # There was an object '& Rounded Pebble~' at (51,39)
+MESSAGE # There was an object '& Rounded Pebble~' at (49,39)
+MESSAGE # There was an object '& Rounded Pebble~' at (51,40)
+MESSAGE # Loc:42,50 Dep:1 Lev:4 HP:33/33 SP:3/5 Danger:p=2
+MESSAGE # Performing attack type 3 with value 8.
+MESSAGE # Targeting wild dog who has 2 Hit Points (41,51).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the wild dog.
+MESSAGE The wild dog dies.
+MESSAGE You have 9 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The wild dog (+)
+MESSAGE # Forgetting a monster 'wild dog' at (41,51)
+MESSAGE # Creating an object '& Rounded Pebble~' at (51,41)
+MESSAGE # DIED:The wild dog (2)
+MESSAGE # There was an object '& Rounded Pebble~' at (51,40)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (41,51)
+MESSAGE You have 10 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE You have 13 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Flowing toward item at cost 0
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward item at cost 2
+MESSAGE You have 14 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Flowing toward item at cost 0
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (38,51)
+MESSAGE You have 15 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Apple~' at (37,50)
+MESSAGE You have an Apple (c).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (37,49)
+MESSAGE You have 16 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Flowing toward item at cost 1
+MESSAGE You have 18 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Flowing toward item at cost 0
+MESSAGE # Spent too long (304) on level, leaving.
+MESSAGE # Flowing toward down-stairs at cost 30
+MESSAGE # Flowing toward item at cost 2
+MESSAGE You have 19 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Flowing toward item at cost 0
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (40,49)
+MESSAGE You have 20 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE The prayer has expired.
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating a monster 'white icky thing' at (42,66), HP: 4, Index: 21
+MESSAGE # Removing Regional Fear (42,66) because of a LOS white icky thing
+MESSAGE # Performing attack type 3 with value 16.
+MESSAGE # Targeting white icky thing who has 4 Hit Points (42,66).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the white icky thing.
+MESSAGE The white icky thing dies.
+MESSAGE You have 19 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The white icky thing (+)
+MESSAGE # Forgetting a monster 'white icky thing' at (42,66)
+MESSAGE # DIED:The white icky thing (2)
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating an object '& Rounded Pebble~' at (66,42)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (42,66)
+MESSAGE You have 20 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Flowing toward dark-3 at cost 5
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Spent too long (340) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward down-stairs at cost 14
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Bless (0,0).
+MESSAGE # Casting blessing before leaving level.
+MESSAGE You feel righteous!
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,1 to 1,2)
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'metallic green centipede' at (11,158), HP: 13, Index: 35
+MESSAGE # Loc:11,157 Dep:2 Lev:4 HP:33/33 SP:5/5 Danger:p=224
+MESSAGE # Fleeing (excessive danger)
+MESSAGE # Reading Scroll of Deep Descent.
+MESSAGE # Danger Level 1.
+MESSAGE The air around you starts to swirl...
+MESSAGE You have no more Scrolls of Deep Descent (o).
+MESSAGE The metallic green centipede crawls on you.
+MESSAGE The metallic green centipede misses you.
+MESSAGE # HIT_BY:The metallic green centipede (+)
+MESSAGE # MISS_BY:The metallic green centipede (+)
+MESSAGE # Tracking a monster 'metallic green centipede' at (12,157) from (11,158)
+MESSAGE # HIT_BY:The metallic green centipede (3)
+MESSAGE # MISS_BY:The metallic green centipede (3)
+MESSAGE # Loc:11,157 Dep:2 Lev:4 HP:32/33 SP:5/5 Danger:p=224
+MESSAGE # No Phase. scary squares: 100
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.2  Critical Phase
+MESSAGE You have 5 Scrolls of Phase Door (n).
+MESSAGE # Creating a monster 'giant white mouse' at (5,153), HP: 1, Index: 23
+MESSAGE # Performing attack type 2 with value 6.
+MESSAGE # Targeting giant white mouse who has 1 Hit Points (5,153).
+MESSAGE # Throwing painful object 'Flask of oil'
+MESSAGE Target Selected.
+MESSAGE Your Flask of oil hits the giant white mouse.
+MESSAGE The giant white mouse dies.
+MESSAGE You have no more Flasks of oil (f).
+MESSAGE The Flask of oil breaks.
+MESSAGE # DIED:The giant white mouse (+)
+MESSAGE # Forgetting a monster 'giant white mouse' at (5,153)
+MESSAGE # DIED:The giant white mouse (2)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The floor opens beneath you!
+MESSAGE This place seems murderous.
+MESSAGE # FEELING_DANGER:2 (+)
+MESSAGE # FEELING_DANGER:2 (1)
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE You are getting hungry.
+MESSAGE # Eating Apple.
+MESSAGE That tastes good.
+MESSAGE You are no longer hungry.
+MESSAGE You have no more Apples (c).
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (1,0 to 2,1)
+MESSAGE # Creating a monster 'kobold' at (44,51), HP: 15, Index: 32
+MESSAGE # Creating a monster 'lost soul' at (41,53), HP: 9, Index: 112
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE Fang, Farmer Maggot's Dog, bites you.
+MESSAGE # HIT_BY:Fang, Farmer Maggot's Dog (+)
+MESSAGE # Creating a monster 'Fang, Farmer Maggot's Dog' at (42,69), HP: 25, Index: 48
+MESSAGE # HIT_BY:Fang, Farmer Maggot's Dog (4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:41,68 Dep:7 Lev:4 HP:29/33 SP:3/5 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 504.
+MESSAGE # Targeting Fang, Farmer Maggot's Dog who has 25 Hit Points (42,69).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes Fang, Farmer Maggot's Dog.
+MESSAGE Fang, Farmer Maggot's Dog, dies.
+MESSAGE You have 19 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:Fang, Farmer Maggot's Dog (+)
+MESSAGE # Forgetting a monster 'Fang, Farmer Maggot's Dog' at (42,69)
+MESSAGE # Creating an object '& Rounded Pebble~' at (69,42)
+MESSAGE # DIED:Fang, Farmer Maggot's Dog (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (42,69)
+MESSAGE You have 20 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE You feel that there may not be much interesting here.
+MESSAGE # FEELING_STUFF:7 (+)
+MESSAGE # FEELING_STUFF:7 (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Creating a monster 'red jelly' at (44,120), HP: 120, Index: 108
+MESSAGE # Removing Regional Fear (44,120) because of a LOS red jelly
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 336.
+MESSAGE # Targeting red jelly who has 120 Hit Points (44,120).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the red jelly.
+MESSAGE You have 19 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE The red jelly jerks limply.
+MESSAGE # PAIN:The red jelly (+)
+MESSAGE # PAIN:The red jelly (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 32.
+MESSAGE # Targeting red jelly who has 8 Hit Points (44,120).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the red jelly.
+MESSAGE The red jelly is destroyed.
+MESSAGE Welcome to level 5.
+MESSAGE Welcome to level 6.
+MESSAGE You can learn 1 more prayer.
+MESSAGE You have 18 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The red jelly (+)
+MESSAGE # Forgetting a monster 'red jelly' at (44,120)
+MESSAGE # DIED:The red jelly (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Studying spell/prayer Call Light.
+MESSAGE You have learned the prayer of Call Light.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Wearing Wooden Torches (5000 turns).
+MESSAGE Your light source is a Wooden Torch (5000 turns) (f).
+MESSAGE You were holding a Wooden Torch (3820 turns) (p).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object '& Rounded Pebble~' at (120,44)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (44,120)
+MESSAGE You have 20 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (1,1 to 2,2)
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Creating a monster 'cave lizard' at (44,131), HP: 10, Index: 70
+MESSAGE # Removing Regional Fear (44,131) because of a LOS cave lizard
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 40.
+MESSAGE # Targeting cave lizard who has 10 Hit Points (44,131).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the cave lizard.
+MESSAGE The cave lizard dies.
+MESSAGE You have 19 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # QUAKE:Somebody (+)
+MESSAGE # Perhaps wall near targetted location (44,131)
+MESSAGE # Guessing wall (44,130) near target (44,131)
+MESSAGE # QUAKE:Somebody (0)
+MESSAGE # There was a monster 'cave lizard' at (44,131)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 40.
+MESSAGE # Targeting cave lizard who has 10 Hit Points (44,131).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE You have 18 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Perhaps wall near targetted location (44,131)
+MESSAGE # Guessing wall (44,130) near target (44,131)
+MESSAGE # There was a monster 'cave lizard' at (44,131)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Creating an object '& Rounded Pebble~' at (131,44)
+MESSAGE # There was a monster 'cave lizard' at (44,131)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:44,130 Dep:7 Lev:6 HP:47/47 SP:6/8 Danger:p=9
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Walking into a 'cave lizard' at (44,131)
+MESSAGE You spin around.
+MESSAGE # Forgetting a monster 'cave lizard' at (44,131)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (44,131)
+MESSAGE You have 20 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE You hear a door burst open!
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating a monster 'giant red ant' at (51,136), HP: 9, Index: 136
+MESSAGE # Removing Regional Fear (51,136) because of a LOS giant red ant
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (51,137) from (51,136)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,141 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (51,138) from (51,137)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,142 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Tracking a monster 'giant red ant' at (51,139) from (51,138)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,143 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (51,140) from (51,139)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,144 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (51,141) from (51,140)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,145 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Tracking a monster 'giant red ant' at (51,142) from (51,141)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,146 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (51,143) from (51,142)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,147 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (51,144) from (51,143)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,148 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Tracking a monster 'giant red ant' at (51,146) from (51,144)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,149 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (51,147) from (51,146)
+MESSAGE # Creating a monster 'giant red ant' at (51,146), HP: 18, Index: 136
+MESSAGE # Removing Regional Fear (51,146) because of a LOS giant red ant
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,150 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=20
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 151,52 (20 > 0)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (52,151) from (51,147)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,151 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Tracking a monster 'giant red ant' at (53,151) from (52,151)
+MESSAGE # Tracking a monster 'giant red ant' at (52,151) from (51,146)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:56,151 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=20
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 151,57 (20 > 13)
+MESSAGE # Tracking a monster 'giant red ant' at (54,151) from (53,151)
+MESSAGE # Tracking a monster 'giant red ant' at (53,151) from (52,151)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:57,151 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=20
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 151,58 (20 > 13)
+MESSAGE # Tracking a monster 'giant red ant' at (55,151) from (54,151)
+MESSAGE # Tracking a monster 'giant red ant' at (54,151) from (53,151)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:58,151 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=20
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 150,59 (20 > 0)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Tracking a monster 'giant red ant' at (58,151) from (55,151)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 36.
+MESSAGE # Targeting giant red ant who has 9 Hit Points (58,151).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the giant red ant.
+MESSAGE The giant red ant dies.
+MESSAGE You have 19 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The giant red ant (+)
+MESSAGE # Forgetting a monster 'giant red ant' at (58,151)
+MESSAGE # Tracking a monster 'giant red ant' at (58,151) from (54,151)
+MESSAGE # DIED:The giant red ant (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 72.
+MESSAGE # Targeting giant red ant who has 18 Hit Points (58,151).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE You have 18 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Perhaps wall near targetted location (58,151)
+MESSAGE # Guessing wall (58,150) near target (58,151)
+MESSAGE # Tracking a monster 'giant red ant' at (59,150) from (58,151)
+MESSAGE # Creating a monster 'giant red ant' at (58,151), HP: 16, Index: 136
+MESSAGE # Removing Regional Fear (58,151) because of a LOS giant red ant
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,149 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=197
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 1
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have 4 Scrolls of Phase Door (i).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (59,147) from (58,151)
+MESSAGE # Tracking a monster 'giant red ant' at (59,146) from (59,150)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: Clevel < depth)
+MESSAGE # Climbing (too deep: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward dark-4 at cost 5
+MESSAGE # Tracking a monster 'giant red ant' at (59,146) from (59,147)
+MESSAGE # Tracking a monster 'giant red ant' at (59,145) from (59,146)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,142 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=9
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (59,145) from (59,146)
+MESSAGE # Tracking a monster 'giant red ant' at (59,144) from (59,145)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,141 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=9
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (59,144) from (59,145)
+MESSAGE # Tracking a monster 'giant red ant' at (59,143) from (59,144)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,140 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=9
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (59,143) from (59,144)
+MESSAGE # Tracking a monster 'giant red ant' at (59,142) from (59,143)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,139 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=9
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant red ant' at (59,142) from (59,143)
+MESSAGE # Tracking a monster 'giant red ant' at (59,140) from (59,142)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,138 Dep:7 Lev:6 HP:47/47 SP:7/8 Danger:p=9
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 72.
+MESSAGE # Targeting giant red ant who has 18 Hit Points (59,140).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the giant red ant.
+MESSAGE The giant red ant dies.
+MESSAGE Welcome to level 7.
+MESSAGE You can learn 1 more prayer.
+MESSAGE You have 17 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The giant red ant (+)
+MESSAGE # Forgetting a monster 'giant red ant' at (59,140)
+MESSAGE # Tracking a monster 'giant red ant' at (59,140) from (59,142)
+MESSAGE # Creating a monster 'giant red ant' at (59,142), HP: 18, Index: 136
+MESSAGE # Removing Regional Fear (59,142) because of a LOS giant red ant
+MESSAGE # DIED:The giant red ant (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,138 Dep:7 Lev:7 HP:47/53 SP:7/9 Danger:p=14
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Studying spell/prayer Minor Healing.
+MESSAGE You have learned the prayer of Minor Healing.
+MESSAGE # Tracking a monster 'giant red ant' at (59,139) from (59,140)
+MESSAGE # Tracking a monster 'giant red ant' at (59,140) from (59,142)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,138 Dep:7 Lev:7 HP:47/53 SP:8/9 Danger:p=214
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have 3 Scrolls of Phase Door (i).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: 60 hp)
+MESSAGE # Climbing (too deep: 60 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward dark-4 at cost 6
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE The soldier ant bites you.
+MESSAGE # HIT_BY:The soldier ant (+)
+MESSAGE # Creating a monster 'soldier ant' at (53,135), HP: 6, Index: 30
+MESSAGE # Removing Regional Fear (53,135) because of a LOS soldier ant
+MESSAGE # Creating a monster 'soldier ant' at (52,135), HP: 3, Index: 30
+MESSAGE # Removing Regional Fear (52,135) because of a LOS soldier ant
+MESSAGE # HIT_BY:The soldier ant (4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,135 Dep:7 Lev:7 HP:47/53 SP:8/9 Danger:p=2
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting soldier ant who has 3 Hit Points (52,135).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the soldier ant.
+MESSAGE The soldier ant dies.
+MESSAGE You have 16 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The soldier ant (+)
+MESSAGE # Forgetting a monster 'soldier ant' at (52,135)
+MESSAGE # Tracking a monster 'soldier ant' at (52,135) from (53,135)
+MESSAGE # Creating an object '& Rounded Pebble~' at (135,52)
+MESSAGE # Creating a monster 'giant white ant' at (54,135), HP: 14, Index: 63
+MESSAGE # Removing Regional Fear (54,135) because of a LOS giant white ant
+MESSAGE # DIED:The soldier ant (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,135 Dep:7 Lev:7 HP:47/53 SP:8/9 Danger:p=2
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 24.
+MESSAGE # Targeting soldier ant who has 6 Hit Points (52,135).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the soldier ant.
+MESSAGE The soldier ant dies.
+MESSAGE You have 15 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The soldier ant (+)
+MESSAGE # Forgetting a monster 'soldier ant' at (52,135)
+MESSAGE # Creating a monster 'giant white ant' at (55,135), HP: 10, Index: 63
+MESSAGE # Removing Regional Fear (55,135) because of a LOS giant white ant
+MESSAGE # DIED:The soldier ant (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (52,135)
+MESSAGE You have 17 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Tracking a monster 'giant white ant' at (54,135) from (55,135)
+MESSAGE # Tracking a monster 'giant white ant' at (53,135) from (54,135)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:52,135 Dep:7 Lev:7 HP:47/53 SP:8/9 Danger:p=12
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 32.
+MESSAGE # Targeting giant white ant who has 14 Hit Points (53,135).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the giant white ant.
+MESSAGE The giant white ant dies.
+MESSAGE You have 16 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The giant white ant (+)
+MESSAGE # Forgetting a monster 'giant white ant' at (53,135)
+MESSAGE # Tracking a monster 'giant white ant' at (53,135) from (54,135)
+MESSAGE # Creating an object '& Rounded Pebble~' at (135,53)
+MESSAGE # Creating a monster 'giant black ant' at (55,135), HP: 13, Index: 43
+MESSAGE # Removing Regional Fear (55,135) because of a LOS giant black ant
+MESSAGE # DIED:The giant white ant (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:52,135 Dep:7 Lev:7 HP:47/53 SP:8/9 Danger:p=11
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 32.
+MESSAGE # Targeting giant white ant who has 10 Hit Points (53,135).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE You have 15 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE The giant white ant misses you.
+MESSAGE # MISS_BY:The giant white ant (+)
+MESSAGE # Perhaps wall near targetted location (53,135)
+MESSAGE # Guessing wall (52,135) near target (53,135)
+MESSAGE # Creating an object '& Rounded Pebble~' at (135,53)
+MESSAGE # Creating a monster 'soldier ant' at (54,135), HP: 6, Index: 30
+MESSAGE # Removing Regional Fear (54,135) because of a LOS soldier ant
+MESSAGE # MISS_BY:The giant white ant (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(3/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:52,135 Dep:7 Lev:7 HP:48/53 SP:8/9 Danger:p=11
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,136 (distance 1) via 51,136 (11 > 0)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The giant white ant misses you.
+MESSAGE # MISS_BY:The giant white ant (+)
+MESSAGE # Creating an object '& Rounded Pebble~' at (135,53)
+MESSAGE # Creating a monster 'giant black ant' at (56,135), HP: 11, Index: 43
+MESSAGE # Removing Regional Fear (56,135) because of a LOS giant black ant
+MESSAGE # MISS_BY:The giant white ant (3)
+MESSAGE # There was a monster 'giant black ant' at (55,135)
+MESSAGE # Forgetting a monster 'giant black ant' at (55,135)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:52,135 Dep:7 Lev:7 HP:48/53 SP:8/9 Danger:p=11
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 32.
+MESSAGE # Targeting giant white ant who has 10 Hit Points (53,135).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE You have 14 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE The giant white ant bites you.
+MESSAGE # HIT_BY:The giant white ant (+)
+MESSAGE # Perhaps wall near targetted location (53,135)
+MESSAGE # Guessing wall (52,135) near target (53,135)
+MESSAGE # Tracking a monster 'giant black ant' at (55,135) from (56,135)
+MESSAGE # Creating an object '& Rounded Pebble~' at (135,53)
+MESSAGE # HIT_BY:The giant white ant (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(3/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:52,135 Dep:7 Lev:7 HP:46/53 SP:8/9 Danger:p=11
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,136 (distance 1) via 51,136 (11 > 0)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE The giant white ant bites you.
+MESSAGE # HIT_BY:The giant white ant (+)
+MESSAGE # Tracking a monster 'giant red ant' at (56,135) from (59,139)
+MESSAGE # Creating an object '& Rounded Pebble~' at (135,53)
+MESSAGE # HIT_BY:The giant white ant (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(3/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:52,135 Dep:7 Lev:7 HP:39/53 SP:8/9 Danger:p=21
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 4
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 5.1
+MESSAGE You have 2 Scrolls of Phase Door (i).
+MESSAGE The giant white ant misses you.
+MESSAGE The giant white ant bites you.
+MESSAGE # MISS_BY:The giant white ant (+)
+MESSAGE # HIT_BY:The giant white ant (+)
+MESSAGE # Creating a monster 'giant black ant' at (57,145), HP: 12, Index: 43
+MESSAGE # Removing Regional Fear (57,145) because of a LOS giant black ant
+MESSAGE # Creating a monster 'giant red ant' at (57,144), HP: 16, Index: 136
+MESSAGE # Removing Regional Fear (57,144) because of a LOS giant red ant
+MESSAGE # Creating a monster 'giant black ant' at (57,143), HP: 13, Index: 43
+MESSAGE # Removing Regional Fear (57,143) because of a LOS giant black ant
+MESSAGE # Creating a monster 'giant white ant' at (57,141), HP: 11, Index: 63
+MESSAGE # Removing Regional Fear (57,141) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant red ant' at (57,140), HP: 18, Index: 136
+MESSAGE # Removing Regional Fear (57,140) because of a LOS giant red ant
+MESSAGE # Creating a monster 'giant red ant' at (57,139), HP: 18, Index: 136
+MESSAGE # Removing Regional Fear (57,139) because of a LOS giant red ant
+MESSAGE # Creating a monster 'giant red ant' at (57,138), HP: 24, Index: 136
+MESSAGE # Removing Regional Fear (57,138) because of a LOS giant red ant
+MESSAGE # Creating a monster 'giant black ant' at (56,146), HP: 12, Index: 43
+MESSAGE # Removing Regional Fear (56,146) because of a LOS giant black ant
+MESSAGE # Creating a monster 'giant white ant' at (56,145), HP: 12, Index: 63
+MESSAGE # Removing Regional Fear (56,145) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant white ant' at (56,144), HP: 12, Index: 63
+MESSAGE # Removing Regional Fear (56,144) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant white ant' at (56,143), HP: 12, Index: 63
+MESSAGE # Removing Regional Fear (56,143) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant white ant' at (56,142), HP: 10, Index: 63
+MESSAGE # Removing Regional Fear (56,142) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant black ant' at (56,141), HP: 12, Index: 43
+MESSAGE # Removing Regional Fear (56,141) because of a LOS giant black ant
+MESSAGE # Creating a monster 'giant black ant' at (56,140), HP: 7, Index: 43
+MESSAGE # Removing Regional Fear (56,140) because of a LOS giant black ant
+MESSAGE # Creating a monster 'giant white ant' at (56,138), HP: 10, Index: 63
+MESSAGE # Removing Regional Fear (56,138) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant red ant' at (55,145), HP: 20, Index: 136
+MESSAGE # Removing Regional Fear (55,145) because of a LOS giant red ant
+MESSAGE # Creating a monster 'giant white ant' at (55,144), HP: 13, Index: 63
+MESSAGE # Removing Regional Fear (55,144) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant black ant' at (55,143), HP: 11, Index: 43
+MESSAGE # Removing Regional Fear (55,143) because of a LOS giant black ant
+MESSAGE # Creating a monster 'giant black ant' at (55,142), HP: 9, Index: 43
+MESSAGE # Removing Regional Fear (55,142) because of a LOS giant black ant
+MESSAGE # Creating a monster 'giant red ant' at (55,141), HP: 21, Index: 136
+MESSAGE # Removing Regional Fear (55,141) because of a LOS giant red ant
+MESSAGE # Creating a monster 'giant black ant' at (55,140), HP: 14, Index: 43
+MESSAGE # Removing Regional Fear (55,140) because of a LOS giant black ant
+MESSAGE # Creating a monster 'giant white ant' at (55,139), HP: 11, Index: 63
+MESSAGE # Removing Regional Fear (55,139) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant white ant' at (54,145), HP: 12, Index: 63
+MESSAGE # Removing Regional Fear (54,145) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant silver ant' at (54,144), HP: 38, Index: 271
+MESSAGE # Removing Regional Fear (54,144) because of a LOS giant silver ant
+MESSAGE # Creating a monster 'soldier ant' at (54,143), HP: 7, Index: 30
+MESSAGE # Removing Regional Fear (54,143) because of a LOS soldier ant
+MESSAGE # Creating a monster 'giant silver ant' at (54,142), HP: 41, Index: 271
+MESSAGE # Removing Regional Fear (54,142) because of a LOS giant silver ant
+MESSAGE # Creating a monster 'giant white ant' at (54,141), HP: 8, Index: 63
+MESSAGE # Removing Regional Fear (54,141) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant white ant' at (54,140), HP: 13, Index: 63
+MESSAGE # Removing Regional Fear (54,140) because of a LOS giant white ant
+MESSAGE # Creating a monster 'giant red ant' at (53,143), HP: 12, Index: 136
+MESSAGE # Removing Regional Fear (53,143) because of a LOS giant red ant
+MESSAGE # Creating a monster 'giant black ant' at (53,141), HP: 12, Index: 43
+MESSAGE # Removing Regional Fear (53,141) because of a LOS giant black ant
+MESSAGE # Creating a monster 'giant white ant' at (57,146), HP: 9, Index: 63
+MESSAGE # Removing Regional Fear (57,146) because of a LOS giant white ant
+MESSAGE # MISS_BY:The giant white ant (3)
+MESSAGE # HIT_BY:The giant white ant (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(25/0)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:57,142 Dep:7 Lev:7 HP:35/53 SP:8/9 Danger:p=1991
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scrolls of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have a Scroll of Phase Door (i).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Creating an object '& Rounded Pebble~' at (151,58)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (58,151)
+MESSAGE You have 16 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating an object 'Berserk Strength' at (146,59)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Walking onto and deleting a 'Berserk Strength' at (59,146)
+MESSAGE You have a Blue Potion (i).
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:59,146 Dep:7 Lev:7 HP:36/53 SP:9/9 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: 60 hp)
+MESSAGE # Climbing (too deep: 60 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward dark-4 at cost 13
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: 60 hp)
+MESSAGE # Climbing (too deep: 60 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward dark-5 at cost 18
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant white ant' at (51,137) from (53,135)
+MESSAGE # There was an object '& Rounded Pebble~' at (135,53)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'giant white ant' at (51,138) from (51,137)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,139 Dep:7 Lev:7 HP:41/53 SP:9/9 Danger:p=11
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 32.
+MESSAGE # Targeting giant white ant who has 10 Hit Points (51,138).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the giant white ant.
+MESSAGE The giant white ant dies.
+MESSAGE You have 15 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The giant white ant (+)
+MESSAGE # Forgetting a monster 'giant white ant' at (51,138)
+MESSAGE # Creating an object '& Rounded Pebble~' at (138,51)
+MESSAGE # DIED:The giant white ant (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # heading up, not prep for current level: 60 hp)
+MESSAGE # Climbing (too deep: 60 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Flowing toward dark-4 at cost 6
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (51,138)
+MESSAGE You have 16 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Tracking a monster 'soldier ant' at (51,136) from (54,135)
+MESSAGE # Creating a monster 'giant red ant' at (52,135), HP: 18, Index: 136
+MESSAGE # Removing Regional Fear (52,135) because of a LOS giant red ant
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,137 Dep:7 Lev:7 HP:42/53 SP:9/9 Danger:p=20
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,138 (distance 1) via 51,138 (20 > 10)
+MESSAGE # Tracking a monster 'soldier ant' at (51,137) from (51,136)
+MESSAGE # Tracking a monster 'giant red ant' at (51,136) from (52,135)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,138 Dep:7 Lev:7 HP:42/53 SP:9/9 Danger:p=30
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,139 (distance 1) via 51,139 (30 > 15)
+MESSAGE # Tracking a monster 'soldier ant' at (51,138) from (51,137)
+MESSAGE # Tracking a monster 'giant red ant' at (51,137) from (51,136)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,139 Dep:7 Lev:7 HP:42/53 SP:9/9 Danger:p=30
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,140 (distance 1) via 51,140 (30 > 15)
+MESSAGE # Tracking a monster 'soldier ant' at (51,139) from (51,138)
+MESSAGE # Tracking a monster 'giant red ant' at (51,138) from (51,137)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,140 Dep:7 Lev:7 HP:42/53 SP:9/9 Danger:p=30
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,141 (distance 1) via 51,141 (30 > 15)
+MESSAGE # Tracking a monster 'soldier ant' at (51,140) from (51,139)
+MESSAGE # Tracking a monster 'giant red ant' at (51,139) from (51,138)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,141 Dep:7 Lev:7 HP:42/53 SP:9/9 Danger:p=30
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,142 (distance 1) via 51,142 (30 > 15)
+MESSAGE # Tracking a monster 'soldier ant' at (51,141) from (51,140)
+MESSAGE # Tracking a monster 'giant red ant' at (51,140) from (51,139)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,142 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=30
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,143 (distance 1) via 51,143 (30 > 15)
+MESSAGE # Tracking a monster 'soldier ant' at (51,142) from (51,141)
+MESSAGE # Tracking a monster 'giant red ant' at (51,141) from (51,140)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,143 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=30
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,144 (distance 1) via 51,144 (30 > 15)
+MESSAGE # Tracking a monster 'soldier ant' at (51,143) from (51,142)
+MESSAGE # Tracking a monster 'giant red ant' at (51,142) from (51,141)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,144 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=30
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,145 (distance 1) via 51,145 (30 > 15)
+MESSAGE # Tracking a monster 'soldier ant' at (51,144) from (51,143)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,145 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=6
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 24.
+MESSAGE # Targeting soldier ant who has 6 Hit Points (51,144).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the soldier ant.
+MESSAGE The soldier ant dies.
+MESSAGE You have 15 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE # DIED:The soldier ant (+)
+MESSAGE # Converting a monster 'giant silver ant' at (54,144)
+MESSAGE # Forgetting a monster 'soldier ant' at (54,144)
+MESSAGE # Tracking a monster 'giant red ant' at (51,143) from (51,142)
+MESSAGE # Creating an object '& Rounded Pebble~' at (144,51)
+MESSAGE # DIED:The soldier ant (2)
+MESSAGE # There was a monster 'soldier ant' at (51,144)
+MESSAGE # Forgetting a monster 'soldier ant' at (51,144)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,145 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=9
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 72.
+MESSAGE # Targeting giant red ant who has 18 Hit Points (51,143).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE You have 14 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE The giant red ant bites you.
+MESSAGE The giant red ant misses you.
+MESSAGE # HIT_BY:The giant red ant (+)
+MESSAGE # MISS_BY:The giant red ant (+)
+MESSAGE # Perhaps wall near targetted location (51,143)
+MESSAGE # Guessing wall (51,144) near target (51,143)
+MESSAGE # Tracking a monster 'giant red ant' at (51,144) from (51,143)
+MESSAGE # Creating an object '& Rounded Pebble~' at (144,51)
+MESSAGE # Creating a monster 'giant red ant' at (51,141), HP: 16, Index: 136
+MESSAGE # Removing Regional Fear (51,141) because of a LOS giant red ant
+MESSAGE # HIT_BY:The giant red ant (3)
+MESSAGE # MISS_BY:The giant red ant (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,145 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=179
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,146 (distance 1) via 51,146 (179 > 11)
+MESSAGE # Tracking a monster 'giant red ant' at (51,145) from (51,144)
+MESSAGE # Tracking a monster 'giant red ant' at (51,142) from (51,141)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,146 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=179
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,147 (distance 1) via 51,147 (179 > 11)
+MESSAGE # Tracking a monster 'giant red ant' at (51,146) from (51,145)
+MESSAGE # Tracking a monster 'giant red ant' at (51,143) from (51,142)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,147 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=179
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,148 (distance 1) via 51,148 (179 > 11)
+MESSAGE # Tracking a monster 'giant red ant' at (51,147) from (51,146)
+MESSAGE # Tracking a monster 'giant red ant' at (51,144) from (51,143)
+MESSAGE # Creating an object '& Rounded Pebble~' at (144,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,148 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=179
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,149 (distance 1) via 51,149 (179 > 11)
+MESSAGE # Tracking a monster 'giant red ant' at (51,145) from (51,144)
+MESSAGE # Tracking a monster 'giant red ant' at (51,148) from (51,147)
+MESSAGE # There was an object '& Rounded Pebble~' at (144,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,149 Dep:7 Lev:7 HP:43/53 SP:9/9 Danger:p=179
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 51,150 (distance 1) via 51,150 (179 > 11)
+MESSAGE # Tracking a monster 'giant red ant' at (51,146) from (51,145)
+MESSAGE # Tracking a monster 'giant red ant' at (51,149) from (51,148)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:51,150 Dep:7 Lev:7 HP:44/53 SP:9/9 Danger:p=179
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 52,151 (distance 1) via 52,151 (179 > 9)
+MESSAGE # Tracking a monster 'giant red ant' at (51,150) from (51,149)
+MESSAGE # There was an object '& Rounded Pebble~' at (144,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:52,151 Dep:7 Lev:7 HP:44/53 SP:9/9 Danger:p=174
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 53,151 (distance 1) via 53,151 (174 > 0)
+MESSAGE # Tracking a monster 'giant red ant' at (52,151) from (51,150)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:53,151 Dep:7 Lev:7 HP:44/53 SP:9/9 Danger:p=174
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 54,151 (distance 1) via 54,151 (174 > 9)
+MESSAGE # Tracking a monster 'giant red ant' at (53,151) from (52,151)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:54,151 Dep:7 Lev:7 HP:44/53 SP:9/9 Danger:p=174
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 55,151 (distance 1) via 55,151 (174 > 9)
+MESSAGE # Tracking a monster 'giant red ant' at (54,151) from (53,151)
+MESSAGE # Tracking a monster 'giant red ant' at (52,151) from (51,146)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,151 Dep:7 Lev:7 HP:44/53 SP:9/9 Danger:p=179
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 56,151 (distance 1) via 56,151 (179 > 14)
+MESSAGE The giant red ant bites you.
+MESSAGE You have been given a graze.
+MESSAGE The giant red ant stings you.
+MESSAGE You feel very weak.
+MESSAGE # HIT_BY:The giant red ant (+)
+MESSAGE # Tracking a monster 'giant red ant' at (55,151) from (54,151)
+MESSAGE # Tracking a monster 'giant red ant' at (53,151) from (52,151)
+MESSAGE # HIT_BY:The giant red ant (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:56,151 Dep:7 Lev:7 HP:37/53 SP:9/9 Danger:p=179
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Safe to Phase. scary squares: 13
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 1.
+MESSAGE You have no more Scrolls of Phase Door (m).
+MESSAGE The giant white ant bites you.
+MESSAGE The giant black ant misses you.
+MESSAGE The giant white ant misses you.
+MESSAGE # HIT_BY:The giant white ant (+)
+MESSAGE # MISS_BY:The giant black ant (+)
+MESSAGE # MISS_BY:The giant white ant (+)
+MESSAGE # Tracking a monster 'giant red ant' at (56,138) from (57,138)
+MESSAGE # Tracking a monster 'giant white ant' at (57,141) from (56,142)
+MESSAGE # Tracking a monster 'giant white ant' at (57,139) from (56,138)
+MESSAGE # Tracking a monster 'giant white ant' at (56,143) from (55,144)
+MESSAGE # Tracking a monster 'giant white ant' at (55,139) from (54,140)
+MESSAGE # Tracking a monster 'giant black ant' at (56,142) from (56,141)
+MESSAGE # Tracking a monster 'giant red ant' at (54,142) from (53,143)
+MESSAGE # Tracking a monster 'giant white ant' at (56,141) from (57,141)
+MESSAGE # Tracking a monster 'giant black ant' at (53,140) from (53,141)
+MESSAGE # Tracking a monster 'giant white ant' at (57,142) from (56,143)
+MESSAGE # Tracking a monster 'giant white ant' at (56,139) from (55,139)
+MESSAGE # Tracking a monster 'giant red ant' at (57,138) from (57,140)
+MESSAGE # Creating a monster 'giant black ant' at (54,140), HP: 13, Index: 43
+MESSAGE # Removing Regional Fear (54,140) because of a LOS giant black ant
+MESSAGE # Creating a monster 'giant red ant' at (54,139), HP: 20, Index: 136
+MESSAGE # Removing Regional Fear (54,139) because of a LOS giant red ant
+MESSAGE # HIT_BY:The giant white ant (3)
+MESSAGE # MISS_BY:The giant black ant (3)
+MESSAGE # MISS_BY:The giant white ant (3)
+MESSAGE # There was a monster 'giant red ant' at (57,139)
+MESSAGE # Forgetting a monster 'giant red ant' at (57,139)
+MESSAGE # There was a monster 'giant white ant' at (56,144)
+MESSAGE # Forgetting a monster 'giant white ant' at (56,144)
+MESSAGE # There was a monster 'giant silver ant' at (54,142)
+MESSAGE # Forgetting a monster 'giant silver ant' at (54,142)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(21/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:57,140 Dep:7 Lev:7 HP:32/53 SP:9/9 Danger:p=478
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # returning to town to restock(too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 3 with value 32.
+MESSAGE # Targeting giant white ant who has 11 Hit Points (56,139).
+MESSAGE # Firing missile 'Rounded Pebbles of Frost (1d2) (+4,+13)'
+MESSAGE Target Selected.
+MESSAGE Your Rounded Pebble of Frost (1d2) (+4,+13) freezes the giant white ant.
+MESSAGE The giant white ant dies.
+MESSAGE You have 13 Rounded Pebbles of Frost (1d2) (+4,+13) (0).
+MESSAGE The giant white ant bites you.
+MESSAGE You are no longer bleeding.
+MESSAGE The giant white ant misses you.
+MESSAGE The giant black ant bites you.
+MESSAGE The giant white ant bites you.
+MESSAGE # DIED:The giant white ant (+)
+MESSAGE # HIT_BY:The giant white ant (+)
+MESSAGE # MISS_BY:The giant white ant (+)
+MESSAGE # HIT_BY:The giant black ant (+)
+MESSAGE # HIT_BY:The giant white ant (+)
+MESSAGE # Forgetting a monster 'giant white ant' at (56,139)
+MESSAGE # Tracking a monster 'giant red ant' at (55,140) from (54,139)
+MESSAGE # Tracking a monster 'giant black ant' at (55,139) from (55,140)
+MESSAGE # Tracking a monster 'giant white ant' at (56,138) from (55,139)
+MESSAGE # Tracking a monster 'giant red ant' at (54,140) from (55,141)
+MESSAGE # Tracking a monster 'giant black ant' at (54,139) from (54,140)
+MESSAGE # Tracking a monster 'giant black ant' at (53,139) from (53,140)
+MESSAGE # Tracking a monster 'giant red ant' at (56,144) from (55,145)
+MESSAGE # Tracking a monster 'giant red ant' at (56,139) from (56,138)
+MESSAGE # Creating an object '& Rounded Pebble~' at (139,56)
+MESSAGE # Creating a monster 'giant silver ant' at (53,141), HP: 41, Index: 271
+MESSAGE # Removing Regional Fear (53,141) because of a LOS giant silver ant
+MESSAGE # Creating a monster 'giant black ant' at (56,137), HP: 11, Index: 43
+MESSAGE # Removing Regional Fear (56,137) because of a LOS giant black ant
+MESSAGE # DIED:The giant white ant (2)
+MESSAGE # HIT_BY:The giant white ant (3)
+MESSAGE # MISS_BY:The giant white ant (3)
+MESSAGE # HIT_BY:The giant black ant (3)
+MESSAGE # HIT_BY:The giant white ant (3)
+MESSAGE # There was a monster 'soldier ant' at (54,143)
+MESSAGE # Forgetting a monster 'soldier ant' at (54,143)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(20/0)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:57,140 Dep:7 Lev:7 HP:26/53 SP:9/9 Danger:p=930
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # returning to town to restock(too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 160.
+MESSAGE # Facing giant red ant at (56,139) who has 24 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the giant red ant.
+MESSAGE The giant white ant bites you.
+MESSAGE The giant black ant bites you.
+MESSAGE The giant white ant misses you.
+MESSAGE The giant red ant bites you.
+MESSAGE The giant red ant misses you.
+MESSAGE The giant white ant bites you.
+MESSAGE # HIT:the giant red ant (+)
+MESSAGE # HIT_BY:The giant white ant (+)
+MESSAGE # HIT_BY:The giant black ant (+)
+MESSAGE # MISS_BY:The giant white ant (+)
+MESSAGE # HIT_BY:The giant red ant (+)
+MESSAGE # MISS_BY:The giant red ant (+)
+MESSAGE # HIT_BY:The giant white ant (+)
+MESSAGE # Tracking a monster 'giant red ant' at (55,139) from (55,140)
+MESSAGE # Tracking a monster 'giant black ant' at (55,138) from (56,137)
+MESSAGE # Tracking a monster 'giant silver ant' at (54,141) from (53,141)
+MESSAGE # Tracking a monster 'giant black ant' at (56,138) from (55,139)
+MESSAGE # Tracking a monster 'giant white ant' at (57,137) from (56,138)
+MESSAGE # Tracking a monster 'giant black ant' at (54,138) from (53,139)
+MESSAGE # Tracking a monster 'giant red ant' at (53,141) from (54,142)
+MESSAGE # Tracking a monster 'giant white ant' at (55,141) from (54,141)
+MESSAGE # Creating an object '& Rounded Pebble~' at (139,56)
+MESSAGE # Creating a monster 'giant white ant' at (54,143), HP: 13, Index: 63
+MESSAGE # Removing Regional Fear (54,143) because of a LOS giant white ant
+MESSAGE # Creating a monster 'soldier ant' at (54,142), HP: 7, Index: 30
+MESSAGE # Removing Regional Fear (54,142) because of a LOS soldier ant
+MESSAGE # HIT:the giant red ant (2)
+MESSAGE # HIT_BY:The giant white ant (3)
+MESSAGE # HIT_BY:The giant black ant (3)
+MESSAGE # MISS_BY:The giant white ant (3)
+MESSAGE # HIT_BY:The giant red ant (3)
+MESSAGE # MISS_BY:The giant red ant (3)
+MESSAGE # HIT_BY:The giant white ant (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(23/0)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:57,140 Dep:7 Lev:7 HP:16/53 SP:9/9 Danger:p=1268
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # returning to town to restock(too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 160.
+MESSAGE # Facing giant red ant at (56,139) who has 22 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You get in a shield bash!
+MESSAGE You stumble!
+MESSAGE The giant white ant misses you.
+MESSAGE # MISS_BY:The giant white ant (+)
+MESSAGE # Tracking a monster 'giant black ant' at (55,140) from (54,139)
+MESSAGE # Tracking a monster 'giant white ant' at (54,140) from (55,141)
+MESSAGE # Tracking a monster 'giant red ant' at (54,139) from (54,140)
+MESSAGE # Creating an object '& Rounded Pebble~' at (139,56)
+MESSAGE # MISS_BY:The giant white ant (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(23/0)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:57,140 Dep:7 Lev:7 HP:16/53 SP:9/9 Danger:p=1529
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # returning to town to restock(too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 160.
+MESSAGE # Facing giant red ant at (56,139) who has 19 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You get in a shield bash!
+MESSAGE You hit the giant red ant.
+MESSAGE The giant black ant bites you.
+MESSAGE The giant white ant bites you.
+MESSAGE The giant white ant misses you.
+MESSAGE The giant red ant bites you.
+MESSAGE The giant red ant stings you.
+MESSAGE You feel very weak.
+MESSAGE # HIT:the giant red ant (+)
+MESSAGE # HIT_BY:The giant black ant (+)
+MESSAGE # HIT_BY:The giant white ant (+)
+MESSAGE # MISS_BY:The giant white ant (+)
+MESSAGE # HIT_BY:The giant red ant (+)
+MESSAGE # Tracking a monster 'giant black ant' at (55,138) from (54,138)
+MESSAGE # Tracking a monster 'giant black ant' at (55,137) from (56,138)
+MESSAGE # Tracking a monster 'giant red ant' at (56,138) from (55,139)
+MESSAGE # Tracking a monster 'giant black ant' at (56,137) from (55,138)
+MESSAGE # Tracking a monster 'giant white ant' at (55,143) from (54,143)
+MESSAGE # Tracking a monster 'soldier ant' at (53,141) from (54,142)
+MESSAGE # Tracking a monster 'giant red ant' at (53,140) from (53,141)
+MESSAGE # Tracking a monster 'giant black ant' at (56,142) from (55,143)
+MESSAGE # Tracking a monster 'giant black ant' at (55,141) from (56,142)
+MESSAGE # Creating an object '& Rounded Pebble~' at (139,56)
+MESSAGE # Creating a monster 'giant silver ant' at (54,143), HP: 38, Index: 271
+MESSAGE # Removing Regional Fear (54,143) because of a LOS giant silver ant
+MESSAGE # HIT:the giant red ant (2)
+MESSAGE # HIT_BY:The giant black ant (3)
+MESSAGE # HIT_BY:The giant white ant (3)
+MESSAGE # MISS_BY:The giant white ant (3)
+MESSAGE # HIT_BY:The giant red ant (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(23/0)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:57,140 Dep:7 Lev:7 HP:7/53 SP:9/9 Danger:p=1701
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # heading up, not prep for current level: restock phase door)
+MESSAGE # Climbing (too deep: restock phase door)
+MESSAGE # returning to town to restock(too deep: restock phase door)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # no up stairs found, going down
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 160.
+MESSAGE # Facing giant red ant at (56,139) who has 13 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the giant red ant.
+MESSAGE The giant white ant bites you.
+MESSAGE The giant black ant misses you.
+MESSAGE The giant white ant misses you.
+MESSAGE The giant white ant bites you.
+MESSAGE You die.
