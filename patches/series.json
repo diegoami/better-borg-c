@@ -2296,6 +2296,24 @@
       "verification": "docs/measurement/UNIQUEDEAD-94.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the grip mode now marks Quaker (the seen race), keeps Grip alive, keeps the hunted depth at 17 and answers y to the recall-depth question, and the slot5 control is byte-identical. Mode attribution (2026-11-10 rule): the changed line has no mode gate and executes in every configuration, but only when the Borg sees a monster whose race is a unique the player has already killed (typically a shape-changer such as a Maia of Aule); a run with no unique killed cannot reach it. Per-configuration cohort effect not measured: owed to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "REBIRTHKEY-52",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/490",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/52",
+      "source_head": "85e7ce6c689e05bc209feda6d30a3bba51c533c6",
+      "source_commits": [
+        "85e7ce6c689e05bc209feda6d30a3bba51c533c6"
+      ],
+      "applied_commits": [
+        "7a76e7a20"
+      ],
+      "patch": "patches/0123-rebirth-menu-letters.patch",
+      "patch_active": true,
+      "evidence_ref": "374cea77bf134ee73020a3e4ddda2c2b3631cfb9",
+      "verification": "docs/measurement/REBIRTHKEY-52.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the race8, class8 and race7 modes now create the wanted character (right_character=1), and the dwarfpriest and humanwarrior controls (indices below 7) are byte-identical. Mode attribution (2026-11-10 rule): the path has no Lunal/munchkin gate and runs only when the Borg respawns (game option cheat_live on with borg_cheat_death off, or borg_respawn_winners on), so it is mode-independent: reachable in unrestricted, munchkin/Lunal-only and normal-only configurations once a respawn happens, unreachable where respawn is off (the default). Per-configuration cohort effect not measured: the zoo class grid ends a run at death and never respawns; owed to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
