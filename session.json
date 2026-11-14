@@ -214,8 +214,9 @@
     "matrix": "115 groups / 359 cases, ok, zero failures, 295/359 byte-identical at the head (src identical to 9ccb2aaee, gate at 1f0b04882); 24 known byte differences in four documented capture-drift groups plus six pre-existing groups; summary at docs/measurement/impact-v13/regression-summary.json",
     "not_measured": "per-mode effect of all 19 units (owed to borg-zoo issue 54); no cohort run in this window",
     "not_carried": "616 duplicate of carried 0004; 13/249 no released fix; 154/590/591/595 classified bug fixes and 615 a policy choice, awaiting owner direction",
-    "tag_state": "4.2.6-impact-v13 NOT placed; awaits the review verdict (or waiver) and explicit owner authorization",
-    "next_action": "Owner launches an independent reviewer with the prompt in docs/review/MILESTONE13.md section 4 (or waives); apply findings, then the tag decision",
-    "review_issue": "https://github.com/diegoami/better-borg-c/issues/521"
+    "tag_state": "4.2.6-impact-v13 placed 2026-11-14 on the runtime snapshot 9ccb2aaee under explicit owner authorization, without waiting for the #521 reviewer (owner decision 'tag 9ccb2aaee now'); tag object 5a89b17d6f2d2027e2200c89f58eb1a698ba3302, verified on origin. Carries 0138-0141 postdate the snapshot and belong to the milestone-14 window",
+    "next_action": "Closed; the #521 review remains open for the owner to launch or close as waived. Next window: milestone 14 = v13 tag -> head (0138-0141: sources 154, 590, 591, 595) after the batch completes",
+    "review_issue": "https://github.com/diegoami/better-borg-c/issues/521",
+    "review_issue_note": "Owner chose 'tag 9ccb2aaee now' on 2026-11-14; review issue #521 left open"
   }
 }
