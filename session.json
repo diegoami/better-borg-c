@@ -194,9 +194,9 @@
     "review_map": "docs/review/MILESTONE12.md",
     "units": "carry 0118 (NEWKILL-95) and the official import 42cd156ac (retires 0001 and 0002)",
     "ledger": "117 entries, 115 patch-active",
-    "cohort": "no cohort or per-mode measurement in this window; owed to borg-zoo issue 54",
-    "tag_state": "4.2.6-impact-v12 NOT placed; awaits review verdict and explicit owner authorization",
-    "next_action": "Owner launches an independent reviewer with the prompt in docs/review/MILESTONE12.md section 4; apply findings, then the tag decision",
+    "cohort": "zoo classes-v12 (borg-zoo runs 43353949090-1 normal, 43353951603-1 munchkin-class): no regression or gain against classes-v11 on 900 paired cells per profile; Lunal-only and unrestricted arms and a 0118/import ablation not run",
+    "tag_state": "4.2.6-impact-v12 placed by the owner on 4e1b912cb (tag object 9a4d9afeb9d3795697dbc396e4693a2d7abb7334); review issue 479 waived and closed",
+    "next_action": "Optional: zoo ablation arms (0118 alone, import alone) and a Lunal-only arm via borg-zoo",
     "review_issue": "https://github.com/diegoami/better-borg-c/issues/479"
   },
   "impact_milestone_v12": "https://github.com/diegoami/better-borg-c/milestone/12",

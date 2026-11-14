@@ -58,20 +58,55 @@ Ledger: `patches/series.json` has 117 entries, 115 `patch-active`.
 
 ## What is not measured (and is owed)
 
-**No per-mode arm was run.** The owner's 2026-11-10 rule requires each reachable mode configuration
+**The per-mode arms were not run by this repo; the zoo's normal and class-rule arms are recorded below.** The owner's 2026-11-10 rule requires each reachable mode configuration
 (unrestricted, munchkin/Lunal only, normal only) to be tested before a per-mode claim.
 
-* 0118 is shared sighting code; its per-mode effect is **not measured**.
+* 0118 is shared sighting code. Its effect is measured only together with the import, in the normal and class-rule configurations (see the zoo section); alone, and in Lunal-only and unrestricted, it is **not measured**.
 * The import's merged hunks (upstream's `b_p1`/`b_p2 = 9999` initialisation and removed early return in
-  `borg_backup_swap`, the single-gate knockout reaction) are **not measured** per mode. The fixtures
-  show equivalence on constructed scenarios only.
+  `borg_backup_swap`, the single-gate knockout reaction) are measured only together with 0118 in the two
+  zoo configurations; Lunal-only and unrestricted are **not measured**. The fixtures show equivalence on
+  constructed scenarios only.
 * The 7 non-Borg official commits (rest handling, `TERM_XTRA_CLEAR`, object-file ordering, Windows
   open dialog) are exercised only by the native gate.
-* No frozen-v1 cohort run was made for this window.
+* No frozen-v1 cohort run was made for this window (the zoo class-grid arms are below).
 
 The batch measurement with explicit arms belongs to `diegoami/borg-zoo` issue 54 (separate repo and
 session). Until it runs, the claim of this milestone is **"the defect is fixed, the retired carries
 are covered by upstream, and every native gate is green"**, not "the Borg plays better".
+
+## Zoo measurement (classes-v12, 2026-11-13)
+
+Measured by `diegoami/borg-zoo` (experiment `experiments/classes-v12.json`, specimen
+`4.2.6-bbc-m12` at `4e1b912cb`, 115 carries; results on the zoo's `results` branch under
+`results/classes-v12/`). Runs: `43353949090-1` (`normal`, every mode pinned off) and
+`43353951603-1` (`munchkin-class`, the class rule). Each is the 1800-cell class grid, cap
+100000 turns, 0 missing cells, 0 config errors. This repo only reads those results.
+
+| Arm | Cells | Death | Turn cap | Other | Mean max depth | Mean max level |
+| --- | --- | --- | --- | --- | --- | --- |
+| v12 normal | 1800 | 524 | 1276 | 0 | 2.38 | 4.12 |
+| v12 munchkin-class | 1800 | 470 | 1329 | 1 stalled | 3.17 | 4.85 |
+
+Paired against the zoo's `classes-v11` run (`42890625267-1`, specimen `4.2.6-bbc-m11`), which
+only has 900 usable cells per profile (the other 1800 are missing); pairing is on (class, race,
+seed) over those 900 cells:
+
+| Profile | Identical traces | Deaths v12 / v11 | Alive to dead / dead to alive | Mean max depth v12 / v11 |
+| --- | --- | --- | --- | --- |
+| normal | 816 / 900 | 279 / 279 | 3 / 3 | 2.43 / 2.42 |
+| munchkin-class | 845 / 900 | 242 / 245 | 1 / 4 | 3.20 / 3.20 |
+
+What this does and does not show:
+
+* In **both** the normal and the class-rule configuration the v12 build executes differently from
+  v11 (84 and 55 diverging traces), so the changed code is reached there; the effect on deaths,
+  depth and level over those 900 cells is within a few cells and shows no regression and no gain.
+* It does **not** separate 0118 from the official import (retiring 0001/0002 included): v11 to v12
+  changes both at once. An ablation (0118 alone, import alone) is the only way to attribute the
+  divergences.
+* **Lunal-only and unrestricted (all modes on)** were not run. The class-rule arm is not the same
+  as a pure Lunal arm. Those configurations remain unmeasured.
+* The 900-cell pairing is half the grid; the v12 arms are complete but v11 is not.
 
 ## Disclosures
 
