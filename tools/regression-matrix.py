@@ -377,6 +377,11 @@ GROUPS = [
     ('dangerfull-69', 'docs/audit/c-reports/dangerfull-69', 'DF69',
      ('bear', 'wolf', 'orc', 'shaman'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source111 (venomcost-111): after-baselines from the product run; both phases pass with identical outcomes
+    # (tools/verify-venomcost111.py).
+    ('venomcost-111', 'docs/audit/c-reports/venomcost-111', 'VC111',
+     ('unique', 'unique50', 'nounique', 'poisoned'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
