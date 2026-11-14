@@ -13,3 +13,8 @@ This removes tools/native-replay.c and .h, disposable recording instrumentation
 and observer recording calls. It changes no engine/Borg policy, milestone tag,
 canonical carry or historical evidence. The standalone project retains the
 original better-borg-c adaptation credits.
+
+The visible launcher uses start-native-borg.py and observer-only session
+evidence, retaining locks, rolling save backups, final-save publication and
+death export. It no longer freezes a recording executable or advertises a
+replay. Historical reader/verification tooling remains available.

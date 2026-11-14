@@ -1,4 +1,4 @@
-"""Immutable local recording bundles shared by visible and headless launchers."""
+"""Historical recording readers; new capture lives in angband-recorder."""
 from datetime import datetime, timezone
 import gzip
 import hashlib
@@ -45,78 +45,6 @@ def parent_recording(origin_hash):
         return None
     return dict(matches[-1], matching_candidates=len(matches),
                 qualification='Exact saved-state hash match; this does not restore or imply prior Borg memory')
-
-
-def begin(build, out, command, env, profile):
-    """Freeze executable, runtime data/config and origin before the first input."""
-    manifest = json.loads((build / 'build.json').read_text())
-    if manifest.get('recording_schema') != SCHEMA:
-        raise ValueError('This observer build predates full recording; prepare a recording build')
-    if sha(build / 'build/game/angband') != manifest['binary_sha256']:
-        raise ValueError('Recording engine differs from its build manifest')
-    for name, digest in manifest['data_sha256'].items():
-        if sha(build / 'source' / name) != digest:
-            raise ValueError(f'Recording data differs from its build manifest: {name}')
-    engine = out / 'engine'
-    shutil.copy2(build / 'build/game/angband', engine)
-    engine.chmod(0o500)
-    for directory in ('gamedata', 'customize', 'screens', 'help'):
-        shutil.copytree(build / 'source/lib' / directory, out / 'data' / directory)
-    source_files = ['CMakeLists.txt', 'version'] + ['src/' + name for name in (
-        'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h',
-        'main.c', 'main-test.c', 'ui-term.c', 'ui-game.c', 'game-world.c', 'savefile.c',
-        'z-rand.c', 'randname.c', 'mon-make.c', 'ui-input.c', 'ui-prefs.c',
-        'player-util.c', 'ui-death.c', 'borg/borg.c', 'borg/borg-io.c',
-        'borg/borg-commands.c', 'borg/borg-init.c', 'borg/borg-log.c')]
-    for helper in ('native-inventory.h', 'native-spells.h', 'native-takeover.h'):
-        if (build / 'source/src' / helper).is_file():
-            source_files.append('src/' + helper)
-    for name in source_files:
-        source = build / 'source' / name
-        target = out / 'instrumentation' / name
-        target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(source, target)
-    shutil.copytree(out / 'user', out / 'initial-user')
-    origin = env.get('BORG_MEASURE_LOAD')
-    if origin:
-        shutil.copy2(origin, out / 'origin.save')
-        env['BORG_MEASURE_LOAD'] = str(out / 'origin.save')
-    env['BORG_RECORD_DIR'] = str(out)
-    env.pop('BORG_REPLAY_DIR', None)
-    env.pop('BORG_REPLAY_SYS', None)
-    env['BORG_RECORD_VISIBLE'] = '1' if profile['frontend'] == 'x11' else ''
-    if not env['BORG_RECORD_VISIBLE']:
-        env.pop('BORG_RECORD_VISIBLE')
-    updated = [str(engine)] + command[1:]
-    replacements = {'gamedata': 'gamedata', 'pref': 'customize', 'screens': 'screens', 'help': 'help'}
-    for key, directory in replacements.items():
-        updated = [v for v in updated if not v.startswith(f'-d{key}=')]
-        updated.append(f'-d{key}={out / "data" / directory}')
-    if '--' in updated:
-        # Frontend suboptions must follow ALL engine options.
-        at = updated.index('--')
-        tail = updated[at + 1:]
-        engine_options = [v for v in tail if v.startswith('-d')]
-        updated = updated[:at] + engine_options + ['--'] + [v for v in tail if not v.startswith('-d')]
-    tz = env.get('TZ')
-    zone = Path('/etc/localtime') if not tz else Path(tz.lstrip(':'))
-    if tz and not zone.is_absolute():
-        zone = Path('/usr/share/zoneinfo') / tz
-    if zone.is_file():
-        shutil.copy2(zone, out / 'timezone.tzif')
-    record = {'schema': SCHEMA, 'created_utc': datetime.now(timezone.utc).isoformat(),
-              'build': manifest, 'profile': profile, 'command': updated,
-              'origin': 'origin.save' if origin else None,
-              'environment': {k: env[k] for k in ('LC_ALL', 'LANG', 'TZ') if k in env},
-              'status': 'recording', 'input_model': 'terminal polls/events plus native clock inputs; original Borg code executes',
-              'fingerprint': 'serialized native-save FNV1a64 at command/input boundaries plus player/game/Borg RNG and action stream; files protected by SHA256',
-              'frames': 'logical terminal cells/colors; each world tick and command/input boundary, with explicit phase'}
-    record['parent'] = parent_recording(sha(out / 'origin.save') if origin else None)
-    record['immutable_sha256'] = {str(p.relative_to(out)): sha(p) for p in out.rglob('*')
-        if p.is_file() and (p == engine or p.name in ('origin.save', 'timezone.tzif')
-                           or any(name in p.relative_to(out).parts for name in ('data', 'initial-user', 'instrumentation')))}
-    write(out / 'recording.json', record)
-    return updated
 
 
 def finalize(out, result):

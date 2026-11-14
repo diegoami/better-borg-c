@@ -75,9 +75,10 @@ def prepare(args):
     if args.observe:
         for name in ('native-observer.c', 'native-observer.h'):
             (source / 'src' / name).write_bytes((ROOT / 'tools' / name).read_bytes())
-        for file in ('main-test.c', 'game-world.c', 'ui-game.c', 'borg/borg.c', 'borg/borg-io.c'):
+        for file in ('main.c', 'main-test.c', 'game-world.c', 'ui-game.c', 'borg/borg.c', 'borg/borg-io.c'):
             p = source / 'src' / file
             p.write_text('#include "native-observer.h"\n' + p.read_text())
+        replace(source / 'src/main.c', '\t/* Catch nasty signals */', '\tif (getenv("BORG_MEASURE_VISIBLE")) measure_init();\n\n\t/* Catch nasty signals */')
         replace(source / 'src/main-test.c', 'term_data_link(0);', 'measure_init();\n\tterm_data_link(0);')
         replace(source / 'src/game-world.c', '\t\t\tturn++;', '\t\t\tturn++;\n\t\t\tmeasure_tick();')
         replace(source / 'src/ui-game.c', '\t\t\tpre_turn_refresh();', '\t\t\tmeasure_boundary();\n\t\t\tpre_turn_refresh();')

@@ -59,6 +59,10 @@ void measure_init(void)
         final_save = getenv("BORG_MEASURE_FINAL_SAVE");
         if (!final_save) quit("named-play final save missing");
     }
+    if (getenv("BORG_MEASURE_VISIBLE")) {
+        final_save = getenv("BORG_MEASURE_FINAL_SAVE");
+        if (!final_save) quit("visible-play final save missing");
+    }
     checkpoints = !getenv("BORG_MEASURE_NO_SAVES");
     Rand_state_init(strtoul(seed, NULL, 10));
     Rand_quick = false;
@@ -109,6 +113,9 @@ void measure_boundary(void)
     char path[1024];
     if (!started) {
         started = true;
+        /* Isolate native autosaves from the named save until publication. */
+        if (getenv("BORG_MEASURE_VISIBLE") || getenv("BORG_MEASURE_LOAD"))
+            strnfmt(savefile, sizeof(savefile), "%s/autosave.save", directory);
         if (play_turns) {
             if (turn > INT32_MAX - play_turns)
                 quit("named-play turn target overflow");
@@ -164,7 +171,7 @@ void measure_decision(void)
         for (i = 0; i < OPT_MAX; ++i)
             if (option_name(i)) fprintf(trace, " %s=%d", option_name(i), player->opts.opt[i]);
         fprintf(trace, "\n");
-        if (!getenv("BORG_RECORD_VISIBLE") && (borg_cfg[BORG_CHEAT_DEATH] || borg.status.cheat_death || OPT(player, cheat_live)))
+        if (!getenv("BORG_MEASURE_VISIBLE") && (borg_cfg[BORG_CHEAT_DEATH] || borg.status.cheat_death || OPT(player, cheat_live)))
             quit("invalid measurement cheat-death configuration");
         state("borg_start");
     }
@@ -174,7 +181,7 @@ void measure_decision(void)
 void measure_end(void)
 {
     finish(player->is_dead ? "death" :
-        (player->total_winner ? "completion" : getenv("BORG_RECORD_VISIBLE") ? "saved" : "unexpected_stop"));
+        (player->total_winner ? "completion" : getenv("BORG_MEASURE_VISIBLE") ? "saved" : "unexpected_stop"));
 }
 
 
