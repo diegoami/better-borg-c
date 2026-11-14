@@ -428,6 +428,11 @@ GROUPS = [
     ('curelist-596', 'docs/audit/c-reports/curelist-596', 'CL596',
      ('blind', 'control'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source589 (stunprot-589): after-baselines from the product run; rsound/pstun fail before
+    # and pass after, both and rsound-unstunned byte-identical (tools/verify-stunprot589.py).
+    ('stunprot-589', 'docs/audit/c-reports/stunprot-589', 'SP589',
+     ('rsound', 'pstun', 'both', 'rsound-unstunned'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the

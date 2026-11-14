@@ -2512,6 +2512,24 @@
       "verification": "docs/measurement/CURELIST-596.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the blind mode fails before (Waybread eaten 25/100, CLW never reached) and passes after (CLW 25/100), the control is byte-identical (Waybread dropped from the blindness list, HEAL1/HEAL2 from the stun list). Mode attribution (2026-11-10 rule): borg_recover() runs in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 54. carried/open+patch-active after merge"
+    },
+    {
+      "id": "STUNPROT-589",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/514",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/589",
+      "source_head": "3088b91d965ca483917377e4e1553329b7e292e8",
+      "source_commits": [
+        "3088b91d965ca483917377e4e1553329b7e292e8"
+      ],
+      "applied_commits": [
+        "e20d372f0"
+      ],
+      "patch": "patches/0135-stun-protection.patch",
+      "patch_active": true,
+      "evidence_ref": "29af41256d135e6968936ad7ab216bdc01b369d7",
+      "verification": "docs/measurement/STUNPROT-589.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; rsound and pstun fail before (the +500 stun penalty applied to the wrong Borg) and pass after with the corrected danger, both and the unstunned control byte-identical (BI_PSTUN guards the eight non-sound stun cases). Mode attribution (2026-11-10 rule): borg_danger() feeds every combat decision in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 54. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
