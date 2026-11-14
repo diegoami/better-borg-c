@@ -1,0 +1,60 @@
+From 1abc778496e01d97cd40720cd72ec2759b6d3586 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 14 Nov 2026 20:32:10 +0100
+Subject: [PATCH] Borg: mark every rubble grid around the borg when the rubble
+ is removed
+
+The "You have removed the ..." handler in borg_parse_aux() is meant to
+convert the rubble grids around the borg to broken doors, so a lightless
+borg does not treat freshly dug ground as rubble any more. Its loops ran
+a 2x2 block (y and x from c-1 to below c+1), and the loop body never
+used its own x and y: it tested only the goal grid ag. With the goal
+elsewhere, nothing was converted; with the goal on a rubble grid, only
+that one grid converted by accident.
+
+The correction walks the full 3x3 block around the borg and converts
+each grid that is rubble. The light check keeps its meaning: the whole
+handler still does nothing while the borg carries light.
+
+Measured natively (native-c/rubblemark-192): a lightless Warrior digs a
+neighbourhood of five rubble grids through the production dig command and
+the game's own message reaches borg_parse; the original leaves all five
+grids as rubble on the borg's map, the correction converts all five, and
+the lit control is byte-identical. Investigates
+diegoami/neo-angband-tracker#192.
+---
+ src/borg/borg-messages.c | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+diff --git a/src/borg/borg-messages.c b/src/borg/borg-messages.c
+index 7adcf070e..b09f101ac 100644
+--- a/src/borg/borg-messages.c
++++ b/src/borg/borg-messages.c
+@@ -1214,9 +1214,11 @@ static void borg_parse_aux(char *msg, int len)
+     /* Removed rubble.  Important when out of lite */
+     if (prefix(msg, "You have removed the ")) {
+         int x, y;
++        borg_grid *rx;
+         /* remove rubbles from array */
+-        for (y = borg.c.y - 1; y < borg.c.y + 1; y++) {
+-            for (x = borg.c.x - 1; x < borg.c.x + 1; x++) {
++        for (y = borg.c.y - 1; y <= borg.c.y + 1; y++) {
++            for (x = borg.c.x - 1; x <= borg.c.x + 1; x++) {
++                rx = &borg_grids[y][x];
+                 /* replace all rubble with broken doors, the borg ignores
+                  * broken doors.  This routine is only needed if the borg
+                  * is out of lite and searching in the dark.
+@@ -1224,8 +1226,8 @@ static void borg_parse_aux(char *msg, int len)
+                 if (borg.trait[BI_LIGHT])
+                     continue;
+ 
+-                if (ag->feat == FEAT_RUBBLE)
+-                    ag->feat = FEAT_BROKEN;
++                if (rx->feat == FEAT_RUBBLE)
++                    rx->feat = FEAT_BROKEN;
+             }
+         }
+         return;
+-- 
+2.53.0
+

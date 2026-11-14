@@ -459,6 +459,11 @@ GROUPS = [
     ('mindblast-591', 'docs/audit/c-reports/mindblast-591', 'MB591',
      ('nar', 'control'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source192 (rubblemark-192): after-baselines from the product run; dark fails before and
+    # passes after, lit control byte-identical (tools/verify-rubblemark192.py).
+    ('rubblemark-192', 'docs/audit/c-reports/rubblemark-192', 'M192',
+     ('dark', 'control'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
