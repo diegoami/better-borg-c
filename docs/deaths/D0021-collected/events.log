@@ -1,0 +1,978 @@
+BORG 10736 # Standing on up-stairs
+BORG 10736 # Leaving via up stairs.
+BORG 10736 # Creating a monster 'battle-scarred veteran' at (6,31), HP: 33, Index: 14
+BORG 10736 # Removing Regional Fear (6,31) because of a LOS battle-scarred veteran
+BORG 10736 # Scary guy on level.
+BORG 10736 # Leaving (Scary guy on level)
+BORG 10736 # Fleeing (Scary guy on level)
+BORG 10736 # Standing on dn-stairs
+BORG 10736 # Fleeing and leaving the level. (scaryguy)
+BORG 10736 # FEELING_DANGER:8 (+)
+BORG 10736 # Creating an object 'copper' at (74,55)
+BORG 10736 # FEELING_DANGER:8 (1)
+BORG 10736 # Flowing toward Scum item at cost 6
+BORG 10786 # Walking onto and deleting a 'copper' at (55,74)
+BORG 10796 # Creating a monster 'Grip, Farmer Maggot's Dog' at (54,76), HP: 25, Index: 47
+BORG 10796 # Removing Regional Fear (54,76) because of a LOS Grip, Farmer Maggot's Dog
+BORG 10796 # Fleeing level. Scumming Mode
+BORG 10796 # Leaving (finish shopping)
+BORG 10796 # Scary guy on level.
+BORG 10796 # Loc:55,74 Dep:1 Lev:1 HP:11/11 SP:2/2 Danger:p=4
+BORG 10796 # Fleeing and leaving the level. (scaryguy)
+BORG 10796 # Performing attack type 38 with value 21.
+BORG 10796 # Targeting Grip, Farmer Maggot's Dog who has 25 Hit Points (54,76).
+BORG 10796 # Casting Nether Bolt (0,0).
+BORG 10806 # PAIN:Grip, Farmer Maggot's Dog (+)
+BORG 10806 # PAIN:Grip, Farmer Maggot's Dog (2)
+BORG 10806 # Fleeing level. Scumming Mode
+BORG 10806 # Scary guy on level.
+BORG 10806 # Loc:55,74 Dep:1 Lev:1 HP:11/11 SP:1/2 Danger:p=4
+BORG 10806 # Fleeing and leaving the level. (scaryguy)
+BORG 10806 # Performing attack type 38 with value 42.
+BORG 10806 # Targeting Grip, Farmer Maggot's Dog who has 20 Hit Points (54,76).
+BORG 10806 # Casting Nether Bolt (0,0).
+BORG 10816 # Normal failure.
+BORG 10816 # MISS_BY:Grip, Farmer Maggot's Dog (+)
+BORG 10816 # Tracking a monster 'Grip, Farmer Maggot's Dog' at (55,75) from (54,76)
+BORG 10816 # MISS_BY:Grip, Farmer Maggot's Dog (3)
+BORG 10816 # Fleeing level. Scumming Mode
+BORG 10816 # Possibility of being surrounded (monsters/safegrids)(1/0)
+BORG 10816 # Scary guy on level.
+BORG 10816 # Loc:55,74 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=12
+BORG 10816 # Fleeing and leaving the level. (scaryguy)
+BORG 10816 # No Phase. scary squares: 46
+BORG 10816 # Safe to Phase. scary squares: 34
+BORG 10816 # Reading Scroll of Phase Door.
+BORG 10816 # Danger Level 4.3
+BORG 10826 # Creating a monster 'fruit bat' at (58,81), HP: 3, Index: 31
+BORG 10826 # Removing Regional Fear (58,81) because of a LOS fruit bat
+BORG 10826 # Fleeing level. Scumming Mode
+BORG 10826 # Scary guy on level.
+BORG 10826 # Fleeing and leaving the level. (scaryguy)
+BORG 10826 # Resting to gain Mana. (danger 0)...
+BORG 10836 # Tracking a monster 'Grip, Farmer Maggot's Dog' at (52,79) from (55,75)
+BORG 10836 # Fleeing level. Scumming Mode
+BORG 10836 # Scary guy on level.
+BORG 10836 # Fleeing and leaving the level. (scaryguy)
+BORG 10836 # Fleeing and leaving the level. (Looking for any stair)
+BORG 10836 # Flowing toward stairs at cost 9
+BORG 10846 # Tracking a monster 'Grip, Farmer Maggot's Dog' at (53,81) from (52,79)
+BORG 10846 # There was a monster 'fruit bat' at (58,81)
+BORG 10846 # Fleeing level. Scumming Mode
+BORG 10846 # Scary guy on level.
+BORG 10846 # Loc:53,82 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=12
+BORG 10846 # Fleeing and leaving the level. (scaryguy)
+BORG 10846 # Adjacent to monster on Scaryguy Level.
+BORG 10846 # Performing attack type 1 with value 26.
+BORG 10846 # Facing Grip, Farmer Maggot's Dog at (53,81) who has 20 Hit Points.
+BORG 10846 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 10856 # MISS:Grip, Farmer Maggot's Dog (+)
+BORG 10856 # HIT_BY:Grip, Farmer Maggot's Dog (+)
+BORG 10856 # Tracking a monster 'fruit bat' at (56,82) from (58,81)
+BORG 10856 # MISS:Grip, Farmer Maggot's Dog (2)
+BORG 10856 # HIT_BY:Grip, Farmer Maggot's Dog (3)
+BORG 10856 # Fleeing level. Scumming Mode
+BORG 10856 # Scary guy on level.
+BORG 10856 # Loc:53,82 Dep:1 Lev:1 HP:10/11 SP:0/2 Danger:p=12
+BORG 10856 # Fleeing and leaving the level. (scaryguy)
+BORG 10856 # Adjacent to monster on Scaryguy Level.
+BORG 10856 # Performing attack type 1 with value 26.
+BORG 10856 # Facing Grip, Farmer Maggot's Dog at (53,81) who has 20 Hit Points.
+BORG 10856 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 10865 # MISS:Grip, Farmer Maggot's Dog (+)
+BORG 10865 # Tracking a monster 'fruit bat' at (54,82) from (56,82)
+BORG 10865 # MISS:Grip, Farmer Maggot's Dog (2)
+BORG 10865 # Fleeing level. Scumming Mode
+BORG 10865 # Scary guy on level.
+BORG 10865 # Loc:53,82 Dep:1 Lev:1 HP:10/11 SP:0/2 Danger:p=15
+BORG 10865 # Fleeing and leaving the level. (scaryguy)
+BORG 10865 # Adjacent to monster on Scaryguy Level.
+BORG 10865 # Performing attack type 1 with value 26.
+BORG 10865 # Facing Grip, Farmer Maggot's Dog at (53,81) who has 20 Hit Points.
+BORG 10865 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 10875 # HIT:Grip, Farmer Maggot's Dog (+)
+BORG 10875 # HIT_BY:Grip, Farmer Maggot's Dog (+)
+BORG 10875 # MISS_BY:Grip, Farmer Maggot's Dog (+)
+BORG 10875 # HIT_BY:The fruit bat (+)
+BORG 10875 # Tracking a monster 'fruit bat' at (54,83) from (54,82)
+BORG 10875 # HIT:Grip, Farmer Maggot's Dog (2)
+BORG 10875 # HIT_BY:Grip, Farmer Maggot's Dog (3)
+BORG 10875 # MISS_BY:Grip, Farmer Maggot's Dog (3)
+BORG 10875 # HIT_BY:The fruit bat (3)
+BORG 10875 # Fleeing level. Scumming Mode
+BORG 10875 # Scary guy on level.
+BORG 10875 # Loc:53,82 Dep:1 Lev:1 HP:6/11 SP:0/2 Danger:p=15
+BORG 10875 # Fleeing and leaving the level. (scaryguy)
+BORG 10875 # Adjacent to monster on Scaryguy Level.
+BORG 10875 # Performing attack type 1 with value 26.
+BORG 10875 # Facing Grip, Farmer Maggot's Dog at (53,81) who has 16 Hit Points.
+BORG 10875 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+
+[Terminal native state/cause]
+STATE death turn=10881 energy=111125 decisions=457 depth=1 max_depth=1 level=1 max_level=1 hp=-1 dead=1 winner=0 borg_rng=2863416874 quick=0 quick_rng=2047772237 rng_index=1 rng=6c09857abe780ebd63d749e875407e5b63e661f1a232ff5712750982f7a27aad7cad575534b7217f92a56f8a9586ab1550ed8d8b55174f08025e802f54f094969ac10e9bc85a3cdca38459b026bd2ee7a70b17287b5cac2295ad9b81bd9efedc1ff36d0731b433e525ece02e9de191d328f5c935fefeb9fad8e1d83eca25e20a
+CAUSE Grip, Farmer Maggot's Dog
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE  
+MESSAGE   
+MESSAGE ====================
+MESSAGE   
+MESSAGE  
+MESSAGE You can learn 1 more ritual.
+MESSAGE You are about to use the dangerous, unsupported, borg commands!
+MESSAGE Your machine may crash, and your savefile may become corrupted!
+MESSAGE Initializing the Borg... (memory)
+MESSAGE Initializing the Borg... (borg.txt)
+MESSAGE Initializing the Borg... (options)
+MESSAGE Initializing the Borg... (various)
+MESSAGE Initializing the Borg... done.
+MESSAGE # Ready...
+MESSAGE # Installing keypress hook
+MESSAGE # Creating a monster 'battle-scarred veteran' at (13,27), HP: 31, Index: 14
+MESSAGE # Creating a monster 'scrawny cat' at (8,27), HP: 2, Index: 2
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'aimless-looking merchant' at (15,26), HP: 10, Index: 12
+MESSAGE # Standing on dn-stairs
+MESSAGE # Studying spell/prayer Nether Bolt.
+MESSAGE You have learned the ritual of Nether Bolt.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Flowing toward General Store at cost 10
+MESSAGE # Creating a monster 'filthy street urchin' at (17,30), HP: 3, Index: 1
+MESSAGE # There was a monster 'aimless-looking merchant' at (15,26)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # There was a monster 'filthy street urchin' at (17,30)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'mean-looking mercenary' at (16,28), HP: 27, Index: 13
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (14,28), HP: 3, Index: 8
+MESSAGE # Standing on dn-stairs
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Flowing toward General Store at cost 10
+MESSAGE # There was a monster 'pitiful-looking beggar' at (14,28)
+MESSAGE # Creating a monster 'mangy-looking leper' at (14,25), HP: 1, Index: 9
+MESSAGE # Flowing toward General Store at cost 4
+MESSAGE # There was a monster 'mangy-looking leper' at (14,25)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (14,28)
+MESSAGE # There was a monster 'mangy-looking leper' at (14,25)
+MESSAGE # Entering a '0' shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Agreed!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 3 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 4 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 5 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Fine.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 6 Rations of Food (b).
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Okay.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 7 Rations of Food (b).
+MESSAGE # Buying 'Scrolls of Phase Door {unseen}' at 'Alchemy Shop' immediately
+MESSAGE # Flowing toward Alchemy Shop at cost 14
+MESSAGE # There was a monster 'pitiful-looking beggar' at (14,28)
+MESSAGE # There was a monster 'mangy-looking leper' at (14,25)
+MESSAGE # Entering a '4' shop
+MESSAGE "Even the most powerful characters can be made useless by blindness."
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Scrolls of Phase Door {unseen}.
+MESSAGE Done!
+MESSAGE You bought a Scroll titled "infigo mo iteo" for 15 gold.
+MESSAGE You have a Scroll of Phase Door (c).
+MESSAGE # Buying 'Leather Shields [8,+0]' at 'Armoury' immediately
+MESSAGE # Flowing toward Armoury at cost 21
+MESSAGE The pitiful-looking beggar wakes up.
+MESSAGE # PAIN:The pitiful-looking beggar (+)
+MESSAGE # PAIN:The pitiful-looking beggar (2)
+MESSAGE # Performing attack type 38 with value 12.
+MESSAGE # Targeting pitiful-looking beggar who has 3 Hit Points (14,28).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'pitiful-looking beggar' at (13,29) from (14,28)
+MESSAGE # Performing attack type 38 with value 12.
+MESSAGE # Targeting pitiful-looking beggar who has 3 Hit Points (13,29).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'pitiful-looking beggar' at (13,30) from (13,29)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'pitiful-looking beggar' at (12,31) from (13,30)
+MESSAGE # Performing attack type 1 with value 1.
+MESSAGE # Facing pitiful-looking beggar at (12,31) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the pitiful-looking beggar.
+MESSAGE You have slain the pitiful-looking beggar.
+MESSAGE # HIT:the pitiful-looking beggar (+)
+MESSAGE # KILL:the pitiful-looking beggar (+)
+MESSAGE # Forgetting a monster 'pitiful-looking beggar' at (12,31)
+MESSAGE # HIT:the pitiful-looking beggar (2)
+MESSAGE # KILL:the pitiful-looking beggar (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The mangy-looking leper wakes up.
+MESSAGE # PAIN:The mangy-looking leper (+)
+MESSAGE # Tracking a monster 'mangy-looking leper' at (13,26) from (14,25)
+MESSAGE # PAIN:The mangy-looking leper (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'mangy-looking leper' at (13,27) from (13,26)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'mangy-looking leper' at (13,28) from (13,27)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'mangy-looking leper' at (12,29) from (13,28)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'mangy-looking leper' at (12,30) from (12,29)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'mangy-looking leper' at (12,29) from (12,30)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'mangy-looking leper' at (12,30) from (12,29)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'mangy-looking leper' at (12,31) from (12,30)
+MESSAGE # Performing attack type 1 with value 1.
+MESSAGE # Facing mangy-looking leper at (12,31) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the mangy-looking leper.
+MESSAGE You have slain the mangy-looking leper.
+MESSAGE # HIT:the mangy-looking leper (+)
+MESSAGE # KILL:the mangy-looking leper (+)
+MESSAGE # Forgetting a monster 'mangy-looking leper' at (12,31)
+MESSAGE # HIT:the mangy-looking leper (2)
+MESSAGE # KILL:the mangy-looking leper (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Leather Shields [8,+0].
+MESSAGE You bought a Leather Shield [8,+0] for 66 gold.
+MESSAGE You have a Leather Shield [8,+0] (e).
+MESSAGE # Wearing Leather Shield [8,+0].
+MESSAGE You are wearing a Leather Shield [8,+0] (m).
+MESSAGE # Buying 'Set of Gauntlets [3,+4]' at 'Armoury' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Set of Gauntlets [3,+4].
+MESSAGE You bought a Set of Gauntlets [3,+4] for 176 gold.
+MESSAGE You have a Set of Gauntlets [3,+4] (e).
+MESSAGE # Wearing Set of Gauntlets [3,+4].
+MESSAGE You are wearing a Set of Gauntlets [3,+4] (o).
+MESSAGE # Flowing toward Home at cost 8
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Scroll of Word of Recall' to the home
+MESSAGE # Currently in preferred store '8'.
+MESSAGE # Selling Scroll of Word of Recall
+MESSAGE You drop a Scroll of Word of Recall (d).
+MESSAGE # Buying 'Ring of Searching {unseen}'(m) at 'Magic Shop' (for player 'b')
+MESSAGE # Flowing toward Magic Shop at cost 27
+MESSAGE # Creating a monster 'village idiot' at (17,16), HP: 7, Index: 7
+MESSAGE # Removing Regional Fear (17,16) because of a LOS village idiot
+MESSAGE # Entering a '5' shop
+MESSAGE # Currently in preferred store '6'.
+MESSAGE # Buying Ring of Searching {unseen}.
+MESSAGE Okay.
+MESSAGE You bought a Gold Ring {??} for 66 gold.
+MESSAGE You have learned the rune of searching skill.
+MESSAGE You have a Ring of Searching <+1> (d).
+MESSAGE # Putting on best tight ring.
+MESSAGE # Wearing Ring of Searching <+1>.
+MESSAGE You are wearing a Ring of Searching <+1> (c).
+MESSAGE # Buying 'Pairs of Leather Boots [2,+0]'(z) at 'Armoury' (for player 'b')
+MESSAGE # Flowing toward Armoury at cost 35
+MESSAGE # Entering a '7' shop
+MESSAGE # Currently in store '8' would prefer '2'.
+MESSAGE # Buying 'Pairs of Leather Boots [2,+0]'(z) at 'Armoury' (for player 'b')
+MESSAGE # Flowing toward Armoury at cost 8
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Pairs of Leather Boots [2,+0].
+MESSAGE Accepted!
+MESSAGE You bought a Pair of Leather Boots [2,+0] for 14 gold.
+MESSAGE You have a Pair of Leather Boots [2,+0] (d).
+MESSAGE # Wearing Pair of Leather Boots [2,+0].
+MESSAGE You are wearing a Pair of Leather Boots [2,+0] (p).
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 23
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 1
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Creating an object 'Heroism' at (20,49)
+MESSAGE # Creating an object 'Slowness' at (23,48)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 8
+MESSAGE # Opening a door
+MESSAGE # Flowing toward spastic at cost 11
+MESSAGE # Standing on up-stairs
+MESSAGE # Spent too long (56) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (39,56)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Spent too long (58) on level, leaving.
+MESSAGE # Spastic Searching at (39,54)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 15
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating an object '& Pair~ of Leather Sandals' at (41,20)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a '& Pair~ of Leather Sandals' at (20,41)
+MESSAGE You have a Pair of Leather Sandals [1,+0] (d).
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating a monster 'giant white centipede' at (21,34), HP: 11, Index: 20
+MESSAGE # Removing Regional Fear (21,34) because of a LOS giant white centipede
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting giant white centipede who has 11 Hit Points (21,34).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The giant white centipede hisses furiously.
+MESSAGE The giant white centipede flees in terror!
+MESSAGE # PAIN:The giant white centipede (+)
+MESSAGE # PAIN:The giant white centipede (2)
+MESSAGE # There was a monster 'giant white centipede' at (21,34)
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting giant white centipede who has 11 Hit Points (21,34).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE # Perhaps wall near targetted location (21,34)
+MESSAGE # Guessing wall (22,39) near target (21,34)
+MESSAGE # Tracking a monster 'giant white centipede' at (21,33) from (21,34)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # There was a monster 'giant white centipede' at (21,33)
+MESSAGE # Forgetting a monster 'giant white centipede' at (21,33)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'giant white mouse' at (22,36), HP: 2, Index: 23
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # There was a monster 'giant white mouse' at (22,36)
+MESSAGE # Forgetting a monster 'giant white mouse' at (22,36)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 6
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 3
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'squint-eyed rogue' at (19,27), HP: 7, Index: 10
+MESSAGE # Removing Regional Fear (19,27) because of a LOS squint-eyed rogue
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 15
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating an object '& Rounded Pebble~' at (178,45)
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object 'copper' at (181,46)
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward item at cost 2
+MESSAGE # Walking onto and deleting a '& Rounded Pebble~' at (45,178)
+MESSAGE You have 30 Rounded Pebbles (1d2) (+0,+0) (0).
+MESSAGE # Dumping Rounded Pebbles (1d2) (+0,+0).  Bad ammo in quiver.
+MESSAGE Inscribing 30 Rounded Pebbles (1d2) (+0,+0).
+MESSAGE You re-arrange your quiver.
+MESSAGE You drop 30 Rounded Pebbles (1d2) (+0,+0) {borg ignore} (0).
+MESSAGE You have no more Rounded Pebbles (1d2) (+0,+0) {borg ignore} (0).
+MESSAGE # Creating an object '& Rounded Pebble~' at (178,45)
+MESSAGE # Destroying floor item Shot~& Rounded Pebble~
+MESSAGE # Flowing toward dark-4 at cost 6
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 7
+MESSAGE # Flowing toward spastic at cost 12
+MESSAGE # Standing on up-stairs
+MESSAGE # Spent too long (53) on level, leaving.
+MESSAGE # Spastic Searching at (172,54)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Spent too long (55) on level, leaving.
+MESSAGE # Spastic Searching at (172,52)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'singing, happy drunk' at (17,27), HP: 4, Index: 11
+MESSAGE # Removing Regional Fear (17,27) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'mean-looking mercenary' at (9,27), HP: 18, Index: 13
+MESSAGE # Removing Regional Fear (9,27) because of a LOS mean-looking mercenary
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'scruffy little dog' at (9,29), HP: 2, Index: 3
+MESSAGE # Removing Regional Fear (9,29) because of a LOS scruffy little dog
+MESSAGE # Creating a monster 'filthy street urchin' at (9,27), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (9,27) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'scruffy little dog' at (8,29), HP: 2, Index: 3
+MESSAGE # Removing Regional Fear (8,29) because of a LOS scruffy little dog
+MESSAGE # Creating a monster 'filthy street urchin' at (8,27), HP: 4, Index: 1
+MESSAGE # Removing Regional Fear (8,27) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (7,27), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (7,27) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'filthy street urchin' at (7,25), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (7,25) because of a LOS filthy street urchin
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'blubbering idiot' at (13,19), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (13,19) because of a LOS blubbering idiot
+MESSAGE # Creating a monster 'village idiot' at (12,20), HP: 11, Index: 7
+MESSAGE # Removing Regional Fear (12,20) because of a LOS village idiot
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 15
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # Creating an object '& Wooden Torch~' at (138,46)
+MESSAGE # Creating a monster 'rock lizard' at (47,144), HP: 8, Index: 28
+MESSAGE # Removing Regional Fear (47,144) because of a LOS rock lizard
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting rock lizard who has 8 Hit Points (47,144).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The rock lizard jerks limply.
+MESSAGE The rock lizard flees in terror!
+MESSAGE # PAIN:The rock lizard (+)
+MESSAGE # PAIN:The rock lizard (2)
+MESSAGE # There was a monster 'rock lizard' at (47,144)
+MESSAGE # Standing on up-stairs
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting rock lizard who has 8 Hit Points (47,144).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE # Perhaps wall near targetted location (47,144)
+MESSAGE # Guessing wall (47,145) near target (47,144)
+MESSAGE # There was a monster 'rock lizard' at (47,144)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'clear icky thing' at (47,146), HP: 6, Index: 22
+MESSAGE # There was a monster 'rock lizard' at (47,144)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting on stair to gain Mana.
+MESSAGE # Tracking a monster 'clear icky thing' at (47,147) from (47,146)
+MESSAGE # There was a monster 'rock lizard' at (47,144)
+MESSAGE # Loc:48,149 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=2
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (149,48)...value:0
+MESSAGE # Boosting bravery (1) from 11 to 22!
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Tracking a monster 'clear icky thing' at (47,146) from (47,147)
+MESSAGE # There was a monster 'rock lizard' at (47,144)
+MESSAGE # Loc:48,148 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=2
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Looking for stairs. Stair hugging.
+MESSAGE # There was a monster 'rock lizard' at (47,144)
+MESSAGE # There was a monster 'clear icky thing' at (47,146)
+MESSAGE # Forgetting a monster 'clear icky thing' at (47,146)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 15
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating a monster 'soldier ant' at (21,44), HP: 6, Index: 30
+MESSAGE # Removing Regional Fear (21,44) because of a LOS soldier ant
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting soldier ant who has 6 Hit Points (21,44).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The soldier ant dies.
+MESSAGE # DIED:The soldier ant (+)
+MESSAGE # Forgetting a monster 'soldier ant' at (21,44)
+MESSAGE # DIED:The soldier ant (2)
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating an object 'copper' at (42,26)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'copper' at (26,42)
+MESSAGE You have found 55 gold pieces worth of copper.
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE You feel that there are only scraps of junk here.
+MESSAGE # FEELING_STUFF:9 (+)
+MESSAGE # FEELING_STUFF:9 (1)
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 9
+MESSAGE # Creating a monster 'large white snake' at (35,48), HP: 13, Index: 24
+MESSAGE # Removing Regional Fear (35,48) because of a LOS large white snake
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting large white snake who has 13 Hit Points (35,48).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'soldier ant' at (31,44), HP: 6, Index: 30
+MESSAGE # Loc:30,43 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 29,44 (distance 1) via 29,44 (4 > 2)
+MESSAGE # Tracking a monster 'soldier ant' at (30,45) from (31,44)
+MESSAGE # Loc:29,44 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 28,44 (distance 1) via 28,44 (4 > 2)
+MESSAGE # Tracking a monster 'soldier ant' at (29,44) from (30,45)
+MESSAGE # Loc:28,44 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 27,45 (distance 1) via 27,45 (4 > 2)
+MESSAGE # Tracking a monster 'soldier ant' at (28,45) from (29,44)
+MESSAGE # Loc:27,45 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 26,45 (distance 1) via 26,45 (4 > 2)
+MESSAGE # Tracking a monster 'soldier ant' at (27,45) from (28,45)
+MESSAGE # Loc:26,45 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 25,45 (distance 1) via 25,45 (4 > 2)
+MESSAGE # Tracking a monster 'soldier ant' at (26,45) from (27,45)
+MESSAGE # Loc:25,45 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 24,45 (distance 1) via 24,45 (4 > 2)
+MESSAGE # Tracking a monster 'soldier ant' at (25,45) from (26,45)
+MESSAGE # Loc:24,45 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 23,45 (distance 1) via 23,45 (4 > 2)
+MESSAGE # Tracking a monster 'soldier ant' at (24,45) from (25,45)
+MESSAGE # Loc:23,45 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=4
+MESSAGE # Retreating to 22,45 (distance 1) via 22,45 (4 > 2)
+MESSAGE # Tracking a monster 'soldier ant' at (23,45) from (24,45)
+MESSAGE # Loc:22,45 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=4
+MESSAGE # Performing attack type 1 with value 7.
+MESSAGE # Facing soldier ant at (23,45) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the soldier ant.
+MESSAGE The soldier ant bites you.
+MESSAGE # HIT:the soldier ant (+)
+MESSAGE # HIT_BY:The soldier ant (+)
+MESSAGE # HIT:the soldier ant (2)
+MESSAGE # HIT_BY:The soldier ant (3)
+MESSAGE # Loc:22,45 Dep:1 Lev:1 HP:10/11 SP:0/2 Danger:p=4
+MESSAGE # Performing attack type 1 with value 7.
+MESSAGE # Facing soldier ant at (23,45) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You miss the soldier ant.
+MESSAGE The soldier ant bites you.
+MESSAGE # MISS:the soldier ant (+)
+MESSAGE # HIT_BY:The soldier ant (+)
+MESSAGE # MISS:the soldier ant (2)
+MESSAGE # HIT_BY:The soldier ant (3)
+MESSAGE # Loc:22,45 Dep:1 Lev:1 HP:9/11 SP:0/2 Danger:p=4
+MESSAGE # Backing up to 45,21 (4 > 2)
+MESSAGE # Tracking a monster 'soldier ant' at (22,45) from (23,45)
+MESSAGE # Loc:21,45 Dep:1 Lev:1 HP:9/11 SP:0/2 Danger:p=4
+MESSAGE # Performing attack type 1 with value 7.
+MESSAGE # Facing soldier ant at (22,45) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the soldier ant.
+MESSAGE The soldier ant flees in terror!
+MESSAGE # HIT:the soldier ant (+)
+MESSAGE # PAIN:The soldier ant (+)
+MESSAGE # Tracking a monster 'soldier ant' at (23,44) from (22,45)
+MESSAGE # HIT:the soldier ant (2)
+MESSAGE # PAIN:The soldier ant (2)
+MESSAGE # Loc:21,45 Dep:1 Lev:1 HP:9/11 SP:0/2 Danger:p=2
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Looking for stairs. Stair hugging.
+MESSAGE # Tracking a monster 'soldier ant' at (24,44) from (23,44)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting on stair to gain Mana.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting on stair to gain Mana.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting on stair to gain Mana.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting on stair to gain Mana.
+MESSAGE # Standing on up-stairs
+MESSAGE # Spent too long (58) on level, leaving.
+MESSAGE # Flowing toward dark-4 at cost 12
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'soldier ant' at (30,45) from (24,44)
+MESSAGE # Loc:29,43 Dep:1 Lev:1 HP:11/11 SP:1/2 Danger:p=2
+MESSAGE # Performing attack type 38 with value 12.
+MESSAGE # Targeting soldier ant who has 3 Hit Points (30,45).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The soldier ant dies.
+MESSAGE # DIED:The soldier ant (+)
+MESSAGE # Forgetting a monster 'soldier ant' at (30,45)
+MESSAGE # DIED:The soldier ant (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting large white snake who has 13 Hit Points (35,48).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting large white snake who has 13 Hit Points (35,48).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting large white snake who has 13 Hit Points (35,48).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting large white snake who has 13 Hit Points (35,48).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The large white snake hisses furiously.
+MESSAGE The large white snake flees in terror!
+MESSAGE # PAIN:The large white snake (+)
+MESSAGE # PAIN:The large white snake (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # There was a monster 'large white snake' at (35,48)
+MESSAGE # Forgetting a monster 'large white snake' at (35,48)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'large white snake' at (33,51), HP: 13, Index: 24
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting large white snake who has 13 Hit Points (33,51).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The large white snake hisses furiously.
+MESSAGE The large white snake flees in terror!
+MESSAGE # PAIN:The large white snake (+)
+MESSAGE # PAIN:The large white snake (2)
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting large white snake who has 4 Hit Points (33,51).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The large white snake dies.
+MESSAGE # DIED:The large white snake (+)
+MESSAGE # Forgetting a monster 'large white snake' at (33,51)
+MESSAGE # DIED:The large white snake (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Spent too long (83) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'battle-scarred veteran' at (6,31), HP: 33, Index: 14
+MESSAGE # Removing Regional Fear (6,31) because of a LOS battle-scarred veteran
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating an object 'copper' at (74,55)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Flowing toward Scum item at cost 6
+MESSAGE # Walking onto and deleting a 'copper' at (55,74)
+MESSAGE You hear a door burst open!
+MESSAGE You have found 45 gold pieces worth of copper.
+MESSAGE # Creating a monster 'Grip, Farmer Maggot's Dog' at (54,76), HP: 25, Index: 47
+MESSAGE # Removing Regional Fear (54,76) because of a LOS Grip, Farmer Maggot's Dog
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,74 Dep:1 Lev:1 HP:11/11 SP:2/2 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 38 with value 21.
+MESSAGE # Targeting Grip, Farmer Maggot's Dog who has 25 Hit Points (54,76).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE Grip, Farmer Maggot's Dog, snarls with pain.
+MESSAGE # PAIN:Grip, Farmer Maggot's Dog (+)
+MESSAGE # PAIN:Grip, Farmer Maggot's Dog (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,74 Dep:1 Lev:1 HP:11/11 SP:1/2 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 38 with value 42.
+MESSAGE # Targeting Grip, Farmer Maggot's Dog who has 20 Hit Points (54,76).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE Grip, Farmer Maggot's Dog, misses you.
+MESSAGE # Normal failure.
+MESSAGE # MISS_BY:Grip, Farmer Maggot's Dog (+)
+MESSAGE # Tracking a monster 'Grip, Farmer Maggot's Dog' at (55,75) from (54,76)
+MESSAGE # MISS_BY:Grip, Farmer Maggot's Dog (3)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(1/0)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:55,74 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=12
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # No Phase. scary squares: 46
+MESSAGE # Safe to Phase. scary squares: 34
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 4.3
+MESSAGE You have no more Scrolls of Phase Door (c).
+MESSAGE # Creating a monster 'fruit bat' at (58,81), HP: 3, Index: 31
+MESSAGE # Removing Regional Fear (58,81) because of a LOS fruit bat
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Tracking a monster 'Grip, Farmer Maggot's Dog' at (52,79) from (55,75)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 9
+MESSAGE # Tracking a monster 'Grip, Farmer Maggot's Dog' at (53,81) from (52,79)
+MESSAGE # There was a monster 'fruit bat' at (58,81)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:53,82 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=12
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing Grip, Farmer Maggot's Dog at (53,81) who has 20 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You miss Grip, Farmer Maggot's Dog.
+MESSAGE Grip, Farmer Maggot's Dog, bites you.
+MESSAGE # MISS:Grip, Farmer Maggot's Dog (+)
+MESSAGE # HIT_BY:Grip, Farmer Maggot's Dog (+)
+MESSAGE # Tracking a monster 'fruit bat' at (56,82) from (58,81)
+MESSAGE # MISS:Grip, Farmer Maggot's Dog (2)
+MESSAGE # HIT_BY:Grip, Farmer Maggot's Dog (3)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:53,82 Dep:1 Lev:1 HP:10/11 SP:0/2 Danger:p=12
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing Grip, Farmer Maggot's Dog at (53,81) who has 20 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You miss Grip, Farmer Maggot's Dog.
+MESSAGE # MISS:Grip, Farmer Maggot's Dog (+)
+MESSAGE # Tracking a monster 'fruit bat' at (54,82) from (56,82)
+MESSAGE # MISS:Grip, Farmer Maggot's Dog (2)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:53,82 Dep:1 Lev:1 HP:10/11 SP:0/2 Danger:p=15
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing Grip, Farmer Maggot's Dog at (53,81) who has 20 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit Grip, Farmer Maggot's Dog.
+MESSAGE Grip, Farmer Maggot's Dog, bites you.
+MESSAGE Grip, Farmer Maggot's Dog, misses you.
+MESSAGE The fruit bat bites you.
+MESSAGE # HIT:Grip, Farmer Maggot's Dog (+)
+MESSAGE # HIT_BY:Grip, Farmer Maggot's Dog (+)
+MESSAGE # MISS_BY:Grip, Farmer Maggot's Dog (+)
+MESSAGE # HIT_BY:The fruit bat (+)
+MESSAGE # Tracking a monster 'fruit bat' at (54,83) from (54,82)
+MESSAGE # HIT:Grip, Farmer Maggot's Dog (2)
+MESSAGE # HIT_BY:Grip, Farmer Maggot's Dog (3)
+MESSAGE # MISS_BY:Grip, Farmer Maggot's Dog (3)
+MESSAGE # HIT_BY:The fruit bat (3)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:53,82 Dep:1 Lev:1 HP:6/11 SP:0/2 Danger:p=15
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 26.
+MESSAGE # Facing Grip, Farmer Maggot's Dog at (53,81) who has 16 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit Grip, Farmer Maggot's Dog.
+MESSAGE Grip, Farmer Maggot's Dog, bites you.
+MESSAGE You die.

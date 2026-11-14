@@ -1,0 +1,1056 @@
+BORG 7940 # Tracking a monster 'blubbering icky thing' at (13,135) from (18,137)
+BORG 7940 # Flowing toward up-stairs at cost 13
+BORG 7940 # Looking for stairs. Stair hugging.
+BORG 7950 # Tracking a monster 'blubbering icky thing' at (13,134) from (13,135)
+BORG 7950 # Creating a monster 'large white snake' at (8,131), HP: 11, Index: 24
+BORG 7950 # Loc:11,132 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=14
+BORG 7950 # Retreating to 10,133 (distance 1) via 10,133 (14 > 0)
+BORG 7960 # Tracking a monster 'blubbering icky thing' at (12,133) from (13,134)
+BORG 7960 # Loc:10,133 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=14
+BORG 7960 # Retreating to 9,133 (distance 1) via 9,133 (14 > 0)
+BORG 7970 # Tracking a monster 'blubbering icky thing' at (11,133) from (12,133)
+BORG 7970 # Loc:9,133 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=14
+BORG 7970 # Fleeing (failed to teleport)
+BORG 7970 # Leaving (failed to teleport)
+BORG 7970 # Fleeing and leaving the level. (Looking for any stair)
+BORG 7970 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 7970 # Spent too long (66) on level, leaving.
+BORG 7970 # Looking for up stairs.  Going up.
+BORG 7970 # Bored but unable to flow to up stairs.
+BORG 7970 # heading up (bored and unable to dive: Clevel < depth)
+BORG 7970 # Looking for up stairs.  Going up.
+BORG 7970 # Bored but unable to flow to up stairs.
+BORG 7970 # Boosting bravery (1) from 11 to 22!
+BORG 7970 # Fleeing and leaving the level. Brave Thinking.
+BORG 7970 # heading up (bored and unable to dive: Clevel < depth)
+BORG 7970 # Looking for up stairs.  Going up.
+BORG 7970 # Bored but unable to flow to up stairs.
+BORG 7970 # Considering Phase (twitchy)
+BORG 7970 # Boosting bravery (2) from 11 to 44!
+BORG 7970 # Fleeing and leaving the level. Brave Thinking.
+BORG 7970 # heading up (bored and unable to dive: Clevel < depth)
+BORG 7970 # Looking for up stairs.  Going up.
+BORG 7970 # Bored but unable to flow to up stairs.
+BORG 7970 # Boosting bravery (3) from 11 to 30000!
+BORG 7970 # Fleeing and leaving the level. Brave Thinking.
+BORG 7970 # Flowing toward dark-3 at cost 2
+BORG 7980 # HIT_BY:The blubbering icky thing (+)
+BORG 7980 # HIT_BY:The blubbering icky thing (3)
+BORG 7980 # Loc:10,132 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=29
+BORG 7980 # Performing attack type 1 with value 43.
+BORG 7980 # Facing blubbering icky thing at (11,133) who has 12 Hit Points.
+BORG 7980 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7990 # HIT:the blubbering icky thing (+)
+BORG 7990 # HIT:the blubbering icky thing (2)
+BORG 7990 # Loc:10,132 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=29
+BORG 7990 # Performing attack type 1 with value 43.
+BORG 7990 # Facing blubbering icky thing at (11,133) who has 10 Hit Points.
+BORG 7990 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 7999 # HIT:the blubbering icky thing (+)
+BORG 7999 # HIT_BY:The blubbering icky thing (+)
+BORG 7999 # HIT_BY:The blubbering icky thing (+)
+BORG 7999 # HIT:the blubbering icky thing (2)
+BORG 7999 # HIT_BY:The blubbering icky thing (3)
+BORG 7999 # HIT_BY:The blubbering icky thing (3)
+BORG 7999 # Loc:10,132 Dep:1 Lev:1 HP:8/11 SP:0/2 Danger:p=29
+BORG 7999 # Performing attack type 1 with value 43.
+BORG 7999 # Facing blubbering icky thing at (11,133) who has 7 Hit Points.
+BORG 7999 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 8009 # MISS:the blubbering icky thing (+)
+BORG 8009 # HIT_BY:The blubbering icky thing (+)
+BORG 8009 # MISS:the blubbering icky thing (2)
+BORG 8009 # HIT_BY:The blubbering icky thing (3)
+BORG 8009 # Loc:10,132 Dep:1 Lev:1 HP:4/11 SP:0/2 Danger:p=29
+BORG 8009 # Performing attack type 1 with value 43.
+BORG 8009 # Facing blubbering icky thing at (11,133) who has 9 Hit Points.
+BORG 8009 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 8018 # HIT:the blubbering icky thing (+)
+BORG 8018 # HIT:the blubbering icky thing (2)
+BORG 8018 # Loc:10,132 Dep:1 Lev:1 HP:3/11 SP:0/2 Danger:p=29
+BORG 8018 # Performing attack type 1 with value 43.
+BORG 8018 # Facing blubbering icky thing at (11,133) who has 4 Hit Points.
+BORG 8018 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 8028 # HIT:the blubbering icky thing (+)
+BORG 8028 # PAIN:The blubbering icky thing (+)
+BORG 8028 # Tracking a monster 'blubbering icky thing' at (12,133) from (11,133)
+BORG 8028 # HIT:the blubbering icky thing (2)
+BORG 8028 # PAIN:The blubbering icky thing (2)
+BORG 8028 # Loc:10,132 Dep:1 Lev:1 HP:2/11 SP:0/2 Danger:p=14
+BORG 8028 # Fleeing and leaving the level. (Looking for any stair)
+BORG 8028 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 8028 # Spent too long (72) on level, leaving.
+BORG 8028 # Looking for up stairs.  Going up.
+BORG 8028 # Bored but unable to flow to up stairs.
+BORG 8028 # heading up (bored and unable to dive: Clevel < depth)
+BORG 8028 # Looking for up stairs.  Going up.
+BORG 8028 # Bored but unable to flow to up stairs.
+BORG 8028 # Boosting bravery (1) from 2 to 4!
+BORG 8028 # Fleeing and leaving the level. Brave Thinking.
+BORG 8028 # heading up (bored and unable to dive: Clevel < depth)
+BORG 8028 # Looking for up stairs.  Going up.
+BORG 8028 # Bored but unable to flow to up stairs.
+BORG 8028 # Considering Phase (twitchy)
+BORG 8028 # Boosting bravery (2) from 2 to 44!
+BORG 8028 # Fleeing and leaving the level. Brave Thinking.
+BORG 8028 # heading up (bored and unable to dive: Clevel < depth)
+BORG 8028 # Looking for up stairs.  Going up.
+BORG 8028 # Bored but unable to flow to up stairs.
+BORG 8028 # Boosting bravery (3) from 2 to 30000!
+BORG 8028 # Fleeing and leaving the level. Brave Thinking.
+BORG 8028 # Flowing toward dark-2 at cost 2
+BORG 8038 # There was a monster 'blubbering icky thing' at (12,133)
+BORG 8038 # Forgetting a monster 'blubbering icky thing' at (12,133)
+BORG 8038 # Flowing toward up-stairs at cost 12
+BORG 8038 # Looking for stairs. Stair hugging.
+BORG 8048 # Creating a monster 'blubbering icky thing' at (12,133), HP: 0, Index: 34
+BORG 8048 # Loc:11,132 Dep:1 Lev:1 HP:0/11 SP:0/2 Danger:p=29
+BORG 8048 # Fleeing and leaving the level. (Looking for any stair)
+BORG 8048 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 8048 # Spent too long (74) on level, leaving.
+BORG 8048 # heading up (bored and unable to dive: Clevel < depth)
+BORG 8048 # Looking for up stairs.  Going up.
+BORG 8048 # Bored but unable to flow to up stairs.
+BORG 8048 # Boosting bravery (2) from 0 to 44!
+BORG 8048 # Fleeing and leaving the level. Brave Thinking.
+BORG 8048 # heading up (bored and unable to dive: Clevel < depth)
+BORG 8048 # Looking for up stairs.  Going up.
+BORG 8048 # Bored but unable to flow to up stairs.
+BORG 8048 # Boosting bravery (3) from 0 to 30000!
+BORG 8048 # Fleeing and leaving the level. Brave Thinking.
+BORG 8048 # Flowing toward dark-3 at cost 3
+
+[Terminal native state/cause]
+STATE death turn=8050 energy=82865 decisions=499 depth=1 max_depth=1 level=1 max_level=1 hp=-1 dead=1 winner=0 borg_rng=3862039435 quick=0 quick_rng=802868666 rng_index=17 rng=85f7cf1f87c5e5c21c1988886728e7f16c020fba74de92a75f44f93ff8ab1c819ebd450cc836f145391d2c16d991bdca664f1482899429666a76519998a629e70e6efcef3ddd6ea74c44490cfe4fe36398bdc196ca4cf0b89db556c93609413e04d76d7f915773887dac12f59e3b56de8afda670cde2cb0b74af35546d984171
+CAUSE poison
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE  
+MESSAGE   
+MESSAGE ====================
+MESSAGE   
+MESSAGE  
+MESSAGE You can learn 1 more ritual.
+MESSAGE You are about to use the dangerous, unsupported, borg commands!
+MESSAGE Your machine may crash, and your savefile may become corrupted!
+MESSAGE Initializing the Borg... (memory)
+MESSAGE Initializing the Borg... (borg.txt)
+MESSAGE Initializing the Borg... (options)
+MESSAGE Initializing the Borg... (various)
+MESSAGE Initializing the Borg... done.
+MESSAGE # Ready...
+MESSAGE # Installing keypress hook
+MESSAGE # Creating a monster 'boil-covered wretch' at (15,30), HP: 2, Index: 6
+MESSAGE # Creating a monster 'squint-eyed rogue' at (9,32), HP: 11, Index: 10
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Studying spell/prayer Nether Bolt.
+MESSAGE You have learned the ritual of Nether Bolt.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Flowing toward General Store at cost 12
+MESSAGE # Creating a monster 'aimless-looking merchant' at (8,22), HP: 2, Index: 12
+MESSAGE # Creating a monster 'filthy street urchin' at (7,19), HP: 3, Index: 1
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Flowing toward General Store at cost 12
+MESSAGE # Creating a monster 'battle-scarred veteran' at (11,11), HP: 30, Index: 14
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 10
+MESSAGE # Creating a monster 'singing, happy drunk' at (12,25), HP: 4, Index: 11
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 9
+MESSAGE # Tracking a monster 'singing, happy drunk' at (12,24) from (12,25)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # There was a monster 'singing, happy drunk' at (12,24)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (12,24)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Creating a monster 'singing, happy drunk' at (9,24), HP: 4, Index: 11
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 5
+MESSAGE # Tracking a monster 'singing, happy drunk' at (8,23) from (9,24)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (7,24) from (8,23)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (7,25) from (7,24)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (6,26) from (7,25)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (5,27) from (6,26)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Flowing toward General Store at cost 12
+MESSAGE # Creating a monster 'village idiot' at (20,22), HP: 10, Index: 7
+MESSAGE # Removing Regional Fear (20,22) because of a LOS village idiot
+MESSAGE # Flowing toward General Store at cost 3
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (19,9), HP: 2, Index: 8
+MESSAGE # Removing Regional Fear (19,9) because of a LOS pitiful-looking beggar
+MESSAGE # Flowing toward General Store at cost 2
+MESSAGE # Creating a monster 'pitiful-looking beggar' at (10,13), HP: 3, Index: 8
+MESSAGE # Removing Regional Fear (10,13) because of a LOS pitiful-looking beggar
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Flowing toward General Store at cost 1
+MESSAGE # Entering a '0' shop
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Taken!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 4 Rations of Food (b).
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Taken!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 5 Rations of Food (b).
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Agreed!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 6 Rations of Food (b).
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Buying 'Rations of Food' at 'General Store' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 7 Rations of Food (b).
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Buying 'Scrolls of Phase Door {unseen}' at 'Alchemy Shop' immediately
+MESSAGE # Flowing toward Alchemy Shop at cost 33
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # Creating a monster 'village idiot' at (5,52), HP: 10, Index: 7
+MESSAGE # Removing Regional Fear (5,52) because of a LOS village idiot
+MESSAGE # Flowing toward Alchemy Shop at cost 5
+MESSAGE # There was a monster 'village idiot' at (5,52)
+MESSAGE # Entering a '4' shop
+MESSAGE "Identical resistances on different pieces of equipment do not stack."
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Scrolls of Phase Door {unseen}.
+MESSAGE You bought a Scroll titled "ves via bineus" for 15 gold.
+MESSAGE You have a Scroll of Phase Door (c).
+MESSAGE # Buying 'Iron Helms [7,+0]' at 'Armoury' immediately
+MESSAGE # Flowing toward Armoury at cost 12
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Iron Helms [7,+0].
+MESSAGE You bought an Iron Helm [7,+0] for 104 gold.
+MESSAGE You have an Iron Helm [7,+0] (e).
+MESSAGE # Wearing Iron Helm [7,+0].
+MESSAGE You are wearing an Iron Helm [7,+0] (n).
+MESSAGE # Buying 'Robes [2,+2]' at 'Armoury' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Robes [2,+2].
+MESSAGE You bought a Robe [2,+2] for 66 gold.
+MESSAGE You have a Robe [2,+2] (e).
+MESSAGE # Wearing Robe [2,+2].
+MESSAGE You are wearing a Robe [2,+2] (g).
+MESSAGE # Buying 'Pairs of Leather Sandals [1,+2]' at 'Armoury' immediately
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Pairs of Leather Sandals [1,+2].
+MESSAGE You bought a Pair of Leather Sandals [1,+2] for 36 gold.
+MESSAGE You have a Pair of Leather Sandals [1,+2] (e).
+MESSAGE # Wearing Pair of Leather Sandals [1,+2].
+MESSAGE You are wearing a Pair of Leather Sandals [1,+2] (p).
+MESSAGE # Buying 'Cloaks [1,+0]' at 'General Store' immediately
+MESSAGE # Flowing toward General Store at cost 21
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Entering a '0' shop
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Cloaks [1,+0].
+MESSAGE You bought a Cloak [1,+0] for 6 gold.
+MESSAGE You have a Cloak [1,+0] (e).
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Wearing Cloak [1,+0].
+MESSAGE You are wearing a Cloak [1,+0] (i).
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Buying 'Potions of Cure Light Wounds {unseen}' at 'Alchemy Shop' immediately
+MESSAGE # Flowing toward Alchemy Shop at cost 33
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # Entering a '4' shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Potions of Cure Light Wounds {unseen}.
+MESSAGE You bought a Vermilion Potion for 20 gold.
+MESSAGE You have a Potion of Cure Light Wounds (c).
+MESSAGE # Flowing toward Home at cost 31
+MESSAGE # There was a monster 'village idiot' at (5,52)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Scroll of Word of Recall' to the home
+MESSAGE # Currently in preferred store '8'.
+MESSAGE # Selling Scroll of Word of Recall
+MESSAGE You drop a Scroll of Word of Recall (e).
+MESSAGE # Buying 'Potions of Cure Light Wounds'(a) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Flowing toward Alchemy Shop at cost 31
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # Entering a '4' shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Potions of Cure Light Wounds.
+MESSAGE You bought a Potion of Cure Light Wounds for 20 gold.
+MESSAGE You have 2 Potions of Cure Light Wounds (c).
+MESSAGE # Buying 'Potions of Cure Light Wounds'(a) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Potions of Cure Light Wounds.
+MESSAGE You bought a Potion of Cure Light Wounds for 20 gold.
+MESSAGE You have 3 Potions of Cure Light Wounds (c).
+MESSAGE # Buying 'Potions of Cure Light Wounds'(a) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Potions of Cure Light Wounds.
+MESSAGE You bought a Potion of Cure Light Wounds for 20 gold.
+MESSAGE You have 4 Potions of Cure Light Wounds (c).
+MESSAGE # Buying 'Potions of Cure Light Wounds'(a) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Potions of Cure Light Wounds.
+MESSAGE Accepted!
+MESSAGE You bought a Potion of Cure Light Wounds for 20 gold.
+MESSAGE You have 5 Potions of Cure Light Wounds (c).
+MESSAGE # Buying 'Sets of Leather Gloves [1,+0]'(o) at 'Armoury' (for player 'b')
+MESSAGE # Flowing toward Armoury at cost 12
+MESSAGE # There was a monster 'village idiot' at (5,52)
+MESSAGE # Entering a '1' shop
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Buying Sets of Leather Gloves [1,+0].
+MESSAGE Fine.
+MESSAGE You bought a Set of Leather Gloves [1,+0] for 6 gold.
+MESSAGE You have a Set of Leather Gloves [1,+0] (e).
+MESSAGE # Wearing Set of Leather Gloves [1,+0].
+MESSAGE You are wearing a Set of Leather Gloves [1,+0] (o).
+MESSAGE # Buying 'Flasks of oil'(h) at 'General Store' (for player 'b')
+MESSAGE # Flowing toward General Store at cost 21
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Entering a '0' shop
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Flasks of oil.
+MESSAGE Fine.
+MESSAGE You bought a Flask of oil for 3 gold.
+MESSAGE You have a Flask of oil (c).
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 12
+MESSAGE # There was a monster 'pitiful-looking beggar' at (19,9)
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # There was a monster 'pitiful-looking beggar' at (10,13)
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # There was a monster 'village idiot' at (20,22)
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'apprentice' at (40,159), HP: 19, Index: 39
+MESSAGE # Removing Regional Fear (40,159) because of a LOS apprentice
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:32,159 Dep:1 Lev:1 HP:11/11 SP:2/2 Danger:p=104
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving level,  Some danger but I'm on a stair.
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'squint-eyed rogue' at (9,31), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (9,31) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'mangy-looking leper' at (7,27), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (7,27) because of a LOS mangy-looking leper
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 12
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 7
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating a monster 'grey mold' at (32,83), HP: 2, Index: 17
+MESSAGE # Removing Regional Fear (32,83) because of a LOS grey mold
+MESSAGE # Performing attack type 38 with value 8.
+MESSAGE # Targeting grey mold who has 2 Hit Points (32,83).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The grey mold is destroyed.
+MESSAGE # DIED:The grey mold (+)
+MESSAGE # Forgetting a monster 'grey mold' at (32,83)
+MESSAGE # DIED:The grey mold (2)
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating a monster 'rock lizard' at (32,83), HP: 12, Index: 28
+MESSAGE # Removing Regional Fear (32,83) because of a LOS rock lizard
+MESSAGE # Loc:31,83 Dep:1 Lev:1 HP:11/11 SP:1/2 Danger:p=2
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting rock lizard who has 12 Hit Points (32,83).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The rock lizard hisses furiously.
+MESSAGE The rock lizard flees in terror!
+MESSAGE # PAIN:The rock lizard (+)
+MESSAGE # Tracking a monster 'rock lizard' at (33,83) from (32,83)
+MESSAGE # PAIN:The rock lizard (2)
+MESSAGE # Loc:31,83 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=1
+MESSAGE # Performing attack type 2 with value 2.
+MESSAGE # Targeting rock lizard who has 6 Hit Points (33,83).
+MESSAGE # Throwing painful object 'Flask of oil'
+MESSAGE Target Selected.
+MESSAGE You have no more Flasks of oil (c).
+MESSAGE The Flask of oil breaks.
+MESSAGE # Perhaps wall near targetted location (33,83)
+MESSAGE # Guessing wall (32,83) near target (33,83)
+MESSAGE # Tracking a monster 'rock lizard' at (34,83) from (33,83)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # There was a monster 'rock lizard' at (34,83)
+MESSAGE # Forgetting a monster 'rock lizard' at (34,83)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'rock lizard' at (34,83), HP: 9, Index: 28
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'rock lizard' at (33,83) from (34,83)
+MESSAGE # Loc:31,83 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=1
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Looking for stairs. Stair hugging.
+MESSAGE # Tracking a monster 'rock lizard' at (32,83) from (33,83)
+MESSAGE # Loc:31,84 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=2
+MESSAGE # Performing attack type 1 with value 4.
+MESSAGE # Facing rock lizard at (32,83) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the rock lizard.
+MESSAGE The rock lizard bites you.
+MESSAGE # HIT:the rock lizard (+)
+MESSAGE # HIT_BY:The rock lizard (+)
+MESSAGE # HIT:the rock lizard (2)
+MESSAGE # HIT_BY:The rock lizard (3)
+MESSAGE # Loc:31,84 Dep:1 Lev:1 HP:10/11 SP:0/2 Danger:p=2
+MESSAGE # Performing attack type 1 with value 4.
+MESSAGE # Facing rock lizard at (32,83) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You miss the rock lizard.
+MESSAGE The rock lizard bites you.
+MESSAGE # MISS:the rock lizard (+)
+MESSAGE # HIT_BY:The rock lizard (+)
+MESSAGE # MISS:the rock lizard (2)
+MESSAGE # HIT_BY:The rock lizard (3)
+MESSAGE # Loc:31,84 Dep:1 Lev:1 HP:9/11 SP:0/2 Danger:p=2
+MESSAGE # Performing attack type 1 with value 4.
+MESSAGE # Facing rock lizard at (32,83) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the rock lizard.
+MESSAGE The rock lizard bites you.
+MESSAGE # HIT:the rock lizard (+)
+MESSAGE # HIT_BY:The rock lizard (+)
+MESSAGE # HIT:the rock lizard (2)
+MESSAGE # HIT_BY:The rock lizard (3)
+MESSAGE # Loc:31,84 Dep:1 Lev:1 HP:8/11 SP:0/2 Danger:p=2
+MESSAGE # Performing attack type 1 with value 4.
+MESSAGE # Facing rock lizard at (32,83) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the rock lizard.
+MESSAGE The rock lizard flees in terror!
+MESSAGE # HIT:the rock lizard (+)
+MESSAGE # PAIN:The rock lizard (+)
+MESSAGE # HIT:the rock lizard (2)
+MESSAGE # PAIN:The rock lizard (2)
+MESSAGE # Loc:31,84 Dep:1 Lev:1 HP:8/11 SP:0/2 Danger:p=2
+MESSAGE # There was a monster 'rock lizard' at (32,83)
+MESSAGE # Forgetting a monster 'rock lizard' at (32,83)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward spastic at cost 11
+MESSAGE # Standing on up-stairs
+MESSAGE # Spastic Searching at (88,37)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Spent too long (52) on level, leaving.
+MESSAGE # Spastic Searching at (88,35)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'blubbering idiot' at (17,29), HP: 2, Index: 5
+MESSAGE # Removing Regional Fear (17,29) because of a LOS blubbering idiot
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 12
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating a monster 'giant yellow centipede' at (12,66), HP: 8, Index: 19
+MESSAGE # Removing Regional Fear (12,66) because of a LOS giant yellow centipede
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting giant yellow centipede who has 8 Hit Points (12,66).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The giant yellow centipede hisses furiously.
+MESSAGE The giant yellow centipede flees in terror!
+MESSAGE # PAIN:The giant yellow centipede (+)
+MESSAGE # PAIN:The giant yellow centipede (2)
+MESSAGE # There was a monster 'giant yellow centipede' at (12,66)
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting giant yellow centipede who has 8 Hit Points (12,66).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE # Perhaps wall near targetted location (12,66)
+MESSAGE # Guessing wall (12,65) near target (12,66)
+MESSAGE # There was a monster 'giant yellow centipede' at (12,66)
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Looking for stairs. Stair hugging.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'cutpurse' at (10,63), HP: 19, Index: 37
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Loc:7,63 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=9
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'aimless-looking merchant' at (13,30), HP: 6, Index: 12
+MESSAGE # Removing Regional Fear (13,30) because of a LOS aimless-looking merchant
+MESSAGE # Creating a monster 'filthy street urchin' at (10,32), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (10,32) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'mangy-looking leper' at (6,26), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (6,26) because of a LOS mangy-looking leper
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'singing, happy drunk' at (14,32), HP: 5, Index: 11
+MESSAGE # Removing Regional Fear (14,32) because of a LOS singing, happy drunk
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (13,32) from (14,32)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'singing, happy drunk' at (12,33) from (13,32)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # There was a monster 'singing, happy drunk' at (12,33)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (12,33)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 12
+MESSAGE # Creating a monster 'singing, happy drunk' at (12,32), HP: 5, Index: 11
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting singing, happy drunk who has 5 Hit Points (12,32).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The singing, happy drunk dies.
+MESSAGE # DIED:The singing, happy drunk (+)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (12,32)
+MESSAGE # DIED:The singing, happy drunk (2)
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating a monster 'white icky thing' at (29,54), HP: 6, Index: 21
+MESSAGE # Removing Regional Fear (29,54) because of a LOS white icky thing
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting white icky thing who has 6 Hit Points (29,54).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The white icky thing dies.
+MESSAGE # DIED:The white icky thing (+)
+MESSAGE # Forgetting a monster 'white icky thing' at (29,54)
+MESSAGE # DIED:The white icky thing (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Creating a monster 'small kobold' at (32,51), HP: 8, Index: 25
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'small kobold' at (31,51) from (32,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'small kobold' at (30,51) from (31,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'small kobold' at (29,51) from (30,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'small kobold' at (28,51) from (29,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 6
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'small kobold' at (27,51) from (28,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'small kobold' at (26,51) from (27,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'small kobold' at (25,51) from (26,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 3
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'small kobold' at (24,51) from (25,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Tracking a monster 'small kobold' at (23,51) from (24,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Tracking a monster 'small kobold' at (22,51) from (23,51)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 12
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 11
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'mean-looking mercenary' at (16,31), HP: 21, Index: 13
+MESSAGE # Removing Regional Fear (16,31) because of a LOS mean-looking mercenary
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 12
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Opening a door
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating a monster 'soldier ant' at (16,143), HP: 7, Index: 30
+MESSAGE # Removing Regional Fear (16,143) because of a LOS soldier ant
+MESSAGE # Loc:15,141 Dep:1 Lev:1 HP:11/11 SP:2/2 Danger:p=2
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting soldier ant who has 7 Hit Points (16,143).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The soldier ant dies.
+MESSAGE # DIED:The soldier ant (+)
+MESSAGE # Forgetting a monster 'soldier ant' at (16,143)
+MESSAGE # DIED:The soldier ant (2)
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Creating a monster 'grey mushroom patch' at (22,149), HP: 4, Index: 18
+MESSAGE # Removing Regional Fear (22,149) because of a LOS grey mushroom patch
+MESSAGE # Performing attack type 38 with value 14.
+MESSAGE # Targeting grey mushroom patch who has 4 Hit Points (22,149).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The grey mushroom patch is destroyed.
+MESSAGE # DIED:The grey mushroom patch (+)
+MESSAGE # Forgetting a monster 'grey mushroom patch' at (22,149)
+MESSAGE # DIED:The grey mushroom patch (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating an object '& Wicker Shield~' at (136,18)
+MESSAGE # Flowing toward item at cost 8
+MESSAGE # Walking onto and deleting a '& Wicker Shield~' at (18,136)
+MESSAGE You have a Wicker Shield [2,+3] (e).
+MESSAGE # Wearing Wicker Shield [2,+3].
+MESSAGE You are wearing a Wicker Shield [2,+3] (m).
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating a monster 'blubbering icky thing' at (22,142), HP: 18, Index: 34
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting blubbering icky thing who has 18 Hit Points (22,142).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE You failed to concentrate hard enough!
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'blubbering icky thing' at (21,142) from (22,142)
+MESSAGE # Performing attack type 38 with value 7.
+MESSAGE # Targeting blubbering icky thing who has 18 Hit Points (21,142).
+MESSAGE # Casting Nether Bolt (0,0).
+MESSAGE Target Selected.
+MESSAGE The blubbering icky thing squelches.
+MESSAGE # PAIN:The blubbering icky thing (+)
+MESSAGE # Tracking a monster 'blubbering icky thing' at (21,141) from (21,142)
+MESSAGE # PAIN:The blubbering icky thing (2)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'blubbering icky thing' at (20,140) from (21,141)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'blubbering icky thing' at (20,141) from (20,140)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'blubbering icky thing' at (19,142) from (20,141)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'blubbering icky thing' at (19,141) from (19,142)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'blubbering icky thing' at (20,141) from (19,141)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'blubbering icky thing' at (19,140) from (20,141)
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'blubbering icky thing' at (18,139) from (19,140)
+MESSAGE # Flowing toward up-stairs at cost 21
+MESSAGE # Looking for stairs. Stair hugging.
+MESSAGE # Tracking a monster 'blubbering icky thing' at (18,138) from (18,139)
+MESSAGE # Tracking a monster 'blubbering icky thing' at (18,137) from (18,138)
+MESSAGE # Loc:20,136 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=14
+MESSAGE # Safe to Phase. scary squares: 0
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE # Danger Level 2.2
+MESSAGE You have no more Scrolls of Phase Door (d).
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Tracking a monster 'blubbering icky thing' at (13,135) from (18,137)
+MESSAGE # Flowing toward up-stairs at cost 13
+MESSAGE # Looking for stairs. Stair hugging.
+MESSAGE # Tracking a monster 'blubbering icky thing' at (13,134) from (13,135)
+MESSAGE # Creating a monster 'large white snake' at (8,131), HP: 11, Index: 24
+MESSAGE # Loc:11,132 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=14
+MESSAGE # Retreating to 10,133 (distance 1) via 10,133 (14 > 0)
+MESSAGE # Tracking a monster 'blubbering icky thing' at (12,133) from (13,134)
+MESSAGE # Loc:10,133 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=14
+MESSAGE # Retreating to 9,133 (distance 1) via 9,133 (14 > 0)
+MESSAGE # Tracking a monster 'blubbering icky thing' at (11,133) from (12,133)
+MESSAGE # Loc:9,133 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=14
+MESSAGE # Fleeing (failed to teleport)
+MESSAGE # Leaving (failed to teleport)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (66) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 11 to 22!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Boosting bravery (2) from 11 to 44!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (3) from 11 to 30000!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE The blubbering icky thing crawls on you.
+MESSAGE # HIT_BY:The blubbering icky thing (+)
+MESSAGE # HIT_BY:The blubbering icky thing (3)
+MESSAGE # Loc:10,132 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=29
+MESSAGE # Performing attack type 1 with value 43.
+MESSAGE # Facing blubbering icky thing at (11,133) who has 12 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the blubbering icky thing.
+MESSAGE # HIT:the blubbering icky thing (+)
+MESSAGE # HIT:the blubbering icky thing (2)
+MESSAGE # Loc:10,132 Dep:1 Lev:1 HP:11/11 SP:0/2 Danger:p=29
+MESSAGE # Performing attack type 1 with value 43.
+MESSAGE # Facing blubbering icky thing at (11,133) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the blubbering icky thing.
+MESSAGE The blubbering icky thing crawls on you.
+MESSAGE You are poisoned!
+MESSAGE The blubbering icky thing crawls on you.
+MESSAGE # HIT:the blubbering icky thing (+)
+MESSAGE # HIT_BY:The blubbering icky thing (+)
+MESSAGE # HIT:the blubbering icky thing (2)
+MESSAGE # HIT_BY:The blubbering icky thing (3)
+MESSAGE # Loc:10,132 Dep:1 Lev:1 HP:8/11 SP:0/2 Danger:p=29
+MESSAGE # Performing attack type 1 with value 43.
+MESSAGE # Facing blubbering icky thing at (11,133) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You miss the blubbering icky thing.
+MESSAGE The blubbering icky thing crawls on you.
+MESSAGE You are more poisoned!
+MESSAGE # MISS:the blubbering icky thing (+)
+MESSAGE # HIT_BY:The blubbering icky thing (+)
+MESSAGE # MISS:the blubbering icky thing (2)
+MESSAGE # HIT_BY:The blubbering icky thing (3)
+MESSAGE # Loc:10,132 Dep:1 Lev:1 HP:4/11 SP:0/2 Danger:p=29
+MESSAGE # Performing attack type 1 with value 43.
+MESSAGE # Facing blubbering icky thing at (11,133) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the blubbering icky thing.
+MESSAGE # HIT:the blubbering icky thing (+)
+MESSAGE # HIT:the blubbering icky thing (2)
+MESSAGE # Loc:10,132 Dep:1 Lev:1 HP:3/11 SP:0/2 Danger:p=29
+MESSAGE # Performing attack type 1 with value 43.
+MESSAGE # Facing blubbering icky thing at (11,133) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the blubbering icky thing.
+MESSAGE The blubbering icky thing flees in terror!
+MESSAGE # HIT:the blubbering icky thing (+)
+MESSAGE # PAIN:The blubbering icky thing (+)
+MESSAGE # Tracking a monster 'blubbering icky thing' at (12,133) from (11,133)
+MESSAGE # HIT:the blubbering icky thing (2)
+MESSAGE # PAIN:The blubbering icky thing (2)
+MESSAGE # Loc:10,132 Dep:1 Lev:1 HP:2/11 SP:0/2 Danger:p=14
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (72) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 2 to 4!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Boosting bravery (2) from 2 to 44!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (3) from 2 to 30000!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward dark-2 at cost 2
+MESSAGE # There was a monster 'blubbering icky thing' at (12,133)
+MESSAGE # Forgetting a monster 'blubbering icky thing' at (12,133)
+MESSAGE # Flowing toward up-stairs at cost 12
+MESSAGE # Looking for stairs. Stair hugging.
+MESSAGE # Creating a monster 'blubbering icky thing' at (12,133), HP: 0, Index: 34
+MESSAGE # Loc:11,132 Dep:1 Lev:1 HP:0/11 SP:0/2 Danger:p=29
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (74) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (2) from 0 to 44!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (3) from 0 to 30000!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE You die.

@@ -1,0 +1,27 @@
+Original recording: frame 85804, engine turn 69970, phase tick; HP 7, SP 3, depth 2
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+                                                                                
+Kobold                                   ######                                 
+Runner                                   #....#                                 
+Ranger                        ########## #.##.#                                 
+LEVEL      4                  #........# #.##.#                                 
+NXT        8                  #.######.# #.##.#                                 
+AU       469                  #.#    #.# #.##.#                                 
+|}= "~ ()]]]                  #.#    #.# #.##.#   ###############               
+STR:      16                  #.#    #.# #.##.#   #.............#               
+INT:       9                  #.#    #.###.##.#   #.............#               
+WIS:      14                  #.#    #.#...##.#   #.......S!....#               
+DEX:   18/20                  #.#    #...####.#####.............#               
+CON:      13                  #.#    #####  #...........w.......#               
+                              #.#           #.#####.f@..........#               
+Cur AC    21                  #.#           ###   #.............#               
+HP    7/  37                  #.#                 #.#############               
+SP    3/   3                  #.#                                               
+                              #.#                                               
+                              #.#                                               
+                              #.#                                               
+                              #.#                                               
+                              #.#                                               
+100' (L2)                     #.#                                               
+             LF:2-1 Light 4  Fed 45 % Open floor                                

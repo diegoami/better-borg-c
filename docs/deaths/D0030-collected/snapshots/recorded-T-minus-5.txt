@@ -1,0 +1,27 @@
+Original recording: frame 3103, engine turn 2621, phase tick; HP 3, SP 2, depth 1
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You hit the wild cat. You miss the wild cat.                                    
+High-Elf                                                                        
+Gallant                                                                         
+Paladin                                                                         
+LEVEL      1                                                                    
+NXT       14                                                                    
+AU         4                                                                    
+| =  ~                                                                          
+STR:   18/10                                                                    
+INT:      10                                                                    
+WIS:      13                                                                    
+DEX:      18                                 ###                                
+CON:      16                        #%%%%###.#<.                                
+                                    #........###                                
+Cur AC    11                        #.....f..#                                  
+HP    3/  16                        #....@...#                                  
+SP    2/   2                        %........*                                  
+                                    %........%                                  
+[***-------]                        %........#                                  
+                                    %%.##%#%.#                                  
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:2-? Light 3  Graze Fed 87 % Open floor                          

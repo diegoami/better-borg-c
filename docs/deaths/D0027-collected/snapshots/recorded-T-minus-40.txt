@@ -1,0 +1,27 @@
+Original recording: frame 810744, engine turn 709950, phase tick; HP 12, SP 14, depth 3
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+                                                                                
+Kobold                                                                          
+Apprentice                                                                      
+Mage                                                                            
+LEVEL      9                                     #################              
+NXT       22                                     #               #              
+AU      2974                                     #               #              
+|}==" (()]]]                                     #               #              
+STR:      13                                     #               #              
+INT:      18                                     #               #              
+WIS:      10                                     ######## ########              
+DEX:      12                                            # #                     
+CON:      16                                            # #                     
+                                                    ##### ##                    
+Cur AC    64                                        #   @  #                    
+HP   12/  57                                        #### ###                    
+SP   14/  14                                           # #                      
+                                                       # #                      
+                                                       # #                      
+                                                       # #                      
+                                                       # #                      
+                                                       # #                      
+150' (L3)                                          ##### #                      
+             LF:2-? Light 0  Study (1) Starving 0 % Unknown grid                

@@ -1,0 +1,27 @@
+Original recording: frame 957585, engine turn 854731, phase tick; HP 64, SP 9, depth 14
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+You burn someone. Someone hits you. You blink and your eyes clear.              
+Kobold                                                                          
+Defender               #                                                        
+Paladin               .#            ##                                          
+LEVEL     16          .              .                                          
+NXT      269                        #.#                                         
+AU      1016                         .                                          
+|}=="~( )]]          #                                                          
+STR:      17         .                                                          
+INT:       8        #.#             #.#                                         
+WIS:      14        #.#             #.#                                         
+DEX:      17     ####.#             #.#                                         
+CON:      17     #>...#             #.#                                         
+                 ####.#             #.#                                         
+Cur AC    46        #.#             #.#                                         
+HP   64/ 148        #.##########    #.#                                         
+SP    9/  18        #..........#   ##.#                                         
+                    ##########.####...#########                                 
+                             #....^.oooo@ph.$.'                                 
+                             ######.###########                                 
+                                                                                
+Slow (-1)                          .                                            
+700' (L14)                         .                                            
+             LF:4-? Light 2  Study (1) Fed 50 % Open floor                      

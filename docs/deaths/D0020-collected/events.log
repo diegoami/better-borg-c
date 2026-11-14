@@ -1,0 +1,2457 @@
+BORG 92296 # Tracking a monster 'white worm mass' at (26,67) from (27,68)
+BORG 92296 # Tracking a monster 'white worm mass' at (27,69) from (26,70)
+BORG 92296 # Tracking a monster 'white worm mass' at (25,73) from (26,73)
+BORG 92296 # Tracking a monster 'white worm mass' at (25,69) from (25,68)
+BORG 92296 # Tracking a monster 'white worm mass' at (26,71) from (25,71)
+BORG 92296 # Tracking a monster 'white worm mass' at (24,74) from (24,73)
+BORG 92296 # Tracking a monster 'white worm mass' at (24,73) from (25,72)
+BORG 92296 # Tracking a monster 'white worm mass' at (26,70) from (26,69)
+BORG 92296 # Creating a monster 'white worm mass' at (23,78), HP: 9, Index: 26
+BORG 92296 # Removing Regional Fear (23,78) because of a LOS white worm mass
+BORG 92296 # Possibility of being surrounded (monsters/safegrids)(7/5)
+BORG 92296 # Scary guy on level.
+BORG 92296 # Loc:24,76 Dep:1 Lev:3 HP:19/37 SP:5/5 Danger:p=26
+BORG 92296 # Fleeing and leaving the level. (scaryguy)
+BORG 92296 # Flowing toward up-stairs at cost 4
+BORG 92296 # Opening a door
+BORG 92296 # Desperate for Stairs (three)
+BORG 92306 # Normal failure.
+BORG 92306 # Tracking a monster 'white worm mass' at (25,75) from (25,74)
+BORG 92306 # Tracking a monster 'white worm mass' at (27,72) from (27,73)
+BORG 92306 # Tracking a monster 'white worm mass' at (24,72) from (24,71)
+BORG 92306 # Tracking a monster 'white worm mass' at (25,77) from (24,78)
+BORG 92306 # Creating a monster 'white worm mass' at (24,77), HP: 7, Index: 26
+BORG 92306 # Removing Regional Fear (24,77) because of a LOS white worm mass
+BORG 92306 # There was a monster 'white worm mass' at (28,75)
+BORG 92306 # Forgetting a monster 'white worm mass' at (28,75)
+BORG 92306 # Possibility of being surrounded (monsters/safegrids)(7/2)
+BORG 92306 # Scary guy on level.
+BORG 92306 # Loc:24,76 Dep:1 Lev:3 HP:19/37 SP:5/5 Danger:p=139
+BORG 92306 # Fleeing and leaving the level. (scaryguy)
+BORG 92306 # Flowing toward up-stairs at cost 4
+BORG 92306 # Performing attack type 1 with value 36.
+BORG 92306 # Facing white worm mass at (24,77) who has 7 Hit Points.
+BORG 92306 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+BORG 92316 # HIT:the white worm mass (+)
+BORG 92316 # Tracking a monster 'white worm mass' at (27,69) from (26,70)
+BORG 92316 # Tracking a monster 'white worm mass' at (25,74) from (24,74)
+BORG 92316 # Tracking a monster 'white worm mass' at (26,74) from (25,73)
+BORG 92316 # Tracking a monster 'white worm mass' at (26,68) from (27,69)
+BORG 92316 # Tracking a monster 'white worm mass' at (26,66) from (26,67)
+BORG 92316 # Tracking a monster 'white worm mass' at (24,69) from (25,69)
+BORG 92316 # Tracking a monster 'white worm mass' at (27,70) from (26,71)
+BORG 92316 # HIT:the white worm mass (2)
+BORG 92316 # Possibility of being surrounded (monsters/safegrids)(7/2)
+BORG 92316 # Scary guy on level.
+BORG 92316 # Loc:24,76 Dep:1 Lev:3 HP:20/37 SP:5/5 Danger:p=134
+BORG 92316 # Fleeing and leaving the level. (scaryguy)
+BORG 92316 # Flowing toward up-stairs at cost 4
+BORG 92316 # Performing attack type 1 with value 36.
+BORG 92316 # Facing white worm mass at (25,77) who has 11 Hit Points.
+BORG 92316 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+BORG 92326 # HIT:the white worm mass (+)
+BORG 92326 # Tracking a monster 'white worm mass' at (25,71) from (24,72)
+BORG 92326 # Tracking a monster 'white worm mass' at (24,79) from (23,78)
+BORG 92326 # Tracking a monster 'white worm mass' at (25,76) from (25,75)
+BORG 92326 # Tracking a monster 'white worm mass' at (26,73) from (27,72)
+BORG 92326 # Creating a monster 'white worm mass' at (28,75), HP: 8, Index: 26
+BORG 92326 # Removing Regional Fear (28,75) because of a LOS white worm mass
+BORG 92326 # HIT:the white worm mass (2)
+BORG 92326 # Possibility of being surrounded (monsters/safegrids)(8/2)
+BORG 92326 # Scary guy on level.
+BORG 92326 # Loc:24,76 Dep:1 Lev:3 HP:20/37 SP:5/5 Danger:p=141
+BORG 92326 # Fleeing and leaving the level. (scaryguy)
+BORG 92326 # Flowing toward up-stairs at cost 4
+BORG 92326 # Performing attack type 1 with value 36.
+BORG 92326 # Facing white worm mass at (25,77) who has 3 Hit Points.
+BORG 92326 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+BORG 92336 # HIT:the white worm mass (+)
+BORG 92336 # KILL:the white worm mass (+)
+BORG 92336 # Forgetting a monster 'white worm mass' at (25,77)
+BORG 92336 # Tracking a monster 'white worm mass' at (26,67) from (26,66)
+BORG 92336 # Tracking a monster 'white worm mass' at (27,70) from (27,69)
+BORG 92336 # Tracking a monster 'white worm mass' at (25,74) from (24,73)
+BORG 92336 # Tracking a monster 'white worm mass' at (27,74) from (26,74)
+BORG 92336 # Tracking a monster 'white worm mass' at (26,70) from (27,70)
+BORG 92336 # Tracking a monster 'white worm mass' at (26,69) from (26,68)
+BORG 92336 # Tracking a monster 'white worm mass' at (24,75) from (25,74)
+BORG 92336 # Tracking a monster 'white worm mass' at (24,70) from (24,69)
+BORG 92336 # HIT:the white worm mass (2)
+BORG 92336 # KILL:the white worm mass (2)
+BORG 92336 # Possibility of being surrounded (monsters/safegrids)(7/2)
+BORG 92336 # Scary guy on level.
+BORG 92336 # Loc:24,76 Dep:1 Lev:3 HP:20/37 SP:5/5 Danger:p=127
+BORG 92336 # Fleeing and leaving the level. (scaryguy)
+BORG 92336 # Flowing toward up-stairs at cost 4
+BORG 92336 # Performing attack type 1 with value 36.
+BORG 92336 # Facing white worm mass at (24,75) who has 12 Hit Points.
+BORG 92336 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+BORG 92346 # MISS:the white worm mass (+)
+BORG 92346 # Tracking a monster 'white worm mass' at (25,77) from (24,77)
+BORG 92346 # Tracking a monster 'white worm mass' at (26,76) from (25,76)
+BORG 92346 # Tracking a monster 'white worm mass' at (24,78) from (24,79)
+BORG 92346 # Tracking a monster 'white worm mass' at (27,72) from (26,73)
+BORG 92346 # Tracking a monster 'white worm mass' at (27,75) from (28,75)
+BORG 92346 # Creating a monster 'white worm mass' at (25,70), HP: 9, Index: 26
+BORG 92346 # Removing Regional Fear (25,70) because of a LOS white worm mass
+BORG 92346 # Creating a monster 'white worm mass' at (28,75), HP: 9, Index: 26
+BORG 92346 # Removing Regional Fear (28,75) because of a LOS white worm mass
+BORG 92346 # MISS:the white worm mass (2)
+BORG 92346 # Possibility of being surrounded (monsters/safegrids)(7/3)
+BORG 92346 # Scary guy on level.
+BORG 92346 # Loc:24,76 Dep:1 Lev:3 HP:20/37 SP:5/5 Danger:p=108
+BORG 92346 # Fleeing and leaving the level. (scaryguy)
+BORG 92346 # Flowing toward up-stairs at cost 4
+BORG 92346 # Performing attack type 1 with value 36.
+BORG 92346 # Facing white worm mass at (24,75) who has 12 Hit Points.
+BORG 92346 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+BORG 92356 # HIT:the white worm mass (+)
+BORG 92356 # Tracking a monster 'white worm mass' at (26,71) from (26,70)
+BORG 92356 # Tracking a monster 'white worm mass' at (26,69) from (27,70)
+BORG 92356 # Tracking a monster 'white worm mass' at (26,68) from (26,67)
+BORG 92356 # Tracking a monster 'white worm mass' at (27,68) from (26,69)
+BORG 92356 # Tracking a monster 'white worm mass' at (25,69) from (24,70)
+BORG 92356 # Tracking a monster 'white worm mass' at (26,73) from (25,74)
+BORG 92356 # Tracking a monster 'white worm mass' at (24,74) from (24,75)
+BORG 92356 # Tracking a monster 'white worm mass' at (24,71) from (25,70)
+BORG 92356 # Creating a monster 'white worm mass' at (26,74), HP: 11, Index: 26
+BORG 92356 # Removing Regional Fear (26,74) because of a LOS white worm mass
+BORG 92356 # HIT:the white worm mass (2)
+BORG 92356 # Possibility of being surrounded (monsters/safegrids)(8/4)
+BORG 92356 # Scary guy on level.
+BORG 92356 # Loc:24,76 Dep:1 Lev:3 HP:20/37 SP:5/5 Danger:p=88
+BORG 92356 # Fleeing and leaving the level. (scaryguy)
+BORG 92356 # Flowing toward up-stairs at cost 4
+BORG 92356 # Fleeing and leaving the level. (Looking for any stair)
+BORG 92356 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 92356 # Boosting bravery (1) from 20 to 40!
+BORG 92356 # Fleeing and leaving the level. Brave Thinking.
+BORG 92356 # Flowing toward up-stairs at cost 4
+BORG 92356 # Flowing toward dark-1 at cost 1
+BORG 92356 # Flowing toward dark-3 at cost 1
+BORG 92356 # Flowing toward dark-4 at cost 1
+BORG 92356 # Flowing toward dark-5 at cost 1
+BORG 92356 # heading down (bored and spastic).
+BORG 92356 # Flowing toward spastic at cost 24
+BORG 92366 # HIT_BY:The white worm mass (+)
+BORG 92366 # HIT_BY:The white worm mass (+)
+BORG 92366 # Tracking a monster 'white worm mass' at (26,72) from (25,71)
+BORG 92366 # Tracking a monster 'white worm mass' at (25,76) from (26,76)
+BORG 92366 # Creating a monster 'white worm mass' at (24,73), HP: 9, Index: 26
+BORG 92366 # Removing Regional Fear (24,73) because of a LOS white worm mass
+BORG 92366 # HIT_BY:The white worm mass (3)
+BORG 92366 # HIT_BY:The white worm mass (3)
+BORG 92366 # There was a monster 'white worm mass' at (27,72)
+BORG 92366 # Forgetting a monster 'white worm mass' at (27,72)
+BORG 92366 # There was a monster 'white worm mass' at (28,75)
+BORG 92366 # Forgetting a monster 'white worm mass' at (28,75)
+BORG 92366 # Possibility of being surrounded (monsters/safegrids)(7/3)
+BORG 92366 # Scary guy on level.
+BORG 92366 # Loc:24,77 Dep:1 Lev:3 HP:16/37 SP:5/5 Danger:p=134
+BORG 92366 # Fleeing and leaving the level. (scaryguy)
+BORG 92366 # Flowing toward up-stairs at cost 5
+BORG 92366 # Desperate for Stairs (three)
+BORG 92376 # Tracking a monster 'white worm mass' at (26,70) from (25,69)
+BORG 92376 # Tracking a monster 'white worm mass' at (27,73) from (27,74)
+BORG 92376 # Tracking a monster 'white worm mass' at (27,72) from (26,73)
+BORG 92376 # Tracking a monster 'white worm mass' at (25,73) from (24,74)
+BORG 92376 # Tracking a monster 'white worm mass' at (25,72) from (26,71)
+BORG 92376 # Tracking a monster 'white worm mass' at (25,70) from (26,69)
+BORG 92376 # Tracking a monster 'white worm mass' at (25,69) from (26,68)
+BORG 92376 # Tracking a monster 'white worm mass' at (27,67) from (27,68)
+BORG 92376 # Tracking a monster 'white worm mass' at (26,75) from (26,74)
+BORG 92376 # Tracking a monster 'white worm mass' at (24,70) from (24,71)
+BORG 92376 # Creating a monster 'white worm mass' at (28,72), HP: 10, Index: 26
+BORG 92376 # Removing Regional Fear (28,72) because of a LOS white worm mass
+BORG 92376 # Possibility of being surrounded (monsters/safegrids)(8/3)
+BORG 92376 # Scary guy on level.
+BORG 92376 # Loc:24,76 Dep:1 Lev:3 HP:15/37 SP:5/5 Danger:p=130
+BORG 92376 # Fleeing and leaving the level. (scaryguy)
+BORG 92376 # Flowing toward up-stairs at cost 4
+BORG 92376 # Performing attack type 1 with value 36.
+BORG 92376 # Facing white worm mass at (25,76) who has 10 Hit Points.
+BORG 92376 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+BORG 92386 # HIT:the white worm mass (+)
+BORG 92386 # HIT_BY:The white worm mass (+)
+BORG 92386 # Tracking a monster 'white worm mass' at (26,76) from (25,77)
+BORG 92386 # Tracking a monster 'white worm mass' at (26,74) from (27,75)
+BORG 92386 # Tracking a monster 'white worm mass' at (25,74) from (24,73)
+BORG 92386 # Tracking a monster 'white worm mass' at (24,79) from (24,78)
+BORG 92386 # Tracking a monster 'white worm mass' at (26,73) from (26,72)
+BORG 92386 # Creating a monster 'white worm mass' at (24,71), HP: 10, Index: 26
+BORG 92386 # Removing Regional Fear (24,71) because of a LOS white worm mass
+BORG 92386 # HIT:the white worm mass (2)
+BORG 92386 # HIT_BY:The white worm mass (3)
+BORG 92386 # Possibility of being surrounded (monsters/safegrids)(9/4)
+BORG 92386 # Scary guy on level.
+BORG 92386 # Loc:24,76 Dep:1 Lev:3 HP:12/37 SP:5/5 Danger:p=137
+BORG 92386 # Fleeing and leaving the level. (scaryguy)
+BORG 92386 # Flowing toward up-stairs at cost 4
+BORG 92386 # Performing attack type 1 with value 36.
+BORG 92386 # Facing white worm mass at (25,76) who has 4 Hit Points.
+BORG 92386 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+BORG 92396 # MISS:the white worm mass (+)
+BORG 92396 # Tracking a monster 'white worm mass' at (27,76) from (26,75)
+BORG 92396 # Tracking a monster 'white worm mass' at (27,73) from (27,72)
+BORG 92396 # Tracking a monster 'white worm mass' at (25,72) from (25,73)
+BORG 92396 # Tracking a monster 'white worm mass' at (25,71) from (25,70)
+BORG 92396 # Tracking a monster 'white worm mass' at (26,72) from (27,73)
+BORG 92396 # Tracking a monster 'white worm mass' at (24,73) from (25,72)
+BORG 92396 # Tracking a monster 'white worm mass' at (26,71) from (26,70)
+BORG 92396 # Tracking a monster 'white worm mass' at (26,68) from (25,69)
+BORG 92396 # Creating a monster 'white worm mass' at (24,69), HP: 10, Index: 26
+BORG 92396 # Removing Regional Fear (24,69) because of a LOS white worm mass
+BORG 92396 # MISS:the white worm mass (2)
+BORG 92396 # Possibility of being surrounded (monsters/safegrids)(9/4)
+BORG 92396 # Scary guy on level.
+BORG 92396 # Loc:24,76 Dep:1 Lev:3 HP:11/37 SP:5/5 Danger:p=90
+BORG 92396 # Fleeing and leaving the level. (scaryguy)
+BORG 92396 # Flowing toward up-stairs at cost 4
+BORG 92396 # Performing attack type 1 with value 36.
+BORG 92396 # Facing white worm mass at (25,76) who has 4 Hit Points.
+BORG 92396 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+BORG 92406 # HIT:the white worm mass (+)
+BORG 92406 # KILL:the white worm mass (+)
+BORG 92406 # Forgetting a monster 'white worm mass' at (25,76)
+BORG 92406 # Tracking a monster 'white worm mass' at (27,75) from (26,74)
+BORG 92406 # Tracking a monster 'white worm mass' at (24,78) from (24,79)
+BORG 92406 # Tracking a monster 'white worm mass' at (25,74) from (26,73)
+BORG 92406 # Tracking a monster 'white worm mass' at (24,72) from (24,71)
+BORG 92406 # Tracking a monster 'white worm mass' at (25,73) from (25,74)
+BORG 92406 # Tracking a monster 'white worm mass' at (26,77) from (26,76)
+BORG 92406 # HIT:the white worm mass (2)
+BORG 92406 # KILL:the white worm mass (2)
+BORG 92406 # There was a monster 'white worm mass' at (28,72)
+BORG 92406 # Forgetting a monster 'white worm mass' at (28,72)
+BORG 92406 # Possibility of being surrounded (monsters/safegrids)(8/5)
+BORG 92406 # Scary guy on level.
+BORG 92406 # Loc:24,76 Dep:1 Lev:3 HP:10/37 SP:5/5 Danger:p=51
+BORG 92406 # Fleeing and leaving the level. (scaryguy)
+BORG 92406 # Flowing toward up-stairs at cost 4
+BORG 92406 # Opening a door
+BORG 92406 # Desperate for Stairs (three)
+BORG 92416 # Normal failure.
+BORG 92416 # Tracking a monster 'white worm mass' at (26,73) from (25,72)
+BORG 92416 # Tracking a monster 'white worm mass' at (27,71) from (26,71)
+BORG 92416 # Tracking a monster 'white worm mass' at (27,66) from (27,67)
+BORG 92416 # Tracking a monster 'white worm mass' at (25,72) from (25,71)
+BORG 92416 # Tracking a monster 'white worm mass' at (25,70) from (24,69)
+BORG 92416 # Tracking a monster 'white worm mass' at (25,68) from (26,68)
+BORG 92416 # Tracking a monster 'white worm mass' at (27,72) from (26,72)
+BORG 92416 # Tracking a monster 'white worm mass' at (26,76) from (27,76)
+BORG 92416 # Tracking a monster 'white worm mass' at (26,74) from (27,73)
+BORG 92416 # Tracking a monster 'white worm mass' at (24,71) from (24,70)
+BORG 92416 # Possibility of being surrounded (monsters/safegrids)(9/5)
+BORG 92416 # Scary guy on level.
+BORG 92416 # Loc:24,76 Dep:1 Lev:3 HP:9/37 SP:5/5 Danger:p=69
+BORG 92416 # Fleeing and leaving the level. (scaryguy)
+BORG 92416 # Flowing toward up-stairs at cost 4
+BORG 92416 # Opening a door
+BORG 92416 # Desperate for Stairs (three)
+BORG 92426 # Normal failure.
+BORG 92426 # Tracking a monster 'white worm mass' at (28,75) from (27,75)
+BORG 92426 # Tracking a monster 'white worm mass' at (25,77) from (26,77)
+BORG 92426 # Tracking a monster 'white worm mass' at (24,77) from (24,78)
+BORG 92426 # Tracking a monster 'white worm mass' at (24,74) from (25,73)
+BORG 92426 # Tracking a monster 'white worm mass' at (25,75) from (25,74)
+BORG 92426 # Tracking a monster 'white worm mass' at (25,73) from (24,72)
+BORG 92426 # Creating a monster 'white worm mass' at (28,72), HP: 11, Index: 26
+BORG 92426 # Removing Regional Fear (28,72) because of a LOS white worm mass
+BORG 92426 # Possibility of being surrounded (monsters/safegrids)(9/2)
+BORG 92426 # Scary guy on level.
+BORG 92426 # Loc:24,76 Dep:1 Lev:3 HP:8/37 SP:5/5 Danger:p=185
+BORG 92426 # Fleeing and leaving the level. (scaryguy)
+BORG 92426 # Flowing toward up-stairs at cost 4
+BORG 92426 # Performing attack type 1 with value 36.
+BORG 92426 # Facing white worm mass at (25,75) who has 10 Hit Points.
+BORG 92426 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+BORG 92436 # HIT:the white worm mass (+)
+BORG 92436 # Tracking a monster 'white worm mass' at (26,73) from (25,72)
+BORG 92436 # Tracking a monster 'white worm mass' at (26,72) from (27,71)
+BORG 92436 # Tracking a monster 'white worm mass' at (26,71) from (27,72)
+BORG 92436 # Tracking a monster 'white worm mass' at (27,72) from (26,73)
+BORG 92436 # Tracking a monster 'white worm mass' at (27,71) from (28,72)
+BORG 92436 # Tracking a monster 'white worm mass' at (25,74) from (24,73)
+BORG 92436 # Tracking a monster 'white worm mass' at (25,71) from (25,70)
+BORG 92436 # Tracking a monster 'white worm mass' at (27,76) from (26,76)
+BORG 92436 # Tracking a monster 'white worm mass' at (26,75) from (26,74)
+BORG 92436 # Tracking a monster 'white worm mass' at (24,72) from (24,71)
+BORG 92436 # Tracking a monster 'white worm mass' at (24,67) from (25,68)
+BORG 92436 # Creating a monster 'white worm mass' at (27,67), HP: 12, Index: 26
+BORG 92436 # Removing Regional Fear (27,67) because of a LOS white worm mass
+BORG 92436 # HIT:the white worm mass (2)
+BORG 92436 # Possibility of being surrounded (monsters/safegrids)(9/2)
+BORG 92436 # Scary guy on level.
+BORG 92436 # Loc:24,76 Dep:1 Lev:3 HP:7/37 SP:5/5 Danger:p=187
+BORG 92436 # Fleeing and leaving the level. (scaryguy)
+BORG 92436 # Flowing toward up-stairs at cost 4
+BORG 92436 # Performing attack type 1 with value 36.
+BORG 92436 # Facing white worm mass at (24,77) who has 9 Hit Points.
+BORG 92436 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+BORG 92446 # HIT:the white worm mass (+)
+BORG 92446 # Tracking a monster 'white worm mass' at (27,68) from (27,67)
+BORG 92446 # Tracking a monster 'white worm mass' at (26,76) from (25,77)
+BORG 92446 # Tracking a monster 'white worm mass' at (24,75) from (24,74)
+BORG 92446 # Tracking a monster 'white worm mass' at (25,77) from (24,77)
+BORG 92446 # Tracking a monster 'white worm mass' at (27,74) from (28,75)
+BORG 92446 # Creating a monster 'white worm mass' at (28,72), HP: 10, Index: 26
+BORG 92446 # Removing Regional Fear (28,72) because of a LOS white worm mass
+BORG 92446 # Creating a monster 'white worm mass' at (24,73), HP: 8, Index: 26
+BORG 92446 # Removing Regional Fear (24,73) because of a LOS white worm mass
+BORG 92446 # HIT:the white worm mass (2)
+BORG 92446 # Possibility of being surrounded (monsters/safegrids)(11/2)
+BORG 92446 # Scary guy on level.
+BORG 92446 # Loc:24,76 Dep:1 Lev:3 HP:6/37 SP:5/5 Danger:p=255
+BORG 92446 # Fleeing and leaving the level. (scaryguy)
+BORG 92446 # Flowing toward up-stairs at cost 4
+BORG 92446 # Performing attack type 1 with value 36.
+BORG 92446 # Facing white worm mass at (24,75) who has 9 Hit Points.
+BORG 92446 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+BORG 92456 # HIT:the white worm mass (+)
+BORG 92456 # Tracking a monster 'white worm mass' at (27,72) from (27,71)
+BORG 92456 # Tracking a monster 'white worm mass' at (26,74) from (25,74)
+BORG 92456 # Tracking a monster 'white worm mass' at (25,74) from (26,75)
+BORG 92456 # Tracking a monster 'white worm mass' at (27,75) from (27,76)
+BORG 92456 # Tracking a monster 'white worm mass' at (25,72) from (26,72)
+BORG 92456 # Tracking a monster 'white worm mass' at (26,72) from (27,72)
+BORG 92456 # Tracking a monster 'white worm mass' at (27,65) from (27,66)
+BORG 92456 # Tracking a monster 'white worm mass' at (26,70) from (25,71)
+BORG 92456 # Tracking a monster 'white worm mass' at (24,66) from (24,67)
+BORG 92456 # HIT:the white worm mass (2)
+BORG 92456 # Possibility of being surrounded (monsters/safegrids)(11/2)
+BORG 92456 # Scary guy on level.
+BORG 92456 # Loc:24,76 Dep:1 Lev:3 HP:6/37 SP:5/5 Danger:p=264
+BORG 92456 # Fleeing and leaving the level. (scaryguy)
+BORG 92456 # Flowing toward up-stairs at cost 4
+BORG 92456 # Fleeing and leaving the level. (Looking for any stair)
+BORG 92456 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 92456 # Boosting bravery (1) from 6 to 12!
+BORG 92456 # Fleeing and leaving the level. Brave Thinking.
+BORG 92456 # heading down (bored and spastic).
+BORG 92456 # Considering Phase (twitchy)
+BORG 92456 # Boosting bravery (2) from 6 to 148!
+BORG 92456 # Fleeing and leaving the level. Brave Thinking.
+BORG 92456 # Flowing toward up-stairs at cost 4
+BORG 92456 # Flowing toward dark-1 at cost 1
+BORG 92456 # Flowing toward dark-3 at cost 1
+BORG 92456 # Flowing toward dark-4 at cost 1
+BORG 92456 # Flowing toward dark-5 at cost 1
+BORG 92456 # heading down (bored and spastic).
+BORG 92456 # Flowing toward spastic at cost 5
+BORG 92466 # HIT_BY:The white worm mass (+)
+BORG 92466 # Tracking a monster 'white worm mass' at (26,69) from (27,68)
+BORG 92466 # Tracking a monster 'white worm mass' at (26,77) from (26,76)
+BORG 92466 # Tracking a monster 'white worm mass' at (24,74) from (24,73)
+BORG 92466 # Tracking a monster 'white worm mass' at (24,73) from (25,73)
+BORG 92466 # Tracking a monster 'white worm mass' at (27,73) from (28,72)
+BORG 92466 # Creating a monster 'white worm mass' at (28,75), HP: 11, Index: 26
+BORG 92466 # Removing Regional Fear (28,75) because of a LOS white worm mass
+BORG 92466 # HIT_BY:The white worm mass (3)
+BORG 92466 # Possibility of being surrounded (monsters/safegrids)(13/4)
+BORG 92466 # Scary guy on level.
+BORG 92466 # Loc:25,76 Dep:1 Lev:3 HP:5/37 SP:5/5 Danger:p=348
+BORG 92466 # Fleeing and leaving the level. (scaryguy)
+BORG 92466 # Flowing toward up-stairs at cost 5
+BORG 92466 # Desperate for Stairs (three)
+BORG 92476 # Tracking a monster 'white worm mass' at (27,66) from (27,65)
+BORG 92476 # Tracking a monster 'white worm mass' at (27,71) from (26,71)
+BORG 92476 # Tracking a monster 'white worm mass' at (26,75) from (27,75)
+BORG 92476 # Tracking a monster 'white worm mass' at (25,74) from (26,73)
+BORG 92476 # Tracking a monster 'white worm mass' at (25,73) from (26,74)
+BORG 92476 # Tracking a monster 'white worm mass' at (25,71) from (26,70)
+BORG 92476 # Tracking a monster 'white worm mass' at (25,65) from (24,66)
+BORG 92476 # Tracking a monster 'white worm mass' at (26,74) from (25,74)
+BORG 92476 # Tracking a monster 'white worm mass' at (26,73) from (27,72)
+BORG 92476 # Tracking a monster 'white worm mass' at (26,71) from (26,72)
+BORG 92476 # Tracking a monster 'white worm mass' at (24,71) from (25,72)
+BORG 92476 # There was a monster 'white worm mass' at (24,72)
+BORG 92476 # Forgetting a monster 'white worm mass' at (24,72)
+BORG 92476 # Possibility of being surrounded (monsters/safegrids)(13/2)
+BORG 92476 # Scary guy on level.
+BORG 92476 # Loc:24,76 Dep:1 Lev:3 HP:4/37 SP:5/5 Danger:p=252
+BORG 92476 # Fleeing and leaving the level. (scaryguy)
+BORG 92476 # Flowing toward up-stairs at cost 4
+BORG 92476 # Fleeing and leaving the level. (Looking for any stair)
+BORG 92476 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 92476 # Boosting bravery (1) from 4 to 8!
+BORG 92476 # Fleeing and leaving the level. Brave Thinking.
+BORG 92476 # heading down (bored and spastic).
+BORG 92476 # Boosting bravery (2) from 4 to 148!
+BORG 92476 # Fleeing and leaving the level. Brave Thinking.
+BORG 92476 # Flowing toward up-stairs at cost 4
+BORG 92476 # Flowing toward dark-1 at cost 1
+BORG 92476 # Flowing toward dark-3 at cost 1
+BORG 92476 # Flowing toward dark-4 at cost 1
+BORG 92476 # Flowing toward dark-5 at cost 1
+BORG 92476 # heading down (bored and spastic).
+BORG 92476 # Flowing toward spastic at cost 6
+BORG 92486 # HIT_BY:The white worm mass (+)
+BORG 92486 # Tracking a monster 'white worm mass' at (27,75) from (27,74)
+BORG 92486 # Tracking a monster 'white worm mass' at (24,76) from (25,77)
+BORG 92486 # Tracking a monster 'white worm mass' at (26,70) from (26,69)
+BORG 92486 # Tracking a monster 'white worm mass' at (25,72) from (24,73)
+BORG 92486 # Tracking a monster 'white worm mass' at (26,72) from (27,73)
+BORG 92486 # HIT_BY:The white worm mass (3)
+BORG 92486 # There was a monster 'white worm mass' at (28,75)
+BORG 92486 # Forgetting a monster 'white worm mass' at (28,75)
+BORG 92486 # Possibility of being surrounded (monsters/safegrids)(11/3)
+BORG 92486 # Scary guy on level.
+BORG 92486 # Loc:25,76 Dep:1 Lev:3 HP:1/37 SP:5/5 Danger:p=391
+BORG 92486 # Fleeing and leaving the level. (scaryguy)
+BORG 92486 # Performing attack type 1 with value 36.
+BORG 92486 # Facing white worm mass at (26,75) who has 11 Hit Points.
+BORG 92486 # Attacking with weapon 'Mace (2d4) (+0,+0)'
+
+[Terminal native state/cause]
+STATE death turn=92490 energy=949050 decisions=2727 depth=1 max_depth=1 level=3 max_level=3 hp=-1 dead=1 winner=0 borg_rng=1788456477 quick=0 quick_rng=1884625799 rng_index=8 rng=b603730b0f3ed2b5cdaa3f94d37df4a59f0f9e55565c3e198f054b156f8802887c3caa8dcac89875222a1d02fed010c9af0e3284050d8214a2119b5c84db6d0583dcb9b0782067004ee95c3ffdd33b81de8390272dfb5225449cd6bbc42f128d3c7b88bc097bfde022d079b94cb55b65e86f32be9c4afc7e52297e1601acc0f8
+CAUSE poison
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Creating a monster 'Farmer Maggot' at (5,30), HP: 350, Index: 4
+MESSAGE # Removing Regional Fear (5,30) because of a LOS Farmer Maggot
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'blubbering icky thing' at (54,67), HP: 18, Index: 34
+MESSAGE # Removing Regional Fear (54,67) because of a LOS blubbering icky thing
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 16
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Bless (0,3).
+MESSAGE # Casting blessing before leaving level.
+MESSAGE You feel righteous!
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-3 at cost 4
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-3 at cost 3
+MESSAGE # Creating a monster 'floating eye' at (11,63), HP: 9, Index: 27
+MESSAGE # Flowing toward spastic at cost 7
+MESSAGE # Standing on up-stairs
+MESSAGE # Spastic Searching at (64,7)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 4
+MESSAGE # Spastic Searching at (68,7)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'singing, happy drunk' at (9,31), HP: 3, Index: 11
+MESSAGE # Removing Regional Fear (9,31) because of a LOS singing, happy drunk
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (8,31) from (9,31)
+MESSAGE # Creating a monster 'squint-eyed rogue' at (9,49), HP: 8, Index: 10
+MESSAGE # Removing Regional Fear (9,49) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'squint-eyed rogue' at (6,22), HP: 8, Index: 10
+MESSAGE # Removing Regional Fear (6,22) because of a LOS squint-eyed rogue
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'mangy-looking leper' at (16,31), HP: 1, Index: 9
+MESSAGE # Removing Regional Fear (16,31) because of a LOS mangy-looking leper
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 16
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Bless (0,3).
+MESSAGE # Casting blessing before leaving level.
+MESSAGE You feel righteous!
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (2,0 to 3,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-5 at cost 14
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object '& Robe~' at (24,55)
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward spastic at cost 15
+MESSAGE # Standing on up-stairs
+MESSAGE # Spastic Searching at (47,59)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Spastic Searching at (47,57)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'singing, happy drunk' at (7,35), HP: 9, Index: 11
+MESSAGE # Removing Regional Fear (7,35) because of a LOS singing, happy drunk
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (8,36) from (7,35)
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Flowing toward down-stairs at cost 0
+MESSAGE # Flowing toward Home at cost 16
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Tracking a monster 'singing, happy drunk' at (8,35) from (8,36)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Bless (0,3).
+MESSAGE # Casting blessing before leaving level.
+MESSAGE You feel righteous!
+MESSAGE # Tracking a monster 'singing, happy drunk' at (8,34) from (8,35)
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,1 to 1,2)
+MESSAGE # Creating a monster 'Sméagol' at (27,115), HP: 400, Index: 53
+MESSAGE # Removing Regional Fear (27,115) because of a LOS Sméagol
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Creating an object 'copper' at (143,19)
+MESSAGE # Flowing toward item at cost 1
+MESSAGE # Walking onto and deleting a 'copper' at (19,143)
+MESSAGE You have found 130 gold pieces worth of copper.
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward dark-4 at cost 13
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-3 at cost 2
+MESSAGE # Flowing toward spastic at cost 15
+MESSAGE # Standing on up-stairs
+MESSAGE # Spastic Searching at (143,25)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 4
+MESSAGE # Spastic Searching at (141,22)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Going to stairs up. I'm bored.
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'singing, happy drunk' at (13,31), HP: 6, Index: 11
+MESSAGE # Removing Regional Fear (13,31) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'singing, happy drunk' at (9,31), HP: 4, Index: 11
+MESSAGE # Removing Regional Fear (9,31) because of a LOS singing, happy drunk
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (12,31) from (13,31)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (10,30) from (9,31)
+MESSAGE # Creating a monster 'mean-looking mercenary' at (13,17), HP: 23, Index: 13
+MESSAGE # Removing Regional Fear (13,17) because of a LOS mean-looking mercenary
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'squint-eyed rogue' at (17,34), HP: 7, Index: 10
+MESSAGE # Removing Regional Fear (17,34) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'mean-looking mercenary' at (16,12), HP: 24, Index: 13
+MESSAGE # Removing Regional Fear (16,12) because of a LOS mean-looking mercenary
+MESSAGE # Creating a monster 'squint-eyed rogue' at (13,60), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (13,60) because of a LOS squint-eyed rogue
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'squint-eyed rogue' at (8,57), HP: 7, Index: 10
+MESSAGE # Removing Regional Fear (8,57) because of a LOS squint-eyed rogue
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'squint-eyed rogue' at (13,17), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (13,17) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'squint-eyed rogue' at (6,48), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (6,48) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'mean-looking mercenary' at (6,43), HP: 23, Index: 13
+MESSAGE # Removing Regional Fear (6,43) because of a LOS mean-looking mercenary
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # Creating a monster 'small kobold' at (29,75), HP: 7, Index: 25
+MESSAGE # Removing Regional Fear (29,75) because of a LOS small kobold
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:30,75 Dep:1 Lev:2 HP:26/26 SP:0/4 Danger:p=16
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'mean-looking mercenary' at (15,58), HP: 23, Index: 13
+MESSAGE # Creating a monster 'mean-looking mercenary' at (11,62), HP: 24, Index: 13
+MESSAGE # Creating a monster 'mean-looking mercenary' at (8,47), HP: 24, Index: 13
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Creating a monster 'singing, happy drunk' at (17,34), HP: 1, Index: 11
+MESSAGE # Removing Regional Fear (17,34) because of a LOS singing, happy drunk
+MESSAGE # Creating a monster 'filthy street urchin' at (10,36), HP: 3, Index: 1
+MESSAGE # Removing Regional Fear (10,36) because of a LOS filthy street urchin
+MESSAGE # Creating a monster 'battle-scarred veteran' at (7,34), HP: 32, Index: 14
+MESSAGE # Removing Regional Fear (7,34) because of a LOS battle-scarred veteran
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'squint-eyed rogue' at (13,23), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (13,23) because of a LOS squint-eyed rogue
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating an object 'Heroism' at (158,36)
+MESSAGE # Creating an object 'copper' at (157,36)
+MESSAGE # Creating a monster 'white jelly' at (36,160), HP: 40, Index: 41
+MESSAGE # Removing Regional Fear (36,160) because of a LOS white jelly
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Flowing toward Scum item at cost 3
+MESSAGE You hear a door burst open!
+MESSAGE # Walking onto and deleting a 'copper' at (36,157)
+MESSAGE You have found 115 gold pieces worth of copper.
+MESSAGE # Flowing toward Scum item at cost 1
+MESSAGE # Walking onto and deleting a 'Heroism' at (36,158)
+MESSAGE You hear a door burst open!
+MESSAGE You have a Magenta Potion (d).
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You hear a door burst open!
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 3
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'squint-eyed rogue' at (17,54), HP: 10, Index: 10
+MESSAGE # Removing Regional Fear (17,54) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'mean-looking mercenary' at (13,17), HP: 20, Index: 13
+MESSAGE # Removing Regional Fear (13,17) because of a LOS mean-looking mercenary
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating a monster 'soldier' at (57,66), HP: 23, Index: 36
+MESSAGE # Removing Regional Fear (57,66) because of a LOS soldier
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'mean-looking mercenary' at (20,39), HP: 25, Index: 13
+MESSAGE # Removing Regional Fear (20,39) because of a LOS mean-looking mercenary
+MESSAGE # Creating a monster 'mean-looking mercenary' at (11,54), HP: 25, Index: 13
+MESSAGE # Removing Regional Fear (11,54) because of a LOS mean-looking mercenary
+MESSAGE # Creating a monster 'squint-eyed rogue' at (7,24), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (7,24) because of a LOS squint-eyed rogue
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 16
+MESSAGE # Creating a monster 'singing, happy drunk' at (9,28), HP: 6, Index: 11
+MESSAGE # Flowing toward Home at cost 13
+MESSAGE # Tracking a monster 'singing, happy drunk' at (9,29) from (9,28)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (10,28) from (9,29)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (10,27) from (10,28)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (9,28) from (10,27)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (9,29) from (9,28)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (9,31) from (9,29)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (9,30) from (9,31)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (9,31) from (9,30)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (8,32) from (9,31)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (7,31) from (8,32)
+MESSAGE # There was a monster 'singing, happy drunk' at (7,31)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (7,31)
+MESSAGE # Creating a monster 'singing, happy drunk' at (6,31), HP: 6, Index: 11
+MESSAGE # Flowing toward Home at cost 1
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Robe [2,+0]' at 'Armoury'
+MESSAGE # Currently in store '8' would prefer '2'.
+MESSAGE # Selling 'Robe [2,+0]' at 'Armoury'
+MESSAGE # Flowing toward Armoury at cost 20
+MESSAGE # Tracking a monster 'singing, happy drunk' at (6,30) from (6,31)
+MESSAGE # There was a monster 'singing, happy drunk' at (6,30)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (6,30)
+MESSAGE # Creating a monster 'singing, happy drunk' at (5,32), HP: 6, Index: 11
+MESSAGE # Selling 'Robe [2,+0]' at 'Armoury'
+MESSAGE # Flowing toward Armoury at cost 16
+MESSAGE # Tracking a monster 'singing, happy drunk' at (6,31) from (5,32)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (7,31) from (6,31)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (7,32) from (7,31)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (8,31) from (7,32)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (7,31) from (8,31)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (6,30) from (7,31)
+MESSAGE # Creating a monster 'scruffy little dog' at (9,49), HP: 2, Index: 3
+MESSAGE # Selling 'Robe [2,+0]' at 'Armoury'
+MESSAGE # Flowing toward Armoury at cost 10
+MESSAGE # Tracking a monster 'scruffy little dog' at (9,48) from (9,49)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (5,31) from (6,30)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (6,32) from (5,31)
+MESSAGE # There was a monster 'scruffy little dog' at (9,48)
+MESSAGE # Forgetting a monster 'scruffy little dog' at (9,48)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (7,32) from (6,32)
+MESSAGE # Creating a monster 'scruffy little dog' at (9,47), HP: 2, Index: 3
+MESSAGE # Selling 'Robe [2,+0]' at 'Armoury'
+MESSAGE # Flowing toward Armoury at cost 7
+MESSAGE # Tracking a monster 'singing, happy drunk' at (8,33) from (7,32)
+MESSAGE # There was a monster 'scruffy little dog' at (9,47)
+MESSAGE # Forgetting a monster 'scruffy little dog' at (9,47)
+MESSAGE # Performing attack type 1 with value 4.
+MESSAGE # Facing singing, happy drunk at (8,33) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the singing, happy drunk.
+MESSAGE You have slain the singing, happy drunk.
+MESSAGE # HIT:the singing, happy drunk (+)
+MESSAGE # KILL:the singing, happy drunk (+)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (8,33)
+MESSAGE # HIT:the singing, happy drunk (2)
+MESSAGE # KILL:the singing, happy drunk (2)
+MESSAGE # Creating a monster 'aimless-looking merchant' at (9,11), HP: 5, Index: 12
+MESSAGE # Creating a monster 'scrawny cat' at (8,11), HP: 2, Index: 2
+MESSAGE # Selling 'Robe [2,+0]' at 'Armoury'
+MESSAGE # Flowing toward Armoury at cost 2
+MESSAGE # Entering a '1' shop
+MESSAGE # Selling 'Robe [2,+0]' at 'Armoury'
+MESSAGE # Currently in preferred store '2'.
+MESSAGE # Selling Robe [2,+0]
+MESSAGE You had a Robe [2,+0] (f).
+MESSAGE # Selling 'Magenta Potion' at 'Alchemy Shop'
+MESSAGE # Flowing toward Alchemy Shop at cost 7
+MESSAGE # Creating a monster 'battle-scarred veteran' at (4,28), HP: 25, Index: 14
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 7
+MESSAGE # Creating a monster 'scruffy little dog' at (9,36), HP: 2, Index: 3
+MESSAGE # There was a monster 'battle-scarred veteran' at (4,28)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:9,35 Dep:0 Lev:2 HP:26/26 SP:3/4 Danger:p=2
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 7.
+MESSAGE # Facing scruffy little dog at (9,36) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the scruffy little dog. It was a good hit!
+MESSAGE You have slain the scruffy little dog.
+MESSAGE # HIT:the scruffy little dog (+)
+MESSAGE # KILL:the scruffy little dog (+)
+MESSAGE # Forgetting a monster 'scruffy little dog' at (9,36)
+MESSAGE # HIT:the scruffy little dog (2)
+MESSAGE # KILL:the scruffy little dog (2)
+MESSAGE # There was a monster 'battle-scarred veteran' at (4,28)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 6
+MESSAGE # There was a monster 'battle-scarred veteran' at (4,28)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # There was a monster 'battle-scarred veteran' at (4,28)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # There was a monster 'battle-scarred veteran' at (4,28)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # There was a monster 'battle-scarred veteran' at (4,28)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE You have found a secret door.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # Creating an object 'Detect Invisible' at (170,13)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Flowing toward Scum item at cost 3
+MESSAGE # Walking onto and deleting a 'Detect Invisible' at (13,170)
+MESSAGE You have a Scroll titled "sopoco lero no" (e).
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,1 to 1,2)
+MESSAGE # Creating a monster 'cutpurse' at (11,161), HP: 14, Index: 37
+MESSAGE # Removing Regional Fear (11,161) because of a LOS cutpurse
+MESSAGE # SELF:evil (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 3
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You hear a door burst open!
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (one)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on up-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'squint-eyed rogue' at (14,45), HP: 8, Index: 10
+MESSAGE # Removing Regional Fear (14,45) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'squint-eyed rogue' at (10,25), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (10,25) because of a LOS squint-eyed rogue
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'mean-looking mercenary' at (20,10), HP: 18, Index: 13
+MESSAGE # Removing Regional Fear (20,10) because of a LOS mean-looking mercenary
+MESSAGE # Creating a monster 'mean-looking mercenary' at (13,10), HP: 12, Index: 13
+MESSAGE # Removing Regional Fear (13,10) because of a LOS mean-looking mercenary
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 16
+MESSAGE # Creating a monster 'singing, happy drunk' at (9,43), HP: 2, Index: 11
+MESSAGE # Flowing toward Home at cost 12
+MESSAGE # Tracking a monster 'singing, happy drunk' at (9,42) from (9,43)
+MESSAGE # Tracking a monster 'singing, happy drunk' at (9,41) from (9,42)
+MESSAGE # There was a monster 'singing, happy drunk' at (9,41)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (9,41)
+MESSAGE # Creating a monster 'battle-scarred veteran' at (7,48), HP: 30, Index: 14
+MESSAGE # Creating a monster 'singing, happy drunk' at (7,41), HP: 2, Index: 11
+MESSAGE # Creating a monster 'aimless-looking merchant' at (5,44), HP: 6, Index: 12
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Adjacent to monster on Scaryguy Level.
+MESSAGE # Performing attack type 1 with value 4.
+MESSAGE # Facing singing, happy drunk at (7,41) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the singing, happy drunk.
+MESSAGE You have slain the singing, happy drunk.
+MESSAGE # HIT:the singing, happy drunk (+)
+MESSAGE # KILL:the singing, happy drunk (+)
+MESSAGE # Forgetting a monster 'singing, happy drunk' at (7,41)
+MESSAGE # Creating an object 'copper' at (41,7)
+MESSAGE # HIT:the singing, happy drunk (2)
+MESSAGE # KILL:the singing, happy drunk (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 8
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 2
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward down-stairs at cost 1
+MESSAGE # Desperate for Stairs (four)
+MESSAGE # Scary guy on level.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a tame, sheltered place.
+MESSAGE # FEELING_DANGER:8 (+)
+MESSAGE # FEELING_DANGER:8 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense the presence of evil creatures!
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # Creating a monster 'squint-eyed rogue' at (10,54), HP: 9, Index: 10
+MESSAGE # Removing Regional Fear (10,54) because of a LOS squint-eyed rogue
+MESSAGE # Creating a monster 'squint-eyed rogue' at (6,35), HP: 6, Index: 10
+MESSAGE # Removing Regional Fear (6,35) because of a LOS squint-eyed rogue
+MESSAGE # SELF:evil (1)
+MESSAGE # Scary guy on level.
+MESSAGE # Leaving (Scary guy on level)
+MESSAGE # Fleeing (Scary guy on level)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Fleeing level. Scumming Mode
+MESSAGE # Leaving (finish shopping)
+MESSAGE # Standing on up-stairs
+MESSAGE # Leaving via up stairs.
+MESSAGE You enter a maze of up staircases.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Creating a monster 'scrawny cat' at (4,31), HP: 1, Index: 2
+MESSAGE # Removing Regional Fear (4,31) because of a LOS scrawny cat
+MESSAGE # Loc:3,32 Dep:0 Lev:2 HP:26/26 SP:3/4 Danger:p=2
+MESSAGE # Standing on dn-stairs
+MESSAGE # Performing defense type 0 with value 1
+MESSAGE # Attempting to cast Bless
+MESSAGE # Casting Bless (0,3).
+MESSAGE You feel righteous!
+MESSAGE The scrawny cat claws you.
+MESSAGE # HIT_BY:The scrawny cat (+)
+MESSAGE # HIT_BY:The scrawny cat (3)
+MESSAGE # Loc:3,32 Dep:0 Lev:2 HP:25/26 SP:1/4 Danger:p=2
+MESSAGE # Standing on dn-stairs
+MESSAGE # Performing attack type 1 with value 5.
+MESSAGE # Facing scrawny cat at (4,31) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the scrawny cat.
+MESSAGE You have slain the scrawny cat.
+MESSAGE # HIT:the scrawny cat (+)
+MESSAGE # KILL:the scrawny cat (+)
+MESSAGE # Forgetting a monster 'scrawny cat' at (4,31)
+MESSAGE # HIT:the scrawny cat (2)
+MESSAGE # KILL:the scrawny cat (2)
+MESSAGE # Standing on dn-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Standing on dn-stairs
+MESSAGE # Flowing toward Home at cost 16
+MESSAGE # Resting to gain Mana. (danger 0)...
+MESSAGE # Entering a '7' shop
+MESSAGE # Selling 'Magenta Potion' at 'Alchemy Shop'
+MESSAGE # Currently in store '8' would prefer '5'.
+MESSAGE # Selling 'Magenta Potion' at 'Alchemy Shop'
+MESSAGE # Flowing toward Alchemy Shop at cost 13
+MESSAGE # Entering a '4' shop
+MESSAGE "Confused monsters cannot cast spells reliably and may misstep."
+MESSAGE # Selling 'Magenta Potion' at 'Alchemy Shop'
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Selling Magenta Potion
+MESSAGE You had a Potion of Heroism (d).
+MESSAGE # Selling 'Scroll titled "sopoco lero no"' at 'Alchemy Shop'
+MESSAGE # Re-entering a shop
+MESSAGE # Selling 'Scroll titled "sopoco lero no"' at 'Alchemy Shop'
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Selling Scroll titled "sopoco lero no"
+MESSAGE You had a Scroll of Detect Invisible (d).
+MESSAGE # Buying 'Rations of Food'(f) at 'General Store' (for player 'b')
+MESSAGE # Flowing toward General Store at cost 6
+MESSAGE # Entering a '0' shop
+MESSAGE "Inspect your racial and class abilities with the S command."
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 7 Rations of Food (b).
+MESSAGE # Buying 'Scrolls of Phase Door'(m) at 'Alchemy Shop' (for player 'b')
+MESSAGE # Flowing toward Alchemy Shop at cost 6
+MESSAGE # Entering a '4' shop
+MESSAGE # Currently in preferred store '5'.
+MESSAGE # Buying Scrolls of Phase Door.
+MESSAGE You bought a Scroll of Phase Door for 15 gold.
+MESSAGE You have a Scroll of Phase Door (d).
+MESSAGE # Buying 'Ring of Searching {unseen}'(f) at 'Magic Shop' (for player 'b')
+MESSAGE # Flowing toward Magic Shop at cost 13
+MESSAGE # Entering a '5' shop
+MESSAGE # Currently in preferred store '6'.
+MESSAGE # Buying Ring of Searching {unseen}.
+MESSAGE Taken!
+MESSAGE You bought a Silver Ring {??} for 204 gold.
+MESSAGE You have learned the rune of searching skill.
+MESSAGE You have a Ring of Searching <+4> (e).
+MESSAGE # Putting on best tight ring.
+MESSAGE # Wearing Ring of Searching <+4>.
+MESSAGE You are wearing a Ring of Searching <+4> (c).
+MESSAGE # Buying 'Wooden Torches (5000 turns)'(j) at 'General Store' (for player 'b')
+MESSAGE # Flowing toward General Store at cost 13
+MESSAGE # Entering a '0' shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Wooden Torches (5000 turns).
+MESSAGE You bought a Wooden Torch (5000 turns) for 6 gold.
+MESSAGE You have 10 Wooden Torches (5000 turns) (e).
+MESSAGE # Buying 'Cloaks [1,+0]'(m) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Cloaks [1,+0].
+MESSAGE Taken!
+MESSAGE You bought a Cloak [1,+0] for 6 gold.
+MESSAGE You have a Cloak [1,+0] (f).
+MESSAGE # Wearing Cloak [1,+0].
+MESSAGE You are wearing a Cloak [1,+0] (i).
+MESSAGE # Buying 'Rations of Food'(f) at 'General Store' (for player 'b')
+MESSAGE # Re-entering a shop
+MESSAGE "Held monsters will take no action until it wears off or they take damage."
+MESSAGE # Currently in preferred store '1'.
+MESSAGE # Buying Rations of Food.
+MESSAGE Done!
+MESSAGE You bought a Ration of Food for 3 gold.
+MESSAGE You have 8 Rations of Food (b).
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Flowing toward down-stairs at cost 12
+MESSAGE # Nothing to sell in town (leaving).
+MESSAGE # Standing on dn-stairs
+MESSAGE # Casting Bless (0,3).
+MESSAGE # Casting blessing before leaving level.
+MESSAGE You feel righteous!
+MESSAGE # Standing on dn-stairs
+MESSAGE You enter a maze of down staircases.
+MESSAGE This seems a quiet, peaceful place.
+MESSAGE # FEELING_DANGER:9 (+)
+MESSAGE # FEELING_DANGER:9 (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Casting Detect Evil (0,1).
+MESSAGE # Checking for monsters.
+MESSAGE You sense no evil creatures.
+MESSAGE # SELF:evil (+)
+MESSAGE # Detected evil (0,0 to 1,1)
+MESSAGE # SELF:evil (1)
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE The prayer has expired.
+MESSAGE # Standing on up-stairs
+MESSAGE # Resting to recover HP/SP...
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward dark-2 at cost 3
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Opening a door
+MESSAGE You failed to pick the lock.
+MESSAGE # Normal failure.
+MESSAGE # Creating a monster 'white worm mass' at (22,74), HP: 12, Index: 26
+MESSAGE # Loc:22,75 Dep:1 Lev:2 HP:26/26 SP:4/4 Danger:p=32
+MESSAGE # Flowing toward up-stairs at cost 2
+MESSAGE # Desperate for Stairs (two)
+MESSAGE # Loc:21,75 Dep:1 Lev:2 HP:26/26 SP:4/4 Danger:p=32
+MESSAGE # Flowing toward up-stairs at cost 1
+MESSAGE # Desperate for Stairs (two)
+MESSAGE # Standing on up-stairs
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (75,20)...value:0
+MESSAGE # Boosting bravery (1) from 26 to 52!
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Flowing toward up-stairs at cost 0
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Reading Scroll of Phase Door.
+MESSAGE You have no more Scrolls of Phase Door (d).
+MESSAGE # Creating a monster 'white worm mass' at (27,72), HP: 9, Index: 26
+MESSAGE # Creating a monster 'white worm mass' at (26,72), HP: 10, Index: 26
+MESSAGE # Creating a monster 'white worm mass' at (25,72), HP: 10, Index: 26
+MESSAGE # Creating a monster 'white worm mass' at (24,71), HP: 9, Index: 26
+MESSAGE # Leaving (no recall)
+MESSAGE # Fleeing (no recall)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:30,72 Dep:1 Lev:2 HP:26/26 SP:4/4 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE # Tracking a monster 'white worm mass' at (27,72) from (26,72)
+MESSAGE # There was a monster 'white worm mass' at (27,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (27,72)
+MESSAGE # There was a monster 'white worm mass' at (25,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (25,72)
+MESSAGE # There was a monster 'white worm mass' at (24,71)
+MESSAGE # Forgetting a monster 'white worm mass' at (24,71)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 11
+MESSAGE # Creating a monster 'white worm mass' at (25,71), HP: 9, Index: 26
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'white worm mass' at (28,72) from (27,72)
+MESSAGE # Creating a monster 'white worm mass' at (27,73), HP: 9, Index: 26
+MESSAGE # Creating a monster 'white worm mass' at (27,71), HP: 10, Index: 26
+MESSAGE # Creating a monster 'white worm mass' at (26,73), HP: 10, Index: 26
+MESSAGE # Creating a monster 'white worm mass' at (25,73), HP: 12, Index: 26
+MESSAGE # There was a monster 'white worm mass' at (25,71)
+MESSAGE # Forgetting a monster 'white worm mass' at (25,71)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:29,72 Dep:1 Lev:2 HP:26/26 SP:4/4 Danger:p=44
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (28,72) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:29,72 Dep:1 Lev:2 HP:26/26 SP:4/4 Danger:p=44
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 30,72 (distance 1) via 30,72 (44 > 6)
+MESSAGE # Tracking a monster 'white worm mass' at (29,72) from (28,72)
+MESSAGE # Tracking a monster 'white worm mass' at (27,72) from (27,71)
+MESSAGE # Tracking a monster 'white worm mass' at (26,72) from (27,73)
+MESSAGE # Tracking a monster 'white worm mass' at (25,72) from (26,73)
+MESSAGE # Tracking a monster 'white worm mass' at (24,73) from (25,73)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:30,72 Dep:1 Lev:2 HP:26/26 SP:4/4 Danger:p=36
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 31,72 (distance 1) via 31,72 (36 > 4)
+MESSAGE # There was a monster 'white worm mass' at (29,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (29,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,72 Dep:1 Lev:2 HP:26/26 SP:4/4 Danger:p=3
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 15
+MESSAGE # Tracking a monster 'white worm mass' at (24,72) from (25,72)
+MESSAGE # There was a monster 'white worm mass' at (26,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (26,72)
+MESSAGE # There was a monster 'white worm mass' at (27,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (27,72)
+MESSAGE # There was a monster 'white worm mass' at (24,73)
+MESSAGE # Forgetting a monster 'white worm mass' at (24,73)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 12
+MESSAGE # Creating a monster 'white worm mass' at (24,73), HP: 12, Index: 26
+MESSAGE # Creating a monster 'white worm mass' at (30,72), HP: 3, Index: 26
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,72 Dep:1 Lev:2 HP:26/26 SP:4/4 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (30,72) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE You have destroyed the white worm mass.
+MESSAGE Welcome to level 3.
+MESSAGE You can learn 1 more prayer.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # KILL:the white worm mass (+)
+MESSAGE # Forgetting a monster 'white worm mass' at (30,72)
+MESSAGE # Tracking a monster 'white worm mass' at (25,72) from (24,72)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # KILL:the white worm mass (2)
+MESSAGE # There was a monster 'white worm mass' at (24,73)
+MESSAGE # Forgetting a monster 'white worm mass' at (24,73)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Studying spell/prayer Sense Invisible.
+MESSAGE You have learned the prayer of Call Light.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Wearing Wooden Torches (5000 turns).
+MESSAGE Your light source is a Wooden Torch (5000 turns) (f).
+MESSAGE You were holding a Wooden Torch (2230 turns) (e).
+MESSAGE # Creating a monster 'white worm mass' at (28,72), HP: 9, Index: 26
+MESSAGE # Creating a monster 'white worm mass' at (27,72), HP: 10, Index: 26
+MESSAGE # Creating a monster 'white worm mass' at (26,72), HP: 12, Index: 26
+MESSAGE # There was a monster 'white worm mass' at (25,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (25,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,72 Dep:1 Lev:3 HP:26/37 SP:4/5 Danger:p=3
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 17
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,72 Dep:1 Lev:3 HP:26/37 SP:4/5 Danger:p=2
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # There was a monster 'white worm mass' at (28,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (28,72)
+MESSAGE # There was a monster 'white worm mass' at (27,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (27,72)
+MESSAGE # There was a monster 'white worm mass' at (26,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (26,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 13
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Creating a monster 'white worm mass' at (30,72), HP: 9, Index: 26
+MESSAGE # Creating a monster 'white worm mass' at (27,72), HP: 10, Index: 26
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,72 Dep:1 Lev:3 HP:26/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 32,72 (distance 1) via 32,72 (32 > 1)
+MESSAGE # There was a monster 'white worm mass' at (30,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (30,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 12
+MESSAGE # Tracking a monster 'white worm mass' at (28,72) from (27,72)
+MESSAGE # Creating a monster 'white worm mass' at (30,72), HP: 9, Index: 26
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,72 Dep:1 Lev:3 HP:27/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (30,72) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,72 Dep:1 Lev:3 HP:27/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 32,72 (distance 1) via 32,72 (32 > 1)
+MESSAGE # Tracking a monster 'white worm mass' at (31,72) from (30,72)
+MESSAGE # There was a monster 'white worm mass' at (28,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (28,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,72 Dep:1 Lev:3 HP:27/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 33,72 (distance 1) via 33,72 (32 > 1)
+MESSAGE # There was a monster 'white worm mass' at (31,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (31,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 13
+MESSAGE # Creating a monster 'white worm mass' at (31,72), HP: 4, Index: 26
+MESSAGE # Creating a monster 'white worm mass' at (28,72), HP: 10, Index: 26
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,72 Dep:1 Lev:3 HP:27/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (31,72) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE You have destroyed the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # KILL:the white worm mass (+)
+MESSAGE # Forgetting a monster 'white worm mass' at (31,72)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # KILL:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 18
+MESSAGE # There was a monster 'white worm mass' at (28,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (28,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE # Creating a monster 'white worm mass' at (27,72), HP: 10, Index: 26
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 13
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Creating a monster 'white worm mass' at (26,72), HP: 12, Index: 26
+MESSAGE # There was a monster 'white worm mass' at (27,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (27,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 11
+MESSAGE # Creating a monster 'white worm mass' at (29,72), HP: 12, Index: 26
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:30,72 Dep:1 Lev:3 HP:28/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 31,72 (distance 1) via 31,72 (32 > 1)
+MESSAGE # Creating a monster 'white worm mass' at (30,72), HP: 10, Index: 26
+MESSAGE # There was a monster 'white worm mass' at (29,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (29,72)
+MESSAGE # There was a monster 'white worm mass' at (26,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (26,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,72 Dep:1 Lev:3 HP:28/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 32,72 (distance 1) via 32,72 (32 > 1)
+MESSAGE # Tracking a monster 'white worm mass' at (31,72) from (30,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,72 Dep:1 Lev:3 HP:29/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 33,72 (distance 1) via 33,72 (32 > 1)
+MESSAGE # There was a monster 'white worm mass' at (31,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (31,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 13
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are poisoned!
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # Creating a monster 'white worm mass' at (31,72), HP: 10, Index: 26
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,72 Dep:1 Lev:3 HP:27/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (31,72) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,72 Dep:1 Lev:3 HP:26/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 33,72 (distance 1) via 33,72 (32 > 1)
+MESSAGE # Tracking a monster 'white worm mass' at (32,72) from (31,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,72 Dep:1 Lev:3 HP:25/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 34,72 (distance 1) via 34,72 (32 > 1)
+MESSAGE You are no longer poisoned.
+MESSAGE # There was a monster 'white worm mass' at (32,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE # Creating a monster 'white worm mass' at (32,72), HP: 0, Index: 26
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,72 Dep:1 Lev:3 HP:24/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 34,72 (distance 1) via 34,72 (32 > 1)
+MESSAGE # There was a monster 'white worm mass' at (32,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE # Creating a monster 'white worm mass' at (32,72), HP: 1, Index: 26
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,72 Dep:1 Lev:3 HP:24/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 34,72 (distance 1) via 34,72 (32 > 1)
+MESSAGE # There was a monster 'white worm mass' at (32,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE # Creating a monster 'white worm mass' at (32,72), HP: 1, Index: 26
+MESSAGE # Removing Regional Fear (32,72) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,72 Dep:1 Lev:3 HP:25/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 33.
+MESSAGE # Facing white worm mass at (32,72) who has 1 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE You have destroyed the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # KILL:the white worm mass (+)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,72)
+MESSAGE # Creating a monster 'white worm mass' at (32,72), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (32,72) because of a LOS white worm mass
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # KILL:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,72 Dep:1 Lev:3 HP:25/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 34,72 (distance 1) via 34,72 (32 > 1)
+MESSAGE # There was a monster 'white worm mass' at (32,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are poisoned!
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # Creating a monster 'white worm mass' at (32,72), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (32,72) because of a LOS white worm mass
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,72 Dep:1 Lev:3 HP:22/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 34,72 (distance 1) via 34,72 (32 > 1)
+MESSAGE # There was a monster 'white worm mass' at (32,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE You are no longer poisoned.
+MESSAGE # Creating a monster 'white worm mass' at (32,72), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (32,72) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,72 Dep:1 Lev:3 HP:20/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 34,72 (distance 1) via 34,72 (32 > 1)
+MESSAGE # There was a monster 'white worm mass' at (32,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are poisoned!
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # Creating a monster 'white worm mass' at (32,72), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (32,72) because of a LOS white worm mass
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,72 Dep:1 Lev:3 HP:17/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 34,72 (distance 1) via 34,72 (32 > 1)
+MESSAGE # There was a monster 'white worm mass' at (32,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE You are no longer poisoned.
+MESSAGE # Creating a monster 'white worm mass' at (32,72), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (32,72) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,72 Dep:1 Lev:3 HP:15/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 34,72 (distance 1) via 34,72 (32 > 1)
+MESSAGE # There was a monster 'white worm mass' at (32,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE # Creating a monster 'white worm mass' at (32,72), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (32,72) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,72 Dep:1 Lev:3 HP:16/37 SP:4/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 34,72 (distance 1) via 34,72 (32 > 1)
+MESSAGE # There was a monster 'white worm mass' at (32,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 14
+MESSAGE # Creating a monster 'white worm mass' at (32,72), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (32,72) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (28,72), HP: 9, Index: 26
+MESSAGE # Removing Regional Fear (28,72) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,72 Dep:1 Lev:3 HP:16/37 SP:5/5 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 34,72 (distance 1) via 34,72 (32 > 1)
+MESSAGE # Creating a monster 'white worm mass' at (27,72), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (27,72) because of a LOS white worm mass
+MESSAGE # There was a monster 'white worm mass' at (32,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,72)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 18
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Flowing toward stairs at cost 17
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Creating a monster 'white worm mass' at (24,74), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (24,74) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Tracking a monster 'white worm mass' at (25,75) from (24,74)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 10
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'white worm mass' at (27,74) from (28,72)
+MESSAGE # Creating a monster 'white worm mass' at (26,74), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (26,74) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:29,75 Dep:1 Lev:3 HP:17/37 SP:5/5 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 9
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'white worm mass' at (26,74) from (25,75)
+MESSAGE # Tracking a monster 'white worm mass' at (25,74) from (26,74)
+MESSAGE # Creating a monster 'white worm mass' at (25,77), HP: 11, Index: 26
+MESSAGE # Removing Regional Fear (25,77) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (26,73), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (26,73) because of a LOS white worm mass
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(5/3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:28,75 Dep:1 Lev:3 HP:18/37 SP:5/5 Danger:p=51
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 8
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'white worm mass' at (26,77) from (25,77)
+MESSAGE # Tracking a monster 'white worm mass' at (27,73) from (26,73)
+MESSAGE # Tracking a monster 'white worm mass' at (26,72) from (27,72)
+MESSAGE # Creating a monster 'white worm mass' at (27,70), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (27,70) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (25,69), HP: 9, Index: 26
+MESSAGE # Removing Regional Fear (25,69) because of a LOS white worm mass
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(6/5)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:27,75 Dep:1 Lev:3 HP:18/37 SP:5/5 Danger:p=81
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 7
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'white worm mass' at (25,74) from (26,74)
+MESSAGE # Tracking a monster 'white worm mass' at (27,69) from (27,70)
+MESSAGE # Tracking a monster 'white worm mass' at (24,73) from (25,74)
+MESSAGE # Creating a monster 'white worm mass' at (25,70), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (25,70) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:26,75 Dep:1 Lev:3 HP:18/37 SP:5/5 Danger:p=77
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 6
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'white worm mass' at (27,71) from (26,72)
+MESSAGE # Tracking a monster 'white worm mass' at (27,75) from (27,74)
+MESSAGE # Tracking a monster 'white worm mass' at (26,78) from (26,77)
+MESSAGE # Tracking a monster 'white worm mass' at (26,73) from (27,73)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:25,75 Dep:1 Lev:3 HP:18/37 SP:5/5 Danger:p=37
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'white worm mass' at (24,72) from (24,73)
+MESSAGE # Tracking a monster 'white worm mass' at (24,71) from (25,70)
+MESSAGE # Creating a monster 'white worm mass' at (28,72), HP: 11, Index: 26
+MESSAGE # Removing Regional Fear (28,72) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (26,70), HP: 11, Index: 26
+MESSAGE # Removing Regional Fear (26,70) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (24,68), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (24,68) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,75 Dep:1 Lev:3 HP:18/37 SP:5/5 Danger:p=40
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Opening a door
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You failed to pick the lock.
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'white worm mass' at (26,74) from (26,73)
+MESSAGE # Tracking a monster 'white worm mass' at (27,72) from (27,71)
+MESSAGE # Tracking a monster 'white worm mass' at (25,77) from (26,78)
+MESSAGE # Creating a monster 'white worm mass' at (27,76), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (27,76) because of a LOS white worm mass
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(7/5)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,75 Dep:1 Lev:3 HP:18/37 SP:5/5 Danger:p=46
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Opening a door
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You failed to pick the lock.
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'white worm mass' at (27,70) from (27,69)
+MESSAGE # Tracking a monster 'white worm mass' at (27,71) from (28,72)
+MESSAGE # Tracking a monster 'white worm mass' at (25,73) from (25,74)
+MESSAGE # Tracking a monster 'white worm mass' at (25,71) from (26,70)
+MESSAGE # Tracking a monster 'white worm mass' at (25,68) from (25,69)
+MESSAGE # Tracking a monster 'white worm mass' at (24,73) from (24,72)
+MESSAGE # Tracking a monster 'white worm mass' at (24,69) from (24,68)
+MESSAGE # Creating a monster 'white worm mass' at (28,72), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (28,72) because of a LOS white worm mass
+MESSAGE # There was a monster 'white worm mass' at (24,71)
+MESSAGE # Forgetting a monster 'white worm mass' at (24,71)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(7/5)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,75 Dep:1 Lev:3 HP:18/37 SP:5/5 Danger:p=28
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Opening a door
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You failed to pick the lock.
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'white worm mass' at (27,74) from (26,74)
+MESSAGE # Tracking a monster 'white worm mass' at (26,76) from (27,76)
+MESSAGE # Tracking a monster 'white worm mass' at (24,77) from (25,77)
+MESSAGE # Tracking a monster 'white worm mass' at (26,73) from (27,72)
+MESSAGE # Tracking a monster 'white worm mass' at (28,75) from (27,75)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(6/5)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,75 Dep:1 Lev:3 HP:19/37 SP:5/5 Danger:p=26
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Opening a door
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You failed to pick the lock.
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'white worm mass' at (26,72) from (25,73)
+MESSAGE # Tracking a monster 'white worm mass' at (26,70) from (27,71)
+MESSAGE # Tracking a monster 'white worm mass' at (26,68) from (25,68)
+MESSAGE # Tracking a monster 'white worm mass' at (25,72) from (25,71)
+MESSAGE # Tracking a monster 'white worm mass' at (27,71) from (28,72)
+MESSAGE # Tracking a monster 'white worm mass' at (27,69) from (27,70)
+MESSAGE # Creating a monster 'white worm mass' at (25,69), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (25,69) because of a LOS white worm mass
+MESSAGE # There was a monster 'white worm mass' at (24,73)
+MESSAGE # Forgetting a monster 'white worm mass' at (24,73)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(6/5)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,75 Dep:1 Lev:3 HP:19/37 SP:5/5 Danger:p=29
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Opening a door
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You failed to pick the lock.
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'white worm mass' at (25,73) from (26,73)
+MESSAGE # Tracking a monster 'white worm mass' at (26,74) from (27,74)
+MESSAGE # Tracking a monster 'white worm mass' at (25,70) from (25,69)
+MESSAGE # Tracking a monster 'white worm mass' at (27,75) from (28,75)
+MESSAGE # Tracking a monster 'white worm mass' at (25,75) from (26,76)
+MESSAGE # Creating a monster 'white worm mass' at (24,78), HP: 9, Index: 26
+MESSAGE # Removing Regional Fear (24,78) because of a LOS white worm mass
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(8/4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,75 Dep:1 Lev:3 HP:19/37 SP:5/5 Danger:p=72
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (25,75) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass. It was a good hit!
+MESSAGE You have destroyed the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # KILL:the white worm mass (+)
+MESSAGE # Forgetting a monster 'white worm mass' at (25,75)
+MESSAGE # Tracking a monster 'white worm mass' at (27,68) from (26,68)
+MESSAGE # Tracking a monster 'white worm mass' at (25,72) from (26,72)
+MESSAGE # Tracking a monster 'white worm mass' at (25,71) from (26,70)
+MESSAGE # Tracking a monster 'white worm mass' at (26,73) from (25,72)
+MESSAGE # Tracking a monster 'white worm mass' at (25,68) from (24,69)
+MESSAGE # Tracking a monster 'white worm mass' at (26,70) from (27,71)
+MESSAGE # Tracking a monster 'white worm mass' at (26,69) from (27,69)
+MESSAGE # Creating a monster 'white worm mass' at (24,73), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (24,73) because of a LOS white worm mass
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # KILL:the white worm mass (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(8/5)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,75 Dep:1 Lev:3 HP:19/37 SP:5/5 Danger:p=46
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Opening a door
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You failed to pick the lock.
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'white worm mass' at (27,73) from (26,74)
+MESSAGE # Tracking a monster 'white worm mass' at (25,74) from (25,73)
+MESSAGE # Tracking a monster 'white worm mass' at (24,78) from (24,77)
+MESSAGE # Tracking a monster 'white worm mass' at (28,75) from (27,75)
+MESSAGE # Tracking a monster 'white worm mass' at (24,71) from (25,70)
+MESSAGE # There was a monster 'white worm mass' at (24,78)
+MESSAGE # Forgetting a monster 'white worm mass' at (24,78)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(6/4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,75 Dep:1 Lev:3 HP:19/37 SP:5/5 Danger:p=64
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Backing up to 76,24 (64 > 16)
+MESSAGE # Tracking a monster 'white worm mass' at (26,67) from (27,68)
+MESSAGE # Tracking a monster 'white worm mass' at (27,69) from (26,70)
+MESSAGE # Tracking a monster 'white worm mass' at (25,73) from (26,73)
+MESSAGE # Tracking a monster 'white worm mass' at (25,69) from (25,68)
+MESSAGE # Tracking a monster 'white worm mass' at (26,71) from (25,71)
+MESSAGE # Tracking a monster 'white worm mass' at (24,74) from (24,73)
+MESSAGE # Tracking a monster 'white worm mass' at (24,73) from (25,72)
+MESSAGE # Tracking a monster 'white worm mass' at (26,70) from (26,69)
+MESSAGE # Creating a monster 'white worm mass' at (23,78), HP: 9, Index: 26
+MESSAGE # Removing Regional Fear (23,78) because of a LOS white worm mass
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(7/5)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:19/37 SP:5/5 Danger:p=26
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Opening a door
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You failed to pick the lock.
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'white worm mass' at (25,75) from (25,74)
+MESSAGE # Tracking a monster 'white worm mass' at (27,72) from (27,73)
+MESSAGE # Tracking a monster 'white worm mass' at (24,72) from (24,71)
+MESSAGE # Tracking a monster 'white worm mass' at (25,77) from (24,78)
+MESSAGE # Creating a monster 'white worm mass' at (24,77), HP: 7, Index: 26
+MESSAGE # Removing Regional Fear (24,77) because of a LOS white worm mass
+MESSAGE # There was a monster 'white worm mass' at (28,75)
+MESSAGE # Forgetting a monster 'white worm mass' at (28,75)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(7/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:19/37 SP:5/5 Danger:p=139
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (24,77) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (27,69) from (26,70)
+MESSAGE # Tracking a monster 'white worm mass' at (25,74) from (24,74)
+MESSAGE # Tracking a monster 'white worm mass' at (26,74) from (25,73)
+MESSAGE # Tracking a monster 'white worm mass' at (26,68) from (27,69)
+MESSAGE # Tracking a monster 'white worm mass' at (26,66) from (26,67)
+MESSAGE # Tracking a monster 'white worm mass' at (24,69) from (25,69)
+MESSAGE # Tracking a monster 'white worm mass' at (27,70) from (26,71)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(7/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:20/37 SP:5/5 Danger:p=134
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (25,77) who has 11 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (25,71) from (24,72)
+MESSAGE # Tracking a monster 'white worm mass' at (24,79) from (23,78)
+MESSAGE # Tracking a monster 'white worm mass' at (25,76) from (25,75)
+MESSAGE # Tracking a monster 'white worm mass' at (26,73) from (27,72)
+MESSAGE # Creating a monster 'white worm mass' at (28,75), HP: 8, Index: 26
+MESSAGE # Removing Regional Fear (28,75) because of a LOS white worm mass
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(8/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:20/37 SP:5/5 Danger:p=141
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (25,77) who has 3 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE You have destroyed the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # KILL:the white worm mass (+)
+MESSAGE # Forgetting a monster 'white worm mass' at (25,77)
+MESSAGE # Tracking a monster 'white worm mass' at (26,67) from (26,66)
+MESSAGE # Tracking a monster 'white worm mass' at (27,70) from (27,69)
+MESSAGE # Tracking a monster 'white worm mass' at (25,74) from (24,73)
+MESSAGE # Tracking a monster 'white worm mass' at (27,74) from (26,74)
+MESSAGE # Tracking a monster 'white worm mass' at (26,70) from (27,70)
+MESSAGE # Tracking a monster 'white worm mass' at (26,69) from (26,68)
+MESSAGE # Tracking a monster 'white worm mass' at (24,75) from (25,74)
+MESSAGE # Tracking a monster 'white worm mass' at (24,70) from (24,69)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # KILL:the white worm mass (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(7/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:20/37 SP:5/5 Danger:p=127
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (24,75) who has 12 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You miss the white worm mass.
+MESSAGE # MISS:the white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (25,77) from (24,77)
+MESSAGE # Tracking a monster 'white worm mass' at (26,76) from (25,76)
+MESSAGE # Tracking a monster 'white worm mass' at (24,78) from (24,79)
+MESSAGE # Tracking a monster 'white worm mass' at (27,72) from (26,73)
+MESSAGE # Tracking a monster 'white worm mass' at (27,75) from (28,75)
+MESSAGE # Creating a monster 'white worm mass' at (25,70), HP: 9, Index: 26
+MESSAGE # Removing Regional Fear (25,70) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (28,75), HP: 9, Index: 26
+MESSAGE # Removing Regional Fear (28,75) because of a LOS white worm mass
+MESSAGE # MISS:the white worm mass (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(7/3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:20/37 SP:5/5 Danger:p=108
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (24,75) who has 12 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (26,71) from (26,70)
+MESSAGE # Tracking a monster 'white worm mass' at (26,69) from (27,70)
+MESSAGE # Tracking a monster 'white worm mass' at (26,68) from (26,67)
+MESSAGE # Tracking a monster 'white worm mass' at (27,68) from (26,69)
+MESSAGE # Tracking a monster 'white worm mass' at (25,69) from (24,70)
+MESSAGE # Tracking a monster 'white worm mass' at (26,73) from (25,74)
+MESSAGE # Tracking a monster 'white worm mass' at (24,74) from (24,75)
+MESSAGE # Tracking a monster 'white worm mass' at (24,71) from (25,70)
+MESSAGE # Creating a monster 'white worm mass' at (26,74), HP: 11, Index: 26
+MESSAGE # Removing Regional Fear (26,74) because of a LOS white worm mass
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(8/4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:20/37 SP:5/5 Danger:p=88
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Boosting bravery (1) from 20 to 40!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Flowing toward dark-3 at cost 1
+MESSAGE # Flowing toward dark-4 at cost 1
+MESSAGE # Flowing toward dark-5 at cost 1
+MESSAGE # heading down (bored and spastic).
+MESSAGE # Flowing toward spastic at cost 24
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are poisoned!
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are more poisoned!
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (26,72) from (25,71)
+MESSAGE # Tracking a monster 'white worm mass' at (25,76) from (26,76)
+MESSAGE # Creating a monster 'white worm mass' at (24,73), HP: 9, Index: 26
+MESSAGE # Removing Regional Fear (24,73) because of a LOS white worm mass
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # There was a monster 'white worm mass' at (27,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (27,72)
+MESSAGE # There was a monster 'white worm mass' at (28,75)
+MESSAGE # Forgetting a monster 'white worm mass' at (28,75)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(7/3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,77 Dep:1 Lev:3 HP:16/37 SP:5/5 Danger:p=134
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'white worm mass' at (26,70) from (25,69)
+MESSAGE # Tracking a monster 'white worm mass' at (27,73) from (27,74)
+MESSAGE # Tracking a monster 'white worm mass' at (27,72) from (26,73)
+MESSAGE # Tracking a monster 'white worm mass' at (25,73) from (24,74)
+MESSAGE # Tracking a monster 'white worm mass' at (25,72) from (26,71)
+MESSAGE # Tracking a monster 'white worm mass' at (25,70) from (26,69)
+MESSAGE # Tracking a monster 'white worm mass' at (25,69) from (26,68)
+MESSAGE # Tracking a monster 'white worm mass' at (27,67) from (27,68)
+MESSAGE # Tracking a monster 'white worm mass' at (26,75) from (26,74)
+MESSAGE # Tracking a monster 'white worm mass' at (24,70) from (24,71)
+MESSAGE # Creating a monster 'white worm mass' at (28,72), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (28,72) because of a LOS white worm mass
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(8/3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:15/37 SP:5/5 Danger:p=130
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (25,76) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are more poisoned!
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (26,76) from (25,77)
+MESSAGE # Tracking a monster 'white worm mass' at (26,74) from (27,75)
+MESSAGE # Tracking a monster 'white worm mass' at (25,74) from (24,73)
+MESSAGE # Tracking a monster 'white worm mass' at (24,79) from (24,78)
+MESSAGE # Tracking a monster 'white worm mass' at (26,73) from (26,72)
+MESSAGE # Creating a monster 'white worm mass' at (24,71), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (24,71) because of a LOS white worm mass
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(9/4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:12/37 SP:5/5 Danger:p=137
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (25,76) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You miss the white worm mass.
+MESSAGE # MISS:the white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (27,76) from (26,75)
+MESSAGE # Tracking a monster 'white worm mass' at (27,73) from (27,72)
+MESSAGE # Tracking a monster 'white worm mass' at (25,72) from (25,73)
+MESSAGE # Tracking a monster 'white worm mass' at (25,71) from (25,70)
+MESSAGE # Tracking a monster 'white worm mass' at (26,72) from (27,73)
+MESSAGE # Tracking a monster 'white worm mass' at (24,73) from (25,72)
+MESSAGE # Tracking a monster 'white worm mass' at (26,71) from (26,70)
+MESSAGE # Tracking a monster 'white worm mass' at (26,68) from (25,69)
+MESSAGE # Creating a monster 'white worm mass' at (24,69), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (24,69) because of a LOS white worm mass
+MESSAGE # MISS:the white worm mass (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(9/4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:11/37 SP:5/5 Danger:p=90
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (25,76) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE You have destroyed the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # KILL:the white worm mass (+)
+MESSAGE # Forgetting a monster 'white worm mass' at (25,76)
+MESSAGE # Tracking a monster 'white worm mass' at (27,75) from (26,74)
+MESSAGE # Tracking a monster 'white worm mass' at (24,78) from (24,79)
+MESSAGE # Tracking a monster 'white worm mass' at (25,74) from (26,73)
+MESSAGE # Tracking a monster 'white worm mass' at (24,72) from (24,71)
+MESSAGE # Tracking a monster 'white worm mass' at (25,73) from (25,74)
+MESSAGE # Tracking a monster 'white worm mass' at (26,77) from (26,76)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # KILL:the white worm mass (2)
+MESSAGE # There was a monster 'white worm mass' at (28,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (28,72)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(8/5)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:10/37 SP:5/5 Danger:p=51
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Opening a door
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You failed to pick the lock.
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'white worm mass' at (26,73) from (25,72)
+MESSAGE # Tracking a monster 'white worm mass' at (27,71) from (26,71)
+MESSAGE # Tracking a monster 'white worm mass' at (27,66) from (27,67)
+MESSAGE # Tracking a monster 'white worm mass' at (25,72) from (25,71)
+MESSAGE # Tracking a monster 'white worm mass' at (25,70) from (24,69)
+MESSAGE # Tracking a monster 'white worm mass' at (25,68) from (26,68)
+MESSAGE # Tracking a monster 'white worm mass' at (27,72) from (26,72)
+MESSAGE # Tracking a monster 'white worm mass' at (26,76) from (27,76)
+MESSAGE # Tracking a monster 'white worm mass' at (26,74) from (27,73)
+MESSAGE # Tracking a monster 'white worm mass' at (24,71) from (24,70)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(9/5)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:9/37 SP:5/5 Danger:p=69
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Opening a door
+MESSAGE # Desperate for Stairs (three)
+MESSAGE You failed to pick the lock.
+MESSAGE # Normal failure.
+MESSAGE # Tracking a monster 'white worm mass' at (28,75) from (27,75)
+MESSAGE # Tracking a monster 'white worm mass' at (25,77) from (26,77)
+MESSAGE # Tracking a monster 'white worm mass' at (24,77) from (24,78)
+MESSAGE # Tracking a monster 'white worm mass' at (24,74) from (25,73)
+MESSAGE # Tracking a monster 'white worm mass' at (25,75) from (25,74)
+MESSAGE # Tracking a monster 'white worm mass' at (25,73) from (24,72)
+MESSAGE # Creating a monster 'white worm mass' at (28,72), HP: 11, Index: 26
+MESSAGE # Removing Regional Fear (28,72) because of a LOS white worm mass
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(9/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:8/37 SP:5/5 Danger:p=185
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (25,75) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (26,73) from (25,72)
+MESSAGE # Tracking a monster 'white worm mass' at (26,72) from (27,71)
+MESSAGE # Tracking a monster 'white worm mass' at (26,71) from (27,72)
+MESSAGE # Tracking a monster 'white worm mass' at (27,72) from (26,73)
+MESSAGE # Tracking a monster 'white worm mass' at (27,71) from (28,72)
+MESSAGE # Tracking a monster 'white worm mass' at (25,74) from (24,73)
+MESSAGE # Tracking a monster 'white worm mass' at (25,71) from (25,70)
+MESSAGE # Tracking a monster 'white worm mass' at (27,76) from (26,76)
+MESSAGE # Tracking a monster 'white worm mass' at (26,75) from (26,74)
+MESSAGE # Tracking a monster 'white worm mass' at (24,72) from (24,71)
+MESSAGE # Tracking a monster 'white worm mass' at (24,67) from (25,68)
+MESSAGE # Creating a monster 'white worm mass' at (27,67), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (27,67) because of a LOS white worm mass
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(9/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:7/37 SP:5/5 Danger:p=187
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (24,77) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE You are no longer poisoned.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (27,68) from (27,67)
+MESSAGE # Tracking a monster 'white worm mass' at (26,76) from (25,77)
+MESSAGE # Tracking a monster 'white worm mass' at (24,75) from (24,74)
+MESSAGE # Tracking a monster 'white worm mass' at (25,77) from (24,77)
+MESSAGE # Tracking a monster 'white worm mass' at (27,74) from (28,75)
+MESSAGE # Creating a monster 'white worm mass' at (28,72), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (28,72) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (24,73), HP: 8, Index: 26
+MESSAGE # Removing Regional Fear (24,73) because of a LOS white worm mass
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(11/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:6/37 SP:5/5 Danger:p=255
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (24,75) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (27,72) from (27,71)
+MESSAGE # Tracking a monster 'white worm mass' at (26,74) from (25,74)
+MESSAGE # Tracking a monster 'white worm mass' at (25,74) from (26,75)
+MESSAGE # Tracking a monster 'white worm mass' at (27,75) from (27,76)
+MESSAGE # Tracking a monster 'white worm mass' at (25,72) from (26,72)
+MESSAGE # Tracking a monster 'white worm mass' at (26,72) from (27,72)
+MESSAGE # Tracking a monster 'white worm mass' at (27,65) from (27,66)
+MESSAGE # Tracking a monster 'white worm mass' at (26,70) from (25,71)
+MESSAGE # Tracking a monster 'white worm mass' at (24,66) from (24,67)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(11/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:6/37 SP:5/5 Danger:p=264
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Boosting bravery (1) from 6 to 12!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading down (bored and spastic).
+MESSAGE # Considering Phase (twitchy)
+MESSAGE # Boosting bravery (2) from 6 to 148!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Flowing toward dark-3 at cost 1
+MESSAGE # Flowing toward dark-4 at cost 1
+MESSAGE # Flowing toward dark-5 at cost 1
+MESSAGE # heading down (bored and spastic).
+MESSAGE # Flowing toward spastic at cost 5
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are poisoned!
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (26,69) from (27,68)
+MESSAGE # Tracking a monster 'white worm mass' at (26,77) from (26,76)
+MESSAGE # Tracking a monster 'white worm mass' at (24,74) from (24,73)
+MESSAGE # Tracking a monster 'white worm mass' at (24,73) from (25,73)
+MESSAGE # Tracking a monster 'white worm mass' at (27,73) from (28,72)
+MESSAGE # Creating a monster 'white worm mass' at (28,75), HP: 11, Index: 26
+MESSAGE # Removing Regional Fear (28,75) because of a LOS white worm mass
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(13/4)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:25,76 Dep:1 Lev:3 HP:5/37 SP:5/5 Danger:p=348
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 5
+MESSAGE # Desperate for Stairs (three)
+MESSAGE # Tracking a monster 'white worm mass' at (27,66) from (27,65)
+MESSAGE # Tracking a monster 'white worm mass' at (27,71) from (26,71)
+MESSAGE # Tracking a monster 'white worm mass' at (26,75) from (27,75)
+MESSAGE # Tracking a monster 'white worm mass' at (25,74) from (26,73)
+MESSAGE # Tracking a monster 'white worm mass' at (25,73) from (26,74)
+MESSAGE # Tracking a monster 'white worm mass' at (25,71) from (26,70)
+MESSAGE # Tracking a monster 'white worm mass' at (25,65) from (24,66)
+MESSAGE # Tracking a monster 'white worm mass' at (26,74) from (25,74)
+MESSAGE # Tracking a monster 'white worm mass' at (26,73) from (27,72)
+MESSAGE # Tracking a monster 'white worm mass' at (26,71) from (26,72)
+MESSAGE # Tracking a monster 'white worm mass' at (24,71) from (25,72)
+MESSAGE # There was a monster 'white worm mass' at (24,72)
+MESSAGE # Forgetting a monster 'white worm mass' at (24,72)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(13/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:24,76 Dep:1 Lev:3 HP:4/37 SP:5/5 Danger:p=252
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Boosting bravery (1) from 4 to 8!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading down (bored and spastic).
+MESSAGE # Boosting bravery (2) from 4 to 148!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # Flowing toward up-stairs at cost 4
+MESSAGE # Flowing toward dark-1 at cost 1
+MESSAGE # Flowing toward dark-3 at cost 1
+MESSAGE # Flowing toward dark-4 at cost 1
+MESSAGE # Flowing toward dark-5 at cost 1
+MESSAGE # heading down (bored and spastic).
+MESSAGE # Flowing toward spastic at cost 6
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are more poisoned!
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (27,75) from (27,74)
+MESSAGE # Tracking a monster 'white worm mass' at (24,76) from (25,77)
+MESSAGE # Tracking a monster 'white worm mass' at (26,70) from (26,69)
+MESSAGE # Tracking a monster 'white worm mass' at (25,72) from (24,73)
+MESSAGE # Tracking a monster 'white worm mass' at (26,72) from (27,73)
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # There was a monster 'white worm mass' at (28,75)
+MESSAGE # Forgetting a monster 'white worm mass' at (28,75)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(11/3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:25,76 Dep:1 Lev:3 HP:1/37 SP:5/5 Danger:p=391
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (26,75) who has 11 Hit Points.
+MESSAGE # Attacking with weapon 'Mace (2d4) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are more poisoned!
+MESSAGE You die.

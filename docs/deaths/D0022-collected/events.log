@@ -1,0 +1,2267 @@
+BORG 6027 # Scary guy on level.
+BORG 6027 # Fleeing and leaving the level. (scaryguy)
+BORG 6037 # Scary guy on level.
+BORG 6037 # Fleeing and leaving the level. (scaryguy)
+BORG 6047 # Scary guy on level.
+BORG 6047 # Fleeing and leaving the level. (scaryguy)
+BORG 6057 # Scary guy on level.
+BORG 6057 # Fleeing and leaving the level. (scaryguy)
+BORG 6067 # Scary guy on level.
+BORG 6067 # Fleeing and leaving the level. (scaryguy)
+BORG 6077 # Scary guy on level.
+BORG 6077 # Fleeing and leaving the level. (scaryguy)
+BORG 6087 # Scary guy on level.
+BORG 6087 # Fleeing and leaving the level. (scaryguy)
+BORG 6097 # Scary guy on level.
+BORG 6097 # Fleeing and leaving the level. (scaryguy)
+BORG 6107 # Scary guy on level.
+BORG 6107 # Fleeing and leaving the level. (scaryguy)
+BORG 6117 # Tracking a monster 'white worm mass' at (31,124) from (31,123)
+BORG 6117 # There was a monster 'white worm mass' at (31,121)
+BORG 6117 # Forgetting a monster 'white worm mass' at (31,121)
+BORG 6117 # Scary guy on level.
+BORG 6117 # Loc:31,125 Dep:1 Lev:2 HP:12/19 SP:0/0 Danger:p=32
+BORG 6117 # Fleeing and leaving the level. (scaryguy)
+BORG 6117 # Retreating to 31,126 (distance 1) via 31,126 (32 > 1)
+BORG 6127 # Creating a monster 'white worm mass' at (31,122), HP: 10, Index: 26
+BORG 6127 # Removing Regional Fear (31,122) because of a LOS white worm mass
+BORG 6127 # Scary guy on level.
+BORG 6127 # Loc:31,126 Dep:1 Lev:2 HP:12/19 SP:0/0 Danger:p=1
+BORG 6127 # Fleeing and leaving the level. (scaryguy)
+BORG 6127 # Fleeing and leaving the level. (Looking for any stair)
+BORG 6127 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 6127 # Spent too long (510) on level, leaving.
+BORG 6127 # heading up (bored and unable to dive: 30 hp)
+BORG 6127 # Looking for up stairs.  Going up.
+BORG 6127 # Bored but unable to flow to up stairs.
+BORG 6127 # Boosting bravery (1) from 12 to 24!
+BORG 6127 # Flowing toward up-stairs at cost 73
+BORG 6127 # Looking for stairs. Goal_less, brave.
+BORG 6137 # HIT_BY:The white worm mass (+)
+BORG 6137 # HIT_BY:The white worm mass (3)
+BORG 6137 # Scary guy on level.
+BORG 6137 # Loc:31,125 Dep:1 Lev:2 HP:10/19 SP:0/0 Danger:p=32
+BORG 6137 # Fleeing and leaving the level. (scaryguy)
+BORG 6137 # Performing attack type 1 with value 36.
+BORG 6137 # Facing white worm mass at (31,124) who has 8 Hit Points.
+BORG 6137 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 6143 # HIT:the white worm mass (+)
+BORG 6143 # Tracking a monster 'white worm mass' at (31,121) from (31,122)
+BORG 6143 # HIT:the white worm mass (2)
+BORG 6143 # Scary guy on level.
+BORG 6143 # Loc:31,125 Dep:1 Lev:2 HP:9/19 SP:0/0 Danger:p=33
+BORG 6143 # Fleeing and leaving the level. (scaryguy)
+BORG 6143 # Performing attack type 1 with value 36.
+BORG 6143 # Facing white worm mass at (31,124) who has 4 Hit Points.
+BORG 6143 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 6149 # HIT:the white worm mass (+)
+BORG 6149 # KILL:the white worm mass (+)
+BORG 6149 # Forgetting a monster 'white worm mass' at (31,124)
+BORG 6149 # Creating a monster 'white worm mass' at (31,122), HP: 9, Index: 26
+BORG 6149 # Removing Regional Fear (31,122) because of a LOS white worm mass
+BORG 6149 # HIT:the white worm mass (2)
+BORG 6149 # KILL:the white worm mass (2)
+BORG 6149 # Scary guy on level.
+BORG 6149 # Loc:31,125 Dep:1 Lev:2 HP:9/19 SP:0/0 Danger:p=3
+BORG 6149 # Fleeing and leaving the level. (scaryguy)
+BORG 6149 # Fleeing and leaving the level. (Looking for any stair)
+BORG 6149 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 6149 # Spent too long (513) on level, leaving.
+BORG 6149 # heading up (bored and unable to dive: 30 hp)
+BORG 6149 # Looking for up stairs.  Going up.
+BORG 6149 # Bored but unable to flow to up stairs.
+BORG 6149 # Boosting bravery (1) from 9 to 18!
+BORG 6149 # Fleeing and leaving the level. Brave Thinking.
+BORG 6149 # heading up (bored and unable to dive: 30 hp)
+BORG 6149 # Looking for up stairs.  Going up.
+BORG 6149 # Bored but unable to flow to up stairs.
+BORG 6149 # Flowing toward spastic at cost 0
+BORG 6149 # Boosting bravery (2) from 9 to 76!
+BORG 6149 # Flowing toward up-stairs at cost 72
+BORG 6149 # Looking for stairs. Goal_less, brave.
+BORG 6159 # Scary guy on level.
+BORG 6159 # Loc:31,124 Dep:1 Lev:2 HP:8/19 SP:0/0 Danger:p=6
+BORG 6159 # Fleeing and leaving the level. (scaryguy)
+BORG 6159 # Fleeing and leaving the level. (Looking for any stair)
+BORG 6159 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 6159 # Spent too long (514) on level, leaving.
+BORG 6159 # heading up (bored and unable to dive: 30 hp)
+BORG 6159 # Looking for up stairs.  Going up.
+BORG 6159 # Bored but unable to flow to up stairs.
+BORG 6159 # Boosting bravery (1) from 8 to 16!
+BORG 6159 # Fleeing and leaving the level. Brave Thinking.
+BORG 6159 # heading up (bored and unable to dive: 30 hp)
+BORG 6159 # Looking for up stairs.  Going up.
+BORG 6159 # Bored but unable to flow to up stairs.
+BORG 6159 # Flowing toward spastic at cost 1
+BORG 6169 # Tracking a monster 'white worm mass' at (31,123) from (31,122)
+BORG 6169 # There was a monster 'white worm mass' at (31,121)
+BORG 6169 # Forgetting a monster 'white worm mass' at (31,121)
+BORG 6169 # Scary guy on level.
+BORG 6169 # Loc:31,125 Dep:1 Lev:2 HP:7/19 SP:0/0 Danger:p=1
+BORG 6169 # Fleeing and leaving the level. (scaryguy)
+BORG 6169 # Fleeing and leaving the level. (Looking for any stair)
+BORG 6169 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 6169 # Spent too long (515) on level, leaving.
+BORG 6169 # Looking for up stairs.  Going up.
+BORG 6169 # Bored but unable to flow to up stairs.
+BORG 6169 # Spastic Searching at (125,31)...value:0
+BORG 6169 # heading up (bored and unable to dive: 30 hp)
+BORG 6169 # Looking for up stairs.  Going up.
+BORG 6169 # Bored but unable to flow to up stairs.
+BORG 6169 # Boosting bravery (1) from 7 to 14!
+BORG 6169 # Flowing toward up-stairs at cost 75
+BORG 6169 # Looking for stairs. Goal_less, brave.
+BORG 6179 # There was a monster 'white worm mass' at (31,120)
+BORG 6179 # Forgetting a monster 'white worm mass' at (31,120)
+BORG 6179 # Scary guy on level.
+BORG 6179 # Loc:31,124 Dep:1 Lev:2 HP:6/19 SP:0/0 Danger:p=32
+BORG 6179 # Fleeing and leaving the level. (scaryguy)
+BORG 6179 # Performing attack type 1 with value 36.
+BORG 6179 # Facing white worm mass at (31,123) who has 9 Hit Points.
+BORG 6179 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 6185 # HIT:the white worm mass (+)
+BORG 6185 # Creating a monster 'white worm mass' at (31,120), HP: 5, Index: 26
+BORG 6185 # Removing Regional Fear (31,120) because of a LOS white worm mass
+BORG 6185 # Creating a monster 'white worm mass' at (31,121), HP: 10, Index: 26
+BORG 6185 # Removing Regional Fear (31,121) because of a LOS white worm mass
+BORG 6185 # HIT:the white worm mass (2)
+BORG 6185 # Scary guy on level.
+BORG 6185 # Loc:31,124 Dep:1 Lev:2 HP:5/19 SP:0/0 Danger:p=34
+BORG 6185 # Fleeing and leaving the level. (scaryguy)
+BORG 6185 # Performing attack type 1 with value 36.
+BORG 6185 # Facing white worm mass at (31,123) who has 5 Hit Points.
+BORG 6185 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 6191 # HIT:the white worm mass (+)
+BORG 6191 # HIT_BY:The white worm mass (+)
+BORG 6191 # HIT:the white worm mass (2)
+BORG 6191 # HIT_BY:The white worm mass (3)
+BORG 6191 # Scary guy on level.
+BORG 6191 # Loc:31,124 Dep:1 Lev:2 HP:2/19 SP:0/0 Danger:p=34
+BORG 6191 # Fleeing and leaving the level. (scaryguy)
+BORG 6191 # Fleeing and leaving the level. (Looking for any stair)
+BORG 6191 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 6191 # Spent too long (518) on level, leaving.
+BORG 6191 # Looking for up stairs.  Going up.
+BORG 6191 # Bored but unable to flow to up stairs.
+BORG 6191 # heading up (bored and unable to dive: 30 hp)
+BORG 6191 # Looking for up stairs.  Going up.
+BORG 6191 # Bored but unable to flow to up stairs.
+BORG 6191 # Boosting bravery (1) from 2 to 4!
+BORG 6191 # Fleeing and leaving the level. Brave Thinking.
+BORG 6191 # heading up (bored and unable to dive: 30 hp)
+BORG 6191 # Looking for up stairs.  Going up.
+BORG 6191 # Bored but unable to flow to up stairs.
+BORG 6191 # Boosting bravery (2) from 2 to 76!
+BORG 6191 # Flowing toward up-stairs at cost 71
+BORG 6191 # Walking into a 'white worm mass' at (31,123)
+BORG 6191 # Looking for stairs. Goal_less, brave.
+BORG 6197 # HIT:the white worm mass (+)
+BORG 6197 # KILL:the white worm mass (+)
+BORG 6197 # Forgetting a monster 'white worm mass' at (31,123)
+BORG 6197 # HIT:the white worm mass (2)
+BORG 6197 # KILL:the white worm mass (2)
+BORG 6197 # Scary guy on level.
+BORG 6197 # Loc:31,124 Dep:1 Lev:2 HP:2/19 SP:0/0 Danger:p=2
+BORG 6197 # Fleeing and leaving the level. (scaryguy)
+BORG 6197 # Fleeing and leaving the level. (Looking for any stair)
+BORG 6197 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 6197 # Spent too long (519) on level, leaving.
+BORG 6197 # heading up (bored and unable to dive: 30 hp)
+BORG 6197 # Looking for up stairs.  Going up.
+BORG 6197 # Bored but unable to flow to up stairs.
+BORG 6197 # Boosting bravery (1) from 2 to 4!
+BORG 6197 # Fleeing and leaving the level. Brave Thinking.
+BORG 6197 # heading up (bored and unable to dive: 30 hp)
+BORG 6197 # Looking for up stairs.  Going up.
+BORG 6197 # Bored but unable to flow to up stairs.
+BORG 6197 # Boosting bravery (2) from 2 to 76!
+BORG 6197 # Flowing toward up-stairs at cost 71
+BORG 6197 # Looking for stairs. Goal_less, brave.
+BORG 6207 # Tracking a monster 'white worm mass' at (30,121) from (31,120)
+BORG 6207 # Tracking a monster 'white worm mass' at (31,122) from (31,121)
+BORG 6207 # Scary guy on level.
+BORG 6207 # Loc:31,123 Dep:1 Lev:2 HP:1/19 SP:0/0 Danger:p=36
+BORG 6207 # Fleeing and leaving the level. (scaryguy)
+BORG 6207 # Performing attack type 1 with value 36.
+BORG 6207 # Facing white worm mass at (31,122) who has 10 Hit Points.
+BORG 6207 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 6213 # HIT:the white worm mass (+)
+BORG 6213 # Creating a monster 'white worm mass' at (31,119), HP: 9, Index: 26
+BORG 6213 # Removing Regional Fear (31,119) because of a LOS white worm mass
+BORG 6213 # HIT:the white worm mass (2)
+BORG 6213 # Scary guy on level.
+BORG 6213 # Loc:31,123 Dep:1 Lev:2 HP:0/19 SP:0/0 Danger:p=36
+BORG 6213 # Fleeing and leaving the level. (scaryguy)
+BORG 6213 # Performing attack type 1 with value 36.
+BORG 6213 # Facing white worm mass at (31,122) who has 7 Hit Points.
+BORG 6213 # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+BORG 6219 # HIT:the white worm mass (+)
+BORG 6219 # HIT:the white worm mass (2)
+BORG 6219 # Scary guy on level.
+BORG 6219 # Loc:31,123 Dep:1 Lev:2 HP:0/19 SP:0/0 Danger:p=36
+BORG 6219 # Fleeing and leaving the level. (scaryguy)
+BORG 6219 # Fleeing and leaving the level. (Looking for any stair)
+BORG 6219 # Fleeing and leaving the level (Looking for Up Stair).
+BORG 6219 # Spent too long (522) on level, leaving.
+BORG 6219 # heading up (bored and unable to dive: 30 hp)
+BORG 6219 # Looking for up stairs.  Going up.
+BORG 6219 # Bored but unable to flow to up stairs.
+BORG 6219 # Boosting bravery (2) from 0 to 76!
+BORG 6219 # Flowing toward up-stairs at cost 70
+BORG 6219 # Walking into a 'white worm mass' at (31,122)
+BORG 6219 # Looking for stairs. Goal_less, brave.
+
+[Terminal native state/cause]
+STATE death turn=6220 energy=62540 decisions=662 depth=1 max_depth=1 level=2 max_level=2 hp=-1 dead=1 winner=0 borg_rng=382086117 quick=0 quick_rng=1843508019 rng_index=24 rng=6c73e95f0fb8fa207a070c7429ccc08e795d81a992abc85101515938e9d52a5bba8ee1ef893e6aa0f986b5b56379a44f540873c78250c1dcf5254e987c25d1e95a07b6f0137e52fbfb9feae3ac991567f39c7af9f27b41f13ed6a8ee934dc97b9d9d7e58b86a4a308ffed155d72c073229ce022569797822e42187ce768f28fb
+CAUSE poison
+
+[Recent native message buffer; no independent timestamps]
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (101) on level, leaving.
+MESSAGE # Spastic Searching at (141,45)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 15
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Walking onto and deleting a '& Arrow~' at (45,127)
+MESSAGE You have 15 Arrows (1d4) (+0,+0) (0).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (116) on level, leaving.
+MESSAGE # Spastic Searching at (126,46)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (118) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (124,46)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (120) on level, leaving.
+MESSAGE # Spastic Searching at (122,46)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 5
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Walking onto and deleting a '& Arrow~' at (43,124)
+MESSAGE You have 16 Arrows (1d4) (+0,+0) (0).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (125) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (126,41)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (127) on level, leaving.
+MESSAGE # Spastic Searching at (124,41)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (129) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (122,41)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (131) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (120,41)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (133) on level, leaving.
+MESSAGE # Spastic Searching at (118,41)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (135) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (116,41)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (137) on level, leaving.
+MESSAGE # Spastic Searching at (114,43)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (140) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (116,46)...value:0
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (2) from 15 to 60!
+MESSAGE # Flowing toward up-stairs at cost 111
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 87
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (166) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 87
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 87
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (168) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 15 to 30!
+MESSAGE # Flowing toward up-stairs at cost 87
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 64
+MESSAGE # Opening a door
+MESSAGE You have picked the lock.
+MESSAGE # Creating a monster 'giant white centipede' at (38,115), HP: 9, Index: 20
+MESSAGE # Removing Regional Fear (38,115) because of a LOS giant white centipede
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Creating a monster 'white worm mass' at (36,117), HP: 8, Index: 26
+MESSAGE # Removing Regional Fear (36,117) because of a LOS white worm mass
+MESSAGE # Creating a monster 'floating eye' at (35,117), HP: 9, Index: 27
+MESSAGE # Removing Regional Fear (35,117) because of a LOS floating eye
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,117 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=39
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 6.
+MESSAGE # Targeting white worm mass who has 8 Hit Points (36,117).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE You have 15 Arrows (1d4) (+0,+0) (0).
+MESSAGE The white worm mass screams in agony.
+MESSAGE # PAIN:The white worm mass (+)
+MESSAGE # PAIN:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,117 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=39
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting white worm mass who has 2 Hit Points (36,117).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE You have 14 Arrows (1d4) (+0,+0) (0).
+MESSAGE The Arrow breaks.
+MESSAGE The white worm mass cries out feebly.
+MESSAGE # PAIN:The white worm mass (+)
+MESSAGE # PAIN:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,117 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=39
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 71
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,118 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=31
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 38,119 (distance 1) via 38,119 (31 > 0)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 69
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Opening a door
+MESSAGE You have picked the lock.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 63
+MESSAGE The floating eye wakes up.
+MESSAGE # PAIN:The floating eye (+)
+MESSAGE # PAIN:The floating eye (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 4.
+MESSAGE # Targeting white worm mass who has 2 Hit Points (36,117).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the floating eye.
+MESSAGE You have 13 Arrows (1d4) (+0,+0) (0).
+MESSAGE The floating eye cries out in pain.
+MESSAGE # PAIN:The floating eye (+)
+MESSAGE # PAIN:The floating eye (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 8.
+MESSAGE # Targeting white worm mass who has 2 Hit Points (36,117).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the floating eye.
+MESSAGE The floating eye dies.
+MESSAGE You have 12 Arrows (1d4) (+0,+0) (0).
+MESSAGE The Arrow breaks.
+MESSAGE # DIED:The floating eye (+)
+MESSAGE # Forgetting a monster 'floating eye' at (35,117)
+MESSAGE # Tracking a monster 'white worm mass' at (35,117) from (36,117)
+MESSAGE # DIED:The floating eye (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting white worm mass who has 2 Hit Points (35,117).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE You have 11 Arrows (1d4) (+0,+0) (0).
+MESSAGE The white worm mass cries out feebly.
+MESSAGE # PAIN:The white worm mass (+)
+MESSAGE # PAIN:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 63
+MESSAGE # Tracking a monster 'white worm mass' at (34,117) from (35,117)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:33,117 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 32,117 (distance 1) via 32,117 (32 > 1)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,117 Dep:1 Lev:1 HP:15/15 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 70
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 67
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Creating an object '[Lesser Charms]' at (118,21)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 66
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 85
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are poisoned!
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # Creating a monster 'white worm mass' at (38,119), HP: 11, Index: 26
+MESSAGE # Removing Regional Fear (38,119) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (38,117), HP: 14, Index: 26
+MESSAGE # Removing Regional Fear (38,117) because of a LOS white worm mass
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,120 Dep:1 Lev:1 HP:12/15 SP:0/0 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 38,121 (distance 1) via 38,121 (32 > 1)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,121 Dep:1 Lev:1 HP:11/15 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 6.
+MESSAGE # Targeting white worm mass who has 11 Hit Points (38,119).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE You have 10 Arrows (1d4) (+0,+0) (0).
+MESSAGE The Arrow breaks.
+MESSAGE The white worm mass screams in agony.
+MESSAGE # PAIN:The white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (38,120) from (38,119)
+MESSAGE # Creating a monster 'white worm mass' at (38,118), HP: 12, Index: 26
+MESSAGE # Removing Regional Fear (38,118) because of a LOS white worm mass
+MESSAGE # PAIN:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,121 Dep:1 Lev:1 HP:10/15 SP:0/0 Danger:p=34
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 38,122 (distance 1) via 38,122 (34 > 2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,122 Dep:1 Lev:1 HP:9/15 SP:0/0 Danger:p=2
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting white worm mass who has 3 Hit Points (38,120).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE The white worm mass is destroyed.
+MESSAGE You have 9 Arrows (1d4) (+0,+0) (0).
+MESSAGE # DIED:The white worm mass (+)
+MESSAGE # Forgetting a monster 'white worm mass' at (38,120)
+MESSAGE # Tracking a monster 'white worm mass' at (38,119) from (38,118)
+MESSAGE # DIED:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 6.
+MESSAGE # Targeting white worm mass who has 12 Hit Points (38,119).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE You have 8 Arrows (1d4) (+0,+0) (0).
+MESSAGE The white worm mass screams in agony.
+MESSAGE You are no longer poisoned.
+MESSAGE # PAIN:The white worm mass (+)
+MESSAGE # Creating a monster 'white worm mass' at (38,118), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (38,118) because of a LOS white worm mass
+MESSAGE # PAIN:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,122 Dep:1 Lev:1 HP:7/15 SP:0/0 Danger:p=3
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 123,38 (3 > 2)
+MESSAGE # Tracking a monster 'white worm mass' at (38,120) from (38,119)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting white worm mass who has 3 Hit Points (38,120).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE The white worm mass is destroyed.
+MESSAGE You have 7 Arrows (1d4) (+0,+0) (0).
+MESSAGE # DIED:The white worm mass (+)
+MESSAGE # Forgetting a monster 'white worm mass' at (38,120)
+MESSAGE # Tracking a monster 'white worm mass' at (38,119) from (38,118)
+MESSAGE # DIED:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 6.
+MESSAGE # Targeting white worm mass who has 10 Hit Points (38,119).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE You have 6 Arrows (1d4) (+0,+0) (0).
+MESSAGE The Arrow breaks.
+MESSAGE The white worm mass cries out in pain.
+MESSAGE # PAIN:The white worm mass (+)
+MESSAGE # PAIN:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting white worm mass who has 6 Hit Points (38,119).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE You have 5 Arrows (1d4) (+0,+0) (0).
+MESSAGE The white worm mass screams in agony.
+MESSAGE # PAIN:The white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (38,120) from (38,119)
+MESSAGE # PAIN:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 12.
+MESSAGE # Targeting white worm mass who has 2 Hit Points (38,120).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE You have 4 Arrows (1d4) (+0,+0) (0).
+MESSAGE The Arrow breaks.
+MESSAGE The white worm mass cries out feebly.
+MESSAGE # PAIN:The white worm mass (+)
+MESSAGE # PAIN:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (263) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: Clevel < depth)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 7 to 14!
+MESSAGE # Flowing toward up-stairs at cost 68
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Tracking a monster 'white worm mass' at (38,119) from (38,120)
+MESSAGE # Tracking a monster 'giant white centipede' at (38,118) from (38,115)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,122 Dep:1 Lev:1 HP:7/15 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Bored, or recalling and fighting a monster on Scaryguy Level.
+MESSAGE # Closing a door
+MESSAGE # Noting the closing of a door.
+MESSAGE # There was a monster 'giant white centipede' at (38,118)
+MESSAGE # Forgetting a monster 'giant white centipede' at (38,118)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'white worm mass' at (38,118) from (38,119)
+MESSAGE # Creating an object '& Arrow~' at (120,38)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:38,121 Dep:1 Lev:1 HP:7/15 SP:0/0 Danger:p=2
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 6.
+MESSAGE # Targeting white worm mass who has 1 Hit Points (38,118).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE You have 3 Arrows (1d4) (+0,+0) (0).
+MESSAGE # Perhaps wall near targetted location (38,118)
+MESSAGE # Guessing wall (38,119) near target (38,118)
+MESSAGE # There was a monster 'white worm mass' at (38,117)
+MESSAGE # Forgetting a monster 'white worm mass' at (38,117)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 6.
+MESSAGE # Targeting white worm mass who has 1 Hit Points (38,118).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE The white worm mass is destroyed.
+MESSAGE Welcome to level 2.
+MESSAGE You have 2 Arrows (1d4) (+0,+0) (0).
+MESSAGE The Arrow breaks.
+MESSAGE # DIED:The white worm mass (+)
+MESSAGE # Forgetting a monster 'white worm mass' at (38,118)
+MESSAGE # DIED:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 66
+MESSAGE # Closing a door
+MESSAGE # Noting the closing of a door.
+MESSAGE # Creating a monster 'white worm mass' at (38,117), HP: 14, Index: 26
+MESSAGE # Removing Regional Fear (38,117) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 6.
+MESSAGE # Targeting white worm mass who has 14 Hit Points (38,117).
+MESSAGE # Firing missile 'Arrows (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE You have an Arrow (1d4) (+0,+0) (0).
+MESSAGE The white worm mass cries out in pain.
+MESSAGE # PAIN:The white worm mass (+)
+MESSAGE # PAIN:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 3 with value 6.
+MESSAGE # Targeting white worm mass who has 7 Hit Points (38,117).
+MESSAGE # Firing missile 'Arrow (1d4) (+0,+0)'
+MESSAGE Target Selected.
+MESSAGE Your Arrow (1d4) (+0,+0) hits the white worm mass.
+MESSAGE You re-arrange your quiver.
+MESSAGE You have no more Arrows (1d4) (+0,+0) (0).
+MESSAGE The Arrow breaks.
+MESSAGE The white worm mass cries out feebly.
+MESSAGE # PAIN:The white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (38,118) from (38,117)
+MESSAGE # PAIN:The white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 93
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Closing a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 87
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 87
+MESSAGE # Closing a door
+MESSAGE # Noting the closing of a door.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 87
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 87
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 84
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 84
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 84
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 84
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 84
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 84
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 84
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 84
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 82
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 85
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 84
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 87
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 88
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 89
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 90
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 91
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 92
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 93
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 94
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 95
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 99
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 100
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 99
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 99
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 99
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 100
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 101
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 102
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 103
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 104
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 105
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 106
+MESSAGE # Opening a door
+MESSAGE You have picked the lock.
+MESSAGE # Creating a monster 'large white snake' at (12,165), HP: 12, Index: 24
+MESSAGE # Removing Regional Fear (12,165) because of a LOS large white snake
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 106
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 162
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Closing a door
+MESSAGE # Noting the closing of a door.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 169
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 178
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Flowing toward stairs at cost 179
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (397) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 19 to 38!
+MESSAGE # Flowing toward up-stairs at cost 74
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Closing a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are poisoned!
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (36,117) from (34,117)
+MESSAGE # Creating a monster 'white worm mass' at (33,117), HP: 13, Index: 26
+MESSAGE # Removing Regional Fear (33,117) because of a LOS white worm mass
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,117 Dep:1 Lev:2 HP:18/19 SP:0/0 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 31,118 (distance 1) via 31,118 (32 > 1)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,118 Dep:1 Lev:2 HP:17/19 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (410) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 17 to 34!
+MESSAGE # Flowing toward up-stairs at cost 65
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Creating a monster 'white worm mass' at (34,117), HP: 7, Index: 26
+MESSAGE # Removing Regional Fear (34,117) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,117 Dep:1 Lev:2 HP:16/19 SP:0/0 Danger:p=39
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (33,117) who has 13 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,117 Dep:1 Lev:2 HP:16/19 SP:0/0 Danger:p=39
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (33,117) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,117 Dep:1 Lev:2 HP:15/19 SP:0/0 Danger:p=39
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (33,117) who has 6 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (35,117) from (34,117)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,117 Dep:1 Lev:2 HP:14/19 SP:0/0 Danger:p=34
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (33,117) who has 2 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are more poisoned!
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:32,117 Dep:1 Lev:2 HP:12/19 SP:0/0 Danger:p=34
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 31,118 (distance 1) via 31,118 (34 > 1)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,118 Dep:1 Lev:2 HP:11/19 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (416) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 11 to 22!
+MESSAGE # Flowing toward up-stairs at cost 74
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Tracking a monster 'white worm mass' at (32,117) from (33,117)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (417) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 10 to 20!
+MESSAGE # Flowing toward up-stairs at cost 73
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # There was a monster 'white worm mass' at (32,117)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,117)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (418) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 9 to 18!
+MESSAGE # Flowing toward up-stairs at cost 72
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (419) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 8 to 16!
+MESSAGE # Flowing toward up-stairs at cost 71
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (420) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 7 to 14!
+MESSAGE # Flowing toward up-stairs at cost 70
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (421) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 6 to 12!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (422) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 5 to 10!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 1
+MESSAGE You are no longer poisoned.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (423) on level, leaving.
+MESSAGE # Spastic Searching at (121,36)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 4 to 8!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 6
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Opening a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Creating a monster 'white worm mass' at (31,119), HP: 1, Index: 26
+MESSAGE # Removing Regional Fear (31,119) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (31,120), HP: 9, Index: 26
+MESSAGE # Removing Regional Fear (31,120) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,122 Dep:1 Lev:2 HP:4/19 SP:0/0 Danger:p=4
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 123,31 (4 > 2)
+MESSAGE # Tracking a monster 'white worm mass' at (30,121) from (31,120)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (430) on level, leaving.
+MESSAGE # Spastic Searching at (123,31)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 4 to 8!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 4
+MESSAGE # Closing a door
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (435) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (127,31)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 5 to 10!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (438) on level, leaving.
+MESSAGE # Spastic Searching at (127,28)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 5 to 10!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (441) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (130,28)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 5 to 10!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 3
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (444) on level, leaving.
+MESSAGE # Spastic Searching at (133,28)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 6 to 12!
+MESSAGE # Flowing toward up-stairs at cost 84
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Opening a door
+MESSAGE # Tracking a monster 'white worm mass' at (31,121) from (30,121)
+MESSAGE # Creating a monster 'white worm mass' at (31,120), HP: 5, Index: 26
+MESSAGE # Removing Regional Fear (31,120) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (30,121), HP: 8, Index: 26
+MESSAGE # Removing Regional Fear (30,121) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (32,121), HP: 8, Index: 26
+MESSAGE # Removing Regional Fear (32,121) because of a LOS white worm mass
+MESSAGE # There was a monster 'white worm mass' at (31,119)
+MESSAGE # Forgetting a monster 'white worm mass' at (31,119)
+MESSAGE # Possibility of being surrounded (monsters/safegrids)(4/2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,123 Dep:1 Lev:2 HP:7/19 SP:0/0 Danger:p=10
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 31,124 (distance 1) via 31,124 (10 > 6)
+MESSAGE # Tracking a monster 'white worm mass' at (31,122) from (30,121)
+MESSAGE # There was a monster 'white worm mass' at (32,121)
+MESSAGE # Forgetting a monster 'white worm mass' at (32,121)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,124 Dep:1 Lev:2 HP:7/19 SP:0/0 Danger:p=6
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 125,31 (6 > 3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,125 Dep:1 Lev:2 HP:7/19 SP:0/0 Danger:p=3
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Backing up to 126,31 (3 > 2)
+MESSAGE # Tracking a monster 'white worm mass' at (31,123) from (31,122)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (459) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 7 to 14!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 11
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (470) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (136,28)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 8 to 16!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (472) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (136,26)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 8 to 16!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (474) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (136,24)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 9 to 18!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (476) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (136,22)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 9 to 18!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (478) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (136,20)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 9 to 18!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (480) on level, leaving.
+MESSAGE # Spastic Searching at (136,18)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 9 to 18!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (482) on level, leaving.
+MESSAGE # Spastic Searching at (136,16)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 9 to 18!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 2
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (484) on level, leaving.
+MESSAGE # Spastic Searching at (136,14)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 10 to 20!
+MESSAGE # Flowing toward up-stairs at cost 97
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Scary guy on level.
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Tracking a monster 'white worm mass' at (31,124) from (31,123)
+MESSAGE # There was a monster 'white worm mass' at (31,121)
+MESSAGE # Forgetting a monster 'white worm mass' at (31,121)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,125 Dep:1 Lev:2 HP:12/19 SP:0/0 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Retreating to 31,126 (distance 1) via 31,126 (32 > 1)
+MESSAGE # Creating a monster 'white worm mass' at (31,122), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (31,122) because of a LOS white worm mass
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,126 Dep:1 Lev:2 HP:12/19 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (510) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 12 to 24!
+MESSAGE # Flowing toward up-stairs at cost 73
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are poisoned!
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,125 Dep:1 Lev:2 HP:10/19 SP:0/0 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (31,124) who has 8 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # Tracking a monster 'white worm mass' at (31,121) from (31,122)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,125 Dep:1 Lev:2 HP:9/19 SP:0/0 Danger:p=33
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (31,124) who has 4 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE You have destroyed the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # KILL:the white worm mass (+)
+MESSAGE # Forgetting a monster 'white worm mass' at (31,124)
+MESSAGE # Creating a monster 'white worm mass' at (31,122), HP: 9, Index: 26
+MESSAGE # Removing Regional Fear (31,122) because of a LOS white worm mass
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # KILL:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,125 Dep:1 Lev:2 HP:9/19 SP:0/0 Danger:p=3
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (513) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 9 to 18!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 0
+MESSAGE # Boosting bravery (2) from 9 to 76!
+MESSAGE # Flowing toward up-stairs at cost 72
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,124 Dep:1 Lev:2 HP:8/19 SP:0/0 Danger:p=6
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (514) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 8 to 16!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Flowing toward spastic at cost 1
+MESSAGE # Tracking a monster 'white worm mass' at (31,123) from (31,122)
+MESSAGE # There was a monster 'white worm mass' at (31,121)
+MESSAGE # Forgetting a monster 'white worm mass' at (31,121)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,125 Dep:1 Lev:2 HP:7/19 SP:0/0 Danger:p=1
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (515) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Spastic Searching at (125,31)...value:0
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 7 to 14!
+MESSAGE # Flowing toward up-stairs at cost 75
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # There was a monster 'white worm mass' at (31,120)
+MESSAGE # Forgetting a monster 'white worm mass' at (31,120)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,124 Dep:1 Lev:2 HP:6/19 SP:0/0 Danger:p=32
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (31,123) who has 9 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # Creating a monster 'white worm mass' at (31,120), HP: 5, Index: 26
+MESSAGE # Removing Regional Fear (31,120) because of a LOS white worm mass
+MESSAGE # Creating a monster 'white worm mass' at (31,121), HP: 10, Index: 26
+MESSAGE # Removing Regional Fear (31,121) because of a LOS white worm mass
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,124 Dep:1 Lev:2 HP:5/19 SP:0/0 Danger:p=34
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (31,123) who has 5 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE The white worm mass crawls on you.
+MESSAGE You are more poisoned!
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # HIT_BY:The white worm mass (+)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # HIT_BY:The white worm mass (3)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,124 Dep:1 Lev:2 HP:2/19 SP:0/0 Danger:p=34
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (518) on level, leaving.
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 2 to 4!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (2) from 2 to 76!
+MESSAGE # Flowing toward up-stairs at cost 71
+MESSAGE # Walking into a 'white worm mass' at (31,123)
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE You hit the white worm mass.
+MESSAGE You have destroyed the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # KILL:the white worm mass (+)
+MESSAGE # Forgetting a monster 'white worm mass' at (31,123)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # KILL:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,124 Dep:1 Lev:2 HP:2/19 SP:0/0 Danger:p=2
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (519) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (1) from 2 to 4!
+MESSAGE # Fleeing and leaving the level. Brave Thinking.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (2) from 2 to 76!
+MESSAGE # Flowing toward up-stairs at cost 71
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE # Tracking a monster 'white worm mass' at (30,121) from (31,120)
+MESSAGE # Tracking a monster 'white worm mass' at (31,122) from (31,121)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,123 Dep:1 Lev:2 HP:1/19 SP:0/0 Danger:p=36
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (31,122) who has 10 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # Creating a monster 'white worm mass' at (31,119), HP: 9, Index: 26
+MESSAGE # Removing Regional Fear (31,119) because of a LOS white worm mass
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,123 Dep:1 Lev:2 HP:0/19 SP:0/0 Danger:p=36
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Performing attack type 1 with value 36.
+MESSAGE # Facing white worm mass at (31,122) who has 7 Hit Points.
+MESSAGE # Attacking with weapon 'Main Gauche (1d5) (+0,+0)'
+MESSAGE You hit the white worm mass.
+MESSAGE # HIT:the white worm mass (+)
+MESSAGE # HIT:the white worm mass (2)
+MESSAGE # Scary guy on level.
+MESSAGE # Loc:31,123 Dep:1 Lev:2 HP:0/19 SP:0/0 Danger:p=36
+MESSAGE # Fleeing and leaving the level. (scaryguy)
+MESSAGE # Fleeing and leaving the level. (Looking for any stair)
+MESSAGE # Fleeing and leaving the level (Looking for Up Stair).
+MESSAGE # Spent too long (522) on level, leaving.
+MESSAGE # heading up (bored and unable to dive: 30 hp)
+MESSAGE # Looking for up stairs.  Going up.
+MESSAGE # Bored but unable to flow to up stairs.
+MESSAGE # Boosting bravery (2) from 0 to 76!
+MESSAGE # Flowing toward up-stairs at cost 70
+MESSAGE # Walking into a 'white worm mass' at (31,122)
+MESSAGE # Looking for stairs. Goal_less, brave.
+MESSAGE You hit the white worm mass.
+MESSAGE You have destroyed the white worm mass.
+MESSAGE You die.

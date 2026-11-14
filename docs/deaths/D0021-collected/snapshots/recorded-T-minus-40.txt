@@ -1,0 +1,27 @@
+Original recording: frame 11955, engine turn 10841, phase tick; HP 11, SP 0, depth 1
+Logical cells, not pixel video. Diagnostics are actual state, not extra Borg knowledge.
+
+                                                                                
+Elf                                                                             
+Acolyte                                                                         
+Necromancer                                                                     
+LEVEL      1                                                                    
+NXT        2                                                                    
+AU       108                                                                    
+| =     ) ]]                           #######                                  
+STR:      13                            .......###                              
+INT:   18/30                              ...C...##                             
+WIS:       9                             ##'##..@.#                             
+DEX:      11                           ###...###...#                            
+CON:      13                           #......<#....                            
+                                       ###...###...#                            
+Cur AC    17                             #####  ..##                            
+HP   11/  11                                   ..##                             
+SP    0/   2                                   #%#                              
+                                                                                
+[*********-]                                                                    
+                                                                                
+                                                                                
+                                                                                
+50' (L1)                                                                        
+             LF:2-? Light 1  Fed 79 % Open floor                                
