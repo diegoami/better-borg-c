@@ -129,12 +129,14 @@ static struct object *make_item(int tval, const char *kind_name, const char *ego
 }
 int setup_tests(void **state)
 {
+    const char *prof = getenv("CBUG0066_PROFILE");
+    if (!prof) prof = "profile";
     set_file_paths();
-    string_free(ANGBAND_DIR_USER); ANGBAND_DIR_USER=string_make("/home/diego/projects/angband/better-borg-c/.worktrees/rings/artifacts/rings/swap-regression/profile");
-    string_free(ANGBAND_DIR_SAVE); ANGBAND_DIR_SAVE=string_make("/home/diego/projects/angband/better-borg-c/.worktrees/rings/artifacts/rings/swap-regression/profile/save");
-    string_free(ANGBAND_DIR_PANIC); ANGBAND_DIR_PANIC=string_make("/home/diego/projects/angband/better-borg-c/.worktrees/rings/artifacts/rings/swap-regression/profile/panic");
-    string_free(ANGBAND_DIR_SCORES); ANGBAND_DIR_SCORES=string_make("/home/diego/projects/angband/better-borg-c/.worktrees/rings/artifacts/rings/swap-regression/profile/scores");
-    string_free(ANGBAND_DIR_ARCHIVE); ANGBAND_DIR_ARCHIVE=string_make("/home/diego/projects/angband/better-borg-c/.worktrees/rings/artifacts/rings/swap-regression/profile/archive");
+    string_free(ANGBAND_DIR_USER); ANGBAND_DIR_USER=string_make(prof);
+    string_free(ANGBAND_DIR_SAVE); ANGBAND_DIR_SAVE=string_make(format("%s/save", prof));
+    string_free(ANGBAND_DIR_PANIC); ANGBAND_DIR_PANIC=string_make(format("%s/panic", prof));
+    string_free(ANGBAND_DIR_SCORES); ANGBAND_DIR_SCORES=string_make(format("%s/scores", prof));
+    string_free(ANGBAND_DIR_ARCHIVE); ANGBAND_DIR_ARCHIVE=string_make(format("%s/archive", prof));
     if (!init_angband()) {puts("setup: init failed");return 1;}
     create_needed_dirs();
     Rand_quick=false; Rand_state_init(1000);
