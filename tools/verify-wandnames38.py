@@ -41,7 +41,7 @@ ZEROS = {k: 0 for k in ('attacked', 'elec_bolt', 'elec_ball', 'cold_bolt',
 EXPECT = {m: (False, True) for m in MODES}
 EXPECT['frost-only'] = (True, True)
 BEFORE_ROWS = {
-    'bolts-vs-frost': dict(ZEROS, attacked=1, elec_bolt=1, elec_ball=1, chose_elec_ball=1),
+    'bolts-vs-frost': dict(ZEROS, attacked=1, elec_bolt=1, elec_ball=1, cold_bolt=1, chose_elec_ball=1),
     'balls-only': dict(ZEROS),
     'confuse-only': dict(ZEROS),
     'scare-only': dict(ZEROS),
