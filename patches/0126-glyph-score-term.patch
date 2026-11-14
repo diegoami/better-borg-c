@@ -1,0 +1,36 @@
+From 87323a76f8e2aa75524482a6f2668673fc174ad9 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 16:00:58 +0000
+Subject: [PATCH] Borg: drop the always-zero glyph count from the outlying rune
+ score
+
+When borg_flow_glyph() extends an existing Sea of Runes it scores each
+unglyphed grid of the 5x5 block around the stored centre as
+500 + (tmp_glyph * 500) - cost.  tmp_glyph is only counted in the
+new-sea branch, so in this branch it is always 0 and the score is
+500 - cost: the borg glyphs the nearest unglyphed grid next.
+
+Write the score as 500 - cost.  No behaviour change; it only makes the
+nearest-first choice explicit.
+
+Tracked as diegoami/neo-angband-tracker#115.
+---
+ src/borg/borg-flow-glyph.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-flow-glyph.c b/src/borg/borg-flow-glyph.c
+index 5af26cf95..5f349a80e 100644
+--- a/src/borg/borg-flow-glyph.c
++++ b/src/borg/borg-flow-glyph.c
+@@ -250,7 +250,7 @@ bool borg_flow_glyph(void)
+                         continue;
+ 
+                     /* Tweak -- Reward certain floors, punish distance */
+-                    v = 500 + (tmp_glyph * 500) - (cost * 1);
++                    v = 500 - (cost * 1);
+ 
+                     /* The grid is not searchable */
+                     if (v <= 0)
+-- 
+2.43.0
+
