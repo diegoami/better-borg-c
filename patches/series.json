@@ -2620,6 +2620,24 @@
       "verification": "docs/measurement/MINDBLAST-591.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the nar mode fails before (danger 40, Mind Blast counted as 9) and passes after (danger 74, 8d8 maximum plus the confusion term), the illusionist control byte-identical at 600. Mode attribution (2026-11-10 rule): the monster-spell danger cases sit in borg_danger() in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 87. carried/open+patch-active after merge"
+    },
+    {
+      "id": "RUBBLEMARK-192",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/534",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/192",
+      "source_head": "1abc778496e01d97cd40720cd72ec2759b6d3586",
+      "source_commits": [
+        "1abc778496e01d97cd40720cd72ec2759b6d3586"
+      ],
+      "applied_commits": [
+        "8a51a8014"
+      ],
+      "patch": "patches/0142-rubble-marking.patch",
+      "patch_active": true,
+      "evidence_ref": "0b0f63f404386e5408d780fe679147121adcd70b",
+      "verification": "docs/measurement/RUBBLEMARK-192.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the dark mode fails before (0 of 5 dug rubble grids converted on the borg's map) and passes after (all 5 converted), the lit control byte-identical (the handler walks the full 3x3 block and uses its own x and y). Mode attribution (2026-11-10 rule): the dig-message handler runs in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 87. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
