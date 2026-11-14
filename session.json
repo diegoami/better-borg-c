@@ -94,8 +94,9 @@
   "current_task": {
     "issue": "https://github.com/diegoami/better-borg-c/issues/426",
     "branch": "task/carry-<name>, one branch and PR per source unit",
-    "state": "v11 carry cycle: tier A and the first eight tier B units merged (0100-0118); milestone 11 closed with the 4.2.6-impact-v11 tag placed; next in the issue-426 tier B order is source116",
-    "instructions": "issues/426 (queue, impact triage and order); RULES 19 and AGENTS (mode-attribution rule); docs/measurement/LUNALTAKE-73.md (the mode-gate lesson); docs/measurement/FLOWKILLHALL-98.md and HITCHANCE-63.md (the no-gate carry pattern)"
+    "state": "v12->v13 cycle: the owner-directed 2026-11-13/14 mechanical batch is complete and merged (0131-0137: sources 38, 202, 592, 596, 589, 594, 610-stacked, tip 9ccb2aaee); 616 recorded as a duplicate of carried 0004; classification of 154/590/591/595 (bug fixes) and 615 (policy choice) posted for the owner; milestone-13 package is the recorded next step",
+    "instructions": "issues/426 (queue); RULES 19 and AGENTS (mode-attribution rule); docs/measurement/STUNPROT-589.md and VULNMOD-610.md (the per-phase include-roots lesson for header-touching carries)",
+    "next": "owner decision on 154/590/591/595/615; then milestone-13 package (v12 tag -> 9ccb2aaee)"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
   "impact_milestone_v4": "https://github.com/diegoami/better-borg-c/milestone/4",
