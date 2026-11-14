@@ -433,6 +433,11 @@ GROUPS = [
     ('stunprot-589', 'docs/audit/c-reports/stunprot-589', 'SP589',
      ('rsound', 'pstun', 'both', 'rsound-unstunned'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source594 (vulnres-594): after-baselines from the product run; vuln fails before and
+    # passes after, control byte-identical (tools/verify-vulnres594.py).
+    ('vulnres-594', 'docs/audit/c-reports/vulnres-594', 'VR594',
+     ('vuln', 'control'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
