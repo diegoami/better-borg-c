@@ -372,6 +372,11 @@ GROUPS = [
     ('rebirthkey-52', 'docs/audit/c-reports/rebirthkey-52', 'RK52',
      ('race8', 'class8', 'race7', 'dwarfpriest', 'humanwarrior'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source69 (dangerfull-69): after-baselines from the product run; both phases pass with identical outcomes
+    # (tools/verify-dangerfull69.py).
+    ('dangerfull-69', 'docs/audit/c-reports/dangerfull-69', 'DF69',
+     ('bear', 'wolf', 'orc', 'shaman'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the

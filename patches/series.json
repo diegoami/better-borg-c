@@ -2314,6 +2314,24 @@
       "verification": "docs/measurement/REBIRTHKEY-52.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the race8, class8 and race7 modes now create the wanted character (right_character=1), and the dwarfpriest and humanwarrior controls (indices below 7) are byte-identical. Mode attribution (2026-11-10 rule): the path has no Lunal/munchkin gate and runs only when the Borg respawns (game option cheat_live on with borg_cheat_death off, or borg_respawn_winners on), so it is mode-independent: reachable in unrestricted, munchkin/Lunal-only and normal-only configurations once a respawn happens, unreachable where respawn is off (the default). Per-configuration cohort effect not measured: the zoo class grid ends a run at death and never respawns; owed to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "DANGERFULL-69",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/492",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/69",
+      "source_head": "8af23504525b7577ddc74205c7aec03263cc001e",
+      "source_commits": [
+        "8af23504525b7577ddc74205c7aec03263cc001e"
+      ],
+      "applied_commits": [
+        "565c7aa9f"
+      ],
+      "patch": "patches/0124-danger-full-comment.patch",
+      "patch_active": true,
+      "evidence_ref": "c45a4b011600e52338735df114ac0cf24f9fc145",
+      "verification": "docs/measurement/DANGERFULL-69.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; every mode passes in both phases with identical outcomes (comment-only; compiled code unchanged). Mode attribution (2026-11-10 rule): a behaviour-preserving cleanup, so no configuration can observe a difference; this rests on the source reachability argument and the kit, not on a cohort run. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
