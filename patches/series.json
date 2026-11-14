@@ -2458,6 +2458,24 @@
       "verification": "docs/measurement/WANDNAMES-38.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; bolts-vs-frost, balls-only, confuse-only and scare-only fail before and pass after, frost-only control byte-identical (two name-table corrections at start-up). Mode attribution (2026-11-10 rule): the changed branch executes at start-up in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 54. carried/open+patch-active after merge"
+    },
+    {
+      "id": "SWAPFEAR-202",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/508",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/202",
+      "source_head": "c5eae07cbcc6fb458ec15d04c234e5faf66ea6f1",
+      "source_commits": [
+        "c5eae07cbcc6fb458ec15d04c234e5faf66ea6f1"
+      ],
+      "applied_commits": [
+        "fe4c77c38"
+      ],
+      "patch": "patches/0132-swap-fear-flags.patch",
+      "patch_active": true,
+      "evidence_ref": "af1f14d1c992640b8dd4ea1b73f13cb1fbd6df19",
+      "verification": "docs/measurement/SWAPFEAR-202.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; fear-plain fails before and passes after (the fear-protecting swap is kept, not sold), fear-brave and plain-plain controls byte-identical (swap fear flags now recorded). Mode attribution (2026-11-10 rule): the swap-notice scan runs in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 54. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {

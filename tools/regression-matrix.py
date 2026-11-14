@@ -413,6 +413,11 @@ GROUPS = [
     ('wandnames-38', 'docs/audit/c-reports/wandnames-38', 'WN38',
      ('bolts-vs-frost', 'balls-only', 'confuse-only', 'scare-only', 'frost-only'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source202 (swapfear-202): after-baselines from the product run; fear-plain fails before and
+    # passes after, fear-brave and plain-plain controls byte-identical (tools/verify-swapfear202.py).
+    ('swapfear-202', 'docs/audit/c-reports/swapfear-202', 'SF202',
+     ('fear-plain', 'fear-brave', 'plain-plain'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
