@@ -2404,6 +2404,24 @@
       "verification": "docs/measurement/DOORCAP-126.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; every mode passes in both phases with identical outcomes (removes code the source shows is unreachable or a no-op). Mode attribution (2026-11-10 rule): a behaviour-preserving cleanup, so no configuration can observe a difference; this rests on the source reachability argument and the kit, not on a cohort run. carried/open+patch-active after merge"
+    },
+    {
+      "id": "TELEOTIER-176",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/502",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/176",
+      "source_head": "841cd99eebbe47ef6175b1ed2300548a2bfe0c2b",
+      "source_commits": [
+        "841cd99eebbe47ef6175b1ed2300548a2bfe0c2b"
+      ],
+      "applied_commits": [
+        "4ef1afdff"
+      ],
+      "patch": "patches/0129-tele-other-tier.patch",
+      "patch_active": true,
+      "evidence_ref": "672f9e05ea7ae62353819947aa9490a2ed80a787",
+      "verification": "docs/measurement/TELEOTIER-176.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; every mode passes in both phases with identical outcomes (removes code the source shows is unreachable or a no-op). Mode attribution (2026-11-10 rule): a behaviour-preserving cleanup, so no configuration can observe a difference; this rests on the source reachability argument and the kit, not on a cohort run. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
