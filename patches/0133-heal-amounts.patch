@@ -1,0 +1,87 @@
+From 65151df9e89079471faf18e7501e116f175238c3 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Fri, 13 Nov 2026 21:01:41 +0000
+Subject: [PATCH] Borg: use the fixed heal amounts of Cure
+ Light/Serious/Critical Wounds
+
+borg_heal() estimated what the cure potions heal as a percentage of the
+hit points lost (15, 20 and 25 per cent, at least 15, 25 and 30). In
+4.2 they heal a fixed 20, 40 and 60 hit points (HEAL_HP dice with no
+percentage part), so at low hit points the borg expected too little and
+skipped a potion that covered the danger, and at high hit points it
+expected too much.
+
+Use the fixed amounts. The Healing estimate (300, or 35 per cent of the
+hit points lost) already matches the game.
+---
+ src/borg/borg-caution.c | 23 ++++++++---------------
+ 1 file changed, 8 insertions(+), 15 deletions(-)
+
+diff --git a/src/borg/borg-caution.c b/src/borg/borg-caution.c
+index 52e3eb392..6ce32d6bb 100644
+--- a/src/borg/borg-caution.c
++++ b/src/borg/borg-caution.c
+@@ -63,9 +63,11 @@ static bool borg_heal(int danger)
+     int pct_down;
+     int allow_fail = 15;
+     int chance;
+-    int clw_heal          = 15;
+-    int csw_heal          = 25;
+-    int ccw_heal          = 30;
++    /* Cure Light, Serious and Critical Wounds heal a fixed 20, 40 and 60
++     * hit points (object.txt HEAL_HP dice, no percentage part) */
++    int clw_heal          = 20;
++    int csw_heal          = 40;
++    int ccw_heal          = 60;
+     int cmw_heal          = 50;
+ 
+     int heal_heal         = 300;
+@@ -77,18 +79,9 @@ static bool borg_heal(int danger)
+     hp_down               = borg.trait[BI_MAXHP] - borg.trait[BI_CURHP];
+     pct_down              = ((borg.trait[BI_MAXHP] - borg.trait[BI_CURHP]) * 100
+                 / borg.trait[BI_MAXHP]);
+-    clw_heal  = ((borg.trait[BI_MAXHP] - borg.trait[BI_CURHP]) * 15 / 100);
+-    csw_heal  = ((borg.trait[BI_MAXHP] - borg.trait[BI_CURHP]) * 20 / 100);
+-    ccw_heal  = ((borg.trait[BI_MAXHP] - borg.trait[BI_CURHP]) * 25 / 100);
+     cmw_heal  = ((borg.trait[BI_MAXHP] - borg.trait[BI_CURHP]) * 30 / 100);
+     heal_heal = ((borg.trait[BI_MAXHP] - borg.trait[BI_CURHP]) * 35 / 100);
+ 
+-    if (clw_heal < 15)
+-        clw_heal = 15;
+-    if (csw_heal < 25)
+-        csw_heal = 25;
+-    if (ccw_heal < 30)
+-        ccw_heal = 30;
+     if (cmw_heal < 50)
+         cmw_heal = 50;
+     if (heal_heal < 300)
+@@ -350,7 +343,7 @@ static bool borg_heal(int danger)
+             && !borg.trait[BI_ISPOISONED] && !borg.trait[BI_ISCUT]))
+         return false;
+ 
+-    /* Cure light Wounds (2d10) */
++    /* Cure light Wounds (20) */
+     if (pct_down >= 30 && (pct_down <= 40 || borg.trait[BI_CLEVEL] < 10)
+         && ((danger) < borg.trait[BI_CURHP] + clw_heal)
+         && (clw_heal > danger / 3) && /* No rope-a-doping */
+@@ -360,7 +353,7 @@ static bool borg_heal(int danger)
+         borg_note("# Healing Level 1.");
+         return true;
+     }
+-    /* Cure Serious Wounds (4d10) */
++    /* Cure Serious Wounds (40) */
+     if (pct_down >= 40 && (pct_down <= 50 || borg.trait[BI_CLEVEL] < 20)
+         && ((danger) < borg.trait[BI_CURHP] + csw_heal)
+         && (csw_heal > danger / 3) && /* No rope-a-doping */
+@@ -370,7 +363,7 @@ static bool borg_heal(int danger)
+         return true;
+     }
+ 
+-    /* Cure Critical Wounds (6d10) */
++    /* Cure Critical Wounds (60) */
+     if (pct_down >= 50 && pct_down <= 55
+         && ((danger) < borg.trait[BI_CURHP] + ccw_heal)
+         && (ccw_heal > danger / 3) && /* No rope-a-doping */
+-- 
+2.53.0
+

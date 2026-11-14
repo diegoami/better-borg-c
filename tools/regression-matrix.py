@@ -418,6 +418,11 @@ GROUPS = [
     ('swapfear-202', 'docs/audit/c-reports/swapfear-202', 'SF202',
      ('fear-plain', 'fear-brave', 'plain-plain'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source592 (healamount-592): after-baselines from the product run; window fails before and
+    # passes after, control byte-identical (tools/verify-healamount592.py).
+    ('healamount-592', 'docs/audit/c-reports/healamount-592', 'HA592',
+     ('window', 'control'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
