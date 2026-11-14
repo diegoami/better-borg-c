@@ -1,0 +1,43 @@
+From 85e7ce6c689e05bc209feda6d30a3bba51c533c6 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Mon, 9 Nov 2026 17:50:20 +0000
+Subject: [PATCH] borg: type the birth menu's own letters when respawning
+
+When the Borg respawns it picks its new race and class by typing the
+menu letter for each choice.  It used all_letters, but the birth menus
+label their entries with all_letters_nohjkl, which skips h, j, k and l.
+From the eighth entry on the typed letter was wrong: Half-Troll (h),
+High-Elf (j) and Kobold (k) typed a letter the menu does not have, so
+the highlighted race was kept, and Dunadan (i) selected Half-Troll; for
+classes, Ranger (h) kept the highlighted class and Blackguard (i)
+selected Ranger.  The random name was still made for the race wanted.
+Use the same letter table as the menus.
+
+Tracked as diegoami/neo-angband-tracker#52.
+---
+ src/borg/borg-reincarnate.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-reincarnate.c b/src/borg/borg-reincarnate.c
+index f474cc5ef..e2b641ed6 100644
+--- a/src/borg/borg-reincarnate.c
++++ b/src/borg/borg-reincarnate.c
+@@ -332,13 +332,13 @@ void borg_reincarnate_start(void)
+ 
+     /* pick race */
+     if (race != player->race->ridx) {
+-        borg_keypress(all_letters[race]);
++        borg_keypress(all_letters_nohjkl[race]);
+     }
+     borg_keypress(KC_ENTER);
+ 
+     /* pick class */
+     if (class != player->class->cidx) {
+-        borg_keypress(all_letters[class]);
++        borg_keypress(all_letters_nohjkl[class]);
+     }
+     borg_keypress(KC_ENTER);
+ 
+-- 
+2.43.0
+

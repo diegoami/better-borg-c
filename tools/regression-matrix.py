@@ -367,6 +367,11 @@ GROUPS = [
     ('uniquedead-94', 'docs/audit/c-reports/uniquedead-94', 'U94',
      ('grip', 'slot5'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source52 (issue 52, rebirthkey): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-rebirthkey52.py.
+    ('rebirthkey-52', 'docs/audit/c-reports/rebirthkey-52', 'RK52',
+     ('race8', 'class8', 'race7', 'dwarfpriest', 'humanwarrior'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
