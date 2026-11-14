@@ -443,6 +443,11 @@ GROUPS = [
     ('vulnmod-610', 'docs/audit/c-reports/vulnmod-610', 'VM610',
      ('vuln', 'temp', 'control'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source154 (retreatadj-154): after-baselines from the product run; spider fails before and
+    # passes after, ant control byte-identical (tools/verify-retreatadj154.py).
+    ('retreatadj-154', 'docs/audit/c-reports/retreatadj-154', 'RA154',
+     ('spider', 'ant'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
