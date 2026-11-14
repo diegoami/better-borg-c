@@ -1474,6 +1474,7 @@ bool borg_caution(void)
         int b_x = borg.c.x;
         int b_y = borg.c.y;
         int ii;
+        bool adjacent_fast;
 
         /* Scan the useful viewable grids */
         for (j = 1; j < borg_view_n; j++) {
@@ -1613,6 +1614,7 @@ bool borg_caution(void)
                      * Skip this grid if it is adjacent to a monster.  He will
                      * just hit me when I land on that grid.
                      */
+                    adjacent_fast = false;
                     for (ii = 1; ii < borg_kills_nxt; ii++) {
                         borg_kill *kill;
 
@@ -1630,9 +1632,13 @@ bool borg_caution(void)
                         /* Check distance -- 1 grid away */
                         if (distance(kill->pos, loc(x1, y1)) <= 1
                             && kill->speed > borg.trait[BI_SPEED]
-                            && !borg_surround)
+                            && !borg_surround) {
+                            adjacent_fast = true;
                             break;
+                        }
                     }
+                    if (adjacent_fast)
+                        break;
                 }
 
                 /* Skip monsters */

@@ -2566,6 +2566,24 @@
       "verification": "docs/measurement/VULNMOD-610.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture (stacked on the carried 0136); native gate at before and tip; vuln and temp fail before and pass after (fire-vulnerability danger 137 -> 169 against a reference of 137; with temporary resistance 73 -> 137), control byte-identical (BI_V* traits and the 4/3 element cases). Mode attribution (2026-11-10 rule): the element cases sit in borg_danger() in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 54. carried/open+patch-active after merge"
+    },
+    {
+      "id": "RETREATADJ-154",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/523",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/154",
+      "source_head": "3b0a9467344b461a1d0177877dc190b17aee08e4",
+      "source_commits": [
+        "3b0a9467344b461a1d0177877dc190b17aee08e4"
+      ],
+      "applied_commits": [
+        "634ac64fc"
+      ],
+      "patch": "patches/0138-retreat-adjacent-skip.patch",
+      "patch_active": true,
+      "evidence_ref": "3da903a11f639e7e963695857759aa22f75d63eb",
+      "verification": "docs/measurement/RETREATADJ-154.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the spider mode fails before (the retreat steps next to the faster monster) and passes after (the route is skipped), the ant control byte-identical (the faster-monster match now rejects the route). Mode attribution (2026-11-10 rule): the retreat scan runs in borg_caution() in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 87. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
