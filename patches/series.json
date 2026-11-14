@@ -2242,6 +2242,24 @@
       "verification": "docs/measurement/GLYPHTRACK-116.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the complete-sea mode now queues only the rune read (no step after it) and the new-sea control is byte-identical. The changed branch runs only when the Borg reads a Rune of Protection on a Sea of Runes grid already in the glyph tracker, a late-depth path; no per-configuration cohort run reaches it (the zoo class grid tops out near depth 3). Per-mode attribution is not measured: owed to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "LUNALTELE-193",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/484",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/193",
+      "source_head": "4ee9a38f305d0e44624efdd45c5358d784852754",
+      "source_commits": [
+        "4ee9a38f305d0e44624efdd45c5358d784852754"
+      ],
+      "applied_commits": [
+        "62ffd03a5"
+      ],
+      "patch": "patches/0120-lunal-teleport-off.patch",
+      "patch_active": true,
+      "evidence_ref": "7a4ec7832dd715444d0d7de11fe25e2bee35bd05",
+      "verification": "docs/measurement/LUNALTELE-193.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the three teleport modes now leave Lunal mode and refuse the unprepared descent, and the shriek and Lunal-off controls are byte-identical. Mode attribution (2026-11-10 rule): the branch is guarded by borg.lunal_mode, which is set only by the configured borg_lunal_mode or the self-engaged Lunal mode. It is unreachable by construction in the normal-only configuration (all modes pinned off) and in the class-rule munchkin configuration (a munchkin start, not Lunal); reachable in Lunal-only and unrestricted, where the fixture's Lunal-configured path executes it. Per-configuration cohort effect not measured: owed to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
