@@ -196,10 +196,26 @@
     "units": "carry 0118 (NEWKILL-95) and the official import 42cd156ac (retires 0001 and 0002)",
     "ledger": "117 entries, 115 patch-active",
     "cohort": "no cohort or per-mode measurement in this window; owed to borg-zoo issue 54",
-    "tag_state": "4.2.6-impact-v12 NOT placed; awaits review verdict and explicit owner authorization",
-    "next_action": "Owner launches an independent reviewer with the prompt in docs/review/MILESTONE12.md section 4; apply findings, then the tag decision",
+    "tag_state": "4.2.6-impact-v12 placed by the owner on runtime snapshot 4e1b912cb (the import merge, PR 478); tag object 9a4d9afeb9d3795697dbc396e4693a2d7abb7334; the milestone-12 review was waived by the owner 2026-11-13 (issue 479 closed)",
+    "next_action": "Closed: review waived, tag placed; superseded by milestone 13",
     "review_issue": "https://github.com/diegoami/better-borg-c/issues/479"
   },
   "impact_milestone_v12": "https://github.com/diegoami/better-borg-c/milestone/12",
-  "external_review_package_v12": "https://github.com/diegoami/better-borg-c/issues/479"
+  "external_review_package_v12": "https://github.com/diegoami/better-borg-c/issues/479",
+  "impact_milestone_v13": "https://github.com/diegoami/better-borg-c/issues/521",
+  "external_review_package_v13": "https://github.com/diegoami/better-borg-c/issues/521",
+  "milestone13_state": {
+    "base_tag": "4.2.6-impact-v12",
+    "runtime_snapshot": "9ccb2aaee",
+    "package": "docs/measurement/IMPACT-MILESTONE13.md",
+    "review_map": "docs/review/MILESTONE13.md",
+    "units": "19 carries, 0119-0137 (12 from the completed issue-426 queue incl. 7 cleanups; 7 from the owner-directed 2026-11-13/14 source pairs; 0137 stacked on 0136)",
+    "ledger": "136 entries, 134 patch-active",
+    "matrix": "115 groups / 359 cases, ok, zero failures, 295/359 byte-identical at the head (src identical to 9ccb2aaee, gate at 1f0b04882); 24 known byte differences in four documented capture-drift groups plus six pre-existing groups; summary at docs/measurement/impact-v13/regression-summary.json",
+    "not_measured": "per-mode effect of all 19 units (owed to borg-zoo issue 54); no cohort run in this window",
+    "not_carried": "616 duplicate of carried 0004; 13/249 no released fix; 154/590/591/595 classified bug fixes and 615 a policy choice, awaiting owner direction",
+    "tag_state": "4.2.6-impact-v13 NOT placed; awaits the review verdict (or waiver) and explicit owner authorization",
+    "next_action": "Owner launches an independent reviewer with the prompt in docs/review/MILESTONE13.md section 4 (or waives); apply findings, then the tag decision",
+    "review_issue": "https://github.com/diegoami/better-borg-c/issues/521"
+  }
 }
