@@ -52,8 +52,11 @@ cohort or zoo arm reaches it (the class-grid runs finish near depth 3), so the p
 effect is recorded as **not measured**, not neutral, and belongs to the batch with the zoo's
 explicit arms (borg-zoo issue 54).
 
-Matrix group `glyphtrack-116` (2 cases) uses the `after-*.log` rows as its baseline. The full-matrix
-result is recorded on the adoption issue (#482).
+Matrix group `glyphtrack-116` (2 cases) uses the `after-*.log` rows as its baseline. Full matrix
+at this tree: 97 groups / 294 cases, `ok: true`, no failed group, 241/254 byte-identical; the 13
+byte differences are in the same six groups as before this carry (`dispel`, `dispel259`,
+`fleeheal-408`, `knockout`, `preparation`, `vampire`), so no new difference. Running it needed the
+tracker's fixture commits (fetched by sha into the object store).
 
 ## Ledger and credit
 
