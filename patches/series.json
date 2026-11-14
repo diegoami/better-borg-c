@@ -2656,6 +2656,24 @@
       "verification": "docs/measurement/RESIELEC-174.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the elec mode fails before (the note says RAcid) and passes after (RElec, identical queued keys), the plain-melee control byte-identical (log-accuracy fix; compiled decisions unchanged). Mode attribution (2026-11-10 rule): the acting pass's log note is reached in every configuration; the queued keys are identical in both variants, so no configuration can observe a behaviour difference — nil by construction, not by measurement. carried/open+patch-active after merge"
+    },
+    {
+      "id": "TPORTCHECK-593",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/538",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/593",
+      "source_head": "edc4dcb3ff4c869b1fd366dd87330751a0de4d9c",
+      "source_commits": [
+        "edc4dcb3ff4c869b1fd366dd87330751a0de4d9c"
+      ],
+      "applied_commits": [
+        "c9b018c8f"
+      ],
+      "patch": "patches/0144-tportcheck-either.patch",
+      "patch_active": true,
+      "evidence_ref": "382acb7b92bdcd004a144f7aca3403bf3e656dd7",
+      "verification": "docs/measurement/TPORTCHECK-593.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the scrolls mode fails before (the landing check refused, Scrolls of Destruction read next to the danger) and passes after (landing zone checked, no Destruction read), the has-both control byte-identical (the landing-zone gate now matches its callers' either-kind question). Mode attribution (2026-11-10 rule): the landing-zone check runs in the defence paths in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 87. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
