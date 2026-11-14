@@ -1,0 +1,20 @@
+# Recorder extraction, 2026-11-14
+
+Owner task #522 removes the recording producer from this C-only consumer.
+The native recorder is now the Rust crate in diegoami/angband-recorder,
+pinned by borg-rs and borg-reborn-rs. No C-only recorder build remains.
+`measure-native.py prepare --observe` still provides measurement and forked
+checkpoint saves; `--recording` is no longer an option. Existing immutable
+recordings retain their frozen executables, read-only viewers and provenance.
+Their directories are not rewritten or deleted. New recorded play belongs
+to the Rust consumers; curated runs belong to diegoami/borg-cemetery.
+
+This removes tools/native-replay.c and .h, disposable recording instrumentation
+and observer recording calls. It changes no engine/Borg policy, milestone tag,
+canonical carry or historical evidence. The standalone project retains the
+original better-borg-c adaptation credits.
+
+The visible launcher uses start-native-borg.py and observer-only session
+evidence, retaining locks, rolling save backups, final-save publication and
+death export. It no longer freezes a recording executable or advertises a
+replay. Historical reader/verification tooling remains available.

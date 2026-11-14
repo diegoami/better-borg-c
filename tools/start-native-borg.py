@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Visible recording backend for start-borg.sh; Borg activation stays manual."""
+"""Visible measurement backend for start-borg.sh; Borg activation stays manual."""
 from datetime import datetime, timezone
 import fcntl
 import hashlib
@@ -25,7 +25,6 @@ def module(name, path):
 
 
 named = module('visible_named', ROOT / 'run-borg-headless.py')
-recordings = module('visible_recordings', ROOT / 'tools/borg-recordings.py')
 measurement = named.measurement
 saves = named.borg_saves
 
@@ -40,7 +39,7 @@ def run(character, seed):
     fcntl.flock(9, fcntl.LOCK_EX | fcntl.LOCK_NB)
     initial_digest = saves.digest(save) if save.exists() else None
     stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
-    out = ROOT / 'artifacts/recordings' / stamp
+    out = ROOT / 'artifacts/sessions' / stamp
     out.mkdir(parents=True)
     for directory in ('user', 'save', 'scores', 'panic', 'archive'):
         original = ROOT / 'build/native/game/lib' / directory
@@ -51,13 +50,13 @@ def run(character, seed):
     if not (out / 'user/borg.txt').exists():
         # An empty file selects the native defaults. Make that initial input
         # explicit instead of depending on a first-run path-specific warning.
-        (out / 'user/borg.txt').write_text('# Native Borg defaults; recording origin.\n')
+        (out / 'user/borg.txt').write_text('# Native Borg defaults; visible session.\n')
     build = named.prepared_build(allow_build=False)
     if build is None:
         older = next(named.compatible_builds(), None)
-        print('A recording-enabled build of the current local runtime is needed.', flush=True)
+        print('An observer build of the current local runtime is needed.', flush=True)
         if older:
-            print('Available older recording build: ' + older[1]['source_commit'][:12], flush=True)
+            print('Available older measurement build: ' + older[1]['source_commit'][:12], flush=True)
         answer = input('Build and verify the current local checkout? [y/N] ').strip().lower()
         if answer in ('y', 'yes'):
             with named.locked(Path('/tmp/angband-validation.lock')):
@@ -65,35 +64,35 @@ def run(character, seed):
                 build = named.prepared_build()
         elif older:
             build = older[0]
-            print('Continuing with the selected older recording engine.', flush=True)
+            print('Continuing with the selected older measurement engine.', flush=True)
         else:
-            raise ValueError('No recording-capable engine available. Accept the initial build to start a recorded game.')
+            raise ValueError('No observer engine available. Accept the initial build to start a game.')
     env = os.environ.copy()
     for key in list(env):
         if key.startswith(('BORG_MEASURE_', 'BORG_RECORD_', 'BORG_REPLAY_')):
             env.pop(key)
     env.update(BORG_MEASURE_SEED=str(seed), BORG_MEASURE_CAP='2147483647',
-               BORG_MEASURE_DIR=str(out), BORG_MEASURE_FINAL_SAVE=str(out / 'final.save'),
+               BORG_MEASURE_DIR=str(out), BORG_MEASURE_FINAL_SAVE=str(out / 'final.save'), BORG_MEASURE_VISIBLE='1',
                LC_ALL='C.UTF-8', LANG='C.UTF-8')
     if initial_digest:
         env['BORG_MEASURE_LOAD'] = str(save)
     command = [str(build / 'build/game/angband'), '-mx11']
     command += [f'-d{key}={out / key}' for key in ('user', 'save', 'scores', 'panic', 'archive')]
+    for key, directory in {'gamedata':'gamedata','pref':'customize','screens':'screens','help':'help'}.items():
+        command.append(f'-d{key}={build / "source/lib" / directory}')
     command += ['-u' + character, '--', '-n1']
-    command = recordings.begin(build, out, command, env,
-        {'frontend': 'x11', 'seed': seed, 'cap': 2147483647, 'play_turns': None, 'character': character})
     origin_label = f'native save SHA256 {initial_digest}' if initial_digest else 'new character'
-    print(f'Recording: {out}\nOrigin: {origin_label}\nStartup seed: {seed}\nStart Borg manually: Ctrl+Z, confirm, then z.', flush=True)
+    print(f'Session evidence: {out}\nOrigin: {origin_label}\nStartup seed: {seed}\nStart Borg manually: Ctrl+Z, confirm, then z.', flush=True)
     measurement.write(out / 'input.txt', {})
     result = {'build': json.loads((build / 'build.json').read_text()),
               'runner_sha256': LOADED_RUNNER_SHA256, 'harness_commit': measurement.git('rev-parse', 'HEAD'),
               'character': character, 'seed': seed, 'turn_cap': 2147483647,
               'wall_limit_seconds': None, 'stall_limit_seconds': None, 'command': command,
               'environment': {k: env[k] for k in env if k.startswith(('BORG_MEASURE_', 'BORG_RECORD_'))},
-              'cwd': str(out), 'configuration_sha256': recordings.sha(out / 'user/borg.txt') if (out / 'user/borg.txt').exists() else None,
-              'input_sha256': recordings.sha(out / 'input.txt'), 'starting_save_sha256': initial_digest,
-              'calendar_context': {'status': 'recorded', 'start': measurement.calendar_snapshot(),
-                                   'clock_policy': 'Native clock inputs recorded without overriding the original clock'},
+              'cwd': str(out), 'configuration_sha256': measurement.sha(out / 'user/borg.txt') if (out / 'user/borg.txt').exists() else None,
+              'input_sha256': measurement.sha(out / 'input.txt'), 'starting_save_sha256': initial_digest,
+              'calendar_context': {'status': 'observed', 'start': measurement.calendar_snapshot(),
+                                   'clock_policy': 'Live native clock; this is measurement evidence, not a replay recording'},
               'outcome': 'harness_failure', 'publication': 'not published'}
     started = time.monotonic()
     process = None
@@ -123,8 +122,6 @@ def run(character, seed):
         result['exit_code'] = process.returncode
         result['outcome'] = measurement.classify(process.returncode, result['states'])
         result['cause'] = next((s[6:] for s in trace.splitlines() if s.startswith('CAUSE ')), None)
-        shutil.copyfile(out / 'events.txt', out / 'input.txt')
-        result['input_sha256'] = recordings.sha(out / 'input.txt')
         maps = list((out / 'archive').glob('*.map'))
         if len(maps) == 1:
             result['native_map'] = str(maps[0].relative_to(out))
@@ -153,12 +150,10 @@ def run(character, seed):
             result['exit_code'] = process.returncode
         result['wall_seconds'] = time.monotonic() - started
         result['calendar_context']['end'] = measurement.calendar_snapshot()
-        recordings.finalize(out, result)
-        result['files_sha256'] = {str(p.relative_to(out)): recordings.sha(p) for p in out.rglob('*')
+        result['files_sha256'] = {str(p.relative_to(out)): measurement.sha(p) for p in out.rglob('*')
                                   if p.is_file() and p.name != 'result.json'}
         measurement.write(out / 'result.json', result)
     print(f"{result['outcome']}; evidence: {out}", flush=True)
-    print(f'Replay: {ROOT / "replay-borg.py"} {out}', flush=True)
     if result['outcome'] == 'death' and result['cause'] not in ('Quitting', 'Retiring'):
         named.record_natural_death(out, 'https://github.com/diegoami/better-borg-c/issues/134')
     return 0 if result['publication'] == 'published' else 1

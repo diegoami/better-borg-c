@@ -21,8 +21,8 @@ Offers to rebuild missing/stale local sources; does not fetch remote updates.
 Different character names can run together; each save is locked while playing.
 --from-backup restores slot 1; --from-backup=2 selects another slot (1..5).
 The current save is preserved in a timestamped before-restore file first.
-Both visible and headless sessions record replay data. --seed sets a new
-character's seed; otherwise a random seed is recorded for visible play.
+Visible and headless sessions keep measurement evidence. Replay recording
+belongs to the Rust consumers. --seed selects a new character's seed.
 EOF
 }
 
@@ -97,6 +97,6 @@ export ANGBAND_X11_FONT_0="${BORG_PLAY_FONT:-${ANGBAND_X11_FONT_0:--adobe-courie
 printf 'Save: %s/lib/save/%s\n' "$game_dir" "$character"
 echo 'Start Borg: Ctrl+Z, confirm if asked, then z. Save and exit: Ctrl+X.'
 if [[ -n "$seed" ]]; then
-    exec python3 "$repo_dir/tools/start-recorded-borg.py" "$character" "$seed"
+    exec python3 "$repo_dir/tools/start-native-borg.py" "$character" "$seed"
 fi
-exec python3 "$repo_dir/tools/start-recorded-borg.py" "$character"
+exec python3 "$repo_dir/tools/start-native-borg.py" "$character"

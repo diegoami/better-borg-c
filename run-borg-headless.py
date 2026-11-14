@@ -35,14 +35,14 @@ def locked(path, blocking=True):
 
 
 def compatible_builds():
-    """Old GAME sources are usable only with this recording implementation."""
-    names = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h', 'native-spells.h')
+    """Old GAME sources are usable only with this measurement implementation."""
+    names = ('measure-native.py', 'native-observer.c', 'native-observer.h')
     expected = {name: measurement.sha(ROOT / 'tools' / name) for name in names}
     folder = ROOT / 'artifacts/headless/builds'
     for path in sorted(folder.glob('*/build.json'), key=lambda p: p.stat().st_mtime, reverse=True):
         try:
             manifest = json.loads(path.read_text())
-            if (manifest.get('complete') is True and manifest.get('recording_schema') == 'borg-recording@1'
+            if (manifest.get('complete') is True and manifest.get('instrumented') is True and not manifest.get('recording_schema')
                     and all(manifest.get('tools_sha256', {}).get(name) == value for name, value in expected.items())
                     and measurement.sha(path.parent / 'build/game/angband') == manifest['binary_sha256']):
                 yield path.parent, manifest
@@ -63,8 +63,7 @@ def prepared_build(allow_build=True):
     identity = hashlib.sha256()
     identity.update(inspect.getsource(measurement.prepare).encode())
     identity.update(inspect.getsource(measurement.named_play_bridge).encode())
-    identity.update(inspect.getsource(measurement.recording_profile).encode())
-    for name in ('native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h', 'native-spells.h'):
+    for name in ('native-observer.c', 'native-observer.h'):
         identity.update((ROOT / 'tools' / name).read_bytes())
     build = ROOT / 'artifacts/headless/builds' / (commit[:12] + '-' + identity.hexdigest()[:12])
     if build.exists():
@@ -76,12 +75,12 @@ def prepared_build(allow_build=True):
     else:
         for candidate, manifest in compatible_builds():
             if runtime_matches(manifest['source_commit']):
-                print('Reusing recording build from identical runtime source ' + manifest['source_commit'][:12] + '.', flush=True)
+                print('Reusing measurement build from identical runtime source ' + manifest['source_commit'][:12] + '.', flush=True)
                 return candidate
         if not allow_build:
             return None
         print(f'Preparing headless build from {commit[:12]} (first run only).', flush=True)
-        measurement.prepare(SimpleNamespace(output=build, ref=commit, observe=True, retry=False, recording=True))
+        measurement.prepare(SimpleNamespace(output=build, ref=commit, observe=True, retry=False, recording=False))
     return build
 
 
@@ -134,7 +133,7 @@ def run(args):
                 options = SimpleNamespace(build=build, output=out, seed=seed, cap=2,
                     timeout=args.timeout, stall_timeout=args.stall_timeout, no_saves=False,
                     load=frozen if original_digest else None, play_turns=args.turns,
-                    save_name=args.character, configuration=config, recording=True,
+                    save_name=args.character, configuration=config, recording=False,
                     random_birth=getattr(args, 'birth', 'random') == 'random')
                 code = measurement.run(options)
             result = json.loads((out / 'result.json').read_text())
@@ -164,7 +163,8 @@ def run(args):
             measurement.write(out / 'result.json', result)
             print(f"{result['outcome']}: {result.get('actual_additional_turns', '?')} additional engine turns.")
             print(f'Saved: {save}\nEvidence: {out}')
-            print(f'Replay: {ROOT / "replay-borg.py"} {out}')
+            if (out / 'recording.json').exists():
+                print(f'Replay: {ROOT / "replay-borg.py"} {out}')
             if result['outcome'] == 'death':
                 record_natural_death(out, args.death_issue)
             return 0

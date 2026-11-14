@@ -37,7 +37,7 @@ class BuildOffer(unittest.TestCase):
         data = build / 'source/lib/gamedata/class.txt'
         data.parent.mkdir(parents=True)
         data.write_text('fixture data')
-        manifest = {'complete': True, 'instrumented': True, 'recording_schema': 'borg-recording@1',
+        manifest = {'complete': True, 'instrumented': True,
                     'source_commit': source, 'tools_sha256': hashes,
                     'binary_sha256': producer.workflow.sha(binary),
                     'data_sha256': {'lib/gamedata/class.txt': producer.workflow.sha(data)}}
