@@ -1,0 +1,38 @@
+From d7e2377dcf9c4e6d690872e55db9e6138028a362 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 14 Nov 2026 20:23:12 +0100
+Subject: [PATCH] Borg: name the electricity resistance in the
+ resist-electricity note
+
+The borg_defend_aux_resist_e() acting pass notes "# Attempting to cast
+RAcid", a copy of the acid routine's text one function above, so the
+log names the wrong resistance every time the borg prepares its
+electricity defence. The sibling routines name their own element
+(RFire, RCold, RAcid, RPois).
+
+Measured natively (native-c/resielec-174): a Warrior with a Ring of
+Lightning next to an awake energy hound writes "# Attempting to cast
+RAcid" on the original and "# Attempting to cast RElec" with the
+correction, with identical queued keys; the plain-melee control, where
+the routine finds no improvement and writes no note, is byte-identical.
+Investigates diegoami/neo-angband-tracker#174.
+---
+ src/borg/borg-fight-defend.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-fight-defend.c b/src/borg/borg-fight-defend.c
+index 05e6ac00e..1bb1c6a11 100644
+--- a/src/borg/borg-fight-defend.c
++++ b/src/borg/borg-fight-defend.c
+@@ -860,7 +860,7 @@ static int borg_defend_aux_resist_e(int p1)
+         if (borg_simulate)
+             return (p1 - p2);
+ 
+-        borg_note("# Attempting to cast RAcid");
++        borg_note("# Attempting to cast RElec");
+ 
+         /* do it! */
+         if (borg_spell(RESISTANCE)) {
+-- 
+2.53.0
+
