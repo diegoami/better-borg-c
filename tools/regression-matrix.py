@@ -469,6 +469,11 @@ GROUPS = [
     ('resielec-174', 'docs/audit/c-reports/resielec-174', 'R174',
      ('elec', 'control'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source593 (tportcheck-593): after-baselines from the product run; scrolls fails before and
+    # passes after, has-both control byte-identical (tools/verify-tportcheck593.py).
+    ('tportcheck-593', 'docs/audit/c-reports/tportcheck-593', 'TC593',
+     ('scrolls', 'control'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
