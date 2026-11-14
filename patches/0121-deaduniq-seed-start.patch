@@ -1,0 +1,45 @@
+From 35d4ff3f43ad839952466d7d8580320adba95b8c Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:16:36 +0000
+Subject: [PATCH] Borg: seed the dead-unique table with uniques at start-up
+
+borg_init_flow_kill() fills borg_race_death[] from r_info[].max_num,
+which the game sets to 0 for a unique the player has killed.  The test
+is inverted against its own comment ("Skip non-uniques"): it skips the
+uniques and checks the non-uniques, whose max_num is never 0, so the
+table starts empty even when the savefile records dead uniques.
+
+The first borg_update() pass fills the table on its new-level branch,
+but borg_think() calls borg_notice() before borg_update() and then
+computes borg.power from that notice.  On the first pass after the
+borg starts, borg.power therefore misses the dead-unique terms (for
+example Sauron's death in borg_power()), while every candidate the
+same pass evaluates (items to wear, junk to drop) is scored with the
+table filled.  A candidate that is no better, or worse, can then
+outscore the stale baseline: the borg swaps in a weaker item or drops
+and ignores a useful one.
+
+Skip non-uniques, as the comment and the matching scan in
+borg_update() do.
+
+Tracked as diegoami/neo-angband-tracker#101.
+---
+ src/borg/borg-flow-kill.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-flow-kill.c b/src/borg/borg-flow-kill.c
+index 0c347c5ad..e914ea7fb 100644
+--- a/src/borg/borg-flow-kill.c
++++ b/src/borg/borg-flow-kill.c
+@@ -3327,7 +3327,7 @@ void borg_init_flow_kill(void)
+             continue;
+ 
+         /* Skip non-uniques */
+-        if (rf_has(r_ptr->flags, RF_UNIQUE))
++        if (!rf_has(r_ptr->flags, RF_UNIQUE))
+             continue;
+ 
+         /* Mega-Hack -- Access "dead unique" list */
+-- 
+2.43.0
+

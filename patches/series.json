@@ -2260,6 +2260,24 @@
       "verification": "docs/measurement/LUNALTELE-193.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the three teleport modes now leave Lunal mode and refuse the unprepared descent, and the shriek and Lunal-off controls are byte-identical. Mode attribution (2026-11-10 rule): the branch is guarded by borg.lunal_mode, which is set only by the configured borg_lunal_mode or the self-engaged Lunal mode. It is unreachable by construction in the normal-only configuration (all modes pinned off) and in the class-rule munchkin configuration (a munchkin start, not Lunal); reachable in Lunal-only and unrestricted, where the fixture's Lunal-configured path executes it. Per-configuration cohort effect not measured: owed to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
+    },
+    {
+      "id": "DEADUNIQ-101",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/486",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/101",
+      "source_head": "35d4ff3f43ad839952466d7d8580320adba95b8c",
+      "source_commits": [
+        "35d4ff3f43ad839952466d7d8580320adba95b8c"
+      ],
+      "applied_commits": [
+        "1b2ec94df"
+      ],
+      "patch": "patches/0121-deaduniq-seed-start.patch",
+      "patch_active": true,
+      "evidence_ref": "6b50eeb082f242e4adf419d440ea88befe99ddb4",
+      "verification": "docs/measurement/DEADUNIQ-101.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; with Sauron dead the wear, junk and junk-nokitpotion modes now do nothing on the first pass, and the Sauron-alive controls are byte-identical (wear-noscrolls passes in both phases and bounds the effect). Mode attribution (2026-11-10 rule): the corrected start-up loop runs in every configuration (unrestricted, munchkin/Lunal-only, normal-only), but it only changes a decision for a character whose savefile records a dead unique at start-up; a fresh character has none, so a fresh-start cohort cannot move on it. Per-configuration cohort effect not measured: owed to the batch (borg-zoo issue 54). carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {

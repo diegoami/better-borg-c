@@ -357,6 +357,11 @@ GROUPS = [
     ('lunaltele-193', 'docs/audit/c-reports/lunaltele-193', 'LT193',
      ('teleto', 'teleaway', 'teleaway-unseen', 'shriek', 'teleto-nolunal'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source101 (issue 101, deaduniq): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-deaduniq101.py.
+    ('deaduniq-101', 'docs/audit/c-reports/deaduniq-101', 'DU101',
+     ('wear', 'junk', 'junk-nokitpotion', 'alive-wear', 'alive-junk', 'wear-noscrolls'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
