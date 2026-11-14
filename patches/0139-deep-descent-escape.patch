@@ -1,0 +1,88 @@
+From e8c8cae0df448c04259264e6427d28abf65605a1 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 14 Nov 2026 00:12:25 +0000
+Subject: [PATCH] Borg: do not use Deep Descent as an emergency escape
+
+borg_teleport_off_level() falls back to Deep Descent when the borg has no
+Teleport Level, and the danger escapes (Danger Level 1, 3.4 and 8) accept
+that as a successful flight. Deep Descent only takes effect after 3+1d4
+player turns and then lands below the deepest level reached, so the borg
+spent its turn without moving and skipped the escapes listed after it
+(retries at a higher fail rate, Teleport Level by spell, Phase Door).
+
+Only the starving-on-level-1 exit, which accepts a delayed dive, may
+still use Deep Descent; the emergency escapes use Teleport Level only.
+---
+ src/borg/borg-escape.c | 21 ++++++++++++++-------
+ 1 file changed, 14 insertions(+), 7 deletions(-)
+
+diff --git a/src/borg/borg-escape.c b/src/borg/borg-escape.c
+index 1a77bc61b..593d13b58 100644
+--- a/src/borg/borg-escape.c
++++ b/src/borg/borg-escape.c
+@@ -620,7 +620,13 @@ bool borg_dimension_door(int allow_fail)
+     return false;
+ }
+ 
+-static bool borg_teleport_off_level(void)
++/*
++ * Leave the level by Teleport Level or, if allow_delayed, by Deep Descent.
++ * Deep Descent takes effect only after a delay (3+1d4 player turns) and
++ * lands below the deepest level reached, so it is no use as an emergency
++ * escape: callers escaping immediate danger pass allow_delayed = false.
++ */
++static bool borg_teleport_off_level(bool allow_delayed)
+ {
+     /* don't if we are already recalling or waiting for */
+     /* deep descent */
+@@ -630,8 +636,9 @@ static bool borg_teleport_off_level(void)
+             || borg_activate_item(act_tele_level))
+             return true;
+ 
+-        if (borg_activate_item(act_deep_descent)
+-            || borg_read_scroll(sv_scroll_deep_descent))
++        if (allow_delayed
++            && (borg_activate_item(act_deep_descent)
++                || borg_read_scroll(sv_scroll_deep_descent)))
+             return true;
+     }
+ 
+@@ -708,7 +715,7 @@ bool borg_escape(int b_q)
+      * benefit of rising to town.
+      */
+     if (borg.trait[BI_ISWEAK] && borg.trait[BI_CDEPTH] == 1) {
+-        if (borg_teleport_off_level()) {
++        if (borg_teleport_off_level(true)) {
+             borg_note("# Attempting to leave via teleport level/deep descent");
+             return true;
+         }
+@@ -748,7 +755,7 @@ bool borg_escape(int b_q)
+                     || borg_read_scroll(sv_scroll_teleport)
+                     || borg_use_staff_fail(sv_staff_teleportation)
+                     || borg_activate_item(act_tele_long)
+-                    || borg_teleport_off_level()
++                    || borg_teleport_off_level(false)
+ 
+                     /* revisit spells, increased fail rate */
+                     || borg_dimension_door(tmp_allow_fail + 9)
+@@ -961,7 +968,7 @@ bool borg_escape(int b_q)
+         }
+ 
+         /* Use Tport Level after the above attempts failed. */
+-        if (borg_teleport_off_level()) {
++        if (borg_teleport_off_level(false)) {
+             /* Flee! */
+             borg_note("# Danger Level 3.4");
+ 
+@@ -1266,7 +1273,7 @@ bool borg_escape(int b_q)
+                 || borg_activate_item(act_tele_long)
+                 || borg_read_scroll(sv_scroll_teleport)
+                 || borg_use_staff_fail(sv_staff_teleportation)
+-                || borg_teleport_off_level())) {
++                || borg_teleport_off_level(false))) {
+             /* Flee! */
+             borg_note("# Danger Level 8");
+ 
+-- 
+2.53.0
+
