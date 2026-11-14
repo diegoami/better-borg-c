@@ -1,0 +1,32 @@
+From d0164206a3c1111f386f9d9c13ed72850400a939 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sun, 8 Nov 2026 15:45:27 +0100
+Subject: [PATCH] Borg: report a rune read on a grid that is already tracked
+
+When the Borg arrives at a Sea of Runes grid and reads the rune, the
+function returned false if that grid was already in the glyph tracker,
+although the read had been queued. The caller took that as "nothing
+done" and went on to its other flows in the same turn, so a step towards
+an item was queued after the read. Return true: the read is the action.
+
+Tracked as diegoami/neo-angband-tracker#116.
+---
+ src/borg/borg-flow-glyph.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-flow-glyph.c b/src/borg/borg-flow-glyph.c
+index 5af26cf95..22da02db2 100644
+--- a/src/borg/borg-flow-glyph.c
++++ b/src/borg/borg-flow-glyph.c
+@@ -125,7 +125,7 @@ bool borg_flow_glyph(void)
+                 /* Stop if we already new about this glyph */
+                 if ((track_glyph.x[i] == borg.c.x)
+                     && (track_glyph.y[i] == borg.c.y))
+-                    return false;
++                    return true;
+             }
+ 
+             /* Track the newly discovered glyph */
+-- 
+2.43.0
+
