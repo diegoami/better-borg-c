@@ -27,7 +27,7 @@ def load(name, filename):
 workflow = load('producer_helpers', 'death-workflow.py')
 measurement = load('producer_measurement', 'measure-native.py')
 reports = load('producer_reports', 'run-report.py')
-BUILD_TOOLS = ('measure-native.py', 'native-observer.c', 'native-observer.h', 'native-replay.c', 'native-replay.h', 'native-inventory.h', 'native-spells.h')
+BUILD_TOOLS = ('measure-native.py', 'native-observer.c', 'native-observer.h')
 DEFAULT_ISSUE = 'https://github.com/diegoami/better-borg-c/issues/163'
 
 
@@ -113,12 +113,12 @@ def validate_build(build, requested, hashes):
     tools = manifest.get('tools_sha256')
     data = manifest.get('data_sha256')
     if (not manifest.get('complete') or not manifest.get('instrumented')
-            or manifest.get('recording_schema') != 'borg-recording@1'
+            or manifest.get('recording_schema')
             or not source_matches(manifest.get('source_commit'), requested)
             or not isinstance(tools, dict) or not isinstance(data, dict) or not data
             or any(tools.get(k) != v for k, v in hashes.items())
             or workflow.sha(build / 'build/game/angband') != manifest.get('binary_sha256')):
-        raise ValueError('Build must be complete, unchanged, fully recorded and match requested game/Borg source, carry ledger and observation tools')
+        raise ValueError('Build must be complete, unchanged, instrumented without a recorder and match requested game/Borg source, carry ledger and observation tools')
     for name, digest in data.items():
         if workflow.sha(build / 'source' / name) != digest:
             raise ValueError(f'Cached build data changed: {name}')
@@ -130,7 +130,7 @@ def choose_build(args, commit):
     if args.build:
         build = args.build.resolve()
         if not build.exists():
-            raise ValueError('Explicit --build does not exist; omit it to offer a recording build')
+            raise ValueError('Explicit --build does not exist; omit it to offer a measurement build')
         return SimpleNamespace(path=build, manifest=validate_build(build, commit, hashes), reuse=True)
     if target.exists():
         # A changed/incomplete exact cache is preserved for investigation, never
@@ -159,7 +159,7 @@ def announce_build(choice, commit):
         if source != commit:
             print('Game/Borg sources and carry ledger match the requested revision; build provenance retains its original commit.', flush=True)
     else:
-        print(styled(f'No matching recording build. Will build/update to {commit[:12]}.', '33'), flush=True)
+        print(styled(f'No matching measurement build. Will build/update to {commit[:12]}.', '33'), flush=True)
         detail('Build directory', choice.path)
         print(flush=True)
 
@@ -188,7 +188,7 @@ def prepare_build(args, commit):
     if not choice.reuse:
         if not getattr(args, '_build_approved', False):
             raise ValueError('Matching build is missing after preflight; rerun for the build offer')
-        measurement.prepare(SimpleNamespace(output=choice.path, ref=commit, observe=True, recording=True, retry=False))
+        measurement.prepare(SimpleNamespace(output=choice.path, ref=commit, observe=True, recording=False, retry=False))
         _, hashes = build_identity(commit)
         manifest = validate_build(choice.path, commit, hashes)
     else:
@@ -300,7 +300,7 @@ def collect(args, output, seeds, commit):
                 print('\nRunning headless game…', flush=True)
                 code = measurement.run(SimpleNamespace(build=build, output=run, seed=seed, cap=args.turns,
                     timeout=args.timeout, stall_timeout=args.stall_timeout, no_saves=False, load=None,
-                    recording=True, random_birth=getattr(args, 'birth', 'random') == 'random', configuration=configuration))
+                    recording=False, random_birth=getattr(args, 'birth', 'random') == 'random', configuration=configuration))
                 result = workflow.read(run / 'result.json')
                 print_result(result)
                 entry.update(outcome=result['outcome'], cause=result.get('cause'), character=result.get('character'),
@@ -367,7 +367,7 @@ def main():
     p.add_argument('--timeout', type=int, default=120, help='wall-time limit in seconds per character (default120); build/lock wait separate')
     p.add_argument('--stall-timeout', type=int, default=30)
     p.add_argument('--ref', default='HEAD', help='committed native source; pinned before collection')
-    p.add_argument('--build', type=Path, help='existing compatible recording build matching --ref; otherwise cached build prepared')
+    p.add_argument('--build', type=Path, help='existing compatible measurement build matching --ref; otherwise cached build prepared')
     approval = p.add_mutually_exclusive_group()
     approval.add_argument('--yes', action='store_true', help='accept a required build/update without prompting')
     approval.add_argument('--no-build', action='store_true', help='use an existing matching build only; fail if one is missing')

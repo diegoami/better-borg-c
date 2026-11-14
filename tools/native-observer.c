@@ -14,10 +14,6 @@
 #include <errno.h>
 #include <sys/wait.h>
 #include <unistd.h>
-#ifdef BORG_RECORDING
-#include "native-replay.h"
-#include "init.h"
-#endif
 
 static FILE *trace;
 static long decisions;
@@ -52,11 +48,6 @@ void measure_init(void)
     const char *seed = getenv("BORG_MEASURE_SEED");
     directory = getenv("BORG_MEASURE_DIR");
     if (!seed || !directory) quit("measurement environment missing");
-#ifdef BORG_RECORDING
-    record_init();
-    if (getenv("BORG_REPLAY_SYS")) ANGBAND_SYS = getenv("BORG_REPLAY_SYS");
-    if (getenv("BORG_RECORD_VISIBLE")) final_save = getenv("BORG_MEASURE_FINAL_SAVE");
-#endif
     trace = fopen(format("%s/trace.txt", directory), "w");
     if (!trace) quit("measurement trace open failed");
     cap = strtol(getenv("BORG_MEASURE_CAP"), NULL, 10);
@@ -86,18 +77,11 @@ static void finish(const char *outcome)
         fprintf(trace, "MESSAGE %s\n", message_str(i));
     if (borg_initialized) borg_write_map(false);
     fflush(trace);
-#ifdef BORG_RECORDING
-    record_frame(outcome, decisions);
-    record_finish();
-#endif
     quit(NULL);
 }
 
 void measure_tick(void)
 {
-#ifdef BORG_RECORDING
-    if (started) record_frame("tick", decisions);
-#endif
     if (!play_turns && started && turn >= cap) finish("turn_cap");
 }
 
@@ -111,9 +95,6 @@ static bool snapshot(const char *path)
     child = fork();
     if (child < 0) return false;
     if (!child) {
-#ifdef BORG_RECORDING
-        record_snapshot_enter();
-#endif
         _exit(savefile_save(path) ? 0 : 1);
     }
     while (waitpid(child, &status, 0) < 0) {
@@ -128,10 +109,6 @@ void measure_boundary(void)
     char path[1024];
     if (!started) {
         started = true;
-#ifdef BORG_RECORDING
-        if (getenv("BORG_RECORD_VISIBLE") || getenv("BORG_MEASURE_LOAD"))
-            strnfmt(savefile, sizeof(savefile), "%s/autosave.save", directory);
-#endif
         if (play_turns) {
             if (turn > INT32_MAX - play_turns)
                 quit("named-play turn target overflow");
@@ -200,17 +177,6 @@ void measure_end(void)
         (player->total_winner ? "completion" : getenv("BORG_RECORD_VISIBLE") ? "saved" : "unexpected_stop"));
 }
 
-void measure_frame(void)
-{
-#ifdef BORG_RECORDING
-    record_frame("command", decisions);
-#endif
-}
-
-#ifdef BORG_RECORDING
-long measure_decision_count(void) { return decisions; }
-bool measure_snapshot_for_replay(const char *path) { return snapshot(path); }
-#endif
 
 void measure_note(const char *text)
 {
