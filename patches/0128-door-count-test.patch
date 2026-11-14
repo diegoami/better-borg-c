@@ -1,0 +1,38 @@
+From f6f0d37cd6173f88b3132f5c038a222a2a449f1a Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 18:05:58 +0000
+Subject: [PATCH] Borg: remove an unreachable door-count test from
+ borg_play_step()
+
+On breeder levels borg_play_step() closes an adjacent open door before
+moving.  Its scan skipped every door when track_door.num >= 255, under
+the comment "Skip repeatedly closed doors".  track_door holds 100
+entries and its count only grows while it is below that size, so the
+test is never true; it is also a count of the whole list, not a test of
+the door being looked at.
+
+Remove the test and its comment.  No behaviour change.
+
+Tracked as diegoami/neo-angband-tracker#126.
+---
+ src/borg/borg-flow.c | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/src/borg/borg-flow.c b/src/borg/borg-flow.c
+index 948675159..78fef9b28 100644
+--- a/src/borg/borg-flow.c
++++ b/src/borg/borg-flow.c
+@@ -639,10 +639,6 @@ static bool borg_play_step(int y2, int x2)
+                 if (ag->kill)
+                     continue;
+ 
+-                /* Skip repeatedly closed doors */
+-                if (track_door.num >= 255)
+-                    continue;
+-
+                 /* skip our original goal */
+                 if ((oy + borg.c.y == y2) && (ox + borg.c.x == x2))
+                     continue;
+-- 
+2.43.0
+
