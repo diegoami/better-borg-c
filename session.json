@@ -94,9 +94,9 @@
   "current_task": {
     "issue": "https://github.com/diegoami/better-borg-c/issues/426",
     "branch": "task/carry-<name>, one branch and PR per source unit",
-    "state": "v12->v13 cycle: the owner-directed 2026-11-13/14 mechanical batch is complete and merged (0131-0137: sources 38, 202, 592, 596, 589, 594, 610-stacked, tip 9ccb2aaee); 616 recorded as a duplicate of carried 0004; classification of 154/590/591/595 (bug fixes) and 615 (policy choice) posted for the owner; milestone-13 package is the recorded next step",
+    "state": "v13->v14 cycle: owner-approved batch done \u2014 0138 source154 (PR 524), 0139 source590 (PR 526), 0140 source591 (PR 528) merged; 0141 source595 BLOCKED not carried (the source fix requires exactly d==want where the game lands closest-to; our matrix rejected it: 12 failed cases in shot-path/per-spell/cold-protection; diagnosis on tracker #595, red on task/carry-phasemodel-595, reconsider when the source selection is fixed). 4.2.6-impact-v13 placed on 9ccb2aaee under owner authorization (tag object 5a89b17d6f2d); #521 review open, owner assigned Kimi. Milestone-14 window = v13 tag -> head over 0138-0140 (plus 0141 if/when re-carried); per-mode debt handoff filed as borg-zoo#87",
     "instructions": "issues/426 (queue); RULES 19 and AGENTS (mode-attribution rule); docs/measurement/STUNPROT-589.md and VULNMOD-610.md (the per-phase include-roots lesson for header-touching carries)",
-    "next": "owner decision on 154/590/591/595/615; then milestone-13 package (v12 tag -> 9ccb2aaee)"
+    "next": "await Kimi's milestone-13 verdict on #521; await the source-lane fix for phasemodel-595 (d == want -> closest-to-want) to re-carry 0141; then milestone-14 package when the owner asks"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
   "impact_milestone_v4": "https://github.com/diegoami/better-borg-c/milestone/4",
