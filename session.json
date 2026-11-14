@@ -94,9 +94,9 @@
   "current_task": {
     "issue": "https://github.com/diegoami/better-borg-c/issues/426",
     "branch": "task/carry-<name>, one branch and PR per source unit",
-    "state": "v13->v14 cycle: the newly-released pair set is complete \u2014 0142 source192 (PR 535, d6fc9a68e) and 0143 source174 (PR 537, ae420e82c) merged; 0138-0140 (154/590/591) merged earlier in the window. Milestone-14 window = v13 tag (9ccb2aaee) -> head (ae420e82c) over 0138-0140 + 0142-0143; 0141 source595 blocked on tracker #595's landing-selection fix (red on task/carry-phasemodel-595). Ledger 141 entries, 139 patch-active. Matrix 120 groups / 369 cases ok, 317/369 byte-identical (only declared transitions differ). #521 closed (re-review approve)",
+    "state": "upstream sweep complete: the newly-released fixes are all handled \u2014 0142 source192 (PR 535), 0143 source174 (PR 537), 0144 source593 (PR 539, cdfb6d477) carried; 0145 source629 BLOCKED not carried (the divegate fix breaks the carried deskstair-153 desperation search in twodown: desperate_stairs 1 -> 0, isolated against the pre-fix build; diagnosis on tracker #629, red on task/carry-divegate-629). 0141 source595 still blocked on tracker #595 (landing-selection defect). Ledger 142 entries, 140 patch-active. Matrix at the 593 tip: 121/371 ok; at the 629 tip: 122/373 with deskstair-153/twodown failing (the block reason)",
     "instructions": "issues/426 (queue); RULES 19 and AGENTS (mode-attribution rule); docs/measurement/STUNPROT-589.md and VULNMOD-610.md (the per-phase include-roots lesson for header-touching carries)",
-    "next": "milestone-14 package on owner request; 0141 re-carry when tracker #595 is fixed; 615 policy decision; D0020-D0030 assessments (issue 163)"
+    "next": "0141 and 0145 re-carry when their source fixes are amended; milestone-14 package on owner request (window v13 tag -> head over 0138-0140, 0142-0144); 615 policy decision; D0020-D0030 assessments (issue 163)"
   },
   "borg_design_and_tuning_references": "PLAN.md#borg-design-tuning-proposal-and-evidence-references",
   "impact_milestone_v4": "https://github.com/diegoami/better-borg-c/milestone/4",
