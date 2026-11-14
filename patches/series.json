@@ -2422,6 +2422,24 @@
       "verification": "docs/measurement/TELEOTIER-176.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; every mode passes in both phases with identical outcomes (removes code the source shows is unreachable or a no-op). Mode attribution (2026-11-10 rule): a behaviour-preserving cleanup, so no configuration can observe a difference; this rests on the source reachability argument and the kit, not on a cohort run. carried/open+patch-active after merge"
+    },
+    {
+      "id": "RESTCOMMENT-486",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/504",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/486",
+      "source_head": "622f62ddfcc27f04eed3cdee92321fdee74a1ea3",
+      "source_commits": [
+        "622f62ddfcc27f04eed3cdee92321fdee74a1ea3"
+      ],
+      "applied_commits": [
+        "08d83d341"
+      ],
+      "patch": "patches/0130-rest-check-comment.patch",
+      "patch_active": true,
+      "evidence_ref": "c962206e08044367cbfd5cc0a7e49a38575401a6",
+      "verification": "docs/measurement/RESTCOMMENT-486.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; every mode passes in both phases with identical outcomes (comment-only; compiled code unchanged). Mode attribution (2026-11-10 rule): a behaviour-preserving cleanup, so no configuration can observe a difference; this rests on the source reachability argument and the kit, not on a cohort run. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {

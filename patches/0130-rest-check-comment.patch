@@ -1,0 +1,39 @@
+From 622f62ddfcc27f04eed3cdee92321fdee74a1ea3 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 16:03:37 +0000
+Subject: [PATCH] Borg: explain why borg_check_rest() rates a monster at its
+ own grid
+
+Before resting, borg_check_rest() refuses when a monster within four
+grids is too dangerous.  It asks borg_danger_one_kill() for the danger
+at the monster's own grid, not at the resting grid.  That is deliberate:
+at the resting grid a melee monster three or four grids away scores
+almost nothing, while at its own grid it is scored as if adjacent, which
+is the danger it poses once it closes in.
+
+Replace the "one call for dangers" comment with one that says so.
+Comment only; no code change.
+
+Tracked as diegoami/neo-angband-tracker#486.
+---
+ src/borg/borg-flow-misc.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/src/borg/borg-flow-misc.c b/src/borg/borg-flow-misc.c
+index bbc6e1eca..7951989d1 100644
+--- a/src/borg/borg-flow-misc.c
++++ b/src/borg/borg-flow-misc.c
+@@ -1331,7 +1331,9 @@ bool borg_check_rest(int y, int x)
+         if (!kill->awake && d > 8 && !borg.munchkin_mode)
+             continue;
+ 
+-        /* one call for dangers */
++        /* Rate the monster at its own grid, not at (y, x): this is the
++         * danger it poses once it has closed in, so a melee monster a few
++         * grids away still counts against resting here. */
+         p = borg_danger_one_kill(y9, x9, 1, i, true, true);
+ 
+         /* Ignore proximity checks while inside a vault */
+-- 
+2.43.0
+
