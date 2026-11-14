@@ -2368,6 +2368,24 @@
       "verification": "docs/measurement/GLYPHTERM-115.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; every mode passes in both phases with identical outcomes (removes code the source shows is unreachable or a no-op). Mode attribution (2026-11-10 rule): a behaviour-preserving cleanup, so no configuration can observe a difference; this rests on the source reachability argument and the kit, not on a cohort run. carried/open+patch-active after merge"
+    },
+    {
+      "id": "TRAPDEAD-122",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/498",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/122",
+      "source_head": "b53fa471a59305abf4061ca5b3dc8ea3f812cc7a",
+      "source_commits": [
+        "b53fa471a59305abf4061ca5b3dc8ea3f812cc7a"
+      ],
+      "applied_commits": [
+        "4a532c869"
+      ],
+      "patch": "patches/0127-dark-flow-trap-case.patch",
+      "patch_active": true,
+      "evidence_ref": "a5582047f3b38dd06b46291184ce7e00754443d4",
+      "verification": "docs/measurement/TRAPDEAD-122.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; every mode passes in both phases with identical outcomes (removes code the source shows is unreachable or a no-op). Mode attribution (2026-11-10 rule): a behaviour-preserving cleanup, so no configuration can observe a difference; this rests on the source reachability argument and the kit, not on a cohort run. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {

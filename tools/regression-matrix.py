@@ -387,6 +387,11 @@ GROUPS = [
     ('glyphterm-115', 'docs/audit/c-reports/glyphterm-115', 'GT115',
      ('offcenter', 'ring'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source122 (trapdead-122): after-baselines from the product run; both phases pass with identical outcomes
+    # (tools/verify-trapdead122.py).
+    ('trapdead-122', 'docs/audit/c-reports/trapdead-122', 'TD122',
+     ('known', 'unknown', 'door'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
