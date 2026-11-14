@@ -2494,6 +2494,24 @@
       "verification": "docs/measurement/HEALAMOUNT-592.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the window mode (CSW band) fails before and passes after, the control (danger beyond any CSW) is byte-identical (fixed 20/40/60 heal amounts replace the 3.x percentages). Mode attribution (2026-11-10 rule): borg_heal() runs in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 54. carried/open+patch-active after merge"
+    },
+    {
+      "id": "CURELIST-596",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/512",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/596",
+      "source_head": "ac214e76bc9560ce21d2e1c9479d20436544226a",
+      "source_commits": [
+        "ac214e76bc9560ce21d2e1c9479d20436544226a"
+      ],
+      "applied_commits": [
+        "b533e8d65"
+      ],
+      "patch": "patches/0134-cure-lists.patch",
+      "patch_active": true,
+      "evidence_ref": "f1ff6c8012c7d2074a8463813f6d32a3e9c12c96",
+      "verification": "docs/measurement/CURELIST-596.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the blind mode fails before (Waybread eaten 25/100, CLW never reached) and passes after (CLW 25/100), the control is byte-identical (Waybread dropped from the blindness list, HEAL1/HEAL2 from the stun list). Mode attribution (2026-11-10 rule): borg_recover() runs in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 54. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {

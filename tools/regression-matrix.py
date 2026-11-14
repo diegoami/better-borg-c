@@ -423,6 +423,11 @@ GROUPS = [
     ('healamount-592', 'docs/audit/c-reports/healamount-592', 'HA592',
      ('window', 'control'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source596 (curelist-596): after-baselines from the product run; blind fails before and
+    # passes after, control byte-identical (tools/verify-curelist596.py).
+    ('curelist-596', 'docs/audit/c-reports/curelist-596', 'CL596',
+     ('blind', 'control'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
