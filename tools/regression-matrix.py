@@ -453,6 +453,11 @@ GROUPS = [
     ('deepdescent-590', 'docs/audit/c-reports/deepdescent-590', 'DD590',
      ('dd-phase', 'control'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source591 (mindblast-591): after-baselines from the product run; nar fails before and
+    # passes after, control byte-identical (tools/verify-mindblast591.py).
+    ('mindblast-591', 'docs/audit/c-reports/mindblast-591', 'MB591',
+     ('nar', 'control'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the

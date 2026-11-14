@@ -1,0 +1,39 @@
+From 9a9fb3ce8fbfe2b01725e92a9ec04e5facb64af1 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@soprasteria.com>
+Date: Sat, 14 Nov 2026 00:07:45 +0000
+Subject: [PATCH] Borg: model Mind Blast as 8d8 damage plus confusion
+
+borg_danger() valued a Mind Blast as spell_power / 2 + 1 damage (about
+15 for a mind flayer) and ignored its confusion. The spell deals 8d8
+(average 36, at most 64) and then confuses for 3+1d4 turns
+(monster_spell.txt MIND_BLAST).
+
+Use the maximum damage, as the other spell cases do, and add the same
+concern for the confusion that the plain confusion spell gets when the
+borg does not resist it.
+---
+ src/borg/borg-danger.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+diff --git a/src/borg/borg-danger.c b/src/borg/borg-danger.c
+index 11efe9f1a..f8090ae34 100644
+--- a/src/borg/borg-danger.c
++++ b/src/borg/borg-danger.c
+@@ -1124,8 +1124,12 @@ static int borg_danger_spell(
+             break;
+ 
+         case RSF_MIND_BLAST:
+-            if (borg.trait[BI_SAV] < 100)
+-                z = (r_ptr->spell_power / 2 + 1);
++            if (borg.trait[BI_SAV] >= 100)
++                break;
++            /* 8d8 damage (monster_spell.txt), then 3+1d4 turns of confusion */
++            z = 8 * 8;
++            if (!borg.trait[BI_RCONF])
++                p += 10;
+             break;
+ 
+         case RSF_BRAIN_SMASH:
+-- 
+2.53.0
+
