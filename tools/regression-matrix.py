@@ -464,6 +464,11 @@ GROUPS = [
     ('rubblemark-192', 'docs/audit/c-reports/rubblemark-192', 'M192',
      ('dark', 'control'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source174 (resielec-174): after-baselines from the product run; elec fails before and
+    # passes after (log note text), control byte-identical (tools/verify-resielec174.py).
+    ('resielec-174', 'docs/audit/c-reports/resielec-174', 'R174',
+     ('elec', 'control'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the

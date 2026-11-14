@@ -2638,6 +2638,24 @@
       "verification": "docs/measurement/RUBBLEMARK-192.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the dark mode fails before (0 of 5 dug rubble grids converted on the borg's map) and passes after (all 5 converted), the lit control byte-identical (the handler walks the full 3x3 block and uses its own x and y). Mode attribution (2026-11-10 rule): the dig-message handler runs in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 87. carried/open+patch-active after merge"
+    },
+    {
+      "id": "RESIELEC-174",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/536",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/174",
+      "source_head": "d7e2377dcf9c4e6d690872e55db9e6138028a362",
+      "source_commits": [
+        "d7e2377dcf9c4e6d690872e55db9e6138028a362"
+      ],
+      "applied_commits": [
+        "2d576a496"
+      ],
+      "patch": "patches/0143-resielec-note.patch",
+      "patch_active": true,
+      "evidence_ref": "6b9fc2defd4d92c7f45d556442ece71a3a124c0e",
+      "verification": "docs/measurement/RESIELEC-174.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the elec mode fails before (the note says RAcid) and passes after (RElec, identical queued keys), the plain-melee control byte-identical (log-accuracy fix; compiled decisions unchanged). Mode attribution (2026-11-10 rule): the acting pass's log note is reached in every configuration; the queued keys are identical in both variants, so no configuration can observe a behaviour difference — nil by construction, not by measurement. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
