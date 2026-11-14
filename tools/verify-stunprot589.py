@@ -143,12 +143,20 @@ def main():
         'phases': {}, 'verified': False,
     }
     for phase, core in (('before', before), ('after', build)):
+        # Compile the scenario against THIS build's own headers, not the
+        # working tree's: the fix touches borg-trait.h, and a header from
+        # the wrong phase shifts every trait enum index after the insert.
+        cache = (core / 'CMakeCache.txt').read_text(errors='replace')
+        home = next(line.split('=', 1)[1].strip() for line in cache.splitlines()
+                    if line.startswith('CMAKE_HOME_DIRECTORY'))
+        home = Path(home)
+        assert (home / 'src/borg/borg-trait.h').exists(), home
         objects = sorted((core / 'CMakeFiles/OurCoreLib.dir').rglob('*.o'))
         helpers = sorted((core / 'CMakeFiles/OurUnitTestLib.dir').rglob('*.o'))
         assert len(objects) >= 150 and helpers
         binary = out / (phase + '-scenario')
-        command = ['cc', '-g', '-DALLOW_BORG', '-I' + str(ROOT / 'src'),
-                   '-I' + str(ROOT / 'src/tests'), str(out / 'scenario.c'),
+        command = ['cc', '-g', '-DALLOW_BORG', '-I' + str(home / 'src'),
+                   '-I' + str(home / 'src/tests'), str(out / 'scenario.c'),
                    *map(str, objects + helpers), '-lm', '-o', str(binary)]
         with (out / (phase + '-link.log')).open('w') as log:
             subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, check=True)
