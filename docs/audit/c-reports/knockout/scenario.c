@@ -23,6 +23,7 @@
 #include "borg/borg-messages-react.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 static term screen;
 static bool observing;
@@ -96,8 +97,14 @@ int setup_tests(void **state)
     borg_init();
     if (borg_init_failure) return 1;
     if (borg_cfg[BORG_CHEAT_DEATH] || OPT(player, cheat_live)) return 1;
-    printf("PROFILE %s cheat_death=%d cheat_live=%d\n", ANGBAND_DIR_USER,
-        borg_cfg[BORG_CHEAT_DEATH], OPT(player, cheat_live));
+    {
+        /* Print the profile basename, not the absolute path: the path is
+         * runner- and machine-specific, and a stable log keeps the matrix
+         * baseline byte-identical across runs. */
+        const char *pbase = strrchr(ANGBAND_DIR_USER, '/');
+        printf("PROFILE %s cheat_death=%d cheat_live=%d\n", pbase ? pbase + 1 : ANGBAND_DIR_USER,
+            borg_cfg[BORG_CHEAT_DEATH], OPT(player, cheat_live));
+    }
     borg.status.active = true;
     borg_update_entrypoint(true);
     event_add_handler(EVENT_MESSAGE, message, NULL);
