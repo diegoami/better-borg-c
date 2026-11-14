@@ -392,6 +392,11 @@ GROUPS = [
     ('trapdead-122', 'docs/audit/c-reports/trapdead-122', 'TD122',
      ('known', 'unknown', 'door'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source126 (doorcap-126): after-baselines from the product run; both phases pass with identical outcomes
+    # (tools/verify-doorcap126.py).
+    ('doorcap-126', 'docs/audit/c-reports/doorcap-126', 'DC126',
+     ('onedoor', 'twodoors', 'full', 'nobreeder'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
