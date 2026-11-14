@@ -1,0 +1,54 @@
+From 65aa5a6d4cc047559b9e633b91534ee5fa920310 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 17:58:45 +0000
+Subject: [PATCH] Borg: remove the dead mana-cost test from the Venom
+ preparation
+
+borg_perma_aux_venom() was copied from the Smite Evil routine and still
+read the cost of SMITE_EVIL.  Only the Blackguard has Venom and the
+Blackguard has no Smite Evil, so the cost came back as -1.  The test
+"cost >= current spell points / 10 (or / 7)" could then only refuse the
+cast with negative spell points, while borg_spell_okay_fail(VENOM) just
+above already requires the spell points to cover Venom's cost of 18.
+The test always passed.
+
+Remove the cost lookup and the test, keeping the current behaviour: the
+Blackguard prepares Venom without a mana-cost limit.  No behaviour
+change.
+
+Tracked as diegoami/neo-angband-tracker#111.
+---
+ src/borg/borg-fight-perm.c | 10 +---------
+ 1 file changed, 1 insertion(+), 9 deletions(-)
+
+diff --git a/src/borg/borg-fight-perm.c b/src/borg/borg-fight-perm.c
+index aff0e0ffd..c957b5042 100644
+--- a/src/borg/borg-fight-perm.c
++++ b/src/borg/borg-fight-perm.c
+@@ -521,7 +521,7 @@ static int borg_perma_aux_smite_evil(void)
+  */
+ static int borg_perma_aux_venom(void)
+ {
+-    int fail_allowed = 5, cost;
++    int fail_allowed = 5;
+ 
+     /* increase the threshold */
+     if (borg.mon.unique)
+@@ -540,14 +540,6 @@ static int borg_perma_aux_venom(void)
+     if (!borg_spell_okay_fail(VENOM, fail_allowed))
+         return 0;
+ 
+-    /* Obtain the cost of the spell */
+-    cost = borg_get_spell_power(SMITE_EVIL);
+-
+-    /* If its cheap, go ahead */
+-    if (cost >= ((borg.mon.unique) ? borg.trait[BI_CURSP] / 7
+-                                   : borg.trait[BI_CURSP] / 10))
+-        return 0;
+-
+     /* Simulation */
+     /* smite evil is a low priority */
+     if (borg_simulate)
+-- 
+2.43.0
+

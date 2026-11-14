@@ -2332,6 +2332,24 @@
       "verification": "docs/measurement/DANGERFULL-69.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; every mode passes in both phases with identical outcomes (comment-only; compiled code unchanged). Mode attribution (2026-11-10 rule): a behaviour-preserving cleanup, so no configuration can observe a difference; this rests on the source reachability argument and the kit, not on a cohort run. carried/open+patch-active after merge"
+    },
+    {
+      "id": "VENOMCOST-111",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/494",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/111",
+      "source_head": "65aa5a6d4cc047559b9e633b91534ee5fa920310",
+      "source_commits": [
+        "65aa5a6d4cc047559b9e633b91534ee5fa920310"
+      ],
+      "applied_commits": [
+        "acfa2ea4b"
+      ],
+      "patch": "patches/0125-venom-cost-dead-test.patch",
+      "patch_active": true,
+      "evidence_ref": "20e52b60035c97120283c8fd05849c566e083c7c",
+      "verification": "docs/measurement/VENOMCOST-111.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; every mode passes in both phases with identical outcomes (removes code the source shows is unreachable or a no-op). Mode attribution (2026-11-10 rule): a behaviour-preserving cleanup, so no configuration can observe a difference; this rests on the source reachability argument and the kit, not on a cohort run. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
