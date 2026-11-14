@@ -402,6 +402,11 @@ GROUPS = [
     ('teleotier-176', 'docs/audit/c-reports/teleotier-176', 'TO176',
      ('over3', 'upper', 'lower', 'under2'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source486 (restcomment-486): after-baselines from the product run; both phases pass with identical outcomes
+    # (tools/verify-restcomment486.py).
+    ('restcomment-486', 'docs/audit/c-reports/restcomment-486', 'RC486',
+     ('bear', 'bear-l20', 'asleep', 'wolf', 'orc'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
