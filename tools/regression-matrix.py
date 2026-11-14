@@ -438,6 +438,11 @@ GROUPS = [
     ('vulnres-594', 'docs/audit/c-reports/vulnres-594', 'VR594',
      ('vuln', 'control'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source610 (vulnmod-610, stacked on 594/0136): after-baselines from the product run; vuln
+    # and temp fail before and pass after, control byte-identical (tools/verify-vulnmod610.py).
+    ('vulnmod-610', 'docs/audit/c-reports/vulnmod-610', 'VM610',
+     ('vuln', 'temp', 'control'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the

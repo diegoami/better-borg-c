@@ -2548,6 +2548,24 @@
       "verification": "docs/measurement/VULNRES-594.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the vuln mode fails before (rFire counted with a fire-vulnerable shield, danger 72) and passes after (rfire cancelled, danger 134), the genuinely-resistant control byte-identical. Mode attribution (2026-11-10 rule): the trait computation runs in borg_notice() in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 54. carried/open+patch-active after merge"
+    },
+    {
+      "id": "VULNMOD-610",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/518",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/610",
+      "source_head": "16a8ac653bc4f6e9564f7b914358a1ebe8a16e1f",
+      "source_commits": [
+        "16a8ac653bc4f6e9564f7b914358a1ebe8a16e1f"
+      ],
+      "applied_commits": [
+        "a817f51c9"
+      ],
+      "patch": "patches/0137-vuln-danger-modelling.patch",
+      "patch_active": true,
+      "evidence_ref": "cb8c51fcb6ee67d683dc94cd5ab320f45b89b1b3",
+      "verification": "docs/measurement/VULNMOD-610.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture (stacked on the carried 0136); native gate at before and tip; vuln and temp fail before and pass after (fire-vulnerability danger 137 -> 169 against a reference of 137; with temporary resistance 73 -> 137), control byte-identical (BI_V* traits and the 4/3 element cases). Mode attribution (2026-11-10 rule): the element cases sit in borg_danger() in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 54. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {
