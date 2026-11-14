@@ -1,0 +1,49 @@
+From 4ee9a38f305d0e44624efdd45c5358d784852754 Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 14:32:55 +0000
+Subject: [PATCH] Borg: leave Lunal mode when a monster teleports the borg
+
+Lunal mode makes the borg stair-scum: it ignores danger and preparedness
+checks on the assumption that it stands on, or next to, a staircase.
+borg_parse_aux() already tries to switch it off when a monster spell
+moves the borg ("commands you to return." and similar), but that test
+compares the start of the line while the game's line starts with the
+monster's name, and every monster spell line is recognised earlier and
+queued as a "SPELL_nnn" reaction before the test is reached.  So after
+a teleport-to or teleport-away the borg stayed in Lunal mode, away from
+the stairs, and kept making Lunal choices such as heading down to a
+depth it is not prepared for.
+
+Switch Lunal mode off where borg_update() handles the queued spell
+reaction for teleport-to and teleport-away.  Self-engaged Lunal mode is
+re-evaluated on the next dungeon think as before; Lunal mode set in
+borg.txt stays off for the rest of the session.
+
+Tracked as diegoami/neo-angband-tracker#193.
+---
+ src/borg/borg-update.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+diff --git a/src/borg/borg-update.c b/src/borg/borg-update.c
+index b5cafd02f..fa50b1c27 100644
+--- a/src/borg/borg-update.c
++++ b/src/borg/borg-update.c
+@@ -1985,6 +1985,15 @@ void borg_update(void)
+             int spell = atoi(msg + 6);
+             if (spell == RSF_TRAPS)
+                 created_traps = true;
++
++            /* Teleport-to and teleport-away move the borg off his grid.
++             * If in Lunal mode better shut that off, he is not on the
++             * stairs anymore */
++            if ((spell == RSF_TELE_TO || spell == RSF_TELE_AWAY)
++                && borg.lunal_mode) {
++                borg.lunal_mode = false;
++                borg_note("# Disconnecting Lunal Mode due to monster spell.");
++            }
+         }
+ 
+         /* Handle "cackles evilly" */
+-- 
+2.43.0
+

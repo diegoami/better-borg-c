@@ -352,6 +352,11 @@ GROUPS = [
     ('glyphtrack-116', 'docs/audit/c-reports/glyphtrack-116', 'GT116',
      ('complete-sea', 'new-sea'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source193 (issue 193, lunaltele): after-baselines from the product run; the
+    # before phase is the documented flip in tools/verify-lunaltele193.py.
+    ('lunaltele-193', 'docs/audit/c-reports/lunaltele-193', 'LT193',
+     ('teleto', 'teleaway', 'teleaway-unseen', 'shriek', 'teleto-nolunal'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
