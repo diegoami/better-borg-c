@@ -228,5 +228,22 @@
     "Issue 283 (square_in_bounds(NULL) abort): stale claim since 2026-11-08; no symbolized stack yet (no gdb; the 1000 s ASan replay and the assertion preload did not reproduce). Available for takeover after noting it in the claim thread.",
     "Baseline re-point follow-up CLOSED (PR 532, dd742d67a): the six drift groups compare against committed product logs; knockout's PROFILE line prints the basename. Remaining matrix byte-diffs are only the declared intentional transitions.",
     "0141 (source595) re-carry: blocked on the tracker #595 landing-selection fix (d == want -> closest-to-want); diagnosis posted, red retained on task/carry-phasemodel-595."
-  ]
+  ],
+  "impact_milestone_v14": "https://github.com/diegoami/better-borg-c/issues/542",
+  "external_review_package_v14": "https://github.com/diegoami/better-borg-c/issues/542",
+  "milestone14_state": {
+    "base_tag": "4.2.6-impact-v13",
+    "runtime_snapshot": "cdfb6d477",
+    "package": "docs/measurement/IMPACT-MILESTONE14.md",
+    "review_map": "docs/review/MILESTONE14.md",
+    "units": "6 carries: 0138 RETREATADJ-154 (PR 524), 0139 DEEPDESCENT-590 (PR 526), 0140 MINDBLAST-591 (PR 528), 0142 RUBBLEMARK-192 (PR 535), 0143 RESIELEC-174 (PR 537), 0144 TPORTCHECK-593 (PR 539) \u2014 all kit logs byte-identical to the source captures",
+    "ledger": "142 entries, 140 patch-active",
+    "matrix": "121 groups / 371 cases, ok, zero failures, 316/371 byte-identical at the head; 12 declared intentional transitions + 19 disclosed information lines (losecon-61 2, deepdescent-590 1 from the 0144 gate; fleeheal-408 4, dispel 2, dispel259 2, vampire 2, preparation 2); summary at docs/measurement/impact-v14/regression-summary.json",
+    "blocked": "0141 source595 (landing-selection defect, tracker #595) and 0145 source629 (desperation-bypass interaction, tracker #629) \u2014 not carried, diagnoses posted, red branches retained",
+    "not_measured": "per-mode effect of all six units (owed to borg-zoo issue 87); no cohort run in this window; 0143 nil by construction",
+    "tag_state": "4.2.6-impact-v14 NOT placed; awaits the review verdict (or waiver) and explicit owner authorization",
+    "next_action": "Owner launches an independent reviewer with the prompt in docs/review/MILESTONE14.md section 4 (or waives); apply findings, then the tag decision",
+    "review_issue": "https://github.com/diegoami/better-borg-c/issues/542",
+    "window_non_runtime": "milestone-13 review closed (approve, re-review); M13 corrections PR 531; baseline re-point PR 532; death registry PR 533 (D0020-D0030 raw, assessments owed on issue 163); recorder-producer removal PR 530 (owner); session-state commits"
+  }
 }
