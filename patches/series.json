@@ -2440,6 +2440,24 @@
       "verification": "docs/measurement/RESTCOMMENT-486.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
       "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; every mode passes in both phases with identical outcomes (comment-only; compiled code unchanged). Mode attribution (2026-11-10 rule): a behaviour-preserving cleanup, so no configuration can observe a difference; this rests on the source reachability argument and the kit, not on a cohort run. carried/open+patch-active after merge"
+    },
+    {
+      "id": "WANDNAMES-38",
+      "consumer_issue": "https://github.com/diegoami/better-borg-c/issues/506",
+      "source_issue": "https://github.com/diegoami/neo-angband-tracker/issues/38",
+      "source_head": "f9f0384a6dec8cc3a1e78d8210df8b004f594e8a",
+      "source_commits": [
+        "f9f0384a6dec8cc3a1e78d8210df8b004f594e8a"
+      ],
+      "applied_commits": [
+        "d3e089107"
+      ],
+      "patch": "patches/0131-wand-names.patch",
+      "patch_active": true,
+      "evidence_ref": "0775b3c4029ec51fa698c1ef70e2491f756bef5e",
+      "verification": "docs/measurement/WANDNAMES-38.md",
+      "credit": "Diego Amicabile (native proposal/evidence)",
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; bolts-vs-frost, balls-only, confuse-only and scare-only fail before and pass after, frost-only control byte-identical (two name-table corrections at start-up). Mode attribution (2026-11-10 rule): the changed branch executes at start-up in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 54. carried/open+patch-active after merge"
     }
   ],
   "upstream_import": {

@@ -407,6 +407,12 @@ GROUPS = [
     ('restcomment-486', 'docs/audit/c-reports/restcomment-486', 'RC486',
      ('bear', 'bear-l20', 'asleep', 'wolf', 'orc'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source38 (wandnames-38): after-baselines from the product run; bolts-vs-frost, balls-only,
+    # confuse-only and scare-only fail before and pass after, frost-only control byte-identical
+    # (tools/verify-wandnames38.py).
+    ('wandnames-38', 'docs/audit/c-reports/wandnames-38', 'WN38',
+     ('bolts-vs-frost', 'balls-only', 'confuse-only', 'scare-only', 'frost-only'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
