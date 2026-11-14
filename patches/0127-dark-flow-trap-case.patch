@@ -1,0 +1,95 @@
+From b53fa471a59305abf4061ca5b3dc8ea3f812cc7a Mon Sep 17 00:00:00 2001
+From: Diego Amicabile <diego.amicabile@gmail.com>
+Date: Sun, 8 Nov 2026 15:57:13 +0000
+Subject: [PATCH] Borg: remove the unreachable visible-trap case from dark-flow
+ exploration
+
+borg_flow_dark_interesting() returns early for every grid below
+FEAT_SECRET except closed doors.  Its "Explore visible traps" case tests
+feat_is_trap_holding(ag->feat), and in the stock terrain data only the
+open floor carries the TRAP flag.  The floor is below FEAT_SECRET, so the
+test is never reached with a grid it could accept, and the borg keeps
+known traps in ag->trap rather than in the feature anyway.
+
+Delete the case and the "visible trap" wording in the function comment.
+No behaviour change: traps lying on a chosen route are still checked by
+the flow spread and disarmed by the step code.
+
+Tracked as diegoami/neo-angband-tracker#122.
+---
+ src/borg/borg-flow-dark.c | 52 +--------------------------------------
+ 1 file changed, 1 insertion(+), 51 deletions(-)
+
+diff --git a/src/borg/borg-flow-dark.c b/src/borg/borg-flow-dark.c
+index 8debd29b0..7aa6fefb3 100644
+--- a/src/borg/borg-flow-dark.c
++++ b/src/borg/borg-flow-dark.c
+@@ -39,7 +39,7 @@
+  * Determine if a grid is "interesting" (and should be explored)
+  *
+  * A grid is "interesting" if it is a closed door, rubble, hidden treasure,
+- * or a visible trap, or an "unknown" grid.
++ * or an "unknown" grid.
+  * or a non-perma-wall adjacent to a perma-wall. (GCV)
+  *
+  */
+@@ -144,56 +144,6 @@ static bool borg_flow_dark_interesting(int y, int x)
+         return true;
+     }
+ 
+-    /* Explore "visible traps" */
+-    if (feat_is_trap_holding(ag->feat)) {
+-        /* Do not disarm when blind */
+-        if (borg.trait[BI_ISBLIND])
+-            return false;
+-
+-        /* Do not disarm when confused */
+-        if (borg.trait[BI_ISCONFUSED])
+-            return false;
+-
+-        /* Do not disarm when hallucinating */
+-        if (borg.trait[BI_ISIMAGE])
+-            return false;
+-
+-        /* Do not flow without lite */
+-        if (borg.trait[BI_LIGHT] == 0)
+-            return false;
+-
+-        /* Do not disarm trap doors on level 99 */
+-        if (borg.trait[BI_CDEPTH] == 99 && ag->trap && !ag->glyph)
+-            return false;
+-
+-        /* Do not disarm when you could end up dead */
+-        if (borg.trait[BI_CURHP] < 60)
+-            return false;
+-
+-        /* Do not disarm when clumsy */
+-        if (borg.trait[BI_DISP] < 30 && borg.trait[BI_CLEVEL] < 20)
+-            return false;
+-        if (borg.trait[BI_DISP] < 45 && borg.trait[BI_CLEVEL] < 10)
+-            return false;
+-        if (borg.trait[BI_DISM] < 30 && borg.trait[BI_CLEVEL] < 20)
+-            return false;
+-        if (borg.trait[BI_DISM] < 45 && borg.trait[BI_CLEVEL] < 10)
+-            return false;
+-
+-        /* Do not explore if a Scaryguy on the Level */
+-        if (borg.mon.scary)
+-            return false;
+-
+-        /* NOTE: the flow code allows a borg to flow through a trap and so he
+-         * may still try to disarm one on his way to the other interesting grid.
+-         * If mods are made to the above criteria for disarming traps, then mods
+-         * must also be made to borg_flow_spread() and borg_flow_direct()
+-         */
+-
+-        /* Okay */
+-        return true;
+-    }
+-
+     /* Ignore other grids */
+     return false;
+ }
+-- 
+2.43.0
+
