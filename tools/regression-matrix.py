@@ -382,6 +382,11 @@ GROUPS = [
     ('venomcost-111', 'docs/audit/c-reports/venomcost-111', 'VC111',
      ('unique', 'unique50', 'nounique', 'poisoned'),
      {'baseline_log': lambda mode: f'after-{mode}.log'}),
+    # Source115 (glyphterm-115): after-baselines from the product run; both phases pass with identical outcomes
+    # (tools/verify-glyphterm115.py).
+    ('glyphterm-115', 'docs/audit/c-reports/glyphterm-115', 'GT115',
+     ('offcenter', 'ring'),
+     {'baseline_log': lambda mode: f'after-{mode}.log'}),
 
     # Improvement I-002 (issue408, fleeing-heal): the baseline logs are the
     # before-build (ac0cc65c5) runs.  There the flee-low case replays the
