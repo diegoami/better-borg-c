@@ -30,6 +30,8 @@ class ListGames(unittest.TestCase):
             (game / 'reports/summary.json').write_text(json.dumps(
                 {'seed': int(game.name.rsplit('-', 1)[1]), 'outcome': outcome, 'cause': cause,
                  'character': 'Measure Test', 'turn': turn, 'level': 1, 'max_depth': 1}))
+        for game in (self.dead,self.alive):
+            (game/'recording.json').write_text(json.dumps({'schema':'borg-recording@1','status':'complete'}))
         case = self.root / 'docs/deaths/D0099-collected'
         case.mkdir(parents=True)
         (case / 'record.json').write_text(json.dumps(
@@ -65,6 +67,15 @@ class ListGames(unittest.TestCase):
         self.assertIn('D0099 NOT reviewed; manual from 3983: saved', text)
         self.assertIn('--mark-reviewed D0099', text)
         self.assertIn('game-002-seed-12 --view-only', text)
+
+    def test_observer_only_runs_offer_evidence_without_unusable_replay_links(self):
+        for game in (self.dead,self.alive):
+            (game/'recording.json').unlink()
+        text=self.run_main()
+        self.assertIn('observer-only; no replay recording',text)
+        self.assertNotIn('./replay-borg.py',text)
+        self.assertNotIn('./play-from-replay.py',text)
+        self.assertIn('--mark-reviewed D0099',text)
 
     def test_pending_filters_to_unreviewed_deaths(self):
         data = json.loads(self.run_main('--pending', '--json'))

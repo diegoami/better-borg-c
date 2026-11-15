@@ -116,13 +116,17 @@ def relative(path):
 def commands(entry):
     game = relative(entry['directory'])
     lines = []
-    if entry['outcome'] == DEATH:
-        start = max(1, (entry['turn'] or 0) - WINDOW)
-        lines.append(f'watch:  ./replay-borg.py {game}   (opens at turn {start}; '
-                     f'add --from-turn <turn> to start elsewhere)')
+    manifest = read(Path(entry['directory']) / 'recording.json') or {}
+    if manifest.get('schema') == 'borg-recording@1' and manifest.get('status') in ('complete','incomplete'):
+        if entry['outcome'] == DEATH:
+            start = max(1, (entry['turn'] or 0) - WINDOW)
+            lines.append(f'watch:  ./replay-borg.py {game}   (opens at turn {start}; '
+                         f'add --from-turn <turn> to start elsewhere)')
+        else:
+            lines.append(f'watch:  ./replay-borg.py {game} --view-only')
+        lines.append(f'play:   ./play-from-replay.py {game} --from-turn <turn>|latest')
     else:
-        lines.append(f'watch:  ./replay-borg.py {game} --view-only')
-    lines.append(f'play:   ./play-from-replay.py {game} --from-turn <turn>|latest')
+        lines.append(f'evidence: {game}/reports/summary.md (observer-only; no replay recording)')
     if entry['case']:
         lines.append(f'review: ./replay_next_death.py --case {entry["case"]}'
                      f'   (mark done: ./replay_next_death.py --mark-reviewed {entry["case"]})')

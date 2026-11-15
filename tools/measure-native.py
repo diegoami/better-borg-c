@@ -287,7 +287,7 @@ def run(args):
                                    'start': calendar_snapshot()},
               'command': command, 'cwd': str(build / 'source'),
               'environment': {k: env[k] for k in ('BORG_MEASURE_SEED', 'BORG_MEASURE_CAP', 'BORG_MEASURE_DIR', 'LC_ALL', 'LANG', 'BORG_MEASURE_NO_SAVES', 'BORG_MEASURE_LOAD') if k in env},
-              'build': manifest, 'character': 'Human Warrior; default point buy; normal UI birth',
+              'build': manifest, 'frontend': 'test', 'run_kind':'headless-observer', 'character': 'Human Warrior; default point buy; normal UI birth',
               'configuration_sha256': sha(out / 'user/borg.txt'), 'outcome': 'harness_failure'}
     if play_turns:
         result.update(turn_cap=None, requested_additional_turns=play_turns,
