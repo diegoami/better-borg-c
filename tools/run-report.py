@@ -161,7 +161,9 @@ def create(run, result, format_character=True):
               'wall_seconds':result.get('wall_seconds'), 'recorded_kills':None,
               'snapshot':None, 'native_character_dump':None}
     manifest_path = run / 'recording.json'
-    files = json.loads(manifest_path.read_text()).get('files_sha256',{}) if manifest_path.exists() else {}
+    files = json.loads(manifest_path.read_text()).get('files_sha256',{}) if manifest_path.exists() else result.get('files_sha256',{})
+    if not isinstance(files,dict):
+        files = {}
     snapshots = []
     for name in ('world-fingerprint.save','final.save','recent.save','start.save'):
         p = run / name

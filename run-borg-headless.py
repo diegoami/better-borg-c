@@ -91,7 +91,11 @@ def record_natural_death(out, issue):
         numbers = [int(p.name[1:5]) for p in records.glob('D[0-9][0-9][0-9][0-9]-*')]
         case = f'D{max(numbers, default=0) + 1:04d}'
         metadata = json.loads((out / 'recording.json').read_text()) if (out / 'recording.json').exists() else {}
-        kind = 'visible-recording' if metadata.get('profile', {}).get('frontend') == 'x11' else 'named-headless'
+        result = json.loads((out / 'result.json').read_text()) if (out / 'result.json').exists() else {}
+        frontend = metadata.get('profile', {}).get('frontend') or result.get('frontend')
+        if not frontend:
+            frontend = 'x11' if '-mx11' in result.get('command', []) else 'test'
+        kind = ('visible-recording' if metadata else 'visible-observer') if frontend == 'x11' else 'named-headless'
         dossier = records / (case + '-' + kind)
         subprocess.run([sys.executable, str(ROOT / 'tools/record-death.py'),
             '--run', str(out), '--output', str(dossier), '--id', case,

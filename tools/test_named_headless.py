@@ -22,6 +22,15 @@ runner = load('named_headless_test', ROOT / 'run-borg-headless.py')
 
 
 class SaveSafety(unittest.TestCase):
+    def test_visible_observer_death_retains_its_frontend_without_recording_json(self):
+        for fields in [{'frontend':'x11'}, {'command':['angband','-mx11']}]:
+            with tempfile.TemporaryDirectory() as folder:
+                root=Path(folder);out=root/'session';out.mkdir()
+                (out/'result.json').write_text(json.dumps(fields))
+                with mock.patch.object(runner,'ROOT',root), mock.patch.object(runner.subprocess,'run'):
+                    case=runner.record_natural_death(out,'test-issue')
+                self.assertIn('visible-observer',case)
+
     def test_living_checkpoint_backup_leaves_dead_save_untouched(self):
         with tempfile.TemporaryDirectory() as tmp:
             save, checkpoint = Path(tmp) / 'Hero', Path(tmp) / 'recent.save'

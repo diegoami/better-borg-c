@@ -84,7 +84,7 @@ def run(character, seed):
     origin_label = f'native save SHA256 {initial_digest}' if initial_digest else 'new character'
     print(f'Session evidence: {out}\nOrigin: {origin_label}\nStartup seed: {seed}\nStart Borg manually: Ctrl+Z, confirm, then z.', flush=True)
     measurement.write(out / 'input.txt', {})
-    result = {'build': json.loads((build / 'build.json').read_text()),
+    result = {'frontend':'x11', 'run_kind':'visible-observer', 'build': json.loads((build / 'build.json').read_text()),
               'runner_sha256': LOADED_RUNNER_SHA256, 'harness_commit': measurement.git('rev-parse', 'HEAD'),
               'character': character, 'seed': seed, 'turn_cap': 2147483647,
               'wall_limit_seconds': None, 'stall_limit_seconds': None, 'command': command,

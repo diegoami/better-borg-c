@@ -36,6 +36,23 @@ class RunReports(unittest.TestCase):
         (root/'recording.json').write_text(json.dumps({'files_sha256':{p.name:report.sha(p)}}))
         return p,r
 
+    def test_observer_snapshot_uses_the_result_hash_map_without_recording(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);snapshot,result=self.fixture(root)
+            (root/'recording.json').unlink();result['files_sha256']={snapshot.name:report.sha(snapshot)}
+            _,output=report.create(root,result,format_character=False)
+            self.assertEqual(output['snapshot']['sha256'],report.sha(snapshot));self.assertEqual(output['recorded_kills'],5)
+            snapshot.write_bytes(b'changed')
+            _,bad=report.create(root,result,format_character=False)
+            self.assertIsNone(bad['snapshot']);self.assertIn(snapshot.name,bad['snapshot_errors'])
+    def test_result_cannot_override_a_recording_manifest_mismatch(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);snapshot,result=self.fixture(root)
+            (root/'recording.json').write_text(json.dumps({'files_sha256':{snapshot.name:'wrong'}}))
+            result['files_sha256']={snapshot.name:report.sha(snapshot)}
+            _,output=report.create(root,result,format_character=False)
+            self.assertIsNone(output['snapshot'])
+
     def test_native_player_and_lifetime_kill_fields(self):
         with tempfile.TemporaryDirectory() as temp:
             p,_=self.fixture(Path(temp));r=report.saved_character(p)
