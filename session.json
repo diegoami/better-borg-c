@@ -241,11 +241,12 @@
     "matrix": "121 groups / 371 cases, ok, zero failures, 316/371 byte-identical at the head; 12 declared intentional transitions + 19 disclosed information lines (losecon-61 2, deepdescent-590 1 from the 0144 gate; fleeheal-408 4, dispel 2, dispel259 2, vampire 2, preparation 2); summary at docs/measurement/impact-v14/regression-summary.json",
     "blocked": "0141 source595 (landing-selection defect, tracker #595) and 0145 source629 (desperation-bypass interaction, tracker #629) \u2014 not carried, diagnoses posted, red branches retained",
     "not_measured": "per-mode effect of all six units (owed to borg-zoo issue 87); no cohort run in this window; 0143 nil by construction",
-    "tag_state": "4.2.6-impact-v14 NOT placed; awaits the review verdict (or waiver) and explicit owner authorization",
-    "next_action": "Tag decision: corrections are in (per the reviewer's recommendation); placement awaits the owner's authorization (verdict stands applied, or waive)",
+    "tag_state": "4.2.6-impact-v14 placed 2026-11-15 on the runtime snapshot cdfb6d477 under explicit owner authorization after the review verdict (approve with corrections) and the corrections (PR 543, dd7d55a3a); tag object b4a8ee2fa7acbb5f8cec591f40ffaad3bed8724c, verified on origin. Corrections are docs/fixture-tooling and postdate the snapshot; they are recorded against milestone 14",
+    "next_action": "Closed. Next window: milestone 15 = v14 tag -> head over 0145/0141 re-carries when their source fixes land, plus any newly released pairs; 615 policy decision and D0020-D0030 assessments remain owner-triggered",
     "review_issue": "https://github.com/diegoami/better-borg-c/issues/542 (verdict recorded; corrections applied; owner may close)",
     "window_non_runtime": "milestone-13 review closed (approve, re-review); M13 corrections PR 531; baseline re-point PR 532; death registry PR 533 (D0020-D0030 raw, assessments owed on issue 163); recorder-producer removal PR 530 (owner); session-state commits",
     "review_verdict": "approve with corrections (reviewer: Kimi, posted 2026-11-14 23:57Z on #542; reproduced the gate, the full matrix at exact headline numbers, two unit verifiers, the 0145 deskstair isolation and the 0141 matrix rejection on a clean clone; the 0141 kit-pass half read from the tracker receipt). Findings: M14-F1 medium (impact-v14 summary absent at the runtime snapshot - committed from the package merge onward; exists at origin/main), M14-F2 low (information-line count 19 -> 3 lines / 15 differing cases total), M14-F3 low (byte-identity sentence scoped - deepdescent-590 differs by the disclosed source156 line). Corrections applied in PR 543 (dd7d55a3a)",
-    "corrections_commit": "dd7d55a3a (PR 543)"
+    "corrections_commit": "dd7d55a3a (PR 543)",
+    "review_issue_note": "Issue #542 closed after the re-review/verdict and the corrections"
   }
 }
