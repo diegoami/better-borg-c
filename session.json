@@ -262,7 +262,13 @@
     "matrix": "121 groups / 371 cases, ok, zero failures; all 371 logs and outcome rows byte-identical to the v14 summary and to the pre-import build; summary at docs/measurement/impact-v15/regression-summary.json",
     "gate": "966/966 unit (upstream adds one check), 5/5 frontend; hosted green at the PR 546 head",
     "release": "4.2.6-impact-v15 on the package merge commit (src/lib/CMakeLists identical to the runtime snapshot); make-release.py now bases assets on upstream_import.official_head 574b618c3",
-    "tag_state": "owner asked 2026-11-19 to make the release now (before the review, as with v13); corrections, if any, go to a point release",
-    "not_measured": "per-mode effect (owed to borg-zoo 54/87); no cohort run; ASan phases of the slay verifier not rerun; slay fixture cannot tell MAX from |="
+    "tag_state": "4.2.6-impact-v15 prepared 2026-11-19 at the owner's request (release before the review, as with v13) as an annotated tag on the package merge 646ebfc2a3a80a0caf87f1ab72fe4bcee0d94343 (PR 548; src/lib/CMakeLists identical to the runtime snapshot b684b95b4). The agent session cannot push tags (git proxy HTTP 403) or create GitHub Releases; the owner pushes the tag and publishes the release with the verified assets and notes handed over in the session. Corrections, if any, go to a point release.",
+    "not_measured": "per-mode effect (owed to borg-zoo 54/87); no cohort run; ASan phases of the slay verifier not rerun; slay fixture cannot tell MAX from |=",
+    "release_assets": {
+      "patch": "8da107b0bde93c42f541bd1dcef09fab1e59287130adcf9a914a32e854687286",
+      "src": "c826916d451f17c2f4801cc7c2cc4158e76ce90adcb5737c9dd3ebcd955543b4",
+      "linux_x86_64": "d329974f15249e1562d9fc69d6db45e2e16268917f1485f3583f74b574cbc422",
+      "verification": "patch reproduces src/lib/CMakeLists of 646ebfc2a on a fresh 574b618c3 checkout and refuses the 4.2.6 tag unchanged; source asset builds standalone and passes 966/966 + 5/5; binary needs glibc 2.38, Borg played and saved under Xvfb for a Half-Orc Ranger and a Dunadan Blackguard (plus a Half-Troll Mage on the identical-tree rehearsal build); patch and source tarballs byte-identical on rebuild"
+    }
   }
 }
