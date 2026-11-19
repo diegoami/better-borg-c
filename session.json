@@ -271,5 +271,6 @@
       "verification": "patch reproduces src/lib/CMakeLists of 646ebfc2a on a fresh 574b618c3 checkout and refuses the 4.2.6 tag unchanged; source asset builds standalone and passes 966/966 + 5/5; binary needs glibc 2.38, Borg played and saved under Xvfb for a Half-Orc Ranger and a Dunadan Blackguard (plus a Half-Troll Mage on the identical-tree rehearsal build); patch and source tarballs byte-identical on rebuild"
     },
     "review_verdict": "approve with corrections (independent Claude agent from a fresh clone at the owner's request, posted on #547 2026-11-19; reproduced 2.1-2.7). Findings: M15-F1 medium (retirement verifier matched the PR 546 merge by message and aborted outside the PR branch), M15-F2 medium (apply.sh only warned on an older official base, silently omitting upstream-retired fixes), M15-F3 info (annotated tag; fixed by PR 549), M15-F4 info (8 first-parent commits, not 7), F5-F7 no issue. Corrections applied in the milestone-15 corrections PR; F2 reaches releases after v15."
-  }
+  },
+  "release_process": "Owner decision 2026-11-19: GitHub Releases are published by the manual workflow .github/workflows/release.yml (workflow_dispatch with an existing tag; builds with the tag's own make-release.py, checks the patch on its base, the source asset gate and a binary start under Xvfb, then gh release create with docs/releases/<tag>.md plus generated build facts; never overwrites an existing release). Tags are pushed by the owner."
 }
