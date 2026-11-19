@@ -66,6 +66,74 @@ The baseline `e473720ed` stays the pristine
 reference for old measurements and death records. Per-mode (unrestricted,
 Lunal-only, normal-only) effect of the merged hunks is not measured.
 
+## Import of official master 574b618c3 (2026-11-19)
+
+Merged angband/angband master `574b618c3bfec595f3503a58f8e488b1c4ae3a46`
+(10 commits past `42cd156ac`: 3 Borg, 7 non-Borg). The three Borg commits
+are the upstream versions of local carries:
+
+| Carry | Ledger id | Upstream commit | File | Form |
+|---|---|---|---|---|
+| 0144 | TPORTCHECK-593 | `95387b06f` | borg-escape.c | byte-identical |
+| 0092 | HEALCHANCE-364 | `b5747369b` | borg-caution.c | byte-identical |
+| 0017 | CBUG-0239 | `007bea95c` | borg-trait.c | refined |
+
+The first two merge cleanly with no change to the product tree. The one
+conflict, in `borg_notice_equipment()`, resolves to the upstream form: it
+keeps the largest slay multiplier across slots (`MAX`) where carry 0017
+OR-ed the multipliers (`|=`). The two differ only when two slots hold the
+same race slay with different multipliers (3 and 5 OR to 7, a value no
+item has); the upstream form is the one the combat code uses. The
+kill-trait (`BI_WK_*`) lines are identical. Other carries in that file are
+untouched.
+
+Non-Borg range: trap display consistency (`574b618c3`), SDL2 control values
+(`3c8ed38`), discarded-const warnings (`fb3c9ea`), Windows open dialog
+(`7e8bad3`) and three workflow changes, which land under
+`docs/upstream-reference/workflows/` (rename-detected, as in the previous
+import); `.github/` is unchanged.
+
+Patch retirement audit (`tools/verify-retire-574b618.py`): the three
+unchanged tracker fixtures (`382acb7b9` tportcheck-593, `f88fee1e3`
+healchance-364, `25b011863` slay-239) run against three builds, each
+behind its own native gate:
+
+- before: the import head with only `007bea95c b5747369b 95387b06f`
+  reverted (scratch commit, not pushed);
+- carry: the pre-import product `b0bacee06`, where the carries apply;
+- after: the import head.
+
+Results: every defect mode fails before and passes carry and after with
+the outcome rows its carry verifier recorded (scrolls: landing_ok 0 -> 1,
+uses_destruction 1 -> 0; danger/unique/risky heals 0/18/27 -> 100/32/20;
+animal auto 17 = without -> 20 = with). Every control is byte-identical
+across all three phases. Carry and after logs are byte-identical for all
+eight modes, so the upstream form replaces each carry on its fixture. The
+slay fixture uses a single Slay Animal x2 weapon, so it cannot tell `MAX`
+from `|=`. Native gates: after (merge `ec5778b92`) unit 966/966, frontend
+5/5; before 966/966, 5/5; carry 965/965, 5/5 (upstream adds one unit
+check). Normal builds only: the ASan phases of the original slay verifier
+were not rerun. The per-carry verifiers keep their original carry-PR
+provenance asserts and are historical.
+
+Accumulated regression matrix (`tools/regression-matrix.py`, every earlier
+carry's fixture, local and tracker kit groups): 371 cases, no failed group,
+on both the import build and the pre-import build `b0bacee06`. All 371
+logs and outcome rows are byte-identical between the two builds; the 15
+cases whose logs differ from their recorded baselines (rows unchanged) are
+the same on both, so none of them comes from this import.
+
+Reproducing the before tree: from the import merge, run
+`git revert --no-commit 007bea95c b5747369b 95387b06f`, commit on a scratch
+branch or detached worktree, run `tools/verify-native.py` there, do the same
+in a checkout of `b0bacee06`, then
+`python3 tools/verify-retire-574b618.py --before-tree <before> --carry-tree <carry> --output <dir>`.
+
+The pristine baseline `e473720ed` and the previous import `42cd156ac` stay
+the references for old measurements and death records. The per-mode effect
+(unrestricted, Lunal-only, normal-only) of the merged hunks is not measured:
+on their fixtures the product behaves exactly as it did with the carries.
+
 ## Later Rust adoption path
 
 The owner confirmed a second-stage path: canonical native C tracker reports and
