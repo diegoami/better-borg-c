@@ -335,12 +335,14 @@
         "6bcdd28ace1248e223ac381d61051964bb50a592"
       ],
       "patch": "patches/0017-slay-trait-accumulation.patch",
-      "patch_active": true,
+      "patch_active": false,
       "evidence_ref": "25b0118631f108edc926856c8f4b3c35d3611bf9",
       "verification": "docs/measurement/SLAY-TRAITS.md",
       "credit": "borg-rs (lead); Diego Amicabile (native validation/proposal/evidence)",
-      "verification_status": "merged; verified and measured; carried/open+patch-active",
-      "merge_commit": "a88da7a063221bd56a6e40e5fec472b38286d5c0"
+      "verification_status": "merged; verified and measured; carried/open+patch-active; RETIRED: retired by official 007bea95c (imported at 574b618c3; upstream keeps the largest multiplier where the carry OR-ed them); source239 fixture: animal fail-before/pass-after with the upstream hunk reversed, nonanimal control identical, carry and upstream logs byte-identical",
+      "merge_commit": "a88da7a063221bd56a6e40e5fec472b38286d5c0",
+      "retired_by_upstream": "angband/angband 574b618c3bfec595f3503a58f8e488b1c4ae3a46",
+      "retirement_verification": "tools/verify-retire-574b618.py"
     },
     {
       "id": "CBUG-0290",
@@ -1728,11 +1730,13 @@
         "73322d06cdba957b4eac3b67039e93fb02a26790"
       ],
       "patch": "patches/0092-heal-chance-signs.patch",
-      "patch_active": true,
+      "patch_active": false,
       "evidence_ref": "3adc1b8128edfe31ca9a395d64f860b995396ec6",
       "verification": "docs/measurement/HEALCHANCE-364.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
-      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge"
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; carried/open+patch-active after merge; RETIRED: retired by official b5747369b (imported at 574b618c3; byte-identical to the carry); source364 fixture: danger/unique/risky fail-before/pass-after with the upstream hunk reversed, control identical, carry and upstream logs byte-identical",
+      "retired_by_upstream": "angband/angband 574b618c3bfec595f3503a58f8e488b1c4ae3a46",
+      "retirement_verification": "tools/verify-retire-574b618.py"
     },
     {
       "id": "HOMEBUYQTY-19",
@@ -2669,15 +2673,18 @@
         "c9b018c8f"
       ],
       "patch": "patches/0144-tportcheck-either.patch",
-      "patch_active": true,
+      "patch_active": false,
       "evidence_ref": "382acb7b92bdcd004a144f7aca3403bf3e656dd7",
       "verification": "docs/measurement/TPORTCHECK-593.md",
       "credit": "Diego Amicabile (native proposal/evidence)",
-      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the scrolls mode fails before (the landing check refused, Scrolls of Destruction read next to the danger) and passes after (landing zone checked, no Destruction read), the has-both control byte-identical (the landing-zone gate now matches its callers' either-kind question). Mode attribution (2026-11-10 rule): the landing-zone check runs in the defence paths in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 87. carried/open+patch-active after merge"
+      "verification_status": "verified stepwise on the unchanged source fixture; native gate at before and tip; the scrolls mode fails before (the landing check refused, Scrolls of Destruction read next to the danger) and passes after (landing zone checked, no Destruction read), the has-both control byte-identical (the landing-zone gate now matches its callers' either-kind question). Mode attribution (2026-11-10 rule): the landing-zone check runs in the defence paths in every configuration; per-mode cohort effect not measured, owed to borg-zoo issue 87. carried/open+patch-active after merge; RETIRED: retired by official 95387b06f (imported at 574b618c3; byte-identical to the carry); source593 fixture: scrolls fail-before/pass-after with the upstream hunk reversed, has-both control identical, carry and upstream logs byte-identical",
+      "retired_by_upstream": "angband/angband 574b618c3bfec595f3503a58f8e488b1c4ae3a46",
+      "retirement_verification": "tools/verify-retire-574b618.py"
     }
   ],
   "upstream_import": {
-    "official_head": "42cd156ac9f95ddf4311e88dd7ad462292d6d1d6",
+    "official_head": "574b618c3bfec595f3503a58f8e488b1c4ae3a46",
+    "previous_import": "42cd156ac9f95ddf4311e88dd7ad462292d6d1d6",
     "previous_baseline": "e473720ed88a0f0c7ca66815cef3000eb4a38bc3"
   }
 }

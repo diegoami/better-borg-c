@@ -27,8 +27,8 @@
   "upstreams": {
     "angband": "angband/angband",
     "source-tracker": "diegoami/neo-angband-tracker",
-    "imported_head": "42cd156ac9f95ddf4311e88dd7ad462292d6d1d6",
-    "last_checked_note": "Imported on task/import-angband-42cd156 (merge of angband/master, 12 commits). One conflict in borg_backup_swap resolved to the upstream form; carries 0001 (CBUG-0066) and 0002 (CBUG-0002) retired after unchanged fixtures failed before and passed after against the merged build. Per-mode (unrestricted/Lunal/normal) effect of the merge is not measured."
+    "imported_head": "574b618c3bfec595f3503a58f8e488b1c4ae3a46",
+    "last_checked_note": "Imported on claude/gifted-cori-5o6h5i (merge of angband/master 42cd156ac..574b618c3, 10 commits: 3 Borg, 7 non-Borg). One conflict in borg_notice_equipment() resolved to the upstream form (largest slay multiplier instead of OR); carries 0017 (CBUG-0239), 0092 (HEALCHANCE-364) and 0144 (TPORTCHECK-593) retired after unchanged fixtures failed before and passed after, with carry and upstream logs byte-identical (tools/verify-retire-574b618.py). Previous import 42cd156ac retired 0001/0002. Per-mode (unrestricted/Lunal/normal) effect of the merge is not measured."
   },
   "verification": "python3 tools/verify-native.py",
   "automatic_deployment": false,
@@ -51,10 +51,10 @@
     "branch": "master",
     "remote": "angband (push disabled)",
     "cadence": "Each active integration cycle and before importing/delivering game changes",
-    "last_checked_date": "2026-11-10",
-    "last_checked_head": "42cd156ac9f95ddf4311e88dd7ad462292d6d1d6",
+    "last_checked_date": "2026-11-19",
+    "last_checked_head": "574b618c3bfec595f3503a58f8e488b1c4ae3a46",
     "historical_records": "Immutable original source/build/binary/data identities",
-    "last_checked_note": "12 commits ahead of the e473720 baseline, four of them Borg commits (borg-caution.c, borg-item-wear.c, borg-messages*.c, borg.c). A trial merge conflicts in src/borg/borg-item-wear.c in borg_backup_swap(), and the same conflict exists at the v10 baseline (6944d88e8), so it is pre-existing integration debt for a deliberate upstream-integration pass, not a v11 regression (milestone-11 review observation; head re-checked here with git ls-remote)."
+    "last_checked_note": "Fetched through the push-disabled angband remote: 10 commits past the imported 42cd156ac, three of them Borg commits (borg-escape.c 95387b06f, borg-caution.c b5747369b, borg-trait.c 007bea95c), the upstream versions of carries 0144, 0092 and 0017. Imported in the same cycle; see upstreams.last_checked_note and UPSTREAM.md."
   },
   "rust_stage2": "Canonical tracker -> verified C consumer -> separately owned borg-rs parity target or individual Rust fix carries; pristine parity baseline retained; not integrated here yet",
   "death_records": {

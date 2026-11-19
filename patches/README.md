@@ -25,7 +25,11 @@ the cumulative code had one guarded lower-danger comparison. Carries 0001 and
 0002 are retired (patch_active false in `series.json`): official master
 42cd156ac contains both fixes (swap: `bc67c099e`, sentinel form with
 `b_p1`/`b_p2 = 9999`; knockout gate: `9d062a64d`, `8c75bdccb`, `42cd156ac`),
-imported by PR #478. The patch files are kept for history. The second carry
+imported by PR #478. Carries 0017 (slay traits), 0092 (healing-chance signs)
+and 0144 (teleport landing check) are retired the same way: official master
+574b618c3 contains them (`007bea95c`, `b5747369b`, `95387b06f`); see
+`UPSTREAM.md` and `tools/verify-retire-574b618.py`. The patch files are kept
+for history. The second carry
 restored combat-message reactions after knockout (consumer #7/source #14). Its
 measured benefit is restored information, not a proved survival improvement.
 The third carry prevents a regeneration cast during preparation scoring
