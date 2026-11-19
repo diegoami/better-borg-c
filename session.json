@@ -248,5 +248,21 @@
     "review_verdict": "approve with corrections (reviewer: Kimi, posted 2026-11-14 23:57Z on #542; reproduced the gate, the full matrix at exact headline numbers, two unit verifiers, the 0145 deskstair isolation and the 0141 matrix rejection on a clean clone; the 0141 kit-pass half read from the tracker receipt). Findings: M14-F1 medium (impact-v14 summary absent at the runtime snapshot - committed from the package merge onward; exists at origin/main), M14-F2 low (information-line count 19 -> 3 lines / 15 differing cases total), M14-F3 low (byte-identity sentence scoped - deepdescent-590 differs by the disclosed source156 line). Corrections applied in PR 543 (dd7d55a3a)",
     "corrections_commit": "dd7d55a3a (PR 543)",
     "review_issue_note": "Issue #542 closed after the re-review/verdict and the corrections"
+  },
+  "impact_milestone_v15": "https://github.com/diegoami/better-borg-c/issues/547",
+  "external_review_package_v15": "https://github.com/diegoami/better-borg-c/issues/547",
+  "milestone15_state": {
+    "base_tag": "4.2.6-impact-v14",
+    "runtime_snapshot": "b684b95b450f89ba3d819482d41af2a6946d14cf",
+    "package": "docs/measurement/IMPACT-MILESTONE15.md",
+    "review_map": "docs/review/MILESTONE15.md",
+    "review_issue": "https://github.com/diegoami/better-borg-c/issues/547",
+    "units": "no new carry or improvement; official import 574b618c3 (PR 546) retiring 0017 CBUG-0239 (#69), 0092 HEALCHANCE-364 (#363), 0144 TPORTCHECK-593 (#538)",
+    "ledger": "142 entries, 137 patch-active",
+    "matrix": "121 groups / 371 cases, ok, zero failures; all 371 logs and outcome rows byte-identical to the v14 summary and to the pre-import build; summary at docs/measurement/impact-v15/regression-summary.json",
+    "gate": "966/966 unit (upstream adds one check), 5/5 frontend; hosted green at the PR 546 head",
+    "release": "4.2.6-impact-v15 on the package merge commit (src/lib/CMakeLists identical to the runtime snapshot); make-release.py now bases assets on upstream_import.official_head 574b618c3",
+    "tag_state": "owner asked 2026-11-19 to make the release now (before the review, as with v13); corrections, if any, go to a point release",
+    "not_measured": "per-mode effect (owed to borg-zoo 54/87); no cohort run; ASan phases of the slay verifier not rerun; slay fixture cannot tell MAX from |="
   }
 }

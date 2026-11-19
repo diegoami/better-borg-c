@@ -94,7 +94,12 @@ def main():
 
     ref = git('rev-parse', args.ref).strip()
     series, table = ledger(ref)
-    base = series['baseline']
+    # The patch and source assets start from the official master the release
+    # integrates (series.json upstream_import), not the pristine bootstrap
+    # baseline, which predates the imports and would put upstream's own
+    # commits into the patch.
+    base = series.get('upstream_import', {}).get('official_head', series['baseline'])
+    subprocess.run(['git', 'merge-base', '--is-ancestor', base, ref], cwd=ROOT, check=True)
     mtime = int(git('show', '-s', '--format=%ct', ref).strip())
     install = git('show', f'{ref}:docs/RELEASE-INSTALL.md')
     notes = (f"better-borg-c {args.version}\n\nRelease commit: {ref}\n"
@@ -188,11 +193,14 @@ exec ./angband -duser="$here/lib/user" -mx11 "$@"
 PROVENANCE = """# Carried units
 
 The cumulative diff is authoritative. It equals the active carried patches
-listed below, applied in order to the upstream base, plus two later changes
-that are not separate patch files: the munchkin-start-by-class default
-(better-borg-c PR #302, `borg_munchkin_by_class` in borg.txt) and the crash
-correction to 0099 (PR #398). The individual patches are kept for provenance
-and review; each links its consumer and source issue.
+listed below, applied in order to the upstream base, plus later changes that
+are not separate patch files: the munchkin-start-by-class default
+(better-borg-c PR #302, `borg_munchkin_by_class` in borg.txt), the crash
+correction to 0099 (PR #398) and the local improvement units recorded in
+`patches/improvements.json` of the release commit. Carries that official
+Angband has since incorporated are retired and are not listed. The individual
+patches are kept for provenance and review; each links its consumer and
+source issue.
 
 """
 

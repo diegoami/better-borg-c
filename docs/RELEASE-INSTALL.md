@@ -6,18 +6,24 @@ have each been verified on their own and reviewed as part of a milestone. It is
 not an official Angband release.
 
 Each release is built on one pinned upstream commit, not on an Angband release
-tag. Release `4.2.6-impact-v9.1` is built on angband/angband
-`e473720ed88a0f0c7ca66815cef3000eb4a38bc3` (master, 2026-10-27), which is
+tag. Release `4.2.6-impact-v15` is built on angband/angband
+`574b618c3bfec595f3503a58f8e488b1c4ae3a46` (master, 2026-11-19), which is
 upstream 4.2.6 plus later development work. Its contents:
 
-- the 98 carried fixes reviewed up to milestone 9
-  ([review #380](https://github.com/diegoami/better-borg-c/issues/380),
-  [package](https://github.com/diegoami/better-borg-c/blob/4.2.6-impact-v9.1/docs/measurement/IMPACT-MILESTONE9.md));
-- the crash correction to patch 0099 (PR #398). Without it, every Necromancer
-  game crashed at its first return to town;
-- the munchkin-start-by-class default (PR #302).
+- the 137 carried C Borg fixes reviewed up to milestone 14
+  ([review #542](https://github.com/diegoami/better-borg-c/issues/542)). Five
+  earlier fixes are now part of official Angband and come with the upstream
+  base instead
+  ([milestone 15 package](https://github.com/diegoami/better-borg-c/blob/4.2.6-impact-v15/docs/measurement/IMPACT-MILESTONE15.md));
+- the crash correction to patch 0099 (PR #398);
+- the munchkin-start-by-class default (PR #302);
+- two local improvements: I-001 (do not retreat from a lone adjacent monster
+  one blow would kill, PR #394) and I-002 (heal while fleeing at survivable
+  danger, PR #414). They are this project's own changes, not upstream bug
+  fixes.
 
-It contains no other later change from the repository's main branch.
+Earlier releases keep their own base: `4.2.6-impact-v9.1` is built on
+`e473720ed88a0f0c7ca66815cef3000eb4a38bc3` (master, 2026-10-27).
 
 ## Choose an asset
 
@@ -79,14 +85,15 @@ cmake --install build
 ```sh
 git clone https://github.com/angband/angband.git
 cd angband
-git checkout e473720ed88a0f0c7ca66815cef3000eb4a38bc3
+git checkout 574b618c3bfec595f3503a58f8e488b1c4ae3a46
 tar xzf /path/to/better-borg-c-<version>-patch.tar.gz
 sh better-borg-c-<version>-patch/apply.sh .
 ```
 
 Then build as in section 2, from the checkout's root.
 
-- The patch is tested only on that base commit. `apply.sh` warns if your
+- The patch is tested only on that base commit (each release names its own;
+  see its `RELEASE.txt`). `apply.sh` warns if your
   checkout is elsewhere, and stops without changing anything if the patch does
   not apply.
 - It does **not** apply to the `4.2.6` release tag: the Borg sources changed
