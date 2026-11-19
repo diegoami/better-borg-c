@@ -42,7 +42,9 @@ sha256sum -c SHA256SUMS --ignore-missing
 ## 1. Linux binary
 
 Requirements: x86_64 Linux with X11 (`libX11`) and glibc 2.38 or newer, for
-example Ubuntu 24.04+, Debian 13+ or Fedora 39+. It was built and tested on
+example Ubuntu 24.04+, Debian 13+ or Fedora 39+. The X11 front end also needs
+the legacy bitmap fonts (`xfonts-base` on Debian/Ubuntu); without them Angband
+stops with "Couldn't load the requested X11 font". It was built and tested on
 Ubuntu 26.04. If it does not start on your system, build from the source
 package instead (section 2).
 

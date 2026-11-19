@@ -92,7 +92,8 @@ def main():
     parser.add_argument('--skip-binary', action='store_true')
     args = parser.parse_args()
 
-    ref = git('rev-parse', args.ref).strip()
+    # Peel an annotated tag to its commit; the commit date and trees below need it.
+    ref = git('rev-parse', args.ref + '^{commit}').strip()
     series, table = ledger(ref)
     # The patch and source assets start from the official master the release
     # integrates (series.json upstream_import), not the pristine bootstrap
