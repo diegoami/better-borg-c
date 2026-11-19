@@ -116,6 +116,13 @@ check). Normal builds only: the ASan phases of the original slay verifier
 were not rerun. The per-carry verifiers keep their original carry-PR
 provenance asserts and are historical.
 
+Accumulated regression matrix (`tools/regression-matrix.py`, every earlier
+carry's fixture, local and tracker kit groups): 371 cases, no failed group,
+on both the import build and the pre-import build `b0bacee06`. All 371
+logs and outcome rows are byte-identical between the two builds; the 15
+cases whose logs differ from their recorded baselines (rows unchanged) are
+the same on both, so none of them comes from this import.
+
 Reproducing the before tree: from the import merge, run
 `git revert --no-commit 007bea95c b5747369b 95387b06f`, commit on a scratch
 branch or detached worktree, run `tools/verify-native.py` there, do the same
