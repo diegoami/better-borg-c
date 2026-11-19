@@ -38,6 +38,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PREVIOUS = '42cd156ac9f95ddf4311e88dd7ad462292d6d1d6'
 OFFICIAL = '574b618c3bfec595f3503a58f8e488b1c4ae3a46'
 CARRY = 'b0bacee0697b5ca5ca2706d9335e24454bbdb4e9'
+IMPORT_MERGE = 'ec5778b9201ac5ab97be8f6662df9e0bd1c1fb03'
 SCOPE = ('src', 'lib', 'CMakeLists.txt', 'cmake')
 
 FIXTURES = {
@@ -233,19 +234,27 @@ def main():
                        cwd=tree, check=True)
         gates[phase] = gate
 
-    # The import merge joins the pre-import product and official master.
-    merge = git('log', '--merges', '--format=%H', '-1', '--grep', 'Import official angband master 574b618c3').strip()
+    # The import merge joins the pre-import product and official master.  It is
+    # pinned: a message search also matches later merges that quote its subject.
+    merge = IMPORT_MERGE
     assert git('rev-parse', merge + '^1').strip() == CARRY
     assert git('rev-parse', merge + '^2').strip() == OFFICIAL
     subprocess.run(['git', 'merge-base', '--is-ancestor', PREVIOUS, CARRY], cwd=ROOT, check=True)
     assert gates['carry']['commit'] == CARRY
-    subprocess.run(['git', 'merge-base', '--is-ancestor', merge, gates['after']['commit']],
+    # The after gate may sit on any descendant of the import whose game files
+    # equal the import's (the merge itself, the release tag, a later main).
+    after_commit = gates['after']['commit']
+    subprocess.run(['git', 'merge-base', '--is-ancestor', merge, after_commit],
                    cwd=ROOT, check=True)
-    subprocess.run(['git', 'merge-base', '--is-ancestor', gates['after']['commit'],
-                    gates['before']['commit']], cwd=trees['before'], check=True)
+    subprocess.run(['git', 'diff', '--quiet', merge, after_commit, '--', *SCOPE],
+                   cwd=ROOT, check=True)
+    # The before commit is a scratch commit whose parent has those same game
+    # files; provenance() then checks it differs only by the reverted hunks.
     before_commit = gates['before']['commit']
     git('cat-file', '-e', before_commit + '^{commit}')
-    provenance(before_commit, gates['after']['commit'])
+    subprocess.run(['git', 'diff', '--quiet', before_commit + '^', merge, '--', *SCOPE],
+                   cwd=ROOT, check=True)
+    provenance(before_commit, after_commit)
 
     report = {'official': OFFICIAL, 'previous_official': PREVIOUS, 'import_merge': merge,
               'gates': gates,

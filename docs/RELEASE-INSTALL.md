@@ -95,9 +95,13 @@ sh better-borg-c-<version>-patch/apply.sh .
 Then build as in section 2, from the checkout's root.
 
 - The patch is tested only on that base commit (each release names its own;
-  see its `RELEASE.txt`). `apply.sh` warns if your
-  checkout is elsewhere, and stops without changing anything if the patch does
-  not apply.
+  see its `RELEASE.txt`). It contains only this project's changes: fixes that
+  official Angband has since taken over come with the base, not with the patch.
+  `apply.sh` therefore **refuses** a checkout that does not contain the base,
+  because the result would build but silently lack those fixes, and it stops
+  without changing anything if the patch does not apply. A newer checkout that
+  contains the base is accepted with a warning. `apply.sh --force` overrides the
+  refusal; releases up to `4.2.6-impact-v15` only warn.
 - It does **not** apply to the `4.2.6` release tag: the Borg sources changed
   too much after 4.2.6.
 - `provenance/` lists each carried fix with its issue links and keeps the

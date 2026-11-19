@@ -41,7 +41,8 @@ If the head has moved, name the commit you inspected.
    the whole upstream file and was undone before commit).
 3. **Retirement audit.** Rebuild the before tree (`git revert --no-commit 007bea95c b5747369b
    95387b06f` on `ec5778b92`, commit on a scratch worktree), run `tools/verify-native.py` there and
-   in a `b0bacee06` worktree, then
+   in a `b0bacee06` worktree (and in the product tree, at any commit whose game files equal
+   `ec5778b92`; the M15-F1 correction pinned the merge and relaxed this), then
    `python3 tools/verify-retire-574b618.py --before-tree <before> --carry-tree <carry> --output <dir>`.
    It must report `verified: true` with the rows in `docs/measurement/IMPACT-MILESTONE15.md` and
    `carry_after_logs_identical` true for all eight modes. The fixtures need the tracker commits

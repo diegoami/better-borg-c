@@ -14,7 +14,7 @@ where an independent verdict goes.
 | Base | tag `4.2.6-impact-v14` on runtime snapshot `cdfb6d477` (milestone 14) |
 | Runtime snapshot | `b684b95b4` (PR 546, the official import; the last `src` change) |
 | Release tag | `4.2.6-impact-v15` on this package's merge commit, whose `src/`, `lib/` and `CMakeLists.txt` are identical to `b684b95b4`; the tag sits on the package commit because `tools/make-release.py` reads `patches/series.json` and `docs/RELEASE-INSTALL.md` from the release ref (the `4.2.6-impact-v9.1` precedent) |
-| Size | 7 first-parent commits/merges to the snapshot, 34 files, +9336/-252 (the bulk is the committed v14 matrix summary and upstream's SDL2/workflow files) |
+| Size | 8 first-parent commits/merges to the snapshot, 34 files, +9336/-252 (the bulk is the committed v14 matrix summary and upstream's SDL2/workflow files) |
 | Runtime surface | `src/`: 15 files, +713/-199, all from official master; `src/borg/`: `borg-trait.c` only, +20/-11 |
 | Compare view | https://github.com/diegoami/better-borg-c/compare/4.2.6-impact-v14...b684b95b4 |
 
@@ -91,6 +91,30 @@ base and contents. The release verification (patch reproduces the tree on a fres
 checkout, source asset builds and passes the gate, binary smoke under Xvfb, reproducible
 tarballs) is recorded on the review issue and in the release notes, because the assets are built
 from the commit that contains this file.
+
+## Review and corrections
+
+Review [#547](https://github.com/diegoami/better-borg-c/issues/547), run at the owner's request by an
+independent Claude agent from a fresh clone (same model family as the implementer): **approve with
+corrections**. It reproduced claims 2.1-2.7, including the three-tree retirement audit, the 371-case
+matrix on the import and pre-import builds, and the patch and source assets byte for byte against the
+posted checksums. Corrections (tooling and documentation only; no runtime change):
+
+* **M15-F1 (medium):** `tools/verify-retire-574b618.py` located the import merge by a message search
+  that also matched the PR 546 merge, so it aborted when run from the snapshot, the release commit or
+  `main`, and it required the after gate at the import merge exactly. The merge is now pinned
+  (`ec5778b92`); the after gate may sit on any descendant with the same game files, and the before
+  commit's parent must have those files.
+* **M15-F2 (medium):** with the patch now based on official master, `apply.sh` only warned on a wrong
+  base, so applying the v15 patch to an older official checkout (`42cd156ac`, `e473720ed`) exited 0 and
+  built without the fixes official Angband had taken over. `apply.sh` now refuses a checkout that does
+  not contain the base unless `--force` is given; a newer descendant is accepted with a warning. This
+  reaches releases after `4.2.6-impact-v15`, whose own `apply.sh` (in the tagged assets) only warns.
+* **M15-F4 (info):** the window has 8 first-parent commits, not 7 (corrected above).
+* M15-F3 (annotated-tag release build) was already fixed by PR 549. F5-F7: no issue.
+
+Not verified by the reviewer: that the source-tracker issues were left untouched (no access from its
+session), and the binary asset smoke (environment-dependent).
 
 ## What is not measured (and is owed)
 
