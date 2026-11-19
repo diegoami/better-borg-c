@@ -21,7 +21,8 @@ instead of cloning this repository. Each release has a Linux binary, a plain
 patched Angband source package and a patch for your own angband/angband
 checkout, without the tooling and evidence kept here. See
 [docs/RELEASE-INSTALL.md](docs/RELEASE-INSTALL.md). The current release,
-`4.2.6-impact-v9.1`, is milestone 9 plus its Necromancer crash fix.
+`4.2.6-impact-v15`, is milestone 15: the milestone-14 fixes on official
+Angband master `574b618c3`.
 `tools/make-release.py --ref TAG --version TAG --out DIR` rebuilds a
 release's assets.
 
