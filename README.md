@@ -24,7 +24,10 @@ checkout, without the tooling and evidence kept here. See
 `4.2.6-impact-v15`, is milestone 15: the milestone-14 fixes on official
 Angband master `574b618c3`.
 `tools/make-release.py --ref TAG --version TAG --out DIR` rebuilds a
-release's assets.
+release's assets. Releases are published by the manual `release` workflow
+(Actions, `release`, Run workflow, with the tag), which builds and checks the
+assets with the tag's own tooling and takes its notes from
+`docs/releases/<tag>.md`.
 
 ## Installing from this repository
 
