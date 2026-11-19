@@ -169,14 +169,34 @@ def main():
 
 APPLY = """#!/bin/sh
 # Apply better-borg-c {version} to an angband/angband checkout at {base}.
+# Usage: apply.sh [--force] [checkout-dir]
+#
+# The patch carries only this project's changes on top of {base}. Fixes that
+# official Angband has since incorporated are NOT in the patch: they come with
+# the base. A checkout that does not contain {base} would build without them,
+# so it is refused unless --force is given.
 set -eu
 here=$(cd "$(dirname "$0")" && pwd)
+force=0
+if [ "${{1:-}}" = "--force" ]; then force=1; shift; fi
 target=${{1:-.}}
 cd "$target"
 head=$(git rev-parse HEAD)
 if [ "$head" != "{base}" ]; then
-    echo "warning: this checkout is at $head, not the tested base {base}" >&2
-    echo "         (git checkout {base} to match the release exactly)" >&2
+    if git merge-base --is-ancestor {base} HEAD 2>/dev/null; then
+        echo "warning: this checkout is at $head, a descendant of the tested base {base}" >&2
+        echo "         (git checkout {base} to match the release exactly)" >&2
+    elif [ "$force" = 1 ]; then
+        echo "warning: --force: $head does not contain the base {base}." >&2
+        echo "         Fixes that official Angband incorporated after your base are missing." >&2
+    else
+        echo "error: this checkout is at $head, which does not contain the base {base}." >&2
+        echo "       The patch omits fixes that official Angband incorporated by {base}," >&2
+        echo "       so the result would silently lack them. Run" >&2
+        echo "         git fetch origin && git checkout {base}" >&2
+        echo "       and try again, or pass --force to apply anyway." >&2
+        exit 1
+    fi
 fi
 git apply --check "$here/better-borg-c-{version}.diff"
 git apply "$here/better-borg-c-{version}.diff"
